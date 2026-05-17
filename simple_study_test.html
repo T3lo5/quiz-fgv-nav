@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Simples do Modo de Estudo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-header">
+            <h1>Teste do Modo de Estudo</h1>
+            <button onclick="runTest()" class="start-btn">Executar Teste</button>
+        </div>
+
+        <div id="test-results"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        function runTest() {
+            const results = document.getElementById('test-results');
+            results.innerHTML = '<h2>Resultados do Teste:</h2>';
+
+            // Teste 1: Carregar questões
+            if (window.allQuestions && window.allQuestions.length > 0) {
+                results.innerHTML += '<p style="color:green;">✓ Questões carregadas: ' + window.allQuestions.length + '</p>';
+
+                // Teste 2: Verificar se temos questões de Língua Portuguesa
+                const ptQuestions = window.allQuestions.filter(q => q.subject === 'Língua Portuguesa');
+                if (ptQuestions.length > 0) {
+                    results.innerHTML += '<p style="color:green;">✓ Questões de Língua Portuguesa: ' + ptQuestions.length + '</p>';
+                } else {
+                    results.innerHTML += '<p style="color:red;">✗ Nenhuma questão de Língua Portuguesa encontrada</p>';
+                }
+
+                // Teste 3: Tentar carregar modo de estudo
+                if (window.studyModeFunctions) {
+                    results.innerHTML += '<p style="color:green;">✓ studyModeFunctions carregado</p>';
+                    if (typeof window.studyModeFunctions.loadQuestions === 'function') {
+                        results.innerHTML += '<p style="color:green;">✓ loadQuestions é uma função</p>';
+                        try {
+                            window.studyModeFunctions.loadQuestions();
+                            results.innerHTML += '<p style="color:green;">✓ loadQuestions executado com sucesso</p>';
+                        } catch(e) {
+                            results.innerHTML += '<p style="color:red;">✗ Erro ao executar loadQuestions: ' + e.message + '</p>';
+                        }
+                    } else {
+                        results.innerHTML += '<p style="color:red;">✗ loadQuestions não é uma função</p>';
+                    }
+                } else {
+                    results.innerHTML += '<p style="color:red;">✗ studyModeFunctions não encontrado</p>';
+                    results.innerHTML += '<p>Verificando se study_mode_final.js está sendo carregado...</p>';
+                }
+            } else {
+                results.innerHTML += '<p style="color:red;">✗ Nenhuma questão carregada</p>';
+            }
+
+            // Mostrar todas as propriedades globais
+            results.innerHTML += '<h3>Propriedades globais:</h3>';
+            const globalProps = ['allQuestions', 'studyModeFunctions', 'mainQuizFunctions', 'studySubjects'];
+            globalProps.forEach(prop => {
+                const exists = typeof window[prop] !== 'undefined';
+                results.innerHTML += '<p>' + prop + ': ' + (exists ? '✓' : '✗') + '</p>';
+            });
+        }
+    </script>
+    <script src="study_mode_final.js"></script>
+    <script src="testDeArquivos/review_system_fixed.js"></script>
+</body>
+</html>

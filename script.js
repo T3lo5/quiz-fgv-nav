@@ -649,15 +649,27 @@
 
     // Função para mostrar tela de modo de estudo
     function showStudyModeScreen() {
+        console.log('showStudyModeScreen: Iniciando...');
         hideAllScreens();
         const studySettingsEl = document.getElementById('study-settings');
+        console.log('showStudyModeScreen: study-settings element:', studySettingsEl);
         if (studySettingsEl) {
             studySettingsEl.classList.remove('hidden');
+            console.log('showStudyModeScreen: hidden class removed from study-settings');
         }
-        // Carregar questões para o modo de estudo
+        // Apenas carregar questões, não filtrar ainda
         if (typeof window.studyModeFunctions !== 'undefined') {
+            console.log('showStudyModeScreen: studyModeFunctions encontrado, executando loadQuestions...');
             window.studyModeFunctions.loadQuestions();
-            window.studyModeFunctions.filterQuestions();
+            console.log('showStudyModeScreen: loadQuestions executado');
+            // Configurar listeners
+            if (typeof window.studyModeFunctions.setupListeners === 'function') {
+                window.studyModeFunctions.setupListeners();
+                console.log('showStudyModeScreen: setupListeners executado');
+            }
+            // Não chamar filterQuestions() aqui - será chamado quando clicar no botão
+        } else {
+            console.error('showStudyModeScreen: studyModeFunctions não encontrado!');
         }
     }
 
@@ -924,6 +936,13 @@
     window.showResults = showResults;
     window.showBookmarks = showBookmarks;
     window.showProgress = showProgress;
+
+    // Exportar quiz functions para outros scripts
+    window.mainQuizFunctions = {
+        questions: questions,
+        loadQuestions: loadQuestions,
+        startReview: startReview
+    };
 
     // Carregar questões ao iniciar
     console.log('Adicionando listener DOMContentLoaded');

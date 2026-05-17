@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug do Modo de Estudo</title>
+</head>
+<body>
+    <h1>Debug do Modo de Estudo</h1>
+
+    <button onclick="checkElements()">Verificar Elementos</button>
+    <button onclick="startStudyTest()">Iniciar Modo de Estudo</button>
+
+    <div id="debug-output"></div>
+
+    <script src="script.js"></script>
+    <script src="study_mode_final.js"></script>
+    <script src="testDeArquivos/review_system_fixed.js"></script>
+    <script>
+        function checkElements() {
+            const output = document.getElementById('debug-output');
+            output.innerHTML = '<h2>Verificando Elementos:</h2>';
+
+            const elements = [
+                'study-settings',
+                'study-screen',
+                'study-question',
+                'study-alternatives',
+                'start-study',
+                'study-mode-type',
+                'study-subject',
+                'study-difficulty'
+            ];
+
+            elements.forEach(id => {
+                const el = document.getElementById(id);
+                output.innerHTML += `<p>${id}: ${el ? '✓' : '✗'}`;
+            });
+
+            output.innerHTML += '<h3>Funções disponíveis:</h3>';
+            if (window.studyModeFunctions) {
+                output.innerHTML += '<p>studyModeFunctions: ✓</p>';
+                output.innerHTML += '<p>- loadQuestions: ' + (typeof window.studyModeFunctions.loadQuestions) + '</p>';
+                output.innerHTML += '<p>- filterQuestions: ' + (typeof window.studyModeFunctions.filterQuestions) + '</p>';
+                output.innerHTML += '<p>- showQuestion: ' + (typeof window.studyModeFunctions.showQuestion) + '</p>';
+            } else {
+                output.innerHTML += '<p>studyModeFunctions: ✗</p>';
+            }
+
+            if (window.showStudyModeScreen) {
+                output.innerHTML += '<p>showStudyModeScreen: ✓</p>';
+            } else {
+                output.innerHTML += '<p>showStudyModeScreen: ✗</p>';
+            }
+        }
+
+        function startStudyTest() {
+            const output = document.getElementById('debug-output');
+            output.innerHTML += '<h3>Tentando iniciar o modo de estudo...</h3>';
+
+            try {
+                // Verificar se a função existe
+                if (typeof window.showStudyModeScreen === 'function') {
+                    window.showStudyModeScreen();
+                    output.innerHTML += '<p>✓ showStudyModeScreen executado</p>';
+                } else {
+                    output.innerHTML += '<p>✗ showStudyModeScreen não encontrado</p>';
+                }
+            } catch(e) {
+                output.innerHTML += '<p>✗ Erro: ' + e.message + '</p>';
+            }
+        }
+    </script>
+
+    <!-- Copiar os elementos necessários do index.html -->
+    <div id="study-settings" class="settings-section hidden">
+        <!-- Conteúdo mínimo para teste -->
+    </div>
+
+    <section id="study-screen" class="hidden">
+        <div id="study-question" class="question-text"></div>
+        <div id="study-alternatives" class="alternatives"></div>
+    </section>
+</body>
+</html>

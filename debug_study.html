@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug - Modo de Estudo</title>
+</head>
+<body>
+    <h1>Debug do Modo de Estudo</h1>
+    <div id="status"></div>
+
+    <script src="script.js"></script>
+    <script>
+        // Verificar se os arquivos foram carregados
+        window.addEventListener('DOMContentLoaded', function() {
+            const status = document.getElementById('status');
+
+            // Verificar mainQuizFunctions
+            status.innerHTML += '<p>mainQuizFunctions: ' + (typeof window.mainQuizFunctions !== 'undefined' ? 'OK' : 'ERROR') + '</p>';
+
+            // Verificar studyModeFunctions
+            status.innerHTML += '<p>studyModeFunctions: ' + (typeof window.studyModeFunctions !== 'undefined' ? 'OK' : 'ERROR') + '</p>';
+
+            // Verificar if reviewSystemFunctions
+            status.innerHTML += '<p>reviewSystemFunctions: ' + (typeof window.reviewSystemFunctions !== 'undefined' ? 'OK' : 'ERROR') + '</p>';
+
+            // Verificar allQuestions
+            status.innerHTML += '<p>allQuestions: ' + (typeof window.allQuestions !== 'undefined' ? window.allQuestions.length + ' questions' : 'ERROR') + '</p>';
+
+            // Tentar acessar as funções
+            if (window.mainQuizFunctions && window.mainQuizFunctions.loadQuestions) {
+                status.innerHTML += '<p>loadQuestions function: OK</p>';
+            } else {
+                status.innerHTML += '<p>loadQuestions function: ERROR</p>';
+            }
+
+            if (window.studyModeFunctions && window.studyModeFunctions.loadQuestions) {
+                status.innerHTML += '<p>studyModeFunctions.loadQuestions: OK</p>';
+            } else {
+                status.innerHTML += '<p>studyModeFunctions.loadQuestions: ERROR</p>';
+            }
+        });
+
+        // Adicionar listeners de erro
+        window.addEventListener('error', function(e) {
+            const status = document.getElementById('status');
+            status.innerHTML += '<p style="color: red;">Error: ' + e.message + ' at ' + e.filename + ':' + e.lineno + '</p>';
+        });
+    </script>
+    <script src="study_mode_final.js"></script>
+    <script src="testDeArquivos/review_system_fixed.js"></script>
+</body>
+</html>

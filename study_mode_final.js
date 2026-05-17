@@ -1,16 +1,43 @@
 // JavaScript para Modo de Estudo do Quiz FGV Navegacao Aerea
 (function() {
-    // Variaveis globais
-    let currentQuestions = [];
-    let currentQuestionIndex = 0;
-    let bookmarks = [];
-    let studyProgress = {};
-    let currentMode = 'practice';
-    let selectedSubjects = [];
+    // Variaveis globais em window para acesso externo
+    window.currentQuestions = [];
+    window.currentQuestionIndex = 0;
+    window.bookmarks = [];
+    window.studyProgress = {};
+    window.currentMode = 'practice';
+    window.selectedSubjects = [];
 
     // Funcoes principais
     function loadQuestions() {
-        window.allQuestions = [
+        // Verificar se script.js já carregou questões e as disponibilizou
+        if (typeof window.mainQuizFunctions !== 'undefined' &&
+            window.mainQuizFunctions.questions &&
+            window.mainQuizFunctions.questions.length > 0) {
+            window.allQuestions = window.mainQuizFunctions.questions;
+            console.log(`Carregadas ${window.allQuestions.length} questoes do script.js via window.mainQuizFunctions.questions`);
+            return;
+        }
+
+        // Carregar do arquivo JSON diretamente
+        fetch('questions.json')
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                }
+                throw new Error('Arquivo questions.json não encontrado');
+            })
+            .then(data => {
+                window.allQuestions = data.questions || [];
+                console.log(`Carregadas ${window.allQuestions.length} questoes do arquivo JSON`);
+                if (window.studyModeFunctions) {
+                    window.studyModeFunctions.filterQuestions();
+                }
+            })
+            .catch(error => {
+                console.log('Erro ao carregar JSON, usando fallback:', error);
+                // Usar questões de fallback
+                window.allQuestions = [
             // Questoes de Lingua Portuguesa
             {
                 "id": "FGV_PTNA_001",
@@ -164,25 +191,49 @@
                 "answer": "A",
                 "explanation": "Deodoro da Fonseca foi o primeiro presidente do Brasil Republicano."
             }
-        ];
-        console.log(`Carregadas ${window.allQuestions.length} questoes inline no modo de estudo`);
+            ];
+            console.log(`Carregadas ${window.allQuestions.length} questoes inline no modo de estudo`);
+            if (window.studyModeFunctions) {
+                window.studyModeFunctions.filterQuestions();
+            }
+        });
     }
 
     function filterQuestions() {
-        const subject = document.getElementById('study-subject').value;
-        const difficulty = document.getElementById('study-difficulty').value;
-        const modeType = document.getElementById('study-mode-type').value;
+        console.log('filterQuestions: Iniciando...');
+        const modeTypeEl = document.getElementById('study-mode-type');
+        console.log('filterQuestions: study-mode-type element:', modeTypeEl);
+        const modeType = modeTypeEl ? modeTypeEl.value : 'all';
+        console.log('filterQuestions: modeType:', modeType);
 
-        // Filtrar por materia
-        if (subject && subject !== 'all') {
-            currentQuestions = window.allQuestions.filter(q => q.subject === subject);
-        } else {
+        // Por padrão, usar todas as questões
+        if (Array.isArray(window.allQuestions)) {
             currentQuestions = [...window.allQuestions];
+            window.currentQuestions = currentQuestions; // Exportar para window
+        } else {
+            console.error('window.allQuestions não é um array!', typeof window.allQuestions);
+            currentQuestions = [];
+            window.currentQuestions = [];
         }
 
-        // Filtrar por dificuldade
-        if (difficulty && difficulty !== 'all') {
-            currentQuestions = currentQuestions.filter(q => q.difficulty === difficulty);
+        // Filtrar por materia se existir o elemento
+        const subjectSelect = document.getElementById('study-subject');
+        if (subjectSelect) {
+            const subject = subjectSelect.value;
+            if (subject && subject !== 'all') {
+                currentQuestions = window.allQuestions.filter(q => q.subject === subject);
+                window.currentQuestions = currentQuestions; // Exportar para window
+            }
+        }
+
+        // Filtrar por dificuldade se existir o elemento
+        const difficultySelect = document.getElementById('study-difficulty');
+        if (difficultySelect) {
+            const difficulty = difficultySelect.value;
+            if (difficulty && difficulty !== 'all') {
+                currentQuestions = currentQuestions.filter(q => q.difficulty === difficulty);
+                window.currentQuestions = currentQuestions; // Exportar
+            }
         }
 
         // Filtrar por modo de estudo
@@ -194,23 +245,58 @@
             // Modo revisao
         }
 
-        // Atualizar UI
-        document.getElementById('filtered-count').textContent = currentQuestions.length;
-        document.getElementById('total-count').textContent = window.allQuestions.length;
+        // Atualizar UI (se os elementos existirem)
+        const filteredCount = document.getElementById('filtered-count');
+        if (filteredCount) {
+            filteredCount.textContent = currentQuestions.length;
+        }
+        const totalCount = document.getElementById('total-count');
+        if (totalCount) {
+            totalCount.textContent = window.allQuestions.length;
+        }
 
         // Resetar progresso
         currentQuestionIndex = 0;
-        showQuestion();
+        window.currentQuestionIndex = 0; // Exportar
+
+        // Apenas mostrar questão se o elemento existe
+        const questionEl = document.getElementById('study-question');
+        console.log('filterQuestions: study-question element:', questionEl);
+        if (questionEl) {
+            // Mostrar tela de estudo e esconder configurações
+            const studySettings = document.getElementById('study-settings');
+            const studyScreen = document.getElementById('study-screen');
+            console.log('filterQuestions: study-settings:', studySettings, 'study-screen:', studyScreen);
+
+            if (studySettings) {
+                console.log('filterQuestions: Adicionando hidden a study-settings');
+                studySettings.classList.add('hidden');
+            }
+            if (studyScreen) {
+                console.log('filterQuestions: Removendo hidden de study-screen');
+                studyScreen.classList.remove('hidden');
+            }
+
+            console.log('filterQuestions: Chamando showQuestion');
+            showQuestion();
+        } else {
+            console.log('showQuestion() não chamado - elemento #study-question não encontrado');
+        }
     }
 
     function showQuestion() {
+        console.log('showQuestion: currentQuestions', currentQuestions, 'length:', currentQuestions.length);
         if (currentQuestions.length === 0) {
-            document.getElementById('no-questions').style.display = 'block';
+            // Mostrar mensagem usando elemento existente
+            const questionArea = document.getElementById('study-question');
+            if (questionArea) {
+                questionArea.textContent = 'Nenhuma questão encontrada para os filtros selecionados.';
+            }
             return;
         }
 
         const question = currentQuestions[currentQuestionIndex];
-        const questionElement = document.getElementById('current-question');
+        const questionElement = document.getElementById('study-question');
 
         questionElement.innerHTML = `
             <div class="question-header">
@@ -263,7 +349,10 @@
             <h4>Resposta ${isCorrect ? 'Correta!' : 'Incorreta!'}</h4>
             <p>${question.explanation}</p>
         `;
-        document.getElementById('current-question').appendChild(explanation);
+        const questionElement = document.getElementById('study-question');
+        if (questionElement) {
+            questionElement.appendChild(explanation);
+        }
 
         // Atualizar progresso
         if (!studyProgress[question.id]) {
@@ -313,19 +402,45 @@
         return newArray;
     }
 
-    // Configurar listeners quando o modo de estudo for ativado
-    document.getElementById('start-study').addEventListener('click', function() {
-        filterQuestions();
-    });
+    // Função para configurar listeners
+    function setupListeners() {
+        const startBtn = document.getElementById('start-study');
+        console.log('setupListeners: start-study button:', startBtn);
+        if (startBtn) {
+            // Adicionar listener múltiplas formas
+            startBtn.onclick = function() {
+                console.log('Botão start-study clicado via onclick!');
+                filterQuestions();
+            };
+
+            startBtn.addEventListener('click', function(e) {
+                console.log('Botão start-study clicado via addEventListener!', e);
+                e.preventDefault();
+                e.stopPropagation();
+                filterQuestions();
+            });
+
+            // Teste imediato
+            console.log('Estilo do botão:', getComputedStyle(startBtn).pointerEvents);
+            console.log('Elemento pai:', startBtn.parentElement);
+            console.log('Form mais próximo:', startBtn.closest('form'));
+        } else {
+            console.error('Botão start-study não encontrado!');
+        }
+    }
 
     // Exportar funcoes globais
+    window.bookmarkedQuestions = window.bookmarks;
+
     window.studyModeFunctions = {
-        loadQuestions,
-        filterQuestions,
-        showQuestion,
-        checkAnswer,
-        nextQuestion,
-        previousQuestion,
-        bookmarkQuestion
+        loadQuestions: loadQuestions,
+        filterQuestions: filterQuestions,
+        showStudyModeScreen: window.showStudyModeScreen,
+        showQuestion: showQuestion,
+        checkAnswer: checkAnswer,
+        nextQuestion: nextQuestion,
+        previousQuestion: previousQuestion,
+        bookmarkQuestion: bookmarkQuestion,
+        setupListeners: setupListeners
     };
 })();
