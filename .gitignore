@@ -1,0 +1,28 @@
+# Logs
+*.log
+server.log
+
+# Python
+__pycache__/
+*.pyc
+server.pid
+
+# Ambiente local
+.openclaude/
+.env
+.DS_Store
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Pastas de desenvolvimento
+docs/
+scripts/
+
+# Pasta de testes (não precisa no deploy)
+testDeArquivos/
+
+# Scripts de servidor local
+iniciar_servidor.py
+start-server.sh

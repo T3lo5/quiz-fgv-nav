@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz FGV Navegação Aérea</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quiz FGV Navegação Aérea</h1>
+            <p>Estudo para certificação da NAV Brasil</p>
+        </header>
+
+        <main id="quiz-container">
+            <section id="welcome-screen">
+                <div class="welcome-content">
+                    <h2>Bem-vindo ao Quiz FGV Navegação Aérea</h2>
+                    <p>Teste seus conhecimentos para o concurso de Profissional Técnico de Navegação Aérea!</p>
+                    <div class="quiz-options">
+                        <!-- Modo de Quiz -->
+                        <div class="mode-toggle">
+                            <button id="quiz-mode" class="mode-btn active">Quiz</button>
+                            <button id="study-mode" class="mode-btn">Estudo Focado</button>
+                        </div>
+
+                        <!-- Configurações do Quiz -->
+                        <div id="quiz-settings" class="settings-section">
+                            <div class="option-group">
+                                <label for="exam-type">Tipo:</label>
+                                <select id="exam-type">
+                                    <option value="ATCO">ATCO</option>
+                                    <option value="ATSEP">ATSEP</option>
+                                </select>
+                            </div>
+                            <div class="option-group">
+                                <label for="questions-count">Número de questões:</label>
+                                <select id="questions-count">
+                                    <option value="10">10 questões</option>
+                                    <option value="20">20 questões</option>
+                                    <option value="30">30 questões</option>
+                                    <option value="all">Todas (200+)</option>
+                                </select>
+                            </div>
+                            <div class="option-group">
+                                <label for="timer">Tempo por questão:</label>
+                                <select id="timer">
+                                    <option value="30">30 segundos</option>
+                                    <option value="45">45 segundos</option>
+                                    <option value="60">1 minuto</option>
+                                    <option value="90">1.5 minutos</option>
+                                    <option value="0">Sem limite</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Configurações de Estudo Focado -->
+                        <div id="study-settings" class="settings-section hidden">
+                            <div class="option-group">
+                                <label for="study-subject">Matéria:</label>
+                                <select id="study-subject" multiple size="4">
+                                    <option value="Língua Portuguesa" selected>Língua Portuguesa</option>
+                                    <option value="Raciocínio Lógico Matemático">Raciocínio Lógico</option>
+                                    <option value="Informática">Informática</option>
+                                    <option value="Legislação e Noções de Ética">Legislação</option>
+                                    <option value="Língua Inglesa">Língua Inglesa</option>
+                                    <option value="Navegação Aérea">Navegação Aérea</option>
+                                </select>
+                            </div>
+                            <div class="option-group">
+                                <label for="study-difficulty">Dificuldade:</label>
+                                <select id="study-difficulty">
+                                    <option value="all">Todas</option>
+                                    <option value="Fácil">Fácil</option>
+                                    <option value="Médio">Médio</option>
+                                    <option value="Difícil">Difícil</option>
+                                </select>
+                            </div>
+                            <div class="option-group">
+                                <label for="study-mode-type">Tipo de Estudo:</label>
+                                <select id="study-mode-type">
+                                    <option value="practice">Prática</option>
+                                    <option value="flashcards">Flashcards</option>
+                                    <option value="review">Revisão</option>
+                                </select>
+                            </div>
+                            <div class="option-group">
+                                <label>
+                                    <input type="checkbox" id="show-explanation" checked>
+                                    Mostrar explicações
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="start-quiz" class="btn primary">Iniciar Quiz</button>
+                        <button id="view-results" class="btn secondary">Ver Resultados</button>
+                        <button id="view-bookmarks" class="btn secondary">Ver Favoritos</button>
+                        <button id="view-progress" class="btn secondary">Meu Progresso</button>
+                        <button id="start-review" class="btn primary">Review de Questões</button>
+                </div>
+            </section>
+
+            <section id="question-screen" class="hidden">
+                <div class="question-header">
+                    <div class="timer-bar">
+                        <div id="time-progress"></div>
+                    </div>
+                    <span id="question-counter">Questão 1/10</span>
+                </div>
+                <div class="question-content">
+                    <h3 id="question-text"></h3>
+                    <div id="options-container"></div>
+                </div>
+                <div class="question-footer">
+                    <button id="next-question" class="btn secondary" disabled>Próxima</button>
+                </div>
+            </section>
+
+            <section id="result-screen" class="hidden">
+                <div class="result-content">
+                    <h2>Quiz Finalizado!</h2>
+                    <div class="score-display">
+                        <span id="correct-count"></span>
+                        <span id="total-count"></span>
+                    </div>
+                    <div class="score-percentage" id="score-percentage"></div>
+                    <div class="performance-message" id="performance-message"></div>
+                    <button id="restart-quiz" class="btn primary">Novo Quiz</button>
+                    <button id="review-answers" class="btn secondary">Rever Questões</button>
+                </div>
+            </section>
+
+            <section id="review-screen" class="hidden">
+                <div class="review-content">
+                    <h2>Revisão das Questões</h2>
+                    <div id="review-questions"></div>
+                    <button id="back-to-results" class="btn secondary">Voltar</button>
+                </div>
+            </section>
+
+            <!-- Tela de Estudo -->
+            <section id="study-screen" class="hidden">
+                <div class="study-content">
+                    <div class="study-header">
+                        <h2>Modo de Estudo</h2>
+                        <span id="study-counter">Questão 1 de 10</span>
+                    </div>
+                    <div id="study-question" class="question-text"></div>
+                    <div id="study-alternatives" class="alternatives"></div>
+                    <div id="study-explanation" class="explanation hidden"></div>
+                    <div class="study-controls">
+                        <button id="prev-study-question" class="btn secondary">Anterior</button>
+                        <button id="next-study-question" class="btn primary">Próxima</button>
+                        <button id="bookmark-question" class="btn secondary">Salvar</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tela de Conclusão de Estudo -->
+            <section id="study-complete" class="hidden">
+                <div class="study-complete-content">
+                    <h2>Fim do Estudo!</h2>
+                    <div id="study-stats" class="stats"></div>
+                    <button id="back-to-welcome-complete" class="btn secondary">Voltar</button>
+                </div>
+            </section>
+
+            <!-- Tela de Review -->
+            <section id="review-screen" class="hidden">
+                <div class="review-content">
+                    <div class="review-header">
+                        <h2>Review de Questões</h2>
+                        <div class="review-progress">
+                            <div class="progress-bar">
+                                <div id="review-progress-bar" style="width: 0%"></div>
+                            </div>
+                            <span id="review-progress-text">0% concluído</span>
+                        </div>
+                    </div>
+                    <div class="review-main">
+                        <div class="review-question-info">
+                            <span id="review-question-subject"></span>
+                            <span id="review-question-difficulty"></span>
+                            <span id="review-question-topic"></span>
+                        </div>
+                        <div id="review-question-text" class="question-text"></div>
+                        <div id="review-alternatives" class="alternatives"></div>
+                        <div class="review-answer">
+                            <div id="review-correct-answer"></div>
+                            <div id="review-explanation" class="explanation"></div>
+                        </div>
+                        <textarea id="user-note" placeholder="Adicione suas notas sobre esta questão..." class="note-textarea"></textarea>
+                        <div class="review-controls">
+                            <button id="prev-review" class="btn secondary">Anterior</button>
+                            <button id="next-review" class="btn primary">Próxima</button>
+                            <button id="add-note" class="btn secondary">Salvar Nota</button>
+                            <button id="save-review" class="btn primary">Salvar Sessão</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tela de Conclusão de Review -->
+            <section id="review-complete" class="hidden">
+                <div class="review-complete-content">
+                    <h2>Review Concluído!</h2>
+                    <div id="review-stats" class="stats"></div>
+                    <button id="back-to-welcome-review" class="btn secondary">Voltar</button>
+                </div>
+            </section>
+
+            <!-- Tela de Histórico de Review -->
+            <section id="review-history-screen" class="hidden">
+                <div class="review-history-content">
+                    <h2>Histórico de Review</h2>
+                    <div id="review-history-list"></div>
+                    <button id="back-to-welcome-history" class="btn secondary">Voltar</button>
+                </div>
+            </section>
+
+            <!-- Tela de Flashcards -->
+            <section id="flashcard-screen" class="hidden">
+                <div class="flashcard-content">
+                    <div class="flashcard-header">
+                        <span id="flashcard-counter">Flashcard 1/10</span>
+                        <button id="toggle-flashcard-view" class="btn small">Ver Resposta</button>
+                    </div>
+                    <div id="flashcard" class="flashcard">
+                        <div class="flashcard-front">
+                            <h3 id="flashcard-question"></h3>
+                        </div>
+                        <div class="flashcard-back hidden">
+                            <h3>Resposta:</h3>
+                            <div id="flashcard-answer"></div>
+                            <div id="flashcard-explanation"></div>
+                        </div>
+                    </div>
+                    <div class="flashcard-controls">
+                        <button id="flashcard-incorrect" class="btn secondary">Não Sabia</button>
+                        <button id="flashcard-correct" class="btn primary">Sabia</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tela de Bookmarks -->
+            <!-- Tela de Resultados -->
+            <section id="results-screen" class="hidden">
+                <div class="results-content">
+                    <h2>Histórico de Resultados</h2>
+                    <div id="results-list"></div>
+                    <button id="back-to-welcome" class="btn secondary">Voltar</button>
+                </div>
+            </section>
+
+            <section id="bookmark-screen" class="hidden">
+                <div class="bookmark-content">
+                    <h2>Questões Salvas</h2>
+                    <div id="bookmark-list"></div>
+                    <button id="back-to-welcome" class="btn secondary">Voltar</button>
+                </div>
+            </section>
+
+            <!-- Tela de Progresso -->
+            <section id="progress-screen" class="hidden">
+                <div class="progress-content">
+                    <h2>Seu Progresso</h2>
+                    <div class="progress-stats">
+                        <div class="stat-card">
+                            <h3>Total Respondidas</h3>
+                            <span id="total-answered">0</span>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Acertos</h3>
+                            <span id="total-correct">0</span>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Acurácia</h3>
+                            <span id="accuracy-rate">0%</span>
+                        </div>
+                    </div>
+                    <div class="progress-chart">
+                        <h3>Desempenho por Matéria</h3>
+                        <div id="subject-progress"></div>
+                    </div>
+                    <button id="back-to-welcome-progress" class="btn secondary">Voltar</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Quiz FGV Navegação Aérea. Estude com conforto.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+<script src="study_mode.js"></script>
+<script src="review_system_fixed.js"></script>
+<!-- <script src="data_sync.js"></script> -->
+</body>
+</html>
