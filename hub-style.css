@@ -2380,6 +2380,8 @@ body {
     background: white;
     border-radius: 8px;
     border: 2px solid var(--gray-200);
+    position: relative;
+    z-index: 1;
 }
 
 .discipline-item {
@@ -2389,6 +2391,8 @@ body {
     border-bottom: 1px solid var(--gray-100);
     cursor: pointer;
     transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
 }
 
 .discipline-item:last-child {
@@ -2409,16 +2413,22 @@ body {
     margin-right: 1rem;
     cursor: pointer;
     accent-color: var(--primary-color);
+    flex-shrink: 0;
+    z-index: 2;
+    position: relative;
 }
 
 .discipline-info {
     flex: 1;
+    min-width: 0;
+    pointer-events: none; /* Permite que o clique passe para o item pai */
 }
 
 .discipline-name {
     font-weight: 600;
     color: var(--gray-800);
     margin-bottom: 0.25rem;
+    pointer-events: auto; /* Reabilita eventos para texto */
 }
 
 .discipline-meta {
@@ -2426,6 +2436,7 @@ body {
     color: var(--gray-500);
     display: flex;
     gap: 1rem;
+    pointer-events: auto; /* Reabilita eventos para meta */
 }
 
 .discipline-count {
