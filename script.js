@@ -58,21 +58,30 @@
             if (window.HubLoader && window.HubLoader.catalog) {
                 console.log('🔄 Usando Hub Loader para carregar questões...');
 
-                // Carregar perguntas das disciplinas principais como exemplo
-                // TODO: Implementar sistema de seleção de disciplinas
-                const disciplinasPrincipais = ['matemática', 'português', 'direito', 'informática'];
+                // Obter disciplinas disponíveis do catálogo
+                const disciplinasDisponiveis = window.HubLoader.getDisciplinas();
+                console.log(`📚 Disciplinas disponíveis no catálogo: ${disciplinasDisponiveis.length}`);
+                
+                // Selecionar primeiras 4 disciplinas para exemplo
+                const disciplinasParaCarregar = disciplinasDisponiveis.slice(0, 4);
                 let allQuestionsFromHub = [];
 
-                for (const disciplina of disciplinasPrincipais) {
+                for (const disciplinaInfo of disciplinasParaCarregar) {
                     try {
                         const questions = await window.HubLoader.loadQuestions({
-                            disciplina: disciplina,
+                            disciplina: disciplinaInfo.id,
                             quantidade: 50 // Limitar para performance inicial
                         });
+                        
+                        // Adicionar propriedade subject a cada questão
+                        questions.forEach(q => {
+                            q.subject = disciplinaInfo.nome;
+                        });
+                        
                         allQuestionsFromHub.push(...questions);
-                        console.log(`✅ Carregadas ${questions.length} questões de ${disciplina}`);
+                        console.log(`✅ Carregadas ${questions.length} questões de ${disciplinaInfo.nome}`);
                     } catch (error) {
-                        console.warn(`⚠️ Não foi possível carregar ${disciplina}:`, error.message);
+                        console.warn(`⚠️ Não foi possível carregar ${disciplinaInfo.nome}:`, error.message);
                     }
                 }
 
