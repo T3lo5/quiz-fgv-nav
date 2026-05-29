@@ -274,6 +274,67 @@
                 <!-- Cards de categorias serão inseridos via JavaScript -->
             </div>
         </section>
+
+        <!-- Dashboard de Disciplinas -->
+        <section class="disciplines-dashboard-section" id="disciplinas-dashboard">
+            <div class="section-header">
+                <h3><i class="fas fa-book"></i> Todas as Disciplinas</h3>
+                <div class="dashboard-controls">
+                    <div class="sort-controls">
+                        <label for="sort-select"><i class="fas fa-sort"></i> Ordenar por:</label>
+                        <select id="sort-select">
+                            <option value="alphabetical">Alfabética</option>
+                            <option value="quantity">Quantidade de Questões</option>
+                            <option value="recent">Recentes</option>
+                        </select>
+                    </div>
+                    <div class="view-toggle">
+                        <button class="view-btn active" data-view="grid" title="Visualização em Grid">
+                            <i class="fas fa-th-large"></i>
+                        </button>
+                        <button class="view-btn" data-view="list" title="Visualização em Lista">
+                            <i class="fas fa-list"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Filtros por Área -->
+            <div class="area-filters" id="area-filters">
+                <button class="area-filter-btn active" data-area="all">
+                    <i class="fas fa-globe"></i> Todas
+                </button>
+                <button class="area-filter-btn" data-area="exatas">
+                    <i class="fas fa-calculator"></i> Exatas
+                </button>
+                <button class="area-filter-btn" data-area="humanas">
+                    <i class="fas fa-book-open"></i> Humanas
+                </button>
+                <button class="area-filter-btn" data-area="saude">
+                    <i class="fas fa-heartbeat"></i> Saúde
+                </button>
+                <button class="area-filter-btn" data-area="direito">
+                    <i class="fas fa-balance-scale"></i> Direito
+                </button>
+                <button class="area-filter-btn" data-area="tecnologia">
+                    <i class="fas fa-laptop-code"></i> Tecnologia
+                </button>
+                <button class="area-filter-btn" data-area="administracao">
+                    <i class="fas fa-briefcase"></i> Administração
+                </button>
+            </div>
+            
+            <!-- Grid de Disciplinas -->
+            <div class="disciplines-grid" id="disciplines-grid">
+                <!-- Cards de disciplinas serão inseridos via JavaScript -->
+            </div>
+            
+            <!-- Loading Indicator -->
+            <div class="loading-indicator" id="disciplines-loading">
+                <div class="spinner"></div>
+                <p>Carregando disciplinas...</p>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
