@@ -567,18 +567,26 @@ const TestConfigUI04 = {
         // Bind events nos checkboxes
         this.disciplinesList.querySelectorAll('.discipline-checkbox').forEach(checkbox => {
             checkbox.addEventListener('change', (e) => {
+                e.stopPropagation(); // Impede propagação para o item pai
                 this.toggleDiscipline(e.target.dataset.key, e.target.checked);
+            });
+            
+            // Adiciona evento de click no checkbox também para melhor responsividade
+            checkbox.addEventListener('click', (e) => {
+                e.stopPropagation(); // Impede propagação para o item pai
             });
         });
         
         // Bind events nos items (clique no item todo seleciona)
         this.disciplinesList.querySelectorAll('.discipline-item').forEach(item => {
             item.addEventListener('click', (e) => {
-                if (e.target.tagName !== 'INPUT') {
-                    const checkbox = item.querySelector('.discipline-checkbox');
-                    checkbox.checked = !checkbox.checked;
-                    this.toggleDiscipline(checkbox.dataset.key, checkbox.checked);
+                // Verifica se o clique foi em elementos filhos que não devem triggerar a seleção
+                if (e.target.closest('.discipline-checkbox')) {
+                    return; // Ignora se clicou no checkbox ou seus descendentes
                 }
+                const checkbox = item.querySelector('.discipline-checkbox');
+                checkbox.checked = !checkbox.checked;
+                this.toggleDiscipline(checkbox.dataset.key, checkbox.checked);
             });
         });
     },
