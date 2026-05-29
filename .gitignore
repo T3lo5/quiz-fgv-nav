@@ -1,52 +1,50 @@
 ```
-# JSON validation artifacts
-validation_report.json
-
-# Python artifacts
+# Compiled and build artifacts
 *.pyc
 __pycache__/
+*.o
+*.obj
+dist/
+build/
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Logs
+# Dependencies
+.venv/
+venv/
+node_modules/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Logs and temp files
 *.log
-
-# Temp files
 *.tmp
+*.swp
+*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS files
+# System files
 .DS_Store
 Thumbs.db
 
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
-
-# Python cache
-.mypy_cache/
-.pytest_cache/
-
-# Build/dist directories
-dist/
-build/
-target/
-
-# Virtual environments
-.venv/
-venv/
-
-# Node.js
-node_modules/
 
 # Compressed files
 *.zip
@@ -71,5 +69,4 @@ node_modules/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
 ```
