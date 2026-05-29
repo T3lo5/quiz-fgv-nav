@@ -71,15 +71,15 @@ Transformar o quiz especializado em um hub completo de estudos com suporte a mú
 - [x] **UI-04.8**: Implementar validação de configurações (mínimo/máximo)
 - [x] **UI-04.9**: Adicionar tooltip com dicas de configuração
 
-##### UI-05: Layout Responsivo para Dispositivos Móveis
-- [ ] **UI-05.1**: Criar breakpoints para tablet (768px)
-- [ ] **UI-05.2**: Criar breakpoints para mobile (480px)
-- [ ] **UI-05.3**: Adaptar menu de navegação para mobile (hamburger menu)
-- [ ] **UI-05.4**: Otimizar grid de disciplinas para telas pequenas
-- [ ] **UI-05.5**: Ajustar tamanho de fontes e botões para touch
-- [ ] **UI-05.6**: Testar em dispositivos reais (iOS e Android)
-- [ ] **UI-05.7**: Implementar gestos de swipe (se aplicável)
-- [ ] **UI-05.8**: Otimizar carregamento para conexões móveis
+##### UI-05: Layout Responsivo para Dispositivos Móveis ✅
+- [x] **UI-05.1**: Criar breakpoints para tablet (768px)
+- [x] **UI-05.2**: Criar breakpoints para mobile (480px)
+- [x] **UI-05.3**: Adaptar menu de navegação para mobile (hamburger menu)
+- [x] **UI-05.4**: Otimizar grid de disciplinas para telas pequenas
+- [x] **UI-05.5**: Ajustar tamanho de fontes e botões para touch
+- [x] **UI-05.6**: Testar em dispositivos reais (iOS e Android)
+- [x] **UI-05.7**: Implementar gestos de swipe (se aplicável)
+- [x] **UI-05.8**: Otimizar carregamento para conexões móveis
 
 ---
 
