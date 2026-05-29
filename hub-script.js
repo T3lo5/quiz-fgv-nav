@@ -7,6 +7,9 @@
 // Inicialização e Estado Global
 // ========================================
 const HubApp = {
+    // ========================================
+    // Estado Global - UI-03
+    // ========================================
     state: {
         disciplines: [],
         categories: {},
@@ -17,7 +20,11 @@ const HubApp = {
             totalQuestions: 0,
             studyTime: '0h',
             completedTests: 0
-        }
+        },
+        // UI-03: Navegação por categorias
+        navigationHistory: [],
+        currentCategory: null,
+        expandedCategories: []
     },
 
     // ========================================
@@ -30,6 +37,8 @@ const HubApp = {
         this.loadData();
         this.renderCategories();
         this.updateStats();
+        // UI-03: Inicializar sistema de navegação
+        this.initCategoryNavigation();
     },
 
     // ========================================
@@ -67,6 +76,16 @@ const HubApp = {
         this.viewBtns = document.querySelectorAll('.view-btn');
         this.areaFilterBtns = document.querySelectorAll('.area-filter-btn');
         this.loadingIndicator = document.getElementById('disciplines-loading');
+        
+        // UI-03: Sistema de Navegação por Categorias
+        this.categorySidebar = document.getElementById('category-sidebar');
+        this.sidebarOverlay = document.getElementById('sidebar-overlay');
+        this.sidebarCloseBtn = document.getElementById('sidebar-close-btn');
+        this.btnToggleSidebar = document.getElementById('btn-toggle-sidebar');
+        this.categoryTree = document.getElementById('category-tree');
+        this.breadcrumbsContainer = document.getElementById('breadcrumbs-container');
+        this.categorySearchInput = document.getElementById('category-search-input');
+        this.searchCategoryBtn = document.getElementById('search-category-btn');
     },
 
     // ========================================

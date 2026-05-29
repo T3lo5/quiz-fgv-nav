@@ -52,6 +52,39 @@
         </div>
     </header>
 
+    <!-- UI-03: Menu Lateral de Navegação por Categorias -->
+    <aside class="category-sidebar" id="category-sidebar">
+        <div class="sidebar-header">
+            <h3><i class="fas fa-sitemap"></i> Navegação</h3>
+            <button class="sidebar-close-btn" id="sidebar-close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <!-- Breadcrumbs -->
+        <div class="breadcrumbs-container" id="breadcrumbs-container">
+            <span class="breadcrumb-item" data-level="0">
+                <i class="fas fa-home"></i> Início
+            </span>
+        </div>
+        
+        <!-- Árvore de Categorias -->
+        <nav class="category-tree" id="category-tree">
+            <!-- Categorias serão inseridas via JavaScript -->
+        </nav>
+        
+        <!-- Busca na Categoria -->
+        <div class="category-search-container">
+            <input type="text" id="category-search-input" placeholder="Buscar nesta categoria..." autocomplete="off">
+            <button class="search-category-btn" id="search-category-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </aside>
+    
+    <!-- Overlay para menu lateral -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
     <!-- Main Content -->
     <main class="hub-main">
         <!-- Hero Section - Boas-vindas -->
@@ -260,14 +293,9 @@
         <section class="categories-section" id="disciplinas">
             <div class="section-header">
                 <h3><i class="fas fa-folder-open"></i> Categorias de Disciplinas</h3>
-                <div class="category-filters">
-                    <button class="filter-btn active" data-category="all">Todas</button>
-                    <button class="filter-btn" data-category="testes">Testes</button>
-                    <button class="filter-btn" data-category="saude">Saúde</button>
-                    <button class="filter-btn" data-category="direito">Direito</button>
-                    <button class="filter-btn" data-category="exatas">Exatas</button>
-                    <button class="filter-btn" data-category="humanas">Humanas</button>
-                </div>
+                <button class="btn-toggle-sidebar" id="btn-toggle-sidebar" title="Abrir navegação por categorias">
+                    <i class="fas fa-sitemap"></i> Navegar por Categorias
+                </button>
             </div>
             
             <div class="categories-grid" id="categories-grid">
@@ -416,5 +444,6 @@
     </div>
 
     <script src="hub-script.js"></script>
+    <script src="hub-script-ui03.js"></script>
 </body>
 </html>
