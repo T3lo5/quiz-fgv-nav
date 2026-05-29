@@ -79,6 +79,7 @@
                 if (allQuestionsFromHub.length > 0) {
                     questions = allQuestionsFromHub;
                     console.log(`🎯 Total de questões carregadas: ${questions.length}`);
+                    initSimulatedQuizComponents(); // Inicializar componentes após carregar questões
                     return;
                 }
             }
@@ -91,6 +92,7 @@
             const data = await response.json();
             questions = data.questions;
             console.log(`Carregadas ${questions.length} questões do arquivo JSON`);
+            initSimulatedQuizComponents(); // Inicializar componentes após carregar questões
         } catch (error) {
             console.error('Erro ao carregar questões:', error);
             // Carregar questões fallback em caso de erro
@@ -720,7 +722,7 @@
         loadReviewQuestions();
     }
 
-    // Função para carregar questões para review (Tarefa 2.1 - KANBAN)
+    // Função para carregar questões para review (Tarefa 2.1 e 2.2 - KANBAN)
     function loadReviewQuestions() {
         // Obter quantidade do select ou usar padrão
         const quantitySelect = document.getElementById('review-questions-count');
@@ -730,21 +732,72 @@
         const completedCheckbox = document.getElementById('review-completed');
         const onlyCompleted = completedCheckbox ? completedCheckbox.checked : true;
         
-        console.log(`📚 Carregando ${quantity} questões para review (apenas completadas: ${onlyCompleted})`);
+        // Obter filtros avançados (Tarefa 2.2 - KANBAN)
+        const subjectSelect = document.getElementById('review-subject');
+        const selectedSubject = subjectSelect ? subjectSelect.value : '';
+        
+        const difficultySelect = document.getElementById('review-difficulty');
+        const selectedDifficulty = difficultySelect ? difficultySelect.value : '';
+        
+        const keywordInput = document.getElementById('review-keyword');
+        const keyword = keywordInput ? keywordInput.value.trim().toLowerCase() : '';
+        
+        console.log(`📚 Carregando ${quantity} questões para review`);
+        console.log(`   - Apenas completadas: ${onlyCompleted}`);
+        console.log(`   - Matéria: ${selectedSubject || 'Todas'}`);
+        console.log(`   - Dificuldade: ${selectedDifficulty || 'Todas'}`);
+        console.log(`   - Palavra-chave: ${keyword || 'Nenhuma'}`);
         
         // Atualizar filtros no estado
         reviewState.filters.quantity = quantity;
         reviewState.filters.onlyCompleted = onlyCompleted;
+        reviewState.filters.subjects = selectedSubject ? [selectedSubject] : [];
+        reviewState.filters.difficulties = selectedDifficulty ? [selectedDifficulty] : [];
         
-        // Selecionar questões aleatórias do banco
-        // Para implementação inicial, vamos usar questões aleatórias de todo o banco
-        const shuffled = [...questions].sort(() => 0.5 - Math.random());
-        const selectedQuestions = shuffled.slice(0, Math.min(quantity, questions.length));
+        // Filtrar questões com base nos critérios
+        let filteredQuestions = [...questions];
+        
+        // Filtro por matéria
+        if (selectedSubject) {
+            filteredQuestions = filteredQuestions.filter(q => 
+                q.subject && q.subject.toLowerCase() === selectedSubject.toLowerCase()
+            );
+            console.log(`   - Após filtro por matéria: ${filteredQuestions.length} questões`);
+        }
+        
+        // Filtro por dificuldade
+        if (selectedDifficulty) {
+            filteredQuestions = filteredQuestions.filter(q => 
+                q.difficulty && q.difficulty === selectedDifficulty
+            );
+            console.log(`   - Após filtro por dificuldade: ${filteredQuestions.length} questões`);
+        }
+        
+        // Filtro por palavra-chave
+        if (keyword) {
+            filteredQuestions = filteredQuestions.filter(q => 
+                (q.question && q.question.toLowerCase().includes(keyword)) ||
+                (q.topic && q.topic.toLowerCase().includes(keyword)) ||
+                (q.subject && q.subject.toLowerCase().includes(keyword))
+            );
+            console.log(`   - Após filtro por palavra-chave: ${filteredQuestions.length} questões`);
+        }
+        
+        // Embaralhar e selecionar quantidade solicitada
+        const shuffled = filteredQuestions.sort(() => 0.5 - Math.random());
+        const selectedQuestions = shuffled.slice(0, Math.min(quantity, filteredQuestions.length));
         
         reviewState.questions = selectedQuestions;
         reviewState.totalQuestions = selectedQuestions.length;
         
         console.log(`✅ ${reviewState.questions.length} questões carregadas para review`);
+        
+        // Verificar se há questões disponíveis
+        if (reviewState.questions.length === 0) {
+            alert('Nenhuma questão encontrada com os filtros selecionados. Tente ajustar os filtros.');
+            backToMenu();
+            return;
+        }
         
         // Exibir tela de review e mostrar primeira questão
         showReviewScreen();
@@ -1039,7 +1092,7 @@
         }
     }
 
-    // Função para exibir questão atual no review (Tarefa 3.1 - KANBAN)
+    // Função para exibir questão atual no review (Tarefa 3.1 e 3.3 - KANBAN)
     function displayReviewQuestion() {
         if (reviewState.questions.length === 0) {
             console.error('❌ Nenhuma questão para exibir');
@@ -1054,6 +1107,9 @@
         if (progressCounter) {
             progressCounter.textContent = `Questão ${reviewState.currentIndex + 1} de ${reviewState.totalQuestions}`;
         }
+        
+        // Atualizar barra de progresso (Tarefa 3.3 - KANBAN)
+        updateReviewProgressBar();
 
         // Exibir texto da questão
         const questionTextEl = document.getElementById('review-question-text');
@@ -1115,6 +1171,16 @@
 
         // Atualizar estado
         reviewState.stats.questionsReviewed = reviewState.currentIndex + 1;
+    }
+    
+    // Função para atualizar barra de progresso (Tarefa 3.3 - KANBAN)
+    function updateReviewProgressBar() {
+        const progressBar = document.getElementById('review-progress-bar');
+        if (progressBar && reviewState.totalQuestions > 0) {
+            const percentage = ((reviewState.currentIndex + 1) / reviewState.totalQuestions) * 100;
+            progressBar.style.width = percentage.toFixed(0) + '%';
+            console.log(`📊 Barra de progresso atualizada: ${percentage.toFixed(0)}%`);
+        }
     }
 
     // Função para próxima questão (Tarefa 4.1 - KANBAN)
@@ -1435,7 +1501,39 @@
         setupDisciplineSelection();
         setupSingleMatterList();
         updateDisciplineSelectionUI();
+        setupReviewFilters(); // Tarefa 2.2 - KANBAN: Preencher filtros de review
         console.log('✅ Componentes do Simulado Personalizado inicializados');
+    }
+    
+    // Função para configurar filtros avançados de review (Tarefa 2.2 - KANBAN)
+    function setupReviewFilters() {
+        const subjectSelect = document.getElementById('review-subject');
+        if (!subjectSelect) {
+            console.warn('⚠️ Select de matérias de review não encontrado');
+            return;
+        }
+        
+        // Obter disciplinas únicas das questões carregadas
+        const availableSubjects = new Set();
+        questions.forEach(q => {
+            if (q.subject) {
+                availableSubjects.add(q.subject);
+            }
+        });
+        
+        // Ordenar alfabeticamente
+        const sortedSubjects = Array.from(availableSubjects).sort();
+        
+        // Preencher o select (mantendo a opção "Todas as matérias")
+        subjectSelect.innerHTML = '<option value="">Todas as matérias</option>';
+        sortedSubjects.forEach(subject => {
+            const option = document.createElement('option');
+            option.value = subject;
+            option.textContent = subject;
+            subjectSelect.appendChild(option);
+        });
+        
+        console.log(`✅ Filtros de review configurados com ${sortedSubjects.length} matérias`);
     }
 
     // Funções para as telas adicionais
@@ -1567,13 +1665,19 @@
     window.showBookmarks = showBookmarks;
     window.showProgress = showProgress;
     
-    // Funções utilitárias de review (Tarefa 1.2 - KANBAN)
+    // Exportar funções utilitárias de review (Tarefa 1.2 e 3.3 - KANBAN)
     window.showReviewScreen = showReviewScreen;
     window.hideReviewScreen = hideReviewScreen;
     window.showReviewComplete = showReviewComplete;
+    window.updateReviewProgressBar = updateReviewProgressBar;
     
     // Exportar função de carregamento de questões (Tarefa 2.1 - KANBAN)
     window.loadReviewQuestions = loadReviewQuestions;
+    
+    // Exportar funções de navegação de review (Tarefa 4.1-4.2 - KANBAN)
+    window.nextReviewQuestion = nextReviewQuestion;
+    window.prevReviewQuestion = prevReviewQuestion;
+    window.saveReviewSession = saveReviewSession;
 
     // Exportar quiz functions para outros scripts
     window.mainQuizFunctions = {
