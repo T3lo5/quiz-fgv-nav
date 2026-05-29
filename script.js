@@ -19,6 +19,27 @@
     let startButton, startStudyButton, nextButton, prevButton;
     let restartButton, reviewButton, backButton, backToMenuButton, submitButton;
 
+    // Estado Global de Review (Tarefa 1.1 - KANBAN)
+    const reviewState = {
+        questions: [],              // Array de questões para revisar
+        currentIndex: 0,            // Índice da questão atual
+        totalQuestions: 0,          // Total de questões na sessão
+        notes: {},                  // Mapa: { questionId: "nota do usuário" }
+        startTime: null,            // Timestamp de início
+        endTime: null,              // Timestamp de término
+        filters: {                  // Filtros aplicados
+            quantity: 10,
+            onlyCompleted: true,
+            subjects: [],
+            difficulties: []
+        },
+        stats: {                    // Estatísticas da sessão
+            timeSpent: 0,
+            questionsReviewed: 0,
+            notesAdded: 0
+        }
+    };
+
     // Função para carregar questões do arquivo JSON
     async function loadQuestions() {
         try {
@@ -671,14 +692,264 @@
         return `${minutes}m ${remainingSeconds}s`;
     }
 
-    // Função para iniciar o review
+    // Função para iniciar o review (Tarefa 1.1 - KANBAN)
     function startReview() {
         hideAllScreens();
-        // Iniciar revisão com questões já respondidas
-        console.log('Iniciando revisão rápida...');
-        // TODO: Implementar sistema de revisão
-        alert('Funcionalidade de revisão em desenvolvimento');
-        backToMenu();
+        
+        // Inicializar estado de review
+        reviewState.startTime = Date.now();
+        reviewState.currentIndex = 0;
+        reviewState.questions = [];
+        reviewState.notes = {};
+        
+        console.log('📝 Iniciando revisão rápida...');
+        console.log('📊 Estado de review inicializado:', reviewState);
+        
+        // Carregar questões para review (implementação básica inicial)
+        loadReviewQuestions();
+    }
+
+    // Função para carregar questões para review (Tarefa 2.1 - KANBAN)
+    function loadReviewQuestions() {
+        // Obter quantidade do select ou usar padrão
+        const quantitySelect = document.getElementById('review-questions-count');
+        const quantity = quantitySelect ? parseInt(quantitySelect.value) : 10;
+        
+        // Obter filtro de questões completadas (checkbox)
+        const completedCheckbox = document.getElementById('review-completed');
+        const onlyCompleted = completedCheckbox ? completedCheckbox.checked : true;
+        
+        console.log(`📚 Carregando ${quantity} questões para review (apenas completadas: ${onlyCompleted})`);
+        
+        // Atualizar filtros no estado
+        reviewState.filters.quantity = quantity;
+        reviewState.filters.onlyCompleted = onlyCompleted;
+        
+        // Selecionar questões aleatórias do banco
+        // Para implementação inicial, vamos usar questões aleatórias de todo o banco
+        const shuffled = [...questions].sort(() => 0.5 - Math.random());
+        const selectedQuestions = shuffled.slice(0, Math.min(quantity, questions.length));
+        
+        reviewState.questions = selectedQuestions;
+        reviewState.totalQuestions = selectedQuestions.length;
+        
+        console.log(`✅ ${reviewState.questions.length} questões carregadas para review`);
+        
+        // Exibir tela de review e mostrar primeira questão
+        showReviewScreen();
+        displayReviewQuestion();
+    }
+
+    // Função para mostrar tela de review (Tarefa 1.2 - KANBAN)
+    function showReviewScreen() {
+        hideAllScreens();
+        const reviewScreenEl = document.getElementById('review-screen');
+        if (reviewScreenEl) {
+            reviewScreenEl.style.display = 'block';
+            console.log('✅ Tela de review exibida');
+        } else {
+            console.error('❌ Elemento review-screen não encontrado');
+        }
+    }
+
+    // Função para esconder tela de review (Tarefa 1.2 - KANBAN)
+    function hideReviewScreen() {
+        const reviewScreenEl = document.getElementById('review-screen');
+        if (reviewScreenEl) {
+            reviewScreenEl.style.display = 'none';
+            console.log('🔒 Tela de review escondida');
+        }
+    }
+
+    // Função para exibir questão atual no review (Tarefa 3.1 - KANBAN)
+    function displayReviewQuestion() {
+        if (reviewState.questions.length === 0) {
+            console.error('❌ Nenhuma questão para exibir');
+            return;
+        }
+
+        const currentQuestion = reviewState.questions[reviewState.currentIndex];
+        console.log(`📖 Exibindo questão ${reviewState.currentIndex + 1} de ${reviewState.totalQuestions}: ${currentQuestion.id}`);
+
+        // Atualizar contador de progresso
+        const progressCounter = document.getElementById('review-progress-counter');
+        if (progressCounter) {
+            progressCounter.textContent = `Questão ${reviewState.currentIndex + 1} de ${reviewState.totalQuestions}`;
+        }
+
+        // Exibir texto da questão
+        const questionTextEl = document.getElementById('review-question-text');
+        if (questionTextEl) {
+            questionTextEl.textContent = currentQuestion.question;
+        }
+
+        // Exibir metadados
+        const questionMetaEl = document.getElementById('review-question-meta');
+        if (questionMetaEl) {
+            questionMetaEl.textContent = `${currentQuestion.subject || 'Sem matéria'} • ${currentQuestion.difficulty || 'Sem dificuldade'} • ${currentQuestion.topic || 'Sem tópico'}`;
+        }
+
+        // Exibir alternativas
+        const alternativesContainer = document.getElementById('review-alternatives');
+        if (alternativesContainer) {
+            alternativesContainer.innerHTML = '';
+            
+            if (currentQuestion.alternatives) {
+                for (const [key, value] of Object.entries(currentQuestion.alternatives)) {
+                    const altDiv = document.createElement('div');
+                    altDiv.className = 'alternative';
+                    altDiv.dataset.option = key;
+                    
+                    const letterSpan = document.createElement('span');
+                    letterSpan.className = 'alternative-letter';
+                    letterSpan.textContent = key + ')';
+                    
+                    const textSpan = document.createElement('span');
+                    textSpan.className = 'alternative-text';
+                    textSpan.textContent = value;
+                    
+                    altDiv.appendChild(letterSpan);
+                    altDiv.appendChild(textSpan);
+                    
+                    // Destacar alternativa correta
+                    if (key === currentQuestion.answer) {
+                        altDiv.classList.add('correct');
+                    }
+                    
+                    alternativesContainer.appendChild(altDiv);
+                }
+            }
+        }
+
+        // Exibir explicação
+        const explanationEl = document.getElementById('review-explanation');
+        if (explanationEl) {
+            explanationEl.textContent = currentQuestion.explanation || 'Sem explicação disponível.';
+        }
+
+        // Carregar nota existente se houver
+        const notesTextarea = document.getElementById('review-notes');
+        if (notesTextarea && reviewState.notes[currentQuestion.id]) {
+            notesTextarea.value = reviewState.notes[currentQuestion.id];
+        } else if (notesTextarea) {
+            notesTextarea.value = '';
+        }
+
+        // Atualizar estado
+        reviewState.stats.questionsReviewed = reviewState.currentIndex + 1;
+    }
+
+    // Função para próxima questão (Tarefa 4.1 - KANBAN)
+    function nextReviewQuestion() {
+        if (reviewState.currentIndex < reviewState.totalQuestions - 1) {
+            // Salvar nota atual antes de navegar
+            saveCurrentNote();
+            
+            reviewState.currentIndex++;
+            displayReviewQuestion();
+            console.log(`⏭️ Próxima questão: ${reviewState.currentIndex + 1}`);
+        } else {
+            // Última questão - finalizar review
+            console.log('✅ Review concluído!');
+            finishReview();
+        }
+    }
+
+    // Função para questão anterior (Tarefa 4.2 - KANBAN)
+    function prevReviewQuestion() {
+        if (reviewState.currentIndex > 0) {
+            // Salvar nota atual antes de navegar
+            saveCurrentNote();
+            
+            reviewState.currentIndex--;
+            displayReviewQuestion();
+            console.log(`⏮️ Questão anterior: ${reviewState.currentIndex + 1}`);
+        }
+    }
+
+    // Função para salvar nota da questão atual
+    function saveCurrentNote() {
+        const notesTextarea = document.getElementById('review-notes');
+        if (notesTextarea && reviewState.questions[reviewState.currentIndex]) {
+            const questionId = reviewState.questions[reviewState.currentIndex].id;
+            const noteText = notesTextarea.value.trim();
+            
+            if (noteText) {
+                reviewState.notes[questionId] = noteText;
+                reviewState.stats.notesAdded++;
+                console.log(`💾 Nota salva para ${questionId}`);
+            } else {
+                delete reviewState.notes[questionId];
+                console.log(`🗑️ Nota removida para ${questionId}`);
+            }
+        }
+    }
+
+    // Função para finalizar review
+    function finishReview() {
+        reviewState.endTime = Date.now();
+        reviewState.stats.timeSpent = Math.floor((reviewState.endTime - reviewState.startTime) / 1000);
+        
+        // Salvar sessão no localStorage
+        saveReviewSession();
+        
+        // Mostrar tela de conclusão
+        showReviewComplete();
+    }
+
+    // Função para salvar sessão de review no localStorage (Tarefa 4.3 - KANBAN)
+    function saveReviewSession() {
+        try {
+            const sessionData = {
+                timestamp: Date.now(),
+                questionsCount: reviewState.totalQuestions,
+                notes: reviewState.notes,
+                timeSpent: reviewState.stats.timeSpent,
+                filters: reviewState.filters
+            };
+            
+            // Salvar no localStorage
+            localStorage.setItem('lastReviewSession', JSON.stringify(sessionData));
+            
+            // Salvar notas individuais por questão
+            for (const [questionId, note] of Object.entries(reviewState.notes)) {
+                localStorage.setItem(`note_${questionId}`, note);
+            }
+            
+            console.log('💾 Sessão de review salva no localStorage');
+        } catch (error) {
+            console.error('❌ Erro ao salvar sessão de review:', error);
+        }
+    }
+
+    // Função para mostrar tela de conclusão do review (Tarefa 5.1 - KANBAN)
+    function showReviewComplete() {
+        hideAllScreens();
+        
+        const completeScreenEl = document.getElementById('review-complete-screen');
+        if (!completeScreenEl) {
+            console.error('❌ Tela review-complete-screen não encontrada');
+            // Fallback: voltar ao menu
+            backToMenu();
+            return;
+        }
+        
+        // Preencher estatísticas
+        const statsSummaryEl = document.getElementById('review-stats-summary');
+        if (statsSummaryEl) {
+            const minutes = Math.floor(reviewState.stats.timeSpent / 60);
+            const seconds = reviewState.stats.timeSpent % 60;
+            
+            statsSummaryEl.innerHTML = `
+                <h3>✅ Revisão Concluída!</h3>
+                <p><strong>Questões revisadas:</strong> ${reviewState.totalQuestions}</p>
+                <p><strong>Tempo gasto:</strong> ${minutes}m ${seconds}s</p>
+                <p><strong>Notas salvas:</strong> ${reviewState.stats.notesAdded}</p>
+            `;
+        }
+        
+        completeScreenEl.style.display = 'block';
+        console.log('✅ Tela de conclusão de review exibida');
     }
 
     // Função para mostrar tela de modo de estudo
@@ -820,6 +1091,19 @@
         if (viewResultsBtn) viewResultsBtn.addEventListener('click', showResults);
         if (viewBookmarksBtn) viewBookmarksBtn.addEventListener('click', showBookmarks);
         if (viewProgressBtn) viewProgressBtn.addEventListener('click', showProgress);
+
+        // Botões de review (Tarefa 1.1 - KANBAN)
+        const prevReviewBtn = document.getElementById('prev-review');
+        const nextReviewBtn = document.getElementById('next-review');
+        const finishReviewBtn = document.getElementById('finish-review');
+        const backToWelcomeReviewBtn = document.getElementById('back-to-welcome-review');
+        const startReviewBtn = document.getElementById('start-review');
+
+        if (prevReviewBtn) prevReviewBtn.addEventListener('click', prevReviewQuestion);
+        if (nextReviewBtn) nextReviewBtn.addEventListener('click', nextReviewQuestion);
+        if (finishReviewBtn) finishReviewBtn.addEventListener('click', finishReview);
+        if (backToWelcomeReviewBtn) backToWelcomeReviewBtn.addEventListener('click', backToMenu);
+        if (startReviewBtn) startReviewBtn.addEventListener('click', startReview);
 
         // Configura listeners para os botões de modo
         const quizModeBtn = document.getElementById('quiz-mode');

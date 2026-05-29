@@ -205,14 +205,6 @@
                 </div>
             </section>
 
-            <section id="review-screen" class="hidden">
-                <div class="review-content">
-                    <h2>Revisão das Questões</h2>
-                    <div id="review-questions"></div>
-                    <button id="back-to-results" class="btn secondary">Voltar</button>
-                </div>
-            </section>
-
             <!-- Tela de Estudo -->
             <section id="study-screen" class="hidden">
                 <div class="study-content">
@@ -249,14 +241,12 @@
                             <div class="progress-bar">
                                 <div id="review-progress-bar" style="width: 0%"></div>
                             </div>
-                            <span id="review-progress-text">0% concluído</span>
+                            <span id="review-progress-counter">Questão 1 de 10</span>
                         </div>
                     </div>
                     <div class="review-main">
                         <div class="review-question-info">
-                            <span id="review-question-subject"></span>
-                            <span id="review-question-difficulty"></span>
-                            <span id="review-question-topic"></span>
+                            <span id="review-question-meta"></span>
                         </div>
                         <div id="review-question-text" class="question-text"></div>
                         <div id="review-alternatives" class="alternatives"></div>
@@ -264,23 +254,21 @@
                             <div id="review-correct-answer"></div>
                             <div id="review-explanation" class="explanation"></div>
                         </div>
-                        <textarea id="user-note" placeholder="Adicione suas notas sobre esta questão..." class="note-textarea"></textarea>
+                        <textarea id="review-notes" placeholder="Adicione suas notas sobre esta questão... (salvas automaticamente)" class="note-textarea"></textarea>
                         <div class="review-controls">
                             <button id="prev-review" class="btn secondary">Anterior</button>
                             <button id="next-review" class="btn primary">Próxima</button>
-                            <button id="add-note" class="btn secondary">Salvar Nota</button>
-                            <button id="save-review" class="btn primary">Salvar Sessão</button>
+                            <button id="finish-review" class="btn secondary">Finalizar</button>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- Tela de Conclusão de Review -->
-            <section id="review-complete" class="hidden">
+            <section id="review-complete-screen" class="hidden">
                 <div class="review-complete-content">
-                    <h2>Review Concluído!</h2>
-                    <div id="review-stats" class="stats"></div>
-                    <button id="back-to-welcome-review" class="btn secondary">Voltar</button>
+                    <div id="review-stats-summary"></div>
+                    <button id="back-to-welcome-review" class="btn secondary">Voltar ao Menu</button>
                 </div>
             </section>
 
