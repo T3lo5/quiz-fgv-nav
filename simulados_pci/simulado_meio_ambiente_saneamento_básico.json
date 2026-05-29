@@ -1,0 +1,925 @@
+[
+    {
+        "id": "2066026",
+        "enunciado": "A tubulação de esgoto que conecta o imóvel do consumidor à rede pública é conhecida como:",
+        "alternativas": {
+            "A": "Ligante predial",
+            "B": "Conector predial",
+            "C": "Ramal predial",
+            "D": "Conexão predial"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O ramal predial é a tubulação responsável por conectar a instalação interna de um imóvel à rede pública de esgoto."
+    },
+    {
+        "id": "2066027",
+        "enunciado": "Para evitar refluxo de esgoto para o interior dos imóveis, o DAE orienta que deve ser instalado um dispositivo na caixa de inspeção no passeio público. O nome desse dispositivo é:",
+        "alternativas": {
+            "A": "Válvula borboleta de esgoto",
+            "B": "Dispositivo de esgoto",
+            "C": "Dispositivo de retenção de esgoto",
+            "D": "Válvula de retenção de esgoto"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A válvula de retenção de esgoto impede o fluxo reverso do esgoto, evitando que retorne para os imóveis através da rede de esgotamento sanitário."
+    },
+    {
+        "id": "2066029",
+        "enunciado": "Quais dos ambientes de um imóvel listados a seguir podem ter seu esgoto encaminhado à rede pública de esgotamento sanitário?",
+        "alternativas": {
+            "A": "Área de serviço coberta, banheiros e cozinha",
+            "B": "Área de serviço coberta, garagem descoberta e cozinha",
+            "C": "Banheiros, cozinha e garagem descoberta",
+            "D": "Sacada descoberta, banheiros e cozinha"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Todos os ambientes listados em A (área de serviço coberta, banheiros e cozinha) geralmente possuem esgoto com características que permitem o encaminhamento à rede pública, diferente de áreas como garagens descobertas."
+    },
+    {
+        "id": "2066032",
+        "enunciado": "Ao longo dos anos, vários materiais foram utilizados na fabricação de tubos para redes de água potável. Quais destes materiais podem ser encontrados em redes existentes?",
+        "alternativas": {
+            "A": "Aço e poliéster",
+            "B": "Aço e ferro fundido",
+            "C": "Fibrocimento e poliéster",
+            "D": "PVC e PEX"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Materiais como aço e ferro fundido foram amplamente utilizados em redes antigas de água potável e ainda podem ser encontrados em redes existentes. Aço e poliester, fibrocimento e poliéster, PVC e PEX são materiais mais recentes ou com usos específicos diferentes."
+    },
+    {
+        "id": "2066034",
+        "enunciado": "Qual o nome do equipamento utilizado para detectar vazamentos ocultos, muitas vezes chamado “caça-vazamentos”?",
+        "alternativas": {
+            "A": "Megafone",
+            "B": "Microfone",
+            "C": "Geofone",
+            "D": "Amplofone"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O geofone é um aparelho sensível utilizado em engenharia civil e geologia para detectar sons subterrâneos, como vazamentos em tubulações de água."
+    },
+    {
+        "id": "2066036",
+        "enunciado": "No saneamento, o que significa a sigla “m.c.a”, e a que grandeza a mesma se refere?",
+        "alternativas": {
+            "A": "Medida capacitiva ativa, se refere à velocidade.",
+            "B": "Metros cúbicos de água, se refere ao volume.",
+            "C": "Metros de coluna d’água, se refere à vazão.",
+            "D": "Metros de coluna d’água, se refere à pressão."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A sigla 'm.c.a.' refere-se a Metros de Coluna d'água, uma unidade de medida utilizada para expressar a pressão em sistemas hidráulicos, como em redes de saneamento."
+    },
+    {
+        "id": "2278434",
+        "enunciado": "A rede pública de abastecimento de água opera sob condições específicas para garantir o fornecimento adequado às edificações. Sobre estas redes, registre V (Verdadeiro) ou F (Falso): (__ )A rede de distribuição de água, assim como a rede de esgoto, opera como um conduto forçado, ou seja, com a tubulação totalmente cheia de água e sob pressão. (__ )A pressão na rede pública deve ser alta o suficiente para abastecer diretamente os reservatórios inferiores (cisternas) das edificações. (__ )O tratamento da água (floculação, decantação, filtração, cloração) ocorre na Estação de Tratamento de Esgoto (ETE). (__ )As ligações prediais (ramais) são as tubulações que conectam a rede de distribuição pública ao hidrômetro do imóvel. Após análise, assinale a alternativa que apresenta a sequência correta dos itens acima, de cima para baixo:",
+        "alternativas": {
+            "A": "V, V, V, F.",
+            "B": "F, V, F, V.",
+            "C": "V, V, F, V.",
+            "D": "V, F, V, F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A rede de água opera sob pressão (conduto forçado), logo a primeira está F. A pressão da rede pública não é alta o suficiente para subir diretamente para reservatórios inferiores; a pressão é para abastecer as redes de distribuição. O tratamento ocorre na ETE. As ligações prediais conectam a rede de distribuição ao padrão de entrada do imóvel, e não especificamente ao hidrômetro. Portanto, F, V, F, V."
+    },
+    {
+        "id": "2278439",
+        "enunciado": "Um morador reclama de mau cheiro constante vindo do ralo do banheiro, mesmo após realizar a limpeza do local. Qual componente da instalação de esgoto sanitário provavelmente está com defeito ou seco, permitindo o retorno dos gases?",
+        "alternativas": {
+            "A": "O tubo de queda.",
+            "B": "O sifão (ou fecho hídrico).",
+            "C": "A caixa de passagem.",
+            "D": "A coluna de ventilação."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O sifão (ou fecho hídrico) é um componente em forma de 'U' que retém água, formando uma barreira física e química contra o retorno de gases e odores do esgoto para o ambiente interno da edificação."
+    },
+    {
+        "id": "2066044",
+        "enunciado": "Qual destes tipos de registro deve ser utilizado para controlar o fluxo de água em um chuveiro doméstico?",
+        "alternativas": {
+            "A": "Registro de gaveta",
+            "B": "Registro plástico",
+            "C": "Registro de pressão",
+            "D": "Registro de manobra"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O registro de pressão permite controlar o vazão de água de forma mais precisa, ideal para chuveiros onde se deseja regular a intensidade do fluxo."
+    },
+    {
+        "id": "2294308",
+        "enunciado": "Em sistemas de esgotamento sanitário, a função principal do interceptor é:",
+        "alternativas": {
+            "A": "encaminhar grandes vazões para tratamento.",
+            "B": "remover sólidos antes da chegada à estação.",
+            "C": "armazenar temporariamente os efluentes.",
+            "D": "permitir a ventilação da rede coletora."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Interceptores sao dispositivos que retiram solidos grossos do esgoto antes que cheguem a estacao de tratamento, protegendo os equipamentos e melhorando a eficiencia."
+    },
+    {
+        "id": "2066046",
+        "enunciado": "Equipamentos como lavatórios e vasos sanitários devem possuir sifão. Qual a função deste elemento?",
+        "alternativas": {
+            "A": "Permitir o correto escoamento da água",
+            "B": "Evitar o acúmulo de resíduos no ralo",
+            "C": "Impedir que gases e odores provenientes da tubulação de esgoto retornem para o ambiente interno do imóvel",
+            "D": "Diminuir o consumo de água"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O sifão armazena água, formando um selo hídrico que impede o retorno de gases e maus odores da rede de esgoto para o ambiente interno do imóvel."
+    },
+    {
+        "id": "2278444",
+        "enunciado": "Um fiscal de obras e posturas observa que o proprietário de uma nova casa está conectando o tubo da calha (água da chuva) diretamente na tubulação de esgoto sanitário. Por que esta prática é estritamente proibida (sistema separador absoluto)?",
+        "alternativas": {
+            "A": "Porque o esgoto doméstico pode contaminar a água da chuva no telhado, impedindo seu reuso pelo proprietário.",
+            "B": "Porque a água da chuva, por ser ácida, pode dissolver o PVC branco da rede de esgoto, causando vazamentos estruturais.",
+            "C": "Porque a pressão da água da chuva é muito alta e pode causar o rompimento dos tubos de esgoto, que trabalham por gravidade.",
+            "D": "Porque sobrecarrega a rede pública de esgoto e a Estação de Tratamento de Esgoto (ETE), que não foram dimensionadas para receber o volume da chuva."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A prática é proibida pois a água da chuva aumenta o volume de esgoto, sobrecarregando as redes coletoras e as Estações de Tratamento de Esgoto (ETE), que não são projetadas para esse acréscimo de vazão e carga."
+    },
+    {
+        "id": "2066048",
+        "enunciado": "Um equipamento muito utilizado no reaterro de valas é conhecido como “sapo”. Qual o nome técnico desse equipamento?",
+        "alternativas": {
+            "A": "Preparador de solos",
+            "B": "Arejador de solos",
+            "C": "Cortador de solos",
+            "D": "Compactador de solos"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O equipamento popularmente conhecido como 'sapo' no reaterro de valas é tecnicamente um compactador de solos, utilizado para adensar o material e evitar futuras depressões."
+    },
+    {
+        "id": "2066049",
+        "enunciado": "Quais os sentidos corretos de abertura e fechamento de um registro de gaveta, respectivamente?",
+        "alternativas": {
+            "A": "Horário e anti-horário",
+            "B": "Anti-horário e horário",
+            "C": "Anti-horário e anti-horário",
+            "D": "Horário e horário"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O registro de gaveta padrão é aberto girando no sentido anti-horário e fechado girando no sentido horário. Essa convenção facilita a identificação da operação correta em sistemas de tubulação."
+    },
+    {
+        "id": "2323646",
+        "enunciado": "O local onde a água tratada é armazenada para ser distribuída à população conforme a demanda é o(a):",
+        "alternativas": {
+            "A": "Reservatório.",
+            "B": "Caixa d´água.",
+            "C": "Galpão.",
+            "D": "Sistema de captação.",
+            "E": "Poço."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O local destinado ao armazenamento de água tratada para distribuição conforme a demanda é o reservatório. Caixa d'água é um termo mais genérico e pode se referir a reservatórios menores."
+    },
+    {
+        "id": "2305202",
+        "enunciado": "Em sistemas de abastecimento de água, a etapa de desinfecção é essencial para garantir a potabilidade. Qual dos agentes abaixo é mais comumente utilizado para essa finalidade, devido à sua eficácia microbiológica e capacidade de manter residual no sistema de distribuição?",
+        "alternativas": {
+            "A": "Alumínio polimerizado.",
+            "B": "Cloro gasoso.",
+            "C": "Sulfato de ferro.",
+            "D": "Carvão ativado."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O cloro gasoso é amplamente usado na desinfecção de água por sua eficácia contra microrganismos e por formar o íon hipoclorito, que se mantém residual no sistema, protegendo a água por mais tempo."
+    },
+    {
+        "id": "1147199",
+        "enunciado": "Para se garantir nitrificação, a idade do lodo, relativa apenas à parte do lodo ativado sob aeração (idade do lodo aeróbia), deve ser igual ou superior a 5 dias para esgoto bruto ou decantado e igual ou superior a_____para efluente de reator anaeróbio, para temperatura de 20 °C, no tanque de aeração. Assinale a alternativa CORRETA que preenche a lacuna acima.",
+        "alternativas": {
+            "A": "dez dias",
+            "B": "doze dias",
+            "C": "oito dias",
+            "D": "vinte dias"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para garantir a nitrificacao com efluente de reator anaerobio, a idade do lodo aerobia deve ser igual ou superior a 8 dias a 20°C."
+    },
+    {
+        "id": "1147202",
+        "enunciado": "A remoção de sólidos grosseiros pode ser feita através de grades de barras e de peneiras. A vazão de dimensionamento das grades e peneiras deve ser a vazão máxima afluente à unidade. É CORRETO afirmar que a grade fina tem espaçamento de: .",
+        "alternativas": {
+            "A": "10 a 20 mm.",
+            "B": "30 a 40 mm.",
+            "C": "02 a 03 mm.",
+            "D": "60 a 80 mm."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Grades finas em sistemas de tratamento de esgoto possuem um espaçamento pequeno, tipicamente entre 2 a 3 mm, para remover solidos grosseiros."
+    },
+    {
+        "id": "1154654",
+        "enunciado": "São componentes que podem compor um sistema de tubulação de esgoto, exceto:",
+        "alternativas": {
+            "A": "Caixa de gordura.",
+            "B": "Poço de visita.",
+            "C": "Caixa de passagem.",
+            "D": "Caixa monofásica."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Caixa monofásica é um componente elétrico usado para distribuição de energia, não tendo relação com sistemas de tubulação de esgoto. As demais opções são elementos comuns em redes de esgoto."
+    },
+    {
+        "id": "1154655",
+        "enunciado": "___________ é o equipamento utilizado para identificar vazamentos na tubulação sem danificar pisos e paredes.",
+        "alternativas": {
+            "A": "Torquês",
+            "B": "Plaina",
+            "C": "Alicate Bomba D'Água",
+            "D": "Geofone"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O Geofone é um equipamento acústico que capta vibrações e sons, sendo ideal para detectar vazamentos em tubulações subterrâneas sem necessidade de perfurar pisos ou paredes."
+    },
+    {
+        "id": "1154657",
+        "enunciado": "São sintomas de que a rede hidráulica possa precisar de manutenção ou reparo, exceto:",
+        "alternativas": {
+            "A": "Acúmulo de água excessivo.",
+            "B": "Desplacamento de telhas.",
+            "C": "Umidade presente em parede.",
+            "D": "Estufamento de azulejos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Desplacamento de telhas não é um sintoma direto de problemas na rede hidráulica, mas sim de problemas na cobertura ou estrutura. Os demais sintomas indicam infiltração ou vazamento."
+    },
+    {
+        "id": "1154658",
+        "enunciado": "Qual das alternativas apresenta a ordem correta das etapas de tratamento de esgoto?",
+        "alternativas": {
+            "A": "Gradeamento, decantação, tratamento biológico, caixa de areia e desinfecção.",
+            "B": "Decantação, caixa de areia, tratamento biológico, desinfecção e gradeamento.",
+            "C": "Gradeamento, caixa de areia, tratamento biológico, decantação e desinfecção.",
+            "D": "Caixa de areia, tratamento biológico, gradeamento, decantação e desinfecção."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A ordem correta do tratamento de esgoto envolve a remoção de sólidos grosseiros (gradeamento), seguida pela remoção de areia (caixa de areia), depois o tratamento biológico para decompor matéria orgânica, decantação para remover sólidos suspensos e, por fim, a desinfecção para eliminar microrganismos patogênicos."
+    },
+    {
+        "id": "1547650",
+        "enunciado": "Uma Estação Elevatória de Esgoto, (EEE), convencional, é composta por um poço de recebimento, armazenamento e bombeamento de esgoto, um conjunto motor-bombas com seus dispositivos de partida e gradeamento para retenção de sólidos grosseiros e preservação da bomba. Partindo disso, assinale a alternativa que melhor descreve a definição de uma bomba submersível.",
+        "alternativas": {
+            "A": "Uma bomba submersível é um dispositivo vinculado a um motor fechado e vedado. Nesse tipo de sistema, a bomba se encontra totalmente submersa no líquido a ser processado e injeta energia no sistema bombeando o efluente de um ponto de menor altitude até um de maior.",
+            "B": "Uma bomba submersível é o dispositivo responsável por armazenar a contribuição afluente de esgoto ou de águas pluviais em regiões de alto desnível na rede, promovendo o equilíbrio de pressão entre o ponto de menor altitude e o de maior.",
+            "C": "Uma bomba submersível é um dispositivo acoplado a um motor totalmente exposto ao líquido. Nesse tipo de sistema, a bomba se encontra totalmente emersa ao líquido a ser processado e injeta energia no sistema recalcando o efluente até um ponto de menor altitude.",
+            "D": "Uma bomba submersível é o dispositivo responsável por reter a contribuição afluente de esgoto ou de águas pluviais em regiões de baixo desnível na rede, injetando energia através da diferença de pressão do ponto de maior altitude para o de menor, minimizando o risco de extravasamento na via pública."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. Uma bomba submersível é um conjunto motor-bomba selado, projetado para operar totalmente imerso no líquido, recalca o fluido de um nível inferior para um superior."
+    },
+    {
+        "id": "1198214",
+        "enunciado": "Assinale a alternativa CORRETA que corresponde quais um dos principais critérios considerados na escolha do diâmetro das tubulações de esgoto em um sistema de coleta:",
+        "alternativas": {
+            "A": "Altura da lâmina d'água e temperatura do esgoto.",
+            "B": "Distância até a estação de tratamento e topografia do terreno.",
+            "C": "População atendida e vazão máxima esperada.",
+            "D": "Carga orgânica e concentração de sólidos suspensos.",
+            "E": "Tipo de solo e profundidade do lençol freático."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O dimensionamento de tubulações de esgoto considera fatores como a população a ser atendida e a vazão máxima esperada para garantir a eficiência do sistema de coleta e evitar obstruções."
+    },
+    {
+        "id": "1843702",
+        "enunciado": "A seguir são apresentados o conjunto de serviços públicos, infraestruturas e instalações operacionais de saneamento básico, exceto:",
+        "alternativas": {
+            "A": "abastecimento de água potável: constituído pelas atividades e pela disponibilização e manutenção de infraestruturas e instalações operacionais necessárias ao abastecimento público de água potável, desde a captação até as ligações prediais e seus instrumentos de medição.",
+            "B": "esgotamento sanitário: constituído pelas atividades e pela disponibilização e manutenção de infraestruturas e instalações operacionais necessárias à coleta, ao transporte, ao tratamento e à disposição final adequados dos esgotos sanitários, desde as ligações prediais até sua destinação final para produção de água de reúso ou seu lançamento de forma adequada no meio ambiente.",
+            "C": "limpeza urbana e manejo de resíduos sólidos: constituídos pelas atividades e pela disponibilização e manutenção de infraestruturas e instalações operacionais de coleta, varrição manual e mecanizada, asseio e conservação urbana, transporte, transbordo, tratamento e destinação final ambientalmente adequada dos resíduos sólidos domiciliares e dos resíduos de limpeza urbana.",
+            "D": "drenagem e manejo das águas pluviais urbanas: constituídos pelas atividades, pela infraestrutura e pelas instalações operacionais de drenagem de águas pluviais, transporte, detenção ou retenção para o amortecimento de vazões de cheias, tratamento e disposição final das águas pluviais drenadas, contempladas a limpeza e a fiscalização preventiva das redes.",
+            "E": "produção de energia elétrica: constituída pelas atividades e pela disponibilização e manutenção de infraestruturas e instalações operacionais necessárias à geração, transmissão e distribuição de energia elétrica, desde a captação de recursos naturais até a entrega da energia aos consumidores finais."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Saneamento básico abrange abastecimento de água, esgotamento sanitário, limpeza urbana e manejo de resíduos sólidos, e drenagem pluvial urbana. A produção de energia elétrica não faz parte dos serviços de saneamento básico."
+    },
+    {
+        "id": "1547600",
+        "enunciado": "Assinale a alternativa que complete a lacuna. A fossa ______ é comum nas residências, ela é um tanque impermeável que separa o esgoto bruto retendo-o, evitando que seja lançado diretamente na rede coletora, fazendo assim um tratamento primário do efluente, o que gera lodo no seu fundo.",
+        "alternativas": {
+            "A": "séptica",
+            "B": "seca",
+            "C": "absorvente",
+            "D": "negra"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. A fossa séptica é um tanque impermeável que realiza o tratamento primário do esgoto, retendo sólidos e gerando lodo, sendo comum em residências."
+    },
+    {
+        "id": "1547602",
+        "enunciado": "Durante algumas semanas chuvosas em uma rua de São Carlos, foi identificado uma grande quantidade de água, que possui mau cheiro, percorrendo a sarjeta. A respeito deste fato verificado, qual das informações não possui relação com o ocorrido?",
+        "alternativas": {
+            "A": "Um bueiro, possivelmente, extravasou.",
+            "B": "A água da chuva pode ter entrado na tubulação errada.",
+            "C": "Os dispositivos de limpeza podem estar obstruídos por sujeira.",
+            "D": "É uma possibilidade, ser período de seca."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Mau cheiro e água em sarjeta indicam problemas de esgoto ou obstrução, relacionados a períodos chuvosos. Um período de seca é o oposto do cenário descrito, não tendo relação com o ocorrido."
+    },
+    {
+        "id": "1547606",
+        "enunciado": "Água da chuva que escorre pela sarjeta e vai para dentro da boca de lobo:",
+        "alternativas": {
+            "A": "É água pluvial e está na destinação correta.",
+            "B": "É água pluvial e está na destinação incorreta.",
+            "C": "É água fluvial e está na destinação correta.",
+            "D": "É água fluvial e está na destinação incorreta."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. A água que escorre pela sarjeta e entra na boca de lobo é água pluvial, e sua destinação para o sistema de drenagem urbana é a correta."
+    },
+    {
+        "id": "1198230",
+        "enunciado": "Assinale a alternativa CORRETA que corresponde qual é a principal desvantagem dos sistemas de coleta por gravidade em topografias planas:",
+        "alternativas": {
+            "A": "Necessidade de estações elevatórias frequentes.",
+            "B": "Redução da eficiência na remoção de odores.",
+            "C": "Maior custo de instalação.",
+            "D": "Dificuldade na manutenção.",
+            "E": "Elevado consumo de energia."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sistemas de coleta por gravidade em terrenos planos requerem desnível para o fluxo. Em topografias planas, isso é frequentemente inviável, exigindo estações elevatórias bombeando os efluentes para pontos mais altos."
+    },
+    {
+        "id": "1893746",
+        "enunciado": "O saneamento básico é a junção de abastecimento de água, coleta e tratamento de esgotos, drenagem urbana e coleta e disposição de resíduos sólidos. Uma alternativa existente à coleta e tratamento de esgotos é o sistema fossa-filtro-sumidouro. Sobre este sistema, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "A fossa recebe somente materiais sólidos",
+            "B": "A fossa separa materiais sólidos de líquidos",
+            "C": "O filtro permite que os materiais sólidos passem para o sumidouro",
+            "D": "A função do sumidouro é semelhante a da fossa, pois permite que haja infiltração de materiais sólidos no solo"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A fossa é a etapa inicial do sistema fossa-filtro-sumidouro que separa os resíduos sólidos dos líquidos. O filtro retém sólidos e o sumidouro permite a infiltração dos líquidos tratados."
+    },
+    {
+        "id": "2066026",
+        "enunciado": "A tubulação de esgoto que conecta o imóvel do consumidor à rede pública é conhecida como:",
+        "alternativas": {
+            "A": "Ligante predial",
+            "B": "Conector predial",
+            "C": "Ramal predial",
+            "D": "Conexão predial"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O ramal predial é a tubulação responsável por conectar a instalação interna de um imóvel à rede pública de esgoto."
+    },
+    {
+        "id": "2066027",
+        "enunciado": "Para evitar refluxo de esgoto para o interior dos imóveis, o DAE orienta que deve ser instalado um dispositivo na caixa de inspeção no passeio público. O nome desse dispositivo é:",
+        "alternativas": {
+            "A": "Válvula borboleta de esgoto",
+            "B": "Dispositivo de esgoto",
+            "C": "Dispositivo de retenção de esgoto",
+            "D": "Válvula de retenção de esgoto"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A válvula de retenção de esgoto impede o fluxo reverso do esgoto, evitando que retorne para os imóveis através da rede de esgotamento sanitário."
+    },
+    {
+        "id": "2066029",
+        "enunciado": "Quais dos ambientes de um imóvel listados a seguir podem ter seu esgoto encaminhado à rede pública de esgotamento sanitário?",
+        "alternativas": {
+            "A": "Área de serviço coberta, banheiros e cozinha",
+            "B": "Área de serviço coberta, garagem descoberta e cozinha",
+            "C": "Banheiros, cozinha e garagem descoberta",
+            "D": "Sacada descoberta, banheiros e cozinha"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Todos os ambientes listados em A (área de serviço coberta, banheiros e cozinha) geralmente possuem esgoto com características que permitem o encaminhamento à rede pública, diferente de áreas como garagens descobertas."
+    },
+    {
+        "id": "2066032",
+        "enunciado": "Ao longo dos anos, vários materiais foram utilizados na fabricação de tubos para redes de água potável. Quais destes materiais podem ser encontrados em redes existentes?",
+        "alternativas": {
+            "A": "Aço e poliéster",
+            "B": "Aço e ferro fundido",
+            "C": "Fibrocimento e poliéster",
+            "D": "PVC e PEX"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Materiais como aço e ferro fundido foram amplamente utilizados em redes antigas de água potável e ainda podem ser encontrados em redes existentes. Aço e poliester, fibrocimento e poliéster, PVC e PEX são materiais mais recentes ou com usos específicos diferentes."
+    },
+    {
+        "id": "2066034",
+        "enunciado": "Qual o nome do equipamento utilizado para detectar vazamentos ocultos, muitas vezes chamado “caça-vazamentos”?",
+        "alternativas": {
+            "A": "Megafone",
+            "B": "Microfone",
+            "C": "Geofone",
+            "D": "Amplofone"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O geofone é um aparelho sensível utilizado em engenharia civil e geologia para detectar sons subterrâneos, como vazamentos em tubulações de água."
+    },
+    {
+        "id": "2066036",
+        "enunciado": "No saneamento, o que significa a sigla “m.c.a”, e a que grandeza a mesma se refere?",
+        "alternativas": {
+            "A": "Medida capacitiva ativa, se refere à velocidade.",
+            "B": "Metros cúbicos de água, se refere ao volume.",
+            "C": "Metros de coluna d’água, se refere à vazão.",
+            "D": "Metros de coluna d’água, se refere à pressão."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A sigla 'm.c.a.' refere-se a Metros de Coluna d'água, uma unidade de medida utilizada para expressar a pressão em sistemas hidráulicos, como em redes de saneamento."
+    },
+    {
+        "id": "2278434",
+        "enunciado": "A rede pública de abastecimento de água opera sob condições específicas para garantir o fornecimento adequado às edificações. Sobre estas redes, registre V (Verdadeiro) ou F (Falso): (__ )A rede de distribuição de água, assim como a rede de esgoto, opera como um conduto forçado, ou seja, com a tubulação totalmente cheia de água e sob pressão. (__ )A pressão na rede pública deve ser alta o suficiente para abastecer diretamente os reservatórios inferiores (cisternas) das edificações. (__ )O tratamento da água (floculação, decantação, filtração, cloração) ocorre na Estação de Tratamento de Esgoto (ETE). (__ )As ligações prediais (ramais) são as tubulações que conectam a rede de distribuição pública ao hidrômetro do imóvel. Após análise, assinale a alternativa que apresenta a sequência correta dos itens acima, de cima para baixo:",
+        "alternativas": {
+            "A": "V, V, V, F.",
+            "B": "F, V, F, V.",
+            "C": "V, V, F, V.",
+            "D": "V, F, V, F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A rede de água opera sob pressão (conduto forçado), logo a primeira está F. A pressão da rede pública não é alta o suficiente para subir diretamente para reservatórios inferiores; a pressão é para abastecer as redes de distribuição. O tratamento ocorre na ETE. As ligações prediais conectam a rede de distribuição ao padrão de entrada do imóvel, e não especificamente ao hidrômetro. Portanto, F, V, F, V."
+    },
+    {
+        "id": "2278439",
+        "enunciado": "Um morador reclama de mau cheiro constante vindo do ralo do banheiro, mesmo após realizar a limpeza do local. Qual componente da instalação de esgoto sanitário provavelmente está com defeito ou seco, permitindo o retorno dos gases?",
+        "alternativas": {
+            "A": "O tubo de queda.",
+            "B": "O sifão (ou fecho hídrico).",
+            "C": "A caixa de passagem.",
+            "D": "A coluna de ventilação."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O sifão (ou fecho hídrico) é um componente em forma de 'U' que retém água, formando uma barreira física e química contra o retorno de gases e odores do esgoto para o ambiente interno da edificação."
+    },
+    {
+        "id": "2066044",
+        "enunciado": "Qual destes tipos de registro deve ser utilizado para controlar o fluxo de água em um chuveiro doméstico?",
+        "alternativas": {
+            "A": "Registro de gaveta",
+            "B": "Registro plástico",
+            "C": "Registro de pressão",
+            "D": "Registro de manobra"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O registro de pressão permite controlar o vazão de água de forma mais precisa, ideal para chuveiros onde se deseja regular a intensidade do fluxo."
+    },
+    {
+        "id": "2294308",
+        "enunciado": "Em sistemas de esgotamento sanitário, a função principal do interceptor é:",
+        "alternativas": {
+            "A": "encaminhar grandes vazões para tratamento.",
+            "B": "remover sólidos antes da chegada à estação.",
+            "C": "armazenar temporariamente os efluentes.",
+            "D": "permitir a ventilação da rede coletora."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Interceptores sao dispositivos que retiram solidos grossos do esgoto antes que cheguem a estacao de tratamento, protegendo os equipamentos e melhorando a eficiencia."
+    },
+    {
+        "id": "2066046",
+        "enunciado": "Equipamentos como lavatórios e vasos sanitários devem possuir sifão. Qual a função deste elemento?",
+        "alternativas": {
+            "A": "Permitir o correto escoamento da água",
+            "B": "Evitar o acúmulo de resíduos no ralo",
+            "C": "Impedir que gases e odores provenientes da tubulação de esgoto retornem para o ambiente interno do imóvel",
+            "D": "Diminuir o consumo de água"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O sifão armazena água, formando um selo hídrico que impede o retorno de gases e maus odores da rede de esgoto para o ambiente interno do imóvel."
+    },
+    {
+        "id": "2278444",
+        "enunciado": "Um fiscal de obras e posturas observa que o proprietário de uma nova casa está conectando o tubo da calha (água da chuva) diretamente na tubulação de esgoto sanitário. Por que esta prática é estritamente proibida (sistema separador absoluto)?",
+        "alternativas": {
+            "A": "Porque o esgoto doméstico pode contaminar a água da chuva no telhado, impedindo seu reuso pelo proprietário.",
+            "B": "Porque a água da chuva, por ser ácida, pode dissolver o PVC branco da rede de esgoto, causando vazamentos estruturais.",
+            "C": "Porque a pressão da água da chuva é muito alta e pode causar o rompimento dos tubos de esgoto, que trabalham por gravidade.",
+            "D": "Porque sobrecarrega a rede pública de esgoto e a Estação de Tratamento de Esgoto (ETE), que não foram dimensionadas para receber o volume da chuva."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A prática é proibida pois a água da chuva aumenta o volume de esgoto, sobrecarregando as redes coletoras e as Estações de Tratamento de Esgoto (ETE), que não são projetadas para esse acréscimo de vazão e carga."
+    },
+    {
+        "id": "2066048",
+        "enunciado": "Um equipamento muito utilizado no reaterro de valas é conhecido como “sapo”. Qual o nome técnico desse equipamento?",
+        "alternativas": {
+            "A": "Preparador de solos",
+            "B": "Arejador de solos",
+            "C": "Cortador de solos",
+            "D": "Compactador de solos"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O equipamento popularmente conhecido como 'sapo' no reaterro de valas é tecnicamente um compactador de solos, utilizado para adensar o material e evitar futuras depressões."
+    },
+    {
+        "id": "2066049",
+        "enunciado": "Quais os sentidos corretos de abertura e fechamento de um registro de gaveta, respectivamente?",
+        "alternativas": {
+            "A": "Horário e anti-horário",
+            "B": "Anti-horário e horário",
+            "C": "Anti-horário e anti-horário",
+            "D": "Horário e horário"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O registro de gaveta padrão é aberto girando no sentido anti-horário e fechado girando no sentido horário. Essa convenção facilita a identificação da operação correta em sistemas de tubulação."
+    },
+    {
+        "id": "2323646",
+        "enunciado": "O local onde a água tratada é armazenada para ser distribuída à população conforme a demanda é o(a):",
+        "alternativas": {
+            "A": "Reservatório.",
+            "B": "Caixa d´água.",
+            "C": "Galpão.",
+            "D": "Sistema de captação.",
+            "E": "Poço."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O local destinado ao armazenamento de água tratada para distribuição conforme a demanda é o reservatório. Caixa d'água é um termo mais genérico e pode se referir a reservatórios menores."
+    },
+    {
+        "id": "2305202",
+        "enunciado": "Em sistemas de abastecimento de água, a etapa de desinfecção é essencial para garantir a potabilidade. Qual dos agentes abaixo é mais comumente utilizado para essa finalidade, devido à sua eficácia microbiológica e capacidade de manter residual no sistema de distribuição?",
+        "alternativas": {
+            "A": "Alumínio polimerizado.",
+            "B": "Cloro gasoso.",
+            "C": "Sulfato de ferro.",
+            "D": "Carvão ativado."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O cloro gasoso é amplamente usado na desinfecção de água por sua eficácia contra microrganismos e por formar o íon hipoclorito, que se mantém residual no sistema, protegendo a água por mais tempo."
+    },
+    {
+        "id": "1147199",
+        "enunciado": "Para se garantir nitrificação, a idade do lodo, relativa apenas à parte do lodo ativado sob aeração (idade do lodo aeróbia), deve ser igual ou superior a 5 dias para esgoto bruto ou decantado e igual ou superior a_____para efluente de reator anaeróbio, para temperatura de 20 °C, no tanque de aeração. Assinale a alternativa CORRETA que preenche a lacuna acima.",
+        "alternativas": {
+            "A": "dez dias",
+            "B": "doze dias",
+            "C": "oito dias",
+            "D": "vinte dias"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para garantir a nitrificacao com efluente de reator anaerobio, a idade do lodo aerobia deve ser igual ou superior a 8 dias a 20°C."
+    },
+    {
+        "id": "1147202",
+        "enunciado": "A remoção de sólidos grosseiros pode ser feita através de grades de barras e de peneiras. A vazão de dimensionamento das grades e peneiras deve ser a vazão máxima afluente à unidade. É CORRETO afirmar que a grade fina tem espaçamento de: .",
+        "alternativas": {
+            "A": "10 a 20 mm.",
+            "B": "30 a 40 mm.",
+            "C": "02 a 03 mm.",
+            "D": "60 a 80 mm."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Grades finas em sistemas de tratamento de esgoto possuem um espaçamento pequeno, tipicamente entre 2 a 3 mm, para remover solidos grosseiros."
+    },
+    {
+        "id": "1154654",
+        "enunciado": "São componentes que podem compor um sistema de tubulação de esgoto, exceto:",
+        "alternativas": {
+            "A": "Caixa de gordura.",
+            "B": "Poço de visita.",
+            "C": "Caixa de passagem.",
+            "D": "Caixa monofásica."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Caixa monofásica é um componente elétrico usado para distribuição de energia, não tendo relação com sistemas de tubulação de esgoto. As demais opções são elementos comuns em redes de esgoto."
+    },
+    {
+        "id": "1154655",
+        "enunciado": "___________ é o equipamento utilizado para identificar vazamentos na tubulação sem danificar pisos e paredes.",
+        "alternativas": {
+            "A": "Torquês",
+            "B": "Plaina",
+            "C": "Alicate Bomba D'Água",
+            "D": "Geofone"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O Geofone é um equipamento acústico que capta vibrações e sons, sendo ideal para detectar vazamentos em tubulações subterrâneas sem necessidade de perfurar pisos ou paredes."
+    },
+    {
+        "id": "1154657",
+        "enunciado": "São sintomas de que a rede hidráulica possa precisar de manutenção ou reparo, exceto:",
+        "alternativas": {
+            "A": "Acúmulo de água excessivo.",
+            "B": "Desplacamento de telhas.",
+            "C": "Umidade presente em parede.",
+            "D": "Estufamento de azulejos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Desplacamento de telhas não é um sintoma direto de problemas na rede hidráulica, mas sim de problemas na cobertura ou estrutura. Os demais sintomas indicam infiltração ou vazamento."
+    },
+    {
+        "id": "1154658",
+        "enunciado": "Qual das alternativas apresenta a ordem correta das etapas de tratamento de esgoto?",
+        "alternativas": {
+            "A": "Gradeamento, decantação, tratamento biológico, caixa de areia e desinfecção.",
+            "B": "Decantação, caixa de areia, tratamento biológico, desinfecção e gradeamento.",
+            "C": "Gradeamento, caixa de areia, tratamento biológico, decantação e desinfecção.",
+            "D": "Caixa de areia, tratamento biológico, gradeamento, decantação e desinfecção."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A ordem correta do tratamento de esgoto envolve a remoção de sólidos grosseiros (gradeamento), seguida pela remoção de areia (caixa de areia), depois o tratamento biológico para decompor matéria orgânica, decantação para remover sólidos suspensos e, por fim, a desinfecção para eliminar microrganismos patogênicos."
+    },
+    {
+        "id": "1547650",
+        "enunciado": "Uma Estação Elevatória de Esgoto, (EEE), convencional, é composta por um poço de recebimento, armazenamento e bombeamento de esgoto, um conjunto motor-bombas com seus dispositivos de partida e gradeamento para retenção de sólidos grosseiros e preservação da bomba. Partindo disso, assinale a alternativa que melhor descreve a definição de uma bomba submersível.",
+        "alternativas": {
+            "A": "Uma bomba submersível é um dispositivo vinculado a um motor fechado e vedado. Nesse tipo de sistema, a bomba se encontra totalmente submersa no líquido a ser processado e injeta energia no sistema bombeando o efluente de um ponto de menor altitude até um de maior.",
+            "B": "Uma bomba submersível é o dispositivo responsável por armazenar a contribuição afluente de esgoto ou de águas pluviais em regiões de alto desnível na rede, promovendo o equilíbrio de pressão entre o ponto de menor altitude e o de maior.",
+            "C": "Uma bomba submersível é um dispositivo acoplado a um motor totalmente exposto ao líquido. Nesse tipo de sistema, a bomba se encontra totalmente emersa ao líquido a ser processado e injeta energia no sistema recalcando o efluente até um ponto de menor altitude.",
+            "D": "Uma bomba submersível é o dispositivo responsável por reter a contribuição afluente de esgoto ou de águas pluviais em regiões de baixo desnível na rede, injetando energia através da diferença de pressão do ponto de maior altitude para o de menor, minimizando o risco de extravasamento na via pública."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. Uma bomba submersível é um conjunto motor-bomba selado, projetado para operar totalmente imerso no líquido, recalca o fluido de um nível inferior para um superior."
+    },
+    {
+        "id": "1198214",
+        "enunciado": "Assinale a alternativa CORRETA que corresponde quais um dos principais critérios considerados na escolha do diâmetro das tubulações de esgoto em um sistema de coleta:",
+        "alternativas": {
+            "A": "Altura da lâmina d'água e temperatura do esgoto.",
+            "B": "Distância até a estação de tratamento e topografia do terreno.",
+            "C": "População atendida e vazão máxima esperada.",
+            "D": "Carga orgânica e concentração de sólidos suspensos.",
+            "E": "Tipo de solo e profundidade do lençol freático."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O dimensionamento de tubulações de esgoto considera fatores como a população a ser atendida e a vazão máxima esperada para garantir a eficiência do sistema de coleta e evitar obstruções."
+    },
+    {
+        "id": "1843702",
+        "enunciado": "A seguir são apresentados o conjunto de serviços públicos, infraestruturas e instalações operacionais de saneamento básico, exceto:",
+        "alternativas": {
+            "A": "abastecimento de água potável: constituído pelas atividades e pela disponibilização e manutenção de infraestruturas e instalações operacionais necessárias ao abastecimento público de água potável, desde a captação até as ligações prediais e seus instrumentos de medição.",
+            "B": "esgotamento sanitário: constituído pelas atividades e pela disponibilização e manutenção de infraestruturas e instalações operacionais necessárias à coleta, ao transporte, ao tratamento e à disposição final adequados dos esgotos sanitários, desde as ligações prediais até sua destinação final para produção de água de reúso ou seu lançamento de forma adequada no meio ambiente.",
+            "C": "limpeza urbana e manejo de resíduos sólidos: constituídos pelas atividades e pela disponibilização e manutenção de infraestruturas e instalações operacionais de coleta, varrição manual e mecanizada, asseio e conservação urbana, transporte, transbordo, tratamento e destinação final ambientalmente adequada dos resíduos sólidos domiciliares e dos resíduos de limpeza urbana.",
+            "D": "drenagem e manejo das águas pluviais urbanas: constituídos pelas atividades, pela infraestrutura e pelas instalações operacionais de drenagem de águas pluviais, transporte, detenção ou retenção para o amortecimento de vazões de cheias, tratamento e disposição final das águas pluviais drenadas, contempladas a limpeza e a fiscalização preventiva das redes.",
+            "E": "produção de energia elétrica: constituída pelas atividades e pela disponibilização e manutenção de infraestruturas e instalações operacionais necessárias à geração, transmissão e distribuição de energia elétrica, desde a captação de recursos naturais até a entrega da energia aos consumidores finais."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Saneamento básico abrange abastecimento de água, esgotamento sanitário, limpeza urbana e manejo de resíduos sólidos, e drenagem pluvial urbana. A produção de energia elétrica não faz parte dos serviços de saneamento básico."
+    },
+    {
+        "id": "1547600",
+        "enunciado": "Assinale a alternativa que complete a lacuna. A fossa ______ é comum nas residências, ela é um tanque impermeável que separa o esgoto bruto retendo-o, evitando que seja lançado diretamente na rede coletora, fazendo assim um tratamento primário do efluente, o que gera lodo no seu fundo.",
+        "alternativas": {
+            "A": "séptica",
+            "B": "seca",
+            "C": "absorvente",
+            "D": "negra"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. A fossa séptica é um tanque impermeável que realiza o tratamento primário do esgoto, retendo sólidos e gerando lodo, sendo comum em residências."
+    },
+    {
+        "id": "1547602",
+        "enunciado": "Durante algumas semanas chuvosas em uma rua de São Carlos, foi identificado uma grande quantidade de água, que possui mau cheiro, percorrendo a sarjeta. A respeito deste fato verificado, qual das informações não possui relação com o ocorrido?",
+        "alternativas": {
+            "A": "Um bueiro, possivelmente, extravasou.",
+            "B": "A água da chuva pode ter entrado na tubulação errada.",
+            "C": "Os dispositivos de limpeza podem estar obstruídos por sujeira.",
+            "D": "É uma possibilidade, ser período de seca."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Mau cheiro e água em sarjeta indicam problemas de esgoto ou obstrução, relacionados a períodos chuvosos. Um período de seca é o oposto do cenário descrito, não tendo relação com o ocorrido."
+    },
+    {
+        "id": "1547606",
+        "enunciado": "Água da chuva que escorre pela sarjeta e vai para dentro da boca de lobo:",
+        "alternativas": {
+            "A": "É água pluvial e está na destinação correta.",
+            "B": "É água pluvial e está na destinação incorreta.",
+            "C": "É água fluvial e está na destinação correta.",
+            "D": "É água fluvial e está na destinação incorreta."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. A água que escorre pela sarjeta e entra na boca de lobo é água pluvial, e sua destinação para o sistema de drenagem urbana é a correta."
+    },
+    {
+        "id": "1198230",
+        "enunciado": "Assinale a alternativa CORRETA que corresponde qual é a principal desvantagem dos sistemas de coleta por gravidade em topografias planas:",
+        "alternativas": {
+            "A": "Necessidade de estações elevatórias frequentes.",
+            "B": "Redução da eficiência na remoção de odores.",
+            "C": "Maior custo de instalação.",
+            "D": "Dificuldade na manutenção.",
+            "E": "Elevado consumo de energia."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sistemas de coleta por gravidade em terrenos planos requerem desnível para o fluxo. Em topografias planas, isso é frequentemente inviável, exigindo estações elevatórias bombeando os efluentes para pontos mais altos."
+    },
+    {
+        "id": "1893746",
+        "enunciado": "O saneamento básico é a junção de abastecimento de água, coleta e tratamento de esgotos, drenagem urbana e coleta e disposição de resíduos sólidos. Uma alternativa existente à coleta e tratamento de esgotos é o sistema fossa-filtro-sumidouro. Sobre este sistema, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "A fossa recebe somente materiais sólidos",
+            "B": "A fossa separa materiais sólidos de líquidos",
+            "C": "O filtro permite que os materiais sólidos passem para o sumidouro",
+            "D": "A função do sumidouro é semelhante a da fossa, pois permite que haja infiltração de materiais sólidos no solo"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A fossa é a etapa inicial do sistema fossa-filtro-sumidouro que separa os resíduos sólidos dos líquidos. O filtro retém sólidos e o sumidouro permite a infiltração dos líquidos tratados."
+    },
+    {
+        "id": "1004893",
+        "enunciado": "Parte da tubulação que recebe os efluentes dos ramais de descarga e conduz a um subcoletor, ou mesmo a um tubo de queda:",
+        "alternativas": {
+            "A": "Ramal de ventilação;",
+            "B": "Ramal de esgoto;",
+            "C": "Sub-ramal;",
+            "D": "Coletor.",
+            "E": "Coluna d'água"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O ramal de esgoto é a tubulação que coleta efluentes de ramais de descarga e os direciona para subcoletores ou tubos de queda em sistemas de esgoto."
+    },
+    {
+        "id": "1004894",
+        "enunciado": "Caixa onde se reúnem os efluentes líquidos, cuja disposição exija elevação mecânica, devido às condições do terreno e o partido arquitetônico adotado muitas vezes, no todo ou em parte, as instalações se situam em nível inferior ao coletor público assim a condução deste esgoto ao coletor, só se fará através de dispositivo mecânico de elevação:",
+        "alternativas": {
+            "A": "Caixa de gordura.",
+            "B": "Caixa de inspeção.",
+            "C": "Caixa coletora.",
+            "D": "Caixa d'água",
+            "E": "Caixa de ventilação."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A caixa coletora é um dispositivo que acumula efluentes líquidos e utiliza um sistema de elevação mecânica quando não pode impulsionar o esgoto diretamente para o coletor público devido ao nível do terreno ou partido arquitetônico."
+    },
+    {
+        "id": "1004898",
+        "enunciado": "Bacias sanitárias podem ser desentupidas pelo meio mais simples e eficaz, que pressuriza o sifão da bacia promovendo a desobstrução:",
+        "alternativas": {
+            "A": "O uso de uma bomba de borracha.",
+            "B": "Haste flexível.",
+            "C": "Arame.",
+            "D": "Coca-Cola.",
+            "E": "Soda cáustica."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A bomba de borracha, conhecida como desentupidor, cria sucção e pressão no sifão da bacia sanitária, sendo um método simples e eficaz para desobstruir."
+    },
+    {
+        "id": "1024570",
+        "enunciado": "Consiste na atividade de coleta e tratamento de esgoto, limpeza urbana, manejo de resíduos sólidos e controle de pragas, assim como qualquer tipo de agente patogênico, visando à saúde das comunidades:",
+        "alternativas": {
+            "A": "Dedetização;",
+            "B": "Tratamento de água;",
+            "C": "Reciclagem do lixo;",
+            "D": "Saneamento básico."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O saneamento básico abrange a coleta e tratamento de esgoto, limpeza urbana, manejo de resíduos sólidos e controle de pragas, visando à saúde pública."
+    },
+    {
+        "id": "1044086",
+        "enunciado": "Em um sistema convencional de abastecimento de  água urbano, temos a unidade de Adução, que é a:",
+        "alternativas": {
+            "A": "Estrutura para retirada de água do manancial abastecedor (fonte de onde se retira a água).",
+            "B": "Canalização de transporte da água entre as diversas unidades do sistema.",
+            "C": "Retirada das impurezas indesejáveis ao emprego final da água.",
+            "D": "Condução através de canalizações até os pontos de consumo."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A unidade de Adução em um sistema de abastecimento de água é a estrutura responsável por captar a água bruta de sua fonte (manancial). A canalização de transporte é a adutora (B), a retirada de impurezas é o tratamento (C), e a condução até o consumo é a distribuição (D)."
+    },
+    {
+        "id": "1044087",
+        "enunciado": "A válvula de retenção para esgoto tem como função:",
+        "alternativas": {
+            "A": "Impedir o refluxo de esgotos públicos.",
+            "B": "Ativar o regresso de esgotos.",
+            "C": "Diminuir o volume do esgoto produzido.",
+            "D": "Só para a passagem de água."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A válvula de retenção para esgoto impede que o esgoto público retorne para a rede interna de um imóvel, evitando refluxos e mau cheiros. As outras opções descrevem funções incorretas ou inexistentes para esse tipo de válvula."
+    },
+    {
+        "id": "1044088",
+        "enunciado": "Os tubetes e porcas para conexão do hidrômetro são de qual material?",
+        "alternativas": {
+            "A": "Liga de ferro fundido.",
+            "B": "De aço carbono.",
+            "C": "Liga de cobre.",
+            "D": "PVC."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Componentes para conexão de hidrômetros, como tubetes e porcas, geralmente são feitos de ligas de cobre, que oferecem boa resistência à corrosão e durabilidade em ambientes úmidos. As outras opções não são comuns para essa finalidade específica."
+    },
+    {
+        "id": "1044089",
+        "enunciado": "Componente do dispositivo medidor que transfere o movimento do dispositivo sensor ao dispositivo totalizador. Trata-se de:",
+        "alternativas": {
+            "A": "Dispositivo sensor.",
+            "B": "Dispositivo de transmissão.",
+            "C": "Dispositivo medidor.",
+            "D": "Dispositivo totalizador."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O dispositivo de transmissão em um hidrômetro é o responsável por levar o movimento gerado pelo fluxo de água (dispositivo sensor) até o mostrador (dispositivo totalizador), permitindo assim a medição."
+    },
+    {
+        "id": "1044090",
+        "enunciado": "Em um sistema convencional de abastecimento de água urbano, temos a unidade de tratamento, que é a:",
+        "alternativas": {
+            "A": "Estrutura para retirada de água do manancial abastecedor (fonte de onde se retira a água).",
+            "B": "Canalização de transporte da água entre as diversas unidades do sistema.",
+            "C": "Retirada das impurezas indesejáveis ao emprego final da água.",
+            "D": "Condução através de canalizações até os pontos de consumo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A unidade de tratamento em um sistema de abastecimento de água é o local onde a água bruta passa por processos físico-químicos para remover impurezas e torná-la potável, adequada ao consumo humano."
+    },
+    {
+        "id": "1044091",
+        "enunciado": "Qual a função da bomba de recalque?",
+        "alternativas": {
+            "A": "Suprir perdas ao longo do conduto.",
+            "B": "Diminuir a velocidade ao longo do conduto.",
+            "C": "Aumentar a velocidade do conduto.",
+            "D": "Evitar manutenções exaustivas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A bomba de recalque é utilizada em sistemas de abastecimento para aumentar a pressão da água, compensando perdas de carga ao longo do conduto e garantindo que a água chegue com a pressão adequada aos pontos de consumo, muitas vezes em locais mais altos."
+    },
+    {
+        "id": "1044092",
+        "enunciado": "Quociente entre o volume de água que atravessa o medidor e o tempo de passagem deste volume. Trata-se de:",
+        "alternativas": {
+            "A": "Consumo.",
+            "B": "Pressão.",
+            "C": "Vazão.",
+            "D": "Despejo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Vazão é a relação entre o volume de um fluido que passa por uma determinada seção e o tempo que essa passagem leva. É uma medida fundamental para entender o fluxo de água em sistemas."
+    },
+    {
+        "id": "1044093",
+        "enunciado": "É utilizada no cavalete do hidrômetro, servindo para bloquear a entrada de água no imóvel. Estamos falando de:",
+        "alternativas": {
+            "A": "Registro tripartido.",
+            "B": "Tampão de cilindro.",
+            "C": "Válvula de Esfera.",
+            "D": "Registro bipartido."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A válvula de esfera é comumente utilizada no cavalete do hidrômetro, servindo como registro principal para controlar o fluxo de água que entra no imóvel e possibilitar o bloqueio."
+    },
+    {
+        "id": "1044094",
+        "enunciado": "Componente do dispositivo medidor destinado a indicar e totalizar o volume de água medido pelo hidrômetro. Trata-se de:",
+        "alternativas": {
+            "A": "Dispositivo sensor.",
+            "B": "Dispositivo de transmissão.",
+            "C": "Dispositivo medidor.",
+            "D": "Dispositivo totalizador."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O dispositivo totalizador em um hidrômetro é o conjunto de mostradores (geralmente um ponteiro e números) que registra e exibe a quantidade total de água que passou pelo medidor."
+    },
+    {
+        "id": "1044097",
+        "enunciado": "Parte da ligação de água, formado por um conjunto de segmentos de tubo, conexões, registro, tubetes, porcas e guarnições, destinado à instalação do hidrômetro, em posição afastada do piso. Trata-se de:",
+        "alternativas": {
+            "A": "Valva.",
+            "B": "Guarnição.",
+            "C": "Cavalete.",
+            "D": "Esquadria."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O cavalete é o conjunto de peças e tubulações instalado na entrada do imóvel, antes do hidrômetro, que permite a conexão com a rede pública e a instalação do medidor de água."
+    },
+    {
+        "id": "1044099",
+        "enunciado": "Em um sistema convencional de abastecimento de água urbano, temos a unidade de distribuição, que é a:",
+        "alternativas": {
+            "A": "Estrutura para retirada de água do manancial abastecedor (fonte de onde se retira a água).",
+            "B": "Canalização de transporte da água entre as diversas unidades do sistema.",
+            "C": "Retirada das impurezas indesejáveis ao emprego final da água.",
+            "D": "Condução através de canalizações até os pontos de consumo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A unidade de distribuição em um sistema de abastecimento de água é responsável por transportar a água tratada através de uma rede de canalizações até os consumidores finais nos pontos de uso."
+    },
+    {
+        "id": "1044100",
+        "enunciado": "Os hidrômetros, apesar de informarem volume, são selecionados por sua capacidade de vazão que é expressa em:",
+        "alternativas": {
+            "A": "m³/h.",
+            "B": "ml³/h.",
+            "C": "m2/h.",
+            "D": "ml2/h."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Embora os hidrômetros meçam volume, sua capacidade de vazão é especificada em metros cúbicos por hora (m³/h), indicando o volume máximo de água que pode passar pelo medidor em um determinado período."
+    }
+]

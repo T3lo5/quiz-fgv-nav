@@ -1,0 +1,1134 @@
+[
+    {
+        "id": "1743800",
+        "enunciado": "A série Landsat gerou a maior base de imagens orbitais do mundo, tanto em termos de abrangência espacial, quanto em termos temporais. Dentre as características dos sistemas sensores dessa série, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "MSS, a bordo do Landsat-5, foi o responsável pelo maior período de imageamento da série e ainda se encontra em operação.",
+            "B": "OLI, a bordo do Landsat-8, melhora a geometria interna das imagens, pois muda o modelo de aquisição de sensores whiskbroom para pushbroom.",
+            "C": "ETM+, a bordo do Landsat-8, registra a radiação eletromagnética refletida pelos alvos da superfície terrestre em sete faixas ou bandas espectrais.",
+            "D": "TIRS, a bordo do Landsat-7, representa um melhor desempenho radiométrico no imageamento dos alvos terrestres.",
+            "E": "MSI, a bordo do Landsat-9, incrementa o número de bandas espectrais para um total de 13, incluindo red-edge."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O OLI (Operational Land Imager) no Landsat-8 utiliza uma arquitetura pushbroom, que coleta dados linha por linha simultaneamente, melhorando a geometria interna da imagem em comparação com sistemas whiskbroom."
+    },
+    {
+        "id": "1743802",
+        "enunciado": "As resoluções de um sensor orbital estão em consonância com algumas características utilizadas no sensoriamento remoto para o monitoramento terrestre. Assim, a maneira CORRETA de indicar que a maior capacidade de um sensor registrar a menor unidade de uma imagem (pixel), seria:",
+        "alternativas": {
+            "A": "Radiométrica.",
+            "B": "Estereoscópica.",
+            "C": "Espectral.",
+            "D": "Temporal.",
+            "E": "Espacial."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A resolução espacial de um sensor se refere à menor unidade de área que ele consegue distinguir em uma imagem, ou seja, o tamanho do pixel. Quanto menor o pixel, maior a capacidade de registrar detalhes."
+    },
+    {
+        "id": "1743804",
+        "enunciado": "Os sensores remotos, em geral, possuem uma característica que determina sua capacidade de quantização na distinção de alguns detalhes dos alvos por meio de níveis de cinza. Sendo assim, um sensor que possui 8 bits na produção da imagem digital apresenta uma variação no gradiente, indo do branco ao preto, possuindo:",
+        "alternativas": {
+            "A": "256 níveis de cinza, variando de 1 a 256.",
+            "B": "512 níveis de cinza, variando de 1 a 512.",
+            "C": "2048 níveis de cinza, variando de 1 a 2048.",
+            "D": "4096 níveis de cinza, variando de 0 a 4095.",
+            "E": "256 níveis de cinza, variando de 0 a 255."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Um sensor com 8 bits pode representar 2^8 = 256 níveis de intensidade. Esses níveis variam de 0 (preto) a 255 (branco), permitindo 256 variações distintas de tons de cinza."
+    },
+    {
+        "id": "2365472",
+        "enunciado": "O principal uso do sensoriamento remoto no monitoramento do desmatamento é:",
+        "alternativas": {
+            "A": "Identificar variações climáticas em escala global.",
+            "B": "Detectar mudanças na cobertura vegetal ao longo do tempo.",
+            "C": "Calcular o fluxo de energia entre ecossistemas.",
+            "D": "Estimar a poluição atmosférica em cidades.",
+            "E": "Medir a umidade do solo em áreas urbanas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O sensoriamento remoto utiliza imagens de satélite para identificar e monitorar alterações na cobertura do solo, sendo a detecção de desmatamento uma de suas principais aplicações."
+    },
+    {
+        "id": "1743806",
+        "enunciado": "No campo do sensoriamento remoto, diferentes plataformas podem ser utilizadas para a coleta de imagens e dados da superfície terrestre, cada uma com suas características e aplicações específicas. Considerando as plataformas de coleta de dados mais comumente usadas nessa área, qual das alternativas a seguir oferece uma descrição mais abrangente dessas tecnologias?",
+        "alternativas": {
+            "A": "Satélite: uma plataforma espacial que orbita a Terra e captura imagens e dados de sensoriamento remoto.",
+            "B": "Drone: um veículo aéreo não tripulado que captura imagens e dados de sensoriamento remoto.",
+            "C": "Satélite, drone, avião ou um equipamento terrestre, onde vai acoplado um sensor capaz de capturar imagens e dados de sensoriamento remoto.",
+            "D": "Avião: uma aeronave tripulada que captura imagens e dados de sensoriamento remoto.",
+            "E": "Balão: veículos aéreos não tripulados preenchidos com gás, capazes de transportar sensores para coleta de dados em locais de difícil acesso."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Essa alternativa abrange a diversidade de plataformas de coleta de dados em sensoriamento remoto, incluindo satélites, drones, aviões e equipamentos terrestres acoplados a sensores, oferecendo a descrição mais completa."
+    },
+    {
+        "id": "1799499",
+        "enunciado": "Na gestão de recursos hídricos em uma bacia hidrográfica, o sensoriamento remoto é amplamente utilizado para monitorar diferentes aspectos do ciclo hidrológico e do uso da terra. Considerando as aplicações de sensoriamento remoto neste contexto, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "Imagens de radar são ineficazes para monitorar inundações, pois a água absorve completamente as ondas de radar, impossibilitando a detecção de áreas alagadas.",
+            "B": "Sensores termais são utilizados exclusivamente para medir a temperatura da superfície da água, não tendo aplicação na avaliação de uso do solo ou evapotranspiração.",
+            "C": "Imagens multiespectrais de alta resolução são a única fonte confiável para mapear o uso e a cobertura do solo em bacias hidrográficas, substituindo completamente o trabalho de campo.",
+            "D": "O sensoriamento remoto por satélite não pode fornecer informações sobre a qualidade da água, limitando-se apenas à detecção de corpos d’água.",
+            "E": "A integração de dados de diferentes sensores, como ópticos e radar, pode fornecer informações complementares sobre a dinâmica hidrológica, cobertura vegetal e uso do solo na bacia."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E está correta. A combinação de dados de sensores ópticos e radar, tanto quanto dados de campo, é fundamental para uma análise completa e integrada da dinâmica hídrica e do uso do solo em bacias."
+    },
+    {
+        "id": "1743810",
+        "enunciado": "A alternativa para descrever as cores de uma imagem decompondo-as nos componentes de Intensidade (I), Hue (matiz) e Saturação (S), estende-se além do seu uso para a obtenção de composições coloridas. O processo de fusão de imagens é feito em dois passos. O primeiro passo segue o mesmo processo para a construção de uma composição colorida no espaço IHS. O segundo passo consiste em reamostrar os componentes H e S para a resolução espacial de uma banda espectral adicional. Seria neste caso CORRETO afirmar que a banda adicional que irá reamostrar é a:",
+        "alternativas": {
+            "A": "Infravermelho Próximo.",
+            "B": "Pancromática.",
+            "C": "Termal.",
+            "D": "Vermelho, Verde e Azul.",
+            "E": "SWIR."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No espaço IHS, a banda adicional utilizada para reamostrar os componentes H e S é geralmente a banda pancromática, que possui alta resolução espacial e permite aprimorar o detalhe espacial das imagens fusionadas."
+    },
+    {
+        "id": "2338983",
+        "enunciado": "O termo usualmente adotado para a obtenção de informações por imagens de satélites é:",
+        "alternativas": {
+            "A": "Aeropoligonação.",
+            "B": "Intersecção fotogramétrica.",
+            "C": "Desenho satelital.",
+            "D": "Agrimensura orbital.",
+            "E": "Sensoriamento remoto."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Sensoriamento remoto é o termo técnico usado para a obtenção de informações sobre a superfície da Terra (ou outros corpos celestes) por meio de sensores instalados em plataformas, como satélites ou aeronaves, sem contato físico."
+    },
+    {
+        "id": "1743812",
+        "enunciado": "Na classificação digital de imagens orbitais a ideia fundamental é de que os agrupamentos são definidos por uma regra de decisão. Por vezes, a regra definida é que os pixels da imagem para serem associados à classe vegetação, por exemplo, têm de ter valores digitais baixos na banda do vermelho e valores digitais altos na banda do infravermelho-próximo. A partir dessa premissa, essas análises de agrupamento, por exemplo, são realizadas por meio dos chamados algoritmos classificadores. Assim, qual classificador é CORRETO afirmar que seria um algoritmo não-supervisionado:",
+        "alternativas": {
+            "A": "K-médias.",
+            "B": "Paralelepípedo.",
+            "C": "Distância mínima.",
+            "D": "Máxima-Verossimilhança.",
+            "E": "Distância Mahalanobis."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O classificador K-médias é um algoritmo não-supervisionado que agrupa pixels em classes com base em sua similaridade de características (cores, radiância), sem a necessidade de amostras de treinamento pré-definidas."
+    },
+    {
+        "id": "1743814",
+        "enunciado": "Um passo crucial no processamento digital de imagens digitais envolve a realização de operações matemáticas sobre os dados, com o objetivo de melhorar a qualidade espectral e espacial das imagens, tornando-as mais adequadas para uma aplicação específica, significando, assim, que o processamento de imagens de sensoriamento remoto é orientado para cada tipo de problema. No que consiste o pré-processamento das imagens digitais, é CORRETO afirmar que fazem parte:",
+        "alternativas": {
+            "A": "Ampliação de contraste, realce e fusão.",
+            "B": "Filtro passa alta e passa baixa.",
+            "C": "Segmentação, análise espectral e classificação via rede neural.",
+            "D": "Saturação de cores, componentes principais e operações aritméticas.",
+            "E": "Correção de ruído, atmosférica e geométrica."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O pré-processamento de imagens digitais em sensoriamento remoto visa corrigir distorções e aprimorar a qualidade da imagem antes da análise. Correções como ruído, atmosférica e geométrica são etapas fundamentais desse processo."
+    },
+    {
+        "id": "1743821",
+        "enunciado": "Quando um produto é gerado no formato matricial ou raster, principalmente quando está se referindo a imagens orbitais, é CORRETO afirmar que em geral é utilizado o formato para ambiente de processamento de imagens:",
+        "alternativas": {
+            "A": ".tiff",
+            "B": ".jpeg",
+            "C": ".png",
+            "D": ".gif",
+            "E": ".bmp"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O formato .tiff, também conhecido como TIFF (Tagged Image File Format), é amplamente utilizado em processamento de imagens digitais, incluindo imagens orbitais, devido à sua capacidade de armazenar imagens sem perdas significativas de qualidade e com grande profundidade de cor."
+    },
+    {
+        "id": "2332743",
+        "enunciado": "O termo “aerolevantamento” usualmente é relativo à obtenção de informações por:",
+        "alternativas": {
+            "A": "Triangulateração.",
+            "B": "Batimetria.",
+            "C": "Estação-livre.",
+            "D": "Indoor-GPS.",
+            "E": "Fotogrametria."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Aerolevantamento é o termo técnico para a obtenção de informações geográficas e de superfície por meio de fotografias tiradas de aeronaves ou satélites, que é a base da fotogrametria."
+    },
+    {
+        "id": "1743824",
+        "enunciado": "Para que uma imagem multiespectral possa ser interpretada, é preciso conhecer os mecanismos de interação da radiação eletromagnética com a superfície dos alvos terrestres. É por meio do entendimento de como se processam esses mecanismos de interação que se pode determinar como e com qual intensidade cada objeto retorna à informação. Com base no exposto, a luz solar, que é a que mais revela as propriedades das naturezas dos materiais, ao incidir sobre a superfície do objeto, sofre três possíveis processos de interações, que são:",
+        "alternativas": {
+            "A": "Absortância, transmitância e reflectância.",
+            "B": "Conservação, energia e reflectância.",
+            "C": "Opacos, transopacos e transparência.",
+            "D": "Luz azul, luz verde e luz vermelha.",
+            "E": "Visível, infravermelho próximo e médio."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Quando a radiação solar incide sobre um objeto, ela pode ser absorvida (absorbância), atravessar o objeto (transmitância) ou ser refletida por ele (reflectância), sendo estes os três processos primários de interação."
+    },
+    {
+        "id": "2154985",
+        "enunciado": "Sobre a utilização de imagens obtidas por aerofotogrametria e o conceito de ortoimagem, analise as afirmações a seguir e assinale a alternativa correta:",
+        "alternativas": {
+            "A": "A ortorretificação aumenta a distorção das imagens aéreas para melhor representar curvas de nível e relevo em áreas acidentadas.",
+            "B": "Ortoimagem é uma representação fotográfica da superfície terrestre, livre de erros e deformações, com a mesma validade de um plano cartográfico, obtida por meio da ortorretificação de imagens aéreas.",
+            "C": "Ortoimagem é o nome dado à sequência de fotografias aéreas capturadas durante o voo aerofotogramétrico, independentemente de correções digitais.",
+            "D": "Aerofotogrametria refere-se exclusivamente ao uso de drones com câmeras não métricas para a produção de imagens oblíquas com fins ilustrativos.",
+            "E": "Fotografias aéreas simples possuem a mesma precisão e podem ser utilizadas diretamente para medições planimétricas, dispensando correções."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A ortoimagem é uma representação fotográfica corrigida de distorções e deformações, o que a torna geometricamente precisa como um plano cartográfico. A ortorretificação remove esses erros das imagens aéreas, permitindo medições confiáveis."
+    },
+    {
+        "id": "1743826",
+        "enunciado": "Todo alvo que tenha temperatura acima de zero Kelvin (-273,15°C) emite radiação eletromagnética, incluindo a do infravermelho termal. Ou seja, acima dessa temperatura, as moléculas se encontram em um estado vibracional e emitem radiação eletromagnética. Baseado na afirmativa, é CORRETO o comprimento de onda na faixa do termal estar entre:",
+        "alternativas": {
+            "A": "8,0 a 14 nm",
+            "B": "a 2.500 nm",
+            "C": "8,0 a 14 μm",
+            "D": "0,35 a 0,70 μm",
+            "E": "0,35 a 0,70 nm"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A radiação infravermelha termal emitida por corpos com temperatura acima de zero Kelvin situa-se predominantemente na faixa de 8,0 a 14 micrômetros (μm), permitindo a detecção de temperatura da superfície."
+    },
+    {
+        "id": "1743827",
+        "enunciado": "Valores do índice de vegetação NDVI computados variam de -1 a +1. Existe vantagens do NDVI sobre o RVI, um deles é que ele tende a ser linearmente mais proporcional à biomassa in situ. Também é mais apropriado quando se pretende fazer comparações ao longo do tempo de uma mesma área. Em um experimento utilizando sensor orbital OLI, a bordo do satélite Landsat-8, quais bandas espectrais serão necessárias para calcular o NDVI?",
+        "alternativas": {
+            "A": "Bandas 3 e 4.",
+            "B": "Bandas 3 e 5.",
+            "C": "Bandas 4 e 5.",
+            "D": "Bandas 4 e 6.",
+            "E": "Bandas 5 e 6."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O NDVI é calculado pela diferença entre a reflectância no infravermelho próximo (NIR) e no vermelho. No Landsat-8 OLI, a banda 5 é o NIR e a banda 4 é o vermelho."
+    },
+    {
+        "id": "2309237",
+        "enunciado": "As imagens de sensoriamento remoto são adquiridas pelos sistemas sensores com uma determinada resolução radiométrica. Analise as afirmativas abaixo sobre as imagens de sensoriamento remoto e suas características. 1. A resolução radiométrica mostra as tonalidades de tons de cinza utilizados para expressar os dados coletados pelo sensor. 2. A resolução de um sensor é o nível do detalhamento da imagem captada pelo sensor na forma como ele enxerga os objetos em relação ao seu tamanho. 3. Algumas das causas para o baixo contraste das imagens de satélite podem ser a bruma atmosférica, a má iluminação solar no horário da tomada da cena, o desempenho do sensor e as próprias características da cena retratada. Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "É correta apenas a afirmativa 1.",
+            "B": "É correta apenas a afirmativa 2.",
+            "C": "É correta apenas a afirmativa 3.",
+            "D": "São corretas apenas as afirmativas 1 e 2.",
+            "E": "São corretas as afirmativas 1, 2 e 3."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A afirmativa 1 descreve corretamente a resolução radiométrica. A afirmativa 2 define a resolução de um sensor de forma precisa. A afirmativa 3 lista corretamente algumas causas para o baixo contraste em imagens de satélite. Todas as assertivas estão corretas."
+    },
+    {
+        "id": "1743829",
+        "enunciado": "Para avaliar a precisão de imagens orbitais e sua classificação, pode-se utilizar o sistema GPS. Assim, qual é o principal objetivo da utilização de GPS na coleta de pontos amostrais para esse tipo de avaliação?",
+        "alternativas": {
+            "A": "Determinar a resolução espacial da imagem.",
+            "B": "Verificar a precisão do sistema GPS.",
+            "C": "Calibrar sensores orbitais.",
+            "D": "Estabelecer pontos de referência precisos para cálculo do índice Kappa.",
+            "E": "Medir a reflectância espectral de alvos."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O GPS fornece coordenadas geográficas precisas que servem como pontos de referência (ground truth). Estes pontos são cruciais para avaliar a acurácia da classificação da imagem, por meio de métricas como o índice Kappa."
+    },
+    {
+        "id": "2173857",
+        "enunciado": "As fotografias aéreas são muito utilizadas para a cartografia, e nelas podem ser aplicados vários tipos de emulsão. Uma dessas emulsões é chamada falsa cor, aplicada especialmente na fotointerpretação, particularmente na detecção de doenças em áreas de cultura e florestas e na análise de solos e poluição de águas. Sobre a denominação dessa emulsão, assinalar a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Pancromática.",
+            "B": "Colorida.",
+            "C": "Infravermelha em preto e branco.",
+            "D": "Infravermelha colorida."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A emulsão 'infravermelha colorida' é chamada de falsa cor porque altera as cores naturais para facilitar a identificação de detalhes como saúde da vegetação, solos e corpos d'água em imagens aéreas ou de satélite. Ela não é nem a padrão colorida, nem apenas infravermelha em preto e branco."
+    },
+    {
+        "id": "1743831",
+        "enunciado": "Considerando a radiação eletromagnética (REM), é essencial entender suas principais características para aplicá-las no sensoriamento remoto e ter como base em toda sua interpretação. Nesse contexto, qual é a característica que define a capacidade da radiação de penetrar na atmosfera terrestre e alcançar a superfície?",
+        "alternativas": {
+            "A": "Comprimento de onda.",
+            "B": "Frequência.",
+            "C": "Intensidade.",
+            "D": "Polarização.",
+            "E": "Velocidade."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comprimento de onda determina quais faixas do espectro eletromagnético podem atravessar a atmosfera e interagir com a superfície terrestre, sendo fundamental para a escolha de sensores e bandas adequadas."
+    },
+    {
+        "id": "1743833",
+        "enunciado": "Os dados de uso do solo produzidos por meio de sensores remotos orbitais ou suborbitais são essenciais para planejamento urbano e gestão ambiental, por exemplo. Baseado neste tipo de projeto, no qual busca-se dados de uso do solo, qual é o método mais comum para classificação de imagens digitais?",
+        "alternativas": {
+            "A": "Classificação não supervisionada.",
+            "B": "Análise de componentes principais.",
+            "C": "Análise de cluster.",
+            "D": "Classificação supervisionada.",
+            "E": "Análise de Fourier."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A classificação supervisionada necessita de amostras de treinamento (pixels conhecidos) para aprender e aplicar os padrões de resposta espectral aos demais pixels da imagem, sendo muito utilizada para dados de uso do solo."
+    },
+    {
+        "id": "1743837",
+        "enunciado": "No processamento digital de imagens (PDI), a edição topológica é uma etapa básica para garantir a precisão geométrica das imagens digitais. Ao importar para um projeto uma imagem orbital, qual é o objetivo principal da edição topológica na continuidade do processo de um projeto de sensoriamento remoto?",
+        "alternativas": {
+            "A": "Realçar contrastes e melhorar a qualidade visual.",
+            "B": "Corrigir erros geométricos e melhorar a precisão espacial.",
+            "C": "Eliminar ruídos e melhorar a resolução espacial.",
+            "D": "Transformar coordenadas e mudar a projeção cartográfica.",
+            "E": "Classificar pixels e identificar padrões."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A edição topológica em PDI, especialmente em sensoriamento remoto, visa corrigir distorções e erros de posicionamento, garantindo a precisão espacial e a correta representação geométrica da área mapeada."
+    },
+    {
+        "id": "1743839",
+        "enunciado": "A segmentação de imagens é uma técnica fundamental no processamento digital de imagens e, a posteriori, para uma classificação de imagens adequada a algoritmos específicos. Neste caso, pode-se entender que o método mais comum de segmentação de imagens, baseado na diferença de intensidade entre pixels, é:",
+        "alternativas": {
+            "A": "Limiarização.",
+            "B": "Edge detection.",
+            "C": "Clustering.",
+            "D": "Region growing.",
+            "E": "Watershed."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A limiarização (thresholding) é o método mais comum de segmentação que separa pixels com base em um valor de intensidade limiar, criando classes distintas de pixels (objeto e fundo, por exemplo)."
+    },
+    {
+        "id": "1743843",
+        "enunciado": "Os sensores orbitais podem ser classificados de acordo com sua capacidade de coletar dados em diferentes faixas espectrais. Qual é o termo que define a capacidade de um sensor orbital de coletar dados em diversas faixas espectrais, permitindo a identificação de características específicas da superfície terrestre?",
+        "alternativas": {
+            "A": "Resolução espacial.",
+            "B": "Resolução temporal.",
+            "C": "Resolução radiométrica.",
+            "D": "Resolução espectral.",
+            "E": "Resolução geométrica."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Resolução espectral se refere à capacidade de um sensor de coletar dados em diferentes faixas do espectro eletromagnético, permitindo a distinção de diferentes materiais e características da superfície."
+    },
+    {
+        "id": "1743845",
+        "enunciado": "No processamento de imagens satelitais, a correção geométrica é essencial para garantir a precisão espacial das imagens. Atualmente, diversos produtos oriundos de sensoriamento remoto orbital já apresentam tal correção. Neste caso, o objetivo central da correção geométrica é:",
+        "alternativas": {
+            "A": "Melhorar a resolução espacial.",
+            "B": "Ajustar a imagem ao sistema de coordenadas terrestre.",
+            "C": "Eliminar ruídos de imagem.",
+            "D": "Corrigir erros de iluminação.",
+            "E": "Realçar contrastes de imagem."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A correção geométrica visa georreferenciar a imagem satelital, ou seja, ajustar sua representação espacial ao sistema de coordenadas da Terra, garantindo que cada pixel corresponda a uma localização geográfica precisa."
+    },
+    {
+        "id": "1993353",
+        "enunciado": "O sensoriamento remoto é uma técnica amplamente utilizada para adquirir informações sobre a superfície terrestre sem contato direto. O conceito de “resolução espacial”, no contexto do sensoriamento remoto, é",
+        "alternativas": {
+            "A": "a capacidade de um sensor de distinguir diferentes níveis de intensidade de energia refletida ou emitida pela superfície.",
+            "B": "a quantidade de bandas espectrais que um sensor pode captar, determinando sua capacidade de discriminar objetos em diferentes comprimentos de onda.",
+            "C": "a medida do tamanho mínimo de um objeto que pode ser detectado em uma imagem adquirida por um sensor remoto, definido pelo tamanho do pixel na superfície terrestre.",
+            "D": "a frequência com que um sensor coleta dados de uma mesma área, determinando a sua capacidade de monitoramento ao longo do tempo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A resolução espacial refere-se ao menor objeto detectável em uma imagem de sensoriamento remoto, determinado pelo tamanho do pixel na superfície terrestre, indicando o nível de detalhe da imagem."
+    },
+    {
+        "id": "1355682",
+        "enunciado": "A respeito da correção atmosférica, analise as afirmativas a seguir. I. A correção atmosférica em imagens de sensores orbitais tem por finalidade minimizar a influência dos gases e aerossóis sobre a radiação refletida por um determinado alvo e captada pelos sensores. II. A radiância recebida por um sensor remoto orbital é composta pela radiância transmitida, que resulta da radiância refletida pelo alvo, normalmente atenuada pela atmosfera, e pela radiância do caminho atmosférico ( Atmospheric Path Radiance ). III. Uma das técnicas mais complexas de correção dos efeitos atmosféricos nas imagens de sensoriamento remoto é conhecida como “subtração de objetos escuros”, pois depende de parâmetros que compõem modelos de transferência radiativa. Está correto o que se afirma em",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "II, apenas.",
+            "C": "III, apenas.",
+            "D": "I e II, apenas.",
+            "E": "I e III, apenas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As afirmativas I e II descrevem corretamente a correção atmosférica e a composição da radiância. A afirmativa III está incorreta, pois a subtração de objetos escuros é considerada uma técnica mais simples."
+    },
+    {
+        "id": "1356300",
+        "enunciado": "As técnicas de estimativas de precipitação nas bandas do Infravermelho e Visível se baseiam no brilho e refletividade do topo da nuvem, ou seja, as gotas de chuva na verdade não são medidas diretamente. Sobre a indexação de nuvem, descrita por Barret, E.C. (1970), assinale a afirmativa correta.",
+        "alternativas": {
+            "A": "Utiliza a observação das imagens para identificação do tipo de nuvens e assume-se uma taxa de precipitação para cada tipo de nuvem.",
+            "B": "Baseia-se da observação em superfície para identificação do tipo de nuvens. Na sua forma mais simples, assume-se uma taxa de precipitação para cada tipo de nuvem.",
+            "C": "Baseia-se da observação em superfície para identificação do tipo de nuvens. Na sua forma mais simples, assume-se três taxas de precipitação para cada tipo de nuvem.",
+            "D": "Usa a observação das imagens para identificação do tipo de precipitação e assume-se uma taxa de precipitação para cada dois tipos de nuvens.",
+            "E": "Usa a observação das imagens para identificação do tipo de nuvens e assume-se três taxas de precipitação para cada dois tipos de nuvens."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A indexação de nuvem de Barrett (1970) é uma técnica onde se observam imagens de satélite para identificar o tipo de nuvem e, para cada tipo de nuvem identificado, assume-se uma determinada taxa de precipitação, sem medição direta das gotas."
+    },
+    {
+        "id": "1355690",
+        "enunciado": "As principais plataformas online  de disseminação de imagens produzidas por sensores orbitais permitem a consulta do rol de imagens disponíveis que atendam aos parâmetros definidos pelo usuário. O usuário pode, então, selecionar e descarregar o arquivo referente à imagem de interesse. Caso ele deseje carregar a imagem em um software  de geoprocessamento sem a necessidade de georreferenciamento, o arquivo deve estar em",
+        "alternativas": {
+            "A": "ASCII.",
+            "B": "BMP.",
+            "C": "GeoJSON.",
+            "D": "GeoTIFF.",
+            "E": "PRJ."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "GeoTIFF é um formato raster que armazena dados geoespaciais com informações de georreferenciamento integradas, permitindo o uso direto em softwares de geoprocessamento sem etapa adicional."
+    },
+    {
+        "id": "1355885",
+        "enunciado": "Na avaliação de modelos numéricos de previsão de tempo, a integração de dados de sensoriamento remoto é fundamental para melhorar a precisão das previsões. Utilizando Sistemas de Informação Geográfica (SIG), assinale a opção que indica a aplicação de geoprocessamento e sensoriamento remoto mais adequada para validar as previsões de precipitação de um modelo meteorológico em uma região com cobertura espacial limitada por estações meteorológicas.",
+        "alternativas": {
+            "A": "Geração de mapas de temperatura da superfície utilizando dados de satélite infravermelho.",
+            "B": "Interpolação de dados de umidade do solo utilizando krigagem.",
+            "C": "Integração de dados de radar meteorológico para gerar mapas de precipitação acumulada.",
+            "D": "Análise de imagens de satélite para monitorar a cobertura de neve.",
+            "E": "Análise de dados de vento em altitude usando balões meteorológicos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Imagens de radar meteorológico fornecem dados sobre a precipitação em alta resolução espacial e temporal. A integração desses dados permite a validação de previsões de precipitação de modelos, especialmente onde as estações meteorológicas são escassas."
+    },
+    {
+        "id": "1743800",
+        "enunciado": "A série Landsat gerou a maior base de imagens orbitais do mundo, tanto em termos de abrangência espacial, quanto em termos temporais. Dentre as características dos sistemas sensores dessa série, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "MSS, a bordo do Landsat-5, foi o responsável pelo maior período de imageamento da série e ainda se encontra em operação.",
+            "B": "OLI, a bordo do Landsat-8, melhora a geometria interna das imagens, pois muda o modelo de aquisição de sensores whiskbroom para pushbroom.",
+            "C": "ETM+, a bordo do Landsat-8, registra a radiação eletromagnética refletida pelos alvos da superfície terrestre em sete faixas ou bandas espectrais.",
+            "D": "TIRS, a bordo do Landsat-7, representa um melhor desempenho radiométrico no imageamento dos alvos terrestres.",
+            "E": "MSI, a bordo do Landsat-9, incrementa o número de bandas espectrais para um total de 13, incluindo red-edge."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O OLI (Operational Land Imager) no Landsat-8 utiliza uma arquitetura pushbroom, que coleta dados linha por linha simultaneamente, melhorando a geometria interna da imagem em comparação com sistemas whiskbroom."
+    },
+    {
+        "id": "1743802",
+        "enunciado": "As resoluções de um sensor orbital estão em consonância com algumas características utilizadas no sensoriamento remoto para o monitoramento terrestre. Assim, a maneira CORRETA de indicar que a maior capacidade de um sensor registrar a menor unidade de uma imagem (pixel), seria:",
+        "alternativas": {
+            "A": "Radiométrica.",
+            "B": "Estereoscópica.",
+            "C": "Espectral.",
+            "D": "Temporal.",
+            "E": "Espacial."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A resolução espacial de um sensor se refere à menor unidade de área que ele consegue distinguir em uma imagem, ou seja, o tamanho do pixel. Quanto menor o pixel, maior a capacidade de registrar detalhes."
+    },
+    {
+        "id": "1743804",
+        "enunciado": "Os sensores remotos, em geral, possuem uma característica que determina sua capacidade de quantização na distinção de alguns detalhes dos alvos por meio de níveis de cinza. Sendo assim, um sensor que possui 8 bits na produção da imagem digital apresenta uma variação no gradiente, indo do branco ao preto, possuindo:",
+        "alternativas": {
+            "A": "256 níveis de cinza, variando de 1 a 256.",
+            "B": "512 níveis de cinza, variando de 1 a 512.",
+            "C": "2048 níveis de cinza, variando de 1 a 2048.",
+            "D": "4096 níveis de cinza, variando de 0 a 4095.",
+            "E": "256 níveis de cinza, variando de 0 a 255."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Um sensor com 8 bits pode representar 2^8 = 256 níveis de intensidade. Esses níveis variam de 0 (preto) a 255 (branco), permitindo 256 variações distintas de tons de cinza."
+    },
+    {
+        "id": "2365472",
+        "enunciado": "O principal uso do sensoriamento remoto no monitoramento do desmatamento é:",
+        "alternativas": {
+            "A": "Identificar variações climáticas em escala global.",
+            "B": "Detectar mudanças na cobertura vegetal ao longo do tempo.",
+            "C": "Calcular o fluxo de energia entre ecossistemas.",
+            "D": "Estimar a poluição atmosférica em cidades.",
+            "E": "Medir a umidade do solo em áreas urbanas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O sensoriamento remoto utiliza imagens de satélite para identificar e monitorar alterações na cobertura do solo, sendo a detecção de desmatamento uma de suas principais aplicações."
+    },
+    {
+        "id": "1743806",
+        "enunciado": "No campo do sensoriamento remoto, diferentes plataformas podem ser utilizadas para a coleta de imagens e dados da superfície terrestre, cada uma com suas características e aplicações específicas. Considerando as plataformas de coleta de dados mais comumente usadas nessa área, qual das alternativas a seguir oferece uma descrição mais abrangente dessas tecnologias?",
+        "alternativas": {
+            "A": "Satélite: uma plataforma espacial que orbita a Terra e captura imagens e dados de sensoriamento remoto.",
+            "B": "Drone: um veículo aéreo não tripulado que captura imagens e dados de sensoriamento remoto.",
+            "C": "Satélite, drone, avião ou um equipamento terrestre, onde vai acoplado um sensor capaz de capturar imagens e dados de sensoriamento remoto.",
+            "D": "Avião: uma aeronave tripulada que captura imagens e dados de sensoriamento remoto.",
+            "E": "Balão: veículos aéreos não tripulados preenchidos com gás, capazes de transportar sensores para coleta de dados em locais de difícil acesso."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Essa alternativa abrange a diversidade de plataformas de coleta de dados em sensoriamento remoto, incluindo satélites, drones, aviões e equipamentos terrestres acoplados a sensores, oferecendo a descrição mais completa."
+    },
+    {
+        "id": "1799499",
+        "enunciado": "Na gestão de recursos hídricos em uma bacia hidrográfica, o sensoriamento remoto é amplamente utilizado para monitorar diferentes aspectos do ciclo hidrológico e do uso da terra. Considerando as aplicações de sensoriamento remoto neste contexto, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "Imagens de radar são ineficazes para monitorar inundações, pois a água absorve completamente as ondas de radar, impossibilitando a detecção de áreas alagadas.",
+            "B": "Sensores termais são utilizados exclusivamente para medir a temperatura da superfície da água, não tendo aplicação na avaliação de uso do solo ou evapotranspiração.",
+            "C": "Imagens multiespectrais de alta resolução são a única fonte confiável para mapear o uso e a cobertura do solo em bacias hidrográficas, substituindo completamente o trabalho de campo.",
+            "D": "O sensoriamento remoto por satélite não pode fornecer informações sobre a qualidade da água, limitando-se apenas à detecção de corpos d’água.",
+            "E": "A integração de dados de diferentes sensores, como ópticos e radar, pode fornecer informações complementares sobre a dinâmica hidrológica, cobertura vegetal e uso do solo na bacia."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E está correta. A combinação de dados de sensores ópticos e radar, tanto quanto dados de campo, é fundamental para uma análise completa e integrada da dinâmica hídrica e do uso do solo em bacias."
+    },
+    {
+        "id": "1743810",
+        "enunciado": "A alternativa para descrever as cores de uma imagem decompondo-as nos componentes de Intensidade (I), Hue (matiz) e Saturação (S), estende-se além do seu uso para a obtenção de composições coloridas. O processo de fusão de imagens é feito em dois passos. O primeiro passo segue o mesmo processo para a construção de uma composição colorida no espaço IHS. O segundo passo consiste em reamostrar os componentes H e S para a resolução espacial de uma banda espectral adicional. Seria neste caso CORRETO afirmar que a banda adicional que irá reamostrar é a:",
+        "alternativas": {
+            "A": "Infravermelho Próximo.",
+            "B": "Pancromática.",
+            "C": "Termal.",
+            "D": "Vermelho, Verde e Azul.",
+            "E": "SWIR."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No espaço IHS, a banda adicional utilizada para reamostrar os componentes H e S é geralmente a banda pancromática, que possui alta resolução espacial e permite aprimorar o detalhe espacial das imagens fusionadas."
+    },
+    {
+        "id": "2338983",
+        "enunciado": "O termo usualmente adotado para a obtenção de informações por imagens de satélites é:",
+        "alternativas": {
+            "A": "Aeropoligonação.",
+            "B": "Intersecção fotogramétrica.",
+            "C": "Desenho satelital.",
+            "D": "Agrimensura orbital.",
+            "E": "Sensoriamento remoto."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Sensoriamento remoto é o termo técnico usado para a obtenção de informações sobre a superfície da Terra (ou outros corpos celestes) por meio de sensores instalados em plataformas, como satélites ou aeronaves, sem contato físico."
+    },
+    {
+        "id": "1743812",
+        "enunciado": "Na classificação digital de imagens orbitais a ideia fundamental é de que os agrupamentos são definidos por uma regra de decisão. Por vezes, a regra definida é que os pixels da imagem para serem associados à classe vegetação, por exemplo, têm de ter valores digitais baixos na banda do vermelho e valores digitais altos na banda do infravermelho-próximo. A partir dessa premissa, essas análises de agrupamento, por exemplo, são realizadas por meio dos chamados algoritmos classificadores. Assim, qual classificador é CORRETO afirmar que seria um algoritmo não-supervisionado:",
+        "alternativas": {
+            "A": "K-médias.",
+            "B": "Paralelepípedo.",
+            "C": "Distância mínima.",
+            "D": "Máxima-Verossimilhança.",
+            "E": "Distância Mahalanobis."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O classificador K-médias é um algoritmo não-supervisionado que agrupa pixels em classes com base em sua similaridade de características (cores, radiância), sem a necessidade de amostras de treinamento pré-definidas."
+    },
+    {
+        "id": "1743814",
+        "enunciado": "Um passo crucial no processamento digital de imagens digitais envolve a realização de operações matemáticas sobre os dados, com o objetivo de melhorar a qualidade espectral e espacial das imagens, tornando-as mais adequadas para uma aplicação específica, significando, assim, que o processamento de imagens de sensoriamento remoto é orientado para cada tipo de problema. No que consiste o pré-processamento das imagens digitais, é CORRETO afirmar que fazem parte:",
+        "alternativas": {
+            "A": "Ampliação de contraste, realce e fusão.",
+            "B": "Filtro passa alta e passa baixa.",
+            "C": "Segmentação, análise espectral e classificação via rede neural.",
+            "D": "Saturação de cores, componentes principais e operações aritméticas.",
+            "E": "Correção de ruído, atmosférica e geométrica."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O pré-processamento de imagens digitais em sensoriamento remoto visa corrigir distorções e aprimorar a qualidade da imagem antes da análise. Correções como ruído, atmosférica e geométrica são etapas fundamentais desse processo."
+    },
+    {
+        "id": "1743821",
+        "enunciado": "Quando um produto é gerado no formato matricial ou raster, principalmente quando está se referindo a imagens orbitais, é CORRETO afirmar que em geral é utilizado o formato para ambiente de processamento de imagens:",
+        "alternativas": {
+            "A": ".tiff",
+            "B": ".jpeg",
+            "C": ".png",
+            "D": ".gif",
+            "E": ".bmp"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O formato .tiff, também conhecido como TIFF (Tagged Image File Format), é amplamente utilizado em processamento de imagens digitais, incluindo imagens orbitais, devido à sua capacidade de armazenar imagens sem perdas significativas de qualidade e com grande profundidade de cor."
+    },
+    {
+        "id": "2332743",
+        "enunciado": "O termo “aerolevantamento” usualmente é relativo à obtenção de informações por:",
+        "alternativas": {
+            "A": "Triangulateração.",
+            "B": "Batimetria.",
+            "C": "Estação-livre.",
+            "D": "Indoor-GPS.",
+            "E": "Fotogrametria."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Aerolevantamento é o termo técnico para a obtenção de informações geográficas e de superfície por meio de fotografias tiradas de aeronaves ou satélites, que é a base da fotogrametria."
+    },
+    {
+        "id": "1743824",
+        "enunciado": "Para que uma imagem multiespectral possa ser interpretada, é preciso conhecer os mecanismos de interação da radiação eletromagnética com a superfície dos alvos terrestres. É por meio do entendimento de como se processam esses mecanismos de interação que se pode determinar como e com qual intensidade cada objeto retorna à informação. Com base no exposto, a luz solar, que é a que mais revela as propriedades das naturezas dos materiais, ao incidir sobre a superfície do objeto, sofre três possíveis processos de interações, que são:",
+        "alternativas": {
+            "A": "Absortância, transmitância e reflectância.",
+            "B": "Conservação, energia e reflectância.",
+            "C": "Opacos, transopacos e transparência.",
+            "D": "Luz azul, luz verde e luz vermelha.",
+            "E": "Visível, infravermelho próximo e médio."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Quando a radiação solar incide sobre um objeto, ela pode ser absorvida (absorbância), atravessar o objeto (transmitância) ou ser refletida por ele (reflectância), sendo estes os três processos primários de interação."
+    },
+    {
+        "id": "2154985",
+        "enunciado": "Sobre a utilização de imagens obtidas por aerofotogrametria e o conceito de ortoimagem, analise as afirmações a seguir e assinale a alternativa correta:",
+        "alternativas": {
+            "A": "A ortorretificação aumenta a distorção das imagens aéreas para melhor representar curvas de nível e relevo em áreas acidentadas.",
+            "B": "Ortoimagem é uma representação fotográfica da superfície terrestre, livre de erros e deformações, com a mesma validade de um plano cartográfico, obtida por meio da ortorretificação de imagens aéreas.",
+            "C": "Ortoimagem é o nome dado à sequência de fotografias aéreas capturadas durante o voo aerofotogramétrico, independentemente de correções digitais.",
+            "D": "Aerofotogrametria refere-se exclusivamente ao uso de drones com câmeras não métricas para a produção de imagens oblíquas com fins ilustrativos.",
+            "E": "Fotografias aéreas simples possuem a mesma precisão e podem ser utilizadas diretamente para medições planimétricas, dispensando correções."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A ortoimagem é uma representação fotográfica corrigida de distorções e deformações, o que a torna geometricamente precisa como um plano cartográfico. A ortorretificação remove esses erros das imagens aéreas, permitindo medições confiáveis."
+    },
+    {
+        "id": "1743826",
+        "enunciado": "Todo alvo que tenha temperatura acima de zero Kelvin (-273,15°C) emite radiação eletromagnética, incluindo a do infravermelho termal. Ou seja, acima dessa temperatura, as moléculas se encontram em um estado vibracional e emitem radiação eletromagnética. Baseado na afirmativa, é CORRETO o comprimento de onda na faixa do termal estar entre:",
+        "alternativas": {
+            "A": "8,0 a 14 nm",
+            "B": "a 2.500 nm",
+            "C": "8,0 a 14 μm",
+            "D": "0,35 a 0,70 μm",
+            "E": "0,35 a 0,70 nm"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A radiação infravermelha termal emitida por corpos com temperatura acima de zero Kelvin situa-se predominantemente na faixa de 8,0 a 14 micrômetros (μm), permitindo a detecção de temperatura da superfície."
+    },
+    {
+        "id": "1743827",
+        "enunciado": "Valores do índice de vegetação NDVI computados variam de -1 a +1. Existe vantagens do NDVI sobre o RVI, um deles é que ele tende a ser linearmente mais proporcional à biomassa in situ. Também é mais apropriado quando se pretende fazer comparações ao longo do tempo de uma mesma área. Em um experimento utilizando sensor orbital OLI, a bordo do satélite Landsat-8, quais bandas espectrais serão necessárias para calcular o NDVI?",
+        "alternativas": {
+            "A": "Bandas 3 e 4.",
+            "B": "Bandas 3 e 5.",
+            "C": "Bandas 4 e 5.",
+            "D": "Bandas 4 e 6.",
+            "E": "Bandas 5 e 6."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O NDVI é calculado pela diferença entre a reflectância no infravermelho próximo (NIR) e no vermelho. No Landsat-8 OLI, a banda 5 é o NIR e a banda 4 é o vermelho."
+    },
+    {
+        "id": "2309237",
+        "enunciado": "As imagens de sensoriamento remoto são adquiridas pelos sistemas sensores com uma determinada resolução radiométrica. Analise as afirmativas abaixo sobre as imagens de sensoriamento remoto e suas características. 1. A resolução radiométrica mostra as tonalidades de tons de cinza utilizados para expressar os dados coletados pelo sensor. 2. A resolução de um sensor é o nível do detalhamento da imagem captada pelo sensor na forma como ele enxerga os objetos em relação ao seu tamanho. 3. Algumas das causas para o baixo contraste das imagens de satélite podem ser a bruma atmosférica, a má iluminação solar no horário da tomada da cena, o desempenho do sensor e as próprias características da cena retratada. Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "É correta apenas a afirmativa 1.",
+            "B": "É correta apenas a afirmativa 2.",
+            "C": "É correta apenas a afirmativa 3.",
+            "D": "São corretas apenas as afirmativas 1 e 2.",
+            "E": "São corretas as afirmativas 1, 2 e 3."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A afirmativa 1 descreve corretamente a resolução radiométrica. A afirmativa 2 define a resolução de um sensor de forma precisa. A afirmativa 3 lista corretamente algumas causas para o baixo contraste em imagens de satélite. Todas as assertivas estão corretas."
+    },
+    {
+        "id": "1743829",
+        "enunciado": "Para avaliar a precisão de imagens orbitais e sua classificação, pode-se utilizar o sistema GPS. Assim, qual é o principal objetivo da utilização de GPS na coleta de pontos amostrais para esse tipo de avaliação?",
+        "alternativas": {
+            "A": "Determinar a resolução espacial da imagem.",
+            "B": "Verificar a precisão do sistema GPS.",
+            "C": "Calibrar sensores orbitais.",
+            "D": "Estabelecer pontos de referência precisos para cálculo do índice Kappa.",
+            "E": "Medir a reflectância espectral de alvos."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O GPS fornece coordenadas geográficas precisas que servem como pontos de referência (ground truth). Estes pontos são cruciais para avaliar a acurácia da classificação da imagem, por meio de métricas como o índice Kappa."
+    },
+    {
+        "id": "2173857",
+        "enunciado": "As fotografias aéreas são muito utilizadas para a cartografia, e nelas podem ser aplicados vários tipos de emulsão. Uma dessas emulsões é chamada falsa cor, aplicada especialmente na fotointerpretação, particularmente na detecção de doenças em áreas de cultura e florestas e na análise de solos e poluição de águas. Sobre a denominação dessa emulsão, assinalar a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Pancromática.",
+            "B": "Colorida.",
+            "C": "Infravermelha em preto e branco.",
+            "D": "Infravermelha colorida."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A emulsão 'infravermelha colorida' é chamada de falsa cor porque altera as cores naturais para facilitar a identificação de detalhes como saúde da vegetação, solos e corpos d'água em imagens aéreas ou de satélite. Ela não é nem a padrão colorida, nem apenas infravermelha em preto e branco."
+    },
+    {
+        "id": "1743831",
+        "enunciado": "Considerando a radiação eletromagnética (REM), é essencial entender suas principais características para aplicá-las no sensoriamento remoto e ter como base em toda sua interpretação. Nesse contexto, qual é a característica que define a capacidade da radiação de penetrar na atmosfera terrestre e alcançar a superfície?",
+        "alternativas": {
+            "A": "Comprimento de onda.",
+            "B": "Frequência.",
+            "C": "Intensidade.",
+            "D": "Polarização.",
+            "E": "Velocidade."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comprimento de onda determina quais faixas do espectro eletromagnético podem atravessar a atmosfera e interagir com a superfície terrestre, sendo fundamental para a escolha de sensores e bandas adequadas."
+    },
+    {
+        "id": "1743833",
+        "enunciado": "Os dados de uso do solo produzidos por meio de sensores remotos orbitais ou suborbitais são essenciais para planejamento urbano e gestão ambiental, por exemplo. Baseado neste tipo de projeto, no qual busca-se dados de uso do solo, qual é o método mais comum para classificação de imagens digitais?",
+        "alternativas": {
+            "A": "Classificação não supervisionada.",
+            "B": "Análise de componentes principais.",
+            "C": "Análise de cluster.",
+            "D": "Classificação supervisionada.",
+            "E": "Análise de Fourier."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A classificação supervisionada necessita de amostras de treinamento (pixels conhecidos) para aprender e aplicar os padrões de resposta espectral aos demais pixels da imagem, sendo muito utilizada para dados de uso do solo."
+    },
+    {
+        "id": "1743837",
+        "enunciado": "No processamento digital de imagens (PDI), a edição topológica é uma etapa básica para garantir a precisão geométrica das imagens digitais. Ao importar para um projeto uma imagem orbital, qual é o objetivo principal da edição topológica na continuidade do processo de um projeto de sensoriamento remoto?",
+        "alternativas": {
+            "A": "Realçar contrastes e melhorar a qualidade visual.",
+            "B": "Corrigir erros geométricos e melhorar a precisão espacial.",
+            "C": "Eliminar ruídos e melhorar a resolução espacial.",
+            "D": "Transformar coordenadas e mudar a projeção cartográfica.",
+            "E": "Classificar pixels e identificar padrões."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A edição topológica em PDI, especialmente em sensoriamento remoto, visa corrigir distorções e erros de posicionamento, garantindo a precisão espacial e a correta representação geométrica da área mapeada."
+    },
+    {
+        "id": "1743839",
+        "enunciado": "A segmentação de imagens é uma técnica fundamental no processamento digital de imagens e, a posteriori, para uma classificação de imagens adequada a algoritmos específicos. Neste caso, pode-se entender que o método mais comum de segmentação de imagens, baseado na diferença de intensidade entre pixels, é:",
+        "alternativas": {
+            "A": "Limiarização.",
+            "B": "Edge detection.",
+            "C": "Clustering.",
+            "D": "Region growing.",
+            "E": "Watershed."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A limiarização (thresholding) é o método mais comum de segmentação que separa pixels com base em um valor de intensidade limiar, criando classes distintas de pixels (objeto e fundo, por exemplo)."
+    },
+    {
+        "id": "1743843",
+        "enunciado": "Os sensores orbitais podem ser classificados de acordo com sua capacidade de coletar dados em diferentes faixas espectrais. Qual é o termo que define a capacidade de um sensor orbital de coletar dados em diversas faixas espectrais, permitindo a identificação de características específicas da superfície terrestre?",
+        "alternativas": {
+            "A": "Resolução espacial.",
+            "B": "Resolução temporal.",
+            "C": "Resolução radiométrica.",
+            "D": "Resolução espectral.",
+            "E": "Resolução geométrica."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Resolução espectral se refere à capacidade de um sensor de coletar dados em diferentes faixas do espectro eletromagnético, permitindo a distinção de diferentes materiais e características da superfície."
+    },
+    {
+        "id": "1743845",
+        "enunciado": "No processamento de imagens satelitais, a correção geométrica é essencial para garantir a precisão espacial das imagens. Atualmente, diversos produtos oriundos de sensoriamento remoto orbital já apresentam tal correção. Neste caso, o objetivo central da correção geométrica é:",
+        "alternativas": {
+            "A": "Melhorar a resolução espacial.",
+            "B": "Ajustar a imagem ao sistema de coordenadas terrestre.",
+            "C": "Eliminar ruídos de imagem.",
+            "D": "Corrigir erros de iluminação.",
+            "E": "Realçar contrastes de imagem."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A correção geométrica visa georreferenciar a imagem satelital, ou seja, ajustar sua representação espacial ao sistema de coordenadas da Terra, garantindo que cada pixel corresponda a uma localização geográfica precisa."
+    },
+    {
+        "id": "1993353",
+        "enunciado": "O sensoriamento remoto é uma técnica amplamente utilizada para adquirir informações sobre a superfície terrestre sem contato direto. O conceito de “resolução espacial”, no contexto do sensoriamento remoto, é",
+        "alternativas": {
+            "A": "a capacidade de um sensor de distinguir diferentes níveis de intensidade de energia refletida ou emitida pela superfície.",
+            "B": "a quantidade de bandas espectrais que um sensor pode captar, determinando sua capacidade de discriminar objetos em diferentes comprimentos de onda.",
+            "C": "a medida do tamanho mínimo de um objeto que pode ser detectado em uma imagem adquirida por um sensor remoto, definido pelo tamanho do pixel na superfície terrestre.",
+            "D": "a frequência com que um sensor coleta dados de uma mesma área, determinando a sua capacidade de monitoramento ao longo do tempo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A resolução espacial refere-se ao menor objeto detectável em uma imagem de sensoriamento remoto, determinado pelo tamanho do pixel na superfície terrestre, indicando o nível de detalhe da imagem."
+    },
+    {
+        "id": "1355682",
+        "enunciado": "A respeito da correção atmosférica, analise as afirmativas a seguir. I. A correção atmosférica em imagens de sensores orbitais tem por finalidade minimizar a influência dos gases e aerossóis sobre a radiação refletida por um determinado alvo e captada pelos sensores. II. A radiância recebida por um sensor remoto orbital é composta pela radiância transmitida, que resulta da radiância refletida pelo alvo, normalmente atenuada pela atmosfera, e pela radiância do caminho atmosférico ( Atmospheric Path Radiance ). III. Uma das técnicas mais complexas de correção dos efeitos atmosféricos nas imagens de sensoriamento remoto é conhecida como “subtração de objetos escuros”, pois depende de parâmetros que compõem modelos de transferência radiativa. Está correto o que se afirma em",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "II, apenas.",
+            "C": "III, apenas.",
+            "D": "I e II, apenas.",
+            "E": "I e III, apenas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As afirmativas I e II descrevem corretamente a correção atmosférica e a composição da radiância. A afirmativa III está incorreta, pois a subtração de objetos escuros é considerada uma técnica mais simples."
+    },
+    {
+        "id": "1356300",
+        "enunciado": "As técnicas de estimativas de precipitação nas bandas do Infravermelho e Visível se baseiam no brilho e refletividade do topo da nuvem, ou seja, as gotas de chuva na verdade não são medidas diretamente. Sobre a indexação de nuvem, descrita por Barret, E.C. (1970), assinale a afirmativa correta.",
+        "alternativas": {
+            "A": "Utiliza a observação das imagens para identificação do tipo de nuvens e assume-se uma taxa de precipitação para cada tipo de nuvem.",
+            "B": "Baseia-se da observação em superfície para identificação do tipo de nuvens. Na sua forma mais simples, assume-se uma taxa de precipitação para cada tipo de nuvem.",
+            "C": "Baseia-se da observação em superfície para identificação do tipo de nuvens. Na sua forma mais simples, assume-se três taxas de precipitação para cada tipo de nuvem.",
+            "D": "Usa a observação das imagens para identificação do tipo de precipitação e assume-se uma taxa de precipitação para cada dois tipos de nuvens.",
+            "E": "Usa a observação das imagens para identificação do tipo de nuvens e assume-se três taxas de precipitação para cada dois tipos de nuvens."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A indexação de nuvem de Barrett (1970) é uma técnica onde se observam imagens de satélite para identificar o tipo de nuvem e, para cada tipo de nuvem identificado, assume-se uma determinada taxa de precipitação, sem medição direta das gotas."
+    },
+    {
+        "id": "1355690",
+        "enunciado": "As principais plataformas online  de disseminação de imagens produzidas por sensores orbitais permitem a consulta do rol de imagens disponíveis que atendam aos parâmetros definidos pelo usuário. O usuário pode, então, selecionar e descarregar o arquivo referente à imagem de interesse. Caso ele deseje carregar a imagem em um software  de geoprocessamento sem a necessidade de georreferenciamento, o arquivo deve estar em",
+        "alternativas": {
+            "A": "ASCII.",
+            "B": "BMP.",
+            "C": "GeoJSON.",
+            "D": "GeoTIFF.",
+            "E": "PRJ."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "GeoTIFF é um formato raster que armazena dados geoespaciais com informações de georreferenciamento integradas, permitindo o uso direto em softwares de geoprocessamento sem etapa adicional."
+    },
+    {
+        "id": "1355885",
+        "enunciado": "Na avaliação de modelos numéricos de previsão de tempo, a integração de dados de sensoriamento remoto é fundamental para melhorar a precisão das previsões. Utilizando Sistemas de Informação Geográfica (SIG), assinale a opção que indica a aplicação de geoprocessamento e sensoriamento remoto mais adequada para validar as previsões de precipitação de um modelo meteorológico em uma região com cobertura espacial limitada por estações meteorológicas.",
+        "alternativas": {
+            "A": "Geração de mapas de temperatura da superfície utilizando dados de satélite infravermelho.",
+            "B": "Interpolação de dados de umidade do solo utilizando krigagem.",
+            "C": "Integração de dados de radar meteorológico para gerar mapas de precipitação acumulada.",
+            "D": "Análise de imagens de satélite para monitorar a cobertura de neve.",
+            "E": "Análise de dados de vento em altitude usando balões meteorológicos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Imagens de radar meteorológico fornecem dados sobre a precipitação em alta resolução espacial e temporal. A integração desses dados permite a validação de previsões de precipitação de modelos, especialmente onde as estações meteorológicas são escassas."
+    },
+    {
+        "id": "1355902",
+        "enunciado": "Uma das fontes de obtenção de insumos para sistemas de informações geográficas aplicados a estudos de degradação ambiental é o Sensoriamento Remoto, que permite aquisição direta e indireta de dados espaciais em 2D e em 3D. Sobre a utilização de dados oriundos de Sensoriamento Remoto em SIG, assinale a afirmativa correta.",
+        "alternativas": {
+            "A": "Entre os dados espaciais 3D adquiridos de maneira direta estão os advindos de varredura laser pontual, uma tecnologia conhecida como laserscanning, ao passo que um modelo digital de elevação obtido por radar de abertura sintética caracteriza uma maneira indireta.",
+            "B": "É condição suficiente para as análises espaciais requeridas os insumos utilizados serem perfeitamente registrados, sendo dispensável o georreferenciamento das informações.",
+            "C": "Interpolações podem ser necessárias a fim de tornar os insumos utilizados espacialmente registrados, mas independem do poder de resolução espacial desejado.",
+            "D": "Somente no caso de análises qualitativas é possível a utilização do modo “fatiamento cromático” para a visualização das informações de saída, que consiste em associar diferentes valores de matizes, intensidade e saturação a classes resultantes de uma determinada divisão intervalar.",
+            "E": "A operação de geoprocessamento conhecida de maneira coloquial como “matemática de bandas” consiste em uma operação matricial aplicada somente a insumos referentes à mesma época."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Laserscanning é uma aquisição direta de dados 3D. Modelos digitais de elevação por radar (como SRTM ou InSAR) envolvem processamento de sinais refletidos, sendo uma forma indireta de obter informações de elevação tridimensional."
+    },
+    {
+        "id": "1089525",
+        "enunciado": "Ao fazer um mapeamento de uma região, as linhas de voo de um levantamento aerofotogramétrico são planejadas com um espaçamento lateral que geram uma superposição entre as faixas de cerca de 25%. Após isso, cada fotografia é tirada gerando uma superposição entre as fotos, criando uma área comum de cerca de 60%. Os nomes dados a essas superposições de linha de voo e de fotografias são, respectivamente,",
+        "alternativas": {
+            "A": "recobrimento translinear e recobrimento longitudinal.",
+            "B": "recobrimento transversal e recobrimento longitudinal.",
+            "C": "recobrimento transversal e recobrimento distal.",
+            "D": "recobrimento lateral e recobrimento de profundidade."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O espaçamento lateral entre as linhas de voo gera o recobrimento transversal. A superposição entre as fotos adjacentes em uma mesma linha de voo gera o recobrimento longitudinal."
+    },
+    {
+        "id": "1248685",
+        "enunciado": "Referente aos parâmetros do aerolevantamento, analise as assertivas abaixo:I. A altura de voo, estabelecida em um plano de voo, influencia diretamente no tamanho do pixel.II. Um dos produtos diretos da aerofotogrametria é o modelo digital de terreno.III. A sobreposição lateral e longitudinal influencia diretamente na qualidade do produto final.IV. As técnicas de aerofotogrametria podem ser de maneira análoga aplicadas em sensores remotos, como o caso dos satélites.Quais estão corretas?",
+        "alternativas": {
+            "A": "Apenas I e II.",
+            "B": "Apenas I e III.",
+            "C": "Apenas II e IV.",
+            "D": "Apenas III e IV.",
+            "E": "I, II, III e IV."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Todas as assertivas estão corretas. A altura de voo influencia o pixel (resolução espacial), o MNT é um produto direto, sobreposições são cruciais para a qualidade, e as técnicas são análogas às de sensoriamento remoto por satélite."
+    },
+    {
+        "id": "1351398",
+        "enunciado": "Sensores são dispositivos capazes de detectar e registrar radiação eletromagnética, em determinada faixa de espectro eletromagnético, e gerar informações que possam ser transformadas em um produto passível de interpretação, seja na forma de imagem, na forma gráfica ou outro produto. As resoluções abaixo são características dos sistemas sensores não fotográficos imageadores, EXCETO:",
+        "alternativas": {
+            "A": "Resolução óptica.",
+            "B": "Resolução espectral.",
+            "C": "Resolução espacial ou geométrica.",
+            "D": "Resolução temporal.",
+            "E": "Resolução radiométrica."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sistemas sensores não fotográficos imageadores possuem resolucoes espectral, espacial, temporal e radiometrica. A resolucao optica, embora importante para sensores fotograficos, nao e categorizada como uma resolucao caracteristica dos sistemas sensores nao fotograficos imageadores para fins de classificacao de resolucoes intrinsecas do sensor."
+    },
+    {
+        "id": "1355842",
+        "enunciado": "Selecione a opção que indica a característica das imagens ópticas de sensoriamento remoto orbital que está relacionada ao nível de detalhes das formas das feições que se pode identificar nessas imagens.",
+        "alternativas": {
+            "A": "A resolução temporal da imagem.",
+            "B": "A resolução espacial da imagem.",
+            "C": "O número de bits usado para codificar o valor em cada pixel.",
+            "D": "A hora da passagem do satélite.",
+            "E": "O peso do satélite."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O nível de detalhes das formas das feições em imagens de sensoriamento remoto está diretamente relacionado à resolução espacial. Quanto menor o valor da resolução espacial (medido em metros, por exemplo), maior o detalhe que pode ser identificado na imagem."
+    },
+    {
+        "id": "1272061",
+        "enunciado": "A ciência que processa as informações acerca da superfície da terrestre sem a necessidade de contato físico com os objetos e materiais que a compõem, possibilitando a análise, monitoramento e medição de importantes características biofísicas e atividades humanas na Terra é chamada de:",
+        "alternativas": {
+            "A": "Monitoramento dinâmico.",
+            "B": "Medição remota.",
+            "C": "Sensoriamento remoto.",
+            "D": "Análise dinâmica.",
+            "E": "Análise deslocada."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sensoriamento remoto é a ciência dedicada à obtenção de informações sobre objetos ou fenômenos sem contato físico direto, utilizando sensores e plataformas de coleta de dados."
+    },
+    {
+        "id": "1339706",
+        "enunciado": "Bandas de absorção no sensoriamento remoto é um conceito fundamental para o entendimento de como os sensores remotos captam e interpretam informações relacionadas à superfície terrestre. As bandas de absorção no espectro eletromagnético indicam frequência em que",
+        "alternativas": {
+            "A": "a radiação é totalmente refletida pelo objeto.",
+            "B": "a radiação é emitida pelos objetos.",
+            "C": "a radiação é totalmente absorvida pelo objeto.",
+            "D": "a radiação é irrelevante para o sensoriamento remoto.",
+            "E": "há maior dispersão da radiação."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Bandas de absorcao no espectro eletromagnetico sao frequencias onde determinada substancia (ou a atmosfera) absorve grande parte da radiacao incidente. Em outras frequencias, havera maior reflexao ou transmissao."
+    },
+    {
+        "id": "1339709",
+        "enunciado": "O sensoriamento remoto é uma técnica poderosa utilizada para coletar e analisar informações referentes à superfície da Terra e outros planetas sem contato físico direto. Os sensores utilizados nessa prática são geralmente classificados em duas categorias, ativos e passivos. Cada tipo de sensor tem características e aplicações específicas que são vitais para diversas áreas de pesquisa e monitoramento ambiental, agrícola, climático, entre outros. Qual é a principal diferença entre sensores ativos e passivos?",
+        "alternativas": {
+            "A": "Sensores ativos podem detectar energia térmica; sensores passivos não a detectam.",
+            "B": "Sensores ativos detectam apenas a luz visível, enquanto sensores passivos detectam uma gama mais ampla de frequências.",
+            "C": "Sensores passivos são digitalmente operados, enquanto sensores ativos são analógicos.",
+            "D": "Sensores ativos são usados apenas em satélites, enquanto sensores passivos são usados em aplicações terrestres.",
+            "E": "Sensores ativos emitem a própria energia para iluminar o alvo, e sensores passivos dependem da luz natural."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Sensores ativos (radar, lidar) emitem seu proprio sinal e medem o retorno. Sensores passivos (camera, radiometro) detectam a energia refletida ou emitida naturalmente pela Terra (sol, calor)."
+    },
+    {
+        "id": "1339711",
+        "enunciado": "Sistemas orbitais para monitoramento terrestre utilizam satélites equipados com uma variedade de sensores para coletar dados precisos em relação à superfície da Terra, fornecendo informações essenciais para o manejo de recursos naturais e o planejamento urbano. Assinale a alternativa que apresenta alguns exemplos de sistemas orbitais utilizados no monitoramento de tipos de usos da terra.",
+        "alternativas": {
+            "A": "GPS, Glonass, Galileo",
+            "B": "Hubble, James Webb, Chandra",
+            "C": "Landsat, CBERS, SPOT",
+            "D": "ISS, Tiangong, Mir",
+            "E": "Voyager, Pioneer, New Horizons"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Landsat, CBERS e SPOT sao series de satelites dedicados ao imageamento da Terra e ao monitoramento de seus diversos usos, incluindo o uso da terra. Os outros exemplos sao de outras areas (astronomia, navegacao, espaco)."
+    },
+    {
+        "id": "1339712",
+        "enunciado": "A classificação de imagens de satélite é um processo essencial no sensoriamento remoto, que envolve a categorização de pixels em um conjunto de classes temáticas, como tipos de vegetação, uso do solo ou presença de água. Utilizando algoritmos e técnicas avançadas, como aprendizado de máquina e redes neurais, essa classificação permite transformar dados brutos em informações geográficas úteis para planejamento urbano, conservação ambiental e estudos agrícolas. No processamento de imagens digitais, a classificação supervisionada é um(a)",
+        "alternativas": {
+            "A": "processo em que o algoritmo aprende a classificar imagens baseando-se em exemplos fornecidos pelo operador.",
+            "B": "método que usa inteligência artificial para classificar imagens sem ajuda humana.",
+            "C": "técnica por meio da qual o sistema automaticamente define as classes de classificação.",
+            "D": "procedimento que requer a intervenção manual do operador para cada pixel da imagem.",
+            "E": "processo que usa feedback dos usuários finais para melhorar a classificação."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Na classificacao supervisionada, o operador 'ensina' o algoritmo, fornecendo exemplos de pixels que representam classes especificas (e.g., floresta, agua). O algoritmo entao aprende a classificar os demais pixels com base nesses exemplos."
+    },
+    {
+        "id": "1339714",
+        "enunciado": "As janelas atmosféricas proporcionam aos cientistas a obtenção de informações valiosas acerca da composição química, da temperatura e de outras propriedades físicas dos objetos observados, tanto na Terra quanto nos corpos celestes, o que é essencial para estudos climáticos, ambientais e astronômicos. As janelas atmosféricas são relevantes para o sensoriamento remoto, pois",
+        "alternativas": {
+            "A": "são períodos de tempo em que as condições climáticas permitem o imageamento.",
+            "B": "indicam as áreas onde a poluição atmosférica é baixa o suficiente para a captura de imagens.",
+            "C": "são aberturas físicas na atmosfera criadas artificialmente para permitir a passagem de satélites.",
+            "D": "referem-se às frequências em que a atmosfera é transparente à radiação eletromagnética.",
+            "E": "descrevem os locais de lançamento de satélites que têm poucas restrições climáticas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Janelas atmosfericas sao as faixas do espectro eletromagnetico onde a atmosfera eh relativamente transparente a radiacao. Isso permite que os sensores remotos captem sinais da superficie sem muita interferencia absorcao ou espalhamento."
+    },
+    {
+        "id": "1339716",
+        "enunciado": "No contexto do sensoriamento remoto, a capacidade de um sistema de satélite ou aéreo de adquirir imagens, em momentos diferentes, da mesma área na superfície da Terra é crucial para monitorar e analisar mudanças ao longo do tempo, permitindo que cientistas e especialistas acompanhem fenômenos como a progressão do desmatamento, a expansão urbana, a dinâmica sazonal de ecossistemas e os efeitos das mudanças climáticas. Na gestão de sistemas orbitais, o que significa repetibilidade?",
+        "alternativas": {
+            "A": "A capacidade de um satélite de manter sua órbita estável.",
+            "B": "A frequência com a qual um satélite passa sobre o mesmo ponto da Terra.",
+            "C": "A habilidade de um satélite de reproduzir a mesma imagem várias vezes.",
+            "D": "A precisão com a qual as imagens são codificadas e decodificadas.",
+            "E": "A duração do período de armazenamento de dados do satélite."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Repetibilidade, no contexto de sensoriamento remoto orbital, refere-se à frequencia com que um satelite revisita a mesma area. Alta repetibilidade eh crucial para monitoramento de mudancas."
+    },
+    {
+        "id": "1339718",
+        "enunciado": "A fusão de imagens desempenha um papel vital em maximizar o potencial do sensoriamento remoto para resolver problemas complexos e oferecer insights mais profundos sobre a superfície da Terra. No processamento de imagens digitais, o que é fusão de imagens?",
+        "alternativas": {
+            "A": "Processo que combina várias imagens em uma única, com o objetivo de reduzir o ruído.",
+            "B": "Técnica que altera o contraste e brilho para melhorar a clareza da imagem.",
+            "C": "Método que converte imagens de uma representação de uma cor para outra.",
+            "D": "Processo que adiciona bordas artificiais às imagens a fim de melhorar a estética.",
+            "E": "Técnica que combina informações de múltiplas fontes para produzir uma imagem mais informativa ou mais precisa."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A fusao de imagens combina informacoes de diferentes fontes (e.g., sensores, datas) para criar uma imagem com maior riqueza de dados, mais precisa ou mais informativa, explorando as vantagens de cada fonte."
+    },
+    {
+        "id": "1339720",
+        "enunciado": "Qual é a principal vantagem dos sensores hiperespectrais em comparação com os sensores multiespectrais?",
+        "alternativas": {
+            "A": "Menor custo e menor tempo de processamento de imagens.",
+            "B": "Maior resolução espacial.",
+            "C": "Maior capacidade de capturar dados em um número muito maior de bandas espectrais.",
+            "D": "Menor sensibilidade às variações de iluminação ambiental.",
+            "E": "Maior facilidade de integração com sistemas GIS existentes."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sensores hiperespectrais capturam dados em dezenas ou centenas de bandas estreitas e contiguas, enquanto os multiespectrais usam poucas bandas mais largas. Isso permite maior discriminacao de alvos com os hiperespectrais."
+    },
+    {
+        "id": "1339726",
+        "enunciado": "O Projeto de Monitoramento do Desmatamento na Amazônia Legal por Satélite (Prodes) é um projeto do Instituto Nacional de Pesquisas Espaciais (INPE), que monitora o desmatamento por corte raso na Amazônia Legal e produz, desde 1988, as taxas anuais de desmatamento na região. Um dos principais sistemas de sensores utilizados pelo Prodes, desde o início de suas atividades, é o",
+        "alternativas": {
+            "A": "SRTM.",
+            "B": "Radarsat.",
+            "C": "Navstar GPS.",
+            "D": "Landsat.",
+            "E": "Topodata."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O Projeto PRODES, do INPE, utiliza primariamente dados dos satelites Landsat desde seu inicio para monitorar o desmatamento. Outros sensores podem ser usados, mas o Landsat eh o tradicional."
+    },
+    {
+        "id": "1339728",
+        "enunciado": "A elevada reflectância da vegetação está relacionada aos aspectos fisiológicos da folha e varia com o respectivo conteúdo de água na estrutura celular superficial. Por essa razão, é um forte indicador de sua natureza, estágio de desenvolvimento, sanidade, entre outros. Diante disso, na análise do espectro eletromagnético, é correto afirmar que essa elevada refletância da vegetação ocorre com mais intensidade na faixa do",
+        "alternativas": {
+            "A": "visível.",
+            "B": "infravermelho.",
+            "C": "infravermelho termal.",
+            "D": "micro-ondas.",
+            "E": "radar."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alta refletancia da vegetacao ocorre significativamente na faixa do infravermelho proximo e medio, devido a reflexao da luz nas celulas e a absorcao da clorofila, respectivamente. O visivel eh minimamente refletido."
+    },
+    {
+        "id": "1065201",
+        "enunciado": "O conteúdo de informação de uma imagem digital é dado em função das resoluções do sistema de sensoriamento remoto utilizado, dentre as quais, as resoluções espacial, espectral, radiométrica e temporal. Em função da aplicação/finalidade, deve-se levar em consideração se as resoluções atendem à finalidade desejada. A esse respeito, assinale a afirmativa correta.",
+        "alternativas": {
+            "A": "Quanto maior o número de faixas espectrais do espectro eletromagnético e menor a largura de cada faixa que um sensor pode registrar, maior é a capacidade do sistema de registrar diferenças espectrais entre os objetos, ou seja, melhor resolução espectral.",
+            "B": "A resolução espacial de uma imagem pode ser definida como a porção do terreno imageado representada em um pixel. Imagens que possuem resolução espacial de 50cm são adequadas para aplicações em que o menor elemento a ser representado mede 10cm.",
+            "C": "A resolução temporal de um sistema está associada ao tempo de exposição em que o sensor capta a energia eletromagnética radiante; quanto menor esse intervalo de tempo melhor a resolução temporal. Avaliar este tempo é fundamental para se evitar o fenômeno de borramento de imagens.",
+            "D": "A resolução radiométrica está associada à sensibilidade do sensor em distinguir níveis digitais. Quanto maior o número de níveis digitais, melhor a resolução radiométrica. Dessa forma, a resolução radiométrica de um sensor que pode distinguir 256 níveis, é pior que a resolução de um sensor que pode distinguir 16 níveis digitais, já que envolve um número menor de bits da imagem."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A resolucao espectral aumenta com o numero de faixas e a diminuicao da largura de cada faixa, permitindo melhor distincao entre objetos com assinaturas espectrais similares. As outras alternativas contêm imprecisões sobre definicoes e aplicacoes das resolucoes."
+    },
+    {
+        "id": "1065202",
+        "enunciado": "Quando a radiação eletromagnética interage com um objeto, a energia pode ser refletida, absorvida e transmitida. A reflectância de um objeto depende das propriedades do objeto e pode ser medida, variando em função do comprimento de onda da energia radiante observada. A curva da figura a seguir mostra os diferentes valores de reflectância da folha verde de uma árvore considerando uma determinada região do espectro eletromagnético, envolvendo os comprimentos de onda do azul (B), verde (G), vermelho (R), na região do visível, até o infravermelho próximo (IR). A curva que mostra a variação da reflectância de um objeto em função do comprimento de onda, é denominada",
+        "alternativas": {
+            "A": "espalhamento.",
+            "B": "reflexão.",
+            "C": "assinatura espectral.",
+            "D": "resolução espacial."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A curva que exibe a variacao da reflectancia de um objeto em funcao do comprimento de onda do espectro eletromagnetico e denominada assinatura espectral, pois representa a 'impressao digital' do material."
+    },
+    {
+        "id": "1009723",
+        "enunciado": "A Cemig (Companhia Energética de Minas Gerais) foi uma das pioneiras no uso de ortofotocartas no Brasil, na escala 1:10.000, cobrindo grande parte do estado de Minas Gerais. Uma ortofotocarta se caracteriza por",
+        "alternativas": {
+            "A": "ser analógica, ou seja, não permitir que tal produto seja digital a partir de uma fotografia aérea digitalizada.",
+            "B": "ser uma cópia executada a partir de uma fotografia em perspectiva, na qual os deslocamentos de imagem, devido à inclinação e ao relevo, podem ser corrigidos.",
+            "C": "ser uma imagem obtida por voos de VANTs (veículos aéreos não tripulados), sem preocupação com a sobreposição frontal ou lateral, uma vez que os tratamentos dos desvios verticais e horizontais serão feitos com apoio de campo a posteriori.",
+            "D": "ser uma mera imagem aérea da localidade, com aplicações para a fotointerpretação, porém de baixa confiabilidade para medições de comprimentos, áreas e direções, pois não possui uma escala uniforme em toda imagem."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A ortofotocarta e uma representacao geometricamente corrigida de uma fotografia aerea, onde as distorcoes causadas pelo relevo e pela inclinacao da camera sao eliminadas. Isso a torna precisa para mediciones, diferentemente de uma fotografia aerea simples."
+    },
+    {
+        "id": "1005863",
+        "enunciado": "É entendida como a capacidade óptica do sensor em função do seu campo de visada, o Instantaneous Field of View (Ifov), essa resolução pode ser traduzida como sendo a área real abrangida no terreno por cada pixel correspondente na imagem. Esse enunciado trata da resolução",
+        "alternativas": {
+            "A": "temporal.",
+            "B": "espacial.",
+            "C": "radiométrica.",
+            "D": "espectral."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O Instantaneous Field of View (Ifov) refere-se à área que um pixel cobre no terreno, ou seja, sua resolução no espaço geográfico. Isso está diretamente relacionado à resolução espacial de um sensor."
+    },
+    {
+        "id": "1012360",
+        "enunciado": "Em relação ao sensoriamento remoto, assinalar a alternativa CORRETA:",
+        "alternativas": {
+            "A": "A aquisição de dados só se dá por meio do uso de satélites.",
+            "B": "O sistema utilizado é somente passivo, como é o caso das câmeras fotográficas, que registram a reflectância ou a emitância de uma superfície.",
+            "C": "O sensoriamento remoto é definido como o conjunto de processos e técnicas usados para medir propriedades eletromagnéticas de uma superfície ou de um objeto, sem contato entre o objeto e o equipamento do sensor.",
+            "D": "O sistema é somente ativo, como é o caso dos sistemas de micro-ondas, que registram a diferença de frequência entre o sinal emitido por elas e o sinal recebido da superfície (efeito Doppler)."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O sensoriamento remoto coleta dados sem contato físico, medindo propriedades eletromagnéticas. As alternativas A, B e D estão incorretas por limitarem a aquisição de dados a satélites, a sistemas passivos ou a sistemas ativos, respectivamente."
+    },
+    {
+        "id": "1005875",
+        "enunciado": "Leia o texto a seguir. Em geral, os levantamentos com sistema de radar utilizam-se de faixas de comprimentos de ondas maiores, pois nessa porção do espectro eletromagnético há pouca interferência da atmosfera terrestre. A nebulosidade, por exemplo, não interfere na qualidade da imagem gerada, o que é bastante satisfatório para regiões de clima tropical úmido. O texto faz menção à qual faixa do espectro eletromagnético?",
+        "alternativas": {
+            "A": "Micro-ondas.",
+            "B": "Luz visível.",
+            "C": "Infravermelho próximo.",
+            "D": "Infravermelho termal."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sistemas de radar utilizam comprimentos de ondas maiores, como as micro-ondas. Essas ondas atravessam nuvens e névoa com mais facilidade, sendo ideais para monitoramento em condições atmosféricas adversas, comum em climas tropicais úmidos."
+    },
+    {
+        "id": "1005877",
+        "enunciado": "A resolução temporal de um sensor interfere na possibilidade de monitoramento de determinados alvos terrestres. No caso do satélite Landsat 8, a resolução temporal é de",
+        "alternativas": {
+            "A": "16 dias.",
+            "B": "21 dias.",
+            "C": "26 dias.",
+            "D": "31 dias."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A resolução temporal do satélite Landsat 8 é de 16 dias, o que significa que ele revisita o mesmo ponto na Terra a cada 16 dias. Isso permite o monitoramento de mudanças ao longo do tempo."
+    },
+    {
+        "id": "1028283",
+        "enunciado": "Dentre as técnicas de pré-processamento existem as técnicas de realce, que são funções operacionais para remover ou corrigir os erros e as distorções introduzidos nas imagens pelos sistemas sensores. Qual das técnicas de realce é uma transformação espacial?",
+        "alternativas": {
+            "A": "Análise de componentes principais.",
+            "B": "Ampliação de contraste.",
+            "C": "Filtros de convolução.",
+            "D": "Saturação de cores.",
+            "E": "Fusão de imagens."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Técnicas de realce visam melhorar a visualização da imagem. Filtros de convolução são transformações espaciais que aplicam uma máscara à imagem, modificando os valores dos pixels com base nos seus vizinhos. As outras opções são realces que atuam no domínio espectral ou de forma global, não como transformações espaciais diretas."
+    },
+    {
+        "id": "2095479",
+        "enunciado": "As resoluções de uma imagem evidenciam aspectos que foram fornecidos pelo sensor imageador. Considerando a característica de resolução espacial, assinale a alternativa que irá fornecer um maior detalhamento nas imagens de sensoriamento remoto:",
+        "alternativas": {
+            "A": "Imagens com pixel de 1 x 1 Km",
+            "B": "Imagens com pixel de 50 x 50 m",
+            "C": "Imagens com pixel de 30 x 30 m",
+            "D": "Imagens com pixel de 2 x 2 m",
+            "E": "Imagens com pixel de 5 x 5 Km"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A resolução espacial de uma imagem de sensoriamento remoto é determinada pelo tamanho do pixel. Quanto menor o pixel, maior o detalhamento e a resolução espacial da imagem. Um pixel de 2 x 2 m representa a menor área geográfica coberta por um pixel, resultando no maior detalhamento."
+    },
+    {
+        "id": "2095481",
+        "enunciado": "Os sensores imageadores podem medir a radiação eletromagnética, refletida em um amplo intervalo de comprimentos de ondas, sendo representada por níveis de cinza. Assinale a alternativa, com o intervalo de comprimento de onda, em que a vegetação saudável apresentará níveis de cinza mais claros nas imagens.",
+        "alternativas": {
+            "A": "0,38 – 0,48 µm",
+            "B": "0,12 – 0,36 µm",
+            "C": "2,4 – 3,40 µm",
+            "D": "0,48 – 0,59 µm",
+            "E": "0,76 – 1,2 µm"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A vegetação saudável reflete fortemente na faixa do infravermelho próximo (0.76-1.2 µm), resultando em tons claros nas imagens, devido à alta reflectância da clorofila."
+    },
+    {
+        "id": "2095483",
+        "enunciado": "O sistema de cor RGB é o mais usado entre os modelos de cores em imagens de sensoriamento remoto. Com relação ao sistema RGB, é correto afirmar que:",
+        "alternativas": {
+            "A": "A melhor representação das cores, para um tripleto de bandas, irá mostrar a água na tonalidade azul, a vegetação na cor verde e áreas urbanas na cor magenta.",
+            "B": "No algoritmo do modelo do espaço de cor, para as imagens de sensoriamento remoto, as intensidades x1, x2, x3 são determinados pela resolução espacial da imagem.",
+            "C": "Milhões de cores poderão ser obtidas, variando a intensidade de luz, de qualquer uma das três cores primárias do sistema RGB.",
+            "D": "Será necessário fazer a seleção de cinco bandas, que possuam o máximo da informação desejada, para a formação de todas as cores na imagem.",
+            "E": "Para visualização dos alvos em composição verdadeira, devemos utilizar bandas nas faixas espectrais do visível e infravermelho."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O sistema RGB é aditivo; a combinação das três cores primárias (vermelho, verde e azul) em diferentes intensidades de luz cria uma vasta gama de cores. Variando a intensidade de cada uma, milhões de cores podem ser formadas. As demais alternativas apresentam informações incorretas sobre a representação de cores ou a necessidade de bandas específicas."
+    },
+    {
+        "id": "1681468",
+        "enunciado": "Os tipos de dados de sensoriamento remoto a serem adquiridos dependem do tipo de informação necessária, do tamanho e da dinâmica dos objetos ou fenômenos estudados. A aquisição de dados é viabilizada através de diferentes sensores de acordo com seu objetivo. No caso de estudos da composição química da atmosfera e da composição química das rochas, respectivamente, os sensores precisam possuir excelente resolução",
+        "alternativas": {
+            "A": "temporal e radiométrica.",
+            "B": "espacial e espectral.",
+            "C": "radiométrica e espectral.",
+            "D": "espacial e temporal.",
+            "E": "espectral e espacial."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C é a correta. Para analisar a composição química da atmosfera e das rochas, são necessários sensores com alta resolução radiométrica (para detecção de energia) e espectral (para distinção de diferentes comprimentos de onda e materiais)."
+    }
+]

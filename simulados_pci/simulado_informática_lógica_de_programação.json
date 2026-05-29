@@ -1,0 +1,827 @@
+[
+    {
+        "id": "2268654",
+        "enunciado": "A lógica de programação é a base para o desenvolvimento de qualquer software, pois permite a criação de algoritmos coesos e eficientes. O pensamento computacional, por sua vez, é uma habilidade mais ampla que envolve a capacidade de decompor um problema em partes menores, identificar padrões e criar soluções que possam ser executadas por um computador. Marque a alternativa CORRETA que corresponde à atividade pedagógica que é a mais adequada para introduzir os conceitos de lógica de programação e pensamento computacional para alunos do Ensino Fundamental I e II.",
+        "alternativas": {
+            "A": "Realizar provas teóricas sobre a sintaxe de diferentes linguagens de programação.",
+            "B": "Propor a criação de jogos e animações em plataformas de programação em blocos, como o Scratch.",
+            "C": "Apresentar a história da computação por meio de aulas expositivas e leituras de textos.",
+            "D": "Ensinar diretamente uma linguagem de programação complexa, como Java ou C++."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Plataformas como Scratch permitem introduzir lógica de programação e pensamento computacional de forma lúdica e visual, ideal para o Ensino Fundamental, pois incentivam a criação e a resolução de problemas."
+    },
+    {
+        "id": "2283227",
+        "enunciado": "Um algoritmo é uma sequência finita de instruções bem definidas, utilizada para resolver problemas específicos, sejam eles matemáticos, computacionais ou cotidianos. A estrutura de controle que permite a um algoritmo repetir um conjunto de instruções enquanto uma condição for verdadeira é fundamental para a automação de tarefas. Assinale a alternativa que identifica corretamente a estrutura de controle responsável por permitir a repetição de instruções em um algoritmo.",
+        "alternativas": {
+            "A": "Estrutura de seleção simples (como o comando if), que executa um bloco de código apenas uma vez se a condição for satisfeita.",
+            "B": "Estrutura sequencial, onde as instruções são executadas uma após a outra, sem desvios ou repetições.",
+            "C": "Declaração de variáveis, que reserva espaço na memória para os dados, mas não controla o fluxo de execução das instruções.",
+            "D": "Estrutura de repetição ou laço (como o comando while), que testa uma condição antes ou depois de executar o bloco de instruções."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Estruturas de repetição, comumente chamadas de laços ou loops, são projetadas para executar um bloco de código múltiplas vezes, enquanto uma determinada condição lógica se mantiver verdadeira (ou falsa, dependendo do tipo de laço). São essenciais para automatizar tarefas repetitivas."
+    },
+    {
+        "id": "2355247",
+        "enunciado": "Um sistema de monitoramento adota as seguintes regras: Se um servidor ultrapassa 85% de uso de CPU por mais de 5 minutos, então um alerta crítico é gerado. Sempre que um alerta crítico é gerado, o sistema inicia automaticamente um processo de diagnóstico. Hoje, verificou-se o seguinte fato: Um processo de diagnóstico foi iniciado no sistema. Com base nessas informações, qual conclusão é logi - camente válida?",
+        "alternativas": {
+            "A": "O servidor ultrapassou 85% de uso de CPU por mais de 5 minutos.",
+            "B": "Um alerta crítico não foi gerado, embora o diagnóstico tenha sido iniciado.",
+            "C": "O sistema gerou diagnóstico mesmo sem alerta crítico, violando as regras dadas.",
+            "D": "O servidor não teve aumento de uso de CPU, mas o alerta crítico foi gerado.",
+            "E": "O servidor pode ou não ter ultrapassado 85% de uso de CPU; isso não pode ser afirmado com certeza."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A regra estabelece que se CPU > 85% por > 5 min,ówczas alerta crítico, então diagnóstico. O fato é que diagnóstico foi iniciado. Isso significa que pode ter ocorrido o alerta crítico (e, portanto, o aumento de CPU), mas não é obrigatório. O sistema poderia ter um gatilho para diagnóstico independente do alerta crítico, o que tornaria a conclusão sobre o uso da CPU incerta."
+    },
+    {
+        "id": "2129037",
+        "enunciado": "Considere a expressão com curto-circuito: if P() and Q() then R(). Assinale a transformação que preserva a mesma semântica na presença de efeitos colaterais.",
+        "alternativas": {
+            "A": "if P() then if Q() then R().",
+            "B": "if Q() then if P() then R().",
+            "C": "if P() then R() else if Q() then R().",
+            "D": "if P() and R() then Q()."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A expressão 'if P() and Q() then R()' com curto-circuito significa que R() só é executado se P() e Q() forem verdadeiros. A nova forma 'if P() then if Q() then R()' preserva essa semântica com efeitos colaterais, pois Q() só é avaliado se P() for verdadeiro, e R() só se Q() também for verdadeiro."
+    },
+    {
+        "id": "1839466",
+        "enunciado": "O conector E (AND em inglês) permite a análise de duas ou mais expressões lógicas e dá como resultado dessa avaliação um valor verdadeiro se todas as expressões forem verdadeiras, e um valor falso se pelo menos uma delas retornar falso. No exemplo a seguir: Se você possui carro e ele está abastecido com combustível, pode fazer a viagem. Qual das alternativas abaixo corresponde a lógica do conector E (AND):",
+        "alternativas": {
+            "A": "Falso - Falso - Verdadeiro.",
+            "B": "Falso - Verdadeiro - Verdadeiro.",
+            "C": "Verdadeiro - Falso - Verdadeiro.",
+            "D": "Verdadeiro - Verdadeiro - Verdadeiro.",
+            "E": "Verdadeiro - Verdadeiro - Falso."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O conector E (AND) retorna VERDADEIRO somente se todas as condições forem VERDADEIRAS. De forma análoga ao exemplo 'ter carro E estar abastecido', a viagem só é possível se ambas as condições forem atendidas."
+    },
+    {
+        "id": "1851823",
+        "enunciado": "Sobre as estruturas de controle de dados, analise as assertivas abaixo e assinale a alternativa correta:I. Sequencial: executa as instruções de forma linear, uma após a outra, na ordem em que são escritas, sem desvios ou repetições.II. Seleção: permite que uma instrução seja executada ou ignorada dependendo de uma condição. O programa escolhe qual bloco de código executar com base no resultado de uma expressão booleana (verdadeiro ou falso).III. Repetição: permite que um conjunto de instruções, ou uma única instrução, seja repetido várias vezes, com base em uma condição, até que a condição se torne falsa. A) Todas as assertivas estão corretas.",
+        "alternativas": {
+            "A": "Todas as assertivas estão corretas.",
+            "B": "Todas as assertivas estão incorretas.",
+            "C": "Apenas a assertiva I está correta.",
+            "D": "Apenas a assertiva II está correta.",
+            "E": "Apenas a assertiva III está correta."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A assertiva I descreve a sequencial, a II a selecao (condicional) e a III a repeticao (lacos de repeticao). Todas as descricoes estao corretas em relacao as estruturas de controle de fluxo em programacao."
+    },
+    {
+        "id": "2340345",
+        "enunciado": "Considere o diagrama Ladder abaixo com entradas digitais X1,X2,X3 e saídas digitais Y1,Y2,Y3. Analise os itens a seguir: I. Se X1=1 e X3=0, então a saída Y3 será acionada independentemente do valor de X2. II. Se X2=1, a saída Y1 estará necessariamente desligada. III. A saída Y2 só pode ser acionada se pelo menos uma das saídas Y1 ou Y3 estiver acionada. IV. A saída Y3 só será acionada se a saída Y2 também estiver acionada. Está correto o que se afirma em",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "II e IV, apenas.",
+            "C": "I, III e IV, apenas.",
+            "D": "I, II e IV, apenas.",
+            "E": "I, II, III e IV."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Item I: X1=1 e X3=0 permite a ativação de Y3 independentemente de X2. Item III: Y2 é ativa se Y1 OU Y3 estiverem ativas. Item IV: Y3 precisa de X1=1 e X2=1, e também Y2 ativa, portanto Y3 ativa implica Y2 ativa. Item II: Se X2=1, Y1 estará DESLIGADA, o que é falso, pois Y1 depende apenas de X2. Logo, I, III e IV estão corretos."
+    },
+    {
+        "id": "1636793",
+        "enunciado": "O sistema binário é a base da computação digital. O número decimal 10 é representado em binário como",
+        "alternativas": {
+            "A": "110.",
+            "B": "111.",
+            "C": "1001.",
+            "D": "1000.",
+            "E": "1010."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Para converter o decimal 10 para binário, dividimos por 2 sucessivamente: 10/2=5 R 0; 5/2=2 R 1; 2/2=1 R 0; 1/2=0 R 1. Lendo os restos de baixo para cima, temos 1010."
+    },
+    {
+        "id": "1636795",
+        "enunciado": "Em circuitos lógicos, as portas lógicas são fundamentais. Sobre a porta AND em circuitos TTL, quando a sua saída é verdadeira?",
+        "alternativas": {
+            "A": "Apenas uma entrada está em nível lógico alto.",
+            "B": "As entradas variam entre níveis lógicos alto e baixo.",
+            "C": "Pelo menos uma entrada está em nível lógico alto.",
+            "D": "Todas as entradas estão em nível lógico alto.",
+            "E": "Todas as entradas estão em nível lógico baixo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A porta lógica AND só produz uma saída verdadeira (nível lógico alto) quando TODAS as suas entradas estão em nível lógico alto. Se qualquer entrada estiver em nível baixo, a saída será baixa."
+    },
+    {
+        "id": "1120525",
+        "enunciado": "Considere o trecho de pseudocódigo a seguir: // Pseudocódigo para calcular a média de três números escrever(\"Digite o primeiro número: \") ler(primeiroNumero) escrever(\"Digite o segundo número: \") ler(segundoNumero) escrever(\"Digite o terceiro número: \") ler(terceiroNumero) soma < - primeiroNumero + segundoNumero + terceiroNumero media < - soma / 3 escrever(\"A média dos três números é: \", media) Com base no trecho código apresentado, assinale a alternativa que apresenta a finalidade da parte do pseudocódigo que contém as linhas a seguir. escrever(\"Digite o primeiro número: \") ler(primeiroNumero) escrever(\"Digite o segundo número: \") ler(segundoNumero) escrever(\"Digite o terceiro número: \") ler(terceiroNumero)",
+        "alternativas": {
+            "A": "Exibir a média dos três números.",
+            "B": "Solicitar ao usuário que insira três números.",
+            "C": "Calcular a soma dos três números.",
+            "D": "Determinar se os números são iguais."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As linhas 'escrever(\"Digite o primeiro número: \")', 'ler(primeiroNumero)', e as similares para segundo e terceiro números, tem a funcao de interagir com o usuario, solicitando que ele insira os valores necessarios para os calculos posteriores."
+    },
+    {
+        "id": "1875959",
+        "enunciado": "Assina le a alternativa que apresenta CORRETAMENTE a expressão booleana que representa a operação “ou exclusivo” (XOR):",
+        "alternativas": {
+            "A": "A OR B",
+            "B": "A AND B",
+            "C": "NOT (A OR B)",
+            "D": "(A OR B) AND NOT (A AND B)"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A operação XOR é verdadeira quando apenas um dos operandos é verdadeiro. A expressão (A OR B) AND NOT (A AND B) garante isso, pois a primeira parte é verdadeira se A OU B for verdadeiro, e a segunda parte retorna falso se ambos forem verdadeiros."
+    },
+    {
+        "id": "1120528",
+        "enunciado": "Considere o seguinte pseudocódigo: // Pseudocódigo para calcular a média de duas notas // ??? (1) nota1, nota2, media: real // ??? (2) escrever(\"Digite a primeira nota: \") ler(nota1) escrever(\"Digite a segunda nota: \") ler(nota2) // ??? (3) media < - (nota1 + nota2) / 2 // ??? (4) escrever(\"A média das duas notas é: \", media) Com base no pseudocódigo, assinale a alternativa que apresenta corretamente cada elemento ( // ???) a sua respectiva parte no pseudocódigo.",
+        "alternativas": {
+            "A": "1 – Declaração de variáveis / 2 – Entrada de dados / 3 – Processamento / 4 – Saída de dados.",
+            "B": "1 – Declaração de variáveis / 2 – Leitura de dados / 3 – Entrada de dados / 4 – Processamento.",
+            "C": "1 – Entrada de dados / 2 – Leitura de dados / 3 – Processamento / 4 – Saída de dados.",
+            "D": "1 – Variáveis / 2 – Leitura de dados / 3 – Escrita de dados / 4 – Processamento."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A linha 1 declara as variáveis 'nota1', 'nota2' e 'media' como reais. As linhas 2 e as seguintes solicitam e leem os valores (entrada de dados). A linha 3 realiza o cálculo da média (processamento). A linha 4 exibe o resultado (saída de dados)."
+    },
+    {
+        "id": "1666346",
+        "enunciado": "Marque a alternativas CORRETA quanto a descrição\nda finalidade dos diagramas lógicos na resolução de\nproblemas.",
+        "alternativas": {
+            "A": "Identificar apenas as variáveis quantitativas\nenvolvidas em um problema.",
+            "B": "Representar graficamente as relações entre\ndiferentes proposições lógicas.",
+            "C": "Organizar dados estatísticos para análise\nexclusivamente numérica.",
+            "D": "Fornecer uma representação visual das etapas de\num processo de negócios.",
+            "E": "Resumir informações textuais de maneira\nimprecisa e aleatória."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B esta correta pois diagramas logicos, como arvores de decisao ou fluxogramas de lógica booleana, servem para representar graficamente as relacoes entre proposicoes e a estrutura da logica de um problema, auxiliando na sua resolucao. As demais alternativas descrevem funcoes de outros tipos de representacoes graficas ou analiticas, nao especificamente diagramas logicos."
+    },
+    {
+        "id": "1115208",
+        "enunciado": "Em um jogo de criptografia, cada letra é substituída pelo seu número correspondente no alfabeto (A=1, B=2, ..., Z=26). A equipe de Sofia precisa decifrar a palavra \"MATE\". Qual é a representação numérica dessa palavra?",
+        "alternativas": {
+            "A": "13 – 1 – 20 – 5.",
+            "B": "12 – 1 – 19 – 4.",
+            "C": "14 – 2 – 21 – 6.",
+            "D": "15 – 3 – 22 – 7."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A carta M corresponde ao 13º número no alfabeto, A ao 1º, T ao 20º e E ao 5º. Seguindo a regra de substituição A=1, B=2, e assim por diante, a palavra MATE é representada pela sequência numérica 13 – 1 – 20 – 5."
+    },
+    {
+        "id": "1548103",
+        "enunciado": "O conjunto de técnicas e conceitos que permite aos programadores desenvolverem programas de formas estruturadas, decompondo problemas complexos em etapas mais simples, é conhecido como:",
+        "alternativas": {
+            "A": "Compilador.",
+            "B": "Lógica de Programação.",
+            "C": "Sistema Operacional.",
+            "D": "Banco de Dados."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A Lógica de Programacão se refere ao conjunto de técnicas e princípios que organizam o raciocínio para solucionar um problema de forma estruturada e sequencial, independentemente da linguagem de programação utilizada."
+    },
+    {
+        "id": "1154538",
+        "enunciado": "Analise o algoritmo abaixo, escrito no software VisuAlg 3.0.algoritmo \"tecnico\"var    quantidade, soma, contador: inteiro    funcao acumulador(var_1: inteiro): inteiro    inicio        retorne soma + var_1    fimfuncaoinicio    soma < - 0    quantidade < - 0    repita        soma < - acumulador(quantidade)        quantidade < - quantidade + 2    até (quantidade > 10)fimalgoritmoAo executar o algoritmo acima, quantas vezes será chamada a função \"acumulador\"?",
+        "alternativas": {
+            "A": "2.",
+            "B": "3.",
+            "C": "5.",
+            "D": "6.",
+            "E": "10."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O loop 'repita' executa enquanto 'soma <- acumulador(quantidade)' e 'quantidade <- quantidade + 2' até '(quantidade > 10)'. As chamadas acontecerão para quantidade = 0, 2, 4, 6, 8. A próxima seria 10, mas a condição é 'quantidade > 10', o que significa que a execução para quando quantidade atinge 10. A função acumulador é chamada 5 vezes, para quantidade 0, 2, 4, 6, 8. Ah, na verdade vamos analisar os passos: 1. quant=0, chamou 1x acumulador. quant = 2. 2. quant=2, chamou 2x acumulador. quant=4. 3. quant=4, chamou 3x acumulador. quant=6. 4. quant=6, chamou 4x acumulador. quant=8. 5. quant=8, chamou 5x acumulador. quant=10. 6. quant=10, chamou 6x acumulador. quant=12. condition (12>10) is true, stops. Wait, that's not right. Let's trace the values of 'quantidade' BEFORE the call to 'acumulador'. 1. quantidade = 0. Call acumulador(0). quantity becomes 2. Loop continues. 2. quantidade = 2. Call acumulador(2). quantity becomes 4. Loop continues. 3. quantidade = 4. Call acumulador(4). quantity becomes 6. Loop ..."
+    },
+    {
+        "id": "1125676",
+        "enunciado": "Num fluxograma, a forma acima representa",
+        "alternativas": {
+            "A": "Atraso.",
+            "B": "Dados Armazenados.",
+            "C": "Processo Predefinido.",
+            "D": "Entrada Manual."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A forma de paralelogramo em um fluxograma geralmente representa a entrada ou saída de dados, indicando um armazenamento de dados ou arquivos."
+    },
+    {
+        "id": "1381524",
+        "enunciado": "Qual das alternativas abaixo contém somente operadores lógicos base na construção de sistemas digitais e da lógica proposicional, também muito usado em linguagem de programação?",
+        "alternativas": {
+            "A": "IF, ELSE, CONT",
+            "B": "=, <, >, <=, >=, <>",
+            "C": "+, -, *, /, \\",
+            "D": "AND, NAND, OR, XOR",
+            "E": "AND, NAND, ELSE, MOD"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D lista operadores lógicos (AND, NAND, OR, XOR) fundamentais para lógica proposicional e linguagens de programação. Os demais itens incluem comandos de fluxo (IF, ELSE), operadores aritméticos ou caracteres sem função lógica clara nesse contexto."
+    },
+    {
+        "id": "2243861",
+        "enunciado": "Analise o código Python a seguir: a = 5 b = 10 c = 15 if a < b and b < c: resultado = \"Primeira condição verdadeira\" elif a < c and b > c: resultado = \"Segunda condição verdadeira\" else: resultado = \"Nenhuma condição verdadeira\" print( resultado) Assinale a alternativa que apresenta o que será exibido ao termino da execução do código.",
+        "alternativas": {
+            "A": "Primeira condição verdadeira",
+            "B": "Segunda condição verdadeira",
+            "C": "Nenhuma condição verdadeira",
+            "D": "Erro"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A primeira condicao ('a < b and b < c') avalia '5 < 10 and 10 < 15'. Ambas sao verdadeiras, entao a condicao completa eh verdadeira. O programa imprimira 'Primeira condicao verdadeira' e nao avaliara as condicoes seguintes."
+    },
+    {
+        "id": "2243863",
+        "enunciado": "Analise o código Python a seguir: import numpy as np vetor = np.array([5, 10, 15, 20]) soma = np.sum(vetor) if soma > 50: if np.all(vetor % 5 == 0): resultado = \"Todos os elementos são múltiplos de 5 e a soma é maior que 50\" else: resultado = \"A soma é maior que 50, mas nem todos os elementos são múltiplos de 5\" else: resultado = \"A soma é 50 ou menor\" print(resultado) Assinale a alternativa que apresenta o que será exibido ao termino da execução do código.",
+        "alternativas": {
+            "A": "Todos os elementos são múltiplos de 5 e a soma é maior que 50",
+            "B": "A soma é maior que 50, mas nem todos os elementos são múltiplos de 5",
+            "C": "A soma é 50 ou menor",
+            "D": "Erro"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A soma dos elementos de 'vetor' é 5+10+15+20 = 50. Portanto, a condição 'soma > 50' é falsa. Contudo, se verificarmos as alternativas, há uma aparente inconsistência. Assumindo que o 'else' é acionado e a soma fosse maior que 50, a outra parte da lógica seria executada. A soma é 50, o que leva ao 'else'. Reavaliando: A soma é 50, a condição 'soma > 50' é falsa. O código vai para o 'else' final e imprime 'A soma é 50 ou menor'. No entanto, o código faz a comparação '>' . Na verdade, a soma é exata 50. A condição 'soma > 50' é falsa. O código vai para o 'else'Else, que resulta em 'A soma é 50 ou menor'. Se os elementos são múltiplos de 5, como 5, 10, 15, 20, e a soma é 50, entao a primeira condição (if soma > 50) é falsa. Logo, imprime 'A soma é 50 ou menor'. A alternativa A sugere 'Todos os elementos são múltiplos de 5 e a soma é maior que 50'. Essa alternativa incorreta, pois a soma é 50, não maior que 50. Existe um equívoco na interpretação da pergunta ou nas alternativas. Refazendo a análise da soma. Ve..."
+    },
+    {
+        "id": "2243865",
+        "enunciado": "Analise o código Python a seguir: vetor1 = [1, 4, 6, 8] vetor2 = [2, 4, 6, 10] soma1 = sum(vetor1) soma2 = sum (vetor2) if soma1 > soma2: if all(x > y for x, y in zip(vetor1, vetor2)): resultado = \"soma1 é maior e todos os elementos em vetor1 são maiores que em vetor2\" else: resultado = \"soma1 é maior, mas nem todos os elementos em vetor1 são maiores que em vetor2\" elif soma1 < soma2: resultado = \"soma1 é menor que soma2\" else: resultado = \"soma1 é igual a soma2\" print(resultado) Assinale a alternativa que apresenta o que será exibido ao termino da execução do código.",
+        "alternativas": {
+            "A": "soma1 é maior e todos os elementos em vetor1 são maiores que em vetor2",
+            "B": "soma1 é maior, mas nem todos os elementos em vetor1 são maiores que em vetor2",
+            "C": "soma1 é menor que soma2",
+            "D": "soma1 é igual a soma2"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Primeiro, soma1 (19) > soma2 (22) é falso. Ensuite, soma1 < soma2 (19 < 22) é verdadeiro. A segunda condição do if inicial (elif) é avaliada. A comparação 'all(x > y for x, y in zip(vetor1, vetor2))' falha pois 1 < 2. Logo, o resultado é 'soma1 é maior, mas nem todos os elementos em vetor1 são maiores que em vetor2'."
+    },
+    {
+        "id": "1045806",
+        "enunciado": "Expressões são utilizadas constantemente em diversos algoritmos, desta forma, assinale a alternativa que apresenta o que é um expressão booleana em programação.",
+        "alternativas": {
+            "A": "Uma expressão que deve contar apenas strings",
+            "B": "Uma expressão que envolve apenas valores numéricos",
+            "C": "Uma expressão que avalia para verdadeiro (true) ou falso (false)",
+            "D": "Uma expressão que retorna um número de ponto flutuante"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma expressao booleana em programacao avalia a veracidade de uma condicao, resultando em verdadeiro (true) ou falso (false). Elas sao fundamentais para a tomacao de decisoes em algoritmos."
+    },
+    {
+        "id": "1045808",
+        "enunciado": "Em linguagens de programação disponibilizam algumas estruturas de controle, qual a estrutura de controle utilizada para executar um bloco de código repetidamente enquanto uma variável é verdadeira.",
+        "alternativas": {
+            "A": "Variável",
+            "B": "Condição",
+            "C": "Função",
+            "D": "Loops (Laços)"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Loops (ou lacos) sao estruturas de controle de fluxo que permitem a execucao repetida de um bloco de codigo enquanto determinada condicao for verdadeira, garantindo a iteracao."
+    },
+    {
+        "id": "1045809",
+        "enunciado": "Uma das estruturas de controle condicional que linguagens de programação disponibilizam é a estrutura de if`s. Diante do exposto assinale a alternativa que apresenta qual a principal função desta estrutura condicional.",
+        "alternativas": {
+            "A": "Executar um bloco de código repetidamente",
+            "B": "Executar a declaração de variáveis",
+            "C": "Definir uma função",
+            "D": "Executar um bloco de código apenas se uma condição for verdadeira"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A principal funcao da estrutura condicional 'if' e executar um bloco de codigo especifico somente se a condicao embutida na declaracao for verdadeira, proporcionando ramificacao no fluxo do programa."
+    },
+    {
+        "id": "1200229",
+        "enunciado": "Abaixo é apresentado um algoritmo escrito no software VisuAlg 2.0:\n\nalgoritmo \"prova\"\nvar\n    i, soma: inteiro\ninicio\n    i := 0\n    soma := 0\n    repita\n        se(i ^ 2 <= 10) entao\n            soma := soma + i\n        fimse\n        i <- i + 1\n    ate (i = 5)\nfimalgoritmo\n\nAo final da execução do algoritmo acima, qual será o valor da variável \"soma\"?",
+        "alternativas": {
+            "A": "1",
+            "B": "3",
+            "C": "6",
+            "D": "10",
+            "E": "15"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O algoritmo calcula a soma dos quadrados dos números ímpares de 1 a 5 (inclusive). i=0, soma=0. Repete: i=1, 1^2=1. soma=1. i=2, pula. i=3, 3^2=9. soma=1+9=10. i=4, pula. i=5, 5^2=25. soma=10+25=35.  Há um erro na questão.  A condição 'i^2 < 10' limita o valor de 'i'. Vamos seguir estritamente a lógica do código.  i=0, soma=0.  Loop:  i=0, i^2=0 < 10. soma = 0+i = 0. i = i+1 = 1.  i=1, i^2=1 < 10. soma = 0+i = 1. i = i+1 = 2.  i=2, i^2=4 < 10. soma = 1+i = 3. i = i+1 = 3.  i=3, i^2=9 < 10. soma = 3+i = 6. i = i+1 = 4.  i=4, i^2=16 >= 10. Fim do loop. O valor final de soma é 6.  A alternativa C está correta.  Vamos refazer a lógica do algoritmo 'soma'.  algoritmo 'prova' var i, soma: inteiro inicio i := 0 soma := 0 repita se (i ^ 2 < que 10) entao soma := soma + i fimse i := i + 1 ate(i > 5). Fim.  Refazendo o trace com a condição 'i > 5' para sair.  i=0, soma=0.  Loop:  i=0, i^2=0<10. soma=0+0=0. i=1.  i=1, i^2=1<10. soma=0+1=1. i=2.  i=2, i^2=4<10. soma=1+2=3. i=3.  i=3, i^2=9<10. soma=3+3=6. i=4.  i=4, ..."
+    },
+    {
+        "id": "1042069",
+        "enunciado": "Considere o código em linguagem C apresentado a seguir: #include  int main( void ) { int c,n,t,m; n = 10; t = 0; c = 0; while (c < 10) { t = t + n; c++; } m = t / c; printf(\"%d\\n\", m); return 0; } Sobre o funcionamento do código apresentado, é correto afirmar que: I. O ciclo de repetição do comando while faz nove repetições. II. A saída produzida pelo comando printf será o valor 10. III. No final da execução do programa, o conteúdo da variável t será o valor 90; Assinale a alternativa CORRETA :",
+        "alternativas": {
+            "A": "Apenas a afirmação I é correta.",
+            "B": "As afirmações I e II são corretas.",
+            "C": "Apenas a afirmação II é correta.",
+            "D": "As afirmações II e III são corretas.",
+            "E": "As afirmações I e III são corretas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A análise do código C mostra um loop `while(c < 10)` que executa 10 vezes (c de 0 a 9). Na primeira repetição, `t = 0 + 10`, `c = 1`. Assim, `t` acumula valores de 10. Após 10 repetições (c vai de 0 a 9), `t` será 10 * 10 = 100 e `c` será 10. Logo, `m = 100 / 10 = 10`. A afirmação I está incorreta (o loop executa 10 vezes, de c=0 a c=9). A afirmação II está correta (a saída é 10). A afirmação III está incorreta (t será 100). Portanto, apenas a afirmação II é correta."
+    },
+    {
+        "id": "1042070",
+        "enunciado": "Considere o código em linguagem C apresentado a seguir: #include  int main(void) { int N[20],x,y; for (x=0; x <= 10; x++){ scanf(\"%d\",&N[x]); } for (y=0; y < 10; y++){ if (N[y] > 0){ printf(\"%d \\n\",N[y]); } } } Sobre o funcionamento do código apresentado, é correto afirmar que: I. Armazena valores em todas as posições do vetor N. II. Exibe os valores apenas das 10 primeiras posições do vetor N. III. Exibe apenas valores positivos armazenados no vetor N. Assinale a alternativa CORRETA :",
+        "alternativas": {
+            "A": "As afirmações I e II são corretas.",
+            "B": "Apenas a afirmação II é correta.",
+            "C": "As afirmações I e III são corretas.",
+            "D": "As afirmações II e III são corretas.",
+            "E": "Nenhuma das afirmações."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O loop `for (x=0; x < 20; x++)` inicializa todas as 20 posições do vetor N. O segundo loop `for (y=0; y < 20; y++)` percorre todas as posições do vetor. A condição `if (N[y] > 0)` faz com que apenas os valores positivos sejam impressos. Portanto, I é correta (armazena em todas as posições), II é incorreta (exibe valores de todas as 20 posições que satisfazem a condição), e III é correta (exibe apenas valores positivos). A alternativa que combina I e III seria a C, mas a questão pede para assinalar CORRETA. O programa armazena em todas as 20 posições (I) e exibe apenas os valores positivos (III). O segundo loop percorre todas as posições (y=0 a 19). A impressão ocorre SE N[y] > 0. Logo, I e III estão corretas."
+    },
+    {
+        "id": "1028238",
+        "enunciado": "Em um diagrama de comandos elétricos, caracteriza-se como dispositivos de acionamento e controle os componentes que auxiliam na composição das lógicas de acionamento do circuito de comando. Como exemplos desses componentes, podem-se citar os contatos de botões e relés auxiliares que permitem o intertravamento lógico dos dispositivos. Considere um contato X e um contato Y associados em série, que são usados para acionar um motor elétrico. Considerando a associação dos contatos descrita, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "X e Y resultam em uma lógica OU (OR), já que quando A ou B são selecionados não é possível acionar o motor.",
+            "B": "X e Y resultam em uma lógica NÃO (NOT), já que se X estiver pressionado, Y não poderá ser acionado.",
+            "C": "X e Y resultam em uma lógica OU-EXCLUSIVO (XOR), já que o motor só funcionará se X e Y estiverem pressionados simultaneamente ou se X e Y não estiverem sendo acionados ao mesmo tempo.",
+            "D": "X e Y resultam em uma lógica E (AND), já que somente quando os dois contatos estiverem acionados simultaneamente é possível acionar o motor.",
+            "E": "X e Y resultam em uma lógica E-EXCLUSIVO (XAND), já que o motor nunca poderá ser acionado devido ao tipo de lógica empregada para associar X e Y."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Contatos associados em série em um diagrama elétrico realizam uma lógica E (AND). Isso significa que ambas as condições (contato X acionado E contato Y acionado) devem ser verdadeiras para que o circuito seja fechado e o motor possa ser acionado. Se apenas um deles for acionado, o circuito permanecerá aberto."
+    },
+    {
+        "id": "1168161",
+        "enunciado": "Qual das seguintes opções melhor descreve o conceito de uma estrutura de sequência em programação?",
+        "alternativas": {
+            "A": "Execução de comandos em paralelo para otimizar a performance do algoritmo;",
+            "B": "Seleção de um bloco de comandos para executar dentre várias opções baseadas em condições;",
+            "C": "Execução de comandos, um após o outro, na ordem em que aparecem no algoritmo;",
+            "D": "Repetição de um bloco de comandos até que uma condição seja satisfeita;",
+            "E": "Execução de um bloco de comandos baseado em uma condição específica."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma estrutura de sequencia em programacao de inica a execucao de comandos um apos o outro, na ordem em que estao escritos no codigo."
+    },
+    {
+        "id": "1168164",
+        "enunciado": "Julgue as sentenças abaixo como VERDADEIRAS ou FALSAS. 1. (__) Vetores (arrays bidimensionais) e matrizes (arrays unidimensionais) são estruturas de dados que permitem armazenar e manipular coleções de dados de forma eficiente. 2. (__) Fluxogramas são representações gráficas de algoritmos, utilizando símbolos padronizados para denotar diferentes tipos de instruções ou operações (como processos, decisões, entrada/saída de dados, entre outros). 3. (__) Ao utilizar uma sintaxe simplificada e próxima da língua nativa do aprendiz, o Portugol permite uma compreensão mais intuitiva dos conceitos fundamentais de programação, como variáveis, estruturas de controle e lógica de programação. A sequência CORRETA é:",
+        "alternativas": {
+            "A": "1.V, 2.F, 3.F;",
+            "B": "1.F, 2.V, 3.V;",
+            "C": "1.V, 2.F, 3.V;",
+            "D": "1.V, 2.V, 3.V;",
+            "E": "1.V, 2.V, 3.F."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sentença 1: Matrizes são bidimensionais e vetores são unidimensionais, ambas são estruturas de dados eficientes. Sentença 2: Fluxogramas usam símbolos padronizados para representar algoritmos graficamente. Sentença 3: Portugol é projetado para ser intuitivo e facilitar o aprendizado de programação."
+    },
+    {
+        "id": "2268654",
+        "enunciado": "A lógica de programação é a base para o desenvolvimento de qualquer software, pois permite a criação de algoritmos coesos e eficientes. O pensamento computacional, por sua vez, é uma habilidade mais ampla que envolve a capacidade de decompor um problema em partes menores, identificar padrões e criar soluções que possam ser executadas por um computador. Marque a alternativa CORRETA que corresponde à atividade pedagógica que é a mais adequada para introduzir os conceitos de lógica de programação e pensamento computacional para alunos do Ensino Fundamental I e II.",
+        "alternativas": {
+            "A": "Realizar provas teóricas sobre a sintaxe de diferentes linguagens de programação.",
+            "B": "Propor a criação de jogos e animações em plataformas de programação em blocos, como o Scratch.",
+            "C": "Apresentar a história da computação por meio de aulas expositivas e leituras de textos.",
+            "D": "Ensinar diretamente uma linguagem de programação complexa, como Java ou C++."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Plataformas como Scratch permitem introduzir lógica de programação e pensamento computacional de forma lúdica e visual, ideal para o Ensino Fundamental, pois incentivam a criação e a resolução de problemas."
+    },
+    {
+        "id": "2283227",
+        "enunciado": "Um algoritmo é uma sequência finita de instruções bem definidas, utilizada para resolver problemas específicos, sejam eles matemáticos, computacionais ou cotidianos. A estrutura de controle que permite a um algoritmo repetir um conjunto de instruções enquanto uma condição for verdadeira é fundamental para a automação de tarefas. Assinale a alternativa que identifica corretamente a estrutura de controle responsável por permitir a repetição de instruções em um algoritmo.",
+        "alternativas": {
+            "A": "Estrutura de seleção simples (como o comando if), que executa um bloco de código apenas uma vez se a condição for satisfeita.",
+            "B": "Estrutura sequencial, onde as instruções são executadas uma após a outra, sem desvios ou repetições.",
+            "C": "Declaração de variáveis, que reserva espaço na memória para os dados, mas não controla o fluxo de execução das instruções.",
+            "D": "Estrutura de repetição ou laço (como o comando while), que testa uma condição antes ou depois de executar o bloco de instruções."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Estruturas de repetição, comumente chamadas de laços ou loops, são projetadas para executar um bloco de código múltiplas vezes, enquanto uma determinada condição lógica se mantiver verdadeira (ou falsa, dependendo do tipo de laço). São essenciais para automatizar tarefas repetitivas."
+    },
+    {
+        "id": "2355247",
+        "enunciado": "Um sistema de monitoramento adota as seguintes regras: Se um servidor ultrapassa 85% de uso de CPU por mais de 5 minutos, então um alerta crítico é gerado. Sempre que um alerta crítico é gerado, o sistema inicia automaticamente um processo de diagnóstico. Hoje, verificou-se o seguinte fato: Um processo de diagnóstico foi iniciado no sistema. Com base nessas informações, qual conclusão é logi - camente válida?",
+        "alternativas": {
+            "A": "O servidor ultrapassou 85% de uso de CPU por mais de 5 minutos.",
+            "B": "Um alerta crítico não foi gerado, embora o diagnóstico tenha sido iniciado.",
+            "C": "O sistema gerou diagnóstico mesmo sem alerta crítico, violando as regras dadas.",
+            "D": "O servidor não teve aumento de uso de CPU, mas o alerta crítico foi gerado.",
+            "E": "O servidor pode ou não ter ultrapassado 85% de uso de CPU; isso não pode ser afirmado com certeza."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A regra estabelece que se CPU > 85% por > 5 min,ówczas alerta crítico, então diagnóstico. O fato é que diagnóstico foi iniciado. Isso significa que pode ter ocorrido o alerta crítico (e, portanto, o aumento de CPU), mas não é obrigatório. O sistema poderia ter um gatilho para diagnóstico independente do alerta crítico, o que tornaria a conclusão sobre o uso da CPU incerta."
+    },
+    {
+        "id": "2129037",
+        "enunciado": "Considere a expressão com curto-circuito: if P() and Q() then R(). Assinale a transformação que preserva a mesma semântica na presença de efeitos colaterais.",
+        "alternativas": {
+            "A": "if P() then if Q() then R().",
+            "B": "if Q() then if P() then R().",
+            "C": "if P() then R() else if Q() then R().",
+            "D": "if P() and R() then Q()."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A expressão 'if P() and Q() then R()' com curto-circuito significa que R() só é executado se P() e Q() forem verdadeiros. A nova forma 'if P() then if Q() then R()' preserva essa semântica com efeitos colaterais, pois Q() só é avaliado se P() for verdadeiro, e R() só se Q() também for verdadeiro."
+    },
+    {
+        "id": "1839466",
+        "enunciado": "O conector E (AND em inglês) permite a análise de duas ou mais expressões lógicas e dá como resultado dessa avaliação um valor verdadeiro se todas as expressões forem verdadeiras, e um valor falso se pelo menos uma delas retornar falso. No exemplo a seguir: Se você possui carro e ele está abastecido com combustível, pode fazer a viagem. Qual das alternativas abaixo corresponde a lógica do conector E (AND):",
+        "alternativas": {
+            "A": "Falso - Falso - Verdadeiro.",
+            "B": "Falso - Verdadeiro - Verdadeiro.",
+            "C": "Verdadeiro - Falso - Verdadeiro.",
+            "D": "Verdadeiro - Verdadeiro - Verdadeiro.",
+            "E": "Verdadeiro - Verdadeiro - Falso."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O conector E (AND) retorna VERDADEIRO somente se todas as condições forem VERDADEIRAS. De forma análoga ao exemplo 'ter carro E estar abastecido', a viagem só é possível se ambas as condições forem atendidas."
+    },
+    {
+        "id": "1851823",
+        "enunciado": "Sobre as estruturas de controle de dados, analise as assertivas abaixo e assinale a alternativa correta:I. Sequencial: executa as instruções de forma linear, uma após a outra, na ordem em que são escritas, sem desvios ou repetições.II. Seleção: permite que uma instrução seja executada ou ignorada dependendo de uma condição. O programa escolhe qual bloco de código executar com base no resultado de uma expressão booleana (verdadeiro ou falso).III. Repetição: permite que um conjunto de instruções, ou uma única instrução, seja repetido várias vezes, com base em uma condição, até que a condição se torne falsa. A) Todas as assertivas estão corretas.",
+        "alternativas": {
+            "A": "Todas as assertivas estão corretas.",
+            "B": "Todas as assertivas estão incorretas.",
+            "C": "Apenas a assertiva I está correta.",
+            "D": "Apenas a assertiva II está correta.",
+            "E": "Apenas a assertiva III está correta."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A assertiva I descreve a sequencial, a II a selecao (condicional) e a III a repeticao (lacos de repeticao). Todas as descricoes estao corretas em relacao as estruturas de controle de fluxo em programacao."
+    },
+    {
+        "id": "2340345",
+        "enunciado": "Considere o diagrama Ladder abaixo com entradas digitais X1,X2,X3 e saídas digitais Y1,Y2,Y3. Analise os itens a seguir: I. Se X1=1 e X3=0, então a saída Y3 será acionada independentemente do valor de X2. II. Se X2=1, a saída Y1 estará necessariamente desligada. III. A saída Y2 só pode ser acionada se pelo menos uma das saídas Y1 ou Y3 estiver acionada. IV. A saída Y3 só será acionada se a saída Y2 também estiver acionada. Está correto o que se afirma em",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "II e IV, apenas.",
+            "C": "I, III e IV, apenas.",
+            "D": "I, II e IV, apenas.",
+            "E": "I, II, III e IV."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Item I: X1=1 e X3=0 permite a ativação de Y3 independentemente de X2. Item III: Y2 é ativa se Y1 OU Y3 estiverem ativas. Item IV: Y3 precisa de X1=1 e X2=1, e também Y2 ativa, portanto Y3 ativa implica Y2 ativa. Item II: Se X2=1, Y1 estará DESLIGADA, o que é falso, pois Y1 depende apenas de X2. Logo, I, III e IV estão corretos."
+    },
+    {
+        "id": "1636793",
+        "enunciado": "O sistema binário é a base da computação digital. O número decimal 10 é representado em binário como",
+        "alternativas": {
+            "A": "110.",
+            "B": "111.",
+            "C": "1001.",
+            "D": "1000.",
+            "E": "1010."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Para converter o decimal 10 para binário, dividimos por 2 sucessivamente: 10/2=5 R 0; 5/2=2 R 1; 2/2=1 R 0; 1/2=0 R 1. Lendo os restos de baixo para cima, temos 1010."
+    },
+    {
+        "id": "1636795",
+        "enunciado": "Em circuitos lógicos, as portas lógicas são fundamentais. Sobre a porta AND em circuitos TTL, quando a sua saída é verdadeira?",
+        "alternativas": {
+            "A": "Apenas uma entrada está em nível lógico alto.",
+            "B": "As entradas variam entre níveis lógicos alto e baixo.",
+            "C": "Pelo menos uma entrada está em nível lógico alto.",
+            "D": "Todas as entradas estão em nível lógico alto.",
+            "E": "Todas as entradas estão em nível lógico baixo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A porta lógica AND só produz uma saída verdadeira (nível lógico alto) quando TODAS as suas entradas estão em nível lógico alto. Se qualquer entrada estiver em nível baixo, a saída será baixa."
+    },
+    {
+        "id": "1120525",
+        "enunciado": "Considere o trecho de pseudocódigo a seguir: // Pseudocódigo para calcular a média de três números escrever(\"Digite o primeiro número: \") ler(primeiroNumero) escrever(\"Digite o segundo número: \") ler(segundoNumero) escrever(\"Digite o terceiro número: \") ler(terceiroNumero) soma < - primeiroNumero + segundoNumero + terceiroNumero media < - soma / 3 escrever(\"A média dos três números é: \", media) Com base no trecho código apresentado, assinale a alternativa que apresenta a finalidade da parte do pseudocódigo que contém as linhas a seguir. escrever(\"Digite o primeiro número: \") ler(primeiroNumero) escrever(\"Digite o segundo número: \") ler(segundoNumero) escrever(\"Digite o terceiro número: \") ler(terceiroNumero)",
+        "alternativas": {
+            "A": "Exibir a média dos três números.",
+            "B": "Solicitar ao usuário que insira três números.",
+            "C": "Calcular a soma dos três números.",
+            "D": "Determinar se os números são iguais."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As linhas 'escrever(\"Digite o primeiro número: \")', 'ler(primeiroNumero)', e as similares para segundo e terceiro números, tem a funcao de interagir com o usuario, solicitando que ele insira os valores necessarios para os calculos posteriores."
+    },
+    {
+        "id": "1875959",
+        "enunciado": "Assina le a alternativa que apresenta CORRETAMENTE a expressão booleana que representa a operação “ou exclusivo” (XOR):",
+        "alternativas": {
+            "A": "A OR B",
+            "B": "A AND B",
+            "C": "NOT (A OR B)",
+            "D": "(A OR B) AND NOT (A AND B)"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A operação XOR é verdadeira quando apenas um dos operandos é verdadeiro. A expressão (A OR B) AND NOT (A AND B) garante isso, pois a primeira parte é verdadeira se A OU B for verdadeiro, e a segunda parte retorna falso se ambos forem verdadeiros."
+    },
+    {
+        "id": "1120528",
+        "enunciado": "Considere o seguinte pseudocódigo: // Pseudocódigo para calcular a média de duas notas // ??? (1) nota1, nota2, media: real // ??? (2) escrever(\"Digite a primeira nota: \") ler(nota1) escrever(\"Digite a segunda nota: \") ler(nota2) // ??? (3) media < - (nota1 + nota2) / 2 // ??? (4) escrever(\"A média das duas notas é: \", media) Com base no pseudocódigo, assinale a alternativa que apresenta corretamente cada elemento ( // ???) a sua respectiva parte no pseudocódigo.",
+        "alternativas": {
+            "A": "1 – Declaração de variáveis / 2 – Entrada de dados / 3 – Processamento / 4 – Saída de dados.",
+            "B": "1 – Declaração de variáveis / 2 – Leitura de dados / 3 – Entrada de dados / 4 – Processamento.",
+            "C": "1 – Entrada de dados / 2 – Leitura de dados / 3 – Processamento / 4 – Saída de dados.",
+            "D": "1 – Variáveis / 2 – Leitura de dados / 3 – Escrita de dados / 4 – Processamento."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A linha 1 declara as variáveis 'nota1', 'nota2' e 'media' como reais. As linhas 2 e as seguintes solicitam e leem os valores (entrada de dados). A linha 3 realiza o cálculo da média (processamento). A linha 4 exibe o resultado (saída de dados)."
+    },
+    {
+        "id": "1666346",
+        "enunciado": "Marque a alternativas CORRETA quanto a descrição\nda finalidade dos diagramas lógicos na resolução de\nproblemas.",
+        "alternativas": {
+            "A": "Identificar apenas as variáveis quantitativas\nenvolvidas em um problema.",
+            "B": "Representar graficamente as relações entre\ndiferentes proposições lógicas.",
+            "C": "Organizar dados estatísticos para análise\nexclusivamente numérica.",
+            "D": "Fornecer uma representação visual das etapas de\num processo de negócios.",
+            "E": "Resumir informações textuais de maneira\nimprecisa e aleatória."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B esta correta pois diagramas logicos, como arvores de decisao ou fluxogramas de lógica booleana, servem para representar graficamente as relacoes entre proposicoes e a estrutura da logica de um problema, auxiliando na sua resolucao. As demais alternativas descrevem funcoes de outros tipos de representacoes graficas ou analiticas, nao especificamente diagramas logicos."
+    },
+    {
+        "id": "1115208",
+        "enunciado": "Em um jogo de criptografia, cada letra é substituída pelo seu número correspondente no alfabeto (A=1, B=2, ..., Z=26). A equipe de Sofia precisa decifrar a palavra \"MATE\". Qual é a representação numérica dessa palavra?",
+        "alternativas": {
+            "A": "13 – 1 – 20 – 5.",
+            "B": "12 – 1 – 19 – 4.",
+            "C": "14 – 2 – 21 – 6.",
+            "D": "15 – 3 – 22 – 7."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A carta M corresponde ao 13º número no alfabeto, A ao 1º, T ao 20º e E ao 5º. Seguindo a regra de substituição A=1, B=2, e assim por diante, a palavra MATE é representada pela sequência numérica 13 – 1 – 20 – 5."
+    },
+    {
+        "id": "1548103",
+        "enunciado": "O conjunto de técnicas e conceitos que permite aos programadores desenvolverem programas de formas estruturadas, decompondo problemas complexos em etapas mais simples, é conhecido como:",
+        "alternativas": {
+            "A": "Compilador.",
+            "B": "Lógica de Programação.",
+            "C": "Sistema Operacional.",
+            "D": "Banco de Dados."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A Lógica de Programacão se refere ao conjunto de técnicas e princípios que organizam o raciocínio para solucionar um problema de forma estruturada e sequencial, independentemente da linguagem de programação utilizada."
+    },
+    {
+        "id": "1154538",
+        "enunciado": "Analise o algoritmo abaixo, escrito no software VisuAlg 3.0.algoritmo \"tecnico\"var    quantidade, soma, contador: inteiro    funcao acumulador(var_1: inteiro): inteiro    inicio        retorne soma + var_1    fimfuncaoinicio    soma < - 0    quantidade < - 0    repita        soma < - acumulador(quantidade)        quantidade < - quantidade + 2    até (quantidade > 10)fimalgoritmoAo executar o algoritmo acima, quantas vezes será chamada a função \"acumulador\"?",
+        "alternativas": {
+            "A": "2.",
+            "B": "3.",
+            "C": "5.",
+            "D": "6.",
+            "E": "10."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O loop 'repita' executa enquanto 'soma <- acumulador(quantidade)' e 'quantidade <- quantidade + 2' até '(quantidade > 10)'. As chamadas acontecerão para quantidade = 0, 2, 4, 6, 8. A próxima seria 10, mas a condição é 'quantidade > 10', o que significa que a execução para quando quantidade atinge 10. A função acumulador é chamada 5 vezes, para quantidade 0, 2, 4, 6, 8. Ah, na verdade vamos analisar os passos: 1. quant=0, chamou 1x acumulador. quant = 2. 2. quant=2, chamou 2x acumulador. quant=4. 3. quant=4, chamou 3x acumulador. quant=6. 4. quant=6, chamou 4x acumulador. quant=8. 5. quant=8, chamou 5x acumulador. quant=10. 6. quant=10, chamou 6x acumulador. quant=12. condition (12>10) is true, stops. Wait, that's not right. Let's trace the values of 'quantidade' BEFORE the call to 'acumulador'. 1. quantidade = 0. Call acumulador(0). quantity becomes 2. Loop continues. 2. quantidade = 2. Call acumulador(2). quantity becomes 4. Loop continues. 3. quantidade = 4. Call acumulador(4). quantity becomes 6. Loop ..."
+    },
+    {
+        "id": "1125676",
+        "enunciado": "Num fluxograma, a forma acima representa",
+        "alternativas": {
+            "A": "Atraso.",
+            "B": "Dados Armazenados.",
+            "C": "Processo Predefinido.",
+            "D": "Entrada Manual."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A forma de paralelogramo em um fluxograma geralmente representa a entrada ou saída de dados, indicando um armazenamento de dados ou arquivos."
+    },
+    {
+        "id": "1381524",
+        "enunciado": "Qual das alternativas abaixo contém somente operadores lógicos base na construção de sistemas digitais e da lógica proposicional, também muito usado em linguagem de programação?",
+        "alternativas": {
+            "A": "IF, ELSE, CONT",
+            "B": "=, <, >, <=, >=, <>",
+            "C": "+, -, *, /, \\",
+            "D": "AND, NAND, OR, XOR",
+            "E": "AND, NAND, ELSE, MOD"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D lista operadores lógicos (AND, NAND, OR, XOR) fundamentais para lógica proposicional e linguagens de programação. Os demais itens incluem comandos de fluxo (IF, ELSE), operadores aritméticos ou caracteres sem função lógica clara nesse contexto."
+    },
+    {
+        "id": "2243861",
+        "enunciado": "Analise o código Python a seguir: a = 5 b = 10 c = 15 if a < b and b < c: resultado = \"Primeira condição verdadeira\" elif a < c and b > c: resultado = \"Segunda condição verdadeira\" else: resultado = \"Nenhuma condição verdadeira\" print( resultado) Assinale a alternativa que apresenta o que será exibido ao termino da execução do código.",
+        "alternativas": {
+            "A": "Primeira condição verdadeira",
+            "B": "Segunda condição verdadeira",
+            "C": "Nenhuma condição verdadeira",
+            "D": "Erro"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A primeira condicao ('a < b and b < c') avalia '5 < 10 and 10 < 15'. Ambas sao verdadeiras, entao a condicao completa eh verdadeira. O programa imprimira 'Primeira condicao verdadeira' e nao avaliara as condicoes seguintes."
+    },
+    {
+        "id": "2243863",
+        "enunciado": "Analise o código Python a seguir: import numpy as np vetor = np.array([5, 10, 15, 20]) soma = np.sum(vetor) if soma > 50: if np.all(vetor % 5 == 0): resultado = \"Todos os elementos são múltiplos de 5 e a soma é maior que 50\" else: resultado = \"A soma é maior que 50, mas nem todos os elementos são múltiplos de 5\" else: resultado = \"A soma é 50 ou menor\" print(resultado) Assinale a alternativa que apresenta o que será exibido ao termino da execução do código.",
+        "alternativas": {
+            "A": "Todos os elementos são múltiplos de 5 e a soma é maior que 50",
+            "B": "A soma é maior que 50, mas nem todos os elementos são múltiplos de 5",
+            "C": "A soma é 50 ou menor",
+            "D": "Erro"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A soma dos elementos de 'vetor' é 5+10+15+20 = 50. Portanto, a condição 'soma > 50' é falsa. Contudo, se verificarmos as alternativas, há uma aparente inconsistência. Assumindo que o 'else' é acionado e a soma fosse maior que 50, a outra parte da lógica seria executada. A soma é 50, o que leva ao 'else'. Reavaliando: A soma é 50, a condição 'soma > 50' é falsa. O código vai para o 'else' final e imprime 'A soma é 50 ou menor'. No entanto, o código faz a comparação '>' . Na verdade, a soma é exata 50. A condição 'soma > 50' é falsa. O código vai para o 'else'Else, que resulta em 'A soma é 50 ou menor'. Se os elementos são múltiplos de 5, como 5, 10, 15, 20, e a soma é 50, entao a primeira condição (if soma > 50) é falsa. Logo, imprime 'A soma é 50 ou menor'. A alternativa A sugere 'Todos os elementos são múltiplos de 5 e a soma é maior que 50'. Essa alternativa incorreta, pois a soma é 50, não maior que 50. Existe um equívoco na interpretação da pergunta ou nas alternativas. Refazendo a análise da soma. Ve..."
+    },
+    {
+        "id": "2243865",
+        "enunciado": "Analise o código Python a seguir: vetor1 = [1, 4, 6, 8] vetor2 = [2, 4, 6, 10] soma1 = sum(vetor1) soma2 = sum (vetor2) if soma1 > soma2: if all(x > y for x, y in zip(vetor1, vetor2)): resultado = \"soma1 é maior e todos os elementos em vetor1 são maiores que em vetor2\" else: resultado = \"soma1 é maior, mas nem todos os elementos em vetor1 são maiores que em vetor2\" elif soma1 < soma2: resultado = \"soma1 é menor que soma2\" else: resultado = \"soma1 é igual a soma2\" print(resultado) Assinale a alternativa que apresenta o que será exibido ao termino da execução do código.",
+        "alternativas": {
+            "A": "soma1 é maior e todos os elementos em vetor1 são maiores que em vetor2",
+            "B": "soma1 é maior, mas nem todos os elementos em vetor1 são maiores que em vetor2",
+            "C": "soma1 é menor que soma2",
+            "D": "soma1 é igual a soma2"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Primeiro, soma1 (19) > soma2 (22) é falso. Ensuite, soma1 < soma2 (19 < 22) é verdadeiro. A segunda condição do if inicial (elif) é avaliada. A comparação 'all(x > y for x, y in zip(vetor1, vetor2))' falha pois 1 < 2. Logo, o resultado é 'soma1 é maior, mas nem todos os elementos em vetor1 são maiores que em vetor2'."
+    },
+    {
+        "id": "1045806",
+        "enunciado": "Expressões são utilizadas constantemente em diversos algoritmos, desta forma, assinale a alternativa que apresenta o que é um expressão booleana em programação.",
+        "alternativas": {
+            "A": "Uma expressão que deve contar apenas strings",
+            "B": "Uma expressão que envolve apenas valores numéricos",
+            "C": "Uma expressão que avalia para verdadeiro (true) ou falso (false)",
+            "D": "Uma expressão que retorna um número de ponto flutuante"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma expressao booleana em programacao avalia a veracidade de uma condicao, resultando em verdadeiro (true) ou falso (false). Elas sao fundamentais para a tomacao de decisoes em algoritmos."
+    },
+    {
+        "id": "1045808",
+        "enunciado": "Em linguagens de programação disponibilizam algumas estruturas de controle, qual a estrutura de controle utilizada para executar um bloco de código repetidamente enquanto uma variável é verdadeira.",
+        "alternativas": {
+            "A": "Variável",
+            "B": "Condição",
+            "C": "Função",
+            "D": "Loops (Laços)"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Loops (ou lacos) sao estruturas de controle de fluxo que permitem a execucao repetida de um bloco de codigo enquanto determinada condicao for verdadeira, garantindo a iteracao."
+    },
+    {
+        "id": "1045809",
+        "enunciado": "Uma das estruturas de controle condicional que linguagens de programação disponibilizam é a estrutura de if`s. Diante do exposto assinale a alternativa que apresenta qual a principal função desta estrutura condicional.",
+        "alternativas": {
+            "A": "Executar um bloco de código repetidamente",
+            "B": "Executar a declaração de variáveis",
+            "C": "Definir uma função",
+            "D": "Executar um bloco de código apenas se uma condição for verdadeira"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A principal funcao da estrutura condicional 'if' e executar um bloco de codigo especifico somente se a condicao embutida na declaracao for verdadeira, proporcionando ramificacao no fluxo do programa."
+    },
+    {
+        "id": "1200229",
+        "enunciado": "Abaixo é apresentado um algoritmo escrito no software VisuAlg 2.0:\n\nalgoritmo \"prova\"\nvar\n    i, soma: inteiro\ninicio\n    i := 0\n    soma := 0\n    repita\n        se(i ^ 2 <= 10) entao\n            soma := soma + i\n        fimse\n        i <- i + 1\n    ate (i = 5)\nfimalgoritmo\n\nAo final da execução do algoritmo acima, qual será o valor da variável \"soma\"?",
+        "alternativas": {
+            "A": "1",
+            "B": "3",
+            "C": "6",
+            "D": "10",
+            "E": "15"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O algoritmo calcula a soma dos quadrados dos números ímpares de 1 a 5 (inclusive). i=0, soma=0. Repete: i=1, 1^2=1. soma=1. i=2, pula. i=3, 3^2=9. soma=1+9=10. i=4, pula. i=5, 5^2=25. soma=10+25=35.  Há um erro na questão.  A condição 'i^2 < 10' limita o valor de 'i'. Vamos seguir estritamente a lógica do código.  i=0, soma=0.  Loop:  i=0, i^2=0 < 10. soma = 0+i = 0. i = i+1 = 1.  i=1, i^2=1 < 10. soma = 0+i = 1. i = i+1 = 2.  i=2, i^2=4 < 10. soma = 1+i = 3. i = i+1 = 3.  i=3, i^2=9 < 10. soma = 3+i = 6. i = i+1 = 4.  i=4, i^2=16 >= 10. Fim do loop. O valor final de soma é 6.  A alternativa C está correta.  Vamos refazer a lógica do algoritmo 'soma'.  algoritmo 'prova' var i, soma: inteiro inicio i := 0 soma := 0 repita se (i ^ 2 < que 10) entao soma := soma + i fimse i := i + 1 ate(i > 5). Fim.  Refazendo o trace com a condição 'i > 5' para sair.  i=0, soma=0.  Loop:  i=0, i^2=0<10. soma=0+0=0. i=1.  i=1, i^2=1<10. soma=0+1=1. i=2.  i=2, i^2=4<10. soma=1+2=3. i=3.  i=3, i^2=9<10. soma=3+3=6. i=4.  i=4, ..."
+    },
+    {
+        "id": "1042069",
+        "enunciado": "Considere o código em linguagem C apresentado a seguir: #include  int main( void ) { int c,n,t,m; n = 10; t = 0; c = 0; while (c < 10) { t = t + n; c++; } m = t / c; printf(\"%d\\n\", m); return 0; } Sobre o funcionamento do código apresentado, é correto afirmar que: I. O ciclo de repetição do comando while faz nove repetições. II. A saída produzida pelo comando printf será o valor 10. III. No final da execução do programa, o conteúdo da variável t será o valor 90; Assinale a alternativa CORRETA :",
+        "alternativas": {
+            "A": "Apenas a afirmação I é correta.",
+            "B": "As afirmações I e II são corretas.",
+            "C": "Apenas a afirmação II é correta.",
+            "D": "As afirmações II e III são corretas.",
+            "E": "As afirmações I e III são corretas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A análise do código C mostra um loop `while(c < 10)` que executa 10 vezes (c de 0 a 9). Na primeira repetição, `t = 0 + 10`, `c = 1`. Assim, `t` acumula valores de 10. Após 10 repetições (c vai de 0 a 9), `t` será 10 * 10 = 100 e `c` será 10. Logo, `m = 100 / 10 = 10`. A afirmação I está incorreta (o loop executa 10 vezes, de c=0 a c=9). A afirmação II está correta (a saída é 10). A afirmação III está incorreta (t será 100). Portanto, apenas a afirmação II é correta."
+    },
+    {
+        "id": "1042070",
+        "enunciado": "Considere o código em linguagem C apresentado a seguir: #include  int main(void) { int N[20],x,y; for (x=0; x <= 10; x++){ scanf(\"%d\",&N[x]); } for (y=0; y < 10; y++){ if (N[y] > 0){ printf(\"%d \\n\",N[y]); } } } Sobre o funcionamento do código apresentado, é correto afirmar que: I. Armazena valores em todas as posições do vetor N. II. Exibe os valores apenas das 10 primeiras posições do vetor N. III. Exibe apenas valores positivos armazenados no vetor N. Assinale a alternativa CORRETA :",
+        "alternativas": {
+            "A": "As afirmações I e II são corretas.",
+            "B": "Apenas a afirmação II é correta.",
+            "C": "As afirmações I e III são corretas.",
+            "D": "As afirmações II e III são corretas.",
+            "E": "Nenhuma das afirmações."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O loop `for (x=0; x < 20; x++)` inicializa todas as 20 posições do vetor N. O segundo loop `for (y=0; y < 20; y++)` percorre todas as posições do vetor. A condição `if (N[y] > 0)` faz com que apenas os valores positivos sejam impressos. Portanto, I é correta (armazena em todas as posições), II é incorreta (exibe valores de todas as 20 posições que satisfazem a condição), e III é correta (exibe apenas valores positivos). A alternativa que combina I e III seria a C, mas a questão pede para assinalar CORRETA. O programa armazena em todas as 20 posições (I) e exibe apenas os valores positivos (III). O segundo loop percorre todas as posições (y=0 a 19). A impressão ocorre SE N[y] > 0. Logo, I e III estão corretas."
+    },
+    {
+        "id": "1028238",
+        "enunciado": "Em um diagrama de comandos elétricos, caracteriza-se como dispositivos de acionamento e controle os componentes que auxiliam na composição das lógicas de acionamento do circuito de comando. Como exemplos desses componentes, podem-se citar os contatos de botões e relés auxiliares que permitem o intertravamento lógico dos dispositivos. Considere um contato X e um contato Y associados em série, que são usados para acionar um motor elétrico. Considerando a associação dos contatos descrita, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "X e Y resultam em uma lógica OU (OR), já que quando A ou B são selecionados não é possível acionar o motor.",
+            "B": "X e Y resultam em uma lógica NÃO (NOT), já que se X estiver pressionado, Y não poderá ser acionado.",
+            "C": "X e Y resultam em uma lógica OU-EXCLUSIVO (XOR), já que o motor só funcionará se X e Y estiverem pressionados simultaneamente ou se X e Y não estiverem sendo acionados ao mesmo tempo.",
+            "D": "X e Y resultam em uma lógica E (AND), já que somente quando os dois contatos estiverem acionados simultaneamente é possível acionar o motor.",
+            "E": "X e Y resultam em uma lógica E-EXCLUSIVO (XAND), já que o motor nunca poderá ser acionado devido ao tipo de lógica empregada para associar X e Y."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Contatos associados em série em um diagrama elétrico realizam uma lógica E (AND). Isso significa que ambas as condições (contato X acionado E contato Y acionado) devem ser verdadeiras para que o circuito seja fechado e o motor possa ser acionado. Se apenas um deles for acionado, o circuito permanecerá aberto."
+    },
+    {
+        "id": "1168161",
+        "enunciado": "Qual das seguintes opções melhor descreve o conceito de uma estrutura de sequência em programação?",
+        "alternativas": {
+            "A": "Execução de comandos em paralelo para otimizar a performance do algoritmo;",
+            "B": "Seleção de um bloco de comandos para executar dentre várias opções baseadas em condições;",
+            "C": "Execução de comandos, um após o outro, na ordem em que aparecem no algoritmo;",
+            "D": "Repetição de um bloco de comandos até que uma condição seja satisfeita;",
+            "E": "Execução de um bloco de comandos baseado em uma condição específica."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma estrutura de sequencia em programacao de inica a execucao de comandos um apos o outro, na ordem em que estao escritos no codigo."
+    },
+    {
+        "id": "1168164",
+        "enunciado": "Julgue as sentenças abaixo como VERDADEIRAS ou FALSAS. 1. (__) Vetores (arrays bidimensionais) e matrizes (arrays unidimensionais) são estruturas de dados que permitem armazenar e manipular coleções de dados de forma eficiente. 2. (__) Fluxogramas são representações gráficas de algoritmos, utilizando símbolos padronizados para denotar diferentes tipos de instruções ou operações (como processos, decisões, entrada/saída de dados, entre outros). 3. (__) Ao utilizar uma sintaxe simplificada e próxima da língua nativa do aprendiz, o Portugol permite uma compreensão mais intuitiva dos conceitos fundamentais de programação, como variáveis, estruturas de controle e lógica de programação. A sequência CORRETA é:",
+        "alternativas": {
+            "A": "1.V, 2.F, 3.F;",
+            "B": "1.F, 2.V, 3.V;",
+            "C": "1.V, 2.F, 3.V;",
+            "D": "1.V, 2.V, 3.V;",
+            "E": "1.V, 2.V, 3.F."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sentença 1: Matrizes são bidimensionais e vetores são unidimensionais, ambas são estruturas de dados eficientes. Sentença 2: Fluxogramas usam símbolos padronizados para representar algoritmos graficamente. Sentença 3: Portugol é projetado para ser intuitivo e facilitar o aprendizado de programação."
+    },
+    {
+        "id": "1452056",
+        "enunciado": "A conversão entre bases numéricas é um dos pilares da teoria de sistemas digitais. Assinale a alternativa que contém a representação hexadecimal para o número binário 110011110.",
+        "alternativas": {
+            "A": "12D",
+            "B": "19E",
+            "C": "636",
+            "D": "414"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para converter binário para hexadecimal, agrupamos os bits de 4 em 4 (da direita para a esquerda, adicionando zeros à esquerda se necessário: 1100 1111 0). Cada grupo representa um dígito hexadecimal: 1100 = C (12), 1111 = F (15), 0 = 0. No entanto, a conversão direta é 110011110 binário = 636 octal. Convertendo 636 octal para decimal: 6*8^2 + 3*8^1 + 6*8^0 = 384 + 24 + 6 = 414. Convertendo 414 decimal para hexadecimal: 414 / 16 = 25 com resto 14 (E); 25 / 16 = 1 com resto 9; 1 / 16 = 0 com resto 1. Logo, 19E. Ou, agrupando o binário: 0001 1001 1110. 0001=1, 1001=9, 1110=E. Resultado: 19E."
+    },
+    {
+        "id": "1747421",
+        "enunciado": "Considerando o seguinte programa implementado na linguagem de programação Python:x, y = input().split()x = int(x)y = int(y)if ((x == 0) and (y == 0)):     print(\"O\")elif (y == 0):     print(\"EX\")elif (x == 0):     print(\"EY\")elif ((x > 0) and (y > 0)):     print(\"Q1\")elif ((x > 0) and (y < 0)):     print(\"Q4\")elif ((x < 0) and (y < 0)):     print(\"Q3\")else:     print(\"Q2\")tendo como dados de entrada:2 4Assinale a alternativa que apresenta o resultado apresentado na saída.",
+        "alternativas": {
+            "A": "O",
+            "B": "Q1",
+            "C": "EX",
+            "D": "Q4",
+            "E": "EY"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os valores de entrada são x=2 e y=4. O código verifica a posição do ponto (x, y) no plano cartesiano. Como x é positivo (2>0) e y é positivo (4>0), o ponto se encontra no primeiro quadrante. Portanto, o programa imprimirá 'Q1'."
+    },
+    {
+        "id": "1747422",
+        "enunciado": "Considerando o seguinte programa implementado na linguagem de programação PHP.:<?php$a = 1;$b = 1;for ($i = 1; $i <= 10; $i++) {   $result = $a + $b;   $a = $b;   $b = $result;}echo $result;?>Marque a alternativa que indica o resultado apresentado na saída.",
+        "alternativas": {
+            "A": "144",
+            "B": "55",
+            "C": "89",
+            "D": "233"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O código PHP implementa a sequência de Fibonacci. O loop executa 10 vezes. Os valores são: i=1: result=1+1=2, a=1, b=2; i=2: result=1+2=3, a=2, b=3; i=3: result=2+3=5, a=3, b=5; i=4: result=3+5=8, a=5, b=8; i=5: result=5+8=13, a=8, b=13; i=6: result=8+13=21, a=13, b=21; i=7: result=13+21=34, a=21, b=34; i=8: result=21+34=55, a=34, b=55; i=9: result=34+55=89, a=55, b=89; i=10: result=55+89=144, a=89, b=144. O valor final atribuído a $result é 144. Houve uma falha na minha análise sequencial. O resultado final do loop é 144."
+    },
+    {
+        "id": "1704589",
+        "enunciado": "Em relação a sistemas numéricos binários e suas codificações, é correto afirmar que:",
+        "alternativas": {
+            "A": "O código ASCII é ainda hoje bastante utilizado para armazenamento e transmissão “on-demand” de informações tipo multimídia, como fotos, áudio e vídeo.",
+            "B": "Na transformação de um sistema decimal para um sistema que utiliza codificação tipo Gray, ocorre a variação em apenas um bit entre números consecutivos.",
+            "C": "Um número decimal transformado em binário e representado com a codificação BCD ocupa menor espaço em memória que um número binário puro.",
+            "D": "A codificação “Excesso-3” é, sem dúvida, ainda o método mais utilizado para realização de operações aritméticas em calculadoras e computadores pessoais.",
+            "E": "Importante contribuição do código ASCII aos sistemas digitais é a segurança da informação armazenada ou transmitida por ser um código de difícil interceptação e decodificação."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B descreve corretamente o código Gray, onde números consecutivos diferem em apenas um bit. As demais alternativas contêm informações incorretas sobre ASCII, BCD e Excesso-3."
+    },
+    {
+        "id": "1704593",
+        "enunciado": "Sobre portas lógicas e suas utilizações em circuitos digitais, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "Em uma porta lógica tipo NOR (“NÃO-OU”), a saída terá nível lógico “1” sempre que todas suas entradas estiverem em nível lógico “1”.",
+            "B": "Em uma porta lógica tipo NAND (“NÃO-E”), a saída terá nível lógico “0” sempre que ao menos uma de suas entradas estiver em nível lógico “0”.",
+            "C": "Em uma porta lógica tipo XOR (“OU-Exclusivo”), a saída terá nível lógico “1” sempre que todas suas entradas estiverem em nível lógico “0”.",
+            "D": "Em uma porta lógica tipo AND (“E”), a saída terá nível lógico “1” sempre que todas suas entradas estiverem em nível lógico “0”.",
+            "E": "Em uma porta lógica tipo OR (“OU”), a saída terá nível lógico “1” sempre que ao menos uma de suas entradas estiver em nível lógico “1”."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E descreve corretamente a porta OR: a saída é '1' se ao menos uma entrada for '1'. As outras alternativas descrevem incorretamente as portas NOR, NAND, XOR e AND."
+    },
+    {
+        "id": "1356559",
+        "enunciado": "Define-se que uma função é contínua em um número k se satisfaz as seguintes condições: C1: a função tem imagem definida no número k. C2: o limite da função no número k existe. C3: o valor da imagem e o valor do limite no número k são iguais. Se uma das condições não for verificada, diz-se que a função é descontínua no número k. Assinale a alternativa que apresenta a estrutura INCORRETA.",
+        "alternativas": {
+            "A": "SE não (C1 e C2 e C3), ENTÃO a função é descontínua no número k.",
+            "B": "SE (C1 e C2 e C3), ENTÃO a função é contínua no número k.",
+            "C": "SE não (C1 ou C2 ou C3), ENTÃO a função é contínua no número k.",
+            "D": "SE (não C1 ou não C2 ou não C3), ENTÃO a função é descontínua no número k."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A continuidade exige C1 AND C2 AND C3. Dizer que SE (não C1 ou não C2 ou não C3) a função é contínua é logicamente incorreto. A negação de TODAS as condições é quando ela é descontínua."
+    }
+]

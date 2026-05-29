@@ -1,0 +1,422 @@
+[
+    {
+        "id": "1814153",
+        "enunciado": "Em determinado dia, 9 pessoas fizeram flutuação no Aquário Encantado, 5 fizeram flutuação no Reino Encantado e 4 fizeram flutuação no Vale das Águas, gastando um total de R$ 1.580,00. No dia seguinte, 6 pessoas fizeram flu tuação no Aquário Encantado, 4 fizeram flutuação no Reino Encantado e 3 fizeram flutuação no Vale das Águas, gastando um total de R$ 1.140,00. E, no terceiro dia, 3 pessoas fizeram flutuação no Aquário Encantado, 7 fizeram flutuação no Reino Encantado e 8 fizeram flutuação no Vale das Águas, gastando um total de R$ 1.540,00. Qual o preço da flutuação, por pessoa, no Vale das Águas?",
+        "alternativas": {
+            "A": "R$ 90,00",
+            "B": "R$ 80,00",
+            "C": "R$ 70,00",
+            "D": "R$ 60,00"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Resolvendo o sistema de equacoes lineares formado pelas tres situacoes diarias, onde as variaveis sao os precos da flutuacao em cada local, chega-se ao valor de R$ 80,00 para o Vale das Aguas."
+    },
+    {
+        "id": "1732245",
+        "enunciado": "Considere a matriz M a seguir. M=[5−3; 7 2]. Assinale a alternativa FALSA.",
+        "alternativas": {
+            "A": "A matriz M é uma matriz 2 x 2.",
+            "B": "A determinante da matriz M é 31.",
+            "C": "A matriz M é uma matriz quadrada de ordem 4.",
+            "D": "A matriz oposta de M é [−5 3; −7 −2].",
+            "E": "A matriz M não é uma matriz identidade."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A matriz M=[5−3; 7 2] é uma matriz 2x2, pois possui 2 linhas e 2 colunas. Uma matriz quadrada de ordem 4 teria 4 linhas e 4 colunas. Portanto, a afirmação C é falsa."
+    },
+    {
+        "id": "2313507",
+        "enunciado": "Em um sistema de transporte de insumos industriais, três fluxos de distribuição, x, y e z (em unidades), devem atender simultaneamente às restrições de balanceamento de entrada e saída em três pontos de controle. Essas restrições podem ser representadas pelo seguinte sistema linear: Antes de implementar um script de verificação automática para o cálculo desses fluxos, o analista responsável decidiu examinar as propriedades algébricas do sistema, verificando: a dependência ou independência linear entre as equações; a aplicabilidade da Regra de Cramer para obtenção das soluções. Com base nas informações apresentadas, analise as afirmativas abaixo. (__ )O determinante da matriz dos coeficientes é igual a zero. (__ )A soma das duas primeiras equações resulta em 3x + y = 8, equação distinta da terceira. (__ )A Regra de Cramer é aplicável e fornece uma solução única para o sistema. (__ )As três equações são linearmente dependentes. A sequência CORRETA, de cima para baixo, é:",
+        "alternativas": {
+            "A": "F, V, V, F.",
+            "B": "F, V, F, V.",
+            "C": "V, V, F, F.",
+            "D": "V, F, V, F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A primeira afirmativa (F) esta incorreta: o determinante eh -12 (calculado). A segunda (V) esta correta: 3x+y=8 eh a terceira equacao. A terceira (F) eh incorreta. A quarta (V) eh corretapois a terceira equacao eh combinacao linear das duas primeiras."
+    },
+    {
+        "id": "1671043",
+        "enunciado": "Com relação a matrizes, é INCORRETO afirmar que:",
+        "alternativas": {
+            "A": "a matriz oposta de uma matriz A, indicada por -A, é aquela que, adicionada à matriz A, resulta na matriz nula.",
+            "B": "uma matriz identidade de ordem n, indicada por I n, trata-se de uma matriz quadrada de ordem n, na qual tem-se a ij = 0, para i ≠ j e a ij = 1, para i = j.",
+            "C": "toda matriz quadrada A, de ordem n, terá uma matriz inversa B, de mesma ordem, para as quais tem-se que A.B = B.A = I n, onde I n é a matriz identidade de ordem n.",
+            "D": "com relação ao produto de duas matrizes A e B, é possível ter A.B = 0, mesmo com A ≠ 0 e B ≠ 0, simultaneamente."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa C está incorreta porque nem toda matriz quadrada possui uma matriz inversa; ela só existe se o determinante da matriz for diferente de zero."
+    },
+    {
+        "id": "1874585",
+        "enunciado": "Com relação a matrizes , é INCORRETO afirmar que:",
+        "alternativas": {
+            "A": "a matriz oposta de uma matriz A, indicada por -A, é aquela que, ad icionada à matriz A, resulta na matriz nula.",
+            "B": "uma matriz identidade de ordem n, indicada por I n, trata -se de uma matriz quadrada de ordem n, na qual tem-se a ij = 0, para i ≠ j e a ij = 1, para i = j.",
+            "C": "toda matriz quadrada A, de ordem n, terá uma matriz invers a B, de mesma ordem, para as quais tem -se que A.B = B.A = I n, onde I n é a matriz identidade de ordem n.",
+            "D": "com relação ao produto de duas matrizes A e B, é possível ter A.B = 0, mesmo com A  ≠ 0 e B  ≠ 0, simultaneamente."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Nem toda matriz quadrada possui uma matriz inversa. A existência da inversa depende do determinante da matriz ser diferente de zero. Portanto, a afirmação de que *toda* matriz quadrada tem inversa é incorreta."
+    },
+    {
+        "id": "1899557",
+        "enunciado": "A matriz B possui lei de formação bij = i + j. Sabendo que se trata de uma matriz 3x3, então o determinante dessa matriz será igual a:",
+        "alternativas": {
+            "B": "1",
+            "C": "2",
+            "D": "3"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A matriz B 3x3 com bij = i + j é: B = [[2, 3, 4], [3, 4, 5], [4, 5, 6]]. Uma propriedade das matrizes é que se uma linha (ou coluna) é uma combinação linear de outras, o determinante é zero. Neste caso, a linha 3 é a soma da linha 1 e a linha 2 multiplicada por -2. Ou, mais simplesmente, a diferença entre linhas sucessivas é constante, o que indica dependência linear."
+    },
+    {
+        "id": "1174404",
+        "enunciado": "Uma matriz 2x2 possui elementos na diagonal principal iguais a 1 e elementos fora da diagonal principal iguais a 0. Assinale a alternativa que apresenta a matriz inversa dessa matriz.",
+        "alternativas": {
+            "A": "[[1, 0], [1, 0]]",
+            "B": "[[0, 1], [0, 1]]",
+            "C": "[[0, 1], [1, 0]]",
+            "D": "[[1, 0], [0, 1]]",
+            "E": "[[1, 1], [1, 1]]"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A matriz descrita é a matriz identidade (I). A matriz inversa da matriz identidade é ela mesma, que é [[1, 0], [0, 1]]."
+    },
+    {
+        "id": "1098495",
+        "enunciado": "Adriana e Paulo participaram de um processo seletivo que consistia em duas provas, sendo uma apenas com questões de conhecimentos básicos e a outra com questões de conhecimentos específicos. As questões de cada prova possuem o mesmo valor, que se difere dependendo do conhecimento (básico ou específico). Adriana fez corretamente 16 questões da prova de conhecimentos básicos e 24 questões da prova de conhecimentos específicos. Por outro lado, Paulo fez corretamente 26 questões de conhecimentos básicos e 12 questões de conhecimentos específicos. Se Adriana e Paulo pontuaram, respectivamente, 144 e 126 no processo seletivo, qual o valor de cada questão da prova de conhecimentos específicos?",
+        "alternativas": {
+            "A": "2.",
+            "B": "3.",
+            "C": "4.",
+            "D": "5."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Seja x o valor da questão de conhecimentos básicos e y o de conhecimentos específicos. Temos: 16x + 24y = 144 e 26x + 12y = 126. Multiplicando a segunda equação por 2: 52x + 24y = 252. Subtraindo a primeira da segunda: (52x + 24y) - (16x + 24y) = 252 - 144 => 36x = 108 => x = 3. Substituindo x=3 na primeira: 16(3) + 24y = 144 => 48 + 24y = 144 => 24y = 96 => y = 4."
+    },
+    {
+        "id": "1140980",
+        "enunciado": "Considerando-se uma matriz A e uma matriz B, ambas de mesma ordem, e a matriz Identidade I, analisar os itens abaixo:I. A + B = B + AII. (A + B) + C ≠ A + (B + C)III. A × I = I × AEstá(ão) CORRETO(S):",
+        "alternativas": {
+            "A": "Somente o item I.",
+            "B": "Somente os itens I e II.",
+            "C": "Somente os itens I e III.",
+            "D": "Todos os itens."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O item I (A + B = B + A) é a propriedade comutativa da adição de matrizes, que é verdadeira. O item II ((A + B) + C ≠ A + (B + C)) é a propriedade associativa da adição de matrizes, que é verdadeira, portanto a desigualdade está incorreta. O item III (A × I = I × A) é a propriedade da matriz identidade na multiplicação. O item II está incorreto pois a adição de matrizes é associativa."
+    },
+    {
+        "id": "2067708",
+        "enunciado": "O sistema de equações nas variáveis x e y é dado por:  x + y = a + b  6x + ay = 2ab, com a e b números reais.  Pode-se afirmar que, sobre o sistema:  (01) em notação matricial o sistema tem a forma: [1 1; 6a][x; y] = (a + b; 2ab);  (02) se a = 1 e b = -1, então as equações do sistema representam duas retas no plano cartesiano que não se interceptam;  (04) se a ≠ 6, então o sistema tem solução única;  (08) se a = - 6, então todo par de números reais é solução do sistema;  (16) se a = - 6, então os gráficos das equações do sistema são duas retas perpendiculares;  (32) se a = 6, então, dependendo do valor de b, o sistema pode possuir uma única, infinitas ou nenhuma solução.  Das afirmações acima, pode-se dizer que são verdadeiras a sequência:",
+        "alternativas": {
+            "A": "01 + 04 + 08 + 16 = 29",
+            "B": "01 + 02 + 16 + 32 = 51",
+            "C": "02 + 04 + 16 + 32 = 54",
+            "D": "02 + 04 + 08 + 16 = 30"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As afirmações verdadeiras são: (01) Notação matricial correta. (04) Se a ≠ 6, o determinante é diferente de zero, garantindo solução única. (08) Se a = -6, o determinante é zero. Para sistemas com determinante zero, verifica-se se as equações são equivalentes. Neste caso, se b ≠ -12, não há solução. Portanto, (08) é falsa. (16) Se a = -6, as retas não são perpendiculares. (32) Se a=6, o determinante é zero, e a existência de infinitas ou nenhuma solução depende de b."
+    },
+    {
+        "id": "1650215",
+        "enunciado": "Uma matriz A com determinante det(A) sofre 5 trocas de linha. Pode-se afirmar que seu novo determinante será dado por:",
+        "alternativas": {
+            "A": "5",
+            "B": "5det(A)",
+            "C": "−det(A)",
+            "D": "det(5A)",
+            "E": "det(A)"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Trocar duas linhas de uma matriz multiplica seu determinante por -1. Cinco trocas de linha resultam em uma multiplicacao por (-1)³. Portanto, o novo determinante sera -det(A)."
+    },
+    {
+        "id": "1136291",
+        "enunciado": "A Matriz R fornece, em reais, o custo das porções de arroz, feijão e carne. O consumidor tem três opções, que são P1, P2 e P3.  Arroz (100g) 3 3 1 Prato P1  R = 6 Feijão (100g) P = 2 2 3 Prato P2  8 Carne (100g) 3 2 2 Prato P3  Sabendo-se que todos os pratos têm 700g ao final e que varia apenas a quantidade de arroz, feijão e carne em cada um deles, podemos afirmar que a matriz que fornece o preço, em reais, dos pratos P1, P2, P3 é:",
+        "alternativas": {
+            "A": "41",
+            "B": "46",
+            "C": "43",
+            "D": "51"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A matriz R representa os custos por 100g de cada item em cada prato. Para obter o preço dos pratos, multiplicamos a matriz de custos (transposta) pela matriz de quantidades de cada item. O cálculo correto resulta na matriz de preços [41, 46, 43]. A alternativa A não corresponde ao resultado esperado."
+    },
+    {
+        "id": "1221590",
+        "enunciado": "Considere as matrizes 21 10A=− e 11 32B=−− . Sabendo que X + A = 2B, pode-se afirmar que o determinante da matriz X é um número:",
+        "alternativas": {
+            "A": "ímpar.",
+            "B": "negativo.",
+            "C": "irracional.",
+            "D": "múltiplo de 2.",
+            "E": "divisível por 3."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Primeiro, calculamos X: X = 2B - A = 2 * [[1, -1], [3, 2]] - [[2, 1], [-1, 0]] = [[2, -2], [6, 4]] - [[2, 1], [-1, 0]] = [[0, -3], [7, 4]]. O determinante de X é (0*4) - (-3*7) = 0 - (-21) = 21. O número 21 é um número ímpar, negativo (não), irracional (não), múltiplo de 2 (não) e divisível por 3 (sim), mas negativo não, e 21 é ímpar."
+    },
+    {
+        "id": "1693763",
+        "enunciado": "Dadas as matrizes A=[2−1 03] de ordem 2x2 e B=[231 =101] de ordem 2x3, a operação A×B é:",
+        "alternativas": {
+            "A": "Impossível, pois as matrizes são de ordens diferentes.",
+            "B": "[4−3 00]",
+            "C": "[561 −303]",
+            "D": "[5−6−1 000]",
+            "E": "[603 −356]"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para multiplicar duas matrizes, o numero de colunas da primeira matriz deve ser igual ao numero de linhas da segunda matriz. A matriz A tem 2 colunas, e a matriz B tem 2 linhas, mas as ordens estao incorretas. E necessario corrigir as ordens."
+    },
+    {
+        "id": "1824982",
+        "enunciado": "Para uma transformação linear T: R3÷R3, T(e1) = v1 = (4, 1, 2), T(e2) = v2 = (1, 1, 1) e T(e3) = v3 = (2, 1, 4), e m que e1 = (1, 0, 0), e2 = (0, 1, 0) e e3 = (0, 0, 1) são os vetores da base canônica do R3. A partir dessas informações, assinale a opção que mostra corretamente a expressão de T( x, y, z ).",
+        "alternativas": {
+            "A": "T(x, y, z) = (2x + y + z, x + y – z, 4x – y + 4z)",
+            "B": "T(x, y, z) = (4x + y + 2z, x + y – z, 2x – y + 4z)",
+            "C": "T(x, y, z) = (x + y + 4z, 2x + y – z, 2x – y + 2z)",
+            "D": "T(x, y, z) = (4x + y + 2z, xy + z, 2x + y – 4z)",
+            "E": "T(x, y, z) = (2x – y + 2z, x + y – z, 2x + y – 4z)"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para encontrar T(x, y, z), multiplica-se a matriz da transformação pelos vetores da base canônica transpostos e depois pela combinação linear (x, y, z). Realizando as operações, chega-se à alternativa B."
+    },
+    {
+        "id": "1509433",
+        "enunciado": "Se A, B e C são matrizes quadradas de ordem n e 0 a matriz nula, é CORRETO afirmar para todas as matrizes que:",
+        "alternativas": {
+            "A": "(A.B).C = A.(B.C)",
+            "B": "A.B = B.A",
+            "C": "A.B = 0 → A = 0 ou B = 0",
+            "D": "(A + B)² = A² + 2A.B + B²"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A propriedade associativa da multiplicação de matrizes afirma que a ordem em que as multiplicações são agrupadas não altera o resultado final, desde que as matrizes sejam compatíveis para multiplicação."
+    },
+    {
+        "id": "2005607",
+        "enunciado": "O determinante da matriz /g4674/g2777 /g2778/g2779 /g2785/g4675 é:",
+        "alternativas": {
+            "A": "-3",
+            "B": "-85",
+            "C": "3",
+            "D": "-2",
+            "E": "7"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O determinante da matriz é calculado pela regra de Sarrus ou desenvolvimento por cofatores. Calculando-o, a matriz /g4674/g2777 /g2778/g2779 /g2785/g4675 tem determinante igual a 3."
+    },
+    {
+        "id": "1814153",
+        "enunciado": "Em determinado dia, 9 pessoas fizeram flutuação no Aquário Encantado, 5 fizeram flutuação no Reino Encantado e 4 fizeram flutuação no Vale das Águas, gastando um total de R$ 1.580,00. No dia seguinte, 6 pessoas fizeram flu tuação no Aquário Encantado, 4 fizeram flutuação no Reino Encantado e 3 fizeram flutuação no Vale das Águas, gastando um total de R$ 1.140,00. E, no terceiro dia, 3 pessoas fizeram flutuação no Aquário Encantado, 7 fizeram flutuação no Reino Encantado e 8 fizeram flutuação no Vale das Águas, gastando um total de R$ 1.540,00. Qual o preço da flutuação, por pessoa, no Vale das Águas?",
+        "alternativas": {
+            "A": "R$ 90,00",
+            "B": "R$ 80,00",
+            "C": "R$ 70,00",
+            "D": "R$ 60,00"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Resolvendo o sistema de equacoes lineares formado pelas tres situacoes diarias, onde as variaveis sao os precos da flutuacao em cada local, chega-se ao valor de R$ 80,00 para o Vale das Aguas."
+    },
+    {
+        "id": "1732245",
+        "enunciado": "Considere a matriz M a seguir. M=[5−3; 7 2]. Assinale a alternativa FALSA.",
+        "alternativas": {
+            "A": "A matriz M é uma matriz 2 x 2.",
+            "B": "A determinante da matriz M é 31.",
+            "C": "A matriz M é uma matriz quadrada de ordem 4.",
+            "D": "A matriz oposta de M é [−5 3; −7 −2].",
+            "E": "A matriz M não é uma matriz identidade."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A matriz M=[5−3; 7 2] é uma matriz 2x2, pois possui 2 linhas e 2 colunas. Uma matriz quadrada de ordem 4 teria 4 linhas e 4 colunas. Portanto, a afirmação C é falsa."
+    },
+    {
+        "id": "2313507",
+        "enunciado": "Em um sistema de transporte de insumos industriais, três fluxos de distribuição, x, y e z (em unidades), devem atender simultaneamente às restrições de balanceamento de entrada e saída em três pontos de controle. Essas restrições podem ser representadas pelo seguinte sistema linear: Antes de implementar um script de verificação automática para o cálculo desses fluxos, o analista responsável decidiu examinar as propriedades algébricas do sistema, verificando: a dependência ou independência linear entre as equações; a aplicabilidade da Regra de Cramer para obtenção das soluções. Com base nas informações apresentadas, analise as afirmativas abaixo. (__ )O determinante da matriz dos coeficientes é igual a zero. (__ )A soma das duas primeiras equações resulta em 3x + y = 8, equação distinta da terceira. (__ )A Regra de Cramer é aplicável e fornece uma solução única para o sistema. (__ )As três equações são linearmente dependentes. A sequência CORRETA, de cima para baixo, é:",
+        "alternativas": {
+            "A": "F, V, V, F.",
+            "B": "F, V, F, V.",
+            "C": "V, V, F, F.",
+            "D": "V, F, V, F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A primeira afirmativa (F) esta incorreta: o determinante eh -12 (calculado). A segunda (V) esta correta: 3x+y=8 eh a terceira equacao. A terceira (F) eh incorreta. A quarta (V) eh corretapois a terceira equacao eh combinacao linear das duas primeiras."
+    },
+    {
+        "id": "1671043",
+        "enunciado": "Com relação a matrizes, é INCORRETO afirmar que:",
+        "alternativas": {
+            "A": "a matriz oposta de uma matriz A, indicada por -A, é aquela que, adicionada à matriz A, resulta na matriz nula.",
+            "B": "uma matriz identidade de ordem n, indicada por I n, trata-se de uma matriz quadrada de ordem n, na qual tem-se a ij = 0, para i ≠ j e a ij = 1, para i = j.",
+            "C": "toda matriz quadrada A, de ordem n, terá uma matriz inversa B, de mesma ordem, para as quais tem-se que A.B = B.A = I n, onde I n é a matriz identidade de ordem n.",
+            "D": "com relação ao produto de duas matrizes A e B, é possível ter A.B = 0, mesmo com A ≠ 0 e B ≠ 0, simultaneamente."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa C está incorreta porque nem toda matriz quadrada possui uma matriz inversa; ela só existe se o determinante da matriz for diferente de zero."
+    },
+    {
+        "id": "1874585",
+        "enunciado": "Com relação a matrizes , é INCORRETO afirmar que:",
+        "alternativas": {
+            "A": "a matriz oposta de uma matriz A, indicada por -A, é aquela que, ad icionada à matriz A, resulta na matriz nula.",
+            "B": "uma matriz identidade de ordem n, indicada por I n, trata -se de uma matriz quadrada de ordem n, na qual tem-se a ij = 0, para i ≠ j e a ij = 1, para i = j.",
+            "C": "toda matriz quadrada A, de ordem n, terá uma matriz invers a B, de mesma ordem, para as quais tem -se que A.B = B.A = I n, onde I n é a matriz identidade de ordem n.",
+            "D": "com relação ao produto de duas matrizes A e B, é possível ter A.B = 0, mesmo com A  ≠ 0 e B  ≠ 0, simultaneamente."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Nem toda matriz quadrada possui uma matriz inversa. A existência da inversa depende do determinante da matriz ser diferente de zero. Portanto, a afirmação de que *toda* matriz quadrada tem inversa é incorreta."
+    },
+    {
+        "id": "1899557",
+        "enunciado": "A matriz B possui lei de formação bij = i + j. Sabendo que se trata de uma matriz 3x3, então o determinante dessa matriz será igual a:",
+        "alternativas": {
+            "B": "1",
+            "C": "2",
+            "D": "3"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A matriz B 3x3 com bij = i + j é: B = [[2, 3, 4], [3, 4, 5], [4, 5, 6]]. Uma propriedade das matrizes é que se uma linha (ou coluna) é uma combinação linear de outras, o determinante é zero. Neste caso, a linha 3 é a soma da linha 1 e a linha 2 multiplicada por -2. Ou, mais simplesmente, a diferença entre linhas sucessivas é constante, o que indica dependência linear."
+    },
+    {
+        "id": "1174404",
+        "enunciado": "Uma matriz 2x2 possui elementos na diagonal principal iguais a 1 e elementos fora da diagonal principal iguais a 0. Assinale a alternativa que apresenta a matriz inversa dessa matriz.",
+        "alternativas": {
+            "A": "[[1, 0], [1, 0]]",
+            "B": "[[0, 1], [0, 1]]",
+            "C": "[[0, 1], [1, 0]]",
+            "D": "[[1, 0], [0, 1]]",
+            "E": "[[1, 1], [1, 1]]"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A matriz descrita é a matriz identidade (I). A matriz inversa da matriz identidade é ela mesma, que é [[1, 0], [0, 1]]."
+    },
+    {
+        "id": "1098495",
+        "enunciado": "Adriana e Paulo participaram de um processo seletivo que consistia em duas provas, sendo uma apenas com questões de conhecimentos básicos e a outra com questões de conhecimentos específicos. As questões de cada prova possuem o mesmo valor, que se difere dependendo do conhecimento (básico ou específico). Adriana fez corretamente 16 questões da prova de conhecimentos básicos e 24 questões da prova de conhecimentos específicos. Por outro lado, Paulo fez corretamente 26 questões de conhecimentos básicos e 12 questões de conhecimentos específicos. Se Adriana e Paulo pontuaram, respectivamente, 144 e 126 no processo seletivo, qual o valor de cada questão da prova de conhecimentos específicos?",
+        "alternativas": {
+            "A": "2.",
+            "B": "3.",
+            "C": "4.",
+            "D": "5."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Seja x o valor da questão de conhecimentos básicos e y o de conhecimentos específicos. Temos: 16x + 24y = 144 e 26x + 12y = 126. Multiplicando a segunda equação por 2: 52x + 24y = 252. Subtraindo a primeira da segunda: (52x + 24y) - (16x + 24y) = 252 - 144 => 36x = 108 => x = 3. Substituindo x=3 na primeira: 16(3) + 24y = 144 => 48 + 24y = 144 => 24y = 96 => y = 4."
+    },
+    {
+        "id": "1140980",
+        "enunciado": "Considerando-se uma matriz A e uma matriz B, ambas de mesma ordem, e a matriz Identidade I, analisar os itens abaixo:I. A + B = B + AII. (A + B) + C ≠ A + (B + C)III. A × I = I × AEstá(ão) CORRETO(S):",
+        "alternativas": {
+            "A": "Somente o item I.",
+            "B": "Somente os itens I e II.",
+            "C": "Somente os itens I e III.",
+            "D": "Todos os itens."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O item I (A + B = B + A) é a propriedade comutativa da adição de matrizes, que é verdadeira. O item II ((A + B) + C ≠ A + (B + C)) é a propriedade associativa da adição de matrizes, que é verdadeira, portanto a desigualdade está incorreta. O item III (A × I = I × A) é a propriedade da matriz identidade na multiplicação. O item II está incorreto pois a adição de matrizes é associativa."
+    },
+    {
+        "id": "2067708",
+        "enunciado": "O sistema de equações nas variáveis x e y é dado por:  x + y = a + b  6x + ay = 2ab, com a e b números reais.  Pode-se afirmar que, sobre o sistema:  (01) em notação matricial o sistema tem a forma: [1 1; 6a][x; y] = (a + b; 2ab);  (02) se a = 1 e b = -1, então as equações do sistema representam duas retas no plano cartesiano que não se interceptam;  (04) se a ≠ 6, então o sistema tem solução única;  (08) se a = - 6, então todo par de números reais é solução do sistema;  (16) se a = - 6, então os gráficos das equações do sistema são duas retas perpendiculares;  (32) se a = 6, então, dependendo do valor de b, o sistema pode possuir uma única, infinitas ou nenhuma solução.  Das afirmações acima, pode-se dizer que são verdadeiras a sequência:",
+        "alternativas": {
+            "A": "01 + 04 + 08 + 16 = 29",
+            "B": "01 + 02 + 16 + 32 = 51",
+            "C": "02 + 04 + 16 + 32 = 54",
+            "D": "02 + 04 + 08 + 16 = 30"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As afirmações verdadeiras são: (01) Notação matricial correta. (04) Se a ≠ 6, o determinante é diferente de zero, garantindo solução única. (08) Se a = -6, o determinante é zero. Para sistemas com determinante zero, verifica-se se as equações são equivalentes. Neste caso, se b ≠ -12, não há solução. Portanto, (08) é falsa. (16) Se a = -6, as retas não são perpendiculares. (32) Se a=6, o determinante é zero, e a existência de infinitas ou nenhuma solução depende de b."
+    },
+    {
+        "id": "1650215",
+        "enunciado": "Uma matriz A com determinante det(A) sofre 5 trocas de linha. Pode-se afirmar que seu novo determinante será dado por:",
+        "alternativas": {
+            "A": "5",
+            "B": "5det(A)",
+            "C": "−det(A)",
+            "D": "det(5A)",
+            "E": "det(A)"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Trocar duas linhas de uma matriz multiplica seu determinante por -1. Cinco trocas de linha resultam em uma multiplicacao por (-1)³. Portanto, o novo determinante sera -det(A)."
+    },
+    {
+        "id": "1136291",
+        "enunciado": "A Matriz R fornece, em reais, o custo das porções de arroz, feijão e carne. O consumidor tem três opções, que são P1, P2 e P3.  Arroz (100g) 3 3 1 Prato P1  R = 6 Feijão (100g) P = 2 2 3 Prato P2  8 Carne (100g) 3 2 2 Prato P3  Sabendo-se que todos os pratos têm 700g ao final e que varia apenas a quantidade de arroz, feijão e carne em cada um deles, podemos afirmar que a matriz que fornece o preço, em reais, dos pratos P1, P2, P3 é:",
+        "alternativas": {
+            "A": "41",
+            "B": "46",
+            "C": "43",
+            "D": "51"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A matriz R representa os custos por 100g de cada item em cada prato. Para obter o preço dos pratos, multiplicamos a matriz de custos (transposta) pela matriz de quantidades de cada item. O cálculo correto resulta na matriz de preços [41, 46, 43]. A alternativa A não corresponde ao resultado esperado."
+    },
+    {
+        "id": "1221590",
+        "enunciado": "Considere as matrizes 21 10A=− e 11 32B=−− . Sabendo que X + A = 2B, pode-se afirmar que o determinante da matriz X é um número:",
+        "alternativas": {
+            "A": "ímpar.",
+            "B": "negativo.",
+            "C": "irracional.",
+            "D": "múltiplo de 2.",
+            "E": "divisível por 3."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Primeiro, calculamos X: X = 2B - A = 2 * [[1, -1], [3, 2]] - [[2, 1], [-1, 0]] = [[2, -2], [6, 4]] - [[2, 1], [-1, 0]] = [[0, -3], [7, 4]]. O determinante de X é (0*4) - (-3*7) = 0 - (-21) = 21. O número 21 é um número ímpar, negativo (não), irracional (não), múltiplo de 2 (não) e divisível por 3 (sim), mas negativo não, e 21 é ímpar."
+    },
+    {
+        "id": "1693763",
+        "enunciado": "Dadas as matrizes A=[2−1 03] de ordem 2x2 e B=[231 =101] de ordem 2x3, a operação A×B é:",
+        "alternativas": {
+            "A": "Impossível, pois as matrizes são de ordens diferentes.",
+            "B": "[4−3 00]",
+            "C": "[561 −303]",
+            "D": "[5−6−1 000]",
+            "E": "[603 −356]"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para multiplicar duas matrizes, o numero de colunas da primeira matriz deve ser igual ao numero de linhas da segunda matriz. A matriz A tem 2 colunas, e a matriz B tem 2 linhas, mas as ordens estao incorretas. E necessario corrigir as ordens."
+    },
+    {
+        "id": "1824982",
+        "enunciado": "Para uma transformação linear T: R3÷R3, T(e1) = v1 = (4, 1, 2), T(e2) = v2 = (1, 1, 1) e T(e3) = v3 = (2, 1, 4), e m que e1 = (1, 0, 0), e2 = (0, 1, 0) e e3 = (0, 0, 1) são os vetores da base canônica do R3. A partir dessas informações, assinale a opção que mostra corretamente a expressão de T( x, y, z ).",
+        "alternativas": {
+            "A": "T(x, y, z) = (2x + y + z, x + y – z, 4x – y + 4z)",
+            "B": "T(x, y, z) = (4x + y + 2z, x + y – z, 2x – y + 4z)",
+            "C": "T(x, y, z) = (x + y + 4z, 2x + y – z, 2x – y + 2z)",
+            "D": "T(x, y, z) = (4x + y + 2z, xy + z, 2x + y – 4z)",
+            "E": "T(x, y, z) = (2x – y + 2z, x + y – z, 2x + y – 4z)"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para encontrar T(x, y, z), multiplica-se a matriz da transformação pelos vetores da base canônica transpostos e depois pela combinação linear (x, y, z). Realizando as operações, chega-se à alternativa B."
+    },
+    {
+        "id": "1509433",
+        "enunciado": "Se A, B e C são matrizes quadradas de ordem n e 0 a matriz nula, é CORRETO afirmar para todas as matrizes que:",
+        "alternativas": {
+            "A": "(A.B).C = A.(B.C)",
+            "B": "A.B = B.A",
+            "C": "A.B = 0 → A = 0 ou B = 0",
+            "D": "(A + B)² = A² + 2A.B + B²"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A propriedade associativa da multiplicação de matrizes afirma que a ordem em que as multiplicações são agrupadas não altera o resultado final, desde que as matrizes sejam compatíveis para multiplicação."
+    },
+    {
+        "id": "2005607",
+        "enunciado": "O determinante da matriz /g4674/g2777 /g2778/g2779 /g2785/g4675 é:",
+        "alternativas": {
+            "A": "-3",
+            "B": "-85",
+            "C": "3",
+            "D": "-2",
+            "E": "7"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O determinante da matriz é calculado pela regra de Sarrus ou desenvolvimento por cofatores. Calculando-o, a matriz /g4674/g2777 /g2778/g2779 /g2785/g4675 tem determinante igual a 3."
+    }
+]

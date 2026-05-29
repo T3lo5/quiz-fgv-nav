@@ -1,0 +1,2366 @@
+[
+    {
+        "id": "1863537",
+        "enunciado": "O que significa a letra “S” no protocolo do HTTPS?",
+        "alternativas": {
+            "A": "Segurança",
+            "B": "Servidor",
+            "C": "Simples",
+            "D": "Síncrono"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "HTTPS significa Hypertext Transfer Protocol Secure. O 'S' ao final indica que a conexão é segura, utilizando criptografia para proteger a comunicação entre o navegador do usuário e o servidor web."
+    },
+    {
+        "id": "2079508",
+        "enunciado": "Maria é assistente administrativa no setor de atendimento de um órgão público e trabalha em dois ambientes: no escritório (usando um desktop) e em reuniões externas (usando um notebook). Ao retornar de uma reunião, ela percebeu que algumas mensagens importantes não estavam visíveis no notebook, mesmo já tendo lido e organizado tais mensagens no desktop. Para evitar esse tipo de problema no futuro, ela decide ajustar o aplicativo de e-mail para garantir que: 1. Todas as mensagens permaneçam no servidor, permitindo acesso completo e sincronizado a partir de qualquer dispositivo; 2. Ações como “marcar como lida”, “mover” ou “excluir mensagens” sejam automaticamente refletidas em todos os dispositivos conectados; e 3. As mensagens possam ser enviadas normalmente de qualquer um dos dispositivos, com garantia de entrega ao destinatário. Considerando os requisitos apresentados, qual alternativa apresenta os protocolos adequados de recebimento e envio de mensagens eletrônicas que devem ser configurados no aplicativo de e-mail?",
+        "alternativas": {
+            "A": "FTP-SMTP.",
+            "B": "POP3 -SMTP.",
+            "C": "IMAP -SMTP.",
+            "D": "HTTP -SMTP."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O protocolo IMAP permite que as mensagens permaneçam no servidor, garantindo sincronização entre dispositivos, e que ações realizadas em um dispositivo sejam refletidas em todos. O SMTP é o protocolo padrão para o envio de e-mails."
+    },
+    {
+        "id": "2375253",
+        "enunciado": "Uma empresa implantou uma aplicação web crítica composta por: servidor HTTP/HTTPS, servidores de e-mail, servidores de arquivos e infraestrutura de monitoramento de rede. Após uma auditoria técnica, foram identificados os seguintes requisitos simultâneos: 1. Garantir confidencialidade, integridade e autenticação do servidor na navegação web. 2. Permitir transferência segura de arquivos, eliminando o risco de credenciais em texto claro. 3. Assegurar envio de e-mails com suporte a criptografia durante a submissão das mensagens. 4. Possibilitar monitoramento seguro de dispositivos de rede, com autenticação forte e criptografia. 5. Manter funcionalidade de diagnóstico de conectividade e MTU de caminho. Considerando os protocolos de rede existentes, assinale o conjunto tecnicamente correto para atender, respectivamente, aos cinco requisitos apresentados:",
+        "alternativas": {
+            "A": "HTTPS, FTPS, SMTP (porta 25), SNMPv2c e ICMP",
+            "B": "HTTPS, SFTP, SMTP (porta 587), SNMPv3 e ICMP",
+            "C": "HTTP/2, FTP anônimo, SMTPS (porta 465), SNMPv1 e ICMP",
+            "D": "HTTPS, FTPS, SMTP (porta 25), SNMPv3 e UDP"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "HTTPS garante confidencialidade, integridade e autenticação. SFTP permite transferência segura de arquivos sem credenciais em texto claro. SMTP na porta 587 é para submissão segura de e-mail. SNMPv3 oferece autenticação forte e criptografia para monitoramento de rede. ICMP é usado para diagnóstico de conectividade. As demais alternativas apresentam protocolos inadequados para os requisitos."
+    },
+    {
+        "id": "2375175",
+        "enunciado": "Uma empresa implantou uma aplicação web crítica composta por: servidor HTTP/HTTPS, servidores de e-mail, servidores de arquivos e infraestrutura de monitoramento de rede. Após uma auditoria técnica, foram identiﬁcados os seguintes requisitos simultâneos: 1. Garantir conﬁdencialidade, integridade e autenticação do servidor na navegação web. 2. Permitir transferência segura de arquivos, eliminando o risco de credenciais em texto claro. 3. Assegurar envio de e-mails com suporte a criptograﬁa durante a submissão das mensagens. 4. Possibilitar monitoramento seguro de dispositivos de rede, com autenticação forte e criptograﬁa. 5. Manter funcionalidade de diagnóstico de conectividade e MTU de caminho. Considerando os protocolos de rede existentes, assinale o conjunto tecnicamente correto para atender, respectivamente, aos cinco requisitos apresentados:",
+        "alternativas": {
+            "A": "HTTPS, FTPS, SMTP (porta 25), SNMPv2c e ICMP",
+            "B": "HTTPS, SFTP, SMTP (porta 587), SNMPv3 e ICMP",
+            "C": "HTTP/2, FTP anônimo, SMTPS (porta 465), SNMPv1 e ICMP",
+            "D": "HTTPS, FTPS, SMTP (porta 25), SNMPv3 e UDP"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "HTTPS garante segurança na web. SFTP para transferência segura de arquivos. SMTP na porta 587 para submissão segura. SNMPv3 para monitoramento seguro. ICMP para diagnóstico."
+    },
+    {
+        "id": "2266525",
+        "enunciado": "O acesso a recursos na World Wide Web é viabilizado por um sistema de endereçamento e um conjunto de protocolos de comunicação. Um desses protocolos é responsável por informar ao servidor de que forma deve ser atendido o pedido do cliente, sendo encontrado no início da maioria dos endereços de páginas Web (URLs). Marque a alternativa CORRETA que corresponde ao protocolo a descrição se refere.",
+        "alternativas": {
+            "A": "HTTP.",
+            "B": "SMTP.",
+            "C": "DNS.",
+            "D": "POP3.",
+            "E": "FTP."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O HTTP (Hypertext Transfer Protocol) é o protocolo de comunicação utilizado para requisitar e transmitir páginas web, sendo fundamental para o acesso à World Wide Web."
+    },
+    {
+        "id": "2375254",
+        "enunciado": "Durante a verificação da infraestrutura de rede em uma repartição pública, o administrador identificou simultaneamente os seguintes problemas: I. Páginas acessadas via HTTPS apresentam alerta de conteúdo misto no navegador. II. O envio de e-mails falha quando configurado pela porta 25. III. O sistema de monitoramento de rede coleta dados, porém sem qualquer criptografia. Com base exclusivamente nas características dos protocolos de redes, assinale a assertiva que identifica corretamente a causa técnica de cada problema, respectivamente:",
+        "alternativas": {
+            "A": "Uso de HTTP em recursos incorporados em páginas HTTPS; uso de SMTP sem criptografia; adoção de SNMPv2c.",
+            "B": "Erro de handshake TCP; bloqueio de UDP; uso do protocolo IMAP sem SSL.",
+            "C": "Uso indevido de HTTPS; bloqueio do BGP; adoção de FTP ativo.",
+            "D": "Falha no DNS; restrição de ICMP; problema na camada física."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Páginas HTTPS com alerta de conteúdo misto ocorrem quando há HTTP em recursos incorporados. SMTP usa porta 25, e a falha indica bloqueio ou uso de outro protocolo. SNMPv2c não garante criptografia, sendo uma possível causa para coleta sem segurança."
+    },
+    {
+        "id": "2375177",
+        "enunciado": "Durante a veriﬁcação da infraestrutura de rede em uma repartição pública, o administrador identiﬁcou simultaneamente os seguintes problemas: I. Páginas acessadas via HTTPS apresentam alerta de conteúdo misto no navegador. II. O envio de e-mails falha quando conﬁgurado pela porta 25. III. O sistema de monitoramento de rede coleta dados, porém sem qualquer criptograﬁa. Com base exclusivamente nas características dos protocolos de redes, assinale a assertiva que identiﬁca corretamente a causa técnica de cada problema, respectivamente:",
+        "alternativas": {
+            "A": "Uso de HTTP em recursos incorporados em páginas HTTPS; uso de SMTP sem criptograﬁa; adoção de SNMPv2c.",
+            "B": "Erro de handshake TCP; bloqueio de UDP; uso do protocolo IMAP sem SSL.",
+            "C": "Uso indevido de HTTPS; bloqueio do BGP; adoção de FTP ativo.",
+            "D": "Falha no DNS; restrição de ICMP; problema na camada física."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Conteúdo misto em HTTPS ocorre quando HTTP é usado em recursos em páginas HTTPS. Porta 25 é para SMTP, e emails falham se não permitirem a transmissão. SNMPv2c não possui criptografia forte."
+    },
+    {
+        "id": "2079565",
+        "enunciado": "O que é o IP em uma rede de computador?",
+        "alternativas": {
+            "A": "Um protocolo de navegação Web.",
+            "B": "Um componente físico da placa de rede.",
+            "C": "Uma rede local que interliga computadores.",
+            "D": "Um número que identifica um dispositivo em uma rede."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O endereço IP (Internet Protocol) é um número único atribuído a cada dispositivo conectado a uma rede. Ele funciona como um endereço para que os dados sejam enviados ao destino correto, semelhante a um endereço residencial em uma rede física. As outras opções descrevem outros conceitos de redes."
+    },
+    {
+        "id": "2079513",
+        "enunciado": "Determinado assistente administrativo utiliza, diariamente, sistemas on-line para protocolar documentos, emitir relatórios e acessar portais institucionais. Em um dia de trabalho, ao tentar acessar o sistema de protocolo eletrônico da organização pelo navegador, a página não carregou corretamente, exibindo a mensagem: “Erro na conexão com o servidor”. Sabendo que esse sistema opera via internet, qual protocolo de rede, na camada de aplicação do TCP/IP, é o responsável pela transferência de páginas web entre seu navegador (cliente) e o servidor onde o sistema está hospedado?",
+        "alternativas": {
+            "A": "SMTP: Protocolo de envio de e-mails (não relacionado à navegação web).",
+            "B": "HTTP: Protocolo de transferência de hipertexto (padrão para carregar páginas web em navegadores).",
+            "C": "DNS: Sistema de tradução de nomes de domínio (converte URLs em IPs, mas não transfere conteúdo).",
+            "D": "FTP: Protocolo de transferência de arquivos (usado para upload/download de arquivos, não para carregar páginas web)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo HTTP (Hypertext Transfer Protocol) é o padrão para a transferência de páginas web. Ele opera na camada de aplicação e é responsável por requisitar e receber o conteúdo das páginas do servidor pelo navegador do cliente."
+    },
+    {
+        "id": "2023185",
+        "enunciado": "É um Protocolo de Transferência de Arquivos, a transferência de arquivos dá-se entre um computador chamado 'cliente' (aquele que solicita a conexão para a transferência de dados) e um servidor (aquele que recebe a solicitação de transferência), o utilizador pode selecionar quais arquivos enviar ao servidor. Marque a alternativa CORRETA que corresponde ao protocolo descrito.",
+        "alternativas": {
+            "A": "FTP.",
+            "B": "DNS.",
+            "C": "DHCP.",
+            "D": "HTTPS.",
+            "E": "HTTP."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O protocolo descrito, que permite a transferência de arquivos entre cliente e servidor, é o FTP (File Transfer Protocol). Os outros protocolos mencionados têm funções distintas: DNS (nomes de domínio), DHCP (configuração de IP), HTTPS (comunicação web segura) e HTTP (comunicação web)."
+    },
+    {
+        "id": "2245365",
+        "enunciado": "O correio eletrônico (e-mail) utiliza diferentes protocolos para o envio e recebimento de mensagens. Para enviar um e-mail, o cliente de e-mail (como o Outlook ou o Gmail) se comunica com o servidor de e-mail utilizando um protocolo específico. Já para receber e-mails, existem outros dois protocolos principais, um que baixa as mensagens para o dispositivo do usuário e as apaga do servidor, e outro que sincroniza as mensagens entre o servidor e o dispositivo, permitindo o acesso de múltiplos locais. Marque a alternativa CORRETA que corresponde ao protocolo utilizado para o envio de mensagens de correio eletrônico.",
+        "alternativas": {
+            "A": "FTP (File Transfer Protocol).",
+            "B": "SMTP (Simple Mail Transfer Protocol).",
+            "C": "IMAP (Internet Message Access Protocol).",
+            "D": "HTTP (Hypertext Transfer Protocol).",
+            "E": "POP3 (Post Office Protocol 3)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo SMTP (Simple Mail Transfer Protocol) e o padrao utilizado para o envio de emails entre clientes e servidores de email, e tambem entre servidores."
+    },
+    {
+        "id": "2163013",
+        "enunciado": "Um usuário de um computador com MS Windows está utilizando um aplicativo padrão de correio eletrônico e precisa configurar o serviço de IMAP, de modo que ele possa trabalhar no preparo, envio e recepção de mensagens. Nesse caso, esse serviço vai auxiliar esse aplicativo a:",
+        "alternativas": {
+            "A": "permitir o envio de mensagens por meio do servidor correspondente, sendo que isso pode ser realizado de qualquer dispositivo",
+            "B": "permitir o envio de mensagens por meio do servidor correspondente, sendo que isso só pode ser realizado a partir deste computador",
+            "C": "receber os e-mails neste computador, mas removendo as mensagens do servidor cadastrado, de modo que nenhum outro dispositivo possa vê-las ou acessá-las",
+            "D": "receber os e-mails neste computador, mantendo as mensagens no servidor cadastrado, de modo que outros dispositivos também possam vê-las ou acessá-las"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O protocolo IMAP permite que o cliente de email receba mensagens mantendo-as no servidor, possibilitando acesso e visualizacao de qualquer dispositivo conectado. Diferencia-se do POP3, que remove as mensagens do servidor."
+    },
+    {
+        "id": "1758160",
+        "enunciado": "A principal função do LDAP (Lightweight Directory Access Protocol) é",
+        "alternativas": {
+            "A": "proteger arquivos com criptografia.",
+            "B": "permitir a comunicação entre diferentes sistemas de diretório para busca e acesso a informações.",
+            "C": "instalar pacotes de software em sistemas Linux.",
+            "D": "monitorar o uso da CPU em servidores.",
+            "E": "criar backups automáticos de dados empresariais."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "LDAP é um protocolo para acessar e gerenciar serviços de diretório. Sua principal função é permitir a consulta e manipulação de informações em bases de dados de diretório de forma padronizada."
+    },
+    {
+        "id": "2174469",
+        "enunciado": "Avalie o trecho a seguir: “[W] é um protocolo que permite a obtenção de recursos, como documentos HTML. É a base de qualquer troca de dados na Web e um protocolo cliente-servidor, o que significa que as requisições são iniciadas pelo destinatário, geralmente um navegador da Web.” O protocolo mencionado é conhecido por:",
+        "alternativas": {
+            "A": "HTLP.",
+            "B": "HTTP.",
+            "C": "POP.",
+            "D": "SFTP.",
+            "E": "TCP."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O texto descreve o protocolo responsável pela obtenção de recursos (como documentos HTML) na Web, sendo a base da troca de dados e operando em cliente-servidor, onde o navegador inicia requisições. Essa descrição corresponde ao Hypertext Transfer Protocol (HTTP)."
+    },
+    {
+        "id": "2363229",
+        "enunciado": "Um usuário acessa um site de banco pela internet e observa que a URL começa com \"https://\" em vez de \"http://\". Qual é a principal vantagem de usar HTTPS em comparação com HTTP?",
+        "alternativas": {
+            "A": "O HTTPS é obrigatório para todos os sites e oferece melhor compatibilidade com navegadores antigos.",
+            "B": "O HTTPS permite velocidades de conexão mais rápidas.",
+            "C": "O HTTPS permite que o site armazene mais dados no cache do navegador.",
+            "D": "O HTTPS utiliza um sistema de inteligência artificial para prever e bloquear tentativas de phishing antes que elas aconteçam, analisando o comportamento do usuário em tempo real.",
+            "E": "O HTTPS criptografa a comunicação entre o navegador e o servidor, protegendo dados sensíveis como senhas e informações bancárias."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O HTTPS adiciona uma camada de criptografia à comunicação entre o navegador e o servidor. Isso garante que os dados transmitidos sejam ilegíveis para terceiros, protegendo informações sensíveis como credenciais de login e dados financeiros."
+    },
+    {
+        "id": "2179052",
+        "enunciado": "Durante a comunicação entre servidores, foi implantado o protocolo TLS 1.3. Qual das seguintes opções representa corretamente uma característica técnica dessa versão?",
+        "alternativas": {
+            "A": "Eliminação do uso de Perfect Forward Secrecy.",
+            "B": "Dependência obrigatória de certificados RSA fixos.",
+            "C": "Utilização exclusiva de RC4 como cifra padrão.",
+            "D": "Redução do número de handshakes para apenas um round trip.",
+            "E": "Suporte primário a SSL 3.0 como fallback."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O TLS 1.3 introduziu melhorias significativas de segurança e desempenho, incluindo a redução do handshake para um único round trip, o que acelera o estabelecimento da conexão segura. Ele também manteve o Perfect Forward Secrecy e evoluiu os algoritmos criptográficos."
+    },
+    {
+        "id": "1833392",
+        "enunciado": "Uma empresa está implementando serviços de correio eletrônico, navegação na web e transferência de arquivos em seus servidores. Para garantir o funcionamento adequado dessas aplicações e serviços, é necessário configurar corretamente os protocolos associados. Sobre esse tema, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "A configuração de um servidor FTP requer a especificação de portas como 20 e 21 para operações de controle e transferência de dados, respectivamente.",
+            "B": "Servidores de correio eletrônico utilizam exclusivamente o protocolo POP para enviar e receber mensagens, sendo incompatíveis com o protocolo IMAP.",
+            "C": "A configuração de navegadores modernos exige a ativação manual de DNS para permitir o carregamento de páginas HTTPS, pois o HTTP não suporta criptografia.",
+            "D": "O uso de certificados digitais em servidores de correio eletrônico é irrelevante, já que os dados trocados via SMTP são sempre criptografados por padrão."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. As portas 20 e 21 são de fato usadas pelo FTP para transferência de dados e controle, respectivamente. A alternativa B está incorreta pois o POP só recebe, e o IMAP também recebe e sincroniza, e o SMTP envia. A alternativa C está incorreta pois o DNS é usado para resolver nomes e não é ativado manualmente para HTTPS. A alternativa D está incorreta pois SMTP não criptografa os dados por padrão, necessitando de TLS/SSL."
+    },
+    {
+        "id": "2048132",
+        "enunciado": "É um protocolo de padrão aberto que permite que aplicativos acessem recursos hospedados por outros aplicativos ou sites sem que seja necessário compartilhar as credenciais do usuário:",
+        "alternativas": {
+            "A": "IPSec.",
+            "B": "SSL.",
+            "C": "TLS.",
+            "D": "OAuth.",
+            "E": "SSH."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "OAuth é um protocolo de autorização que permite o acesso a recursos de terceiros sem compartilhar credenciais, garantindo a segurança e a privacidade do usuário."
+    },
+    {
+        "id": "1793495",
+        "enunciado": "Qual dos seguintes protocolos é utilizado para o envio de e-mails?",
+        "alternativas": {
+            "A": "HTTP",
+            "B": "FTP",
+            "C": "SMTP",
+            "D": "SNMP",
+            "E": "IMAP"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "SMTP (Simple Mail Transfer Protocol) e o protocolo padrao utilizado para enviar e-mails de um servidor para outro ou de um cliente para um servidor de e-mail."
+    },
+    {
+        "id": "2292993",
+        "enunciado": "No processo de transmissão de dados em redes, a função principal do protocolo TCP, no modelo TCP/IP, consiste em:",
+        "alternativas": {
+            "A": "Definir o endereçamento físico dos dispositivos de rede.",
+            "B": "Garantir a entrega confiável e ordenada dos dados.",
+            "C": "Converter sinais digitais em sinais analógicos.",
+            "D": "Controlar o acesso físico ao meio de transmissão."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo TCP (Transmission Control Protocol) no modelo TCP/IP é o principal responsavel por garantir que os pacotes de dados sejam entregues de forma confiável, sem perdas e na ordem correta."
+    },
+    {
+        "id": "2205916",
+        "enunciado": "Um operador de sistemas em uma instituição pública é responsável por conﬁgurar o servidor de e-mails da organização. Para garantir que as mensagens sejam enviadas CORRETAMENTE para destinatários externos, ele deve utilizar o protocolo:",
+        "alternativas": {
+            "A": "Post Office Protocol 3 (POP3).",
+            "B": "HyperText Transfer Protocol (HTTP).",
+            "C": "File Transfer Protocol (FTP).",
+            "D": "SMTP (Simple Mail Transfer Protocol).",
+            "E": "Internet Message Access Protocol (IMAP)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O SMTP (Simple Mail Transfer Protocol) é o protocolo padrão para envio de e-mails entre servidores, sendo essencial para garantir que as mensagens cheguem a destinatários externos."
+    },
+    {
+        "id": "2205861",
+        "enunciado": "Um operador de sistemas em uma instituição pública é responsável por configurar o servidor de e-mails da organização. Para garantir que as mensagens sejam enviadas CORRETAMENTE para destinatários externos, ele deve utilizar o protocolo:",
+        "alternativas": {
+            "A": "Post Office Protocol 3 (POP3).",
+            "B": "HyperText Transfer Protocol (HTTP).",
+            "C": "File Transfer Protocol (FTP).",
+            "D": "SMTP (Simple Mail Transfer Protocol).",
+            "E": "Internet Message Access Protocol (IMAP)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O SMTP (Simple Mail Transfer Protocol) é o protocolo padrão para envio de e-mails entre servidores, sendo essencial para garantir que as mensagens cheguem a destinatários externos."
+    },
+    {
+        "id": "2340685",
+        "enunciado": "O Trivial File Transfer Protocol (TFTP) é um protocolo extremamente simples, voltado para transferências básicas de arquivos em ambientes de rede, especialmente em dispositivos que necessitam de inicialização remota ou atualização de firmware. Sobre o protocolo TFTP (Trivial File Transfer Protocol), assinale a opção correta.",
+        "alternativas": {
+            "A": "Divide os dados a serem transmitidos em blocos de 1 MB e os envia em lote único.",
+            "B": "Não possui qualquer sistema de autenticação.",
+            "C": "O primeiro bloco transmitido configura as portas de comunicação.",
+            "D": "Opera com o SSH, criptografando os dados transferidos.",
+            "E": "Utiliza o protocolo de transporte TCP."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O TFTP é conhecido por sua simplicidade e por não incluir mecanismos de autenticação, dependendo de outras camadas de segurança da rede. Ele opera com blocos menores que 1MB, não configura portas de comunicação no primeiro bloco, não opera com SSH (que é seguro) e utiliza UDP, não TCP."
+    },
+    {
+        "id": "1914236",
+        "enunciado": "Para que a comunicação na internet aconteça, independentemente de fatores como localização geográfica, fabricantes dos dispositivos e outros, foram criados os protocolos web. Eles estabelecem um conjunto de normas e diretrizes que viabilizam a troca de informações entre dispositivos em uma rede. Para transferir páginas web pela internet é necessário um protocolo específico. Assinale a alternativa que indica qual é esse protocolo.",
+        "alternativas": {
+            "A": "HTTP",
+            "B": "SMTP",
+            "C": "FTP",
+            "D": "DNS"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O protocolo HTTP (Hypertext Transfer Protocol) é o padrão para a transferência de páginas web pela internet, sendo o principal protocolo utilizado pelos navegadores para requisitar e receber conteúdo de servidores web."
+    },
+    {
+        "id": "2029156",
+        "enunciado": "Na configuração de um aplicativo cliente de e-mail, podem ser utilizados para o recebimento e envio de mensagens, respectivamente, os protocolos",
+        "alternativas": {
+            "A": "SMTP e IMAP .",
+            "B": "SMTP e POP3.",
+            "C": "POP3 e IMAP .",
+            "D": "IMAP e POP3.",
+            "E": "IMAP e SMTP ."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O protocolo SMTP (Simple Mail Transfer Protocol) é usado para o envio de e-mails, enquanto o IMAP (Internet Message Access Protocol) é usado para recebimento e gerenciamento de e-mails no servidor."
+    },
+    {
+        "id": "1918155",
+        "enunciado": "Kerberos é um protocolo de autenticação amplamente utilizado em redes de computadores para fornecer segurança na comunicação entre clientes e servidores, prevenindo ataques de interceptação e falsificação de identidade. Para acessar um serviço autenticado por Kerberos, o usuário precisa obter um Ticket Granting Ticket (TGT) antes de solicitar o acesso ao serviço desejado. O comando utilizado para essa obtenção é:",
+        "alternativas": {
+            "A": "rlogin",
+            "B": "kticket",
+            "C": "klist",
+            "D": "kinit",
+            "E": "rtgt"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D é a correta. O comando 'kinit' é utilizado no Kerberos para obter um Ticket Granting Ticket (TGT) inicial, que é o primeiro passo para autenticação e solicitação de outros tickets de serviço."
+    },
+    {
+        "id": "1918163",
+        "enunciado": "Assinalar a alternativa que apresenta a nomenclatura do protocolo que permite a uma máquina descobrir um endereço IP por meio de um endereço MAC:",
+        "alternativas": {
+            "A": "Internet Control Message Protocol (ICMP).",
+            "B": "Address Resolution Protocol (ARP).",
+            "C": "Directional Mobile Address (DMA).",
+            "D": "Reverse Address Resolution Protocol (RARP).",
+            "E": "Network Address Translation Protocol (NAT)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O Address Resolution Protocol (ARP) é o protocolo responsável por mapear um endereço IP (camada 3) com seu correspondente endereço MAC (camada 2), permitindo a comunicação em redes locais."
+    },
+    {
+        "id": "1773134",
+        "enunciado": "Qual é o protocolo de rede que provê serviços do protocolo TCP aprimorados com serviços de segurança, tais como: sigilo, integridade dos dados, autenticação do servidor e autenticação do cliente?",
+        "alternativas": {
+            "A": "IDS.",
+            "B": "NAT.",
+            "C": "RSA.",
+            "D": "SSL."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O SSL (Secure Sockets Layer), e seu sucessor TLS, oferece segurança (sigilo, integridade e autenticação) para o tráfego TCP."
+    },
+    {
+        "id": "2339367",
+        "enunciado": "Um usuário configura sua conta de e-mail no Outlook utilizando POP3 e percebe que, ao acessar o webmail, as mensagens lidas continuam marcadas como “não lidas”. Assinale a razão dessa ocorrência.",
+        "alternativas": {
+            "A": "O Outlook não é compatível com o POP3.",
+            "B": "O protocolo POP3 baixa cópias das mensagens localmente e não sincroniza alterações com o servidor.",
+            "C": "O servidor SMTP está configurado como somente leitura.",
+            "D": "O POP3 está com criptografia desativada.",
+            "E": "O filtro de spam do cliente impede a atualização das mensagens."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo POP3 baixa mensagens para o cliente e, por padrão, as remove do servidor. Ele não sincroniza o status de leitura entre o cliente e o servidor, fazendo com que mensagens lidas no Outlook ainda apareçam como não lidas no webmail."
+    },
+    {
+        "id": "1658949",
+        "enunciado": "Leia o trecho abaixo e responda. “É um protocolo para serviços de diretório que organiza dados hierarquicamente e possibilita que os usuários de uma rede local ou pública localizem dados sobre organizações, indivíduos e outros recursos, como dispositivos, arquivos e aplicações.” A qual protocolo o trecho acima faz referência?",
+        "alternativas": {
+            "A": "IP.",
+            "B": "ICMP.",
+            "C": "LDAP.",
+            "D": "SCTP."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O trecho descreve o LDAP (Lightweight Directory Access Protocol), um protocolo de serviço de diretório que organiza dados hierarquicamente e facilita a localização de recursos em redes."
+    },
+    {
+        "id": "1863537",
+        "enunciado": "O que significa a letra “S” no protocolo do HTTPS?",
+        "alternativas": {
+            "A": "Segurança",
+            "B": "Servidor",
+            "C": "Simples",
+            "D": "Síncrono"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "HTTPS significa Hypertext Transfer Protocol Secure. O 'S' ao final indica que a conexão é segura, utilizando criptografia para proteger a comunicação entre o navegador do usuário e o servidor web."
+    },
+    {
+        "id": "2079508",
+        "enunciado": "Maria é assistente administrativa no setor de atendimento de um órgão público e trabalha em dois ambientes: no escritório (usando um desktop) e em reuniões externas (usando um notebook). Ao retornar de uma reunião, ela percebeu que algumas mensagens importantes não estavam visíveis no notebook, mesmo já tendo lido e organizado tais mensagens no desktop. Para evitar esse tipo de problema no futuro, ela decide ajustar o aplicativo de e-mail para garantir que: 1. Todas as mensagens permaneçam no servidor, permitindo acesso completo e sincronizado a partir de qualquer dispositivo; 2. Ações como “marcar como lida”, “mover” ou “excluir mensagens” sejam automaticamente refletidas em todos os dispositivos conectados; e 3. As mensagens possam ser enviadas normalmente de qualquer um dos dispositivos, com garantia de entrega ao destinatário. Considerando os requisitos apresentados, qual alternativa apresenta os protocolos adequados de recebimento e envio de mensagens eletrônicas que devem ser configurados no aplicativo de e-mail?",
+        "alternativas": {
+            "A": "FTP-SMTP.",
+            "B": "POP3 -SMTP.",
+            "C": "IMAP -SMTP.",
+            "D": "HTTP -SMTP."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O protocolo IMAP permite que as mensagens permaneçam no servidor, garantindo sincronização entre dispositivos, e que ações realizadas em um dispositivo sejam refletidas em todos. O SMTP é o protocolo padrão para o envio de e-mails."
+    },
+    {
+        "id": "2375253",
+        "enunciado": "Uma empresa implantou uma aplicação web crítica composta por: servidor HTTP/HTTPS, servidores de e-mail, servidores de arquivos e infraestrutura de monitoramento de rede. Após uma auditoria técnica, foram identificados os seguintes requisitos simultâneos: 1. Garantir confidencialidade, integridade e autenticação do servidor na navegação web. 2. Permitir transferência segura de arquivos, eliminando o risco de credenciais em texto claro. 3. Assegurar envio de e-mails com suporte a criptografia durante a submissão das mensagens. 4. Possibilitar monitoramento seguro de dispositivos de rede, com autenticação forte e criptografia. 5. Manter funcionalidade de diagnóstico de conectividade e MTU de caminho. Considerando os protocolos de rede existentes, assinale o conjunto tecnicamente correto para atender, respectivamente, aos cinco requisitos apresentados:",
+        "alternativas": {
+            "A": "HTTPS, FTPS, SMTP (porta 25), SNMPv2c e ICMP",
+            "B": "HTTPS, SFTP, SMTP (porta 587), SNMPv3 e ICMP",
+            "C": "HTTP/2, FTP anônimo, SMTPS (porta 465), SNMPv1 e ICMP",
+            "D": "HTTPS, FTPS, SMTP (porta 25), SNMPv3 e UDP"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "HTTPS garante confidencialidade, integridade e autenticação. SFTP permite transferência segura de arquivos sem credenciais em texto claro. SMTP na porta 587 é para submissão segura de e-mail. SNMPv3 oferece autenticação forte e criptografia para monitoramento de rede. ICMP é usado para diagnóstico de conectividade. As demais alternativas apresentam protocolos inadequados para os requisitos."
+    },
+    {
+        "id": "2375175",
+        "enunciado": "Uma empresa implantou uma aplicação web crítica composta por: servidor HTTP/HTTPS, servidores de e-mail, servidores de arquivos e infraestrutura de monitoramento de rede. Após uma auditoria técnica, foram identiﬁcados os seguintes requisitos simultâneos: 1. Garantir conﬁdencialidade, integridade e autenticação do servidor na navegação web. 2. Permitir transferência segura de arquivos, eliminando o risco de credenciais em texto claro. 3. Assegurar envio de e-mails com suporte a criptograﬁa durante a submissão das mensagens. 4. Possibilitar monitoramento seguro de dispositivos de rede, com autenticação forte e criptograﬁa. 5. Manter funcionalidade de diagnóstico de conectividade e MTU de caminho. Considerando os protocolos de rede existentes, assinale o conjunto tecnicamente correto para atender, respectivamente, aos cinco requisitos apresentados:",
+        "alternativas": {
+            "A": "HTTPS, FTPS, SMTP (porta 25), SNMPv2c e ICMP",
+            "B": "HTTPS, SFTP, SMTP (porta 587), SNMPv3 e ICMP",
+            "C": "HTTP/2, FTP anônimo, SMTPS (porta 465), SNMPv1 e ICMP",
+            "D": "HTTPS, FTPS, SMTP (porta 25), SNMPv3 e UDP"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "HTTPS garante segurança na web. SFTP para transferência segura de arquivos. SMTP na porta 587 para submissão segura. SNMPv3 para monitoramento seguro. ICMP para diagnóstico."
+    },
+    {
+        "id": "2266525",
+        "enunciado": "O acesso a recursos na World Wide Web é viabilizado por um sistema de endereçamento e um conjunto de protocolos de comunicação. Um desses protocolos é responsável por informar ao servidor de que forma deve ser atendido o pedido do cliente, sendo encontrado no início da maioria dos endereços de páginas Web (URLs). Marque a alternativa CORRETA que corresponde ao protocolo a descrição se refere.",
+        "alternativas": {
+            "A": "HTTP.",
+            "B": "SMTP.",
+            "C": "DNS.",
+            "D": "POP3.",
+            "E": "FTP."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O HTTP (Hypertext Transfer Protocol) é o protocolo de comunicação utilizado para requisitar e transmitir páginas web, sendo fundamental para o acesso à World Wide Web."
+    },
+    {
+        "id": "2375254",
+        "enunciado": "Durante a verificação da infraestrutura de rede em uma repartição pública, o administrador identificou simultaneamente os seguintes problemas: I. Páginas acessadas via HTTPS apresentam alerta de conteúdo misto no navegador. II. O envio de e-mails falha quando configurado pela porta 25. III. O sistema de monitoramento de rede coleta dados, porém sem qualquer criptografia. Com base exclusivamente nas características dos protocolos de redes, assinale a assertiva que identifica corretamente a causa técnica de cada problema, respectivamente:",
+        "alternativas": {
+            "A": "Uso de HTTP em recursos incorporados em páginas HTTPS; uso de SMTP sem criptografia; adoção de SNMPv2c.",
+            "B": "Erro de handshake TCP; bloqueio de UDP; uso do protocolo IMAP sem SSL.",
+            "C": "Uso indevido de HTTPS; bloqueio do BGP; adoção de FTP ativo.",
+            "D": "Falha no DNS; restrição de ICMP; problema na camada física."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Páginas HTTPS com alerta de conteúdo misto ocorrem quando há HTTP em recursos incorporados. SMTP usa porta 25, e a falha indica bloqueio ou uso de outro protocolo. SNMPv2c não garante criptografia, sendo uma possível causa para coleta sem segurança."
+    },
+    {
+        "id": "2375177",
+        "enunciado": "Durante a veriﬁcação da infraestrutura de rede em uma repartição pública, o administrador identiﬁcou simultaneamente os seguintes problemas: I. Páginas acessadas via HTTPS apresentam alerta de conteúdo misto no navegador. II. O envio de e-mails falha quando conﬁgurado pela porta 25. III. O sistema de monitoramento de rede coleta dados, porém sem qualquer criptograﬁa. Com base exclusivamente nas características dos protocolos de redes, assinale a assertiva que identiﬁca corretamente a causa técnica de cada problema, respectivamente:",
+        "alternativas": {
+            "A": "Uso de HTTP em recursos incorporados em páginas HTTPS; uso de SMTP sem criptograﬁa; adoção de SNMPv2c.",
+            "B": "Erro de handshake TCP; bloqueio de UDP; uso do protocolo IMAP sem SSL.",
+            "C": "Uso indevido de HTTPS; bloqueio do BGP; adoção de FTP ativo.",
+            "D": "Falha no DNS; restrição de ICMP; problema na camada física."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Conteúdo misto em HTTPS ocorre quando HTTP é usado em recursos em páginas HTTPS. Porta 25 é para SMTP, e emails falham se não permitirem a transmissão. SNMPv2c não possui criptografia forte."
+    },
+    {
+        "id": "2079565",
+        "enunciado": "O que é o IP em uma rede de computador?",
+        "alternativas": {
+            "A": "Um protocolo de navegação Web.",
+            "B": "Um componente físico da placa de rede.",
+            "C": "Uma rede local que interliga computadores.",
+            "D": "Um número que identifica um dispositivo em uma rede."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O endereço IP (Internet Protocol) é um número único atribuído a cada dispositivo conectado a uma rede. Ele funciona como um endereço para que os dados sejam enviados ao destino correto, semelhante a um endereço residencial em uma rede física. As outras opções descrevem outros conceitos de redes."
+    },
+    {
+        "id": "2079513",
+        "enunciado": "Determinado assistente administrativo utiliza, diariamente, sistemas on-line para protocolar documentos, emitir relatórios e acessar portais institucionais. Em um dia de trabalho, ao tentar acessar o sistema de protocolo eletrônico da organização pelo navegador, a página não carregou corretamente, exibindo a mensagem: “Erro na conexão com o servidor”. Sabendo que esse sistema opera via internet, qual protocolo de rede, na camada de aplicação do TCP/IP, é o responsável pela transferência de páginas web entre seu navegador (cliente) e o servidor onde o sistema está hospedado?",
+        "alternativas": {
+            "A": "SMTP: Protocolo de envio de e-mails (não relacionado à navegação web).",
+            "B": "HTTP: Protocolo de transferência de hipertexto (padrão para carregar páginas web em navegadores).",
+            "C": "DNS: Sistema de tradução de nomes de domínio (converte URLs em IPs, mas não transfere conteúdo).",
+            "D": "FTP: Protocolo de transferência de arquivos (usado para upload/download de arquivos, não para carregar páginas web)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo HTTP (Hypertext Transfer Protocol) é o padrão para a transferência de páginas web. Ele opera na camada de aplicação e é responsável por requisitar e receber o conteúdo das páginas do servidor pelo navegador do cliente."
+    },
+    {
+        "id": "2023185",
+        "enunciado": "É um Protocolo de Transferência de Arquivos, a transferência de arquivos dá-se entre um computador chamado 'cliente' (aquele que solicita a conexão para a transferência de dados) e um servidor (aquele que recebe a solicitação de transferência), o utilizador pode selecionar quais arquivos enviar ao servidor. Marque a alternativa CORRETA que corresponde ao protocolo descrito.",
+        "alternativas": {
+            "A": "FTP.",
+            "B": "DNS.",
+            "C": "DHCP.",
+            "D": "HTTPS.",
+            "E": "HTTP."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O protocolo descrito, que permite a transferência de arquivos entre cliente e servidor, é o FTP (File Transfer Protocol). Os outros protocolos mencionados têm funções distintas: DNS (nomes de domínio), DHCP (configuração de IP), HTTPS (comunicação web segura) e HTTP (comunicação web)."
+    },
+    {
+        "id": "2245365",
+        "enunciado": "O correio eletrônico (e-mail) utiliza diferentes protocolos para o envio e recebimento de mensagens. Para enviar um e-mail, o cliente de e-mail (como o Outlook ou o Gmail) se comunica com o servidor de e-mail utilizando um protocolo específico. Já para receber e-mails, existem outros dois protocolos principais, um que baixa as mensagens para o dispositivo do usuário e as apaga do servidor, e outro que sincroniza as mensagens entre o servidor e o dispositivo, permitindo o acesso de múltiplos locais. Marque a alternativa CORRETA que corresponde ao protocolo utilizado para o envio de mensagens de correio eletrônico.",
+        "alternativas": {
+            "A": "FTP (File Transfer Protocol).",
+            "B": "SMTP (Simple Mail Transfer Protocol).",
+            "C": "IMAP (Internet Message Access Protocol).",
+            "D": "HTTP (Hypertext Transfer Protocol).",
+            "E": "POP3 (Post Office Protocol 3)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo SMTP (Simple Mail Transfer Protocol) e o padrao utilizado para o envio de emails entre clientes e servidores de email, e tambem entre servidores."
+    },
+    {
+        "id": "2163013",
+        "enunciado": "Um usuário de um computador com MS Windows está utilizando um aplicativo padrão de correio eletrônico e precisa configurar o serviço de IMAP, de modo que ele possa trabalhar no preparo, envio e recepção de mensagens. Nesse caso, esse serviço vai auxiliar esse aplicativo a:",
+        "alternativas": {
+            "A": "permitir o envio de mensagens por meio do servidor correspondente, sendo que isso pode ser realizado de qualquer dispositivo",
+            "B": "permitir o envio de mensagens por meio do servidor correspondente, sendo que isso só pode ser realizado a partir deste computador",
+            "C": "receber os e-mails neste computador, mas removendo as mensagens do servidor cadastrado, de modo que nenhum outro dispositivo possa vê-las ou acessá-las",
+            "D": "receber os e-mails neste computador, mantendo as mensagens no servidor cadastrado, de modo que outros dispositivos também possam vê-las ou acessá-las"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O protocolo IMAP permite que o cliente de email receba mensagens mantendo-as no servidor, possibilitando acesso e visualizacao de qualquer dispositivo conectado. Diferencia-se do POP3, que remove as mensagens do servidor."
+    },
+    {
+        "id": "1758160",
+        "enunciado": "A principal função do LDAP (Lightweight Directory Access Protocol) é",
+        "alternativas": {
+            "A": "proteger arquivos com criptografia.",
+            "B": "permitir a comunicação entre diferentes sistemas de diretório para busca e acesso a informações.",
+            "C": "instalar pacotes de software em sistemas Linux.",
+            "D": "monitorar o uso da CPU em servidores.",
+            "E": "criar backups automáticos de dados empresariais."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "LDAP é um protocolo para acessar e gerenciar serviços de diretório. Sua principal função é permitir a consulta e manipulação de informações em bases de dados de diretório de forma padronizada."
+    },
+    {
+        "id": "2174469",
+        "enunciado": "Avalie o trecho a seguir: “[W] é um protocolo que permite a obtenção de recursos, como documentos HTML. É a base de qualquer troca de dados na Web e um protocolo cliente-servidor, o que significa que as requisições são iniciadas pelo destinatário, geralmente um navegador da Web.” O protocolo mencionado é conhecido por:",
+        "alternativas": {
+            "A": "HTLP.",
+            "B": "HTTP.",
+            "C": "POP.",
+            "D": "SFTP.",
+            "E": "TCP."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O texto descreve o protocolo responsável pela obtenção de recursos (como documentos HTML) na Web, sendo a base da troca de dados e operando em cliente-servidor, onde o navegador inicia requisições. Essa descrição corresponde ao Hypertext Transfer Protocol (HTTP)."
+    },
+    {
+        "id": "2363229",
+        "enunciado": "Um usuário acessa um site de banco pela internet e observa que a URL começa com \"https://\" em vez de \"http://\". Qual é a principal vantagem de usar HTTPS em comparação com HTTP?",
+        "alternativas": {
+            "A": "O HTTPS é obrigatório para todos os sites e oferece melhor compatibilidade com navegadores antigos.",
+            "B": "O HTTPS permite velocidades de conexão mais rápidas.",
+            "C": "O HTTPS permite que o site armazene mais dados no cache do navegador.",
+            "D": "O HTTPS utiliza um sistema de inteligência artificial para prever e bloquear tentativas de phishing antes que elas aconteçam, analisando o comportamento do usuário em tempo real.",
+            "E": "O HTTPS criptografa a comunicação entre o navegador e o servidor, protegendo dados sensíveis como senhas e informações bancárias."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O HTTPS adiciona uma camada de criptografia à comunicação entre o navegador e o servidor. Isso garante que os dados transmitidos sejam ilegíveis para terceiros, protegendo informações sensíveis como credenciais de login e dados financeiros."
+    },
+    {
+        "id": "2179052",
+        "enunciado": "Durante a comunicação entre servidores, foi implantado o protocolo TLS 1.3. Qual das seguintes opções representa corretamente uma característica técnica dessa versão?",
+        "alternativas": {
+            "A": "Eliminação do uso de Perfect Forward Secrecy.",
+            "B": "Dependência obrigatória de certificados RSA fixos.",
+            "C": "Utilização exclusiva de RC4 como cifra padrão.",
+            "D": "Redução do número de handshakes para apenas um round trip.",
+            "E": "Suporte primário a SSL 3.0 como fallback."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O TLS 1.3 introduziu melhorias significativas de segurança e desempenho, incluindo a redução do handshake para um único round trip, o que acelera o estabelecimento da conexão segura. Ele também manteve o Perfect Forward Secrecy e evoluiu os algoritmos criptográficos."
+    },
+    {
+        "id": "1833392",
+        "enunciado": "Uma empresa está implementando serviços de correio eletrônico, navegação na web e transferência de arquivos em seus servidores. Para garantir o funcionamento adequado dessas aplicações e serviços, é necessário configurar corretamente os protocolos associados. Sobre esse tema, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "A configuração de um servidor FTP requer a especificação de portas como 20 e 21 para operações de controle e transferência de dados, respectivamente.",
+            "B": "Servidores de correio eletrônico utilizam exclusivamente o protocolo POP para enviar e receber mensagens, sendo incompatíveis com o protocolo IMAP.",
+            "C": "A configuração de navegadores modernos exige a ativação manual de DNS para permitir o carregamento de páginas HTTPS, pois o HTTP não suporta criptografia.",
+            "D": "O uso de certificados digitais em servidores de correio eletrônico é irrelevante, já que os dados trocados via SMTP são sempre criptografados por padrão."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. As portas 20 e 21 são de fato usadas pelo FTP para transferência de dados e controle, respectivamente. A alternativa B está incorreta pois o POP só recebe, e o IMAP também recebe e sincroniza, e o SMTP envia. A alternativa C está incorreta pois o DNS é usado para resolver nomes e não é ativado manualmente para HTTPS. A alternativa D está incorreta pois SMTP não criptografa os dados por padrão, necessitando de TLS/SSL."
+    },
+    {
+        "id": "2048132",
+        "enunciado": "É um protocolo de padrão aberto que permite que aplicativos acessem recursos hospedados por outros aplicativos ou sites sem que seja necessário compartilhar as credenciais do usuário:",
+        "alternativas": {
+            "A": "IPSec.",
+            "B": "SSL.",
+            "C": "TLS.",
+            "D": "OAuth.",
+            "E": "SSH."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "OAuth é um protocolo de autorização que permite o acesso a recursos de terceiros sem compartilhar credenciais, garantindo a segurança e a privacidade do usuário."
+    },
+    {
+        "id": "1793495",
+        "enunciado": "Qual dos seguintes protocolos é utilizado para o envio de e-mails?",
+        "alternativas": {
+            "A": "HTTP",
+            "B": "FTP",
+            "C": "SMTP",
+            "D": "SNMP",
+            "E": "IMAP"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "SMTP (Simple Mail Transfer Protocol) e o protocolo padrao utilizado para enviar e-mails de um servidor para outro ou de um cliente para um servidor de e-mail."
+    },
+    {
+        "id": "2292993",
+        "enunciado": "No processo de transmissão de dados em redes, a função principal do protocolo TCP, no modelo TCP/IP, consiste em:",
+        "alternativas": {
+            "A": "Definir o endereçamento físico dos dispositivos de rede.",
+            "B": "Garantir a entrega confiável e ordenada dos dados.",
+            "C": "Converter sinais digitais em sinais analógicos.",
+            "D": "Controlar o acesso físico ao meio de transmissão."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo TCP (Transmission Control Protocol) no modelo TCP/IP é o principal responsavel por garantir que os pacotes de dados sejam entregues de forma confiável, sem perdas e na ordem correta."
+    },
+    {
+        "id": "2205916",
+        "enunciado": "Um operador de sistemas em uma instituição pública é responsável por conﬁgurar o servidor de e-mails da organização. Para garantir que as mensagens sejam enviadas CORRETAMENTE para destinatários externos, ele deve utilizar o protocolo:",
+        "alternativas": {
+            "A": "Post Office Protocol 3 (POP3).",
+            "B": "HyperText Transfer Protocol (HTTP).",
+            "C": "File Transfer Protocol (FTP).",
+            "D": "SMTP (Simple Mail Transfer Protocol).",
+            "E": "Internet Message Access Protocol (IMAP)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O SMTP (Simple Mail Transfer Protocol) é o protocolo padrão para envio de e-mails entre servidores, sendo essencial para garantir que as mensagens cheguem a destinatários externos."
+    },
+    {
+        "id": "2205861",
+        "enunciado": "Um operador de sistemas em uma instituição pública é responsável por configurar o servidor de e-mails da organização. Para garantir que as mensagens sejam enviadas CORRETAMENTE para destinatários externos, ele deve utilizar o protocolo:",
+        "alternativas": {
+            "A": "Post Office Protocol 3 (POP3).",
+            "B": "HyperText Transfer Protocol (HTTP).",
+            "C": "File Transfer Protocol (FTP).",
+            "D": "SMTP (Simple Mail Transfer Protocol).",
+            "E": "Internet Message Access Protocol (IMAP)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O SMTP (Simple Mail Transfer Protocol) é o protocolo padrão para envio de e-mails entre servidores, sendo essencial para garantir que as mensagens cheguem a destinatários externos."
+    },
+    {
+        "id": "2340685",
+        "enunciado": "O Trivial File Transfer Protocol (TFTP) é um protocolo extremamente simples, voltado para transferências básicas de arquivos em ambientes de rede, especialmente em dispositivos que necessitam de inicialização remota ou atualização de firmware. Sobre o protocolo TFTP (Trivial File Transfer Protocol), assinale a opção correta.",
+        "alternativas": {
+            "A": "Divide os dados a serem transmitidos em blocos de 1 MB e os envia em lote único.",
+            "B": "Não possui qualquer sistema de autenticação.",
+            "C": "O primeiro bloco transmitido configura as portas de comunicação.",
+            "D": "Opera com o SSH, criptografando os dados transferidos.",
+            "E": "Utiliza o protocolo de transporte TCP."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O TFTP é conhecido por sua simplicidade e por não incluir mecanismos de autenticação, dependendo de outras camadas de segurança da rede. Ele opera com blocos menores que 1MB, não configura portas de comunicação no primeiro bloco, não opera com SSH (que é seguro) e utiliza UDP, não TCP."
+    },
+    {
+        "id": "1914236",
+        "enunciado": "Para que a comunicação na internet aconteça, independentemente de fatores como localização geográfica, fabricantes dos dispositivos e outros, foram criados os protocolos web. Eles estabelecem um conjunto de normas e diretrizes que viabilizam a troca de informações entre dispositivos em uma rede. Para transferir páginas web pela internet é necessário um protocolo específico. Assinale a alternativa que indica qual é esse protocolo.",
+        "alternativas": {
+            "A": "HTTP",
+            "B": "SMTP",
+            "C": "FTP",
+            "D": "DNS"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O protocolo HTTP (Hypertext Transfer Protocol) é o padrão para a transferência de páginas web pela internet, sendo o principal protocolo utilizado pelos navegadores para requisitar e receber conteúdo de servidores web."
+    },
+    {
+        "id": "2029156",
+        "enunciado": "Na configuração de um aplicativo cliente de e-mail, podem ser utilizados para o recebimento e envio de mensagens, respectivamente, os protocolos",
+        "alternativas": {
+            "A": "SMTP e IMAP .",
+            "B": "SMTP e POP3.",
+            "C": "POP3 e IMAP .",
+            "D": "IMAP e POP3.",
+            "E": "IMAP e SMTP ."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O protocolo SMTP (Simple Mail Transfer Protocol) é usado para o envio de e-mails, enquanto o IMAP (Internet Message Access Protocol) é usado para recebimento e gerenciamento de e-mails no servidor."
+    },
+    {
+        "id": "1918155",
+        "enunciado": "Kerberos é um protocolo de autenticação amplamente utilizado em redes de computadores para fornecer segurança na comunicação entre clientes e servidores, prevenindo ataques de interceptação e falsificação de identidade. Para acessar um serviço autenticado por Kerberos, o usuário precisa obter um Ticket Granting Ticket (TGT) antes de solicitar o acesso ao serviço desejado. O comando utilizado para essa obtenção é:",
+        "alternativas": {
+            "A": "rlogin",
+            "B": "kticket",
+            "C": "klist",
+            "D": "kinit",
+            "E": "rtgt"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D é a correta. O comando 'kinit' é utilizado no Kerberos para obter um Ticket Granting Ticket (TGT) inicial, que é o primeiro passo para autenticação e solicitação de outros tickets de serviço."
+    },
+    {
+        "id": "1918163",
+        "enunciado": "Assinalar a alternativa que apresenta a nomenclatura do protocolo que permite a uma máquina descobrir um endereço IP por meio de um endereço MAC:",
+        "alternativas": {
+            "A": "Internet Control Message Protocol (ICMP).",
+            "B": "Address Resolution Protocol (ARP).",
+            "C": "Directional Mobile Address (DMA).",
+            "D": "Reverse Address Resolution Protocol (RARP).",
+            "E": "Network Address Translation Protocol (NAT)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O Address Resolution Protocol (ARP) é o protocolo responsável por mapear um endereço IP (camada 3) com seu correspondente endereço MAC (camada 2), permitindo a comunicação em redes locais."
+    },
+    {
+        "id": "1773134",
+        "enunciado": "Qual é o protocolo de rede que provê serviços do protocolo TCP aprimorados com serviços de segurança, tais como: sigilo, integridade dos dados, autenticação do servidor e autenticação do cliente?",
+        "alternativas": {
+            "A": "IDS.",
+            "B": "NAT.",
+            "C": "RSA.",
+            "D": "SSL."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O SSL (Secure Sockets Layer), e seu sucessor TLS, oferece segurança (sigilo, integridade e autenticação) para o tráfego TCP."
+    },
+    {
+        "id": "2339367",
+        "enunciado": "Um usuário configura sua conta de e-mail no Outlook utilizando POP3 e percebe que, ao acessar o webmail, as mensagens lidas continuam marcadas como “não lidas”. Assinale a razão dessa ocorrência.",
+        "alternativas": {
+            "A": "O Outlook não é compatível com o POP3.",
+            "B": "O protocolo POP3 baixa cópias das mensagens localmente e não sincroniza alterações com o servidor.",
+            "C": "O servidor SMTP está configurado como somente leitura.",
+            "D": "O POP3 está com criptografia desativada.",
+            "E": "O filtro de spam do cliente impede a atualização das mensagens."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo POP3 baixa mensagens para o cliente e, por padrão, as remove do servidor. Ele não sincroniza o status de leitura entre o cliente e o servidor, fazendo com que mensagens lidas no Outlook ainda apareçam como não lidas no webmail."
+    },
+    {
+        "id": "1658949",
+        "enunciado": "Leia o trecho abaixo e responda. “É um protocolo para serviços de diretório que organiza dados hierarquicamente e possibilita que os usuários de uma rede local ou pública localizem dados sobre organizações, indivíduos e outros recursos, como dispositivos, arquivos e aplicações.” A qual protocolo o trecho acima faz referência?",
+        "alternativas": {
+            "A": "IP.",
+            "B": "ICMP.",
+            "C": "LDAP.",
+            "D": "SCTP."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O trecho descreve o LDAP (Lightweight Directory Access Protocol), um protocolo de serviço de diretório que organiza dados hierarquicamente e facilita a localização de recursos em redes."
+    },
+    {
+        "id": "1088158",
+        "enunciado": "Sobre as aplicações de rede e seus respectivos protocolos, qual alternativa descreve CORRETAMENTE o protocolo SMB ( Server Message Block )?",
+        "alternativas": {
+            "A": "Traduz nomes de domínio em endereços IP, permitindo que os usuários acessem sites da web usando nomes amigáveis em vez de números IP.",
+            "B": "Sincroniza o tempo entre dispositivos em uma rede para garantir que todos os dispositivos tenham o mesmo relógio.",
+            "C": "Atribui automaticamente endereços IP e configurações de rede a dispositivos quando eles se conectam a uma rede, simplificando a administração de endereços IP.",
+            "D": "É um protocolo de compartilhamento de arquivos em rede que permite que os aplicativos de um computador leiam e gravem em arquivos e solicitem serviços dos programas do servidor em uma rede de computadores."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O protocolo SMB é utilizado para compartilhamento de arquivos e serviços entre computadores em rede. As outras opções descrevem DNS, DHCP e NTP, respectivamente."
+    },
+    {
+        "id": "1228780",
+        "enunciado": "Ao transferir um arquivo pela internet, costuma-se fazer uso de um protocolo típico para transferência de arquivos, baseado na família TCP/IP. Esse protocolo é o:",
+        "alternativas": {
+            "A": "ARP",
+            "B": "BCP",
+            "C": "DNS",
+            "D": "FTP",
+            "E": "SMNP"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O protocolo FTP (File Transfer Protocol) é o padrão para transferência de arquivos pela internet, operando sobre a família TCP/IP para garantir a integridade e o envio dos dados."
+    },
+    {
+        "id": "1699783",
+        "enunciado": "Considerando o protocolo Dynamic Host Configuration Protocol (DHCP), assinala a mensagem pela qual um cliente contata todos os servidores DHCP da rede local para iniciar o processo de aquisição de um endereço IP.",
+        "alternativas": {
+            "A": "INITIALIZE.",
+            "B": "DHCPREQUEST.",
+            "C": "DHCPOFFER.",
+            "D": "DHCPDISCOVER.",
+            "E": "RENEW."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O processo de aquisição de um endereço IP no DHCP inicia com o cliente enviando uma mensagem DHCPDISCOVER para todos os servidores DHCP na rede local buscando ofertas de configuração. As outras mensagens (DHCPREQUEST, DHCPOFFER, RENEW) ocorrem em fases posteriores do processo."
+    },
+    {
+        "id": "1660370",
+        "enunciado": "Qual das alternativas abaixo descreve corretamente uma função do protocolo TCP?",
+        "alternativas": {
+            "A": "Permite conexões sem confirmação de recebimento.",
+            "B": "Realiza a tradução de nomes de domínio para endereços IP.",
+            "C": "Garante a entrega confiável dos dados, controlando a ordem e integridade dos pacotes.",
+            "D": "Responsável pelo endereçamento e roteamento de pacotes entre redes."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C descreve corretamente a função principal do TCP (Transmission Control Protocol), que é garantir a entrega confiável e ordenada dos pacotes de dados. As outras alternativas descrevem funcionalidades de outros protocolos (UDP, DNS, IP)."
+    },
+    {
+        "id": "1699785",
+        "enunciado": "No contexto do serviço de DNS Domain Name System, qual das opções abaixo descreve corretamente o funcionamento de um servidor recursivo?",
+        "alternativas": {
+            "A": "Um servidor responsável exclusivamente por manter a autoridade sobre um domínio específico.",
+            "B": "Um servidor que realiza a tradução de endereços IP para nomes de domínio.",
+            "C": "Um servidor que consulta outros servidores DNS para resolver um nome de domínio.",
+            "D": "Um servidor que criptografa as consultas DNS para proteger a privacidade do usuário.",
+            "E": "Um servidor que apenas armazena os registros DNS locais, sem consultar servidores externos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um servidor DNS recursivo atua como um intermediário, recebendo a consulta do cliente e consultando outros servidores DNS (autoritativos, raiz, TLD, etc.) para resolver completamente o nome de domínio e retornar o endereço IP. As demais opções descrevem funções de outros tipos de servidores ou serviços."
+    },
+    {
+        "id": "1699786",
+        "enunciado": "Analisa as afirmativas abaixo sobre os protocolos ICMP, SMTP e SNMP. I. O protocolo ICMP é utilizado para enviar mensagens de erro e diagnóstico na comunicação IP, como no comando ping. II. O protocolo SMTP é responsável pela transferência de e-mails entre servidores de correio eletrônico. III. O protocolo SNMP permite o monitoramento e gerenciamento de dispositivos em redes, como roteadores e switches. IV. O protocolo SMTP utiliza o protocolo UDP com o padrão de transporte. Estão corretas as afirmativas:",
+        "alternativas": {
+            "A": "Apenas II, III e IV.",
+            "B": "Apenas I, II e III.",
+            "C": "Apenas I, III e IV.",
+            "D": "Apenas I, II e IV.",
+            "E": "Todas as afirmativas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As afirmativas I, II e III descrevem corretamente as funções do ICMP (diagnóstico/erros), SMTP (transferência de e-mails) e SNMP (monitoramento de rede). A afirmativa IV está incorreta pois o SMTP utiliza TCP, não UDP, como protocolo de transporte para garantir a entrega confiável dos e-mails."
+    },
+    {
+        "id": "1630712",
+        "enunciado": "O protocolo de transferência de hipertexto seguro é o principal protocolo usado para enviar dados entre um navegador web e um site. É criptografado, para aumentar a segurança da transferência de dados. Isso é particularmente importante, quando os usuários transmitem dados sensíveis, como quando fazem login em uma conta de banco, serviço de e-mail ou provedor de seguro saúde. O protocolo em questão é conhecido por",
+        "alternativas": {
+            "A": "DHCP.",
+            "B": "HTTPS.",
+            "C": "HTTP.",
+            "D": "FTPS.",
+            "E": "SMTTP."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O texto descreve o protocolo de transferência segura de hipertexto, que é o HTTPS. Ele opera por meio de criptografia para garantir a segurança da transmissão de dados sensíveis entre navegador e servidor."
+    },
+    {
+        "id": "1379918",
+        "enunciado": "O protocolo de internet que permite ao usuário abrir documento em HTML como uma página de internet por meio de um Browser é:",
+        "alternativas": {
+            "A": "FTP.",
+            "B": "HTTP.",
+            "C": "SMTP.",
+            "D": "TCP/IP.",
+            "E": "DNS."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo HTTP (Hypertext Transfer Protocol) é o principal método usado para transferir páginas web (renderizadas em HTML) entre um servidor e um navegador de internet (browser)."
+    },
+    {
+        "id": "1122332",
+        "enunciado": "É uma espécie de atualização do IPv mais usado atualmente, oferecendo inúmeras vantagens para seus utilizadores, como, por exemplo, um maior número de endereços IPs disponíveis. Assinale a alternativa que corretamente apresenta o conceito definido no excerto:",
+        "alternativas": {
+            "A": "Ipv7.",
+            "B": "Ipv4.",
+            "C": "Ipv5.",
+            "D": "Ipv6.",
+            "E": "Ipv8."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O IPv6 é a sexta versão do Protocolo de Internet e foi desenvolvido para substituir o IPv4. Sua principal vantagem é o imenso número de endereços IP disponíveis, superando as limitações do IPv4."
+    },
+    {
+        "id": "1122333",
+        "enunciado": "Corresponde a um número de 32 bits, semelhante a um endereço IP, com a finalidade de identificar a rede na qual está inserido determinado computador e a quantidade de hosts (computadores) que podem estar nesta mesma rede. Assinale a alternativa correta a respeito do conceito que está sendo definido no excerto:",
+        "alternativas": {
+            "A": "Máscara de rede.",
+            "B": "Protocolo ARP.",
+            "C": "Protocolo ICMP.",
+            "D": "Protocolo RARP.",
+            "E": "Protocolo da internet."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A máscara de rede é um número de 32 bits que, em conjunto com o endereço IP, define a rede e a faixa de hosts possíveis dentro dela, separando a parte de rede da parte de host."
+    },
+    {
+        "id": "1660277",
+        "enunciado": "O HTTP (Hypertext Transfer Protocol) é o protocolo de comunicação usado para a transmissão de dados na web. Sobre os protocolos HTTP e HTTPS, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "O protocolo HTTP é amplamente usado em sites bancários e de comércio eletrônico, enquanto o HTTPS é reservado exclusivamente para redes privadas.",
+            "B": "HTTPS é uma versão segura do HTTP que utiliza SSL/TLS para criptografar a comunicação, protegendo os dados contra interceptação e garantindo a autenticidade do servidor.",
+            "C": "A utilização do HTTPS elimina a necessidade de certificados digitais, pois a segurança é garantida apenas pela criptografia TLS.",
+            "D": "O protocolo HTTP utiliza criptografia para proteger os dados transmitidos entre o cliente e o servidor, garantindo a integridade e a confidencialidade das informações trocadas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O HTTPS é uma extensão segura do HTTP, que adiciona uma camada de criptografia (SSL/TLS) para garantir a confidencialidade e integridade dos dados transmitidos. O HTTP por si só não oferece essa segurança, sendo mais adequado para conteúdos não sensíveis."
+    },
+    {
+        "id": "1630719",
+        "enunciado": "O protocolo que armazena e-mails em um servidor remoto e os baixa sob demanda quando o destinatário os abre, permitindo o acesso ao e-mail de qualquer dispositivo ou local, se autorizado, é conhecido por",
+        "alternativas": {
+            "A": "SMTP.",
+            "B": "SFTP.",
+            "C": "POP3.",
+            "D": "HTTP.",
+            "E": "IMAP."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O POP3 (Post Office Protocol versão 3) é o protocolo que baixa e-mails do servidor para o dispositivo do usuário, permitindo o acesso offline. O IMAP permite acesso sincronizado e em múltiplos dispositivos, enquanto o SMTP é para envio."
+    },
+    {
+        "id": "1088167",
+        "enunciado": "A arquitetura TCP/IP é uma estrutura amplamente utilizada para a comunicação de dados em redes de computadores. Ela consiste em várias camadas, e diversos protocolos operam em cada uma dessas camadas para garantir a comunicação eficaz. Agora, qual camada do modelo TCP/IP é o local onde operam os protocolos TCP (Transmission Control Protocol ) e UDP ( User Datagram Protocol )?",
+        "alternativas": {
+            "A": "Aplicação.",
+            "B": "Transporte.",
+            "C": "Internet.",
+            "D": "Interface com a rede."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os protocolos TCP e UDP operam na camada de Transporte do modelo TCP/IP. Esta camada é responsável por gerenciar a comunicação fim-a-fim entre os processos das aplicações, garantindo a entrega dos dados."
+    },
+    {
+        "id": "1088168",
+        "enunciado": "O modelo OSI/ISO é uma estrutura que define as camadas para protocolos de rede e comunicação. Cada camada tem funções específicas para garantir uma comunicação eficaz. Qual camada do modelo OSI é responsável por traduzir, criptografar e comprimir os dados que serão transmitidos na rede, além de lidar com questões de formatação e representação dos dados, garantindo que os dispositivos de origem e destino possam interpretar os dados de maneira adequada?",
+        "alternativas": {
+            "A": "Apresentação.",
+            "B": "Sessão.",
+            "C": "Enlace.",
+            "D": "Física."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A camada de Apresentação no modelo OSI é responsável por questões como tradução, criptografia e compressão de dados, garantindo que os dados sejam apresentados em um formato legível e compreensível para a camada de Aplicação em ambas as pontas da comunicação."
+    },
+    {
+        "id": "1068681",
+        "enunciado": "As opções a seguir apresentam exemplos de protocolos de rede, à exceção de uma . Assinale-a.",
+        "alternativas": {
+            "A": "SFTP",
+            "B": "DHCP",
+            "C": "SMTP",
+            "D": "IMAP",
+            "E": "SSD"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "SFTP, DHCP, SMTP e IMAP sao protocolos de rede. SSD (Solid State Drive) e um tipo de dispositivo de armazenamento, nao um protocolo."
+    },
+    {
+        "id": "1143913",
+        "enunciado": "De acordo com os conceitos atribuídos à Internet e a transferência de arquivos, assinale a alternativa que completa corretamente a lacuna do texto a seguir: A utilização do protocolo __________ permite a transferência de ficheiros de uma maneira eficiente e segura. A transferência pode ser feita em qualquer direção. No entanto, do lado do servidor existem as restrições do espaço disponível e dos diretórios e ficheiros a que se tem acesso.",
+        "alternativas": {
+            "A": "SSD.",
+            "B": "HTSS",
+            "C": "INT",
+            "D": "FTP",
+            "E": "TRASF"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O protocolo FTP (File Transfer Protocol) é o padrão para transferência de arquivos pela internet. Ele permite enviar e receber arquivos entre computadores, sendo eficiente e seguro quando utilizado corretamente. As outras opções não se referem a protocolos de transferência de arquivos."
+    },
+    {
+        "id": "1150261",
+        "enunciado": "Redes de computadores referem-se à interconexão de dispositivos computacionais com objetivo de compartilhamento de recursos e informações. Qual é a principal função do protocolo DHCP (Dynamic Host Configuration Protocol) em uma rede de computadores?",
+        "alternativas": {
+            "A": "Controle de congestionamento de tráfego.",
+            "B": "Resolução de endereços IP para endereços MAC.",
+            "C": "Atribuição dinâmica de endereços IP a dispositivos em uma rede.",
+            "D": "Roteamento de pacotes.",
+            "E": "Estabelecimento de conexões seguras."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O protocolo DHCP é fundamental para o funcionamento de redes modernas, pois automatiza a atribuição de endereços IP e outras configurações de rede (como gateway e DNS) aos dispositivos, simplificando a gestão e evitando conflitos de IP."
+    },
+    {
+        "id": "1194062",
+        "enunciado": "Sobre os protocolos relacionados a e-mails, avalie as alternativas a seguir: • Protocolo de envio de e-mail para programar a mensagem para o destinatário, que pode ser feita entre cliente ou servidor. Depois de serem capturadas, as mensagens são encaminhadas para ele, que, na sequência, envia os e-mails aos destinatários finais. • Tem acesso a todas as pastas de sua conta e deixa o status das mensagens igual tanto no servidor como no software e realiza a sincronia das mensagens, mantendo a conexão para que as alterações e mensagens novas recebidas sejam atualizadas quase que em tempo real. • Baixa as mensagens do servidor e salva as mesmas localmente em seu computador, não deixando uma cópia das mensagens no servidor, a menos que você marque a opção “deixar uma cópia no servidor” nas configurações do seu programa de e-mail. Assinale a sequência CORRETA dos protocolos mencionados, considerando a ordem de cima para baixo:",
+        "alternativas": {
+            "A": "SMTP, IMAP, POP.",
+            "B": "SMTP, POP, IMAP.",
+            "C": "IMAP, POP, SMTP.",
+            "D": "IMAP, SMTP, POP.",
+            "E": "POP, IMAP, SMTP."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "SMTP é para envio de e-mails. IMAP acessa e sincroniza e-mails mantendo-os no servidor e cliente. POP baixa e-mails para o cliente, removendo-os do servidor por padrão."
+    },
+    {
+        "id": "1194906",
+        "enunciado": "Sobre os protocolos relacionados a e-mails, avalie as alternativas a seguir: • Protocolo de envio de e-mail para programar a mens agem para o destinatário, que pode ser feita entre cliente ou servidor. Depois de serem capturadas, as mensagens são encaminhadas para ele, que, na sequência, envia  os e-mails aos destinatários finais. • Tem acesso a todas as pastas de sua conta e deixa o status  das mensagens igual tanto no servidor como no software  e realiza a sincronia das mensagens, mantendo a con exão para que as alterações e mensagens novas receb idas sejam atualizadas quase que em tempo real. • Baixa as mensagens do servidor e salva as mesmas l ocalmente em seu computador, não deixando uma cópia  das mensagens no servidor, a menos que você marque a op ção “deixar uma cópia no servidor” nas configuraçõe s do seu programa de e-mail. Assinale a sequência CORRETA  dos protocolos mencionados, considerando a ordem d e cima para baixo:",
+        "alternativas": {
+            "A": "SMTP, IMAP, POP.",
+            "B": "SMTP, POP, IMAP.",
+            "C": "IMAP, POP, SMTP.",
+            "D": "IMAP, SMTP, POP.",
+            "E": "POP, IMAP, SMTP."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A primeira descrição corresponde ao SMTP (envio de e-mail). A segunda, que fala em acesso a todas as pastas e sincronia em tempo real, é o IMAP. A terceira, que baixa as mensagens e pode deixá-las no servidor opcionalmente, é o POP. Portanto, a sequência correta é SMTP, IMAP, POP."
+    },
+    {
+        "id": "1604042",
+        "enunciado": "Qual das seguintes alternativas descreve a principal diferença entre os protocolos HTTP e HTTPS?",
+        "alternativas": {
+            "A": "O HTTPS (HTTP Stable) é utilizado apenas em redes cabeadas, enquanto o HTTP pode ser utilizado também no Wi-Fi.",
+            "B": "HTTPS utiliza criptografia para proteger os dados transmitidos entre o navegador e o servidor web, enquanto o HTTP não.",
+            "C": "HTTPS (HTTP Small) é mais rápido que o HTTP, pois usa uma tecnologia de compressão de dados.",
+            "D": "HTTPS é um protocolo que permite o envio de e-mails, enquanto o HTTP é utilizado para navegar na web.",
+            "E": "HTTPS permite o download de arquivos, enquanto o HTTP permite apenas a visualização de páginas web."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A principal diferenca entre HTTP e HTTPS reside na seguranca. O HTTPS utiliza criptografia SSL/TLS para garantir a confidencialidade e integridade dos dados trocados entre o navegador e o servidor web, enquanto o HTTP nao oferece essa protecao."
+    },
+    {
+        "id": "1242438",
+        "enunciado": "O protocolo cliente/servidor que fornece um host IP de maneira “automatizada” com seu endereço e outras informações de configuração relacionadas, como a máscara de sub-rede e o gateway padrão, é conhecido por",
+        "alternativas": {
+            "A": "TCP/IP.",
+            "B": "ICMS.",
+            "C": "DHCP.",
+            "D": "TELNET.",
+            "E": "ICMP."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "DHCP (Dynamic Host Configuration Protocol) é o protocolo responsável por atribuir endereços IP e outras configurações de rede de forma automática aos dispositivos em uma rede."
+    },
+    {
+        "id": "1513437",
+        "enunciado": "A internet está a todo tempo presente em nossas ações do dia a dia, seja para enviar uma mensagem para um parente através de um celular ou para acessar o resultado de um exame médico sem sair de casa. Entre muitas coisas, em meio a uma imensa infraestrutura e várias tecnologias, um aspecto é imprescindível para manter tudo isso em funcionamento, os protocolos de internet. A alternativa que contém respectivamente protocolo de E-mail, transferência de arquivos e sistemas de nome de domínio é:",
+        "alternativas": {
+            "A": "FTP, IMAP, SMTP",
+            "B": "IMAP, SMTP, SSH",
+            "C": "POP3, FTP e DNS",
+            "D": "IMAP, SMTP, POP3",
+            "E": "TCP/IP, IMAP, DNS"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Os protocolos são essenciais para a internet. POP3 (ou IMAP) para e-mail, FTP para transferência de arquivos e DNS para sistemas de nome de domínio são os protocolos corretos para essas funções."
+    },
+    {
+        "id": "1231948",
+        "enunciado": "O protocolo de e-mail que permite baixar as mensagens do servidor e as salva localmente em seu computador, não deixando uma cópia das mensagens no servidor, a menos que você marque a opção “deixar uma cópia no servidor” nas configurações do seu programa de e-mail, é conhecido por",
+        "alternativas": {
+            "A": "IMAP.",
+            "B": "SMTP.",
+            "C": "POP.",
+            "D": "SFTP.",
+            "E": "MAP."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O protocolo POP (Post Office Protocol) é projetado para baixar mensagens do servidor para o cliente de e-mail, removendo-as do servidor por padrão, a menos que configurado de outra forma. IMAP mantém cópias no servidor, e SMTP é para envio."
+    },
+    {
+        "id": "1582962",
+        "enunciado": "Uma empresa está enfrentando problemas de congestionamento de rede em seus servidores de aplicação. A equipe de TI sugere a implementação de mecanismos de controle de congestionamento do TCP, uma vez que os serviços críticos da empresa dependem de uma comunicação confiável. Qual das seguintes estratégias é usada pelo protocolo TCP para controlar o congestionamento na rede?",
+        "alternativas": {
+            "A": "Detecção e retransmissão automática de pacotes perdidos.",
+            "B": "Priorização de pacotes com base no endereço de origem.",
+            "C": "Limitação da taxa de envio de dados conforme a capacidade da rede.",
+            "D": "Compressão dos pacotes para diminuir o tamanho dos dados.",
+            "E": "Tamanho de pacote UDP maior que o permitido na rede."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O TCP controla o congestionamento ajustando a taxa de envio de dados para nao sobrecarregar a rede. Tecnicas como slow start e congestion avoidance sao usadas para limitar a transmissao conforme a capacidade da rede."
+    },
+    {
+        "id": "1137638",
+        "enunciado": "Para que seja possível uma comunicação entre computadores, é necessário que algumas regras sejam estabelecidas. Esse conjunto de normas e padrões que definem como se dará esse contato é conhecido como protocolos de rede. O protocolo de transferência de hipertexto é usado para navegação em sites da internet. Ele funciona como uma conexão entre o cliente (browser) e o servidor (site ou domínio). O navegador envia um pedido de acesso a uma página, e o servidor retorna uma resposta de permissão de acesso. Juntamente com ela, são enviados também os arquivos da página que o usuário deseja acessar. O protocolo mencionado no trecho é",
+        "alternativas": {
+            "A": "SSH.",
+            "B": "SMTP.",
+            "C": "SSP.",
+            "D": "ICMP.",
+            "E": "HTTPS."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O protocolo HTTPS (Hypertext Transfer Protocol Secure) é o protocolo de transferência de hipertexto seguro, amplamente utilizado para navegação em sites da internet, garantindo a comunicação confidencial entre cliente e servidor."
+    },
+    {
+        "id": "1582963",
+        "enunciado": "Uma empresa de telecomunicações está implementando mecanismos de transição de IPv4 para IPv6, uma vez que sua rede principal ainda utiliza amplamente endereços IPv4. O engenheiro responsável está avaliando diferentes abordagens para essa transição. Qual técnica de transição permite que pacotes IPv6 sejam transmitidos em redes IPv4 sem necessidade de tradução dos endereços?",
+        "alternativas": {
+            "A": "Tunneling.",
+            "B": "NAT-PT (Network Address Translation - Protocol Translation).",
+            "C": "Dual Stack.",
+            "D": "CGNAT (Carrier Grade Network Address Translation).",
+            "E": "Iptables."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Tunneling permite encapsular pacotes IPv6 dentro de pacotes IPv4, possibilitando sua transmissao por redes que ainda operam exclusivamente com IPv4, sem necessidade de traducao dos enderecos. As outras opcoes envolvem nat, dual stack ou configuracoes especificas de firewall."
+    },
+    {
+        "id": "1282773",
+        "enunciado": "O IPv6 (Internet Protocol version 6) e IPv4 (Internet Protocol version 4) são duas versões do protocolo IP usadas para identificar e localizar dispositivos em uma rede. Em relação à versão 4, o IPv6 utiliza endereços de 128 bits e",
+        "alternativas": {
+            "A": "o cabeçalho faz uso de 30 Bytes.",
+            "B": "inclui broadcast, comunicação de grupo.",
+            "C": "não inclui broadcast, substituindo-o por multicast para comunicação de grupo.",
+            "D": "os campos 'Versão', 'Endereço de Origem' e 'Endereço de Destino' não foram mantidos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O IPv6, diferentemente do IPv4, não utiliza o tipo de broadcast. Em vez disso, ele emprega o multicast para a comunicação de grupo, tornando a rede mais eficiente. O IPv6 mantém os campos de Versão, Endereço de Origem e Endereço de Destino em seu cabeçalho, embora com modificações e extensões."
+    },
+    {
+        "id": "1137639",
+        "enunciado": "Os serviços de e-mail costumam utilizar protocolos para funcionalidades distintas. Considerando isso, avalie o trecho a seguir. “[...] É um protocolo utilizado para troca de mensagens eletrônicas. Funciona da seguinte forma: um servidor de e-mail recebe e armazena mensagens. O cliente autentica-se ao servidor da caixa postal para poder acessar e ler as mensagens. Assim, as mensagens armazenadas no servidor são transferidas em sequência para o computador do cliente. Quando a conexão é encerrada, as mensagens ainda são acessadas no modo off-line.” O protocolo em questão é o",
+        "alternativas": {
+            "A": "SMTP.",
+            "B": "IMAP.",
+            "C": "POP3.",
+            "D": "HTTP.",
+            "E": "ICMP."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O POP3 (Post Office Protocol version 3) é o protocolo que baixa mensagens do servidor para o cliente e permite acessá-las offline. O SMTP é para envio, e o IMAP permite acesso às mensagens no servidor."
+    },
+    {
+        "id": "1579430",
+        "enunciado": "O protocolo de transferência de arquivos que é projetado para fazer o download ou upload de arquivos de um host cliente para um host servidor é conhecido como:",
+        "alternativas": {
+            "A": "FTP",
+            "B": "IMAP",
+            "C": "POP",
+            "D": "SMTP"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O FTP (File Transfer Protocol) é especificamente projetado para transferência de arquivos entre um cliente e um servidor, permitindo uploads e downloads. IMAP e POP são protocolos para recebimento de e-mail, e SMTP para envio."
+    },
+    {
+        "id": "1517470",
+        "enunciado": "Qual é a função do Protocolo HTTP na internet?",
+        "alternativas": {
+            "A": "Transferir arquivos entre computadores.",
+            "B": "Fornecer segurança em conexões com a web.",
+            "C": "Protocolo para exibir páginas da web.",
+            "D": "Criar endereços de e-mail."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O HTTP (Hypertext Transfer Protocol) e o protocolo fundamental para a transmissao de paginas web, definindo como as requisicoes e respostas ocorrem entre o navegador e o servidor."
+    },
+    {
+        "id": "1381863",
+        "enunciado": "Assinale a alternativa que contém o protocolo usado para a transferência de Hipertexto da World Wide Web:",
+        "alternativas": {
+            "A": "NTFS.",
+            "B": "GATEWAY.",
+            "C": "TCP/IP.",
+            "D": "DNS.",
+            "E": "HTTP."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O Protocolo de Transferência de Hipertexto (HTTP) é o protocolo fundamental para a comunicação e transferência de dados na World Wide Web."
+    },
+    {
+        "id": "1517470",
+        "enunciado": "Qual é a função do Protocolo HTTP na internet?",
+        "alternativas": {
+            "A": "Transferir arquivos entre computadores.",
+            "B": "Fornecer segurança em conexões com a web.",
+            "C": "Protocolo para exibir páginas da web.",
+            "D": "Criar endereços de e-mail."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O HTTP (Hypertext Transfer Protocol) e o protocolo fundamental para a transmissao de paginas web, definindo como as requisicoes e respostas ocorrem entre o navegador e o servidor."
+    },
+    {
+        "id": "1242445",
+        "enunciado": "Assinale a alternativa que descreve melhor a função do protocolo TCP/IP.",
+        "alternativas": {
+            "A": "Constitui um conjunto de protocolos que realiza a Transferência de Hipertexto e é uma peça-chave para o acesso a sites da internet, estabelecendo a conexão entre o navegador e o servidor.",
+            "B": "Realiza a Transferência de Arquivos, é um dos primeiros protocolos de rede existentes e, também, uma forma simples, rápida e versátil de se transferir arquivos entre dois computadores pela internet.",
+            "C": "Configura dinamicamente endereços de rede e permite que todos os computadores ou dispositivos móveis conectados à internet obtenham endereços de IP de uma forma automática.",
+            "D": "Combina o Protocolo de Controle de Transmissão, responsável pela transmissão de dados, com o Protocolo de Internet, que identifica os computadores e servidores.",
+            "E": "Realiza o bloqueio de segurança e é um protocolo de rede que visa aumentar a segurança na troca de arquivos entre os sistemas computacionais envolvidos (client e servidor)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O TCP/IP é uma suíte de protocolos fundamental para a comunicação na internet. O TCP garante a confiabilidade da transmissão de dados, e o IP cuida do endereçamento e roteamento dos pacotes de informação entre os dispositivos."
+    },
+    {
+        "id": "1291218",
+        "enunciado": "Leia e responda. “É um padrão da indústria de rede representando o sistema básico de entrada / saída e é usado principalmente pelos sistemas operacionais Microsoft Windows para fornecer determinados serviços a outros hosts de rede e permite que aplicações em diferentes computadores se comuniquem entre si numa rede local.” A qual protocolo o trecho acima faz referência?",
+        "alternativas": {
+            "A": "ARP.",
+            "B": "NetBIOS.",
+            "C": "DNS.",
+            "D": "USB."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O NetBIOS é um protocolo de rede que fornece serviços de comunicação para diferentes computadores em uma rede local, sendo amplamente utilizado por sistemas operacionais Microsoft Windows, conforme descrito no enunciado."
+    },
+    {
+        "id": "1344894",
+        "enunciado": "Indique qual protocolo de comunicação é responsável por garantir a entrega confiável de dados na Internet?",
+        "alternativas": {
+            "A": "HTTP",
+            "B": "FTP",
+            "C": "TCP",
+            "D": "DNS"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O TCP (Transmission Control Protocol) é um protocolo da camada de transporte que garante a entrega confiável e ordenada de dados entre aplicações na Internet, através de mecanismos como confirmação de recebimento e retransmissão."
+    },
+    {
+        "id": "1445727",
+        "enunciado": "Considere os fundamentos sobre os protocolos TCP e UDP,  e assinale a alternativa correta.",
+        "alternativas": {
+            "A": "UDP fornece garantia de entrega de pacotes, enquanto TCP não fornece.",
+            "B": "TCP é um protocolo orientado à conexão, enquanto UDP é um protocolo não orientado para conexão.",
+            "C": "UDP é mais adequado para aplicações que exigem comunicação confiável e ordenada.",
+            "D": "TCP é mais eficiente em termos de uso de largura de banda do que UDP."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "TCP estabelece uma conexão antes da troca de dados, garantindo confiabilidade e ordem, o que o torna orientado à conexão. UDP, por outro lado, envia dados sem estabelecer conexão prévia, sendo mais rápido e leve, mas sem garantias de entrega ou ordem."
+    },
+    {
+        "id": "1143526",
+        "enunciado": "Uma das possibilidades do protocolo de e-mail é permitir que a resposta de uma mensagem seja direcionada automaticamente para um endereço diferente do endereço de quem enviou a mensagem, que aparece no campo “From:”. Para fazer esse direcionamento, o endereço para o qual a resposta deve ser enviada deve ser colocado no campo",
+        "alternativas": {
+            "A": "Answer-To:",
+            "B": "React-To:",
+            "C": "Reply-To:",
+            "D": "Respond-To:",
+            "E": "Return-To:"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No protocolo de e-mail, o campo 'Reply-To:' é utilizado para especificar um endereço diferente ao qual as respostas da mensagem devem ser enviadas, diferentemente do remetente original no campo 'From:'."
+    },
+    {
+        "id": "1292872",
+        "enunciado": "São tipos de requisições presentes no protocolo HTTP, exceto:",
+        "alternativas": {
+            "A": "GET",
+            "B": "POST",
+            "C": "PUT",
+            "D": "UPDATE"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As requisições comuns no protocolo HTTP são GET, POST e PUT, além de outras como DELETE e HEAD. UPDATE não é um tipo de requisição padrão do HTTP."
+    },
+    {
+        "id": "1344896",
+        "enunciado": "Qual serviço de nome de domínio (DNS) é responsável por traduzir nomes de domínio (como www.exemplo.com) para endereços IP correspondentes?",
+        "alternativas": {
+            "A": "DHCP",
+            "B": "SMTP",
+            "C": "FTP",
+            "D": "DNS"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O DNS (Domain Name System) é o serviço de rede responsável por traduzir nomes de domínio legíveis por humanos (como www.exemplo.com) em endereços IP numéricos que os computadores utilizam para se comunicar na internet."
+    },
+    {
+        "id": "1445729",
+        "enunciado": "Questão baseada em KUROSE, J. F.; ROSS, K. W. Redes de Computadores e a Internet: uma abordagem top-down. São Paulo: Pearson, 2013.“O DHCP permite que um hospedeiro obtenha (seja alocado a) um endereço IP de maneira automática. Um administrador de rede pode configurar o DHCP para que determinado hospedeiro receba o mesmo endereço IP toda vez que se conectar, ou um hospedeiro pode receber um endereço IP temporário diferente sempre que se conectar. Além de receber um endereço IP temporário, o DHCP também permite que o hospedeiro descubra informações adicionais, como a máscara de sub-rede e o endereço de seu servidor DNS local.”Baseado nessa citação, é correto afirmar que",
+        "alternativas": {
+            "A": "o DHCP utiliza o protocolo UDP para realizar a troca de mensagens com o cliente.",
+            "B": "o DHCP utiliza o protocolo TCP para realizar a troca de mensagens com o cliente.",
+            "C": "o DHCP sempre designa os mesmos endereços para os clientes.",
+            "D": "nenhuma das alternativas anteriores."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O DHCP utiliza o protocolo UDP (User Datagram Protocol) para a troca de mensagens. UDP e um protocolo mais simples e rapido que o TCP (Transmission Control Protocol), sendo mais adequado para aplicacoes que nao exigem uma conexao confiavel e orientada a conexao."
+    },
+    {
+        "id": "1548679",
+        "enunciado": "O protocolo IPv4 possui 32 bits de comprimento. Já o protocolo IPv6, sucessor do IPv4, possui o comprimento de",
+        "alternativas": {
+            "A": "48 bits.",
+            "B": "64 bits.",
+            "C": "128 bits.",
+            "D": "256 bits."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O protocolo IPv4 utiliza 32 bits para o endereçamento IP. O IPv6, seu sucessor, foi projetado para expandir o espaco de enderecamento e utiliza 128 bits, permitindo um numero muito maior de IPs disponiveis."
+    },
+    {
+        "id": "1229036",
+        "enunciado": "Ao con昀椀gurar um e-mail, em um aplicativo de cliente de e-mail, como o Microsoft Outlook, precisamos con昀椀gurar o recebimento e o envio de e-mails. Marque a alternativa correta , que apresenta os protocolos de recebimento e envio de e-mail respectivamente:",
+        "alternativas": {
+            "A": "IMAP, SMTP",
+            "B": "POP, IMAP",
+            "C": "SMTP, POP",
+            "D": "SMTP, IMAP",
+            "E": "IMAP, POP"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O protocolo IMAP é utilizado para recebimento de e-mails e o SMTP para envio. O IMAP permite acesso aos e-mails em diversos dispositivos, enquanto o SMTP é o padrão para a transmissão de mensagens."
+    },
+    {
+        "id": "1445731",
+        "enunciado": "Questão baseada em KUROSE, J. F.; ROSS, K. W. Redes de computadores e a Internet: uma abordagem top-down. São Paulo: Pearson, 2013. Considere AS como o acrônimo de Sistema Autônomo na afirmação a seguir: “Para rotear um pacote entre múltiplos ASs (p. ex., de um smartphone em Timbuktu até um servidor em um datacenter no Yale do Silício), precisamos de um protocolo de roteamento intersistema autônomo. Como um protocolo de roteamento inter-As envolve a coordenação entre múltiplos ASs, os ASs que se comunicam entre si devem executar o mesmo protocolo inter-AS”. Um exemplo desse protocolo é o BGP.Qual das seguintes afirmações é verdadeira sobre o protocolo BGP (Border Gateway Protocol)?",
+        "alternativas": {
+            "A": "BGP é utilizado principalmente para roteamento dentro de redes locais (LANs);",
+            "B": "BGP é um protocolo de roteamento interno (IGP);",
+            "C": "BGP é usado para troca de informações de roteamento entre sistemas autônomos (AS) na internet;",
+            "D": "Nenhuma das alternativas estão corretas;"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O BGP é o protocolo de roteamento padrão da Internet, responsável por trocar informações de roteamento entre Sistemas Autônomos (AS), facilitando a comunicação entre diferentes redes."
+    },
+    {
+        "id": "1068421",
+        "enunciado": "É o protocolo empregado para receber as mensagens de e-mail pela internet. Seu processo de recepção tem três fases: autenticação, transação e atualização:",
+        "alternativas": {
+            "A": "WWW",
+            "B": "FTP",
+            "C": "POP3",
+            "D": "SSD",
+            "E": "LPT"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "POP3 (Post Office Protocol version 3) é o protocolo padrão para baixar e-mails de um servidor para um cliente de e-mail usando as etapas de autenticação, transação e atualização."
+    },
+    {
+        "id": "1154541",
+        "enunciado": "É um protocolo de rede da camada de aplicação que não utiliza criptografia e que é utilizado para fazer login remoto:",
+        "alternativas": {
+            "A": "Telnet.",
+            "B": "TCP.",
+            "C": "Ping.",
+            "D": "UDP.",
+            "E": "SSH."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Telnet é um protocolo de rede da camada de aplicação amplamente conhecido por sua falta de criptografia e uso para acesso remoto a sistemas, permitindo a execução de comandos em um servidor de forma desprotegida."
+    },
+    {
+        "id": "1325775",
+        "enunciado": "O modelo de referência TCP/IP é um modelo de protocolo de rede que define como as informações são transmitidas através de redes de computadores. Diferente do modelo OSI, ele é composto de 4 camadas. Qual das alternativas abaixo NÃO se trata de uma camada do modelo TCP/IP?",
+        "alternativas": {
+            "A": "Application.",
+            "B": "Trasport.",
+            "C": "Presentation.",
+            "D": "Internet.",
+            "E": "Hot-to-network."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O modelo TCP/IP possui quatro camadas principais: Application, Transport, Internet e Network Interface (ou Link). A camada 'Presentation' é parte do modelo OSI, não do TCP/IP. Portanto, a alternativa C é a que NÃO se trata de uma camada do TCP/IP."
+    },
+    {
+        "id": "1548684",
+        "enunciado": "A porta TCP padrão utilizada pelo protocolo SSL em servidores web Apache e nginx é a",
+        "alternativas": {
+            "A": "80.",
+            "B": "995.",
+            "C": "443.",
+            "D": "22."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A porta TCP 443 é a porta padrao utilizada para conexoes seguras HTTPS, que implementam o protocolo SSL/TLS. As outras portas nao sao as padroes para essa finalidade em servidores web."
+    },
+    {
+        "id": "1125634",
+        "enunciado": "No que se relaciona à internet e à arquitetura TCP/IP, para minimizar problemas associados à falta de endereços IP v4 nas redes de computadores, foi criado um mecanismo baseado em endereços privados, que faz a tradução dos endereços IP e portas TCP da rede local para a grande rede. Nele, os intervalos de endereços privados foram padronizados nas faixas de 10.0.0.0 a 10.255.255.255 (10.0.0.0 /8) para a classe A, de 172.16.0.0 a 172.31.255.255 (172.16.0.0 /12) para a B e de 192.168.0.0 a 192.168.255.255 (192.168.0.0 /16) para a C. Esse recurso é conhecido pela sigla",
+        "alternativas": {
+            "A": "NAT.",
+            "B": "SSH.",
+            "C": "NFS.",
+            "D": "ATM."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O mecanismo descrito, que traduz endereços IP locais para endereços globais para permitir a comunicação com a Internet, é conhecido como NAT (Network Address Translation). As outras siglas referem-se a outros protocolos ou tecnologias de rede."
+    },
+    {
+        "id": "1177070",
+        "enunciado": "Os principais navegadores possuem características em comum na interface tais como: voltar para a página anterior, ir para página posterior, recarregar (refresh) à página atual, espaço para digitar a URL, estratégias para escolher sites favoritos e o conceito de abas (entre outros). Eles comunicam-se, geralmente, com servidores da rede, (podendo hoje em dia se comunicar com vários tipos de servidores), usando principalmente qual protocolo de transferência de hipertexto?",
+        "alternativas": {
+            "A": "XML",
+            "B": "HTML",
+            "C": "HTTP",
+            "D": "URL",
+            "E": "FTP"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Todo o funcionamento básico de navegadores web na internet, desde a solicitação de páginas até a comunicação com servidores, é baseado no protocolo HTTP (Hypertext Transfer Protocol). XML e HTML são linguagens de marcação, URL é um endereço e FTP é para transferência de arquivos."
+    },
+    {
+        "id": "1292195",
+        "enunciado": "Assinale a alternativa que apresenta o nome do servidor responsável por fazer a conversão para um número IP, a partir de um nome fantasia de um site acessado pelo usuário.",
+        "alternativas": {
+            "A": "Servidor IP",
+            "B": "Servidor DHCP",
+            "C": "Servidor SQL",
+            "D": "Servidor DNS"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O Servidor DNS (Domain Name System) é o responsável por traduzir nomes de domínio legíveis por humanos (como www.exemplo.com.br) em endereços IP numéricos que os computadores utilizam para se comunicar na internet."
+    },
+    {
+        "id": "1425826",
+        "enunciado": "Sobre o protocolo IPv4, assinale a opção CORRETA:",
+        "alternativas": {
+            "A": "O endereço IPv4 é composto por 16 bits, permitindo cerca de 65.536 endereços únicos.",
+            "B": "O endereço IPv4 é representado em notação decimal pontuada, com quatro octetos separados por pontos.",
+            "C": "O endereço IPv4 possui tamanho de cabeçalho fixo.",
+            "D": "O endereço IPv4 é utilizado apenas para redes privadas e não pode ser roteado na Internet pública.",
+            "E": "O IPv4 implementa segurança de ponta a ponta nativamente sem a necessidade de protocolos adicionais."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O endereço IPv4 é representado na forma de quatro números (octetos) separados por pontos, que variam de 0 a 255. O tamanho do cabeçalho é variável, e o IPv4 é usado em redes públicas e privadas."
+    },
+    {
+        "id": "1548686",
+        "enunciado": "Proposto na década de 1980, o protocolo HTTP é o responsável por viabilizar a comunicação entre clientes e servidores na Internet. Assim sendo, qual é a versão mais recente do protocolo HTTP?",
+        "alternativas": {
+            "A": "HTTP/1.",
+            "B": "HTTP/1.1.",
+            "C": "HTTP/2.",
+            "D": "HTTP/3."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O protocolo HTTP foi proposto na década de 1980. A tecnologia evoluiu e a versão mais recente e amplamente adotada é o HTTP/3."
+    },
+    {
+        "id": "1175514",
+        "enunciado": "Diferentes protocolos de comunicação são utilizados para transporte de dados na internet. Um deles permite comunicação com o servidor de e-mail para baixar as mensagens para um cliente de e-mail como Outlook ou Thunderbird por exemplo. O protocolo descrito é:",
+        "alternativas": {
+            "A": "UDP.",
+            "B": "POP3.",
+            "C": "RTP.",
+            "D": "SMTP."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo POP3 (Post Office Protocol version 3) é utilizado para que clientes de e-mail baixem mensagens de um servidor de e-mail."
+    },
+    {
+        "id": "1254916",
+        "enunciado": "Qual a função do protocolo SMTP?",
+        "alternativas": {
+            "A": "É um protocolo que possibilita a comunicação entre computadores e servidores, formando a Internet.",
+            "B": "É um protocolo de comunicação usado para enviar e receber mensagens de e-mail pela Internet.",
+            "C": "É um protocolo de rede para a transmissão de arquivos entre computadores.",
+            "D": "É um protocolo de comunicação utilizado na internet para garantir a segurança e a privacidade dos dados transmitidos por meio de comunicação criptografada.",
+            "E": "Protocolo de rede normalmente usado para o conserto de falhas em conexões de computadores."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo SMTP (Simple Mail Transfer Protocol) é especificamente projetado para o envio de e-mails entre servidores e clientes de e-mail na internet."
+    },
+    {
+        "id": "1292196",
+        "enunciado": "O roteamento de pacotes é uma tarefa importante quando da necessidade de comunicação interredes. Assinale a alternativa que apresenta a camada em que atua o protocolo IP.",
+        "alternativas": {
+            "A": "Transporte",
+            "B": "Aplicação",
+            "C": "Rede",
+            "D": "Enlace"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O protocolo IP (Internet Protocol) opera na camada de Rede, sendo responsável pelo endereçamento lógico dos pacotes e pelo roteamento entre diferentes redes para que alcancem seu destino final."
+    },
+    {
+        "id": "1175515",
+        "enunciado": "A comunicação na internet é baseada na interconexão entre computadores, recursos e dispositivos interligados por meio de tecnologias e protocolos. Para que essa comunicação exista, é necessária uma pilha de protocolos denominada:",
+        "alternativas": {
+            "A": "ADSL.",
+            "B": "OSI.",
+            "C": "HTTP.",
+            "D": "TCP/IP."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O TCP/IP (Transmission Control Protocol/Internet Protocol) é o conjunto de protocolos fundamental que rege a comunicação na internet, permitindo a interconexão e a troca de dados entre diferentes redes e dispositivos em todo o mundo."
+    },
+    {
+        "id": "1242635",
+        "enunciado": "Considerando o protocolo HTTP, suas funcionalidades e documentações, assinalar a alternativa que preenche as lacunas abaixo CORRETAMENTE.",
+        "alternativas": {
+            "A": "cabeçalho | campo | tipo de conteúdo",
+            "B": "código de status | número de 3 dígitos | sucesso ou erro",
+            "C": "URL | string | caminho do recurso",
+            "D": "código de requisição | número de 3 dígitos | resultado"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No protocolo HTTP, o 'código de status' é um número de 3 dígitos que indica se uma requisição foi bem-sucedida ou se ocorreu um erro. Exemplos são 200 (OK), 404 (Não Encontrado) e 500 (Erro Interno do Servidor)."
+    },
+    {
+        "id": "1425830",
+        "enunciado": "Sobre o protocolo IPv6, assinale a opção CORRETA:",
+        "alternativas": {
+            "A": "O endereço IPv6 é composto por 32 bits, permitindo aproximadamente 4.3 bilhões de endereços únicos.",
+            "B": "O endereço IPv6 é representado em notação hexadecimal, com oito grupos de quatro dígitos separados por dois pontos.",
+            "C": "O protocolo IPv6 não suporta a autoconfiguração de endereços.",
+            "D": "O protocolo IPv6 é incompatível com o IPv4, exigindo uma conversão direta dos endereços IPv4 existentes.",
+            "E": "O IPv6 elimina a necessidade de qualquer tipo de segurança adicional, pois possui segurança integrada."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O endereço IPv6 é representado em hexadecimal, com 128 bits, divididos em 8 grupos de 16 bits (dois pontos) cada. Ele não é incompatível com IPv4 e possui a autoconfiguração de endereços."
+    },
+    {
+        "id": "1614683",
+        "enunciado": "A respeito dos protocolos da camada de aplicação do modelo OSI e TCP-IP, analisar os itens. I. O protocolo FTP está associado à camada de aplicação destes modelos e normalmente é associado a portas aleatórias de comunicação, como a porta 22. II. Como o HTTP é um protocolo ASCII, a comunicação é direta entre em um computador terminal (diferente de um navegador) e servidores da Web. Basta uma conexão TCP para a porta 80 no servidor. III. O protocolo SNMP tem por base utilizar o protocolo TCP baseado nas portas 161 e 162, para agente e servidor de comunicação. Está CORRETO o que se afirma:",
+        "alternativas": {
+            "A": "Apenas no item I.",
+            "B": "Apenas no item II.",
+            "C": "Apenas nos itens I e III.",
+            "D": "Apenas nos itens II e III."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O item I está incorreto, pois o FTP usa portas 20 e 21. O item II está correto, pois o HTTP é ASCII e a comunicação é direta via TCP na porta 80. O item III está incorreto, pois o SNMP usa UDP nas portas 161 e 162."
+    },
+    {
+        "id": "1425832",
+        "enunciado": "Sobre o protocolo HTTP, assinale a opção CORRETA:",
+        "alternativas": {
+            "A": "HTTP é um protocolo de nível de transporte que garante a entrega confiável de pacotes.",
+            "B": "HTTP utiliza o método de comunicação ponto a ponto para transferir dados entre clientes e servidores.",
+            "C": "HTTP é um protocolo sem estado, o que significa que cada solicitação do cliente é tratada de forma independente, sem manter informações sobre solicitações anteriores.",
+            "D": "HTTP encripta automaticamente todas as mensagens trocadas entre o cliente e o servidor para garantir a segurança dos dados.",
+            "E": "HTTP é utilizado exclusivamente para a transferência de arquivos de mídia entre servidores e clientes."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "HTTP é um protocolo de aplicação, não de transporte, e é inerentemente 'sem estado' (stateless), o que significa que cada requisição é independente, sem manter o estado da sessão anterior. HTTPS é que adiciona a camada de segurança."
+    },
+    {
+        "id": "1524757",
+        "enunciado": "Qual é a principal vantagem do protocolo Internet Control Message Protocol (ICMP)?",
+        "alternativas": {
+            "A": "Realizar diagnósticos de rede.",
+            "B": "Apesar de ser menos seguro, tem suporte a VLAN’s.",
+            "C": "Transmitir dados em redes WAN de forma eficiente.",
+            "D": "Oferecer maior espaço de endereçamento.",
+            "E": "Traduzir nomes de domínio em endereços IP."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O ICMP é um protocolo da camada de rede fundamental para o envio de mensagens de erro e de controle em redes IP, sendo amplamente utilizado em ferramentas de diagnóstico de rede como o ping e o traceroute."
+    },
+    {
+        "id": "1563674",
+        "enunciado": "O protocolo IMAP (Internet Message Access Protocol) é amplamente utilizado para o acesso ao correio eletrônico. Uma característica distintiva do IMAP em relação ao POP3 (Post Office Protocol) é:",
+        "alternativas": {
+            "A": "O IMAP permite o acesso offline às mensagens, enquanto o POP3 exige conexão constante com o servidor.",
+            "B": "O IMAP armazena as mensagens no servidor, enquanto o POP3 baixa as mensagens para o dispositivo do usuário.",
+            "C": "O IMAP oferece suporte a pastas e organização de mensagens, enquanto o POP3 não possui essa funcionalidade.",
+            "D": "O IMAP é mais seguro que o POP3, pois utiliza criptografia para proteger as mensagens em trânsito."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A principal diferença entre IMAP e POP3 é que o IMAP mantém as mensagens no servidor, permitindo acesso de múltiplos dispositivos, enquanto o POP3 baixa as mensagens para um único dispositivo."
+    },
+    {
+        "id": "1614685",
+        "enunciado": "Entre os protocolos da camada de aplicação, o DHCP facilita a distribuição automática de endereços IP para dispositivos de uma rede. Um desafio com a atribuição automática de endereços IP de um pool é o controle do tempo durante o qual um endereço deve ser alocado. Se um host deixasse a rede e o seu endereço IP não retornasse ao servidor DHCP, esse endereço seria perdido. Qual mecanismo de controle é utilizado para evitar esse tipo de problema?",
+        "alternativas": {
+            "A": "Técnica de allocation.",
+            "B": "Técnica de arrendamento (leasing).",
+            "C": "Técnica Manchester.",
+            "D": "Reserva de tempo (timeline)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O mecanismo de arrendamento (leasing) permite que o servidor DHCP alugue endereços IP por um período determinado. Ao final desse prazo, se o host não renovar, o endereço retorna ao pool, evitando sua perda."
+    },
+    {
+        "id": "1214064",
+        "enunciado": "Em conformidade com os conceitos gerais de protocolos da internet, assinale a alternativa que completa corretamente a lacuna do texto a seguir:O ___________________________ é um modelo de comunicação que permite que programas aplicativos e dispositivos de computação intercambiem mensagens em uma rede.",
+        "alternativas": {
+            "A": "protocolo de registro de transmissão (TRP)",
+            "B": "protocolo de alinhamento de transmissão (TAP)",
+            "C": "protocolo de leitura de transmissão (TLP)",
+            "D": "protocolo de armazenamento de transmissão (TAP)",
+            "E": "protocolo de controle de transmissão (TCP)"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O TCP (Protocolo de Controle de Transmissão) é um protocolo fundamental na internet que estabelece um modelo de comunicação confiável para a troca de dados entre aplicações e dispositivos em rede, garantindo a entrega ordenada e sem erros."
+    },
+    {
+        "id": "1214065",
+        "enunciado": "Qual dos protocolos de internet a seguir opera da mesma forma que o protocolo FTP, mas apresentando uma camada a mais de segurança:",
+        "alternativas": {
+            "A": "FTPSS.",
+            "B": "SFTP.",
+            "C": "SSH.",
+            "D": "DHCP",
+            "E": "IMAP."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O SFTP (SSH File Transfer Protocol) opera de forma similar ao FTP, mas utiliza o protocolo SSH para criptografar a comunicação, adicionando uma camada de segurança."
+    },
+    {
+        "id": "1625778",
+        "enunciado": "O IPv6 incorpora três subsistemas principais no ICMP: solicitação de vizinho, suporte multicast e mobilidade de IP. Por exemplo, quando se usa solicitação de vizinho (Neighbor Discovery), um nó IPv6 pode transmitir por broadcast uma mensagem de solicitação de vizinho, que é uma mensagem tipo:",
+        "alternativas": {
+            "A": "132.",
+            "B": "135.",
+            "C": "142.",
+            "D": "134.",
+            "E": "141."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A solicitação de vizinho no ICMPv6, que permite a descoberta de vizinhos em uma rede IPv6, é representada pela mensagem tipo 134."
+    },
+    {
+        "id": "1279992",
+        "enunciado": "Ao fazer a manutenção de um website, um técnico em informática decidiu implementar um redirecionamento permanente de uma URL antiga para uma nova, a fim de garantir que os usuários e os motores de busca atualizem seus links e referências para a nova localização do recurso. Esse redirecionamento é importante para manter a relevância e a autoridade do conteúdo na web, além de assegurar uma experiência de usuário contínua, mesmo após a mudança de URL. Nesse contexto, considere a necessidade de redirecionamento permanente, e que o servidor deve enviar um código de status HTTP para indicar aos clientes (navegadores ou robôs de busca) que o recurso solicitado foi movido permanentemente para uma nova URL e que futuras requisições devem usar a nova URL. Qual é o código de status HTTP que o servidor deve enviar para esse fim?",
+        "alternativas": {
+            "A": "100",
+            "B": "200",
+            "C": "301",
+            "D": "401",
+            "E": "500"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O código de status HTTP 301 Moved Permanently indica que o recurso solicitado foi movido permanentemente para um novo URL, e que o cliente (navegador ou robô de busca) deve usar o novo URL em futuras requisições."
+    },
+    {
+        "id": "1090841",
+        "enunciado": "Considere as seguintes afirmações sobre protocolos POP3 (Post Office Protocol 3) e IMAP (Internet Message Access Protocol):I. O POP3 é compatível apenas com a sincronização de e-mail unidirecional.II. No POP3, as ações realizadas em um dispositivo são refletidas em todos os dispositivos conectados à mesma conta de e-mail.III. Com as contas IMAP, as mensagens são armazenadas em um servidor remoto.São corretas as afirmativas",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "II, apenas.",
+            "C": "I e III, apenas.",
+            "D": "I, II e III."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa I está correta pois POP3 baixa os emails para o dispositivo, sincronizando apenas na direção servidor-cliente. A afirmativa II está incorreta, pois as ações no POP3 não se refletem em outros dispositivos. A afirmativa III está correta ao descrever o armazenamento no servidor com IMAP."
+    },
+    {
+        "id": "1224760",
+        "enunciado": "Os sistemas de autenticação foram concebidos para confirmar se o usuário é autêntico, realizar a autorização e, principalmente, a auditoria. Essas soluções ficaram conhecidas como AAA. Qual protocolo é amplamente utilizado para comunicação entre dispositivos de rede e servidores – uma solução padrão para AAA?",
+        "alternativas": {
+            "A": "LDAP.",
+            "B": "SNMP.",
+            "C": "TCP/IP.",
+            "D": "RADIUS."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "RADIUS (Remote Authentication Dial-In User Service) é um protocolo de rede amplamente utilizado para fornecer serviços centralizados de autenticação, autorização e contabilidade (AAA)."
+    },
+    {
+        "id": "1425851",
+        "enunciado": "Assinale a opção que descreve CORRETAMENTE as principais melhorias adicionadas no protocolo IPv6 em relação ao protocolo IPv4:",
+        "alternativas": {
+            "A": "Maior espaço de endereçamento, cabeçalhos simplificados, suporte nativo para IPsec e autoconfiguração de endereços.",
+            "B": "Menor espaço de endereçamento, cabeçalhos mais complexos, suporte nativo para NAT e autoconfiguração de endereços.",
+            "C": "Suporte exclusivo para comunicação unicast, maior espaço de endereçamento, cabeçalhos simplificados e uso obrigatório de DHCP.",
+            "D": "Suporte exclusivo para comunicação broadcast, cabeçalhos mais curtos, menor espaço de endereçamento e suporte nativo para IPsec.",
+            "E": "Cabeçalhos simplificados, suporte nativo para IPsec, menor espaço de endereçamento e uso obrigatório de NAT."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O IPv6 oferece um espaço de endereçamento muito maior, cabeçalhos simplificados para roteamento eficiente, suporte nativo para IPsec para segurança e autoconfiguração de endereços para facilitar a implantação."
+    },
+    {
+        "id": "1625790",
+        "enunciado": "Existem alguns endereços IPv6 especiais utilizados para fins específicos, como os endereços IPv4-mapeado, cujo exemplo está indicado na seguinte alternativa:",
+        "alternativas": {
+            "A": "::wxyz:",
+            "B": "::FFFF:192.168.100.1.",
+            "C": "2001:0000::/32:",
+            "D": "2001:db8::/32:",
+            "E": "2002::/16:"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O endereço IPv6 mapeado para IPv4, como o indicado na alternativa B ('::FFFF:192.168.100.1'), serve para representar e encaminhar endereços IPv4 como se fossem IPv6, facilitando a transição entre as versões."
+    },
+    {
+        "id": "1625797",
+        "enunciado": "Diferentemente do RIP e do RIPng, as mensagens OSPF são encapsuladas diretamente em datagramas IP. No campo PROTO (IPv4) ou no campo PRÓXIMO SALTO (IPv6) no cabeçalho para identificar o datagrama que está levando o OSPF, é utilizado o valor:",
+        "alternativas": {
+            "A": "90.",
+            "B": "92.",
+            "C": "89.",
+            "D": "94.",
+            "E": "88."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O protocolo OSPF utiliza o valor 89 no campo PROTO (IPv4) ou PRÓXIMO SALTO (IPv6) para identificação em datagramas IP."
+    },
+    {
+        "id": "1670210",
+        "enunciado": "Qual é o protocolo de correio eletrônico que se encontra na camada de aplicação responsável pela transmissão de correio eletrônico pela rede?",
+        "alternativas": {
+            "A": "POP3 (Post Office Protocol).",
+            "B": "IMAP (Internet Message Access Protocol).",
+            "C": "FTP (File Transfer Protocol).",
+            "D": "SMTP (Simple Mail Transfer Protocol).",
+            "E": "TELNET (Teletype Network)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O Protocolo de Transferência de Correio Simples (SMTP) é o padrão para envio de e-mails na internet, operando na camada de aplicação e responsável pela transmissão dessas mensagens entre servidores."
+    },
+    {
+        "id": "1625799",
+        "enunciado": "Uma VPN proporciona conexões, nas quais o acesso e a troca de informações, somente são permitidas a usuários, que estão em redes distintas que façam parte de uma mesma comunidade de interesse. Assinale a alternativa que se refere ao protocolo de tunelamento nível 3:",
+        "alternativas": {
+            "A": "MPLS.",
+            "B": "L2F.",
+            "C": "IPSec.",
+            "D": "PPTP.",
+            "E": "L2TP."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O IPsec (Internet Protocol Security) opera na camada de rede (nível 3), fornecendo segurança para a comunicação IP por meio de tunelamento e criptografia."
+    },
+    {
+        "id": "1625800",
+        "enunciado": "O Dynamic IP Allocation, ou alocação dinâmica de IP, é um método utilizado para atribuir endereços IP a dispositivos em uma rede de forma automática e temporária. Assinale a alternativa que se refere ao o protocolo que permite a alocação dinâmica de endereços IP públicos:",
+        "alternativas": {
+            "A": "ICMP.",
+            "B": "DHCP.",
+            "C": "LADP.",
+            "D": "ARP.",
+            "E": "UDP."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo DHCP (Dynamic Host Configuration Protocol) é o responsável por atribuir automaticamente endereços IP, máscaras de sub-rede, gateways padrão e servidores DNS a dispositivos em uma rede, permitindo a alocação dinâmica de IPs públicos ou privados."
+    },
+    {
+        "id": "1875771",
+        "enunciado": "Assinale a alternativa que apresenta CORRETAMENTE apenas tipos de registros de um servidor de Domain Name System - DNS:",
+        "alternativas": {
+            "A": "A, AAAA, MX, ABC.",
+            "B": "A, MX, TXT, CNAME.",
+            "C": "SRV, TXT, DOC, ODT.",
+            "D": "AAAA, SRV, ABC, SPF."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A, AAAA, MX e CNAME são tipos de registros DNS. A é para endereços IPv4, AAAA para IPv6, MX para servidores de e-mail e CNAME para alias. ABC e DOC/ODT não são tipos de registros DNS padrão."
+    },
+    {
+        "id": "1875774",
+        "enunciado": "Sobre o serviço de DNS ( Domain Name System ), assinale a afirmativa INCORRETA:",
+        "alternativas": {
+            "A": "Um servidor DNS ruim prejudica não só sua experiência de navegação, mas também sua segurança.",
+            "B": "Um serviço DNS é um serviço globalmente distribuído que converte nomes legíveis por humanos, como www.ufv.br, em endereços IP numéricos, como 192.168.0.1.",
+            "C": "Os servidores DNS convertem solicitações de nomes em endereços IP, controlando qual servidor um usuário final alcançará quando digitar um nome de domínio no navegador da web. Essas solicitações são chamadas consultas.",
+            "D": "Independentemente do local, da região ou da rede à qual você se conectar, você será direcionado para o mesmo lugar a partir da mesma URL em qualquer dispositivo ou navegador (a não ser que haja restrições de conteúdo ou limitações sobre a internet na região em que você estiver). Isso significa que há um sistema global para atribuir endereços IP e MAC."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa é incorreta pois a direção para uma URL não é sempre a mesma independentemente do local ou dispositivo. A propagação de DNS e restrições regionais podem causar diferenças de acesso, não havendo um sistema global unificado para todos os casos."
+    },
+    {
+        "id": "1875776",
+        "enunciado": "Falsificação de e-mail, ou e-mail spoofing, é uma técnica que consiste em alterar campos do cabeçalho de um e-mail, de forma a aparentar que ele foi enviado de uma determinada origem quando, na verdade, foi enviado de outra. Assinale a alternativa que apresenta CORRETAMENTE o protocolo que possibilita essa falsificação:",
+        "alternativas": {
+            "A": "IMAP",
+            "B": "POP3",
+            "C": "SMTP",
+            "D": "HTTP"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O protocolo SMTP (Simple Mail Transfer Protocol) é utilizado para enviar e-mails. Ao enviar um e-mail, o remetente pode especificar um endereço de remetente arbitrário, permitindo a falsificação."
+    },
+    {
+        "id": "1875787",
+        "enunciado": "Diversos protocolos de comunicação em redes TCP/IP utilizam um número padrão para a porta do lado do servidor do serviço. Considerando os protocolos HTTP, HTTPS e FTP, o número oficial da porta padrão de cada um, respectivamente, é:",
+        "alternativas": {
+            "A": "80, 443, e 23.",
+            "B": "8080, 81 e 21.",
+            "C": "80, 8443 e 22.",
+            "D": "80, 443 e 21."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As portas padrão para HTTP, HTTPS e FTP são, respectivamente, 80, 443 e 21. Essas portas são amplamente reconhecidas e utilizadas para esses serviços na internet."
+    },
+    {
+        "id": "1875793",
+        "enunciado": "O protocolo HTTP (Hypertext Transfer Protocol) é fundamental para a comunicação na web. Considerando o funcionamento básico do HTTP, o método desse protocolo geralmente utilizado quando um navegador solicita uma página web pela primeira vez, indicando que o recurso deve ser obtido do servidor, é:",
+        "alternativas": {
+            "A": "POST.",
+            "B": "GET.",
+            "C": "UPDATE.",
+            "D": "FETCH."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O método GET é utilizado no protocolo HTTP para solicitar que um recurso (como uma página web) seja recuperado do servidor. O GET é idempotente e seguro, adequado para requisições de dados sem alterar o estado do servidor."
+    },
+    {
+        "id": "1008338",
+        "enunciado": "Qual é o protocolo utilizado para fazer o download ou o upload de um arquivo da nossa máquina para a rede:",
+        "alternativas": {
+            "A": "URL (Uniform Resource Locator).",
+            "B": "FTP (File Transfer Protocol).",
+            "C": "POP (Post Office Protocol).",
+            "D": "DNS (Domain Name System).",
+            "E": "HTP (Hypertext Transfer Protocol)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo FTP (File Transfer Protocol) é especificamente projetado para a transferência de arquivos entre computadores em uma rede, permitindo tanto o download quanto o upload de dados."
+    },
+    {
+        "id": "1008339",
+        "enunciado": "É um protocolo de cliente/servidor que fornece automaticamente um host IP (Protocolo de Internet) com seu endereço IP e outras informações de configuração relacionadas:",
+        "alternativas": {
+            "A": "DHCP (Dynamic Host Configuration Protocol).",
+            "B": "POP (Post Office Protocol).",
+            "C": "FTP (File Transfer Protocol).",
+            "D": "DNS (Domain Name System).",
+            "E": "HTP (Hypertext Transfer Protocol)."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O DHCP (Dynamic Host Configuration Protocol) é o protocolo responsável por atribuir automaticamente endereços IP e outras configurações de rede aos dispositivos que se conectam a uma rede."
+    },
+    {
+        "id": "2133730",
+        "enunciado": "Sobre os protocolos TCP e UDP, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "São dois dos principais protocolos utilizados na internet localizados na Camada de Aplicação do modelo OSI.",
+            "B": "São protocolos de internet utilizados, exclusivamente, pelos sistemas operacionais Windows e Linux, respectivamente.",
+            "C": "Somente o protocolo TCP é utilizado na internet. O protocolo UDP só funciona em redes locais.",
+            "D": "Ambos são usados na internet, mas somente o protocolo TCP tem controle de fluxo.",
+            "E": "Ambos são usados na internet, mas o protocolo UDP não funciona em ambientes com proxy."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ambos TCP e UDP são protocolos de transporte usados na internet. O TCP garante entrega ordenada e confiável com controle de fluxo e erros. O UDP é mais rápido, mas não oferece essas garantias."
+    },
+    {
+        "id": "1031472",
+        "enunciado": "Qual protocolo de segurança é comumente usado em combinação com o servidor Apache para criar uma conexão segura entre o navegador do cliente e o servidor?",
+        "alternativas": {
+            "A": "FTP",
+            "B": "SSH",
+            "C": "SMTP",
+            "D": "HTTPS",
+            "E": "HTTP2"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "HTTPS (Hypertext Transfer Protocol Secure) é o protocolo que utiliza o TLS/SSL para criptografar a comunicação entre o navegador e o servidor web, como o Apache, garantindo a segurança dos dados transmitidos."
+    },
+    {
+        "id": "2133732",
+        "enunciado": "Sobre o SMTP, é CORRETO afirmar que é um protocolo utilizado para o envio de mensagens:",
+        "alternativas": {
+            "A": "Pertencente à camada de transporte do modelo OSI.",
+            "B": "Que utiliza conexão UDP nas comunicações.",
+            "C": "Que utiliza conexão TCP nas comunicações.",
+            "D": "Pertencente à camada de enlace do modelo OSI.",
+            "E": "Pertencente à camada de sessão do modelo OSI."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O SMTP (Simple Mail Transfer Protocol) é um protocolo da camada de aplicação que utiliza o TCP (Transmission Control Protocol) para o envio de mensagens de e-mail. O TCP garante a entrega confiável dos dados através de um estabelecimento de conexão."
+    },
+    {
+        "id": "1055189",
+        "enunciado": "Protocolo é a palavra que se refere às “regras” que organizam e regem a sincronização da comunicação entre dois sistemas computacionais; ou seja, controla e possibilita a transferência de dados. Assinale a alternativa que contém o protocolo responsável pelo envio de e-mail:",
+        "alternativas": {
+            "A": "POP2.",
+            "B": "HTTP.",
+            "C": "IMAP.",
+            "D": "POP3.",
+            "E": "SMTP."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O SMTP (Simple Mail Transfer Protocol) é o protocolo padronizado globalmente para envio e retransmissão de mensagens de e-mail entre servidores. POP2, POP3 e IMAP são protocolos usados para recebimento de e-mails. HTTP é para navegação web."
+    },
+    {
+        "id": "1165036",
+        "enunciado": "Dentre os protocolos de rede no modelo TCP/IP, na camada de rede, encontra-se, entre outros, o seguinte protocolo:",
+        "alternativas": {
+            "A": "TCP.",
+            "B": "UDP.",
+            "C": "ICMP.",
+            "D": "FTP.",
+            "E": "IMAP."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O ICMP (Internet Control Message Protocol) opera na camada de rede do modelo TCP/IP, sendo utilizado para enviar mensagens de erro e controle, diferente de TCP/UDP (transporte), FTP (aplicação) e IMAP (aplicação)."
+    },
+    {
+        "id": "2133737",
+        "enunciado": "O DNS (Domain Name System), usado principalmente para mapear nomes de hosts em endereços IP, é consultado e responde às consultas feitas através do protocolo:",
+        "alternativas": {
+            "A": "TCP.",
+            "B": "SMTP.",
+            "C": "UDP.",
+            "D": "ARPA.",
+            "E": "ICMP."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O DNS realiza consultas e respostas para a resolução de nomes de domínio em endereços IP. Essa comunicação por sua natureza é mais eficiente utilizando o protocolo UDP (User Datagram Protocol), que é mais rápido por não exigir estabelecimento de conexão."
+    },
+    {
+        "id": "1014126",
+        "enunciado": "Qual protocolo TCP/IP é usado para resolver endereços IP em nomes de domínio legíveis por humanos?",
+        "alternativas": {
+            "A": "FTP",
+            "B": "SNMP",
+            "C": "DNS",
+            "D": "DHCP",
+            "E": "HTTP"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O DNS (Domain Name System) é o protocolo responsável por traduzir nomes de domínio (como www.google.com) em endereços IP numéricos que os computadores entendem."
+    },
+    {
+        "id": "1031476",
+        "enunciado": "Qual é o protocolo de camada de aplicação usado para fazer download de emails de um servidor de email para um cliente de email em um ambiente de correio eletrônico?",
+        "alternativas": {
+            "A": "FTP (File Transfer Protocol)",
+            "B": "HTTP (Hypertext Transfer Protocol)",
+            "C": "POP3 (Post Office Protocol - Version 3)",
+            "D": "ICMP (Internet Control Message Protocol)",
+            "E": "TCP (Transmission Control Protocol)"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O POP3 (Post Office Protocol - Version 3) é o protocolo padrão para download de e-mails de um servidor para um cliente. Ele permite que o cliente acesse e baixe mensagens, geralmente removendo-as do servidor após o download."
+    },
+    {
+        "id": "1014127",
+        "enunciado": "Qual Protocolo é considerado o principal da camada de Transporte no modelo de camadas TCP/IP:",
+        "alternativas": {
+            "A": "O protocolo SNMP (Simple Network Management protocol).",
+            "B": "Bootp (Bootstrap protocol).",
+            "C": "IGMP (Internet Group Management protocol).",
+            "D": "ICMP (Internet Control Message Protocol – protocolo de Mensagens de Controle Internet).",
+            "E": "TCP (Transmission Control Protocol)."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Na camada de Transporte do modelo TCP/IP, o TCP (Transmission Control Protocol) é o protocolo principal, garantindo a entrega confiável e ordenada dos dados entre aplicações."
+    },
+    {
+        "id": "1106336",
+        "enunciado": "Assinale a alternativa que contenha um protocolo não utilizado na pilha de protocolos TCP/IP.",
+        "alternativas": {
+            "A": "Hyper Text Transfer Protocol Secure (HTTPS).",
+            "B": "Post Office Protocol (POP).",
+            "C": "Simple Mail Transfer Protocol (SMTP).",
+            "D": "InfiniBand (IB).",
+            "E": "Lightweight Directory Access Protocol (LDAP)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "InfiniBand (IB) é uma tecnologia de interconexão de redes e computadores, não um protocolo da pilha TCP/IP. Os demais protocolos listados (HTTPS, POP, SMTP, LDAP) são ferramentas de comunicação e transferência de dados que operam sobre a pilha TCP/IP."
+    },
+    {
+        "id": "1165041",
+        "enunciado": "A escrita de cada endereço IPv6 é longa, o que dificulta a sua representação. O endereço 2001:0DB8:00AD:000F:0000:0000:0000:0001 pode ser representado da seguinte maneira:",
+        "alternativas": {
+            "A": "2001:DB8:AD:F:0:0:0:1",
+            "B": "2001:DB8::AD:F::1",
+            "C": "2001:DB8:AD:F::1",
+            "D": "2001:DB8:A:D:F::1",
+            "E": "2001::DB8:AD:F:0:0:0:1"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Endereços IPv6 podem ser abreviados removendo zeros iniciais em cada bloco e substituindo sequências de blocos de zeros contínuos por '::' uma única vez. A opção C segue essas regras corretamente."
+    },
+    {
+        "id": "1317695",
+        "enunciado": "Sobre H.323 e RTP (Real-time Transport Protocol), analise as afirmativas abaixo: I - H.323 prevê de mecanismo nativo de autenticação para terminais e gateways, mas não prevê criptografia. II - H.323 e RTP são protocolos que garantem de forma nativa a integridade e confidencialidade dos dados transmitidos III - RTP oferece recursos nativos de criptografia e autenticação para proteger as comunicações em tempo real. Em relação aos itens acima, pode-se afirmar que:",
+        "alternativas": {
+            "A": "somente o item II é verdadeiro.",
+            "B": "somente o item I é verdadeiro.",
+            "C": "somente o item III é verdadeiro.",
+            "D": "os itens I e II são verdadeiros.",
+            "E": "os itens II e III são verdadeiros."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "H.323 possui autenticação nativa, mas não criptografia. RTP por si só não garante nativamente integridade e confidencialidade; essas funcionalidades são adicionadas por outros mecanismos, como SRTP."
+    },
+    {
+        "id": "1021758",
+        "enunciado": "Serviços de e-mail são utilizados diariamente, para troca de mensagens por meio eletrônico. Este serviço requer a utilização de um servidor de e-mails que orquestra os envios e recebimentos, com relação ao envio de e-mails qual é a porta do protocolo SMTP, originalmente, padrão, para esta operação:",
+        "alternativas": {
+            "A": "31",
+            "B": "25",
+            "C": "45",
+            "D": "55"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo SMTP (Simple Mail Transfer Protocol) utiliza a porta 25 para o envio de e-mails. As outras portas são usadas por outros protocolos ou serviços."
+    },
+    {
+        "id": "1021809",
+        "enunciado": "Numa rede sem fio com alcance limitado, ou seja, atender a equipamentos geograficamente próximos, com no máximo algumas dezenas de metros, as tecnologias iniciais WIFI (Wireless Fidelity) dos Access Points e Wireless Router trabalham no âmbito do acesso sem fio com o protocolo:",
+        "alternativas": {
+            "A": "CSMA/CA",
+            "B": "CSMA/CD",
+            "C": "TOKEN-PASSIN|G",
+            "D": "TOKEN-BUS"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em redes sem fio (WIFI), o protocolo CSMA/CA é utilizado para evitar colisões, pois os dispositivos não conseguem detectar se o meio está ocupado transmitindo simultaneamente."
+    },
+    {
+        "id": "1021811",
+        "enunciado": "Os sistemas LDAP e SAMBA se utilizam respectivamente das portas:",
+        "alternativas": {
+            "A": "TCP 389 E TCP 443",
+            "B": "TCP 137 E TCP 445",
+            "C": "TCP 137 E TCP 443",
+            "D": "TCP 389 E TCP 445"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O protocolo LDAP utiliza a porta TCP 389 para comunicação de diretório, e o protocolo SAMBA (compartilhamento de arquivos e impressoras do Windows) utiliza a porta TCP 445."
+    },
+    {
+        "id": "1021812",
+        "enunciado": "As redes que se utilizam de uma arquitetura de WAN utilizam protocolos de comunicação serial descritos a seguir. Diante do exposto, analise as afirmativas abaixo e dê valores de Verdadeiro (V) ou Falso (F).\n(  ) HDLC.\n(  ) PPP.\n(  ) MPLS.\n(  ) STP.\nAssinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": {
+            "A": "V - V - V - F",
+            "B": "V - V - V - V",
+            "C": "V - F - F - V",
+            "D": "V - F - V - F"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "HDLC e PPP são protocolos da camada de enlace usados em WANs. MPLS é um protocolo de roteamento e encaminhamento. STP (Spanning Tree Protocol) é usado para evitar loops em redes LAN com switches, não em WANs com comunicação serial."
+    },
+    {
+        "id": "1021814",
+        "enunciado": "Assinale a alternativa que preencha corretamente a lacuna. O serviço WINS é um serviço herdado de registro e resolução de nomes de computadores que mapeia nomes ______ de computadores para endereços IP.",
+        "alternativas": {
+            "A": "Netstat",
+            "B": "Netbound",
+            "C": "NetBeui",
+            "D": "NetBIOS"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O WINS (Windows Internet Name Service) mapeia nomes NetBIOS, que são nomes legados de computadores na rede, para endereços IP."
+    },
+    {
+        "id": "1021816",
+        "enunciado": "Numa rede com Switches, particularmente com topologia em anel, pode ocorrer o que conhecemos por Loop de Comutação. Essa condição degrada sob maneira uma rede. Uma ação de prevenção é habilitar a configuração do protocolo:",
+        "alternativas": {
+            "A": "Spanning-tree Protocol",
+            "B": "IEEE 802.1qw - Quality of service Protocol",
+            "C": "CDP -access Protocol",
+            "D": "Trunk -operation Protocol"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Spanning-tree Protocol (STP) é um protocolo de camada 2 que previne loops em redes comutadas, como as que utilizam switches em topologia em anel."
+    },
+    {
+        "id": "2167924",
+        "enunciado": "Qual é o nome dado ao Protocolo de Transferência de Hipertexto usado para navegação em sites da internet?",
+        "alternativas": {
+            "A": "TCP/IP.",
+            "B": "FTP.",
+            "C": "SFTP.",
+            "D": "SMTP.",
+            "E": "HTTP."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "HTTP (Hypertext Transfer Protocol) é o protocolo fundamental utilizado para a transferência de dados e navegação em sites na World Wide Web. TCP/IP é um conjunto de protocolos de rede, FTP para transferência de arquivos, SFTP para transferência segura de arquivos e SMTP para envio de e-mails."
+    },
+    {
+        "id": "1003398",
+        "enunciado": "Qual dos protocolos a seguir é o protocolo responsável por executar a função de Download e Upload?",
+        "alternativas": {
+            "A": "SMTP",
+            "B": "POP",
+            "C": "IMAP",
+            "D": "TELNET",
+            "E": "FTP"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O protocolo FTP (File Transfer Protocol) é especificamente projetado para a transferência de arquivos entre computadores, permitindo tanto downloads quanto uploads na rede."
+    },
+    {
+        "id": "2167934",
+        "enunciado": "A função primordial da camada física é a transmissão de bits de uma máquina para outra. Os meios de transmissão mais comumente utilizados são:",
+        "alternativas": {
+            "A": "Par trançado, cabo coaxial e fibra ótica.",
+            "B": "Fibra ótica, transistor e circuitos.",
+            "C": "Cabo coaxial, fibra ótica e transistor.",
+            "D": "Amplificadores, transistores e fibra ótica.",
+            "E": "Semicondutores, condutores e transistores."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A camada física de uma rede de comunicação é responsável pela transmissão dos bits através de um meio físico. Os meios mais comuns para essa transmissão são o par trançado, o cabo coaxial e a fibra ótica."
+    },
+    {
+        "id": "1003406",
+        "enunciado": "É uma tecnologia que permite a transmissão de voz por IP (Protocolos de Internet), ou seja, transforma sinais de áudio analógicos, como em uma chamada, em dados digitais que podem ser transferidos através da Internet.",
+        "alternativas": {
+            "A": "Modulação",
+            "B": "WhatsApp",
+            "C": "Firewire",
+            "D": "VoIP",
+            "E": "Hard disk"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "VoIP (Voice over Internet Protocol) e a tecnologia que permite a transmissao de voz por meio da Internet, convertendo sinais analogicos em dados digitais para essa finalidade."
+    },
+    {
+        "id": "1022359",
+        "enunciado": "O servidor de e-mail é responsável pelo envio e pelo recebimento de todas as trocas de mensagens entre os usuários de uma determinada rede e, para isso, faz uso de protocolos de comunicação. Quais deles são usados, respectivamente, para envio e recepção?",
+        "alternativas": {
+            "A": "SMTP e IMAP.",
+            "B": "TCP e POP3.",
+            "C": "DHCP e IMAP.",
+            "D": "SFTP e POP3.",
+            "E": "IMAP e POP3."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O protocolo SMTP (Simple Mail Transfer Protocol) é usado para o envio de e-mails. Para a recepção, são comumente usados IMAP (Internet Message Access Protocol) e POP3 (Post Office Protocol version 3). SMTP e IMAP são a combinação para envio e recepção descrita."
+    },
+    {
+        "id": "1022411",
+        "enunciado": "A comunicação de redes pode ser feita utilizando diversos protocolos. Quando se trata de transporte de dados, dois são os mais famosos: o UDP e o TCP. Assinale a alternativa correta sobre esses protocolos.",
+        "alternativas": {
+            "A": "O TCP é conhecido por enviar pacotes de rede sem qualquer confirmação e, dessa forma, otimiza a velocidade de transferência de dados.",
+            "B": "O UDP é famoso por simular a ideia de uma conversa telefônica, em que duas pessoas realizam uma comunicação inicial para concordar com os termos (parâmetros) de comunicação, antes de começar a transmitir dados, algo como um aperto de mão em três vias.",
+            "C": "O UDP e o TCP são semelhantes, e sua maior diferença é que o primeiro precisa de uma porta especial para se comunicar (a porta 53) e o TCP pode utilizar qualquer porta de comunicação.",
+            "D": "O TCP é também conhecido como Super TCP ou STCP, pois ele usa pacotes de tamanho fixo sem fragmentação em relação ao meio, o que torna sua transmissão excepcional para voz.",
+            "E": "O UDP é similar ao envio de uma carta; o pacote é enviado, mas não existe confirmação de entrega. Por ser mais simples, causa menor consumo de processamento e acaba sendo o protocolo preferido para transmissões que exigem velocidade de transferência e não tem problemas com perdas esporádicas de pacotes."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O UDP é como o envio de uma carta: os dados são enviados sem garantia de entrega. Por ser mais simples, consome menos recursos e é ideal para aplicações que priorizam velocidade sobre a confiabilidade, como streaming e jogos online."
+    },
+    {
+        "id": "2133908",
+        "enunciado": "Considere o trecho a seguir: O protocolo da internet _____, foi desenvolvido para permitir a recuperação de correios eletrônicos, mensagens de servidores e de e-mail. Assinale a alternativa que completa CORRETAMENTE a lacuna:",
+        "alternativas": {
+            "A": "HTTP",
+            "B": "POP",
+            "C": "SMTP",
+            "D": "TCP"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo POP (Post Office Protocol) é desenvolvido para permitir a recuperação de correios eletrônicos de servidores. O SMTP é usado para envio, o HTTP para acesso a páginas web, e o TCP é um protocolo de transporte."
+    },
+    {
+        "id": "1348459",
+        "enunciado": "Assinale a alternativa que indica corretamente o principal protocolo de transferência de mensagens por e-mail.",
+        "alternativas": {
+            "A": "ICMP",
+            "B": "SMTP",
+            "C": "HTTP",
+            "D": "SFTP"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "SMTP (Simple Mail Transfer Protocol) é o protocolo padrão para o envio de e-mails entre servidores. ICMP é usado para mensagens de erro de rede, HTTP para web, e SFTP é um protocolo seguro de transferência de arquivos."
+    },
+    {
+        "id": "1448357",
+        "enunciado": "Considerando a associação entre dispositivos e protocolos, assinale a alternativa ERRADA.",
+        "alternativas": {
+            "A": "Servidores Web interpretam o protocolo HTTPS;",
+            "B": "Roteadores manipulam o protocolo OSPF;",
+            "C": "Roteadores manipulam o protocolo RIP;",
+            "D": "O protocolo FTP é executado em Switchs;",
+            "E": "Browsers executam o protocolo HTTP."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O protocolo FTP (File Transfer Protocol) é um protocolo de transferência de arquivos e geralmente não é executado em switches, que operam na camada de enlace. Switches lidam com MAC addresses, não com endereços IP e protocolos de aplicação como FTP."
+    },
+    {
+        "id": "1448366",
+        "enunciado": "Qual dos protocolos abaixo utiliza, por padrão, a porta 21?",
+        "alternativas": {
+            "A": "HTTP;",
+            "B": "SMTP;",
+            "C": "POP3;",
+            "D": "IMAP;",
+            "E": "FTP."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O protocolo FTP (File Transfer Protocol) utiliza a porta 21 por padrão para o seu funcionamento, tanto para comandos quanto para transferência de dados."
+    },
+    {
+        "id": "1133279",
+        "enunciado": "A telefonia por Internet utiliza o envio de datagramas por meio de um dos protocolos listados a seguir. O motivo principal é por conter apenas 8 bytes em seu cabeçalho de informações, tornando-o simples e viável. Qual é este protocolo?",
+        "alternativas": {
+            "A": "HTTP",
+            "B": "UDP",
+            "C": "EPP",
+            "D": "TCP",
+            "E": "RMI"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O protocolo UDP (User Datagram Protocol) é leve e rápido, com cabeçalho de apenas 8 bytes, adequado para telefonia pela internet onde a prioridade é a velocidade e não a garantia de entrega."
+    },
+    {
+        "id": "1133280",
+        "enunciado": "O protocolo SMTP é usado para:",
+        "alternativas": {
+            "A": "Baixar arquivos.",
+            "B": "Upload de arquivos.",
+            "C": "Enviar mensagens de correio para um ou diversos destinatários.",
+            "D": "Monitoramento de serviços via rede.",
+            "E": "É um protocolo de comunicação da camada de ligação de dados usado entre duas ou mais máquinas em rede para encaminhamento dos dados."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está correta. O protocolo SMTP (Simple Mail Transfer Protocol) é o padrão principal para o envio de mensagens de correio eletrônico entre servidores e clientes de e-mail, permitindo a comunicação para fins de envio de e-mails."
+    },
+    {
+        "id": "1133282",
+        "enunciado": "Qual das seguintes afirmações é verdadeira quanto ao protocolo SNMP?",
+        "alternativas": {
+            "A": "Ele é usado em sistemas de gerenciamento de redes a fim de monitorar dispositivos conectados à rede que exijam atenção por parte de seus administradores.",
+            "B": "Seu predecessor, o Simple Gateway Internet Protocol (SGIP), foi desenvolvido para gerenciar apenas roteadores de internet.",
+            "C": "O protocolo SNMP é uma ferramenta de propriedade da Microsoft para coletar dados sobre as condições da rede e executar ações remotas em equipamentos remotos gerenciados.",
+            "D": "O protocolo não pode ser usado como uma ferramenta para monitorar os servidores web Apache.",
+            "E": "O protocolo é necessário para prover a entrega de pacotes multicast em ambientes distribuídos, principalmente no empacotamento de filmes e música."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A esta correta pois o protocolo SNMP (Simple Network Management Protocol) e amplamente utilizado para monitorar e gerenciar dispositivos em redes de computadores, coletando informacoes e permitindo acoes de administracao."
+    },
+    {
+        "id": "1133283",
+        "enunciado": "Qual é a finalidade da mensagem SNMP SetRequest?",
+        "alternativas": {
+            "A": "Permitir “setar” o início da comunicação em um processo de rede da camada física.",
+            "B": "Permitir que uma entidade gerenciadora consulte o valor de um objeto dentre o conjunto de valores de objetos MIB em um dispositivo gerenciado.",
+            "C": "Permitir que um dispositivo gerenciado requisite e receba um conjunto de valores iniciais para objetos MIB no dispositivo gerenciado.",
+            "D": "Permitir que uma entidade gerenciadora estabeleça o valor de um ou mais objetos MIB em um dispositivo gerenciado.",
+            "E": "Permitir a ausência de controle de segurança na camada de aplicação."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A mensagem SNMP SetRequest é utilizada pela entidade gerenciadora para modificar o valor de um ou mais objetos MIB em um dispositivo gerenciado. Ou seja, ela permite definir ou alterar configurações e parâmetros no equipamento que está sendo administrado pelo sistema SNMP."
+    },
+    {
+        "id": "2207520",
+        "enunciado": "O TCP (Transmission Control Protocol) tem como uma de suas características a capacidade de impedir o colapso da internet, evitando que ocorra um cenário em que muitas máquinas enviam dados mais rápido do que os nós intermediários conseguem processar, situação em que aconteceriam longas esperas nas filas dos buffers dos roteadores e excessivas perdas de pacotes. Algoritmos como o slow start (inicialização lenta) e o fast retransmit (retransmissão rápida) integram essa característica, que se chama:",
+        "alternativas": {
+            "A": "Controle de fluxo.",
+            "B": "Decremento multiplicativo.",
+            "C": "Incremento aditivo.",
+            "D": "Controle de congestionamento.",
+            "E": "Incremento multiplicativo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Algoritmos como slow start e fast retransmit são fundamentais para gerenciar o tráfego e evitar a saturação da rede, o que é a essência do controle de congestionamento."
+    },
+    {
+        "id": "2129932",
+        "enunciado": "Assinale a alternativa que apresenta CORRETAMENTE o protocolo de rede usado por hospedeiros e roteadores para comunicar informações de camada de rede entre si.",
+        "alternativas": {
+            "A": "DHCP.",
+            "B": "TCP.",
+            "C": "SSH.",
+            "D": "ICMP."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O ICMP (Internet Control Message Protocol) e o protocolo utilizado por hospedeiros e roteadores para trocar mensagens de erro e de controle relativas a pacotes IP, sendo fundamental para o diagnostico de problemas de rede."
+    },
+    {
+        "id": "1221823",
+        "enunciado": "Assinale a alternativa correta em relação ao SNMP:",
+        "alternativas": {
+            "A": "Evento é o nome dado ao alerta gerado por um agente SNMP.",
+            "B": "SNMP é o acrônimo de 'Simple Network Management Protocol'.",
+            "C": "Por padrão, o SNMP opera na porta 143.",
+            "D": "Por padrão, o SNMPTRAP utiliza a porta 144.",
+            "E": "O comando SNMPREAD é utilizado para ler dados de um host."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "SNMP é o acrônimo para 'Simple Network Management Protocol', um protocolo padrão para gerenciamento de redes. As outras alternativas contêm informações incorretas sobre eventos, portas e comandos SNMP."
+    },
+    {
+        "id": "1221825",
+        "enunciado": "Analise as seguintes afirmativas sobre os protocolos DNS e DHCP e identifique a(s) correta(s):  \nI- Servidores DNS monitoram a porta 83 à espera d e requisições.  \nII- Registros DNS do tipo AAAA retornam endereços IPv6.  \nIII- Servidores DHCP monitoram a porta 83 à espera de requisições.  \nIV- Duração é o nome dado ao período pelo qual um servidor DHCP concede um endereço IP a um cliente.  \nAssinale a alternativa corr eta:",
+        "alternativas": {
+            "A": "Apenas as afirmativas I e IV estão corretas.",
+            "B": "Apenas a afirmativa III está correta.",
+            "C": "Apenas as afirmativas III e IV estão corretas.",
+            "D": "Apenas a afirmativa II está correta.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As afirmativas I e III estão incorretas. Servidores DNS e DHCP geralmente monitoram as portas 53 e 67/68, respectivamente. A afirmativa II está correta, pois registros AAAA no DNS mapeiam nomes para endereços IPv6. A afirmativa IV está correta e define o 'duração' de um lease DHCP."
+    },
+    {
+        "id": "1803424",
+        "enunciado": "A coluna da esquerda apresenta classes de código de retorno do protocolo HTTP 1.1 e a da direita, tipos de retorno. Numere a coluna da direita de acordo com a da esquerda.1 - 1xx (códigos iniciados em “1”)2 - 3xx (códigos iniciados em “3”)3 - 5xx (códigos iniciados em “5”)(      ) Redirecionamento(      ) Erro do servidor(      ) InformativoAssinale a sequência correta.",
+        "alternativas": {
+            "A": "3, 2, 1",
+            "B": "1, 2, 3",
+            "C": "3, 1, 2",
+            "D": "2, 3, 1"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A sequência correta é: 1xx são informativos, 3xx são para redirecionamento e 5xx indicam erro do servidor. Portanto, a numeração correta é (2) Informativo, (1) Redirecionamento e (3) Erro do servidor, resultando na sequência 2, 1, 3."
+    },
+    {
+        "id": "1380530",
+        "enunciado": "Sobre o protocolo de roteamento OSPF, analise as afirmativas. I - Especifica que todas as trocas entre roteadores podem ser autenticadas. II - Inclui suporte para as rotas classless, específicas da sub-rede e do host. III - Permite que roteadores troquem informações de roteamento aprendidas de outros sites (externos). Está correto o que se afirma em",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "II, apenas.",
+            "C": "I, II e III.",
+            "D": "II e III, apenas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O protocolo OSPF suporta autenticação de trocas (I), rotas classless (II) e permite a troca de informações de roteamento aprendidas externamente (III), cobrindo todas as assertivas."
+    },
+    {
+        "id": "1873245",
+        "enunciado": "Qual o protocolo de redes que permite que todas as estações de uma rede recebam suas configurações de rede automaticamente a partir de um servidor central, sem que seja necessário ficar configurando os endereços IP manualmente em cada um?",
+        "alternativas": {
+            "A": "DHCP.",
+            "B": "DNS.",
+            "C": "TCP.",
+            "D": "UDP.",
+            "E": "FTP."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O protocolo DHCP (Dynamic Host Configuration Protocol) é responsável por atribuir automaticamente endereços IP e outras configurações de rede às estações, eliminando a necessidade de configuração manual em cada dispositivo."
+    },
+    {
+        "id": "1873265",
+        "enunciado": "Dados os seguintes serviços SMTP, HTTP, NTP e SSH, marque a alternativa que apresenta suas respectivas portas padrão.",
+        "alternativas": {
+            "A": "25, 80, 123, 22.",
+            "B": "22, 80, 123, 25.",
+            "C": "123, 80, 23, 22.",
+            "D": "123, 80, 22, 25.",
+            "E": "22, 25, 80, 123."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As portas padrão para os serviços de rede mencionados são: SMTP (envio de e-mail) utiliza a porta 25; HTTP (navegação web) usa a porta 80; NTP (sincronização de tempo) a porta 123; e SSH (acesso remoto seguro) a porta 22."
+    },
+    {
+        "id": "1882121",
+        "enunciado": "Um protocolo da camada de aplicação tem como objetivo definir processos de uma aplicação que passam mensagens entre si e, por isso, funcionam em sistemas finais diferentes. O protocolo de camada de aplicação define",
+        "alternativas": {
+            "A": "as mensagens trocadas, por exemplo, de carga de trabalho e solução.",
+            "B": "a sintaxe dos vários tipos de mensagens e a semântica dos campos.",
+            "C": "as regras para o processamento do destinatário, que organiza o sequenciamento da mensagem.",
+            "D": "a padronização do tamanho dos campos de cada aplicação para o envio das mensagens."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um protocolo de camada de aplicação define a sintaxe das mensagens, ou seja, a estrutura e os campos que as compõem, e a semântica, que é o significado desses campos."
+    },
+    {
+        "id": "1882123",
+        "enunciado": "Em conexões persistentes do HTTP, um cálculo simples para estimar o tempo que transcorre entre a requisição e o reconhecimento de um arquivo-base HTTP por um cliente é conhecido por tempo de",
+        "alternativas": {
+            "A": "round robin.",
+            "B": "retorno do hash.",
+            "C": "viagem de ida e volta.",
+            "D": "cálculo de perda de pacotes."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O tempo de viagem de ida e volta (Round-Trip Time - RTT) é uma métrica que estima o tempo transcorrido entre o envio de uma requisição e o recebimento do reconhecimento de um arquivo-base HTTP."
+    },
+    {
+        "id": "1356535",
+        "enunciado": "Indique a seguir como é conhecido o protocolo que permite a um computador receber automaticamente um endereço IP dispensando, assim, que o administrador da rede insira esse endereço diretamente no computador cliente.",
+        "alternativas": {
+            "A": "DHCP",
+            "B": "ICMP",
+            "C": "IP",
+            "D": "UDP"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "DHCP (Dynamic Host Configuration Protocol) é o protocolo responsável pela atribuição automática de endereços IP e outras configurações de rede aos clientes, dispensando configuração manual."
+    },
+    {
+        "id": "1356540",
+        "enunciado": "O recurso cliente/servidor especificado na RFC 1034 e RFC 1035, que pode ser utilizado para realizar a distribuição de cargas de processamento entre servidores é conhecido como",
+        "alternativas": {
+            "A": "CNAME",
+            "B": "DNS",
+            "C": "UDP",
+            "D": "TCP"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "DNS (Domain Name System) é um sistema distribuído que traduz nomes de domínio legíveis por humanos em endereços IP e vice-versa. Permite também o balanceamento de carga através de registros como A e CNAME."
+    },
+    {
+        "id": "1356548",
+        "enunciado": "Qual endereço abaixo pertence a uma rede classe A ao se utilizar a numeração baseada em IP?",
+        "alternativas": {
+            "A": "125.0.0.1",
+            "B": "127.0.0.1",
+            "C": "129.0.0.1",
+            "D": "192.168.0.1"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Redes Classe A em IP utilizam o primeiro octeto para identificar a rede, com faixas de 0 a 127. O endereço 125.0.0.1 se encaixa nessa faixa."
+    },
+    {
+        "id": "1356550",
+        "enunciado": "Indique a informação no cabeçalho do datagrama que deveria ser observada pelo roteador para descartá-lo impedindo-o de vagar para sempre na internet, após não encontrar seu destino no tempo programado.",
+        "alternativas": {
+            "A": "Destination fail",
+            "B": "Datagram error",
+            "C": "Router advertisement",
+            "D": "Time to live"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O campo Time to Live (TTL) em um datagrama IP é decrementado a cada salto (hop) do roteador. Quando atinge zero, o datagrama é descartado, impedindo seu loop eterno."
+    }
+]

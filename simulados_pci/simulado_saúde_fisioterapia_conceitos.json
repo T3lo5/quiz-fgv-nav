@@ -1,0 +1,888 @@
+[
+    {
+        "id": "1865486",
+        "enunciado": "A acupuntura, utilizada na reabilitação fisioterapêutica, envolve estímulos em locais específicos que regulam o fluxo de energia e potencializam alívios de dores crônicas. Assinale a alternativa CORRETA :",
+        "alternativas": {
+            "A": "A aplicação de agulhas em pontos estratégicos promove liberações endógenas que equilibram neurotransmissores e reduzem processos dolorosos.",
+            "B": "A corrente elétrica em áreas de acupuntura anula os efeitos de analgesia, impedindo reflexos sistêmicos associados aos receptores nociceptivos.",
+            "C": "A definição dos pontos segue protocolo fixo para qualquer pessoa, pois não existe variação no limiar de dor ou nas necessidades individuais.",
+            "D": "A técnica se restringe a faixas compressivas, descartando estímulos invasivos para desencadear respostas neurofisiológicas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A acupuntura atua via estímulos em pontos específicos, promovendo a liberação de substâncias endógenas que modulam neurotransmissores e reduzem a percepção da dor."
+    },
+    {
+        "id": "2248634",
+        "enunciado": "Qual das seguintes correntes é considerada a mais confortável para o tratamento da dor lombar crônica inespecífica devido ao seu burst ajustado em curta duração?",
+        "alternativas": {
+            "A": "Microcorrente.",
+            "B": "Corrente gerada por TENS.",
+            "C": "Corrente aussie (CA).",
+            "D": "Corrente interferencial."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A corrente aussie (CA), com seu burst ajustado em curta duração, é considerada mais confortável para o tratamento da dor lombar crônica inespecífica."
+    },
+    {
+        "id": "2333407",
+        "enunciado": "O ultrassom terapêutico é uma modalidade que utiliza ondas sonoras de alta frequência para produzir efeitos térmicos e não térmicos nos tecidos biológicos. Assinale a alternativa CORRETA sobre os princípios biofísicos desse recurso.",
+        "alternativas": {
+            "A": "O ultrassom terapêutico gera calor através da indução eletromagnética, não necessitando de meio de acoplamento (gel) para a transmissão da onda.",
+            "B": "A cavitação instável é o principal objetivo terapêutico do ultrassom, pois promove a implosão segura das células adiposas sem riscos de danos teciduais.",
+            "C": "O efeito piezoelétrico reverso ocorre no transdutor, convertendo corrente elétrica em onda mecânica, e a cavitação estável é um efeito não térmico desejável.",
+            "D": "A frequência de 3 MHz penetra mais profundamente nos tecidos (até 5 cm) sendo indicada para estruturas profundas, enquanto a frequência de 1 MHz é superficial."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está correta. O efeito piezoelétrico reverso converte energia elétrica em mecânica, e a cavitação estável promove efeitos terapêuticos não térmicos. A alternativa A está incorreta pois precisa de gel. A B está incorreta pois cavitação instável não é o principal objetivo. A D tem a penetração invertida (1 MHz é mais profundo que 3 MHz)."
+    },
+    {
+        "id": "2333410",
+        "enunciado": "O Conceito Maitland é uma abordagem de terapia manual que utiliza movimentos passivos oscilatórios para tratamento de dor e rigidez articular. Assinale a alternativa CORRETA sobre a graduação das mobilizações (Graus I a IV).",
+        "alternativas": {
+            "A": "O Grau V de Maitland refere-se à cirurgia ortopédica, não sendo um recurso de terapia manual utilizado por fisioterapeutas.",
+            "B": "Os Graus I e II são oscilações realizadas no início da amplitude de movimento, indicadas principalmente para alívio da dor.",
+            "C": "O Grau I é uma manipulação de alta velocidade e baixa amplitude (thrust) realizada no final do arco de movimento para quebrar aderências.",
+            "D": "Os Graus III e IV são utilizados exclusivamente para redução da dor aguda, pois são movimentos suaves que não atingem o final da amplitude articular."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os Graus I e II de Maitland são oscilações de pequena amplitude realizadas no início do arco de movimento, ideais para alívio da dor. O Grau V é uma manipulação de alta velocidade e baixa amplitude (thrust), não cirurgia. Graus III e IV são para mobilizar em amplitude maior, não apenas dor aguda."
+    },
+    {
+        "id": "1857662",
+        "enunciado": "Sobre a Fisioterapia e o fisioterapeuta, analise as afirmativas abaixo e marque a INCORRETA.",
+        "alternativas": {
+            "A": "A fisioterapia pode ser definida como a ciência da saúde que estuda, previne e trata os distúrbios cinéticos funcionais intercorrentes em órgãos e sistemas do corpo humano, gerados por alterações genéticas, por traumas e por doenças adquiridas.",
+            "B": "O fisioterapeuta presta assistência ao ser humano, tanto no plano individual quanto coletivo, participando da promoção da saúde, prevenção de agravos, tratamento e recuperação da sua saúde e cuidados paliativos.",
+            "C": "As ações da fisioterapia são sistematizadas apenas por meio do estudo da biologia e da biofísica.",
+            "D": "A intervenção do fisioterapeuta compreende técnicas e abordagens terapêuticas para promover a recuperação, prevenção e melhoria da função física, mobilidade e qualidade de vida de indivíduos com condições de saúde variadas.",
+            "E": "A base das ações do fisioterapeuta concentra-se em avaliação, diagnóstico, prevenção e tratamento de distúrbios do movimento e funcionalidade do corpo humano."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A fisioterapia se baseia em diversas áreas da ciência, não apenas biologia e biofísica. A afirmativa incorreta é a que limita a sistematização das ações terapêuticas a essas duas disciplinas."
+    },
+    {
+        "id": "2333423",
+        "enunciado": "O alongamento muscular é uma intervenção fundamental na cinesioterapia para recuperar ou manter a flexibilidade e a amplitude de movimento. Analise as afirmativas a seguir sobre os tipos de alongamento:\nI. O alongamento balístico utiliza movimentos rítmicos e rápidos de rebote, mas apresenta maior risco de lesão muscular e ativação do reflexo miotático, sendo menos utilizado na reabilitação clínica de idosos ou sedentários.\nII. A técnica de Facilitação Neuromuscular Proprioceptiva (FNP), como o \"contrair-relaxar\", utiliza a inibição autogênica através da contração isométrica do músculo encurtado antes do alongamento passivo para ganhar maior amplitude.\nIII. O alongamento estático consiste em manter o músculo em posição alongada por um período (geralmente 15 a 60 segundos), sendo considerado seguro e eficaz para reduzir a rigidez passiva sem ativar fortemente o fuso muscular.\nEstá correto o que se afirma em:",
+        "alternativas": {
+            "A": "I, II e III.",
+            "B": "I e II apenas.",
+            "C": "III apenas.",
+            "D": "II e III apenas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Todas as afirmativas estão corretas. O alongamento balístico apresenta riscos, a FNP usa a contração para aumentar a amplitude, e o alongamento estático é seguro e eficaz para reduzir rigidez."
+    },
+    {
+        "id": "2331701",
+        "enunciado": "Sobre o conceito de multidimensional que envolve a estabilidade locomotora, essa é tida como:",
+        "alternativas": {
+            "A": "A capacidade de manter o equilíbrio postural durante uma posição estática antes do movimento iniciar.",
+            "B": "A capacidade de controlar o desequilíbrio postural durante a marcha, sem mudar de uma postura ou posição para outra.",
+            "C": "A capacidade de controlar o equilíbrio postural durante a marcha e ao mudar de uma postura ou posição para outra, como ao passar de sentado para em pé.",
+            "D": "A capacidade de manter o equilíbrio postural durante a marcha e na intenção de mudar de uma postura ou posição para outra, no planejamento do movimento.",
+            "E": "A mudança do equilíbrio postural durante a marcha e o descontrole pré-movimento, como ao passar de sentado para em pé."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Estabilidade locomotora, em seu conceito multidimensional, refere-se à capacidade de controlar o equilíbrio postural durante a marcha e ao realizar transições posturais, como levantar-se. É a manutenção ou recuperação do equilíbrio antecipatório e reativo."
+    },
+    {
+        "id": "2253021",
+        "enunciado": "Sobre os tipos de contração muscular, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "A ação muscular excêntrica ocorre quando um peso está sendo elevado e os músculos estão se encurtando.",
+            "B": "A ação muscular isométrica refere-se à força exercida gerando movimento em uma articulação.",
+            "C": "A ação muscular concêntrica ocorre quando um peso está sendo elevado e os músculos estão se encurtando.",
+            "D": "A ação muscular isotônica são contrações concêntricas e excêntricas e se refere a oscilação da tensão produzida pelo grupo muscular com a resistência constante.",
+            "E": "A ação muscular concêntrica ocorre quando uma força está sendo gerada e o músculo está se alongando."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A contração muscular concêntrica ocorre quando o músculo se encurta enquanto gera força para mover uma carga, como ocorreu ao elevar um peso. A alternativa C descreve corretamente este tipo de contração."
+    },
+    {
+        "id": "1534488",
+        "enunciado": "Em relação ao caso, são feitas as seguintes afirmativas: I- O treinamento resistido pode aumentar a densidade mineral óssea, sendo benéfico para indivíduos com osteopenia. II- Exercícios resistidos são contraindicados para pessoas com problemas cardiovasculares, devido ao aumento da pressão arterial durante o exercício. III- A prática regular de exercícios resistidos pode melhorar a saúde metabólica e reduzir o risco de diabetes tipo 2. IV- Os benefícios do treinamento resistido são limitados apenas ao aumento da força muscular, sem impacto na saúde óssea ou metabólica. É CORRETO o que se afirma apenas em:",
+        "alternativas": {
+            "A": "I e II.",
+            "B": "I e III.",
+            "C": "I, II e III.",
+            "D": "II, III e IV.",
+            "E": "II e IV."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I está correta, pois o treinamento resistido melhora a densidade mineral óssea. A afirmativa II está incorreta; com acompanhamento, exercícios resistidos podem ser benéficos para alguns problemas cardiovasculares. A afirmativa III está correta, melhorando a saúde metabólica. A afirmativa IV está incorreta, pois os benefícios vão além da força muscular."
+    },
+    {
+        "id": "1558920",
+        "enunciado": "É importante que os participantes dos esportes tomem as devidas precauções para evitar lesões relacionadas à prática. Usar o equipamento de proteção adequado, aquecimento antes do exercício e seguir os protocolos de segurança são algumas das medidas que podem ser tomadas para reduzir o risco de lesões relacionadas com o esporte. Além disso, compreender os sinais de aviso de lesões e saber como responder no caso de ocorrer uma lesão pode ajudar a manter as atividades esportivas seguras para todos os envolvidos. Receber pronta atenção profissional quando necessário também é essencial para minimizar os efeitos duradouros ou seguir com a reabilitação de lesões esportivas. Pode afirmar que o principal objetivo da fisioterapia na fase aguda de uma lesão esportiva seria:",
+        "alternativas": {
+            "A": "Aumentar a ADM.",
+            "B": "Controlar a inflamação e a dor.",
+            "C": "Estimular força e circulação.",
+            "D": "Propriocepção."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na fase aguda de uma lesão esportiva, o foco principal da fisioterapia é controlar o processo inflamatório e aliviar a dor, a fim de criar um ambiente propício para a recuperação tecidual e funcional sem agravar o quadro inicial."
+    },
+    {
+        "id": "1240522",
+        "enunciado": "Assinale corretamente o método que se refere ao uso terapêutico de frio sobre o corpo, através de diferentes técnicas, como bolsas de gelo, compressas frias e banhos de contrastes.",
+        "alternativas": {
+            "A": "Termoterapia.",
+            "B": "Crioterapia.",
+            "C": "Termicoterapia.",
+            "D": "Bioterapia."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Crioterapia é o termo técnico que descreve o uso terapêutico do frio. Termoterapia foca no calor, e os outros termos não se referem diretamente a essa prática."
+    },
+    {
+        "id": "1240523",
+        "enunciado": "Assinale a assertiva que o método que consiste na aplicação terapêutica de calor sobre o corpo, utilizando diversas fontes, como bolsas de água quente, compressas quentes, banhos de imersão e aparelhos de diatermia.",
+        "alternativas": {
+            "A": "Crioterapia.",
+            "B": "Massageoterapia.",
+            "C": "Térmicoterapia.",
+            "D": "Termoterapia."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Termoterapia é o termo médico que descreve o uso terapêutico do calor. As opções apresentadas como bolsas de água quente e diatermia são métodos de aplicação deste tipo de terapia."
+    },
+    {
+        "id": "1240524",
+        "enunciado": "Assinale corretamente o método terapêutico que consiste na aplicação de diferentes técnicas de manipulação dos tecidos moles do corpo, como músculos, tendões e ligamentos, com o objetivo de promover relaxamento, alívio da dor, melhora da circulação sanguínea, redução de tensões musculares e estímulo do sistema linfático.",
+        "alternativas": {
+            "A": "Eletroterapia.",
+            "B": "Massagem.",
+            "C": "Fisiopatologia.",
+            "D": "Terapia intensiva."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A massagem é o método terapêutico que envolve a manipulação de tecidos moles do corpo para obter diversos benefícios, como relaxamento e alívio da dor."
+    },
+    {
+        "id": "1240525",
+        "enunciado": "A análise da marcha visa compreender os padrões de movimento durante a locomoção humana, identificando possíveis disfunções, desequilíbrios musculares, ou problemas biomecânicos que possam causar dor ou comprometer a função. A análise da marcha pode ser dividida em fases, assinale a assertiva que não representa uma dessas fases.",
+        "alternativas": {
+            "A": "contato inicial",
+            "B": "apoio médio",
+            "C": "pré-balanço",
+            "D": "apoio de divisão."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A fase de 'apoio de divisão' não é uma fase reconhecida na análise da marcha. As fases principais geralmente incluem contato inicial, apoio médio, apoio terminal e pré-balanço."
+    },
+    {
+        "id": "1264958",
+        "enunciado": "Na literatura, existem algumas posturas características encontradas em pacientes neurológicos. A postura Wernicke-Mann está CORRET AMENTE descrita em qual alternativa?",
+        "alternativas": {
+            "A": "Na posição em pé, membro superior comprometido em ﬂexão e pronação, e o membro inferior homolateral em hiperextensão com o pé em equino.",
+            "B": "Caracteriza-se pela inclinação anterior de cabeça e tronco, membros superiores ﬂexionados e os dedos em posição de pinça com característico tremor de repouso.",
+            "C": "Postura ﬂexora dos membros superiores e extensora dos membros inferiores.",
+            "D": "Hiperextensão com tendência à pronação dos quatro membros.",
+            "E": "Caracterizada pela acentuação da lordose lombar , hipertroﬁa das panturrilhas e saliência das escápulas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A postura de Wernicke-Mann, associada a lesões na via piramidal, classicamente descreve flexão e pronação do membro superior, e hiperextensão com pé equino do membro inferior homolateral. As outras descrições se referem a outras posturas neurológicas."
+    },
+    {
+        "id": "1240526",
+        "enunciado": "Assinale a assertiva que representa corretamente uma habilidade fundamental para a independência e a autonomia das pessoas em suas atividades diárias, sendo essencial para a realização de tarefas simples ou complexas, desde a locomoção dentro de casa até atividades mais exigentes, como caminhar em diferentes superfícies ou terrenos.",
+        "alternativas": {
+            "A": "Anestesia.",
+            "B": "Deambulação.",
+            "C": "Motorização.",
+            "D": "Habilitação."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Deambulação refere-se ao ato de caminhar, sendo essencial para a mobilidade e autonomia nas atividades diárias de uma pessoa."
+    },
+    {
+        "id": "1240527",
+        "enunciado": "Após lesões ortopédicas, como fraturas, entorses, lesões ligamentares ou cirurgias, geralmente é recomendada uma determinada técnica terapêutica para ajudar na recuperação da função musculoesquelética, proporcionando suporte de peso reduzido e permitindo uma gama mais ampla de movimentos. Assinale a assertiva que apresenta a técnica a ser utilizada.",
+        "alternativas": {
+            "A": "Massoterapia.",
+            "B": "Eletroterapia.",
+            "C": "Hidroterapia.",
+            "D": "Semiologia."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Hidroterapia utiliza a água para promover suporte de peso reduzido, permitindo maior amplitude de movimento e auxiliando na recuperação da função musculoesquelética após lesões ou cirurgias."
+    },
+    {
+        "id": "1240528",
+        "enunciado": "Assinale corretamente o procedimento fisioterapêutico que utiliza ondas sonoras de alta frequência para gerar calor nos tecidos profundos do corpo, promovendo o alívio da dor, aumento da circulação sanguínea, relaxamento muscular e facilitação da cicatrização tecidual.",
+        "alternativas": {
+            "A": "Terapia manual.",
+            "B": "Ultrassom.",
+            "C": "Exercícios.",
+            "D": "Massoterapia."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O ultrassom terapêutico utiliza ondas sonoras de alta frequência para promover efeitos térmicos e mecânicos nos tecidos, visando alívio da dor, melhora da circulação e cicatrização."
+    },
+    {
+        "id": "1532392",
+        "enunciado": "Qual dos seguintes métodos é considerado mais eficaz na redução da dor muscular tardia após exercícios intensos?",
+        "alternativas": {
+            "A": "Crioterapia",
+            "B": "Hidroterapia",
+            "C": "Liberação miofascial",
+            "D": "Bandagens funcionais",
+            "E": "Compressão intermitente"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A liberacao miofascial e um metodo reconhecido por atuar diretamente nas fascias musculares, auxiliando na recuperacao e reducao de dores apos exercicios intensos, alem de melhorar a amplitude de movimento."
+    },
+    {
+        "id": "1532394",
+        "enunciado": "No contexto da mobilização neural, qual das alternativas descreve melhor a técnica de deslizamento?",
+        "alternativas": {
+            "A": "Manipulação rápida e profunda das articulações",
+            "B": "Estiramento passivo dos músculos em um padrão específico",
+            "C": "Movimentação suave do nervo enquanto o músculo está em contração",
+            "D": "Movimentação do nervo sem o alongamento do músculo",
+            "E": "Pressão constante sobre os pontos-gatilhos"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O deslizamento neural visa mobilizar o nervo ao longo de seu trajeto, sem provocar estiramento muscular. A ideia é promover o livre deslizamento do tecido neural, removendo aderências ou restrições."
+    },
+    {
+        "id": "1470441",
+        "enunciado": "O estudo da Cinesiologia tem com o enfoque a análise dos movimentos do Corpo Humano sob o ponto de vista físico, os movimentos acontecem sobre nosso corpo, pela ação muscular, porém somente através do estudo cinesiológico conhecemos as forças que atuam sobre nosso corpo. O estudo abrange tanto a estrutura esquelética quanto muscular. Os ossos possuem diferentes tamanhos e formas, principalmente nas articulações, favorecendo ou limitando o movimento. Os músculos variam em tamanho, forma e estrutura de uma parte do corpo para outra, encontra dos mais de 600 músculos em todo o corpo humano. Rotação Esquerda e Direita: Rotação Medial, Rotação Lateral, Pronação e Supinação, estão relacionados com:",
+        "alternativas": {
+            "A": "Planos de Orientação do Corpo.",
+            "B": "Eixos de Movimentos do Corpo.",
+            "C": "Plano Sagital.",
+            "D": "Plano Frontal.",
+            "E": "Plano transverso."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Rotação esquerda/direita, medial/lateral, pronação e supinação são movimentos que ocorrem em torno de eixos, e não em planos. Portanto, estão relacionados aos Eixos de Movimentos do Corpo."
+    },
+    {
+        "id": "1127028",
+        "enunciado": "Ao se fazer a avaliação do tônus muscular, o profissional pode classifica-lo com uma das denominações listadas nas alternativas a seguir, à exceção de uma. Assinale-a.",
+        "alternativas": {
+            "A": "hipotônico",
+            "B": "eutônico",
+            "C": "diatrófico",
+            "D": "espástico"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Hipotônico (baixo tônus), eutônico (tônus normal) e espástico (aumento anormal do tônus) são classificações válidas para o tônus muscular. Diatrófico não é uma terminologia utilizada para descrever tônus muscular."
+    },
+    {
+        "id": "1532404",
+        "enunciado": "O que se entende por ‘pontos-gatilhos’ na terapia miofascial?",
+        "alternativas": {
+            "A": "Áreas de inflamação no tecido muscular",
+            "B": "Zonas de dor referida em músculos e fáscias",
+            "C": "Ponto de origem de movimentos articulares",
+            "D": "Áreas de hipertonia muscular",
+            "E": "Localizações de lesões agudas"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na terapia miofascial, 'pontos-gatilhos' sao considerados zonas especificas de dor nos musculos e fascias que, ao serem estimuladas, podem referir dor para outras partes do corpo."
+    },
+    {
+        "id": "1269239",
+        "enunciado": "O tipo de contração muscular em que o torque de força externa vence o torque de força muscular, fazendo com que o músculo retorne ao seu comprimento da posição inicial do movimento, é:",
+        "alternativas": {
+            "A": "concêntrica",
+            "B": "excêntrica",
+            "C": "isométrica",
+            "D": "elastância"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A contração excêntrica ocorre quando a força externa é maior que a muscular, forçando o músculo a alongar, retornando ao comprimento inicial."
+    },
+    {
+        "id": "1265595",
+        "enunciado": "Existem maneiras para avaliar a manifestação da força muscular, EXCETO:",
+        "alternativas": {
+            "A": "Força direcionada.",
+            "B": "Potência.",
+            "C": "Resistência.",
+            "D": "Força máxima."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Força direcionada não é um termo comum para avaliar a manifestação da força muscular. Potência, resistência e força máxima são métodos validados para essa avaliação."
+    },
+    {
+        "id": "1896160",
+        "enunciado": "Com base na a escala do Medical Research Council (MRC) para movimentos de membro inferior, é CORRETO afirmar que, para flexão de quadril deve-se solicitar ao paciente que eleve o quadril até 90° de flexão, com o joelho flexionado; caso consiga (grau 3), aplica-se a resistência na extremidade distal do joelho, com o quadril a:",
+        "alternativas": {
+            "A": "90°.",
+            "B": "60°.",
+            "C": "30°.",
+            "D": "45°."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Ao testar o Grau 3 da MRC para flexão de quadril, a resistência é aplicada com o membro em 90° de flexão, mantendo a posição contra a força aplicada."
+    },
+    {
+        "id": "1031067",
+        "enunciado": "A fisioterapia utiliza de meios físicos para tratamento de inúmeros acometimentos fisiopatológicos que possam acometer o ser humano. Um recurso terapêutico que é amplamente usado é a termoterapia. As modalidades de agentes termoterapêuticos se dividem em condução, convecção, radiação ou irradiação ou conversão. Os recursos que caracterizam a convecção é:",
+        "alternativas": {
+            "A": "Compressas, bolsas, parafina.",
+            "B": "Duchas, saunas.",
+            "C": "Infravermelho, forno de Bier, estufas.",
+            "D": "Radiofrequência, ondas curtas, microondas, ultrassom."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Duchas e saunas utilizam o calor transmitido pelo movimento do ar ou líquido, caracterizando a convecção."
+    },
+    {
+        "id": "1389742",
+        "enunciado": "Analise as afirmativas a seguir considerando a definição e indicação de tratamento em marchas patológicas. Podemos afirmar que: I. Na marcha escarvante ocorre alteração ou incapacidade de controlar a dorsiflexão do tornozelo para o toque do calcanhar no solo e fase de balanço. II. A marcha escarvante está relacionada à lesão do nervo fibular, fraqueza dos músculos dorsiflexores, diminuição da amplitude de movimentação (ADM) ou equino. III. O tratamento fisioterapêutico da marcha escarvante contempla fortalecimento dos músculos extensores, alongamentos dos plantiflexores, prescrição de órtese KAFO. IV. A ação determinante da marcha em Trendelenburg é a fraqueza ou lesão do glúteo máximo, médio e mínimo. V. O tratamento fisioterapêutico da marcha em tesoura da Paralisia Cerebral (PC) contempla alongamentos, fortalecimento global, posicionamento, modulação do tônus, diminuição da espasticidade. Estão corretas as afirmativas:",
+        "alternativas": {
+            "A": "I, II, III e IV, apenas",
+            "B": "II, III e IV, apenas",
+            "C": "I, II, III, IV e V",
+            "D": "I, III e V, apenas",
+            "E": "I, II e V, apenas"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Afirmativas I, II, III, IV e V estão corretas. A marcha escarvante apresenta dificuldade na dorsiflexão. O nervo fibular é implicado. O tratamento fisioterapêutico envolve fortalecimento extensivo e órtese. A marcha de Trendelenburg se relaciona com fraqueza glútea. O tratamento da marcha tesoura em PC abrange alongamentos e controle do tônus."
+    },
+    {
+        "id": "1389745",
+        "enunciado": "Analise as afirmativas a seguir. O exercício terapêutico é fundamental para melhorar a função, reduzir incapacidades e limitações funcionais. Esses exercícios, quando bem indicados podem: I. desordenar ou prevenir deficiências. II. aprimorar, restaurar ou aumentar a função. III. agravar ou potencializar fatores de risco. IV. otimizar a saúde global. V. melhorar a aptidão e bem-estar. Estão corretas as afirmativas:",
+        "alternativas": {
+            "A": "II, IV e V, apenas",
+            "B": "I, II e III, apenas",
+            "C": "I, II, III, IV e V",
+            "D": "III, IV e V, apenas",
+            "E": "I e III, apenas"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Exercícios terapêuticos visam melhorar a função e reduzir incapacidades (II, IV, V). Podem prevenir deficiências (I), mas não agravar fatores de risco (III é falsa)."
+    },
+    {
+        "id": "2222152",
+        "enunciado": "A massagem no tecido adiposo tem seu benefício por:",
+        "alternativas": {
+            "A": "exercer pressão mecânica, gerar calor e hiperemia, ativar as células de gordura, causando um maior gasto energético.",
+            "B": "exercer pressão mecânica, gerar calor e hiperemia, ativar as células de gordura, causando um menor gasto energético.",
+            "C": "exercer pressão térmica, gerar calor e hiperemia, ativar as células de gordura, causando um menor gasto energético.",
+            "D": "exercer pressão mecânica, reduzir calor e hiperemia, ativar as células de gordura, causando um menor gasto energético."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A massagem no tecido adiposo, ao exercer pressão mecânica e gerar calor, aumenta a circulação local (hiperemia), podendo ativar o metabolismo das células de gordura e contribuir para um maior gasto energético, auxiliando na redução de gordura localizada."
+    },
+    {
+        "id": "1865486",
+        "enunciado": "A acupuntura, utilizada na reabilitação fisioterapêutica, envolve estímulos em locais específicos que regulam o fluxo de energia e potencializam alívios de dores crônicas. Assinale a alternativa CORRETA :",
+        "alternativas": {
+            "A": "A aplicação de agulhas em pontos estratégicos promove liberações endógenas que equilibram neurotransmissores e reduzem processos dolorosos.",
+            "B": "A corrente elétrica em áreas de acupuntura anula os efeitos de analgesia, impedindo reflexos sistêmicos associados aos receptores nociceptivos.",
+            "C": "A definição dos pontos segue protocolo fixo para qualquer pessoa, pois não existe variação no limiar de dor ou nas necessidades individuais.",
+            "D": "A técnica se restringe a faixas compressivas, descartando estímulos invasivos para desencadear respostas neurofisiológicas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A acupuntura atua via estímulos em pontos específicos, promovendo a liberação de substâncias endógenas que modulam neurotransmissores e reduzem a percepção da dor."
+    },
+    {
+        "id": "2248634",
+        "enunciado": "Qual das seguintes correntes é considerada a mais confortável para o tratamento da dor lombar crônica inespecífica devido ao seu burst ajustado em curta duração?",
+        "alternativas": {
+            "A": "Microcorrente.",
+            "B": "Corrente gerada por TENS.",
+            "C": "Corrente aussie (CA).",
+            "D": "Corrente interferencial."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A corrente aussie (CA), com seu burst ajustado em curta duração, é considerada mais confortável para o tratamento da dor lombar crônica inespecífica."
+    },
+    {
+        "id": "2333407",
+        "enunciado": "O ultrassom terapêutico é uma modalidade que utiliza ondas sonoras de alta frequência para produzir efeitos térmicos e não térmicos nos tecidos biológicos. Assinale a alternativa CORRETA sobre os princípios biofísicos desse recurso.",
+        "alternativas": {
+            "A": "O ultrassom terapêutico gera calor através da indução eletromagnética, não necessitando de meio de acoplamento (gel) para a transmissão da onda.",
+            "B": "A cavitação instável é o principal objetivo terapêutico do ultrassom, pois promove a implosão segura das células adiposas sem riscos de danos teciduais.",
+            "C": "O efeito piezoelétrico reverso ocorre no transdutor, convertendo corrente elétrica em onda mecânica, e a cavitação estável é um efeito não térmico desejável.",
+            "D": "A frequência de 3 MHz penetra mais profundamente nos tecidos (até 5 cm) sendo indicada para estruturas profundas, enquanto a frequência de 1 MHz é superficial."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está correta. O efeito piezoelétrico reverso converte energia elétrica em mecânica, e a cavitação estável promove efeitos terapêuticos não térmicos. A alternativa A está incorreta pois precisa de gel. A B está incorreta pois cavitação instável não é o principal objetivo. A D tem a penetração invertida (1 MHz é mais profundo que 3 MHz)."
+    },
+    {
+        "id": "2333410",
+        "enunciado": "O Conceito Maitland é uma abordagem de terapia manual que utiliza movimentos passivos oscilatórios para tratamento de dor e rigidez articular. Assinale a alternativa CORRETA sobre a graduação das mobilizações (Graus I a IV).",
+        "alternativas": {
+            "A": "O Grau V de Maitland refere-se à cirurgia ortopédica, não sendo um recurso de terapia manual utilizado por fisioterapeutas.",
+            "B": "Os Graus I e II são oscilações realizadas no início da amplitude de movimento, indicadas principalmente para alívio da dor.",
+            "C": "O Grau I é uma manipulação de alta velocidade e baixa amplitude (thrust) realizada no final do arco de movimento para quebrar aderências.",
+            "D": "Os Graus III e IV são utilizados exclusivamente para redução da dor aguda, pois são movimentos suaves que não atingem o final da amplitude articular."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os Graus I e II de Maitland são oscilações de pequena amplitude realizadas no início do arco de movimento, ideais para alívio da dor. O Grau V é uma manipulação de alta velocidade e baixa amplitude (thrust), não cirurgia. Graus III e IV são para mobilizar em amplitude maior, não apenas dor aguda."
+    },
+    {
+        "id": "1857662",
+        "enunciado": "Sobre a Fisioterapia e o fisioterapeuta, analise as afirmativas abaixo e marque a INCORRETA.",
+        "alternativas": {
+            "A": "A fisioterapia pode ser definida como a ciência da saúde que estuda, previne e trata os distúrbios cinéticos funcionais intercorrentes em órgãos e sistemas do corpo humano, gerados por alterações genéticas, por traumas e por doenças adquiridas.",
+            "B": "O fisioterapeuta presta assistência ao ser humano, tanto no plano individual quanto coletivo, participando da promoção da saúde, prevenção de agravos, tratamento e recuperação da sua saúde e cuidados paliativos.",
+            "C": "As ações da fisioterapia são sistematizadas apenas por meio do estudo da biologia e da biofísica.",
+            "D": "A intervenção do fisioterapeuta compreende técnicas e abordagens terapêuticas para promover a recuperação, prevenção e melhoria da função física, mobilidade e qualidade de vida de indivíduos com condições de saúde variadas.",
+            "E": "A base das ações do fisioterapeuta concentra-se em avaliação, diagnóstico, prevenção e tratamento de distúrbios do movimento e funcionalidade do corpo humano."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A fisioterapia se baseia em diversas áreas da ciência, não apenas biologia e biofísica. A afirmativa incorreta é a que limita a sistematização das ações terapêuticas a essas duas disciplinas."
+    },
+    {
+        "id": "2333423",
+        "enunciado": "O alongamento muscular é uma intervenção fundamental na cinesioterapia para recuperar ou manter a flexibilidade e a amplitude de movimento. Analise as afirmativas a seguir sobre os tipos de alongamento:\nI. O alongamento balístico utiliza movimentos rítmicos e rápidos de rebote, mas apresenta maior risco de lesão muscular e ativação do reflexo miotático, sendo menos utilizado na reabilitação clínica de idosos ou sedentários.\nII. A técnica de Facilitação Neuromuscular Proprioceptiva (FNP), como o \"contrair-relaxar\", utiliza a inibição autogênica através da contração isométrica do músculo encurtado antes do alongamento passivo para ganhar maior amplitude.\nIII. O alongamento estático consiste em manter o músculo em posição alongada por um período (geralmente 15 a 60 segundos), sendo considerado seguro e eficaz para reduzir a rigidez passiva sem ativar fortemente o fuso muscular.\nEstá correto o que se afirma em:",
+        "alternativas": {
+            "A": "I, II e III.",
+            "B": "I e II apenas.",
+            "C": "III apenas.",
+            "D": "II e III apenas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Todas as afirmativas estão corretas. O alongamento balístico apresenta riscos, a FNP usa a contração para aumentar a amplitude, e o alongamento estático é seguro e eficaz para reduzir rigidez."
+    },
+    {
+        "id": "2331701",
+        "enunciado": "Sobre o conceito de multidimensional que envolve a estabilidade locomotora, essa é tida como:",
+        "alternativas": {
+            "A": "A capacidade de manter o equilíbrio postural durante uma posição estática antes do movimento iniciar.",
+            "B": "A capacidade de controlar o desequilíbrio postural durante a marcha, sem mudar de uma postura ou posição para outra.",
+            "C": "A capacidade de controlar o equilíbrio postural durante a marcha e ao mudar de uma postura ou posição para outra, como ao passar de sentado para em pé.",
+            "D": "A capacidade de manter o equilíbrio postural durante a marcha e na intenção de mudar de uma postura ou posição para outra, no planejamento do movimento.",
+            "E": "A mudança do equilíbrio postural durante a marcha e o descontrole pré-movimento, como ao passar de sentado para em pé."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Estabilidade locomotora, em seu conceito multidimensional, refere-se à capacidade de controlar o equilíbrio postural durante a marcha e ao realizar transições posturais, como levantar-se. É a manutenção ou recuperação do equilíbrio antecipatório e reativo."
+    },
+    {
+        "id": "2253021",
+        "enunciado": "Sobre os tipos de contração muscular, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "A ação muscular excêntrica ocorre quando um peso está sendo elevado e os músculos estão se encurtando.",
+            "B": "A ação muscular isométrica refere-se à força exercida gerando movimento em uma articulação.",
+            "C": "A ação muscular concêntrica ocorre quando um peso está sendo elevado e os músculos estão se encurtando.",
+            "D": "A ação muscular isotônica são contrações concêntricas e excêntricas e se refere a oscilação da tensão produzida pelo grupo muscular com a resistência constante.",
+            "E": "A ação muscular concêntrica ocorre quando uma força está sendo gerada e o músculo está se alongando."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A contração muscular concêntrica ocorre quando o músculo se encurta enquanto gera força para mover uma carga, como ocorreu ao elevar um peso. A alternativa C descreve corretamente este tipo de contração."
+    },
+    {
+        "id": "1534488",
+        "enunciado": "Em relação ao caso, são feitas as seguintes afirmativas: I- O treinamento resistido pode aumentar a densidade mineral óssea, sendo benéfico para indivíduos com osteopenia. II- Exercícios resistidos são contraindicados para pessoas com problemas cardiovasculares, devido ao aumento da pressão arterial durante o exercício. III- A prática regular de exercícios resistidos pode melhorar a saúde metabólica e reduzir o risco de diabetes tipo 2. IV- Os benefícios do treinamento resistido são limitados apenas ao aumento da força muscular, sem impacto na saúde óssea ou metabólica. É CORRETO o que se afirma apenas em:",
+        "alternativas": {
+            "A": "I e II.",
+            "B": "I e III.",
+            "C": "I, II e III.",
+            "D": "II, III e IV.",
+            "E": "II e IV."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I está correta, pois o treinamento resistido melhora a densidade mineral óssea. A afirmativa II está incorreta; com acompanhamento, exercícios resistidos podem ser benéficos para alguns problemas cardiovasculares. A afirmativa III está correta, melhorando a saúde metabólica. A afirmativa IV está incorreta, pois os benefícios vão além da força muscular."
+    },
+    {
+        "id": "1558920",
+        "enunciado": "É importante que os participantes dos esportes tomem as devidas precauções para evitar lesões relacionadas à prática. Usar o equipamento de proteção adequado, aquecimento antes do exercício e seguir os protocolos de segurança são algumas das medidas que podem ser tomadas para reduzir o risco de lesões relacionadas com o esporte. Além disso, compreender os sinais de aviso de lesões e saber como responder no caso de ocorrer uma lesão pode ajudar a manter as atividades esportivas seguras para todos os envolvidos. Receber pronta atenção profissional quando necessário também é essencial para minimizar os efeitos duradouros ou seguir com a reabilitação de lesões esportivas. Pode afirmar que o principal objetivo da fisioterapia na fase aguda de uma lesão esportiva seria:",
+        "alternativas": {
+            "A": "Aumentar a ADM.",
+            "B": "Controlar a inflamação e a dor.",
+            "C": "Estimular força e circulação.",
+            "D": "Propriocepção."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na fase aguda de uma lesão esportiva, o foco principal da fisioterapia é controlar o processo inflamatório e aliviar a dor, a fim de criar um ambiente propício para a recuperação tecidual e funcional sem agravar o quadro inicial."
+    },
+    {
+        "id": "1240522",
+        "enunciado": "Assinale corretamente o método que se refere ao uso terapêutico de frio sobre o corpo, através de diferentes técnicas, como bolsas de gelo, compressas frias e banhos de contrastes.",
+        "alternativas": {
+            "A": "Termoterapia.",
+            "B": "Crioterapia.",
+            "C": "Termicoterapia.",
+            "D": "Bioterapia."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Crioterapia é o termo técnico que descreve o uso terapêutico do frio. Termoterapia foca no calor, e os outros termos não se referem diretamente a essa prática."
+    },
+    {
+        "id": "1240523",
+        "enunciado": "Assinale a assertiva que o método que consiste na aplicação terapêutica de calor sobre o corpo, utilizando diversas fontes, como bolsas de água quente, compressas quentes, banhos de imersão e aparelhos de diatermia.",
+        "alternativas": {
+            "A": "Crioterapia.",
+            "B": "Massageoterapia.",
+            "C": "Térmicoterapia.",
+            "D": "Termoterapia."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Termoterapia é o termo médico que descreve o uso terapêutico do calor. As opções apresentadas como bolsas de água quente e diatermia são métodos de aplicação deste tipo de terapia."
+    },
+    {
+        "id": "1240524",
+        "enunciado": "Assinale corretamente o método terapêutico que consiste na aplicação de diferentes técnicas de manipulação dos tecidos moles do corpo, como músculos, tendões e ligamentos, com o objetivo de promover relaxamento, alívio da dor, melhora da circulação sanguínea, redução de tensões musculares e estímulo do sistema linfático.",
+        "alternativas": {
+            "A": "Eletroterapia.",
+            "B": "Massagem.",
+            "C": "Fisiopatologia.",
+            "D": "Terapia intensiva."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A massagem é o método terapêutico que envolve a manipulação de tecidos moles do corpo para obter diversos benefícios, como relaxamento e alívio da dor."
+    },
+    {
+        "id": "1240525",
+        "enunciado": "A análise da marcha visa compreender os padrões de movimento durante a locomoção humana, identificando possíveis disfunções, desequilíbrios musculares, ou problemas biomecânicos que possam causar dor ou comprometer a função. A análise da marcha pode ser dividida em fases, assinale a assertiva que não representa uma dessas fases.",
+        "alternativas": {
+            "A": "contato inicial",
+            "B": "apoio médio",
+            "C": "pré-balanço",
+            "D": "apoio de divisão."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A fase de 'apoio de divisão' não é uma fase reconhecida na análise da marcha. As fases principais geralmente incluem contato inicial, apoio médio, apoio terminal e pré-balanço."
+    },
+    {
+        "id": "1264958",
+        "enunciado": "Na literatura, existem algumas posturas características encontradas em pacientes neurológicos. A postura Wernicke-Mann está CORRET AMENTE descrita em qual alternativa?",
+        "alternativas": {
+            "A": "Na posição em pé, membro superior comprometido em ﬂexão e pronação, e o membro inferior homolateral em hiperextensão com o pé em equino.",
+            "B": "Caracteriza-se pela inclinação anterior de cabeça e tronco, membros superiores ﬂexionados e os dedos em posição de pinça com característico tremor de repouso.",
+            "C": "Postura ﬂexora dos membros superiores e extensora dos membros inferiores.",
+            "D": "Hiperextensão com tendência à pronação dos quatro membros.",
+            "E": "Caracterizada pela acentuação da lordose lombar , hipertroﬁa das panturrilhas e saliência das escápulas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A postura de Wernicke-Mann, associada a lesões na via piramidal, classicamente descreve flexão e pronação do membro superior, e hiperextensão com pé equino do membro inferior homolateral. As outras descrições se referem a outras posturas neurológicas."
+    },
+    {
+        "id": "1240526",
+        "enunciado": "Assinale a assertiva que representa corretamente uma habilidade fundamental para a independência e a autonomia das pessoas em suas atividades diárias, sendo essencial para a realização de tarefas simples ou complexas, desde a locomoção dentro de casa até atividades mais exigentes, como caminhar em diferentes superfícies ou terrenos.",
+        "alternativas": {
+            "A": "Anestesia.",
+            "B": "Deambulação.",
+            "C": "Motorização.",
+            "D": "Habilitação."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Deambulação refere-se ao ato de caminhar, sendo essencial para a mobilidade e autonomia nas atividades diárias de uma pessoa."
+    },
+    {
+        "id": "1240527",
+        "enunciado": "Após lesões ortopédicas, como fraturas, entorses, lesões ligamentares ou cirurgias, geralmente é recomendada uma determinada técnica terapêutica para ajudar na recuperação da função musculoesquelética, proporcionando suporte de peso reduzido e permitindo uma gama mais ampla de movimentos. Assinale a assertiva que apresenta a técnica a ser utilizada.",
+        "alternativas": {
+            "A": "Massoterapia.",
+            "B": "Eletroterapia.",
+            "C": "Hidroterapia.",
+            "D": "Semiologia."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Hidroterapia utiliza a água para promover suporte de peso reduzido, permitindo maior amplitude de movimento e auxiliando na recuperação da função musculoesquelética após lesões ou cirurgias."
+    },
+    {
+        "id": "1240528",
+        "enunciado": "Assinale corretamente o procedimento fisioterapêutico que utiliza ondas sonoras de alta frequência para gerar calor nos tecidos profundos do corpo, promovendo o alívio da dor, aumento da circulação sanguínea, relaxamento muscular e facilitação da cicatrização tecidual.",
+        "alternativas": {
+            "A": "Terapia manual.",
+            "B": "Ultrassom.",
+            "C": "Exercícios.",
+            "D": "Massoterapia."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O ultrassom terapêutico utiliza ondas sonoras de alta frequência para promover efeitos térmicos e mecânicos nos tecidos, visando alívio da dor, melhora da circulação e cicatrização."
+    },
+    {
+        "id": "1532392",
+        "enunciado": "Qual dos seguintes métodos é considerado mais eficaz na redução da dor muscular tardia após exercícios intensos?",
+        "alternativas": {
+            "A": "Crioterapia",
+            "B": "Hidroterapia",
+            "C": "Liberação miofascial",
+            "D": "Bandagens funcionais",
+            "E": "Compressão intermitente"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A liberacao miofascial e um metodo reconhecido por atuar diretamente nas fascias musculares, auxiliando na recuperacao e reducao de dores apos exercicios intensos, alem de melhorar a amplitude de movimento."
+    },
+    {
+        "id": "1532394",
+        "enunciado": "No contexto da mobilização neural, qual das alternativas descreve melhor a técnica de deslizamento?",
+        "alternativas": {
+            "A": "Manipulação rápida e profunda das articulações",
+            "B": "Estiramento passivo dos músculos em um padrão específico",
+            "C": "Movimentação suave do nervo enquanto o músculo está em contração",
+            "D": "Movimentação do nervo sem o alongamento do músculo",
+            "E": "Pressão constante sobre os pontos-gatilhos"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O deslizamento neural visa mobilizar o nervo ao longo de seu trajeto, sem provocar estiramento muscular. A ideia é promover o livre deslizamento do tecido neural, removendo aderências ou restrições."
+    },
+    {
+        "id": "1470441",
+        "enunciado": "O estudo da Cinesiologia tem com o enfoque a análise dos movimentos do Corpo Humano sob o ponto de vista físico, os movimentos acontecem sobre nosso corpo, pela ação muscular, porém somente através do estudo cinesiológico conhecemos as forças que atuam sobre nosso corpo. O estudo abrange tanto a estrutura esquelética quanto muscular. Os ossos possuem diferentes tamanhos e formas, principalmente nas articulações, favorecendo ou limitando o movimento. Os músculos variam em tamanho, forma e estrutura de uma parte do corpo para outra, encontra dos mais de 600 músculos em todo o corpo humano. Rotação Esquerda e Direita: Rotação Medial, Rotação Lateral, Pronação e Supinação, estão relacionados com:",
+        "alternativas": {
+            "A": "Planos de Orientação do Corpo.",
+            "B": "Eixos de Movimentos do Corpo.",
+            "C": "Plano Sagital.",
+            "D": "Plano Frontal.",
+            "E": "Plano transverso."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Rotação esquerda/direita, medial/lateral, pronação e supinação são movimentos que ocorrem em torno de eixos, e não em planos. Portanto, estão relacionados aos Eixos de Movimentos do Corpo."
+    },
+    {
+        "id": "1127028",
+        "enunciado": "Ao se fazer a avaliação do tônus muscular, o profissional pode classifica-lo com uma das denominações listadas nas alternativas a seguir, à exceção de uma. Assinale-a.",
+        "alternativas": {
+            "A": "hipotônico",
+            "B": "eutônico",
+            "C": "diatrófico",
+            "D": "espástico"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Hipotônico (baixo tônus), eutônico (tônus normal) e espástico (aumento anormal do tônus) são classificações válidas para o tônus muscular. Diatrófico não é uma terminologia utilizada para descrever tônus muscular."
+    },
+    {
+        "id": "1532404",
+        "enunciado": "O que se entende por ‘pontos-gatilhos’ na terapia miofascial?",
+        "alternativas": {
+            "A": "Áreas de inflamação no tecido muscular",
+            "B": "Zonas de dor referida em músculos e fáscias",
+            "C": "Ponto de origem de movimentos articulares",
+            "D": "Áreas de hipertonia muscular",
+            "E": "Localizações de lesões agudas"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na terapia miofascial, 'pontos-gatilhos' sao considerados zonas especificas de dor nos musculos e fascias que, ao serem estimuladas, podem referir dor para outras partes do corpo."
+    },
+    {
+        "id": "1269239",
+        "enunciado": "O tipo de contração muscular em que o torque de força externa vence o torque de força muscular, fazendo com que o músculo retorne ao seu comprimento da posição inicial do movimento, é:",
+        "alternativas": {
+            "A": "concêntrica",
+            "B": "excêntrica",
+            "C": "isométrica",
+            "D": "elastância"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A contração excêntrica ocorre quando a força externa é maior que a muscular, forçando o músculo a alongar, retornando ao comprimento inicial."
+    },
+    {
+        "id": "1265595",
+        "enunciado": "Existem maneiras para avaliar a manifestação da força muscular, EXCETO:",
+        "alternativas": {
+            "A": "Força direcionada.",
+            "B": "Potência.",
+            "C": "Resistência.",
+            "D": "Força máxima."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Força direcionada não é um termo comum para avaliar a manifestação da força muscular. Potência, resistência e força máxima são métodos validados para essa avaliação."
+    },
+    {
+        "id": "1896160",
+        "enunciado": "Com base na a escala do Medical Research Council (MRC) para movimentos de membro inferior, é CORRETO afirmar que, para flexão de quadril deve-se solicitar ao paciente que eleve o quadril até 90° de flexão, com o joelho flexionado; caso consiga (grau 3), aplica-se a resistência na extremidade distal do joelho, com o quadril a:",
+        "alternativas": {
+            "A": "90°.",
+            "B": "60°.",
+            "C": "30°.",
+            "D": "45°."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Ao testar o Grau 3 da MRC para flexão de quadril, a resistência é aplicada com o membro em 90° de flexão, mantendo a posição contra a força aplicada."
+    },
+    {
+        "id": "1031067",
+        "enunciado": "A fisioterapia utiliza de meios físicos para tratamento de inúmeros acometimentos fisiopatológicos que possam acometer o ser humano. Um recurso terapêutico que é amplamente usado é a termoterapia. As modalidades de agentes termoterapêuticos se dividem em condução, convecção, radiação ou irradiação ou conversão. Os recursos que caracterizam a convecção é:",
+        "alternativas": {
+            "A": "Compressas, bolsas, parafina.",
+            "B": "Duchas, saunas.",
+            "C": "Infravermelho, forno de Bier, estufas.",
+            "D": "Radiofrequência, ondas curtas, microondas, ultrassom."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Duchas e saunas utilizam o calor transmitido pelo movimento do ar ou líquido, caracterizando a convecção."
+    },
+    {
+        "id": "1389742",
+        "enunciado": "Analise as afirmativas a seguir considerando a definição e indicação de tratamento em marchas patológicas. Podemos afirmar que: I. Na marcha escarvante ocorre alteração ou incapacidade de controlar a dorsiflexão do tornozelo para o toque do calcanhar no solo e fase de balanço. II. A marcha escarvante está relacionada à lesão do nervo fibular, fraqueza dos músculos dorsiflexores, diminuição da amplitude de movimentação (ADM) ou equino. III. O tratamento fisioterapêutico da marcha escarvante contempla fortalecimento dos músculos extensores, alongamentos dos plantiflexores, prescrição de órtese KAFO. IV. A ação determinante da marcha em Trendelenburg é a fraqueza ou lesão do glúteo máximo, médio e mínimo. V. O tratamento fisioterapêutico da marcha em tesoura da Paralisia Cerebral (PC) contempla alongamentos, fortalecimento global, posicionamento, modulação do tônus, diminuição da espasticidade. Estão corretas as afirmativas:",
+        "alternativas": {
+            "A": "I, II, III e IV, apenas",
+            "B": "II, III e IV, apenas",
+            "C": "I, II, III, IV e V",
+            "D": "I, III e V, apenas",
+            "E": "I, II e V, apenas"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Afirmativas I, II, III, IV e V estão corretas. A marcha escarvante apresenta dificuldade na dorsiflexão. O nervo fibular é implicado. O tratamento fisioterapêutico envolve fortalecimento extensivo e órtese. A marcha de Trendelenburg se relaciona com fraqueza glútea. O tratamento da marcha tesoura em PC abrange alongamentos e controle do tônus."
+    },
+    {
+        "id": "1389745",
+        "enunciado": "Analise as afirmativas a seguir. O exercício terapêutico é fundamental para melhorar a função, reduzir incapacidades e limitações funcionais. Esses exercícios, quando bem indicados podem: I. desordenar ou prevenir deficiências. II. aprimorar, restaurar ou aumentar a função. III. agravar ou potencializar fatores de risco. IV. otimizar a saúde global. V. melhorar a aptidão e bem-estar. Estão corretas as afirmativas:",
+        "alternativas": {
+            "A": "II, IV e V, apenas",
+            "B": "I, II e III, apenas",
+            "C": "I, II, III, IV e V",
+            "D": "III, IV e V, apenas",
+            "E": "I e III, apenas"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Exercícios terapêuticos visam melhorar a função e reduzir incapacidades (II, IV, V). Podem prevenir deficiências (I), mas não agravar fatores de risco (III é falsa)."
+    },
+    {
+        "id": "2222152",
+        "enunciado": "A massagem no tecido adiposo tem seu benefício por:",
+        "alternativas": {
+            "A": "exercer pressão mecânica, gerar calor e hiperemia, ativar as células de gordura, causando um maior gasto energético.",
+            "B": "exercer pressão mecânica, gerar calor e hiperemia, ativar as células de gordura, causando um menor gasto energético.",
+            "C": "exercer pressão térmica, gerar calor e hiperemia, ativar as células de gordura, causando um menor gasto energético.",
+            "D": "exercer pressão mecânica, reduzir calor e hiperemia, ativar as células de gordura, causando um menor gasto energético."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A massagem no tecido adiposo, ao exercer pressão mecânica e gerar calor, aumenta a circulação local (hiperemia), podendo ativar o metabolismo das células de gordura e contribuir para um maior gasto energético, auxiliando na redução de gordura localizada."
+    },
+    {
+        "id": "2222156",
+        "enunciado": "A drenagem linfática é uma função normal do sistema linfático. Mas, se por algum motivo, essa drenagem for insuficiente, deve ser auxiliada por meios externos. Portanto, a drenagem pode ser realizada de várias maneiras, EXCETO:",
+        "alternativas": {
+            "A": "manual.",
+            "B": "corrente galvânica.",
+            "C": "eletroestimulação sincronizada.",
+            "D": "pressoterapia."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A corrente galvânica é uma forma de eletroterapia utilizada para introdução de medicamentos (iontoforese) ou estimulação muscular, não sendo um método de drenagem linfática manual ou mecânica."
+    },
+    {
+        "id": "2222166",
+        "enunciado": "Um ponto de gatilho é localizado pela avaliação de uma área de tecido que tende a abrigar um nódulo hipersensível. Os pontos de gatilho podem ser encontrados em:",
+        "alternativas": {
+            "A": "tecido fascial e muscular, em ligamentos ou tendões, em tecido adiposo ou em níveis profundos, dentro de uma cápsula de articulação ou no periósteo do osso.",
+            "B": "tecido fascial e muscular, em ligamentos ou tendões, em tecido cicatricial ou em níveis profundos, dentro de uma cápsula de articulação ou no periósteo do osso.",
+            "C": "tecido fascial e muscular liso, em ligamentos ou tendões, em tecido cicatricial ou em níveis superficiais, dentro de uma cápsula de articulação ou no periósteo do osso.",
+            "D": "tecido fascial e muscular liso, em ligamentos ou tendões, em tecido cicatricial ou em níveis superficiais, dentro de uma cápsula muscular."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Pontos de gatilho podem ser encontrados em diversas estruturas moles do corpo, incluindo tecidos fasciais, musculares, ligamentos, tendões, tecido adiposo e até no periósteo. Tecido cicatricial é um local comum, mas não exclusivo, e a profundidade varia."
+    },
+    {
+        "id": "2222178",
+        "enunciado": "Em relação à Drenagem Linfática Manual (DLM), assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Não é indicada no pós-operatório.",
+            "B": "É ideal para perda de gordura corporal.",
+            "C": "Estimula a produção de colágeno.",
+            "D": "Otimiza e facilita a circulação da linfa."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Drenagem Linfática Manual (DLM) tem como principal objetivo estimular o fluxo da linfa, auxiliando na sua circulação e contribuindo para a redução de edemas e melhorias na saúde."
+    },
+    {
+        "id": "2154051",
+        "enunciado": "Entre as estratégias de tratamento fisioterápico, a reeducação do movimento e a transferência de aprendizado situam-se em um local de destaque, visto que possibilitam o aprendizado para a realização de atividades, manipulação de objetos, e outras situações comuns ao cotidiano do indivíduo. Entretanto, em caso de pacientes com disfunção de memória, tais estratégias devem ser adequadas ao seu quadro clínico. Sobre as estratégias de tratamento de pacientes com disfunção de memória é CORRETO afirmar que devem estar pautadas na:",
+        "alternativas": {
+            "A": "Identificação e utilização de áreas competentes da função da memória, a divisão de uma atividade em componentes a serem repetidos extensivamente (ainda que em relação a movimentos normais), mediar todo o processo de realização da atividade, evitando assim que o paciente cometa erros comuns à iniciação de tais movimentos.",
+            "B": "Utilização extensiva da memória verbal, visto que essa apresenta melhores resultados no processo de assimilação e na resposta a estímulos. O paciente passa, assim a associar os estímulos verbais com as ações/atividades treinadas durante a terapia.",
+            "C": "Desenvolvimento da técnica de aprendizagem do(s) movimento(s) por erro e feedback, ou seja, a intercessão do terapeuta ocorre a partir da observação do paciente com posterior feedback acerca dos bons e maus movimentos realizados. Sendo que, por se tratar de pacientes com disfunção de memória, a técnica deve ser repetida exaustivamente até que o paciente seja capaz de realizar tais movimentos de forma exemplar.",
+            "D": "Nenhuma das alternativas está correta."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve estratégias eficazes para pacientes com disfunção de memória, como identificar áreas competentes, dividir tarefas e mediar o processo, focando na repetição e minimização de erros. As outras opções sugerem abordagens inadequadas como a dependência exclusiva da memória verbal ou o aprendizado por erro sem mediação adequada."
+    },
+    {
+        "id": "2154057",
+        "enunciado": "A Equoterapia ou Hippoterapia é definida como sendo um conjunto de técnicas reeducativas utilizadas na superação de danos sensoriais, motores, cognitivos e comportamentais a partir de atividades equestres. Sobre as indicações e contra indicações da utilização desta técnica, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "Em caso de Válvula de Derivação Ventrículo-Peritonial, há contraindicação relativa, sujeita à precauções no posicionamento do indivíduo sobre o animal; de todo modo não há riscos no deslocamento da válvula.",
+            "B": "Em caso de instabilidade Atlantoaxial e em crianças menores de 2 anos (3 anos no caso de Síndrome de Down) a prática de Equoterapia é contraindicada de modo absoluto.",
+            "C": "Luxação de quadril; Contraturas e deformidades; Atividades reflexas intensas; Tumores ósseos; Artrose de quadril; Ferimento aberto; Hipertensão não controlada, Subluxação de quadril; Desalinhamento biomecânico; Escoliose funcional não são consideradas contraindicações (absolutas ou relativas) ao uso da Equoterapia.",
+            "D": "Nenhuma das alternativas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em casos de instabilidade atlantoaxial e em crianças com menos de 2 anos (ou 3 anos com Síndrome de Down), a equoterapia é contraindicada absolutamente devido aos riscos neurológicos e de movimentação da coluna cervical."
+    },
+    {
+        "id": "2154062",
+        "enunciado": "Distúrbios osteomusculares relacionados ao trabalho (Dort) estão entre os principais problemas incapacitantes na saúde pública, estando também entre os principais motivos de concessão de benefícios acidentários do tipo auxílio-doença no Brasil, segundo a Previdência Social. Essas afecções estão associadas a fatores ocupacionais que colocam em risco a saúde de trabalhadores, demandando uma maior atenção à estes aspectos. O atendimento ou acompanhamento fisioterápico tem alcançado resultados positivos na reabilitação dos pacientes, sendo CORRETO afirmar, acerca do tratamento, que:",
+        "alternativas": {
+            "A": "As ações fisioterápicas, como massoterapia e cinesioterapia, devem estar condicionadas à procedimentos cirúrgicos prévios, de modo a evitar a evolução do quadro para uma fase crônica.",
+            "B": "Tem como objetivos principais o alívio da dor, o relaxamento muscular e a prevenção de deformidades, proporcionando uma melhoria da capacidade funcional. Para isso, irá utilizar recursos de eletrotermofototerapia, massoterapia e cinesioterapia, sendo que a combinação de técnicas deverá ser definida após a avaliação fisioterápica.",
+            "C": "A utilização de grupos terapêuticos, com abordagem de temas como percepção corporal, automassagem, alongamento e relaxamento, é positivo em pacientes em fase aguda, porém deve ser evitado em pacientes crônicos sob o risco de evolução da dor.",
+            "D": "Nenhuma das anteriores."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O tratamento fisioterápico para DORT visa principalmente aliviar a dor, relaxar a musculatura e prevenir deformidades, melhorando a funcionalidade com uso de diversas modalidades terapêuticas definidas após avaliação individualizada."
+    },
+    {
+        "id": "2154064",
+        "enunciado": "A cinesioterapia é uma técnica baseada nos princípios da anatomia, fisiologia e biomecânica, aplicada com finalidade de prevenção reabilitação, sendo caracterizada por atividades físicas que permitam o desenvolvimento, melhora, restauração e manutenção da mobilidade, flexibilidade, relaxamento e coordenação motora do indivíduo. Tais atividades são caracterizadas em dois tipo, sendo: I) passivo, e; II) ativo. Quando aos tipos de atividades que caracterizam a técnica cinesioterápica, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "A cinesioterapia passiva diz respeito às atividades onde o paciente não tem participação direta nos movimentos, ou seja, os movimentos são executados por outro indivíduo, manualmente ou com ajuda de aparelhos desenvolvidos para tal ação. Na cinesioterapia ativa os movimentos são realizados pelo próprio paciente, de modo voluntário, podendo ou não contar com a ajuda do terapeuta durante a atividade – a depender do tipo de movimento estipulado para seu quadro clínico.",
+            "B": "A cinesioterapia passiva diz respeito às atividades onde o terapeuta não tem participação nos movimentos realizados pelo paciente, ou seja, o profissional é passivo na relação, tendo como função a orientação das atividades e posterior avaliação dos desenvolvimentos. A cinesioterapia ativa, por sua vez, diz respeito à técnica onde o fisioterapeuta é ativo no processo, realizando os movimentos necessários para o desenvolvimento do paciente, que neste caso mantém-se alheio às ações.",
+            "C": "A cinesioterapia passiva diz respeito às atividades onde o paciente não tem participação diretas nos movimentos realizados, ou seja, os movimentos são realizados por outro indivíduo, podendo, no entanto ser orientada em duas diferentes modalidades, sendo: I) passivo-assistido: quando as sessões são realizadas com o indivíduo consciente; II) passivo-livre: quando as seções são realizadas em pacientes inconscientes (em unidades de tratamento intensivo, por exemplo). A cinesioterapia ativa, por sua vez, diz respeito às atividades onde o paciente é capaz de realizar os movimentos por conta própria, após orientação (aprendizagem de movimentos).",
+            "D": "Nenhuma das alternativas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A define corretamente a cinesioterapia passiva (movimentos executados externamente) e a ativa (movimentos realizados pelo paciente), detalhando a participação do terapeuta em cada modalidade. As outras opções descrevem as modalidades de forma incorreta."
+    },
+    {
+        "id": "2154066",
+        "enunciado": "A cinesioterapia tem como pressuposto a proposição de atividades que possibilitem o desenvolvimento, melhora, restauração e manutenção da mobilidade, flexibilidade, relaxamento e coordenação motora do indivíduo. Para tanto, utiliza-se de princípios básicos da Anatomia, Fisiologia e Biomecânica. Ao propor atividades que estejam relacionadas aos membros inferiores, em especial na cinesioterapia ativa, há se considerar a potencialidade de carga das articulações do joelho. Considerando este ponto assinale a alternativa CORRETA:",
+        "alternativas": {
+            "A": "O grupamento muscular extensor do joelho terá que contrair para que o menisco seja tracionado para frente, desestabilizando assim a linha gravitacional e permitindo assim a posterior extensão do membro.",
+            "B": "Quanto maior for o grau do agachamento, menor será o braço da resistência, ou seja, é uma relação inversamente proporcional – considerando o princípio da alavanca.",
+            "C": "Durante um agachamento o braço da resistência deve aumentar, em vista de estabilizar a linha gravitacional que tende a deslocar-se posteriormente.",
+            "D": "Nenhuma das alternativas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No princípio da alavanca, quanto maior o braço de resistência (distância entre a articulação e a carga), maior o esforço necessário. Em um agachamento, o braço da resistência aumenta com a flexão, sendo inversamente proporcional ao grau de flexão para manter o equilíbrio."
+    },
+    {
+        "id": "2154073",
+        "enunciado": "A ventilação mecânica é realizada de acordo com ciclos respiratórios, sendo que tais ciclos podem ser divididos em três diferentes tipos básicos, sendo: I) controlado; II) assistido; III) espontâneo. Sobre tais ciclos é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "No ciclo controlado, a inspiração é iniciada, controlada e finalizada pelo ventilador a partir de ajustes no ventilador; no ciclo assistido a inspiração é iniciada pelo paciente, mas é controlada e finalizada pelo ventilador; no ciclo espontâneo é o paciente quem controla toda a fase inspiratória, ainda que acoplado ao ventilador.",
+            "B": "No ciclo controlado é o paciente quem controla toda a fase inspiratória, ainda que acoplado ao ventilador; no ciclo assistido a inspiração é iniciada pelo paciente, mas é controlada e finalizada pelo ventilador; no ciclo espontâneo a inspiração é iniciada, controlada e finalizada pelo ventilador a partir de ajustes no ventilador.",
+            "C": "No ciclo controlado a inspiração é iniciada pelo paciente, mas é controlada e finalizada pelo ventilador; no ciclo assistido a inspiração é iniciada, controlada e finalizada pelo ventilador a partir de ajustes no ventilador; no ciclo espontâneo é o paciente quem controla toda a fase inspiratória, ainda que acoplado ao ventilador.",
+            "D": "Nenhuma das alternativas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve com precisão os ciclos de ventilação mecânica: o controlado (iniciado, controlado e finalizado pelo ventilador), o assistido (iniciado pelo paciente, mas controlado e finalizado pelo ventilador) e o espontâneo (totalmente controlado pelo paciente). As outras opções invertem ou descrevem incorretamente as funções."
+    },
+    {
+        "id": "2154074",
+        "enunciado": "Deformidade postural pode ser definida como aspectos estruturais distorcidos, em algum segmento, e que pode ser atenuado pelo tracionamento, mas não corrigido; e suas possíveis causas podem ser de ordem estrutural ou musculoaponeurática. Sobre o tema, assinale a alternativa que NÃO se enquadram como causa estrutural:",
+        "alternativas": {
+            "A": "Fratura de um osso ou cirurgia ortopédica com perda óssea.",
+            "B": "Malformações ósseas (Osteogênese imperfeita).",
+            "C": "Atividade laboral/esportiva que apresente esforço repetitivo ou posição prolongada.",
+            "D": "Nenhuma das alternativas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Atividade laboral/esportiva com esforço repetitivo ou posição prolongada são causas de deformidades posturais comuns, mas frequentemente de origem musculoaponeurótica ou funcional, não estruturais (ósseas). As outras alternativas descrevem causas estruturais óbvias."
+    },
+    {
+        "id": "2154076",
+        "enunciado": "Fraturas na patela podem ter como causa choque direto no joelho ou contração violenta do quadríceps, nesse caso o atendimento fisioterapêutico terá como objetivo a reaquisição do arco completo de movimento do joelho, potência muscular total e marcha normal. Sobre o tratamento fisioterápico, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "Quando a fratura é do tipo transversa, não há a imobilização do membro em cilindro de gesso e a inclusão de exercícios ativos deve ocorrer após aproximadamente 60 dias.",
+            "B": "Quando a fratura é do tipo transversa, não há a imobilização do membro em cilindro de gesso e a inclusão de exercícios ativos de imediato.",
+            "C": "Quando a fratura é do tipo transversa, há a imobilização do membro em cilindro de gesso e a inclusão de exercícios ativos deve ser feita após, aproximadamente, 3 semanas.",
+            "D": "Nenhuma das alternativas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Em fraturas transversas de patela, após imobilização em gesso, a reabilitação com exercícios ativos pode iniciar-se em torno de 3 semanas, visando a recuperação completa da função do joelho."
+    },
+    {
+        "id": "2154078",
+        "enunciado": "A luxação da articulação do ombro, quando em idosos, requer atenção especial, uma vez que é comum nesse público o desenvolvimento de “ombro rígido” caso a mobilização não seja precoce. Quanto ao tratamento fisioterápico, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "Devido a natureza da lesão é indicado que movimentos de rotação não seja a primeira opção. Indica-se nesse caso que se inicie com a flexão/extensão.",
+            "B": "Devido a natureza da lesão é indicado que movimentos de flexão /extensão não seja a primeira opção. Indica-se nesse caso que se inicie com a rotação.",
+            "C": "Devido a natureza da lesão, e os problemas que podem ser decorrentes da idade, indica-se que o tratamento limite-se à termoterapia e massoterapia.",
+            "D": "Nenhuma das alternativas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em idosos com luxação de ombro, a mobilização precoce é crucial para evitar o ombro rígido. Iniciar com flexão/extensão é mais seguro que rotação para não agravar a lesão ou causar dor. A fisioterapia não se limita a termoterapia e massoterapia."
+    }
+]

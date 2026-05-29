@@ -1,0 +1,901 @@
+[
+    {
+        "id": "2044249",
+        "enunciado": "Um usuário notou que, ao abrir determinados programas, o sistema operacional Windows encerra a conta do usuário automaticamente sem aviso. Esse problema pode ser um sinal de:",
+        "alternativas": {
+            "A": "Memória cache falhando.",
+            "B": "Vírus ou malware afetando aplicativos específicos.",
+            "C": "Configurações incorretas do monitor.",
+            "D": "Limpeza insuficiente do disco rígido."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Encerramento inesperado de contas ao abrir programas sugere interferência externa. A opção B aponta para a causa mais provável: vírus ou malware que afetam a execução de softwares específicos, causando instabilidade no sistema."
+    },
+    {
+        "id": "2333070",
+        "enunciado": "Para se proteger contra ameaças na internet, um usuário adota várias medidas de segurança em seu computador e em sua navegação. Essas práticas são fundamentais para garantir a segurança dos dados pessoais e financeiros. Analise as práticas a seguir:\nI. Manter o sistema operacional e os aplicativos sempre atualizados é fundamental, pois as atualizações frequentemente corrigem falhas de segurança.\nII. Utilizar um software de antivírus e mantê-lo atualizado ajuda a detectar e remover códigos maliciosos (malware).\nIII. Um firewall pessoal funciona como uma barreira de proteção, controlando o tráfego de rede entre o computador e a internet e bloqueando acessos não autorizados. Está CORRETO o que se afirma em:",
+        "alternativas": {
+            "A": "I, II e III.",
+            "B": "I e II, apenas.",
+            "C": "I e III, apenas.",
+            "D": "II e III, apenas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Todas as afirmativas estão corretas. Manter sistemas atualizados corrige falhas de segurança. Antivírus detecta malware. Firewall impede acessos não autorizados. Todas são práticas essenciais."
+    },
+    {
+        "id": "2335728",
+        "enunciado": "Considerando boas práticas relacionadas ao uso de backup, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "(A)Backups automáticos agendados são desnecessários, pois a recuperação de dados só é eficiente quando feita manualmente pelo usuário, evitando sobrescritas acidentais.",
+            "B": "(B)O modelo conhecido como \"3-2-1\" recomenda ter três cópias dos dados, armazenadas em pelo menos dois tipos de mídia diferentes, sendo uma delas mantida fora do local principal.",
+            "C": "(C)O armazenamento em nuvem elimina completamente a necessidade de backups locais, uma vez que os provedores de serviço asseguram proteção total contra falhas e perda de dados.",
+            "D": "(D)Manter apenas uma cópia de segurança em um dispositivo conectado permanentemente ao computador principal garante maior agilidade no processo de restauração, sem comprometer a segurança."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B descreve corretamente o modelo 3-2-1 de backup, uma prática recomendada para garantir a segurança e a redundância dos dados. As demais alternativas apresentam informações incorretas sobre as práticas de backup."
+    },
+    {
+        "id": "2079617",
+        "enunciado": "Maria é recepcionista em uma clínica médica e utiliza um computador com Windows 10 (Configuração Padrão – Idioma Português -Brasil) para agendar consultas, enviar relatórios e acessar prontuários eletrônicos. Certo dia, ao abrir um arquivo, anexo de e-mail com nome suspeito, o computador começou a apresentar lentidão e janelas estranhas passaram a abrir sozinhas. Para resolver esse problema, o administrador de TI recomendou que ela usasse um recurso nativo do Windows 10 que pode ajudar a identificar e remover possíveis ameaças de software malicioso. Considerando o cenário hipotético, o recurso para realizar essa verificação de forma simples e acessível por um usuário comum é:",
+        "alternativas": {
+            "A": "Editor de Registro.",
+            "B": "Painel de Controle.",
+            "C": "Windows Defender.",
+            "D": "Gerenciador de Tarefas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O Windows Defender (atual Microsoft Defender Antivírus) é a solução de segurança integrada ao Windows 10 que oferece proteção em tempo real contra vírus, malwares e outras ameaças, sendo o recurso mais acessível e adequado para diagnósticos simples."
+    },
+    {
+        "id": "2335732",
+        "enunciado": "Considerando práticas seguras de navegação e uso da Internet, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "(A)Senhas complexas, compostas por letras maiúsculas, minúsculas, números e símbolos, reduzem significativamente o risco de acesso indevido às contas pessoais e corporativas.",
+            "B": "(B)O uso de redes Wi-Fi abertas é recomendado para o envio de documentos sigilosos, pois facilita a transmissão sem interferências.",
+            "C": "(C)É seguro inserir dados bancários em sites de comércio eletrônico mesmo sem o protocolo HTTPS, desde que o site seja amplamente conhecido pelos usuários.",
+            "D": "(D)Desativar o firewall do sistema operacional ao utilizar redes públicas pode aumentar o desempenho da conexão sem comprometer a segurança, desde que o antivírus esteja atualizado."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta pois senhas complexas são essenciais para a segurança online. As demais alternativas contêm informações perigosas, como usar Wi-Fi aberto para dados sigilosos, inserir dados bancários sem HTTPS ou desativar firewall em redes públicas."
+    },
+    {
+        "id": "2113771",
+        "enunciado": "O software cuja principal finalidade é detectar, bloquear e remover programas maliciosos de um computador é chamado de:",
+        "alternativas": {
+            "A": "Proxy.",
+            "B": "Blockchain.",
+            "C": "Descriptografador.",
+            "D": "Antivírus.",
+            "E": "Gerenciador de senhas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O antivírus é o software projetado especificamente para detectar, bloquear e remover programas maliciosos (malware) de um computador."
+    },
+    {
+        "id": "2296835",
+        "enunciado": "Para aumentar a segurança de uma estação de trabalho sem causar conflito entre programas, qual configuração está tecnicamente correta e mantém o ambiente atualizado?",
+        "alternativas": {
+            "A": "Instalar duas engines antivírus simultaneamente, suspender o firewall durante varreduras e manter antimalware complementar em execução semanal.",
+            "B": "Utilizar o firewall padrão sem ajustes, realizar varredura manual mensal e liberar amplamente downloads de aplicativos.",
+            "C": "Utilizar um antivírus em tempo real, configurar o firewall com regras de entrada e saída, ativar antimalware sob demanda e bloquear macros externas.",
+            "D": "Manter antivírus desatualizado, firewall básico e extensão de navegador como camada principal de defesa."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As medidas propostas em C promovem segurança robusta sem conflitos: antivírus em tempo real, firewall configurado, antimalware sob demanda e bloqueio de macros. As outras alternativas apresentam falhas de segurança ou procedimentos inadequados."
+    },
+    {
+        "id": "2023186",
+        "enunciado": "Tal tipo de malware é um programa, geralmente malicioso, que possui a capacidade de se esconder dos mecanismos de segurança do sistema do usuário, eles adotam um conjunto de técnicas avançadas, como a interceptação de ações do sistema operacional e a ocultação de suas chaves do registro. Marque a alternativa CORRETA que corresponde a um software malicioso descrito.",
+        "alternativas": {
+            "A": "Spams.",
+            "B": "Cookies.",
+            "C": "Rootkits.",
+            "D": "Worms.",
+            "E": "Spyware."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Rootkits são malwares projetados para se ocultar do sistema, utilizando técnicas avançadas para disfarçar sua presença e atividades maliciosas."
+    },
+    {
+        "id": "2335733",
+        "enunciado": "Sobre as práticas de segurança e proteção de dados pessoais em ambientes de redes sociais, analise as afirmativas abaixo:",
+        "alternativas": {
+            "A": "(A)Ajustar as configurações de privacidade permite restringir quem pode visualizar publicações, marcadores de fotos e informações pessoais, reduzindo a exposição indevida.",
+            "B": "(B)A exclusão de uma conta de rede social elimina de forma imediata e definitiva todos os dados já armazenados nos servidores da plataforma.",
+            "C": "(C)Evitar o compartilhamento de informações pessoais, como localização em tempo real e dados de documentos, é uma medida de prevenção contra golpes e fraudes digitais.",
+            "D": "(D)O aceite automático de solicitações de amizade ou conexões não representa risco à privacidade, uma vez que a filtragem de segurança é feita pela própria rede social."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve uma prática de segurança correta, pois ajustar a privacidade restringe a exposição de dados. As demais alternativas descrevem incorretamente a exclusão de contas, o compartilhamento de informações e o risco das redes sociais."
+    },
+    {
+        "id": "2239901",
+        "enunciado": "O ataque cibernético malicioso que sobrecarrega um servidor, um site ou uma rede com tráfego massivo vindo de múltiplas fontes, como uma rede de computadores infectados, para tornar o alvo indisponível para usuários legítimos é conhecido como",
+        "alternativas": {
+            "A": "XSS.",
+            "B": "MITM.",
+            "C": "falsific ação de DNS.",
+            "D": "SQL injection.",
+            "E": "DDoS."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "DDoS (Distributed Denial of Service) é o ataque que sobrecarrega um alvo com tráfego massivo de múltiplas fontes, visando torná-lo indisponível. XSS, MITM, falsificação de DNS e SQL injection são outros tipos de ataques cibernéticos."
+    },
+    {
+        "id": "2363227",
+        "enunciado": "Malware é um termo genérico para qualquer tipo de software malicioso projetado para danificar ou explorar qualquer dispositivo, serviço ou rede programável. Cibercriminosos normalmente o usam para extrair dados que podem ser usados para obter ganhos financeiros. Dentre os diversos tipos de malware, um deles se destaca por bloquear o acesso aos dados da vítima, exigindo um pagamento para restaurá-lo. Todas as alternativas a seguir apresentam características de um ataque de ransomware, EXCETO:",
+        "alternativas": {
+            "A": "Criptografa os arquivos da vítima, tornando-os inacessíveis sem a chave de decriptografia.",
+            "B": "Exige o pagamento de um resgate, geralmente em criptomoedas, para restaurar o acesso aos dados.",
+            "C": "Pode ser distribuído por meio de e-mails de phishing, downloads de software malicioso ou exploração de vulnerabilidades de sistemas.",
+            "D": "Propaga-se principalmente pela rede, explorando vulnerabilidades para infectar o maior número possível de máquinas, sem necessariamente roubar dados.",
+            "E": "Seu objetivo principal é a replicação em massa e a interrupção de serviços de rede, utilizando o dispositivo infectado para lançar ataques de negação de serviço (DDoS) em larga escala."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E descreve um worm, que se replica e foca em ataques DDoS. Ransomware foca em criptografar dados e exigir resgate, não em replicação em massa e ataques DDoS como principal objetivo."
+    },
+    {
+        "id": "2170569",
+        "enunciado": "Avalie o trecho a seguir: “[]] é um sistema de segurança de rede de computadores que restringe o tráfego da internet para, de ou em uma rede privada. Esse software ou unidade de hardware-software dedicada funciona bloqueando ou permitindo pacotes de dados seletivamente.” O trecho refere-se ao/à",
+        "alternativas": {
+            "A": "Antispyware.",
+            "B": "Antimalware.",
+            "C": "Firewall.",
+            "D": "Intrusion detection.",
+            "E": "Private network."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O firewall é um sistema de segurança que controla o tráfego de rede, bloqueando ou permitindo pacotes de dados seletivamente, com base em regras pré-definidas, para proteger redes privadas."
+    },
+    {
+        "id": "2386698",
+        "enunciado": "Assinalar a alternativa que preenche as lacunas abaixo CORRETAMENTE.",
+        "alternativas": {
+            "A": "No ambiente corporativo, a equipe de TI frequentemente orienta os funcionários sobre boas práticas de segurança. É recomendado que cada colaborador utilize uma senha __________ para dificultar ataques de adivinhação de credenciais, enquanto os sistemas de comunicação internos adotam __________, impedindo que terceiros leiam seu conteúdo sem a chave adequada.",
+            "B": "padrão | backup",
+            "C": "forte | backup",
+            "D": "padrão | criptografia",
+            "E": "forte | criptografia"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Senhas 'fortes' sao recomendadas para dificultar adivinhacao. A 'criptografia' e o metodo que garante que apenas a chave correta possa decifrar o conteudo de comunicacoes, protegendo-as de terceiros."
+    },
+    {
+        "id": "2359937",
+        "enunciado": "Lucas comprou um novo computador para estudar e realizar projetos importantes. Ele instalou um antivírus, cujo objetivo é:",
+        "alternativas": {
+            "A": "Aumentar a velocidade do processador.",
+            "B": "Criar senhas seguras.",
+            "C": "Proteger contra vírus e malwares.",
+            "D": "Garantir que os e-mails enviados sejam entregues.",
+            "E": "Fazer backup automático dos documentos e garantir segurança."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O principal objetivo de um programa antivírus é detectar e remover programas maliciosos, como vírus e malwares, que podem danificar o computador."
+    },
+    {
+        "id": "2263506",
+        "enunciado": "Analise o trecho a seguir para responder a esta questão. “O _____________ é um tipo de malware que sequestra dados confidenciais ou dispositivos da vítima e ameaça mantê -los bloqueados a menos que a vítima pague um resgate ao invasor.” Assinale a alternativa que apresenta o nome do malware que completa corretamente a lacuna do trecho.",
+        "alternativas": {
+            "A": "Adware.",
+            "B": "Keylogger.",
+            "C": "Ransomware.",
+            "D": "Spyware.",
+            "E": "Trojan."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O texto descreve um malware que sequestra dados e pede resgate. Essa característica de 'sequestro de dados mediante pagamento de resgate' é a definição de Ransomware. As outras opções descrevem outros tipos de malware com funcionalidades distintas."
+    },
+    {
+        "id": "2200679",
+        "enunciado": "Existem algumas ferramentas para proteção do computador, como por exemplo o antivírus. Assinale a alternativa que representa a função principal de um antivírus.",
+        "alternativas": {
+            "A": "Melhorar a velocidade do computador.",
+            "B": "Criar senhas fortes.",
+            "C": "Detectar e remover programas maliciosos",
+            "D": "Aumentar o espaço em disco rígido."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A função principal de um programa antivírus é justamente varrer o sistema em busca de softwares maliciosos, como vírus, malwares, spywares, etc., e eliminá-los ou colocá-los em quarentena. Ele não tem como objetivo principal melhorar a velocidade, criar senhas ou aumentar o espaço em disco."
+    },
+    {
+        "id": "2386702",
+        "enunciado": "A aplicação de técnicas de privacidade é indispensável para o controle de acesso e a proteção das informações. Considerando as características e a finalidade da autenticação em sistemas computacionais, assinalar a alternativa CORRETA.",
+        "alternativas": {
+            "A": "A autenticação tem como objetivo principal permitir que qualquer usuário acesse as informações de um sistema, sem a necessidade de identificação prévia",
+            "B": "A autenticação consiste em um processo de verificação da identidade do usuário, impedindo que pessoas não autorizadas acessem áreas restritas de um sistema.",
+            "C": "A autenticação é um método utilizado exclusivamente para aumentar a velocidade de processamento das informações em redes internas.",
+            "D": "O processo de autenticação substitui integralmente o uso de senhas, uma vez que o controle de acesso é realizado de forma automática."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A autenticacao tem o objetivo de verificar a identidade de um usuario para garantir que apenas pessoas autorizadas tenham acesso a determinados recursos ou informacoes em um sistema computacional. As demais alternativas apresentam conceitos incorretos sobre o proposito da autenticacao."
+    },
+    {
+        "id": "2170577",
+        "enunciado": "Em relação às práticas de segurança da informação, qual das alternativas a seguir apresenta uma medida preventiva contra ataques de engenharia social?",
+        "alternativas": {
+            "A": "Desconfiar de solicitações inesperadas sobre informações pessoais.",
+            "B": "Habilitar autenticação de dois fatores em dispositivos e contas.",
+            "C": "Realizar backups regulares de arquivos importantes.",
+            "D": "Utilizar um software antivírus atualizado regularmente.",
+            "E": "Configurar uma senha forte para sua rede Wi-Fi."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Desconfiar de solicitacoes inesperadas de informacoes pessoais e uma medida preventiva basica e eficaz contra engenharia social, que manipula psicologicamente as vitimas."
+    },
+    {
+        "id": "2063282",
+        "enunciado": "Qual das alternativas abaixo descreve uma boa prática de segurança ao utilizar o e-mail no ambiente corporativo?",
+        "alternativas": {
+            "A": "Utilizar senhas simples para facilitar o acesso rápido às contas de e-mail.",
+            "B": "Desconfiar de e-mails de remetentes desconhecidos e não abrir anexos ou links suspeitos.",
+            "C": "Compartilhar a senha do e-mail apenas com colegas de confiança para facilitar a comunicação.",
+            "D": "Utilizar a mesma senha para várias contas de e-mail para simplificar o gerenciamento de senhas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Desconfiar de remetentes desconhecidos e não abrir anexos ou links suspeitos é a principal prática de segurança para evitar golpes e malware em e-mails corporativos."
+    },
+    {
+        "id": "2136637",
+        "enunciado": "Um usuário identificou comportamento estranho em seu computador após abrir um e-mail suspeito. Suspeitando de uma infecção por vírus ou malware, analise as alternativas e assinale a correta.",
+        "alternativas": {
+            "A": "Ransomware é um firewall que impede a entrada de vírus, garantindo proteção total ao computador.",
+            "B": "Um worm pode se replicar sozinho pela rede, sem depender de execução direta pelo usuário.",
+            "C": "Cavalo de Troia (Trojan) é um tipo de antivírus que protege arquivos pessoais contra ataques externos.",
+            "D": "Spyware é um tipo de vírus que tem como função principal apagar permanentemente arquivos do computador."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B está correta. Worms são programas maliciosos que se replicam e se espalham pela rede autonomamente. As demais alternativas descrevem incorretamente os tipos de malware mencionados: ransomware é um tipo de malware que sequestra dados, trojan disfarça-se de software legítimo e spyware espiona o usuário."
+    },
+    {
+        "id": "2350384",
+        "enunciado": "Um vírus de computador pode ser definido como:",
+        "alternativas": {
+            "A": "Um hardware projetado para aprimorar o desempenho geral do sistema",
+            "B": "Um programa ou fragmento de programa que se instala sem o conhecimento do usuário.",
+            "C": "Um tipo de memória auxiliar não volátil utilizada para armazenamento estruturado de informações em diferentes dispositivos.",
+            "D": "Um dispositivo de entrada de dados.",
+            "E": "Um sistema operacional alternativo."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Vírus de computador são programas maliciosos que se replicam e se instalam no sistema sem o consentimento do usuário, podendo causar danos ou roubar informações."
+    },
+    {
+        "id": "2310557",
+        "enunciado": "A técnica que protege o computador contra softwares maliciosos provenientes de anexos de e-mail desconhecidos e downloads suspeitos é o uso de:",
+        "alternativas": {
+            "A": "Planilhas.",
+            "B": "Antivírus.",
+            "C": "Impressoras.",
+            "D": "Editores de texto.",
+            "E": "Calculadora."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O antivírus é o software especializado em detectar, prevenir e remover softwares maliciosos (malware), como vírus e spywares, que podem ser transmitidos por e-mails ou downloads suspeitos, protegendo o computador."
+    },
+    {
+        "id": "2138962",
+        "enunciado": "A realização de cópia de segurança de arquivos e sistemas é uma prática fundamental para garantir a proteção de dados contra falhas, exclusões acidentais e ataques cibernéticos. Em relação aos procedimentos adequ ados para backup , assinale a afirmativa correta.",
+        "alternativas": {
+            "A": "Não são seguros a o serem realizados na nuvem, pois não utilizam nenhum tipo de criptografia.",
+            "B": "Backups  incrementais copiam todos os arquivos existentes, independentemente de terem sido alterados ou não.",
+            "C": "Devem ser realizados periodicamente, preferencialmente em mídias e locais diferentes, como medida de segurança.",
+            "D": "A utilização de dispositivos como pen drives  ou HDs externos não é recomendada para backup , pois esses dispositivos não suportam arquivos criptografados."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Backups devem ser feitos periodicamente e em locais distintos para garantir a segurança dos dados. O uso da nuvem é seguro com criptografia, e backups incrementais não copiam tudo. Pen drives e HDs externos suportam criptografia."
+    },
+    {
+        "id": "2384892",
+        "enunciado": "A coordenadora de TI de uma universidade identificou que vários computadores do laboratório de informática apresentavam lentidão extrema e consumo elevado de internet. Após análise, descobriu-se que os sistemas estavam infectados por diferentes tipos de malware. Alguns se espalhavam automaticamente pela rede, outros capturavam dados dos usuários, e havia ainda programas que mineravam criptomoedas sem conhecimento dos usuários. Assinale a alternativa incorreta:",
+        "alternativas": {
+            "A": "Worms se propagam automaticamente através de redes sem necessitar de intervenção do usuário, diferentemente dos vírus tradicionais.",
+            "B": "Trojans são sempre detectados imediatamente pelos antivírus, pois se disfarçam como programas legítimos de forma muito rudimentar.",
+            "C": "Ransomware criptografa arquivos do usuário e exige pagamento para liberar o acesso aos dados.",
+            "D": "Spyware monitora atividades do usuário e pode capturar informações confidenciais como senhas e dados bancários."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B é incorreta porque Trojans podem ser sofisticados e enganar antivírus, não sendo sempre detectados imediatamente. Os outros tipos de malware são descritos corretamente."
+    },
+    {
+        "id": "2310561",
+        "enunciado": "Qual das alternativas representa uma senha de fácil identificação e, portanto, não recomendada para uso em sistemas escolares?",
+        "alternativas": {
+            "A": "qwertyui123.",
+            "B": "jdJ8#kLs92!.",
+            "C": "Mx$72Pn#lQ.",
+            "D": "W@v29Lp*B1.",
+            "E": "kfL!82oxQp8."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A representa uma senha de fácil memorização e adivinhação por ser uma sequência direta do teclado ('qwertyui') seguida por números em ordem ('123'). Senhas seguras devem ser complexas, com letras maiúsculas, minúsculas, números e símbolos."
+    },
+    {
+        "id": "2082049",
+        "enunciado": "Assinale a alternativa correta em relação à segurança na nuvem.",
+        "alternativas": {
+            "A": "A responsabilidade total pela segurança dos dados na nuvem pertence exclusivamente ao provedor do serviço.",
+            "B": "Segurança na nuvem envolve o modelo de responsabilidade compartilhada, no qual tanto o provedor quanto o cliente têm obrigações específicas.",
+            "C": "O uso de criptografia é desnecessário em ambientes de nuvem, já que a proteção é feita integralmente pelo firewall do provedor.",
+            "D": "A segurança na nuvem é garantida apenas pela adoção de backups automáticos em múltiplos datacenters.",
+            "E": "A autenticação multifator é proibida em ambientes de nuvem por aumentar a complexidade do acesso aos dados."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A segurança na nuvem é um esforço conjunto. O provedor protege a infraestrutura ('segurança da nuvem'), enquanto o cliente protege seus dados e aplicações ('segurança na nuvem'). Este modelo colaborativo é a base da responsabilidade compartilhada."
+    },
+    {
+        "id": "1231905",
+        "enunciado": "Considere o trecho a seguir. “[...] é um tipo de malware mais perigoso que um vírus comum, pois sua propagação é rápida e ocorre sem controle da vítima. Assim que ele contamina um computador, o programa malicioso cria cópias de si mesmo em diferentes locais do sistema e se espalha para outras máquinas, seja por meio de internet, mensagens, conexões locais, dispositivos USB ou arquivos.” O vírus mencionado no trecho é o",
+        "alternativas": {
+            "A": "Spyware.",
+            "B": "Adware.",
+            "C": "Worm.",
+            "D": "Rootkit.",
+            "E": "Trojan."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O texto descreve um malware que se propaga rapidamente, cria cópias de si mesmo e se espalha para outras máquinas sem intervenção do usuário. Essa característica é a definição de um Worm."
+    },
+    {
+        "id": "1056051",
+        "enunciado": "Em relação a antivírus é CORRET O aﬁrmar que:",
+        "alternativas": {
+            "A": "Os antivírus só são eﬁcazes contra vírus, não contra outras formas de malware.",
+            "B": "Um antivírus pode proteger contra todas as ameaças cibernéticas sem a necessidade de práticas de segurança adicionais.",
+            "C": "Os antivírus geralmente não requerem atualizações regulares para manter a eﬁcácia.",
+            "D": "Os antivírus são programas de segurança projetados para detectar e remover malware de um computador.",
+            "E": "Os antivírus não afetam o desempenho do sistema."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D descreve corretamente a função principal dos antivírus como programas de detecção e remoção de malware. As demais alternativas estão incorretas: antivírus protegem contra diversas formas de malware, não apenas vírus; a eficácia contra todas as ameaças não dispensa outras práticas de segurança; necessitam de atualizações constantes; e podem afetar o desempenho do sistema."
+    },
+    {
+        "id": "1282262",
+        "enunciado": "Considere os dados extraídos da ficha de segurança do HCl P.A. Ponto de fusão -30 °C Ponto de ebulição inicial e intervalo de ebulição > 100 °C Ponto de fulgor 49 °C Pressão de vapor 226.636 hPa a 21 °C Viscosidade 2,3mPa.s em 15 °C Considerando os dados apresentados, a temperatura mínima na qual o HCl libera vapores suficientes para formar uma mistura inflamável com o ar é:",
+        "alternativas": {
+            "A": "49 °C.",
+            "B": "-30 °C.",
+            "C": "21 °C.",
+            "D": "> 100 °C.",
+            "E": "15 °C."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O ponto de fulgor de uma substância é a temperatura mínima na qual ela libera vapores suficientes para formar uma mistura inflamável com o ar. O dado informado para o HCl é 49 °C."
+    },
+    {
+        "id": "2203871",
+        "enunciado": "A respeito das recomendações básicas ao receber           \ne-mails no correio eletrônico, marcar C para as afirmativas\nCertas, E para as Erradas e, após, assinalar a alternativa que\napresenta a sequência CORRETA:\n\n(_) Não se deve responder e- mails considerados como Spam.\n(_) É indicado responder e -mails que solicitam\nrecadastramento de dados bancários, com informações\nde senhas, números de conta bancária e números de CPF.\n(_) Os anexos recebidos por e -mail podem ser abertos com\nmaior segurança quando são de remetentes de origem\nconfiável e seu computador esteja utilizando um software\nantivírus ativo e atualizado.",
+        "alternativas": {
+            "A": "C - C - E.",
+            "B": "C - E - C.",
+            "C": "C - E - E.",
+            "D": "E - C - C."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Não se deve responder a spam (C). É errado responder a e-mails que pedem dados bancários e senhas (E). Abrir anexos de remetentes confiáveis com antivírus atualizado é seguro (C)."
+    },
+    {
+        "id": "2044249",
+        "enunciado": "Um usuário notou que, ao abrir determinados programas, o sistema operacional Windows encerra a conta do usuário automaticamente sem aviso. Esse problema pode ser um sinal de:",
+        "alternativas": {
+            "A": "Memória cache falhando.",
+            "B": "Vírus ou malware afetando aplicativos específicos.",
+            "C": "Configurações incorretas do monitor.",
+            "D": "Limpeza insuficiente do disco rígido."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Encerramento inesperado de contas ao abrir programas sugere interferência externa. A opção B aponta para a causa mais provável: vírus ou malware que afetam a execução de softwares específicos, causando instabilidade no sistema."
+    },
+    {
+        "id": "2333070",
+        "enunciado": "Para se proteger contra ameaças na internet, um usuário adota várias medidas de segurança em seu computador e em sua navegação. Essas práticas são fundamentais para garantir a segurança dos dados pessoais e financeiros. Analise as práticas a seguir:\nI. Manter o sistema operacional e os aplicativos sempre atualizados é fundamental, pois as atualizações frequentemente corrigem falhas de segurança.\nII. Utilizar um software de antivírus e mantê-lo atualizado ajuda a detectar e remover códigos maliciosos (malware).\nIII. Um firewall pessoal funciona como uma barreira de proteção, controlando o tráfego de rede entre o computador e a internet e bloqueando acessos não autorizados. Está CORRETO o que se afirma em:",
+        "alternativas": {
+            "A": "I, II e III.",
+            "B": "I e II, apenas.",
+            "C": "I e III, apenas.",
+            "D": "II e III, apenas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Todas as afirmativas estão corretas. Manter sistemas atualizados corrige falhas de segurança. Antivírus detecta malware. Firewall impede acessos não autorizados. Todas são práticas essenciais."
+    },
+    {
+        "id": "2335728",
+        "enunciado": "Considerando boas práticas relacionadas ao uso de backup, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "(A)Backups automáticos agendados são desnecessários, pois a recuperação de dados só é eficiente quando feita manualmente pelo usuário, evitando sobrescritas acidentais.",
+            "B": "(B)O modelo conhecido como \"3-2-1\" recomenda ter três cópias dos dados, armazenadas em pelo menos dois tipos de mídia diferentes, sendo uma delas mantida fora do local principal.",
+            "C": "(C)O armazenamento em nuvem elimina completamente a necessidade de backups locais, uma vez que os provedores de serviço asseguram proteção total contra falhas e perda de dados.",
+            "D": "(D)Manter apenas uma cópia de segurança em um dispositivo conectado permanentemente ao computador principal garante maior agilidade no processo de restauração, sem comprometer a segurança."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B descreve corretamente o modelo 3-2-1 de backup, uma prática recomendada para garantir a segurança e a redundância dos dados. As demais alternativas apresentam informações incorretas sobre as práticas de backup."
+    },
+    {
+        "id": "2079617",
+        "enunciado": "Maria é recepcionista em uma clínica médica e utiliza um computador com Windows 10 (Configuração Padrão – Idioma Português -Brasil) para agendar consultas, enviar relatórios e acessar prontuários eletrônicos. Certo dia, ao abrir um arquivo, anexo de e-mail com nome suspeito, o computador começou a apresentar lentidão e janelas estranhas passaram a abrir sozinhas. Para resolver esse problema, o administrador de TI recomendou que ela usasse um recurso nativo do Windows 10 que pode ajudar a identificar e remover possíveis ameaças de software malicioso. Considerando o cenário hipotético, o recurso para realizar essa verificação de forma simples e acessível por um usuário comum é:",
+        "alternativas": {
+            "A": "Editor de Registro.",
+            "B": "Painel de Controle.",
+            "C": "Windows Defender.",
+            "D": "Gerenciador de Tarefas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O Windows Defender (atual Microsoft Defender Antivírus) é a solução de segurança integrada ao Windows 10 que oferece proteção em tempo real contra vírus, malwares e outras ameaças, sendo o recurso mais acessível e adequado para diagnósticos simples."
+    },
+    {
+        "id": "2335732",
+        "enunciado": "Considerando práticas seguras de navegação e uso da Internet, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "(A)Senhas complexas, compostas por letras maiúsculas, minúsculas, números e símbolos, reduzem significativamente o risco de acesso indevido às contas pessoais e corporativas.",
+            "B": "(B)O uso de redes Wi-Fi abertas é recomendado para o envio de documentos sigilosos, pois facilita a transmissão sem interferências.",
+            "C": "(C)É seguro inserir dados bancários em sites de comércio eletrônico mesmo sem o protocolo HTTPS, desde que o site seja amplamente conhecido pelos usuários.",
+            "D": "(D)Desativar o firewall do sistema operacional ao utilizar redes públicas pode aumentar o desempenho da conexão sem comprometer a segurança, desde que o antivírus esteja atualizado."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta pois senhas complexas são essenciais para a segurança online. As demais alternativas contêm informações perigosas, como usar Wi-Fi aberto para dados sigilosos, inserir dados bancários sem HTTPS ou desativar firewall em redes públicas."
+    },
+    {
+        "id": "2113771",
+        "enunciado": "O software cuja principal finalidade é detectar, bloquear e remover programas maliciosos de um computador é chamado de:",
+        "alternativas": {
+            "A": "Proxy.",
+            "B": "Blockchain.",
+            "C": "Descriptografador.",
+            "D": "Antivírus.",
+            "E": "Gerenciador de senhas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O antivírus é o software projetado especificamente para detectar, bloquear e remover programas maliciosos (malware) de um computador."
+    },
+    {
+        "id": "2296835",
+        "enunciado": "Para aumentar a segurança de uma estação de trabalho sem causar conflito entre programas, qual configuração está tecnicamente correta e mantém o ambiente atualizado?",
+        "alternativas": {
+            "A": "Instalar duas engines antivírus simultaneamente, suspender o firewall durante varreduras e manter antimalware complementar em execução semanal.",
+            "B": "Utilizar o firewall padrão sem ajustes, realizar varredura manual mensal e liberar amplamente downloads de aplicativos.",
+            "C": "Utilizar um antivírus em tempo real, configurar o firewall com regras de entrada e saída, ativar antimalware sob demanda e bloquear macros externas.",
+            "D": "Manter antivírus desatualizado, firewall básico e extensão de navegador como camada principal de defesa."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As medidas propostas em C promovem segurança robusta sem conflitos: antivírus em tempo real, firewall configurado, antimalware sob demanda e bloqueio de macros. As outras alternativas apresentam falhas de segurança ou procedimentos inadequados."
+    },
+    {
+        "id": "2023186",
+        "enunciado": "Tal tipo de malware é um programa, geralmente malicioso, que possui a capacidade de se esconder dos mecanismos de segurança do sistema do usuário, eles adotam um conjunto de técnicas avançadas, como a interceptação de ações do sistema operacional e a ocultação de suas chaves do registro. Marque a alternativa CORRETA que corresponde a um software malicioso descrito.",
+        "alternativas": {
+            "A": "Spams.",
+            "B": "Cookies.",
+            "C": "Rootkits.",
+            "D": "Worms.",
+            "E": "Spyware."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Rootkits são malwares projetados para se ocultar do sistema, utilizando técnicas avançadas para disfarçar sua presença e atividades maliciosas."
+    },
+    {
+        "id": "2335733",
+        "enunciado": "Sobre as práticas de segurança e proteção de dados pessoais em ambientes de redes sociais, analise as afirmativas abaixo:",
+        "alternativas": {
+            "A": "(A)Ajustar as configurações de privacidade permite restringir quem pode visualizar publicações, marcadores de fotos e informações pessoais, reduzindo a exposição indevida.",
+            "B": "(B)A exclusão de uma conta de rede social elimina de forma imediata e definitiva todos os dados já armazenados nos servidores da plataforma.",
+            "C": "(C)Evitar o compartilhamento de informações pessoais, como localização em tempo real e dados de documentos, é uma medida de prevenção contra golpes e fraudes digitais.",
+            "D": "(D)O aceite automático de solicitações de amizade ou conexões não representa risco à privacidade, uma vez que a filtragem de segurança é feita pela própria rede social."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve uma prática de segurança correta, pois ajustar a privacidade restringe a exposição de dados. As demais alternativas descrevem incorretamente a exclusão de contas, o compartilhamento de informações e o risco das redes sociais."
+    },
+    {
+        "id": "2239901",
+        "enunciado": "O ataque cibernético malicioso que sobrecarrega um servidor, um site ou uma rede com tráfego massivo vindo de múltiplas fontes, como uma rede de computadores infectados, para tornar o alvo indisponível para usuários legítimos é conhecido como",
+        "alternativas": {
+            "A": "XSS.",
+            "B": "MITM.",
+            "C": "falsific ação de DNS.",
+            "D": "SQL injection.",
+            "E": "DDoS."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "DDoS (Distributed Denial of Service) é o ataque que sobrecarrega um alvo com tráfego massivo de múltiplas fontes, visando torná-lo indisponível. XSS, MITM, falsificação de DNS e SQL injection são outros tipos de ataques cibernéticos."
+    },
+    {
+        "id": "2363227",
+        "enunciado": "Malware é um termo genérico para qualquer tipo de software malicioso projetado para danificar ou explorar qualquer dispositivo, serviço ou rede programável. Cibercriminosos normalmente o usam para extrair dados que podem ser usados para obter ganhos financeiros. Dentre os diversos tipos de malware, um deles se destaca por bloquear o acesso aos dados da vítima, exigindo um pagamento para restaurá-lo. Todas as alternativas a seguir apresentam características de um ataque de ransomware, EXCETO:",
+        "alternativas": {
+            "A": "Criptografa os arquivos da vítima, tornando-os inacessíveis sem a chave de decriptografia.",
+            "B": "Exige o pagamento de um resgate, geralmente em criptomoedas, para restaurar o acesso aos dados.",
+            "C": "Pode ser distribuído por meio de e-mails de phishing, downloads de software malicioso ou exploração de vulnerabilidades de sistemas.",
+            "D": "Propaga-se principalmente pela rede, explorando vulnerabilidades para infectar o maior número possível de máquinas, sem necessariamente roubar dados.",
+            "E": "Seu objetivo principal é a replicação em massa e a interrupção de serviços de rede, utilizando o dispositivo infectado para lançar ataques de negação de serviço (DDoS) em larga escala."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E descreve um worm, que se replica e foca em ataques DDoS. Ransomware foca em criptografar dados e exigir resgate, não em replicação em massa e ataques DDoS como principal objetivo."
+    },
+    {
+        "id": "2170569",
+        "enunciado": "Avalie o trecho a seguir: “[]] é um sistema de segurança de rede de computadores que restringe o tráfego da internet para, de ou em uma rede privada. Esse software ou unidade de hardware-software dedicada funciona bloqueando ou permitindo pacotes de dados seletivamente.” O trecho refere-se ao/à",
+        "alternativas": {
+            "A": "Antispyware.",
+            "B": "Antimalware.",
+            "C": "Firewall.",
+            "D": "Intrusion detection.",
+            "E": "Private network."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O firewall é um sistema de segurança que controla o tráfego de rede, bloqueando ou permitindo pacotes de dados seletivamente, com base em regras pré-definidas, para proteger redes privadas."
+    },
+    {
+        "id": "2386698",
+        "enunciado": "Assinalar a alternativa que preenche as lacunas abaixo CORRETAMENTE.",
+        "alternativas": {
+            "A": "No ambiente corporativo, a equipe de TI frequentemente orienta os funcionários sobre boas práticas de segurança. É recomendado que cada colaborador utilize uma senha __________ para dificultar ataques de adivinhação de credenciais, enquanto os sistemas de comunicação internos adotam __________, impedindo que terceiros leiam seu conteúdo sem a chave adequada.",
+            "B": "padrão | backup",
+            "C": "forte | backup",
+            "D": "padrão | criptografia",
+            "E": "forte | criptografia"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Senhas 'fortes' sao recomendadas para dificultar adivinhacao. A 'criptografia' e o metodo que garante que apenas a chave correta possa decifrar o conteudo de comunicacoes, protegendo-as de terceiros."
+    },
+    {
+        "id": "2359937",
+        "enunciado": "Lucas comprou um novo computador para estudar e realizar projetos importantes. Ele instalou um antivírus, cujo objetivo é:",
+        "alternativas": {
+            "A": "Aumentar a velocidade do processador.",
+            "B": "Criar senhas seguras.",
+            "C": "Proteger contra vírus e malwares.",
+            "D": "Garantir que os e-mails enviados sejam entregues.",
+            "E": "Fazer backup automático dos documentos e garantir segurança."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O principal objetivo de um programa antivírus é detectar e remover programas maliciosos, como vírus e malwares, que podem danificar o computador."
+    },
+    {
+        "id": "2263506",
+        "enunciado": "Analise o trecho a seguir para responder a esta questão. “O _____________ é um tipo de malware que sequestra dados confidenciais ou dispositivos da vítima e ameaça mantê -los bloqueados a menos que a vítima pague um resgate ao invasor.” Assinale a alternativa que apresenta o nome do malware que completa corretamente a lacuna do trecho.",
+        "alternativas": {
+            "A": "Adware.",
+            "B": "Keylogger.",
+            "C": "Ransomware.",
+            "D": "Spyware.",
+            "E": "Trojan."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O texto descreve um malware que sequestra dados e pede resgate. Essa característica de 'sequestro de dados mediante pagamento de resgate' é a definição de Ransomware. As outras opções descrevem outros tipos de malware com funcionalidades distintas."
+    },
+    {
+        "id": "2200679",
+        "enunciado": "Existem algumas ferramentas para proteção do computador, como por exemplo o antivírus. Assinale a alternativa que representa a função principal de um antivírus.",
+        "alternativas": {
+            "A": "Melhorar a velocidade do computador.",
+            "B": "Criar senhas fortes.",
+            "C": "Detectar e remover programas maliciosos",
+            "D": "Aumentar o espaço em disco rígido."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A função principal de um programa antivírus é justamente varrer o sistema em busca de softwares maliciosos, como vírus, malwares, spywares, etc., e eliminá-los ou colocá-los em quarentena. Ele não tem como objetivo principal melhorar a velocidade, criar senhas ou aumentar o espaço em disco."
+    },
+    {
+        "id": "2386702",
+        "enunciado": "A aplicação de técnicas de privacidade é indispensável para o controle de acesso e a proteção das informações. Considerando as características e a finalidade da autenticação em sistemas computacionais, assinalar a alternativa CORRETA.",
+        "alternativas": {
+            "A": "A autenticação tem como objetivo principal permitir que qualquer usuário acesse as informações de um sistema, sem a necessidade de identificação prévia",
+            "B": "A autenticação consiste em um processo de verificação da identidade do usuário, impedindo que pessoas não autorizadas acessem áreas restritas de um sistema.",
+            "C": "A autenticação é um método utilizado exclusivamente para aumentar a velocidade de processamento das informações em redes internas.",
+            "D": "O processo de autenticação substitui integralmente o uso de senhas, uma vez que o controle de acesso é realizado de forma automática."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A autenticacao tem o objetivo de verificar a identidade de um usuario para garantir que apenas pessoas autorizadas tenham acesso a determinados recursos ou informacoes em um sistema computacional. As demais alternativas apresentam conceitos incorretos sobre o proposito da autenticacao."
+    },
+    {
+        "id": "2170577",
+        "enunciado": "Em relação às práticas de segurança da informação, qual das alternativas a seguir apresenta uma medida preventiva contra ataques de engenharia social?",
+        "alternativas": {
+            "A": "Desconfiar de solicitações inesperadas sobre informações pessoais.",
+            "B": "Habilitar autenticação de dois fatores em dispositivos e contas.",
+            "C": "Realizar backups regulares de arquivos importantes.",
+            "D": "Utilizar um software antivírus atualizado regularmente.",
+            "E": "Configurar uma senha forte para sua rede Wi-Fi."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Desconfiar de solicitacoes inesperadas de informacoes pessoais e uma medida preventiva basica e eficaz contra engenharia social, que manipula psicologicamente as vitimas."
+    },
+    {
+        "id": "2063282",
+        "enunciado": "Qual das alternativas abaixo descreve uma boa prática de segurança ao utilizar o e-mail no ambiente corporativo?",
+        "alternativas": {
+            "A": "Utilizar senhas simples para facilitar o acesso rápido às contas de e-mail.",
+            "B": "Desconfiar de e-mails de remetentes desconhecidos e não abrir anexos ou links suspeitos.",
+            "C": "Compartilhar a senha do e-mail apenas com colegas de confiança para facilitar a comunicação.",
+            "D": "Utilizar a mesma senha para várias contas de e-mail para simplificar o gerenciamento de senhas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Desconfiar de remetentes desconhecidos e não abrir anexos ou links suspeitos é a principal prática de segurança para evitar golpes e malware em e-mails corporativos."
+    },
+    {
+        "id": "2136637",
+        "enunciado": "Um usuário identificou comportamento estranho em seu computador após abrir um e-mail suspeito. Suspeitando de uma infecção por vírus ou malware, analise as alternativas e assinale a correta.",
+        "alternativas": {
+            "A": "Ransomware é um firewall que impede a entrada de vírus, garantindo proteção total ao computador.",
+            "B": "Um worm pode se replicar sozinho pela rede, sem depender de execução direta pelo usuário.",
+            "C": "Cavalo de Troia (Trojan) é um tipo de antivírus que protege arquivos pessoais contra ataques externos.",
+            "D": "Spyware é um tipo de vírus que tem como função principal apagar permanentemente arquivos do computador."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B está correta. Worms são programas maliciosos que se replicam e se espalham pela rede autonomamente. As demais alternativas descrevem incorretamente os tipos de malware mencionados: ransomware é um tipo de malware que sequestra dados, trojan disfarça-se de software legítimo e spyware espiona o usuário."
+    },
+    {
+        "id": "2350384",
+        "enunciado": "Um vírus de computador pode ser definido como:",
+        "alternativas": {
+            "A": "Um hardware projetado para aprimorar o desempenho geral do sistema",
+            "B": "Um programa ou fragmento de programa que se instala sem o conhecimento do usuário.",
+            "C": "Um tipo de memória auxiliar não volátil utilizada para armazenamento estruturado de informações em diferentes dispositivos.",
+            "D": "Um dispositivo de entrada de dados.",
+            "E": "Um sistema operacional alternativo."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Vírus de computador são programas maliciosos que se replicam e se instalam no sistema sem o consentimento do usuário, podendo causar danos ou roubar informações."
+    },
+    {
+        "id": "2310557",
+        "enunciado": "A técnica que protege o computador contra softwares maliciosos provenientes de anexos de e-mail desconhecidos e downloads suspeitos é o uso de:",
+        "alternativas": {
+            "A": "Planilhas.",
+            "B": "Antivírus.",
+            "C": "Impressoras.",
+            "D": "Editores de texto.",
+            "E": "Calculadora."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O antivírus é o software especializado em detectar, prevenir e remover softwares maliciosos (malware), como vírus e spywares, que podem ser transmitidos por e-mails ou downloads suspeitos, protegendo o computador."
+    },
+    {
+        "id": "2138962",
+        "enunciado": "A realização de cópia de segurança de arquivos e sistemas é uma prática fundamental para garantir a proteção de dados contra falhas, exclusões acidentais e ataques cibernéticos. Em relação aos procedimentos adequ ados para backup , assinale a afirmativa correta.",
+        "alternativas": {
+            "A": "Não são seguros a o serem realizados na nuvem, pois não utilizam nenhum tipo de criptografia.",
+            "B": "Backups  incrementais copiam todos os arquivos existentes, independentemente de terem sido alterados ou não.",
+            "C": "Devem ser realizados periodicamente, preferencialmente em mídias e locais diferentes, como medida de segurança.",
+            "D": "A utilização de dispositivos como pen drives  ou HDs externos não é recomendada para backup , pois esses dispositivos não suportam arquivos criptografados."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Backups devem ser feitos periodicamente e em locais distintos para garantir a segurança dos dados. O uso da nuvem é seguro com criptografia, e backups incrementais não copiam tudo. Pen drives e HDs externos suportam criptografia."
+    },
+    {
+        "id": "2384892",
+        "enunciado": "A coordenadora de TI de uma universidade identificou que vários computadores do laboratório de informática apresentavam lentidão extrema e consumo elevado de internet. Após análise, descobriu-se que os sistemas estavam infectados por diferentes tipos de malware. Alguns se espalhavam automaticamente pela rede, outros capturavam dados dos usuários, e havia ainda programas que mineravam criptomoedas sem conhecimento dos usuários. Assinale a alternativa incorreta:",
+        "alternativas": {
+            "A": "Worms se propagam automaticamente através de redes sem necessitar de intervenção do usuário, diferentemente dos vírus tradicionais.",
+            "B": "Trojans são sempre detectados imediatamente pelos antivírus, pois se disfarçam como programas legítimos de forma muito rudimentar.",
+            "C": "Ransomware criptografa arquivos do usuário e exige pagamento para liberar o acesso aos dados.",
+            "D": "Spyware monitora atividades do usuário e pode capturar informações confidenciais como senhas e dados bancários."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B é incorreta porque Trojans podem ser sofisticados e enganar antivírus, não sendo sempre detectados imediatamente. Os outros tipos de malware são descritos corretamente."
+    },
+    {
+        "id": "2310561",
+        "enunciado": "Qual das alternativas representa uma senha de fácil identificação e, portanto, não recomendada para uso em sistemas escolares?",
+        "alternativas": {
+            "A": "qwertyui123.",
+            "B": "jdJ8#kLs92!.",
+            "C": "Mx$72Pn#lQ.",
+            "D": "W@v29Lp*B1.",
+            "E": "kfL!82oxQp8."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A representa uma senha de fácil memorização e adivinhação por ser uma sequência direta do teclado ('qwertyui') seguida por números em ordem ('123'). Senhas seguras devem ser complexas, com letras maiúsculas, minúsculas, números e símbolos."
+    },
+    {
+        "id": "2082049",
+        "enunciado": "Assinale a alternativa correta em relação à segurança na nuvem.",
+        "alternativas": {
+            "A": "A responsabilidade total pela segurança dos dados na nuvem pertence exclusivamente ao provedor do serviço.",
+            "B": "Segurança na nuvem envolve o modelo de responsabilidade compartilhada, no qual tanto o provedor quanto o cliente têm obrigações específicas.",
+            "C": "O uso de criptografia é desnecessário em ambientes de nuvem, já que a proteção é feita integralmente pelo firewall do provedor.",
+            "D": "A segurança na nuvem é garantida apenas pela adoção de backups automáticos em múltiplos datacenters.",
+            "E": "A autenticação multifator é proibida em ambientes de nuvem por aumentar a complexidade do acesso aos dados."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A segurança na nuvem é um esforço conjunto. O provedor protege a infraestrutura ('segurança da nuvem'), enquanto o cliente protege seus dados e aplicações ('segurança na nuvem'). Este modelo colaborativo é a base da responsabilidade compartilhada."
+    },
+    {
+        "id": "1231905",
+        "enunciado": "Considere o trecho a seguir. “[...] é um tipo de malware mais perigoso que um vírus comum, pois sua propagação é rápida e ocorre sem controle da vítima. Assim que ele contamina um computador, o programa malicioso cria cópias de si mesmo em diferentes locais do sistema e se espalha para outras máquinas, seja por meio de internet, mensagens, conexões locais, dispositivos USB ou arquivos.” O vírus mencionado no trecho é o",
+        "alternativas": {
+            "A": "Spyware.",
+            "B": "Adware.",
+            "C": "Worm.",
+            "D": "Rootkit.",
+            "E": "Trojan."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O texto descreve um malware que se propaga rapidamente, cria cópias de si mesmo e se espalha para outras máquinas sem intervenção do usuário. Essa característica é a definição de um Worm."
+    },
+    {
+        "id": "1056051",
+        "enunciado": "Em relação a antivírus é CORRET O aﬁrmar que:",
+        "alternativas": {
+            "A": "Os antivírus só são eﬁcazes contra vírus, não contra outras formas de malware.",
+            "B": "Um antivírus pode proteger contra todas as ameaças cibernéticas sem a necessidade de práticas de segurança adicionais.",
+            "C": "Os antivírus geralmente não requerem atualizações regulares para manter a eﬁcácia.",
+            "D": "Os antivírus são programas de segurança projetados para detectar e remover malware de um computador.",
+            "E": "Os antivírus não afetam o desempenho do sistema."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D descreve corretamente a função principal dos antivírus como programas de detecção e remoção de malware. As demais alternativas estão incorretas: antivírus protegem contra diversas formas de malware, não apenas vírus; a eficácia contra todas as ameaças não dispensa outras práticas de segurança; necessitam de atualizações constantes; e podem afetar o desempenho do sistema."
+    },
+    {
+        "id": "1282262",
+        "enunciado": "Considere os dados extraídos da ficha de segurança do HCl P.A. Ponto de fusão -30 °C Ponto de ebulição inicial e intervalo de ebulição > 100 °C Ponto de fulgor 49 °C Pressão de vapor 226.636 hPa a 21 °C Viscosidade 2,3mPa.s em 15 °C Considerando os dados apresentados, a temperatura mínima na qual o HCl libera vapores suficientes para formar uma mistura inflamável com o ar é:",
+        "alternativas": {
+            "A": "49 °C.",
+            "B": "-30 °C.",
+            "C": "21 °C.",
+            "D": "> 100 °C.",
+            "E": "15 °C."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O ponto de fulgor de uma substância é a temperatura mínima na qual ela libera vapores suficientes para formar uma mistura inflamável com o ar. O dado informado para o HCl é 49 °C."
+    },
+    {
+        "id": "2203871",
+        "enunciado": "A respeito das recomendações básicas ao receber           \ne-mails no correio eletrônico, marcar C para as afirmativas\nCertas, E para as Erradas e, após, assinalar a alternativa que\napresenta a sequência CORRETA:\n\n(_) Não se deve responder e- mails considerados como Spam.\n(_) É indicado responder e -mails que solicitam\nrecadastramento de dados bancários, com informações\nde senhas, números de conta bancária e números de CPF.\n(_) Os anexos recebidos por e -mail podem ser abertos com\nmaior segurança quando são de remetentes de origem\nconfiável e seu computador esteja utilizando um software\nantivírus ativo e atualizado.",
+        "alternativas": {
+            "A": "C - C - E.",
+            "B": "C - E - C.",
+            "C": "C - E - E.",
+            "D": "E - C - C."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Não se deve responder a spam (C). É errado responder a e-mails que pedem dados bancários e senhas (E). Abrir anexos de remetentes confiáveis com antivírus atualizado é seguro (C)."
+    },
+    {
+        "id": "2203702",
+        "enunciado": "A respeito das recomendações básicas ao receber e-mails no correio eletrônico, marcar C para as afirmativas Certas, E para as Erradas e, após, assinalar a alternativa que apresenta a sequência CORRETA:\n\n(_) Não se deve responder a e-mails considerados como Spam.\n(_) É indicado responder e-mails que solicitam recadastramento de dados bancários, com informações de senhas, números de conta bancária e números de CPF.\n(_) Os anexos recebidos por e-mail podem ser abertos com maior segurança quando são de remetentes de origem confiável e seu computador esteja utilizando um software antivírus ativo e atualizado.",
+        "alternativas": {
+            "A": "C - C - E.",
+            "B": "C - E - C.",
+            "C": "C - E - E.",
+            "D": "E - C - C."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Não se deve responder a spam (C). É errado responder a e-mails que pedem dados bancários e senhas (E). Abrir anexos de remetentes confiáveis com antivírus atualizado é seguro (C)."
+    },
+    {
+        "id": "2133734",
+        "enunciado": "Um hacker consegue explorar uma vulnerabilidade de um browser, de um sistema operacional ou de um servidor DNS, com o objetivo de redirecionar usuários para uma página web falsa de um banco, por exemplo, com o intuito de obter informações sensíveis. Esse tipo de ataque é chamado de:",
+        "alternativas": {
+            "A": "IP Spoofing.",
+            "B": "Malware.",
+            "C": "DDoS.",
+            "D": "Engenharia Social.",
+            "E": "Pharming."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Pharming é um tipo de ataque que redireciona usuários para sites falsos, manipulando o GPS ou o DNS, com o intuito de roubar dados. IP Spoofing falsifica o IP, Malware é um software malicioso, DDoS é ataque de negação de serviço e Engenharia Social manipula pessoas."
+    },
+    {
+        "id": "1014269",
+        "enunciado": "O que é um 'falso positivo' em relação a um programa antivírus?",
+        "alternativas": {
+            "A": "Um vírus real detectado corretamente.",
+            "B": "Um software legítimo que foi classificado erroneamente como uma ameaça.",
+            "C": "Um vírus que se disfarça de outro programa.",
+            "D": "Uma atualização de segurança.",
+            "E": "Um tipo de ataque cibernético."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B está correta. Um 'falso positivo' em antivírus ocorre quando um programa inofensivo é incorretamente identificado como uma ameaça, levando a um alerta desnecessário."
+    },
+    {
+        "id": "2228900",
+        "enunciado": "Uma das formas mais comuns de transmissão de vírus de computador é por meio de anexos de arquivos enviados por correio eletrônico. Para ajudar a proteger o remetente e seus destinatários, o Outlook bloqueia o envio e o recebimento de determinados tipos de arquivos anexos. Porém, há várias maneiras de enviar e receber um arquivo bloqueado pelo gerenciador. Assinalar a alternativa que NÃO representa uma dessas possibilidades:",
+        "alternativas": {
+            "A": "Salvar o arquivo na nuvem e enviar um link para o destinatário.",
+            "B": "Usar uma ferramenta de compactação de arquivos, como o WinZip, para mudar a extensão do arquivo.",
+            "C": "Renomear o arquivo com outra extensão e fazer com que o destinatário o renomeie de volta ao original após recebê-lo.",
+            "D": "Desativar o antivírus do computador."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Desativar o antivírus compromete a seguranca, nao sendo uma alternativa para enviar/receber arquivos bloqueados. As outras sao tecnicas validas."
+    },
+    {
+        "id": "2191232",
+        "enunciado": "Programas como Keylogger e Screenlogger, projetados para monitorar as atividades de um sistema e enviar dados e informações coletadas para terceiros, são conhecidos como:",
+        "alternativas": {
+            "A": "Spyware.",
+            "B": "Scrum.",
+            "C": "TypeScript.",
+            "D": "Ruby."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Keyloggers e Screenloggers são programas projetados para monitorar atividades e coletar dados de um sistema, caracterizando-se como Spyware."
+    },
+    {
+        "id": "2218205",
+        "enunciado": "Assinale a alternativa que apresenta um tipo de código malicioso (malware) que torna inacessíveis os dados armazenados em um equipamento, geralmente usando criptografia, e que exige pagamento de resgate para restabelecer o acesso ao usuário.",
+        "alternativas": {
+            "A": "Adware.",
+            "B": "Trojan.",
+            "C": "Spyware.",
+            "D": "Ransomware.",
+            "E": "Worm."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ransomware é o tipo de malware que criptografa os dados do usuário e exige um resgate para liberá-los. Adware exibe anúncios, Trojan se disfarça como software legítimo, Spyware coleta informações e Worm se replica em redes."
+    },
+    {
+        "id": "2327853",
+        "enunciado": "Maria trabalha em uma Universidade e possui uma conta de e-mail institucional. Um dia, sem esperar, ela recebe nessa conta um e-mail com o seguinte corpo: Bom dia, nós do NTI (Núcleo de Tecnologia da Informação) desta Universidade informamos que o serviço de e-mail está passando por manutenção e é necessário o recadastramento dos usuários. Assim, solicitamos que você responda com urgência este e-mail com os seguintes dados: sua conta (usuário), senha, nome completo e departamento. Atenção, responda apenas para o nosso endereço (utilize o ícone responder do seu gerenciador de e-mails). Caso você não responda este e-mail, sua conta será inativada. Atenciosamente, Equipe de suporte do NTI. Maria analisou o corpo da mensagem, leu no assunto “Recadastramento de Usuário” e viu que em quem enviou estava escrito “NTI”. Sabendo que Maria não é uma usuária avançada da ferramenta de e-mails da Universidade, qual das atitudes a seguir é considerada a mais correta a ser tomada por ela nesta situação?",
+        "alternativas": {
+            "A": "Encaminhar o e-mail para o endereço eletrônico do NTI que ela pegou diretamente no sítio da Universidade (portal da Universidade na Internet), questionando sobre o que se trata a mensagem encaminhada.",
+            "B": "Responder ao e-mail com os dados solicitados, uma vez que não pode perder a conta institucional, pois depende muito dela para trabalhar.",
+            "C": "Atualizar o antivírus do computador que está utilizando e somente depois de verificar a atualização responder ao e-mail, informando os dados solicitados.",
+            "D": "Enviar um e-mail de questionamento para o NTI da Universidade, mas, como no corpo da mensagem em questão, estão solicitando os dados com urgência, ela imediatamente, antes de qualquer recebimento de resposta do NTI, já responde ao e-mail com os dados solicitados."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A atitude mais correta é desconfiar do e-mail e buscar confirmação oficial. Solicitações de senhas via e-mail são características de phishing. Encaminhar para o NTI para questionamento é a forma segura de proceder."
+    },
+    {
+        "id": "2114609",
+        "enunciado": "Referente à segurança de sistemas de computadores, assinalar a alternativa que preenche a lacuna abaixo CORRETAMENTE:__________ é a habilidade de determinar que afirmações, políticas e permissões oriundas de pessoas ou sistemas são genuínas.",
+        "alternativas": {
+            "A": "Autenticidade",
+            "B": "Confiabilidade",
+            "C": "Permissividade",
+            "D": "Garantia"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Autenticidade é a capacidade de verificar se uma afirmação, política ou permissão é realmente quem/o que diz ser. Isso garante que as interações com pessoas ou sistemas sejam seguras e confiáveis. Confiabilidade (B) é a probabilidade de um sistema operar sem falhas. Permissividade (C) é o grau de tolerância a ações. Garantia (D) é um termo genérico."
+    },
+    {
+        "id": "2328124",
+        "enunciado": "Quase que diariamente a caixa de entrada da conta de e -mail da servidora Cecília recebe uma “enxurrada” de mensagens indesejadas. São os chamados Spams. Spam é o termo usado para se referir aos e -mails não solicitados, que geralmente são enviados para um grande número de pessoas. A única atitude que Cecília toma em relação a essas mensagens é apagá -las da caixa de entrada. No entanto, existem outras ações que ela pode adotar para minimizar a incidência de mensagens indesejadas em seu e -mail. Aponte, dentre as alternativas seguintes, aquela que possui um conjunto de ações eficazes contra a disseminação de spams.",
+        "alternativas": {
+            "A": "optar pelo uso do telefone em vez do e -mail, fornecer sempre o seu endereço de e -mail para qualquer site que solicitar  desinstalar o programa gerenciador de e -mail do computador, encaminhar os e -mails recebidos para outro endereço .",
+            "B": "responder às mensagens de spam com conteúdo falso, enviar tel egrama ao remetente das mensagens indesejadas, repassar as mensagens recebidas a terceiros, fornecer o seu endereço de e -mail apenas para sites de propaganda e divulgação de conteúdo.",
+            "C": "clicar nos links presentes nos e -mails indesejados, escolher receber  e-mails com promoções e avisos de sites de compra, permitir que todos vejam o endereço do seu e -mail nas suas redes sociais, classificar como seguras todas as mensagens que o servidor de e -mail classificar como spam.",
+            "D": "classificar as mensagens indesejadas como lixo eletrônico ou spam, solicitar ao administrador da rede que instale filtros no servidor de e -mail, ser cautelosa ao fornecer o endereço de e -mail em formulários na internet, usar a opção de cópia oculta ao enviar e -mails para vários de stinatários."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D apresenta um conjunto de ações eficazes: marcar como spam, usar filtros de e-mail, ser cauteloso ao fornecer o e-mail e usar cópia oculta. As outras alternativas incluem ações que podem piorar a situação, como responder spam, clicar em links ou fornecer o e-mail indiscriminadamente."
+    },
+    {
+        "id": "2328126",
+        "enunciado": "Dagoberto é um homem de uma senha só: utiliza uma única senha para qualquer acesso ou cadastro que faz na internet. A senha da sua conta bancária é a mesma do seu e -mail e das redes sociais que utiliza, que por sua vez é igual à  que ele utiliza em seu smartphone e em alguns sites onde gosta de fazer compras. Parece que Dagoberto gosta de viver perigosamente, porque caso essa senha seja descoberta algum dia, tudo que ele acessa com ela poderá ser roubado dele. Quando questionado, Dagoberto se diz seguro, já que garante que só ele sabe a sua senha e que jamais a mostraria para qualquer um nessa vida.Agora, você que estudou sobre noções de segurança para prestar este concurso sabe que Dagoberto definitivamente não está seguro. Exis tem muitas maneiras de Dagoberto ter a sua senha roubada e, com isso, ter a sua tranquilidade perdida. Assinale a alternativa que apresenta SOMENTE recomendações que Dagoberto deve seguir para MINIMIZAR o risco de ter a sua senha capturada.",
+        "alternativas": {
+            "A": "certificar -se de não estar sendo observado enquanto digita a sua senha, fechar a sessão em sites e serviços que requeiram o uso de senhas, alterar a senha periodicamente, digitar a senha apenas em acessos que sejam criptografados, usar uma senha longa e qu e combine tipos de caracteres diferentes, ter uma senha diferente para cada serviço que for usar.",
+            "B": "certificar -se de não estar sendo observado enquanto digita a sua senha, fechar a sessão em sites e serviços que requeiram o uso de senhas, manter sempre a  mesma senha, digitar a senha apenas em acessos que sejam criptografados, usar uma senha longa e que combine tipos de caracteres diferentes, ter uma senha diferente para cada serviço que for usar.",
+            "C": "certificar -se de não estar sendo observado enquanto dig ita a sua senha, informar a senha para uma única pessoa de confiança, alterar a senha periodicamente, digitar a senha apenas em acessos que sejam  criptografados, usar uma senha longa e que combine tipos de caracteres diferentes, ter uma senha diferente par a cada serviço que for usar.",
+            "D": "certificar -se de não estar sendo observado enquanto digita a sua senha, fechar a sessão em sites e serviços que requeiram o uso de senhas, alterar a senha periodicamente, digitar a senha apenas em acessos que sejam criptogr afados, usar como senha o primeiro nome da sua mãe, ter uma senha diferente para cada serviço que for usar."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A lista únicas recomendações seguras: não ser observado ao digitar, fechar sessões ativas, alterar senhas periodicamente, usar HTTPS, senhas fortes e diferentes para cada serviço. Manter a mesma senha (B) é inseguro. Informar a senha (C) é arriscado. Usar nome da mãe (D) é uma senha fraca."
+    },
+    {
+        "id": "2124156",
+        "enunciado": "Para a realização de remoção de códigos maliciosos em um computador, está CORRETO utilizar:",
+        "alternativas": {
+            "A": "Anti-spyware.",
+            "B": "Detecção de intrusão.",
+            "C": "Anti-spam.",
+            "D": "Anti-phishing."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Anti-spyware e o software especificamente projetado para detectar, remover e prevenir a instalacao de spyware e outros programas maliciosos que monitoram a atividade do usuario sem seu consentimento."
+    },
+    {
+        "id": "2239763",
+        "enunciado": "Assinale a alternativa  que apresenta um elemento recomendável para s er utilizado a fim de se definir  uma senha segura:",
+        "alternativas": {
+            "A": "Nome do time de futebol preferido.",
+            "B": "Sobrenome de solteira de sua mãe.",
+            "C": "Sequên cia do teclado (ex: qwertyuiop).",
+            "D": "Primeira letra de cada palavra de uma frase."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Utilizar a primeira letra de cada palavra de uma frase (como 'Minha Casa Minha Vida', gerando 'Mcmv') é uma técnica recomendável para criar senhas seguras, combinando complexidade e memorização."
+    }
+]

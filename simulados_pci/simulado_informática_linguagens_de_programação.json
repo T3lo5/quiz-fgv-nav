@@ -1,0 +1,2295 @@
+[
+    {
+        "id": "2023178",
+        "enunciado": "Essa linguagem de programação foi influenciada pelas linguagens C++ e Java que ganhou popularidade na comunidade de informática quando a Microsoft decidiu incluí-la no pacote Visual Studio. Marque a alternativa CORRETA que corresponde a linguagem de programação descrita.",
+        "alternativas": {
+            "A": "C# (Sharp).",
+            "B": "Python.",
+            "C": "TypeScript.",
+            "D": "PHP.",
+            "E": "Javascript."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A linguagem C# (Sharp) foi desenvolvida pela Microsoft e teve influências de C++ e Java, sendo incluída no Visual Studio. Python, TypeScript, PHP e Javascript têm origens e características distintas."
+    },
+    {
+        "id": "2372055",
+        "enunciado": "Em Python, os 'Decoradores' (Decorators) são uma funcionalidade poderosa baseada em funções de primeira ordem. Assinale a alternativa que descreve CORRETAMENTE a estrutura e o funcionamento de um decorador simples.",
+        "alternativas": {
+            "A": "É um comentário especial iniciado por #@ que instrui o interpretador a ignorar a verificação de tipos estáticos naquela função específica durante a compilação.",
+            "B": "Trata-se de uma palavra-chave reservada (decorate) colocada no final do arquivo que organiza alfabeticamente todas as funções do módulo para facilitar a leitura.",
+            "C": "Um decorador é uma função que recebe outra função como argumento, define uma nova função interna (wrapper) que adiciona comportamento antes e/ou depois da execução da função original, e retorna essa nova função wrapper.",
+            "D": "Um decorador é uma classe especial que herda de threading.Thread e executa a função decorada em um núcleo separado da CPU para otimizar o desempenho paralelo.",
+            "E": "Um decorador é um método de banco de dados que formata automaticamente a saída de uma consulta SQL para JSON, não tendo relação com a lógica de programação da linguagem."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um decorador em Python é uma função que envolve outra função. Ela recebe a função original como argumento, adiciona comportamento antes ou depois da execução dela e retorna uma nova função (geralmente chamada de wrapper)."
+    },
+    {
+        "id": "2232573",
+        "enunciado": "Em PHP, uma _______ é um nome que identifica um valor simples. Esse valor não pode ser alterado durante a execução do script. Examine e indique qual das opções preenche melhor a lacuna do texto acima:",
+        "alternativas": {
+            "A": "variável",
+            "B": "constante",
+            "C": "função",
+            "D": "classe",
+            "E": "biblioteca"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O texto descreve um valor que, uma vez definido, não pode ser alterado durante a execução do script. Esta é a definição de constante em programação."
+    },
+    {
+        "id": "1907708",
+        "enunciado": "Um programador, utilizando Python 3, precisa filtrar os números pares de uma lista chamada numeros. Por exemplo, dado numeros = [1, 2, 3, 4, 5, 6], o resultado esperado é a lista [2, 4, 6]. Qual das opções a seguir implementa corretamente essa tarefa?",
+        "alternativas": {
+            "A": "pares = [x for x in numeros if x % 2 == 0]",
+            "B": "pares = filter(lambda x: x % 2 == 0, numeros)",
+            "C": "pares = list(x for x in numeros if x // 2 == 0)",
+            "D": "pares = list(filter(lambda x: x // 2 == 0, numeros))"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A utiliza uma list comprehension, que é uma forma concisa e eficiente em Python para criar listas. A expressão 'x for x in numeros if x % 2 == 0' itera sobre a lista 'numeros', e para cada elemento 'x', verifica se o resto da divisão por 2 é 0 (ou seja, se é par). Se for par, o elemento é incluído na nova lista 'pares'."
+    },
+    {
+        "id": "2375357",
+        "enunciado": "Assinale corretamente a alternativa que não representa uma linguagem de programação.",
+        "alternativas": {
+            "A": "Ruby",
+            "B": "Java",
+            "C": "C++",
+            "D": "Twisther"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ruby, Java e C++ são linguagens de programação amplamente reconhecidas. Twister não é um nome de linguagem de programação conhecida no meio da tecnologia."
+    },
+    {
+        "id": "1907653",
+        "enunciado": "Um desenvolvedor precisa criar uma aplicação empresarial que utilize as especificações da plataforma Java EE. Considerando os itens abaixo :1. Persistência de dados em um banco relacional.2. Interface gráfica web rica e baseada em componentes.3. Gerenciamento de transações distribuídas em múltiplos recursos.4. Comunicação assíncrona entre sistemas.Quais especificações devem ser utilizadas para atender aos requisitos descritos, respectivamente?",
+        "alternativas": {
+            "A": "JPA para persistência, JSF para interface gráfica, JTA para transações e JMS para comunicação assíncrona.",
+            "B": "EJB para persistência, JSF para interface gráfica, JPA para transações e JMS para comunicação assíncrona.",
+            "C": "JTA para persistência, EJB para interface gráfica, JSF para transações e JPA para comunicação assíncrona.",
+            "D": "JMS para persistência, JPA para interface gráfica, EJB para transações e JSF para comunicação assíncrona."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "JPA (Java Persistence API) é para persistência em bancos relacionais. JSF (JavaServer Faces) é ideal para interfaces web ricas baseadas em componentes. JTA (Java Transaction API) gerencia transações distribuídas. JMS (Java Message Service) é para comunicação assíncrona entre sistemas. A alternativa A alinha corretamente as especificações aos requisitos."
+    },
+    {
+        "id": "2337115",
+        "enunciado": "Assinale a alternativa que indica corretamente os caracteres de comentários de 1 única linha em PHP.",
+        "alternativas": {
+            "A": "Somente //",
+            "B": "Somente #",
+            "C": "Somente /*",
+            "D": "// ou # ou /*",
+            "E": "// ou #"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Em PHP, os comentários de linha única podem ser iniciados tanto com as barras duplas '//' quanto com o símbolo de cerquilha '#'. A combinação /* é usada para comentários de múltiplas linhas."
+    },
+    {
+        "id": "1773085",
+        "enunciado": "São estruturas utilizadas em linguagens de programação procedurais como forma de dividir um programa em sub-rotinas:",
+        "alternativas": {
+            "A": "Classe.",
+            "B": "Função.",
+            "C": "Procedimento.",
+            "D": "Apenas II e III."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Funções e Procedimentos são estruturas em linguagens procedurais que dividem um programa em blocos reutilizáveis, chamados de sub-rotinas."
+    },
+    {
+        "id": "2129052",
+        "enunciado": "Marque a associação correta entre forma de polimorfismo e exemplo típico de linguagem.",
+        "alternativas": {
+            "A": "Paramétrico em genéricos com tipo variável uniforme, ad-hoc em sobrecarga por assinatura e subtipagem em herança de classes.",
+            "B": "Ad-hoc em genéricos uniformes, paramétrico em sobrecarga por assinatura e subtipagem em coincidência nominal de nomes.",
+            "C": "Subtipagem em monomorfismo, paramétrico em coerções implícitas por conversão e ad-hoc em inferência de tipos principal.",
+            "D": "Paramétrico em especialização por cópia por cada instância, ad-hoc em relações de subclasse e subtipagem em operadores polimórficos universais."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O polimorfismo paramétrico se manifesta em genéricos com tipos variáveis. Ad-hoc ocorre na sobrecarga por assinatura. Subtipagem se aplica na herança de classes. A alternativa A associa corretamente cada tipo de polimorfismo ao seu respectivo exemplo em linguagens de programação."
+    },
+    {
+        "id": "1773087",
+        "enunciado": "Qual das alternativas abaixo corresponde a uma variável corretamente representada na linguagem PHP, versão 8?",
+        "alternativas": {
+            "A": "$title",
+            "B": "!description",
+            "C": "_name",
+            "D": "&type"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em PHP, variáveis iniciam com '$'. A alternativa A ('$title') é a única sintaticamente correta conforme as regras de declaração de variáveis na versão 8."
+    },
+    {
+        "id": "1773093",
+        "enunciado": "Analise o trecho de código abaixo, escrito na linguagem de programação Java, e assinale a alternativa que corresponde a uma forma adequada de criar um objeto a partir da classe Filme.",
+        "alternativas": {
+            "A": "new f = Filme();",
+            "B": "Filme f = new Filme();",
+            "C": "(Filme) f = Filme;",
+            "D": "f = new Filme;"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em Java, a criação de um objeto utiliza a palavra-chave 'new' após o tipo e o nome da variável, seguido do nome da classe e parênteses para o construtor. Filme f = new Filme();"
+    },
+    {
+        "id": "2331151",
+        "enunciado": "São tipos de dados numéricos válidos em Python:",
+        "alternativas": {
+            "A": "int • decimal • range",
+            "B": "int • float • complex",
+            "C": "int • complex • set",
+            "D": "float • int • tuple",
+            "E": "float • decimal • bool"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Python possui os tipos numericos inteiros (int), de ponto flutuante (float) e complexos (complex). 'Decimal' nao e um tipo nativo, 'range' e um tipo sequencia, 'complex' e numérico mas 'set' e 'tuple' nao são tipos numéricos."
+    },
+    {
+        "id": "1773095",
+        "enunciado": "No paradigma de programação orientada a objetos, é uma característica relacionada ao conceito de herança entre classes:",
+        "alternativas": {
+            "A": "Definição de métodos obrigatórios.",
+            "B": "Um mesmo método apresentar comportamentos diferentes, dependendo da classe chamadora.",
+            "C": "Reaproveitamento de atributos e métodos.",
+            "D": "Separação de classes com responsabilidades distintas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A herança em POO permite que uma classe (subclasse) herde atributos e métodos de outra classe (superclasse), promovendo o reaproveitamento de código."
+    },
+    {
+        "id": "1793497",
+        "enunciado": "Analise o seguinte trecho de código Python: Qual é a principal vantagem do tratamento de exceções implementado?",
+        "alternativas": {
+            "A": "Melhora a performance do código",
+            "B": "Permite tratamento específico para diferentes tipos de erros",
+            "C": "Reduz o consumo de memória",
+            "D": "Aumenta a velocidade de execução",
+            "E": "Facilita a leitura e manutenção do código"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O tratamento de excecoes (try-except) permite que o programa lide de forma controlada com situacoes inesperadas, como erros de divisao por zero ou arquivos inexistentes. Isso possibilita a implementacao de lógicas distintas para cada tipo de erro, evitando paradas abruptas do sistema."
+    },
+    {
+        "id": "2337130",
+        "enunciado": "Os conjuntos (sets) em Python, devem ser declarados entre quais caracteres?",
+        "alternativas": {
+            "A": "\"\"",
+            "B": "[]",
+            "C": "{}",
+            "D": "()",
+            "E": "<>"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Em Python, os conjuntos (sets) são estruturas de dados que armazenam elementos únicos e não ordenados. A sintaxe padrão para declarar um conjunto é utilizando chaves {}."
+    },
+    {
+        "id": "2331156",
+        "enunciado": "Em Java, um método pode retornar ou não algum valor. Assinale a alternativa que contém a palavra reservada correta que indica que um método não deve retornar um valor ao declarar um método.",
+        "alternativas": {
+            "A": "noreturn",
+            "B": "procedure",
+            "C": "null",
+            "D": "nullreturn",
+            "E": "void"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Em Java, a palavra reservada 'void' e utilizada na declaracao de um metodo para indicar que ele nao retorna nenhum valor. As outras palavras nao se aplicam ou nao sao padroes para essa finalidade."
+    },
+    {
+        "id": "1773101",
+        "enunciado": "Linguagem e ambiente para computação estatística e gráficos utilizada para análise estatística, manipulação e visualização de dados. A descrição apresentada refere-se à linguagem:",
+        "alternativas": {
+            "A": "SQL",
+            "B": "C#",
+            "C": "JavaScript",
+            "D": "R"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A linguagem R é amplamente utilizada em computação estatística, análise, manipulação e visualização de dados, com vastos pacotes para estatística e gráficos."
+    },
+    {
+        "id": "2331158",
+        "enunciado": "Qual função PHP permite declarar constantes?",
+        "alternativas": {
+            "A": "constant()",
+            "B": "declare()",
+            "C": "set()",
+            "D": "define()",
+            "E": "identify()"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A funcao 'define()' em PHP e utilizada para declarar constantes em tempo de execucao. As outras funcoes nao possuem essa finalidade especifica."
+    },
+    {
+        "id": "1842392",
+        "enunciado": "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Sobre as vantagens da utilização de Python assinale a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "Python é uma linguagem de programação Open Source, e com isso conta com a colaboração de diversos profissionais espalhados nos quatro cantos do mundo, realizando correções e melhorias contínuas.",
+            "B": "Python possui bibliotecas estatísticas e científicas que permitem manipular grandes volumes de dados com qualidade.",
+            "C": "A versatilidade do Python pode ser vista em suas diversas aplicações como, por exemplo, Inteligência Artificial, Big Data, Computação Gráfica, entre outras.",
+            "D": "Python é a linguagem que mais se adequa para o desenvolvimento mobile, já que o seu consumo de memória é baixo e é substancialmente mais rápida para executar do que outras linguagens de programação.",
+            "E": "Um dos seus diferenciais é a sua sintaxe, que é fácil de ser entendida. Os comandos utilizados em Python são intuitivos e as palavras usadas são similares à língua inglesa. Além disso, as exigências gramaticais são menores, não sendo necessário o uso de parênteses em estruturas de seleção ou ponto e vírgula no final de cada linha."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D é incorreta. Embora Python seja versátil, ele não é a linguagem que mais se adequa ao desenvolvimento mobile devido ao seu maior consumo de memória e menor velocidade em comparação a outras linguagens específicas para essa plataforma."
+    },
+    {
+        "id": "2331160",
+        "enunciado": "No contexto de expressões regulares em PHP, ao instruir o PHP a encontrar certos caracteres, utilizam-se os caracteres colchetes [ ]. Assinale a alternativa que contém o caractere de expressão regular NOT, ou aquele que instrui o PHP a encontrar qualquer caractere a não ser aqueles contidos nos colchetes.",
+        "alternativas": {
+            "A": "!",
+            "B": "=!",
+            "C": "*",
+            "D": "ˆ",
+            "E": "#"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em expressoes regulares, o caractere '^' (circunflexo) posicionado no inicio de um conjunto de caracteres dentro de colchetes ('[^...]') indica a negacao, ou seja, a busca por qualquer caractere que nao esteja contido naquele conjunto."
+    },
+    {
+        "id": "2389161",
+        "enunciado": "Assinale a alternativa que NÃO apresenta linguagens de programação:",
+        "alternativas": {
+            "A": "Java, Python e Ruby.",
+            "B": "PL/SQL, C++ e Kotlin.",
+            "C": "PHP, JavaScript e Groovy.",
+            "D": "HTML, CSS e SQL."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "HTML e CSS são linguagens de marcação e estilo, respectivamente, usadas para criar páginas web, mas não são linguagens de programação por não permitirem a execução de lógicas complexas. SQL é uma linguagem de consulta para bancos de dados."
+    },
+    {
+        "id": "1721709",
+        "enunciado": "Indique a alternativa que apresenta a implementação do .NET mais adequada para criação de aplicativos multiplataforma, que executam em Windows, Linux e macOS.",
+        "alternativas": {
+            "A": "Xamarin",
+            "B": "Mono",
+            "C": "UWP",
+            "D": ".NET 5+",
+            "E": ".Net Framework"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O .NET 5 e suas versões subsequentes (como .NET 6, 7, 8, etc.) foram unificados para oferecer suporte nativo e robusto à criação de aplicativos multiplataforma (Windows, Linux, macOS). Xamarin focava em mobile, Mono é um runtime, UWP é específico para Windows, e .NET Framework é legado e não multiplataforma."
+    },
+    {
+        "id": "2125925",
+        "enunciado": "Qual o operador de exponenciação em Javascript?",
+        "alternativas": {
+            "A": "ˆ",
+            "B": "!",
+            "C": "‘",
+            "D": "*",
+            "E": "**"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E está correta. O operador '**' é utilizado em JavaScript para exponenciação, enquanto '^' é para XOR bit a bit. As demais opções representam outros operadores (negação lógica, apóstrofo e multiplicação)."
+    },
+    {
+        "id": "1782559",
+        "enunciado": "O Spring Framework é um framework amplamente utilizado para o desenvolvimento de aplicações criadas na linguagem de programação Java. Este framework viabiliza uma infraestrutura robusta para simplificar o processo de desenvolvimento, permitindo que os desenvolvedores se concentrem na lógica do negócio em vez de aspectos complexos da configuração e integração, desta forma, facilitando o trabalho dos desenvolvedores, para que os mesmos sejam mais assertivos na implementação do software. O Spring Framework possui componentes principais, dentre estes componentes, pode-se citar o componente Spring AOP. Qual a finalidade do Spring AOP?",
+        "alternativas": {
+            "A": "Facilita a interação com bancos de dados, fornecendo repositórios e suporte para JPA.",
+            "B": "Implementa a programação orientada a aspectos.",
+            "C": "Gerencia o ciclo de vida e as dependências dos objetos.",
+            "D": "Suporte completo para criar aplicações web baseadas no Spring."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O componente Spring AOP (Aspect-Oriented Programming) tem como finalidade implementar a programação orientada a aspectos, permitindo a modularização de funcionalidades transversais como log, segurança e transações."
+    },
+    {
+        "id": "2288055",
+        "enunciado": "Na linguagem JavaScript, qual dos operadores abaixo pode ser utilizado para concatenar strings?",
+        "alternativas": {
+            "A": "%",
+            "B": "||",
+            "C": "+",
+            "D": ".",
+            "E": "&"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O operador '+' é utilizado em JavaScript para concatenar strings, unindo o conteúdo de duas ou mais strings em uma única."
+    },
+    {
+        "id": "1918161",
+        "enunciado": "O JavaScript é amplamente utilizado no desenvolvimento web, desempenhando um papel fundamental na criação de páginas interativas. Qual das opções a seguir descreve CORRETAMENTE o JavaScript?",
+        "alternativas": {
+            "A": "Uma linguagem de marcação utilizada para estruturar o conteúdo da web.",
+            "B": "Uma linguagem de programação utilizada para adicionar interatividade e dinamismo às páginas da web.",
+            "C": "Um estilo de folha utilizado para definir a apresentação visual de um documento.",
+            "D": "Um protocolo de comunicação utilizado para enviar dados entre o cliente e o servidor.",
+            "E": "Uma linguagem de programação compilada utilizada para desenvolver aplicativos desktop nativos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "JavaScript é uma linguagem de script executada no navegador do cliente para criar interatividade, manipulação do DOM, requisições assíncronas e outras funcionalidades dinâmicas em páginas web."
+    },
+    {
+        "id": "2350403",
+        "enunciado": "Qual sistema de arquivos é utilizado nativamente pelas instalações modernas do Ubuntu Linux?",
+        "alternativas": {
+            "A": "NTFS",
+            "B": "FAT32",
+            "C": "ext4",
+            "D": "HFS+",
+            "E": "APFS"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O sistema de arquivos ext4 (Fourth Extended Filesystem) é o padrão e o sistema de arquivos nativo utilizado pelas instalações modernas do Ubuntu Linux, sendo conhecido por sua robustez, desempenho e confiabilidade."
+    },
+    {
+        "id": "2340076",
+        "enunciado": "Considere o seguinte código Python: A saída produzida pelo código é:",
+        "alternativas": {
+            "A": "[0, 1, 2]",
+            "B": "[2, 2, 2]",
+            "C": "[0, 0, 0]",
+            "D": "NameError: name 'i' is not defined",
+            "E": "[3, 3, 3]"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O código Python cria uma lista 'result' e itera sobre a lista 'nums'. Dentro do loop, 'result.append(i)' adiciona o valor atual de 'i' à lista 'result'. A lista 'nums' é [0, 1, 2]. Portanto, o loop executa para i=0, i=1 e i=2, adicionando cada um desses valores à lista 'result'. Assim, 'result' se torna [0, 1, 2]."
+    },
+    {
+        "id": "1875929",
+        "enunciado": "Sobre as interfaces em Java , é INCORRETO afirmar  que:",
+        "alternativas": {
+            "A": "podem ser usadas na marcação de classes, produz indo a noção de relacionamento do tipo “é um ”.",
+            "B": "permitem  compartilhar métodos e constantes comuns entre classes não relacionadas hierarquicamente.",
+            "C": "podem conter constantes, assinaturas de métodos, métodos estáticos e ser instanciadas diretamente por meio  do construtor.",
+            "D": "funcionam como contratos de implementação p ara um componente, permitindo a implementação de funcionalidades por times diferentes."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está incorreta. Interfaces em Java não podem conter métodos estáticos que tenham implementação e não podem ser instanciadas diretamente por meio de construtor, pois são contratos de implementação."
+    },
+    {
+        "id": "1575442",
+        "enunciado": "Uma biblioteca é uma coleção de códigos usados com frequência que os desenvolvedores podem incluir em seus programas Python para evitar escrever o código do zero.  Assinale a alternativa que se refere à biblioteca Python que fornece funções úteis que são necessárias para o desenvolvimento Web:",
+        "alternativas": {
+            "A": "NumPy.",
+            "B": "Requests.",
+            "C": "Keras.",
+            "D": "OpenCV -Python."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A biblioteca 'Requests' em Python é amplamente utilizada para fazer requisições HTTP, sendo fundamental para o desenvolvimento web, permitindo a comunicação com APIs e a obtenção de dados da internet. As outras bibliotecas citadas têm focos diferentes (NumPy para computação numérica, Keras para machine learning, OpenCV para visão computacional)."
+    },
+    {
+        "id": "2023178",
+        "enunciado": "Essa linguagem de programação foi influenciada pelas linguagens C++ e Java que ganhou popularidade na comunidade de informática quando a Microsoft decidiu incluí-la no pacote Visual Studio. Marque a alternativa CORRETA que corresponde a linguagem de programação descrita.",
+        "alternativas": {
+            "A": "C# (Sharp).",
+            "B": "Python.",
+            "C": "TypeScript.",
+            "D": "PHP.",
+            "E": "Javascript."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A linguagem C# (Sharp) foi desenvolvida pela Microsoft e teve influências de C++ e Java, sendo incluída no Visual Studio. Python, TypeScript, PHP e Javascript têm origens e características distintas."
+    },
+    {
+        "id": "2372055",
+        "enunciado": "Em Python, os 'Decoradores' (Decorators) são uma funcionalidade poderosa baseada em funções de primeira ordem. Assinale a alternativa que descreve CORRETAMENTE a estrutura e o funcionamento de um decorador simples.",
+        "alternativas": {
+            "A": "É um comentário especial iniciado por #@ que instrui o interpretador a ignorar a verificação de tipos estáticos naquela função específica durante a compilação.",
+            "B": "Trata-se de uma palavra-chave reservada (decorate) colocada no final do arquivo que organiza alfabeticamente todas as funções do módulo para facilitar a leitura.",
+            "C": "Um decorador é uma função que recebe outra função como argumento, define uma nova função interna (wrapper) que adiciona comportamento antes e/ou depois da execução da função original, e retorna essa nova função wrapper.",
+            "D": "Um decorador é uma classe especial que herda de threading.Thread e executa a função decorada em um núcleo separado da CPU para otimizar o desempenho paralelo.",
+            "E": "Um decorador é um método de banco de dados que formata automaticamente a saída de uma consulta SQL para JSON, não tendo relação com a lógica de programação da linguagem."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um decorador em Python é uma função que envolve outra função. Ela recebe a função original como argumento, adiciona comportamento antes ou depois da execução dela e retorna uma nova função (geralmente chamada de wrapper)."
+    },
+    {
+        "id": "2232573",
+        "enunciado": "Em PHP, uma _______ é um nome que identifica um valor simples. Esse valor não pode ser alterado durante a execução do script. Examine e indique qual das opções preenche melhor a lacuna do texto acima:",
+        "alternativas": {
+            "A": "variável",
+            "B": "constante",
+            "C": "função",
+            "D": "classe",
+            "E": "biblioteca"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O texto descreve um valor que, uma vez definido, não pode ser alterado durante a execução do script. Esta é a definição de constante em programação."
+    },
+    {
+        "id": "1907708",
+        "enunciado": "Um programador, utilizando Python 3, precisa filtrar os números pares de uma lista chamada numeros. Por exemplo, dado numeros = [1, 2, 3, 4, 5, 6], o resultado esperado é a lista [2, 4, 6]. Qual das opções a seguir implementa corretamente essa tarefa?",
+        "alternativas": {
+            "A": "pares = [x for x in numeros if x % 2 == 0]",
+            "B": "pares = filter(lambda x: x % 2 == 0, numeros)",
+            "C": "pares = list(x for x in numeros if x // 2 == 0)",
+            "D": "pares = list(filter(lambda x: x // 2 == 0, numeros))"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A utiliza uma list comprehension, que é uma forma concisa e eficiente em Python para criar listas. A expressão 'x for x in numeros if x % 2 == 0' itera sobre a lista 'numeros', e para cada elemento 'x', verifica se o resto da divisão por 2 é 0 (ou seja, se é par). Se for par, o elemento é incluído na nova lista 'pares'."
+    },
+    {
+        "id": "2375357",
+        "enunciado": "Assinale corretamente a alternativa que não representa uma linguagem de programação.",
+        "alternativas": {
+            "A": "Ruby",
+            "B": "Java",
+            "C": "C++",
+            "D": "Twisther"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ruby, Java e C++ são linguagens de programação amplamente reconhecidas. Twister não é um nome de linguagem de programação conhecida no meio da tecnologia."
+    },
+    {
+        "id": "1907653",
+        "enunciado": "Um desenvolvedor precisa criar uma aplicação empresarial que utilize as especificações da plataforma Java EE. Considerando os itens abaixo :1. Persistência de dados em um banco relacional.2. Interface gráfica web rica e baseada em componentes.3. Gerenciamento de transações distribuídas em múltiplos recursos.4. Comunicação assíncrona entre sistemas.Quais especificações devem ser utilizadas para atender aos requisitos descritos, respectivamente?",
+        "alternativas": {
+            "A": "JPA para persistência, JSF para interface gráfica, JTA para transações e JMS para comunicação assíncrona.",
+            "B": "EJB para persistência, JSF para interface gráfica, JPA para transações e JMS para comunicação assíncrona.",
+            "C": "JTA para persistência, EJB para interface gráfica, JSF para transações e JPA para comunicação assíncrona.",
+            "D": "JMS para persistência, JPA para interface gráfica, EJB para transações e JSF para comunicação assíncrona."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "JPA (Java Persistence API) é para persistência em bancos relacionais. JSF (JavaServer Faces) é ideal para interfaces web ricas baseadas em componentes. JTA (Java Transaction API) gerencia transações distribuídas. JMS (Java Message Service) é para comunicação assíncrona entre sistemas. A alternativa A alinha corretamente as especificações aos requisitos."
+    },
+    {
+        "id": "2337115",
+        "enunciado": "Assinale a alternativa que indica corretamente os caracteres de comentários de 1 única linha em PHP.",
+        "alternativas": {
+            "A": "Somente //",
+            "B": "Somente #",
+            "C": "Somente /*",
+            "D": "// ou # ou /*",
+            "E": "// ou #"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Em PHP, os comentários de linha única podem ser iniciados tanto com as barras duplas '//' quanto com o símbolo de cerquilha '#'. A combinação /* é usada para comentários de múltiplas linhas."
+    },
+    {
+        "id": "1773085",
+        "enunciado": "São estruturas utilizadas em linguagens de programação procedurais como forma de dividir um programa em sub-rotinas:",
+        "alternativas": {
+            "A": "Classe.",
+            "B": "Função.",
+            "C": "Procedimento.",
+            "D": "Apenas II e III."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Funções e Procedimentos são estruturas em linguagens procedurais que dividem um programa em blocos reutilizáveis, chamados de sub-rotinas."
+    },
+    {
+        "id": "2129052",
+        "enunciado": "Marque a associação correta entre forma de polimorfismo e exemplo típico de linguagem.",
+        "alternativas": {
+            "A": "Paramétrico em genéricos com tipo variável uniforme, ad-hoc em sobrecarga por assinatura e subtipagem em herança de classes.",
+            "B": "Ad-hoc em genéricos uniformes, paramétrico em sobrecarga por assinatura e subtipagem em coincidência nominal de nomes.",
+            "C": "Subtipagem em monomorfismo, paramétrico em coerções implícitas por conversão e ad-hoc em inferência de tipos principal.",
+            "D": "Paramétrico em especialização por cópia por cada instância, ad-hoc em relações de subclasse e subtipagem em operadores polimórficos universais."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O polimorfismo paramétrico se manifesta em genéricos com tipos variáveis. Ad-hoc ocorre na sobrecarga por assinatura. Subtipagem se aplica na herança de classes. A alternativa A associa corretamente cada tipo de polimorfismo ao seu respectivo exemplo em linguagens de programação."
+    },
+    {
+        "id": "1773087",
+        "enunciado": "Qual das alternativas abaixo corresponde a uma variável corretamente representada na linguagem PHP, versão 8?",
+        "alternativas": {
+            "A": "$title",
+            "B": "!description",
+            "C": "_name",
+            "D": "&type"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em PHP, variáveis iniciam com '$'. A alternativa A ('$title') é a única sintaticamente correta conforme as regras de declaração de variáveis na versão 8."
+    },
+    {
+        "id": "1773093",
+        "enunciado": "Analise o trecho de código abaixo, escrito na linguagem de programação Java, e assinale a alternativa que corresponde a uma forma adequada de criar um objeto a partir da classe Filme.",
+        "alternativas": {
+            "A": "new f = Filme();",
+            "B": "Filme f = new Filme();",
+            "C": "(Filme) f = Filme;",
+            "D": "f = new Filme;"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em Java, a criação de um objeto utiliza a palavra-chave 'new' após o tipo e o nome da variável, seguido do nome da classe e parênteses para o construtor. Filme f = new Filme();"
+    },
+    {
+        "id": "2331151",
+        "enunciado": "São tipos de dados numéricos válidos em Python:",
+        "alternativas": {
+            "A": "int • decimal • range",
+            "B": "int • float • complex",
+            "C": "int • complex • set",
+            "D": "float • int • tuple",
+            "E": "float • decimal • bool"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Python possui os tipos numericos inteiros (int), de ponto flutuante (float) e complexos (complex). 'Decimal' nao e um tipo nativo, 'range' e um tipo sequencia, 'complex' e numérico mas 'set' e 'tuple' nao são tipos numéricos."
+    },
+    {
+        "id": "1773095",
+        "enunciado": "No paradigma de programação orientada a objetos, é uma característica relacionada ao conceito de herança entre classes:",
+        "alternativas": {
+            "A": "Definição de métodos obrigatórios.",
+            "B": "Um mesmo método apresentar comportamentos diferentes, dependendo da classe chamadora.",
+            "C": "Reaproveitamento de atributos e métodos.",
+            "D": "Separação de classes com responsabilidades distintas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A herança em POO permite que uma classe (subclasse) herde atributos e métodos de outra classe (superclasse), promovendo o reaproveitamento de código."
+    },
+    {
+        "id": "1793497",
+        "enunciado": "Analise o seguinte trecho de código Python: Qual é a principal vantagem do tratamento de exceções implementado?",
+        "alternativas": {
+            "A": "Melhora a performance do código",
+            "B": "Permite tratamento específico para diferentes tipos de erros",
+            "C": "Reduz o consumo de memória",
+            "D": "Aumenta a velocidade de execução",
+            "E": "Facilita a leitura e manutenção do código"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O tratamento de excecoes (try-except) permite que o programa lide de forma controlada com situacoes inesperadas, como erros de divisao por zero ou arquivos inexistentes. Isso possibilita a implementacao de lógicas distintas para cada tipo de erro, evitando paradas abruptas do sistema."
+    },
+    {
+        "id": "2337130",
+        "enunciado": "Os conjuntos (sets) em Python, devem ser declarados entre quais caracteres?",
+        "alternativas": {
+            "A": "\"\"",
+            "B": "[]",
+            "C": "{}",
+            "D": "()",
+            "E": "<>"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Em Python, os conjuntos (sets) são estruturas de dados que armazenam elementos únicos e não ordenados. A sintaxe padrão para declarar um conjunto é utilizando chaves {}."
+    },
+    {
+        "id": "2331156",
+        "enunciado": "Em Java, um método pode retornar ou não algum valor. Assinale a alternativa que contém a palavra reservada correta que indica que um método não deve retornar um valor ao declarar um método.",
+        "alternativas": {
+            "A": "noreturn",
+            "B": "procedure",
+            "C": "null",
+            "D": "nullreturn",
+            "E": "void"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Em Java, a palavra reservada 'void' e utilizada na declaracao de um metodo para indicar que ele nao retorna nenhum valor. As outras palavras nao se aplicam ou nao sao padroes para essa finalidade."
+    },
+    {
+        "id": "1773101",
+        "enunciado": "Linguagem e ambiente para computação estatística e gráficos utilizada para análise estatística, manipulação e visualização de dados. A descrição apresentada refere-se à linguagem:",
+        "alternativas": {
+            "A": "SQL",
+            "B": "C#",
+            "C": "JavaScript",
+            "D": "R"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A linguagem R é amplamente utilizada em computação estatística, análise, manipulação e visualização de dados, com vastos pacotes para estatística e gráficos."
+    },
+    {
+        "id": "2331158",
+        "enunciado": "Qual função PHP permite declarar constantes?",
+        "alternativas": {
+            "A": "constant()",
+            "B": "declare()",
+            "C": "set()",
+            "D": "define()",
+            "E": "identify()"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A funcao 'define()' em PHP e utilizada para declarar constantes em tempo de execucao. As outras funcoes nao possuem essa finalidade especifica."
+    },
+    {
+        "id": "1842392",
+        "enunciado": "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Sobre as vantagens da utilização de Python assinale a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "Python é uma linguagem de programação Open Source, e com isso conta com a colaboração de diversos profissionais espalhados nos quatro cantos do mundo, realizando correções e melhorias contínuas.",
+            "B": "Python possui bibliotecas estatísticas e científicas que permitem manipular grandes volumes de dados com qualidade.",
+            "C": "A versatilidade do Python pode ser vista em suas diversas aplicações como, por exemplo, Inteligência Artificial, Big Data, Computação Gráfica, entre outras.",
+            "D": "Python é a linguagem que mais se adequa para o desenvolvimento mobile, já que o seu consumo de memória é baixo e é substancialmente mais rápida para executar do que outras linguagens de programação.",
+            "E": "Um dos seus diferenciais é a sua sintaxe, que é fácil de ser entendida. Os comandos utilizados em Python são intuitivos e as palavras usadas são similares à língua inglesa. Além disso, as exigências gramaticais são menores, não sendo necessário o uso de parênteses em estruturas de seleção ou ponto e vírgula no final de cada linha."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D é incorreta. Embora Python seja versátil, ele não é a linguagem que mais se adequa ao desenvolvimento mobile devido ao seu maior consumo de memória e menor velocidade em comparação a outras linguagens específicas para essa plataforma."
+    },
+    {
+        "id": "2331160",
+        "enunciado": "No contexto de expressões regulares em PHP, ao instruir o PHP a encontrar certos caracteres, utilizam-se os caracteres colchetes [ ]. Assinale a alternativa que contém o caractere de expressão regular NOT, ou aquele que instrui o PHP a encontrar qualquer caractere a não ser aqueles contidos nos colchetes.",
+        "alternativas": {
+            "A": "!",
+            "B": "=!",
+            "C": "*",
+            "D": "ˆ",
+            "E": "#"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em expressoes regulares, o caractere '^' (circunflexo) posicionado no inicio de um conjunto de caracteres dentro de colchetes ('[^...]') indica a negacao, ou seja, a busca por qualquer caractere que nao esteja contido naquele conjunto."
+    },
+    {
+        "id": "2389161",
+        "enunciado": "Assinale a alternativa que NÃO apresenta linguagens de programação:",
+        "alternativas": {
+            "A": "Java, Python e Ruby.",
+            "B": "PL/SQL, C++ e Kotlin.",
+            "C": "PHP, JavaScript e Groovy.",
+            "D": "HTML, CSS e SQL."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "HTML e CSS são linguagens de marcação e estilo, respectivamente, usadas para criar páginas web, mas não são linguagens de programação por não permitirem a execução de lógicas complexas. SQL é uma linguagem de consulta para bancos de dados."
+    },
+    {
+        "id": "1721709",
+        "enunciado": "Indique a alternativa que apresenta a implementação do .NET mais adequada para criação de aplicativos multiplataforma, que executam em Windows, Linux e macOS.",
+        "alternativas": {
+            "A": "Xamarin",
+            "B": "Mono",
+            "C": "UWP",
+            "D": ".NET 5+",
+            "E": ".Net Framework"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O .NET 5 e suas versões subsequentes (como .NET 6, 7, 8, etc.) foram unificados para oferecer suporte nativo e robusto à criação de aplicativos multiplataforma (Windows, Linux, macOS). Xamarin focava em mobile, Mono é um runtime, UWP é específico para Windows, e .NET Framework é legado e não multiplataforma."
+    },
+    {
+        "id": "2125925",
+        "enunciado": "Qual o operador de exponenciação em Javascript?",
+        "alternativas": {
+            "A": "ˆ",
+            "B": "!",
+            "C": "‘",
+            "D": "*",
+            "E": "**"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E está correta. O operador '**' é utilizado em JavaScript para exponenciação, enquanto '^' é para XOR bit a bit. As demais opções representam outros operadores (negação lógica, apóstrofo e multiplicação)."
+    },
+    {
+        "id": "1782559",
+        "enunciado": "O Spring Framework é um framework amplamente utilizado para o desenvolvimento de aplicações criadas na linguagem de programação Java. Este framework viabiliza uma infraestrutura robusta para simplificar o processo de desenvolvimento, permitindo que os desenvolvedores se concentrem na lógica do negócio em vez de aspectos complexos da configuração e integração, desta forma, facilitando o trabalho dos desenvolvedores, para que os mesmos sejam mais assertivos na implementação do software. O Spring Framework possui componentes principais, dentre estes componentes, pode-se citar o componente Spring AOP. Qual a finalidade do Spring AOP?",
+        "alternativas": {
+            "A": "Facilita a interação com bancos de dados, fornecendo repositórios e suporte para JPA.",
+            "B": "Implementa a programação orientada a aspectos.",
+            "C": "Gerencia o ciclo de vida e as dependências dos objetos.",
+            "D": "Suporte completo para criar aplicações web baseadas no Spring."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O componente Spring AOP (Aspect-Oriented Programming) tem como finalidade implementar a programação orientada a aspectos, permitindo a modularização de funcionalidades transversais como log, segurança e transações."
+    },
+    {
+        "id": "2288055",
+        "enunciado": "Na linguagem JavaScript, qual dos operadores abaixo pode ser utilizado para concatenar strings?",
+        "alternativas": {
+            "A": "%",
+            "B": "||",
+            "C": "+",
+            "D": ".",
+            "E": "&"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O operador '+' é utilizado em JavaScript para concatenar strings, unindo o conteúdo de duas ou mais strings em uma única."
+    },
+    {
+        "id": "1918161",
+        "enunciado": "O JavaScript é amplamente utilizado no desenvolvimento web, desempenhando um papel fundamental na criação de páginas interativas. Qual das opções a seguir descreve CORRETAMENTE o JavaScript?",
+        "alternativas": {
+            "A": "Uma linguagem de marcação utilizada para estruturar o conteúdo da web.",
+            "B": "Uma linguagem de programação utilizada para adicionar interatividade e dinamismo às páginas da web.",
+            "C": "Um estilo de folha utilizado para definir a apresentação visual de um documento.",
+            "D": "Um protocolo de comunicação utilizado para enviar dados entre o cliente e o servidor.",
+            "E": "Uma linguagem de programação compilada utilizada para desenvolver aplicativos desktop nativos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "JavaScript é uma linguagem de script executada no navegador do cliente para criar interatividade, manipulação do DOM, requisições assíncronas e outras funcionalidades dinâmicas em páginas web."
+    },
+    {
+        "id": "2350403",
+        "enunciado": "Qual sistema de arquivos é utilizado nativamente pelas instalações modernas do Ubuntu Linux?",
+        "alternativas": {
+            "A": "NTFS",
+            "B": "FAT32",
+            "C": "ext4",
+            "D": "HFS+",
+            "E": "APFS"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O sistema de arquivos ext4 (Fourth Extended Filesystem) é o padrão e o sistema de arquivos nativo utilizado pelas instalações modernas do Ubuntu Linux, sendo conhecido por sua robustez, desempenho e confiabilidade."
+    },
+    {
+        "id": "2340076",
+        "enunciado": "Considere o seguinte código Python: A saída produzida pelo código é:",
+        "alternativas": {
+            "A": "[0, 1, 2]",
+            "B": "[2, 2, 2]",
+            "C": "[0, 0, 0]",
+            "D": "NameError: name 'i' is not defined",
+            "E": "[3, 3, 3]"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O código Python cria uma lista 'result' e itera sobre a lista 'nums'. Dentro do loop, 'result.append(i)' adiciona o valor atual de 'i' à lista 'result'. A lista 'nums' é [0, 1, 2]. Portanto, o loop executa para i=0, i=1 e i=2, adicionando cada um desses valores à lista 'result'. Assim, 'result' se torna [0, 1, 2]."
+    },
+    {
+        "id": "1875929",
+        "enunciado": "Sobre as interfaces em Java , é INCORRETO afirmar  que:",
+        "alternativas": {
+            "A": "podem ser usadas na marcação de classes, produz indo a noção de relacionamento do tipo “é um ”.",
+            "B": "permitem  compartilhar métodos e constantes comuns entre classes não relacionadas hierarquicamente.",
+            "C": "podem conter constantes, assinaturas de métodos, métodos estáticos e ser instanciadas diretamente por meio  do construtor.",
+            "D": "funcionam como contratos de implementação p ara um componente, permitindo a implementação de funcionalidades por times diferentes."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está incorreta. Interfaces em Java não podem conter métodos estáticos que tenham implementação e não podem ser instanciadas diretamente por meio de construtor, pois são contratos de implementação."
+    },
+    {
+        "id": "1575442",
+        "enunciado": "Uma biblioteca é uma coleção de códigos usados com frequência que os desenvolvedores podem incluir em seus programas Python para evitar escrever o código do zero.  Assinale a alternativa que se refere à biblioteca Python que fornece funções úteis que são necessárias para o desenvolvimento Web:",
+        "alternativas": {
+            "A": "NumPy.",
+            "B": "Requests.",
+            "C": "Keras.",
+            "D": "OpenCV -Python."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A biblioteca 'Requests' em Python é amplamente utilizada para fazer requisições HTTP, sendo fundamental para o desenvolvimento web, permitindo a comunicação com APIs e a obtenção de dados da internet. As outras bibliotecas citadas têm focos diferentes (NumPy para computação numérica, Keras para machine learning, OpenCV para visão computacional)."
+    },
+    {
+        "id": "1634277",
+        "enunciado": "Qual das seguintes características de uma linguagem de programação de alto nível torna essa linguagem mais adequada para a representação de procedimentos em comparação com linguagens de máquina?",
+        "alternativas": {
+            "A": "As linguagens de alto nível possuem um conjunto menor de operações primitivas e são utilizadas diretamente pelo computador por meio do compilador.",
+            "B": "As linguagens de máquina, embora trabalhosas, são mais adequadas para a programação de procedimentos práticos.",
+            "C": "As linguagens de alto nível são mais compreensíveis por humanos e precisam ser traduzidas para a linguagem de máquina por um compilador.",
+            "D": "As linguagens de alto nível não precisam ser traduzidas para a linguagem de máquina para serem executadas.",
+            "E": "As linguagens de alto nível são traduzidas diretamente pelo processador do computador, dispensando a necessidade de compiladores ou interpretadores."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Linguagens de alto nível usam sintaxe semelhante à linguagem humana, facilitando a compreensão e escrita de código por programadores. Elas precisam ser traduzidas (compiladas ou interpretadas) para a linguagem de máquina, entendida pelo processador."
+    },
+    {
+        "id": "1634279",
+        "enunciado": "Qual definição melhor descreve o termo “programa” em uma linguagem de programação?",
+        "alternativas": {
+            "A": "Alfabeto de uma linguagem de programação utilizado para definir símbolos e regras de ação.",
+            "B": "Conjunto de operações primitivas que são executadas diretamente sem tradução pelo compilador.",
+            "C": "Linguagem de máquina que permite ao computador realizar operações primitivas e compostas.",
+            "D": "Regra que especifica como compor representações e quais ações devem ser realizadas.",
+            "E": "Sequência de símbolos que representa um ou mais procedimentos a serem executados pelo computador."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Um programa é uma série de instruções (símbolos) que um computador executa para realizar uma tarefa. A alternativa E Captura essa ideia ao mencionar 'sequência de símbolos' e 'procedimentos a serem executados'."
+    },
+    {
+        "id": "1875947",
+        "enunciado": "Sobre o recurso de Traits  do PHP, introduzido a partir da versão 7, é INCORRETO afirmar  que:",
+        "alternativas": {
+            "A": "permitem a composição de traits , em que  uma definição de trait pode ser composta por outras traits.",
+            "B": "agrupam funcionalidades de forma refinada e consistente , permitindo a reutilização  de métodos em classes de hierarquias diferentes.",
+            "C": "uma trait pode ser incluída numa definição de classe por meio da palavra reservada use. Apenas  uma trait pode ser incluída por cada definição de classe.",
+            "D": "traits suportam o uso de métodos abstrato s para impor requisitos sobre uma classe expositora. Métodos públicos, protegidos e privados são suportados. Antes do PHP 8.0, apenas métodos abstratos públicos e protegidos eram suportados."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está incorreta. Uma classe pode incluir múltiplas traits, utilizando a palavra reservada 'use' para cada uma delas, em vez de apenas uma."
+    },
+    {
+        "id": "1526534",
+        "enunciado": "Analise o código de programação abaixo: def calcular_media(notas): return sum(notas) / len(notas) notas_aluno = [8.5, 7.0, 9.5, 6.0] media = calcular_media(notas_aluno) print(f\"A média do aluno é: {media:.2f}\") Após análise, assinale a alternativa que apresenta a linguagem de programação utilizada:",
+        "alternativas": {
+            "A": "Python.",
+            "B": "JavaScript.",
+            "C": "Java.",
+            "D": "PHP."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A sintaxe do código apresentado, com a palavra-chave 'def' para definir funções, o uso de 'sum()' e 'len()', e a formatação de string com f-strings (f'...') são características inconfundíveis da linguagem de programação Python."
+    },
+    {
+        "id": "1931951",
+        "enunciado": "A Cromatografia Líquida de Alta Eficiência (HPLC) é amplamente utilizada em laboratórios para análises qualitativas e quantitativas, graças à sua capacidade de analisar uma vasta gama de compostos em diversas matrizes. Assinale a alternativa INCORRETA sobre as limitações da técnica HPLC.",
+        "alternativas": {
+            "A": "Custo elevado dos equipamentos.",
+            "B": "Falta de um detector universal que seja eficaz para todos os tipos de compostos.",
+            "C": "Necessidade de um operador com experiência.",
+            "D": "Alto custo dos reagentes utilizados.",
+            "E": "São associadas à escolha da fase estacionária."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A escolha da fase estacionária não é uma limitação da técnica HPLC em si, mas sim um parâmetro que, quando bem escolhido, melhora a separação. As limitações usuais referem-se a custo, necessidade de operadores experientes e a ausência de um detector universal."
+    },
+    {
+        "id": "1526544",
+        "enunciado": "Analise as alternativas abaixo e assinale a que apresenta a correta em relação ao desenvolvimento de sistemas e fundamentos de programação:",
+        "alternativas": {
+            "A": "PHP é uma linguagem de programação que não pode ser utilizada para o desenvolvimento de aplicações web, limitando-se apenas a scripts de linha de comando.",
+            "B": "Java é amplamente utilizada para o desenvolvimento de aplicações web, pois possui frameworks como Spring que facilitam a construção de aplicações robustas.",
+            "C": "Python é uma linguagem de programação que não suporta programação orientada a objetos, sendo usada apenas para scripts simples.",
+            "D": "A lógica de programação é irrelevante para o desenvolvimento de algoritmos, já que qualquer sequência de comandos pode ser considerada um algoritmo."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Java, com frameworks como Spring, é amplamente utilizada no desenvolvimento web. PHP não se limita a scripts de linha de comando. Python suporta orientação a objetos. Lógica de programação é crucial para algoritmos."
+    },
+    {
+        "id": "1931957",
+        "enunciado": "A escolha adequada da Fase Móvel (FM) é crucial na Cromatografia Líquida de Alta Eficiência (HPLC) devido ao seu impacto significativo no desempenho analítico. Ao selecionar uma FM para uma análise específica, é essencial considerar suas características físico-químicas, força cromatográfica e seletividade. Assinale a alternativa que apresenta a característica físico-química da fase móvel de forma INCORRETA.",
+        "alternativas": {
+            "A": "Possui um alto grau de pureza para evitar interferências na análise.",
+            "B": "É capaz de dissolver a amostra sem causar sua decomposição.",
+            "C": "Apresenta elevada viscosidade, o que melhora a eficiência da separação ao aumentar a interação entre a amostra e a fase estacionária.",
+            "D": "Não provoca a decomposição da fase estacionária, mantendo a integridade do sistema.",
+            "E": "É compatível com o detector, para garantir a detecção adequada dos analitos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma fase móvel com elevada viscosidade geralmente prejudica a eficiência da separação, pois dificulta o fluxo e pode aumentar a difusão, não melhorando a interação com a fase estacionária. As demais características são importantes."
+    },
+    {
+        "id": "1114847",
+        "enunciado": "Qual a linguagem de programação é utilizada para criar uma macro no Excel 2016 (Pt-Br)?",
+        "alternativas": {
+            "A": "Python.",
+            "B": "VBA (Visual Basic for Applications).",
+            "C": "Java.",
+            "D": "C++."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Macros no Excel são criadas utilizando a linguagem de programação VBA (Visual Basic for Applications), que é integrada ao pacote Office para automação de tarefas e desenvolvimento de funcionalidades personalizadas."
+    },
+    {
+        "id": "1625356",
+        "enunciado": "Qual das alternativas abaixo é uma linguagem de programação muito utilizada para desenvolvimento de aplicativos móveis?",
+        "alternativas": {
+            "A": "Ruby.",
+            "B": "Swift.",
+            "C": "Fortran.",
+            "D": "MATLAB.",
+            "E": "Haskell."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Swift é uma linguagem de programação desenvolvida pela Apple, amplamente utilizada para criar aplicativos para iOS, macOS, watchOS e tvOS."
+    },
+    {
+        "id": "1931959",
+        "enunciado": "Detectores em sistemas cromatográficos desempenham um papel crucial ao analisar continuamente os componentes eluídos da coluna. Embora muitos detectores não combinem versatilidade com todas as características ideais como seletividade, sensibilidade e faixa linear ampla, os detectores ópticos são frequentemente destacados por sua versatilidade, sendo amplamente empregados em sistemas de cromatografia de alto desempenho por sua capacidade de fornecer análises detalhadas. Assinale a alternativa que apresenta um tipo de detector óptico.",
+        "alternativas": {
+            "A": "Eletroquímico.",
+            "B": "Captura de elétrons.",
+            "C": "Índice de refração.",
+            "D": "Espectrômetro de massas.",
+            "E": "Condutividade térmica."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Detector de índice de refração é um detector óptico que mede a variação no índice de refração do solvente causadapela presença do analito, sendo versátil e amplamente utilizado em sistemas de HPLC."
+    },
+    {
+        "id": "1226234",
+        "enunciado": "O formato de conﬁ guração que corresponde ao comu- mente utilizado para deﬁ nir parâmetros e conﬁ gurações em linguagem de ﬂ uxo computacional como Snakemake e Nextﬂ ow é:",
+        "alternativas": {
+            "A": "JSON.",
+            "B": "YAML.",
+            "C": "XML.",
+            "D": "CSV.",
+            "E": "INI."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O formato YAML é amplamente utilizado em ferramentas de fluxo computacional como Snakemake e Nextflow para definir parâmetros e configurações de pipelines bioinformáticos devido à sua legibilidade e estrutura clara."
+    },
+    {
+        "id": "1355712",
+        "enunciado": "Uma forma de customizar as interações do usuário com um serviço Web Map Service  (WMS) é aplicar filtros baseados em parâmetros informados pelo usuário às feições posicionadas no interior da extensão espacial. Assinale a opção que indica a linguagem que codifica os filtros citados em servidores Geoserver.",
+        "alternativas": {
+            "A": "CSS.",
+            "B": "ECQL.",
+            "C": "HTML.",
+            "D": "SQL.",
+            "E": "XML."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "ECQL (Extended Common Query Language) é uma linguagem de consulta espacial baseada em SQL que é utilizada para filtrar dados em servidores WMS, como o GeoServer. Ela permite definir condições complexas para selecionar feições com base em atributos e geometria."
+    },
+    {
+        "id": "2243794",
+        "enunciado": "JSON (JavaScript Object Notation - Notação de Objetos JavaScript) é uma formatação leve de troca de dados. JSON é em formato texto e completamente independente de linguagem, pois usa convenções que são familiares às linguagens C e familiares, incluindo C++, C#, Java, JavaScript, Perl, Python e muitas outras. Estas propriedades fazem com que JSON seja um formato ideal de troca de dados. Assinale a alternativa que apresenta as duas estruturas em que um JSON é constituído.",
+        "alternativas": {
+            "A": "Estrutura 1. Uma coleção de pares valor/nome Estrutura 2. Uma lista duplamente ligada",
+            "B": "Estrutura 1. Uma coleção de pares nome/valor Estrutura 2. Uma classe com atributos abstratos",
+            "C": "Estrutura 1. Uma coleção de pares nome/valor Estrutura 2. Uma lista ordenada de valores",
+            "D": "Estrutura 1. Uma coleção de pares valor/nome Estrutura 2. Uma lista circular"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "JSON é estruturado fundamentalmente em duas partes: uma coleção de pares nome/valor (representados por chaves) e listas ordenadas de valores (representadas por colchetes)."
+    },
+    {
+        "id": "1255562",
+        "enunciado": "Qual das seguintes opções não é uma linguagem de programação?",
+        "alternativas": {
+            "A": "Python",
+            "B": "C++",
+            "C": "Java",
+            "D": "Matlat"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Matlab é um ambiente de computação numérica e uma linguagem de programação, popular na engenharia e ciência, mas a alternativa D está incorreta porque o nome correto é 'MATLAB', não 'Matlat'."
+    },
+    {
+        "id": "1615382",
+        "enunciado": "Em tecnologias de desenvolvimento web, o PHP é uma linguagem de script amplamente utilizada no lado do servidor para criar páginas dinâmicas. É uma das características que descreve corretamente o PHP:",
+        "alternativas": {
+            "A": "O PHP é compilado diretamente no navegador, o que torna a renderização das páginas mais rápida.",
+            "B": "O PHP não permite a conexão com bancos de dados, pois foi desenvolvido apenas para manipulação de arquivos.",
+            "C": "O PHP exige a instalação do ASP.NET para funcionar corretamente no lado do servidor.",
+            "D": "O PHP é executado no lado do servidor e gera HTML para ser exibido no navegador do usuário."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O PHP é uma linguagem interpretada, executada no servidor. Ele processa a lógica e, então, gera código HTML que é enviado ao navegador do usuário para ser exibido. As outras alternativas descrevem incorretamente o funcionamento do PHP, que é compilado no servidor e não requer ASP.NET."
+    },
+    {
+        "id": "1344783",
+        "enunciado": "No contexto de linguagens de programação, qual das seguintes opções melhor descreve o que é uma linguagem de programação?",
+        "alternativas": {
+            "A": "Um conjunto de instruções para configurar um sistema operacional.",
+            "B": "Um conjunto de ferramentas para depurar programas.",
+            "C": "Uma linguagem de programação é um conjunto de regras sintáticas e semânticas que permite implementar um código fonte, que pode ser compilado ou usado como script interpretado para instruir um computador.",
+            "D": "Um conjunto de palavras-chave usadas para criar interfaces gráficas em aplicativos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma linguagem de programação é um sistema de regras (sintaxe e semântica) que permite ao programador escrever instruções (código fonte) para o computador executar."
+    },
+    {
+        "id": "1351512",
+        "enunciado": "No que diz respeito às formas de representação, as diferentes formas e respectivos algoritmos de realização das operações matemáticas são muito úteis, pois cada uma têm uma aplicação mais vantajosa que a outra. Cabe ao programador a escolha da forma a ser utilizada pelo sistema, podendo ser _______________, quando o programador define as variáveis e constantes em seu programa, ou _______________, quando é deixado para que o compilador faça a escolha. Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": {
+            "A": "notações simbólicas – números binários",
+            "B": "explícita – implícita",
+            "C": "formas atuais – formas primitivas",
+            "D": "tipo caractere – tipo numérico",
+            "E": "Integer – real"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A lacuna inicial refere-se à definição explícita de variáveis e constantes pelo programador, enquanto a segunda lacuna descreve a definição implícita, onde o compilador faz essa escolha, otimizando o código."
+    },
+    {
+        "id": "1226239",
+        "enunciado": "Python é uma linguagem de programação amplamente utilizada na Bioinformática. Através do lambda é possível criar funções anônimas. O código que está sintaticamente correto, de acordo com a versão da linguagem Python superior a 3.10, é:",
+        "alternativas": {
+            "A": "print((lambda x: x + 1)10))",
+            "B": "print(lambda x: x + 1)",
+            "C": "print((lambda x: x + 1)(10)))",
+            "D": "print(lambda x: x + 1)(10))",
+            "E": "print((lambda x:: x + 1)(10))"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A sintaxe correta para executar uma função lambda em Python 3.10+ envolve envolver a chamada da função e seus argumentos entre parênteses, garantindo a correta avaliação da expressão."
+    },
+    {
+        "id": "1705760",
+        "enunciado": "A principal característica de uma linguagem de programação interpretada, como Python, em comparação com uma linguagem compilada, como Java, no contexto de execução do código e geração de código de máquina é:",
+        "alternativas": {
+            "A": "necessita de um compilador específico para cada sistema operacional.",
+            "B": "oferece maior desempenho que linguagens compiladas.",
+            "C": "não precisa de um ambiente de execução dedicado.",
+            "D": "requer que o código seja convertido em código de máquina antes da execução.",
+            "E": "executa diretamente o código -fonte sem tradução."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Linguagens interpretadas, como Python, são executadas linha por linha por um interpretador, que traduz e executa o código-fonte diretamente, sem a necessidade de uma compilação prévia para código de máquina específico. Linguagens compiladas, como Java, passam por um processo de compilação antes da execução."
+    },
+    {
+        "id": "1081651",
+        "enunciado": "Um item de dado de programa pode ser definido como uma constante ou variável. As constantes, por exemplo, possuem um valor predefinido e que não mudam durante a execução do programa. Já as variáveis são um item de dado cujo valor pode ser alterado durante a execução do programa. Nesse contexto, a palavra-chave usada na linguagem Java para declarar uma constante é",
+        "alternativas": {
+            "A": "const.",
+            "B": "final.",
+            "C": "let.",
+            "D": "protected."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na linguagem Java, a palavra-chave 'final' é utilizada para declarar uma constante. Ao ser aplicada a uma variável, seu valor não pode ser alterado após a inicialização. 'const' é comum em C/C++, e 'let' em JavaScript."
+    },
+    {
+        "id": "1227082",
+        "enunciado": "Os controladores lógicos programáveis são respon- sáveis pelo controle e programação da aplicação no equi- pamento. Dentre os tipos de linguagem de programação utilizadas nesses controladores, dos abaixo relacionados, pode ser citado:",
+        "alternativas": {
+            "A": "Matlab.",
+            "B": "WinCC.",
+            "C": "Factory Talk.",
+            "D": "Diagrama Ladder.",
+            "E": "Studio 5000."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O Diagrama Ladder (LD) é uma das linguagens de programação padrão para Controladores Lógicos Programáveis (CLPs), baseada em diagramas elétricos de relés."
+    },
+    {
+        "id": "1355908",
+        "enunciado": "A maior parte dos dados meteorológicos, especialmente os resultados dos modelos climáticos, são formatados em NetCDF. Existem diversas opções para ler e representar graficamente um arquivo nesse formato. Nesse contexto, ler e manipular dados de um arquivo NetCDF usando o Python é possível",
+        "alternativas": {
+            "A": "usando a biblioteca Numpy.",
+            "B": "usando a biblioteca Pandas.",
+            "C": "por meio da biblioteca NetCDF4 -Python.",
+            "D": "com Scipy NetCDF.",
+            "E": "com o uso da biblioteca Matplotlib."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A biblioteca NetCDF4-Python é a ferramenta específica e amplamente utilizada em Python para ler, escrever e manipular arquivos no formato NetCDF, que é comum em meteorologia e geociências."
+    },
+    {
+        "id": "1289806",
+        "enunciado": "Qual é a linguagem de programação mais utilizada para desenvolvimento web?",
+        "alternativas": {
+            "A": "Java;",
+            "B": "Python;",
+            "C": "Ruby;",
+            "D": "Java Script."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O JavaScript é a principal linguagem de programação para desenvolvimento web, sendo essencial para a interatividade e dinamismo de sites e aplicações web."
+    },
+    {
+        "id": "1538969",
+        "enunciado": "Em programação, a estrutura de controle que é usada para repetir um bloco de código enquanto uma condição é verdadeira é:",
+        "alternativas": {
+            "A": "if",
+            "B": "switch",
+            "C": "while",
+            "D": "try"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A estrutura de controle 'while' é projetada para executar um bloco de código repetidamente enquanto uma condição especificada permanecer verdadeira. 'if' é para decisões únicas, 'switch' para múltiplos casos, e 'try' para tratamento de exceções."
+    },
+    {
+        "id": "1227085",
+        "enunciado": "As formas de se programar um Controlador lógico programável são regidas pela Comissão Internacional de Padronização IEC. Podemos aﬁ rmar que:",
+        "alternativas": {
+            "A": "a norma que estabelece os tipos de programação em CLPs é a IEC 61131-3.",
+            "B": "as linguagens existentes hoje são: Python, Ladder e Função de blocos.",
+            "C": "o requisito para se programar um CLP é que se use uma linguagem de programação estruturada de alto nível.",
+            "D": "as linguagens existentes hoje são: Python, C++ e Fun-  ção de blocos.",
+            "E": "a norma que padroniza os tipos de programação em CLPs é a NR-12."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A norma IEC 61131-3 é a principal referência internacional que padroniza as linguagens de programação para Controladores Lógicos Programáveis (CLPs), garantindo a interoperabilidade e a consistência no desenvolvimento."
+    },
+    {
+        "id": "1369087",
+        "enunciado": "Muito se fala de Código Fonte. Considerando-se este conceito, analise as opções de respostas e marque a correta.",
+        "alternativas": {
+            "A": "Conjunto de palavras e instruções escritas, que utiliza alguma linguagem de programação, de forma lógica, sem finalidade previamente definida.",
+            "B": "Conjunto de palavras codificadas, que utiliza alguma linguagem de programação, de forma lógica, com finalidade de chegar a um fim.",
+            "C": "Conjunto de códigos, que utiliza uma linguagem de programação, com finalidade de chegar a um fim.",
+            "D": "Conjunto de comandos de instruções escritas, que utiliza alguma linguagem de programação, de forma lógica, sem finalidade previamente definida.",
+            "E": "Conjunto de comandos de instruções escritas, que utiliza alguma linguagem de programação, de forma analógica, sem finalidade previamente definida."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Código fonte é um conjunto de instruções escritas em linguagem de programação, de forma lógica e organizada, com o objetivo de executar uma tarefa específica ou resolver um problema."
+    },
+    {
+        "id": "1538971",
+        "enunciado": "Assinale de forma correta uma linguagem de programação orientada a objetos.",
+        "alternativas": {
+            "A": "HTML",
+            "B": "Java",
+            "C": "CSP",
+            "D": "SQL"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Java é uma linguagem amplamente utilizada e reconhecida por sua orientação a objetos, com classes, objetos e herança como seus pilares fundamentais. HTML é uma linguagem de marcação, CSP é uma política de segurança e SQL é uma linguagem de consulta de banco de dados."
+    },
+    {
+        "id": "1136830",
+        "enunciado": "“É uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web. Ela pode ser utilizada para múltiplos propósitos, seja para geração de HTML, desenvolvimento de sistemas web, consumo e desenvolvimento de APIs de diversos tipos, desenvolvimento de aplicações para console, manipulação de arquivos entre outras”. A afirmativa faz referência à linguagem de programação:",
+        "alternativas": {
+            "A": "JAVA.",
+            "B": "CSS.",
+            "C": "DELPHI.",
+            "D": "PHP.",
+            "E": "HTML."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As características descritas (script open source, desenvolvimento web, geração de HTML, APIs, etc.) são fundamentais da linguagem de programação PHP."
+    },
+    {
+        "id": "1898768",
+        "enunciado": "Sistema Operacional é um programa ou um conjunto de programas cuja função é gerenciar os recursos do sistema. Um dos primeiros sistemas operacionais foi o Multics, cujo objetivo era suportar centenas de usuários. Apesar do fracasso comercial, o Multics serviu como base para estudo e desenvolvimento de outros sistemas operacionais. Ken Thompson, um dos desenvolvedores do Multics escreveu uma nova concepção do Multics, criando o Unics (1969), mais tarde denominado Unix. Os sistemas operacionais, incluindo o Unix, eram geralmente programados em:",
+        "alternativas": {
+            "A": "COBOL.",
+            "B": "Assembler.",
+            "C": "C#.",
+            "D": "C++.",
+            "E": "Java."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Historicamente, sistemas operacionais como o Unix eram desenvolvidos em linguagem de baixo nível. O Assembler permitia um controle mais direto do hardware, sendo amplamente utilizado no desenvolvimento dos primeiros sistemas operacionais."
+    },
+    {
+        "id": "1615397",
+        "enunciado": "No contexto da programação orientada a objetos, o polimorfismo é um conceito fundamental. Sobre o polimorfismo, é correto afirmar que:",
+        "alternativas": {
+            "A": "Permite o compartilhamento de propriedades e métodos entre classes, promovendo a reutilização de código.",
+            "B": "É a técnica de proteger os dados (atributos) e os códigos que operam sobre os dados (métodos) em uma única unidade chamada classe.",
+            "C": "Permite o tratamento de objetos de classes diferentes de maneira uniforme, tornando seu código mais flexível e extensível.",
+            "D": "É o processo de ocultar os detalhes complexos e mostrar apenas as características essenciais de um objeto ou sistema."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O polimorfismo, em programação orientada a objetos, permite que objetos de classes diferentes sejam tratados de forma unificada, através de uma interface comum. Isso resulta em um código mais flexível, extensível e fácil de manter, pois uma mesma operação pode ter implementações distintas em classes diferentes."
+    },
+    {
+        "id": "1615397",
+        "enunciado": "No contexto da programação orientada a objetos, o polimorfismo é um conceito fundamental. Sobre o polimorfismo, é correto afirmar que:",
+        "alternativas": {
+            "A": "Permite o compartilhamento de propriedades e métodos entre classes, promovendo a reutilização de código.",
+            "B": "É a técnica de proteger os dados (atributos) e os códigos que operam sobre os dados (métodos) em uma única unidade chamada classe.",
+            "C": "Permite o tratamento de objetos de classes diferentes de maneira uniforme, tornando seu código mais flexível e extensível.",
+            "D": "É o processo de ocultar os detalhes complexos e mostrar apenas as características essenciais de um objeto ou sistema."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O polimorfismo, em programação orientada a objetos, permite que objetos de classes diferentes sejam tratados de forma unificada, através de uma interface comum. Isso resulta em um código mais flexível, extensível e fácil de manter, pois uma mesma operação pode ter implementações distintas em classes diferentes."
+    },
+    {
+        "id": "1898768",
+        "enunciado": "Sistema Operacional é um programa ou um conjunto de programas cuja função é gerenciar os recursos do sistema. Um dos primeiros sistemas operacionais foi o Multics, cujo objetivo era suportar centenas de usuários. Apesar do fracasso comercial, o Multics serviu como base para estudo e desenvolvimento de outros sistemas operacionais. Ken Thompson, um dos desenvolvedores do Multics escreveu uma nova concepção do Multics, criando o Unics (1969), mais tarde denominado Unix. Os sistemas operacionais, incluindo o Unix, eram geralmente programados em:",
+        "alternativas": {
+            "A": "COBOL.",
+            "B": "Assembler.",
+            "C": "C#.",
+            "D": "C++.",
+            "E": "Java."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Historicamente, sistemas operacionais como o Unix eram desenvolvidos em linguagem de baixo nível. O Assembler permitia um controle mais direto do hardware, sendo amplamente utilizado no desenvolvimento dos primeiros sistemas operacionais."
+    },
+    {
+        "id": "1227087",
+        "enunciado": "Sobre a linguagem de Texto estruturado, podemos aﬁ rmar que:",
+        "alternativas": {
+            "A": "é uma linguagem de alto nível, estruturada em blocos com sintaxe semelhante à Pascal.",
+            "B": "é uma linguagem de baixo nível, com diagrama Ladder.",
+            "C": "são textos endereçados diretamente a IHM.",
+            "D": "são textos programados no sistema SCADA.",
+            "E": "é  uma  linguagem  de  baixo  nível,  semelhante  a  Assembly."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A linguagem de Texto Estruturado (ST) é uma linguagem de alto nível, baseada em texto, que permite programação em blocos com sintaxe similar à Pascal, sendo uma das linguagens padronizadas pela norma IEC 61131-3."
+    },
+    {
+        "id": "1227089",
+        "enunciado": "O programa em Ladder na ﬁ gura abaixo aciona a bobina S1, obedecendo às condições dos contatos X1, X2, X3 e X4. A simpliﬁ cação desse programa está em:",
+        "alternativas": {
+            "A": "S1 = X1.X4.",
+            "B": "S1 = X1.X3.",
+            "C": "S1 = X1+X2+X3+X4.",
+            "D": "S1 = X2+X1.X2.X3.",
+            "E": "S1 = X1.X2+X1.X2.X3."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Analisando a lógica do diagrama Ladder, a bobina S1 será acionada se X1 estiver fechado E X4 estiver fechado. As outras combinações não representam a lógica da simplificação apresentada."
+    },
+    {
+        "id": "1594031",
+        "enunciado": "Qual das alternativas abaixo é um programa que edita, interpreta e executa algoritmos como um \"programa\" normal de computador:",
+        "alternativas": {
+            "A": "Workbench.",
+            "B": "VisuAlg.",
+            "C": "WordPress.",
+            "D": "Dreamweaver.",
+            "E": "GitMind."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O VisuAlg é um software educativo projetado para editar, interpretar e executar algoritmos, auxiliando no aprendizado de lógica de programação de forma visual e interativa."
+    },
+    {
+        "id": "1666834",
+        "enunciado": "“É uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Seus desenvolvedores a usam porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes. Foi criada por Guido Van Rossum, um programador de computador na Holanda que deu o nome a essa linguagem em razão de um programa de televisão do qual era fã. Essa linguagem de programação é?",
+        "alternativas": {
+            "A": "JavaScript.",
+            "B": "C#.",
+            "C": "Java.",
+            "D": "C++.",
+            "E": "Python."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A descrição corresponde ao Python. É uma linguagem versátil, popular em web, ciência de dados e ML, conhecida pela eficiência e facilidade de aprendizado, criada por Guido Van Rossum."
+    },
+    {
+        "id": "1204387",
+        "enunciado": "A Linguagem de programação Java merece uma atenção especial por permitir de forma nativa o processamento paralelo, sem a necessidade de utilização de ferramentas e APIs de terceiro. Esse processamento paralelo é possível quando instanciadas duas ou mais threads. Das classes/interfaces abaixo, qual permite o processamento em paralelo utilizando seus métodos void run()?",
+        "alternativas": {
+            "A": "Timer",
+            "B": "Void",
+            "C": "SyncTask",
+            "D": "Thread"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para realizar processamento paralelo em Java com classes nativas, utiliza-se a classe Thread. Ao instanciar e implementar o método void run(), você define o código que será executado em uma nova thread, permitindo a execução concorrente."
+    },
+    {
+        "id": "1351602",
+        "enunciado": "Para implementar um SGBD, inicia-se com a especificação dos esquemas conceituais e internos para o banco de dados e seus mapeamentos. Então, uma linguagem é usada pelo DBA e pelos projetistas de banco de dados para definir ambos os esquemas. Assinale a alternativa que apresenta a sigla da linguagem referida de definição de dados.",
+        "alternativas": {
+            "A": "VDL.",
+            "B": "SDL.",
+            "C": "SQL.",
+            "D": "DML.",
+            "E": "DDL."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A linguagem utilizada pelo DBA e projetistas para definir esquemas conceituais e internos de um banco de dados é a DDL (Data Definition Language), responsável pela definição da estrutura do banco de dados."
+    },
+    {
+        "id": "1083051",
+        "enunciado": "Considere as afirmações sobre a linguagem de programação PHP: I. A linguagem de programação PHP é uma linguagem que deve ser interpretada. II. O PHP permite a criação de objetos. III. As variáveis em PHP são representadas por um cifrão ($) seguido pelo nome da variável. Está(ão) correta(s):",
+        "alternativas": {
+            "A": "Apenas I.",
+            "B": "Apenas II.",
+            "C": "Apenas III.",
+            "D": "Apenas II e III.",
+            "E": "Apenas I, II e III."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "As três afirmações sobre PHP estão corretas: é interpretada, suporta orientação a objetos e variáveis iniciam com '$'."
+    },
+    {
+        "id": "1381520",
+        "enunciado": "Qual das opções abaixo é uma linguagem de programação voltada para o desenvolvimento de aplicações para a web e para criar sites, sendo uma linguagem de script open source de uso geral?",
+        "alternativas": {
+            "A": "HTML",
+            "B": "PHP",
+            "C": "DELPHI",
+            "D": "CSS",
+            "E": "SQL"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "PHP é uma linguagem de script open source, amplamente utilizada para desenvolvimento web, criando sites dinâmicos e aplicações interativas."
+    },
+    {
+        "id": "1522436",
+        "enunciado": "Na linguagem JavaScript, qual das instruções abaixo é utilizada para interromper a execução de uma função e retornar um valor para a instrução que invocou essa função?",
+        "alternativas": {
+            "A": "stop",
+            "B": "return",
+            "C": "break",
+            "D": "go back",
+            "E": "exit"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A instrução `return` é usada em JavaScript para finalizar a execução de uma função e, opcionalmente, devolver um valor para quem a chamou."
+    },
+    {
+        "id": "1589143",
+        "enunciado": "No desenvolvimento de software, a escolha da linguagem de programação pode influenciar no desempenho e na produtividade. Qual das alternativas a seguir descreve corretamente uma característica da linguagem Python?",
+        "alternativas": {
+            "A": "Python é uma linguagem compilada, o que garante uma execução mais rápida em comparação com linguagens interpretadas.",
+            "B": "Python é fortemente tipada, o que exige a declaração de tipos de variáveis antes de seu uso.",
+            "C": "Python não possui suporte para orientação a objetos, sendo uma linguagem puramente funcional.",
+            "D": "Python é utilizado exclusivamente para scripts e automações, não sendo adequado para desenvolvimento web ou científico.",
+            "E": "Python é amplamente utilizado para desenvolvimento web e em aplicações de aprendizado de máquina devido à sua sintaxe simples e diversas bibliotecas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Python é interpretada, não compilada. Não é fortemente tipada no sentido de exigir declaração explícita de tipos. É orientada a objetos. E é amplamente usada para web e ciência de dados. A alternativa E descreve corretamente seu uso e características."
+    },
+    {
+        "id": "1644804",
+        "enunciado": "Na linguagem Java, um objeto pode acessar uma referência a si próprio utilizando a palavra-chave:",
+        "alternativas": {
+            "A": "reference",
+            "B": "this",
+            "C": "extend",
+            "D": "same",
+            "E": "interface"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em Java, a palavra-chave 'this' é utilizada dentro de uma classe para se referir à instância atual do objeto, permitindo acessar seus próprios membros (atributos e métodos)."
+    },
+    {
+        "id": "1666377",
+        "enunciado": "Analise as assertivas abaixo sobre desenvolvimento\nde aplicações Web e a seguir aponte a alternativa\nCORRETA.\n\nI - A linguagem Perl foi criada em 1995 por Larry Wall\ne é exclusivamente utilizada para desenvolvimento de\njogos e aplicações gráficas, não sendo adequada para\ntarefas administrativas em sistemas UNIX.\n\nII - Perl é uma linguagem de programação unicamente\ndesenvolvida para ambientes Windows e não possui\nsuporte para plataformas como UNIX ou Macintosh.\n\nIII - Embora Perl possua capacidades avançadas de\nmanipulação de texto, ela não oferece suporte para\nexpressões regulares, o que limita sua utilização no\npattern matching e processamento de cadeias.",
+        "alternativas": {
+            "A": "Todas as assertivas estão corretas.",
+            "B": "Todas as assertivas estão incorretas.",
+            "C": "Apenas a assertiva III está correta.",
+            "D": "Apenas as assertivas I e II estão corretas.",
+            "E": "Apenas as assertivas I e III estão corretas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B está correta pois todas as assertivas apresentadas sobre a linguagem Perl estão incorretas. Perl foi criada em 1987, não 1995, é multiplataforma e oferece suporte robusto a expressões regulares."
+    },
+    {
+        "id": "1081662",
+        "enunciado": "Um programa em C++ pode ser usado para realizar operações de arquivo, como abrir, ler e gravar arquivos. Sobre abertura de arquivo, a diferença entre os modos \"r\" e \"w\", ao abrir um arquivo em um programa C++, é que",
+        "alternativas": {
+            "A": "ambos os modos \"r\" e \"w\" são usados para escrita.",
+            "B": "O modo \"r\" é usado para leitura, e o modo \"w\" é usado para escrita.",
+            "C": "O modo \"r\" é usado para escrita, e o modo \"w\" é usado para leitura.",
+            "D": "O modo \"r\" é usado para leitura e, se o arquivo não existir, ele será criado automaticamente, enquanto o modo \"w\" é usado apenas para escrita."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No C++, ao abrir um arquivo, o modo 'r' (read) é usado para leitura, abrindo apenas se o arquivo existir. O modo 'w' (write) é usado para escrita, criando o arquivo se não existir ou truncando seu conteúdo se já existir."
+    },
+    {
+        "id": "1201532",
+        "enunciado": "Uma linguagem de programação é um conjunto de termos e de regras que permite a formulações de instruções a um computador. Uma das primeiras linguagens de programação era orientada diretamente a máquina e oferecia facilidade do uso de macro instruções. Essa linguagem é denominada como:",
+        "alternativas": {
+            "A": "Assembly.",
+            "B": "COBOL.",
+            "C": "C.",
+            "D": "Go.",
+            "E": "Linguagem de pulsos elétricos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A linguagem Assembly é uma linguagem de programação de baixo nível, próxima ao hardware, que utiliza mnemônicos para representar instruções de máquina e facilita o uso de macros, sendo uma das primeiras linguagens de programação."
+    },
+    {
+        "id": "1445743",
+        "enunciado": "Qual das seguintes afirmações sobre classes abstratas e interfaces em Java está correta?",
+        "alternativas": {
+            "A": "Uma classe abstrata pode conter implementações de métodos, enquanto uma interface não pode.",
+            "B": "Uma interface pode herdar de múltiplas classes abstratas, enquanto uma classe abstrata só pode herdar de uma única interface.",
+            "C": "Uma classe abstrata pode ser instanciada diretamente, enquanto uma interface não pode.",
+            "D": "Uma interface pode ter variáveis de instância, enquanto uma classe abstrata não pode."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Classes abstratas podem definir metodos abstratos (sem implementacao) e metodos concretos (com implementacao). Interfaces, a partir do Java 8, podem ter metodos default (com implementacao), mas historicamente eram apenas declaracoes de metodos. A alternativa A descreve uma diferenca chave."
+    },
+    {
+        "id": "1163929",
+        "enunciado": "Ao utilizar a API FETCH do JavaScript, o uso do modo “cors”, irá permitir que:",
+        "alternativas": {
+            "A": "Seja enviado dados em duas URLs distintas ao mesmo tempo",
+            "B": "O uso do método PUT seja reconhecido pelo servidor",
+            "C": "A aplicaç ão possa acessar recursos em um local diferente da origem",
+            "D": "Que os dados sejam interpretados pelo servidor como json"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O modo 'cors' (Cross-Origin Resource Sharing) permite que uma página web carregada de uma origem acesse recursos em outra origem (domínio, protocolo ou porta diferente)."
+    },
+    {
+        "id": "1445745",
+        "enunciado": "Qual das seguintes afirmações descreve corretamente a função de uma arrow function  em JavaScript?",
+        "alternativas": {
+            "A": "Arrow functions  são usadas exclusivamente para criar loops em JavaScript de forma mais eficiente.",
+            "B": "Arrow functions  permitem declarar funções anônimas sem a necessidade de usar a palavra-chave “function”.",
+            "C": "Arrow functions  são usadas para definir variáveis constantes que não podem ser modificadas depois de inicializadas.",
+            "D": "Arrow functions  são usadas para criar objetos literais de forma mais concisa em comparação com a sintaxe tradicional de função."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Arrow functions em JavaScript oferecem uma sintaxe concisa para definir funções, especialmente úteis para funções anônimas, dispensando o uso da palavra-chave `function` e simplificando o escopo do `this`."
+    },
+    {
+        "id": "1070294",
+        "enunciado": "Assinale o recurso de programação orientada a objetos em que o compilador irá selecionar as funcionalidades que um programa irá utilizar de forma dinâmica, durante sua execução.",
+        "alternativas": {
+            "A": "Herança",
+            "B": "Polimorfismo",
+            "C": "Encapsulamento",
+            "D": "Instância"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Polimorfismo é o conceito que permite que objetos de diferentes classes respondam a um mesmo método ou mensagem de formas distintas, sendo a seleção realizada em tempo de execução."
+    },
+    {
+        "id": "1144220",
+        "enunciado": "A linguagem de consulta da Oracle PL/SQL, a extensão processual do Oracle SQL, é uma linguagem de processamento de transações portátil e de alto desempenho. Uma de suas principais vantagens é o suporte à programação orientada a objetos. Um dos componentes desta funcionalidade é:",
+        "alternativas": {
+            "A": "definir padrões de métricas de comandos de consulta modular nos meios requeridos.",
+            "B": "permitir definir tipos de objetos que podem ser usados em projetos orientados a objetos.",
+            "C": "a integração do IDE Eclipse com plugins Java.",
+            "D": "gerenciar os arquivos de aplicações orientadas a objetos.",
+            "E": "otimizar as consultas por atribuições pré-definidas na aplicação específica."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A PL/SQL da Oracle suporta programacao orientada a objetos permitindo a definicao de tipos de objetos customizados que podem ser instanciados e utilizados em consultas e procedimentos, refletindo um componente chave dessa funcionalidade."
+    },
+    {
+        "id": "1343670",
+        "enunciado": "JavaScript é uma linguagem de programação dinâmica e interpretada por navegadores por não requer compilação prévia. Analise a linha de código JavaScript apresentado: console.log(2 + '2'); Qual alternativa refere-se à saída desse código?",
+        "alternativas": {
+            "A": "4",
+            "B": "22",
+            "C": "Erro",
+            "D": "undefined"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No JavaScript, a adição de um número a uma string resulta na concatenação. Assim, 2 + '2' resulta na string '22', e não na soma numérica 4."
+    },
+    {
+        "id": "1343672",
+        "enunciado": "PHP é uma linguagem de script de uso geral voltada para desenvolvimento Web. Sobre a função isset() do PHP, assinale a afirmativa que define corretamente essa função.",
+        "alternativas": {
+            "A": "Destrói uma variável.",
+            "B": "Cria uma nova variável.",
+            "C": "Verifica-se uma variável está vazia.",
+            "D": "Determina se uma variável foi definida e não é NULL."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A função isset() do PHP verifica se uma variável foi declarada e se seu valor não é NULL. Ela retorna true se a variável existe e não é NULL, e false caso contrário."
+    },
+    {
+        "id": "1279995",
+        "enunciado": "Um time de cientistas de dados usa a linguagem Python e o pacote Numpy para desenvolver um sistema de recomendação que utiliza perfis de usuário baseados em vetores, nos quais cada elemento representa a afinidade do usuário por um determinado produto bancário. Considere dois perfis de usuários, X e Y, e seus respectivos vetores, usuarioX e usuarioY. Para identificar se esses usuários têm gostos similares e fazer recomendações precisas, é crucial calcular a similaridade entre seus perfis. Uma das métricas utilizadas para esse fim é o cosseno da similaridade, calculado a partir do produto escalar entre os dois vetores de perfis de usuário dividido pelo produto das magnitudes desses vetores. Considerando-se esse contexto, qual fragmento de código calcula corretamente o produto escalar entre os dois vetores, usuarioX e usuarioY?",
+        "alternativas": {
+            "A": "np.cross(usuarioX, usuarioY)",
+            "B": "np.dot(usuarioX, usuarioY)",
+            "C": "np.linalg.norm(usuarioX - usuarioY)",
+            "D": "np.multiply(usuarioX, usuarioY)",
+            "E": "np.product(usuarioX, usuarioY)"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O produto escalar entre dois vetores é a operação que descreve essa similaridade de forma direta. A função `np.dot()` do Numpy é a responsável por calcular o produto escalar entre dois vetores em Python."
+    },
+    {
+        "id": "1166210",
+        "enunciado": "O método empregado em JavaScript na instância Date para obter o ano de acordo com o horário universal é:",
+        "alternativas": {
+            "A": "getUTCDate()",
+            "B": "getUTCYear()",
+            "C": "getUTCFullDate()",
+            "D": "getUTCFullYear()"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O método `getUTCFullYear()` na instância `Date` do JavaScript retorna o ano como um número inteiro de quatro dígitos de acordo com o horário UTC, ao passo que `getUTCDate()` retorna o dia do mês, `getUTCYear()` usa um formato obsoleto e `getUTCFullDate()` não existe."
+    },
+    {
+        "id": "1165599",
+        "enunciado": "Leia o texto a seguir. Java é uma linguagem de programação de alto nível, orientada a objetos e multiplataforma. Foi desenvolvida pela Sun Microsystems (adquirida posteriormente pela Oracle Corporation), na década de 1990, e desde então tornou-se uma das linguagens de programação mais populares e amplamente utilizadas em todo o mundo. Em Java, o modificador de acesso que permite que uma variável, método ou classe seja acessado apenas por classes do mesmo pacote, é o modificador :",
+        "alternativas": {
+            "A": "public",
+            "B": "private",
+            "C": "default",
+            "D": "protected"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Em Java, o modificador 'default' (ou pacote-privado) é aplicado quando nenhum modificador de acesso é explicitamente especificado, restringindo o acesso a classes dentro do mesmo pacote."
+    },
+    {
+        "id": "1165601",
+        "enunciado": "Leia o texto a seguir. JavaScript é uma linguagem de programação de alto nível, interpretada e orientada a objetos, amplamente utilizada para desenvolvimento web. Ela permite aos desenvolvedores criar páginas web dinâmicas e interativas, com funcionalidades como animações, validações de formulários, manipulação de eventos, comunicação assíncrona com servidores, entre outras. O nome do método em JavaScript permite executar uma função após um determinado período de tempo é :",
+        "alternativas": {
+            "A": "setTimeout()",
+            "B": "setInterval()",
+            "C": "clearTimeout()",
+            "D": "requestAnimationFrame()"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O método setTimeout() em JavaScript é utilizado para executar uma determinada função ou trecho de código apenas uma vez, após um intervalo de tempo especificado em milissegundos."
+    },
+    {
+        "id": "1166213",
+        "enunciado": "O construtor Int32Array() em JavaScript é responsável por criar objetos do tipo Int32Array. Esses objetos são inicializados com:",
+        "alternativas": {
+            "A": "null",
+            "C": "-1",
+            "D": "1"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O construtor Int32Array() em JavaScript cria um array de inteiros de 32 bits. Os elementos desse array, quando não especificados, são inicializados com o valor padrão, que é 0 (zero)."
+    },
+    {
+        "id": "1237413",
+        "enunciado": "A programação orientada a objetos (POO) mudou a forma como desenvolvedores criam aplicações, enfatizando a organização do código em unidades lógicas. Qual é um dos principais princípios da programação orientada a objetos?",
+        "alternativas": {
+            "A": "Evitar o uso de classes e objetos.",
+            "B": "Encapsular de dados e funções em objetos.",
+            "C": "Concentrar código em procedimentos únicos.",
+            "D": "Ignorar a herança e a reutilização de código."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um dos principios fundamentais da POO eh o encapsulamento, que agrupa dados e metodos que operam sobre esses dados dentro de objetos, promovendo modularidade e seguranca."
+    },
+    {
+        "id": "1237414",
+        "enunciado": "Desenvolver aplicações eficientes requer reutilizar e estender o comportamento de classes existentes. No contexto da programação orientada a objetos, qual conceito permite que uma classe adquira as propriedades e métodos de outra classe?",
+        "alternativas": {
+            "A": "Encapsulamento.",
+            "B": "Abstração.",
+            "C": "Composição.",
+            "D": "Herança."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A herança é o conceito na programação orientada a objetos que permite que uma classe (a classe filha) herde propriedades e métodos de outra classe (a classe pai), promovendo a reutilização de código e a criação de hierarquias de classes."
+    },
+    {
+        "id": "1237415",
+        "enunciado": "Java é uma linguagem de programação amplamente utilizada que suporta o desenvolvimento orientado a objetos e oferece diversas ferramentas e frameworks para facilitar esse processo. Qual dos seguintes é um framework de desenvolvimento Java usado para construir aplicativos empresariais?",
+        "alternativas": {
+            "A": "Eclipse IDE.",
+            "B": "Jupiter Notebook.",
+            "C": "JPA.",
+            "D": "Hibernate."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Hibernate é um popular framework ORM (Object-Relational Mapping) para Java, amplamente utilizado no desenvolvimento de aplicativos empresariais para mapear classes Java a tabelas de banco de dados. Eclipse IDE é um ambiente de desenvolvimento, Jupiter Notebook um ambiente interativo e JPA é uma especificação, não um framework em si."
+    },
+    {
+        "id": "1339641",
+        "enunciado": "Qual método em Python é comumente utilizado para baixar dados meteorológicos de fontes on-line, como, por exemplo, dados de estações meteorológicas?",
+        "alternativas": {
+            "A": "requests.get()",
+            "B": "numpy.loadtxt()",
+            "C": "pandas.read_csv()",
+            "D": "matplotlib.pyplot.plot()",
+            "E": "sklearn.linear_model.LinearRegression()"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O método requests.get() é utilizado em Python para fazer requisições HTTP e baixar dados de recursos online, como APIs de meteorologia. As outras opções são para manipulação de dados (numpy, pandas), visualização (matplotlib) ou aprendizado de máquina (sklearn)."
+    },
+    {
+        "id": "1140371",
+        "enunciado": "Na atual geração de CLP, são empregadas linguagens de alto nível, que possuem uma série de instruções de programação pré-definidas. Isto aproxima as linguagens de alto nível da linguagem humana, facilitando assim o trabalho do programador. Analise as funções a seguir: Função NA: normalmente aberto (em inglês NO); Função NF: normalmente fechado (em inglês NC); Função E (em inglês AND); Função OU (em inglês OR). As funções mencionadas acima são funções básicas ou fundamentais na linguagem:",
+        "alternativas": {
+            "A": "Ladder",
+            "B": "Structured text",
+            "C": "Function block",
+            "D": "Sequential function chart",
+            "E": "Grafect"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As funções NA (Normalmente Aberto), NF (Normalmente Fechado), E (AND) e OU (OR) são elementos fundamentais utilizados na programação da linguagem Ladder (diagrama de escada) para CLPs."
+    },
+    {
+        "id": "1031416",
+        "enunciado": "Qual o nome da linguagem de transformação de dados do Power Query?",
+        "alternativas": {
+            "A": "M",
+            "B": "VB",
+            "C": "DAX",
+            "D": "node",
+            "E": "NoSQL"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A linguagem utilizada no Power Query para consulta e transformação de dados é conhecida como linguagem M. VB é para Visual Basic, DAX é para análise de dados no Power BI e NoSQL é um tipo de banco de dados."
+    },
+    {
+        "id": "1045812",
+        "enunciado": "Uma das linguagens mais utilizadas no mundo é a linguagem Java, isto por que, a linguagem Java possui uma característica impar, de sistemas criados com esta linguagem, serem executados em sistemas operacionais diferentes, assinale a alternativa que apresenta a ferramenta utilizada que permite esta característica da linguagem.",
+        "alternativas": {
+            "A": "JDK",
+            "B": "JVM",
+            "C": "JRV",
+            "D": "JAR"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A JVM (Java Virtual Machine) e a responsavel pela caracteristica 'write once, run anywhere' do Java. Ela interpreta o bytecode, permitindo que programas Java rodem em qualquer sistema operacional que possua uma JVM compatível."
+    },
+    {
+        "id": "1190195",
+        "enunciado": "“____________ é uma linguagem de programação de banco de dados projetada para gerenciar, consultar e manipular dados em Sistemas de Gerenciamento de Banco de Dados Relacionais (SGBDR).” Assinale a alternativa que completa corretamente a afirmativa anterior.",
+        "alternativas": {
+            "A": "C#",
+            "B": "PHP",
+            "C": "SQL",
+            "D": "JAVA"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "SQL (Structured Query Language) é a linguagem padrão para consulta e manipulação de bancos de dados relacionais, sendo fundamental para gerenciar e interagir com esses sistemas."
+    },
+    {
+        "id": "1045813",
+        "enunciado": "Para o desenvolvimento web, uma das linguagens mais utilizadas é a linguagem PHP, qual o símbolo utilizado para delimitar bloco na linguagem PHP.",
+        "alternativas": {
+            "A": "\\ e /",
+            "B": "[ e ]",
+            "C": "{ e }",
+            "D": "< e >"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Na linguagem PHP, chaves ({ e }) sao utilizadas para delimitar blocos de codigo, como estruturas de controle (if, loops) e definicoes de funcoes."
+    },
+    {
+        "id": "1045814",
+        "enunciado": "Linguagens de programação fornecer comando e ou palavras reservadas para imprimir um conteúdo como saída, como exemplo na linguagem C# temos, Console.WriteLine(), desta forma, assinale a alternativa que apresenta qual o comando utilizado para imprimir uma saída na linguagem PHP.",
+        "alternativas": {
+            "A": "exit",
+            "B": "dump",
+            "C": "echo",
+            "D": "out"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Na linguagem PHP, o comando 'echo' e amplamente utilizado para imprimir na tela o valor de variaveis, strings ou qualquer outro tipo de dado."
+    },
+    {
+        "id": "1045818",
+        "enunciado": "A linguagem JavaScript vem se popularizando cada vez mais no desenvolvimento web, desta forma, assinale a alternativa que apresenta qual a palavra-chave utilizada para declarar uma variável em escopo de bloco na linguagem JavaScript.",
+        "alternativas": {
+            "A": "create",
+            "B": "let",
+            "C": "varchar",
+            "D": "const"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A palavra-chave 'let' em JavaScript e usada para declarar variaveis em escopo de bloco, garantindo maior controle sobre o ciclo de vida e a visibilidade da variavel."
+    },
+    {
+        "id": "1168132",
+        "enunciado": "Quais são os principais componentes de uma aplicação JavaServer Faces (JSF)?",
+        "alternativas": {
+            "A": "HTML, XML, WSDL;",
+            "B": "JDBC, Servlets, JSP;",
+            "C": "Applets, Swing, AWT;",
+            "D": "Managed Beans, Facelets, componentes visuais;",
+            "E": "CGI, JavaScript, PHP."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "JSF (JavaServer Faces) utiliza Managed Beans para gerenciar o estado da aplicação, Facelets como motor de templates para a interface do usuário e componentes visuais que são renderizados no navegador. JDBC é para acesso a dados, Servlets e JSP são tecnologias Java EE mais antigas, e os demais não são componentes JSF."
+    },
+    {
+        "id": "1045819",
+        "enunciado": "Dentro da linguagem JavaScript, podemos criar eventos a serem executados, desta forma, assinale a alternativa que apresenta o que é um evento na linguagem JavaScript.",
+        "alternativas": {
+            "A": "Uma função que quando disparada reinicia a codificação",
+            "B": "Uma função que realiza cálculos matemáticos",
+            "C": "Um objeto que contem de estilo CSS",
+            "D": "Uma ação detectada pelo navegador, como um clique do mouse, pressionamento de tecla ou carregamento da página"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em JavaScript, um evento e uma acao detectada pelo navegador, como um clique, pressionamento de tecla ou carregamento de pagina, que pode disparar a execucao de uma funcao."
+    },
+    {
+        "id": "1930672",
+        "enunciado": "A linguagem de programação em blocos é um modo intuitivo e visual de construir códigos, na qual os blocos são arrastados e encaixados em sequência para criar o código do programa. Assinale a alternativa que apresenta características importantes da programação em linguagem de blocos.",
+        "alternativas": {
+            "A": "É uma programação que possui número ilimitado de estruturas de controle e ainda permite a criação de formulários personalizados.",
+            "B": "É uma programação livre de sintaxe na qual não é preciso memorizar todas as regras e trechos de código.",
+            "C": "É uma programação composta por blocos textuais que possuem funções predefinidas, mas que podem ser customizados pelo programador, por meio da alteração do texto.",
+            "D": "É uma programação voltada à criação de interface com o usuário, pois é formada por elementos de tela, tais como caixas de texto para a entrada de dados, botões de ações, caixas de texto para saída de informação, entre outros.",
+            "E": "É uma programação voltada para crianças menores de 5 anos, que ainda não aprenderam a ler e escrever, pois os blocos são representados por desenhos de fácil compreensão."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A principal característica da programação em blocos é sua natureza visual e intuitiva, que elimina a necessidade de memorizar sintaxe complexa. As outras alternativas descrevem características de outros tipos de programação ou são imprecisas."
+    },
+    {
+        "id": "1168135",
+        "enunciado": "A Linguagem de Programação Java, criada pela Sun Microsystems no início dos anos 90 (1995), é uma das linguagens de programação mais utilizadas no mundo. Um dos principais lemas de Java é:",
+        "alternativas": {
+            "A": "\"Compilação direta para o hardware\";",
+            "B": "\"Controle total sobre o gerenciamento de memória\";",
+            "C": "\"Priorize a eficiência sobre a portabilidade\";",
+            "D": "\"Escreva uma vez, execute em qualquer lugar\";",
+            "E": "\"Maximize a performance específica de plataforma\"."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O lema 'Write Once, Run Anywhere' (Escreva uma vez, execute em qualquer lugar) é central para a filosofia do Java, garantindo a portabilidade do código através da Java Virtual Machine (JVM), independentemente do sistema operacional."
+    },
+    {
+        "id": "1168136",
+        "enunciado": "Em relação à programação PHP, o que significa ODBC?",
+        "alternativas": {
+            "A": "Object Database Connectivity;",
+            "B": "Oracle Database Connector;",
+            "C": "Open Database Connectivity;",
+            "D": "Object Directory Configuration;",
+            "E": "Online Database Control."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "ODBC é um padrão da indústria para acesso a bancos de dados, permitindo que aplicativos acessem diferentes sistemas de gerenciamento de banco de dados de forma uniforme."
+    },
+    {
+        "id": "1169369",
+        "enunciado": "Identifique o conceito que NÃO está diretamente relacionado à programação orientada a objetos.",
+        "alternativas": {
+            "A": "Encapsulamento;",
+            "B": "Polimorfismo;",
+            "C": "Algoritmo de Ordenação;",
+            "D": "Herança;",
+            "E": "Abstração."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Algoritmos de ordenação são um conceito fundamental da ciência da computação, mas não estão diretamente ligados aos pilares da programação orientada a objetos."
+    },
+    {
+        "id": "1009741",
+        "enunciado": "A linguagem Ladder, também conhecida como diagrama de contatos, é amplamente utilizada na programação de controladores lógicos programáveis (CLPs). Assinale a alternativa que descreve corretamente uma característica da linguagem Ladder.",
+        "alternativas": {
+            "A": "É uma linguagem de programação orientada a objetos.",
+            "B": "Utiliza símbolos gráficos para representar as operações lógicas.",
+            "C": "Utiliza sintaxe textual semelhante à linguagem C.",
+            "D": "Possui uma sintaxe baseada em palavras-chave e estruturas de controle."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A linguagem Ladder é uma linguagem de programação gráfica utilizada em CLPs. Ela representa circuitos elétricos com símbolos para contatos, bobinas e outros componentes, facilitando a lógica de controle."
+    },
+    {
+        "id": "1168140",
+        "enunciado": "Acerca da Programação Orientada a Objeto (POO), julgue as frases abaixo. I. A POO é um paradigma de programação que utiliza conceitos como classes e objetos para organizar e estruturar o código. II. A POO é amplamente utilizada em linguagens como Java, Python e C++. III. A POO ajuda a organizar o código, facilita a manutenção, promove a reutilização e melhora a modularidade do software. Está(ão) CORRETA(S) a(s) seguinte(s) proposição(ões):",
+        "alternativas": {
+            "A": "apenas, III;",
+            "B": "apenas, I e III;",
+            "C": "apenas, II e IIl;",
+            "D": "apenas, II;",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Todas as proposições estão corretas. A POO é de fato um paradigma com esses conceitos (I), amplamente utilizada nas linguagens citadas (II), e seus benefícios são exatamente os listados (III)."
+    },
+    {
+        "id": "1322273",
+        "enunciado": "Em um suposto desenvolvimento de um sistema de gerenciamento de estudantes em Java, precisa-se armazenar os nomes dos estudantes de uma turma. Além disso, precisa-se garantir que não haja nomes duplicados e que se mantenha os elementos ordenados. Assinale a alternativa com a collection em Java 8 mais apropriada para resolver esse problema.",
+        "alternativas": {
+            "A": "ArrayList",
+            "B": "LinkedList",
+            "C": "TreeSet",
+            "D": "LinkedHashMap"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O requisito de não ter nomes duplicados e manter os elementos ordenados é atendido pelo TreeSet. Ele implementa a interface Set (garantindo unicidade) e a interface SortedSet (garantindo ordenação natural ou por comparador)."
+    },
+    {
+        "id": "1169375",
+        "enunciado": "Quando se trata de Linguagens de Programação, qual é a principal diferença entre linguagens compiladas e interpretadas?",
+        "alternativas": {
+            "A": "Linguagens compiladas geram código executável, enquanto linguagens interpretadas são traduzidas linha a linha durante a execução;",
+            "B": "Linguagens interpretadas são mais eficientes em termos de desempenho;",
+            "C": "Linguagens compiladas são exclusivamente voltadas para o desenvolvimento web;",
+            "D": "Linguagens interpretadas exigem um pré-processamento antes da execução;",
+            "E": "Linguagens compiladas são mais flexíveis em termos de portabilidade."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A diferença crucial está na forma como o código fonte é traduzido para código executável: compiladas geram um arquivo executável de uma vez, enquanto interpretadas traduzem linha por linha durante a execução."
+    },
+    {
+        "id": "1199479",
+        "enunciado": "Assinale a alternativa que identifica uma linguagem e ambiente para computação estatística e gráficos, caracterizada pela utilização de recursos de software para manipulação de dados, cálculo e exibição gráfica.",
+        "alternativas": {
+            "A": "Java",
+            "B": "PHP",
+            "C": "R",
+            "D": "C#",
+            "E": "XML"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A linguagem R e um ambiente amplamente utilizado para computacao estatistica e graficos. Ela oferece diversas ferramentas para manipulacao de dados e visualizacao. As outras alternativas sao linguagens de programacao com outros focos."
+    },
+    {
+        "id": "1322275",
+        "enunciado": "Considere que, em um sistema acadêmico que possua duas classes, “Pessoa” e “Estudante”, a classe “Pessoa” serve como a classe base e representa qualquer pessoa cadastrada no sistema. Por sua vez, a classe “Estudante” é uma subclasse de “Pessoa” e representa todos os estudantes cadastrados nesse sistema. Assinale a alternativa que realiza uma atribuição incorreta entre as classes Pessoa e Estudante na linguagem Java 8.",
+        "alternativas": {
+            "A": "Pessoa p = new Estudante();",
+            "B": "Pessoa p = new Pessoa();",
+            "C": "Estudante e = new Estudante();",
+            "D": "Estudante e = new Pessoa();"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D está incorreta porque uma instância de uma classe base (Pessoa) não pode ser atribuída a uma variável de tipo de uma subclasse (Estudante), pois a subclasse pode ter atributos ou métodos específicos que a classe base não possui."
+    },
+    {
+        "id": "1169376",
+        "enunciado": "Qual dos seguintes operadores em Python é usado para verificar se um valor está contido em uma sequência como uma lista ou uma string?",
+        "alternativas": {
+            "A": "!=",
+            "B": "Is",
+            "C": "=+",
+            "D": ")*",
+            "E": "in"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O operador 'in' em Python é especificamente utilizado para verificar a presença de um elemento em uma sequência (lista, string, tupla, etc.). As demais opções não correspondem a operadores de verificação de pertencimento."
+    },
+    {
+        "id": "1322277",
+        "enunciado": "Não é uma estrutura de repetição existente na linguagem Java 8:",
+        "alternativas": {
+            "A": "while (a > b) { ... }",
+            "B": "foreach (a of array) { ... }",
+            "C": "do { ... } while (a > b);",
+            "D": "for (a : array) { ... }"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B descreve uma sintaxe de loop inexistente em Java 8. A forma correta de iterar sobre coleções ou arrays seria utilizando 'for (Tipo elemento : colecao)' ou a palavra-chave 'for-each' em outros contextos."
+    },
+    {
+        "id": "1021803",
+        "enunciado": "Vários aplicativos que têm relação entre si, e que usam recursos de forma colaborativa, facilitando a vida do programador são disponibilizados tanto na comunidade Windows Microsoft como Linux. No caso do XAMPP, este reúne as linguagens/aplicações a seguir, exceto:",
+        "alternativas": {
+            "A": "Perl",
+            "B": "JSE",
+            "C": "MySQL",
+            "D": "PHP"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O XAMPP é um pacote que inclui Apache, MySQL, PHP e Perl. JSE refere-se ao Java Standard Edition, que não faz parte do XAMPP."
+    },
+    {
+        "id": "1168146",
+        "enunciado": "Um analista de sistemas está envolvido no desenvolvimento de uma aplicação web em JavaServer Faces (JSF). Considerando os conceitos de programação em Java, qual é a finalidade principal do JSF no contexto de desenvolvimento web?",
+        "alternativas": {
+            "A": "Manipulação de dados em banco de dados;",
+            "B": "Implementação de algoritmos de busca;",
+            "C": "Desenvolvimento de interfaces gráficas de usuário;",
+            "D": "Interação com o sistema operacional;",
+            "E": "Gerenciamento de processos do sistema."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "JSF é um framework Java para criar interfaces de usuário web baseadas em componentes, facilitando o desenvolvimento de UIs ricas e interativas."
+    },
+    {
+        "id": "1130228",
+        "enunciado": "Do Tratamento de Exceção em Java, caracterizam as Exceções Não Verificadas, EXCETO:",
+        "alternativas": {
+            "A": "Não verificadas em tempo de compilação;",
+            "B": "Ocorrem durante a execução por causa de erro do programador (divisão por zero, índice fora de faixa e uso de referências null);",
+            "C": "Não exigem tratamento;",
+            "D": "As exceções não verificadas incluem as exceções do tipo RunTimeException e todos os seus subtipos.",
+            "E": "Exceções do tipo Exception e todos os seus subtipos, exceto RunTimeException e os seus subtipos."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E descreve Exceções Verificadas. As não verificadas (ou RuntimeExceptions) não exigem tratamento explícito, ocorrem em tempo de execução e incluem erros de programação."
+    },
+    {
+        "id": "1168150",
+        "enunciado": "Um programador PHP está desenvolvendo um sistema web que envolve o processamento de formulários e a interação com um banco de dados MySQL. Qual função em PHP é utilizada para realizar a conexão com um banco de dados MySQL?",
+        "alternativas": {
+            "A": "Mysqli_connect;",
+            "B": "Mysql_connect;",
+            "C": "Pdo_connect;",
+            "D": "Db_connect;",
+            "E": "Connect_mysql."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A função correta para conectar a um banco de dados MySQL em PHP, utilizando a extensão recomendada e mais moderna, é 'mysqli_connect()'. A função 'mysql_connect()' estava obsoleta e foi removida em versões mais recentes do PHP."
+    },
+    {
+        "id": "1168153",
+        "enunciado": "Um programador precisa desenvolver um sistema embarcado para controle de hardware em dispositivos IoT (Internet das Coisas). Qual linguagem abaixo seria a mais indicada por permitir um controle fino sobre os recursos do sistema e eficiência na execução?",
+        "alternativas": {
+            "A": "PHP;",
+            "B": "Swift;",
+            "C": "JavaScript;",
+            "D": "Python;",
+            "E": "C."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "C é a linguagem mais indicada para sistemas embarcados devido ao controle fino sobre hardware, gerenciamento de memória e alta eficiência de execução, características cruciais para dispositivos IoT."
+    },
+    {
+        "id": "1042071",
+        "enunciado": "Qual das linguagens de programação abaixo NÃO é orientada a objetos?",
+        "alternativas": {
+            "A": "C.",
+            "B": "C++.",
+            "C": "Java.",
+            "D": "Python.",
+            "E": "PHP."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A linguagem C é uma linguagem procedural, não orientada a objetos de forma nativa. C++, Java, Python e PHP são linguagens que suportam e são amplamente utilizadas com programação orientada a objetos."
+    },
+    {
+        "id": "1031492",
+        "enunciado": "Qual função do WordPress é usada para recuperar o título de um post ou página?",
+        "alternativas": {
+            "A": "get_title()",
+            "B": "the_title()",
+            "C": "title_get()",
+            "D": "post_title()",
+            "E": "get_post_title()"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A função the_title() no WordPress é utilizada para exibir o título de um post, página ou outro tipo de post. Ela é a maneira padrão e mais comum de recuperar e mostrar o título no front-end do site."
+    },
+    {
+        "id": "1006196",
+        "enunciado": "No framework Django 2, o Index.fields é uma lista ou tupla do nome dos campos nos quais o índice é desejado. Por padrão, os índices são criados em que ordem?",
+        "alternativas": {
+            "A": "Em ordem crescente para cada linha. Para definir um índice na ordem decrescente para uma linha, deve-se adicionar o símbolo @ antes do nome do campo.",
+            "B": "Em ordem decrescente com objetos estáticos. Para se ter acesso a um determinado índice da estrutura de dados, é necessário instanciar um objeto com a posição desejada.",
+            "C": "Em ordem crescente para cada coluna. Para definir um índice com ordem decrescente para uma coluna, deve-se adicionar um hífen antes do nome do campo.",
+            "D": "Em ordem decrescente para cada linha. Para se ter acesso a um determinado elemento da estrutura de dados, basta acessar um objeto já criado com a posição desejada."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No Django, os índices em campos são criados por padrão em ordem crescente para cada coluna. Para definir uma ordem decrescente, usa-se o hífen no nome do campo."
+    },
+    {
+        "id": "1168162",
+        "enunciado": "As linguagens compiladas são frequentemente utilizadas em aplicações que exigem alto desempenho e eficiência, como sistemas operacionais, jogos eletrônicos, e softwares que realizam cálculos complexos ou processamento de grande volume de dados. Assinale a alternativa que apresenta um exemplo de linguagem tipicamente compilada.",
+        "alternativas": {
+            "A": "HTML;",
+            "B": "Delphi;",
+            "C": "PHP;",
+            "D": "JavaScript;",
+            "E": "Python."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Delphi é uma IDE que utiliza a linguagem Object Pascal, conhecida por ser compilada, gerando executáveis de alto desempenho."
+    },
+    {
+        "id": "1168163",
+        "enunciado": "Em qual dos seguintes cenários o uso de uma linguagem visual seria mais apropriado?",
+        "alternativas": {
+            "A": "Implementação de funções matemáticas avançadas para cálculos científicos;",
+            "B": "Desenvolvimento de um compilador para uma nova linguagem de programação;",
+            "C": "Criação de um protótipo interativo para uma aplicação de design de interiores;",
+            "D": "Programação de sistemas operacionais de baixo nível;",
+            "E": "Desenvolvimento de um algoritmo complexo de criptografia."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Linguagens visuais são ideais para prototipagem interativa, permitindo a visualização e manipulação de designs, como em aplicações de design de interiores. As outras opções envolvem cálculos, lógica ou sistemas de baixo nível onde texto ou código são mais eficientes."
+    },
+    {
+        "id": "1168165",
+        "enunciado": "Métodos em Java são blocos de código identificados por um nome e podem ser invocados (chamados) em qualquer ponto do programa com a finalidade de executar uma ação específica. Sobre esse assunto, julgue as frases abaixo. I.  Métodos de Acesso (Getters) são utilizados para obter o valor de atributos privados de uma classe. II. Métodos de Modificação (Setters) pertencem à classe, não a uma instância específica, e são invocados utilizando o nome da classe. III. Métodos Estáticos podem ser modificados desde que acessados por um servidor padrão. Está(ão) CORRETA(S) a(s) seguinte(s) proposição(ões).",
+        "alternativas": {
+            "A": "Apenas, III;",
+            "B": "Apenas, I e III;",
+            "C": "Apenas, II e III;",
+            "D": "Apenas, II;",
+            "E": "Apenas, I."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Apenas a proposição I está correta. Getters acessam atributos privados (I). Setters modificam atributos de instância, não pertencem à classe em si (II incorreta). Métodos estáticos não são modificados dessa forma (III incorreta)."
+    },
+    {
+        "id": "1168166",
+        "enunciado": "Qual dos seguintes conceitos vinculado ao princípio fundamental da programação orientada a objetos (POO) em Java permite a reutilização de código ao estender uma classe existente?",
+        "alternativas": {
+            "A": "Polimorfismo;",
+            "B": "Interface;",
+            "C": "Herança;",
+            "D": "Abstração;",
+            "E": "Encapsulamento."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A herança é o mecanismo da POO que permite que uma nova classe (subclasse) herde atributos e métodos de uma classe existente (superclasse), promovendo a reutilização de código e a criação de hierarquias."
+    },
+    {
+        "id": "1251022",
+        "enunciado": "33) A programação orientada a objeto possui pilares fundamentais em sua linguagem. Dadas as definições abaixo, identifique a alternativa que corresponda respectivamente a cada pilar .\n\n1. Mecanismo utilizado para disponibilizar métodos que operam sobre os dados e que protegem o acesso direto indevido aos atributos de uma instância fora da classe onde estes foram declarados.\n\n2. Mecanismo que permite criar novas classes a partir de classes já existentes, aproveitando-se das características existentes na classe a ser estendida.\n\n3. Situação na qual um objeto pode se comportar de maneiras diferentes ao receber uma mensagem, dependendo do seu tipo de criação.\n\na) 1. Encapsulamento - 2. Polimorfismo - 3. Herança\nb) 1. Herança - 2. Encapsulamento - 3. Polimorfismo\nc) 1. Polimorfismo - 2. Herança - 3. Encapsulamento\nd) 1. Encapsulamento - 2. Herança - 3. Polimorfismo",
+        "alternativas": {
+            "A": "1. Encapsulamento - 2. Polimorfismo - 3. Herança",
+            "B": "1. Herança - 2. Encapsulamento - 3. Polimorfismo",
+            "C": "1. Polimorfismo - 2. Herança - 3. Encapsulamento",
+            "D": "1. Encapsulamento - 2. Herança - 3. Polimorfismo"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "1. Encapsulamento: Esconde detalhes internos e protege atributos. 2. Herança: Permite criar novas classes a partir de existentes. 3. Polimorfismo: Possibilita que objetos de diferentes classes respondam à mesma mensagem de maneiras distintas."
+    },
+    {
+        "id": "1251027",
+        "enunciado": "38) Quanto às principais API's, do J2EE ( Java 2 Enterprise Edition ), selecione a única alternativa que esteja tecnicamente incorreta .",
+        "alternativas": {
+            "A": "JCW ( Java Connection Web )",
+            "B": "EJBs ( Enterprise JavaBeans )",
+            "C": "JDBC ( Java Database Connectivity )",
+            "D": "JTA ( Java Transaction API )"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "JCW (Java Connection Web) não é uma API padrão do J2EE. As outras alternativas (EJBs, JDBC, JTA) são componentes e APIs fundamentais do J2EE."
+    },
+    {
+        "id": "2060908",
+        "enunciado": "Uma das principais novidades da versão 8 do Java foi a adição de expressões lambda e a API Streams. Essas adições permitem escrever um trecho de código Java mais simples. Pensando nisso, um analista de TI resolveu editar o método abaixo, utilizado para calcular a média simples de um array de notas. Uma possível reescrita desse método é",
+        "alternativas": {
+            "A": "public double lambda(double notas[]) { return Arrays.stream(notas).average().getAsDouble(); }",
+            "B": "public double lambda(double notas[]) { return notas.asStream().average().getAsDouble(); }",
+            "C": "public double lambda(double notas[]) { return notas.stream().getAverage().toDouble(); }",
+            "D": "public double lambda(double notas[]) { return Arrays.toStream(notas).getAverage().asDouble(); }"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A utiliza corretamente a API Streams do Java 8 para calcular a média de um array de doubles. Arrays.stream(notas) cria um stream, average() calcula a média e getAsDouble() extrai o valor."
+    },
+    {
+        "id": "2060909",
+        "enunciado": "A linguagem Java introduziu o Generics na versão SE 5, o que permitiu parametrizar tipos na definição de classes, interfaces e métodos. No trecho de código abaixo, há a implementação de duas classes, uma utilizada para calcular a nota em uma disciplina de alunos de graduação e outra para alunos de pós-graduação. A classe pai utilizada no trecho de código acima pode ser implementada pelo seguinte trecho de código:",
+        "alternativas": {
+            "A": "public abstract class CalculaNota { public abstract double calculaNota(T aluno); }",
+            "B": "public abstract class CalculaNota { public abstract double calculaNota(generic aluno); }",
+            "C": "public generic class CalculaNota { public generic double calculaNota(T aluno); }",
+            "D": "public generic class CalculaNota { public generic double calculaNota(type T aluno); }"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para implementar uma classe pai abstrata que utilize genéricos no cálculo de notas, a assinatura `public abstract class CalculaNota<T>` com o método `public abstract double calculaNota(T aluno);` é a correta para permitir a parametrização por tipo."
+    },
+    {
+        "id": "2060911",
+        "enunciado": "Uma das vantagens do operador condicional ternário da linguagem Java é poder escrever código if-then-else em apenas uma linha. Nesse sentido, considere o trecho de código abaixo. Esse trecho de código pode ser reescrito da seguinte forma:",
+        "alternativas": {
+            "A": "status = nota < NOTA_MIN ? \"REPROVADO\" : nota >= NOTA_APROVACAO ? \"APROVADO\" : \"RECUPERAÇÃO\";",
+            "B": "status = nota > NOTA_MIN ? \"APROVADO\" : nota < NOTA_APROVACAO ? \"RECUPERAÇÃO\" : \"APROVADO\";",
+            "C": "status = nota >= NOTA_APROVACAO ? \"APROVADO\" : nota < NOTA_MIN ? \"RECUPERAÇÃO\" : \"APROVADO\";",
+            "D": "status = nota < NOTA_APROVACAO ? \"REPROVADO\" : nota < NOTA_MIN ? \"APROVADO\" : \"RECUPERAÇÃO\";"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A reescreve corretamente o código utilizando o operador ternário. Ela verifica a nota mínima para reprovação e, em caso contrário, a nota de aprovação e recuperação, em uma única linha concisa."
+    },
+    {
+        "id": "2060912",
+        "enunciado": "Exceção é um evento que ocorre durante a execução de um programa e interrompe o fluxo normal das instruções de execução. O Java fornece três componentes para manipular exceções: os blocos try, catch e finally. Sobre o tratamento de exceções na linguagem Java,",
+        "alternativas": {
+            "A": "o bloco finally é sempre executado após o bloco try ou o catch.",
+            "B": "o bloco catch é executado após o bloco finally.",
+            "C": "o bloco finally será executado apenas se o bloco catch não disparar exceção.",
+            "D": "o bloco catch, quando executado, devolve o fluxo de execução para o bloco try."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O bloco finally em Java é projetado para ser executado independentemente de ocorrerem exceções no bloco try ou catch. Ele funciona como um bloco de limpeza garantido."
+    },
+    {
+        "id": "2118264",
+        "enunciado": "No Java, a estrutura de controle switch permite condicionar a execução do programa por vários caminhos. Abaixo, há um exemplo de uma implementação do switch no Java. public Object getNewAluno(String nivel) { switch (nivel.toUpperCase()) { case \"MESTRADO\" : return new AlunoPosGraduacao(); case \"GRADUAÇÃO\" : return new AlunoGraduacao(); } return null; } Nesse exemplo, o trecho de código",
+        "alternativas": {
+            "A": "não possui erro de compilação, uma vez que o switch pode trabalhar com objetos do tipo String.",
+            "B": "possui erro de compilação, uma vez que é obrigatório o uso da instrução break ao final de cada case.",
+            "C": "não possui erro de compilação, porém a função sempre retorna null independente do parâmetro nivel.",
+            "D": "possui erro de compilação, uma vez que o parâmetro nivel, por ser um tipo primitivo, não possui métodos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O trecho de código não possui erro de compilação. A partir do Java 7, é permitido usar Strings na estrutura switch, contrariando a alternativa D e a ideia de 'tipo primitivo'."
+    },
+    {
+        "id": "2118266",
+        "enunciado": "Estruturas de loop “for” permitem executar um trecho de código em uma determinada quantidade de repetições, ou até que uma condição específica seja satisfeita. Posto isso, considere o código Java abaixo. String alunos[] = { \"Abelardo\", \"Bernardo\", \"Clara\", \"Dani\"} ; for (int i = 0; i < alunos.length; i++) System.out.println(alunos[i]); O loop “for” pode ser reescrito da seguinte forma:",
+        "alternativas": {
+            "A": "for (String aluno : alunos) System.out.println(aluno);",
+            "B": "for (String aluno : alunos[]) System.out.println(aluno[i]);",
+            "C": "forEach (String aluno in alunos) System.out.println(aluno);",
+            "D": "forEach (String aluno of alunos) System.out.println(aluno);"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O loop 'for' tradicional pode ser reescrito de forma mais concisa utilizando o enhanced for loop (ou 'for-each'), que itera diretamente sobre os elementos da coleção (alunos), dispensando o controle do índice 'i'."
+    },
+    {
+        "id": "2118270",
+        "enunciado": "O JavaServer Faces (JSF) possui um ciclo de vida que começa com uma requisição (request) HTTP e termina quando o servidor envia, para o cliente, uma página HTML como resposta (response). A ordem do ciclo de vida JSF é",
+        "alternativas": {
+            "A": "restaurar a view, aplicar os valores da request, processar validações, atualizar os dados do modelo, invocar a aplicação, renderizar a resposta.",
+            "B": "processar validações, aplicar os valores da request, atualizar os dados do modelo, invocar a aplicação, restaurar a view, renderizar a resposta.",
+            "C": "processar validações, atualizar os dados do modelo, aplicar os valores da request, restaurar a view, invocar a aplicação, renderizar a resposta.",
+            "D": "restaurar a view, processar validações, atualizar os dados do modelo, aplicar os valores da request, invocar a aplicação, renderizar a resposta."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O ciclo de vida do JSF segue a ordem: restaurar a view, aplicar os valores da requisição, processar validações, atualizar os dados do modelo, invocar a aplicação e, por fim, renderizar a resposta. Esta é a sequência correta."
+    },
+    {
+        "id": "1897876",
+        "enunciado": "Algumas linguagens de programação necessitam que o seu código fonte seja traduzido para linguagem de máquina antes de gerar um executável. Essa fase do processo é chamada:",
+        "alternativas": {
+            "A": "edição.",
+            "B": "compilação.",
+            "C": "linkedição.",
+            "D": "interpretação.",
+            "E": "tradução."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A compilação é o processo de tradução do código fonte escrito em uma linguagem de programação de alto nível para linguagem de máquina, gerando um arquivo executável."
+    },
+    {
+        "id": "1348587",
+        "enunciado": "Em Java, qual das alternativas a seguir é a vantagem de BigDecimal sobre o dobro?",
+        "alternativas": {
+            "A": "Sintaxe.",
+            "B": "Uso de memória.",
+            "C": "Criação de lixo.",
+            "D": "Precisão."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "BigDecimal oferece precisão superior ao tipo double em Java para representação de números decimais, especialmente em cálculos financeiros onde a exatidão é crucial."
+    },
+    {
+        "id": "2292822",
+        "enunciado": "Quanto às linguagens de programação, assinale a alternativa que esteja tecnicamente incorreta.",
+        "alternativas": {
+            "A": "Java é uma das principais representantes das linguagens orientadas a objetos",
+            "B": "JavaScript, é uma sub-linguagem do Java, feita para o desenvolvimento de aplicações para Android",
+            "C": "Grande parte dos sistemas operacionais existentes no mercado foram escritos em C",
+            "D": "Assembly é uma linguagem de programação de baixo nível, também definida, muitas vezes, como linguagem de montagem",
+            "E": "A linguagem de programação C# foi desenvolvida pela Microsoft"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "JavaScript não é uma sub-linguagem do Java, embora compartilhem semelhanças em seus nomes. JavaScript é usada principalmente para desenvolvimento web front-end e back-end, não exclusivamente para Android, que utiliza Java ou Kotlin."
+    },
+    {
+        "id": "1348601",
+        "enunciado": "Qual será o resultado da seguinte expressão Python?print(4.00/(2.0+2.0))",
+        "alternativas": {
+            "A": "Erro",
+            "B": "1.0",
+            "C": "1.00",
+            "D": "1"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A expressão Python é 4.00 / (2.0 + 2.0). Primeiro, 2.0 + 2.0 = 4.0. Em seguida, 4.00 / 4.0 é realizado. Como são floats, o resultado é 1.0. Portanto, B é a resposta correta."
+    },
+    {
+        "id": "1919583",
+        "enunciado": "O componente DataWindow do Ambiente PowerBuilder 4 pode ser usado para fazer muitas coisas. Entretanto, ele é incapaz de realizar o(a):",
+        "alternativas": {
+            "A": "processamento de dados e execução de cálculos",
+            "B": "criação de telas completas de entrada de dados",
+            "C": "exibição e impressão de relatórios e gráficos",
+            "D": "controle do fluxo de execução do programa"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O DataWindow do PowerBuilder é uma ferramenta visual para manipulação de dados, relatórios e entrada de dados, mas não possui funcionalidades para controle de fluxo lógico do programa, que é feito em PBMs ou scripts."
+    },
+    {
+        "id": "1224166",
+        "enunciado": "Sobre         JavaScript         julgue         as         afirmações         a         seguir:\nI.É         uma         implementação          especial         da         linguagem         Java.\nII.É         uma         linguagem         de         programação          interpretada.\nIII.Usa         comunicação         assíncrona         para         execução         dos         seus\nscripts.\nQual         (is)         afirmativa         (s)         está         (ão)         CORRETA         (S):",
+        "alternativas": {
+            "A": "I         e         III,         apenas.",
+            "B": "I,         apenas.",
+            "C": "III,         apenas.",
+            "D": "II,         apenas.",
+            "E": "II         e         III,         apenas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "JavaScript é uma linguagem interpretada (II) e utiliza comunicação assíncrona (Callbacks, Promises, Async/Await) para não bloquear a execução (III). Não é uma implementação de Java (I)."
+    },
+    {
+        "id": "1224168",
+        "enunciado": "Sobre         a         linguagem         de         programação          Java,         registre         V,\npara         as         alternativas         verdadeiras,          e         F,         para         as         falsas:\n(__)Os         programas         feitos         em         Java         rodam         em         diferentes\nambientes         graças         a         um         componente          da         plataforma\nchamado         JVM         (Java         Virtual         Machine),         que         é         um         tipo         de\ntradutor         de         código         Java         para         as         instruções         específicas\nde         cada         sistema         e         dispositivo.\n(__)Java         não         pode         atuar         em         conjunto         com         outras\nlinguagens         de         programação.\n(__)A         linguagem         é         case         sensitive,         ou         seja,         o         compilador\ndiferencia         letras         maiúsculas         e         minúsculas.\n(__)Java         é         uma         linguagem         de         programação          estruturada.\nAssinale         a         alternativa         que         apresenta         a         sequência\nCORRETA:",
+        "alternativas": {
+            "A": "V,         V,         V,         F.",
+            "B": "V,         V,         F,         V.",
+            "C": "F,         V,         F,         V.",
+            "D": "F,         F,         V,         V.",
+            "E": "V,         F,         V,         F."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "JVM traduz código Java (V). Java pode interagir com outras linguagens (F). Java é case sensitive (V). Java é uma linguagem orientada a objetos, não estritamente estruturada (F). A sequência correta é V, F, V, F."
+    },
+    {
+        "id": "1224170",
+        "enunciado": "Com         relação         a         linguagem         PHP         julgue         as         afirmativas         a\nseguir:\nI-Assim         como         o         JavaScript ,         ele         também         é         classificado\ncomo         uma         linguagem         de         scripts,         ou         seja,         um         conjunto         de\ninstruções         via         código         que         servem,         principalmente,          para\nautomatizar         tarefas.\nII-O         código         PHP         é         delimitado         pelas         instruções         de\nprocessamento          de         início         (                  ).\nIII-Tudo         o         que         vai         entre         as         duas         tags         de         início         e         fim         do\nPHP         é         executado         pelo         interpretador          no         lado         do         cliente.\nQual         (is)         afirmativa         (s)         está         (ão)         CORRETA         (S)?",
+        "alternativas": {
+            "A": "I,         apenas.",
+            "B": "III,         apenas",
+            "C": "I         e         II,         apenas.",
+            "D": "I         e         III,         apenas.",
+            "E": "II         e         III,         apenas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa I esta correta, pois PHP e uma linguagem de script e automatiza tarefas. A afirmativa II esta correta: o codigo PHP e delimitado por <?php e ?>. A afirmativa III esta incorreta, pois o codigo PHP e executado no lado do servidor, nao no cliente."
+    },
+    {
+        "id": "1224177",
+        "enunciado": "A         linguagem         compreendida          pelo         computador          é         chamada\nde         Linguagem         de         Máquina,         ou         Linguagem         Binária,         e         é\nclassificada         como         uma         linguagem         de         baixo         nível.         Ela         se\nutiliza         somente         de         dois         símbolos         (binária)         para         escrever\ninstruções         a         serem         executadas         pelo         computador,          sendo\nestes         símbolos         o         0         (zero)         e         o         1         (um).\nDevido         à         dificuldade         natural         do         ser         humano         em         se\nexpressar         por         uma         linguagem         como         esta,         somente         com\ndois         símbolos,         desenvolveu-se          as         Linguagens          de\nProgramação,          que         não         são         diretamente          compreendidas\npelo         computador,          apesar         de         servirem         somente         para         a\ninteração         entre         ambos         (humano         X         computador).          Porém,\npara         essa         interação         acontecer         é         necessária         a         tradução\ndo         conteúdo         elaborado         em         Linguagem         de         Programação\npara         Linguagem         de         Máquina.         Essa         tradução         pode\nacontecer         de         duas         formas         distintas         denominadas\n_____________          e         _______________.\nAssinale         a         alternativa         que         completa         os         espaços         em\nbranco         corretamente :",
+        "alternativas": {
+            "A": "pesquisa         e         ordenação",
+            "B": "interpretação          e         compilação",
+            "C": "algoritmos         e         dados",
+            "D": "interpretação          e         ordenação",
+            "E": "pesquisa         e         compilação"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A tradução de linguagens de programação para linguagem de máquina pode ser feita por meio da interpretação (execução linha a linha) ou compilação (tradução completa do código fonte em código executável)."
+    },
+    {
+        "id": "1023909",
+        "enunciado": "É comum na programação dividir linguagens de desenvolvimento em linguagens backend, que realizam sua execução no servidor e linguagens frontend, que são executadas na máquina do cliente. Marque a opção que contém apenas linguagens de programação backend:",
+        "alternativas": {
+            "A": "HTML, PHP e Javascript;",
+            "B": "Javascript, Ruby e PHP;",
+            "C": "Java, PHP e Python;",
+            "D": "Java, C# e Delphi."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A opção C lista apenas linguagens de programação backend (executadas no servidor): Java, PHP e Python. HTML e Javascript (opção A) são frontend. Ruby (opção B) é frequentemente usado no backend, mas Javascript também é frontend. C# e Delphi (opção D) também são versáteis, mas a opção C é a mais exclusivamente backend."
+    },
+    {
+        "id": "1303440",
+        "enunciado": "A linguagem C na declaração de variáveis podem ter qualquer nome, desde que sejam iniciadas:",
+        "alternativas": {
+            "A": "Com dois pontos (:) ou entre aspas (“).",
+            "B": "Com letra ou sublinhado (_).",
+            "C": "Com letra ou entre aspas (“)",
+            "D": "Com dois pontos (:) ou sublinhado (_)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na linguagem C, os identificadores (nomes de variáveis, funções, etc.) devem começar obrigatoriamente com uma letra do alfabeto ou com o símbolo de sublinhado (_)."
+    },
+    {
+        "id": "1462306",
+        "enunciado": "Qual a principal função da JAVA EJB?",
+        "alternativas": {
+            "A": "Tecnologia JAVA padronizada para criação de componentes em uma arquitetura confiável.",
+            "B": "Arquitetura da tecnologia JAVA com a função de criação de projetos.",
+            "C": "Por meio  desta função se cria o Glassfish.",
+            "D": "Plataforma Oracle."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "EJB (Enterprise JavaBeans) é uma tecnologia Java padronizada para criar componentes de software reutilizáveis e gerenciados em aplicações corporativas, focando em arquitetura confiável e distribuída."
+    },
+    {
+        "id": "1462325",
+        "enunciado": "O que é a DML?",
+        "alternativas": {
+            "A": "É um tipo de conexão utilizada por banco de dados HTTP.",
+            "B": "Família de linguagens de computadores.",
+            "C": "Servidor ethernet.",
+            "D": "Padrão SQL."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "DML (Data Manipulation Language) é um subconjunto da linguagem SQL (Structured Query Language). O DML é usado para inserir, atualizar e excluir dados em um banco de dados, interagindo diretamente com os registros existentes."
+    },
+    {
+        "id": "1462331",
+        "enunciado": "Qual a função da DDL?",
+        "alternativas": {
+            "A": "Receber e enviar dados com a maior velocidade possível.",
+            "B": "Codificar a estrutura de dados recebidos.",
+            "C": "Linguagem de computador usada para definição de estrutura de dados.",
+            "D": "Armazenar o maior número de dados."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "DDL (Data Definition Language) é um subconjunto da linguagem SQL usado para definir e gerenciar a estrutura de bancos de dados, incluindo a criação, modificação e exclusão de tabelas e outros objetos."
+    },
+    {
+        "id": "1267812",
+        "enunciado": "Segundo Beighley e Morrison (2010), ao codificarmos scripts PHP para a geração de conteúdo Web, geralmente usamos estruturas de controle de fluxo, comandos de impressão e variáveis. Cada linguagem de programação tem uma regra para a formação dos identificadores. As variáveis em PHP devem sempre ter seu identificador ou nome iniciado pelo carácter:",
+        "alternativas": {
+            "A": "$",
+            "B": "?",
+            "C": "#",
+            "D": "@",
+            "E": "&"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em PHP, os identificadores de variaveis devem obrigatoriamente comecar com um cifrao ($). Os outros caracteres mencionados sao usados em outras linguagens ou contextos."
+    },
+    {
+        "id": "1267813",
+        "enunciado": "Baseado nos conceitos de programação orientada a objetos com Java, apresentados em Barnes e Kölling (2009), a herança múltipla existe nos casos em que uma classe herda propriedades e comportamentos de mais de uma superclasse. A subclasse tem então todas as propriedades e comportamentos das superclasses e todas as propriedades e comportamentos definidos na própria subclasse. Diferentes linguagens de programação orientadas a objetos variam quanto ao tratamento de herança múltipla, algumas linguagens de programação permitem herança de múltiplas superclasses, outras não. Java não permite herança múltipla de classes, mas fornece uma outra construção que utiliza interfaces. Assinale a alternativa que apresenta um trecho de código Java correto para a declaração de uma classe Java que simula a herança múltipla.",
+        "alternativas": {
+            "A": "public class Rato extends Mamifero, Roedor { /** corpo da classe */ }",
+            "B": "public class Rato inherits Mamifero implements Roedor, Animal {/** corpo da classe */ }",
+            "C": "public class Rato extends Mamifero, Roedor implements Animal { /** corpo da classe */ }",
+            "D": "public class Rato inherits Mamifero, Roedor, Animal {/** corpo da classe */ }",
+            "E": "public class Rato extends Mamifero implements Roedor, Animal { /** corpo da classe */ }"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Java nao suporta heranca multipla de classes. Porem, permite implementar multiplas interfaces. A sintaxe correta para herdar de uma classe e implementar interfaces e 'extends ClassePai implements Interface1, Interface2, ...'."
+    },
+    {
+        "id": "1267815",
+        "enunciado": "Alguns conceitos básicos de classes e objetos apresentados em Barnes e Kölling (2009) são descritos no texto a seguir: Os objetos são criados a partir de ____________. A classe descreve o tipo do ____________; os objetos representam instanciações individuais da ____________. Podemos nos comunicar com objetos invocando seus métodos. O cabeçalho de um método é chamado ____________ e fornece informações necessárias para invocar o método. O ____________ de um objeto é representado pelos valores armazenados em seus ____________. Os ____________ permitem que cada objeto seja configurado adequadamente quando ele é criado. Os ____________ implementam o comportamento dos objetos. As palavras que completam CORRETAMENTE, na ordem apresentada, as lacunas do texto acima são:",
+        "alternativas": {
+            "A": "valores; programa; variável; assinatura; comportamento; campos; construtores; métodos",
+            "B": "classes; objeto; classe; assinatura; estado; campos; construtores; métodos",
+            "C": "classes; programa; classe; invocação; conceito; campos; retornos; métodos",
+            "D": "programas; objeto; classe; retorno; estado; retornos; construtores; classificadores",
+            "E": "valores; objeto; variável; assinatura; comportamento; campos; construtores; classificadores"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Classes sao moldes para criacao de objetos. Objetos sao instancias individuais de uma classe. A assinatura define um metodo. O estado de um objeto sao os valores em seus campos. Construtores inicializam objetos e metodos implementam o comportamento."
+    },
+    {
+        "id": "2065507",
+        "enunciado": "O Excel 2010 permite que o usuário desenvolva suas próprias funções através da linguagem de programação:",
+        "alternativas": {
+            "A": "HTML",
+            "B": "XML",
+            "C": "PHP",
+            "D": "VBA"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O Microsoft Excel permite a criacao de funcoes personalizadas e automatizacao de tarefas atraves de macros utilizando a linguagem de programacao VBA (Visual Basic for Applications), integrada ao ambiente do Office."
+    },
+    {
+        "id": "2239494",
+        "enunciado": "Dentre as opções a seguir, indique a linguagem de marcação padrão na Web utilizada para a elaboração das páginas de sítio, como, por exemplo, da UFRRJ?",
+        "alternativas": {
+            "A": "C++.",
+            "B": "Java.",
+            "C": "HTML.",
+            "D": "Phyton.",
+            "E": "Pascal."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "HTML (HyperText Markup Language) é a linguagem padrão utilizada para estruturar e apresentar o conteúdo das páginas da Web, sendo a base para a criação de sítios eletrônicos."
+    }
+]

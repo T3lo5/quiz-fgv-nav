@@ -1,0 +1,682 @@
+[
+    {
+        "id": "1155836",
+        "enunciado": "Considerando-se as raízes da equação polinomial x² + 2x - 3 = 0, analise os itens abaixo:\nI. A soma de suas raízes é igual a -2.\nII. O produto obtido pelas suas raízes é igual a -3.\nIII. O conjunto solução é { -3; 1}.\nEstá(ão) CORRETO(S):",
+        "alternativas": {
+            "A": "Somente o item II.",
+            "B": "Somente os itens I e II.",
+            "C": "Somente os itens I e III.",
+            "D": "Todos os itens"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para a equação x² + 2x - 3 = 0: A soma das raízes (S = -b/a) é -2/1 = -2. O produto das raízes (P = c/a) é -3/1 = -3. Resolvendo a equação (baskara ou fatoração), as raízes são x=-3 e x=1. Assim, todos os itens estão corretos."
+    },
+    {
+        "id": "1134513",
+        "enunciado": "Considerando a função de segundo grau 2x² + 4x  16, assinalar a alternativa CORRETA:",
+        "alternativas": {
+            "A": "As raízes da função não são exatas.",
+            "B": "O gráfico da função é uma parábola com a concavidade voltada para baixo.",
+            "C": "O gráfico da função é uma reta positiva.",
+            "D": "A multiplicação das raízes da função é igual a 8."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A função é f(x) = 2x² + 4x - 16. O produto das raízes (c/a) é -16/2 = -8. As raízes são exatas (-4 e 2). A concavidade é para cima pois a > 0. Não é uma reta."
+    },
+    {
+        "id": "1458876",
+        "enunciado": "O gráfico da função f(x) = ax2 + bx, também corta o eixo x em x2 = -b/a > 0. Além disso, o conjunto solução para f(x) > 0 e x > 0 é o intervalo (x2, ∞), se, e somente se, os sinais de a e b são, respectivamente:",
+        "alternativas": {
+            "A": "a > 0 e b > 0.",
+            "B": "a > 0 e b < 0.",
+            "C": "a < 0 e b > 0.",
+            "D": "a < 0 e b < 0."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A parábola f(x) = ax² + bx tem raízes em x=0 e x=-b/a. Para que x2 = -b/a > 0, b/a deve ser negativo. Para f(x) > 0 e x > 0, a parábola deve ter concavidade para cima (a>0) e o ramo positivo deve ser interceptado em x2 para cima, implicando b<0."
+    },
+    {
+        "id": "1521514",
+        "enunciado": "Considere a função polinomial de grau 2 f(x)=-2x²+ 11x-15. Pode-se afirmar que",
+        "alternativas": {
+            "A": "a soma das raízes é 11/2.",
+            "B": "o gráfico de f é uma parábola com concavidade para cima.",
+            "C": "f toca o eixo y em 11.",
+            "D": "f não possui raiz real.",
+            "E": "f é positiva para valores de x>10."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para uma função quadrática f(x) = ax² + bx + c, a soma das raízes é dada por -b/a. Na função f(x) = -2x² + 11x - 15, a soma das raízes é -11/(-2) = 11/2."
+    },
+    {
+        "id": "1654954",
+        "enunciado": "Uma empresa de tecnologia vende pacotes de suporte que incluem um plano básico e um plano avançado. O lucro total mensal L, em milhares de reais, obtido com as vendas desses pacotes, pode ser modelado pela função quadrática L (x) = - 2x2 + 20 x - 32, onde x representa a quantidade de pacotes vendidos em centenas. Para que a empresa não tenha prejuízo (lucro igual a zero), qual é o intervalo de valores possíveis para x?",
+        "alternativas": {
+            "A": "2 e 8 centenas.",
+            "B": "4 e 8 centenas.",
+            "C": "4 e 16 centenas.",
+            "D": "2 e 6 centenas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para nao ter prejuizo, o lucro (L) deve ser maior ou igual a zero. Precisamos encontrar as raizes da equacao -2x^2 + 20x - 32 = 0. Usando a formula de Bhaskara (x = [-b ± sqrt(b^2 - 4ac)] / 2a), obtemos x = 2 e x = 8. Como a parabola tem concavidade para baixo, o lucro é positivo entre as raizes."
+    },
+    {
+        "id": "1327103",
+        "enunciado": "Considere a função real quadrática f(x)=2x^2−3x+5. Em relação ao gráfico dessa função, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas. (  ) O vértice da parábola está localizado no ponto (3, -4). (  ) O eixo de simetria é a reta x=3/4. (  ) O valor máximo da função é 5. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "F – F – V.",
+            "B": "F – V – F.",
+            "C": "V – V – V.",
+            "D": "V – F – F.",
+            "E": "V – V – F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para f(x)=2x^2−3x+5, o vértice é em x = -b/(2a) = -(-3)/(2*2) = 3/4. O valor de y no vértice é f(3/4) = 2(3/4)^2 - 3(3/4) + 5 = 2(9/16) - 9/4 + 5 = 9/8 - 18/8 + 40/8 = 31/8. O vértice é (3/4, 31/8), não (3,-4). O eixo de simetria é x=3/4. Como o coeficiente 'a' (2) é positivo, a parábola abre para cima e tem um valor mínimo, não máximo. O valor mínimo é 31/8. Portanto, todas as assertivas são falsas (F-V-F). O eixo de simetria é x=3/4, então a segunda assertiva é Verdadeira. Portanto, a primeira é falsa, a segunda é verdeira e a terceira é falsa. A ordem correta é F-V-F."
+    },
+    {
+        "id": "1140497",
+        "enunciado": "A forma fatorada de uma equação do segundo grau é representada pela seguinte equação, sendo x1 e x2 as raízes da equação:A ∙ (x – x1) ∙ (x – x2) = 0A forma fatorada da equação do segundo grau –2x2 – 8x + 10 = 0 é:",
+        "alternativas": {
+            "A": "2 . (x + 1) . (x – 5) = 0",
+            "B": "2 . (x – 1) . (x + 5) = 0",
+            "C": "–2 . (x + 1) . (x – 5) = 0",
+            "D": "–2 . (x – 1) . (x + 5) = 0"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A forma fatorada de uma equação quadrática é dada por a(x - x1)(x - x2) = 0, onde 'a' é o coeficiente líder e x1, x2 são as raízes. Para a equação -2x² - 8x + 10 = 0, o coeficiente 'a' é -2. Para encontrar as raízes, podemos usar a fórmula de Bhaskara ou fatorar. Vamos usar Bhaskara: x = [-b ± sqrt(b² - 4ac)] / 2a. x = [8 ± sqrt((-8)² - 4*(-2)*(10))] / (2*(-2)). x = [8 ± sqrt(64 + 80)] / -4. x = [8 ± sqrt(144)] / -4. x = [8 ± 12] / -4. As raízes são: x1 = (8 + 12) / -4 = 20 / -4 = -5. x2 = (8 - 12) / -4 = -4 / -4 = 1. Portanto, a forma fatorada é -2 * (x - (-5)) * (x - 1) = -2 * (x + 5) * (x - 1) = 0.  Vamos verificar as alternativas.  Alternativa C: -2 . (x + 1) . (x – 5) = 0.  Notei que as raízes estão trocadas na minha conta e na alternativa. As raízes que encontrei foram 1 e -5.  A alternativa C tem (x+1) e (x-5). Se as raízes fossem -1 e 5, a forma fatorada seria -2 * (x - (-1)) * (x - 5) = -2 * (x + 1) * (x - 5) = 0.  Vamos verificar se as raízes -1 e 5 satisfazem a equação original -2x² - 8x + 10 =..."
+    },
+    {
+        "id": "1326412",
+        "enunciado": "QUESTÃO 19 – Considere a função real quadrática f(x)=2x²−3x+5. Em relação ao gráfico dessa função, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas. (  ) O vértice da parábola está localizado no ponto (3, -4). (  ) O eixo de simetria é a reta x=3/4. (  ) O valor máximo da função é 5. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "F – F – V.",
+            "B": "F – V – F.",
+            "C": "V – V – V.",
+            "D": "V – F – F.",
+            "E": "V – V – F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A assertiva I é Falso (vértice de f(x)=2x²-3x+5 é (3/4, 31/8)). A assertiva II é Verdadeiro (eixo de simetria é x = -(-3)/(2*2) = 3/4). A assertiva III é Falso (o valor máximo é infinito, pois é uma parábola com concavidade para cima)."
+    },
+    {
+        "id": "1326080",
+        "enunciado": "Considere a função real quadrática f(x)=2x²−3x+5. Em relação ao gráfico dessa função, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas. (  ) O vértice da parábola está localizado no ponto (3, -4). (  ) O eixo de simetria é a reta x=3/4. (  ) O valor máximo da função é 5. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "F – F – V.",
+            "B": "F – V – F.",
+            "C": "V – V – V.",
+            "D": "V – F – F.",
+            "E": "V – V – F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O vértice de f(x)=ax²+bx+c é em x=-b/2a. Para f(x)=2x²-3x+5, x=3/4. O valor de y no vértice é f(3/4) = 2(9/16)-3(3/4)+5 = 9/8-9/4+5 = (9-18+40)/8 = 31/8. Como a>0, a parábola tem concavidade para cima e logo não possui valor máximo, mas sim um valor mínimo. Logo, V=F, a reta x=3/4 é o eixo de simetria=V, e valor máximo 5 é F. A ordem é FVF."
+    },
+    {
+        "id": "1326001",
+        "enunciado": "Considere a função real quadrática f(x)=2x²−3x+5. Em relação ao gráfico dessa função, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas.(  ) O vértice da parábola está localizado no ponto (3, -4).(  ) O eixo de simetria é a reta x=3/4.(  ) O valor máximo da função é 5.A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "F – F – V.",
+            "B": "F – V – F.",
+            "C": "V – V – V.",
+            "D": "V – F – F.",
+            "E": "V – V – F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O vértice de f(x)=ax²+bx+c é em x=-b/2a. Para f(x)=2x²-3x+5, x=3/4. O valor de y no vértice é f(3/4) = 2(9/16)-3(3/4)+5 = 9/8-9/4+5 = (9-18+40)/8 = 31/8. Como a>0, a parábola tem concavidade para cima e logo não possui valor máximo, mas sim um valor mínimo. Logo, V=F, a reta x=3/4 é o eixo de simetria=V, e valor máximo 5 é F. A ordem é FVF."
+    },
+    {
+        "id": "1236057",
+        "enunciado": "O número de casos positivos de várias endemias pode ser modelado por uma função do 2º grau, que graficamente tem o formato de uma parábola. Sabendo que as raízes de uma equação do 2º grau são respectivamente 12 e -2, a equação que deu origem a estas raízes está representada pela alternativa:",
+        "alternativas": {
+            "A": "x² - 36x + 18 = 0.",
+            "B": "-x² - 14x + 24 = 0.",
+            "C": "-x² + 10x - 36 = 0.",
+            "D": "x² - 10x - 24 = 0.",
+            "E": "x² + 14x - 24 = 0."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Se as raizes de uma equacao do 2º grau sao x1 e x2, a equacao pode ser escrita como a*(x - x1)*(x - x2) = 0. Com x1=12 e x2=-2, temos a*(x - 12)*(x - (-2)) = 0, que simplifica para a*(x - 12)*(x + 2) = 0. Expandindo, temos a*(x² + 2x - 12x - 24) = 0, ou a*(x² - 10x - 24) = 0. Para a=1, a equacao e x² - 10x - 24 = 0."
+    },
+    {
+        "id": "1170375",
+        "enunciado": "A função f(x) = - x² + 20 x + 300 possui um ponto de máximo e este é atingido quando o valor de x é igual a:",
+        "alternativas": {
+            "A": "5.",
+            "B": "10.",
+            "C": "15.",
+            "D": "20.",
+            "E": "25."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A função é uma parábola com concavidade para baixo (coeficiente de x² é negativo). O ponto de máximo é atingido no vértice. A coordenada x do vértice é dada por -b/(2a). No caso, a=-1 e b=20, então x = -20/(2*(-1)) = -20/-2 = 10."
+    },
+    {
+        "id": "1405852",
+        "enunciado": "Considere o polinômio P(x) = x2 − 7/2x + 3/2, cujas raízes são p e k.\n\nOs valores de p e k são, respectivamente:",
+        "alternativas": {
+            "A": "1/2 e 4",
+            "B": "4 e 3/2",
+            "C": "1/2 e 3",
+            "D": "1/2 e 3/2"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para um polinômio do tipo ax² + bx + c, a soma das raízes (p+k) é -b/a e o produto das raízes (p*k) é c/a. No polinômio P(x) = x² - 7/2x + 3/2, temos a=1, b=-7/2, c=3/2. Soma = 7/2, Produto = 3/2. As raízes 1/2 e 3/2 satisfazem ambas as condições: 1/2 + 3/2 = 4/2 = 2 (erro aqui, a soma é 7/2). Vamos testar as opções. Para a opção D, p=1/2 e k=3/2: Soma = 1/2 + 3/2 = 4/2 = 2. Produto = 1/2 * 3/2 = 3/4. Existe um erro nas minhas contas ou na questão/alternativas. Revisando: Soma = 7/2. Produto = 3/2. Testando D: p=1/2, k=3/2. Soma(p+k) = 1/2 + 3/2 = 4/2 = 2. Produto(p*k) = 1/2 * 3/2 = 3/4. Nenhuma das raízes dão a soma correta. Deixe-me refazer a soma e produto com as raízes corretas. Se as raízes são p=3/2 e k=2. Soma = 3/2 + 2 = 7/2. Produto = 3/2 * 2 = 3. A opção B não é. Se p=1/2 e k=3. Soma = 1/2 + 3 = 3.5 = 7/2. Produto = 1/2 * 3 = 3/2. Logo p=1/2 e k=3 é a resposta correta (Opção C)."
+    },
+    {
+        "id": "1245025",
+        "enunciado": "Após apresentar o conteúdo acerca do vértice de uma função quadrática, a professora lançou um desafio para que seus estudantes calculassem o produto de Δ pelo valor numérico da coordenada das abscissas do ponto do vértice da parábola obtida pela função f(x) = 2x² - 8x + 5. Após um tempo para seus estudantes calcularem, a professora pediu para que todos verbalizassem seus resultados. Pode-se afirmar que os estudantes que acertaram o desafio encontraram qual valor?",
+        "alternativas": {
+            "A": "- 48",
+            "B": "- 24",
+            "C": "24",
+            "D": "48"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para f(x) = 2x² - 8x + 5, o discriminante Δ = b² - 4ac = (-8)² - 4(2)(5) = 64 - 40 = 24. A coordenada x do vértice é -b/2a = -(-8)/(2*2) = 8/4 = 2. O produto de Δ pelo x do vértice é 24 * 2 = 48."
+    },
+    {
+        "id": "1113484",
+        "enunciado": "As coordenadas do ponto de máximo da função f(x) = - 2x2 + 4x + 3 serão:",
+        "alternativas": {
+            "A": "(5, 1).",
+            "B": "(5, -1).",
+            "C": "(1, 5).",
+            "D": "(1, -5).",
+            "E": "(2, 10)."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A função é quadrática com a < 0, logo tem um ponto de máximo. O x do vértice é -b/2a = -4/(2*-2) = 1. O y do vértice é f(1) = -2(1)² + 4(1) + 3 = 5. As coordenadas são (1, 5)."
+    },
+    {
+        "id": "1159640",
+        "enunciado": "Considerando a função quadrática f(x) = –3x2 – 3x + 18, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas:( ) O gráfico da função é uma parábola com a concavidade voltada para cima.( ) Possui duas raízes reais distintas no valor de + 2 e –3.( ) Seu ponto de máximo é em x = –0,5 e y = 18,75.( ) A imagem de f(x) é y ≤37,5.A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "F – F – V – V.",
+            "B": "V – V – F – F.",
+            "C": "F – V – V – F.",
+            "D": "V – F – V – F.",
+            "E": "V – V – F – V."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A parábola tem concavidade para baixo (F - pois o coeficiente de x² é negativo). As raízes são x² + x - 6 = 0, resultando em (x+3)(x-2)=0; raízes -3 e 2 (V). O vértice é em x = -b/2a = -(-3)/(2*-3) = 3/-6 = -0.5. y = -3(-0.5)² - 3(-0.5) + 18 = -0.75 + 1.5 + 18 = 18,75 (V). A imagem é y ≤ 18,75 (F - o valor máximo é 18,75)."
+    },
+    {
+        "id": "1222546",
+        "enunciado": "Considere uma parábola de vértice dado pelo ponto (–1, –1), intersecção com eixo y dado pelo ponto (0, 1) e que é obtida como resultado do gráfico da função 2()f x a x b x c= ⋅ + ⋅ + . Sabendo que o discriminante (∆) da função é igual a 8, pode-se afirmar que a soma dos coeficientes a e b da função é igual a:",
+        "alternativas": {
+            "A": "6.",
+            "B": "–2.",
+            "C": "4.",
+            "D": "0.",
+            "E": "1."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Funcao: f(x)=ax²+bx+c. Vértice (-1,-1): -b/2a = -1 -> b=2a. f(-1) = a(-1)²+b(-1)+c = a-b+c = -1. Intersecao com eixo y (0,1): f(0)=c=1. Discriminante Delta = b²-4ac = 8. Substituindo c=1: b²-4a = 8. Substituindo b=2a: (2a)²-4a = 8 -> 4a²-4a-8=0 -> a²-a-2=0. Por Bhaskara, a = (1 ± sqrt(1-4*1*-2))/2 = (1 ± 3)/2. Logo, a=2 ou a=-1. Se a=2, b=2a=4. Se a=-1, b=2a=-2. Verificando com a-b+c=-1. Se a=2, b=4: 2-4+1 = -1. Correto. Se a=-1, b=-2: -1-(-2)+1 = -1+2+1 = 2 (incorreto). Portanto, a=2 e b=4. Soma a+b = 2+4 = 6. Houve um erro no cálculo. Refazendo a equação quadrática: a²-a-2=0. As raízes são (1 +/- sqrt(1 - 4*1*(-2)))/2 = (1 +/- sqrt(9))/2 = (1 +/- 3)/2. Então a=2 ou a=-1. Se a=2, b=2*2=4. Vértice (-1,-1) verifica: f(x) = 2x²+4x+1. -b/2a = -4/4 = -1. f(-1) = 2(-1)²+4(-1)+1 = 2-4+1 = -1. Delta = 4²-4*2*1 = 16-8=8. Correto. Soma a+b = 2+4 = 6."
+    },
+    {
+        "id": "1132859",
+        "enunciado": "Considerar a função quadrática f(x) = x² − 6x + 8. Essa função modela a altura, em metros, de uma bola lançada verticalmente a partir do solo, em que x representa o tempo em segundos. Quais são as raízes (soluções) da função f(x) = x² − 6x + 8, representando os instantes em que a bola atinge o solo novamente?",
+        "alternativas": {
+            "A": "x = 1 e x = 3",
+            "B": "x = 2 e x = 4",
+            "C": "x = 3 e x = 5",
+            "D": "x = 2 e x = 3"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para encontrar as raizes da funcao f(x) = x² - 6x + 8, igualamos f(x) a zero e resolvemos a equacao quadratica. Utilizando a formula de Bhaskara ou fatoracao, obtemos x=2 e x=4 como solucoes."
+    },
+    {
+        "id": "1610348",
+        "enunciado": "Dada a função f(x): x² + 18x – 19, determine as coordenadas de seu ponto mínimo.",
+        "alternativas": {
+            "A": "(100; -9)",
+            "B": "(9; 100)",
+            "C": "(-9; 100)",
+            "D": "(9; -100)",
+            "E": "(-9; -100)"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A função quadrática f(x) = x² + 18x – 19 tem concavidade para cima (a=1>0), portanto, apresenta um ponto mínimo. As coordenadas x do vértice são -b/2a = -18/(2*1) = -9. O valor y do mínimo é f(-9) = (-9)² + 18(-9) – 19 = 81 – 162 – 19 = -100. Portanto, o ponto mínimo é (-9; -100)."
+    },
+    {
+        "id": "1093716",
+        "enunciado": "Um estudante de física está realizando experimentos com lançamento de  projéteis nas dependências da universidade. Ele observa que a altura h (em metros)  de um projétil lançado verticalmente em relação ao tempo t (em segundos)  pode ser modelada pela função quadrática h(t)=−5t²+10t+2. Com isso, o que o estudante busca saber é  a altura que seus projéteis atingem. Considerando estas informações, assinalar a alternativa que contém a altura máxima que o projétil em questão atinge:",
+        "alternativas": {
+            "A": "5 metros.",
+            "B": "7 metros.",
+            "C": "10 metros.",
+            "D": "15 metros."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A altura máxima de um projétil modelado por uma função quadrática ocorre no vértice da parábola. A função é h(t)=−5t²+10t+2. O tempo para atingir a altura máxima é dado por -b/(2a) = -10/(2*(-5)) = 1 segundo. Substituindo t=1 na função: h(1) = -5(1)² + 10(1) + 2 = -5 + 10 + 2 = 7 metros."
+    },
+    {
+        "id": "1649012",
+        "enunciado": "O conjunto solução da inequação −2x²−4x+6 ≥ 0 é igual a:",
+        "alternativas": {
+            "A": "{x ∈ℝ | −1 ≤x≤3}.",
+            "B": "{x ∈ℝ | x ≤−3 ou x ≥1}.",
+            "C": "{x ∈ℝ | x ≤−1 ou x ≥3}.",
+            "D": "{x ∈ℝ | −3 ≤ x ≤1}."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A inequação -2x²−4x+6 ≥ 0, ao ser resolvida, resulta em uma parábola com concavidade para baixo. A solução é o intervalo onde a parábola está acima ou sobre o eixo x, que é x ≤−1 ou x ≥3."
+    },
+    {
+        "id": "1649014",
+        "enunciado": "Certo produto oferecido no mercado terá o preço unitário, em reais, dado por p(x)=100 −0,2x, quando 1000x unidades forem vendidas. O custo, em milhares de reais, para produzir 1000x unidades é dado por C(x) = 3x²+4x+400. O maior lucro com a venda desse produto será obtido quando forem vendidas",
+        "alternativas": {
+            "A": "5.000 unidades.",
+            "B": "10.000 unidades.",
+            "C": "15.000 unidades.",
+            "D": "25.000 unidades."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O lucro é dado pela receita menos o custo. A receita R(x) = p(x) * x = (100 - 0.2x) * x = 100x - 0.2x². O custo C(x) = 3x² + 4x + 400. O lucro L(x) = R(x) - C(x) = (100x - 0.2x²) - (3x² + 4x + 400) = -3.2x² + 96x - 400. Para maximizar o lucro, encontramos o vértice da parábola, que é dado por x = -b/(2a). No entanto, o problema especifica '1000x unidades vendidas'. Então, se x representa milhares de unidades, p(x) = 100 - 0.2x e C(x) = 3x² + 4x + 400. O preço unitário é p(x), a receita total é P(x) = p(x)*1000x ou a receita é R(x) = p(x) * unidades. Se p(x) é o preço por unidade e x é em milhares, então x mil unidades = 1000x unidades. Se o preço unitário em reais é p(x) = 100 - 0.2x, quando 1000x unidades são vendidas. Isso significa que para cada 'x' em R reais, um total de '1000x' unidades são vendidas. O preço por unidade é p(x). A receita total é Receita = Preço Unitário * Quantidade. O problema é ambiguo na relação entre 'x' e a quantidade. Vamos assumir que 'x' é uma variável e que quando 'x' unida..."
+    },
+    {
+        "id": "1048606",
+        "enunciado": "Uma microempresa criou um plano de metas, onde deseja ter um lucro diário de R$ 700,00. Ela consegue produzir diariamente x caixas contendo, cada uma, 30 unidades de seu produto, e pode vender tudo o que produzir a um preço de R$ 60,00 por caixa. O custo total, em reais, é dado pela expressão C(x)=x²−22x+992. Portanto, para que a empresa tenha lucro diário desejado, qual deve ser a quantidade de unidades que devem ser produzidas e vendidas por dia?",
+        "alternativas": {
+            "A": "40.",
+            "B": "200.",
+            "C": "400.",
+            "D": "600.",
+            "E": "800."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Receita R(x) = 60x. Lucro L(x) = R(x) - C(x) = 60x - (x² - 22x + 992) = -x² + 82x - 992. Queremos L(x) = 700, entao -x² + 82x - 992 = 700 => x² - 82x + 1692 = 0. Resolvendo a quadratica, obtemos x=36 e x=46. A pergunta é sobre unidades, nao caixas. Se x sao caixas, 40 caixas * 30 unidades/caixa = 1200 unidades. Refazendo o calculo para unidades 'u': preco/unidade = 60/30 = 2. Receita R(u) = 2u. Custo C(u) = (u/30)² - 22(u/30) + 992. L(u) = 2u - ((u/30)² - 22(u/30) + 992) = 700. Leva a uma equacao complexa. Revisando: x representa caixas. L(x) = -x² + 82x - 992. Queremos L(x) >= 700. -x² + 82x - 992 >= 700 => -x² + 82x - 1692 >= 0 => x² - 82x + 1692 <= 0. As raizes de x² - 82x + 1692 = 0 sao 36 e 46. Entao, para ter lucro >= 700, x deve estar entre 36 e 46 caixas. A alternativa C representa 400 unidades. Se x = 400/30 caixas = 13.33, nao esta no intervalo. Alguma interpretacao errada? Ah, o C(x) ja utiliza 'x' como caixas. Entao, L(x) = -x² + 82x - 992. Queremos L(x) = 700. -x² + 82x - 992 = 700 => -x² + 8..."
+    },
+    {
+        "id": "1048502",
+        "enunciado": "Uma microempresa criou um plano de metas, onde deseja ter um lucro diário de R$ 700,00. Ela consegue produzir diariamente xx caixas contendo, cada uma, 30 unidades de seu produto, e pode vender tudo o que produzir a um preço de R$ 60,00 por caixa. O custo total, em reais, é dado pela expressão C(x)=x²−22x+992. Portanto, para que a empresa tenha lucro diário desejado, qual deve ser a quantidade de unidades que devem ser produzidas e vendidas por dia?",
+        "alternativas": {
+            "A": "40.",
+            "B": "200.",
+            "C": "400.",
+            "D": "600.",
+            "E": "800."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Lucro = Receita - Custo.  Receita = Preço por caixa * Quantidade de caixas = 60 * x.  Custo = x² - 22x + 992.  Lucro desejado = 700.  Portanto, 700 = 60x - (x² - 22x + 992).  Simplificando: 700 = 60x - x² + 22x - 992.  700 = -x² + 82x - 992.  x² - 82x + 1692 = 0.  Usando a fórmula de Bhaskara: x = [-b ± sqrt(b² - 4ac)] / 2a.  x = [82 ± sqrt((-82)² - 4 * 1 * 1692)] / 2 * 1.  x = [82 ± sqrt(6724 - 6768)] / 2.  Como o discriminante é negativo, há erro na formulação ou nas alternativas. Vamos rever. Se o lucro diário DESEJADO é de R$700.  Produz xx caixas. Vende a R$60 por caixa.  Receita R(x) = 60x. Custo C(x) = x² - 22x + 992. Lucro L(x) = R(x) - C(x) = 60x - (x² - 22x + 992) = 60x - x² + 22x - 992 = -x² + 82x - 992. Queremos L(x) = 700.  -x² + 82x - 992 = 700.  -x² + 82x - 1692 = 0.  x² - 82x + 1692 = 0.  Discriminante D = b² - 4ac = (-82)² - 4(1)(1692) = 6724 - 6768 = -44.  Novamente, o discriminante é negativo. Isso significa que a função lucro nunca atinge 700.  Verifiquemos o topo da parábola (lucro má..."
+    },
+    {
+        "id": "1365968",
+        "enunciado": "Dada a função f(x)=2x²−3x+1, qual é o valor do menor número natural, não nulo, para o qual f(x)=0?",
+        "alternativas": {
+            "A": "0.",
+            "B": "2.",
+            "C": "1.",
+            "D": "5.",
+            "E": "6."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para encontrar as raízes da função f(x)=2x²−3x+1, igualamos f(x) a zero. Usando a fórmula quadrática ou fatorando, as raízes são x=1 e x=1/2. O menor número natural, não nulo, para o qual f(x)=0 é 1."
+    },
+    {
+        "id": "1418390",
+        "enunciado": "Se y = x² + 7x + 12, então as raízes que satisfazem y serão:",
+        "alternativas": {
+            "A": "3 e 4.",
+            "B": "-3 e 3.",
+            "C": "3 e -4.",
+            "D": "-3 e -4.",
+            "E": "3 e 3."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para encontrar as raízes, igualamos a equação a zero: x² + 7x + 12 = 0. Usando a fórmula de Bhaskara ou fatoração, encontramos as raízes -3 e -4 (soma = -7, produto = 12)."
+    },
+    {
+        "id": "1819321",
+        "enunciado": "Uma empresa obteve um lucro dado pela função L(x) = (10 – x)(x – 2) . 100, em que x é a quantidade vendida e L é o lucro em milhões de reais. O número de unidades que essa empresa deve vender para obter o lucro máximo é:",
+        "alternativas": {
+            "A": "3 unidades",
+            "B": "6 unidades",
+            "C": "8 unidades",
+            "D": "12 unidades",
+            "E": "15 unidades"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A função lucro L(x) = (10 – x)(x – 2) . 100 é uma parábola voltada para baixo. O lucro máximo ocorre no vértice. As raízes são x=10 e x=2. O x do vértice é a média das raízes: (10+2)/2 = 6. A função se escreve L(x) = -100x² + 1200x - 2000. O vértice é dado por -b/(2a). xV = -1200 / (2 * -100) = 6. Correção: x do vértice = (10+2)/2 = 6. O enunciado da questão na verdade é L(x) = (10 - x)(x - 2) . 100. As raízes são x = 10 e x = 2. O x do vértice é a média das raízes, (10+2)/2 = 6. Então, 6 unidades. Há um engano meu na aplicação, voltando ao método do vértice. A função é L(x) = -100x² + 1200x - 2000. O x do vértice é -b/(2a) = -1200/(2*(-100)) = 6. O enunciado da questão é L(x) = (10 - x)(x - 2) . 100. Então, simplificando, L(x) = (-x+10)(x-2) * 100 = (-x² + 2x + 10x - 20) * 100 = (-x² + 12x - 20) * 100 = -100x² + 1200x - 2000. Para achar o x do lucro máximo, usamos a fórmula do vértice: x = -b / 2a. x = -1200 / (2 * -100) = -1200 / -200 = 6. O número de unidades é 6. Houve um erro no cálculo manual, o res..."
+    },
+    {
+        "id": "1155836",
+        "enunciado": "Considerando-se as raízes da equação polinomial x² + 2x - 3 = 0, analise os itens abaixo:\nI. A soma de suas raízes é igual a -2.\nII. O produto obtido pelas suas raízes é igual a -3.\nIII. O conjunto solução é { -3; 1}.\nEstá(ão) CORRETO(S):",
+        "alternativas": {
+            "A": "Somente o item II.",
+            "B": "Somente os itens I e II.",
+            "C": "Somente os itens I e III.",
+            "D": "Todos os itens"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para a equação x² + 2x - 3 = 0: A soma das raízes (S = -b/a) é -2/1 = -2. O produto das raízes (P = c/a) é -3/1 = -3. Resolvendo a equação (baskara ou fatoração), as raízes são x=-3 e x=1. Assim, todos os itens estão corretos."
+    },
+    {
+        "id": "1134513",
+        "enunciado": "Considerando a função de segundo grau 2x² + 4x  16, assinalar a alternativa CORRETA:",
+        "alternativas": {
+            "A": "As raízes da função não são exatas.",
+            "B": "O gráfico da função é uma parábola com a concavidade voltada para baixo.",
+            "C": "O gráfico da função é uma reta positiva.",
+            "D": "A multiplicação das raízes da função é igual a 8."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A função é f(x) = 2x² + 4x - 16. O produto das raízes (c/a) é -16/2 = -8. As raízes são exatas (-4 e 2). A concavidade é para cima pois a > 0. Não é uma reta."
+    },
+    {
+        "id": "1458876",
+        "enunciado": "O gráfico da função f(x) = ax2 + bx, também corta o eixo x em x2 = -b/a > 0. Além disso, o conjunto solução para f(x) > 0 e x > 0 é o intervalo (x2, ∞), se, e somente se, os sinais de a e b são, respectivamente:",
+        "alternativas": {
+            "A": "a > 0 e b > 0.",
+            "B": "a > 0 e b < 0.",
+            "C": "a < 0 e b > 0.",
+            "D": "a < 0 e b < 0."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A parábola f(x) = ax² + bx tem raízes em x=0 e x=-b/a. Para que x2 = -b/a > 0, b/a deve ser negativo. Para f(x) > 0 e x > 0, a parábola deve ter concavidade para cima (a>0) e o ramo positivo deve ser interceptado em x2 para cima, implicando b<0."
+    },
+    {
+        "id": "1521514",
+        "enunciado": "Considere a função polinomial de grau 2 f(x)=-2x²+ 11x-15. Pode-se afirmar que",
+        "alternativas": {
+            "A": "a soma das raízes é 11/2.",
+            "B": "o gráfico de f é uma parábola com concavidade para cima.",
+            "C": "f toca o eixo y em 11.",
+            "D": "f não possui raiz real.",
+            "E": "f é positiva para valores de x>10."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para uma função quadrática f(x) = ax² + bx + c, a soma das raízes é dada por -b/a. Na função f(x) = -2x² + 11x - 15, a soma das raízes é -11/(-2) = 11/2."
+    },
+    {
+        "id": "1654954",
+        "enunciado": "Uma empresa de tecnologia vende pacotes de suporte que incluem um plano básico e um plano avançado. O lucro total mensal L, em milhares de reais, obtido com as vendas desses pacotes, pode ser modelado pela função quadrática L (x) = - 2x2 + 20 x - 32, onde x representa a quantidade de pacotes vendidos em centenas. Para que a empresa não tenha prejuízo (lucro igual a zero), qual é o intervalo de valores possíveis para x?",
+        "alternativas": {
+            "A": "2 e 8 centenas.",
+            "B": "4 e 8 centenas.",
+            "C": "4 e 16 centenas.",
+            "D": "2 e 6 centenas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para nao ter prejuizo, o lucro (L) deve ser maior ou igual a zero. Precisamos encontrar as raizes da equacao -2x^2 + 20x - 32 = 0. Usando a formula de Bhaskara (x = [-b ± sqrt(b^2 - 4ac)] / 2a), obtemos x = 2 e x = 8. Como a parabola tem concavidade para baixo, o lucro é positivo entre as raizes."
+    },
+    {
+        "id": "1327103",
+        "enunciado": "Considere a função real quadrática f(x)=2x^2−3x+5. Em relação ao gráfico dessa função, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas. (  ) O vértice da parábola está localizado no ponto (3, -4). (  ) O eixo de simetria é a reta x=3/4. (  ) O valor máximo da função é 5. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "F – F – V.",
+            "B": "F – V – F.",
+            "C": "V – V – V.",
+            "D": "V – F – F.",
+            "E": "V – V – F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para f(x)=2x^2−3x+5, o vértice é em x = -b/(2a) = -(-3)/(2*2) = 3/4. O valor de y no vértice é f(3/4) = 2(3/4)^2 - 3(3/4) + 5 = 2(9/16) - 9/4 + 5 = 9/8 - 18/8 + 40/8 = 31/8. O vértice é (3/4, 31/8), não (3,-4). O eixo de simetria é x=3/4. Como o coeficiente 'a' (2) é positivo, a parábola abre para cima e tem um valor mínimo, não máximo. O valor mínimo é 31/8. Portanto, todas as assertivas são falsas (F-V-F). O eixo de simetria é x=3/4, então a segunda assertiva é Verdadeira. Portanto, a primeira é falsa, a segunda é verdeira e a terceira é falsa. A ordem correta é F-V-F."
+    },
+    {
+        "id": "1140497",
+        "enunciado": "A forma fatorada de uma equação do segundo grau é representada pela seguinte equação, sendo x1 e x2 as raízes da equação:A ∙ (x – x1) ∙ (x – x2) = 0A forma fatorada da equação do segundo grau –2x2 – 8x + 10 = 0 é:",
+        "alternativas": {
+            "A": "2 . (x + 1) . (x – 5) = 0",
+            "B": "2 . (x – 1) . (x + 5) = 0",
+            "C": "–2 . (x + 1) . (x – 5) = 0",
+            "D": "–2 . (x – 1) . (x + 5) = 0"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A forma fatorada de uma equação quadrática é dada por a(x - x1)(x - x2) = 0, onde 'a' é o coeficiente líder e x1, x2 são as raízes. Para a equação -2x² - 8x + 10 = 0, o coeficiente 'a' é -2. Para encontrar as raízes, podemos usar a fórmula de Bhaskara ou fatorar. Vamos usar Bhaskara: x = [-b ± sqrt(b² - 4ac)] / 2a. x = [8 ± sqrt((-8)² - 4*(-2)*(10))] / (2*(-2)). x = [8 ± sqrt(64 + 80)] / -4. x = [8 ± sqrt(144)] / -4. x = [8 ± 12] / -4. As raízes são: x1 = (8 + 12) / -4 = 20 / -4 = -5. x2 = (8 - 12) / -4 = -4 / -4 = 1. Portanto, a forma fatorada é -2 * (x - (-5)) * (x - 1) = -2 * (x + 5) * (x - 1) = 0.  Vamos verificar as alternativas.  Alternativa C: -2 . (x + 1) . (x – 5) = 0.  Notei que as raízes estão trocadas na minha conta e na alternativa. As raízes que encontrei foram 1 e -5.  A alternativa C tem (x+1) e (x-5). Se as raízes fossem -1 e 5, a forma fatorada seria -2 * (x - (-1)) * (x - 5) = -2 * (x + 1) * (x - 5) = 0.  Vamos verificar se as raízes -1 e 5 satisfazem a equação original -2x² - 8x + 10 =..."
+    },
+    {
+        "id": "1326412",
+        "enunciado": "QUESTÃO 19 – Considere a função real quadrática f(x)=2x²−3x+5. Em relação ao gráfico dessa função, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas. (  ) O vértice da parábola está localizado no ponto (3, -4). (  ) O eixo de simetria é a reta x=3/4. (  ) O valor máximo da função é 5. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "F – F – V.",
+            "B": "F – V – F.",
+            "C": "V – V – V.",
+            "D": "V – F – F.",
+            "E": "V – V – F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A assertiva I é Falso (vértice de f(x)=2x²-3x+5 é (3/4, 31/8)). A assertiva II é Verdadeiro (eixo de simetria é x = -(-3)/(2*2) = 3/4). A assertiva III é Falso (o valor máximo é infinito, pois é uma parábola com concavidade para cima)."
+    },
+    {
+        "id": "1326080",
+        "enunciado": "Considere a função real quadrática f(x)=2x²−3x+5. Em relação ao gráfico dessa função, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas. (  ) O vértice da parábola está localizado no ponto (3, -4). (  ) O eixo de simetria é a reta x=3/4. (  ) O valor máximo da função é 5. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "F – F – V.",
+            "B": "F – V – F.",
+            "C": "V – V – V.",
+            "D": "V – F – F.",
+            "E": "V – V – F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O vértice de f(x)=ax²+bx+c é em x=-b/2a. Para f(x)=2x²-3x+5, x=3/4. O valor de y no vértice é f(3/4) = 2(9/16)-3(3/4)+5 = 9/8-9/4+5 = (9-18+40)/8 = 31/8. Como a>0, a parábola tem concavidade para cima e logo não possui valor máximo, mas sim um valor mínimo. Logo, V=F, a reta x=3/4 é o eixo de simetria=V, e valor máximo 5 é F. A ordem é FVF."
+    },
+    {
+        "id": "1326001",
+        "enunciado": "Considere a função real quadrática f(x)=2x²−3x+5. Em relação ao gráfico dessa função, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas.(  ) O vértice da parábola está localizado no ponto (3, -4).(  ) O eixo de simetria é a reta x=3/4.(  ) O valor máximo da função é 5.A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "F – F – V.",
+            "B": "F – V – F.",
+            "C": "V – V – V.",
+            "D": "V – F – F.",
+            "E": "V – V – F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O vértice de f(x)=ax²+bx+c é em x=-b/2a. Para f(x)=2x²-3x+5, x=3/4. O valor de y no vértice é f(3/4) = 2(9/16)-3(3/4)+5 = 9/8-9/4+5 = (9-18+40)/8 = 31/8. Como a>0, a parábola tem concavidade para cima e logo não possui valor máximo, mas sim um valor mínimo. Logo, V=F, a reta x=3/4 é o eixo de simetria=V, e valor máximo 5 é F. A ordem é FVF."
+    },
+    {
+        "id": "1236057",
+        "enunciado": "O número de casos positivos de várias endemias pode ser modelado por uma função do 2º grau, que graficamente tem o formato de uma parábola. Sabendo que as raízes de uma equação do 2º grau são respectivamente 12 e -2, a equação que deu origem a estas raízes está representada pela alternativa:",
+        "alternativas": {
+            "A": "x² - 36x + 18 = 0.",
+            "B": "-x² - 14x + 24 = 0.",
+            "C": "-x² + 10x - 36 = 0.",
+            "D": "x² - 10x - 24 = 0.",
+            "E": "x² + 14x - 24 = 0."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Se as raizes de uma equacao do 2º grau sao x1 e x2, a equacao pode ser escrita como a*(x - x1)*(x - x2) = 0. Com x1=12 e x2=-2, temos a*(x - 12)*(x - (-2)) = 0, que simplifica para a*(x - 12)*(x + 2) = 0. Expandindo, temos a*(x² + 2x - 12x - 24) = 0, ou a*(x² - 10x - 24) = 0. Para a=1, a equacao e x² - 10x - 24 = 0."
+    },
+    {
+        "id": "1170375",
+        "enunciado": "A função f(x) = - x² + 20 x + 300 possui um ponto de máximo e este é atingido quando o valor de x é igual a:",
+        "alternativas": {
+            "A": "5.",
+            "B": "10.",
+            "C": "15.",
+            "D": "20.",
+            "E": "25."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A função é uma parábola com concavidade para baixo (coeficiente de x² é negativo). O ponto de máximo é atingido no vértice. A coordenada x do vértice é dada por -b/(2a). No caso, a=-1 e b=20, então x = -20/(2*(-1)) = -20/-2 = 10."
+    },
+    {
+        "id": "1405852",
+        "enunciado": "Considere o polinômio P(x) = x2 − 7/2x + 3/2, cujas raízes são p e k.\n\nOs valores de p e k são, respectivamente:",
+        "alternativas": {
+            "A": "1/2 e 4",
+            "B": "4 e 3/2",
+            "C": "1/2 e 3",
+            "D": "1/2 e 3/2"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para um polinômio do tipo ax² + bx + c, a soma das raízes (p+k) é -b/a e o produto das raízes (p*k) é c/a. No polinômio P(x) = x² - 7/2x + 3/2, temos a=1, b=-7/2, c=3/2. Soma = 7/2, Produto = 3/2. As raízes 1/2 e 3/2 satisfazem ambas as condições: 1/2 + 3/2 = 4/2 = 2 (erro aqui, a soma é 7/2). Vamos testar as opções. Para a opção D, p=1/2 e k=3/2: Soma = 1/2 + 3/2 = 4/2 = 2. Produto = 1/2 * 3/2 = 3/4. Existe um erro nas minhas contas ou na questão/alternativas. Revisando: Soma = 7/2. Produto = 3/2. Testando D: p=1/2, k=3/2. Soma(p+k) = 1/2 + 3/2 = 4/2 = 2. Produto(p*k) = 1/2 * 3/2 = 3/4. Nenhuma das raízes dão a soma correta. Deixe-me refazer a soma e produto com as raízes corretas. Se as raízes são p=3/2 e k=2. Soma = 3/2 + 2 = 7/2. Produto = 3/2 * 2 = 3. A opção B não é. Se p=1/2 e k=3. Soma = 1/2 + 3 = 3.5 = 7/2. Produto = 1/2 * 3 = 3/2. Logo p=1/2 e k=3 é a resposta correta (Opção C)."
+    },
+    {
+        "id": "1245025",
+        "enunciado": "Após apresentar o conteúdo acerca do vértice de uma função quadrática, a professora lançou um desafio para que seus estudantes calculassem o produto de Δ pelo valor numérico da coordenada das abscissas do ponto do vértice da parábola obtida pela função f(x) = 2x² - 8x + 5. Após um tempo para seus estudantes calcularem, a professora pediu para que todos verbalizassem seus resultados. Pode-se afirmar que os estudantes que acertaram o desafio encontraram qual valor?",
+        "alternativas": {
+            "A": "- 48",
+            "B": "- 24",
+            "C": "24",
+            "D": "48"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para f(x) = 2x² - 8x + 5, o discriminante Δ = b² - 4ac = (-8)² - 4(2)(5) = 64 - 40 = 24. A coordenada x do vértice é -b/2a = -(-8)/(2*2) = 8/4 = 2. O produto de Δ pelo x do vértice é 24 * 2 = 48."
+    },
+    {
+        "id": "1113484",
+        "enunciado": "As coordenadas do ponto de máximo da função f(x) = - 2x2 + 4x + 3 serão:",
+        "alternativas": {
+            "A": "(5, 1).",
+            "B": "(5, -1).",
+            "C": "(1, 5).",
+            "D": "(1, -5).",
+            "E": "(2, 10)."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A função é quadrática com a < 0, logo tem um ponto de máximo. O x do vértice é -b/2a = -4/(2*-2) = 1. O y do vértice é f(1) = -2(1)² + 4(1) + 3 = 5. As coordenadas são (1, 5)."
+    },
+    {
+        "id": "1159640",
+        "enunciado": "Considerando a função quadrática f(x) = –3x2 – 3x + 18, analise as assertivas abaixo e assinale V, se verdadeiras, ou F, se falsas:( ) O gráfico da função é uma parábola com a concavidade voltada para cima.( ) Possui duas raízes reais distintas no valor de + 2 e –3.( ) Seu ponto de máximo é em x = –0,5 e y = 18,75.( ) A imagem de f(x) é y ≤37,5.A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "F – F – V – V.",
+            "B": "V – V – F – F.",
+            "C": "F – V – V – F.",
+            "D": "V – F – V – F.",
+            "E": "V – V – F – V."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A parábola tem concavidade para baixo (F - pois o coeficiente de x² é negativo). As raízes são x² + x - 6 = 0, resultando em (x+3)(x-2)=0; raízes -3 e 2 (V). O vértice é em x = -b/2a = -(-3)/(2*-3) = 3/-6 = -0.5. y = -3(-0.5)² - 3(-0.5) + 18 = -0.75 + 1.5 + 18 = 18,75 (V). A imagem é y ≤ 18,75 (F - o valor máximo é 18,75)."
+    },
+    {
+        "id": "1222546",
+        "enunciado": "Considere uma parábola de vértice dado pelo ponto (–1, –1), intersecção com eixo y dado pelo ponto (0, 1) e que é obtida como resultado do gráfico da função 2()f x a x b x c= ⋅ + ⋅ + . Sabendo que o discriminante (∆) da função é igual a 8, pode-se afirmar que a soma dos coeficientes a e b da função é igual a:",
+        "alternativas": {
+            "A": "6.",
+            "B": "–2.",
+            "C": "4.",
+            "D": "0.",
+            "E": "1."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Funcao: f(x)=ax²+bx+c. Vértice (-1,-1): -b/2a = -1 -> b=2a. f(-1) = a(-1)²+b(-1)+c = a-b+c = -1. Intersecao com eixo y (0,1): f(0)=c=1. Discriminante Delta = b²-4ac = 8. Substituindo c=1: b²-4a = 8. Substituindo b=2a: (2a)²-4a = 8 -> 4a²-4a-8=0 -> a²-a-2=0. Por Bhaskara, a = (1 ± sqrt(1-4*1*-2))/2 = (1 ± 3)/2. Logo, a=2 ou a=-1. Se a=2, b=2a=4. Se a=-1, b=2a=-2. Verificando com a-b+c=-1. Se a=2, b=4: 2-4+1 = -1. Correto. Se a=-1, b=-2: -1-(-2)+1 = -1+2+1 = 2 (incorreto). Portanto, a=2 e b=4. Soma a+b = 2+4 = 6. Houve um erro no cálculo. Refazendo a equação quadrática: a²-a-2=0. As raízes são (1 +/- sqrt(1 - 4*1*(-2)))/2 = (1 +/- sqrt(9))/2 = (1 +/- 3)/2. Então a=2 ou a=-1. Se a=2, b=2*2=4. Vértice (-1,-1) verifica: f(x) = 2x²+4x+1. -b/2a = -4/4 = -1. f(-1) = 2(-1)²+4(-1)+1 = 2-4+1 = -1. Delta = 4²-4*2*1 = 16-8=8. Correto. Soma a+b = 2+4 = 6."
+    },
+    {
+        "id": "1132859",
+        "enunciado": "Considerar a função quadrática f(x) = x² − 6x + 8. Essa função modela a altura, em metros, de uma bola lançada verticalmente a partir do solo, em que x representa o tempo em segundos. Quais são as raízes (soluções) da função f(x) = x² − 6x + 8, representando os instantes em que a bola atinge o solo novamente?",
+        "alternativas": {
+            "A": "x = 1 e x = 3",
+            "B": "x = 2 e x = 4",
+            "C": "x = 3 e x = 5",
+            "D": "x = 2 e x = 3"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para encontrar as raizes da funcao f(x) = x² - 6x + 8, igualamos f(x) a zero e resolvemos a equacao quadratica. Utilizando a formula de Bhaskara ou fatoracao, obtemos x=2 e x=4 como solucoes."
+    },
+    {
+        "id": "1610348",
+        "enunciado": "Dada a função f(x): x² + 18x – 19, determine as coordenadas de seu ponto mínimo.",
+        "alternativas": {
+            "A": "(100; -9)",
+            "B": "(9; 100)",
+            "C": "(-9; 100)",
+            "D": "(9; -100)",
+            "E": "(-9; -100)"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A função quadrática f(x) = x² + 18x – 19 tem concavidade para cima (a=1>0), portanto, apresenta um ponto mínimo. As coordenadas x do vértice são -b/2a = -18/(2*1) = -9. O valor y do mínimo é f(-9) = (-9)² + 18(-9) – 19 = 81 – 162 – 19 = -100. Portanto, o ponto mínimo é (-9; -100)."
+    },
+    {
+        "id": "1093716",
+        "enunciado": "Um estudante de física está realizando experimentos com lançamento de  projéteis nas dependências da universidade. Ele observa que a altura h (em metros)  de um projétil lançado verticalmente em relação ao tempo t (em segundos)  pode ser modelada pela função quadrática h(t)=−5t²+10t+2. Com isso, o que o estudante busca saber é  a altura que seus projéteis atingem. Considerando estas informações, assinalar a alternativa que contém a altura máxima que o projétil em questão atinge:",
+        "alternativas": {
+            "A": "5 metros.",
+            "B": "7 metros.",
+            "C": "10 metros.",
+            "D": "15 metros."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A altura máxima de um projétil modelado por uma função quadrática ocorre no vértice da parábola. A função é h(t)=−5t²+10t+2. O tempo para atingir a altura máxima é dado por -b/(2a) = -10/(2*(-5)) = 1 segundo. Substituindo t=1 na função: h(1) = -5(1)² + 10(1) + 2 = -5 + 10 + 2 = 7 metros."
+    },
+    {
+        "id": "1649012",
+        "enunciado": "O conjunto solução da inequação −2x²−4x+6 ≥ 0 é igual a:",
+        "alternativas": {
+            "A": "{x ∈ℝ | −1 ≤x≤3}.",
+            "B": "{x ∈ℝ | x ≤−3 ou x ≥1}.",
+            "C": "{x ∈ℝ | x ≤−1 ou x ≥3}.",
+            "D": "{x ∈ℝ | −3 ≤ x ≤1}."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A inequação -2x²−4x+6 ≥ 0, ao ser resolvida, resulta em uma parábola com concavidade para baixo. A solução é o intervalo onde a parábola está acima ou sobre o eixo x, que é x ≤−1 ou x ≥3."
+    },
+    {
+        "id": "1649014",
+        "enunciado": "Certo produto oferecido no mercado terá o preço unitário, em reais, dado por p(x)=100 −0,2x, quando 1000x unidades forem vendidas. O custo, em milhares de reais, para produzir 1000x unidades é dado por C(x) = 3x²+4x+400. O maior lucro com a venda desse produto será obtido quando forem vendidas",
+        "alternativas": {
+            "A": "5.000 unidades.",
+            "B": "10.000 unidades.",
+            "C": "15.000 unidades.",
+            "D": "25.000 unidades."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O lucro é dado pela receita menos o custo. A receita R(x) = p(x) * x = (100 - 0.2x) * x = 100x - 0.2x². O custo C(x) = 3x² + 4x + 400. O lucro L(x) = R(x) - C(x) = (100x - 0.2x²) - (3x² + 4x + 400) = -3.2x² + 96x - 400. Para maximizar o lucro, encontramos o vértice da parábola, que é dado por x = -b/(2a). No entanto, o problema especifica '1000x unidades vendidas'. Então, se x representa milhares de unidades, p(x) = 100 - 0.2x e C(x) = 3x² + 4x + 400. O preço unitário é p(x), a receita total é P(x) = p(x)*1000x ou a receita é R(x) = p(x) * unidades. Se p(x) é o preço por unidade e x é em milhares, então x mil unidades = 1000x unidades. Se o preço unitário em reais é p(x) = 100 - 0.2x, quando 1000x unidades são vendidas. Isso significa que para cada 'x' em R reais, um total de '1000x' unidades são vendidas. O preço por unidade é p(x). A receita total é Receita = Preço Unitário * Quantidade. O problema é ambiguo na relação entre 'x' e a quantidade. Vamos assumir que 'x' é uma variável e que quando 'x' unida..."
+    },
+    {
+        "id": "1048606",
+        "enunciado": "Uma microempresa criou um plano de metas, onde deseja ter um lucro diário de R$ 700,00. Ela consegue produzir diariamente x caixas contendo, cada uma, 30 unidades de seu produto, e pode vender tudo o que produzir a um preço de R$ 60,00 por caixa. O custo total, em reais, é dado pela expressão C(x)=x²−22x+992. Portanto, para que a empresa tenha lucro diário desejado, qual deve ser a quantidade de unidades que devem ser produzidas e vendidas por dia?",
+        "alternativas": {
+            "A": "40.",
+            "B": "200.",
+            "C": "400.",
+            "D": "600.",
+            "E": "800."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Receita R(x) = 60x. Lucro L(x) = R(x) - C(x) = 60x - (x² - 22x + 992) = -x² + 82x - 992. Queremos L(x) = 700, entao -x² + 82x - 992 = 700 => x² - 82x + 1692 = 0. Resolvendo a quadratica, obtemos x=36 e x=46. A pergunta é sobre unidades, nao caixas. Se x sao caixas, 40 caixas * 30 unidades/caixa = 1200 unidades. Refazendo o calculo para unidades 'u': preco/unidade = 60/30 = 2. Receita R(u) = 2u. Custo C(u) = (u/30)² - 22(u/30) + 992. L(u) = 2u - ((u/30)² - 22(u/30) + 992) = 700. Leva a uma equacao complexa. Revisando: x representa caixas. L(x) = -x² + 82x - 992. Queremos L(x) >= 700. -x² + 82x - 992 >= 700 => -x² + 82x - 1692 >= 0 => x² - 82x + 1692 <= 0. As raizes de x² - 82x + 1692 = 0 sao 36 e 46. Entao, para ter lucro >= 700, x deve estar entre 36 e 46 caixas. A alternativa C representa 400 unidades. Se x = 400/30 caixas = 13.33, nao esta no intervalo. Alguma interpretacao errada? Ah, o C(x) ja utiliza 'x' como caixas. Entao, L(x) = -x² + 82x - 992. Queremos L(x) = 700. -x² + 82x - 992 = 700 => -x² + 8..."
+    },
+    {
+        "id": "1048502",
+        "enunciado": "Uma microempresa criou um plano de metas, onde deseja ter um lucro diário de R$ 700,00. Ela consegue produzir diariamente xx caixas contendo, cada uma, 30 unidades de seu produto, e pode vender tudo o que produzir a um preço de R$ 60,00 por caixa. O custo total, em reais, é dado pela expressão C(x)=x²−22x+992. Portanto, para que a empresa tenha lucro diário desejado, qual deve ser a quantidade de unidades que devem ser produzidas e vendidas por dia?",
+        "alternativas": {
+            "A": "40.",
+            "B": "200.",
+            "C": "400.",
+            "D": "600.",
+            "E": "800."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Lucro = Receita - Custo.  Receita = Preço por caixa * Quantidade de caixas = 60 * x.  Custo = x² - 22x + 992.  Lucro desejado = 700.  Portanto, 700 = 60x - (x² - 22x + 992).  Simplificando: 700 = 60x - x² + 22x - 992.  700 = -x² + 82x - 992.  x² - 82x + 1692 = 0.  Usando a fórmula de Bhaskara: x = [-b ± sqrt(b² - 4ac)] / 2a.  x = [82 ± sqrt((-82)² - 4 * 1 * 1692)] / 2 * 1.  x = [82 ± sqrt(6724 - 6768)] / 2.  Como o discriminante é negativo, há erro na formulação ou nas alternativas. Vamos rever. Se o lucro diário DESEJADO é de R$700.  Produz xx caixas. Vende a R$60 por caixa.  Receita R(x) = 60x. Custo C(x) = x² - 22x + 992. Lucro L(x) = R(x) - C(x) = 60x - (x² - 22x + 992) = 60x - x² + 22x - 992 = -x² + 82x - 992. Queremos L(x) = 700.  -x² + 82x - 992 = 700.  -x² + 82x - 1692 = 0.  x² - 82x + 1692 = 0.  Discriminante D = b² - 4ac = (-82)² - 4(1)(1692) = 6724 - 6768 = -44.  Novamente, o discriminante é negativo. Isso significa que a função lucro nunca atinge 700.  Verifiquemos o topo da parábola (lucro má..."
+    },
+    {
+        "id": "1365968",
+        "enunciado": "Dada a função f(x)=2x²−3x+1, qual é o valor do menor número natural, não nulo, para o qual f(x)=0?",
+        "alternativas": {
+            "A": "0.",
+            "B": "2.",
+            "C": "1.",
+            "D": "5.",
+            "E": "6."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para encontrar as raízes da função f(x)=2x²−3x+1, igualamos f(x) a zero. Usando a fórmula quadrática ou fatorando, as raízes são x=1 e x=1/2. O menor número natural, não nulo, para o qual f(x)=0 é 1."
+    },
+    {
+        "id": "1418390",
+        "enunciado": "Se y = x² + 7x + 12, então as raízes que satisfazem y serão:",
+        "alternativas": {
+            "A": "3 e 4.",
+            "B": "-3 e 3.",
+            "C": "3 e -4.",
+            "D": "-3 e -4.",
+            "E": "3 e 3."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para encontrar as raízes, igualamos a equação a zero: x² + 7x + 12 = 0. Usando a fórmula de Bhaskara ou fatoração, encontramos as raízes -3 e -4 (soma = -7, produto = 12)."
+    },
+    {
+        "id": "1819321",
+        "enunciado": "Uma empresa obteve um lucro dado pela função L(x) = (10 – x)(x – 2) . 100, em que x é a quantidade vendida e L é o lucro em milhões de reais. O número de unidades que essa empresa deve vender para obter o lucro máximo é:",
+        "alternativas": {
+            "A": "3 unidades",
+            "B": "6 unidades",
+            "C": "8 unidades",
+            "D": "12 unidades",
+            "E": "15 unidades"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A função lucro L(x) = (10 – x)(x – 2) . 100 é uma parábola voltada para baixo. O lucro máximo ocorre no vértice. As raízes são x=10 e x=2. O x do vértice é a média das raízes: (10+2)/2 = 6. A função se escreve L(x) = -100x² + 1200x - 2000. O vértice é dado por -b/(2a). xV = -1200 / (2 * -100) = 6. Correção: x do vértice = (10+2)/2 = 6. O enunciado da questão na verdade é L(x) = (10 - x)(x - 2) . 100. As raízes são x = 10 e x = 2. O x do vértice é a média das raízes, (10+2)/2 = 6. Então, 6 unidades. Há um engano meu na aplicação, voltando ao método do vértice. A função é L(x) = -100x² + 1200x - 2000. O x do vértice é -b/(2a) = -1200/(2*(-100)) = 6. O enunciado da questão é L(x) = (10 - x)(x - 2) . 100. Então, simplificando, L(x) = (-x+10)(x-2) * 100 = (-x² + 2x + 10x - 20) * 100 = (-x² + 12x - 20) * 100 = -100x² + 1200x - 2000. Para achar o x do lucro máximo, usamos a fórmula do vértice: x = -b / 2a. x = -1200 / (2 * -100) = -1200 / -200 = 6. O número de unidades é 6. Houve um erro no cálculo manual, o res..."
+    }
+]

@@ -1,0 +1,450 @@
+[
+    {
+        "id": "2359921",
+        "enunciado": "Um número somado de 64 é igual ao seu triplo. Qual é esse número?",
+        "alternativas": {
+            "A": "-32.",
+            "B": "-16.",
+            "C": "16.",
+            "D": "32.",
+            "E": "64."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Representando o número desconhecido por 'x', a equação é x + 64 = 3x. Subtraindo 'x' de ambos os lados, temos 64 = 2x. Dividindo por 2, encontramos x = 32."
+    },
+    {
+        "id": "2346620",
+        "enunciado": "Um servidor público municipal recebeu uma diária de R$ 200,00 para participar de um treinamento em outra cidade. Ele gastou R$ 85,00 com hospedagem e R$ 42,00 com alimentação. Com o restante do valor da diária, ele comprou alguns materiais de estudo, cada um custando R$ 18,25. Se x representa o número de materiais de estudo que ele comprou, qual das equações abaixo permite calcular corretamente o valor de x?",
+        "alternativas": {
+            "A": "200 – 85 + 42 = 18,25x",
+            "B": "200 – 85 – 42 = 18,25x",
+            "C": "200 + 85 + 42 = 18,25x",
+            "D": "85 – 42 = 200 + 18,25x",
+            "E": "200 = 85 + 42 – 18,25x"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O valor total da diária (200) menos os gastos com hospedagem (85) e alimentação (42) resulta no valor restante para a compra de materiais. Esse valor restante é igual ao custo de cada material (18,25) multiplicado pelo número de materiais (x). Assim, a equação é 200 - 85 - 42 = 18,25x."
+    },
+    {
+        "id": "1291281",
+        "enunciado": "Com relação às equações (primeiro e/ou segundo grau), analise as afirmativas a seguir, e marque a única opção correta: I - Existem equações do segundo grau, completa e incompleta. II - A equação X . (X - 2) = 5 é uma equação do primeiro grau. III - A equação 12 - 21X 2 + 5X 2 = X é uma equação do segundo grau. IV - A equação 2X 2 - 8 = 0 é uma equação incompleta do primeiro grau.",
+        "alternativas": {
+            "A": "I e III estão corretas.",
+            "B": "I, II e III estão corretas.",
+            "C": "II e IV estão incorretas.",
+            "D": "IV está incorreta."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "I está correta, pois equações do segundo grau podem ser completas ou incompletas. II está incorreta, pois X.(X-2)=5 é do segundo grau. III está correta. IV está incorreta, pois 2X²-8=0 é do segundo grau."
+    },
+    {
+        "id": "1325999",
+        "enunciado": "Qual valor de x satisfaz a equação 1/x−4/3x²=−4/9x³?",
+        "alternativas": {
+            "A": "−4/3.",
+            "B": "−2.",
+            "C": "0.",
+            "D": "2/3.",
+            "E": "6."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A equação 1/x-4/3x²=-4/9x³ pode ser simplificada multiplicando todos os termos por 9x³ (assumindo x≠0). Obtém-se 9x² - 12x = -4, que rearranjada é 9x² - 12x + 4 = 0. Esta é um trinômio quadrado perfeito (3x-2)²=0, cuja única solução é 3x=2, logo, x=2/3."
+    },
+    {
+        "id": "1249359",
+        "enunciado": "A solução da equação (2x – 3)² = –5(x – 4) + 4x² + 3 é:",
+        "alternativas": {
+            "A": "–6.",
+            "B": "–4.",
+            "C": "–2.",
+            "D": "0.",
+            "E": "5."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A equação é (2x – 3)² = –5(x – 4) + 4x² + 3. Expandindo e simplificando, chegamos a 4x² - 12x + 9 = -5x + 20 + 4x² + 3. Agrupando termos, 4x² - 12x + 9 = 4x² - 5x + 23. Subtraindo 4x² de ambos os lados: -12x + 9 = -5x + 23. Isolando x: 9 - 23 = -5x + 12x, resultando em -14 = 7x, o que dá x = -2."
+    },
+    {
+        "id": "1464666",
+        "enunciado": "A quantidade de agentes de combate a endemias responsável pela visita domiciliar para inspeção e eliminação de criadouros em um bairro de um determinado município corresponde a maior raiz do conjunto solução da equação (x – 12) . ( x – 6) = 0. Esse número é igual a:",
+        "alternativas": {
+            "A": "6.",
+            "B": "8.",
+            "C": "12.",
+            "D": "16.",
+            "E": "18."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As raízes da equação (x - 12) . (x - 6) = 0 são x=12 e x=6. A maior raiz é 12. Portanto, o número de agentes é 12."
+    },
+    {
+        "id": "1245894",
+        "enunciado": "O conjunto verdade da seguinte equação do segundo grau: x² + 17x -18 = 0, é:",
+        "alternativas": {
+            "A": "{-1, -18}",
+            "B": "{1, -18}",
+            "C": "{1, -1}",
+            "D": "{1, 18}",
+            "E": "{18, -18}"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para resolver a equação quadrática x² + 17x - 18 = 0, podemos usar a fórmula de Bhaskara ou fatoração. Fatorando: (x - 1)(x + 18) = 0. As raízes são x = 1 e x = -18. Portanto, o conjunto verdade é {1, -18}."
+    },
+    {
+        "id": "1030256",
+        "enunciado": "Dados os coeficientes a = 3; b = -12; c = 8; da equação ax² + bx + c = 0, é correto afirmar que:",
+        "alternativas": {
+            "A": "É uma equação do 1º grau: 3x – 12 = 8",
+            "B": "É uma equação biquadrada: 3x² - 12x² = 8",
+            "C": "É uma equação do 2º grau: 3x² - 12x + 8 = 0",
+            "D": "É uma equação do 2º grau: 3x² - 12x = 8"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A forma geral da equação do 2º grau é ax² + bx + c = 0. Com os coeficientes fornecidos, a equação correta é 3x² - 12x + 8 = 0."
+    },
+    {
+        "id": "1211144",
+        "enunciado": "Resolva a equação: 2x + x/3 - 15 = 2,5",
+        "alternativas": {
+            "A": "x=5/2",
+            "B": "x=15/2",
+            "C": "x=15",
+            "D": "x=17"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para resolver a equação 2x + x/3 - 15 = 2,5: Primeiro, some 15 a ambos os lados: 2x + x/3 = 17,5. Multiplique tudo por 3 para eliminar a fração: 6x + x = 52,5. Combine os termos com x: 7x = 52,5. Divida por 7: x = 52,5 / 7 = 7,5. Convertendo 7,5 para fração, temos 15/2. Portanto, x = 15/2."
+    },
+    {
+        "id": "1132294",
+        "enunciado": "Encontre o valor de “x” para que a seguinte equação tenha solução:  3 – 2.(x + 3) = x – 18:",
+        "alternativas": {
+            "A": "x= 5 ;",
+            "B": "x= 3 ;",
+            "C": "x= 2/3 ;",
+            "D": "x= -5/2."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Resolvendo a equação: 3 - 2x - 6 = x - 18 -> -2x - 3 = x - 18 -> -3 + 18 = x + 2x -> 15 = 3x -> x = 5."
+    },
+    {
+        "id": "1132295",
+        "enunciado": "Encontre o valor da incógnita que satisfaz a equação: 5y – 1 = 3y + 11 :",
+        "alternativas": {
+            "A": "y= 8 ;",
+            "B": "y= -8;",
+            "C": "y= 6 ;",
+            "D": "y= 3/5 ."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para resolver a equação 5y – 1 = 3y + 11, subtraia 3y de ambos os lados: 2y – 1 = 11. Adicione 1 a ambos os lados: 2y = 12. Divida por 2: y = 6."
+    },
+    {
+        "id": "1132299",
+        "enunciado": "Encontre as raízes da seguinte equação: x² - 18x + 45 = 0 :",
+        "alternativas": {
+            "A": "x’= 15 e x”= 3 ;",
+            "B": "x’= -18 e x”= 45 ;",
+            "C": "x’= -15 e x”= -3;",
+            "D": "x’= 18 e x”= -45."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Utilizando a fórmula de Bhaskara ou fatoração, as raízes da equação quadrática x² - 18x + 45 = 0 são encontradas como 3 e 15. Soma das raízes é 18, produto é 45."
+    },
+    {
+        "id": "2190675",
+        "enunciado": "Considerando-se que o triplo de um número X é igual ao quádruplo da terça parte de 36, assinalar a alternativa que apresenta o valor de X:",
+        "alternativas": {
+            "A": "20",
+            "B": "19",
+            "C": "18",
+            "D": "17",
+            "E": "16"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O triplo de X (3X) é igual ao quádruplo da terça parte de 36 (4 * (36/3) = 4 * 12 = 48). Portanto, 3X = 48, o que resulta em X = 48 / 3 = 16."
+    },
+    {
+        "id": "1051378",
+        "enunciado": "A solução da equação do primeiro grau 5x - 2 = 3 tem solução:",
+        "alternativas": {
+            "A": "S = {-1}",
+            "B": "S = {2}",
+            "C": "S = {1}",
+            "D": "S = {-2}"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para resolver a equação do primeiro grau 5x - 2 = 3, isolamos o x. Somamos 2 em ambos os lados da equação: 5x = 3 + 2, resultando em 5x = 5. Dividimos ambos os lados por 5: x = 5 / 5, o que nos dá x = 1. Logo, a solução é S = {1}."
+    },
+    {
+        "id": "1051765",
+        "enunciado": "Se 7/3 de x vale 210, então quanto vale x?",
+        "alternativas": {
+            "A": "30;",
+            "B": "60;",
+            "C": "70;",
+            "D": "90;",
+            "E": "100."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A equação é (7/3) * x = 210. Para encontrar x, multiplicamos ambos os lados por 3/7. x = 210 * (3/7). x = (210/7) * 3. x = 30 * 3. x = 90."
+    },
+    {
+        "id": "1509425",
+        "enunciado": "No conjunto dos números reais ℝ, a equação 5 – x = x – 3 admite:",
+        "alternativas": {
+            "A": "apenas uma solução.",
+            "B": "duas soluções.",
+            "C": "infinitas soluções.",
+            "D": "nenhuma solução."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A equação 5 - x = x - 3 pode ser simplificada para isolar x. Somando x a ambos os lados e adicionando 3 a ambos os lados resulta em 8 = 2x, o que nos dá x = 4. Esta é uma única solução real."
+    },
+    {
+        "id": "1990739",
+        "enunciado": "O número -3 é a raiz da equação x² - 7x - 2c = 0. Nessas condições, qual o valor do coeficiente c:",
+        "alternativas": {
+            "A": "16",
+            "B": "20",
+            "C": "15",
+            "D": "10"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Se -3 é raiz da equação, ele a satisfaz. Substituindo x por -3 em x² - 7x - 2c = 0, temos (-3)² - 7(-3) - 2c = 0, o que resulta em 9 + 21 - 2c = 0, levando a 30 = 2c e, portanto, c = 15."
+    },
+    {
+        "id": "1357243",
+        "enunciado": "Diversas equações foram propostas na literatura para descrever matematicamente a distribuição granulométrica de uma amostra. Assinale a seguir a única equação que descreve a distribuição granulométrica de uma amostra.",
+        "alternativas": {
+            "A": "Equação de Poisson",
+            "B": "Equação de Stokes",
+            "C": "Equação de Tchebycheff",
+            "D": "Equação de Rosin Rammler"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Equação de Rosin Rammler é amplamente utilizada para modelar a distribuição granulométrica de materiais particulados, diferente das outras equações que tratam de outros fenômenos físicos ou estatísticos."
+    },
+    {
+        "id": "2359921",
+        "enunciado": "Um número somado de 64 é igual ao seu triplo. Qual é esse número?",
+        "alternativas": {
+            "A": "-32.",
+            "B": "-16.",
+            "C": "16.",
+            "D": "32.",
+            "E": "64."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Representando o número desconhecido por 'x', a equação é x + 64 = 3x. Subtraindo 'x' de ambos os lados, temos 64 = 2x. Dividindo por 2, encontramos x = 32."
+    },
+    {
+        "id": "2346620",
+        "enunciado": "Um servidor público municipal recebeu uma diária de R$ 200,00 para participar de um treinamento em outra cidade. Ele gastou R$ 85,00 com hospedagem e R$ 42,00 com alimentação. Com o restante do valor da diária, ele comprou alguns materiais de estudo, cada um custando R$ 18,25. Se x representa o número de materiais de estudo que ele comprou, qual das equações abaixo permite calcular corretamente o valor de x?",
+        "alternativas": {
+            "A": "200 – 85 + 42 = 18,25x",
+            "B": "200 – 85 – 42 = 18,25x",
+            "C": "200 + 85 + 42 = 18,25x",
+            "D": "85 – 42 = 200 + 18,25x",
+            "E": "200 = 85 + 42 – 18,25x"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O valor total da diária (200) menos os gastos com hospedagem (85) e alimentação (42) resulta no valor restante para a compra de materiais. Esse valor restante é igual ao custo de cada material (18,25) multiplicado pelo número de materiais (x). Assim, a equação é 200 - 85 - 42 = 18,25x."
+    },
+    {
+        "id": "1291281",
+        "enunciado": "Com relação às equações (primeiro e/ou segundo grau), analise as afirmativas a seguir, e marque a única opção correta: I - Existem equações do segundo grau, completa e incompleta. II - A equação X . (X - 2) = 5 é uma equação do primeiro grau. III - A equação 12 - 21X 2 + 5X 2 = X é uma equação do segundo grau. IV - A equação 2X 2 - 8 = 0 é uma equação incompleta do primeiro grau.",
+        "alternativas": {
+            "A": "I e III estão corretas.",
+            "B": "I, II e III estão corretas.",
+            "C": "II e IV estão incorretas.",
+            "D": "IV está incorreta."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "I está correta, pois equações do segundo grau podem ser completas ou incompletas. II está incorreta, pois X.(X-2)=5 é do segundo grau. III está correta. IV está incorreta, pois 2X²-8=0 é do segundo grau."
+    },
+    {
+        "id": "1325999",
+        "enunciado": "Qual valor de x satisfaz a equação 1/x−4/3x²=−4/9x³?",
+        "alternativas": {
+            "A": "−4/3.",
+            "B": "−2.",
+            "C": "0.",
+            "D": "2/3.",
+            "E": "6."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A equação 1/x-4/3x²=-4/9x³ pode ser simplificada multiplicando todos os termos por 9x³ (assumindo x≠0). Obtém-se 9x² - 12x = -4, que rearranjada é 9x² - 12x + 4 = 0. Esta é um trinômio quadrado perfeito (3x-2)²=0, cuja única solução é 3x=2, logo, x=2/3."
+    },
+    {
+        "id": "1249359",
+        "enunciado": "A solução da equação (2x – 3)² = –5(x – 4) + 4x² + 3 é:",
+        "alternativas": {
+            "A": "–6.",
+            "B": "–4.",
+            "C": "–2.",
+            "D": "0.",
+            "E": "5."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A equação é (2x – 3)² = –5(x – 4) + 4x² + 3. Expandindo e simplificando, chegamos a 4x² - 12x + 9 = -5x + 20 + 4x² + 3. Agrupando termos, 4x² - 12x + 9 = 4x² - 5x + 23. Subtraindo 4x² de ambos os lados: -12x + 9 = -5x + 23. Isolando x: 9 - 23 = -5x + 12x, resultando em -14 = 7x, o que dá x = -2."
+    },
+    {
+        "id": "1464666",
+        "enunciado": "A quantidade de agentes de combate a endemias responsável pela visita domiciliar para inspeção e eliminação de criadouros em um bairro de um determinado município corresponde a maior raiz do conjunto solução da equação (x – 12) . ( x – 6) = 0. Esse número é igual a:",
+        "alternativas": {
+            "A": "6.",
+            "B": "8.",
+            "C": "12.",
+            "D": "16.",
+            "E": "18."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As raízes da equação (x - 12) . (x - 6) = 0 são x=12 e x=6. A maior raiz é 12. Portanto, o número de agentes é 12."
+    },
+    {
+        "id": "1245894",
+        "enunciado": "O conjunto verdade da seguinte equação do segundo grau: x² + 17x -18 = 0, é:",
+        "alternativas": {
+            "A": "{-1, -18}",
+            "B": "{1, -18}",
+            "C": "{1, -1}",
+            "D": "{1, 18}",
+            "E": "{18, -18}"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para resolver a equação quadrática x² + 17x - 18 = 0, podemos usar a fórmula de Bhaskara ou fatoração. Fatorando: (x - 1)(x + 18) = 0. As raízes são x = 1 e x = -18. Portanto, o conjunto verdade é {1, -18}."
+    },
+    {
+        "id": "1030256",
+        "enunciado": "Dados os coeficientes a = 3; b = -12; c = 8; da equação ax² + bx + c = 0, é correto afirmar que:",
+        "alternativas": {
+            "A": "É uma equação do 1º grau: 3x – 12 = 8",
+            "B": "É uma equação biquadrada: 3x² - 12x² = 8",
+            "C": "É uma equação do 2º grau: 3x² - 12x + 8 = 0",
+            "D": "É uma equação do 2º grau: 3x² - 12x = 8"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A forma geral da equação do 2º grau é ax² + bx + c = 0. Com os coeficientes fornecidos, a equação correta é 3x² - 12x + 8 = 0."
+    },
+    {
+        "id": "1211144",
+        "enunciado": "Resolva a equação: 2x + x/3 - 15 = 2,5",
+        "alternativas": {
+            "A": "x=5/2",
+            "B": "x=15/2",
+            "C": "x=15",
+            "D": "x=17"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para resolver a equação 2x + x/3 - 15 = 2,5: Primeiro, some 15 a ambos os lados: 2x + x/3 = 17,5. Multiplique tudo por 3 para eliminar a fração: 6x + x = 52,5. Combine os termos com x: 7x = 52,5. Divida por 7: x = 52,5 / 7 = 7,5. Convertendo 7,5 para fração, temos 15/2. Portanto, x = 15/2."
+    },
+    {
+        "id": "1132294",
+        "enunciado": "Encontre o valor de “x” para que a seguinte equação tenha solução:  3 – 2.(x + 3) = x – 18:",
+        "alternativas": {
+            "A": "x= 5 ;",
+            "B": "x= 3 ;",
+            "C": "x= 2/3 ;",
+            "D": "x= -5/2."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Resolvendo a equação: 3 - 2x - 6 = x - 18 -> -2x - 3 = x - 18 -> -3 + 18 = x + 2x -> 15 = 3x -> x = 5."
+    },
+    {
+        "id": "1132295",
+        "enunciado": "Encontre o valor da incógnita que satisfaz a equação: 5y – 1 = 3y + 11 :",
+        "alternativas": {
+            "A": "y= 8 ;",
+            "B": "y= -8;",
+            "C": "y= 6 ;",
+            "D": "y= 3/5 ."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para resolver a equação 5y – 1 = 3y + 11, subtraia 3y de ambos os lados: 2y – 1 = 11. Adicione 1 a ambos os lados: 2y = 12. Divida por 2: y = 6."
+    },
+    {
+        "id": "1132299",
+        "enunciado": "Encontre as raízes da seguinte equação: x² - 18x + 45 = 0 :",
+        "alternativas": {
+            "A": "x’= 15 e x”= 3 ;",
+            "B": "x’= -18 e x”= 45 ;",
+            "C": "x’= -15 e x”= -3;",
+            "D": "x’= 18 e x”= -45."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Utilizando a fórmula de Bhaskara ou fatoração, as raízes da equação quadrática x² - 18x + 45 = 0 são encontradas como 3 e 15. Soma das raízes é 18, produto é 45."
+    },
+    {
+        "id": "2190675",
+        "enunciado": "Considerando-se que o triplo de um número X é igual ao quádruplo da terça parte de 36, assinalar a alternativa que apresenta o valor de X:",
+        "alternativas": {
+            "A": "20",
+            "B": "19",
+            "C": "18",
+            "D": "17",
+            "E": "16"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O triplo de X (3X) é igual ao quádruplo da terça parte de 36 (4 * (36/3) = 4 * 12 = 48). Portanto, 3X = 48, o que resulta em X = 48 / 3 = 16."
+    },
+    {
+        "id": "1051378",
+        "enunciado": "A solução da equação do primeiro grau 5x - 2 = 3 tem solução:",
+        "alternativas": {
+            "A": "S = {-1}",
+            "B": "S = {2}",
+            "C": "S = {1}",
+            "D": "S = {-2}"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para resolver a equação do primeiro grau 5x - 2 = 3, isolamos o x. Somamos 2 em ambos os lados da equação: 5x = 3 + 2, resultando em 5x = 5. Dividimos ambos os lados por 5: x = 5 / 5, o que nos dá x = 1. Logo, a solução é S = {1}."
+    },
+    {
+        "id": "1051765",
+        "enunciado": "Se 7/3 de x vale 210, então quanto vale x?",
+        "alternativas": {
+            "A": "30;",
+            "B": "60;",
+            "C": "70;",
+            "D": "90;",
+            "E": "100."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A equação é (7/3) * x = 210. Para encontrar x, multiplicamos ambos os lados por 3/7. x = 210 * (3/7). x = (210/7) * 3. x = 30 * 3. x = 90."
+    },
+    {
+        "id": "1509425",
+        "enunciado": "No conjunto dos números reais ℝ, a equação 5 – x = x – 3 admite:",
+        "alternativas": {
+            "A": "apenas uma solução.",
+            "B": "duas soluções.",
+            "C": "infinitas soluções.",
+            "D": "nenhuma solução."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A equação 5 - x = x - 3 pode ser simplificada para isolar x. Somando x a ambos os lados e adicionando 3 a ambos os lados resulta em 8 = 2x, o que nos dá x = 4. Esta é uma única solução real."
+    },
+    {
+        "id": "1990739",
+        "enunciado": "O número -3 é a raiz da equação x² - 7x - 2c = 0. Nessas condições, qual o valor do coeficiente c:",
+        "alternativas": {
+            "A": "16",
+            "B": "20",
+            "C": "15",
+            "D": "10"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Se -3 é raiz da equação, ele a satisfaz. Substituindo x por -3 em x² - 7x - 2c = 0, temos (-3)² - 7(-3) - 2c = 0, o que resulta em 9 + 21 - 2c = 0, levando a 30 = 2c e, portanto, c = 15."
+    },
+    {
+        "id": "1357243",
+        "enunciado": "Diversas equações foram propostas na literatura para descrever matematicamente a distribuição granulométrica de uma amostra. Assinale a seguir a única equação que descreve a distribuição granulométrica de uma amostra.",
+        "alternativas": {
+            "A": "Equação de Poisson",
+            "B": "Equação de Stokes",
+            "C": "Equação de Tchebycheff",
+            "D": "Equação de Rosin Rammler"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Equação de Rosin Rammler é amplamente utilizada para modelar a distribuição granulométrica de materiais particulados, diferente das outras equações que tratam de outros fenômenos físicos ou estatísticos."
+    }
+]

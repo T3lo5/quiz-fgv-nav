@@ -1,0 +1,858 @@
+[
+    {
+        "id": "2082270",
+        "enunciado": "Durante uma análise de desempenho de um computador, observou‑se que, mesmo com bastante memória RAM instalada e um processador de última geração, o sistema apresentava lentidão ao executar múltiplas tarefas que envolvem acesso a arquivos grandes e transferências de dados. Com base nessa situação hipotética e considerando os componentes de hardware e seus papéis no desempenho geral, assinale a opção que apresenta o gargalo do sistema.",
+        "alternativas": {
+            "A": "placa de vídeo  (GPU) com alto desempenho gráfico, mas com pouca VRAM disponível",
+            "B": "disco rígido mecânico  (HDD) com interface SATA II, mesmo com bastante espaço livre",
+            "C": "memória RAM com frequência compatível com a placa‑mãe, mas sem dual‑channel  ativado",
+            "D": "fonte de alimentação  (PSU) com potência nominal abaixo da recomendada para o sistema",
+            "E": "chipset da placa‑mãe incompatível com o padrão DDR4 da RAM utilizada"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A lentidao ao acessar arquivos grandes e fazer transferencias de dados, mesmo com bom processador e RAM, aponta para o disco rigido (HDD) como gargalo. Interfaces SATA II sao lentas comparadas a padroes mais recentes, limitando a velocidade de leitura/escrita."
+    },
+    {
+        "id": "2282001",
+        "enunciado": "Em uma estação de trabalho voltada à digitalização de acervos históricos, foram utilizados os seguintes componentes: scanner de mesa para captura de documentos físicos; monitor para conferência visual do material digitalizado; unidade SSD interna para armazenamento local; unidade de fita magnética (LTO) para cópias de segurança; impressora a laser para geração de cópias físicas. Considerando a classificação correta desses dispositivos quanto às suas funções no fluxo de dados, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "Todos os dispositivos citados são de entrada e saída, pois podem enviar e receber dados do sistema.",
+            "B": "Scanner, SSD e fita magnética são dispositivos de entrada e saída; monitor é apenas de saída; impressora é apenas de armazenamento.",
+            "C": "O Scanner e o monitor possuem armazenamento primário; SSD é entrada/saída; fita magnética é apenas de saída; impressora é entrada.",
+            "D": "Scanner é dispositivo de entrada; monitor e impressora são dispositivos de saída; SSD e fita magnética são dispositivos de armazenamento.",
+            "E": "Scanner e impressora são dispositivos de entrada; monitor é armazenamento; SSD e fita magnética são dispositivos de saída."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O scanner captura dados do mundo físico para o digital (entrada). Monitor e impressora exibem dados do digital para o físico (saída). SSD e fita magnética guardam dados (armazenamento)."
+    },
+    {
+        "id": "2120491",
+        "enunciado": "Um processador é o núcleo vital de todas as operações de um computador. Simplificando, é a mente mestra que impulsiona todas as funcionalidades. Se já se questionou como seu computador consegue executar diversas tarefas, a resposta é o processador. Ele processa e executa instruções de software, viabilizando uma ampla gama de atividades, desde abrir navegadores até rodar aplicativos complexos. Sobre os processadores, trata-se de um fabricante conhecido mundialmente e que, ainda, produz processadores usados em notebooks, computadores e servidores:",
+        "alternativas": {
+            "A": "BYD.",
+            "B": "Intel.",
+            "C": "Seagate.",
+            "D": "SanDisk."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A Intel é um dos fabricantes de processadores mais conhecidos mundialmente e produz unidades de processamento amplamente utilizadas em notebooks, computadores e servidores."
+    },
+    {
+        "id": "2329689",
+        "enunciado": "Ao montar um computador, é necessário saber as funções que cada peça vai exercer no conjunto. Sabendo disso, o componente que é responsável por fornecer energia para todos os demais componentes é chamado de:",
+        "alternativas": {
+            "A": "Placa Mãe.",
+            "B": "Processador.",
+            "C": "Memória RAM.",
+            "D": "Fonte de alimentação."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A fonte de alimentação (ou PSU - Power Supply Unit) tem a função de converter a corrente elétrica da tomada em voltagens adequadas para todos os componentes do computador, como placa-mãe, processador, HDs, etc. Sem ela, nenhum componente funciona."
+    },
+    {
+        "id": "2183245",
+        "enunciado": "Em uma situação em que o usuário percebe lentidão mesmo após formatação, qual componente é mais determinante para influenciar a velocidade de acesso aos dados?",
+        "alternativas": {
+            "A": "Ventoinha de resfriamento.",
+            "B": "SSD ou HD.",
+            "C": "Drive de DVD.",
+            "D": "Placa de vídeo.",
+            "E": "Fonte de alimentação."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O SSD (Solid State Drive) ou HD (Hard Disk Drive) é o componente responsável pelo armazenamento de dados. Um SSD oferece velocidades de acesso significativamente maiores que um HD, sendo o fator mais determinante para a lentidão do sistema em relação ao acesso a dados."
+    },
+    {
+        "id": "2362077",
+        "enunciado": "Esse material preenche as micro imperfeiçoes nas superfícies de contato, melhorando a condução térmica e evitando o superaquecimento do processador, o que poderia causar instabilidade no sistema ou danos permanentes ao componente. Marque a alternativa CORRETA que corresponde ao material descrito.",
+        "alternativas": {
+            "A": "Fita isolante.",
+            "B": "Solda fria.",
+            "C": "Pasta térmica.",
+            "D": "Cola de silicone."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A pasta térmica é aplicada entre o processador e o cooler para preencher microimperfeições, garantindo melhor contato e transferência de calor, evitando superaquecimento e danos ao componente."
+    },
+    {
+        "id": "2182904",
+        "enunciado": "Em uma situação em que o usuário percebe lentidão mesmo após formatação, qual componente é mais determinante para influenciar a velocidade de acesso aos dados?",
+        "alternativas": {
+            "A": "Placa de vídeo.",
+            "B": "Drive de DVD.",
+            "C": "Ventoinha de resfriamento.",
+            "D": "Fonte de alimentação.",
+            "E": "SSD ou HD."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O SSD (Solid State Drive) ou HD (Hard Disk Drive) é o principal componente responsável pela velocidade de acesso e leitura/escrita de dados no sistema, sendo mais determinante que placa de vídeo, drive de DVD, ventoinha ou fonte."
+    },
+    {
+        "id": "2149536",
+        "enunciado": "Um usuário de microcomputadores está montando um computador e precisa escolher a placa-mãe para esse computador. O critério de escolha tem a ver com um componente da placa-mãe que serve para definir a quantidade máxima de memória RAM; qual tipo de memória pode ser usada (se SDRAM, DDR-SDRAM, Rambus, etc.); qual a frequência máxima das memórias e do processador e qual o padrão de discos rígidos aceitos (se UDMA/33, UDMA/66, etc.). Esse componente é a(o):",
+        "alternativas": {
+            "A": "MIDI",
+            "B": "SATA",
+            "C": "Chipset",
+            "D": "Soquete"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O chipset é um conjunto de circuitos integrados na placa-mãe que gerencia a comunicação entre os componentes, incluindo a memória RAM, processador e discos rígidos."
+    },
+    {
+        "id": "2052324",
+        "enunciado": "Para a instalação de um nobreak que vai atender a um banco de servidores, foram definidas as seguintes características para esse equipamento:\n\n Proteger os servidores da falta de energia na rede elétrica ou tensão da rede elétrica fora das especificações.\n Utilizar continuamente o inversor para não ocorrer interrupção momentânea da energia aos servidores no caso de falta de energia na rede elétrica.\n Oferecer aos servidores uma energia de corrente alternada de qualidade, com baixa distorção harmônica, tensão e frequência rigorosamente controladas.\n Oferecer uma energia de corrente alternada para os servidores com amplitude e frequência independentes da entrada fornecida pela rede elétrica.\n\nAs características acima definem um nobreak :",
+        "alternativas": {
+            "A": "Off-line.",
+            "B": "On-line.",
+            "C": "Stand-by.",
+            "D": "Short-break .",
+            "E": "Monofásico ."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As características descritas (uso contínuo do inversor, energia independente da rede, baixa distorção, tensão e frequência controladas) são típicas de um nobreak do tipo On-line (ou dupla conversão), que sempre alimenta a carga através de seu inversor."
+    },
+    {
+        "id": "2394186",
+        "enunciado": "Sobre os componentes básicos do computador, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "a memória RAM é responsável pelo armazenamento permanente dos dados e mantém seu conteúdo mesmo sem energia.",
+            "B": "o processador (CPU) funciona exclusivamente como dispositivo de armazenamento, não tendo relação com execução de instruções.",
+            "C": "o HD ou SSD é um tipo de memória volátil, que perde todas as informações quando o computador é desligado.",
+            "D": "a placa de vídeo é o componente responsável pelo armazenamento dos programas que serão executados pelo sistema operacional.",
+            "E": "o HD e o SSD realizam o armazenamento permanente de dados, enquanto a memória RAM armazena temporariamente as informações em uso pelo sistema."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "HD/SSD guardam dados permanentemente. RAM guarda dados temporariamente para acesso rápido. As outras alternativas descrevem incorretamente a função da RAM, processador, HD/SSD e placa de vídeo."
+    },
+    {
+        "id": "2314243",
+        "enunciado": "Assinale a alternativa correta.",
+        "alternativas": {
+            "A": "A BIOS, por estar gravada em memória ROM, impede qualquer tipo de atualização, motivo pelo qual fabricantes utilizam exclusivamente versões imutáveis do firmware para evitar alterações posteriores e garantir que o sistema operacional seja carregado diretamente, sem testes prévios dos componentes.",
+            "B": "Os slots PCI Express utilizam canais de comunicação independentes, sendo que versões como 1x, 4x, 8x e 16x variam tanto na largura física quanto na taxa de transferência, de modo que um slot 16x alcança velocidades maiores que 4GB/s, dependendo da geração utilizada.",
+            "C": "O conector PS/2, apesar de presente em placas modernas, substitui a função do USB para dispositivos de áudio, razão pela qual costuma ser usado para microfones e caixas de som em conjunto com o conector azul multimídia.",
+            "D": "O conector IDE permanece como padrão principal para unidades de armazenamento de alta velocidade, sendo preferido aos conectores SATA por operar com taxas de transferência superiores e por permitir instalação de SSDs sem adaptadores."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os slots PCI Express possuem canais independentes com diferentes larguras (1x, 4x, 8x, 16x) que afetam tanto o tamanho físico quanto a taxa de transferência, sendo que 16x oferece a maior velocidade."
+    },
+    {
+        "id": "2385401",
+        "enunciado": "O gerente de compras de uma empresa de arquitetura precisa adquirir novos computadores para a equipe que trabalha com modelagem 3D e renderização de projetos. Ele deve considerar as especificações de hardware necessárias para executar softwares pesados, bem como a compatibilidade com os sistemas operacionais e aplicativos já utilizados pela empresa. A decisão deve equilibrar desempenho, custo e durabilidade dos equipamentos. Indique a ordem correta das afirmativas verdadeiras (V) ou falsas (F): I.A GPU (placa de vídeo) é um componente fundamental para acelerar processamento gráfico em aplicações de modelagem 3D. II.A memória RAM influencia diretamente na capacidade de trabalhar com arquivos grandes e múltiplos programas simultaneamente. III.SSDs oferecem menor capacidade de armazenamento que HDDs, mas proporcionam maior velocidade de acesso aos dados. IV.O processador (CPU) tem papel secundário em tarefas de renderização, sendo substituído completamente pela GPU nessas operações.",
+        "alternativas": {
+            "A": "F - V - F - V.",
+            "B": "V - V - V - F.",
+            "C": "V - F - V - V.",
+            "D": "V - V - F - F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "GPU é vital para gráficos 3D (V). RAM alta ajuda com arquivos pesados e multitarefa (V). SSDs são mais rápidos que HDDs, mas geralmente com menor capacidade (V). GPU tem papel crucial na renderização, mas a CPU também é importante (IV é F)."
+    },
+    {
+        "id": "2052341",
+        "enunciado": "No contexto da troca de peças de informática, ao substituir o processador, existe um material que vai aplicado entre o dissipador de calor e o processador. O trecho descreve qual material?",
+        "alternativas": {
+            "A": "Pasta térmica.",
+            "B": "Fita fixadora.",
+            "C": "Manta isolante.",
+            "D": "Malha de aterramento.",
+            "E": "Presilha de conexão ."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A pasta térmica é um composto aplicado entre a superfície do processador (CPU) e o dissipador de calor (cooler). Sua função é preencher as microimperfeições das superfícies, garantindo uma transferência de calor eficiente e evitando o superaquecimento do processador."
+    },
+    {
+        "id": "2384890",
+        "enunciado": "O gerente de compras de uma empresa de arquitetura precisa adquirir novos computadores para a equipe que trabalha com modelagem 3D e renderização de projetos. Ele deve considerar as especificações de hardware necessárias para executar softwares pesados, bem como a compatibilidade com os sistemas operacionais e aplicativos já utilizados pela empresa. A decisão deve equilibrar desempenho, custo e durabilidade dos equipamentos. Indique a ordem correta das afirmativas verdadeiras (V) ou falsas (F): I. A GPU (placa de vídeo) é um componente fundamental para acelerar processamento gráfico em aplicações de modelagem 3D. II. A memória RAM influencia diretamente na capacidade de trabalhar com arquivos grandes e múltiplos programas simultaneamente. III. SSDs oferecem menor capacidade de armazenamento que HDDs, mas proporcionam maior velocidade de acesso aos dados. IV. O processador (CPU) tem papel secundário em tarefas de renderização, sendo substituído completamente pela GPU nessas operações. (A) V - V - V - F. (B) V - F - V - V. (C) V - V - F - F. (D) F - V - F - V.",
+        "alternativas": {
+            "A": "V - V - V - F.",
+            "B": "V - F - V - V.",
+            "C": "V - V - F - F.",
+            "D": "F - V - F - V."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A GPU é crucial para gráficos (V), RAM para multitarefa (V), SSDs são rápidos mas com menor capacidade (F - menor capacidade não é verdade, eles são mais caros por GB, mas oferecem alta velocidade). O CPU tem papel crucial na renderização, não secundário (F)."
+    },
+    {
+        "id": "2039564",
+        "enunciado": "Em 1947, foi inventado um componente eletrônico com a capacidade de amplificar, atenuar ou controlar a corrente elétrica em circuitos eletrônicos, sendo um elemento fundamental para o desenvolvimento posterior dos sintetizadores. O nome desse componente é",
+        "alternativas": {
+            "A": "circuito impresso.",
+            "B": "válvula.",
+            "C": "resistor.",
+            "D": "transistor.",
+            "E": "condensador."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O componente eletrônico inventado em 1947, com a capacidade de amplificar, atenuar ou controlar a corrente elétrica em circuitos, é o transistor, que revolucionou a eletrônica e foi fundamental para o desenvolvimento de diversas tecnologias, incluindo os sintetizadores."
+    },
+    {
+        "id": "2119742",
+        "enunciado": "Considere um computador com as seguintes características: I. Intel Dual Core 2.8GHz; II. 4MB de cache; III. 8GB de RAM; IV. SSD de 500GB. Assinale a alternativa que associa corretamente as características acima ao tipo de componente.",
+        "alternativas": {
+            "A": "I - Dispositivo de Entrada/Saída; II - Memória Principal; III - Memória Secundária; IV - Dispositivo de Entrada/Saída.",
+            "B": "I - Processador; II - Memória Secundária; III - Memória Principal; IV - Dispositivo de Entrada/Saída.",
+            "C": "I - Memória Principal; II - Memória Principal; III - Memória Secundária; IV - Memória Secundária.",
+            "D": "I - Processador; II - Memória Principal; III - Memória Principal; IV - Memória Secundária."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O item I (Intel Dual Core 2.8GHz) refere-se ao processador. O item II (4MB de cache) é uma memória associada ao processador (Memória Principal/Cache). O item III (8GB de RAM) é a memória principal. O item IV (SSD de 500GB) é um dispositivo de armazenamento (Memória Secundária)."
+    },
+    {
+        "id": "1280122",
+        "enunciado": "O odômetro total:",
+        "alternativas": {
+            "A": "Indica a quantidade de giros do motor em RPM.",
+            "B": "Indica a velocidade do veículo em movimento.",
+            "C": "Indica a quilometragem total percorrida pelo veículo desde sua fabricação.",
+            "D": "Controla a temperatura da água de arrefecimento (resfriamento) do motor.",
+            "E": "Marca a quantidade de combustível no tanque."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O odometro total registra a quilometragem acumulada desde a fabricação do veículo, indicando o histórico de uso."
+    },
+    {
+        "id": "2213306",
+        "enunciado": "Um equipamento avariado necessita ter o transformador da fonte substituído. Devido aos aspectos construtivos do equipamento em questão, será necessário confeccionar um novo, observando-se as características do transformador original. O transformador original é monofásico e, para fins de projeto, será considerado ideal, tem tensão no primário de 220 V e tensão no secundário de 11 V. O secundário do transformador original tem 50 espiras e alimentará uma carga de 500 W. Para confecção do novo transformador, assinale a alternativa que apresenta, correta e respectivamente, o número de espiras no primário (N1), a corrente circulante do primário (IP) e a corrente circulante do secundário (IS) do transformador.",
+        "alternativas": {
+            "A": "N1: 1000 espiras – IP = 2,27 A – IS = 45,45 A.",
+            "B": "N1: 1200 espiras – IP = 2,5 A – IS = 50 A.",
+            "C": "N1: 50000 espiras – IP = 250 A – IS = 0,25 A.",
+            "D": "N1: 500 espiras – IP = 0,25 A – IS = 2,5 A.",
+            "E": "N1: 50 milhões de espiras – IP = 250k A – IS = 2,5M A."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O numero de espiras no primario (N1) e calculado pela razao de tensao: N1 = N2 * (V1/V2) = 50 * (220/11) = 1000. A corrente no secundario (IS) e dada pela potencia dividida pela tensao: IS = P/V2 = 500W/11V = 45,45A. A corrente no primario (IP) e: IP = IS * (N2/N1) = 45,45A * (50/1000) = 2,27A."
+    },
+    {
+        "id": "1996606",
+        "enunciado": "Qual é o dispositivo de segurança que interrompe o fluxo de corrente elétrica em caso de sobrecarga em um circuito?",
+        "alternativas": {
+            "A": "Resistor.",
+            "B": "Fusível.",
+            "C": "Indutor.",
+            "D": "Transistor."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O fusível é projetado para se romper e interromper o circuito quando a corrente elétrica excede um limite seguro. Resistor, indutor e transistor são componentes eletrônicos com outras funções elétricas."
+    },
+    {
+        "id": "2022953",
+        "enunciado": "Assinale a alternativa abaixo que não faz parte dos componentes do sistema de transmissão de um veículo:",
+        "alternativas": {
+            "A": "Embreagem.",
+            "B": "Homocinéticas.",
+            "C": "Diferencial.",
+            "D": "Semi-árvores.",
+            "E": "Amortecedores."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Amortecedores são componentes do sistema de suspensão, responsáveis por controlar os movimentos da mola e absorver impactos, garantindo conforto e estabilidade. Os demais itens listados (embreagem, homocinéticas, diferencial e semi-árvores) fazem parte do sistema de transmissão do veículo."
+    },
+    {
+        "id": "2022956",
+        "enunciado": "O sistema da suspensão conecta as rodas ao chassi do veículo. Dentre os seus componentes, aquele que tem a função de que o veículo tenha deslocamento lateral, principalmente em curvas, é:",
+        "alternativas": {
+            "A": "O amortecedor.",
+            "B": "A barra estabilizadora.",
+            "C": "As molas de suspensão.",
+            "D": "Os coxins.",
+            "E": "O semi-eixo."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A barra estabilizadora conecta as duas suspensões, reduzindo a rolagem da carroceria em curvas. Isso contribui para a estabilidade lateral do veículo, mantendo-o mais nivelado e controlável."
+    },
+    {
+        "id": "2022958",
+        "enunciado": "Não proporciona frenagem rápida, pois apenas facilita a ação, quando é pressionado o pedal. É operado quando se pisa no pedal do freio, através do vácuo do motor, por isso, não atua com o motor desligado. As características descritas anteriormente, referem-se a que componente do sistema de freios de um veículo automotor?",
+        "alternativas": {
+            "A": "Disco de freio.",
+            "B": "Pastilhas de freio.",
+            "C": "Cilindro-mestre.",
+            "D": "Cubo dos freios.",
+            "E": "Servofreio."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O servofreio, também conhecido como hidrovácuo, utiliza o vácuo do motor para auxiliar a frenagem, tornando-a mais eficiente quando o pedal é pressionado. Ele não atua com o motor desligado, pois depende do vácuo gerado. As outras opções são componentes do sistema de freio, mas não as que se encaixam nas descrições."
+    },
+    {
+        "id": "2022960",
+        "enunciado": "Em um motor a diesel, o intercooler tem a seguinte função:",
+        "alternativas": {
+            "A": "Resfriar o ar proveniente do turbocompressor.",
+            "B": "Impulsionar o rotor quente fazendo que o rotor frio, impulsione o ar para os cilindros.",
+            "C": "Conduzir o ar filtrado até os cilindros do motor.",
+            "D": "Enviar o combustível para os bicos injetores.",
+            "E": "Dosar o combustível de acordo com as necessidades do motor."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O intercooler é um trocador de calor localizado entre o turbocompressor e os cilindros do motor. Sua função é reduzir a temperatura do ar comprimido pelo turbo antes que ele entre nos cilindros, aumentando a densidade e a eficiência da combustão."
+    },
+    {
+        "id": "2022963",
+        "enunciado": "O componente do motor responsável por conduzir a mistura de ar/combustível para o interior dos cilindros, é denominado de:",
+        "alternativas": {
+            "A": "Pressostato.",
+            "B": "Motor de partida.",
+            "C": "Coletor de admissão.",
+            "D": "Bomba de combustível.",
+            "E": "Carburador"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O coletor de admissão é o componente responsável por guiar a mistura de ar e combustível para dentro dos cilindros do motor."
+    },
+    {
+        "id": "1998931",
+        "enunciado": "(Mecânica) Presentes no lado exterior (pistão) e interior (cilindro). Trabalham para ajudar na mistura entre combustível e ar, fazendo com que não vaze nada ao cárter durante a compressão. São importantes no motor do carro, atuam para administrar o ciclo da combustão e os gases que saem dos escapamentos. O trecho refere-se:",
+        "alternativas": {
+            "A": "Anéis de segmento.",
+            "B": "Cabeçote.",
+            "C": "Cilindros.",
+            "D": "Virabrequim.",
+            "E": "Câmaras de combustão."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O texto descreve os anéis de segmento, que ficam no pistão e cilindro, controlam vazamentos de óleo e auxiliam na compressão e na saída de gases."
+    },
+    {
+        "id": "2148004",
+        "enunciado": "Assinale a alternativa que contemple um componente do sistema de suspensão de um veículo automotor.",
+        "alternativas": {
+            "A": "Mancal traseiro.",
+            "B": "Eixo piloto.",
+            "C": "Rotor.",
+            "D": "Tensor.",
+            "E": "Bieleta."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A bieleta é um componente do sistema de suspensão de veículos automotores, ligando a suspensão à barra estabilizadora."
+    },
+    {
+        "id": "2121039",
+        "enunciado": "Sabemos que o filtro de ar é peça importante para a vida útil e um bom funcionamento do motor. Baseado nesta afirmativa, marque a alternativa que melhor define a função do filtro de ar.",
+        "alternativas": {
+            "A": "Filtrar as impurezas de combustível.",
+            "B": "Eliminar as partículas sólidas do óleo lubrificante.",
+            "C": "Auxiliar na partida a frio.",
+            "D": "Reter as partículas do ar admitido pelo motor."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O filtro de ar tem como função principal impedir que partículas sólidas presentes no ar que é admitido para a combustão do motor as danifiquem, garantindo o bom funcionamento."
+    },
+    {
+        "id": "2121041",
+        "enunciado": "O filtro de óleo lubrificante tem como função:",
+        "alternativas": {
+            "A": "Retirar as impurezas do óleo.",
+            "B": "Tornar o óleo mais viçoso.",
+            "C": "Movimentar o óleo do motor.",
+            "D": "Movimentar os pistões hidráulicos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O filtro de óleo tem a função fundamental de reter impurezas e partículas metálicas resultantes do atrito das peças do motor, garantindo a limpeza do óleo e a lubrificação adequada."
+    },
+    {
+        "id": "2147210",
+        "enunciado": "Qual é a função de um slot PCI Express em uma placa-mãe?",
+        "alternativas": {
+            "A": "Controle dos LEDs informativos.",
+            "B": "Leitura de dados do disco rígido.",
+            "C": "Fornecimento de Energia.",
+            "D": "Permitir acoplar um componente.",
+            "E": "Envio de comandos ao processador."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um slot PCI Express (Peripheral Component Interconnect Express) em uma placa-mãe é um conector padronizado que permite acoplar e conectar diversos tipos de componentes de hardware, como placas de vídeo, placas de som ou placas de rede, expandindo as funcionalidades do computador."
+    },
+    {
+        "id": "2121048",
+        "enunciado": "Marque a alternativa que contém somente elementos do sistema elétrico do automóvel.",
+        "alternativas": {
+            "A": "Bateria, motor de partida.",
+            "B": "Alternador, correia dentada.",
+            "C": "Fiação, bronzina.",
+            "D": "Farol, mola helicoidal."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A bateria fornece energia para o sistema, e o motor de partida é o componente que utiliza essa energia para dar a partida inicial no motor a combustão. Ambos são essenciais no sistema de partida elétrica do automóvel."
+    },
+    {
+        "id": "2082270",
+        "enunciado": "Durante uma análise de desempenho de um computador, observou‑se que, mesmo com bastante memória RAM instalada e um processador de última geração, o sistema apresentava lentidão ao executar múltiplas tarefas que envolvem acesso a arquivos grandes e transferências de dados. Com base nessa situação hipotética e considerando os componentes de hardware e seus papéis no desempenho geral, assinale a opção que apresenta o gargalo do sistema.",
+        "alternativas": {
+            "A": "placa de vídeo  (GPU) com alto desempenho gráfico, mas com pouca VRAM disponível",
+            "B": "disco rígido mecânico  (HDD) com interface SATA II, mesmo com bastante espaço livre",
+            "C": "memória RAM com frequência compatível com a placa‑mãe, mas sem dual‑channel  ativado",
+            "D": "fonte de alimentação  (PSU) com potência nominal abaixo da recomendada para o sistema",
+            "E": "chipset da placa‑mãe incompatível com o padrão DDR4 da RAM utilizada"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A lentidao ao acessar arquivos grandes e fazer transferencias de dados, mesmo com bom processador e RAM, aponta para o disco rigido (HDD) como gargalo. Interfaces SATA II sao lentas comparadas a padroes mais recentes, limitando a velocidade de leitura/escrita."
+    },
+    {
+        "id": "2282001",
+        "enunciado": "Em uma estação de trabalho voltada à digitalização de acervos históricos, foram utilizados os seguintes componentes: scanner de mesa para captura de documentos físicos; monitor para conferência visual do material digitalizado; unidade SSD interna para armazenamento local; unidade de fita magnética (LTO) para cópias de segurança; impressora a laser para geração de cópias físicas. Considerando a classificação correta desses dispositivos quanto às suas funções no fluxo de dados, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "Todos os dispositivos citados são de entrada e saída, pois podem enviar e receber dados do sistema.",
+            "B": "Scanner, SSD e fita magnética são dispositivos de entrada e saída; monitor é apenas de saída; impressora é apenas de armazenamento.",
+            "C": "O Scanner e o monitor possuem armazenamento primário; SSD é entrada/saída; fita magnética é apenas de saída; impressora é entrada.",
+            "D": "Scanner é dispositivo de entrada; monitor e impressora são dispositivos de saída; SSD e fita magnética são dispositivos de armazenamento.",
+            "E": "Scanner e impressora são dispositivos de entrada; monitor é armazenamento; SSD e fita magnética são dispositivos de saída."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O scanner captura dados do mundo físico para o digital (entrada). Monitor e impressora exibem dados do digital para o físico (saída). SSD e fita magnética guardam dados (armazenamento)."
+    },
+    {
+        "id": "2120491",
+        "enunciado": "Um processador é o núcleo vital de todas as operações de um computador. Simplificando, é a mente mestra que impulsiona todas as funcionalidades. Se já se questionou como seu computador consegue executar diversas tarefas, a resposta é o processador. Ele processa e executa instruções de software, viabilizando uma ampla gama de atividades, desde abrir navegadores até rodar aplicativos complexos. Sobre os processadores, trata-se de um fabricante conhecido mundialmente e que, ainda, produz processadores usados em notebooks, computadores e servidores:",
+        "alternativas": {
+            "A": "BYD.",
+            "B": "Intel.",
+            "C": "Seagate.",
+            "D": "SanDisk."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A Intel é um dos fabricantes de processadores mais conhecidos mundialmente e produz unidades de processamento amplamente utilizadas em notebooks, computadores e servidores."
+    },
+    {
+        "id": "2329689",
+        "enunciado": "Ao montar um computador, é necessário saber as funções que cada peça vai exercer no conjunto. Sabendo disso, o componente que é responsável por fornecer energia para todos os demais componentes é chamado de:",
+        "alternativas": {
+            "A": "Placa Mãe.",
+            "B": "Processador.",
+            "C": "Memória RAM.",
+            "D": "Fonte de alimentação."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A fonte de alimentação (ou PSU - Power Supply Unit) tem a função de converter a corrente elétrica da tomada em voltagens adequadas para todos os componentes do computador, como placa-mãe, processador, HDs, etc. Sem ela, nenhum componente funciona."
+    },
+    {
+        "id": "2183245",
+        "enunciado": "Em uma situação em que o usuário percebe lentidão mesmo após formatação, qual componente é mais determinante para influenciar a velocidade de acesso aos dados?",
+        "alternativas": {
+            "A": "Ventoinha de resfriamento.",
+            "B": "SSD ou HD.",
+            "C": "Drive de DVD.",
+            "D": "Placa de vídeo.",
+            "E": "Fonte de alimentação."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O SSD (Solid State Drive) ou HD (Hard Disk Drive) é o componente responsável pelo armazenamento de dados. Um SSD oferece velocidades de acesso significativamente maiores que um HD, sendo o fator mais determinante para a lentidão do sistema em relação ao acesso a dados."
+    },
+    {
+        "id": "2362077",
+        "enunciado": "Esse material preenche as micro imperfeiçoes nas superfícies de contato, melhorando a condução térmica e evitando o superaquecimento do processador, o que poderia causar instabilidade no sistema ou danos permanentes ao componente. Marque a alternativa CORRETA que corresponde ao material descrito.",
+        "alternativas": {
+            "A": "Fita isolante.",
+            "B": "Solda fria.",
+            "C": "Pasta térmica.",
+            "D": "Cola de silicone."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A pasta térmica é aplicada entre o processador e o cooler para preencher microimperfeições, garantindo melhor contato e transferência de calor, evitando superaquecimento e danos ao componente."
+    },
+    {
+        "id": "2182904",
+        "enunciado": "Em uma situação em que o usuário percebe lentidão mesmo após formatação, qual componente é mais determinante para influenciar a velocidade de acesso aos dados?",
+        "alternativas": {
+            "A": "Placa de vídeo.",
+            "B": "Drive de DVD.",
+            "C": "Ventoinha de resfriamento.",
+            "D": "Fonte de alimentação.",
+            "E": "SSD ou HD."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O SSD (Solid State Drive) ou HD (Hard Disk Drive) é o principal componente responsável pela velocidade de acesso e leitura/escrita de dados no sistema, sendo mais determinante que placa de vídeo, drive de DVD, ventoinha ou fonte."
+    },
+    {
+        "id": "2149536",
+        "enunciado": "Um usuário de microcomputadores está montando um computador e precisa escolher a placa-mãe para esse computador. O critério de escolha tem a ver com um componente da placa-mãe que serve para definir a quantidade máxima de memória RAM; qual tipo de memória pode ser usada (se SDRAM, DDR-SDRAM, Rambus, etc.); qual a frequência máxima das memórias e do processador e qual o padrão de discos rígidos aceitos (se UDMA/33, UDMA/66, etc.). Esse componente é a(o):",
+        "alternativas": {
+            "A": "MIDI",
+            "B": "SATA",
+            "C": "Chipset",
+            "D": "Soquete"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O chipset é um conjunto de circuitos integrados na placa-mãe que gerencia a comunicação entre os componentes, incluindo a memória RAM, processador e discos rígidos."
+    },
+    {
+        "id": "2052324",
+        "enunciado": "Para a instalação de um nobreak que vai atender a um banco de servidores, foram definidas as seguintes características para esse equipamento:\n\n Proteger os servidores da falta de energia na rede elétrica ou tensão da rede elétrica fora das especificações.\n Utilizar continuamente o inversor para não ocorrer interrupção momentânea da energia aos servidores no caso de falta de energia na rede elétrica.\n Oferecer aos servidores uma energia de corrente alternada de qualidade, com baixa distorção harmônica, tensão e frequência rigorosamente controladas.\n Oferecer uma energia de corrente alternada para os servidores com amplitude e frequência independentes da entrada fornecida pela rede elétrica.\n\nAs características acima definem um nobreak :",
+        "alternativas": {
+            "A": "Off-line.",
+            "B": "On-line.",
+            "C": "Stand-by.",
+            "D": "Short-break .",
+            "E": "Monofásico ."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As características descritas (uso contínuo do inversor, energia independente da rede, baixa distorção, tensão e frequência controladas) são típicas de um nobreak do tipo On-line (ou dupla conversão), que sempre alimenta a carga através de seu inversor."
+    },
+    {
+        "id": "2394186",
+        "enunciado": "Sobre os componentes básicos do computador, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "a memória RAM é responsável pelo armazenamento permanente dos dados e mantém seu conteúdo mesmo sem energia.",
+            "B": "o processador (CPU) funciona exclusivamente como dispositivo de armazenamento, não tendo relação com execução de instruções.",
+            "C": "o HD ou SSD é um tipo de memória volátil, que perde todas as informações quando o computador é desligado.",
+            "D": "a placa de vídeo é o componente responsável pelo armazenamento dos programas que serão executados pelo sistema operacional.",
+            "E": "o HD e o SSD realizam o armazenamento permanente de dados, enquanto a memória RAM armazena temporariamente as informações em uso pelo sistema."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "HD/SSD guardam dados permanentemente. RAM guarda dados temporariamente para acesso rápido. As outras alternativas descrevem incorretamente a função da RAM, processador, HD/SSD e placa de vídeo."
+    },
+    {
+        "id": "2314243",
+        "enunciado": "Assinale a alternativa correta.",
+        "alternativas": {
+            "A": "A BIOS, por estar gravada em memória ROM, impede qualquer tipo de atualização, motivo pelo qual fabricantes utilizam exclusivamente versões imutáveis do firmware para evitar alterações posteriores e garantir que o sistema operacional seja carregado diretamente, sem testes prévios dos componentes.",
+            "B": "Os slots PCI Express utilizam canais de comunicação independentes, sendo que versões como 1x, 4x, 8x e 16x variam tanto na largura física quanto na taxa de transferência, de modo que um slot 16x alcança velocidades maiores que 4GB/s, dependendo da geração utilizada.",
+            "C": "O conector PS/2, apesar de presente em placas modernas, substitui a função do USB para dispositivos de áudio, razão pela qual costuma ser usado para microfones e caixas de som em conjunto com o conector azul multimídia.",
+            "D": "O conector IDE permanece como padrão principal para unidades de armazenamento de alta velocidade, sendo preferido aos conectores SATA por operar com taxas de transferência superiores e por permitir instalação de SSDs sem adaptadores."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os slots PCI Express possuem canais independentes com diferentes larguras (1x, 4x, 8x, 16x) que afetam tanto o tamanho físico quanto a taxa de transferência, sendo que 16x oferece a maior velocidade."
+    },
+    {
+        "id": "2385401",
+        "enunciado": "O gerente de compras de uma empresa de arquitetura precisa adquirir novos computadores para a equipe que trabalha com modelagem 3D e renderização de projetos. Ele deve considerar as especificações de hardware necessárias para executar softwares pesados, bem como a compatibilidade com os sistemas operacionais e aplicativos já utilizados pela empresa. A decisão deve equilibrar desempenho, custo e durabilidade dos equipamentos. Indique a ordem correta das afirmativas verdadeiras (V) ou falsas (F): I.A GPU (placa de vídeo) é um componente fundamental para acelerar processamento gráfico em aplicações de modelagem 3D. II.A memória RAM influencia diretamente na capacidade de trabalhar com arquivos grandes e múltiplos programas simultaneamente. III.SSDs oferecem menor capacidade de armazenamento que HDDs, mas proporcionam maior velocidade de acesso aos dados. IV.O processador (CPU) tem papel secundário em tarefas de renderização, sendo substituído completamente pela GPU nessas operações.",
+        "alternativas": {
+            "A": "F - V - F - V.",
+            "B": "V - V - V - F.",
+            "C": "V - F - V - V.",
+            "D": "V - V - F - F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "GPU é vital para gráficos 3D (V). RAM alta ajuda com arquivos pesados e multitarefa (V). SSDs são mais rápidos que HDDs, mas geralmente com menor capacidade (V). GPU tem papel crucial na renderização, mas a CPU também é importante (IV é F)."
+    },
+    {
+        "id": "2052341",
+        "enunciado": "No contexto da troca de peças de informática, ao substituir o processador, existe um material que vai aplicado entre o dissipador de calor e o processador. O trecho descreve qual material?",
+        "alternativas": {
+            "A": "Pasta térmica.",
+            "B": "Fita fixadora.",
+            "C": "Manta isolante.",
+            "D": "Malha de aterramento.",
+            "E": "Presilha de conexão ."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A pasta térmica é um composto aplicado entre a superfície do processador (CPU) e o dissipador de calor (cooler). Sua função é preencher as microimperfeições das superfícies, garantindo uma transferência de calor eficiente e evitando o superaquecimento do processador."
+    },
+    {
+        "id": "2384890",
+        "enunciado": "O gerente de compras de uma empresa de arquitetura precisa adquirir novos computadores para a equipe que trabalha com modelagem 3D e renderização de projetos. Ele deve considerar as especificações de hardware necessárias para executar softwares pesados, bem como a compatibilidade com os sistemas operacionais e aplicativos já utilizados pela empresa. A decisão deve equilibrar desempenho, custo e durabilidade dos equipamentos. Indique a ordem correta das afirmativas verdadeiras (V) ou falsas (F): I. A GPU (placa de vídeo) é um componente fundamental para acelerar processamento gráfico em aplicações de modelagem 3D. II. A memória RAM influencia diretamente na capacidade de trabalhar com arquivos grandes e múltiplos programas simultaneamente. III. SSDs oferecem menor capacidade de armazenamento que HDDs, mas proporcionam maior velocidade de acesso aos dados. IV. O processador (CPU) tem papel secundário em tarefas de renderização, sendo substituído completamente pela GPU nessas operações. (A) V - V - V - F. (B) V - F - V - V. (C) V - V - F - F. (D) F - V - F - V.",
+        "alternativas": {
+            "A": "V - V - V - F.",
+            "B": "V - F - V - V.",
+            "C": "V - V - F - F.",
+            "D": "F - V - F - V."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A GPU é crucial para gráficos (V), RAM para multitarefa (V), SSDs são rápidos mas com menor capacidade (F - menor capacidade não é verdade, eles são mais caros por GB, mas oferecem alta velocidade). O CPU tem papel crucial na renderização, não secundário (F)."
+    },
+    {
+        "id": "2039564",
+        "enunciado": "Em 1947, foi inventado um componente eletrônico com a capacidade de amplificar, atenuar ou controlar a corrente elétrica em circuitos eletrônicos, sendo um elemento fundamental para o desenvolvimento posterior dos sintetizadores. O nome desse componente é",
+        "alternativas": {
+            "A": "circuito impresso.",
+            "B": "válvula.",
+            "C": "resistor.",
+            "D": "transistor.",
+            "E": "condensador."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O componente eletrônico inventado em 1947, com a capacidade de amplificar, atenuar ou controlar a corrente elétrica em circuitos, é o transistor, que revolucionou a eletrônica e foi fundamental para o desenvolvimento de diversas tecnologias, incluindo os sintetizadores."
+    },
+    {
+        "id": "2119742",
+        "enunciado": "Considere um computador com as seguintes características: I. Intel Dual Core 2.8GHz; II. 4MB de cache; III. 8GB de RAM; IV. SSD de 500GB. Assinale a alternativa que associa corretamente as características acima ao tipo de componente.",
+        "alternativas": {
+            "A": "I - Dispositivo de Entrada/Saída; II - Memória Principal; III - Memória Secundária; IV - Dispositivo de Entrada/Saída.",
+            "B": "I - Processador; II - Memória Secundária; III - Memória Principal; IV - Dispositivo de Entrada/Saída.",
+            "C": "I - Memória Principal; II - Memória Principal; III - Memória Secundária; IV - Memória Secundária.",
+            "D": "I - Processador; II - Memória Principal; III - Memória Principal; IV - Memória Secundária."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O item I (Intel Dual Core 2.8GHz) refere-se ao processador. O item II (4MB de cache) é uma memória associada ao processador (Memória Principal/Cache). O item III (8GB de RAM) é a memória principal. O item IV (SSD de 500GB) é um dispositivo de armazenamento (Memória Secundária)."
+    },
+    {
+        "id": "1280122",
+        "enunciado": "O odômetro total:",
+        "alternativas": {
+            "A": "Indica a quantidade de giros do motor em RPM.",
+            "B": "Indica a velocidade do veículo em movimento.",
+            "C": "Indica a quilometragem total percorrida pelo veículo desde sua fabricação.",
+            "D": "Controla a temperatura da água de arrefecimento (resfriamento) do motor.",
+            "E": "Marca a quantidade de combustível no tanque."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O odometro total registra a quilometragem acumulada desde a fabricação do veículo, indicando o histórico de uso."
+    },
+    {
+        "id": "2213306",
+        "enunciado": "Um equipamento avariado necessita ter o transformador da fonte substituído. Devido aos aspectos construtivos do equipamento em questão, será necessário confeccionar um novo, observando-se as características do transformador original. O transformador original é monofásico e, para fins de projeto, será considerado ideal, tem tensão no primário de 220 V e tensão no secundário de 11 V. O secundário do transformador original tem 50 espiras e alimentará uma carga de 500 W. Para confecção do novo transformador, assinale a alternativa que apresenta, correta e respectivamente, o número de espiras no primário (N1), a corrente circulante do primário (IP) e a corrente circulante do secundário (IS) do transformador.",
+        "alternativas": {
+            "A": "N1: 1000 espiras – IP = 2,27 A – IS = 45,45 A.",
+            "B": "N1: 1200 espiras – IP = 2,5 A – IS = 50 A.",
+            "C": "N1: 50000 espiras – IP = 250 A – IS = 0,25 A.",
+            "D": "N1: 500 espiras – IP = 0,25 A – IS = 2,5 A.",
+            "E": "N1: 50 milhões de espiras – IP = 250k A – IS = 2,5M A."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O numero de espiras no primario (N1) e calculado pela razao de tensao: N1 = N2 * (V1/V2) = 50 * (220/11) = 1000. A corrente no secundario (IS) e dada pela potencia dividida pela tensao: IS = P/V2 = 500W/11V = 45,45A. A corrente no primario (IP) e: IP = IS * (N2/N1) = 45,45A * (50/1000) = 2,27A."
+    },
+    {
+        "id": "1996606",
+        "enunciado": "Qual é o dispositivo de segurança que interrompe o fluxo de corrente elétrica em caso de sobrecarga em um circuito?",
+        "alternativas": {
+            "A": "Resistor.",
+            "B": "Fusível.",
+            "C": "Indutor.",
+            "D": "Transistor."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O fusível é projetado para se romper e interromper o circuito quando a corrente elétrica excede um limite seguro. Resistor, indutor e transistor são componentes eletrônicos com outras funções elétricas."
+    },
+    {
+        "id": "2022953",
+        "enunciado": "Assinale a alternativa abaixo que não faz parte dos componentes do sistema de transmissão de um veículo:",
+        "alternativas": {
+            "A": "Embreagem.",
+            "B": "Homocinéticas.",
+            "C": "Diferencial.",
+            "D": "Semi-árvores.",
+            "E": "Amortecedores."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Amortecedores são componentes do sistema de suspensão, responsáveis por controlar os movimentos da mola e absorver impactos, garantindo conforto e estabilidade. Os demais itens listados (embreagem, homocinéticas, diferencial e semi-árvores) fazem parte do sistema de transmissão do veículo."
+    },
+    {
+        "id": "2022956",
+        "enunciado": "O sistema da suspensão conecta as rodas ao chassi do veículo. Dentre os seus componentes, aquele que tem a função de que o veículo tenha deslocamento lateral, principalmente em curvas, é:",
+        "alternativas": {
+            "A": "O amortecedor.",
+            "B": "A barra estabilizadora.",
+            "C": "As molas de suspensão.",
+            "D": "Os coxins.",
+            "E": "O semi-eixo."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A barra estabilizadora conecta as duas suspensões, reduzindo a rolagem da carroceria em curvas. Isso contribui para a estabilidade lateral do veículo, mantendo-o mais nivelado e controlável."
+    },
+    {
+        "id": "2022958",
+        "enunciado": "Não proporciona frenagem rápida, pois apenas facilita a ação, quando é pressionado o pedal. É operado quando se pisa no pedal do freio, através do vácuo do motor, por isso, não atua com o motor desligado. As características descritas anteriormente, referem-se a que componente do sistema de freios de um veículo automotor?",
+        "alternativas": {
+            "A": "Disco de freio.",
+            "B": "Pastilhas de freio.",
+            "C": "Cilindro-mestre.",
+            "D": "Cubo dos freios.",
+            "E": "Servofreio."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O servofreio, também conhecido como hidrovácuo, utiliza o vácuo do motor para auxiliar a frenagem, tornando-a mais eficiente quando o pedal é pressionado. Ele não atua com o motor desligado, pois depende do vácuo gerado. As outras opções são componentes do sistema de freio, mas não as que se encaixam nas descrições."
+    },
+    {
+        "id": "2022960",
+        "enunciado": "Em um motor a diesel, o intercooler tem a seguinte função:",
+        "alternativas": {
+            "A": "Resfriar o ar proveniente do turbocompressor.",
+            "B": "Impulsionar o rotor quente fazendo que o rotor frio, impulsione o ar para os cilindros.",
+            "C": "Conduzir o ar filtrado até os cilindros do motor.",
+            "D": "Enviar o combustível para os bicos injetores.",
+            "E": "Dosar o combustível de acordo com as necessidades do motor."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O intercooler é um trocador de calor localizado entre o turbocompressor e os cilindros do motor. Sua função é reduzir a temperatura do ar comprimido pelo turbo antes que ele entre nos cilindros, aumentando a densidade e a eficiência da combustão."
+    },
+    {
+        "id": "2022963",
+        "enunciado": "O componente do motor responsável por conduzir a mistura de ar/combustível para o interior dos cilindros, é denominado de:",
+        "alternativas": {
+            "A": "Pressostato.",
+            "B": "Motor de partida.",
+            "C": "Coletor de admissão.",
+            "D": "Bomba de combustível.",
+            "E": "Carburador"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O coletor de admissão é o componente responsável por guiar a mistura de ar e combustível para dentro dos cilindros do motor."
+    },
+    {
+        "id": "1998931",
+        "enunciado": "(Mecânica) Presentes no lado exterior (pistão) e interior (cilindro). Trabalham para ajudar na mistura entre combustível e ar, fazendo com que não vaze nada ao cárter durante a compressão. São importantes no motor do carro, atuam para administrar o ciclo da combustão e os gases que saem dos escapamentos. O trecho refere-se:",
+        "alternativas": {
+            "A": "Anéis de segmento.",
+            "B": "Cabeçote.",
+            "C": "Cilindros.",
+            "D": "Virabrequim.",
+            "E": "Câmaras de combustão."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O texto descreve os anéis de segmento, que ficam no pistão e cilindro, controlam vazamentos de óleo e auxiliam na compressão e na saída de gases."
+    },
+    {
+        "id": "2148004",
+        "enunciado": "Assinale a alternativa que contemple um componente do sistema de suspensão de um veículo automotor.",
+        "alternativas": {
+            "A": "Mancal traseiro.",
+            "B": "Eixo piloto.",
+            "C": "Rotor.",
+            "D": "Tensor.",
+            "E": "Bieleta."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A bieleta é um componente do sistema de suspensão de veículos automotores, ligando a suspensão à barra estabilizadora."
+    },
+    {
+        "id": "2121039",
+        "enunciado": "Sabemos que o filtro de ar é peça importante para a vida útil e um bom funcionamento do motor. Baseado nesta afirmativa, marque a alternativa que melhor define a função do filtro de ar.",
+        "alternativas": {
+            "A": "Filtrar as impurezas de combustível.",
+            "B": "Eliminar as partículas sólidas do óleo lubrificante.",
+            "C": "Auxiliar na partida a frio.",
+            "D": "Reter as partículas do ar admitido pelo motor."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O filtro de ar tem como função principal impedir que partículas sólidas presentes no ar que é admitido para a combustão do motor as danifiquem, garantindo o bom funcionamento."
+    },
+    {
+        "id": "2121041",
+        "enunciado": "O filtro de óleo lubrificante tem como função:",
+        "alternativas": {
+            "A": "Retirar as impurezas do óleo.",
+            "B": "Tornar o óleo mais viçoso.",
+            "C": "Movimentar o óleo do motor.",
+            "D": "Movimentar os pistões hidráulicos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O filtro de óleo tem a função fundamental de reter impurezas e partículas metálicas resultantes do atrito das peças do motor, garantindo a limpeza do óleo e a lubrificação adequada."
+    },
+    {
+        "id": "2147210",
+        "enunciado": "Qual é a função de um slot PCI Express em uma placa-mãe?",
+        "alternativas": {
+            "A": "Controle dos LEDs informativos.",
+            "B": "Leitura de dados do disco rígido.",
+            "C": "Fornecimento de Energia.",
+            "D": "Permitir acoplar um componente.",
+            "E": "Envio de comandos ao processador."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um slot PCI Express (Peripheral Component Interconnect Express) em uma placa-mãe é um conector padronizado que permite acoplar e conectar diversos tipos de componentes de hardware, como placas de vídeo, placas de som ou placas de rede, expandindo as funcionalidades do computador."
+    },
+    {
+        "id": "2121048",
+        "enunciado": "Marque a alternativa que contém somente elementos do sistema elétrico do automóvel.",
+        "alternativas": {
+            "A": "Bateria, motor de partida.",
+            "B": "Alternador, correia dentada.",
+            "C": "Fiação, bronzina.",
+            "D": "Farol, mola helicoidal."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A bateria fornece energia para o sistema, e o motor de partida é o componente que utiliza essa energia para dar a partida inicial no motor a combustão. Ambos são essenciais no sistema de partida elétrica do automóvel."
+    },
+    {
+        "id": "2098236",
+        "enunciado": "A utilização do silício na construção de equipamentos eletrônicos é fato conhecido na engenharia, porém ele é utilizado dopado com outros materiais, para otimizar sua aplicação. A alternativa que contém DOIS materiais usados no processo de dopagem é a seguinte:",
+        "alternativas": {
+            "A": "Fósforo, índio, ferro, alumínio.",
+            "B": "Fósforo, ferro, alumínio, prata.",
+            "C": "Ouro, índio, alumínio, ferro.",
+            "D": "Ouro, fósforo, alumínio, ferro.",
+            "E": "Alumínio, ouro, ferro, chumbo."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Fósforo (grupo V) e alumínio (grupo III) são elementos comumente usados para dopar o silício (grupo IV), criando semicondutores tipo N (fósforo) e tipo P (alumínio). Ferro e índio também podem ser usados em certas aplicações de dopagem."
+    },
+    {
+        "id": "2127463",
+        "enunciado": "Em uma máquina pesada, chamamos popularmente de “sapata” o componente técnico denominado:",
+        "alternativas": {
+            "A": "Braço.",
+            "B": "Castelo.",
+            "C": "Estabilizador.",
+            "D": "Lança."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A 'sapata' é o termo popular para o estabilizador, componente que aumenta a área de apoio da máquina pesada."
+    },
+    {
+        "id": "1463024",
+        "enunciado": "Qual a tensão necessária na placa mãe para que seja alimentado de forma correta o funcionamento do cooler do processador?",
+        "alternativas": {
+            "A": "+3,3V",
+            "B": "+5VSB",
+            "C": "+5V",
+            "D": "+12V"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alimentação principal e mais comum para o cooler do processador em placas mãe é a linha de +12V, fornecendo a energia necessária para o seu funcionamento adequado."
+    },
+    {
+        "id": "1463026",
+        "enunciado": "Em se tratando de placas de vídeos, há muitas vantagens e desvantagens entre os dois modelos utilizados por Desktops. Sabendo disso, você, como técnico, deverá mostrar ao seu superior um dos benefícios da placa de vídeo onboard em relação a offboard.",
+        "alternativas": {
+            "A": "Tem um melhor desempenho.",
+            "B": "Não necessita sobrecarregar o processador.",
+            "C": "Consumo de energia mais barato.",
+            "D": "Rodam recursos 3D Avançados."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Placas de video onboard consomem menos energia, pois utilizam parte da memoria RAM do sistema, o que as torna mais economicas."
+    },
+    {
+        "id": "1463030",
+        "enunciado": "Com a popularização do padrão IDE, placas mães passaram a oferecer dois conectores IDE e se comunicavam através de um cabo flat de 40 vias. Logo depois houve a necessidade de aumentar as vias do cabo passando a ter:",
+        "alternativas": {
+            "A": "60 vias.",
+            "B": "80 vias.",
+            "C": "100 vias.",
+            "D": "120 vias."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Com a evolução do padrão IDE, a necessidade de maior velocidade e capacidade de transferência de dados levou ao desenvolvimento de cabos com 80 vias. Estes cabos permitiam a comunicação mais eficiente com os dispositivos de armazenamento."
+    },
+    {
+        "id": "1317099",
+        "enunciado": "Um fluido é direcionado num circuito hidráulico e pneumático por meio de:",
+        "alternativas": {
+            "A": "tubulações",
+            "B": "pistões",
+            "C": "atuadores",
+            "D": "válvulas",
+            "E": "bombas hidráulicas"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Circuitos hidráulicos e pneumáticos utilizam tubulações para conduzir o fluido de um ponto a outro. Pistões e atuadores são componentes que convertem a energia do fluido em movimento mecânico, e bombas e válvulas controlam o fluxo e a pressão. Portanto, as tubulações são o meio primário pelo qual o fluido é direcionado."
+    },
+    {
+        "id": "1317102",
+        "enunciado": "Os acumuladores de membrana nos sistemas hidráulicos têm como função:",
+        "alternativas": {
+            "A": "filtrar contaminantes.",
+            "B": "armazenar calor.",
+            "C": "trocar calor com os fluidos.",
+            "D": "armazenar fluido hidráulico.",
+            "E": "manter a pressão do sistema hidráulico estabilizado."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Acumuladores de membrana em sistemas hidráulicos funcionam como reservatórios de gás pressurizado que reage com o fluido. Essa ação ajuda a absorver choques e variações de pressão, mantendo a pressão do sistema hidráulico estabilizada."
+    },
+    {
+        "id": "2042285",
+        "enunciado": "Acoplado à placa-mãe e instalado sobre o processador, encontramos um conjunto de dissipação térmica denominado:",
+        "alternativas": {
+            "A": "cooler.",
+            "B": "pentium.",
+            "C": "barramento.",
+            "D": "socket.",
+            "E": "bios."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O 'cooler' é o conjunto de dissipação térmica instalado sobre o processador, composto geralmente por um dissipador e uma ventoinha, essencial para controlar a temperatura do componente."
+    }
+]

@@ -1,0 +1,1102 @@
+[
+    {
+        "id": "1701878",
+        "enunciado": "O Zoom é uma ferramenta muito útil para aumentar ou diminuir o tamanho de um objeto visualizado na tela. Tendo em vista que existem vários tipos de Zoom disponíveis no Autocad, a modalidade que, quando ativada, calcula e exibe uma tela que contenha a totalidade do desenho, sem se importar com os seus limites, é chamada de",
+        "alternativas": {
+            "A": "Janela de Zoom (Zoom Window).",
+            "B": "Zoom Estendido (Zoom Extents).",
+            "C": "Zoom em Tempo Real (Zoom Realtime).",
+            "D": "Zoom no Objeto (Zoom Object)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O 'Zoom Extents' ou 'Zoom Estendido' é a ferramenta que ajusta a visualização para abranger todo o conteúdo do desenho, ignorando os limites definidos."
+    },
+    {
+        "id": "1701880",
+        "enunciado": "Observe o ícone abaixo: Figura 1. Clicando sobre esse ícone é possível habilitar/desabilitar uma função do Autocad, a qual é chamada de",
+        "alternativas": {
+            "A": "Entrada Dinâmica (Dynamic Input).",
+            "B": "Mover (Move).",
+            "C": "Alterar O Tamanho Do Cursor (Crosshair Size).",
+            "D": "Inserir Bloco (Insert Block)."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O ícone apresentado representa a 'Entrada Dinâmica', que habilita a digitação de comandos e valores de coordenadas próximos ao cursor, facilitando a interação."
+    },
+    {
+        "id": "1701881",
+        "enunciado": "Na barra de status do Autocad, existem ferramentas que são utilizadas para complementar a execução de comandos de desenho e/ou edição. No desenho de uma linha, após clicar no primeiro ponto, a ferramenta que permite direcionar a linha somente para a horizontal ou para a vertical chama-se:",
+        "alternativas": {
+            "A": "Exibir Grade De Desenho (Grid).",
+            "B": "Exibir Linhas De Referência De Ajuste (Otrack).",
+            "C": "Restringir O Cursor A Ângulos Especificados (Polar).",
+            "D": "Restringir Cursor Ortogonal (Ortho)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A ferramenta 'Ortho' (Ortogonal) restringe o movimento do cursor a direções estritamente horizontais ou verticais, impedindo ângulos intermediários."
+    },
+    {
+        "id": "1984157",
+        "enunciado": "No AutoCAD, a ferramenta \"Offset\" é utilizada para:",
+        "alternativas": {
+            "A": "Criar cópias paralelas de linhas, arcos e outras entidades a uma distância definida.",
+            "B": "Ajustar a escala de um objeto sem modificar suas dimensões originais.",
+            "C": "Rotacionar um objeto em torno de um ponto específico.",
+            "D": "Converter um desenho 2D em um modelo 3D automaticamente."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A ferramenta 'Offset' no AutoCAD é utilizada para criar duplicatas de objetos (linhas, arcos, etc.) em uma distância paralela especificada. As outras opções descrevem outras ferramentas ou funcionalidades do software."
+    },
+    {
+        "id": "2288735",
+        "enunciado": "Durante a elaboração de uma planta baixa de um pavimento térreo, o técnico em edificações precisa representar as medidas reais do ambiente em um formato reduzido, adequado para o papel A3. Se o desenho for confeccionado na escala 1:50, isso significa que",
+        "alternativas": {
+            "A": "cada 1 cm no desenho representa 50 m na realidade.",
+            "B": "cada 1 cm no desenho representa 50 cm na realidade.",
+            "C": "cada 1 cm no desenho representa 0,50 m na realidade.",
+            "D": "cada 50 cm no desenho representa 1 m na realidade."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:50 indica que 1 unidade de medida no desenho representa 50 unidades iguais na realidade. Se usarmos centímetros, 1 cm no desenho equivale a 50 cm na realidade."
+    },
+    {
+        "id": "2288738",
+        "enunciado": "Durante o desenvolvimento de um projeto hidrossanitário no AutoCAD, o técnico em edificações precisa separar os diferentes elementos gráficos como tubulações, cotas e símbolos, para facilitar a leitura e futuras alterações no arquivo. Nessa situação, o uso do recurso layer (camada) serve para",
+        "alternativas": {
+            "A": "definir a escala de impressão do desenho.",
+            "B": "determinar o tipo de linha de projeção.",
+            "C": "organizar os elementos do desenho por categorias ou funções.",
+            "D": "corrigir automaticamente cotas imprecisas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O recurso de 'layer' (camada) no AutoCAD serve para agrupar e organizar elementos do desenho, facilitando a visualização, edição e controle de visibilidade de diferentes componentes gráficos."
+    },
+    {
+        "id": "2113791",
+        "enunciado": "O comando __________ do AutoCAD cria um objeto de linha de chamada múltipla, consistindo em uma ponta de seta, uma linha de chamada e um objeto de texto de múltiplas linhas. Assinale a alternativa que corretamente preenche a lacuna no excerto:",
+        "alternativas": {
+            "A": "ORBITA3D.",
+            "B": "COTA.",
+            "C": "LINCHMULT.",
+            "D": "PLINHA.",
+            "E": "TEXTOM."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando LINCHMULT no AutoCAD é utilizado para criar linhas de chamada múltipla, que consistem em uma ponta de seta, uma linha de chamada e um texto de múltiplas linhas."
+    },
+    {
+        "id": "2294301",
+        "enunciado": "Ao elaborar um projeto arquitetônico no AutoCAD 2020, configurado para uso profissional no Brasil, a definição correta das unidades e da precisão é fundamental para evitar erros construtivos. Nesse contexto, a configuração mais adequada para projetos de edificações é:",
+        "alternativas": {
+            "A": "unidades em polegadas, com precisão fracionária.",
+            "B": "unidades em metros, com precisão decimal compatível ao desenho técnico.",
+            "C": "unidades em quilômetros, com escala automática de impressão.",
+            "D": "unidades adimensionais, ajustadas apenas na plotagem."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para projetos de edificações em AutoCAD no Brasil, a unidade mais adequada é o metro, e a precisão deve acompanhar a norma técnica para desenho, que é decimal e compatível com os detalhes construtivos."
+    },
+    {
+        "id": "1756302",
+        "enunciado": "No AutoCAD, a utilização de ferramentas de precisão serve para assegurar a exatidão dos desenhos. Essas ferramentas podem ser ativadas rapidamente pela Barra de Status ou com o uso de atalhos de teclado. No caso da ferramenta Ortho, que restringe o desenho a direções ortogonais (horizontal e vertical), qual é o atalho utilizado para ativá-la ou desativá-la?",
+        "alternativas": {
+            "A": "F3.",
+            "B": "F9.",
+            "C": "CTRL+9.",
+            "D": "SHIFT+F9.",
+            "E": "F8."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A ferramenta Ortho no AutoCAD restringe os traços a direções perfeitamente horizontais ou verticais. O atalho para ativar ou desativar essa ferramenta é pressionar a tecla F8."
+    },
+    {
+        "id": "2321601",
+        "enunciado": "O AutoCAD é um software utilizado na elaboração de desenhos técnicos de arquitetura, possibilitando a criação, edição e impressão de projetos de arquitetura. Considerando os comandos do AutoCAD, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "OFFSET é utilizado para copiar objetos em ângulo em relação a uma linha base.",
+            "B": "TRIM é utilizado para estender uma linha até um limite definido por outro objeto.",
+            "C": "MIRROR cria uma cópia espelhada do objeto selecionado.",
+            "D": "FILLET é utilizado exclusivamente para criar cotas lineares automáticas.",
+            "E": "EXTEND serve para apagar linhas que ultrapassam um limite."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando MIRROR no AutoCAD é precisamente utilizado para criar cópias espelhadas de objetos. OFFSET copia a uma distância, TRIM recorta, FILLET cria cantos arredondados e EXTEND estende linhas."
+    },
+    {
+        "id": "2065755",
+        "enunciado": "No AutoCAD , uma das funções do comando Lengthen é:",
+        "alternativas": {
+            "A": "Combinar duas linhas em uma única.",
+            "B": "Remover um segmento de linha.",
+            "C": "Alterar o comprimento de objetos.",
+            "D": "Ajustar a espessura de uma linha."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando Lengthen no AutoCAD é utilizado para estender ou encurtar objetos existentes, alterando seu comprimento. As outras opções descrevem funcionalidades de outros comandos."
+    },
+    {
+        "id": "2065757",
+        "enunciado": "No AutoCAD, o UCS (User Coordinate System) é uma ferramenta essencial para manipulação do ambiente de desenho. Sobre o UCS, assinale a alternativa CORRETA:",
+        "alternativas": {
+            "A": "O UCS é  um sistema de coordenadas fixo que não pode ser modificado pelo usuário.",
+            "B": "O UCS é um sistema de coordenadas cartesianas móvel que estabelece o plano de trabalho XY, as direções horizontal e vertical, os eixos de rotação e outras referências geométricas úteis.",
+            "C": "O UCS é utilizado apenas para exibição de textos e anotações, sem interferência na modelagem 3D.",
+            "D": "O UCS substitui permanentemente o sistema de coordenadas global (WCS), tornando -se o único sistema de referência disponível no desenho."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O UCS é um sistema dinâmico que permite ao usuário definir um plano de trabalho e eixos de referência locais, facilitando o desenho de objetos em diferentes orientações. Não substitui o WCS global."
+    },
+    {
+        "id": "2109689",
+        "enunciado": "Quando aparece uma mensagem de Fatal Error no Autocad, podemos recuperar esse desenho através do arquivo de backup (extensão BAK). Assinale a seguir a alternativa que apresenta outra opção para recuperação de arquivos danificados, acessados pelo menu Drawing Utilities:",
+        "alternativas": {
+            "A": "Regen.",
+            "B": "Rename.",
+            "C": "Redraw.",
+            "D": "Recover.",
+            "E": "Rotate."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando Recover no AutoCAD é a ferramenta específica do menu Drawing Utilities projetada para recuperar arquivos danificados, tentando reparar a geometria e os dados do desenho para evitar perda de informações."
+    },
+    {
+        "id": "2393676",
+        "enunciado": "No AutoCAD, o comando OSNAP é utilizado para:",
+        "alternativas": {
+            "A": "ajustar o brilho da interface do programa.",
+            "B": "criar visualizações 3D automaticamente.",
+            "C": "permitir que o cursor reconheça pontos de precisão.",
+            "D": "exportar o arquivo para formatos externos como PDF.",
+            "E": "editar propriedades de texto dentro do desenho."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O OSNAP (Object Snap) no AutoCAD permite que o cursor 'trave' em pontos precisos de objetos existentes, como extremidades, pontos médios, centros e interseções. Isso garante maior exatidão ao desenhar e editar."
+    },
+    {
+        "id": "2027041",
+        "enunciado": "No desenvolvimento de projetos arquitetônicos, qual é a principal aplicação do software AutoCAD?",
+        "alternativas": {
+            "A": "Elaboração de desenhos técnicos em 2D e modelagem básica em 3D.",
+            "B": "Edição de imagens e tratamento visual de pranchas.",
+            "C": "Produção de relatórios e textos técnicos.",
+            "D": "Modelagem tridimensional com foco em efeitos visuais e animações."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O AutoCAD é amplamente utilizado no desenvolvimento de projetos arquitetônicos para a criação de desenhos técnicos detalhados em 2D e modelagem em 3D."
+    },
+    {
+        "id": "2393678",
+        "enunciado": "Ao utilizar o comando TRIM no AutoCAD, o usuário consegue:",
+        "alternativas": {
+            "A": "transformar linhas em polilinhas.",
+            "B": "recortar partes excedentes de objetos com base em limites.",
+            "C": "criar hachuras automaticamente.",
+            "D": "alterar a escala global do desenho.",
+            "E": "converter cotas em textos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando TRIM no AutoCAD é utilizado para aparar ou estender objetos até um limite especificado, removendo partes que excedem essa linha de corte. Ele serve para limpar e refinar desenhos, cortando elementos desnecessários com precisão."
+    },
+    {
+        "id": "2395592",
+        "enunciado": "Sobre o uso de camadas (LAYERS) no AutoCAD, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "As camadas servem apenas para alterar a espessura das linhas.",
+            "B": "Todas as camadas devem permanecer ativadas durante toda a edição do projeto.",
+            "C": "É possível controlar cor, espessura e congelamento de elementos por camada.",
+            "D": "O AutoCAD não permite criar novas camadas, apenas editar as existentes.",
+            "E": "O uso de camadas é opcional, pois não influencia na organização do projeto."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Camadas no AutoCAD permitem organizar o desenho controlando cor, tipo e espessura de linha, visibilidade (congelamento/descongelamento) e bloqueio de elementos, facilitando a gestão e a edição do projeto."
+    },
+    {
+        "id": "2395593",
+        "enunciado": "No AutoCAD, assinale a alternativa que representa CORRETAMENTE qual comando é utilizado para criar linhas paralelas a uma distância específica.",
+        "alternativas": {
+            "A": "LINE.",
+            "B": "OFFSET.",
+            "C": "TRIM.",
+            "D": "COPY.",
+            "E": "ARRAY."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando OFFSET no AutoCAD é especificamente utilizado para criar cópias de objetos (linhas, arcos, polilinhas) a uma distância definida, gerando assim linhas paralelas ou equidistantes."
+    },
+    {
+        "id": "2159225",
+        "enunciado": "No contexto de softwares de projeto auxiliado por computador, o AutoCAD é amplamente utilizado na engenharia civil. Qual o formato de arquivo padrão e mais comum para salvar desenhos criados no AutoCAD?",
+        "alternativas": {
+            "A": ".kmz",
+            "B": ".docx",
+            "C": ".dwg",
+            "D": ".xlsx",
+            "E": ".html"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No AutoCAD, o formato de arquivo padrão para salvar desenhos é o '.dwg' (Drawing). Os outros formatos listados correspondem a outros tipos de arquivos (Google Earth, documentos Word, planilhas Excel, páginas web, respectivamente)."
+    },
+    {
+        "id": "2159227",
+        "enunciado": "No AutoCAD, a tecla de função F3 ativa ou desativa uma ferramenta que permite prender o cursor automaticamente em pontos específicos de um objeto ao desenhar, como extremidade, interseção ou centro. Qual função é executada ao pressionar a tecla F3?",
+        "alternativas": {
+            "A": "Alternar modos de snap ao objeto.",
+            "B": "Alternar modo ortogonal.",
+            "C": "Alternar plano isométrico.",
+            "D": "Exibir Ajuda.",
+            "E": "Alternar modo de grade."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A tecla F3 no AutoCAD é a tecla de atalho para ativar ou desativar o recurso de Objetos Snap (Snap ao Objeto), que permite prender o cursor a pontos de referência em objetos como vértices, centros e tangentes."
+    },
+    {
+        "id": "1835314",
+        "enunciado": "Sobre o uso do AutoCAD, marque a alternativa que corresponde à ferramenta que cria uma região ou uma polilinha de uma área delimitada.",
+        "alternativas": {
+            "A": "Break.",
+            "B": "Hatch.",
+            "C": "Boundary.",
+            "D": "Circle.",
+            "E": "Ctablestyle."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No AutoCAD, a ferramenta 'Boundary' (ou 'BPOLY' em alguns menus) é utilizada para criar uma região ou polilinha fechada com base em uma área delimitada por objetos existentes."
+    },
+    {
+        "id": "2066765",
+        "enunciado": "No AutoCAD, qual comando é utilizado para identificar as coordenadas de um ponto específico no desenho em relação aos eixos X, Y e Z?",
+        "alternativas": {
+            "A": "FIND",
+            "B": "ID",
+            "C": "POINT",
+            "D": "DIST"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'ID' no AutoCAD é utilizado especificamente para identificar as coordenadas de um ponto no desenho, exibindo os valores de X, Y e Z em relação à origem do sistema de coordenadas."
+    },
+    {
+        "id": "1186400",
+        "enunciado": "No AutoCAD, qual é o propósito principal do comando FLATTEN?",
+        "alternativas": {
+            "A": "Ajustar a opacidade de objetos em um desenho para torná-los semitransparentes.",
+            "B": "Transformar objetos 3D em objetos 2D, mantendo a aparência visual no plano XY.",
+            "C": "Converter um objeto 2D em um objeto 3D no Model Space.",
+            "D": "Criar uma cópia exata de um objeto em um novo local no desenho.",
+            "E": "É um comando usado para imprimir desenhos em escala específica."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando FLATTEN no AutoCAD é utilizado para projetar objetos 3D em um plano 2D (geralmente o plano XY), achatando-os e mantendo a sua geometria vista de cima. As outras opções descrevem outras funcionalidades ou não condizem com o propósito deste comando específico."
+    },
+    {
+        "id": "1177884",
+        "enunciado": "Sobre o AutoCAD, assinale a alternativa que corresponde à ferramenta que secciona partes do desenho:",
+        "alternativas": {
+            "A": "Trim.",
+            "B": "Fillet.",
+            "C": "Circle.",
+            "D": "Hatch.",
+            "E": "Rotate."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A ferramenta Trim, no AutoCAD, é utilizada para cortar ou seccionar linhas e objetos que se cruzam. As outras opções correspondem a outras funcionalidades: Fillet (arredondar cantos), Circle (criar círculo), Hatch (preenchimento de áreas) e Rotate (rotacionar objetos)."
+    },
+    {
+        "id": "1638452",
+        "enunciado": "Em um projeto de urbanismo, o técnico em edificações precisa criar uma série de linhas paralelas que representem as faixas de uma via. Sabendo que o traçado inicial da via foi definido e que cada faixa deve ter uma largura exata de 3,5 metros, qual comando do AutoCAD 14 é o mais indicado para criar cópias paralelas das linhas representando as faixas da via, mantendo a distância exata entre elas?",
+        "alternativas": {
+            "A": "O comando COPY é utilizado para duplicar a linha original, permitindo que o técnico posicione automaticamente as faixas a 3,5 metros de distância.",
+            "B": "O comando ARRAY cria cópias múltiplas das linhas, organizadas manualmente em uma disposição polar, ajustando a distância conforme necessário.",
+            "C": "O comando OFFSET permite gerar cópias paralelas de uma linha ou curva a uma distância especificada, no caso, 3,5 metros entre cada faixa da via.",
+            "D": "O comando SCALE redimensiona a linha existente, ajustando o comprimento para representar a distância entre as faixas.",
+            "E": "O comando MIRROR espelha a linha original em relação a um eixo, sendo o comando mais indicado para espaçar as faixas da via, mantendo a distância entre elas a 3,5m."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando OFFSET no AutoCAD é projetado especificamente para criar cópias paralelas de objetos a uma distância definida. Isso é ideal para desenhar faixas de via com largura exata."
+    },
+    {
+        "id": "1297305",
+        "enunciado": "Assinale a alternativa que indica corretamente a função da ferramenta “Extrude”, no AutoCAD.",
+        "alternativas": {
+            "A": "Criar um retângulo com comprimento e largura definidos.",
+            "B": "Transformar um objeto 2D em um objeto 3D, adicionando altura ou profundidade.",
+            "C": "Criar um círculo com um raio específico.",
+            "D": "Criar uma linha reta entre dois pontos.",
+            "E": "Recortar partes de um objeto para ajustar sua forma."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A ferramenta 'Extrude' no AutoCAD é utilizada para criar objetos tridimensionais a partir de objetos bidimensionais. Ela 'estica' um perfil 2D em uma direção, adicionando a ele altura ou profundidade, transformando-o em um objeto 3D. As outras alternativas descrevem ferramentas como 'Rectangle', 'Circle', 'Line' e comandos de edição como 'Trim'."
+    },
+    {
+        "id": "1617183",
+        "enunciado": "Durante a revisão de um projeto, o arquiteto deseja verificar e corrigir erros de sobreposição e geometria incorreta em um conjunto de desenhos. Qual comando pode ser utilizado no AutoCAD para verificar e corrigir erros de geometria e sobreposições nos desenhos?",
+        "alternativas": {
+            "A": "\"Overkill\".",
+            "B": "\"Audit.\"",
+            "C": "\"Purge\".",
+            "D": "\"Xref Manager\".",
+            "E": "\"Recover\"."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'Overkill' no AutoCAD é especificamente projetado para remover entidades duplicadas ou sobrepostas e corrigir linhas incorretas ou incompletas, otimizando a geometria do desenho."
+    },
+    {
+        "id": "1235632",
+        "enunciado": "Comando para criar linhas retas no AutoDesk AutoCAD English:",
+        "alternativas": {
+            "A": "Trim.",
+            "B": "Line.",
+            "C": "Offset.",
+            "D": "Hatch.",
+            "E": "Mirror."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No AutoCAD em inglês, o comando 'Line' é utilizado para criar linhas retas. Os outros comandos têm funções distintas: 'Trim' para cortar objetos, 'Offset' para criar cópias paralelas, 'Hatch' para preenchimento e 'Mirror' para espelhar objetos."
+    },
+    {
+        "id": "1638454",
+        "enunciado": "É muito comum a utilização de layers para facilitar a visualização e a edição de objetos de um projeto. Sabendo que cada layer guarda propriedades específicas como, por exemplo, tipo de linhas e espessuras dos objetos, qual das alternativas abaixo está CORRETA em relação à configuração das layers?",
+        "alternativas": {
+            "A": "É comum que todos os elementos do desenho estejam em uma única layer para simplificar o projeto e evitar confusões durante a edição.",
+            "B": "As propriedades de uma layer podem ser alteradas a qualquer momento, mas essa alteração não afetará os objetos já desenhados.",
+            "C": "Todas as layers devem estar sempre ativas, independentemente da necessidade de visualização, para evitar perda de informações.",
+            "D": "As layers não podem ser bloqueadas ou congeladas, pois isso impediria a edição dos seus elementos.",
+            "E": "Cada layer deve ser configurada com um nome que descreva o tipo de elemento que ela representa, facilitando a identificação e organização do projeto."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A boa prática na organização de projetos, especialmente em softwares CAD, é nomear cada layer de forma descritiva para facilitar a identificação do tipo de elemento que ela armazena (ex: 'Paredes', 'Portas', 'Cot as'). Isso otimiza a visualização e edição."
+    },
+    {
+        "id": "1235633",
+        "enunciado": "Comando para espelhar um desenho (criar uma cópia espelhada) no AutoDesk AutoCAD English:",
+        "alternativas": {
+            "A": "Trim.",
+            "B": "Line.",
+            "C": "Offset.",
+            "D": "Hatch.",
+            "E": "Mirror."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O comando 'mirror' no AutoCAD é utilizado para criar uma cópia espelhada de objetos selecionados em relação a um eixo definido pelo usuário. Os outros comandos (Trim, Line, Offset, Hatch) possuem funções diferentes no software."
+    },
+    {
+        "id": "1701878",
+        "enunciado": "O Zoom é uma ferramenta muito útil para aumentar ou diminuir o tamanho de um objeto visualizado na tela. Tendo em vista que existem vários tipos de Zoom disponíveis no Autocad, a modalidade que, quando ativada, calcula e exibe uma tela que contenha a totalidade do desenho, sem se importar com os seus limites, é chamada de",
+        "alternativas": {
+            "A": "Janela de Zoom (Zoom Window).",
+            "B": "Zoom Estendido (Zoom Extents).",
+            "C": "Zoom em Tempo Real (Zoom Realtime).",
+            "D": "Zoom no Objeto (Zoom Object)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O 'Zoom Extents' ou 'Zoom Estendido' é a ferramenta que ajusta a visualização para abranger todo o conteúdo do desenho, ignorando os limites definidos."
+    },
+    {
+        "id": "1701880",
+        "enunciado": "Observe o ícone abaixo: Figura 1. Clicando sobre esse ícone é possível habilitar/desabilitar uma função do Autocad, a qual é chamada de",
+        "alternativas": {
+            "A": "Entrada Dinâmica (Dynamic Input).",
+            "B": "Mover (Move).",
+            "C": "Alterar O Tamanho Do Cursor (Crosshair Size).",
+            "D": "Inserir Bloco (Insert Block)."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O ícone apresentado representa a 'Entrada Dinâmica', que habilita a digitação de comandos e valores de coordenadas próximos ao cursor, facilitando a interação."
+    },
+    {
+        "id": "1701881",
+        "enunciado": "Na barra de status do Autocad, existem ferramentas que são utilizadas para complementar a execução de comandos de desenho e/ou edição. No desenho de uma linha, após clicar no primeiro ponto, a ferramenta que permite direcionar a linha somente para a horizontal ou para a vertical chama-se:",
+        "alternativas": {
+            "A": "Exibir Grade De Desenho (Grid).",
+            "B": "Exibir Linhas De Referência De Ajuste (Otrack).",
+            "C": "Restringir O Cursor A Ângulos Especificados (Polar).",
+            "D": "Restringir Cursor Ortogonal (Ortho)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A ferramenta 'Ortho' (Ortogonal) restringe o movimento do cursor a direções estritamente horizontais ou verticais, impedindo ângulos intermediários."
+    },
+    {
+        "id": "1984157",
+        "enunciado": "No AutoCAD, a ferramenta \"Offset\" é utilizada para:",
+        "alternativas": {
+            "A": "Criar cópias paralelas de linhas, arcos e outras entidades a uma distância definida.",
+            "B": "Ajustar a escala de um objeto sem modificar suas dimensões originais.",
+            "C": "Rotacionar um objeto em torno de um ponto específico.",
+            "D": "Converter um desenho 2D em um modelo 3D automaticamente."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A ferramenta 'Offset' no AutoCAD é utilizada para criar duplicatas de objetos (linhas, arcos, etc.) em uma distância paralela especificada. As outras opções descrevem outras ferramentas ou funcionalidades do software."
+    },
+    {
+        "id": "2288735",
+        "enunciado": "Durante a elaboração de uma planta baixa de um pavimento térreo, o técnico em edificações precisa representar as medidas reais do ambiente em um formato reduzido, adequado para o papel A3. Se o desenho for confeccionado na escala 1:50, isso significa que",
+        "alternativas": {
+            "A": "cada 1 cm no desenho representa 50 m na realidade.",
+            "B": "cada 1 cm no desenho representa 50 cm na realidade.",
+            "C": "cada 1 cm no desenho representa 0,50 m na realidade.",
+            "D": "cada 50 cm no desenho representa 1 m na realidade."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:50 indica que 1 unidade de medida no desenho representa 50 unidades iguais na realidade. Se usarmos centímetros, 1 cm no desenho equivale a 50 cm na realidade."
+    },
+    {
+        "id": "2288738",
+        "enunciado": "Durante o desenvolvimento de um projeto hidrossanitário no AutoCAD, o técnico em edificações precisa separar os diferentes elementos gráficos como tubulações, cotas e símbolos, para facilitar a leitura e futuras alterações no arquivo. Nessa situação, o uso do recurso layer (camada) serve para",
+        "alternativas": {
+            "A": "definir a escala de impressão do desenho.",
+            "B": "determinar o tipo de linha de projeção.",
+            "C": "organizar os elementos do desenho por categorias ou funções.",
+            "D": "corrigir automaticamente cotas imprecisas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O recurso de 'layer' (camada) no AutoCAD serve para agrupar e organizar elementos do desenho, facilitando a visualização, edição e controle de visibilidade de diferentes componentes gráficos."
+    },
+    {
+        "id": "2113791",
+        "enunciado": "O comando __________ do AutoCAD cria um objeto de linha de chamada múltipla, consistindo em uma ponta de seta, uma linha de chamada e um objeto de texto de múltiplas linhas. Assinale a alternativa que corretamente preenche a lacuna no excerto:",
+        "alternativas": {
+            "A": "ORBITA3D.",
+            "B": "COTA.",
+            "C": "LINCHMULT.",
+            "D": "PLINHA.",
+            "E": "TEXTOM."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando LINCHMULT no AutoCAD é utilizado para criar linhas de chamada múltipla, que consistem em uma ponta de seta, uma linha de chamada e um texto de múltiplas linhas."
+    },
+    {
+        "id": "2294301",
+        "enunciado": "Ao elaborar um projeto arquitetônico no AutoCAD 2020, configurado para uso profissional no Brasil, a definição correta das unidades e da precisão é fundamental para evitar erros construtivos. Nesse contexto, a configuração mais adequada para projetos de edificações é:",
+        "alternativas": {
+            "A": "unidades em polegadas, com precisão fracionária.",
+            "B": "unidades em metros, com precisão decimal compatível ao desenho técnico.",
+            "C": "unidades em quilômetros, com escala automática de impressão.",
+            "D": "unidades adimensionais, ajustadas apenas na plotagem."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para projetos de edificações em AutoCAD no Brasil, a unidade mais adequada é o metro, e a precisão deve acompanhar a norma técnica para desenho, que é decimal e compatível com os detalhes construtivos."
+    },
+    {
+        "id": "1756302",
+        "enunciado": "No AutoCAD, a utilização de ferramentas de precisão serve para assegurar a exatidão dos desenhos. Essas ferramentas podem ser ativadas rapidamente pela Barra de Status ou com o uso de atalhos de teclado. No caso da ferramenta Ortho, que restringe o desenho a direções ortogonais (horizontal e vertical), qual é o atalho utilizado para ativá-la ou desativá-la?",
+        "alternativas": {
+            "A": "F3.",
+            "B": "F9.",
+            "C": "CTRL+9.",
+            "D": "SHIFT+F9.",
+            "E": "F8."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A ferramenta Ortho no AutoCAD restringe os traços a direções perfeitamente horizontais ou verticais. O atalho para ativar ou desativar essa ferramenta é pressionar a tecla F8."
+    },
+    {
+        "id": "2321601",
+        "enunciado": "O AutoCAD é um software utilizado na elaboração de desenhos técnicos de arquitetura, possibilitando a criação, edição e impressão de projetos de arquitetura. Considerando os comandos do AutoCAD, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "OFFSET é utilizado para copiar objetos em ângulo em relação a uma linha base.",
+            "B": "TRIM é utilizado para estender uma linha até um limite definido por outro objeto.",
+            "C": "MIRROR cria uma cópia espelhada do objeto selecionado.",
+            "D": "FILLET é utilizado exclusivamente para criar cotas lineares automáticas.",
+            "E": "EXTEND serve para apagar linhas que ultrapassam um limite."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando MIRROR no AutoCAD é precisamente utilizado para criar cópias espelhadas de objetos. OFFSET copia a uma distância, TRIM recorta, FILLET cria cantos arredondados e EXTEND estende linhas."
+    },
+    {
+        "id": "2065755",
+        "enunciado": "No AutoCAD , uma das funções do comando Lengthen é:",
+        "alternativas": {
+            "A": "Combinar duas linhas em uma única.",
+            "B": "Remover um segmento de linha.",
+            "C": "Alterar o comprimento de objetos.",
+            "D": "Ajustar a espessura de uma linha."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando Lengthen no AutoCAD é utilizado para estender ou encurtar objetos existentes, alterando seu comprimento. As outras opções descrevem funcionalidades de outros comandos."
+    },
+    {
+        "id": "2065757",
+        "enunciado": "No AutoCAD, o UCS (User Coordinate System) é uma ferramenta essencial para manipulação do ambiente de desenho. Sobre o UCS, assinale a alternativa CORRETA:",
+        "alternativas": {
+            "A": "O UCS é  um sistema de coordenadas fixo que não pode ser modificado pelo usuário.",
+            "B": "O UCS é um sistema de coordenadas cartesianas móvel que estabelece o plano de trabalho XY, as direções horizontal e vertical, os eixos de rotação e outras referências geométricas úteis.",
+            "C": "O UCS é utilizado apenas para exibição de textos e anotações, sem interferência na modelagem 3D.",
+            "D": "O UCS substitui permanentemente o sistema de coordenadas global (WCS), tornando -se o único sistema de referência disponível no desenho."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O UCS é um sistema dinâmico que permite ao usuário definir um plano de trabalho e eixos de referência locais, facilitando o desenho de objetos em diferentes orientações. Não substitui o WCS global."
+    },
+    {
+        "id": "2109689",
+        "enunciado": "Quando aparece uma mensagem de Fatal Error no Autocad, podemos recuperar esse desenho através do arquivo de backup (extensão BAK). Assinale a seguir a alternativa que apresenta outra opção para recuperação de arquivos danificados, acessados pelo menu Drawing Utilities:",
+        "alternativas": {
+            "A": "Regen.",
+            "B": "Rename.",
+            "C": "Redraw.",
+            "D": "Recover.",
+            "E": "Rotate."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando Recover no AutoCAD é a ferramenta específica do menu Drawing Utilities projetada para recuperar arquivos danificados, tentando reparar a geometria e os dados do desenho para evitar perda de informações."
+    },
+    {
+        "id": "2393676",
+        "enunciado": "No AutoCAD, o comando OSNAP é utilizado para:",
+        "alternativas": {
+            "A": "ajustar o brilho da interface do programa.",
+            "B": "criar visualizações 3D automaticamente.",
+            "C": "permitir que o cursor reconheça pontos de precisão.",
+            "D": "exportar o arquivo para formatos externos como PDF.",
+            "E": "editar propriedades de texto dentro do desenho."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O OSNAP (Object Snap) no AutoCAD permite que o cursor 'trave' em pontos precisos de objetos existentes, como extremidades, pontos médios, centros e interseções. Isso garante maior exatidão ao desenhar e editar."
+    },
+    {
+        "id": "2027041",
+        "enunciado": "No desenvolvimento de projetos arquitetônicos, qual é a principal aplicação do software AutoCAD?",
+        "alternativas": {
+            "A": "Elaboração de desenhos técnicos em 2D e modelagem básica em 3D.",
+            "B": "Edição de imagens e tratamento visual de pranchas.",
+            "C": "Produção de relatórios e textos técnicos.",
+            "D": "Modelagem tridimensional com foco em efeitos visuais e animações."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O AutoCAD é amplamente utilizado no desenvolvimento de projetos arquitetônicos para a criação de desenhos técnicos detalhados em 2D e modelagem em 3D."
+    },
+    {
+        "id": "2393678",
+        "enunciado": "Ao utilizar o comando TRIM no AutoCAD, o usuário consegue:",
+        "alternativas": {
+            "A": "transformar linhas em polilinhas.",
+            "B": "recortar partes excedentes de objetos com base em limites.",
+            "C": "criar hachuras automaticamente.",
+            "D": "alterar a escala global do desenho.",
+            "E": "converter cotas em textos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando TRIM no AutoCAD é utilizado para aparar ou estender objetos até um limite especificado, removendo partes que excedem essa linha de corte. Ele serve para limpar e refinar desenhos, cortando elementos desnecessários com precisão."
+    },
+    {
+        "id": "2395592",
+        "enunciado": "Sobre o uso de camadas (LAYERS) no AutoCAD, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "As camadas servem apenas para alterar a espessura das linhas.",
+            "B": "Todas as camadas devem permanecer ativadas durante toda a edição do projeto.",
+            "C": "É possível controlar cor, espessura e congelamento de elementos por camada.",
+            "D": "O AutoCAD não permite criar novas camadas, apenas editar as existentes.",
+            "E": "O uso de camadas é opcional, pois não influencia na organização do projeto."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Camadas no AutoCAD permitem organizar o desenho controlando cor, tipo e espessura de linha, visibilidade (congelamento/descongelamento) e bloqueio de elementos, facilitando a gestão e a edição do projeto."
+    },
+    {
+        "id": "2395593",
+        "enunciado": "No AutoCAD, assinale a alternativa que representa CORRETAMENTE qual comando é utilizado para criar linhas paralelas a uma distância específica.",
+        "alternativas": {
+            "A": "LINE.",
+            "B": "OFFSET.",
+            "C": "TRIM.",
+            "D": "COPY.",
+            "E": "ARRAY."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando OFFSET no AutoCAD é especificamente utilizado para criar cópias de objetos (linhas, arcos, polilinhas) a uma distância definida, gerando assim linhas paralelas ou equidistantes."
+    },
+    {
+        "id": "2159225",
+        "enunciado": "No contexto de softwares de projeto auxiliado por computador, o AutoCAD é amplamente utilizado na engenharia civil. Qual o formato de arquivo padrão e mais comum para salvar desenhos criados no AutoCAD?",
+        "alternativas": {
+            "A": ".kmz",
+            "B": ".docx",
+            "C": ".dwg",
+            "D": ".xlsx",
+            "E": ".html"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No AutoCAD, o formato de arquivo padrão para salvar desenhos é o '.dwg' (Drawing). Os outros formatos listados correspondem a outros tipos de arquivos (Google Earth, documentos Word, planilhas Excel, páginas web, respectivamente)."
+    },
+    {
+        "id": "2159227",
+        "enunciado": "No AutoCAD, a tecla de função F3 ativa ou desativa uma ferramenta que permite prender o cursor automaticamente em pontos específicos de um objeto ao desenhar, como extremidade, interseção ou centro. Qual função é executada ao pressionar a tecla F3?",
+        "alternativas": {
+            "A": "Alternar modos de snap ao objeto.",
+            "B": "Alternar modo ortogonal.",
+            "C": "Alternar plano isométrico.",
+            "D": "Exibir Ajuda.",
+            "E": "Alternar modo de grade."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A tecla F3 no AutoCAD é a tecla de atalho para ativar ou desativar o recurso de Objetos Snap (Snap ao Objeto), que permite prender o cursor a pontos de referência em objetos como vértices, centros e tangentes."
+    },
+    {
+        "id": "1835314",
+        "enunciado": "Sobre o uso do AutoCAD, marque a alternativa que corresponde à ferramenta que cria uma região ou uma polilinha de uma área delimitada.",
+        "alternativas": {
+            "A": "Break.",
+            "B": "Hatch.",
+            "C": "Boundary.",
+            "D": "Circle.",
+            "E": "Ctablestyle."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No AutoCAD, a ferramenta 'Boundary' (ou 'BPOLY' em alguns menus) é utilizada para criar uma região ou polilinha fechada com base em uma área delimitada por objetos existentes."
+    },
+    {
+        "id": "2066765",
+        "enunciado": "No AutoCAD, qual comando é utilizado para identificar as coordenadas de um ponto específico no desenho em relação aos eixos X, Y e Z?",
+        "alternativas": {
+            "A": "FIND",
+            "B": "ID",
+            "C": "POINT",
+            "D": "DIST"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'ID' no AutoCAD é utilizado especificamente para identificar as coordenadas de um ponto no desenho, exibindo os valores de X, Y e Z em relação à origem do sistema de coordenadas."
+    },
+    {
+        "id": "1186400",
+        "enunciado": "No AutoCAD, qual é o propósito principal do comando FLATTEN?",
+        "alternativas": {
+            "A": "Ajustar a opacidade de objetos em um desenho para torná-los semitransparentes.",
+            "B": "Transformar objetos 3D em objetos 2D, mantendo a aparência visual no plano XY.",
+            "C": "Converter um objeto 2D em um objeto 3D no Model Space.",
+            "D": "Criar uma cópia exata de um objeto em um novo local no desenho.",
+            "E": "É um comando usado para imprimir desenhos em escala específica."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando FLATTEN no AutoCAD é utilizado para projetar objetos 3D em um plano 2D (geralmente o plano XY), achatando-os e mantendo a sua geometria vista de cima. As outras opções descrevem outras funcionalidades ou não condizem com o propósito deste comando específico."
+    },
+    {
+        "id": "1177884",
+        "enunciado": "Sobre o AutoCAD, assinale a alternativa que corresponde à ferramenta que secciona partes do desenho:",
+        "alternativas": {
+            "A": "Trim.",
+            "B": "Fillet.",
+            "C": "Circle.",
+            "D": "Hatch.",
+            "E": "Rotate."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A ferramenta Trim, no AutoCAD, é utilizada para cortar ou seccionar linhas e objetos que se cruzam. As outras opções correspondem a outras funcionalidades: Fillet (arredondar cantos), Circle (criar círculo), Hatch (preenchimento de áreas) e Rotate (rotacionar objetos)."
+    },
+    {
+        "id": "1638452",
+        "enunciado": "Em um projeto de urbanismo, o técnico em edificações precisa criar uma série de linhas paralelas que representem as faixas de uma via. Sabendo que o traçado inicial da via foi definido e que cada faixa deve ter uma largura exata de 3,5 metros, qual comando do AutoCAD 14 é o mais indicado para criar cópias paralelas das linhas representando as faixas da via, mantendo a distância exata entre elas?",
+        "alternativas": {
+            "A": "O comando COPY é utilizado para duplicar a linha original, permitindo que o técnico posicione automaticamente as faixas a 3,5 metros de distância.",
+            "B": "O comando ARRAY cria cópias múltiplas das linhas, organizadas manualmente em uma disposição polar, ajustando a distância conforme necessário.",
+            "C": "O comando OFFSET permite gerar cópias paralelas de uma linha ou curva a uma distância especificada, no caso, 3,5 metros entre cada faixa da via.",
+            "D": "O comando SCALE redimensiona a linha existente, ajustando o comprimento para representar a distância entre as faixas.",
+            "E": "O comando MIRROR espelha a linha original em relação a um eixo, sendo o comando mais indicado para espaçar as faixas da via, mantendo a distância entre elas a 3,5m."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando OFFSET no AutoCAD é projetado especificamente para criar cópias paralelas de objetos a uma distância definida. Isso é ideal para desenhar faixas de via com largura exata."
+    },
+    {
+        "id": "1297305",
+        "enunciado": "Assinale a alternativa que indica corretamente a função da ferramenta “Extrude”, no AutoCAD.",
+        "alternativas": {
+            "A": "Criar um retângulo com comprimento e largura definidos.",
+            "B": "Transformar um objeto 2D em um objeto 3D, adicionando altura ou profundidade.",
+            "C": "Criar um círculo com um raio específico.",
+            "D": "Criar uma linha reta entre dois pontos.",
+            "E": "Recortar partes de um objeto para ajustar sua forma."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A ferramenta 'Extrude' no AutoCAD é utilizada para criar objetos tridimensionais a partir de objetos bidimensionais. Ela 'estica' um perfil 2D em uma direção, adicionando a ele altura ou profundidade, transformando-o em um objeto 3D. As outras alternativas descrevem ferramentas como 'Rectangle', 'Circle', 'Line' e comandos de edição como 'Trim'."
+    },
+    {
+        "id": "1617183",
+        "enunciado": "Durante a revisão de um projeto, o arquiteto deseja verificar e corrigir erros de sobreposição e geometria incorreta em um conjunto de desenhos. Qual comando pode ser utilizado no AutoCAD para verificar e corrigir erros de geometria e sobreposições nos desenhos?",
+        "alternativas": {
+            "A": "\"Overkill\".",
+            "B": "\"Audit.\"",
+            "C": "\"Purge\".",
+            "D": "\"Xref Manager\".",
+            "E": "\"Recover\"."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'Overkill' no AutoCAD é especificamente projetado para remover entidades duplicadas ou sobrepostas e corrigir linhas incorretas ou incompletas, otimizando a geometria do desenho."
+    },
+    {
+        "id": "1235632",
+        "enunciado": "Comando para criar linhas retas no AutoDesk AutoCAD English:",
+        "alternativas": {
+            "A": "Trim.",
+            "B": "Line.",
+            "C": "Offset.",
+            "D": "Hatch.",
+            "E": "Mirror."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No AutoCAD em inglês, o comando 'Line' é utilizado para criar linhas retas. Os outros comandos têm funções distintas: 'Trim' para cortar objetos, 'Offset' para criar cópias paralelas, 'Hatch' para preenchimento e 'Mirror' para espelhar objetos."
+    },
+    {
+        "id": "1638454",
+        "enunciado": "É muito comum a utilização de layers para facilitar a visualização e a edição de objetos de um projeto. Sabendo que cada layer guarda propriedades específicas como, por exemplo, tipo de linhas e espessuras dos objetos, qual das alternativas abaixo está CORRETA em relação à configuração das layers?",
+        "alternativas": {
+            "A": "É comum que todos os elementos do desenho estejam em uma única layer para simplificar o projeto e evitar confusões durante a edição.",
+            "B": "As propriedades de uma layer podem ser alteradas a qualquer momento, mas essa alteração não afetará os objetos já desenhados.",
+            "C": "Todas as layers devem estar sempre ativas, independentemente da necessidade de visualização, para evitar perda de informações.",
+            "D": "As layers não podem ser bloqueadas ou congeladas, pois isso impediria a edição dos seus elementos.",
+            "E": "Cada layer deve ser configurada com um nome que descreva o tipo de elemento que ela representa, facilitando a identificação e organização do projeto."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A boa prática na organização de projetos, especialmente em softwares CAD, é nomear cada layer de forma descritiva para facilitar a identificação do tipo de elemento que ela armazena (ex: 'Paredes', 'Portas', 'Cot as'). Isso otimiza a visualização e edição."
+    },
+    {
+        "id": "1235633",
+        "enunciado": "Comando para espelhar um desenho (criar uma cópia espelhada) no AutoDesk AutoCAD English:",
+        "alternativas": {
+            "A": "Trim.",
+            "B": "Line.",
+            "C": "Offset.",
+            "D": "Hatch.",
+            "E": "Mirror."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O comando 'mirror' no AutoCAD é utilizado para criar uma cópia espelhada de objetos selecionados em relação a um eixo definido pelo usuário. Os outros comandos (Trim, Line, Offset, Hatch) possuem funções diferentes no software."
+    },
+    {
+        "id": "1227129",
+        "enunciado": "No auto CAD o comando que permite ligar e desligar o objeto snap (o objeto snap funciona como um ímã na hora de manipular o desenho que pode ser por meio do objeto, pontas etc.) é:",
+        "alternativas": {
+            "A": "F3.",
+            "B": "F2.",
+            "C": "F1.",
+            "D": "F7.",
+            "E": "F8."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No AutoCAD, a tecla de atalho F3 é utilizada para ligar e desligar o recurso de 'Object Snap' (OSNAP), que auxilia no encaixe preciso a pontos geométricos de objetos durante o desenho."
+    },
+    {
+        "id": "1638455",
+        "enunciado": "Para unir várias linhas e arcos em um único objeto contínuo de maneira a facilitar a sua edição posteriormente, qual comando no AutoCAD é utilizado para combinar esses elementos em uma única polilinha?",
+        "alternativas": {
+            "A": "O comando JOIN é utilizado para combinar linhas e arcos em uma única polilinha, transformando-os em um objeto contínuo.",
+            "B": "O comando LINE cria novas linhas conectando os elementos existentes para formar uma polilinha.",
+            "C": "O comando TRIM é utilizado para conectar automaticamente as extremidades das linhas e arcos, formando uma polilinha.",
+            "D": "O comando GROUP agrupa os objetos sem alterar sua geometria, formando uma polilinha.",
+            "E": "O comando STRETCH une objetos próximos em um único elemento contínuo."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando JOIN no AutoCAD e projetado especificamente para unir linhas, arcos e polilinhas em um unico objeto contínuo, convertendo-os em uma polilinha se possivel. As outras opcoes descrevem comandos com funcoes distintas."
+    },
+    {
+        "id": "1178502",
+        "enunciado": "De acordo com as configurações estabelecidas pelo fabricante para o uso do software AutoCad, marque a alternativa que apresenta o comando no teclado que cria uma região ou uma polilinha de uma área delimitada:",
+        "alternativas": {
+            "A": "CHA (CHAMFER).",
+            "B": "BO (BOUNDARY).",
+            "C": "DED (DIMEDIT).",
+            "D": "CH (PROPERTIES).",
+            "E": "DBC (DBCONNECT)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando BO (BOUNDARY) no AutoCad é utilizado para criar polilinhas ou regiões fechadas a partir de áreas delimitadas."
+    },
+    {
+        "id": "1661137",
+        "enunciado": "A figura a seguir demonstra a Linha de Comando no software de desenho AutoCAD: Caso a Linha de Comando esteja oculta, é possível acionar o seguinte atalho no teclado do computador para que ela fique visível:",
+        "alternativas": {
+            "A": "CTRL+9",
+            "B": "ALT+9",
+            "C": "CTRL+10",
+            "D": "F9",
+            "E": "F10"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A Linha de Comando no AutoCAD, que exibe os comandos digitados e as respostas do programa, pode ser ativada ou ocultada utilizando o atalho de teclado CTRL+9."
+    },
+    {
+        "id": "2066791",
+        "enunciado": "No AutoCAD 2016, a viewport é uma ferramenta usada para visualizar diferentes partes de um desenho na área de layout, permitindo que ele seja exibido em várias escalas ou ângulos. Qual dos procedimentos a baixo permite ajustar uma viewport no layout para exibir uma área específica do desenho em uma escala desejada?",
+        "alternativas": {
+            "A": "Utilizar o comando ZOOM diretamente no Model Space, pois ele altera automaticamente a escala da viewport no layout.",
+            "B": "Selecionar a viewport no layout, clicar duas vezes dentro dela e, em seguida, usar o comando ZOOM e definir a escala desejada para ajustar a visualização.",
+            "C": "Criar múltiplas viewports no Model Space e transferi-las para o layout com as escalas aplicadas automaticamente.",
+            "D": "Alterar o fator de escala da viewport no Properties da guia Modify, que redimensiona automaticamente o conteúdo exibido."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para ajustar uma viewport no layout com uma escala desejada no AutoCAD, o procedimento correto é selecionar a viewport, dar um duplo clique dentro dela e usar o comando ZOOM, definindo a escala para a visualização desejada."
+    },
+    {
+        "id": "1197507",
+        "enunciado": "Sobre as ferramentas de edição no AutoCAD, marque a alternativa que corresponde à ferramenta que prolonga uma linha, contanto que exista um ponto de parada.",
+        "alternativas": {
+            "A": "Fillet.",
+            "B": "Extend.",
+            "C": "Offset.",
+            "D": "Chamfer.",
+            "E": "Rectangle."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A ferramenta 'Extend' (Estender) no AutoCAD é utilizada para prolongar objetos, como linhas, até um limite especificado. Essa funcionalidade permite alcançar um ponto de parada definido, como indicado no enunciado."
+    },
+    {
+        "id": "1202184",
+        "enunciado": "Em um ambiente de design no AutoCAD, é comum realizar uma série de ações, no entanto, às vezes, é necessário desfazer uma ação recente. Assinale a alternativa CORRETA sobre o comando utilizado para desfazer a última ação realizada.",
+        "alternativas": {
+            "A": "UNDO",
+            "B": "REDO",
+            "C": "ERASE",
+            "D": "COPY",
+            "E": "MOVE"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando UNDO no AutoCAD é utilizado para desfazer a última ação executada, permitindo que o usuário reverta operações recentes. REDO refaz, ERASE apaga, COPY duplica e MOVE desloca."
+    },
+    {
+        "id": "1065136",
+        "enunciado": "Assinale a opção que apresenta uma propriedade do uso de Blocos, no Programa AutoCAD 2018.",
+        "alternativas": {
+            "A": "Um bloco pode ser composto de outros blocos, convertendo-se em uma peça que tenha como componentes elementos criados como bloco.",
+            "B": "A cada bloco é possível associar informações ou atributos que não podem ser extraídos posteriormente e, portanto, nem manipulados separadamente.",
+            "C": "O espaço ocupado em disco por um bloco é igual ao ocupado individualmente pelas entidades que o compõem.",
+            "D": "Um bloco pode ser inserido no desenho quantas vezes forem necessárias, desde que com a mesma escala e sem rotações."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Esta propriedade é fundamental para a organização e complexidade dos desenhos no AutoCAD, permitindo a criação de estruturas hierárquicas de elementos reutilizáveis."
+    },
+    {
+        "id": "1397484",
+        "enunciado": "O comando adotado para recuperar arquivos danificados no Autocad é:",
+        "alternativas": {
+            "A": "Audit.",
+            "B": "List.",
+            "C": "Purge.",
+            "D": "Recover.",
+            "E": "Restore."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'Recover' no AutoCAD é especificamente projetado para recuperar arquivos de desenho corrompidos ou danificados, tentando reparar o máximo possível para restaurar o conteúdo."
+    },
+    {
+        "id": "1251840",
+        "enunciado": "A desenhista, ao desenvolver uma planta de estacionamento, utilizou o programa AutoDesk® AutoCad® 2018, na versão em inglês, e notou que se tratava de vagas com dimensões iguais. Para otimizar seu empenho, ele utilizou um comando para criar múltiplas linhas paralelas. Assinale a alternativa que apresenta qual comando ela utilizou.",
+        "alternativas": {
+            "A": "MLINE",
+            "B": "EDLINE",
+            "C": "COPYLINE",
+            "D": "LINETYPE"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando MLINE (ou MULTILINE) no AutoCAD é utilizado para criar múltiplas linhas paralelas simultaneamente, ideal para traçar contornos de vagas."
+    },
+    {
+        "id": "1010667",
+        "enunciado": "Considerando a versão em inglês do software AutoCAD marque a alternativa que apresenta a função do comando Grid.",
+        "alternativas": {
+            "A": "Esse comando liga/desliga linhas de referência no fundo da área gráfica para referenciar pontos do desenho.",
+            "B": "O comando permite dar um passo com o cursor com um determinado incremento.",
+            "C": "Através desse comando liga/desliga o sistema ortogonal, permitindo que as linhas sejam sempre perfeitamente ortogonais umas às outras.",
+            "D": "Esse comando torna um conjunto de desenhos em um só desenho, deixando-os engradeados."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando Grid no AutoCAD, em sua versão em inglês, é responsável por exibir ou ocultar a grade de fundo, que serve como referência visual para posicionamento e alinhamento de objetos no desenho."
+    },
+    {
+        "id": "1211968",
+        "enunciado": "Sobre o programa AutoCAD® (versão inglês), o comando que possibilita a criação rápida de uma anotação com linha de chamada é obtido pelo comando :",
+        "alternativas": {
+            "A": "QLEADER.",
+            "B": "QDIM.",
+            "C": "QTEXT.",
+            "D": "ARRAY.",
+            "E": "STAYLESMANAGER."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando QLEADER no AutoCAD é utilizado para criar anotações com linhas de chamada. Os outros comandos listados têm funções distintas: QDIM para dimensões rápidas, QTEXT para controlar a exibição de textos, ARRAY para criar cópias de objetos e STYLESMANAGER para gerenciar estilos."
+    },
+    {
+        "id": "1211658",
+        "enunciado": "Considerando a utilização do AutoCAD da AUTODESK para o desenvolvimento de um projeto de arquitetura, toda vez que um arquivo é salvo manualmente, isto é, clicando sobre o ícone salvar ou salvar como , o arquivo salvo recebe, além do nome atribuído a ele, a extensão .dwg , e será salvo, no mesmo local, outro arquivo de mesmo nome, mas com a extensão . bak. Caso o arquivo com a extensão . dwg apresente defeito, ou acidentalmente seja excluído, sem que exis ta a possibilidade de ser restaurado por meio da lixeira do sistema operacional, qual dos procedimentos listados a seguir deve ser utilizado para a recuperação do referido arquivo?",
+        "alternativas": {
+            "A": "Não é possível recuperar um arquivo previamente salvo utilizando o arquivo gerado com o mesmo nome, mas com a extensão .bak.",
+            "B": "Abrir o programa AutoCAD, escolher a opção “Importar” e navegar até o local em que foram salvos os arquivos e selecionar o arqu ivo .bak, e clicar em “Abrir.”",
+            "C": "Clicar com o botão direito do mouse sobre o arquivo .bak e escolher a opção “Abrir com” do menu, e, na opção “Procurar outro aplicativo neste PC”, navegar até a pasta em que está instalado o AutoCAD e escolher o arquivo e xecutável ACAD.exe.",
+            "D": "Abrir o Explorador de Arquivos do sistema operacional e exibir as extensões de nomes de arquivos. Logo após, retornar à pasta em que foi salvo o arquivo e alterar a extensão .bak para .dwg  e então abrir o arquivo.",
+            "E": "Abrir o progra ma AutoCAD, escolher a opção “Abrir” e navegar até o local em que foram salvos os arquivos, selecionar o arquivo .bak e clicar em “Abrir.”"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O arquivo .bak é uma cópia de segurança criada automaticamente pelo AutoCAD ao salvar um arquivo .dwg. Se o arquivo .dwg apresentar defeito ou for excluído, basta localizar o arquivo .bak na mesma pasta, alterar sua extensão de .bak para .dwg e abri-lo no AutoCAD. As demais alternativas apresentam procedimentos incorretos ou incompletos."
+    },
+    {
+        "id": "2326786",
+        "enunciado": "Na ferramenta AUTOCAD, o comando que permite criar círculos concêntricos, além de linhas e curvas paralelas ao objeto original, é o",
+        "alternativas": {
+            "A": "MIRROR.",
+            "B": "EXTEND.",
+            "C": "STRETCH.",
+            "D": "OFFSET.",
+            "E": "ARRAY."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando OFFSET no AutoCAD é a ferramenta utilizada para criar cópias paralelas de objetos existentes, como linhas, arcos, círculos e polilinhas, com uma distância especificada."
+    },
+    {
+        "id": "1004255",
+        "enunciado": "Durante o processo de impressão de um projeto, visualizou-se (função preview do Autocad) antes de finalizar o processo que o desenho apresenta medidas de 55cm x 80cm (planta baixa, cortes, fachadas e planta de situação) e utiliza uma escala única. Neste caso a folha adequada para a impressão do projeto sem alterar a escala, seria:",
+        "alternativas": {
+            "A": "A5.",
+            "B": "A3.",
+            "C": "A2.",
+            "D": "A1.",
+            "E": "A0."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um desenho com medidas de 55cm x 80cm, ao ser impresso com uma escala única e sem alteração, requer uma folha de tamanho A1, que tem dimensões aproximadas de 59,4cm x 84,1cm."
+    },
+    {
+        "id": "1211975",
+        "enunciado": "Considerando as teclas de atalhos do programa AutoCAD® (versão inglês), é CORRETO afirmar que a tecla de função F8 ativa o comando de :",
+        "alternativas": {
+            "A": "Alternar o modo ortogonal.",
+            "B": "Alterar o modo de snap.",
+            "C": "Alterar o modo polar.",
+            "D": "Alterar o modo de grade.",
+            "E": "Alterar o plano isométrico."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A tecla F8 no AutoCAD ativa ou desativa o modo ortogonal, que restringe o movimento do cursor a direções horizontais e verticais. Os demais modos são controlados por outras teclas de função ou comandos."
+    },
+    {
+        "id": "1211976",
+        "enunciado": "O comando no programa AutoCAD® (versão inglês) que serve para editar polylines  e também transformar linhas e arcos em polylines  é chamado de :",
+        "alternativas": {
+            "A": "EXTEND.",
+            "B": "OFFSET.",
+            "C": "EDIT.",
+            "D": "PEDIT.",
+            "E": "FILLET."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando PEDIT (Polyline Edit) no AutoCAD é especificamente utilizado para editar polylines e para converter linhas e arcos em polylines."
+    },
+    {
+        "id": "2189418",
+        "enunciado": "O AutoCAD 2014 (versão inglês) é uma importante ferramenta utilizada para assistir a projetos em computador. Em relação ao comando que é usado quando há necessidade de cortar uma linha que se estende sobre a outra, assinalar a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Extend.",
+            "B": "Paste.",
+            "C": "Path Array.",
+            "D": "Trim."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'Trim' no AutoCAD é utilizado para cortar ou aparar objetos em outros objetos de referência. 'Extend' estende linhas, 'Paste' cola e 'Path Array' cria cópias em um caminho."
+    },
+    {
+        "id": "2189420",
+        "enunciado": "O AutoCAD é importante para facilitar a elaboração de projetos de engenharia. Considerando-se a versão 2014, em inglês, assinalar a alternativa que preenche a lacuna abaixo CORRETAMENTE: Quando desejamos gerar as pranchas no formato “PDF” na aba layout, seleciona-se, no comando “Print”, o formato ____________ e, em seguida, seleciona-se a prancha com o formato do tamanho de folha escolhido.",
+        "alternativas": {
+            "A": "XML to PDF",
+            "B": "XLS to PDF",
+            "C": "DWG to PDF",
+            "D": "DXF to PDF"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No AutoCAD 2014 em inglês, para gerar um arquivo PDF a partir de um layout, o plotador selecionado deve ser um plotter virtual como o 'DWG to PDF.pc3', que cria o arquivo PDF diretamente do desenho DWG."
+    },
+    {
+        "id": "2021811",
+        "enunciado": "A figura a seguir apresenta uma ferramenta muito comum do software de desenho assistido por computador AUTOCAD. Sobre esta ferramenta é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "A ferramenta denomina-se Object Snap e pode ser ativada, por exemplo, pelo botão na Barra de Status ou pelo atalho F3.",
+            "B": "A ferramenta denomina-se Object Snap e pode ser ativada, por exemplo, pelo botão na Barra de Navigation ou pelo atalho OB.",
+            "C": "A ferramenta denomina-se Object Snap e pode ser ativada, por exemplo, pelo botão na Barra de Navigation ou pelo atalho F5.",
+            "D": "A ferramenta denomina-se Ortho Mode e pode ser ativada, por exemplo, pelo botão na Barra de Navigation ou pelo atalho OM.",
+            "E": "A ferramenta denomina-se Ortho Mode e pode ser ativada, por exemplo, pelo botão na Barra de Status ou pelo atalho F5."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A figura descreve a ferramenta Object Snap do AutoCAD, que auxilia no snap a pontos de objetos e pode ser ativada pelo botão na Barra de Status ou pela tecla F3."
+    },
+    {
+        "id": "1211671",
+        "enunciado": "Considerando o software de projeto assistido por computador, AutoCAD da AUTODESK, por meio de qual comando, dentre os listados a seguir, é possível remover do desenho atual objetos nomeados não utilizados, geometrias com comprimento zero e objetos de texto vazios?",
+        "alternativas": {
+            "A": "LIM (LIMPAR)",
+            "B": "CL (CLEAN)",
+            "C": "DEL (DELETE)",
+            "D": "PU (PURGE)",
+            "E": "OVERKILL"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando PU (PURGE) no AutoCAD é utilizado para remover do desenho objetos não utilizados, como blocos, layers, estilos de texto, dimensionamento e geometrias desnecessárias. Ele ajuda a otimizar o arquivo, reduzindo seu tamanho e evitando acúmulo de elementos que não compõem o projeto final. Os outros comandos listados não possuem essa funcionalidade específica."
+    },
+    {
+        "id": "2021813",
+        "enunciado": "No software de desenho assistido por computador AUTOCAD, o atalho padrão utilizado para alternar o modo SNAP e alternar o modo POLAR são respectivamente:",
+        "alternativas": {
+            "A": "Ctrl+X e F10",
+            "B": "F9 e F10",
+            "C": "Esc+F2 e F4",
+            "D": "F4 e F1",
+            "E": "F6 e Tab+1"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No AutoCAD, a tecla F9 é o atalho padrão para ativar ou desativar o modo SNAP (grades). Já a tecla F10 é o atalho para alternar o modo POLAR (rastreamento de ângulo)."
+    },
+    {
+        "id": "1220314",
+        "enunciado": "O AutoCAD é uma ferramenta computacional bastante utilizada por profissionais da área de engenharia para elaborar desenhos técnicos. Analise as afirmativas sobre os comandos utilizados para desenhar na referida ferramenta e identifique a(s) correta(s):I- O comando Line (linha) permite criar segmentos de reta.II- O comando Poliline (polilinha) permite a criação de uma sequência de segmentos dependentes.III- O comando Rectang (retângulo) permite desenhar retângulos.IV- O comendo Donut (anel) permite desenhar círculos preenchido ou um anel largo.Assinale a resposta correta:",
+        "alternativas": {
+            "A": "Todas as afirmativas estão corretas.",
+            "B": "Apenas as afirmativas I, II e IV estão corretas.",
+            "C": "Apenas a afirmativa III está correta.",
+            "D": "Apenas as afirmativas I e III estão corretas.",
+            "E": "Apenas a afirmativa II está correta."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Todos os comandos descritos estão corretos em sua função dentro do AutoCAD: Line cria retas, Poliline segmentos dependentes, Rectang retângulos e Donut anéis ou círculos preenchidos."
+    },
+    {
+        "id": "2144508",
+        "enunciado": "Para criar uma cota alinhada a um simples eixo ou linha, no programa AutoCAD, uma possibilidade é utilizar o comando:",
+        "alternativas": {
+            "A": "Dimplan.",
+            "B": "Dimangular.",
+            "C": "Dimaligned.",
+            "D": "Dimradius."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'Dimaligned' no AutoCAD é especificamente projetado para criar cotas alinhadas a geometrias não horizontais ou verticais, como um eixo simples ou uma linha."
+    },
+    {
+        "id": "1404708",
+        "enunciado": "No AutoCAD são pequenos quadrados que aparecem em posições definidas nos objetos no momento que um objeto é selecionado sem que haja um comando acionado. Trata-se dos:",
+        "alternativas": {
+            "A": "Edges.",
+            "B": "Grips.",
+            "C": "Trims.",
+            "D": "Layers."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B está correta. Os Grips são pequenos quadrados que aparecem em objetos selecionados no AutoCAD, permitindo sua manipulação sem comandos adicionais."
+    },
+    {
+        "id": "2214940",
+        "enunciado": "Uma das facilidades do software AutoCAD é a possibilidade de cotagem dos elementos desenhados. O “Quick Dimension” é um comando de dimensionamento muito útil ao desenhista. Este comando tem como função:",
+        "alternativas": {
+            "A": "Obter uma série de dimensionamentos medidos através de um offset.",
+            "B": "Permitir cotar diâmetros através do comando Join.",
+            "C": "Criar uma série de dimensões automaticamente de forma otimizada e rápida.",
+            "D": "Modificar a medida da cota.",
+            "E": "Adicionar ou deletar uma cota."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'Quick Dimension' no AutoCAD cria automaticamente multiplas cotas de forma otimizada e rapida, agilizando o processo de documentacao de projetos."
+    },
+    {
+        "id": "1882705",
+        "enunciado": "O AutoCad 2010 possui diversos comandos de modificação de objetos que podem ser acionados através das opções disponíveis em Toolbar – Modify e Modify II – ou no menu Modify. Dentre esses comandos, o mais adequado para criar cópias paralelas ao objeto selecionado é o comando",
+        "alternativas": {
+            "A": "Offset.",
+            "B": "Mirror.",
+            "C": "Move.",
+            "D": "Stretch."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'Offset' no AutoCAD é utilizado especificamente para criar cópias paralelas de objetos, mantendo a mesma distância entre elas."
+    }
+]

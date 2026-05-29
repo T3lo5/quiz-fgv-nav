@@ -1,0 +1,890 @@
+[
+    {
+        "id": "2056200",
+        "enunciado": "O técnico deve rever e comparar as radiografias usando um padrão recomendado para determinar se a imagem obtida é próxima ao ideal. Um modelo sistemático empregado para definir o critério de análise de radiografias é dividir a avaliação em três partes: Anatomia demonstrada; Posição da estrutura e Exposição. Assinale a alternativa que demonstra de forma correta qual item está diretamente associado à Exposição.",
+        "alternativas": {
+            "A": "Visualização na imagem considerando a centralização e colimação correta da anatomia de interesse.",
+            "B": "Determinação da presença ou não de movimentação da estrutura de interesse.",
+            "C": "Colocação da parte do corpo em relação ao receptor de imagem.",
+            "D": "Identificação de estruturas com clareza na imagem gerada."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A exposição correta em radiografia refere-se à quantidade de radiação utilizada para atravessar o corpo e atingir o receptor de imagem. Sua consequência direta é a identificação de estruturas com clareza, ou seja, se os tecidos moles e densos são visíveis adequadamente na imagem final."
+    },
+    {
+        "id": "2232646",
+        "enunciado": "Leia os enunciados abaixo e assinale a alternativa correta. I - A produção dos raios X é realizada em um tubo de vácuo revestido por chumbo. O chumbo e o bário são os elementos da natureza que bloqueiam a passagem da radiação. II - No interior desse tubo, existe um polo positivo que neutraliza a corrente elétrica.",
+        "alternativas": {
+            "A": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+            "B": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+            "C": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+            "D": "As asserções I e II são proposições verdadeiras, e a II não é uma justificativa da I.",
+            "E": "As asserções I e II são proposições falsas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A produção de raios X ocorre em um tubo de vácuo revestido de chumbo. O chumbo bloqueia a radiação. No entanto, não há um polo positivo que neutralize a corrente elétrica; o filamento quente emite elétrons. Portanto, a asserção I é verdadeira e a II é falsa."
+    },
+    {
+        "id": "2232652",
+        "enunciado": "Qual é o tipo de radiação que possui energia suficiente para remover elétrons dos átomos, criando íons, e cuja origem pode ser natural, como os raios cósmicos e os radionuclídeos provenientes da crosta terrestre, encontrados em locais como no solo, nas rochas, nos materiais de construção, na água potável e no próprio corpo humano?",
+        "alternativas": {
+            "A": "Radiação ionizante.",
+            "B": "Radiação ultravioleta do tipo A (UVA).",
+            "C": "Radiação térmica.",
+            "D": "Radiação eletromagnética.",
+            "E": "Radiação infravermelha."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A descrição fornecida, que envolve a capacidade de remover elétrons dos átomos, criar íons e ter origens naturais, corresponde precisamente à definição de radiação ionizante."
+    },
+    {
+        "id": "2232653",
+        "enunciado": "Analise as alternativas abaixo e marque a alternativa incorreta.",
+        "alternativas": {
+            "A": "As radiações ionizantes são altas energias capazes de alterar a estrutura da matéria, transformando átomos em íons.",
+            "B": "A radiação ionizante penetra de acordo com o seu tipo e energia.",
+            "C": "As radiações Alfa, Beta e Gama não possuem diferentes poderes de penetração, isto é, capacidade para atravessar materiais.",
+            "D": "Ao contrário das radiações Alfa e Beta, que são constituídas por partículas, a radiação gama é formada por ondas eletromagnéticas emitidas por núcleos instáveis logo em seguida à emissão de uma partícula Alfa ou Beta.",
+            "E": "As radiações não ionizantes não têm energia suficiente para ionizar a matéria."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As radiacoes Alfa, Beta e Gama possuem diferentes poderes de penetracao. A radiação Alfa tem baixo poder de penetração, a Beta tem poder intermediário e a Gama tem alto poder de penetração, podendo atravessar materiais mais densos. A afirmativa C, portanto, esta incorreta."
+    },
+    {
+        "id": "2184987",
+        "enunciado": "Em ultrassonografia, a unidade de medida utilizada para representar a frequência do transdutor é:",
+        "alternativas": {
+            "A": "Tesla.",
+            "B": "Hertz.",
+            "C": "Gray.",
+            "D": "Sievert."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A frequência dos transdutores ultrassonográficos é medida em Hertz (Hz), seus múltiplos (kHz, MHz) indicam a capacidade de penetração e resolução."
+    },
+    {
+        "id": "2031800",
+        "enunciado": "Qual das alternativas a seguir descreve corretamente um efeito biológico da radiação ionizante em células humanas?",
+        "alternativas": {
+            "A": "Sempre provoca a morte celular imediata.",
+            "B": "Tem apenas efeitos térmicos, sem impacto no material genético.",
+            "C": "Todas as células são igualmente sensíveis à radiação ionizante, independentemente do tipo de tecido.",
+            "D": "Não tem efeitos significativos em células em divisão.",
+            "E": "Pode causar mutações no DNA, levando ao desenvolvimento de câncer."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A radiação ionizante interage com o DNA celular, podendo causar quebras, rearranjos e mutações. Se essas alterações não forem reparadas corretamente, podem levar ao desenvolvimento de câncer. Não provoca morte celular imediata e nem todas as células são igualmente sensíveis."
+    },
+    {
+        "id": "2184989",
+        "enunciado": "A interação da radiação com a matéria responsável pela formação da imagem em radiologia diagnóstica é:",
+        "alternativas": {
+            "A": "Efeito fotoelétrico.",
+            "B": "Efeito Compton.",
+            "C": "Produção de pares.",
+            "D": "Efeito Cherenkov."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O efeito fotoelétrico é o principal mecanismo de formação de imagem em radiologia diagnóstica com raios-X, onde o fóton é totalmente absorvido pelo elétron."
+    },
+    {
+        "id": "2031802",
+        "enunciado": "Qual das alternativas a seguir descreve corretamente a diferença entre os efeitos diretos e indiretos da radiação ionizante em células biológicas?",
+        "alternativas": {
+            "A": "Efeitos diretos ocorrem apenas em células que não possuem núcleo, enquanto os efeitos indiretos afetam apenas células nucleadas.",
+            "B": "Efeitos diretos são sempre mais graves do que os efeitos indiretos, independentemente da dose de radiação.",
+            "C": "Efeitos diretos resultam da ionização direta do DNA, enquanto efeitos indiretos ocorrem devido à formação de radicais livres a partir da ionização de moléculas de água.",
+            "D": "Efeitos indiretos não causam danos ao DNA, mas podem afetar outras organelas celulares.",
+            "E": "Efeitos diretos e indiretos são indistinguíveis em termos de impacto celular."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C diferencia corretamente os efeitos da radiação ionizante: diretos pela ionização do DNA e indiretos pela formação de radicais livres a partir da água celular."
+    },
+    {
+        "id": "2326155",
+        "enunciado": "A respeito da produção dos raios-X, é correto afirmar que",
+        "alternativas": {
+            "A": "decorrem da interação de elétrons acelerados com alvo metálico, gerando radiação de freamento e característica.",
+            "B": "são produzidos predominantemente por radiação característica, sendo a radiação de freamento um componente residual do espectro.",
+            "C": "apresentam espectro de emissão exclusivamente discreto quando gerados em tubos convencionais de radiodiagnóstico.",
+            "D": "têm sua energia máxima determinada pela corrente do tubo (mA), independentemente da tensão aplicada.",
+            "E": "decorrem do aquecimento do anodo, que emite radiação térmica na faixa de energia dos raios-X."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Raios-X são produzidos pela interação de elétrons acelerados com um alvo metálico, gerando radiação de freamento e característica. As demais alternativas apresentam incorreções sobre o processo."
+    },
+    {
+        "id": "1132220",
+        "enunciado": "O médico solicitou ao paciente uma radiografia torácica para a avaliação do coração e dos grandes vasos. Nesse contexto, para minimizar distorções e reduzir a magnificação, a distância mínima recomendada entre a fonte do tubo de raios X e o filme é de:",
+        "alternativas": {
+            "A": "30 centímetros",
+            "B": "50 centímetros",
+            "C": "100 centímetros",
+            "D": "150 centímetros",
+            "E": "180 centímetros"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para exames radiográficos, especialmente do tórax e grandes vasos, a distância padrão para minimizar distorções e magnificação é de 1,5 a 2 metros (150 a 200 cm). 100 cm é a distância usual para crânio e abdômen, mas para tórax a maior distância é preferível."
+    },
+    {
+        "id": "1544145",
+        "enunciado": "A radiossensibilidade celular varia de acordo com diversos fatores, incluindo o tipo de célula e sua fase no ciclo celular. Considerando a especificidade da radiossensibilidade, qual das seguintes afirmações é CORRETA?",
+        "alternativas": {
+            "A": "Células altamente diferenciadas, como neurônios, são mais radiossensíveis do que células indiferenciadas, como células-tronco.",
+            "B": "Células que se dividem rapidamente, como células da medula óssea, são menos radiossensíveis do que células que se dividem lentamente, como células musculares.",
+            "C": "Células em fase de mitose (divisão celular) são mais radiossensíveis do que células em fase de intérfase (repouso).",
+            "D": "A radiossensibilidade celular é a mesma para todos os tipos de radiação ionizante, independentemente da sua energia e dose.",
+            "E": "A radiossensibilidade celular é determinada exclusivamente pela quantidade de DNA presente na célula."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Células em fase de mitose (M) são mais sensíveis à radiação ionizante devido à sua intensa atividade metabólica e condensação cromossômica, tornando-as mais vulneráveis a danos."
+    },
+    {
+        "id": "1544147",
+        "enunciado": "O tempo de latência é o intervalo entre a exposição à radiação ionizante e o aparecimento dos efeitos biológicos. Qual das seguintes afirmações sobre o tempo de latência é INCORRETA?",
+        "alternativas": {
+            "A": "O tempo de latência pode variar de minutos a anos, dependendo do tipo de efeito biológico e da dose de radiação.",
+            "B": "Efeitos agudos, como náuseas e vômitos, geralmente apresentam um tempo de latência curto, de horas a dias.",
+            "C": "Efeitos tardios, como câncer e catarata, podem ter um tempo de latência longo, de anos a décadas.",
+            "D": "O tempo de latência pode ser influenciado por fatores individuais, como idade e estado de saúde.",
+            "E": "O tempo de latência é sempre o mesmo para um determinado tipo de efeito biológico, independentemente da dose de radiação."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E está incorreta. O tempo de latência não é sempre o mesmo para um determinado efeito biológico. Ele pode ser influenciado pela dose de radiação, fatores individuais e tipo de efeito."
+    },
+    {
+        "id": "1840751",
+        "enunciado": "A função da grade antidifusora, Potter-Bucky, colocada entre o filme e o paciente é",
+        "alternativas": {
+            "A": "reduzir a radiação primária que chega ao filme causando perda da densidade.",
+            "B": "evitar que os raios x incidam no filme com cloreto de prata emitindo luz verde indesejada.",
+            "C": "impedir a radiação dispersa pelo filme e que chega ao paciente causando perda de contraste.",
+            "D": "reduzir a radiação espalhada pelo paciente e que chega ao filme causando perda de contraste."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A grade antidifusora (Potter-Bucky) tem como função absorver a radiação espalhada pelo paciente, que não incidiu diretamente no filme, melhorando o contraste da imagem absorvendo essa radiação indesejada."
+    },
+    {
+        "id": "1197288",
+        "enunciado": "O espectro eletromagnético é a distribuição das ondas eletromagnéticas, visíveis e não visíveis, de acordo com a frequência e o comprimento de onda característico de cada radiação. As ondas eletromagnéticas são aquelas que se propagam independentemente da presença de um meio material e possuem velocidade máxima, referente à propagação no vácuo, de 300.000 km/s. Sobre Radiações eletromagnéticas, é correto afirmar que, EXCETO:",
+        "alternativas": {
+            "A": "Os raios X são ondas eletromagnéticas de alta frequência que apresentam capacidade de penetração em sistemas de baixa densidade. Eles são utilizados para o diagnóstico feito por imagens.",
+            "B": "Os raios X conseguem atravessar os tecidos humanos, mas são barrados pela maior densidade dos ossos. Isso proporciona a criação de imagens para diagnósticos de fraturas, por exemplo.",
+            "C": "Os raios gama são ondas eletromagnéticas de altíssima frequência produzidas por transições nucleares. Em virtude do seu alto poder de penetração, são utilizados nas radioterapias para cauterização de células tumorais.",
+            "D": "O espectro eletromagnético é, geralmente, apresentado em ordem decrescente de frequências, começando pelas raios X, passando pela ultravioleta até as ondas de rádio.",
+            "E": "Em ordem crescente de frequência, as ondas distribuem-se no espectro eletromagnético, classificando-se em: ondas de rádio, micro-ondas, infravermelho, luz visível, ultravioleta, raios X e raios gama."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D esta incorreta. O espectro eletromagnetico nao é apresentado em ordem decrescente de frequencias começando pelos raios X. A ordem correta, em frequencia decrescente, começa pelos raios gama."
+    },
+    {
+        "id": "1197289",
+        "enunciado": "Detector de radiação é um dispositivo que, colocado em um meio onde exista um campo de radiação, seja capaz de indicar a sua presença. Existem diversos processos pelos quais diferentes radiações podem interagir com o meio material utilizado para medir ou indicar características dessas radiações. Para que um dispositivo seja classificado como um detector apropriado é necessário que, além de ser adequado para a medição do mensurando, apresente nas suas sequências de medição algumas características, tais como: Os pontos a seguir, apresentam as características de um detector e sua respectiva definição, EXCETO:",
+        "alternativas": {
+            "A": "Repetitividade, definida pelo grau de concordância dos resultados obtidos sob as mesmas condições de medição.",
+            "B": "Reprodutibilidade, grau de concordância dos resultados obtidos em diferentes condições de medição.",
+            "C": "Estabilidade, aptidão do instrumento conservar constantes suas características de medição ao longo do tempo.",
+            "D": "Exatidão, grau de concordância dos resultados com o valor verdadeiro ou valor de referência a ser determinado.",
+            "E": "Precisão, razão entre a variação da resposta de um instrumento e a correspondente variação do estímulo."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E contraria a definição padrão de precisão em metrologia, que se refere à concordância entre medições repetidas sob as mesmas condições, e não à razão entre variação da resposta e do estímulo, que se assemelha mais à sensibilidade."
+    },
+    {
+        "id": "1840753",
+        "enunciado": "Assinale a opção que indica a quantidade de placas fosforadas que operam dentro do cassete do CR.",
+        "alternativas": {
+            "A": "Uma placa.",
+            "B": "Duas placas.",
+            "C": "Não existe placa fosforada dentro do cassete no método CR.",
+            "D": "Três placas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No sistema de Radiografia Computadorizada (CR), o cassete contém uma única placa de fósforo fotoestimulável (PSP) que armazena a imagem latente após a exposição aos raios-X. Essa placa é então lida por um scanner a laser."
+    },
+    {
+        "id": "1132233",
+        "enunciado": "Considerando o modelo atômico de Bohr, assinale a alternativa que apresenta a definição de Raio X.",
+        "alternativas": {
+            "A": "São ondas eletromagnéticas emitidas quando um átomo perde nêutrons.",
+            "B": "É a ressonância nuclear magnética produzida quando um objeto é exposto à radiação no infravermelho.",
+            "C": "É a liberação de fóton que ocorre quando um elétron externo migra para um nível interno.",
+            "D": "É a energia liberada quando os átomos perdem prótons.",
+            "E": "É a frequência das ondas sonoras geradas pela absorção de radiação no ultravioleta."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Raio-X sao emitidos quando ocorre uma transição eletrônica em um átomo, especificamente quando um elétron de um nível de energia mais alto (externo) decai para um nível de energia mais baixo (interno), liberando um fóton de energia (que pode ser um raio-X)."
+    },
+    {
+        "id": "1197292",
+        "enunciado": "Causam uma alteração aleatória no DNA de uma única célula que no entanto, continua a reproduzir-se. Levam à transformação celular. Não apresentam limiar de dose. O dano pode ser causado por uma dose mínima de radiação. O aumento da dose somente aumenta a probabilidade e não a severidade do dano. A severidade é determinada pelo tipo e localização do tumor ou pela anomalia resultante. No entanto, o organismo apresenta mecanismos de defesa muito eficientes. A maioria das transformações neoplásicas não evolui para câncer. Quando este mecanismo falha, após um longo período de latência, o câncer então, aparece. A leucemia ~ 5-7 anos e os tumores sólidos ~ 20 anos. Os efeitos são cumulativos: quanto maior a dose, maior a probabilidade de ocorrência. Quando o dano ocorre em célula germinativa, efeitos hereditários podem ocorrer. A informação refere-se à: Assinale a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Efeitos Estocásticos.",
+            "B": "Efeitos Determinísticos.",
+            "C": "Efeitos da Exposição Pré-Natal.",
+            "D": "Efeito Proteção Radiológica.",
+            "E": "Efeito de proteção."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A descrição de danos aleatórios ao DNA, sem limiar de dose e com probabilidade relacionada à dose, que podem levar ao câncer após latência, caracteriza efeitos estocásticos."
+    },
+    {
+        "id": "1332562",
+        "enunciado": "Utiliza-se a escala de Hounsfield para avaliar a densidade entre os diferentes tecidos nos exames de tomografia computadorizada. Sabendo disso, qual é a HU (unidade Hounsfield) do pulmão?",
+        "alternativas": {
+            "A": "–200.",
+            "B": "–80.",
+            "C": "66.",
+            "D": "120.",
+            "E": "500."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala de Hounsfield (HU) atribui valores de densidade aos tecidos. Valores negativos indicam tecidos com densidade inferior à água. O pulmão, por ser um órgão com ar e baixa densidade, apresenta valores tipicamente ao redor de -80 HU."
+    },
+    {
+        "id": "1840760",
+        "enunciado": "No método de radiologia digital direta (DR), os elementos utilizados para a captura das imagens produzidas são",
+        "alternativas": {
+            "A": "filmes monoemulsionados.",
+            "B": "detectores.",
+            "C": "filmes biemulsionados.",
+            "D": "cassetes e Ecrans."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na radiologia digital direta (DR), os detectores são os elementos essenciais que capturam os raios X e convertem a informação em sinal digital para a formação da imagem, diferentemente dos métodos convencionais com filmes."
+    },
+    {
+        "id": "1840765",
+        "enunciado": "Para realização de um bom exame radiográfico, é fundamental conhecer e entender as características das classes dos Biotipos Corporais, pois eles têm um impacto importante para sua localização nos exames. Assinale a opção incorreta no que se refere às características desses biotipos.",
+        "alternativas": {
+            "A": "Hiperestênico, constituição corporal mais maciça, tórax e abdome muito largos e profundos de frente para trás.",
+            "B": "Estênico, constituição corporal média. Altura, peso e comprimento do tronco próximos da média.",
+            "C": "Hipoestênico, geralmente são mais delgados, altos, possuem pulmões mais estreitos e mais longos, com um diafragma baixo.",
+            "D": "Astênico, geralmente apresentam um corpo obeso, tórax e abdome largos, muito acima da média."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O biotipo Astênico geralmente é associado a um corpo delgado e alto, não obeso, com tórax e abdome estreitos, tornando a alternativa D incorreta."
+    },
+    {
+        "id": "1840768",
+        "enunciado": "Existem vantagens e desvantagens na Tomografia Computadorizada e Ressonância Magnética. Ambos os métodos, são importantes para diagnóstico de várias patologias e traumatismos. Assinale a opção que compara corretamente as características da Tomografia Computadorizada (TC) e da Ressonância Magnética (RM).",
+        "alternativas": {
+            "A": "A TC consegue ser um exame mais apropriado, pois, utiliza radiação ionizante e, desta forma, é capaz de visualizar os tecidos moles com muita nitidez.",
+            "B": "As imagens trabalhadas pelo computador, na TC ou na RM, não são capazes de formar cortes axiais ou transversais.",
+            "C": "Diferentemente da TC, a RM não requer o uso de radiação ionizante. Embora a TC seja mais apropriada para anatomia óssea, a RM é capaz de mostrar melhor a anatomia dos tecidos moles.",
+            "D": "Os ossos produzem um sinal de RM, por isso limitam a visualização dos tecidos moles que os circundam."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A RM não usa radiação ionizante, ao contrário da TC. A TC é mais adequada para ossos devido à atenuação de raios-X, enquanto a RM, com sua alta resolução de contraste, é superior para visualizar tecidos moles."
+    },
+    {
+        "id": "1840770",
+        "enunciado": "O maior e mais importante componente em um sistema de Ressonância Magnética é o magneto. Ele é classificado por uma unidade de medida conhecida como Tesla. Outra unidade de medida nos magnetos é o Gauss (1 Tesla equivale a 10.000 gauss). Nesse contexto, os magnetos utilizados na RM são:",
+        "alternativas": {
+            "A": "Supercondutores, Bobina de Gradiente e Bobina Receptora.",
+            "B": "Bobinas de Radiofrequência, Resistivos e Bobina de Superfície.",
+            "C": "Permanentes, Relaxação e Supercondutores.",
+            "D": "Resistivos, Permanentes e Supercondutores."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os magnetos utilizados em sistemas de Ressonância Magnética (RM) são classificados em Resistivos, Permanentes e Supercondutores, cada um com características e aplicações específicas."
+    },
+    {
+        "id": "2260927",
+        "enunciado": "Leia as afirmativas abaixo. Podemos afirmar que um exame radiográfico simples inclui as seguintes funções básicas: I. Identificar o paciente. II. Seleção das medidas de proteção radiológicas. III. Exposição. IV. Processamento ou revelação. Estão CORRETAS as afirmativas:",
+        "alternativas": {
+            "A": "I e III, apenas.",
+            "B": "II e IV, apenas.",
+            "C": "I, II e III, apenas.",
+            "D": "I, II, III e IV."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As fases de um exame radiográfico simples envolvem identificar o paciente, aplicar proteções radiológicas, realizar a exposição e o processamento da imagem. Todas as afirmativas descrevem etapas essenciais."
+    },
+    {
+        "id": "2260946",
+        "enunciado": "Referente a radiografia, podemos afirmar acerca da densidade:",
+        "alternativas": {
+            "A": "Configura a diferença de tons de cinza entre as densidades do filme.",
+            "B": "É o grau de enegrecimento da radiografia processada.",
+            "C": "Quanto menor o grau de enegrecimento, maior o grau de densidade e menor a quantidade de luz que atravessará a radiografia quando colocada de frente a um negatoscópio.",
+            "D": "Constitui o fator que torna visíveis a forma e os detalhes das estruturas em estudo."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A densidade radiográfica é a medida do escurecimento do filme. Uma maior exposição de raios X à película resulta em maior densidade, ou seja, um enegrecimento mais intenso."
+    },
+    {
+        "id": "1397300",
+        "enunciado": "A tomografia computadorizada trabalha com uma escala denominada Escala de Hounsfield (HU), que varia do preto (-1000 HU) ao branco (+1000 HU) passando pelo cinza (0 HU) e esta variação está ligada a formação da imagem, sendo assim é CORRETO afirmar.",
+        "alternativas": {
+            "A": "HU é responsável pela definição de ponderação de T1, T2 e outras;",
+            "B": "HU serve de referência para identificarmos a densidade dos tecidos;",
+            "C": "HU tem como princípio a formação de valores na reconstrução MPR;",
+            "D": "HU é a medida de feixe de RX que indica espessura do corte realizado."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A Escala de Hounsfield (HU) é utilizada para quantificar a densidade dos tecidos em imagens de tomografia computadorizada. Valores mais altos representam tecidos mais densos (mais brilhantes na imagem)."
+    },
+    {
+        "id": "2257888",
+        "enunciado": "A avaliação de quanto tempo ainda resta de crescimento é feita pelo exame de idade óssea realizando um Raio X de:",
+        "alternativas": {
+            "A": "Arcada dentária.",
+            "B": "Mão.",
+            "C": "Fêmur.",
+            "D": "Pé."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A avaliação da idade óssea, essencial para determinar o potencial de crescimento remanescente em crianças e adolescentes, é classicamente realizada por meio de um raio X da mão não dominante."
+    },
+    {
+        "id": "2257890",
+        "enunciado": "Certas linhas de posicionamento são importantes na radiografia craniana. São formadas ligando certos pontos de referência faciais ao ponto médio do MAE, que é a abertura deste. O ponto central desta abertura chama-se ponto auricular. A mais superior dessas linhas de posicionamento é a:",
+        "alternativas": {
+            "A": "Linha orbitomeatal.",
+            "B": "Linha infraorbitomeatal.",
+            "C": "Linha glabelomeatal.",
+            "D": "Linha acantomeatal."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A linha glabelomeatal é a mais superior das linhas de posicionamento craniano, ligando o glabela (entre as sobrancelhas) ao ponto médio do meato acústico externo. As outras linhas são mais inferiores."
+    },
+    {
+        "id": "2257892",
+        "enunciado": "Considerando as variantes de cálculo para técnicas radiológicas, marque a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "KV – kilovoltagem aplicada, responsável pelo enegrecimento da película de raios-X.",
+            "B": "MA – está diretamente relacionado à anatomia, fisiologia e patologia da estrutura e da região de interesse.",
+            "C": "MAS – responsável pelo contraste da película.",
+            "D": "S – constante do aparelho, medida com o uso de osciloscópio."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O MA (Ampere) está relacionado à quantidade de elétrons que atravessam o tubo de raios X e, consequentemente, à quantidade de radiação produzida, influenciando o tempo de exposição e a densidade radiográfica. Não está diretamente relacionado à anatomia e fisiologia."
+    },
+    {
+        "id": "2257895",
+        "enunciado": "Em incidência lateral da coluna cervical, marque a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "As áreas radio sensíveis devem ser protegidas.",
+            "B": "Margens ósseas e marcas trabeculares aparecem nitidamente.",
+            "C": "O paciente deverá prender a respiração em expiração total.",
+            "D": "O Raio Central deve estar centralizado em T1, que está aproximadamente 2,5cm acima do nível da incisura jugular anteriormente e no nível da vértebra proeminente posteriormente."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para a incidência lateral da coluna cervical e para a maioria das radiografias de tórax, o paciente deve reter o ar na inspiração final para melhor visualização das estruturas. Expiração total diminuiria a expansão pulmonar."
+    },
+    {
+        "id": "2056200",
+        "enunciado": "O técnico deve rever e comparar as radiografias usando um padrão recomendado para determinar se a imagem obtida é próxima ao ideal. Um modelo sistemático empregado para definir o critério de análise de radiografias é dividir a avaliação em três partes: Anatomia demonstrada; Posição da estrutura e Exposição. Assinale a alternativa que demonstra de forma correta qual item está diretamente associado à Exposição.",
+        "alternativas": {
+            "A": "Visualização na imagem considerando a centralização e colimação correta da anatomia de interesse.",
+            "B": "Determinação da presença ou não de movimentação da estrutura de interesse.",
+            "C": "Colocação da parte do corpo em relação ao receptor de imagem.",
+            "D": "Identificação de estruturas com clareza na imagem gerada."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A exposição correta em radiografia refere-se à quantidade de radiação utilizada para atravessar o corpo e atingir o receptor de imagem. Sua consequência direta é a identificação de estruturas com clareza, ou seja, se os tecidos moles e densos são visíveis adequadamente na imagem final."
+    },
+    {
+        "id": "2232646",
+        "enunciado": "Leia os enunciados abaixo e assinale a alternativa correta. I - A produção dos raios X é realizada em um tubo de vácuo revestido por chumbo. O chumbo e o bário são os elementos da natureza que bloqueiam a passagem da radiação. II - No interior desse tubo, existe um polo positivo que neutraliza a corrente elétrica.",
+        "alternativas": {
+            "A": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+            "B": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+            "C": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+            "D": "As asserções I e II são proposições verdadeiras, e a II não é uma justificativa da I.",
+            "E": "As asserções I e II são proposições falsas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A produção de raios X ocorre em um tubo de vácuo revestido de chumbo. O chumbo bloqueia a radiação. No entanto, não há um polo positivo que neutralize a corrente elétrica; o filamento quente emite elétrons. Portanto, a asserção I é verdadeira e a II é falsa."
+    },
+    {
+        "id": "2232652",
+        "enunciado": "Qual é o tipo de radiação que possui energia suficiente para remover elétrons dos átomos, criando íons, e cuja origem pode ser natural, como os raios cósmicos e os radionuclídeos provenientes da crosta terrestre, encontrados em locais como no solo, nas rochas, nos materiais de construção, na água potável e no próprio corpo humano?",
+        "alternativas": {
+            "A": "Radiação ionizante.",
+            "B": "Radiação ultravioleta do tipo A (UVA).",
+            "C": "Radiação térmica.",
+            "D": "Radiação eletromagnética.",
+            "E": "Radiação infravermelha."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A descrição fornecida, que envolve a capacidade de remover elétrons dos átomos, criar íons e ter origens naturais, corresponde precisamente à definição de radiação ionizante."
+    },
+    {
+        "id": "2232653",
+        "enunciado": "Analise as alternativas abaixo e marque a alternativa incorreta.",
+        "alternativas": {
+            "A": "As radiações ionizantes são altas energias capazes de alterar a estrutura da matéria, transformando átomos em íons.",
+            "B": "A radiação ionizante penetra de acordo com o seu tipo e energia.",
+            "C": "As radiações Alfa, Beta e Gama não possuem diferentes poderes de penetração, isto é, capacidade para atravessar materiais.",
+            "D": "Ao contrário das radiações Alfa e Beta, que são constituídas por partículas, a radiação gama é formada por ondas eletromagnéticas emitidas por núcleos instáveis logo em seguida à emissão de uma partícula Alfa ou Beta.",
+            "E": "As radiações não ionizantes não têm energia suficiente para ionizar a matéria."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As radiacoes Alfa, Beta e Gama possuem diferentes poderes de penetracao. A radiação Alfa tem baixo poder de penetração, a Beta tem poder intermediário e a Gama tem alto poder de penetração, podendo atravessar materiais mais densos. A afirmativa C, portanto, esta incorreta."
+    },
+    {
+        "id": "2184987",
+        "enunciado": "Em ultrassonografia, a unidade de medida utilizada para representar a frequência do transdutor é:",
+        "alternativas": {
+            "A": "Tesla.",
+            "B": "Hertz.",
+            "C": "Gray.",
+            "D": "Sievert."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A frequência dos transdutores ultrassonográficos é medida em Hertz (Hz), seus múltiplos (kHz, MHz) indicam a capacidade de penetração e resolução."
+    },
+    {
+        "id": "2031800",
+        "enunciado": "Qual das alternativas a seguir descreve corretamente um efeito biológico da radiação ionizante em células humanas?",
+        "alternativas": {
+            "A": "Sempre provoca a morte celular imediata.",
+            "B": "Tem apenas efeitos térmicos, sem impacto no material genético.",
+            "C": "Todas as células são igualmente sensíveis à radiação ionizante, independentemente do tipo de tecido.",
+            "D": "Não tem efeitos significativos em células em divisão.",
+            "E": "Pode causar mutações no DNA, levando ao desenvolvimento de câncer."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A radiação ionizante interage com o DNA celular, podendo causar quebras, rearranjos e mutações. Se essas alterações não forem reparadas corretamente, podem levar ao desenvolvimento de câncer. Não provoca morte celular imediata e nem todas as células são igualmente sensíveis."
+    },
+    {
+        "id": "2184989",
+        "enunciado": "A interação da radiação com a matéria responsável pela formação da imagem em radiologia diagnóstica é:",
+        "alternativas": {
+            "A": "Efeito fotoelétrico.",
+            "B": "Efeito Compton.",
+            "C": "Produção de pares.",
+            "D": "Efeito Cherenkov."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O efeito fotoelétrico é o principal mecanismo de formação de imagem em radiologia diagnóstica com raios-X, onde o fóton é totalmente absorvido pelo elétron."
+    },
+    {
+        "id": "2031802",
+        "enunciado": "Qual das alternativas a seguir descreve corretamente a diferença entre os efeitos diretos e indiretos da radiação ionizante em células biológicas?",
+        "alternativas": {
+            "A": "Efeitos diretos ocorrem apenas em células que não possuem núcleo, enquanto os efeitos indiretos afetam apenas células nucleadas.",
+            "B": "Efeitos diretos são sempre mais graves do que os efeitos indiretos, independentemente da dose de radiação.",
+            "C": "Efeitos diretos resultam da ionização direta do DNA, enquanto efeitos indiretos ocorrem devido à formação de radicais livres a partir da ionização de moléculas de água.",
+            "D": "Efeitos indiretos não causam danos ao DNA, mas podem afetar outras organelas celulares.",
+            "E": "Efeitos diretos e indiretos são indistinguíveis em termos de impacto celular."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C diferencia corretamente os efeitos da radiação ionizante: diretos pela ionização do DNA e indiretos pela formação de radicais livres a partir da água celular."
+    },
+    {
+        "id": "2326155",
+        "enunciado": "A respeito da produção dos raios-X, é correto afirmar que",
+        "alternativas": {
+            "A": "decorrem da interação de elétrons acelerados com alvo metálico, gerando radiação de freamento e característica.",
+            "B": "são produzidos predominantemente por radiação característica, sendo a radiação de freamento um componente residual do espectro.",
+            "C": "apresentam espectro de emissão exclusivamente discreto quando gerados em tubos convencionais de radiodiagnóstico.",
+            "D": "têm sua energia máxima determinada pela corrente do tubo (mA), independentemente da tensão aplicada.",
+            "E": "decorrem do aquecimento do anodo, que emite radiação térmica na faixa de energia dos raios-X."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Raios-X são produzidos pela interação de elétrons acelerados com um alvo metálico, gerando radiação de freamento e característica. As demais alternativas apresentam incorreções sobre o processo."
+    },
+    {
+        "id": "1132220",
+        "enunciado": "O médico solicitou ao paciente uma radiografia torácica para a avaliação do coração e dos grandes vasos. Nesse contexto, para minimizar distorções e reduzir a magnificação, a distância mínima recomendada entre a fonte do tubo de raios X e o filme é de:",
+        "alternativas": {
+            "A": "30 centímetros",
+            "B": "50 centímetros",
+            "C": "100 centímetros",
+            "D": "150 centímetros",
+            "E": "180 centímetros"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para exames radiográficos, especialmente do tórax e grandes vasos, a distância padrão para minimizar distorções e magnificação é de 1,5 a 2 metros (150 a 200 cm). 100 cm é a distância usual para crânio e abdômen, mas para tórax a maior distância é preferível."
+    },
+    {
+        "id": "1544145",
+        "enunciado": "A radiossensibilidade celular varia de acordo com diversos fatores, incluindo o tipo de célula e sua fase no ciclo celular. Considerando a especificidade da radiossensibilidade, qual das seguintes afirmações é CORRETA?",
+        "alternativas": {
+            "A": "Células altamente diferenciadas, como neurônios, são mais radiossensíveis do que células indiferenciadas, como células-tronco.",
+            "B": "Células que se dividem rapidamente, como células da medula óssea, são menos radiossensíveis do que células que se dividem lentamente, como células musculares.",
+            "C": "Células em fase de mitose (divisão celular) são mais radiossensíveis do que células em fase de intérfase (repouso).",
+            "D": "A radiossensibilidade celular é a mesma para todos os tipos de radiação ionizante, independentemente da sua energia e dose.",
+            "E": "A radiossensibilidade celular é determinada exclusivamente pela quantidade de DNA presente na célula."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Células em fase de mitose (M) são mais sensíveis à radiação ionizante devido à sua intensa atividade metabólica e condensação cromossômica, tornando-as mais vulneráveis a danos."
+    },
+    {
+        "id": "1544147",
+        "enunciado": "O tempo de latência é o intervalo entre a exposição à radiação ionizante e o aparecimento dos efeitos biológicos. Qual das seguintes afirmações sobre o tempo de latência é INCORRETA?",
+        "alternativas": {
+            "A": "O tempo de latência pode variar de minutos a anos, dependendo do tipo de efeito biológico e da dose de radiação.",
+            "B": "Efeitos agudos, como náuseas e vômitos, geralmente apresentam um tempo de latência curto, de horas a dias.",
+            "C": "Efeitos tardios, como câncer e catarata, podem ter um tempo de latência longo, de anos a décadas.",
+            "D": "O tempo de latência pode ser influenciado por fatores individuais, como idade e estado de saúde.",
+            "E": "O tempo de latência é sempre o mesmo para um determinado tipo de efeito biológico, independentemente da dose de radiação."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E está incorreta. O tempo de latência não é sempre o mesmo para um determinado efeito biológico. Ele pode ser influenciado pela dose de radiação, fatores individuais e tipo de efeito."
+    },
+    {
+        "id": "1840751",
+        "enunciado": "A função da grade antidifusora, Potter-Bucky, colocada entre o filme e o paciente é",
+        "alternativas": {
+            "A": "reduzir a radiação primária que chega ao filme causando perda da densidade.",
+            "B": "evitar que os raios x incidam no filme com cloreto de prata emitindo luz verde indesejada.",
+            "C": "impedir a radiação dispersa pelo filme e que chega ao paciente causando perda de contraste.",
+            "D": "reduzir a radiação espalhada pelo paciente e que chega ao filme causando perda de contraste."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A grade antidifusora (Potter-Bucky) tem como função absorver a radiação espalhada pelo paciente, que não incidiu diretamente no filme, melhorando o contraste da imagem absorvendo essa radiação indesejada."
+    },
+    {
+        "id": "1197288",
+        "enunciado": "O espectro eletromagnético é a distribuição das ondas eletromagnéticas, visíveis e não visíveis, de acordo com a frequência e o comprimento de onda característico de cada radiação. As ondas eletromagnéticas são aquelas que se propagam independentemente da presença de um meio material e possuem velocidade máxima, referente à propagação no vácuo, de 300.000 km/s. Sobre Radiações eletromagnéticas, é correto afirmar que, EXCETO:",
+        "alternativas": {
+            "A": "Os raios X são ondas eletromagnéticas de alta frequência que apresentam capacidade de penetração em sistemas de baixa densidade. Eles são utilizados para o diagnóstico feito por imagens.",
+            "B": "Os raios X conseguem atravessar os tecidos humanos, mas são barrados pela maior densidade dos ossos. Isso proporciona a criação de imagens para diagnósticos de fraturas, por exemplo.",
+            "C": "Os raios gama são ondas eletromagnéticas de altíssima frequência produzidas por transições nucleares. Em virtude do seu alto poder de penetração, são utilizados nas radioterapias para cauterização de células tumorais.",
+            "D": "O espectro eletromagnético é, geralmente, apresentado em ordem decrescente de frequências, começando pelas raios X, passando pela ultravioleta até as ondas de rádio.",
+            "E": "Em ordem crescente de frequência, as ondas distribuem-se no espectro eletromagnético, classificando-se em: ondas de rádio, micro-ondas, infravermelho, luz visível, ultravioleta, raios X e raios gama."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D esta incorreta. O espectro eletromagnetico nao é apresentado em ordem decrescente de frequencias começando pelos raios X. A ordem correta, em frequencia decrescente, começa pelos raios gama."
+    },
+    {
+        "id": "1197289",
+        "enunciado": "Detector de radiação é um dispositivo que, colocado em um meio onde exista um campo de radiação, seja capaz de indicar a sua presença. Existem diversos processos pelos quais diferentes radiações podem interagir com o meio material utilizado para medir ou indicar características dessas radiações. Para que um dispositivo seja classificado como um detector apropriado é necessário que, além de ser adequado para a medição do mensurando, apresente nas suas sequências de medição algumas características, tais como: Os pontos a seguir, apresentam as características de um detector e sua respectiva definição, EXCETO:",
+        "alternativas": {
+            "A": "Repetitividade, definida pelo grau de concordância dos resultados obtidos sob as mesmas condições de medição.",
+            "B": "Reprodutibilidade, grau de concordância dos resultados obtidos em diferentes condições de medição.",
+            "C": "Estabilidade, aptidão do instrumento conservar constantes suas características de medição ao longo do tempo.",
+            "D": "Exatidão, grau de concordância dos resultados com o valor verdadeiro ou valor de referência a ser determinado.",
+            "E": "Precisão, razão entre a variação da resposta de um instrumento e a correspondente variação do estímulo."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E contraria a definição padrão de precisão em metrologia, que se refere à concordância entre medições repetidas sob as mesmas condições, e não à razão entre variação da resposta e do estímulo, que se assemelha mais à sensibilidade."
+    },
+    {
+        "id": "1840753",
+        "enunciado": "Assinale a opção que indica a quantidade de placas fosforadas que operam dentro do cassete do CR.",
+        "alternativas": {
+            "A": "Uma placa.",
+            "B": "Duas placas.",
+            "C": "Não existe placa fosforada dentro do cassete no método CR.",
+            "D": "Três placas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No sistema de Radiografia Computadorizada (CR), o cassete contém uma única placa de fósforo fotoestimulável (PSP) que armazena a imagem latente após a exposição aos raios-X. Essa placa é então lida por um scanner a laser."
+    },
+    {
+        "id": "1132233",
+        "enunciado": "Considerando o modelo atômico de Bohr, assinale a alternativa que apresenta a definição de Raio X.",
+        "alternativas": {
+            "A": "São ondas eletromagnéticas emitidas quando um átomo perde nêutrons.",
+            "B": "É a ressonância nuclear magnética produzida quando um objeto é exposto à radiação no infravermelho.",
+            "C": "É a liberação de fóton que ocorre quando um elétron externo migra para um nível interno.",
+            "D": "É a energia liberada quando os átomos perdem prótons.",
+            "E": "É a frequência das ondas sonoras geradas pela absorção de radiação no ultravioleta."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Raio-X sao emitidos quando ocorre uma transição eletrônica em um átomo, especificamente quando um elétron de um nível de energia mais alto (externo) decai para um nível de energia mais baixo (interno), liberando um fóton de energia (que pode ser um raio-X)."
+    },
+    {
+        "id": "1197292",
+        "enunciado": "Causam uma alteração aleatória no DNA de uma única célula que no entanto, continua a reproduzir-se. Levam à transformação celular. Não apresentam limiar de dose. O dano pode ser causado por uma dose mínima de radiação. O aumento da dose somente aumenta a probabilidade e não a severidade do dano. A severidade é determinada pelo tipo e localização do tumor ou pela anomalia resultante. No entanto, o organismo apresenta mecanismos de defesa muito eficientes. A maioria das transformações neoplásicas não evolui para câncer. Quando este mecanismo falha, após um longo período de latência, o câncer então, aparece. A leucemia ~ 5-7 anos e os tumores sólidos ~ 20 anos. Os efeitos são cumulativos: quanto maior a dose, maior a probabilidade de ocorrência. Quando o dano ocorre em célula germinativa, efeitos hereditários podem ocorrer. A informação refere-se à: Assinale a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Efeitos Estocásticos.",
+            "B": "Efeitos Determinísticos.",
+            "C": "Efeitos da Exposição Pré-Natal.",
+            "D": "Efeito Proteção Radiológica.",
+            "E": "Efeito de proteção."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A descrição de danos aleatórios ao DNA, sem limiar de dose e com probabilidade relacionada à dose, que podem levar ao câncer após latência, caracteriza efeitos estocásticos."
+    },
+    {
+        "id": "1332562",
+        "enunciado": "Utiliza-se a escala de Hounsfield para avaliar a densidade entre os diferentes tecidos nos exames de tomografia computadorizada. Sabendo disso, qual é a HU (unidade Hounsfield) do pulmão?",
+        "alternativas": {
+            "A": "–200.",
+            "B": "–80.",
+            "C": "66.",
+            "D": "120.",
+            "E": "500."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala de Hounsfield (HU) atribui valores de densidade aos tecidos. Valores negativos indicam tecidos com densidade inferior à água. O pulmão, por ser um órgão com ar e baixa densidade, apresenta valores tipicamente ao redor de -80 HU."
+    },
+    {
+        "id": "1840760",
+        "enunciado": "No método de radiologia digital direta (DR), os elementos utilizados para a captura das imagens produzidas são",
+        "alternativas": {
+            "A": "filmes monoemulsionados.",
+            "B": "detectores.",
+            "C": "filmes biemulsionados.",
+            "D": "cassetes e Ecrans."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na radiologia digital direta (DR), os detectores são os elementos essenciais que capturam os raios X e convertem a informação em sinal digital para a formação da imagem, diferentemente dos métodos convencionais com filmes."
+    },
+    {
+        "id": "1840765",
+        "enunciado": "Para realização de um bom exame radiográfico, é fundamental conhecer e entender as características das classes dos Biotipos Corporais, pois eles têm um impacto importante para sua localização nos exames. Assinale a opção incorreta no que se refere às características desses biotipos.",
+        "alternativas": {
+            "A": "Hiperestênico, constituição corporal mais maciça, tórax e abdome muito largos e profundos de frente para trás.",
+            "B": "Estênico, constituição corporal média. Altura, peso e comprimento do tronco próximos da média.",
+            "C": "Hipoestênico, geralmente são mais delgados, altos, possuem pulmões mais estreitos e mais longos, com um diafragma baixo.",
+            "D": "Astênico, geralmente apresentam um corpo obeso, tórax e abdome largos, muito acima da média."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O biotipo Astênico geralmente é associado a um corpo delgado e alto, não obeso, com tórax e abdome estreitos, tornando a alternativa D incorreta."
+    },
+    {
+        "id": "1840768",
+        "enunciado": "Existem vantagens e desvantagens na Tomografia Computadorizada e Ressonância Magnética. Ambos os métodos, são importantes para diagnóstico de várias patologias e traumatismos. Assinale a opção que compara corretamente as características da Tomografia Computadorizada (TC) e da Ressonância Magnética (RM).",
+        "alternativas": {
+            "A": "A TC consegue ser um exame mais apropriado, pois, utiliza radiação ionizante e, desta forma, é capaz de visualizar os tecidos moles com muita nitidez.",
+            "B": "As imagens trabalhadas pelo computador, na TC ou na RM, não são capazes de formar cortes axiais ou transversais.",
+            "C": "Diferentemente da TC, a RM não requer o uso de radiação ionizante. Embora a TC seja mais apropriada para anatomia óssea, a RM é capaz de mostrar melhor a anatomia dos tecidos moles.",
+            "D": "Os ossos produzem um sinal de RM, por isso limitam a visualização dos tecidos moles que os circundam."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A RM não usa radiação ionizante, ao contrário da TC. A TC é mais adequada para ossos devido à atenuação de raios-X, enquanto a RM, com sua alta resolução de contraste, é superior para visualizar tecidos moles."
+    },
+    {
+        "id": "1840770",
+        "enunciado": "O maior e mais importante componente em um sistema de Ressonância Magnética é o magneto. Ele é classificado por uma unidade de medida conhecida como Tesla. Outra unidade de medida nos magnetos é o Gauss (1 Tesla equivale a 10.000 gauss). Nesse contexto, os magnetos utilizados na RM são:",
+        "alternativas": {
+            "A": "Supercondutores, Bobina de Gradiente e Bobina Receptora.",
+            "B": "Bobinas de Radiofrequência, Resistivos e Bobina de Superfície.",
+            "C": "Permanentes, Relaxação e Supercondutores.",
+            "D": "Resistivos, Permanentes e Supercondutores."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os magnetos utilizados em sistemas de Ressonância Magnética (RM) são classificados em Resistivos, Permanentes e Supercondutores, cada um com características e aplicações específicas."
+    },
+    {
+        "id": "2260927",
+        "enunciado": "Leia as afirmativas abaixo. Podemos afirmar que um exame radiográfico simples inclui as seguintes funções básicas: I. Identificar o paciente. II. Seleção das medidas de proteção radiológicas. III. Exposição. IV. Processamento ou revelação. Estão CORRETAS as afirmativas:",
+        "alternativas": {
+            "A": "I e III, apenas.",
+            "B": "II e IV, apenas.",
+            "C": "I, II e III, apenas.",
+            "D": "I, II, III e IV."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As fases de um exame radiográfico simples envolvem identificar o paciente, aplicar proteções radiológicas, realizar a exposição e o processamento da imagem. Todas as afirmativas descrevem etapas essenciais."
+    },
+    {
+        "id": "2260946",
+        "enunciado": "Referente a radiografia, podemos afirmar acerca da densidade:",
+        "alternativas": {
+            "A": "Configura a diferença de tons de cinza entre as densidades do filme.",
+            "B": "É o grau de enegrecimento da radiografia processada.",
+            "C": "Quanto menor o grau de enegrecimento, maior o grau de densidade e menor a quantidade de luz que atravessará a radiografia quando colocada de frente a um negatoscópio.",
+            "D": "Constitui o fator que torna visíveis a forma e os detalhes das estruturas em estudo."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A densidade radiográfica é a medida do escurecimento do filme. Uma maior exposição de raios X à película resulta em maior densidade, ou seja, um enegrecimento mais intenso."
+    },
+    {
+        "id": "1397300",
+        "enunciado": "A tomografia computadorizada trabalha com uma escala denominada Escala de Hounsfield (HU), que varia do preto (-1000 HU) ao branco (+1000 HU) passando pelo cinza (0 HU) e esta variação está ligada a formação da imagem, sendo assim é CORRETO afirmar.",
+        "alternativas": {
+            "A": "HU é responsável pela definição de ponderação de T1, T2 e outras;",
+            "B": "HU serve de referência para identificarmos a densidade dos tecidos;",
+            "C": "HU tem como princípio a formação de valores na reconstrução MPR;",
+            "D": "HU é a medida de feixe de RX que indica espessura do corte realizado."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A Escala de Hounsfield (HU) é utilizada para quantificar a densidade dos tecidos em imagens de tomografia computadorizada. Valores mais altos representam tecidos mais densos (mais brilhantes na imagem)."
+    },
+    {
+        "id": "2257888",
+        "enunciado": "A avaliação de quanto tempo ainda resta de crescimento é feita pelo exame de idade óssea realizando um Raio X de:",
+        "alternativas": {
+            "A": "Arcada dentária.",
+            "B": "Mão.",
+            "C": "Fêmur.",
+            "D": "Pé."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A avaliação da idade óssea, essencial para determinar o potencial de crescimento remanescente em crianças e adolescentes, é classicamente realizada por meio de um raio X da mão não dominante."
+    },
+    {
+        "id": "2257890",
+        "enunciado": "Certas linhas de posicionamento são importantes na radiografia craniana. São formadas ligando certos pontos de referência faciais ao ponto médio do MAE, que é a abertura deste. O ponto central desta abertura chama-se ponto auricular. A mais superior dessas linhas de posicionamento é a:",
+        "alternativas": {
+            "A": "Linha orbitomeatal.",
+            "B": "Linha infraorbitomeatal.",
+            "C": "Linha glabelomeatal.",
+            "D": "Linha acantomeatal."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A linha glabelomeatal é a mais superior das linhas de posicionamento craniano, ligando o glabela (entre as sobrancelhas) ao ponto médio do meato acústico externo. As outras linhas são mais inferiores."
+    },
+    {
+        "id": "2257892",
+        "enunciado": "Considerando as variantes de cálculo para técnicas radiológicas, marque a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "KV – kilovoltagem aplicada, responsável pelo enegrecimento da película de raios-X.",
+            "B": "MA – está diretamente relacionado à anatomia, fisiologia e patologia da estrutura e da região de interesse.",
+            "C": "MAS – responsável pelo contraste da película.",
+            "D": "S – constante do aparelho, medida com o uso de osciloscópio."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O MA (Ampere) está relacionado à quantidade de elétrons que atravessam o tubo de raios X e, consequentemente, à quantidade de radiação produzida, influenciando o tempo de exposição e a densidade radiográfica. Não está diretamente relacionado à anatomia e fisiologia."
+    },
+    {
+        "id": "2257895",
+        "enunciado": "Em incidência lateral da coluna cervical, marque a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "As áreas radio sensíveis devem ser protegidas.",
+            "B": "Margens ósseas e marcas trabeculares aparecem nitidamente.",
+            "C": "O paciente deverá prender a respiração em expiração total.",
+            "D": "O Raio Central deve estar centralizado em T1, que está aproximadamente 2,5cm acima do nível da incisura jugular anteriormente e no nível da vértebra proeminente posteriormente."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para a incidência lateral da coluna cervical e para a maioria das radiografias de tórax, o paciente deve reter o ar na inspiração final para melhor visualização das estruturas. Expiração total diminuiria a expansão pulmonar."
+    },
+    {
+        "id": "2257903",
+        "enunciado": "A câmara escura deve ser planejada e construída considerando-se os seguintes requisitos, EXCETO:",
+        "alternativas": {
+            "A": "Dimensão proporcional à quantidade de radiografias e ao fluxo de atividades previstas no serviço.",
+            "B": "Vedação apropriada contra luz do dia ou artificial.",
+            "C": "Sistema de iluminação de segurança com lâmpadas e filtros apropriados aos tipos de filmes utilizados, localizado a uma distância não inferior a 2 m do local de manipulação.",
+            "D": "Sistema de exaustão de ar de forma a manter uma pressão positiva no ambiente."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Uma câmara escura deve ter pressão negativa para evitar a fuga de luz para o exterior, com o ar sendo aspirado para fora. Pressão positiva seria o oposto, ideal para áreas limpas, mas não para manipulação radiográfica onde a vedação contra luz é crucial."
+    },
+    {
+        "id": "2257905",
+        "enunciado": "As radiografias de crânio e face são realizadas utilizando padrões de posicionamento semelhantes, porém, específicos para cada região a ser estudada. Para os ossos da face são realizadas as seguintes incidências, EXCETO:",
+        "alternativas": {
+            "A": "Incidência parietoacantial usando o método de Waters para ossos da face.",
+            "B": "Incidência lateral de crânio.",
+            "C": "Incidência axial PA de ossos da face com o método de Caldwell.",
+            "D": "Incidência submentovértice para zigomáticos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A incidência lateral de crânio é utilizada para avaliar estruturas cranianas e não especificamente os ossos da face. As demais alternativas referem-se a incidências direcionadas à visualização dos ossos faciais e suas estruturas adjacentes."
+    },
+    {
+        "id": "2190321",
+        "enunciado": "Contraste radiológico é definido como o(a):",
+        "alternativas": {
+            "A": "Grau de enegrecimento da imagem processada.",
+            "B": "Representação equivocada do tamanho do objeto ou da sua forma.",
+            "C": "Diferença de densidade nas áreas adjacentes da imagem radiológica.",
+            "D": "Nitidez das estruturas na imagem radiológica."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Contraste radiológico se refere à diferença de densidade entre áreas vizinhas em uma imagem, o que permite distinguir estruturas. Essa variação de densidade é o que cria o contraste visual."
+    },
+    {
+        "id": "1389647",
+        "enunciado": "Na radiologia convencional, os tubos de raios X geralmente empregam alvos (anodos) de tungstênio. As duas principais propriedades do elemento tungstênio que o tornam um material adequado para esta finalidade são ____________. Assinale a alternativa que preencha corretamente a lacuna.",
+        "alternativas": {
+            "A": "alto ponto de fusão e alto número atômico",
+            "B": "alto ponto de fusão e baixo número atômico",
+            "C": "baixo ponto de fusão e alto coeficiente de atenuação",
+            "D": "baixa condutividade elétrica e baixo número atômico",
+            "E": "alta condutividade elétrica"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O tungstênio é escolhido para o alvo (anodo) dos tubos de raios X devido a suas propriedades. Um alto ponto de fusão é crucial para suportar o calor gerado, e um alto número atômico maximiza a produção de raios X por Bremsstrahlung e radiação característica."
+    },
+    {
+        "id": "1955300",
+        "enunciado": "Quando comparado com a radiografia convencional, a TC apresenta várias vantagens. Assinale a alternativa correta em relação a uma dessas vantagens.",
+        "alternativas": {
+            "A": "Estruturas anatômicas são identificadas sem sobreposição.",
+            "B": "As imagens de TC tem menor resolução de contraste.",
+            "C": "Na radiografia convencional, evidencia-se a diferença de densidade nos tecidos de 1% ou menos.",
+            "D": "Na TC, os dados adquiridos podem ser reconstruídos e identificados em planos alternativos com a exposição adicional ao paciente.",
+            "E": "Na TC, as lesões identificadas não podem ser medidas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Uma grande vantagem da Tomografia Computadorizada (TC) em relação à radiografia convencional é a capacidade de visualizar estruturas em cortes transversais, eliminando a sobreposição de tecidos que ocorre nas radiografias 2D. As outras alternativas apresentam informações incorretas sobre a TC."
+    },
+    {
+        "id": "1955357",
+        "enunciado": "Como é obtida a Carga de trabalho semanal (W) do equipamento?",
+        "alternativas": {
+            "A": "Pelo somatório dos produtos da corrente pelo tempo (mAs) utilizados na semana. Aproximadamente, o produto do número de radiografias semanais pelo mAs médio utilizado.",
+            "B": "Pelo somatório dos produtos da corrente (mA) utilizados na semana. Aproximadamente, o produto do número de radiografias semanais pelo mA médio utilizado.",
+            "C": "Pelo somatório dos produtos da tensão pelo tempo (kV.s) utilizados na semana. Aproximadamente, o produto do número de radiografias semanais pelo kV médio utilizado.",
+            "D": "Pelo produto da corrente pelo tempo (mAs) utilizado na semana.",
+            "E": "Pelo produto da tensão pelo tempo (kV.s) utilizado na semana."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A carga de trabalho de um equipamento em radiologia é medida pela energia total aplicada, que é o produto da corrente (mA) pelo tempo de exposição (s), resultando em mAs. A carga semanal (W) seria o somatório desses valores para todas as exposições realizadas na semana. A alternativa A descreve isso corretamente, considerando a média das exposições."
+    },
+    {
+        "id": "1877296",
+        "enunciado": "A respeito da amamentação em paciente que realiza exame com FDG-18 F, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "deve ser encerrada, pois o FDG-18 F é excretado no leite em grande quantidade por poucas horas.",
+            "B": "deve ser evitada por 24 horas, pois o FDG-18 F é excretado no leite, em grandes quantidades neste período.",
+            "C": "deve ser evitada nas primeiras horas após o exame, pela exposição do bebê à radiação emitida pela mãe, já que o FDG-18 F é pouco excretado no leite materno.",
+            "D": "a amamentação segue normalmente, inclusive recomenda-se que o bebê fique com a mãe na sala de exame.",
+            "E": "a amamentação é contraindicação absoluta para a realização do exame."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O FDG-18F é excretado no leite materno. Para evitar a exposicao do bebe a radiacao, a amamentacao deve ser evitada por 24 horas apos o exame."
+    },
+    {
+        "id": "1877299",
+        "enunciado": "O que é correção de atenuação em PET/CT?",
+        "alternativas": {
+            "A": "Correção para o decaimento do FT18.",
+            "B": "Correção nas contagens de cada unidade da imagem de acordo com a densidade dos tecidos no trajeto dos raios gama.",
+            "C": "Correção para a meia-vida biológica do FDG-18 F.",
+            "D": "Correção para a desuniformidade dos cristais de detecção e fotomultiplicadoras.",
+            "E": "Correção do alinhamento entre as imagens do PET e do CT."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A correcao de atenuacao em PET/CT ajusta as contagens de acordo com a densidade dos tecidos (principalmente os de osso e ar) que os fotons gama atravessam, para garantir a precisao quantitativa da imagem."
+    },
+    {
+        "id": "1877301",
+        "enunciado": "Quais os cuidados em relação à glicemia?",
+        "alternativas": {
+            "A": "A insulina não altera a distribuição do FDG-18 F no organismo.",
+            "B": "A glicemia não deve ser mensurada em crianças.",
+            "C": "Diabetes é uma contraindicação absoluta à realização do PET/CT.",
+            "D": "A glicemia deve ser mensurada nos pacientes diabéticos.",
+            "E": "A metformina não altera a distribuição do FDG-18 F no organismo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A glicemia deve ser controlada e mensurada em pacientes diabéticos em uso de FDG-18 F, pois a insulina e outros fatores podem influenciar a captação do radiofármaco."
+    },
+    {
+        "id": "1877304",
+        "enunciado": "Qual a importância da ingesta rica de líquidos em cintilografia óssea?",
+        "alternativas": {
+            "A": "Aumentar a excreção do MDP, aumentar a relação alvo/fundo, reduzir a exposição à radiação do paciente.",
+            "B": "Reduzir a excreção do MDP, aumentar a relação alvo/fundo, reduzir a exposição à radiação do paciente.",
+            "C": "Aumentar a excreção do MDP, reduzir a relação alvo/fundo, reduzir a exposição à radiação do paciente.",
+            "D": "Aumentar a excreção do MDP, aumentar a relação alvo/fundo, aumentar a exposição à radiação do paciente.",
+            "E": "Reduzir a captação óssea do MDP."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. A ingestão rica de líquidos na cintilografia óssea ajuda a acelerar a excreção do radiofármaco não fixado no osso (MDP), melhorando a relação sinal/ruído e diminuindo a dose para o paciente."
+    },
+    {
+        "id": "1877306",
+        "enunciado": "Qual isótopo é usado para estudo de viabilidade miocárdica?",
+        "alternativas": {
+            "A": "Tálio-201.",
+            "B": "Tc-99m.",
+            "C": "Gálio-67.",
+            "D": "In-111.",
+            "E": "I-131."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. O Tálio-201 é um radioisótopo amplamente utilizado para avaliação da viabilidade miocárdica e do fluxo sanguíneo coronariano em cintilografia."
+    }
+]

@@ -1,0 +1,1298 @@
+[
+    {
+        "id": "3142707",
+        "enunciado": "Analise o código Kotlin exibido a seguir.fun main() {val classe = ?val resposta = when (classe) {1 -> \"Premium\"2 -> \"Superior\"3 -> \"Econômica\"4, 5 -> when (classe % 2 == 0) {true -> \"Gold\" false -> \"Iron\"}else -> \"Dado inválido.\" } println (resposta)}O par que indica corretamente o valor a ser atribuído à variável classe, na segunda linha, e o valor computado e exibido pelo comando println é:",
+        "alternativas": {
+            "A": "3 / Iron",
+            "B": "4 / Iron",
+            "C": "5 / Iron",
+            "D": "5 / Gold",
+            "E": "9 / Gold"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142708",
+        "enunciado": "No contexto do ambiente Android, considere as seguintes afirmativas a respeito do SQLite.Deve ser utilizado com o apoio de um servidor de bancos dedados separado.Suporta transações (ACID).Sua instalação requer cuidados, haja vista o número de arquivos que devem ser preparados.Está correto o que se afirma em:",
+        "alternativas": {
+            "A": "somente I;",
+            "B": "somente II;",
+            "C": "somente III;",
+            "D": "somente I e III;",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A assertiva I está incorreta, pois o SQLite é um banco de dados embarcado e não requer servidor separado. A assertiva II está correta, pois o SQLite suporta transações ACID. A assertiva III está incorreta, pois sua instalação é simples e não demanda muitos arquivos."
+    },
+    {
+        "id": "3142709",
+        "enunciado": "João precisa codificar uma função f,(A) onde A é um array unidimensional de números inteiros, que deve retornar o maior valor armazenado em A.A complexidade de um algoritmo eficiente para a função f, para um array com n (n* 1) elementos, deveria ser:",
+        "alternativas": {
+            "A": "O(1)",
+            "B": "O(log n)",
+            "C": "O(n)",
+            "D": "O(n log n)",
+            "E": "O(n2)"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para encontrar o maior valor em um array unidimensional, é necessário examinar cada elemento do array. Uma busca sequencial percorre todos os n elementos, resultando em uma complexidade O(n), que é a mais eficiente para esta tarefa genérica."
+    },
+    {
+        "id": "3142710",
+        "enunciado": "Na implementação de tabelas Hash, quando as chaves não são perfeitamente distribuídas, é preciso lidar com as potenciais colisões que ocorrem quando:",
+        "alternativas": {
+            "A": "o espaço de endereçamento é superior ao número de chaves armazenadas;",
+            "B": "duas ou mais chaves têm o mesmo índice na tabela;",
+            "C": "as chaves são exclusivamente numéricas;",
+            "D": "as chaves são exclusivamente alfanuméricas;",
+            "E": "há duplicação de chaves."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Colisões em tabelas Hash ocorrem quando duas ou mais chaves são mapeadas para o mesmo índice (slot) na tabela, exigindo mecanismos de resolução. As outras alternativas descrevem condições que não causam diretamente colisões."
+    },
+    {
+        "id": "3142711",
+        "enunciado": "A operação lógica sobre operandos binários (bitwise)00111001 xor 11000001produz o valor:",
+        "alternativas": {
+            "A": "00000110",
+            "B": "11111001",
+            "C": "11111111",
+            "D": "11111000",
+            "E": "01111110"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142712",
+        "enunciado": "Considere a lista duplamente encadeada exibida a seguir.(1, 3, 0, “Verde”)(2, 4, 3, “Azul”)(3, 2, 1, “Amarelo”)(4, 0, 2, “Vermelho”)Cada elemento pertencente à lista é representado por uma quádrupla, com o seguinte formato:(, , , ).A ordem do conteúdo dos componentes, segundo a instância da lista apresentada, é:",
+        "alternativas": {
+            "A": "Amarelo, Verde, Azul, Vermelho;",
+            "B": "Azul, Verde, Vermelho, Amarelo;",
+            "C": "Verde, Vermelho, Amarelo, Azul;",
+            "D": "Vermelho, Amarelo, Azul, Verde;",
+            "E": "Vermelho, Azul, Amarelo, Verde."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142713",
+        "enunciado": "Analise o código Python 2.7 a seguir.def xpto (n1, n2):while n1 != n2:if (n1 < n2):n2 = n2 - n1else:n1 = n1 - n2 return n1print xpto(50,5)O valor exibido pelo comando print é:",
+        "alternativas": {
+            "B": "1",
+            "C": "5",
+            "D": "10",
+            "E": "50"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O código implementa o algoritmo de Euclides para encontrar o Máximo Divisor Comum (MDC). A função xpto(50, 5) calcula o MDC de 50 e 5, que é 5. Portanto, o valor exibido pelo print é 5."
+    },
+    {
+        "id": "3142714",
+        "enunciado": "Considere a função xpto em código JavaScript.function xpto (s) {let text = \"\" or (const x of s){ text = x + text; } eturn text; }A expressão xpto(\"banana\" + \"laranja\")retorna:",
+        "alternativas": {
+            "A": "lbaarnaannjaa",
+            "B": "banalaranja",
+            "C": "laranjabanana",
+            "D": "ajnaralananab",
+            "E": "ananabajnaral"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142715",
+        "enunciado": "Na plataforma .ASP é possível estabelecer uma estrutura de página com um layout comum, de forma que as páginas individuais sejam encaixadas, tornando a manutenção dos sites mais simples.Esse recurso é denominado:",
+        "alternativas": {
+            "A": "ASP Header;",
+            "B": "ASP Frame;",
+            "C": "HeaderPage;",
+            "D": "Master Page;",
+            "E": "PageFrame."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O recurso de usar um layout comum onde paginas individuais sao encaixadas no .ASP e conhecido como Master Page. Isso permite a manutencao centralizada de elementos visuais do site."
+    },
+    {
+        "id": "3142716",
+        "enunciado": "No contexto da jQuery, o código$(document).ready(){ ..... })previne que as funções jQuery sejam executadas antes da carga total da página.A primeira linha desse script pode ser substituída por um método mais abreviado:",
+        "alternativas": {
+            "A": "$(begin{",
+            "B": "$(function(){",
+            "C": "$(go(){",
+            "D": "$(main{",
+            "E": "$(ready(){"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A sintaxe $(function(){ ... }) é uma forma abreviada e moderna de chamar funções quando o DOM está pronto, substituindo a forma mais verbosa $(document).ready(function(){ ... }). As outras opções não correspondem a sintaxes válidas."
+    },
+    {
+        "id": "3142717",
+        "enunciado": "No contexto do CSS, considere os seguintes seletores.h1, xxxx.xxxx, #d345#xxxxxxxx:hoverA lista que indica corretamente a natureza do objeto correspondente ao símbolo “xxxx” em cada linha, respectivamente, é:",
+        "alternativas": {
+            "A": "classe xxxx / tag  / classe xxxx / classe xxxx",
+            "B": "classe xxxx / classe xxxx / classe xxxx / tag",
+            "C": "tag  / classe xxxx / id “xxxx” / tag",
+            "D": "tag  / classe xxxx / id “xxxx” / classe xxxx",
+            "E": "tag  / tag  / classe xxxx / id “xxxx”"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142718",
+        "enunciado": "No contexto do HTML, a sintaxe correta para um comentário, delimitando um trecho que NÃO deve ser exibido pelo browser, é:",
+        "alternativas": {
+            "A": "<-- Texto do comentário -->",
+            "B": "!--Texto do comentário >",
+            "C": "<-Texto do comentário ->",
+            "D": "",
+            "E": "<--Texto do comentário --/>"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142719",
+        "enunciado": "Com referência ao MongoDB, nas consultas usando o método find é possível exibir o resultado formatado por meio do método:",
+        "alternativas": {
+            "A": "format;",
+            "B": "organize;",
+            "C": "pretty;",
+            "D": "structure;",
+            "E": "tidy."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No MongoDB, o método 'find()' é utilizado para consultar documentos. Para exibir os resultados de forma mais legível e formatada, o método 'pretty()' pode ser encadeado após o 'find()'."
+    },
+    {
+        "id": "3142720",
+        "enunciado": "No contexto da implementação de bancos de dados, o acrônimo ACID denota o conjunto de propriedades que devem ser observadas por sistemas transacionais. Essas quatro propriedades são:",
+        "alternativas": {
+            "A": "Amorfabilidade, Concorrência, Integridade e Durabilidade;",
+            "B": "Atomicidade, Consistência, Isolamento e Durabilidade;",
+            "C": "Atualização, Coesão, Inserção e Deleção;",
+            "D": "Auditabilidade, Conformidade, Independência e Distribuição;",
+            "E": "Automação, Concorrência, Integridade e Distribuição."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "ACID é um acrônimo para Atomicidade, Consistência, Isolamento e Durabilidade, propriedades essenciais para garantir a confiabilidade das transações em sistemas de banco de dados. As outras alternativas contêm termos incorretos ou inexistentes."
+    },
+    {
+        "id": "3142721",
+        "enunciado": "Considere uma tabela de banco de dados T1, com colunas A e B, e outra, T2, com colunas C e D. A coluna A constitui a chave primária de T1. Não há chave primária em T2. Há n1 registros emT1 e n2 registros em T2, n1 > 0 e n2 > 0.Considere ainda o comando SQL a seguir.select distinct Afrom T1 right join T2 on T1.A=T2.CPara quaisquer instâncias de T1 e T2 de acordo com as premissas acima, é correto afirmar, sobre o resultado produzido pelo execução desse comando, que:",
+        "alternativas": {
+            "A": "poderá estar vazio;",
+            "B": "não conterá valores nulos;",
+            "C": "o número de linhas será maior ou igual a n2;",
+            "D": "o número de linhas será igual a n1+n2;",
+            "E": "o número de linhas será menor ou igual a n1."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142722",
+        "enunciado": "No ambiente Linux, o comando ssh:",
+        "alternativas": {
+            "A": "exibe a lista de processos ativos;",
+            "B": "exibe a utilização e a capacidade do disco;",
+            "C": "exibe informações sobre os arquivos do diretório corrente;",
+            "D": "loga remotamente em outra máquina Linux;",
+            "E": "troca a conta do usuário."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando ssh (Secure Shell) e utilizado para estabelecer uma conexao segura e remota entre duas maquinas, permitindo a execucao de comandos e transferencia de arquivos."
+    },
+    {
+        "id": "3142723",
+        "enunciado": "No Windows Server, o Gerenciador dos Serviços de Informação da Internet (IIS) é reiniciado pela linha de comando:",
+        "alternativas": {
+            "A": "infostart",
+            "B": "iisreset",
+            "C": "iisrestart",
+            "D": "restart p-iis",
+            "E": "run iis"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'iisreset' é utilizado na linha de comando do Windows Server para reiniciar todos os serviços do Internet Information Services (IIS). Os demais comandos ou são inválidos ou não cumprem a função específica."
+    },
+    {
+        "id": "3142724",
+        "enunciado": "A especificação de software é o processo de compreensão e definição dos serviços requisitados pelos usuários e stakeholders que o sistema deverá atender. Além disso, a especificação engloba quatro atividades básicas: estudo de viabilidade, licitação, especificação e validação de requisitos. Durante a licitação de requisitos, a analista de sistemas Ana fez a imersão no ambiente de trabalho em que o sistema será utilizado e ficou observando o dia a dia para compreender os processos operacionais e extrair os requisitos de apoio e implícitos.Nesse caso, Ana utilizou a técnica de:",
+        "alternativas": {
+            "A": "prototipação;",
+            "B": "etnografia;",
+            "C": "entrevistas;",
+            "D": "cenários;",
+            "E": "casos de uso."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A técnica de etnografia envolve a imersão do analista no ambiente de trabalho para observar o cotidiano e compreender os processos implícitos e de apoio. Ana aplicou essa técnica ao se imergir no ambiente e observar o dia a dia."
+    },
+    {
+        "id": "3142725",
+        "enunciado": "A equipe de desenvolvimento de software SystemsXYZ vem enfrentando problemas de defeitos associados à qualidade do software. Por isso, a equipe decidiu adotar medições de software baseadas em métricas de produto. Métricas de produto dinâmicas são coletadas por meio de medições efetuadas de um programa em execução, ajudando a avaliar a sua eficiência. Um exemplo associado à métrica dinâmica é o(a):",
+        "alternativas": {
+            "A": "fan-in/fan-out;",
+            "B": "tamanho de código-fonte;",
+            "C": "comprimento médio de identificadores;",
+            "D": "número de relatórios de bugs;",
+            "E": "complexidade ciclomática."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142726",
+        "enunciado": "O projeto de desenvolvimento de software ProjSystem adotou a UML (Unified Modeling Language) como a linguagem de apoio e documentação do sistema. A UML possui diversos diagramas e, dessa forma, apoia a criação de diferentes modelos de sistema. Nos casos em que é necessário modelar as interações entre os atores e os objetos em um sistema e as interações entre os próprios objetos, é utilizado o diagrama de:",
+        "alternativas": {
+            "A": "classes;",
+            "B": "atividades;",
+            "C": "sequência;",
+            "D": "estados;",
+            "E": "casos de uso."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Diagramas de sequência modelam as interações entre objetos ao longo do tempo e a ordem em que essas interações ocorrem, abordando as trocas de mensagens entre eles e com os atores. Isso se alinha à necessidade de modelar interações em um sistema."
+    },
+    {
+        "id": "3142727",
+        "enunciado": "Carlos precisa lidar com o planejamento do escopo de um projeto para assegurar que inclua todo o trabalho, e apenas o necessário, para concluir o projeto com sucesso. No PMBOK 6ª edição, decompor as entregas e o trabalho do projeto em componentes menores e mais facilmente gerenciáveis, fornecendo uma visão estruturada do que deve ser entregue, é expresso pelo processo de:",
+        "alternativas": {
+            "A": "coletar os requisitos;",
+            "B": "orientar e gerenciar o trabalho do projeto;",
+            "C": "planejar o gerenciamento dos recursos;",
+            "D": "controlar o escopo;",
+            "E": "criar EAP (Estrutura Analítica do Projeto)."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O processo de decompor entregas e trabalho em componentes menores e gerenciáveis, para criar uma visão estruturada do que deve ser entregue, é exatamente a definição da Estrutura Analítica do Projeto (EAP)."
+    },
+    {
+        "id": "3142728",
+        "enunciado": "A Análise de Pontos de Função (APF) e o Software Non-Functional Assessment Process (SNAP) são utilizados para medir o tamanho de um software. Sobre a aplicação da APF e do SNAP, é correto afirmar que:",
+        "alternativas": {
+            "A": "o tamanho total do software é obtido por meio da multiplicação da quantidade de Pontos de Função pelaquantidade de Pontos SNAP associados à função de transação medida;",
+            "B": "a soma dos Pontos de Função aos Pontos SNAP representa o tamanho total do software;",
+            "C": "os grupos de dados formados em resposta às normalizações de dados são quantificados pelo SNAP;",
+            "D": "as funções de dados que mantêm grupos de dados associados às regras de negócio são quantificadas pela APF;",
+            "E": "as alterações nas estruturas de arquivos lógicos são quantificadas pela APF."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Analise de Pontos de Funcao (APF) quantifica as funcoes de dados (como o manutencao de grupos de dados associados a regras de negocio) e as funcoes de transacao de um software."
+    },
+    {
+        "id": "3142729",
+        "enunciado": "Joana é a arquiteta de software da equipe de desenvolvimento de sistemas (EDS) de um tribunal e definiu a utilização do REST (REpresentational State Transfer) como estilo arquitetural para aAPI (Application Programming Interface) que será consumida por aplicações distintas disponibilizadas via Internet. Para atender ao estilo arquitetural definido por Joana, os desenvolvedores devem criar endpoints capazes de:",
+        "alternativas": {
+            "A": "receber requisições que contenham todas as informações necessárias para o servidor entender e responder;",
+            "B": "manter os dados das sessões dos usuários previamente autenticados;",
+            "C": "utilizar WSDL (Web Services Description Language) como protocolo de comunicação entre o cliente e o servidor;",
+            "D": "atender às requisições HTTP/1.1 (Hypertext Transfer Protocol)de buscas de dados, que sejam mais frequentes, de forma otimizada, buscando primeiro no cache mantido no servidor;",
+            "E": "responder às requisições de busca de dados, disponibilizando-os ao cliente como serviços WSDL (WebServices Description Language)."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O REST, como estilo arquitetural, preza pela simplificidade e estado em que as informações necessarias para o servidor processar a requisicao estejam contidas nela, sem depender de contextos ou sessoes salvas no servidor."
+    },
+    {
+        "id": "3142730",
+        "enunciado": "A equipe de desenvolvimento de sistemas de um tribunal de contas está guiando a implantação de um Webservice REST.A implantação será dividida nos seguintes grupos distintos de containers Docker:- Grupo A: responsável pela execução da aplicação do Webservice REST- Grupo B: responsável pela execução do Sistema Gerenciador de Banco de Dados utilizado pelo Webservice RESTOs Grupos A e B terão seu próprio contexto de armazenamento e rede a serem orquestrados por um cluster de Kubernetes. Para que a conexão de rede entre os containers dos Grupos A e Bseja bem-sucedida pelo orquestrador, independentemente dos endereços IP a eles atribuídos, deverá ser configurado um novo:",
+        "alternativas": {
+            "A": "pod;",
+            "B": "replicaSet;",
+            "C": "service;",
+            "D": "ingress;",
+            "E": "statefulSet."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Em Kubernetes, um cluster orquestra pods. Para permitir a comunicação entre pods de diferentes grupos (e independentemente dos IPs atribuídos), um 'Service' é configurado. O Service atua como um ponto de entrada e balanceador de carga, abstraindo os IPs dos pods subjacentes."
+    },
+    {
+        "id": "3142731",
+        "enunciado": "Um ambiente híbrido de homologação de software, composto por sistemas Windows e Linux, foi solicitado à equipe de desenvolvimento de sistemas de um tribunal de contas. A fim de otimizar o emprego de recursos públicos, a equipe utilizará a tecnologia de virtualização, através do Hypervisor VMWare(chamado ESXi) versão 6.5.É correto afirmar que o Hypervisor VMWare versão 6.5:",
+        "alternativas": {
+            "A": "é uma aplicação que gerencia máquinas virtuais, também denominadas containers;",
+            "B": "deve ser instalado diretamente em máquina de hardware compatível, por ser um hipervisor tipo 1;",
+            "C": "pode ser instalado como aplicação adicional em sistemas operacionais Unix, por possuir um núcleo desse mesmo tipo;",
+            "D": "requer que os sistemas operacionais tenham os instaladores ligeiramente modificados para operarem em máquinas virtuais;",
+            "E": "é uma aplicação que pode gerenciar containers através da para-virtualização."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O VMWare ESXi é um hipervisor tipo 1 (bare-metal), que é instalado diretamente sobre o hardware da máquina, sem a necessidade de um sistema operacional hospedeiro. As outras alternativas descrevem características incorretas ou de outros tipos de virtualização."
+    },
+    {
+        "id": "3142732",
+        "enunciado": "A equipe de desenvolvimento de sistemas de um tribunal de contas está encarregada de aprimorar o desempenho dos serviços Web e das aplicações de rede, que estão, de forma indesejada, constantemente inacessíveis. Nesse cenário, a fim de aliviar o problema com uma ação direta, a equipe deve:",
+        "alternativas": {
+            "A": "usar a aplicação nginx como proxy reverso para o Apache;",
+            "B": "configurar o servidor de aplicação WildFly em modo de cluster com subsistema de cache tipo Infinispan;",
+            "C": "atualizar a tecnologia de endereçamento dinâmico, deDHCPv4 para DHCPv6;",
+            "D": "trocar o servidor de aplicação Tomcat pelo JBoss para possibilitar uma configuração em modo de cluster;",
+            "E": "implantar o padrão DNSSEC na resolução de nomes de domínios das aplicações."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142733",
+        "enunciado": "A Lei Geral de Proteção de Dados Pessoais (LGPD) dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais. Segundo a LGPD, a utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo é o(a):",
+        "alternativas": {
+            "A": "bloqueio;",
+            "B": "difusão;",
+            "C": "anonimização;",
+            "D": "eliminação;",
+            "E": "extração."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A anonimização, segundo a LGPD, é o processo de desvinculação de um dado pessoal de um indivíduo, utilizando meios técnicos que tornem a associação direta ou indireta impossível. Isso garante que o dado não possa mais ser atribuído a uma pessoa específica."
+    },
+    {
+        "id": "3142734",
+        "enunciado": "SAML (Security Assertion Markup Language) e OAuth 2 são frameworks utilizados para controlar o acesso a aplicações Web. Para controlar o acesso às aplicações:",
+        "alternativas": {
+            "A": "SAML utiliza tokens JWT (JSON Web Token) para autenticação e autorização do acesso;",
+            "B": "OAuth 2 possibilita o uso de refresh tokens para obtenção de novos access tokens;",
+            "C": "SAML e OAuth 2 requerem o uso do certificado digital do servidor de autorização para gerar tokens;",
+            "D": "SAML e OAuth 2 utilizam provedores de identificação eautorização que geram tokens do tipo JWT (JSON Web Token) Assertion;",
+            "E": "SAML e OAuth 2 requerem o uso do Single Sign-On (SSO) no servidor de autorização."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "OAuth 2 permite o uso de tokens de atualização (refresh tokens) para obter novos tokens de acesso sem que o usuário precise se autenticar novamente, garantindo uma experiência mais fluida. As outras alternativas apresentam imprecisões sobre como SAML e OAuth 2 funcionam."
+    },
+    {
+        "id": "3142735",
+        "enunciado": "A Inteligência Artificial (IA) apoia o desenvolvimento de soluções tecnológicas capazes de realizar atividades similares às capacidades cognitivas humanas. Como exemplo, a plataforma Sinapses, desenvolvida pelo Tribunal de Justiça do Estado de Rondônia (TJRO) e adaptada para uso nacional, gerencia o treinamento supervisionado de modelos de IA.Em soluções de IA, a tecnologia que possui a capacidade de melhorar o desempenho na realização de alguma tarefa por meio da experiência usando dados de treinamento, podendo ser supervisionado ou não, é o(a):",
+        "alternativas": {
+            "A": "Motor de Inferência (Inference Engine) de Sistemas Especialistas (Expert Systems);",
+            "B": "Raciocínio Automatizado (Automated Reasoning);",
+            "C": "Compreensão de Linguagem Natural (Natural-Language Understanding);",
+            "D": "Representação do Conhecimento (Knowledge Representation)usando Lógica de Primeira Ordem (First Logic Order);",
+            "E": "Aprendizado de Máquina (Machine Learning)."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Aprendizado de Máquina (Machine Learning) é a área da IA focada em criar sistemas que aprendem com dados e melhoram seu desempenho sem programação explícita, utilizando dados de treinamento em processos supervisionados ou não."
+    },
+    {
+        "id": "3142736",
+        "enunciado": "João é um cientista de dados que iniciou o processo de estudo dos dados de sua empresa com o objetivo de identificar um diferencial competitivo diante de seus concorrentes. Como resultado, João decidiu implementar um Big Data e hospedá-lo em um ambiente de nuvem. Diante das possibilidades dos serviços, considerando os requisitos de escalabilidade e elasticidade, em caso de aumento de demanda pontual, aliados à tecnologia de Big Data, a alternativa que melhor descreve o tipo de serviço em nuvem a ser contratado por João é:",
+        "alternativas": {
+            "A": "infraestrutura como serviço (IaaS), que consiste na entrega def unções de computação, incluindo hardware, redes, armazenamento e espaço de Datacenter com base em um modelo de aluguel;",
+            "B": "plataforma como serviço (PaaS), que oferece um conjunto consistente de serviços que garantem que os desenvolvedores tenham um modo integrado para a criação de aplicativos em nuvem;",
+            "C": "software como serviço (SaaS), que consiste em um aplicativo de negócios criado e hospedado por um provedor em um modelo de múltiplos usuários;",
+            "D": "dados como serviço (DaaS), que é um serviço independente de plataforma que permite conexão à nuvem para armazenar e recuperar informações;",
+            "E": "infraestrutura como código (IaC), que consiste em uma abordagem baseada na agilidade para entregar uma infraestrutura de forma muito mais rápida, com uma codificação objetiva e simples."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142707",
+        "enunciado": "Analise o código Kotlin exibido a seguir.fun main() {val classe = ?val resposta = when (classe) {1 -> \"Premium\"2 -> \"Superior\"3 -> \"Econômica\"4, 5 -> when (classe % 2 == 0) {true -> \"Gold\" false -> \"Iron\"}else -> \"Dado inválido.\" } println (resposta)}O par que indica corretamente o valor a ser atribuído à variável classe, na segunda linha, e o valor computado e exibido pelo comando println é:",
+        "alternativas": {
+            "A": "3 / Iron",
+            "B": "4 / Iron",
+            "C": "5 / Iron",
+            "D": "5 / Gold",
+            "E": "9 / Gold"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142708",
+        "enunciado": "No contexto do ambiente Android, considere as seguintes afirmativas a respeito do SQLite.Deve ser utilizado com o apoio de um servidor de bancos dedados separado.Suporta transações (ACID).Sua instalação requer cuidados, haja vista o número de arquivos que devem ser preparados.Está correto o que se afirma em:",
+        "alternativas": {
+            "A": "somente I;",
+            "B": "somente II;",
+            "C": "somente III;",
+            "D": "somente I e III;",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A assertiva I está incorreta, pois o SQLite é um banco de dados embarcado e não requer servidor separado. A assertiva II está correta, pois o SQLite suporta transações ACID. A assertiva III está incorreta, pois sua instalação é simples e não demanda muitos arquivos."
+    },
+    {
+        "id": "3142709",
+        "enunciado": "João precisa codificar uma função f,(A) onde A é um array unidimensional de números inteiros, que deve retornar o maior valor armazenado em A.A complexidade de um algoritmo eficiente para a função f, para um array com n (n* 1) elementos, deveria ser:",
+        "alternativas": {
+            "A": "O(1)",
+            "B": "O(log n)",
+            "C": "O(n)",
+            "D": "O(n log n)",
+            "E": "O(n2)"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para encontrar o maior valor em um array unidimensional, é necessário examinar cada elemento do array. Uma busca sequencial percorre todos os n elementos, resultando em uma complexidade O(n), que é a mais eficiente para esta tarefa genérica."
+    },
+    {
+        "id": "3142710",
+        "enunciado": "Na implementação de tabelas Hash, quando as chaves não são perfeitamente distribuídas, é preciso lidar com as potenciais colisões que ocorrem quando:",
+        "alternativas": {
+            "A": "o espaço de endereçamento é superior ao número de chaves armazenadas;",
+            "B": "duas ou mais chaves têm o mesmo índice na tabela;",
+            "C": "as chaves são exclusivamente numéricas;",
+            "D": "as chaves são exclusivamente alfanuméricas;",
+            "E": "há duplicação de chaves."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Colisões em tabelas Hash ocorrem quando duas ou mais chaves são mapeadas para o mesmo índice (slot) na tabela, exigindo mecanismos de resolução. As outras alternativas descrevem condições que não causam diretamente colisões."
+    },
+    {
+        "id": "3142711",
+        "enunciado": "A operação lógica sobre operandos binários (bitwise)00111001 xor 11000001produz o valor:",
+        "alternativas": {
+            "A": "00000110",
+            "B": "11111001",
+            "C": "11111111",
+            "D": "11111000",
+            "E": "01111110"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142712",
+        "enunciado": "Considere a lista duplamente encadeada exibida a seguir.(1, 3, 0, “Verde”)(2, 4, 3, “Azul”)(3, 2, 1, “Amarelo”)(4, 0, 2, “Vermelho”)Cada elemento pertencente à lista é representado por uma quádrupla, com o seguinte formato:(, , , ).A ordem do conteúdo dos componentes, segundo a instância da lista apresentada, é:",
+        "alternativas": {
+            "A": "Amarelo, Verde, Azul, Vermelho;",
+            "B": "Azul, Verde, Vermelho, Amarelo;",
+            "C": "Verde, Vermelho, Amarelo, Azul;",
+            "D": "Vermelho, Amarelo, Azul, Verde;",
+            "E": "Vermelho, Azul, Amarelo, Verde."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142713",
+        "enunciado": "Analise o código Python 2.7 a seguir.def xpto (n1, n2):while n1 != n2:if (n1 < n2):n2 = n2 - n1else:n1 = n1 - n2 return n1print xpto(50,5)O valor exibido pelo comando print é:",
+        "alternativas": {
+            "B": "1",
+            "C": "5",
+            "D": "10",
+            "E": "50"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O código implementa o algoritmo de Euclides para encontrar o Máximo Divisor Comum (MDC). A função xpto(50, 5) calcula o MDC de 50 e 5, que é 5. Portanto, o valor exibido pelo print é 5."
+    },
+    {
+        "id": "3142714",
+        "enunciado": "Considere a função xpto em código JavaScript.function xpto (s) {let text = \"\" or (const x of s){ text = x + text; } eturn text; }A expressão xpto(\"banana\" + \"laranja\")retorna:",
+        "alternativas": {
+            "A": "lbaarnaannjaa",
+            "B": "banalaranja",
+            "C": "laranjabanana",
+            "D": "ajnaralananab",
+            "E": "ananabajnaral"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142715",
+        "enunciado": "Na plataforma .ASP é possível estabelecer uma estrutura de página com um layout comum, de forma que as páginas individuais sejam encaixadas, tornando a manutenção dos sites mais simples.Esse recurso é denominado:",
+        "alternativas": {
+            "A": "ASP Header;",
+            "B": "ASP Frame;",
+            "C": "HeaderPage;",
+            "D": "Master Page;",
+            "E": "PageFrame."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O recurso de usar um layout comum onde paginas individuais sao encaixadas no .ASP e conhecido como Master Page. Isso permite a manutencao centralizada de elementos visuais do site."
+    },
+    {
+        "id": "3142716",
+        "enunciado": "No contexto da jQuery, o código$(document).ready(){ ..... })previne que as funções jQuery sejam executadas antes da carga total da página.A primeira linha desse script pode ser substituída por um método mais abreviado:",
+        "alternativas": {
+            "A": "$(begin{",
+            "B": "$(function(){",
+            "C": "$(go(){",
+            "D": "$(main{",
+            "E": "$(ready(){"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A sintaxe $(function(){ ... }) é uma forma abreviada e moderna de chamar funções quando o DOM está pronto, substituindo a forma mais verbosa $(document).ready(function(){ ... }). As outras opções não correspondem a sintaxes válidas."
+    },
+    {
+        "id": "3142717",
+        "enunciado": "No contexto do CSS, considere os seguintes seletores.h1, xxxx.xxxx, #d345#xxxxxxxx:hoverA lista que indica corretamente a natureza do objeto correspondente ao símbolo “xxxx” em cada linha, respectivamente, é:",
+        "alternativas": {
+            "A": "classe xxxx / tag  / classe xxxx / classe xxxx",
+            "B": "classe xxxx / classe xxxx / classe xxxx / tag",
+            "C": "tag  / classe xxxx / id “xxxx” / tag",
+            "D": "tag  / classe xxxx / id “xxxx” / classe xxxx",
+            "E": "tag  / tag  / classe xxxx / id “xxxx”"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142718",
+        "enunciado": "No contexto do HTML, a sintaxe correta para um comentário, delimitando um trecho que NÃO deve ser exibido pelo browser, é:",
+        "alternativas": {
+            "A": "<-- Texto do comentário -->",
+            "B": "!--Texto do comentário >",
+            "C": "<-Texto do comentário ->",
+            "D": "",
+            "E": "<--Texto do comentário --/>"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142719",
+        "enunciado": "Com referência ao MongoDB, nas consultas usando o método find é possível exibir o resultado formatado por meio do método:",
+        "alternativas": {
+            "A": "format;",
+            "B": "organize;",
+            "C": "pretty;",
+            "D": "structure;",
+            "E": "tidy."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No MongoDB, o método 'find()' é utilizado para consultar documentos. Para exibir os resultados de forma mais legível e formatada, o método 'pretty()' pode ser encadeado após o 'find()'."
+    },
+    {
+        "id": "3142720",
+        "enunciado": "No contexto da implementação de bancos de dados, o acrônimo ACID denota o conjunto de propriedades que devem ser observadas por sistemas transacionais. Essas quatro propriedades são:",
+        "alternativas": {
+            "A": "Amorfabilidade, Concorrência, Integridade e Durabilidade;",
+            "B": "Atomicidade, Consistência, Isolamento e Durabilidade;",
+            "C": "Atualização, Coesão, Inserção e Deleção;",
+            "D": "Auditabilidade, Conformidade, Independência e Distribuição;",
+            "E": "Automação, Concorrência, Integridade e Distribuição."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "ACID é um acrônimo para Atomicidade, Consistência, Isolamento e Durabilidade, propriedades essenciais para garantir a confiabilidade das transações em sistemas de banco de dados. As outras alternativas contêm termos incorretos ou inexistentes."
+    },
+    {
+        "id": "3142721",
+        "enunciado": "Considere uma tabela de banco de dados T1, com colunas A e B, e outra, T2, com colunas C e D. A coluna A constitui a chave primária de T1. Não há chave primária em T2. Há n1 registros emT1 e n2 registros em T2, n1 > 0 e n2 > 0.Considere ainda o comando SQL a seguir.select distinct Afrom T1 right join T2 on T1.A=T2.CPara quaisquer instâncias de T1 e T2 de acordo com as premissas acima, é correto afirmar, sobre o resultado produzido pelo execução desse comando, que:",
+        "alternativas": {
+            "A": "poderá estar vazio;",
+            "B": "não conterá valores nulos;",
+            "C": "o número de linhas será maior ou igual a n2;",
+            "D": "o número de linhas será igual a n1+n2;",
+            "E": "o número de linhas será menor ou igual a n1."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142722",
+        "enunciado": "No ambiente Linux, o comando ssh:",
+        "alternativas": {
+            "A": "exibe a lista de processos ativos;",
+            "B": "exibe a utilização e a capacidade do disco;",
+            "C": "exibe informações sobre os arquivos do diretório corrente;",
+            "D": "loga remotamente em outra máquina Linux;",
+            "E": "troca a conta do usuário."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando ssh (Secure Shell) e utilizado para estabelecer uma conexao segura e remota entre duas maquinas, permitindo a execucao de comandos e transferencia de arquivos."
+    },
+    {
+        "id": "3142723",
+        "enunciado": "No Windows Server, o Gerenciador dos Serviços de Informação da Internet (IIS) é reiniciado pela linha de comando:",
+        "alternativas": {
+            "A": "infostart",
+            "B": "iisreset",
+            "C": "iisrestart",
+            "D": "restart p-iis",
+            "E": "run iis"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'iisreset' é utilizado na linha de comando do Windows Server para reiniciar todos os serviços do Internet Information Services (IIS). Os demais comandos ou são inválidos ou não cumprem a função específica."
+    },
+    {
+        "id": "3142724",
+        "enunciado": "A especificação de software é o processo de compreensão e definição dos serviços requisitados pelos usuários e stakeholders que o sistema deverá atender. Além disso, a especificação engloba quatro atividades básicas: estudo de viabilidade, licitação, especificação e validação de requisitos. Durante a licitação de requisitos, a analista de sistemas Ana fez a imersão no ambiente de trabalho em que o sistema será utilizado e ficou observando o dia a dia para compreender os processos operacionais e extrair os requisitos de apoio e implícitos.Nesse caso, Ana utilizou a técnica de:",
+        "alternativas": {
+            "A": "prototipação;",
+            "B": "etnografia;",
+            "C": "entrevistas;",
+            "D": "cenários;",
+            "E": "casos de uso."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A técnica de etnografia envolve a imersão do analista no ambiente de trabalho para observar o cotidiano e compreender os processos implícitos e de apoio. Ana aplicou essa técnica ao se imergir no ambiente e observar o dia a dia."
+    },
+    {
+        "id": "3142725",
+        "enunciado": "A equipe de desenvolvimento de software SystemsXYZ vem enfrentando problemas de defeitos associados à qualidade do software. Por isso, a equipe decidiu adotar medições de software baseadas em métricas de produto. Métricas de produto dinâmicas são coletadas por meio de medições efetuadas de um programa em execução, ajudando a avaliar a sua eficiência. Um exemplo associado à métrica dinâmica é o(a):",
+        "alternativas": {
+            "A": "fan-in/fan-out;",
+            "B": "tamanho de código-fonte;",
+            "C": "comprimento médio de identificadores;",
+            "D": "número de relatórios de bugs;",
+            "E": "complexidade ciclomática."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142726",
+        "enunciado": "O projeto de desenvolvimento de software ProjSystem adotou a UML (Unified Modeling Language) como a linguagem de apoio e documentação do sistema. A UML possui diversos diagramas e, dessa forma, apoia a criação de diferentes modelos de sistema. Nos casos em que é necessário modelar as interações entre os atores e os objetos em um sistema e as interações entre os próprios objetos, é utilizado o diagrama de:",
+        "alternativas": {
+            "A": "classes;",
+            "B": "atividades;",
+            "C": "sequência;",
+            "D": "estados;",
+            "E": "casos de uso."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Diagramas de sequência modelam as interações entre objetos ao longo do tempo e a ordem em que essas interações ocorrem, abordando as trocas de mensagens entre eles e com os atores. Isso se alinha à necessidade de modelar interações em um sistema."
+    },
+    {
+        "id": "3142727",
+        "enunciado": "Carlos precisa lidar com o planejamento do escopo de um projeto para assegurar que inclua todo o trabalho, e apenas o necessário, para concluir o projeto com sucesso. No PMBOK 6ª edição, decompor as entregas e o trabalho do projeto em componentes menores e mais facilmente gerenciáveis, fornecendo uma visão estruturada do que deve ser entregue, é expresso pelo processo de:",
+        "alternativas": {
+            "A": "coletar os requisitos;",
+            "B": "orientar e gerenciar o trabalho do projeto;",
+            "C": "planejar o gerenciamento dos recursos;",
+            "D": "controlar o escopo;",
+            "E": "criar EAP (Estrutura Analítica do Projeto)."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O processo de decompor entregas e trabalho em componentes menores e gerenciáveis, para criar uma visão estruturada do que deve ser entregue, é exatamente a definição da Estrutura Analítica do Projeto (EAP)."
+    },
+    {
+        "id": "3142728",
+        "enunciado": "A Análise de Pontos de Função (APF) e o Software Non-Functional Assessment Process (SNAP) são utilizados para medir o tamanho de um software. Sobre a aplicação da APF e do SNAP, é correto afirmar que:",
+        "alternativas": {
+            "A": "o tamanho total do software é obtido por meio da multiplicação da quantidade de Pontos de Função pelaquantidade de Pontos SNAP associados à função de transação medida;",
+            "B": "a soma dos Pontos de Função aos Pontos SNAP representa o tamanho total do software;",
+            "C": "os grupos de dados formados em resposta às normalizações de dados são quantificados pelo SNAP;",
+            "D": "as funções de dados que mantêm grupos de dados associados às regras de negócio são quantificadas pela APF;",
+            "E": "as alterações nas estruturas de arquivos lógicos são quantificadas pela APF."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Analise de Pontos de Funcao (APF) quantifica as funcoes de dados (como o manutencao de grupos de dados associados a regras de negocio) e as funcoes de transacao de um software."
+    },
+    {
+        "id": "3142729",
+        "enunciado": "Joana é a arquiteta de software da equipe de desenvolvimento de sistemas (EDS) de um tribunal e definiu a utilização do REST (REpresentational State Transfer) como estilo arquitetural para aAPI (Application Programming Interface) que será consumida por aplicações distintas disponibilizadas via Internet. Para atender ao estilo arquitetural definido por Joana, os desenvolvedores devem criar endpoints capazes de:",
+        "alternativas": {
+            "A": "receber requisições que contenham todas as informações necessárias para o servidor entender e responder;",
+            "B": "manter os dados das sessões dos usuários previamente autenticados;",
+            "C": "utilizar WSDL (Web Services Description Language) como protocolo de comunicação entre o cliente e o servidor;",
+            "D": "atender às requisições HTTP/1.1 (Hypertext Transfer Protocol)de buscas de dados, que sejam mais frequentes, de forma otimizada, buscando primeiro no cache mantido no servidor;",
+            "E": "responder às requisições de busca de dados, disponibilizando-os ao cliente como serviços WSDL (WebServices Description Language)."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O REST, como estilo arquitetural, preza pela simplificidade e estado em que as informações necessarias para o servidor processar a requisicao estejam contidas nela, sem depender de contextos ou sessoes salvas no servidor."
+    },
+    {
+        "id": "3142730",
+        "enunciado": "A equipe de desenvolvimento de sistemas de um tribunal de contas está guiando a implantação de um Webservice REST.A implantação será dividida nos seguintes grupos distintos de containers Docker:- Grupo A: responsável pela execução da aplicação do Webservice REST- Grupo B: responsável pela execução do Sistema Gerenciador de Banco de Dados utilizado pelo Webservice RESTOs Grupos A e B terão seu próprio contexto de armazenamento e rede a serem orquestrados por um cluster de Kubernetes. Para que a conexão de rede entre os containers dos Grupos A e Bseja bem-sucedida pelo orquestrador, independentemente dos endereços IP a eles atribuídos, deverá ser configurado um novo:",
+        "alternativas": {
+            "A": "pod;",
+            "B": "replicaSet;",
+            "C": "service;",
+            "D": "ingress;",
+            "E": "statefulSet."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Em Kubernetes, um cluster orquestra pods. Para permitir a comunicação entre pods de diferentes grupos (e independentemente dos IPs atribuídos), um 'Service' é configurado. O Service atua como um ponto de entrada e balanceador de carga, abstraindo os IPs dos pods subjacentes."
+    },
+    {
+        "id": "3142731",
+        "enunciado": "Um ambiente híbrido de homologação de software, composto por sistemas Windows e Linux, foi solicitado à equipe de desenvolvimento de sistemas de um tribunal de contas. A fim de otimizar o emprego de recursos públicos, a equipe utilizará a tecnologia de virtualização, através do Hypervisor VMWare(chamado ESXi) versão 6.5.É correto afirmar que o Hypervisor VMWare versão 6.5:",
+        "alternativas": {
+            "A": "é uma aplicação que gerencia máquinas virtuais, também denominadas containers;",
+            "B": "deve ser instalado diretamente em máquina de hardware compatível, por ser um hipervisor tipo 1;",
+            "C": "pode ser instalado como aplicação adicional em sistemas operacionais Unix, por possuir um núcleo desse mesmo tipo;",
+            "D": "requer que os sistemas operacionais tenham os instaladores ligeiramente modificados para operarem em máquinas virtuais;",
+            "E": "é uma aplicação que pode gerenciar containers através da para-virtualização."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O VMWare ESXi é um hipervisor tipo 1 (bare-metal), que é instalado diretamente sobre o hardware da máquina, sem a necessidade de um sistema operacional hospedeiro. As outras alternativas descrevem características incorretas ou de outros tipos de virtualização."
+    },
+    {
+        "id": "3142732",
+        "enunciado": "A equipe de desenvolvimento de sistemas de um tribunal de contas está encarregada de aprimorar o desempenho dos serviços Web e das aplicações de rede, que estão, de forma indesejada, constantemente inacessíveis. Nesse cenário, a fim de aliviar o problema com uma ação direta, a equipe deve:",
+        "alternativas": {
+            "A": "usar a aplicação nginx como proxy reverso para o Apache;",
+            "B": "configurar o servidor de aplicação WildFly em modo de cluster com subsistema de cache tipo Infinispan;",
+            "C": "atualizar a tecnologia de endereçamento dinâmico, deDHCPv4 para DHCPv6;",
+            "D": "trocar o servidor de aplicação Tomcat pelo JBoss para possibilitar uma configuração em modo de cluster;",
+            "E": "implantar o padrão DNSSEC na resolução de nomes de domínios das aplicações."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142733",
+        "enunciado": "A Lei Geral de Proteção de Dados Pessoais (LGPD) dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais. Segundo a LGPD, a utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo é o(a):",
+        "alternativas": {
+            "A": "bloqueio;",
+            "B": "difusão;",
+            "C": "anonimização;",
+            "D": "eliminação;",
+            "E": "extração."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A anonimização, segundo a LGPD, é o processo de desvinculação de um dado pessoal de um indivíduo, utilizando meios técnicos que tornem a associação direta ou indireta impossível. Isso garante que o dado não possa mais ser atribuído a uma pessoa específica."
+    },
+    {
+        "id": "3142734",
+        "enunciado": "SAML (Security Assertion Markup Language) e OAuth 2 são frameworks utilizados para controlar o acesso a aplicações Web. Para controlar o acesso às aplicações:",
+        "alternativas": {
+            "A": "SAML utiliza tokens JWT (JSON Web Token) para autenticação e autorização do acesso;",
+            "B": "OAuth 2 possibilita o uso de refresh tokens para obtenção de novos access tokens;",
+            "C": "SAML e OAuth 2 requerem o uso do certificado digital do servidor de autorização para gerar tokens;",
+            "D": "SAML e OAuth 2 utilizam provedores de identificação eautorização que geram tokens do tipo JWT (JSON Web Token) Assertion;",
+            "E": "SAML e OAuth 2 requerem o uso do Single Sign-On (SSO) no servidor de autorização."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "OAuth 2 permite o uso de tokens de atualização (refresh tokens) para obter novos tokens de acesso sem que o usuário precise se autenticar novamente, garantindo uma experiência mais fluida. As outras alternativas apresentam imprecisões sobre como SAML e OAuth 2 funcionam."
+    },
+    {
+        "id": "3142735",
+        "enunciado": "A Inteligência Artificial (IA) apoia o desenvolvimento de soluções tecnológicas capazes de realizar atividades similares às capacidades cognitivas humanas. Como exemplo, a plataforma Sinapses, desenvolvida pelo Tribunal de Justiça do Estado de Rondônia (TJRO) e adaptada para uso nacional, gerencia o treinamento supervisionado de modelos de IA.Em soluções de IA, a tecnologia que possui a capacidade de melhorar o desempenho na realização de alguma tarefa por meio da experiência usando dados de treinamento, podendo ser supervisionado ou não, é o(a):",
+        "alternativas": {
+            "A": "Motor de Inferência (Inference Engine) de Sistemas Especialistas (Expert Systems);",
+            "B": "Raciocínio Automatizado (Automated Reasoning);",
+            "C": "Compreensão de Linguagem Natural (Natural-Language Understanding);",
+            "D": "Representação do Conhecimento (Knowledge Representation)usando Lógica de Primeira Ordem (First Logic Order);",
+            "E": "Aprendizado de Máquina (Machine Learning)."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Aprendizado de Máquina (Machine Learning) é a área da IA focada em criar sistemas que aprendem com dados e melhoram seu desempenho sem programação explícita, utilizando dados de treinamento em processos supervisionados ou não."
+    },
+    {
+        "id": "3142736",
+        "enunciado": "João é um cientista de dados que iniciou o processo de estudo dos dados de sua empresa com o objetivo de identificar um diferencial competitivo diante de seus concorrentes. Como resultado, João decidiu implementar um Big Data e hospedá-lo em um ambiente de nuvem. Diante das possibilidades dos serviços, considerando os requisitos de escalabilidade e elasticidade, em caso de aumento de demanda pontual, aliados à tecnologia de Big Data, a alternativa que melhor descreve o tipo de serviço em nuvem a ser contratado por João é:",
+        "alternativas": {
+            "A": "infraestrutura como serviço (IaaS), que consiste na entrega def unções de computação, incluindo hardware, redes, armazenamento e espaço de Datacenter com base em um modelo de aluguel;",
+            "B": "plataforma como serviço (PaaS), que oferece um conjunto consistente de serviços que garantem que os desenvolvedores tenham um modo integrado para a criação de aplicativos em nuvem;",
+            "C": "software como serviço (SaaS), que consiste em um aplicativo de negócios criado e hospedado por um provedor em um modelo de múltiplos usuários;",
+            "D": "dados como serviço (DaaS), que é um serviço independente de plataforma que permite conexão à nuvem para armazenar e recuperar informações;",
+            "E": "infraestrutura como código (IaC), que consiste em uma abordagem baseada na agilidade para entregar uma infraestrutura de forma muito mais rápida, com uma codificação objetiva e simples."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142737",
+        "enunciado": "Roberto foi contratado por uma empresa para implementar uma solução de segurança para proteger sua propriedade intelectual armazenada em sua rede interna, considerando os seguintes requisitos:- único ponto de entrada e saída para a rede interna, de forma que o tráfego bidirecional possa ser verificado e tenha controle de acesso para a rede interna, autorizando apenas o tráfego permitido;- o servidor Web com o site da empresa, instalado na rede interna, deverá ser acessado por clientes oriundos da Internet; e- acesso seguro à rede interna para os funcionários que trabalhem em home office. Para atender aos requisitos solicitados pela empresa, Roberto deve implementar um(a):",
+        "alternativas": {
+            "A": "zona desmilitarizada (DMZ) onde ficará o servidor Web da empresa; outra zona desmilitarizada (DMZ) para o banco dedados que o servidor Web da DMZ anterior faz acesso, cada uma possuindo seus firewalls delimitando seus perímetros;",
+            "B": "firewall separando as redes interna e externa; um servidor Web após o firewall, de forma que se permita o controle de acesso e o site da empresa fique disponível aos clientes oriundos da Internet;",
+            "C": "firewall entre a rede interna e a externa, de forma que apenas o tráfego autorizado possa chegar ao site da empresa; antivírus atualizado automaticamente em todos os computadores da rede interna, de forma a protegê-los de malwares quando acessados pelos usuários em home office;",
+            "D": "firewall para separar a rede interna da Internet; um sistema de detecção de intrusão (IDS), como segundo nível de proteção, caso haja alguma violação do firewall; uma rede privada virtual (VPN) para acesso via home office; e instalação do servidor Web após o firewall;",
+            "E": "par de firewalls criando uma zona desmilitarizada (DMZ), um para separar a Internet da zona desmilitarizada (DMZ) e o outro para separar a zona desmilitarizada (DMZ) da rede interna; instalação do servidor Web na zona desmilitarizada(DMZ) para acesso via Internet; e configuração de uma rede privada virtual (VPN) para o acesso via home office."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A DMZ abriga o servidor web, protegendo-o e a rede interna. Um firewall separa a internet da DMZ, e outro a DMZ da rede interna. VPN garante acesso seguro para home office."
+    },
+    {
+        "id": "3142738",
+        "enunciado": "Kátia, engenheira de segurança, recebeu de seu chefe uma mensagem a ser criptografada e enviada para uma das filiais da empresa em outro estado, de forma segura. A mensagem não é crítica para a empresa, logo o sistema de criptografia a ser utilizado pode ser computacionalmente simples. Kátia resolveu então usar uma cifra de transposição que não altera o conteúdo da mensagem, alterando apenas suas posições. Considerando que a chave utilizada foi MEGABUCK e o texto cifrado é ISODAIAORPSOROPCUOCLSASMDSRENOLVOTIRCSMDTOIFROEEERBUIATROSONOOa alternativa que apresenta o texto em claro correto para o texto cifrado acima é:",
+        "alternativas": {
+            "A": "EMVIRTUDEDOSPROTESTOSOCORRIDOSLIBERAROSFUNCIONARIOSAPOSOALMOCO;",
+            "B": "EFETUARODEPOSITONACONTADAFILIALDERONDONIAHOJEIMPRETERIVELMENTE;",
+            "C": "ALTERARASFOLHASDEPAGAMENTOEDAROAUMENTOACORDADONAREUNIAODEONTEM;",
+            "D": "TRANSFERIROFUNCIONARIOROBERTODODEPARTAMENTOBPARAODEPARTAMENTOA;",
+            "E": "ENCAMINHARPOREMAILOPLANEJAMENTODEFERIASDODEPARTAMENTOACADEMICO."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142739",
+        "enunciado": "Caio, administrador de redes, está enfrentando um problema de congestionamento da rede local. Após algumas verificações, Caio percebeu que, conforme os programas internos são executados e se comunicam em rede, há uma grande quantidade de pacotes de dados trafegando pela rede, e constatou a necessidade de um acompanhamento melhor dessas atividades por meio de um sistema de monitoramento, sem adição de mais pacotes à rede. A metodologia que Caio pode implementar de forma a atender às necessidades de monitoramento, sem aumento de tráfego, é um monitoramento:",
+        "alternativas": {
+            "A": "híbrido de rede com aplicações baseadas em protocolo de mensagens de controle da Internet (ICMP) que medem o tempo de resposta da rede ou descobrem informações sobrea topologia existente e outras que acompanham o tráfego de pacotes;",
+            "B": "diligente de rede com a ferramenta dummynet que intercepta a comunicação entre o protocolo a ser testado e a aplicação do usuário, com o intuito de monitorar o comportamento da aplicação;",
+            "C": "ativo chamado trem de pacotes que envia uma série de pacotes com um atraso pequeno e fixo entre eles, enquanto um receptor registra o momento em que cada pacote chega e usa a sequência de tempos para calcular as diferenças de atraso entre eles;",
+            "D": "ativo baseado no tracert que permite que se determine o caminho que um pacote percorre para chegar a um destino a partir de uma origem, retornando a sequência de saltos que o pacote atravessou;",
+            "E": "passivo baseado na instalação de um roteador que implemente o NetFlow que exibe estatisticamente pacotes de acordo com parâmetros estabelecidos pelo administrador de rede."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O NetFlow em um roteador coleta e envia estatísticas sobre o tráfego de rede sem adicionar pacotes extras, permitindo o monitoramento da atividade sem aumentar a carga na rede."
+    },
+    {
+        "id": "3142740",
+        "enunciado": "Maria, apesar de não ser concursada, diante de seus notórios conhecimentos em administração pública e recursos humanos, foi nomeada para o cargo em comissão de Diretora de Recursos Humanos na Autarquia Alfa estadual de Rondônia. Diante do que dispõe a Constituição do Estado de Rondônia, a legalidade do ato de admissão de Maria no cargo em comissão será apreciada, para fins de registro:",
+        "alternativas": {
+            "A": "pelo órgão de controle interno competente, não cabendo atuação do Tribunal de Contas estadual, porque se trata de cargo em comissão;",
+            "B": "pela Controladoria Geral do Estado, em controle externo, não cabendo atuação do Tribunal de Contas estadual, porque se trata de autarquia, que não integra a administração direta;",
+            "C": "pelo Tribunal de Contas estadual, em controle externo, pois lhe compete apreciar os atos de admissão de pessoal, a qualquer título, na administração direta ou indireta;",
+            "D": "pelo Tribunal de Contas estadual, em controle suplementar, pois lhe compete apreciar quaisquer atos de admissão de pessoal, na administração indireta;",
+            "E": "pelo órgão de controle interno competente e pelo Tribunal de Contas estadual, em controle externo, porque se trata de cargo em comissão, e não de cargo efetivo."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142741",
+        "enunciado": "João aposentou-se no cargo de Analista de Tecnologia da Informação - Desenvolvimento de Sistemas do Tribunal de Contas do Estado de Rondônia e está vinculado ao regime próprio de previdência social do Estado de Rondônia. De acordo com a Lei Complementar nº 68/1992, que dispõe sobre o Regime Jurídico dos Servidores Públicos Civis do Estado de Rondônia, João deve:",
+        "alternativas": {
+            "A": "submeter-se ao censo cadastral previdenciário, no mês de janeiro, trienalmente, na forma do regulamento;",
+            "B": "proceder semestralmente à prova de vida, visando à maior eficácia e eficiência da avaliação atuarial da previdência;",
+            "C": "submeter-se ao censo cadastral previdenciário anualmente, no mês de seu aniversário, na forma do regulamento;",
+            "D": "providenciar reavaliação anual de sua aposentadoria, junto ao Tribunal de Contas, sob pena de suspensão de seu pagamento;",
+            "E": "providenciar reavaliação anual de sua aposentadoria, junto ao Instituto de Previdência, sob pena de suspensão de seu pagamento."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A Lei Complementar nº 68/1992, que rege os servidores públicos de Rondônia, estabelece em seu art. 121 que o servidor aposentado deve realizar um censo cadastral previdenciário anualmente, no mês de seu aniversário, para comprovar sua condição para fins previdenciários."
+    },
+    {
+        "id": "3142742",
+        "enunciado": "De acordo com a Constituição do Estado de Rondônia, a realização de inspeções e auditorias de natureza contábil, financeira, orçamentária, operacional e patrimonial nas unidades administrativas do Poder Judiciário compete:",
+        "alternativas": {
+            "A": "ao Poder Executivo, por meio do Tribunal de Contas estadual, órgão auxiliar do Governador do Estado;",
+            "B": "ao Tribunal de Contas estadual, que auxilia o exercício do controle externo a cargo da Assembleia Legislativa;",
+            "C": "ao Ministério Público estadual, que auxilia o exercício do controle externo a cargo da Assembleia Legislativa;",
+            "D": "à Assembleia Legislativa, que auxilia o exercício do controle externo a cargo do Poder Executivo;",
+            "E": "à Controladoria Geral do Estado, órgão auxiliar do Ministério Público estadual."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A Constituição do Estado de Rondônia estabelece que o Tribunal de Contas estadual é o órgão responsável pela inspeção e auditoria das unidades administrativas do Poder Judiciário, auxiliando o controle externo da Assembleia Legislativa."
+    },
+    {
+        "id": "3142743",
+        "enunciado": "João, Analista Judiciário do Tribunal de Justiça de Rondônia, aposentou-se por invalidez com 64 anos de idade. Seis meses depois, inspeção médica oficial verificou serem insubsistentes os motivos determinantes de sua aposentadoria. De acordo com a Lei Complementar nº 68/1992, que dispõe sobre o Regime Jurídico dos Servidores Públicos Civis do Estado de Rondônia, será promovido o reingresso de João ao serviço público, mediante:",
+        "alternativas": {
+            "A": "a readaptação, que efetivar-se-á em cargo de atribuições afins ou superiores ao anterior cargo;",
+            "B": "a reintegração, que dar-se-á no mesmo cargo ou em outro de equivalente atribuição;",
+            "C": "a recondução, que efetivar-se-á em cargo de remuneração equivalente ao anteriormente ocupado;",
+            "D": "a reversão, que dar-se-á no mesmo cargo, no cargo resultante de sua transformação, ou em outro de igual vencimento;",
+            "E": "o aproveitamento, que dar-se-á no mesmo cargo ou em outro de equivalente atribuição."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3142744",
+        "enunciado": "José, servidor público civil estável do Poder Executivo do Estado de Rondônia, sem má-fé, praticou falta disciplinar, em tese, punível com suspensão de até dez dias. Sabe-se que o histórico funcional do servidor é excelente e que, até então, nunca havia cometido infração disciplinar. De acordo com a Lei Complementar nº 68/1992, que dispõe sobre o Regime Jurídico dos Servidores Públicos Civis do Estado de Rondônia, a Administração Pública:",
+        "alternativas": {
+            "A": "deverá proceder à imprescindível e prévia instauração de inquérito civil, visando à responsabilização funcional de José, vedada aautocomposição e a consensualidade no direito sancionador sob a ótica disciplinar;",
+            "B": "deverá proceder à imprescindível e prévia instauração de sindicância administrativa e de processo administrativo disciplinar, visando à responsabilização funcional de José, vedada aautocomposição e a consensualidade no direito sancionador sob a ótica disciplinar;",
+            "C": "poderá, com caráter punitivo, propor a José a transação disciplinar, mediante imprescindível e prévia instauração de sindicância administrativa e de processo administrativo disciplinar, e leva em conta a possibilidade de melhora do agente e aperfeiçoamento do serviço;",
+            "D": "poderá, com caráter punitivo, propor a José o acordo de leniência funcional para fins disciplinares, dispensando a instauração de sindicância administrativa e de processo administrativo disciplinar, e leva em conta a possibilidade de melhora do agente e aperfeiçoamento do serviço;",
+            "E": "poderá, sem caráter punitivo, propor a José o termo de ajustamento de conduta para fins disciplinares, dispensando a instauração de sindicância administrativa e de processo administrativo disciplinar, e leva em conta a possibilidade de melhora do agente e aperfeiçoamento do serviço."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075431",
+        "enunciado": "A CPU (unidade central de processamento) é composta por várias partes distintas.Sobre as partes da CPU, analise as seguintes afirmativas.A unidade de controle é responsável por buscar as instruções na memória secundária e determinar o seu tipo.A unidade de aritmética e lógica efetua operações,como adição e booleano, para executar as instruções.A CPU contém uma pequena memória de alta velocidade que é composta por registradores.Estão corretas as afirmativas",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa I está incorreta, pois a unidade de controle busca instruções na memória principal, não secundária, e determina a próxima ação. As afirmativas II e III estão corretas, descrevendo as funções da ULA e a presença de registradores na CPU."
+    },
+    {
+        "id": "3075432",
+        "enunciado": "Em relação a hierarquias de memória, analise as seguintes afirmativas.À medida que se desce na hierarquia, o tempo de acesso fica maior.À medida que se desce na hierarquia,a capacidade de armazenagem diminui.À medida que se desce na hierarquia, o valor financeiro gasto por número de bits aumenta.Estão corretas as afirmativas",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075433",
+        "enunciado": "O método de pesquisa de dados que pode ser muito mais eficiente se os registros forem mantidos em ordem,porque esse método de pesquisa se inicia na posição do meio da tabela, é",
+        "alternativas": {
+            "A": "pesquisa linear.",
+            "B": "pesquisa binária.",
+            "C": "árvore de pesquisa sem balanceamento.",
+            "D": "árvore de pesquisa com balanceamento."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A pesquisa binária é eficiente quando os registros estão ordenados, pois ela divide o conjunto de dados pela metade a cada passo, agilizando a localização do item desejado."
+    },
+    {
+        "id": "3075434",
+        "enunciado": "Tendo em vista os tipos de meio de armazenamento de dados, numere a COLUNA II de acordo com a COLUNA I, associando os tipos de meio de armazenamento com suas características.COLUNA IDiscos IDEDiscos SCSICOLUNA II( )Barramento no qual podem ser conectados um controlador e até sete dispositivos.( )Utilizam cabos de 40 ou 80 vias para transmissão de dados.( )Cada dispositivo tem dois conectores, um para entrada e um para saída.Assinale a sequência correta.",
+        "alternativas": {
+            "A": "2 1 2",
+            "B": "2 2 1",
+            "C": "1 2 1",
+            "D": "1 1 2"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A sequência correta é 2 1 2. O SCSI (2) utiliza um barramento onde podem ser conectados vários dispositivos. O IDE (1) utiliza cabos de 40 ou 80 vias. No SCSI, cada dispositivo tem dois conectores (um para entrada e outro para saída), permitindo o encadeamento (daí o 2 para a última característica)."
+    },
+    {
+        "id": "3075435",
+        "enunciado": "Em relação aos tipos de conectores utilizados nos dispositivos de entrada e saída de computadores,analise as seguintes afirmativas.O conector PS2 contém pinos e é utilizado para conexões de mouses e teclados.O conector VGA, que contém 15 pinos, é utilizado para conexões de monitores e projetores.O conector USB utiliza uma tecnologia chamada plug and play e é utilizado para conexões de monitores e teclados.Estão corretas as afirmativas",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A afirmativa I está correta, pois o conector PS2 utiliza pinos e é destinado a mouses e teclados. A afirmativa II também está correta, pois o conector VGA tem 15 pinos e é usado para monitores e projetores. A afirmativa III está incorreta, pois embora o USB use plug and play, ele não é primariamente utilizado para teclados; o conector USB é mais versátil e usado para diversos periféricos, enquanto o conector dedicado para teclado via USB ainda existe em algumas implementações, mas o conector padrão PS/2 para teclados ainda é comum. A generalização do USB para teclados e monitores de forma exclusiva está errada. O conector USB é amplamente utilizado para monitores (via adaptadores ou conexões mais recentes como USB-C com DisplayPort Alt Mode), mas para teclados, o PS/2 ou USB são os mais comuns."
+    },
+    {
+        "id": "3075436",
+        "enunciado": "Com relação ao sistema de arquivos do Microsoft Windows 2000, assinale a alternativa incorreta.",
+        "alternativas": {
+            "A": "O Windows 2000 suporta os sistemas de arquivos FAT32 e NTFS.",
+            "B": "O NTFS é um sistema de arquivos desenvolvido especificamente para o Windows 2000.",
+            "C": "O nome dos arquivos NTFS no Windows 2000 são limitados a 255 caracteres.",
+            "D": "O sistema de arquivos FAT16 é o sistema de arquivos do MS-DOS e é também suportado no Microsoft Windows 2000."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O NTFS foi desenvolvido para o Windows NT e é suportado pelo Windows 2000, mas não foi criado *exclusivamente* para ele. O FAT32 e o FAT16 também são suportados."
+    },
+    {
+        "id": "3075437",
+        "enunciado": "Em relação aos tipos de licenças de softwares, analise as seguintes afirmativas.A aquisição de um software comercial implica no direito de sua utilização em um ou vários computadores, dependendo da quantidade de licenças adquiridas.Um freeware é um software que o usuário pode utilizar sem pagar sua licença, porém há algumas restrições em sua utilização.Um software em que o usuário pode fazer seu download e utilizá-lo gratuitamente por um determinado tempo é chamado de shareware.Estão corretas as afirmativas",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075438",
+        "enunciado": "Em relação ao método de pesquisa de dados sequencial,analise as seguintes afirmativas.É utilizado quando se necessita pesquisar um registro a partir de uma determinada chave.É o método de pesquisa mais simples que existe.Funciona da seguinte forma: a partir do primeiro registro, pesquisa sequencialmente até encontrara chave procurada, após isso, para.Estão corretas as afirmativas",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e II"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075439",
+        "enunciado": "Analise as seguintes afirmativas sobre o hashing e assinale com V as verdadeiras e com F as falsas.( )É o método de transformação de chave.( )É constituído de duas etapas principais: computar o valor da transformação e existir um método para lidar com as colisões.( )Os registros armazenados em uma tabela são diretamente endereçados a partir de uma transformação aritmética sobre a chave de pesquisa.Assinale a sequência correta.",
+        "alternativas": {
+            "A": "V V V",
+            "B": "V F V",
+            "C": "F V F",
+            "D": "F F F"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A afirmativa I está correta, pois hashing é essencialmente um método de transformação de chave. A afirmativa II também está correta, pois o hashing envolve a computação do valor transformado e o tratamento de colisões. A afirmativa III está correta, pois os registros são diretamente endereçados após a aplicação de uma função de hash sobre a chave de pesquisa."
+    },
+    {
+        "id": "3075440",
+        "enunciado": "São exemplos de estruturas de seleção, exceto:",
+        "alternativas": {
+            "A": "Estrutura SE – ENTÃO.",
+            "B": "Estrutura SE – ENTÃO – SENÃO.",
+            "C": "Estrutura SE – ATÉ.",
+            "D": "Estrutura CASO."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As estruturas SE-ENTÃO, SE-ENTÃO-SENÃO e CASO são estruturas de seleção, que executam comandos condicionalmente. A estrutura SE-ATÉ é uma estrutura de repetição, pois especifica uma condição para continuar ou sair de um loop."
+    },
+    {
+        "id": "3075441",
+        "enunciado": "Tendo em vista os tipos de alocação de memória, numere a COLUNA II de acordo com a COLUNA I, associando os tipos de alocação de memória a suas características.COLUNA IAlocação dinâmicaAlocação estáticaCOLUNA II( )A liberação de memória deve ser feita pelo compilador.( )As variáveis alocadas são chamadas de apontadores.( )O espaço para as variáveis é reservado no inicio da execução do programa.( )O espaço para as variáveis pode ser alocado durante a execução do programa.Assinale a sequência correta.",
+        "alternativas": {
+            "A": "2 1 2 1",
+            "B": "2 2 1 1",
+            "C": "1 2 1 2",
+            "D": "1 1 2 2"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A sequência correta é 2 1 2 1. Na alocação estática (COLUNA I - 2), a liberação de memória é feita pelo compilador. As variáveis alocadas na alocação dinâmica são chamadas de ponteiros (COLUNA I - 1). O espaço para variáveis estáticas é reservado no início da execução (COLUNA I - 2). O espaço para variáveis dinâmicas é alocado durante a execução (COLUNA I - 1)."
+    },
+    {
+        "id": "3075442",
+        "enunciado": "Em relação à sub programação, analise o texto a seguir.A _________________ é como se fosse um programa. Ela tem a estrutura praticamente igual, porém deve ser ativada pelo programa ou por outra parte dela. Seu identificador assume o valor de retorno, ou seja,será feito um determinado cálculo e será retornado ao programa um valor.Assinale a alternativa que completa corretamente a lacuna desse texto.",
+        "alternativas": {
+            "A": "function",
+            "B": "procedure",
+            "C": "estrutura de seleção",
+            "D": "record"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A lacuna refere-se a um subprograma que é como um programa, tem estrutura similar, mas é ativado por outro, retorna um valor e seu identificador assume esse valor de retorno. Essa descrição corresponde precisamente à definição de uma 'function' em programação, ao contrário de um 'procedure' que não retorna um valor diretamente atribuível ao seu identificador. Estrutura de seleção e record são conceitos diferentes."
+    },
+    {
+        "id": "3075443",
+        "enunciado": "A estrutura de dados em que o valor a ser inserido é sempre o primeiro a ser retirado é a",
+        "alternativas": {
+            "A": "lista.",
+            "B": "fila.",
+            "C": "pilha.",
+            "D": "lista duplamente encadeada."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A estrutura de dados em que o último elemento inserido é o primeiro a ser removido é a pilha (LIFO - Last In, First Out). Na fila, é o primeiro a ser inserido que é o primeiro a ser retirado (FIFO - First In, First Out). Listas não possuem essa característica intrínseca de ordem de remoção."
+    },
+    {
+        "id": "3075444",
+        "enunciado": "Sobre o método de ordenação de dados chamado método da bolha, assinale a alternativa incorreta.",
+        "alternativas": {
+            "A": "Nesse método, é percorrido o vetor de dados,comparando as posições adjacentes (dois a dois).",
+            "B": "Para ser eficaz, o vetor de dados deve ser percorrido N – 2, em que N é o tamanho do vetor.",
+            "C": "Caso em alguma das repetições, nenhuma troca tenha sido efetuada, pode-se interromper o loop, pois o vetor já estará ordenado.",
+            "D": "Não é aconselhado para grandes volumes dedados por não ser um algoritmo muito eficiente."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O método da bolha, para ser eficaz, precisa de no máximo N-1 passagens completas com trocas. A afirmativa B menciona N-2, o que não garante a ordenação completa em todos os casos."
+    },
+    {
+        "id": "3075445",
+        "enunciado": "O Microsoft Windows 2000 é constituído de dois tipos decomponentes.São tipos de componentes do modo usuário, exceto:",
+        "alternativas": {
+            "A": "DLLs.",
+            "B": "Subsistemas do ambiente.",
+            "C": "Processos de serviço.",
+            "D": "Gerenciamento de Segurança."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3069485",
+        "enunciado": "A respeito do framework de trabalho Scrum, marque a alternativa correta:",
+        "alternativas": {
+            "A": "O eixo X do gráfico de burn-down representa a entrega planejada, em horas de trabalho ou em pontos de histórias.",
+            "B": "Essa framework não prevê acompanhamento diário, logo, a equipe se reúne somente no final de uma sprint.",
+            "C": "O Product Backlog é uma lista de funcionalidades esperadas para um produto.",
+            "D": "Foco, comprometimento e respeito não fazem parte dos valores de Scrum.",
+            "E": "Uma equipe Scrum é composta exclusivamente por um Product Owner e desenvolvedores, sem ninguém responsável pelo treinamento desses desenvolvedores."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O Product Backlog é uma lista dinâmica das funcionalidades, requisitos e correções de um produto, mantida pelo Product Owner. A alternativa A está incorreta pois o eixo X do gráfico de burn-down representa o tempo, e o Y a carga de trabalho restante. A B está errada, há o Daily Scrum. A D está incorreta pois foco, comprometimento e respeito são valores do Scrum. A E está incorreta, pois a equipe Scrum inclui desenvolvedores, Product Owner e Scrum Master."
+    },
+    {
+        "id": "3069486",
+        "enunciado": "Leia as informações sobre Rational Unified Process abaixo e marque a alternativa correta.O ciclo de vida desse processo é composto por quatro fases: Inception, Elaboration, Construction e Transition.A implementação completa do produto final deve ser feita exclusivamente na fase de Elaboration.Uma das atividades realizadas na fase de Transition é o treinamento dos usuários finais.Uso de componentes é uma boa prática no RUP.",
+        "alternativas": {
+            "A": "Apenas I, III e IV estão corretas.",
+            "B": "Apenas I está correta.",
+            "C": "I, II, III e IV estão corretas",
+            "D": "Apenas II, III e IV estão corretas.",
+            "E": "Apenas IV está correta."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A fase de Elaboration não implementa o produto final, mas protótipos. A construção do produto final ocorre na fase de Construction. As demais estão corretas: RUP tem 4 fases, Transition inclui treinamento, e o uso de componentes é uma boa prática."
+    },
+    {
+        "id": "3069487",
+        "enunciado": "Marque a alternativa INCORRETA com relação a Extreme Programming (XP).",
+        "alternativas": {
+            "A": "Comunicação, coragem e respeito são valores dessa metodologia.",
+            "B": "Em XP, uma das regras é codificar os testes de unidade primeiro.",
+            "C": "Refatoramento é uma prática recomendada nesse processo.",
+            "D": "O código a ser enviado para produção é criado por duas pessoas trabalhando juntas em um único computador.",
+            "E": "O autor, Don Wells, exige que o processo seja seguido à risca, de forma que todas suas regras devem ser respeitadas e, nenhum projeto pode ser realizado sem adaptações e/ou remoção dessas regras."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O principal autor da metodologia Extreme Programming (XP) é Kent Beck, não Don Wells. Além disso, XP é conhecida por sua flexibilidade e adaptação aos projetos, não exigindo que seja seguida à risca sem qualquer modificação."
+    },
+    {
+        "id": "3069488",
+        "enunciado": "Um modelo básico de entidade-relacionamento é composto por tipos de entidades e especifica relacionamentos existentes entre entidades. Com base nesse tema, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "Esse modelo foi desenvolvido no começo dos anos 1990.",
+            "B": "Somente entidades podem possuir atributos.",
+            "C": "De acordo com Peter Chen, autor desse modelo, entidades são instâncias de tipos de entidades.",
+            "D": "Uma entidade só pode representar algo que existe fisicamente.",
+            "E": "Na notação de Chen, relacionamentos são representados por retângulos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "De acordo com Peter Chen, criador do modelo ER, entidades são os objetos do mundo real, e instâncias de entidades são os objetos específicos que representam esses tipos de entidades. A alternativa A está incorreta, o modelo ER foi desenvolvido na década de 1970. A B está incorreta pois relacionamentos também podem ter atributos. A D está incorreta, entidades podem ser conceituais. A E está incorreta, relacionamentos são representados por losangos na notação de Chen."
+    },
+    {
+        "id": "3069489",
+        "enunciado": "Leia as assertivas abaixo sobre TCP/IP e marque a alternativa correta:Foi criado após 1980.A camada de transporte para TCP é stateful.TCP/IP é uma suíte de protocolos de propriedade de companhias privadas.ARP não faz parte da suíte de protocolos TCP/IP.",
+        "alternativas": {
+            "A": "Somente I e II estão corretas.",
+            "B": "Somente II está correta.",
+            "C": "Somente I, II e IV estão corretas.",
+            "D": "Somente I e III estão corretas.",
+            "E": "I, II, III e IV estão corretas"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A assertiva I eh falsa, TCP/IP foi criado antes de 1980. A assertiva III eh falsa, TCP/IP eh um padrao aberto, nao de propriedade privada. A assertiva IV eh falsa, ARP eh parte da suite TCP/IP. Apenas a assertiva II \"A camada de transporte para TCP eh stateful.\" eh verdadeira."
+    },
+    {
+        "id": "3069490",
+        "enunciado": "Unified Modeling Language (UML) é uma linguagem para especificação, visualização, construção e documentação de artefatos de software. Com base em UML, marque a alternativa correta.",
+        "alternativas": {
+            "A": "UML só permite modelagens estruturais.",
+            "B": "Para uma relação de dependência entre dois elementos de modelo, é obrigatório informar um nome e um estereótipo.",
+            "C": "Um ator só pode ter associações com casos de uso, componentes e classes. Além disso, essas associações devem ser binárias.",
+            "D": "É opcional informar um nome para o caso de uso.",
+            "E": "Linhas do tempo não podem ser utilizadas em diagramas de sequência."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3069491",
+        "enunciado": "Em diagramas de classe UML, é válido dizer que:",
+        "alternativas": {
+            "A": "Não há como especificar a visibilidade de atributos de classe.",
+            "B": "O uso de restrições a classes e dependências não é válido.",
+            "C": "É possível especificar hierarquias e composições.",
+            "D": "Não pode conter somente interfaces.",
+            "E": "Não pode conter somente classes."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Diagramas de classe UML permitem a especificação de hierarquias (herança) e composições (agregação/composição), que são relações estruturais fundamentais. A visibilidade de atributos (A) pode ser especificada. Restrições e dependências (B) são válidas. Um diagrama pode conter apenas interfaces (D) ou apenas classes (E), dependendo da necessidade."
+    },
+    {
+        "id": "3069492",
+        "enunciado": "Sobre o protocolo IPv6, é INCORRETO falar que:",
+        "alternativas": {
+            "A": "A escalabilidade do roteamento multicast foi aprimorada com a adição de um campo de \"escopo\" a endereços multicast.",
+            "B": "Há especificação de extensões para suportar autenticação e integridade de dados.",
+            "C": "O campo Flow Label de 20 bits no cabeçalho IPv6 é usado por uma fonte para seqüências de rótulos de pacotes a serem tratados na rede como um único fluxo.",
+            "D": "O campo Traffic Class de 10 bits no cabeçalho IPv6 é usado pela rede para gerenciamento de tráfego.",
+            "E": "Quatro bits são reservados para informar a versão do protocolo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3069493",
+        "enunciado": "O protocolo IPv4 é a quarta versão do protocolo IP. Marque a alternativa correta abaixo.",
+        "alternativas": {
+            "A": "O protocolo IPv4 garante a entrega dos pacotes.",
+            "B": "A integridade dos dados é garantida por esse protocolo, evitando que protocolos de camada superior, como TCP tenham de resolver esse problema.",
+            "C": "Oito bits são reservados para identificar o protocolo utilizado na porção de dados do datagrama IP.",
+            "D": "Não há campo reservado no cabeçalho IP para checagem de erro.",
+            "E": "O protocolo IPv4 não permite fragmentação."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3069494",
+        "enunciado": "Assinale a alternativa correta com relação ao protocolo File Transfer Protocol (FTP).",
+        "alternativas": {
+            "A": "A porta padrão para esse protocolo é 23.",
+            "B": "Não há comando para retornar o diretório corrente.",
+            "C": "Não é possível transferir arquivos binários com esse protocolo, sendo ele limitado somente para a transferência de arquivos ASCII.",
+            "D": "O comando para informar a senha é PASW.",
+            "E": "O comando para alterar o diretório de trabalho (diretório remoto) é CWD."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O comando CWD (Change Working Directory) no FTP é utilizado para alterar o diretório de trabalho no servidor remoto. A porta padrão do FTP é 21 (não 23, que é do Telnet), e ele permite a transferência de arquivos binários e ASCII."
+    },
+    {
+        "id": "3069495",
+        "enunciado": "User Datagram Protocol (UDP) é um dos protocolos da suíte de protocolos de Internet. Com relação a esse protocolo, marque a alternativa correta.",
+        "alternativas": {
+            "A": "UDP é um protocolo que garante entrega de mensagens.",
+            "B": "UDP não suporta multicast.",
+            "C": "UDP não garante ordem na entrega de mensagens.",
+            "D": "UDP é um protocolo pesado, logo, não é recomendado para VoIP, jogos e outras aplicações de tempo real.",
+            "E": "UDP não suporta broadcast."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O UDP é um protocolo confiável em relação à ordem de entrega das mensagens. Ele não garante a entrega (A), não suporta multicast e broadcast (B e E), mas suporta esses mecanismos. D está incorreto, o UDP é leve e ideal para aplicações em tempo real. Sua principal característica é a rapidez em detrimento da confiabilidade, mas ele não garante a ordem na entrega de mensagens."
+    },
+    {
+        "id": "3069496",
+        "enunciado": "Marque abaixo a alternativa que trata de uma funcionalidade que NÃO foi introduzida no PHP 7.",
+        "alternativas": {
+            "A": "Função hash_pbkdf2.",
+            "B": "Operador de coalescência nula.",
+            "C": "Arrays de constantes com a função define.",
+            "D": "Classes anônimas.",
+            "E": "Sintaxe de escape de códigos Unicode."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3069497",
+        "enunciado": "Escolha a alternativa abaixo que contém uma expressão que não é reconhecida no PHP 7.",
+        "alternativas": {
+            "A": "$userId = $_GET['user_id'] jQuery3410519414229093494_1611839781701 'NO_ID'",
+            "B": "$userId = $_GET['user_id'] jQuery3410048355425028588916_1611840659071 $_POST['user_id’] ?? 'NO_ID'",
+            "C": "$a = 1 <=> 1",
+            "D": "function add($a, $b): int { return $a + $b; }",
+            "E": "function add($a, $b) using ($c) { return $a + $b + $c; }"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A sintaxe 'function add($a, $b) using ($c)' não é reconhecida no PHP 7 ou em versões anteriores. O PHP utiliza a palavra-chave 'use' para importar namespaces, não para declarar parâmetros em funções de forma genérica como apresentado."
+    },
+    {
+        "id": "3069499",
+        "enunciado": "Em relação a algoritmos de ordenação, leia as informações abaixo e assinale a alternativa correta.Bubble Sort é um algoritmo de ordenação com caso médio de ordem O(n2).Um algoritmo de ordenação é estável quando sempre mantém os elementos repetidos na mesma ordem em queaparecem na entrada.Merge Sort foi inventado após 1940.Merge Sort é um algoritmo que permite paralelismo.Timsort é um algoritmo híbrido derivado do Merge Sort e do Insertion Sort.",
+        "alternativas": {
+            "A": "Somente I e II estão corretas.",
+            "B": "Somente I, II e IV estão corretas.",
+            "C": "Somente I, II, III e IV estão corretas.",
+            "D": "Somente I, II, IV e V estão corretas.",
+            "E": "I, II, III, IV e V estão corretas"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa III está incorreta. O Merge Sort tem suas origens ligadas à década de 1940, mas sua invenção formal não está tão rigidamente ligada a uma data específica após 1940. As demais afirmativas estão corretas sobre os algoritmos mencionados."
+    },
+    {
+        "id": "3069501",
+        "enunciado": "Marque abaixo o código que não é compilável ao utilizar Java 12.",
+        "alternativas": {
+            "A": "var var = 5;",
+            "B": "public static void x(var a, var b) { System.out.println(a); }",
+            "C": "var x = \"oi\";",
+            "D": "List<Integer> lista = Arrays.asList(1, 2, 3); lista.forEach(n -> System.out.println(n));",
+            "E": "List<String> lista = Arrays.asList(\"a1\", \"a2\", \"b1\", \"c2\", \"c1\"); lista.stream().filter(s -> s.startsWith(\"c\")). map(String::toLowerCase). forEach(System.out::println);"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No Java 12, a palavra-chave 'var' nao pode ser usada para declarar parAmetros de metodo. As outras alternativas utilizam 'var' corretamente para inferencia de tipo de variavel local ou para expressoes lambda."
+    },
+    {
+        "id": "3069502",
+        "enunciado": "Baseando-se na Java Collections Framework, escolha a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "O método put da interface Map retorna o valor anterior associado à chave informada ou null caso não haja mapeamento anterior para a chave informada.",
+            "B": "TreeMap implementa a interface NavigableMap.",
+            "C": "A implementação de LinkedList não é sincronizada.",
+            "D": "ArrayList possui melhor desempenho com relação a LinkedList para todos os casos.",
+            "E": "A implementação de Hashtable é sincronizada."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D está incorreta. ArrayList tem bom desempenho para acesso aleatório, mas LinkedList é mais eficiente para inserções e remoções no meio da lista. Ambas têm seus pontos fortes dependendo da operação."
+    },
+    {
+        "id": "3069503",
+        "enunciado": "Assinale a opção abaixo que contém somente informações corretas.",
+        "alternativas": {
+            "A": "Python 3 possui retro compatibilidade total com Python 2.",
+            "B": "Python 3 não é compatível com cadeias de caracteres (strings) Unicode.",
+            "C": "count(d)retorna o número de elementos do dict d.",
+            "D": "Dicionários em Python 3.7 preservam a ordem de inserção.",
+            "E": "Utiliza-se array.add(x) para adicionar x a array"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D está correta. Dicionários em Python 3.7 e versões posteriores preservam a ordem de inserção dos elementos. As demais alternativas contêm informações incorretas sobre retrocompatibilidade, suporte a Unicode, método count e adição a listas."
+    },
+    {
+        "id": "3069504",
+        "enunciado": "Em Python 3, que operador é sobrecarregado por __ifloordiv__()?",
+        "alternativas": {
+            "A": "//=",
+            "B": "/=",
+            "C": "_/=",
+            "D": "/_=",
+            "E": "///="
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O operador // é o operador de divisão inteira (ou 'floor division'). Em Python, o operador //= é o operador de atribuição para a divisão inteira, e ele é sobrecarregado pelo método especial __ifloordiv__()."
+    }
+]

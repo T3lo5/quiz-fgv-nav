@@ -1,0 +1,819 @@
+[
+    {
+        "id": "2320470",
+        "enunciado": "Durante o inventário de peças, um trabalhador percebeu que uma quantidade de 126 unidades podia ser organizada em conjuntos de forma uniforme, para facilitar a distribuição. Para isso, realizou a decomposição de 126 em fatores primos. Considerando esse procedimento, assinale a alternativa que apresenta a decomposição em fatores primos corretamente organizada.",
+        "alternativas": {
+            "A": "126 = 2 × 3 × 21.",
+            "B": "126 = 2 × 3 × 3 × 7.",
+            "C": "126 = 3 × 3 × 14.",
+            "D": "126 = 2 × 7 × 9."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A decomposicao de 126 em fatores primos e obtida dividindo o numero sucessivamente pelos menores numeros primos ate chegar a 1. Assim: 126 / 2 = 63; 63 / 3 = 21; 21 / 3 = 7; 7 / 7 = 1. Logo, 126 = 2 * 3 * 3 * 7."
+    },
+    {
+        "id": "2298561",
+        "enunciado": "Considere os números 40 e 54. Deseja-se escrever cada um deles por meio de sua decomposição em fatores primos. Assinale a alternativa em que ambos aparecem corretamente decompostos.",
+        "alternativas": {
+            "A": "40 = 2² · 5² e 54 = 2 · 3³.",
+            "B": "40 = 4 · 10 e 54 = 6 · 9.",
+            "C": "40 = 2 · 20 e 54 = 2 · 27.",
+            "D": "40 = 2³ · 5 e 54 = 2 · 3³."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A decomposição de 40 em fatores primos é 2³ * 5 (8 * 5 = 40). A decomposição de 54 em fatores primos é 2 * 3³ (2 * 27 = 54)."
+    },
+    {
+        "id": "2293920",
+        "enunciado": "No processo de organização de materiais escolares, um professor decidiu separar 396 unidades de lápis em agrupamentos baseados exclusivamente nos fatores primos desse número, a fim de formar conjuntos estruturados para uma atividade de matemática. Considerando a decomposição em fatores primos do número apresentado, qual alternativa corresponde corretamente ao resultado dessa decomposição?",
+        "alternativas": {
+            "A": "396 = 2² × 3² × 11.",
+            "B": "396 = 2³ × 3 × 11.",
+            "C": "396 = 2² × 3 × 13.",
+            "D": "396 = 2 × 3² × 13."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para decompor 396 em fatores primos: 396 ÷ 2 = 198; 198 ÷ 2 = 99; 99 ÷ 3 = 33; 33 ÷ 3 = 11; 11 ÷ 11 = 1. Portanto, a decomposição é 2² × 3² × 11."
+    },
+    {
+        "id": "2393382",
+        "enunciado": "Uma professora pede para que seus alunos coloquem em ordem os quatro primeiros números primos. A sequencia correta é a representada na letra:",
+        "alternativas": {
+            "A": "1, 2, 3, 5",
+            "B": "2, 4, 6, 8",
+            "C": "3, 5, 7, 9",
+            "D": "2, 3, 5, 7"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os números primos são aqueles divisíveis apenas por 1 e por eles mesmos. O número 1 não é primo. Os primeiros números primos são 2, 3, 5 e 7."
+    },
+    {
+        "id": "1732769",
+        "enunciado": "Assinale a alternativa abaixo que apresenta um número primo.",
+        "alternativas": {
+            "A": "73.",
+            "B": "74.",
+            "C": "75.",
+            "D": "76.",
+            "E": "77."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Um número primo é aquele que só é divisível por 1 e por ele mesmo. O número 73 só pode ser dividido por 1 e 73, sendo, portanto, um número primo."
+    },
+    {
+        "id": "2136472",
+        "enunciado": "Assinale a alternativa na qual o número 80 está corretamente decomposto em fatores primos.",
+        "alternativas": {
+            "A": "2 x 8 x 5",
+            "B": "2 x 40",
+            "C": "15 x 5",
+            "D": "20 x 40",
+            "E": "2 x 2 x 2 x 2 x 5"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A decomposição em fatores primos de 80 é 2 x 2 x 2 x 2 x 5. As outras alternativas contêm fatores que não primários (8, 40, 20) ou não resultam em 80."
+    },
+    {
+        "id": "1980743",
+        "enunciado": "Os números primos são “os blocos de construção” dos números naturais. Existem infinitos números primos e, em outubro de 2024, foi identificado um número primo com mais de 41 milhões de dígitos. Entre os números naturais menores do que dez, quatro deles são primos: 2, 3, 5 e 7. A diferença entre dois números primos sucessivos pode ser tornada arbitrariamente grande. Por exemplo, a diferença entre os primos sucessivos 5 e 7 é igual a 2, e a diferença entre os primos sucessivos 31 e 37 é igual a 6. A diferença entre os dois menores números primos que são maiores do que 200 é igual a",
+        "alternativas": {
+            "A": "8",
+            "B": "6",
+            "C": "10",
+            "D": "4",
+            "E": "12"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Os números primos próximos a 200 são 211 e 223. Para 211, testamos divisores primos até √211 ≈ 14.5 (7, 11, 13), sem sucesso. Para 223, testamos até √223 ≈ 14.9 (7, 11, 13), sem sucesso. Portanto, 211 e 223 são primos. A diferença entre eles é 223 - 211 = 12."
+    },
+    {
+        "id": "2322903",
+        "enunciado": "O Sr. Antônio Carlos é motorista de um caminhão de entregas e faz a revisão do veículo em todos os dias do mês que correspondem a números primos. Sabendo que a última revisão foi feita no dia 13, qual será o dia em que ele fará a próxima revisão?",
+        "alternativas": {
+            "A": "14.",
+            "B": "15.",
+            "C": "16.",
+            "D": "17.",
+            "E": "18."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os números primos são:..."
+    },
+    {
+        "id": "1281055",
+        "enunciado": "Em uma atividade educativa sobre nutrição, um Agente Comunitário de Saúde utiliza números para codificar diferentes tipos de alimentos. Ele decide usar números primos para identificar frutas. Qual dos seguintes números NÃO é primo e, portanto, não deve ser usado para identificar uma fruta?",
+        "alternativas": {
+            "A": "17.",
+            "B": "23.",
+            "C": "29.",
+            "D": "33."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Números primos são divisíveis apenas por 1 e por eles mesmos. 17, 23 e 29 são números primos. Já 33 é divisível por 1, 3, 11 e 33, portanto, não é primo e não seria usado para identificar fruta segundo a regra do agente."
+    },
+    {
+        "id": "1085118",
+        "enunciado": "Dos seguintes números, selecione a alternativa que contenha um número que não seja primo.",
+        "alternativas": {
+            "A": "3",
+            "B": "11",
+            "C": "17",
+            "D": "20"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um número primo é divisível apenas por 1 e por ele mesmo. O número 20 é divisível por 1, 2, 4, 5, 10 e 20, portanto, não é primo."
+    },
+    {
+        "id": "1398710",
+        "enunciado": "Considere a sequência de números inteiros 1, 2, 3, 10, 43, 73 e 81. São primos os números",
+        "alternativas": {
+            "A": "1, 2, 3, 43 e 73, apenas.",
+            "B": "1, 10 e 81, apenas.",
+            "C": "2, 3, 43 e 73, apenas.",
+            "D": "2, 3, 10 e 43, apenas.",
+            "E": "73 e 81, apenas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um número primo é um número natural maior que 1 que tem apenas dois divisores: 1 e ele mesmo. Dentre os números apresentados, 1 não é primo. 10 e 81 são divisíveis por outros números além de 1 e eles mesmos (10 por 2 e 5; 81 por 3 e 9). Portanto, os primos são 2, 3, 43 e 73."
+    },
+    {
+        "id": "1274346",
+        "enunciado": "Qual número NÃO é primo?",
+        "alternativas": {
+            "A": "2.",
+            "B": "3.",
+            "C": "4.",
+            "D": "5.",
+            "E": "7."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um número primo só é divisível por 1 e por ele mesmo. O número 4 é divisível por 1, 2 e 4, portanto, não é primo."
+    },
+    {
+        "id": "1385571",
+        "enunciado": "A soma dos algarismos do único número primo da lista abaixo é: {27, 51, 61, 111, 219}",
+        "alternativas": {
+            "A": "3.",
+            "B": "6.",
+            "C": "7.",
+            "D": "9.",
+            "E": "12."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O único número primo da lista {27, 51, 61, 111, 219} é 61. A soma dos seus algarismos (6 + 1) é 7."
+    },
+    {
+        "id": "1481352",
+        "enunciado": "Todo número primo possui exatamente dois divisores, assinale a alternativa que possua um número primo.",
+        "alternativas": {
+            "A": "31.",
+            "B": "1.",
+            "C": "25.",
+            "D": "15."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Um número primo é divisível apenas por 1 e por ele mesmo. O número 31 se encaixa nessa definição. O número 1 não é primo. O número 25 é divisível por 1, 5 e 25. O número 15 é divisível por 1, 3, 5 e 15."
+    },
+    {
+        "id": "1424325",
+        "enunciado": "Qual dos números abaixo é um número primo?",
+        "alternativas": {
+            "A": "27.",
+            "B": "35.",
+            "C": "41.",
+            "D": "57.",
+            "E": "63."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um número primo é um número natural maior que 1 que tem unicamente dois divisores naturais distintos: 1 e ele mesmo. 41 é divisível apenas por 1 e 41. Os outros números são compostos: 27 (3x9), 35 (5x7), 57 (3x19) e 63 (3x21 ou 7x9)."
+    },
+    {
+        "id": "1691248",
+        "enunciado": "Qual das alternativas abaixo contém um número primo?",
+        "alternativas": {
+            "A": "45.",
+            "B": "15.",
+            "C": "12.",
+            "D": "9.",
+            "E": "7."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Um número primo é divisível apenas por 1 e por ele mesmo. 7 é divisível apenas por 1 e 7. Os outros números são compostos (45=5*9, 15=3*5, 12=2*6, 9=3*3)."
+    },
+    {
+        "id": "1286287",
+        "enunciado": "Os números primos são tipos de números cujos divisores são reduzidos a apenas dois, ou seja, só são divisíveis por 1 e por eles mesmos. Outra característica importante é que devem ser maiores que 1. Dos números listados a seguir, assinale aquele que é um número primo.",
+        "alternativas": {
+            "A": "51.",
+            "B": "39.",
+            "C": "49.",
+            "D": "31.",
+            "E": "38."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um número primo é divisível apenas por 1 e por ele mesmo. Analisando as opções: 51 = 3 * 17 (não primo); 39 = 3 * 13 (não primo); 49 = 7 * 7 (não primo); 31 é divisível apenas por 1 e 31 (primo); 38 = 2 * 19 (não primo). Portanto, 31 é o número primo."
+    },
+    {
+        "id": "1610281",
+        "enunciado": "Ao decompor o número 150, quantos fatores primos diferentes  são encontrados?",
+        "alternativas": {
+            "A": "2.",
+            "B": "3.",
+            "C": "4.",
+            "D": "5.",
+            "E": "6."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A decomposição de 150 em fatores primos é 2 * 3 * 5². Os fatores primos diferentes são 2, 3 e 5. Portanto, são encontrados 3 fatores primos diferentes."
+    },
+    {
+        "id": "1575725",
+        "enunciado": "Dos conjuntos abaixo, o único que possui como elementos somente números primos é:",
+        "alternativas": {
+            "A": "{13, 17, 27, 31}",
+            "B": "{13, 17, 23, 31}",
+            "C": "{19, 21, 23, 29}",
+            "D": "{19, 21, 27, 29}"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B contém apenas números primos: 13, 17, 23 e 31. Os outros conjuntos contêm números compostos como 27 (3x9), 21 (3x7) e 29, respectivamente."
+    },
+    {
+        "id": "1656867",
+        "enunciado": "Entre os números 100 e 150 existem quantos Números Primos:",
+        "alternativas": {
+            "A": "10",
+            "B": "11",
+            "C": "12",
+            "D": "13"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os números primos entre 100 e 150 são: 101, 103, 107, 109, 113, 127, 131, 137, 139, 149. Contando estes números, encontramos 10. Ao rever a lista, percebe-se que 53 não está entre 100 e 150. Refazendo a contagem, os primos são: 101, 103, 107, 109, 113, 127, 131, 137, 139, 149. A lista correta inclui 11 primos."
+    },
+    {
+        "id": "1656453",
+        "enunciado": "Entre os números 60 e 120 existem quantos números primos:",
+        "alternativas": {
+            "A": "a) 10",
+            "B": "b) 11",
+            "C": "c) 12",
+            "D": "d) 13"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Números primos entre 60 e 120 são: 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113. São 13 números. Há um erro na minha contagem. Contando novamente: 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113. São 13. A alternativa correta deveria ser D. Revisando as alternativas: A)10 B)11 C)12 D)13. Bingo, 13 é a alternativa correta."
+    },
+    {
+        "id": "1331398",
+        "enunciado": "Qual dos números abaixo está presente na decomposição em fatores primos do número 30?",
+        "alternativas": {
+            "A": "5.",
+            "B": "7.",
+            "C": "9.",
+            "D": "11.",
+            "E": "13."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A decomposição em fatores primos de 30 é 2 * 3 * 5. Dos números apresentados nas alternativas, apenas o 5 está presente nesta decomposição."
+    },
+    {
+        "id": "1138957",
+        "enunciado": "A forma decomposta do número 60 em números primos é:",
+        "alternativas": {
+            "A": "2².3.5",
+            "B": "2³.3²",
+            "C": "2².5.11",
+            "D": "3².5.7",
+            "E": "3².7"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A cada fator primo é dada sua potência para que, ao multiplicar, se obtenha o número original. 2² = 4; 3¹ = 3; 5¹ = 5. Assim, 4 * 3 * 5 = 60. As outras opções não resultam em 60."
+    },
+    {
+        "id": "1156045",
+        "enunciado": "Reginaldo ficou responsável por contar as páginas de diversos processos. Ao se reportar a Estevão, seu superior, disse que apenas um processo continha um número primo como quantidade de páginas. Qual alternativa indica essa quantidade?",
+        "alternativas": {
+            "A": "229.",
+            "B": "231.",
+            "C": "237.",
+            "D": "255.",
+            "E": "287."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Um número primo é aquele divisível apenas por 1 e por ele mesmo. Analisando as opções: 229 (primo), 231 (3x7x11), 237 (3x79), 255 (3x5x17), 287 (7x41). Apenas 229 é um número primo."
+    },
+    {
+        "id": "1953294",
+        "enunciado": "Quantos números primos existem entre 8 e 58?",
+        "alternativas": {
+            "A": "10.",
+            "B": "11.",
+            "C": "12.",
+            "D": "13."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Os números primos entre 8 e 58 são: 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53. São 12 números primos."
+    },
+    {
+        "id": "1934198",
+        "enunciado": "Na sequência de números inteiros entre 10 e 50, considere um número com as seguintes características: - É divisível somente por 1 e por ele mesmo; - A soma ou o produto entre os dois algarismos que o compõem é 11. Quantos números existem com essas características?",
+        "alternativas": {
+            "A": "1",
+            "B": "3",
+            "C": "2",
+            "E": "4"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O número deve ser primo (divisível apenas por 1 e ele mesmo) e estar entre 10 e 50. Os números primos nessa faixa são: 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47. Agora, verificamos a soma ou produto dos algarismos é 11.  - 11: 1+1=2, 1*1=1.  - 13: 1+3=4, 1*3=3.  - 17: 1+7=8, 1*7=7.  - 19: 1+9=10, 1*9=9.  - 23: 2+3=5, 2*3=6.  - 29: 2+9=11. (Soma é 11).  - 31: 3+1=4, 3*1=3.  - 37: 3+7=10, 3*7=21.  - 41: 4+1=5, 4*1=4.  - 43: 4+3=7, 4*3=12.  - 47: 4+7=11. (Soma é 11).  Os números 29 e 47 atendem a todos os critérios. Portanto, existem 2 números."
+    },
+    {
+        "id": "1031620",
+        "enunciado": "Assinale a alternativa em que NÃO apresenta um número primo.",
+        "alternativas": {
+            "A": "3.",
+            "B": "17.",
+            "C": "27.",
+            "D": "5.",
+            "E": "11."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um número primo é um número natural maior que 1 que tem apenas dois divisores distintos: 1 e ele mesmo. O número 27 é divisível por 1, 3, 9 e 27, portanto não é primo."
+    },
+    {
+        "id": "1264260",
+        "enunciado": "A alternativa que apresenta somente números primos é:",
+        "alternativas": {
+            "A": "1 – 2 – 15.",
+            "B": "2 – 7 – 13.",
+            "C": "7 – 11 – 27.",
+            "D": "3 – 5 – 33.",
+            "E": "5 – 7 – 55."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Numeros primos sao aqueles divisíveis apenas por 1 e por eles mesmos. Na alternativa A: 1 (nao eh primo), 15 (nao eh primo). Na B: 2 (primo), 7 (primo), 13 (primo). Na C: 27 (nao eh primo). Na D: 33 (nao eh primo). Na E: 55 (nao eh primo)."
+    },
+    {
+        "id": "1119187",
+        "enunciado": "Qual dos números abaixo é um número primo?",
+        "alternativas": {
+            "A": "119.",
+            "B": "117.",
+            "C": "115.",
+            "D": "113.",
+            "E": "111."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O número 113 é primo, pois só é divisível por 1 e por ele mesmo. Os demais números são divisíveis por outros fatores: 119 (7, 17), 117 (3, 9, 13, 39), 115 (5, 23), 111 (3, 37)."
+    },
+    {
+        "id": "1211716",
+        "enunciado": "Os números primos decidiram fazer uma festa. Qual destes números não foi convidado por não ser primo?",
+        "alternativas": {
+            "A": "2.",
+            "B": "13.",
+            "C": "17.",
+            "D": "51.",
+            "E": "83."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Números primos são aqueles divisíveis apenas por 1 e por si mesmos. 51 é divisível por 3 (5+1=6, que é divisível por 3) e por 17 (3 * 17 = 51), portanto, não é primo. Os demais números listados (2, 13, 17, 83) são primos."
+    },
+    {
+        "id": "2320470",
+        "enunciado": "Durante o inventário de peças, um trabalhador percebeu que uma quantidade de 126 unidades podia ser organizada em conjuntos de forma uniforme, para facilitar a distribuição. Para isso, realizou a decomposição de 126 em fatores primos. Considerando esse procedimento, assinale a alternativa que apresenta a decomposição em fatores primos corretamente organizada.",
+        "alternativas": {
+            "A": "126 = 2 × 3 × 21.",
+            "B": "126 = 2 × 3 × 3 × 7.",
+            "C": "126 = 3 × 3 × 14.",
+            "D": "126 = 2 × 7 × 9."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A decomposicao de 126 em fatores primos e obtida dividindo o numero sucessivamente pelos menores numeros primos ate chegar a 1. Assim: 126 / 2 = 63; 63 / 3 = 21; 21 / 3 = 7; 7 / 7 = 1. Logo, 126 = 2 * 3 * 3 * 7."
+    },
+    {
+        "id": "2298561",
+        "enunciado": "Considere os números 40 e 54. Deseja-se escrever cada um deles por meio de sua decomposição em fatores primos. Assinale a alternativa em que ambos aparecem corretamente decompostos.",
+        "alternativas": {
+            "A": "40 = 2² · 5² e 54 = 2 · 3³.",
+            "B": "40 = 4 · 10 e 54 = 6 · 9.",
+            "C": "40 = 2 · 20 e 54 = 2 · 27.",
+            "D": "40 = 2³ · 5 e 54 = 2 · 3³."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A decomposição de 40 em fatores primos é 2³ * 5 (8 * 5 = 40). A decomposição de 54 em fatores primos é 2 * 3³ (2 * 27 = 54)."
+    },
+    {
+        "id": "2293920",
+        "enunciado": "No processo de organização de materiais escolares, um professor decidiu separar 396 unidades de lápis em agrupamentos baseados exclusivamente nos fatores primos desse número, a fim de formar conjuntos estruturados para uma atividade de matemática. Considerando a decomposição em fatores primos do número apresentado, qual alternativa corresponde corretamente ao resultado dessa decomposição?",
+        "alternativas": {
+            "A": "396 = 2² × 3² × 11.",
+            "B": "396 = 2³ × 3 × 11.",
+            "C": "396 = 2² × 3 × 13.",
+            "D": "396 = 2 × 3² × 13."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para decompor 396 em fatores primos: 396 ÷ 2 = 198; 198 ÷ 2 = 99; 99 ÷ 3 = 33; 33 ÷ 3 = 11; 11 ÷ 11 = 1. Portanto, a decomposição é 2² × 3² × 11."
+    },
+    {
+        "id": "2393382",
+        "enunciado": "Uma professora pede para que seus alunos coloquem em ordem os quatro primeiros números primos. A sequencia correta é a representada na letra:",
+        "alternativas": {
+            "A": "1, 2, 3, 5",
+            "B": "2, 4, 6, 8",
+            "C": "3, 5, 7, 9",
+            "D": "2, 3, 5, 7"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os números primos são aqueles divisíveis apenas por 1 e por eles mesmos. O número 1 não é primo. Os primeiros números primos são 2, 3, 5 e 7."
+    },
+    {
+        "id": "1732769",
+        "enunciado": "Assinale a alternativa abaixo que apresenta um número primo.",
+        "alternativas": {
+            "A": "73.",
+            "B": "74.",
+            "C": "75.",
+            "D": "76.",
+            "E": "77."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Um número primo é aquele que só é divisível por 1 e por ele mesmo. O número 73 só pode ser dividido por 1 e 73, sendo, portanto, um número primo."
+    },
+    {
+        "id": "2136472",
+        "enunciado": "Assinale a alternativa na qual o número 80 está corretamente decomposto em fatores primos.",
+        "alternativas": {
+            "A": "2 x 8 x 5",
+            "B": "2 x 40",
+            "C": "15 x 5",
+            "D": "20 x 40",
+            "E": "2 x 2 x 2 x 2 x 5"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A decomposição em fatores primos de 80 é 2 x 2 x 2 x 2 x 5. As outras alternativas contêm fatores que não primários (8, 40, 20) ou não resultam em 80."
+    },
+    {
+        "id": "1980743",
+        "enunciado": "Os números primos são “os blocos de construção” dos números naturais. Existem infinitos números primos e, em outubro de 2024, foi identificado um número primo com mais de 41 milhões de dígitos. Entre os números naturais menores do que dez, quatro deles são primos: 2, 3, 5 e 7. A diferença entre dois números primos sucessivos pode ser tornada arbitrariamente grande. Por exemplo, a diferença entre os primos sucessivos 5 e 7 é igual a 2, e a diferença entre os primos sucessivos 31 e 37 é igual a 6. A diferença entre os dois menores números primos que são maiores do que 200 é igual a",
+        "alternativas": {
+            "A": "8",
+            "B": "6",
+            "C": "10",
+            "D": "4",
+            "E": "12"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Os números primos próximos a 200 são 211 e 223. Para 211, testamos divisores primos até √211 ≈ 14.5 (7, 11, 13), sem sucesso. Para 223, testamos até √223 ≈ 14.9 (7, 11, 13), sem sucesso. Portanto, 211 e 223 são primos. A diferença entre eles é 223 - 211 = 12."
+    },
+    {
+        "id": "2322903",
+        "enunciado": "O Sr. Antônio Carlos é motorista de um caminhão de entregas e faz a revisão do veículo em todos os dias do mês que correspondem a números primos. Sabendo que a última revisão foi feita no dia 13, qual será o dia em que ele fará a próxima revisão?",
+        "alternativas": {
+            "A": "14.",
+            "B": "15.",
+            "C": "16.",
+            "D": "17.",
+            "E": "18."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os números primos são:..."
+    },
+    {
+        "id": "1281055",
+        "enunciado": "Em uma atividade educativa sobre nutrição, um Agente Comunitário de Saúde utiliza números para codificar diferentes tipos de alimentos. Ele decide usar números primos para identificar frutas. Qual dos seguintes números NÃO é primo e, portanto, não deve ser usado para identificar uma fruta?",
+        "alternativas": {
+            "A": "17.",
+            "B": "23.",
+            "C": "29.",
+            "D": "33."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Números primos são divisíveis apenas por 1 e por eles mesmos. 17, 23 e 29 são números primos. Já 33 é divisível por 1, 3, 11 e 33, portanto, não é primo e não seria usado para identificar fruta segundo a regra do agente."
+    },
+    {
+        "id": "1085118",
+        "enunciado": "Dos seguintes números, selecione a alternativa que contenha um número que não seja primo.",
+        "alternativas": {
+            "A": "3",
+            "B": "11",
+            "C": "17",
+            "D": "20"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um número primo é divisível apenas por 1 e por ele mesmo. O número 20 é divisível por 1, 2, 4, 5, 10 e 20, portanto, não é primo."
+    },
+    {
+        "id": "1398710",
+        "enunciado": "Considere a sequência de números inteiros 1, 2, 3, 10, 43, 73 e 81. São primos os números",
+        "alternativas": {
+            "A": "1, 2, 3, 43 e 73, apenas.",
+            "B": "1, 10 e 81, apenas.",
+            "C": "2, 3, 43 e 73, apenas.",
+            "D": "2, 3, 10 e 43, apenas.",
+            "E": "73 e 81, apenas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um número primo é um número natural maior que 1 que tem apenas dois divisores: 1 e ele mesmo. Dentre os números apresentados, 1 não é primo. 10 e 81 são divisíveis por outros números além de 1 e eles mesmos (10 por 2 e 5; 81 por 3 e 9). Portanto, os primos são 2, 3, 43 e 73."
+    },
+    {
+        "id": "1274346",
+        "enunciado": "Qual número NÃO é primo?",
+        "alternativas": {
+            "A": "2.",
+            "B": "3.",
+            "C": "4.",
+            "D": "5.",
+            "E": "7."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um número primo só é divisível por 1 e por ele mesmo. O número 4 é divisível por 1, 2 e 4, portanto, não é primo."
+    },
+    {
+        "id": "1385571",
+        "enunciado": "A soma dos algarismos do único número primo da lista abaixo é: {27, 51, 61, 111, 219}",
+        "alternativas": {
+            "A": "3.",
+            "B": "6.",
+            "C": "7.",
+            "D": "9.",
+            "E": "12."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O único número primo da lista {27, 51, 61, 111, 219} é 61. A soma dos seus algarismos (6 + 1) é 7."
+    },
+    {
+        "id": "1481352",
+        "enunciado": "Todo número primo possui exatamente dois divisores, assinale a alternativa que possua um número primo.",
+        "alternativas": {
+            "A": "31.",
+            "B": "1.",
+            "C": "25.",
+            "D": "15."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Um número primo é divisível apenas por 1 e por ele mesmo. O número 31 se encaixa nessa definição. O número 1 não é primo. O número 25 é divisível por 1, 5 e 25. O número 15 é divisível por 1, 3, 5 e 15."
+    },
+    {
+        "id": "1424325",
+        "enunciado": "Qual dos números abaixo é um número primo?",
+        "alternativas": {
+            "A": "27.",
+            "B": "35.",
+            "C": "41.",
+            "D": "57.",
+            "E": "63."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um número primo é um número natural maior que 1 que tem unicamente dois divisores naturais distintos: 1 e ele mesmo. 41 é divisível apenas por 1 e 41. Os outros números são compostos: 27 (3x9), 35 (5x7), 57 (3x19) e 63 (3x21 ou 7x9)."
+    },
+    {
+        "id": "1691248",
+        "enunciado": "Qual das alternativas abaixo contém um número primo?",
+        "alternativas": {
+            "A": "45.",
+            "B": "15.",
+            "C": "12.",
+            "D": "9.",
+            "E": "7."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Um número primo é divisível apenas por 1 e por ele mesmo. 7 é divisível apenas por 1 e 7. Os outros números são compostos (45=5*9, 15=3*5, 12=2*6, 9=3*3)."
+    },
+    {
+        "id": "1286287",
+        "enunciado": "Os números primos são tipos de números cujos divisores são reduzidos a apenas dois, ou seja, só são divisíveis por 1 e por eles mesmos. Outra característica importante é que devem ser maiores que 1. Dos números listados a seguir, assinale aquele que é um número primo.",
+        "alternativas": {
+            "A": "51.",
+            "B": "39.",
+            "C": "49.",
+            "D": "31.",
+            "E": "38."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um número primo é divisível apenas por 1 e por ele mesmo. Analisando as opções: 51 = 3 * 17 (não primo); 39 = 3 * 13 (não primo); 49 = 7 * 7 (não primo); 31 é divisível apenas por 1 e 31 (primo); 38 = 2 * 19 (não primo). Portanto, 31 é o número primo."
+    },
+    {
+        "id": "1610281",
+        "enunciado": "Ao decompor o número 150, quantos fatores primos diferentes  são encontrados?",
+        "alternativas": {
+            "A": "2.",
+            "B": "3.",
+            "C": "4.",
+            "D": "5.",
+            "E": "6."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A decomposição de 150 em fatores primos é 2 * 3 * 5². Os fatores primos diferentes são 2, 3 e 5. Portanto, são encontrados 3 fatores primos diferentes."
+    },
+    {
+        "id": "1575725",
+        "enunciado": "Dos conjuntos abaixo, o único que possui como elementos somente números primos é:",
+        "alternativas": {
+            "A": "{13, 17, 27, 31}",
+            "B": "{13, 17, 23, 31}",
+            "C": "{19, 21, 23, 29}",
+            "D": "{19, 21, 27, 29}"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B contém apenas números primos: 13, 17, 23 e 31. Os outros conjuntos contêm números compostos como 27 (3x9), 21 (3x7) e 29, respectivamente."
+    },
+    {
+        "id": "1656867",
+        "enunciado": "Entre os números 100 e 150 existem quantos Números Primos:",
+        "alternativas": {
+            "A": "10",
+            "B": "11",
+            "C": "12",
+            "D": "13"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os números primos entre 100 e 150 são: 101, 103, 107, 109, 113, 127, 131, 137, 139, 149. Contando estes números, encontramos 10. Ao rever a lista, percebe-se que 53 não está entre 100 e 150. Refazendo a contagem, os primos são: 101, 103, 107, 109, 113, 127, 131, 137, 139, 149. A lista correta inclui 11 primos."
+    },
+    {
+        "id": "1656453",
+        "enunciado": "Entre os números 60 e 120 existem quantos números primos:",
+        "alternativas": {
+            "A": "a) 10",
+            "B": "b) 11",
+            "C": "c) 12",
+            "D": "d) 13"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Números primos entre 60 e 120 são: 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113. São 13 números. Há um erro na minha contagem. Contando novamente: 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113. São 13. A alternativa correta deveria ser D. Revisando as alternativas: A)10 B)11 C)12 D)13. Bingo, 13 é a alternativa correta."
+    },
+    {
+        "id": "1331398",
+        "enunciado": "Qual dos números abaixo está presente na decomposição em fatores primos do número 30?",
+        "alternativas": {
+            "A": "5.",
+            "B": "7.",
+            "C": "9.",
+            "D": "11.",
+            "E": "13."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A decomposição em fatores primos de 30 é 2 * 3 * 5. Dos números apresentados nas alternativas, apenas o 5 está presente nesta decomposição."
+    },
+    {
+        "id": "1138957",
+        "enunciado": "A forma decomposta do número 60 em números primos é:",
+        "alternativas": {
+            "A": "2².3.5",
+            "B": "2³.3²",
+            "C": "2².5.11",
+            "D": "3².5.7",
+            "E": "3².7"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A cada fator primo é dada sua potência para que, ao multiplicar, se obtenha o número original. 2² = 4; 3¹ = 3; 5¹ = 5. Assim, 4 * 3 * 5 = 60. As outras opções não resultam em 60."
+    },
+    {
+        "id": "1156045",
+        "enunciado": "Reginaldo ficou responsável por contar as páginas de diversos processos. Ao se reportar a Estevão, seu superior, disse que apenas um processo continha um número primo como quantidade de páginas. Qual alternativa indica essa quantidade?",
+        "alternativas": {
+            "A": "229.",
+            "B": "231.",
+            "C": "237.",
+            "D": "255.",
+            "E": "287."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Um número primo é aquele divisível apenas por 1 e por ele mesmo. Analisando as opções: 229 (primo), 231 (3x7x11), 237 (3x79), 255 (3x5x17), 287 (7x41). Apenas 229 é um número primo."
+    },
+    {
+        "id": "1953294",
+        "enunciado": "Quantos números primos existem entre 8 e 58?",
+        "alternativas": {
+            "A": "10.",
+            "B": "11.",
+            "C": "12.",
+            "D": "13."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Os números primos entre 8 e 58 são: 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53. São 12 números primos."
+    },
+    {
+        "id": "1934198",
+        "enunciado": "Na sequência de números inteiros entre 10 e 50, considere um número com as seguintes características: - É divisível somente por 1 e por ele mesmo; - A soma ou o produto entre os dois algarismos que o compõem é 11. Quantos números existem com essas características?",
+        "alternativas": {
+            "A": "1",
+            "B": "3",
+            "C": "2",
+            "E": "4"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O número deve ser primo (divisível apenas por 1 e ele mesmo) e estar entre 10 e 50. Os números primos nessa faixa são: 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47. Agora, verificamos a soma ou produto dos algarismos é 11.  - 11: 1+1=2, 1*1=1.  - 13: 1+3=4, 1*3=3.  - 17: 1+7=8, 1*7=7.  - 19: 1+9=10, 1*9=9.  - 23: 2+3=5, 2*3=6.  - 29: 2+9=11. (Soma é 11).  - 31: 3+1=4, 3*1=3.  - 37: 3+7=10, 3*7=21.  - 41: 4+1=5, 4*1=4.  - 43: 4+3=7, 4*3=12.  - 47: 4+7=11. (Soma é 11).  Os números 29 e 47 atendem a todos os critérios. Portanto, existem 2 números."
+    },
+    {
+        "id": "1031620",
+        "enunciado": "Assinale a alternativa em que NÃO apresenta um número primo.",
+        "alternativas": {
+            "A": "3.",
+            "B": "17.",
+            "C": "27.",
+            "D": "5.",
+            "E": "11."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um número primo é um número natural maior que 1 que tem apenas dois divisores distintos: 1 e ele mesmo. O número 27 é divisível por 1, 3, 9 e 27, portanto não é primo."
+    },
+    {
+        "id": "1264260",
+        "enunciado": "A alternativa que apresenta somente números primos é:",
+        "alternativas": {
+            "A": "1 – 2 – 15.",
+            "B": "2 – 7 – 13.",
+            "C": "7 – 11 – 27.",
+            "D": "3 – 5 – 33.",
+            "E": "5 – 7 – 55."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Numeros primos sao aqueles divisíveis apenas por 1 e por eles mesmos. Na alternativa A: 1 (nao eh primo), 15 (nao eh primo). Na B: 2 (primo), 7 (primo), 13 (primo). Na C: 27 (nao eh primo). Na D: 33 (nao eh primo). Na E: 55 (nao eh primo)."
+    },
+    {
+        "id": "1119187",
+        "enunciado": "Qual dos números abaixo é um número primo?",
+        "alternativas": {
+            "A": "119.",
+            "B": "117.",
+            "C": "115.",
+            "D": "113.",
+            "E": "111."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O número 113 é primo, pois só é divisível por 1 e por ele mesmo. Os demais números são divisíveis por outros fatores: 119 (7, 17), 117 (3, 9, 13, 39), 115 (5, 23), 111 (3, 37)."
+    },
+    {
+        "id": "1211716",
+        "enunciado": "Os números primos decidiram fazer uma festa. Qual destes números não foi convidado por não ser primo?",
+        "alternativas": {
+            "A": "2.",
+            "B": "13.",
+            "C": "17.",
+            "D": "51.",
+            "E": "83."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Números primos são aqueles divisíveis apenas por 1 e por si mesmos. 51 é divisível por 3 (5+1=6, que é divisível por 3) e por 17 (3 * 17 = 51), portanto, não é primo. Os demais números listados (2, 13, 17, 83) são primos."
+    },
+    {
+        "id": "1033785",
+        "enunciado": "Um número primo possui quantos divisores?",
+        "alternativas": {
+            "A": "Nenhum divisor",
+            "B": "Mais de dois divisores",
+            "C": "Um divisor",
+            "D": "Apenas dois divisores"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um número primo é aquele que possui exatamente dois divisores distintos: 1 e ele mesmo. Exemplos: 2 (divisores 1 e 2), 3 (divisores 1 e 3), 7 (divisores 1 e 7)."
+    },
+    {
+        "id": "2122667",
+        "enunciado": "Da sequência do número 10 ao número 20, é CORRETO afirmar que existem exatamente:",
+        "alternativas": {
+            "A": "3 números primos.",
+            "B": "4 números primos.",
+            "C": "5 números primos.",
+            "D": "10 números primos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os números primos entre 10 e 20 (inclusive) são: 11, 13, 17, 19. Existem 4 números primos nesse intervalo. Portanto, a alternativa B é a correta."
+    },
+    {
+        "id": "2129862",
+        "enunciado": "Rômulo está ensinando a filha sobre os números primos e a menina perguntou ao pai qual seria a soma entre os números primos compreendidos de 1 a 15. Assinale a alternativa que responde CORRETAMENTE ao questionamento da filha de Rômulo.",
+        "alternativas": {
+            "A": "42 que não é número primo.",
+            "B": "41 que também é um número primo.",
+            "C": "41 que não é número primo.",
+            "D": "42 que também é número primo."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os números primos de 1 a 15 são: 2, 3, 5, 7, 11, 13. A soma desses números é: 2 + 3 + 5 + 7 + 11 + 13 = 41. O número 41 é um número primo, pois é divisível apenas por 1 e por ele mesmo. As demais alternativas apresentam somas incorretas ou classificam 41 erroneamente."
+    },
+    {
+        "id": "1001083",
+        "enunciado": "Qual alternativa possui um número primo:",
+        "alternativas": {
+            "A": "3",
+            "B": "4",
+            "C": "8",
+            "D": "10",
+            "E": "20"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A esta correta pois 3 é um número primo, pois so é divisível por 1 e por ele mesmo. Os outros números (4, 8, 10, 20) sao compostos, pois possuem outros divisores além de 1 e eles mesmos."
+    },
+    {
+        "id": "1991934",
+        "enunciado": "Qual das alternativas abaixo apresenta um número primo?",
+        "alternativas": {
+            "A": "401.",
+            "B": "403.",
+            "C": "405.",
+            "D": "407."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O número 401 é primo, pois só é divisível por 1 e por ele mesmo. 403 = 13 * 31, 405 é divisível por 5 e 9, e 407 = 11 * 37."
+    }
+]

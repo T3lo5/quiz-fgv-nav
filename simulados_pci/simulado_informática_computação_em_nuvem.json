@@ -1,0 +1,2002 @@
+[
+    {
+        "id": "2318207",
+        "enunciado": "Com base nos modelos de serviço de computação em nuvem, analise as seguintes afirmações: I. No modelo IaaS, o provedor de nuvem gerencia a infraestrutura física subjacente (servidores, armazenamento, rede), e o cliente é responsável por gerenciar o sistema operacional, o middleware, os dados e as aplicações, tendo o maior nível de controle sobre o ambiente. II. O modelo PaaS fornece uma plataforma que permite aos clientes desenvolver, executar e gerenciar aplicativos sem a complexidade de construir e manter a infraestrutura associada. O cliente gerencia a aplicação e os dados, enquanto o provedor gerencia o sistema operacional, o middleware e o tempo de execução (runtime). III. O modelo SaaS oferece um software completo, pronto para uso, acessível via internet. O cliente utiliza a aplicação, enquanto o provedor é responsável por gerenciar toda a pilha tecnológica, desde a infraestrutura até a própria aplicação. Exemplos comuns incluem serviços de e-mail e CRM online. Está correto o que se afirma em:",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "II e III, apenas.",
+            "C": "I e III, apenas.",
+            "D": "I, II e III."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Todas as afirmações sobre os modelos IaaS (maior controle para o cliente), PaaS (plataforma para desenvolvimento) e SaaS (software pronto para uso) estão corretas."
+    },
+    {
+        "id": "1910218",
+        "enunciado": "Uma funcionária precisa realizar uma cópia de segurança (backup) dos arquivos importantes da empresa na nuvem (cloud storage). Entre as ferramentas abaixo, qual é indicada especificamente para essa atividade?",
+        "alternativas": {
+            "A": "Google Drive.",
+            "B": "Windows Defender.",
+            "C": "Mozilla Thunderbird.",
+            "D": "Microsoft Edge."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Google Drive é um serviço de armazenamento em nuvem que permite o backup e sincronização de arquivos, sendo ideal para cópias de segurança. Os demais são um antivírus, um cliente de e-mail e um navegador."
+    },
+    {
+        "id": "2044328",
+        "enunciado": "Qual característica é essencial para um serviço ser considerado de computação em nuvem?",
+        "alternativas": {
+            "A": "Ser gratuito.",
+            "B": "Funcionar apenas em dispositivos móveis.",
+            "C": "Autoatendimento sob demanda.",
+            "D": "Utilizar exclusivamente software proprietário.",
+            "E": "Armazenar dados apenas localmente."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O autoatendimento sob demanda é uma característica essencial da computação em nuvem, permitindo que os usuários provisionem recursos computacionais conforme necessário, sem intervenção humana. Gratuidade (A) não é um requisito, assim como não se limita a dispositivos móveis (B) ou usa exclusivamente software proprietário (D). Armazenamento local (E) é o oposto do modelo de nuvem."
+    },
+    {
+        "id": "2362064",
+        "enunciado": "Esse tipo de nuvem é um modelo de computação em nuvem que oferece recursos de computação, como servidores, armazenamento e redes, para o público em geral pela internet. Os serviços são de propriedade e operados por um provedor terceirizado (como Amazon Web Services, Microsoft Azure ou Google Cloud Platform) e são acessíveis a qualquer pessoa ou organização que queira usá-los ou comprá-los. Ela oferece escalabilidade, flexibilidade e custos reduzidos, pois os recursos são compartilhados entre múltiplos clientes. Marque a alternativa CORRETA que corresponde ao tipo de nuvem descrita.",
+        "alternativas": {
+            "A": "Nuvem comunitária.",
+            "B": "Nuvem privada.",
+            "C": "Nuvem híbrida.",
+            "D": "Nuvem pública."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Nuvem pública oferece recursos de computação (servidores, armazenamento, rede) ao público em geral pela internet, sendo de propriedade e operada por um provedor terceirizado, com escalabilidade e custos compartilhados."
+    },
+    {
+        "id": "2044404",
+        "enunciado": "Qual dos seguintes exemplos abaixo é de serviço de computação em nuvem do tipo SaaS (Software como Serviço)?",
+        "alternativas": {
+            "A": "Amazon EC2.",
+            "B": "Microsoft Azure Virtual Machines.",
+            "C": "Google Kubernetes Engine.",
+            "D": "Microsoft Office 365.",
+            "E": "Oracle Database Server."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "SaaS (Software como Serviço) oferece aplicações completas prontas para uso através da internet. Microsoft Office 365 é um exemplo que se encaixa perfeitamente, pois fornece pacotes de aplicativos de escritório via assinatura online."
+    },
+    {
+        "id": "2044330",
+        "enunciado": "Em um ambiente de nuvem híbrida, qual das seguintes afirmações é verdadeira?",
+        "alternativas": {
+            "A": "Todos os dados devem ser armazenados na nuvem pública.",
+            "B": "Não é possível implementar políticas de segurança consistentes.",
+            "C": "A comunicação entre nuvem privada e pública é sempre insegura.",
+            "D": "Permite integrar recursos locais com serviços de nuvem pública.",
+            "E": "Não é possível escalar recursos automaticamente."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um ambiente de nuvem híbrida integra recursos de infraestrutura local (nuvem privada) com serviços e recursos de fornecedores de nuvem pública, permitindo flexibilidade e escalabilidade. As outras alternativas descrevem limitações ou características incorretas da nuvem híbrida."
+    },
+    {
+        "id": "2345768",
+        "enunciado": "A Computação em Nuvem permite que as empresas paguem apenas pelo que utilizam, dispensando a necessidade de gerenciar certos recursos. Quais os principais recursos podem ser adquiridos sob demanda a partir da Computação em Nuvem?",
+        "alternativas": {
+            "A": "Armazenamento e Infraestrutura.",
+            "B": "Servidores Físicos e Locais.",
+            "C": "Dispositivos do Usuário Final.",
+            "D": "Redes Locais."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A computação em nuvem foca em prover recursos como armazenamento (ex: S3, Blob Storage) e infraestrutura (ex: máquinas virtuais, redes virtuais) como serviço, permitindo o pagamento conforme o uso."
+    },
+    {
+        "id": "2362075",
+        "enunciado": "O modelo de serviço em nuvem fornece uma plataforma completa para o desenvolvimento, teste, entrega e gerenciamento de aplicativos de software. Com ele, os desenvolvedores podem se concentrar na criação de seus aplicativos sem se preocupar com a infraestrutura subjacente, como servidores, armazenamento, redes e sistemas operacionais, que são gerenciados pelo provedor de nuvem. Exemplos incluem Google App Engine, Microsoft Azure App Service e Heroku. Marque a alternativa CORRETA que corresponde ao modelo de serviço em nuvem que fornece uma plataforma completa para desenvolvimento de aplicativos.",
+        "alternativas": {
+            "A": "PaaS (Platform as a Service).",
+            "B": "SaaS (Software as a Service).",
+            "C": "IaaS (Infrastructure as a Service).",
+            "D": "FaaS (Function as a Service)."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O modelo PaaS (Platform as a Service) oferece uma plataforma completa para desenvolvimento, teste e gerenciamento de aplicativos, abstraindo a infraestrutura subjacente e permitindo aos desenvolvedores focar na criação do software."
+    },
+    {
+        "id": "2096813",
+        "enunciado": "Assinale a alternativa que apresenta corretamente o conceito de \"cloud computing\" (computação em nuvem):",
+        "alternativas": {
+            "A": "Armazenamento local dos arquivos no disco rígido, garantindo proteção contra perda de dados em caso de falha da internet.",
+            "B": "Tecnologia que permite acessar, armazenar e compartilhar dados e serviços pela internet, independentemente da localização física dos servidores.",
+            "C": "Sistema exclusivo para backup de informações pessoais utilizando mídias removíveis como pen drives ou HD externo.",
+            "D": "Plataforma para gerenciamento interno de aplicativos instalados diretamente no computador do usuário, sem conexão com redes externas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Cloud computing refere-se ao acesso, armazenamento e compartilhamento de dados e serviços pela internet, permitindo o uso de recursos computacionais como serviços sob demanda, sem a necessidade de gerenciar a infraestrutura física."
+    },
+    {
+        "id": "2081901",
+        "enunciado": "A computação em nuvem ( cloud computing ) transformou o modo como organizações e usuários individuais utilizam recursos de tecnologia, oferecendo escalabilidade, flexibilidade e economia. No que diz respeito aos modelos de serviço da computação em nuvem, assinale a alternativa que apresenta o modelo Plataforma como Serviço (PaaS).",
+        "alternativas": {
+            "A": "Modelo em que o usuário controla toda a infraestrutura, incluindo servidores físicos, rede e sistema operacional.",
+            "B": "Modelo em que o provedor oferece um ambiente de desenvolvimento completo, incluindo sistema operacional, banco de dados e ferramentas de programação, permitindo que o usuário foque apenas no desenvolvimento e implantação de aplicações.",
+            "C": "Modelo que oferece apenas armazenamento de dados em servidores remotos, sem possibilidade de executar aplicações.",
+            "D": "Modelo em que o fornecedor fornece máquinas virtuais, e o cliente é responsável por instalar o sistema operacional e aplicativos.",
+            "E": "Modelo utilizado exclusivamente por grandes empresas para backup automatizado de servidores."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O modelo PaaS (Platform as a Service) oferece um ambiente pronto para desenvolvimento de aplicações, onde o provedor gerencia o sistema operacional, banco de dados e middleware, permitindo que o usuário contemple apenas a criação e implantação do seu código."
+    },
+    {
+        "id": "2345697",
+        "enunciado": "A Computação em Nuvem permite que as empresas paguem apenas pelo que utilizam. Quais os principais recursos podem ser adquiridos sob demanda a partir da Computação em Nuvem?",
+        "alternativas": {
+            "A": "Armazenamento e Infraestrutura.",
+            "B": "Servidores Físicos e Locais.",
+            "C": "Dispositivos do Usuário Final.",
+            "D": "Redes Locais."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A computação em nuvem foca em prover recursos como armazenamento (ex: S3, Blob Storage) e infraestrutura (ex: máquinas virtuais, redes virtuais) como serviço, permitindo o pagamento conforme o uso."
+    },
+    {
+        "id": "2239898",
+        "enunciado": "Assinale a opção que apresenta o modelo de computação em nuvem que oferece um ambiente completo para o desenvolvimento de software, incluindo sistemas operacionais, bancos de dados, linguagens de programação, frameworks, bibliotecas e ferramentas de automação.",
+        "alternativas": {
+            "A": "IaaS",
+            "B": "PaaS",
+            "C": "SaaS",
+            "D": "IaC",
+            "E": "on‑premise"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "PaaS (Platform as a Service) oferece um ambiente completo para desenvolvimento de software, incluindo infraestrutura, sistemas operacionais, bancos de dados e ferramentas, permitindo que os desenvolvedores foquem na criacao do codigo."
+    },
+    {
+        "id": "1782626",
+        "enunciado": "No Google Drive, é possível realizar várias ações para organizar, compartilhar e gerenciar documentos e arquivos. Assinale a alternativa correta sobre as funcionalidades do Google Drive:",
+        "alternativas": {
+            "A": "Para compartilhar um arquivo no Google Drive, é necessário que o arquivo seja convertido para o formato do Google Docs, não sendo possível compartilhar arquivos de outros formatos como PDF ou imagens.",
+            "B": "O Google Drive armazena somente arquivos do Google Docs, Sheets e Slides. Arquivos criados em outras ferramentas, como Microsoft Word ou Excel, não podem ser armazenados ou acessados pelo Google Drive.",
+            "C": "Ao criar uma pasta no Google Drive, o acesso a essa pasta e aos arquivos nela contidos pode ser controlado individualmente, permitindo definir permissões específicas para cada usuário.",
+            "D": "O Google Drive permite o upload de arquivos de até 100 GB, independentemente do tipo de arquivo, e não há limite de armazenamento para os usuários que utilizam a versão gratuita."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O Google Drive permite o controle do acesso a pastas e arquivos individualmente, definindo permissões específicas para cada usuário, garantindo segurança e colaboração eficiente."
+    },
+    {
+        "id": "2345864",
+        "enunciado": "Qual dos seguintes modelos de implantação da computação em nuvem oferece uma pilha de aplicativos completa como um serviço que pode ser acessado e utilizado pelos clientes?",
+        "alternativas": {
+            "A": "Plataforma como serviço (PaaS)",
+            "B": "Software como serviço (SaaS)",
+            "C": "Infraestrutura como serviço (IaaS)",
+            "D": "Computação sem servidor"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O modelo SaaS (Software como Serviço) entrega uma pilha de aplicativos completa para os clientes, acessível pela internet. O cliente consome o software sem se preocupar com a infraestrutura ou plataforma subjacente. PaaS foca na plataforma de desenvolvimento, e IaaS na infraestrutura (servidores, armazenamento)."
+    },
+    {
+        "id": "1925510",
+        "enunciado": "Quanto ao contexto dos modelos de computação em nuvem, assinale a opção que apresenta o serviço conhecido como Infraestrutura como Serviço (IaaS).",
+        "alternativas": {
+            "A": "Apenas serviços de e‑mail e colaboração para empresas.",
+            "B": "Aplicações de software prontas para uso, sem necessidade de configuração da infraestrutura.",
+            "C": "Somente soluções de segurança para redes empresariais.",
+            "D": "Uma plataforma exclusiva para desenvolvimento de aplicativos, sem oferecer servidores ou redes.",
+            "E": "Infraestrutura de TI como servidores virtuais, armazenamento e redes sob demanda."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Infraestrutura como Serviço (IaaS) oferece recursos de TI virtualizados, como servidores, armazenamento e redes, que podem ser acessados sob demanda pela internet, permitindo que empresas gerenciem sua própria infraestrutura remotamente."
+    },
+    {
+        "id": "2063273",
+        "enunciado": "Qual das alternativas abaixo descreve corretamente o funcionamento da nuvem (cloud computing) na utilização de serviços de internet?",
+        "alternativas": {
+            "A": "A nuvem é uma tecnologia que permite o armazenamento de dados em servidores físicos, localizados exclusivamente no computador do usuário.",
+            "B": "A nuvem é um sistema de navegação na internet que acelera o carregamento de sites em qualquer navegador.",
+            "C": "A nuvem é uma ferramenta utilizada apenas para proteger os dados contra ataques cibernéticos, sem interação com outros serviços de internet.",
+            "D": "A nuvem é um serviço de internet que oferece armazenamento e processamento de dados em servidores remotos, permitindo o acesso a esses dados de qualquer lugar, a qualquer hora."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A nuvem (cloud computing) refere-se a serviços de internet que utilizam servidores remotos para armazenamento e processamento de dados. Isso possibilita o acesso aos recursos de qualquer local com conexão à internet."
+    },
+    {
+        "id": "1793481",
+        "enunciado": "Qual serviço de armazenamento em nuvem pública é mais adequado para armazenar objetos não estruturados?",
+        "alternativas": {
+            "A": "NAS",
+            "B": "Object Storage",
+            "C": "RAID",
+            "D": "SSD",
+            "E": "Block Storage"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Object Storage e a solucao ideal para armazenar dados nao estruturados, como imagens, videos e backups, pois permite escalabilidade massiva e acesso via APIs, sendo mais economico para grandes volumes de dados do que Block Storage ou NAS."
+    },
+    {
+        "id": "2363182",
+        "enunciado": "Com base nos conceitos de computação em nuvem, analise as afirmativas a seguir, e marque V para as verdadeiras e F para as falsas. (   )  A computação em nuvem permite o acesso a recursos de tecnologia de informação (TI), como servidores, armazenamento e softwares, por meio da internet, sem a necessidade de instalação local. (   )  Os recursos em nuvem podem ser escalados conforme a demanda do usuário, aumentando ou reduzindo a capacidade de processamento e o armazenamento. (   )  O modelo de cobrança, na computação em nuvem, geralmente está associado ao uso efetivo dos recursos contratados. (   )  A computação em nuvem exige que toda a infraestrutura física seja instalada e mantida dentro da própria empresa usuária. (   )  Os serviços de computação em nuvem podem ser classificados em modelos como IaaS, PaaS e SaaS. Assinale a alternativa que apresenta a sequência CORRETA, considerando as afirmativas de cima para baixo:",
+        "alternativas": {
+            "A": "V, F, V, F, V.",
+            "B": "V, V, V, F, V.",
+            "C": "V, V, V, V, V.",
+            "D": "F, V, V, F, V.",
+            "E": "F, V, V, F, F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A primeira afirmativa é verdadeira (acesso via internet). A segunda é verdadeira (escalabilidade). A terceira é verdadeira (cobrança por uso). A quarta é falsa (não exige infraestrutura física local). A quinta é verdadeira (modelos IaaS, PaaS, SaaS). Logo, a sequência correta é V, V, V, F, V."
+    },
+    {
+        "id": "2174424",
+        "enunciado": "Analise as afirmativas a seguir, considerando as vantagens do uso das nuvens (cloud) computacionais. I- Possibilita que o trabalho possa ser realizado a partir de qualquer lugar e que sejam utilizados programas e aplicações em diferentes dispositivos baseados em internet, o que leva a uma otimização do trabalho de equipes inteiras. II- Oferece agilidade nos processos, já que se pode consumir os dados via aplicativos e navegadores web. III- Gera maior velocidade de processamento e armazenamento, uma vez que os provedores de serviço cloud podem destinar recursos computacionais nessa infraestrutura remota muitas vezes superiores aos encontrados na infraestrutura física das empresas. Está(ão) CORRETA(S) a(s) afirmativa(s)",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I, II e III.",
+            "C": "II, apenas.",
+            "D": "II e III, apenas.",
+            "E": "III, apenas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As três afirmativas descrevem corretamente as vantagens da computação em nuvem. A I aponta flexibilidade de acesso e otimização do trabalho. A II destaca a agilidade dos processos. A III menciona a maior velocidade de processamento/armazenamento devido à infraestrutura remota superior."
+    },
+    {
+        "id": "1908951",
+        "enunciado": "Considere as noções básicas, os conceitos e as características da Computação em Nuvem (Cloud Computing). Sobre esse tema, analise as afirmativas a seguir. I. A Computação em Nuvem permite o acesso sob demanda a recursos de computação, como servidores, armazenamento e aplicações, sem a necessidade de gerenciamento direto pelo usuário. II. A Computação em Nuvem não apresenta desafios significativos, pois a segurança dos dados e a disponibilidade dos serviços são sempre garantidas pelos provedores de nuvem. III. Uma das principais características da Computação em Nuvem é a escalabilidade, que permite ajustar os recursos de acordo com a demanda, reduzindo custos e aumentando a eficiência. Estão corretas as afirmativas",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I esta correta ao descrever o acesso sob demanda da computacao em nuvem. A afirmativa II esta incorreta, pois a seguranca e a disponibilidade sao desafios na nuvem. A afirmativa III esta correta, pois a escalabilidade e uma caracteristica fundamental para ajustar recursos conforme a demanda."
+    },
+    {
+        "id": "1734478",
+        "enunciado": "Em um ambiente de armazenamento em nuvem, o que caracteriza um modelo de nuvem híbrida?",
+        "alternativas": {
+            "A": "Uso de múltiplos provedores de nuvem pública para diferentes aplicações.",
+            "B": "Combinação de um ambiente local (on-premises) com uma nuvem pública.",
+            "C": "Exclusividade de recursos para uma única organização.",
+            "D": "Compartilhamento de recursos entre várias organizações de mesmo setor.",
+            "E": "Conexão entre diferentes tipos de nuvens públicas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A nuvem híbrida combina ambientes de nuvem privada (local/on-premises) com nuvens públicas. Essa integração permite otimizar recursos, segurança e custos, aproveitando o melhor de cada modelo para diferentes cargas de trabalho."
+    },
+    {
+        "id": "1734610",
+        "enunciado": "Qual é o modelo de implementação da computação em nuvem que combina ambientes de nuvem pública e privada?",
+        "alternativas": {
+            "A": "Nuvem Pública.",
+            "B": "Nuvem Privada.",
+            "C": "Nuvem Comunitária.",
+            "D": "Nuvem Híbrida.",
+            "E": "Nuvem Exclusiva."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A nuvem híbrida é o modelo de implementação que combina serviços de nuvem pública e privada, permitindo que dados e aplicações sejam movimentados entre eles. Essa flexibilidade atende a diferentes necessidades organizacionais."
+    },
+    {
+        "id": "2239922",
+        "enunciado": "Assinale a opção que corresponde ao comando utilizado no AWS CLI que permite ao usuário obter informações detalhadas a respeito da região do bucket chamado core‑sp‑bucket.",
+        "alternativas": {
+            "A": "aws s3 describe‑bucket ‑‑name core‑sp‑bucket",
+            "B": "aws s3 ls s3: ‑/core‑sp‑bucket ‑‑region",
+            "C": "aws s3api get‑bucket‑location ‑‑bucket core‑sp‑bucket",
+            "D": "aws s3 describe‑location ‑‑bucket‑name core‑sp‑bucket",
+            "E": "aws s3api list‑buckets ‑‑query core‑sp‑bucket ‑‑region‑info"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'aws s3api get-bucket-location --bucket core-sp-bucket' é o correto para obter a região de um bucket específico na AWS CLI, focando em ações da API."
+    },
+    {
+        "id": "1878238",
+        "enunciado": "Fazer backup é importante para evitar a perda de arquivos do computador. Há diversas formas de realizar backup de arquivos de um computador, sendo uma delas por meio dos serviços de armazenamento em nuvem. Assinale a alternativa que apresenta apenas serviços de armazenamento em nuvem.",
+        "alternativas": {
+            "A": "Amazon iBox, Google OneDrive e Microsoft BoxDrive.",
+            "B": "Amazon OneDrive, Apple iDrive e Google BoxDrive.",
+            "C": "Amazon BoxDrive, Apple OneDrive e Google iDrive.",
+            "D": "Apple Drive, Google CloudDrive e Microsoft Drive.",
+            "E": "Apple iCloud, Google Drive e Microsoft OneDrive."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E cita apenas serviços de armazenamento em nuvem: iCloud (Apple), Drive (Google) e OneDrive (Microsoft)."
+    },
+    {
+        "id": "2079465",
+        "enunciado": "Durante o uso de ferramentas de colaboração online, um servidor compartilha documentos no OneDrive e participa de reuniões virtuais por meio do Microsoft Teams. Essas ações são características de qual tipo de tecnologia?",
+        "alternativas": {
+            "A": "Computação em nuvem",
+            "B": "Virtualização de hardware",
+            "C": "Programação orientada a objetos",
+            "D": "Inteligência artificial"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O OneDrive e o Microsoft Teams são exemplos de serviços que utilizam a nuvem para armazenamento, compartilhamento e colaboração. A computação em nuvem permite acessar recursos e dados pela internet, de forma remota."
+    },
+    {
+        "id": "2122357",
+        "enunciado": "Uma empresa que utiliza armazenamento em nuvem enfrenta problemas com latência e perda ocasional de dados. Assinale a alterativa CORRETA que corresponde as práticas e tecnologias indicadas para minimizar os problemas mencionados em ambientes de computação na nuvem.",
+        "alternativas": {
+            "A": "Implementar políticas de redundância, uso de CDNs e backups regulares automatizados.",
+            "B": "Usar apenas conexões wireless para acesso à nuvem, priorizando mobilidade.",
+            "C": "Reduzir o uso da nuvem, mantendo todos os dados localmente para evitar latência.",
+            "D": "Evitar o uso de autenticação multifatorial para agilizar o acesso aos dados."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Redundância, uso de CDNs (Content Delivery Networks) e backups regulares automatizados são práticas eficazes para mitigar problemas de latência e perda de dados em ambientes de nuvem, garantindo maior disponibilidade e integridade."
+    },
+    {
+        "id": "1793501",
+        "enunciado": "Entre as opções abaixo, qual é classificada como PaaS (Platform as a Service)?",
+        "alternativas": {
+            "A": "Amazon EC2",
+            "B": "Google App Engine",
+            "C": "Dropbox",
+            "D": "AWS S3",
+            "E": "Microsoft OneDrive"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O Google App Engine e uma plataforma como servico (PaaS) que fornece um ambiente para desenvolver e hospedar aplicacoes web escalaveis. Ele abstrai a infraestrutura subjacente, permitindo ao desenvolvedor focar na logica da aplicacao."
+    },
+    {
+        "id": "2388594",
+        "enunciado": "Em relação a computação em nuvem, assinale é correto afirmar:",
+        "alternativas": {
+            "A": "A nuvem híbrida impede a integração entre ambientes locais e na nuvem.",
+            "B": "A nuvem pública exige que todos os dados sejam armazenados obrigatoriamente em datacenters locais.",
+            "C": "Os modelos de serviço IaaS, PaaS e SaaS representam diferentes níveis de abstração oferecidos ao usuário.",
+            "D": "O modelo SaaS exige que o usuário gerencie a infraestrutura física do provedor."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Os modelos IaaS, PaaS e SaaS representam diferentes níveis de serviço na computação em nuvem, cada um oferecendo um grau distinto de abstração e gerenciamento para o usuário, desde infraestrutura até aplicações completas."
+    },
+    {
+        "id": "1734484",
+        "enunciado": "Qual característica fundamental da computação em nuvem possui a capacidade automatizada de uma nuvem redimensionar transparentemente recursos de TI, conforme necessário em resposta a condições de tempo de execução ou conforme predeterminado pelo consumidor ou pelo provedor de nuvem?",
+        "alternativas": {
+            "A": "Elasticidade.",
+            "B": "Segurança de dados.",
+            "C": "Demanda.",
+            "D": "Alta disponibilidade.",
+            "E": "Portabilidade."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A elasticidade na computação em nuvem refere-se à capacidade de escalar recursos de TI dinamicamente para cima ou para baixo, atendendo às demandas variáveis. Essa característica permite o redimensionamento automatizado de forma transparente."
+    },
+    {
+        "id": "2219274",
+        "enunciado": "Em certa empresa que utiliza serviços de computação em nuvem, o gestor deve escolher uma solução que permita armazenar grandes volumes de dados, com acesso remoto, escalabilidade e sincronização automática entre dispositivos. Na situação hipotética apresentada, a opção mais adequada para atender a esses requisitos seria a adoção de",
+        "alternativas": {
+            "A": "antivírus corporativo.",
+            "B": "servidor proxy.",
+            "C": "cloud storage.",
+            "D": "VPN empresarial.",
+            "E": "sistema de criptografia local."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Cloud storage é a solução ideal para armazenar grandes volumes de dados remotamente, com escalabilidade e sincronização automática, características essenciais para a gestão descrita."
+    },
+    {
+        "id": "2318207",
+        "enunciado": "Com base nos modelos de serviço de computação em nuvem, analise as seguintes afirmações: I. No modelo IaaS, o provedor de nuvem gerencia a infraestrutura física subjacente (servidores, armazenamento, rede), e o cliente é responsável por gerenciar o sistema operacional, o middleware, os dados e as aplicações, tendo o maior nível de controle sobre o ambiente. II. O modelo PaaS fornece uma plataforma que permite aos clientes desenvolver, executar e gerenciar aplicativos sem a complexidade de construir e manter a infraestrutura associada. O cliente gerencia a aplicação e os dados, enquanto o provedor gerencia o sistema operacional, o middleware e o tempo de execução (runtime). III. O modelo SaaS oferece um software completo, pronto para uso, acessível via internet. O cliente utiliza a aplicação, enquanto o provedor é responsável por gerenciar toda a pilha tecnológica, desde a infraestrutura até a própria aplicação. Exemplos comuns incluem serviços de e-mail e CRM online. Está correto o que se afirma em:",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "II e III, apenas.",
+            "C": "I e III, apenas.",
+            "D": "I, II e III."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Todas as afirmações sobre os modelos IaaS (maior controle para o cliente), PaaS (plataforma para desenvolvimento) e SaaS (software pronto para uso) estão corretas."
+    },
+    {
+        "id": "1910218",
+        "enunciado": "Uma funcionária precisa realizar uma cópia de segurança (backup) dos arquivos importantes da empresa na nuvem (cloud storage). Entre as ferramentas abaixo, qual é indicada especificamente para essa atividade?",
+        "alternativas": {
+            "A": "Google Drive.",
+            "B": "Windows Defender.",
+            "C": "Mozilla Thunderbird.",
+            "D": "Microsoft Edge."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Google Drive é um serviço de armazenamento em nuvem que permite o backup e sincronização de arquivos, sendo ideal para cópias de segurança. Os demais são um antivírus, um cliente de e-mail e um navegador."
+    },
+    {
+        "id": "2044328",
+        "enunciado": "Qual característica é essencial para um serviço ser considerado de computação em nuvem?",
+        "alternativas": {
+            "A": "Ser gratuito.",
+            "B": "Funcionar apenas em dispositivos móveis.",
+            "C": "Autoatendimento sob demanda.",
+            "D": "Utilizar exclusivamente software proprietário.",
+            "E": "Armazenar dados apenas localmente."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O autoatendimento sob demanda é uma característica essencial da computação em nuvem, permitindo que os usuários provisionem recursos computacionais conforme necessário, sem intervenção humana. Gratuidade (A) não é um requisito, assim como não se limita a dispositivos móveis (B) ou usa exclusivamente software proprietário (D). Armazenamento local (E) é o oposto do modelo de nuvem."
+    },
+    {
+        "id": "2362064",
+        "enunciado": "Esse tipo de nuvem é um modelo de computação em nuvem que oferece recursos de computação, como servidores, armazenamento e redes, para o público em geral pela internet. Os serviços são de propriedade e operados por um provedor terceirizado (como Amazon Web Services, Microsoft Azure ou Google Cloud Platform) e são acessíveis a qualquer pessoa ou organização que queira usá-los ou comprá-los. Ela oferece escalabilidade, flexibilidade e custos reduzidos, pois os recursos são compartilhados entre múltiplos clientes. Marque a alternativa CORRETA que corresponde ao tipo de nuvem descrita.",
+        "alternativas": {
+            "A": "Nuvem comunitária.",
+            "B": "Nuvem privada.",
+            "C": "Nuvem híbrida.",
+            "D": "Nuvem pública."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Nuvem pública oferece recursos de computação (servidores, armazenamento, rede) ao público em geral pela internet, sendo de propriedade e operada por um provedor terceirizado, com escalabilidade e custos compartilhados."
+    },
+    {
+        "id": "2044404",
+        "enunciado": "Qual dos seguintes exemplos abaixo é de serviço de computação em nuvem do tipo SaaS (Software como Serviço)?",
+        "alternativas": {
+            "A": "Amazon EC2.",
+            "B": "Microsoft Azure Virtual Machines.",
+            "C": "Google Kubernetes Engine.",
+            "D": "Microsoft Office 365.",
+            "E": "Oracle Database Server."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "SaaS (Software como Serviço) oferece aplicações completas prontas para uso através da internet. Microsoft Office 365 é um exemplo que se encaixa perfeitamente, pois fornece pacotes de aplicativos de escritório via assinatura online."
+    },
+    {
+        "id": "2044330",
+        "enunciado": "Em um ambiente de nuvem híbrida, qual das seguintes afirmações é verdadeira?",
+        "alternativas": {
+            "A": "Todos os dados devem ser armazenados na nuvem pública.",
+            "B": "Não é possível implementar políticas de segurança consistentes.",
+            "C": "A comunicação entre nuvem privada e pública é sempre insegura.",
+            "D": "Permite integrar recursos locais com serviços de nuvem pública.",
+            "E": "Não é possível escalar recursos automaticamente."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um ambiente de nuvem híbrida integra recursos de infraestrutura local (nuvem privada) com serviços e recursos de fornecedores de nuvem pública, permitindo flexibilidade e escalabilidade. As outras alternativas descrevem limitações ou características incorretas da nuvem híbrida."
+    },
+    {
+        "id": "2345768",
+        "enunciado": "A Computação em Nuvem permite que as empresas paguem apenas pelo que utilizam, dispensando a necessidade de gerenciar certos recursos. Quais os principais recursos podem ser adquiridos sob demanda a partir da Computação em Nuvem?",
+        "alternativas": {
+            "A": "Armazenamento e Infraestrutura.",
+            "B": "Servidores Físicos e Locais.",
+            "C": "Dispositivos do Usuário Final.",
+            "D": "Redes Locais."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A computação em nuvem foca em prover recursos como armazenamento (ex: S3, Blob Storage) e infraestrutura (ex: máquinas virtuais, redes virtuais) como serviço, permitindo o pagamento conforme o uso."
+    },
+    {
+        "id": "2362075",
+        "enunciado": "O modelo de serviço em nuvem fornece uma plataforma completa para o desenvolvimento, teste, entrega e gerenciamento de aplicativos de software. Com ele, os desenvolvedores podem se concentrar na criação de seus aplicativos sem se preocupar com a infraestrutura subjacente, como servidores, armazenamento, redes e sistemas operacionais, que são gerenciados pelo provedor de nuvem. Exemplos incluem Google App Engine, Microsoft Azure App Service e Heroku. Marque a alternativa CORRETA que corresponde ao modelo de serviço em nuvem que fornece uma plataforma completa para desenvolvimento de aplicativos.",
+        "alternativas": {
+            "A": "PaaS (Platform as a Service).",
+            "B": "SaaS (Software as a Service).",
+            "C": "IaaS (Infrastructure as a Service).",
+            "D": "FaaS (Function as a Service)."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O modelo PaaS (Platform as a Service) oferece uma plataforma completa para desenvolvimento, teste e gerenciamento de aplicativos, abstraindo a infraestrutura subjacente e permitindo aos desenvolvedores focar na criação do software."
+    },
+    {
+        "id": "2096813",
+        "enunciado": "Assinale a alternativa que apresenta corretamente o conceito de \"cloud computing\" (computação em nuvem):",
+        "alternativas": {
+            "A": "Armazenamento local dos arquivos no disco rígido, garantindo proteção contra perda de dados em caso de falha da internet.",
+            "B": "Tecnologia que permite acessar, armazenar e compartilhar dados e serviços pela internet, independentemente da localização física dos servidores.",
+            "C": "Sistema exclusivo para backup de informações pessoais utilizando mídias removíveis como pen drives ou HD externo.",
+            "D": "Plataforma para gerenciamento interno de aplicativos instalados diretamente no computador do usuário, sem conexão com redes externas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Cloud computing refere-se ao acesso, armazenamento e compartilhamento de dados e serviços pela internet, permitindo o uso de recursos computacionais como serviços sob demanda, sem a necessidade de gerenciar a infraestrutura física."
+    },
+    {
+        "id": "2081901",
+        "enunciado": "A computação em nuvem ( cloud computing ) transformou o modo como organizações e usuários individuais utilizam recursos de tecnologia, oferecendo escalabilidade, flexibilidade e economia. No que diz respeito aos modelos de serviço da computação em nuvem, assinale a alternativa que apresenta o modelo Plataforma como Serviço (PaaS).",
+        "alternativas": {
+            "A": "Modelo em que o usuário controla toda a infraestrutura, incluindo servidores físicos, rede e sistema operacional.",
+            "B": "Modelo em que o provedor oferece um ambiente de desenvolvimento completo, incluindo sistema operacional, banco de dados e ferramentas de programação, permitindo que o usuário foque apenas no desenvolvimento e implantação de aplicações.",
+            "C": "Modelo que oferece apenas armazenamento de dados em servidores remotos, sem possibilidade de executar aplicações.",
+            "D": "Modelo em que o fornecedor fornece máquinas virtuais, e o cliente é responsável por instalar o sistema operacional e aplicativos.",
+            "E": "Modelo utilizado exclusivamente por grandes empresas para backup automatizado de servidores."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O modelo PaaS (Platform as a Service) oferece um ambiente pronto para desenvolvimento de aplicações, onde o provedor gerencia o sistema operacional, banco de dados e middleware, permitindo que o usuário contemple apenas a criação e implantação do seu código."
+    },
+    {
+        "id": "2345697",
+        "enunciado": "A Computação em Nuvem permite que as empresas paguem apenas pelo que utilizam. Quais os principais recursos podem ser adquiridos sob demanda a partir da Computação em Nuvem?",
+        "alternativas": {
+            "A": "Armazenamento e Infraestrutura.",
+            "B": "Servidores Físicos e Locais.",
+            "C": "Dispositivos do Usuário Final.",
+            "D": "Redes Locais."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A computação em nuvem foca em prover recursos como armazenamento (ex: S3, Blob Storage) e infraestrutura (ex: máquinas virtuais, redes virtuais) como serviço, permitindo o pagamento conforme o uso."
+    },
+    {
+        "id": "2239898",
+        "enunciado": "Assinale a opção que apresenta o modelo de computação em nuvem que oferece um ambiente completo para o desenvolvimento de software, incluindo sistemas operacionais, bancos de dados, linguagens de programação, frameworks, bibliotecas e ferramentas de automação.",
+        "alternativas": {
+            "A": "IaaS",
+            "B": "PaaS",
+            "C": "SaaS",
+            "D": "IaC",
+            "E": "on‑premise"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "PaaS (Platform as a Service) oferece um ambiente completo para desenvolvimento de software, incluindo infraestrutura, sistemas operacionais, bancos de dados e ferramentas, permitindo que os desenvolvedores foquem na criacao do codigo."
+    },
+    {
+        "id": "1782626",
+        "enunciado": "No Google Drive, é possível realizar várias ações para organizar, compartilhar e gerenciar documentos e arquivos. Assinale a alternativa correta sobre as funcionalidades do Google Drive:",
+        "alternativas": {
+            "A": "Para compartilhar um arquivo no Google Drive, é necessário que o arquivo seja convertido para o formato do Google Docs, não sendo possível compartilhar arquivos de outros formatos como PDF ou imagens.",
+            "B": "O Google Drive armazena somente arquivos do Google Docs, Sheets e Slides. Arquivos criados em outras ferramentas, como Microsoft Word ou Excel, não podem ser armazenados ou acessados pelo Google Drive.",
+            "C": "Ao criar uma pasta no Google Drive, o acesso a essa pasta e aos arquivos nela contidos pode ser controlado individualmente, permitindo definir permissões específicas para cada usuário.",
+            "D": "O Google Drive permite o upload de arquivos de até 100 GB, independentemente do tipo de arquivo, e não há limite de armazenamento para os usuários que utilizam a versão gratuita."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O Google Drive permite o controle do acesso a pastas e arquivos individualmente, definindo permissões específicas para cada usuário, garantindo segurança e colaboração eficiente."
+    },
+    {
+        "id": "2345864",
+        "enunciado": "Qual dos seguintes modelos de implantação da computação em nuvem oferece uma pilha de aplicativos completa como um serviço que pode ser acessado e utilizado pelos clientes?",
+        "alternativas": {
+            "A": "Plataforma como serviço (PaaS)",
+            "B": "Software como serviço (SaaS)",
+            "C": "Infraestrutura como serviço (IaaS)",
+            "D": "Computação sem servidor"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O modelo SaaS (Software como Serviço) entrega uma pilha de aplicativos completa para os clientes, acessível pela internet. O cliente consome o software sem se preocupar com a infraestrutura ou plataforma subjacente. PaaS foca na plataforma de desenvolvimento, e IaaS na infraestrutura (servidores, armazenamento)."
+    },
+    {
+        "id": "1925510",
+        "enunciado": "Quanto ao contexto dos modelos de computação em nuvem, assinale a opção que apresenta o serviço conhecido como Infraestrutura como Serviço (IaaS).",
+        "alternativas": {
+            "A": "Apenas serviços de e‑mail e colaboração para empresas.",
+            "B": "Aplicações de software prontas para uso, sem necessidade de configuração da infraestrutura.",
+            "C": "Somente soluções de segurança para redes empresariais.",
+            "D": "Uma plataforma exclusiva para desenvolvimento de aplicativos, sem oferecer servidores ou redes.",
+            "E": "Infraestrutura de TI como servidores virtuais, armazenamento e redes sob demanda."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Infraestrutura como Serviço (IaaS) oferece recursos de TI virtualizados, como servidores, armazenamento e redes, que podem ser acessados sob demanda pela internet, permitindo que empresas gerenciem sua própria infraestrutura remotamente."
+    },
+    {
+        "id": "2063273",
+        "enunciado": "Qual das alternativas abaixo descreve corretamente o funcionamento da nuvem (cloud computing) na utilização de serviços de internet?",
+        "alternativas": {
+            "A": "A nuvem é uma tecnologia que permite o armazenamento de dados em servidores físicos, localizados exclusivamente no computador do usuário.",
+            "B": "A nuvem é um sistema de navegação na internet que acelera o carregamento de sites em qualquer navegador.",
+            "C": "A nuvem é uma ferramenta utilizada apenas para proteger os dados contra ataques cibernéticos, sem interação com outros serviços de internet.",
+            "D": "A nuvem é um serviço de internet que oferece armazenamento e processamento de dados em servidores remotos, permitindo o acesso a esses dados de qualquer lugar, a qualquer hora."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A nuvem (cloud computing) refere-se a serviços de internet que utilizam servidores remotos para armazenamento e processamento de dados. Isso possibilita o acesso aos recursos de qualquer local com conexão à internet."
+    },
+    {
+        "id": "1793481",
+        "enunciado": "Qual serviço de armazenamento em nuvem pública é mais adequado para armazenar objetos não estruturados?",
+        "alternativas": {
+            "A": "NAS",
+            "B": "Object Storage",
+            "C": "RAID",
+            "D": "SSD",
+            "E": "Block Storage"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Object Storage e a solucao ideal para armazenar dados nao estruturados, como imagens, videos e backups, pois permite escalabilidade massiva e acesso via APIs, sendo mais economico para grandes volumes de dados do que Block Storage ou NAS."
+    },
+    {
+        "id": "2363182",
+        "enunciado": "Com base nos conceitos de computação em nuvem, analise as afirmativas a seguir, e marque V para as verdadeiras e F para as falsas. (   )  A computação em nuvem permite o acesso a recursos de tecnologia de informação (TI), como servidores, armazenamento e softwares, por meio da internet, sem a necessidade de instalação local. (   )  Os recursos em nuvem podem ser escalados conforme a demanda do usuário, aumentando ou reduzindo a capacidade de processamento e o armazenamento. (   )  O modelo de cobrança, na computação em nuvem, geralmente está associado ao uso efetivo dos recursos contratados. (   )  A computação em nuvem exige que toda a infraestrutura física seja instalada e mantida dentro da própria empresa usuária. (   )  Os serviços de computação em nuvem podem ser classificados em modelos como IaaS, PaaS e SaaS. Assinale a alternativa que apresenta a sequência CORRETA, considerando as afirmativas de cima para baixo:",
+        "alternativas": {
+            "A": "V, F, V, F, V.",
+            "B": "V, V, V, F, V.",
+            "C": "V, V, V, V, V.",
+            "D": "F, V, V, F, V.",
+            "E": "F, V, V, F, F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A primeira afirmativa é verdadeira (acesso via internet). A segunda é verdadeira (escalabilidade). A terceira é verdadeira (cobrança por uso). A quarta é falsa (não exige infraestrutura física local). A quinta é verdadeira (modelos IaaS, PaaS, SaaS). Logo, a sequência correta é V, V, V, F, V."
+    },
+    {
+        "id": "2174424",
+        "enunciado": "Analise as afirmativas a seguir, considerando as vantagens do uso das nuvens (cloud) computacionais. I- Possibilita que o trabalho possa ser realizado a partir de qualquer lugar e que sejam utilizados programas e aplicações em diferentes dispositivos baseados em internet, o que leva a uma otimização do trabalho de equipes inteiras. II- Oferece agilidade nos processos, já que se pode consumir os dados via aplicativos e navegadores web. III- Gera maior velocidade de processamento e armazenamento, uma vez que os provedores de serviço cloud podem destinar recursos computacionais nessa infraestrutura remota muitas vezes superiores aos encontrados na infraestrutura física das empresas. Está(ão) CORRETA(S) a(s) afirmativa(s)",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I, II e III.",
+            "C": "II, apenas.",
+            "D": "II e III, apenas.",
+            "E": "III, apenas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As três afirmativas descrevem corretamente as vantagens da computação em nuvem. A I aponta flexibilidade de acesso e otimização do trabalho. A II destaca a agilidade dos processos. A III menciona a maior velocidade de processamento/armazenamento devido à infraestrutura remota superior."
+    },
+    {
+        "id": "1908951",
+        "enunciado": "Considere as noções básicas, os conceitos e as características da Computação em Nuvem (Cloud Computing). Sobre esse tema, analise as afirmativas a seguir. I. A Computação em Nuvem permite o acesso sob demanda a recursos de computação, como servidores, armazenamento e aplicações, sem a necessidade de gerenciamento direto pelo usuário. II. A Computação em Nuvem não apresenta desafios significativos, pois a segurança dos dados e a disponibilidade dos serviços são sempre garantidas pelos provedores de nuvem. III. Uma das principais características da Computação em Nuvem é a escalabilidade, que permite ajustar os recursos de acordo com a demanda, reduzindo custos e aumentando a eficiência. Estão corretas as afirmativas",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I esta correta ao descrever o acesso sob demanda da computacao em nuvem. A afirmativa II esta incorreta, pois a seguranca e a disponibilidade sao desafios na nuvem. A afirmativa III esta correta, pois a escalabilidade e uma caracteristica fundamental para ajustar recursos conforme a demanda."
+    },
+    {
+        "id": "1734478",
+        "enunciado": "Em um ambiente de armazenamento em nuvem, o que caracteriza um modelo de nuvem híbrida?",
+        "alternativas": {
+            "A": "Uso de múltiplos provedores de nuvem pública para diferentes aplicações.",
+            "B": "Combinação de um ambiente local (on-premises) com uma nuvem pública.",
+            "C": "Exclusividade de recursos para uma única organização.",
+            "D": "Compartilhamento de recursos entre várias organizações de mesmo setor.",
+            "E": "Conexão entre diferentes tipos de nuvens públicas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A nuvem híbrida combina ambientes de nuvem privada (local/on-premises) com nuvens públicas. Essa integração permite otimizar recursos, segurança e custos, aproveitando o melhor de cada modelo para diferentes cargas de trabalho."
+    },
+    {
+        "id": "1734610",
+        "enunciado": "Qual é o modelo de implementação da computação em nuvem que combina ambientes de nuvem pública e privada?",
+        "alternativas": {
+            "A": "Nuvem Pública.",
+            "B": "Nuvem Privada.",
+            "C": "Nuvem Comunitária.",
+            "D": "Nuvem Híbrida.",
+            "E": "Nuvem Exclusiva."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A nuvem híbrida é o modelo de implementação que combina serviços de nuvem pública e privada, permitindo que dados e aplicações sejam movimentados entre eles. Essa flexibilidade atende a diferentes necessidades organizacionais."
+    },
+    {
+        "id": "2239922",
+        "enunciado": "Assinale a opção que corresponde ao comando utilizado no AWS CLI que permite ao usuário obter informações detalhadas a respeito da região do bucket chamado core‑sp‑bucket.",
+        "alternativas": {
+            "A": "aws s3 describe‑bucket ‑‑name core‑sp‑bucket",
+            "B": "aws s3 ls s3: ‑/core‑sp‑bucket ‑‑region",
+            "C": "aws s3api get‑bucket‑location ‑‑bucket core‑sp‑bucket",
+            "D": "aws s3 describe‑location ‑‑bucket‑name core‑sp‑bucket",
+            "E": "aws s3api list‑buckets ‑‑query core‑sp‑bucket ‑‑region‑info"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'aws s3api get-bucket-location --bucket core-sp-bucket' é o correto para obter a região de um bucket específico na AWS CLI, focando em ações da API."
+    },
+    {
+        "id": "1878238",
+        "enunciado": "Fazer backup é importante para evitar a perda de arquivos do computador. Há diversas formas de realizar backup de arquivos de um computador, sendo uma delas por meio dos serviços de armazenamento em nuvem. Assinale a alternativa que apresenta apenas serviços de armazenamento em nuvem.",
+        "alternativas": {
+            "A": "Amazon iBox, Google OneDrive e Microsoft BoxDrive.",
+            "B": "Amazon OneDrive, Apple iDrive e Google BoxDrive.",
+            "C": "Amazon BoxDrive, Apple OneDrive e Google iDrive.",
+            "D": "Apple Drive, Google CloudDrive e Microsoft Drive.",
+            "E": "Apple iCloud, Google Drive e Microsoft OneDrive."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E cita apenas serviços de armazenamento em nuvem: iCloud (Apple), Drive (Google) e OneDrive (Microsoft)."
+    },
+    {
+        "id": "2079465",
+        "enunciado": "Durante o uso de ferramentas de colaboração online, um servidor compartilha documentos no OneDrive e participa de reuniões virtuais por meio do Microsoft Teams. Essas ações são características de qual tipo de tecnologia?",
+        "alternativas": {
+            "A": "Computação em nuvem",
+            "B": "Virtualização de hardware",
+            "C": "Programação orientada a objetos",
+            "D": "Inteligência artificial"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O OneDrive e o Microsoft Teams são exemplos de serviços que utilizam a nuvem para armazenamento, compartilhamento e colaboração. A computação em nuvem permite acessar recursos e dados pela internet, de forma remota."
+    },
+    {
+        "id": "2122357",
+        "enunciado": "Uma empresa que utiliza armazenamento em nuvem enfrenta problemas com latência e perda ocasional de dados. Assinale a alterativa CORRETA que corresponde as práticas e tecnologias indicadas para minimizar os problemas mencionados em ambientes de computação na nuvem.",
+        "alternativas": {
+            "A": "Implementar políticas de redundância, uso de CDNs e backups regulares automatizados.",
+            "B": "Usar apenas conexões wireless para acesso à nuvem, priorizando mobilidade.",
+            "C": "Reduzir o uso da nuvem, mantendo todos os dados localmente para evitar latência.",
+            "D": "Evitar o uso de autenticação multifatorial para agilizar o acesso aos dados."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Redundância, uso de CDNs (Content Delivery Networks) e backups regulares automatizados são práticas eficazes para mitigar problemas de latência e perda de dados em ambientes de nuvem, garantindo maior disponibilidade e integridade."
+    },
+    {
+        "id": "1793501",
+        "enunciado": "Entre as opções abaixo, qual é classificada como PaaS (Platform as a Service)?",
+        "alternativas": {
+            "A": "Amazon EC2",
+            "B": "Google App Engine",
+            "C": "Dropbox",
+            "D": "AWS S3",
+            "E": "Microsoft OneDrive"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O Google App Engine e uma plataforma como servico (PaaS) que fornece um ambiente para desenvolver e hospedar aplicacoes web escalaveis. Ele abstrai a infraestrutura subjacente, permitindo ao desenvolvedor focar na logica da aplicacao."
+    },
+    {
+        "id": "2388594",
+        "enunciado": "Em relação a computação em nuvem, assinale é correto afirmar:",
+        "alternativas": {
+            "A": "A nuvem híbrida impede a integração entre ambientes locais e na nuvem.",
+            "B": "A nuvem pública exige que todos os dados sejam armazenados obrigatoriamente em datacenters locais.",
+            "C": "Os modelos de serviço IaaS, PaaS e SaaS representam diferentes níveis de abstração oferecidos ao usuário.",
+            "D": "O modelo SaaS exige que o usuário gerencie a infraestrutura física do provedor."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Os modelos IaaS, PaaS e SaaS representam diferentes níveis de serviço na computação em nuvem, cada um oferecendo um grau distinto de abstração e gerenciamento para o usuário, desde infraestrutura até aplicações completas."
+    },
+    {
+        "id": "1734484",
+        "enunciado": "Qual característica fundamental da computação em nuvem possui a capacidade automatizada de uma nuvem redimensionar transparentemente recursos de TI, conforme necessário em resposta a condições de tempo de execução ou conforme predeterminado pelo consumidor ou pelo provedor de nuvem?",
+        "alternativas": {
+            "A": "Elasticidade.",
+            "B": "Segurança de dados.",
+            "C": "Demanda.",
+            "D": "Alta disponibilidade.",
+            "E": "Portabilidade."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A elasticidade na computação em nuvem refere-se à capacidade de escalar recursos de TI dinamicamente para cima ou para baixo, atendendo às demandas variáveis. Essa característica permite o redimensionamento automatizado de forma transparente."
+    },
+    {
+        "id": "2219274",
+        "enunciado": "Em certa empresa que utiliza serviços de computação em nuvem, o gestor deve escolher uma solução que permita armazenar grandes volumes de dados, com acesso remoto, escalabilidade e sincronização automática entre dispositivos. Na situação hipotética apresentada, a opção mais adequada para atender a esses requisitos seria a adoção de",
+        "alternativas": {
+            "A": "antivírus corporativo.",
+            "B": "servidor proxy.",
+            "C": "cloud storage.",
+            "D": "VPN empresarial.",
+            "E": "sistema de criptografia local."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Cloud storage é a solução ideal para armazenar grandes volumes de dados remotamente, com escalabilidade e sincronização automática, características essenciais para a gestão descrita."
+    },
+    {
+        "id": "2219274",
+        "enunciado": "Em certa empresa que utiliza serviços de computação em nuvem, o gestor deve escolher uma solução que permita armazenar grandes volumes de dados, com acesso remoto, escalabilidade e sincronização automática entre dispositivos. Na situação hipotética apresentada, a opção mais adequada para atender a esses requisitos seria a adoção de",
+        "alternativas": {
+            "A": "antivírus corporativo.",
+            "B": "servidor proxy.",
+            "C": "cloud storage.",
+            "D": "VPN empresarial.",
+            "E": "sistema de criptografia local."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Cloud storage é a solução ideal para armazenar grandes volumes de dados remotamente, com escalabilidade e sincronização automática, características essenciais para a gestão descrita."
+    },
+    {
+        "id": "2385275",
+        "enunciado": "A empresa ConsultaPro está migrando seus processos de trabalho para um ambiente colaborativo online. A equipe de projetos, distribuída em diferentes cidades, precisa compartilhar documentos em tempo real, realizar videoconferências e manter um repositório centralizado de arquivos. O gestor avaliou diferentes plataformas de computação na nuvem, considerando aspectos como sincronização automática, controle de versões e segurança dos dados. Marque a alternativa correta:",
+        "alternativas": {
+            "A": "Serviços de nuvem funcionam exclusivamente online, não permitindo sincronização com dispositivos locais ou trabalho offline.",
+            "B": "A colaboração em tempo real em documentos na nuvem requer que todos os usuários estejam conectados simultaneamente no mesmo horário para funcionar adequadamente.",
+            "C": "Plataformas de nuvem corporativas oferecem menor segurança que armazenamento local, pois os dados ficam sempre expostos na internet.",
+            "D": "A computação na nuvem permite acesso aos dados e aplicativos de qualquer local com internet, facilitando o trabalho colaborativo e reduzindo a dependência de hardware local específico."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A computação em nuvem, por sua natureza, permite acesso a dados e aplicativos de qualquer lugar com conexão à internet, facilitando a colaboração em tempo real e reduzindo a dependência de infraestrutura local específica para as equipes."
+    },
+    {
+        "id": "2384893",
+        "enunciado": "A empresa ConsultaPro está migrando seus processos de trabalho para um ambiente colaborativo online. A equipe de projetos, distribuída em diferentes cidades, precisa compartilhar documentos em tempo real, realizar videoconferências e manter um repositório centralizado de arquivos. O gestor avaliou diferentes plataformas de computação na nuvem, considerando aspectos como sincronização automática, controle de versões e segurança dos dados. Marque a alternativa correta:",
+        "alternativas": {
+            "A": "A computação na nuvem permite acesso aos dados e aplicativos de qualquer local com internet, facilitando o trabalho colaborativo e reduzindo a dependência de hardware local específico.",
+            "B": "Plataformas de nuvem corporativas oferecem menor segurança que armazenamento local, pois os dados ficam sempre expostos na internet.",
+            "C": "A colaboração em tempo real em documentos na nuvem requer que todos os usuários estejam conectados simultaneamente no mesmo horário para funcionar adequadamente.",
+            "D": "Serviços de nuvem funcionam exclusivamente online, não permitindo sincronização com dispositivos locais ou trabalho offline."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A computação em nuvem facilita o acesso remoto e a colaboração simultânea em tempo real, independentemente da localização física. A segurança em nuvem é robusta quando bem implementada."
+    },
+    {
+        "id": "2405781",
+        "enunciado": "Uma organização precisava de um serviço em nuvem que fornecesse uma aplicação completa, pronta para uso, acessível via web, em que o gerenciamento da infraestrutura, do sistema operacional e da plataforma fique a cargo do provedor, cabendo ao contratante apenas configurar usuários e dados. Com base nessa situação hipotética, assinale a opção que apresenta o modelo de serviço em nuvem adequado que atenda a esse requisito de entrega.",
+        "alternativas": {
+            "A": "SaaS (Software as a Service)",
+            "B": "IaaS (Infrastructure as a Service)",
+            "C": "PaaS (Platform as a Service)",
+            "D": "DaaS (Data as a Service)",
+            "E": "FaaS (Function as a Service)"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O SaaS ('Software as a Service') oferece aplicações prontas para uso, acessíveis pela web, onde o provedor gerencia toda a infraestrutura, sistema operacional e plataforma. O contratante foca apenas em configurar usuários e dados, que é exatamente o cenário descrito."
+    },
+    {
+        "id": "2187833",
+        "enunciado": "Em sistemas de Computação em Nuvem, as APIs desempenham um papel crucial na gestão e provisionamento de recursos. No contexto de um ambiente IaaS, onde o provedor disponibiliza recursos de hardware virtualizados, as APIs têm o papel de",
+        "alternativas": {
+            "A": "integrar recursos de hardware disponíveis na camada IaaS e fornecidos para a camada PaaS, permitindo a orquestração e gerenciamento programático da infraestrutura.",
+            "B": "gerenciar as aplicações dos usuários, garantindo a escalabilidade automática de serviços.",
+            "C": "habilitar a comunicação entre sistemas de diferentes provedores de nuvem, independentemente da arquitetura.",
+            "D": "padronizar a comunicação assíncrona entre frameworks, otimizando o consumo de rede.",
+            "E": "facilitar a migração de dados de ambientes com serviços hospedados localmente para a nuvem, utilizando protocolos de transferência de arquivos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em um ambiente IaaS, as APIs são fundamentais para a comunicação entre a infraestrutura disponibilizada pelo provedor e as camadas superiores (PaaS e SaaS), permitindo a orquestração, o gerenciamento programático dos recursos de hardware virtualizados e o provisionamento para serviços."
+    },
+    {
+        "id": "1914705",
+        "enunciado": "Hoje existem vários serviços de armazenamento em nuvem. Cada um com suas vantagens e desvantagens. Marque a alternativa que NÃO representa um serviço em nuvem.",
+        "alternativas": {
+            "A": "Drive da Google.",
+            "B": "OneDrive da Microsoft.",
+            "C": "iCloud Drive da Apple.",
+            "D": "Am Drive da Amazon."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Google Drive, OneDrive e iCloud Drive são serviços de armazenamento em nuvem populares. 'Am Drive da Amazon' não é um serviço reconhecido nesta categoria. O serviço da Amazon é o Amazon Drive, que agora faz parte do Amazon Photos."
+    },
+    {
+        "id": "1793524",
+        "enunciado": "Qual dos seguintes modelos de nuvem oferece maior controle sobre infraestrutura e segurança para a empresa?",
+        "alternativas": {
+            "A": "Nuvem Pública",
+            "B": "Nuvem Privada",
+            "C": "Nuvem Híbrida",
+            "D": "Multi-cloud",
+            "E": "Nuvem Comunitária"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A Nuvem Privada oferece maior controle e isolamento da infraestrutura, permitindo que a empresa personalize as configurações de segurança e gerencie os recursos de forma privada, o que é ideal para quem precisa de alto nível de controle e segurança."
+    },
+    {
+        "id": "1914246",
+        "enunciado": "A computação em nuvem, também conhecida como \"cloud computing\", é um modelo de fornecimento de serviços de computação sob demanda. Ela vem revolucionando a forma como empresas lidam com a tecnologia. Oferece uma variedade de benefícios que a tornam essencial no cenário atual. Qual modelo de serviço de nuvem é ideal para usuários finais que desejam acessar aplicativos pela internet, sem se preocupar com instalação ou manutenção? Assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Software como serviço (SaaS).",
+            "B": "Plataforma como serviço (PaaS).",
+            "C": "Infraestrutura como serviço (IaaS).",
+            "D": "Rede como serviço (NaaS)."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Software como Serviço (SaaS) permite o acesso a aplicações pela internet sem a necessidade de instalação ou manutenção local, sendo ideal para usuários finais que buscam conveniência e agilidade no uso de softwares."
+    },
+    {
+        "id": "2057782",
+        "enunciado": "Em relação aos modelos de serviços em nuvem IaaS, PaaS e SaaS, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "IaaS fornece aplicações prontas ao usuário final, eliminando a necessidade de gerenciar sistema operacional ou middleware.",
+            "B": "PaaS disponibiliza uma plataforma gerenciada, mas exige que o cliente configure manualmente servidores físicos e dispositivos de rede.",
+            "C": "SaaS é destinado a provedores que desejam alugar capacidade de rede e armazenamento bruto, mantendo sob sua responsabilidade todo o software intermediário.",
+            "D": "PaaS atende usuários finais de aplicações de produtividade, sem oferecer recursos para desenvolvimento e implantação de código próprio.",
+            "E": "Em IaaS, o provedor gerencia rede, servidores físicos, armazenamento e virtualização, enquanto o cliente é responsável pelo sistema operacional, middleware e aplicações."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Na IaaS, o provedor gerencia a infraestrutura física (rede, servidores, armazenamento, virtualização), e o cliente cuida do sistema operacional para cima. As demais alternativas descrevem incorretamente as responsabilidades e características dos modelos de serviço em nuvem."
+    },
+    {
+        "id": "1582907",
+        "enunciado": "O que é a nuvem na computação?",
+        "alternativas": {
+            "A": "Um tipo de software.",
+            "B": "Um dispositivo de armazenamento.",
+            "C": "Um sistema operacional.",
+            "D": "Um modelo de serviço.",
+            "E": "Um protocolo de comunicação."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A nuvem, na computação, refere-se a um modelo de serviço que oferece recursos de computação (armazenamento, processamento, software) sob demanda pela internet, permitindo acesso flexível e escalável."
+    },
+    {
+        "id": "1253294",
+        "enunciado": "Com relação à computação em nuvem ( cloud computing ), é correto afirmar que",
+        "alternativas": {
+            "A": "a computação em nuvem oferece flexibilidade e mobilidade para os usuários.",
+            "B": "a computação em nuvem não requer conexão com a internet para acessar os dados armazenados, apenas um programa cliente instalado no computador.",
+            "C": "uma das desvantagens da computação em nuvem é que ela não oferece redundância de dados para garantir a disponibilidade e a segurança das informações.",
+            "D": "a computação em nuvem é sempre mais vulnerável a ataques cibernéticos do que as soluções locais de armazenamento de dados."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A computação em nuvem permite acesso a recursos e dados de qualquer lugar com conexão à internet, garantindo flexibilidade e mobilidade. As outras alternativas apresentam informações incorretas sobre a necessidade de internet, redundância de dados e vulnerabilidade a ataques."
+    },
+    {
+        "id": "1550500",
+        "enunciado": "Assinale a alternativa que apresenta uma plataforma de serviços de computação em nuvem.",
+        "alternativas": {
+            "A": "Amazon Web Services - AWS.",
+            "B": "edX.",
+            "C": "WordPress.",
+            "D": "Asana."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Amazon Web Services (AWS) é uma das principais plataformas de serviços de computação em nuvem, oferecendo infraestrutura, armazenamento e diversos outros serviços."
+    },
+    {
+        "id": "1339554",
+        "enunciado": "Assinale a alternativa que apresenta uma das características da computação em nuvem.",
+        "alternativas": {
+            "A": "Habilita a execução conteinerizada de microsserviços na infraestrutura local do cliente.",
+            "B": "Torna serviços escaláveis por meio da utilização de clusters de computadores remotos.",
+            "C": "Dispensa a virtualização de infraestrutura de software e de hardware, pois o serviço é executado em infraestrutura remota.",
+            "D": "Limita-se exclusivamente ao fornecimento de infraestrutura como serviço.",
+            "E": "O dimensionamento preciso, por parte do cliente, dos recursos necessários ao uso funcional dos serviços em nuvem desejados é imprescindível no ato da contratação do provedor."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B está correta pois a computação em nuvem oferece escalabilidade através do uso de recursos computacionais remotos em clusters. As demais alternativas apresentam características incorretas ou limitadas da computação em nuvem."
+    },
+    {
+        "id": "1150557",
+        "enunciado": "A computação em nuvem consiste no forneci -\nmento de modelos diferentes de serviços de computa -\nção, incluindo servidores, armazenamento, bancos de \ndados, software, análise e inteligência, pela Internet \n(a nuvem).\nAssinale a alternativa que contém a descrição correta  \nde um modelo de serviço baseado na computação em \nnuvem.",
+        "alternativas": {
+            "A": "O modelo PaaS – programação como serviço – \nfaz uma equipe para desenvolver aplica -\ncões personalizadas de software.",
+            "B": "No modelo PaaS – programa como serviço – \nnão é necessário comprar o software, pois o \nprograma é contratado por meio de assinaturas \nque dão permissão de acesso.",
+            "C": "O modelo IaaS – infraestrutura como serviço – \nproporciona às organizações a capacidade de \naproveitar os recursos do software enquanto o \nrestante do gerenciamento da plataforma e do \nservidor é de responsabilidade do fornecedor.",
+            "D": "O modelo SaaS – software como serviço – \ndis -\nponibiliza o aplicativo de software ao usuário \npor meio de uma interface de navegador.",
+            "E": "O modelo IaaS – internet como serviço – é o \nmodelo de serviço com menor nível de flexibi -\nlidade e pouco controle sobre os recursos de \ntecnologia."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O modelo SaaS (Software as a Service) disponibiliza aplicativos pela interface do navegador. O modelo PaaS (Platform as a Service) é para desenvolvimento de aplicações. IaaS (Infrastructure as a Service) foca em infraestrutura. A opção D descreve corretamente o SaaS."
+    },
+    {
+        "id": "1550502",
+        "enunciado": "São benefícios da computação em nuvem, EXCETO:",
+        "alternativas": {
+            "A": "Rapidez no tempo de lançamento.",
+            "B": "Escalonabilidade.",
+            "C": "Flexibilidade.",
+            "D": "Dispendioso."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Rapidez, escalonabilidade e flexibilidade são benefícios da computação em nuvem. 'Dispendioso' indica um custo elevado, o que é uma desvantagem, não um benefício. A nuvem pode ser econômica, mas 'dispendioso' é o oposto de um benefício."
+    },
+    {
+        "id": "1100737",
+        "enunciado": "Com a consolidação da computação em nuvem os provedores de serviços desenvolveram modelos comerciais para atender as demandas do negócio. Assim, sobre os tipos de computação em nuvem, julgue os itens a seguir.I. Iaas (Infraestrutura como Serviço): serviço onde os prestadores oferecem servidores virtuais, conexões de rede, largura de banda, endereços IPs e serviços de balanceamento em localidades diferentes (continentes diferentes), sem a necessidade da empresa que contrate tenha que investir em equipamentos próprios.II. SaaS (Software como Serviço): permite que os usuários utilizem aplicativos diretamente na nuvem. As empresas podem contratar serviços como e-mail e ferramentas de trabalho.III. PaaS (Plataforma como Serviço): é um ambiente de desenvolvimento completo na nuvem, que permite o provedor de serviços oferecer desde simples aplicativos até poderosos sistemas de gestão empresarial.Assinale a alternativa correta:",
+        "alternativas": {
+            "A": "I, II e III estão incorretas.",
+            "B": "I, II e III estão corretas.",
+            "C": "Somente I está correta.",
+            "D": "Somente II está correta.",
+            "E": "Somente III está correta."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Todos os itens estão corretos. O item I descreve corretamente o IaaS como infraestrutura sem necessidade de investimento próprio. O item II descreve corretamente o SaaS como uso de aplicativos na nuvem. O item III descreve corretamente o PaaS como ambiente de desenvolvimento completo na nuvem."
+    },
+    {
+        "id": "1282901",
+        "enunciado": "Qual a principal função do serviço oferecido pelo Google Drive?",
+        "alternativas": {
+            "A": "Enviar e receber e -mail.",
+            "B": "Armazenar e gerenciar arquivos em nuvem.",
+            "C": "Realizar busca de informação na Internet.",
+            "D": "Realizar videoconferência.",
+            "E": "Agendar compromissos e gerenciar tarefas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O Google Drive é um serviço de armazenamento em nuvem que permite guardar, organizar e acessar arquivos de qualquer lugar e dispositivo."
+    },
+    {
+        "id": "1150640",
+        "enunciado": "Um modelo de serviço baseado na Computação em Nuvem é o PaaS – Plataforma como Serviço ( Plata - form as a service ), o qual oferece aos usuários, através da internet, recursos de software e hardware necessá - rios para o desenvolvimento de um site ou aplicativo. Assinale a alternativa que contém uma característica correta  deste modelo.",
+        "alternativas": {
+            "A": "No modelo PaaS, os usuários gerenciam aplica - ções, dados, tempo de execução e middleware.",
+            "B": "No modelo Paas, o usuário fornece apenas os dados e as aplicações que serão rodados na plataforma.",
+            "C": "No modelo Paas, não é necessário comprar o software, pois o programa é contratado por meio de assinaturas que dão permissão de acesso.",
+            "D": "A manutenção, a operação e a configuração de todos os recursos são de responsabilidade do usuário.",
+            "E": "No modelo PaaS, é fornecida uma equipe para desenvolver aplicações personalizadas para rodar na plataforma."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No modelo PaaS (Plataforma como Serviço), o provedor gerencia a infraestrutura (hardware, redes, armazenamento) e middleware/runtime. O usuário é responsável apenas pelos dados e pelas aplicações que desenvolverá ou executará nessa plataforma. As outras alternativas descrevem modelos diferentes ou estão incorretas."
+    },
+    {
+        "id": "1250157",
+        "enunciado": "Ferramenta que permite sincronizar seu conteúdo, compartilhar arquivos, pastas e links importantes e colaborar com quem você quiser, quando e onde quiser, tudo com segurança, na nuvem. A descrição em questão refere-se ao",
+        "alternativas": {
+            "A": "PowerShell.",
+            "B": "WebDriver.",
+            "C": "Dropbox.",
+            "D": "Edge."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A descrição detalha funcionalidades de armazenamento, sincronização, compartilhamento e colaboração de arquivos na nuvem, características centrais do Dropbox."
+    },
+    {
+        "id": "1132720",
+        "enunciado": "No botão Iniciar do Windows 10, é possível localizar o OneDrive:O OneDrive está integrado ao sistema operacional e consiste essencialmente em um serviço de:",
+        "alternativas": {
+            "A": "Interação e comunicação entre indivíduos.",
+            "B": "Armazenamento em nuvem.",
+            "C": "Gerenciamento de projetos baseado em quadros virtuais.",
+            "D": "Videoconferências."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O OneDrive, integrado ao Windows 10 e acessível pelo botão Iniciar, é essencialmente um serviço de armazenamento em nuvem. Ele permite que os usuários guardem, sincronizem e acessem seus arquivos de qualquer lugar e dispositivo conectado à internet."
+    },
+    {
+        "id": "1230954",
+        "enunciado": "O armazenamento em nuvem que possui como característica principal combinar armazenamento na nuvem pública com armazenamento local em uma única infraestrutura de TI, permitindo que as empresas tirem proveito dos benefícios da nuvem enquanto mantêm controle sobre dados sensíveis ou críticos, é o armazenamento",
+        "alternativas": {
+            "A": "em nuvem híbrida.",
+            "B": "em bloco.",
+            "C": "de objetos.",
+            "D": "de arquivos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Armazenamento em nuvem híbrida combina recursos de nuvem pública e privada (ou local), oferecendo flexibilidade e controle. As outras opções descrevem tipos de armazenamento baseados em como os dados são organizados e acessados, não na infraestrutura combinada."
+    },
+    {
+        "id": "1240917",
+        "enunciado": "Qual das seguintes afirmações sobre a computação em nuvem é verdadeira?",
+        "alternativas": {
+            "A": "A computação em nuvem oferece apenas armazenamento de dados, sem capacidade de processamento.",
+            "B": "A computação em nuvem não oferece flexibilidade para dimensionar recursos conforme a demanda.",
+            "C": "A computação em nuvem requer que os usuários mantenham sua própria infraestrutura de hardware.",
+            "D": "A computação em nuvem permite acesso a recursos de computação e armazenamento sob demanda pela internet.",
+            "E": "A computação em nuvem não oferece benefícios em termos de escalabilidade."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A computação em nuvem oferece acesso sob demanda pela internet a recursos de computação e armazenamento, permitindo escalabilidade e flexibilidade."
+    },
+    {
+        "id": "1149179",
+        "enunciado": "Analise as afirmativas a seguir com base na computação em nuvem (Cloud computing).",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I está correta ao definir cloud computing. A afirmativa II está incorreta, pois o processamento pesado é feito na nuvem. A afirmativa III está correta ao descrever a elasticidade. Portanto, I e III estão corretas."
+    },
+    {
+        "id": "1705649",
+        "enunciado": "Considerando a crescente utilização de serviços de nuvem como Google Drive e Dropbox para o armazenamento de arquivos, qual das opções abaixo representa corretamente uma das principais vantagens desse tipo de serviço para usuários que precisam acessar e compartilhar documentos de diferentes dispositivos e locais?",
+        "alternativas": {
+            "A": "Dificultar o acesso aos arquivos por meio de dispositivos móveis.",
+            "B": "Impedir o compartilhamento de links de acesso aos arquivos.",
+            "C": "Oferecer sincronização automática entre dispositivos conectados à internet.",
+            "D": "Reduzir a capacidade de armazenamento do disco rígido.",
+            "E": "Exigir que os arquivos sejam sempre baixados para o dispositivo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma das principais vantagens dos serviços de nuvem como Google Drive e Dropbox é a sincronização automática, que permite manter os arquivos atualizados em todos os dispositivos conectados. Isso facilita o acesso e o compartilhamento de documentos em diferentes locais e aparelhos."
+    },
+    {
+        "id": "1280723",
+        "enunciado": "A respeito do armazenamento de dados na nuvem, analise as afirmativas abaixo:\nI- Muitos serviços de armazenamento oferecem aplicativos de software pela internet, geralmente por meio de um navegador da web, eliminando a necessidade de instalação e manutenção local, por meio de um método denominado “teletransporte” dos arquivos.\nII- Muitos serviços de armazenamento na nuvem oferecem backups automatizados, protegendo os dados contra perdas causadas por falhas de hardware, desastres naturais ou erros humanos.\nIII- Os serviços de armazenamento na nuvem oferecem escalabilidade, permitindo aumentar ou diminuir facilmente o espaço de armazenamento conforme necessário.\nIV- Embora muitos serviços de armazenamento na nuvem ofereçam planos gratuitos, eles geralmente vêm com limitações de espaço de armazenamento e recursos. Para usuários que precisam de mais capacidade de armazenamento ou recursos adicionais, é necessário migrar para planos pagos, que oferecem maior espaço e funcionalidades avançadas.\nV- Os serviços de armazenamento na nuvem oferecem aos usuários a capacidade de acessar, armazenar e compartilhar dados de forma conveniente e segura a partir de qualquer dispositivo conectado à internet, proporcionando escalabilidade e flexibilidade para atender às necessidades de armazenamento em constante mudança.\nEstão CORRETAS:",
+        "alternativas": {
+            "A": "I, II, III e V",
+            "B": "I, III e IV",
+            "C": "II, III, IV e V",
+            "D": "II, IV e V",
+            "E": "II, III e IV"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As afirmativas II, III, IV e V descrevem características corretas do armazenamento em nuvem: backups, escalabilidade, limitações de planos gratuitos e acesso flexível. A afirmativa I contém o termo 'teletransporte', que não é um método padrão para descrever o acesso a arquivos na nuvem."
+    },
+    {
+        "id": "1323180",
+        "enunciado": "Uma vantagem da nuvem privada em relação à nuvem pública contratada é o(a):",
+        "alternativas": {
+            "A": "menor demanda de profissionais do órgão para administrar a solução;",
+            "B": "maior controle na administração e configuração da infraestrutura;",
+            "C": "maior confiabilidade devido ao maior número de provedores de infraestrutura de comunicação;",
+            "D": "maior desempenho devido às configurações dos equipamentos tecnológicos;",
+            "E": "maior elasticidade por causa da maior quantidade de equipamentos envolvidos na solução."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Nuvem privada, por ser dedicada, confere maior controle sobre a infraestrutura, permitindo configurações personalizadas e maior segurança em comparação com infraestruturas compartilhadas da nuvem pública."
+    },
+    {
+        "id": "1280948",
+        "enunciado": "18) Qual das seguintes alternativas melhor define o armazenamento de dados na nuvem (cloud storage)?",
+        "alternativas": {
+            "A": "Armazenamento de dados em servidores remotos acessíveis pela internet. Em vez de armazenar arquivos localmente em dispositivos físicos, como discos rígidos ou pen drives, os dados são hospedados em servidores remotos mantidos por provedores de serviços de nuvem. Isso permite o acesso aos dados de qualquer lugar com uma conexão à internet e oferece recursos importantes.",
+            "B": "É um modelo de fornecimento de serviços de tecnologia da informação (TI) no qual recursos computacionais, como armazenamento, processamento de dados, servidores e aplicativos, são disponibilizados sob demanda pela internet. Isso permite o acesso aos dados de qualquer lugar com uma conexão à internet e oferece recursos importantes.",
+            "C": "É um serviço que disponibiliza aplicativos de software pela internet, geralmente por meio de um navegador da web, eliminando a necessidade de instalação e manutenção local. Isso permite o acesso aos dados de qualquer lugar com uma conexão à internet e oferece recursos importantes.",
+            "D": "Armazenamento de dados em servidores remotos acessíveis pela internet. Em vez de armazenar arquivos localmente em dispositivos físicos, como discos rígidos ou pen drives, os dados são hospedados em servidores remotos, ficando totalmente imunes a violações de segurança.",
+            "E": "Armazenamento de dados em servidores remotos acessíveis pela internet, onde os usuários não têm a responsabilidade pela segurança de seus dados na nuvem. A segurança na nuvem depende exclusivamente do provedor de serviços."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A define corretamente cloud storage como o ato de armazenar dados em servidores externos acessíveis via internet, afastando-se do armazenamento local. As outras opções misturam conceitos ou apresentam imprecisões."
+    },
+    {
+        "id": "1634795",
+        "enunciado": "Qual serviço de nuvem da Microsoft conecta o usuário a todos os seus arquivos, permitindo armazenar e proteger os arquivos, compartilhá-los com outras pessoas e chegar a eles de qualquer lugar em todos os seus dispositivos?",
+        "alternativas": {
+            "A": "Microsoft Access.",
+            "B": "OneDrive.",
+            "C": "Google Drive.",
+            "D": "Windows Explorer."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O OneDrive é o serviço de nuvem da Microsoft projetado para armazenar, proteger e permitir o acesso e compartilhamento de arquivos em diversos dispositivos, conectando o usuário aos seus dados de qualquer lugar."
+    },
+    {
+        "id": "1136547",
+        "enunciado": "Sobre tecnologias computacionais, podemos afirmar que o OneDrive é:",
+        "alternativas": {
+            "A": "Loja virtual da Microsoft.",
+            "B": "Assistente Virtual de Microsoft.",
+            "C": "Serviço de armazenamento em nuvem da Microsoft.",
+            "D": "Pacote de aplicativos do Office.",
+            "E": "Antivírus da Microsoft embutido ao Sistema Operacional."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O OneDrive é um serviço de armazenamento de arquivos e sincronização de dados baseado na nuvem, oferecido pela Microsoft, permitindo acesso e compartilhamento de arquivos de qualquer dispositivo."
+    },
+    {
+        "id": "1438449",
+        "enunciado": "Cloud computing, ou computação em nuvem, é um modelo de computação que permite o acesso a recursos de computação, como servidores, armazenamento e aplicativos, pela internet. Sobre a cloud computing, analise as afirmativas a seguir.I. Na cloud computing, os recursos de computação são provisionados e gerenciados de forma remota por provedores de serviços de nuvem.II. Um dos principais benefícios da cloud computing é a escalabilidade, que permite aumentar ou reduzir a capacidade de recursos de computação conforme necessário, com a necessidade de investimento em infraestrutura física adicional pelo usuário.III. A segurança é uma preocupação importante na cloud computing, e os provedores de serviços de nuvem são quem implementam medidas de segurança para proteger os dados dos usuários contra ameaças cibernéticas.Estão corretas as afirmativas",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As afirmativas I, II e III estão corretas. Na nuvem, recursos são remotos e escaláveis. A segurança é primordial, com responsabilidade compartilhada entre provedor e cliente."
+    },
+    {
+        "id": "1323188",
+        "enunciado": "No que se refere à arquitetura serverless, é correto afirmar que:",
+        "alternativas": {
+            "A": "ela exige que a equipe de TI gerencie ativamente servidores, sistemas operacionais e redes para assegurar a escalabilidade e a disponibilidade do aplicativo;",
+            "B": "em um modelo serverless, o provedor de serviços em nuvem gerencia a alocação e a escala da infraestrutura de backend automaticamente, embora isso possa resultar em custos significativamente mais elevados do que os modelos de computação tradicionais, independentemente do volume de uso;",
+            "C": "ela permite que os desenvolvedores se concentrem exclusivamente no desenvolvimento do código e na lógica do aplicativo, sem preocupações com a infraestrutura subjacente, que é totalmente gerenciada pelo provedor de serviços em nuvem;",
+            "D": "ela não é adequada para aplicações que exigem processamento em tempo real devido à latência introduzida pelo tempo de inicialização do ambiente de execução;",
+            "E": "ela tem como desvantagem a impossibilidade de rodar aplicações em ambientes offline, já que depende estritamente da conexão com o provedor de serviços em nuvem para executar qualquer funcionalidade."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A arquitetura serverless abstrai a infraestrutura para o desenvolvedor, que se concentra apenas no código. O provedor de nuvem gerencia servidores, escalabilidade e disponibilidade automaticamente."
+    },
+    {
+        "id": "1438289",
+        "enunciado": "Sobre a cloud computing, assinale com V as afirmativas verdadeiras e com F as falsas. (Uma das principais vantagens da computação em nuvem é a capacidade de escalar recursos para cima ou para baixo de acordo com a demanda.) (Os serviços em nuvem são frequentemente oferecidos com base em modelos de pagamento de mensalidade, não sendo levada em conta a quantidade de utilização.) (Os serviços em nuvem são acessados pela internet, permitindo que os usuários acessem seus aplicativos e dados de qualquer lugar do mundo, desde que tenham uma conexão com a internet.) Assinale a sequência correta.",
+        "alternativas": {
+            "A": "V V F",
+            "B": "V F V",
+            "C": "F V V",
+            "D": "F F F"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "1ª afirmativa: Verdadeira. A escalabilidade é uma das principais vantagens da cloud computing. 2ª afirmativa: Falsa. Os serviços em nuvem geralmente utilizam modelos de pagamento conforme o uso (pay-as-you-go), e não apenas mensalidades fixas. 3ª afirmativa: Verdadeira. O acesso remoto via internet é uma característica fundamental da computação em nuvem."
+    },
+    {
+        "id": "1438675",
+        "enunciado": "Sobre a cloud computing, assinale com V as afirmativas verdadeiras e com F as falsas. (Uma das principais vantagens da computação em nuvem é a capacidade de escalar recursos para cima ou para baixo de acordo com a demanda.) (Os serviços em nuvem são frequentemente oferecidos com base em modelos de pagamento de mensalidade, não sendo levada em conta a quantidade de utilização.) (Os serviços em nuvem são acessados pela internet, permitindo que os usuários acessem seus aplicativos e dados de qualquer lugar do mundo, desde que tenham uma conexão com a internet.) Assinale a sequência correta.",
+        "alternativas": {
+            "A": "V V F",
+            "B": "V F V",
+            "C": "F V V",
+            "D": "F F F"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A primeira e a terceira afirmativas são verdadeiras, descrevendo vantagens e forma de acesso da cloud computing. A segunda é falsa, pois o pagamento geralmente é por uso (pay-as-you-go)."
+    },
+    {
+        "id": "1438910",
+        "enunciado": "Sobre a cloud computing, assinale com V as afirmativas verdadeiras e com F as falsas.     ) (Uma das principais vantagens da computação em nuvem é a capacidade de escalar recursos para cima ou para baixo de acordo com a demanda.     ) (Os serviços em nuvem são frequentemente oferecidos com base em modelos de pagamento de mensalidade, não sendo levada em conta a quantidade de utilização.     ) (Os serviços em nuvem são acessados pela internet, permitindo que os usuários acessem seus aplicativos e dados de qualquer lugar do mundo, desde que tenham uma conexão com a internet.Assinale a sequência correta.",
+        "alternativas": {
+            "A": "V V F",
+            "B": "V F V",
+            "C": "F V V",
+            "D": "F F F"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A primeira e a terceira afirmativas são verdadeiras, descrevendo vantagens e forma de acesso da cloud computing. A segunda é falsa, pois o pagamento geralmente é por uso (pay-as-you-go)."
+    },
+    {
+        "id": "1579719",
+        "enunciado": "Marque a alternativa que corretamente identifica o caminho nessa URL.",
+        "alternativas": {
+            "A": "“/usuarios/perfil”.",
+            "B": "“/www”.",
+            "C": "“.com”.",
+            "D": "“https”.",
+            "E": "“www.siteexemplo.com”."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve um caminho de navegação logico e comum em websites, representando um recurso dentro de uma seção de usuarios. As demais alternativas representam dominios, protocolos ou elementos que nao descrevem um caminho de navegacao."
+    },
+    {
+        "id": "1604684",
+        "enunciado": "Qual das seguintes alternativas descreve CORRETAMENTE uma vantagem do armazenamento de dados na nuvem em relação ao armazenamento local?",
+        "alternativas": {
+            "A": "A garantia de armazenamento ilimitado sem custo adicional.",
+            "B": "A ausência completa de riscos de segurança.",
+            "C": "A capacidade de acessar os dados de qualquer lugar com conexão à internet.",
+            "D": "A necessidade de hardware específico para acessar os dados.",
+            "E": "Os dados são armazenados exclusivamente em dispositivos físicos do usuário."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O acesso remoto aos dados na nuvem a partir de qualquer lugar com conexao a internet e uma vantagem chave em comparacao com o armazenamento local."
+    },
+    {
+        "id": "1090979",
+        "enunciado": "Ao concluir seu Trabalho de Conclusão de Curso (TCC) e armazenar o arquivo original no Google Drive, o usuário está empregando o",
+        "alternativas": {
+            "A": "armazenamento físico.",
+            "B": "armazenamento interno.",
+            "C": "armazenamento lógico.",
+            "D": "armazenamento em nuvem."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ao armazenar um arquivo no Google Drive, o usuário está utilizando um serviço que guarda seus dados em servidores remotos acessíveis pela internet, caracterizando o armazenamento em nuvem."
+    },
+    {
+        "id": "1345341",
+        "enunciado": "Qual das seguintes opções descreve CORRETAMENTE uma característica da computação em nuvem?",
+        "alternativas": {
+            "A": "Na computação em nuvem, os custos são sempre mais altos do que os da infraestrutura de TI tradicional devido às taxas de assinatura mensais.",
+            "B": "A computação em nuvem requer que todos os dados e aplicativos sejam armazenados localmente nos dispositivos dos usuários.",
+            "C": "Na computação em nuvem, os recursos de hardware e software são disponibilizados apenas localmente, não permitindo acesso remoto.",
+            "D": "A computação em nuvem é restrita a grandes corporações e não está disponível para uso por pequenas e médias empresas.",
+            "E": "A computação em nuvem permite o acesso remoto a recursos de computação, como servidores, armazenamento e software, através da Internet."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A computação em nuvem se caracteriza pela oferta de recursos computacionais (servidores, armazenamento, software) via internet, permitindo acesso remoto. As outras opções descrevem características incorretas ou limitações inexistentes na nuvem."
+    },
+    {
+        "id": "1616797",
+        "enunciado": "O armazenamento em nuvem permite guardar arquivos e informações em servidores online acessíveis via internet trazendo diversas vantagens para seus usuários. Sobre essa prática, considere as seguintes aﬁrmativas: I- O armazenamento em nuvem permite acessar os arquivos de qualquer lugar com acesso à internet. II- Os dados armazenados em nuvens são protegidos por políticas de segurança implementadas pelos servidores que oferecem esse tipo de serviço. III- O armazenamento em nuvem permite uma maior velocidade de acesso aos arquivos. É CORRETO o que se aﬁrma em:",
+        "alternativas": {
+            "A": "I apenas.",
+            "B": "I e III apenas.",
+            "C": "I e II apenas.",
+            "D": "II e III apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As afirmações I e II descrevem corretamente vantagens e características do armazenamento em nuvem. A afirmação III, sobre maior velocidade de acesso, nem sempre é verdadeira, pois depende da conexão com a internet e da estrutura do serviço."
+    },
+    {
+        "id": "1617369",
+        "enunciado": "O armazenamento em nuvem permite guardar arquivos e informações em servidores online acessíveis via internet trazendo diversas vantagens para seus usuários. Sobre essa prática, considere as seguintes aﬁrmações: I- O armazenamento em nuvem permite acessar os arquivos de qualquer lugar com acesso à internet. II- Os dados armazenados em nuvens são protegidos por políticas de segurança implementadas pelos servidores que oferecem esse tipo de serviço. III- O armazenamento em nuvem permite uma maior velocidade de acesso aos arquivos. É CORRETO o que se aﬁrma em:",
+        "alternativas": {
+            "A": "I apenas.",
+            "B": "I e III apenas.",
+            "C": "I e II apenas.",
+            "D": "II e III apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O armazenamento em nuvem oferece acesso de qualquer lugar com internet (I) e os dados são protegidos por políticas de segurança dos provedores (II). A velocidade de acesso (III) pode variar e nem sempre é superior ao acesso local."
+    },
+    {
+        "id": "1096579",
+        "enunciado": "Com relação ao Google Drive, analise as afirmativas a seguir. I. Oferece acesso criptografado e seguro aos seus arquivos. II. É nativo da nuvem, o que diminui muito a necessidade de arquivos locais, bem como o risco para seus dispositivos. III. Os arquivos compartilhados podem ser verificados e removidos proativamente se forem malware, spam, ransomware ou phishing. Está correto o que se afirma em",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "I e II, apenas.",
+            "C": "I e III, apenas.",
+            "D": "II e III, apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Todas as afirmativas estão corretas. O Google Drive oferece acesso seguro (I), é nativo na nuvem, reduzindo dependência local (II), e os arquivos compartilhados são escaneados em busca de malware etc. (III)."
+    },
+    {
+        "id": "1194212",
+        "enunciado": "A computação em nuvem é a disponibilidade sob demanda dos recursos de computação, como serviços na internet. Assinale a alternativa CORRETA sobre as características dos serviços de nuvem.",
+        "alternativas": {
+            "A": "As empresas e os usuários delas, devido à arquitetura da computação em nuvem, podem acessar os serviços de nuvem de qualquer lugar com uma conexão com a internet.",
+            "B": "As empresas podem desenvolver novos aplicativos e colocá-los rapidamente em produção, preocupando-se apenas com a infraestrutura subjacente.",
+            "C": "As empresas podem ter desvantagens performáticas, em razão de os provedores de nuvem se manterem nas inovações mais recentes e as oferecem como serviços para os clientes.",
+            "D": "A segurança dos data centers corporativos é reconhecida como mais forte do que a computação em nuvem por, normalmente, não conter redundâncias.",
+            "E": "As empresas, seja qual for o modelo de serviço de computação em nuvem, pagam pelos recursos de computação que utilizam e não utilizam."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Uma característica fundamental da computação em nuvem é a acessibilidade sob demanda, permitindo que usuários acessem serviços de qualquer local com conexão à internet, independentemente da infraestrutura local."
+    },
+    {
+        "id": "1224246",
+        "enunciado": "No contexto da computação em nuvem e seus serviços, assinale a opção que corresponde ao conceito de elasticidade.",
+        "alternativas": {
+            "A": "A capacidade de expandir ou reduzir dinamicamente seus recursos de acordo com a demanda.",
+            "B": "A flexibilidade de implementação de serviços.",
+            "C": "A capacidade de uma nuvem de suportar múltiplos usuários, simultaneamente.",
+            "D": "A velocidade da conexão entre a nuvem e os dispositivos do usuário.",
+            "E": "A confiabilidade dos serviços oferecidos pelo provedor de computação em nuvem."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Elasticidade na computação em nuvem é a capacidade de ajustar dinamicamente os recursos de acordo com a demanda, expandindo ou reduzindo conforme a necessidade."
+    },
+    {
+        "id": "1273164",
+        "enunciado": "A Cloud Computing (computação em nuvem) transformou o mundo corporativo e tem um grande papel no desenvolvimento dos negócios. Dentro do contexto da nuvem, temos as ofertas de serviço ou categorias de computação em nuvem referindo-se à forma como você usa a nuvem na sua organização e o grau de gerenciamento responsável nos seus ambientes de nuvem. Avalie as afirmativas a seguir e assinale o serviço onde o provedor de serviços da cloud hospeda, gerencia e mantém todo o hardware e software incluídos na plataforma, como servidores (para desenvolvimento, teste e implementação), software de sistema operacional (S.O.), armazenamento, rede, bancos de dados, middleware, tempos de execução, estruturas, ferramentas de desenvolvimento, bem como serviços relacionados de segurança, sistema operacional e atualizações de software, backups e muito mais:",
+        "alternativas": {
+            "A": "PaaS.",
+            "B": "SaaS.",
+            "C": "CaaS.",
+            "D": "IaaS.",
+            "E": "LaaS."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "PaaS (Platform as a Service) é o modelo onde o provedor gerencia hardware e software, incluindo sistema operacional, middleware e ferramentas, permitindo ao cliente focar no desenvolvimento."
+    },
+    {
+        "id": "1273249",
+        "enunciado": "Avalie as afirmativas a seguir e assinale o serviço onde o provedor de serviços da cloud hospeda, gerencia e mantém todo o hardware e software incluídos na plataforma:",
+        "alternativas": {
+            "A": "PaaS.",
+            "B": "SaaS.",
+            "C": "CaaS.",
+            "D": "IaaS.",
+            "E": "LaaS."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "IaaS (Infrastructure as a Service) é o modelo onde o provedor gerencia o hardware e software da infraestrutura, enquanto o cliente gerencia o sistema operacional e as aplicações."
+    },
+    {
+        "id": "1572772",
+        "enunciado": "Considerando o conceito de computação em nuvem, bem como ela pode ser utilizada para melhorar a eficiência de uma empresa, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "Permite acessar e compartilhar recursos de computação, como servidores e aplicativos, pela internet, reduzindo custos e aumentando a escalabilidade dos serviços.",
+            "B": "Consiste na criação de redes locais privadas para acesso a dados e aplicações, limitando a conectividade a um único ambiente fechado e controlado.",
+            "C": "Refere-se ao armazenamento local de dados em dispositivos físicos, como discos rígidos e SSDs, o que garante maior segurança e rapidez no acesso.",
+            "D": "É uma tecnologia que permite executar programas diretamente no hardware dos computadores dos usuários, eliminando a necessidade de internet para acesso a aplicativos e dados."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A computação em nuvem permite o acesso e compartilhamento remotos de recursos computacionais via internet, o que resulta em redução de custos e aumento da escalabilidade, melhorando a eficiência empresarial."
+    },
+    {
+        "id": "1560547",
+        "enunciado": "É um serviço de armazenamento de arqui- vos, criado pelo Google para seus usuários. Que se baseia no conceito de nuvem, onde o usuário pode criar e editar pastas, fazer o down- load e upload de vários tipos de arquivos. Mar- que a alternativa CORRETA que corresp onde a um recurso do Google.",
+        "alternativas": {
+            "A": "iCloud.",
+            "B": "Dropbox.",
+            "C": "OneDrive.",
+            "D": "Drive."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O enunciado descreve um serviço de armazenamento em nuvem criado pelo Google, que permite criar e editar pastas, fazer download e upload de arquivos. Este serviço é o Google Drive."
+    },
+    {
+        "id": "1625751",
+        "enunciado": "O Protocolo Border Gateway Protocol (BGP) é essencial para o roteamento de dados entre diferentes sistemas autônomos na internet, facilitando a troca de informações de roteamento entre redes distintas e garantindo uma comunicação eficiente e confiável em larga escala. No que diz respeito ao protocolo BGP assinale a alternativa incorreta:",
+        "alternativas": {
+            "A": "O BGP é incomum entre os protocolos que passam informações de roteamento porque ele considera o transporte confiável. Portanto, o BGP usa o TCP para toda comunicação.",
+            "B": "Em virtude de o BGP ser projetado como um exterior gateway protocol, sua principal função é permitir que um sistema autônomo se comunique com outro.",
+            "C": "O BGP permite que um sistema autônomo anuncie destinos que são acessíveis nele ou através dele, e aprende essas informações de outro sistema autônomo.",
+            "D": "Assim como os protocolos de vetor de distância que anunciam exatamente as rotas na tabela de encaminhamento local, o BGP pode implementar políticas escolhidas pelo administrador local.",
+            "E": "Se um sistema autônomo tiver vários roteadores, cada um se comunicando com um peer em um sistema autônomo externo, uma forma de BGP conhecida como iBGP pode ser usada para coordenar entre os roteadores no conjunto para garantir que todos eles propaguem informações consistentes."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O iBGP coordena roteadores dentro do mesmo sistema autônomo (AS), não é um protocolo de vetor de distância que anuncie rotas locais. Protocols de vetor de distância anunciam informações completas da tabela de roteamento."
+    },
+    {
+        "id": "1323195",
+        "enunciado": "Nesse contexto, o objetivo de Andrew ao escolher a solução de hospedagem de e-mail na nuvem foi:",
+        "alternativas": {
+            "A": "impedir a possibilidade de recuperação de dados em caso de desastres;",
+            "B": "implementar redundância integrada, o que permitiu a restauração rápida e eficiente dos dados perdidos;",
+            "C": "instituir protocolos de backups manuais regulares, apesar da infraestrutura de nuvem já em uso;",
+            "D": "prolongar deliberadamente o processo de recuperação de dados para testar a resiliência organizacional;",
+            "E": "restringir o acesso aos dados recuperados a locais específicos, visando a aumentar a segurança pós-recuperação."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A hospedagem na nuvem oferece redundância integrada para recuperação rápida e eficiente de dados em caso de desastres, o que elimina a necessidade de backups manuais complexos e garante a continuidade do serviço."
+    },
+    {
+        "id": "1323197",
+        "enunciado": "Um serviço de e-mail na nuvem pode ser corretamente descrito como:",
+        "alternativas": {
+            "A": "uma plataforma que oferece singularmente armazenamento de e-mails em servidores remotos, acessíveis apenas pela equipe de TI da empresa;",
+            "B": "um serviço que permite o envio e recebimento de e-mails usando servidores locais, garantindo maior segurança e controle sobre os dados;",
+            "C": "uma solução baseada na Internet que proporciona a empresas e indivíduos a capacidade de enviar, receber, armazenar e gerenciar e-mails, sem a necessidade de manter a infraestrutura de servidores de e-mail internamente;",
+            "D": "um tipo de serviço de e-mail que criptografa automaticamente todas as mensagens enviadas e recebidas, tornando-o exclusivo para comunicações governamentais;",
+            "E": "uma ferramenta que converte e-mails recebidos em mensagens de texto SMS, facilitando o acesso rápido à comunicação sem a necessidade de Internet."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C descreve precisamente um serviço de e-mail na nuvem: oferece o gerenciamento completo de e-mails pela internet, sem a necessidade de infraestrutura local."
+    },
+    {
+        "id": "1384873",
+        "enunciado": "Com relação aos conceitos de armazenamento em nuvem, é correto afirmar que",
+        "alternativas": {
+            "A": "o modelo de implementação multi-cloud utiliza uma combinação de nuvens, que pode ser apenas nuvens públicas, para melhorar a redundância, reduzir os custos e aumentar o desempenho.",
+            "B": "o serviço de armazenamento em nuvem da Microsoft é o iCloud, que oferece produtos como o Hotmail e versões on-line do pacote de escritório Office.",
+            "C": "a característica da computação em nuvem associada à ampliação ou redução dos recursos de acordo com a demanda é chamada de interoperabilidade.",
+            "D": "o modelo de implementação híbrido permite que uma nuvem privada tenha seus recursos ampliados a partir de um a reserva de recursos em uma nuvem pública."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O modelo de nuvem híbrida na computação em nuvem permite estender recursos de uma nuvem privada utilizando recursos de uma nuvem pública, oferecendo flexibilidade e escalabilidade."
+    },
+    {
+        "id": "1846351",
+        "enunciado": "Texto 02: A computação em nuvem é um modelo de computação em que o software e o armazenamento são disponibilizados como serviços pela internet. Esse ambiente permite a oferta de uma variedade de aplicativos e serviços online, tais como compartilhamento de arquivos, armazenamento e backup de dados, streaming de mídia, hospedagem de sites, segurança da informação e serviços de comunicação. A computação em nuvem oferece flexibilidade e escalabilidade, permitindo que empresas e usuários finais acessem recursos computacionais conforme necessário. Existem formas diferentes de implementar essa tecnologia, como por exemplo, a computação em nuvem pública, a privada e a híbrida. Acerca da computação em nuvem pública, conforme texto 02, é incorreto o que se afirma em:",
+        "alternativas": {
+            "A": "Refere-se a uma implantação na qual um provedor de serviços em nuvem oferece seus serviços baseados em nuvem ao público.",
+            "B": "É uma nuvem de locatário único.",
+            "C": "É uma excelente solução para empresas cujas necessidades de computação variam muito, dependendo das mudanças na demanda.",
+            "D": "Amazon, Google e Microsoft são exemplos de provedores de serviços de computação em nuvem pública.",
+            "E": "A computação em nuvem pública evita grandes investimentos iniciais em hardware."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A computação em nuvem pública é multi-tenant, ou seja, compartilha recursos entre vários clientes. Uma nuvem de locatário único é característica da nuvem privada, não da pública."
+    },
+    {
+        "id": "1081557",
+        "enunciado": "A escalabilidade na nuvem é uma das principais vantagens do cloud computing (computação na nuvem), que desempenha um papel fundamental na revolução tecnológica, permitindo que organizações de todos os tamanhos aproveitem ao máximo seus benefícios. Sua característica é a capacidade de",
+        "alternativas": {
+            "A": "executar softwares exclusivos.",
+            "B": "armazenar dados em alta resolução.",
+            "C": "funcionar sem acesso à Internet.",
+            "D": "se adaptar às demandas, aumentando ou diminuindo recursos rapidamente."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Escalabilidade na nuvem significa a capacidade de ajustar a alocação de recursos (aumentar ou diminuir) de forma rápida e automática, conforme a demanda, otimizando custos e desempenho."
+    },
+    {
+        "id": "1144206",
+        "enunciado": "O Cloud Computing é uma ferramenta que entrega serviços de computação pela Internet. Entre diversas vantagens que possui, o modelo de responsabilidade compartilhada constitui um dos fundamentos do Cloud Computing. O modelo de responsabilidade compartilhada é melhor descrito como:",
+        "alternativas": {
+            "A": "responsabilidade exclusiva do provedor de nuvem nas atividades.",
+            "B": "divisão de responsabilidades entre o provedor de nuvem e o consumidor.",
+            "C": "isenção total de responsabilidades para o consumidor.",
+            "D": "responsabilidade exclusiva do consumidor nas atividades.",
+            "E": "terceirizar todas as responsabilidades para especialistas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O modelo de responsabilidade compartilhada no Cloud Computing divide as tarefas de segurança e gerenciamento entre o provedor (responsável pela infraestrutura) e o consumidor (responsável pelos dados e aplicações dentro da nuvem)."
+    },
+    {
+        "id": "1291221",
+        "enunciado": "Sobre o armazenamento em nuvem (Cloud), é correto afirmar: I - AWS, Google Drive, Icloud, Onedrive e Dropbox são exemplos de serviços em nuvem. II - Os arquivos da nuvem podem ser acessados de qualquer lugar com conexão à internet. III - O termo “nuvem” nunca foi utilizado na computação na década de 1970 como uma metáfora para a Internet, indicando que não importava o caminho pelo qual a informação seguiria até chegar ao ponto final.",
+        "alternativas": {
+            "A": "I e II são corretas.",
+            "B": "II e III são corretas.",
+            "C": "I, II e III são corretas.",
+            "D": "I e III são incorretas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As afirmativas I e II estão corretas. AWS, Google Drive, etc. são serviços de nuvem, e o acesso remoto com internet é uma característica fundamental. A afirmativa III está incorreta, pois o conceito de 'nuvem' como metáfora para a internet tem raízes anteriores aos anos 70."
+    },
+    {
+        "id": "1282780",
+        "enunciado": "Em computação em nuvem, os três principais modelos de serviço são",
+        "alternativas": {
+            "A": "IaaS, CaaS, BaaS.",
+            "B": "IaaS, PaaS, SaaS.",
+            "C": "RaaS, FaaS, DaaS.",
+            "D": "SaaS, RaaS, DaaS."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os três modelos de serviço primários em computação em nuvem, amplamente reconhecidos pela indústria e definidos pelo NIST (National Institute of Standards and Technology), são Infrastructure as a Service (IaaS), Platform as a Service (PaaS) e Software as a Service (SaaS). As outras alternativas apresentam combinações com serviços menos comuns ou que não representam os modelos base."
+    },
+    {
+        "id": "1291222",
+        "enunciado": "A Prefeitura de Feijó está num processo de transformação digital, buscando automatizar e modernizar seus processos de armazenamento de documentos e arquivos entre outros. Atualmente, desejam adotar uma solução de armazenamento em nuvem para evitar a perda de dados, facilitar o acesso remoto e garantir o controle de versionamento. Você será um usuário que passará por treinamento para usar o novo sistema no futuro. A administração está consultando os servidores, para entender os desafios e dificuldades na implementação desse projeto. Que alternativa você foi consultado para ajudar na escolha da melhor abordagem.",
+        "alternativas": {
+            "A": "Acessibilidade remota: Os funcionários poderão acessar os arquivos de qualquer lugar, desde que tenham conexão à Internet.",
+            "B": "Armazenamento em disco rígido externo: A prefeitura deve investir em unidades de armazenamento físico para manter os arquivos.",
+            "C": "Backup local: Os dados serão armazenados em servidores físicos dentro da prefeitura, garantindo maior segurança.",
+            "D": "Uso exclusivo de servidores locais: A prefeitura deve evitar a nuvem e manter todos os dados em seus próprios servidores."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Acessibilidade remota é um benefício direto do armazenamento em nuvem, facilitando o acesso de qualquer lugar com internet, o que está alinhado com os objetivos da prefeitura de modernização e acesso facilitado."
+    },
+    {
+        "id": "1272471",
+        "enunciado": "Computação em nuvem se refere ao fornecimento sob demanda de recursos de TI, através da Internet. Em vez de usar softwares ou hardwares que estão no local, usa-se tecnologia hospedada em um banco de dados remoto. Embora, às vezes, sejam gratuitos, os serviços de computação em nuvem são, normalmente, pagos, mediante assinaturas. Existem 4 tipos de computação em nuvem. Qual o tipo que fornece aos usuários hardwares e softwares na nuvem, abrangendo toda a plataforma que os usuários podem acessar, onde é, comumente, usado por desenvolvedores para criar e gerenciar aplicativos?",
+        "alternativas": {
+            "A": "IaaS",
+            "B": "CaaS",
+            "C": "SaaS",
+            "D": "PaaS",
+            "E": "TaaS"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Plataforma como Servico (PaaS) oferece o ambiente completo (hardware, software e redes) para desenvolvimento e gerenciamento de aplicativos na nuvem."
+    },
+    {
+        "id": "1282781",
+        "enunciado": "Ao comparar PaaS (Plataforma como Serviço) e IaaS (Infraestrutura como Serviço), pode-se afirmar que a diferença principal entre eles consiste em que",
+        "alternativas": {
+            "A": "PaaS é usado em empresas públicas, enquanto IaaS em empresas privadas.",
+            "B": "PaaS fornece recursos de hardware, enquanto IaaS, plataformas de software.",
+            "C": "PaaS fornece plataformas de software, enquanto IaaS, recursos de hardware.",
+            "D": "PaaS não oferece gerencia dos recursos de hardware e software, enquanto IaaS, a infraestrutura de rede é mantida pelo cliente."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A diferença fundamental entre PaaS e IaaS reside no nível de abstração do serviço. O IaaS oferece recursos de infraestrutura de hardware (máquinas virtuais, armazenamento, redes). O PaaS, por sua vez, constrói sobre o IaaS, fornecendo uma plataforma de desenvolvimento e implantação com sistema operacional, middleware e ferramentas, abstraindo o gerenciamento do hardware."
+    },
+    {
+        "id": "1182296",
+        "enunciado": "Assinale a alternativa que melhor discorre sobre nuvens públicas e privadas:",
+        "alternativas": {
+            "A": "Nuvens privadas são hospedadas por organizações privadas, enquanto nuvens públicas são hospedadas por instituições públicas.",
+            "B": "Nuvens públicas são sempre a opção mais segura para armazenamento de dados sensíveis devido à sua infraestrutura altamente regulamentada e padronizada.",
+            "C": "Nuvens públicas são hospedadas externamente e compartilhadas entre várias organizações, enquanto nuvens privadas são hospedadas internamente ou exclusivamente para uma organização.",
+            "D": "Nuvens privadas utilizam apenas softwares de código fonte fechado, enquanto nuvens públicas utilizam apenas softwares de código fonte aberto.",
+            "E": "Nuvens privadas não podem ser acessadas pela internet."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Nuvens públicas são recursos externos e compartilhados, enquanto nuvens privadas são dedicadas a uma única organização, sendo hospedadas interna ou externamente."
+    },
+    {
+        "id": "1228436",
+        "enunciado": "Observe as afirmativas a seguir, em relação às três camadas da computação em nuvem (SaaS, PaaS e IaaS). I. Software as a Service (SaaS) é sinônimo para On-Premise. II. Platform as a Service (PaaS) é voltada principalmente para desenvolvedores. III. Infrastructure as a Service (PaaS) é sinônimo de Software as a Service (SaaS). Das afirmativas acima:",
+        "alternativas": {
+            "A": "apenas I está correta.",
+            "B": "apenas II está correta.",
+            "C": "apenas I e II estão corretas.",
+            "D": "apenas II e III estão corretas.",
+            "E": "todas estão corretas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa II está correta. SaaS não é sinônimo de On-Premise (I). PaaS é voltada para desenvolvedores (II). IaaS não é sinônimo de SaaS (III). Portanto, apenas a afirmativa II está correta."
+    },
+    {
+        "id": "1228437",
+        "enunciado": "Em relação ao “Cloud Bursting”, é INCORRETO afirmar que:",
+        "alternativas": {
+            "A": "seu uso não isenta o fato de as plataformas precisarem ser compatíveis, assim como a carga movida entre elas.",
+            "B": "uma consequência dele é impedir que os serviços sejam interrompidos, mantendo a confiabilidade e a disponibilidade do ambiente.",
+            "C": "trata-se de uma técnica que permite a configuração adequada para a integração entre nuvens.",
+            "D": "fixa automaticamente o chaveamento para a nuvem pública quando o tráfego aumenta na nuvem privada.",
+            "E": "sua desvantagem é que, devido ao custo, ele não é recomendado para aplicações que exijam alto desempenho."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Cloud Bursting não é automático. Ele permite a escalabilidade demandada, mas a transição não é intrinsecamente automática; requer configuração. A desvantagem de custo em aplicações de alto desempenho é geralmente considerada uma vantagem do cloud bursting, e não uma desvantagem."
+    },
+    {
+        "id": "2139387",
+        "enunciado": "Nos últimos anos, a computação na nuvem emergiu como uma das tecnologias mais influentes e transformadoras no mundo da tecnologia da informação. Assinale a alternativa que apresenta corretamente uma característica da computação na nuvem:",
+        "alternativas": {
+            "A": "A computação na nuvem é limitada apenas ao armazenamento de arquivos localmente nos computadores dos usuários.",
+            "B": "A computação na nuvem requer o armazenamento exclusivo de dados e aplicativos em servidores físicos localizados nas instalações da empresa.",
+            "C": "A escalabilidade é uma das características da computação na nuvem, permitindo que os recursos sejam aumentados ou reduzidos conforme a demanda.",
+            "D": "A segurança é uma preocupação secundária na computação na nuvem, pois os provedores de serviços de nuvem garantem proteção total dos dados."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A escalabilidade é uma característica chave da computação em nuvem, permitindo o ajuste dinâmico de recursos (CPU, memória, etc.) de acordo com a demanda, otimizando custos e desempenho."
+    },
+    {
+        "id": "1228438",
+        "enunciado": "Um dos principais benefícios da computação em nuvem é a escalabilidade. Neste contexto, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "A escalabilidade horizontal tem baixa complexidade de gerenciamento e é menos arriscada.",
+            "B": "A escalabilidade vertical acontece quando a demanda das aplicações cresce e o desempenho do hardware é aumentado para suprir essa requisição.",
+            "C": "A escalabilidade horizontal possui um custo alto, pois um hardware de alta potência e recursos especializados são caros.",
+            "D": "A escalabilidade vertical não é limitada pela capacidade de um componente individual, pois vários componentes semelhantes sincronizam-se juntos para atuar como um componente poderoso.",
+            "E": "A escalabilidade vertical exige o gerenciamento de muitos nós distribuídos que precisam estar sincronizados."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escalabilidade vertical aumenta os recursos (CPU, RAM) de um único servidor para lidar com maior demanda, sendo o aumento de desempenho de hardware para suprir a requisição. As demais alternativas descrevem aspectos incorretos ou de escalabilidade horizontal."
+    },
+    {
+        "id": "1563476",
+        "enunciado": "A escolha do modelo de serviço de cloud storage mais adequado para uma organização depende de diversos fatores, como o tipo de dados a serem armazenados, o nível de controle desejado sobre a infraestrutura e as necessidades de segurança. O modelo de nuvem híbrida, por exemplo:",
+        "alternativas": {
+            "A": "Permite a combinação de recursos de nuvens públicas e privadas, oferecendo maior flexibilidade e controle sobre os dados, mas também exigindo um gerenciamento mais complexo da infraestrutura.",
+            "B": "É ideal para organizações que precisam armazenar grandes volumes de dados não estruturados, como imagens e vídeos, oferecendo alta escalabilidade e baixo custo por gigabyte armazenado.",
+            "C": "Garante o mais alto nível de segurança e privacidade dos dados, sendo indicado para organizações que lidam com informações confidenciais e regulamentadas, como dados financeiros e de saúde.",
+            "D": "É a opção mais econômica para pequenas e médias empresas, oferecendo recursos básicos de armazenamento e compartilhamento de arquivos, sem a necessidade de investir em infraestrutura própria."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A nuvem híbrida combina nuvens públicas e privadas, oferecendo flexibilidade e controle. A alternativa A descreve precisamente essa combinação e suas características de gerenciamento."
+    },
+    {
+        "id": "1646750",
+        "enunciado": "Em relação ao armazenamento de dados em nuvem, considere que uma organização deseja compartilhar arquivos entre colaboradores de diferentes setores, mas com níveis específicos de permissão para cada um. É uma prática recomendada para alcançar esse objetivo :",
+        "alternativas": {
+            "A": "Manter todos os arquivos em uma única pasta pública, com permissão total para todos os usuários.",
+            "B": "Criar pastas separadas para cada setor e definir permissões de acesso de acordo com as necessidades de cada grupo.",
+            "C": "Utilizar o OneDrive apenas para armazenar documentos pessoais e não compartilhar com outros setores.",
+            "D": "Criar uma conta centralizada com permissão de leitura para todos os arquivos, sem subdividir por setores.",
+            "E": "Compartilhar todos os arquivos com permissão de edição para todos os setores."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para compartilhar arquivos com niveis especificos de permissao em nuvem, a melhor pratica e criar pastas separadas para cada setor ou grupo e entao definir as permissoes de acesso adequadas para cada um, garantindo seguranca e organizacao."
+    },
+    {
+        "id": "1090839",
+        "enunciado": "OneDrive, Dropbox e Google Drive são exemplos de",
+        "alternativas": {
+            "A": "serviços de armazenamento em nuvem.",
+            "B": "serviços de vídeo conferência.",
+            "C": "serviços de streaming.",
+            "D": "serviços de e-mail."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "OneDrive, Dropbox e Google Drive são exemplos de serviços que permitem armazenar arquivos e dados em servidores remotos acessíveis pela internet, conhecidos como armazenamento em nuvem."
+    },
+    {
+        "id": "1796398",
+        "enunciado": "O uso de aplicações em nuvem tem se expandido cada vez mais. Dentre as principais vantagens, podemos citar o uso sob demanda, segurança e redundância; sendo tudo apresentado de forma transparente ao usuário. É um exemplo de serviço de nuvem para armazenamento de dados:",
+        "alternativas": {
+            "A": "Google Chrome.",
+            "B": "Dropbox.",
+            "C": "Paint.",
+            "D": "Pacote Office."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Dropbox é um serviço de nuvem específico para armazenamento e sincronização de arquivos, sendo um exemplo prático e popular dessa tecnologia de armazenamento online."
+    },
+    {
+        "id": "1086929",
+        "enunciado": "O advento das novas tecnologias permitiu que os usuários utilizassem o armazenamento e acesso à dados e recursos computacionais, utilizando a conexão a Internet. A tecnologia que permite este acesso é conhecida como",
+        "alternativas": {
+            "A": "inteligência artificial.",
+            "B": "computação em nuvem.",
+            "C": "realidade virtual.",
+            "D": "blockchain."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A computação em nuvem refere-se à disponibilização de recursos computacionais (armazenamento, processamento, software) pela internet sob demanda, permitindo o acesso a dados e serviços a partir de qualquer conexão."
+    },
+    {
+        "id": "1165597",
+        "enunciado": "Leia o texto a seguir. A computação em nuvem (cloud computing) refere-se ao fornecimento de serviços de computação como armazenamento, processamento de dados, servidores, redes e aplicativos pela Internet. Em vez de hospedar esses recursos localmente em servidores físicos ou infraestrutura local, os usuários podem acessá-los e utilizá-los por meio da Internet, sob demanda e de acordo com suas necessidades. O seguinte serviço de computação em nuvem oferece a maior personalização e controle sobre o ambiente de computação :",
+        "alternativas": {
+            "A": "Software as a Service (SaaS).",
+            "B": "Platform as a Service (PaaS).",
+            "C": "Function as a Service (FaaS).",
+            "D": "Infrastructure as a Service (IaaS)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O Infrastructure as a Service (IaaS) oferece o maior nivel de personalizacao e controle sobre o ambiente de computacao, pois o usuario gerencia o sistema operacional e aplicacoes."
+    },
+    {
+        "id": "1354292",
+        "enunciado": "No modelo de virtualização de computação na nuvem denominado de Software- as-a-Service  (SaaS),",
+        "alternativas": {
+            "A": "serviços de software são fornecidos pelo provedor de nuvem para permitir aos clientes o gerenciamento da alocação de servidores virtuais na nuvem para executar suas aplicações.",
+            "B": "software que constitui a plataforma para desenvolvimento de aplicações é fornecido como serviço pelo provedor de nuvem para os clientes implementarem suas aplicações.",
+            "C": "recursos de hardware virtuais são fornecidos pelo provedor de nuvem para os clientes hospedarem suas aplicações e, em seguida, utilizá- las via navegador Web.",
+            "D": "aplicações completas são fornecidas pelo provedor de nuvem e os clientes não precisam se ocupar da instalação das aplicações ou de sua alocação em recursos virtuais."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O modelo SaaS (Software-as-a-Service) em computação em nuvem oferece aplicações completas prontas para uso, onde o cliente não se preocupa com a instalação nem com a alocação em recursos virtuais, acessando-as geralmente via navegador."
+    },
+    {
+        "id": "1929416",
+        "enunciado": "O serviço de armazenamento em nuvem e sincronização, oferecido pelo Google, tem como foco principal os programas de criação e edição de documentos, planilhas, apresentações, desenhos, entre outros, permitindo que os usuários criem e editem documentos. De acordo com o contexto apresentado, o serviço em questão recebe o nome de:",
+        "alternativas": {
+            "A": "Google One.",
+            "B": "Google Sync.",
+            "C": "Google Drive.",
+            "D": "Google Cloud.",
+            "E": "Google Sharepoint."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O Google Drive é o serviço de armazenamento em nuvem e sincronização do Google, focado em permitir a criação, edição e compartilhamento de documentos, planilhas e apresentações."
+    },
+    {
+        "id": "1055568",
+        "enunciado": "Uma característica fundamental da computação em nuvem, que a diferencia dos modelos de computação tradicionais é:",
+        "alternativas": {
+            "A": "A necessidade de gerenciamento de servidores e data centers.",
+            "B": "A dependência de hardwar e local para execução de aplicativos.",
+            "C": "A alocação dinâmica de recursos de acordo com a demanda.",
+            "D": "A exigência de largura de banda ilimitada para acesso aos serviços.",
+            "E": "A exclusão de redes e conexões externas para maior segurança."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A computação em nuvem se destaca pela alocação dinâmica de recursos. Isso significa que a quantidade de poder computacional, armazenamento e rede é ajustada automaticamente conforme a demanda, em vez de exigir gerenciamento manual de infraestrutura física (A) ou depender de hardware local (B)."
+    },
+    {
+        "id": "1021113",
+        "enunciado": "Qualádosáseguintesácenáriosáéáumaásituaçãoátípicaád eáusoádaácomputaçãoáemánuvem?á",
+        "alternativas": {
+            "A": "Umáserviçoádeá streaming ádeávídeoáéáexecutadoáemáservidoresáremotos.",
+            "B": "Umáusuárioáinstalaáumáaplicativoádeáprodutivid eáemáseuácomputadorálocal.",
+            "C": "Umáestudanteáfazáanotaçõesáemápapeláduranteáumaá aula.",
+            "D": "Umádepartamentoádeátecnologiaádaáinformaçãoá(TI) ágerenciaáumáservidorádeá e-mailáinterno.",
+            "E": "Umaáempresaáhospedaáseuá site áemáservidoresápróprios."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve um serviço de streaming de vídeo como um cenário típico de nuvem, onde vídeos são armazenados e acessados remotamente. As outras opções descrevem atividades locais ou gerência em infraestrutura própria, não características de computação em nuvem para o usuário final."
+    },
+    {
+        "id": "1055575",
+        "enunciado": "Considere as aﬁrmações a seguir, acerca de Cloud Storage (armazenamento na nuvem):I- O Cloud Storage usa servidores locais para salvar dados, como arquivos, dados da empresa, vídeos ou imagens. Os usuários fazem upload dos dados para os servidores por meio de uma conexão de Internet, que é salva em uma máquina virtual em um servidor físico.II- O modelo público de Cloud Storage é aquele no qual uma organização usa os próprios servidores e data centers para armazenar dados na própria rede.III- A redundância (replicação de dados em vários servidores em locais diferentes) é uma característica inerente ao Cloud Storage em nuvens públicas, que permite que as organizações se recuperem de desastres, mantendo a continuidade dos negócios.IV- Uma das desvantagens de usar Cloud Storage é a latência, uma vez que o tráfego de entrada e saída na nuvem pode sofrer atrasos devido a congestionamento do tráfego de rede, ou conexões de Internet lentas.Está CORRET O o que se aﬁrma apenas em:",
+        "alternativas": {
+            "A": "I e IV.",
+            "B": "III e IV.",
+            "C": "I e III.",
+            "D": "I e II.",
+            "E": "II, III e IV."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I está incorreta pois o Cloud Storage usa servidores remotos (na nuvem), não locais. A afirmativa II também está incorreta, pois o modelo público usa servidores de terceiros, não da própria organização. A afirmativa III descreve corretamente a redundância, e a IV a latência como desvantagem."
+    },
+    {
+        "id": "1094339",
+        "enunciado": "Considere as aﬁrmativas a seguir, acerca de Cloud Storage (armazenamento na nuvem):I- O Cloud Storage usa servidores locais para salvar dados, como arquivos, dados da empresa, vídeos ou imagens. Os usuários fazem upload dos dados para os servidores por meio de uma conexão de Internet, que é salva em uma máquina virtual em um servidor físico.II- O modelo público de Cloud Storage é aquele no qual uma organização usa os próprios servidores e data centers para armazenar dados na própria rede.III- A redundância (replicação de dados em vários servidores em locais diferentes) é uma característica inerente ao Cloud Storage em nuvens públicas, que permite que as organizações se recuperem de desastres, mantendo a continuidade dos negócios.IV- Uma das desvantagens de usar Cloud Storage é a latência, uma vez que o tráfego de entrada e saída na nuvem pode sofrer atrasos devido a congestionamento do tráfego de rede, ou conexões de Internet lentas.Está CORRET O o que se aﬁrma apenas em:",
+        "alternativas": {
+            "A": "I e IV.",
+            "B": "III e IV.",
+            "C": "I e III.",
+            "D": "I e II.",
+            "E": "II, III e IV."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I está incorreta ao dizer que Cloud Storage usa servidores locais; são remotos. A afirmativa II está errada, pois o modelo público usa infraestrutura de terceiros. III está correta sobre redundância. IV também está correta sobre latência."
+    },
+    {
+        "id": "1094740",
+        "enunciado": "Considere as afirmações a seguir, acerca de Cloud Storage (armazenamento na nuvem):\nI- O Cloud Storage usa servidores locais para salvar dados, como arquivos, dados da empresa, vídeos ou imagens. Os usuários fazem upload dos dados para os servidores por meio de uma conexão de Internet, que é salva em uma máquina virtual em um servidor físico.\nII- O modelo público de Cloud Storage é aquele no qual uma organização usa os próprios servidores e data centers para armazenar dados na própria rede.\nIII- A redundância (replicação de dados em vários servidores em locais diferentes) é uma característica inerente ao Cloud Storage em nuvens públicas, que permite que as organizações se recuperem de desastres, mantendo a continuidade dos negócios.\nIV- Uma das desvantagens de usar Cloud Storage é a latência, uma vez que o tráfego de entrada e saída na nuvem pode sofrer atrasos devido a congestionamento do tráfego de rede, ou conexões de Internet lentas.\nEstá CORRETO o que se afirma apenas em:",
+        "alternativas": {
+            "A": "I e IV.",
+            "B": "III e IV.",
+            "C": "I e III.",
+            "D": "I e II.",
+            "E": "II, III e IV."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I está incorreta ao dizer que Cloud Storage usa servidores locais; são remotos. A afirmativa II está errada, pois o modelo público usa infraestrutura de terceiros. III está correta sobre redundância. IV também está correta sobre latência."
+    },
+    {
+        "id": "1045909",
+        "enunciado": "Leia a frase abaixo referente à Internet e aplicativos:\"O serviço de armazenamento em nuvem mais popular e oferecido gratuitamente pelo Google é o ______ \". Assinale a alternativa que preenche correta e respectivamente a lacuna do enunciado.",
+        "alternativas": {
+            "A": "Google Sheets",
+            "B": "Google Play",
+            "C": "Google Drive",
+            "D": "Google Meet"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Google Drive é o serviço de armazenamento em nuvem gratuito e popular oferecido pelo Google. Google Sheets é para planilhas, Google Play para aplicativos e Google Meet para videoconferências."
+    },
+    {
+        "id": "1055523",
+        "enunciado": "O serviço de computação em nuvem, que fornece um ambiente sob demanda para desenvolvimento, teste, fornecimento, gerenciamento de aplicativos e de software facilitando aos desenvolvedores criarem aplicativos móveis ou web rapidamente, sem se preocupar com a configuração ou o gerenciamento de infraestrutura subjacente de servidores, armazenamento, rede e bancos de dados necessários para desenvolvimento, é conhecido por:",
+        "alternativas": {
+            "A": "PaaS (plataforma como serviço).",
+            "B": "SaaS (software como serviço).",
+            "C": "CaaS (computação como serviço).",
+            "D": "IaaS (infraestrutura como serviço).",
+            "E": "AaaS (armazenamento como serviço)."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O PaaS (Platform as a Service) oferece um ambiente completo para desenvolvimento e implantação de aplicações sem a necessidade de gerenciar a infraestrutura subjacente, como servidores, armazenamento e rede, exatamente como descrito no enunciado. SaaS (Software as a Service) entrega o software pronto para uso. IaaS (Infrastructure as a Service) foca na infraestrutura (servidores virtuais, armazenamento). CAAS e AAAS não são termos padrão para esta descrição específica."
+    },
+    {
+        "id": "1204117",
+        "enunciado": "A computação em nuvem desempenha um papel fundamental na transformação digital das empresas. Sobre cloud computing, analise as afirmativas a seguir. I. A computação em nuvem envolve o uso de recursos de hardware e software hospedados remotamente em data centers, acessados pela internet, em vez de manter esses recursos localmente. II. Os modelos de serviço mais comuns em cloud computing incluem “Software as a service” (SaaS), “Platform as a service” (PaaS) e “Infrastructure as a service” (IaaS). III. Um dos principais benefícios da computação em nuvem é a capacidade de escalar recursos rapidamente, tanto para cima quanto para baixo, de acordo com as necessidades da empresa. Estão corretas as afirmativas",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Todas as afirmativas su00e3o corretas. A computau00e7u00e3o em nuvem envolve o uso de recursos remotos (I), possui modelos de serviu00e7o como SaaS, PaaS e IaaS (II), e oferece escalabilidade como benefu00edcio chave (III)."
+    },
+    {
+        "id": "1008226",
+        "enunciado": "O que é virtualização de servidor em Cloud Computing?",
+        "alternativas": {
+            "A": "Um método para aumentar a segurança de servidores físicos.",
+            "B": "Uma técnica de espelhamento de servidores.",
+            "C": "Um serviço de backup para armazenar dados de servidor em nuvem.",
+            "D": "Um modelo de negócios para alugar servidores físicos em data centers remotos.",
+            "E": "Uma técnica permite a criação de várias máquinas virtuais em um único servidor físico."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Virtualização de servidor em Cloud Computing refere-se à capacidade de rodar múltiplas máquinas virtuais, cada uma com seu sistema operacional e aplicações, em um único servidor físico, compartilhando seus recursos."
+    },
+    {
+        "id": "1014948",
+        "enunciado": "Uma das vantagens do armazenamento, em nuvem em comparação com o armazenamento local em dispositivos físicos, é",
+        "alternativas": {
+            "A": "o acesso rápido e off -line aos arquivos, independentemente da conexão com a internet.",
+            "B": "o controle sobre a segurança dos dados, uma vez que estão armazenados localmente.",
+            "C": "a limitação de espaço disponível, restrito ao tamanho do dispositivo físico.",
+            "D": "a facilidade de compartilhamento e colaboração em tempo real entre usuários remotos."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Uma vantagem crucial do armazenamento em nuvem é a capacidade de compartilhar arquivos facilmente e colaborar em projetos em tempo real com outras pessoas, independentemente da localização geográfica."
+    },
+    {
+        "id": "1008228",
+        "enunciado": "O que é escalabilidade em Cloud Computing?",
+        "alternativas": {
+            "A": "Um modelo de negócios que prioriza a expansão horizontal da empresa.",
+            "B": "Um método para otimizar o tempo de uso dos servidores.",
+            "C": "Um tipo de software usado para dimensionar os tamanhos dos dados.",
+            "D": "Capacidade de ampliar de forma ilimitada o armazenamento de toda a infraestrutura, softwares e servidores das empresas em plataformas em nuvem.",
+            "E": "Um serviço de otimização de largura de banda para redes de computadores."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Escalabilidade em Cloud Computing é a capacidade de um sistema ou infraestrutura de aumentar ou diminuir dinamicamente seus recursos (armazenamento, processamento, rede) conforme a demanda, sem interrupção dos serviços."
+    },
+    {
+        "id": "1322696",
+        "enunciado": "A computação em nuvem oferece muitos benefícios; no entanto, também apresenta desafios. Assinale a alternativa que descreve uma dificuldade comum associada à adoção da computação em nuvem.",
+        "alternativas": {
+            "A": "A computação em nuvem não oferece suporte dispersas.",
+            "B": "A segurança é muito falha na computação em nuvem, pois todos podem acessar, bastando ter conexão à internet.",
+            "C": "Os servidores da computação em nuvem são servidor local com link de internet.",
+            "D": "A dependência da conectividade de internet pode levar a problemas de disponibilidade de aplicativos e serviços em caso de interrupções na rede."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A dependência de uma conexão de internet estável é um desafio para a computação em nuvem. Falhas na rede podem impedir o acesso aos serviços e aplicativos, impactando a disponibilidade."
+    },
+    {
+        "id": "1021759",
+        "enunciado": "O avanço da computação, com a computação em nuvem, ou seja, a disponibilização de serviços computacionais na internet permitiu uma grande amplitude do alcance da tecnologia, não se limitando propriamente ao ambiente físico o qual a aplicação está instalada, com isso, um serviço muito praticado e utilizado nos dias de hoje é o SaaS (Software as a Service). Desta forma, assinale a alternativa que apresenta o que é SaaS na computação em nuvem.",
+        "alternativas": {
+            "A": "Uma categoria de serviços de computação em nuvem que fornece produtos através de mídia física",
+            "B": "Uma categoria de serviços de computação em nuvem que fornece aplicativos de software pela internet",
+            "C": "Uma categoria de serviços de computação em nuvem que fornece softwares apenas quando há ausência de conexão de rede",
+            "D": "Uma categoria de serviços de computação em nuvem que fornece um protocolo de segurança em formato de software"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "SaaS (Software as a Service) é um modelo de computação em nuvem onde softwares são disponibilizados pela internet sob demanda, geralmente por assinatura, sem necessidade de instalação local."
+    },
+    {
+        "id": "1031495",
+        "enunciado": "Qual é o modelo de arquitetura de servidores em nuvem que permite que os recursos de computação sejam provisionados e dimensionados de forma flexível, de acordo com as necessidades do usuário?",
+        "alternativas": {
+            "A": "CaaS",
+            "B": "FaaS",
+            "C": "IaaS",
+            "D": "PaaS",
+            "E": "SaaS"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "IaaS (Infrastructure as a Service) oferece recursos de computação como servidores, armazenamento e rede de forma flexível e escalável, permitindo que os usuários provisionem e dimensionem a infraestrutura conforme a demanda."
+    },
+    {
+        "id": "1031496",
+        "enunciado": "Qual é o modelo de arquitetura de servidores em nuvem que fornece aos usuários acesso a aplicações prontas para uso?",
+        "alternativas": {
+            "A": "CaaS",
+            "B": "FaaS",
+            "C": "IaaS",
+            "D": "PaaS",
+            "E": "SaaS"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "SaaS (Software as a Service) oferece acesso a aplicações prontas para uso pela internet, sem a necessidade de instalação ou gerenciamento de infraestrutura pelo usuário. Exemplos incluem e-mail e sistemas de gestão online."
+    },
+    {
+        "id": "1210985",
+        "enunciado": "Você precisa enviar um arquivo para João, no entanto, ele é muito grande para ser enviado por e-mail. Para resolver o problema, ela decidiu enviar o arquivo usando um serviço de armazenamento de arquivos na nuvem. Quais dos serviços abaixo NÃO corresponde a uma opção válida para Maria encaminhar seu arquivo?",
+        "alternativas": {
+            "A": "Amazon Box",
+            "B": "Dropbox",
+            "C": "Microsoft OneDrive",
+            "D": "SendSpace",
+            "E": "Google Drive"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Amazon Drive é um serviço de armazenamento na nuvem, mas Amazon Box não é um serviço conhecido para compartilhamento de arquivos grandes. Dropbox, OneDrive, SendSpace e Google Drive são opções válidas."
+    },
+    {
+        "id": "1985126",
+        "enunciado": "É a entrega de recursos de TI sob demanda por meio da Internet com definição de preço de pagamento conforme o uso. Marque a alternativa CORRETA que corresponde ao contexto acima.",
+        "alternativas": {
+            "A": "Inteligência Artificial.",
+            "B": "Computação em Nuvem.",
+            "C": "Banda Larga.",
+            "D": "Internet 5G.",
+            "E": "Internet das Coisas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A descricao se refere a computacao em nuvem (cloud computing), que oferece recursos de TI (armazenamento, processamento, software) pela internet sob demanda e com pagamento pelo uso."
+    },
+    {
+        "id": "1985286",
+        "enunciado": "É a entrega de recursos de TI sob demanda por meio da Internet com definição de preço de pagamento conforme o uso. Em vez de comprar, ter e manter datacenters e servidores físicos, você pode acessar serviços de tecnologia, como capacidade computacional, armazenamento e bancos de dados, conforme a necessidade, usando um provedor de nuvem. Marque a alternativa CORRETA que corresponde ao contexto acima.",
+        "alternativas": {
+            "A": "Internet das Coisas.",
+            "B": "Inteligência Artificial.",
+            "C": "Internet 5G.",
+            "D": "Computação em Nuvem.",
+            "E": "Banda Larga."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Computação em nuvem se refere à entrega de recursos de TI sob demanda pela internet, com pagamento conforme o uso, eliminando a necessidade de infraestrutura física local."
+    },
+    {
+        "id": "1985366",
+        "enunciado": "É a entrega de recursos de TI sob demanda por meio da Internet com definição de preço de pagamento conforme o uso. Em vez de comprar, ter e manter datacenters e servidores físicos, você pode acessar serviços de tecnologia, como capacidade computacional, armazenamento e bancos de dados, conforme a necessidade, usando um provedor de nuvem. Marque a alternativa CORRETA que corresponde ao contexto acima.",
+        "alternativas": {
+            "A": "Inteligência Artificial.",
+            "B": "Internet das Coisas.",
+            "C": "Banda Larga.",
+            "D": "Internet 5G.",
+            "E": "Computação em Nuvem."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A descrição de entrega sob demanda de recursos de TI pela internet, com pagamento por uso e acesso a serviços como capacidade computacional, define precisamente o conceito de Computação em Nuvem."
+    },
+    {
+        "id": "1003412",
+        "enunciado": "No contexto de armazenamento de dados em nuvens (cloud computing), o termo geralmente utilizado como “nuvem” faz referência simbólica a:",
+        "alternativas": {
+            "A": "Intranet",
+            "B": "Internet",
+            "C": "Modem",
+            "D": "DNS",
+            "E": "Netscape"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No contexto de cloud computing, a 'nuvem' e uma metafora para a Internet, a rede global que viabiliza o acesso e a transferencia de dados para servicos baseados em nuvem."
+    },
+    {
+        "id": "1251039",
+        "enunciado": "50) Existem três tipos principais de opções de Computação na Nuvem ( Cloud Computing ) como serviço. Analise as afirmativas e selecione a única alternativa que esteja tecnicamente incorreta quanto aos principais serviços .",
+        "alternativas": {
+            "A": "SaaS",
+            "B": "PaaS",
+            "C": "IaaS",
+            "D": "YaaS"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os três principais modelos de serviço de computação em nuvem são SaaS (Software as a Service), PaaS (Platform as a Service) e IaaS (Infrastructure as a Service). YaaS não é um dos modelos padrão reconhecidos."
+    },
+    {
+        "id": "2026831",
+        "enunciado": "Um professor ministrará suas aulas de forma remota e, para tanto, pretende armazenar o calendário letivo, o planejamento das aulas e as provas dos alunos em um servidor online  acessível em qualquer computador , por meio da Computação em Nuvem. Diante deste cenário, assinale a alternativa que representa ações que poderão ser realizadas a partir do uso da Computação em Nuvem.",
+        "alternativas": {
+            "A": "a) O professor e os alunos deverão, obrigatoriamente, pagar pelo serviço oferecido.",
+            "B": "b) O professor poderá armazenar apenas arquivos de texto, planilhas eletrônicas e apresentações.",
+            "C": "c) Não é necessário o professor dispor de conexão com a internet para que as informações sejam disponibilizadas para os alunos.",
+            "D": "d) Os alunos não precisam se conectar à internet para que possam acessar as informações disponibilizadas pelo professor.",
+            "E": "e) O professor poderá armazenar arquivos eletrônicos como textos, planilhas, tabelas, apresentações, vídeos, músicas, fotos, ﬁguras e até programas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A Computação em Nuvem permite o armazenamento de diversos tipos de arquivos, como textos, planilhas, apresentações, vídeos e outros, acessíveis remotamente com conexão à internet."
+    },
+    {
+        "id": "1224159",
+        "enunciado": "A Microsoft também possui o seu serviço que é chamado de:",
+        "alternativas": {
+            "A": "Mega.",
+            "B": "iCloud Drive.",
+            "C": "DropBox.",
+            "D": "OneDrive.",
+            "E": "Google Drive."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O OneDrive é o serviço de armazenamento em nuvem e sincronização de arquivos da Microsoft, similar ao iCloud Drive (Apple), Dropbox e Google Drive."
+    },
+    {
+        "id": "1904536",
+        "enunciado": "O One Drive é um serviço da Microsoft que permite gravar informações:",
+        "alternativas": {
+            "A": "no Hard Disk do seu computador.",
+            "B": "em um Pen Drive.",
+            "C": "em um DVD.",
+            "D": "na nuvem.",
+            "E": "na memória ROM."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O OneDrive é um serviço de armazenamento de arquivos em nuvem oferecido pela Microsoft. Ele permite que os usuários salvem seus dados em servidores remotos, acessíveis pela internet, e não localmente em dispositivos como HD, Pen Drive ou DVD."
+    },
+    {
+        "id": "1897936",
+        "enunciado": "O fornecimento de serviços de computação pela Internet, incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência, para oferecer inovações mais rápidas, recursos flexíveis e economias de escala é chamado de:",
+        "alternativas": {
+            "A": "computação local.",
+            "B": "computação indoor.",
+            "C": "computação em nuvem.",
+            "D": "computação firewire.",
+            "E": "computação de desenvolvimento ágil."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Computação em nuvem (cloud computing) descreve a entrega de serviços de computação – incluindo aplicativos, armazenamento, poder de processamento, etc. – pela Internet em regime de 'pague pelo que usar'."
+    },
+    {
+        "id": "1507514",
+        "enunciado": "O armazenamento de dados em nuvem é essencial para as organizações públicas e privadas. Marque a opção que NÃO apresenta uma solução de armazenamento em nuvem.",
+        "alternativas": {
+            "A": "Dropbox.",
+            "B": "Mozilla Firefox.",
+            "C": "OneDrive.",
+            "D": "Google Drive."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Mozilla Firefox é um navegador de internet, não um serviço de armazenamento em nuvem. Dropbox, OneDrive e Google Drive são exemplos clássicos de soluções de cloud storage."
+    },
+    {
+        "id": "1873233",
+        "enunciado": "Assinale a alternativa que apresenta modelos de implementação em computação em nuvem.",
+        "alternativas": {
+            "A": "Público, Privado e Híbrido.",
+            "B": "SOAP, RESTFULL e REST.",
+            "C": "PASS, SAAS e IASS.",
+            "D": "S3, WF e EC2.",
+            "E": "VMWare, Compliance e Segregado."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Os modelos de implementação em computação em nuvem referem-se às formas como os serviços são disponibilizados e acessados. Os principais modelos são Público (acesso aberto), Privado (dedicado a uma organização) e Híbrido (combinação dos dois)."
+    }
+]

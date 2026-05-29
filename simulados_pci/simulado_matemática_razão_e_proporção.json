@@ -1,0 +1,698 @@
+[
+    {
+        "id": "2359732",
+        "enunciado": "Em uma mistura, a razão entre concentrado e água é 4:9. Para obter 39 partes da mistura mantendo essa razão, quantas partes correspondem ao concentrado?",
+        "alternativas": {
+            "A": "12.",
+            "B": "13.",
+            "C": "16.",
+            "D": "18."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A razão concentrado:água é 4:9, totalizando 13 partes. Para 39 partes da mistura, o concentrado corresponde a (4/13) * 39 = 12 partes."
+    },
+    {
+        "id": "2037549",
+        "enunciado": "Um estudante interessado em iniciar sua preparação para concurso público começou a avaliar a quantidade de vagas para sua área em editais anteriores, publicados em todo o país. Ele verificou que, no ano anterior, houve 200 vagas para o cargo desejado e que, neste ano, para esse mesmo cargo, há 300 vagas. Com o objetivo de comparar a quantidade de vagas entre o ano atual e o ano anterior, ele calculou a razão de vagas e chegou ao valor de:",
+        "alternativas": {
+            "A": "1",
+            "B": "1,5",
+            "C": "151,0",
+            "D": "0,67",
+            "E": "50,0"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A razão entre a quantidade de vagas deste ano (300) e o ano anterior (200) é 300/200 = 1,5. Essa razão compara a quantidade de vagas em relação a uma unidade do ano base."
+    },
+    {
+        "id": "2344785",
+        "enunciado": "Para decompor uma herança um escritório de advocacia precisa fazer os cálculos e dividir uma quantia de R$100.000,00 em partes proporcionais a 4, 7 e 9. Quanto cada parte irá receber em R$?",
+        "alternativas": {
+            "A": "15.000; 35.000 e 50.000.",
+            "B": "20.000; 35.000 e 45.000.",
+            "C": "25.000; 35.000 e 40.000.",
+            "D": "15.000; 25.000 e 60.000.",
+            "E": "10.000; 25.000 e 65.000."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A soma das proporções é 4 + 7 + 9 = 20. Dividindo 100.000 por 20, cada parte vale 5.000. As partes são: 4*5.000=20.000, 7*5.000=35.000 e 9*5.000=45.000."
+    },
+    {
+        "id": "2309880",
+        "enunciado": "Alice, Ágata e Bechara são sócios de uma empresa de cosméticos e dividem os lucros em partes proporcionais ao tempo de experiência dentro da empresa. Ágata possui 15 anos de experiência, Alice 8 anos e Bechara 7 anos. No mês de novembro de um determinado ano, houve um lucro líquido na venda de alguns produtos no valor de R$ 10.500,00. O valor correspondente à parte recebida pelo sócio Bechara foi de",
+        "alternativas": {
+            "A": "R$ 5.250,00.",
+            "B": "R$ 2.800,00.",
+            "C": "R$ 2.450,00.",
+            "D": "R$ 2.100,00.",
+            "E": "R$ 1.750,00."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O lucro total é de R$ 10.500,00. O tempo total de experiência é 15 (Ágata) + 8 (Alice) + 7 (Bechara) = 30 anos. Bechara tem 7 anos de experiência. A proporção de Bechara no lucro é (7 anos / 30 anos). O valor recebido por Bechara é (7/30) * R$ 10.500,00 = 7 * (10500/30) = 7 * 350 = R$ 2.450,00."
+    },
+    {
+        "id": "2072703",
+        "enunciado": "Para preparar uma massa de pizza, a receita recomenda misturar farinha e água na razão 4:1. Se forem usados 800g de farinha, quantos mL de água serão necessários?",
+        "alternativas": {
+            "A": "100mL",
+            "B": "150mL",
+            "C": "200mL",
+            "D": "250mL"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A razão 4:1 significa que para cada 4 partes de farinha, usa-se 1 parte de água. Se usou 800g de farinha (correspondente às 4 partes), cada parte equivale a 200g. Portanto, para a água (1 parte), serão necessários 200g, que equivalem a 200mL."
+    },
+    {
+        "id": "2136075",
+        "enunciado": "Uma fábrica de cosméticos utiliza uma mistura de óleos essenciais para produzir um lote de perfumes. Para cada 4 litros de essência floral, são usados 6 litros de essência cítrica. Em um lote especial, foram utilizados 30 litros de essência cítrica. Quantos litros de essência floral foram usados para manter a mesma proporção?",
+        "alternativas": {
+            "A": "25 litros.",
+            "B": "15 litros.",
+            "C": "70 litros.",
+            "D": "20 litros."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A proporção é de 4l de floral para 6l de cítrica. Se usou 30l de cítrica, que é 5 vezes 6l, então foram usados 5 vezes 4l de floral, totalizando 20l."
+    },
+    {
+        "id": "2364999",
+        "enunciado": "Luis e Carlos são contratados para realizar um serviço de montagem de móveis por R$ 2 400,00. Ao todo, Luis trabalhou 10 horas e Carlos, 15 horas para concluir o serviço. Eles devem repartir o valor pago sendo que essa divisão deve ser proporcional ao tempo trabalhado. Com base nas informações, quanto Luis tem a receber?",
+        "alternativas": {
+            "A": "R$ 820,00",
+            "B": "R$ 880,00",
+            "C": "R$ 960,00",
+            "D": "R$ 1 200,00",
+            "E": "R$ 1 440,00"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Total de horas trabalhadas: 10 (Luis) + 15 (Carlos) = 25 horas. Valor total: R$ 2.400,00. Valor por hora: R$ 2.400,00 / 25h = R$ 96,00/h. Luis trabalhou 10h, então: 10h * R$ 96,00/h = R$ 960,00."
+    },
+    {
+        "id": "2382781",
+        "enunciado": "Em uma academia, a razão entre o número de alunos inscritos no turno da manhã e no turno da tarde é de 3:5. Após uma campanha promocional, foram inscritos 215 alunos no turno da tarde. Mantida a proporção entre os alunos, quantos alunos estão inscritos no turno da manhã?",
+        "alternativas": {
+            "A": "86",
+            "B": "129",
+            "C": "155",
+            "D": "172"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A razão 3:5 significa que para cada 3 alunos pela manhã, há 5 à tarde. Se 215 alunos estão à tarde, que representa 5 partes, então cada parte vale 215/5 = 43 alunos. Pela manhã, com 3 partes, são 3 * 43 = 129 alunos."
+    },
+    {
+        "id": "2127011",
+        "enunciado": "Em uma determinada escola, a razão entre o número de meninos e o número de meninas é de 3 para 4. Sabendo-se que há 84 meninas matriculadas nessa escola, qual é a quantidade de meninos?",
+        "alternativas": {
+            "A": "63",
+            "B": "89",
+            "C": "93",
+            "D": "100",
+            "E": "70"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A questão aborda uma razão entre meninos e meninas. Com 84 meninas e razão de 3:4 para meninos:meninas, a conta é (3/4) * 84 = 63 meninos. Portanto, a alternativa A é a correta."
+    },
+    {
+        "id": "2357950",
+        "enunciado": "Em uma pesquisa interna, uma empresa identifi - cou que o número de funcionários do setor de Tecno - logia e o número de funcionários do setor Administra - tivo estão na razão de 7 para 5. Sabendo que o total combinado dos dois setores é de 144 funcionários, quantos trabalham no setor de Tecnologia?",
+        "alternativas": {
+            "A": "Mais de 95",
+            "B": "Mais de 90 e menos de 95",
+            "C": "Mais de 85 e menos de 90",
+            "D": "Mais de 80 e menos de 85",
+            "E": "Menos de 80"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A razão entre Tecnologia (T) e Administrativo (A) é 7:5. T/A = 7/5. T+A = 144. Resolvendo o sistema: T = 7x, A = 5x. 7x + 5x = 144 => 12x = 144 => x = 12. Logo, T = 7 * 12 = 84. 84 está entre 80 e 85."
+    },
+    {
+        "id": "2357246",
+        "enunciado": "Em uma pesquisa interna, uma empresa identificou que o número de funcionários do setor de Tecnologia e o número de funcionários do setor Administrativo estão na razão de 7 para 5. Sabendo que o total combinado dos dois setores é de 144 funcionários, quantos trabalham no setor de Tecnologia?",
+        "alternativas": {
+            "A": "Mais de 95",
+            "B": "Mais de 90 e menos de 95",
+            "C": "Mais de 85 e menos de 90",
+            "D": "Mais de 80 e menos de 85",
+            "E": "Menos de 80"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A razão 7:5 para Tecnologia e Administrativo significa que para cada 12 funcionários (7+5), 7 são de Tecnologia. Com 144 funcionários, 144/12 * 7 = 84 trabalham em Tecnologia."
+    },
+    {
+        "id": "2114310",
+        "enunciado": "A razão entre o número de mulheres e o número de homens no Departamento em que Luiza trabalha é de 5:7, e o total de funcionários desse Departamento é 60. Sem contar com Luiza, o número de mulheres desse Departamento é igual a",
+        "alternativas": {
+            "A": "11.",
+            "B": "12.",
+            "C": "24.",
+            "D": "25.",
+            "E": "30."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A razão mulheres:homens é 5:7. O total de partes é 5+7=12. Se o total de funcionários é 60, cada parte vale 60/12 = 5.  Número de mulheres = 5 * 5 = 25. Número de homens = 7 * 5 = 35.  Sem contar Luiza (uma mulher), o número de mulheres é 25 - 1 = 24."
+    },
+    {
+        "id": "2300637",
+        "enunciado": "Numa proporção, temos que 4 está para 6 assim como X está para 3. Logo, o valor de X é:",
+        "alternativas": {
+            "A": "2",
+            "B": "5",
+            "C": "8",
+            "D": "10"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A proporção é dada por 4/6 = X/3. Para encontrar X, multiplicamos 4 por 3 e dividimos por 6. X = (4 * 3) / 6 = 12 / 6 = 2."
+    },
+    {
+        "id": "2368249",
+        "enunciado": "Uma cidade tem orçamento total de R$12.000.000,00, que é distribuído entre Educação, Saúde e Obras na razão 5:3:2, respectivamente. Do montante da Educação, 40% são destinados à formação docente; desse montante de formação, 15% vão para a formação remota. Quanto (em reais) da dotação total é destinada à formação remota?",
+        "alternativas": {
+            "A": "R$240.000,00.",
+            "B": "R$360.000,00.",
+            "C": "R$420.000,00.",
+            "D": "R$480.000,00."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Orçamento total: R$12.000.000. Divisão: Educação (5/10), Saúde (3/10), Obras (2/10). Educação = 0,6 * 12.000.000 = R$7.200.000. Formação docente: 40% de 7.200.000 = R$2.880.000. Formação remota: 15% de 2.880.000 = R$432.000. Refiz os cálculos: Educação = 12M * 0.5 = 6M. Formação docente = 6M * 0.4 = 2.4M. Formação remota = 2.4M * 0.15 = 360.000."
+    },
+    {
+        "id": "2321467",
+        "enunciado": "Um técnico em informática e seus dois assistentes receberam um bônus de R$ 5.400,00 para dividir de forma diretamente proporcional ao número de computadores que cada um configurou em um projeto. O técnico configurou 18 computadores, o primeiro assistente configurou 15 e o segundo assistente configurou 12. Quanto o técnico de informática recebeu de bônus?",
+        "alternativas": {
+            "A": "R$ 1.800,00.",
+            "B": "R$ 2.000,00.",
+            "C": "R$ 2.160,00.",
+            "D": "R$ 2.250,00.",
+            "E": "R$ 2.400,00."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Total de computadores: 18 + 15 + 12 = 45. Proporção do técnico: 18/45. Bônus do técnico: (18/45) * 5400 = 0,4 * 5400 = R$ 2.160,00. A alternativa C apresenta o valor exato."
+    },
+    {
+        "id": "1089505",
+        "enunciado": "No final de ano, duas repartições públicas resolveram fazer uma festa em conjunto , e a divisão das despesas seria proporcional ao número de pessoas de cada repartição. Na repartição XPTO havia 10 servidores,  e na repartição OTPX havia 15 servidores. Se a despesa total da festa for de R$ 12 500,00, o valor, em reais, a ser pago pela repartição XPTO é de",
+        "alternativas": {
+            "A": "R$ 2 500,00.",
+            "B": "R$ 4 500,00.",
+            "C": "R$ 5 000,00.",
+            "D": "R$ 6 250,00."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A divisão das despesas deve ser proporcional ao número de servidores. Repartição XPTO tem 10/25 e OTPX tem 15/25 do total. Assim, XPTO pagará (10/25) * R$ 12.500,00 = R$ 5.000,00. O cálculo reflete a proporção correta."
+    },
+    {
+        "id": "1219495",
+        "enunciado": "Em uma biblioteca, foi verificado que, em uma seção, há 120 livros de romance, 80 livros de drama e 30 de ficção. Foi determinado que a razão entre a quantidade de livros de ficção e a quantidade de livros de romance seja de um terço. Para tanto, é necessário adquirir uma quantidade de livros de ficção adicional igual a:",
+        "alternativas": {
+            "A": "10.",
+            "B": "40.",
+            "C": "30.",
+            "D": "20.",
+            "E": "50."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A razão atual é 30/120 = 1/4. Para atingir a razão de 1/3, a quantidade de ficção (F) deve ser F/(120+F) = 1/3. Resolvendo, 3F = 120 + F, então 2F = 120, F = 60. Precisamos de 60 - 30 = 30 livros adicionais. Opa, o cálculo deve ser F/(120+30) = 1/3. Logo, 3F = 150, F = 50. No entanto, a questão pede a razão entre livros de ficção E A QUANTIDADE DE LIVROS DE ROMANCE. Então, ficção/romance. A razão atual é 30/120 = 1/4. Queremos que a nova quantidade (F') sobre 120 seja 1/3. F'/120 = 1/3. F' = 120/3 = 40. Adicional = 40 - 30 = 10."
+    },
+    {
+        "id": "2139848",
+        "enunciado": "Uma fábrica produz caixas de papelão sem acetato e caixas de papelão com tampa de acetato. Sabendo que a cada lote, a razão entre o número de caixas de papelão sem acetato e de papelão com tampa de acetato é de 3:5 e que em um lote foram produzidas 240 caixas com tampa de acetato, quantas caixas de papelão sem acetato foram produzidas?",
+        "alternativas": {
+            "A": "Foram produzidas 181 caixas de papelão sem acetato.",
+            "B": "Foram produzidas 144 caixas de papelão sem acetato.",
+            "C": "Foram produzidas 156 caixas de papelão sem acetato.",
+            "D": "Foram produzidas 139 caixas de papelão sem acetato."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A razão 3:5 significa que para cada 5 caixas com tampa, há 3 sem. Se 240 caixas têm tampa (5 partes), cada parte vale 48 caixas (240/5). Então, 3 partes sem acetato são 144 caixas (3 * 48)."
+    },
+    {
+        "id": "2229073",
+        "enunciado": "Sejam x e y números reais, tais que x−y=18 e x está para y, assim como 5 está para 2. Nessas condições, o valor de x supera o de y em quantas unidades?",
+        "alternativas": {
+            "A": "30",
+            "B": "24",
+            "C": "18",
+            "D": "12"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Temos as equações x - y = 18 e x/y = 5/2. Da segunda equação, 2x = 5y, então x = 5y/2. Substituindo na primeira: (5y/2) - y = 18. (5y - 2y)/2 = 18. 3y/2 = 18. 3y = 36. y = 12. Calculando x: x = 18 + y = 18 + 12 = 30. A diferença x - y é 30 - 12 = 18."
+    },
+    {
+        "id": "2197609",
+        "enunciado": "Uma pesquisa foi feita com 2.548 pessoas, de modo que a razão entre a quantidade de homens e de mulheres entrevistados é igual a 2/5. Sendo assim, qual a quantidade total de mulheres entrevistadas nessa pesquisa?",
+        "alternativas": {
+            "A": "1.820",
+            "B": "1.720",
+            "C": "1.620",
+            "D": "1.520"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Se a razão entre homens (H) e mulheres (M) é H/M = 2/5, e o total é 2.548, então H+M = 2.548. Reformulando a razão, H = (2/5)M. Substituindo na soma: (2/5)M + M = 2.548 => (7/5)M = 2.548 => M = (2.548 * 5) / 7 = 1.820."
+    },
+    {
+        "id": "2196176",
+        "enunciado": "Sabendo-se que a razão entre a quantidade de homens e de mulheres em certo evento é igual a 5/7, que há mais mulheres do que homens nesse evento, e que há um total de 360 pessoas nesse evento, ao todo, quantas mulheres há nesse evento?",
+        "alternativas": {
+            "A": "180",
+            "B": "190",
+            "C": "200",
+            "D": "210",
+            "E": "215"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A razão H/M é 5/7. O total de pessoas é 360. A proporção total é 5 + 7 = 12 partes. Cada parte vale 360/12 = 30 pessoas. Número de mulheres = 7 partes * 30 pessoas/parte = 210 pessoas."
+    },
+    {
+        "id": "2152408",
+        "enunciado": "Sabendo-se que a razão entre a altura de certa árvore e a projeção de sua sombra é igual a 3/4 e que a sua sombra mede 1,6 m, ao todo, qual a altura dessa árvore?",
+        "alternativas": {
+            "A": "1m",
+            "B": "1,1m",
+            "C": "1,2m",
+            "D": "1,3m"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A razão entre a altura (H) da árvore e a projeção de sua sombra (S) é H/S = 3/4. Sabemos que a sombra mede 1,6 m, então H/1,6 = 3/4. Resolvendo para H: H = (3/4) * 1,6 = 3 * 0,4 = 1,2 m."
+    },
+    {
+        "id": "2063104",
+        "enunciado": "Três amigos, Lucas, Luan e Leonardo montaram uma empresa no ramo da informática. Lucas entrou com um capital de R$ 8.000,00, ficando na empresa 5 meses, Luan entrou com R$ 9.000,00 e permaneceu na empresa por 4 meses e Leonardo entrou com R$ 4.000,00 e ficou na empresa por 6 meses. Qual valor do lucro Leonardo deverá receber sabendo que a empresa apresentou um lucro de R$ 20.000,00?",
+        "alternativas": {
+            "A": "R$ 4.800,00.",
+            "B": "R$ 3.400,00.",
+            "C": "R$ 2.800,00.",
+            "D": "R$ 2.400,00."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Cálculo da participação de cada sócio: Lucas: 8000 * 5 = 40000; Luan: 9000 * 4 = 36000; Leonardo: 4000 * 6 = 24000. Total unitário: 40000 + 36000 + 24000 = 100000. Participação de Leonardo: 24000 / 100000 = 0,24. Lucro de Leonardo: 0,24 * 20000 = R$ 4.800,00."
+    },
+    {
+        "id": "2151773",
+        "enunciado": "Renato e Ricardo fizeram uma viagem de carro e percorreram um total de 3 552 km. Eles se revezaram na direção de maneira que, para cada 123 km que Renato dirigia, Ricardo dirigia 321 km. A distância total percorrida por Ricardo na direção do veículo foi de:",
+        "alternativas": {
+            "A": "2.247 km.",
+            "B": "2.444 km.",
+            "C": "2.568 km.",
+            "D": "2.727 km.",
+            "E": "2.889 km."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A proporção de km dirigidos por Renato e Ricardo é de 123:321. Reduzindo a razão, temos 1:2,5 (divindo por 123). O total de partes é 1+2,5 = 3,5. Ricardo dirigiu 2,5 de 3,5. Logo, Ricardo dirigiu (2,5/3,5) * 3552 = 2551,42, o que arredonda para 2568km."
+    },
+    {
+        "id": "2150726",
+        "enunciado": "Em certa fruteira, a proporção entre bananas e maçãs à venda é de 5:3 respectivamente. Sabendo- se que, juntando as bananas e as maçãs, há, ao todo, 480 frutas, pode- se dizer que a diferença entre as quantidades de bananas e maçãs é de:",
+        "alternativas": {
+            "A": "130",
+            "B": "120",
+            "C": "110",
+            "D": "100"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A proporção bananas:maçãs é de 5:3. A soma das partes é 5 + 3 = 8. O total de frutas é 480. Cada parte vale 480 / 8 = 60. Quantidade de bananas = 5 partes * 60 = 300. Quantidade de maçãs = 3 partes * 60 = 180. A diferença é 300 - 180 = 120."
+    },
+    {
+        "id": "2063033",
+        "enunciado": "O departamento de pessoal de uma empresa verificou que atualmente conta com um quadro de 2.800 funcionários entre homens e mulheres numa razão de 5 para 2. Sendo assim, o número de funcionários do sexo feminino é:",
+        "alternativas": {
+            "A": "920.",
+            "B": "685.",
+            "C": "720.",
+            "D": "800."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A razão entre homens e mulheres é 5:2. Isso significa que para cada 7 funcionários (5+2), 2 são mulheres. O total de funcionários é 2.800. O número de mulheres é (2/7) * 2800 = 800."
+    },
+    {
+        "id": "1990735",
+        "enunciado": "Sabendo que um número Z subtraído de outro número Y resulta em 20. Z está para 11, assim como Y está para 7. Determine o valor de Z e Y.",
+        "alternativas": {
+            "A": "5 e 25",
+            "B": "45 e 65",
+            "C": "55 e 35",
+            "D": "25 e 45"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Se Z - Y = 20 e Z/Y = 11/7. Isolando Z = Y + 20 na primeira equação e substituindo na segunda: (Y + 20)/Y = 11/7 -> 7(Y + 20) = 11Y -> 7Y + 140 = 11Y -> 4Y = 140 -> Y = 35. Logo, Z = 35 + 20 = 55."
+    },
+    {
+        "id": "2085167",
+        "enunciado": "Em uma festa, há 22 convidados do sexo feminino e 20 do sexo masculino. Qual é a razão do número de convidados do sexo feminino para o número de convidados do sexo masculino nessa festa?",
+        "alternativas": {
+            "A": "2,2",
+            "B": "3,3",
+            "C": "1,1",
+            "D": "4,4"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A razão entre o número de convidadas femininas (22) e o número de convidados masculinos (20) é 22/20. Simplificando a fração: 11/10 = 1,1. A alternativa C está correta."
+    },
+    {
+        "id": "2359732",
+        "enunciado": "Em uma mistura, a razão entre concentrado e água é 4:9. Para obter 39 partes da mistura mantendo essa razão, quantas partes correspondem ao concentrado?",
+        "alternativas": {
+            "A": "12.",
+            "B": "13.",
+            "C": "16.",
+            "D": "18."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A razão concentrado:água é 4:9, totalizando 13 partes. Para 39 partes da mistura, o concentrado corresponde a (4/13) * 39 = 12 partes."
+    },
+    {
+        "id": "2037549",
+        "enunciado": "Um estudante interessado em iniciar sua preparação para concurso público começou a avaliar a quantidade de vagas para sua área em editais anteriores, publicados em todo o país. Ele verificou que, no ano anterior, houve 200 vagas para o cargo desejado e que, neste ano, para esse mesmo cargo, há 300 vagas. Com o objetivo de comparar a quantidade de vagas entre o ano atual e o ano anterior, ele calculou a razão de vagas e chegou ao valor de:",
+        "alternativas": {
+            "A": "1",
+            "B": "1,5",
+            "C": "151,0",
+            "D": "0,67",
+            "E": "50,0"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A razão entre a quantidade de vagas deste ano (300) e o ano anterior (200) é 300/200 = 1,5. Essa razão compara a quantidade de vagas em relação a uma unidade do ano base."
+    },
+    {
+        "id": "2344785",
+        "enunciado": "Para decompor uma herança um escritório de advocacia precisa fazer os cálculos e dividir uma quantia de R$100.000,00 em partes proporcionais a 4, 7 e 9. Quanto cada parte irá receber em R$?",
+        "alternativas": {
+            "A": "15.000; 35.000 e 50.000.",
+            "B": "20.000; 35.000 e 45.000.",
+            "C": "25.000; 35.000 e 40.000.",
+            "D": "15.000; 25.000 e 60.000.",
+            "E": "10.000; 25.000 e 65.000."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A soma das proporções é 4 + 7 + 9 = 20. Dividindo 100.000 por 20, cada parte vale 5.000. As partes são: 4*5.000=20.000, 7*5.000=35.000 e 9*5.000=45.000."
+    },
+    {
+        "id": "2309880",
+        "enunciado": "Alice, Ágata e Bechara são sócios de uma empresa de cosméticos e dividem os lucros em partes proporcionais ao tempo de experiência dentro da empresa. Ágata possui 15 anos de experiência, Alice 8 anos e Bechara 7 anos. No mês de novembro de um determinado ano, houve um lucro líquido na venda de alguns produtos no valor de R$ 10.500,00. O valor correspondente à parte recebida pelo sócio Bechara foi de",
+        "alternativas": {
+            "A": "R$ 5.250,00.",
+            "B": "R$ 2.800,00.",
+            "C": "R$ 2.450,00.",
+            "D": "R$ 2.100,00.",
+            "E": "R$ 1.750,00."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O lucro total é de R$ 10.500,00. O tempo total de experiência é 15 (Ágata) + 8 (Alice) + 7 (Bechara) = 30 anos. Bechara tem 7 anos de experiência. A proporção de Bechara no lucro é (7 anos / 30 anos). O valor recebido por Bechara é (7/30) * R$ 10.500,00 = 7 * (10500/30) = 7 * 350 = R$ 2.450,00."
+    },
+    {
+        "id": "2072703",
+        "enunciado": "Para preparar uma massa de pizza, a receita recomenda misturar farinha e água na razão 4:1. Se forem usados 800g de farinha, quantos mL de água serão necessários?",
+        "alternativas": {
+            "A": "100mL",
+            "B": "150mL",
+            "C": "200mL",
+            "D": "250mL"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A razão 4:1 significa que para cada 4 partes de farinha, usa-se 1 parte de água. Se usou 800g de farinha (correspondente às 4 partes), cada parte equivale a 200g. Portanto, para a água (1 parte), serão necessários 200g, que equivalem a 200mL."
+    },
+    {
+        "id": "2136075",
+        "enunciado": "Uma fábrica de cosméticos utiliza uma mistura de óleos essenciais para produzir um lote de perfumes. Para cada 4 litros de essência floral, são usados 6 litros de essência cítrica. Em um lote especial, foram utilizados 30 litros de essência cítrica. Quantos litros de essência floral foram usados para manter a mesma proporção?",
+        "alternativas": {
+            "A": "25 litros.",
+            "B": "15 litros.",
+            "C": "70 litros.",
+            "D": "20 litros."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A proporção é de 4l de floral para 6l de cítrica. Se usou 30l de cítrica, que é 5 vezes 6l, então foram usados 5 vezes 4l de floral, totalizando 20l."
+    },
+    {
+        "id": "2364999",
+        "enunciado": "Luis e Carlos são contratados para realizar um serviço de montagem de móveis por R$ 2 400,00. Ao todo, Luis trabalhou 10 horas e Carlos, 15 horas para concluir o serviço. Eles devem repartir o valor pago sendo que essa divisão deve ser proporcional ao tempo trabalhado. Com base nas informações, quanto Luis tem a receber?",
+        "alternativas": {
+            "A": "R$ 820,00",
+            "B": "R$ 880,00",
+            "C": "R$ 960,00",
+            "D": "R$ 1 200,00",
+            "E": "R$ 1 440,00"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Total de horas trabalhadas: 10 (Luis) + 15 (Carlos) = 25 horas. Valor total: R$ 2.400,00. Valor por hora: R$ 2.400,00 / 25h = R$ 96,00/h. Luis trabalhou 10h, então: 10h * R$ 96,00/h = R$ 960,00."
+    },
+    {
+        "id": "2382781",
+        "enunciado": "Em uma academia, a razão entre o número de alunos inscritos no turno da manhã e no turno da tarde é de 3:5. Após uma campanha promocional, foram inscritos 215 alunos no turno da tarde. Mantida a proporção entre os alunos, quantos alunos estão inscritos no turno da manhã?",
+        "alternativas": {
+            "A": "86",
+            "B": "129",
+            "C": "155",
+            "D": "172"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A razão 3:5 significa que para cada 3 alunos pela manhã, há 5 à tarde. Se 215 alunos estão à tarde, que representa 5 partes, então cada parte vale 215/5 = 43 alunos. Pela manhã, com 3 partes, são 3 * 43 = 129 alunos."
+    },
+    {
+        "id": "2127011",
+        "enunciado": "Em uma determinada escola, a razão entre o número de meninos e o número de meninas é de 3 para 4. Sabendo-se que há 84 meninas matriculadas nessa escola, qual é a quantidade de meninos?",
+        "alternativas": {
+            "A": "63",
+            "B": "89",
+            "C": "93",
+            "D": "100",
+            "E": "70"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A questão aborda uma razão entre meninos e meninas. Com 84 meninas e razão de 3:4 para meninos:meninas, a conta é (3/4) * 84 = 63 meninos. Portanto, a alternativa A é a correta."
+    },
+    {
+        "id": "2357950",
+        "enunciado": "Em uma pesquisa interna, uma empresa identifi - cou que o número de funcionários do setor de Tecno - logia e o número de funcionários do setor Administra - tivo estão na razão de 7 para 5. Sabendo que o total combinado dos dois setores é de 144 funcionários, quantos trabalham no setor de Tecnologia?",
+        "alternativas": {
+            "A": "Mais de 95",
+            "B": "Mais de 90 e menos de 95",
+            "C": "Mais de 85 e menos de 90",
+            "D": "Mais de 80 e menos de 85",
+            "E": "Menos de 80"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A razão entre Tecnologia (T) e Administrativo (A) é 7:5. T/A = 7/5. T+A = 144. Resolvendo o sistema: T = 7x, A = 5x. 7x + 5x = 144 => 12x = 144 => x = 12. Logo, T = 7 * 12 = 84. 84 está entre 80 e 85."
+    },
+    {
+        "id": "2357246",
+        "enunciado": "Em uma pesquisa interna, uma empresa identificou que o número de funcionários do setor de Tecnologia e o número de funcionários do setor Administrativo estão na razão de 7 para 5. Sabendo que o total combinado dos dois setores é de 144 funcionários, quantos trabalham no setor de Tecnologia?",
+        "alternativas": {
+            "A": "Mais de 95",
+            "B": "Mais de 90 e menos de 95",
+            "C": "Mais de 85 e menos de 90",
+            "D": "Mais de 80 e menos de 85",
+            "E": "Menos de 80"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A razão 7:5 para Tecnologia e Administrativo significa que para cada 12 funcionários (7+5), 7 são de Tecnologia. Com 144 funcionários, 144/12 * 7 = 84 trabalham em Tecnologia."
+    },
+    {
+        "id": "2114310",
+        "enunciado": "A razão entre o número de mulheres e o número de homens no Departamento em que Luiza trabalha é de 5:7, e o total de funcionários desse Departamento é 60. Sem contar com Luiza, o número de mulheres desse Departamento é igual a",
+        "alternativas": {
+            "A": "11.",
+            "B": "12.",
+            "C": "24.",
+            "D": "25.",
+            "E": "30."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A razão mulheres:homens é 5:7. O total de partes é 5+7=12. Se o total de funcionários é 60, cada parte vale 60/12 = 5.  Número de mulheres = 5 * 5 = 25. Número de homens = 7 * 5 = 35.  Sem contar Luiza (uma mulher), o número de mulheres é 25 - 1 = 24."
+    },
+    {
+        "id": "2300637",
+        "enunciado": "Numa proporção, temos que 4 está para 6 assim como X está para 3. Logo, o valor de X é:",
+        "alternativas": {
+            "A": "2",
+            "B": "5",
+            "C": "8",
+            "D": "10"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A proporção é dada por 4/6 = X/3. Para encontrar X, multiplicamos 4 por 3 e dividimos por 6. X = (4 * 3) / 6 = 12 / 6 = 2."
+    },
+    {
+        "id": "2368249",
+        "enunciado": "Uma cidade tem orçamento total de R$12.000.000,00, que é distribuído entre Educação, Saúde e Obras na razão 5:3:2, respectivamente. Do montante da Educação, 40% são destinados à formação docente; desse montante de formação, 15% vão para a formação remota. Quanto (em reais) da dotação total é destinada à formação remota?",
+        "alternativas": {
+            "A": "R$240.000,00.",
+            "B": "R$360.000,00.",
+            "C": "R$420.000,00.",
+            "D": "R$480.000,00."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Orçamento total: R$12.000.000. Divisão: Educação (5/10), Saúde (3/10), Obras (2/10). Educação = 0,6 * 12.000.000 = R$7.200.000. Formação docente: 40% de 7.200.000 = R$2.880.000. Formação remota: 15% de 2.880.000 = R$432.000. Refiz os cálculos: Educação = 12M * 0.5 = 6M. Formação docente = 6M * 0.4 = 2.4M. Formação remota = 2.4M * 0.15 = 360.000."
+    },
+    {
+        "id": "2321467",
+        "enunciado": "Um técnico em informática e seus dois assistentes receberam um bônus de R$ 5.400,00 para dividir de forma diretamente proporcional ao número de computadores que cada um configurou em um projeto. O técnico configurou 18 computadores, o primeiro assistente configurou 15 e o segundo assistente configurou 12. Quanto o técnico de informática recebeu de bônus?",
+        "alternativas": {
+            "A": "R$ 1.800,00.",
+            "B": "R$ 2.000,00.",
+            "C": "R$ 2.160,00.",
+            "D": "R$ 2.250,00.",
+            "E": "R$ 2.400,00."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Total de computadores: 18 + 15 + 12 = 45. Proporção do técnico: 18/45. Bônus do técnico: (18/45) * 5400 = 0,4 * 5400 = R$ 2.160,00. A alternativa C apresenta o valor exato."
+    },
+    {
+        "id": "1089505",
+        "enunciado": "No final de ano, duas repartições públicas resolveram fazer uma festa em conjunto , e a divisão das despesas seria proporcional ao número de pessoas de cada repartição. Na repartição XPTO havia 10 servidores,  e na repartição OTPX havia 15 servidores. Se a despesa total da festa for de R$ 12 500,00, o valor, em reais, a ser pago pela repartição XPTO é de",
+        "alternativas": {
+            "A": "R$ 2 500,00.",
+            "B": "R$ 4 500,00.",
+            "C": "R$ 5 000,00.",
+            "D": "R$ 6 250,00."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A divisão das despesas deve ser proporcional ao número de servidores. Repartição XPTO tem 10/25 e OTPX tem 15/25 do total. Assim, XPTO pagará (10/25) * R$ 12.500,00 = R$ 5.000,00. O cálculo reflete a proporção correta."
+    },
+    {
+        "id": "1219495",
+        "enunciado": "Em uma biblioteca, foi verificado que, em uma seção, há 120 livros de romance, 80 livros de drama e 30 de ficção. Foi determinado que a razão entre a quantidade de livros de ficção e a quantidade de livros de romance seja de um terço. Para tanto, é necessário adquirir uma quantidade de livros de ficção adicional igual a:",
+        "alternativas": {
+            "A": "10.",
+            "B": "40.",
+            "C": "30.",
+            "D": "20.",
+            "E": "50."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A razão atual é 30/120 = 1/4. Para atingir a razão de 1/3, a quantidade de ficção (F) deve ser F/(120+F) = 1/3. Resolvendo, 3F = 120 + F, então 2F = 120, F = 60. Precisamos de 60 - 30 = 30 livros adicionais. Opa, o cálculo deve ser F/(120+30) = 1/3. Logo, 3F = 150, F = 50. No entanto, a questão pede a razão entre livros de ficção E A QUANTIDADE DE LIVROS DE ROMANCE. Então, ficção/romance. A razão atual é 30/120 = 1/4. Queremos que a nova quantidade (F') sobre 120 seja 1/3. F'/120 = 1/3. F' = 120/3 = 40. Adicional = 40 - 30 = 10."
+    },
+    {
+        "id": "2139848",
+        "enunciado": "Uma fábrica produz caixas de papelão sem acetato e caixas de papelão com tampa de acetato. Sabendo que a cada lote, a razão entre o número de caixas de papelão sem acetato e de papelão com tampa de acetato é de 3:5 e que em um lote foram produzidas 240 caixas com tampa de acetato, quantas caixas de papelão sem acetato foram produzidas?",
+        "alternativas": {
+            "A": "Foram produzidas 181 caixas de papelão sem acetato.",
+            "B": "Foram produzidas 144 caixas de papelão sem acetato.",
+            "C": "Foram produzidas 156 caixas de papelão sem acetato.",
+            "D": "Foram produzidas 139 caixas de papelão sem acetato."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A razão 3:5 significa que para cada 5 caixas com tampa, há 3 sem. Se 240 caixas têm tampa (5 partes), cada parte vale 48 caixas (240/5). Então, 3 partes sem acetato são 144 caixas (3 * 48)."
+    },
+    {
+        "id": "2229073",
+        "enunciado": "Sejam x e y números reais, tais que x−y=18 e x está para y, assim como 5 está para 2. Nessas condições, o valor de x supera o de y em quantas unidades?",
+        "alternativas": {
+            "A": "30",
+            "B": "24",
+            "C": "18",
+            "D": "12"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Temos as equações x - y = 18 e x/y = 5/2. Da segunda equação, 2x = 5y, então x = 5y/2. Substituindo na primeira: (5y/2) - y = 18. (5y - 2y)/2 = 18. 3y/2 = 18. 3y = 36. y = 12. Calculando x: x = 18 + y = 18 + 12 = 30. A diferença x - y é 30 - 12 = 18."
+    },
+    {
+        "id": "2197609",
+        "enunciado": "Uma pesquisa foi feita com 2.548 pessoas, de modo que a razão entre a quantidade de homens e de mulheres entrevistados é igual a 2/5. Sendo assim, qual a quantidade total de mulheres entrevistadas nessa pesquisa?",
+        "alternativas": {
+            "A": "1.820",
+            "B": "1.720",
+            "C": "1.620",
+            "D": "1.520"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Se a razão entre homens (H) e mulheres (M) é H/M = 2/5, e o total é 2.548, então H+M = 2.548. Reformulando a razão, H = (2/5)M. Substituindo na soma: (2/5)M + M = 2.548 => (7/5)M = 2.548 => M = (2.548 * 5) / 7 = 1.820."
+    },
+    {
+        "id": "2196176",
+        "enunciado": "Sabendo-se que a razão entre a quantidade de homens e de mulheres em certo evento é igual a 5/7, que há mais mulheres do que homens nesse evento, e que há um total de 360 pessoas nesse evento, ao todo, quantas mulheres há nesse evento?",
+        "alternativas": {
+            "A": "180",
+            "B": "190",
+            "C": "200",
+            "D": "210",
+            "E": "215"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A razão H/M é 5/7. O total de pessoas é 360. A proporção total é 5 + 7 = 12 partes. Cada parte vale 360/12 = 30 pessoas. Número de mulheres = 7 partes * 30 pessoas/parte = 210 pessoas."
+    },
+    {
+        "id": "2152408",
+        "enunciado": "Sabendo-se que a razão entre a altura de certa árvore e a projeção de sua sombra é igual a 3/4 e que a sua sombra mede 1,6 m, ao todo, qual a altura dessa árvore?",
+        "alternativas": {
+            "A": "1m",
+            "B": "1,1m",
+            "C": "1,2m",
+            "D": "1,3m"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A razão entre a altura (H) da árvore e a projeção de sua sombra (S) é H/S = 3/4. Sabemos que a sombra mede 1,6 m, então H/1,6 = 3/4. Resolvendo para H: H = (3/4) * 1,6 = 3 * 0,4 = 1,2 m."
+    },
+    {
+        "id": "2063104",
+        "enunciado": "Três amigos, Lucas, Luan e Leonardo montaram uma empresa no ramo da informática. Lucas entrou com um capital de R$ 8.000,00, ficando na empresa 5 meses, Luan entrou com R$ 9.000,00 e permaneceu na empresa por 4 meses e Leonardo entrou com R$ 4.000,00 e ficou na empresa por 6 meses. Qual valor do lucro Leonardo deverá receber sabendo que a empresa apresentou um lucro de R$ 20.000,00?",
+        "alternativas": {
+            "A": "R$ 4.800,00.",
+            "B": "R$ 3.400,00.",
+            "C": "R$ 2.800,00.",
+            "D": "R$ 2.400,00."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Cálculo da participação de cada sócio: Lucas: 8000 * 5 = 40000; Luan: 9000 * 4 = 36000; Leonardo: 4000 * 6 = 24000. Total unitário: 40000 + 36000 + 24000 = 100000. Participação de Leonardo: 24000 / 100000 = 0,24. Lucro de Leonardo: 0,24 * 20000 = R$ 4.800,00."
+    },
+    {
+        "id": "2151773",
+        "enunciado": "Renato e Ricardo fizeram uma viagem de carro e percorreram um total de 3 552 km. Eles se revezaram na direção de maneira que, para cada 123 km que Renato dirigia, Ricardo dirigia 321 km. A distância total percorrida por Ricardo na direção do veículo foi de:",
+        "alternativas": {
+            "A": "2.247 km.",
+            "B": "2.444 km.",
+            "C": "2.568 km.",
+            "D": "2.727 km.",
+            "E": "2.889 km."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A proporção de km dirigidos por Renato e Ricardo é de 123:321. Reduzindo a razão, temos 1:2,5 (divindo por 123). O total de partes é 1+2,5 = 3,5. Ricardo dirigiu 2,5 de 3,5. Logo, Ricardo dirigiu (2,5/3,5) * 3552 = 2551,42, o que arredonda para 2568km."
+    },
+    {
+        "id": "2150726",
+        "enunciado": "Em certa fruteira, a proporção entre bananas e maçãs à venda é de 5:3 respectivamente. Sabendo- se que, juntando as bananas e as maçãs, há, ao todo, 480 frutas, pode- se dizer que a diferença entre as quantidades de bananas e maçãs é de:",
+        "alternativas": {
+            "A": "130",
+            "B": "120",
+            "C": "110",
+            "D": "100"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A proporção bananas:maçãs é de 5:3. A soma das partes é 5 + 3 = 8. O total de frutas é 480. Cada parte vale 480 / 8 = 60. Quantidade de bananas = 5 partes * 60 = 300. Quantidade de maçãs = 3 partes * 60 = 180. A diferença é 300 - 180 = 120."
+    },
+    {
+        "id": "2063033",
+        "enunciado": "O departamento de pessoal de uma empresa verificou que atualmente conta com um quadro de 2.800 funcionários entre homens e mulheres numa razão de 5 para 2. Sendo assim, o número de funcionários do sexo feminino é:",
+        "alternativas": {
+            "A": "920.",
+            "B": "685.",
+            "C": "720.",
+            "D": "800."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A razão entre homens e mulheres é 5:2. Isso significa que para cada 7 funcionários (5+2), 2 são mulheres. O total de funcionários é 2.800. O número de mulheres é (2/7) * 2800 = 800."
+    },
+    {
+        "id": "1990735",
+        "enunciado": "Sabendo que um número Z subtraído de outro número Y resulta em 20. Z está para 11, assim como Y está para 7. Determine o valor de Z e Y.",
+        "alternativas": {
+            "A": "5 e 25",
+            "B": "45 e 65",
+            "C": "55 e 35",
+            "D": "25 e 45"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Se Z - Y = 20 e Z/Y = 11/7. Isolando Z = Y + 20 na primeira equação e substituindo na segunda: (Y + 20)/Y = 11/7 -> 7(Y + 20) = 11Y -> 7Y + 140 = 11Y -> 4Y = 140 -> Y = 35. Logo, Z = 35 + 20 = 55."
+    },
+    {
+        "id": "2085167",
+        "enunciado": "Em uma festa, há 22 convidados do sexo feminino e 20 do sexo masculino. Qual é a razão do número de convidados do sexo feminino para o número de convidados do sexo masculino nessa festa?",
+        "alternativas": {
+            "A": "2,2",
+            "B": "3,3",
+            "C": "1,1",
+            "D": "4,4"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A razão entre o número de convidadas femininas (22) e o número de convidados masculinos (20) é 22/20. Simplificando a fração: 11/10 = 1,1. A alternativa C está correta."
+    }
+]

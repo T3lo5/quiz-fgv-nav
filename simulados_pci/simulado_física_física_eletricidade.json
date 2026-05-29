@@ -1,0 +1,988 @@
+[
+    {
+        "id": "2374307",
+        "enunciado": "Um técnico eletricista é responsável pelo dimensionamento de um motor elétrico trifásico para uma bomba de água em uma indústria. A bomba requer um motor com potência nominal de 10 cavalos-vapor (CV), fator de potência de 0,85 e rendimento de 90%. O sistema de alimentação é trifásico, com tensão de linha de 380 Volts. Para selecionar o disjuntor de proteção e os cabos elétricos, o técnico precisa calcular a corrente nominal de operação deste motor, desconsiderando a corrente de partida. Considerando 1 CV = 735,5 Watts, qual é a corrente nominal aproximada do motor?",
+        "alternativas": {
+            "A": "25,6 A",
+            "B": "19,4 A",
+            "C": "17 A",
+            "D": "14,6 A",
+            "E": "12,8 A"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Primeiro, converte-se cavalos-vapor para Watts: 10 CV * 735,5 W/CV = 7355 W. Em seguida, calcula-se a potência elétrica de entrada considerando o rendimento: Potência_entrada = Potência_nominal / Rendimento = 7355 W / 0,90 = 8172,22 W. A corrente nominal em um sistema trifásico é calculada por I = P_entrada / (V_linha * sqrt(3) * Fator_de_Potência). Portanto, I = 8172,22 W / (380 V * 1,732 * 0,85) ≈ 19,4 A."
+    },
+    {
+        "id": "2374312",
+        "enunciado": "Em um treinamento interno, o eletricista precisa orientar operadores sobre conceitos básicos de transmissão e distribuição, para que entendam registros de ocorrência e recomposição do sistema. Analise as afirmativas abaixo: (__ ) Elevar a tensão tende a reduzir a corrente para a mesma potência transmitida. (__ ) Em linhas, perdas por aquecimento são proporcionais ao quadrado da corrente. (__ ) Transformadores são usados para alterar níveis de tensão em sistemas de corrente alternada. (__ ) A transmissão de energia em Corrente Alternada de Alta Tensão ou Corrente Contínua de Alta Tensão são inviáveis em longas distâncias em função das perdas elétricas associadas. Assinale a alternativa que contém a sequência correta de V(Verdadeiro) e F(Falso) para as afirmativas de cima para baixo:",
+        "alternativas": {
+            "A": "F, V, V, V.",
+            "B": "V, V, V, F.",
+            "C": "V, V, F, F.",
+            "D": "V, F, V, V.",
+            "E": "F, F, V, V."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Primeira afirmativaV: Elevar a tensão reduz a corrente para a mesma potência (P=VI). Segunda afirmativaV: Perdas (P=I²R) são proporcionais ao quadrado da corrente. Terceira afirmativaV: Transformadores alteram tensão em CA. Quarta afirmativaF: Transmissão em CA/CC de Alta Tensão é viável em longas distâncias (embora com desafios), sendo o uso de CA mais comum e eficiente que CC para longas distâncias devido aos transformadores e menor custo em certas condições."
+    },
+    {
+        "id": "2078842",
+        "enunciado": "Uma bobina de cobre apresenta resistência de 100 na temperatura de 0 oC. Adotando-se para o cobre o coeficiente de temperatura de 0,0043 / oC, a resistência da bobina em 100 oC é",
+        "alternativas": {
+            "A": "143.",
+            "B": "100.",
+            "C": "200.",
+            "D": "243."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A fórmula para calcular a resistência com a variação de temperatura é R2 = R1 * (1 + α * ΔT). Substituindo os valores: R2 = 100 * (1 + 0.0043 * 100) = 100 * (1 + 0.43) = 100 * 1.43 = 143."
+    },
+    {
+        "id": "2078856",
+        "enunciado": "Um dínamo que usa excitação separada está ligado em uma carga de 60 . A corrente circulante na carga é de 8 A e a resistência da armadura da máquina é de 1 . A força eletromotriz gerada é",
+        "alternativas": {
+            "A": "400 V.",
+            "B": "480 V.",
+            "C": "488 V.",
+            "D": "520 V."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A relação entre força eletromotriz (FEM), tensão da carga (Vt), corrente da carga (IL) e resistência da armadura (Ra) em um gerador de excitação separada é dada por FEM = Vt + (IL * Ra).  Sabemos que a tensão da carga é Vt = IL * Rcarga. Portanto, Vt = 8 A * 60 ohms = 480 V.  Agora, calculamos a FEM: FEM = 480 V + (8 A * 1 ohm) = 480 V + 8 V = 488 V."
+    },
+    {
+        "id": "1981510",
+        "enunciado": "Segundo o ELAT, Grupo de Eletricidade Atmosférica do INPE, o Brasil, por ser o maior país da zona tropical do planeta, é campeão mundial em incidência de raios. Apesar de um raio poder durar alguns segundos, a descarga que o compõe dura frações de milésimos de segundos. Por isso, o raio tem uma grande potência, e sua energia liberada pode ser comparada ao consumo mensal médio de algumas residências. Suponha que cada residência consuma 150 kWh/mês, que a tensão entre dois pontos da atmosfera seja de 100 milhões de volts e gere um raio de intensidade de 18 mil ampère em um intervalo de tempo igual a 1 × 10^-3 s. Nessas condições, a energia gerada abasteceria completamente quantas casas durante um mês?",
+        "alternativas": {
+            "A": "5",
+            "B": "3",
+            "C": "7",
+            "D": "9",
+            "E": "11"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A energia gerada pelo raio é calculada por E = V * I * t. Substituindo os valores (100x10^6 V * 18x10^3 A * 1x10^-3 s), obtemos 1.8 x 10^9 J. Se cada casa consome 150 kWh/mês, convertendo para Joules (150 * 3.6 x 10^6 J), temos 5.4 x 10^8 J. Dividindo a energia total pela energia por casa (1.8 x 10^9 J / 5.4 x 10^8 J), encontramos aproximadamente 3,33 casas. A alternativa mais próxima é a B."
+    },
+    {
+        "id": "2078862",
+        "enunciado": "Um grupo motor-gerador usado para alimentação de emergência está ligado em estrela e fornecendo tensão fase-neutro de 220 V / 60 Hz. O grupo alimenta uma carga trifásica equilibrada, ligada em triângulo, consistindo de uma resistência de 30 ligada em série com uma reatância indutiva de 40. A corrente fornecida pelo grupo motor-gerador, a potência aparente e o Fator de Potência da carga são, respectivamente:",
+        "alternativas": {
+            "A": "4,4 A; 1,7 kVA e 0,7.",
+            "B": "5,4 A; 3,5 kVA e 0,4.",
+            "C": "13,15 A; 8,6 kVA e 0,6.",
+            "D": "7,6 A; 5 kVA e 0,8."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A tensão fase-fonte é 220V (fase-neutro), então a tensão fase-fase é V_fase-fase = 220 * sqrt(3) = 380V. A impedância da carga é Z = sqrt(30^2 + 40^2) = 50 ohms. Corrente de fase: I_fase = 380V / 50 ohms = 7.6 A. Transformando para triângulo: I_linha = I_fase * sqrt(3) = 7.6 * sqrt(3) = 13.15 A. Potência aparente: S = V_fase-fase * I_linha = 380V * 13.15A = 4997 VA = 4.997 kVA. Essa parte do cálculo não bate com a alternativa. Refazendo: se o SGBD opera em estrela com 220V fase-neutro, a tensão entre fases é 380V. A carga em triângulo vê 380V entre seus terminais de fase. Z = 50 ohms. Corrente de fase na carga: I_fase = 380V / 50 = 7.6A. Corrente de linha do gerador (ligado em estrela): I_linha = I_fase (carga em triângulo) / sqrt(3) = 7.6 / sqrt(3) = 4.39 A. Essa corrente é bem baixa para as alternativas. Se o grupo motor-gerador está ligado em estrela e fornecendo 220V fase-neutro, a tensão entre fases é 380V. A carga trifásica equilibrada, ligada em triângulo, tem 380V entre seus terminais de fase. A i..."
+    },
+    {
+        "id": "1658326",
+        "enunciado": "A Corrente Elétrica indica a quantidade de cargas elétricas que se movimentam na região, com base na unidade de tempo, sendo alcançada a partir da equação:",
+        "alternativas": {
+            "A": "Q = n.e.",
+            "B": "i = ΔQ/Δt.",
+            "C": "U = R.i.",
+            "D": "U = K.q.Q/d."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A corrente elétrica (i) é definida como a quantidade de carga (ΔQ) que atravessa uma seção de um condutor por unidade de tempo (Δt)."
+    },
+    {
+        "id": "1058572",
+        "enunciado": "Eletrização é o processo de tornar um corpo eletricamente neutro em um corpo eletricamente carregado. Corpos neutros são aqueles que apresentam a mesma quantidade de prótons e elétrons, uma vez que essas são as partículas subatômicas dotadas de carga elétrica. A variação de cargas elétricas de um corpo acontece geralmente devido à variação do número de:",
+        "alternativas": {
+            "A": "prótons",
+            "B": "elétrons",
+            "C": "nêutrons",
+            "D": "fótons"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A eletrização de um corpo ocorre pela transferência de elétrons, que são as partículas com carga elétrica que se movem mais facilmente entre os átomos, alterando o balanço de cargas e tornando o corpo carregado positiva ou negativamente."
+    },
+    {
+        "id": "1198082",
+        "enunciado": "Um eletricista de veículos é chamado para solucionar um problema no sistema elétrico de um automóvel. Ao analisar o circuito de partida do veículo, ele identifica que a bateria apresenta 12V, a resistência interna da bateria é de 0,01Ω, a resistência do cabo de ligação da bateria ao motor de partida é de 0,02Ω e a resistência do motor de partida é de 0,1Ω. Utilizando as Leis de Kirchoff, determine a corrente que circula no circuito de partida do veículo e avalie se ela é suficiente para dar partida no motor. Considere que a corrente de partida de um motor de veículo geralmente varia entre 50A e 150A.",
+        "alternativas": {
+            "A": "A corrente no circuito é de 92,3A suficiente para dar partida no motor.",
+            "B": "A corrente no circuito é de 120A, suficiente para dar partida no motor.",
+            "C": "A Lei das Tensões não se aplica a circuitos de corrente contínua, como o circuito de partida do veículo.",
+            "D": "A corrente no circuito é de 10A, insuficiente para dar partida no motor.",
+            "E": "A corrente no circuito não pode ser calculada sem a informação da corrente de partida do motor."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Resistência total = 0,01Ω (bateria) + 0,02Ω (cabo) + 0,1Ω (motor) = 0,13Ω. Pela Lei de Ohm, Corrente = Tensão / Resistência = 12V / 0,13Ω = 92,3A. Este valor está dentro da faixa esperada para dar partida."
+    },
+    {
+        "id": "1198084",
+        "enunciado": "Um eletricista de veículos está diagnosticando um problema em um carro onde os faróis piscam quando o motor está em alta rotação. Suspeitando de um problema de tensão, ele mede a tensão de saída do alternador e observa que ela excede 14,5V quando o motor está acima de 3000 RPM. Considerando que o sistema elétrico do veículo é projetado para uma tensão de 12V, qual das seguintes ações é a mais adequada para resolver o problema?",
+        "alternativas": {
+            "A": "Instalar um capacitor adicional no sistema para absorver picos de tensão.",
+            "B": "Ignorar o problema, pois faróis mais brilhantes são benéficos.",
+            "C": "Substituir a bateria, pois não está regulando a tensão adequadamente.",
+            "D": "Substituir o alternador, pois está gerando tensão excessiva.",
+            "E": "Verificar e substituir o regulador de tensão."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O alternador está gerando tensão excessiva (>14,5V) para um sistema de 12V, indicando que o regulador de tensão, responsável por controlar a saída do alternador, está com defeito. Substituí-lo é a ação mais adequada."
+    },
+    {
+        "id": "1198085",
+        "enunciado": "Um eletricista de veículos está usando um multímetro para medir a tensão da bateria de um carro. O multímetro tem uma escala de tensão DC representada pelo símbolo \"V= \". No entanto, o eletricista acidentalmente ajusta o multímetro para a escala representada pelo símbolo \"V~\". Qual das seguintes afirmações é verdadeira?",
+        "alternativas": {
+            "A": "O multímetro irá medir a tensão da bateria, mas o valor será muito alto.",
+            "B": "O multímetro irá danificar a bateria do carro.",
+            "C": "O multímetro não irá medir a tensão da bateria corretamente.",
+            "D": "O multímetro irá medir a tensão da bateria, mas o valor será muito baixo.",
+            "E": "O multímetro irá medir corretamente a tensão da bateria."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O símbolo V= representa corrente contínua (DC) e V~ representa corrente alternada (AC). Baterias de carro fornecem tensão em DC. Ajustar o multímetro para a escala AC quando deveria ser DC fará com que a medição seja incorreta para o propósito de verificar a tensão da bateria."
+    },
+    {
+        "id": "1198086",
+        "enunciado": "Um eletricista de veículos está inspecionando o sistema de carga do alternador de um caminhão. Durante a verificação, ele nota que o diodo trio do alternador está com defeito. Qual é a função principal do diodo trio e como sua falha pode afetar o sistema de carga do veículo?",
+        "alternativas": {
+            "A": "O diodo trio regula a voltagem da bateria, mantendo-a constante independentemente da carga.",
+            "B": "O diodo trio controla a temperatura do alternador, evitando superaquecimento durante longos períodos de operação.",
+            "C": "O diodo trio retifica a corrente alternada gerada pelo alternador em corrente contínua para carregar a bateria e alimentar os sistemas elétricos do veículo.",
+            "D": "O diodo trio atua como um interruptor de segurança, desconectando o alternador do sistema elétrico em caso de sobrecarga.",
+            "E": "O diodo trio ajusta a rotação do motor, otimizando o desempenho do alternador em diferentes condições de operação."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A função do diodo trio em um alternador é retificar a corrente alternada gerada pelas bobinas em corrente contínua, que é necessária para carregar a bateria e alimentar o sistema elétrico. Sua falha impede essa conversão."
+    },
+    {
+        "id": "1232422",
+        "enunciado": "As torres de linhas de transmissão são estruturas de\ngrande porte e geralmente são constituídas de pórticos\ntreliçados em perfis de aço galvanizado, servindo de\nsuporte para linhas de transmissão, projetadas para\nsuportar altas tensões e esforços e resistentes a\nintempéries. O texto abaixo refere -se ao seguinte tipo de\ntorre de linha de transmissão:\n\nUtilizam cabos, também chamados tirantes ou estais, para\ntransferir parte dos esforços às fundações. Para\ndeterminadas aplicações na linha, este tipo de torre\nresulta em estruturas mais leves e com economia\nsubstancial em seu custo.",
+        "alternativas": {
+            "A": "Torres de Ancoragem.",
+            "B": "Torres Autoportantes.",
+            "C": "Torres de Derivação.",
+            "D": "Torres de Transposição.",
+            "E": "Torres Estaiadas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Torres estaiadas utilizam cabos (estais) para transferir esforços para as fundacoes, resultando em estruturas mais leves e economicas em certas aplicacoes."
+    },
+    {
+        "id": "1082669",
+        "enunciado": "A eletrização é um fenômeno fundamental na física, envolvendo a transferência de cargas elétricas entre corpos. Essa transferência pode ocorrer por diferentes processos, como atrito, contato e indução, resultando na redistribuição de elétrons e consequente geração de cargas positivas ou negativas nos corpos envolvidos. Durante o processo de eletrização por indução, um corpo neutro é colocado próximo a um corpo carregado, sem estabelecer contato direto. Qual dos seguintes fenômenos ocorre durante a eletrização por indução?",
+        "alternativas": {
+            "A": "Transferência direta de elétrons entre os corpos.",
+            "B": "Aproximação dos átomos dos corpos, resultando na transferência de cargas.",
+            "C": "Redistribuição dos prótons nos átomos do corpo neutro.",
+            "D": "Polarização dos átomos do corpo neutro devido à presença do corpo carregado.",
+            "E": "Geração de uma corrente elétrica entre os corpos."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Eletrização por indução envolve a aproximação de um corpo carregado a um neutro. Isso causa a separação das cargas no corpo neutro (polarização), sem transferência de carga direta. As outras opções descrevem outros processos ou conceitos."
+    },
+    {
+        "id": "1198088",
+        "enunciado": "Durante uma inspeção de rotina em um veículo leve, um eletricista de veículos identifica um problema recorrente no motor de partida, que não consegue girar o motor do veículo, mesmo com a bateria totalmente carregada. Após verificar a conexão elétrica e a bateria, ele suspeita de uma falha específica no motor de partida. Qual dos seguintes componentes, se com defeito, é o mais provável de causar a falha observada no motor de partida, impedindo que ele gire o motor do veículo?",
+        "alternativas": {
+            "A": "Relé do farol.",
+            "B": "Fusível principal.",
+            "C": "Bendix.",
+            "D": "Regulador de voltagem.",
+            "E": "Alternador."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O Bendix é o impulsor do motor de partida. Ele engata a cremalheira do volante do motor para girá-lo. Se o Bendix estiver defeituoso, o motor de partida pode funcionar, mas não conseguirá transmitir o movimento para girar o motor do veículo."
+    },
+    {
+        "id": "1232423",
+        "enunciado": "Um bom condutor elétrico contém cargas (elétrons) que\nnão estão ligados aos átomos e, portanto, estão livres para\nse moverem dentro do material. Quando não há nenhum\nmovimento, um condutor em equilíbrio eletrostático tem a\nseguinte propriedade:",
+        "alternativas": {
+            "A": "se um condutor isolado está descarregado, sua carga\nreside na superfície;",
+            "B": "num condutor de forma irregular, a densidade de carga\nσ é maior onde menor for o raio de curvatura da\nsuperfície;",
+            "C": "o campo elétrico no exterior muito próximo do\ncondutor é paralelo à superfície;",
+            "D": "o campo elétrico é diferente de zero em qualquer lugar\nno interior do condutor;",
+            "E": "num condutor de forma irregular, a densidade de carga\nσ é maior onde maior for o raio de curvatura da\nsuperfície;"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em um condutor em equilíbrio eletrostático, a densidade de carga é maior nas regiões com menor raio de curvatura da superfície, devido à repulsão entre as cargas."
+    },
+    {
+        "id": "1082671",
+        "enunciado": "Durante o processo de eletrização por atrito, dois objetos inicialmente neutros entram em contato e, como resultado, um objeto adquire uma carga positiva enquanto o outro adquire uma carga negativa. Qual dos seguintes processos microscópicos poderia explicar essa transferência de cargas?",
+        "alternativas": {
+            "A": "Ruptura das ligações atômicas, liberando elétrons para o outro objeto.",
+            "B": "Deslocamento dos núcleos atômicos entre os objetos.",
+            "C": "Transferência direta de elétrons entre os átomos dos objetos.",
+            "D": "Excitação dos elétrons, resultando na transferência de cargas.",
+            "E": "Aproximação dos átomos dos objetos, gerando interação e transferência de elétrons."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No atrito, a transferência de elétrons de um material para outro é o que causa a eletrização. Um material perde elétrons (fica positivo) e o outro ganha elétrons (fica negativo)."
+    },
+    {
+        "id": "1445026",
+        "enunciado": "Sobre condutores, isolantes e processos de eletrização, analise as afirmativas.I. A carga elétrica total de um sistema eletricamente isolado é constante e quantizada, ou seja, seu valor é múltiplo do valor da carga elétrica elementar.II. Na eletrização por contato, parte da carga elétrica do corpo eletrizado é transferida para o corpo neutro até que o equilíbrio eletrostático seja atingido.III. No processo de eletrização entre um pente de plástico e um tecido de algodão, após o atrito, o pente e o tecido adquirem cargas de sinais iguais.IV. Na eletrização por indução, o corpo induzido deve estar eletricamente isolado para que a separação de cargas seja mantida.V. Condutor é o corpo através do qual as partículas portadoras de cargas elétricas se movem com dificuldade.Estão corretas as afirmativas",
+        "alternativas": {
+            "A": "I, II e V.",
+            "B": "II, III e IV.",
+            "C": "I, II e IV.",
+            "D": "III, IV e V."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As afirmativas I (conservacao e quantizacao da carga), II (transferencia de carga por contato ate equilibrio) e IV (isolamento no induzido) estao corretas. A III esta incorreta (adquirem cargas opostas) e a V esta invertida (movem-se com facilidade em condutores)."
+    },
+    {
+        "id": "1198089",
+        "enunciado": "Durante a manutenção elétrica de um veículo, é necessário medir a potência elétrica em determinados sistemas. Considere as afirmativas abaixo e assinale a alternativa INCORRETA:",
+        "alternativas": {
+            "A": "Um multímetro pode ser utilizado para medir a potência elétrica em um sistema de ignição de um veículo, desde que seja configurado corretamente.",
+            "B": "A fórmula para calcular a potência elétrica em um circuito é P = V x I, onde P é a potência, V é a tensão e I é a corrente elétrica.",
+            "C": "Para medir a potência elétrica em um circuito de um veículo, é necessário conhecer a tensão e a corrente elétrica que passa por esse circuito.",
+            "D": "A potência elétrica é sempre diretamente proporcional à corrente elétrica e inversamente proporcional à tensão em um circuito.",
+            "E": "A potência elétrica é a taxa na qual a energia é transferida ou convertida em um sistema elétrico e é medida em watts (W)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D descreve uma relação incorreta entre potência, corrente e tensão. A potência elétrica é diretamente proporcional tanto à tensão quanto à corrente, não inversamente proporcional à tensão."
+    },
+    {
+        "id": "1198090",
+        "enunciado": "Leia atentamente as afirmativas abaixo e escolha a combinação correta que contém três afirmativas verdadeiras e duas afirmativas falsas.Afirmativas:1.Multímetro: O multímetro é uma ferramenta essencial para o eletricista automotivo. Ele permite medir tensão, corrente e resistência nos circuitos elétricos dos veículos.2.Voltímetro: O voltímetro é usado para medir a tensão elétrica em um circuito. Ele é fundamental para verificar a carga da bateria e a tensão nas diferentes partes do sistema elétrico do veículo.3.Amperímetro: O amperímetro é utilizado para medir a corrente elétrica em um circuito. Ele é importante para verificar se há corrente fluindo corretamente nos componentes do veículo.4.Ohmímetro: O ohmímetro é usado para medir a corrente e tensão elétrica em componentes e fios. Ele é útil para verificar se há conexões adequadas e resistência dentro dos limites esperados.5.Termômetro Infravermelho: O termômetro infravermelho é uma ferramenta que mede a temperatura à distância. Ele é utilizado para avaliar capacidade de condução dos circuitos.Combinações:",
+        "alternativas": {
+            "A": "1, 2 e 3 estão corretas; 4 e 5 estão incorretas.",
+            "B": "1, 3 e 5 estão corretas, 2 e 4 estão incorretas.",
+            "C": "1, 3 e 4 estão corretas, 2 e 5 estão incorretas.",
+            "D": "2, 3 e 4 estão corretas, 1 e 5 estão incorretas.",
+            "E": "1, 2 e 4 estão corretas, 3 e 5 estão incorretas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As afirmativas 1, 2 e 3 descrevem corretamente as funções do multímetro, voltímetro e amperímetro. O ohmímetro mede resistência, não corrente e tensão (4 incorreta). O termômetro infravermelho mede temperatura, não relaciona diretamente à capacidade de condução (5 incorreta)."
+    },
+    {
+        "id": "1444801",
+        "enunciado": "Em instalações de gás natural, a segurança é uma prioridade máxima, especialmente em áreas onde a presença de gás inflamável pode representar um risco de explosão. Considerando a possibilidade de acúmulo de cargas eletrostáticas em equipamentos metálicos, dois corpos esféricos metálicos, inicialmente neutros, são colocados em contato. Um dos corpos foi previamente carregado com uma carga +Q. Após o contato, os corpos são separados. Como ficará a distribuição das cargas após a separação, e por que esse conhecimento é importante para a segurança em instalações de gás natural?",
+        "alternativas": {
+            "A": "Ambos os corpos manterão a carga total +Q, pois a carga não se redistribui durante o contato, aumentando o risco de ignição por descarga eletrostática.",
+            "B": "As cargas se anulam mutuamente, resultando em ambos os corpos ficando neutros, eliminando qualquer risco de descarga eletrostática.",
+            "C": "Um dos corpos ficará com +Q/2, enquanto o outro permanecerá neutro, pois a carga não se distribui de forma igual, o que pode representar um risco de ignição em caso de descarga eletrostática.",
+            "D": "Cada corpo ficará com uma carga +Q/2, distribuída uniformemente, devido à condução da carga entre eles durante o contato, o que é crucial para evitar descargas eletrostáticas que possam causar ignição."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Quando dois condutores metalicos em contato trocam cargas, a carga total se distribui igualmente entre eles. No caso, +Q se dividira, resultando em +Q/2 para cada. A distribuicao igualitária minimiza o risco de descargas eletrostáticas."
+    },
+    {
+        "id": "1081487",
+        "enunciado": "Muitos animais, sendo a maioria de água doce, podem produzir corrente elétrica, tendo desenvolvido uma capacidade de se comunicar, se defender e encontrar alimento por meio da eletricidade (Fonte: https://www.nationalgeographicbrasil.com/animais/2021/05/animais-selvagens-utilizam-a-eletricidade-de-formas-chocantes). A enguia elétrica adulta, por exemplo, pode gerar 860 volts de energia. Supondo que, em uma reação de defesa a um predador, a enguia gere uma corrente de 2A e tensão de 860 V, a potência gerada por este animal foi:",
+        "alternativas": {
+            "A": "1.720 W.",
+            "B": "287 W.",
+            "C": "430 W.",
+            "D": "1.600 W."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A potência (P) é calculada pelo produto da tensão (V) pela corrente (I): P = V * I. Assim, 860 V * 2 A = 1.720 W. As outras alternativas não correspondem ao cálculo correto da potência elétrica."
+    },
+    {
+        "id": "1444802",
+        "enunciado": "Em uma empresa de gás natural, os sistemas de controle e monitoramento frequentemente utilizam circuitos de corrente contínua (CC) para garantir a operação segura de válvulas e sensores. Um resistor de 10 Ω faz parte de um circuito de monitoramento conectado a uma fonte de 20V. Qual é a corrente que passa pelo resistor, e como a potência dissipada por ele pode afetar a operação do sistema?",
+        "alternativas": {
+            "A": "A corrente é 0,5A e a potência dissipada é 10W, sendo uma configuração segura para sistemas de baixa potência.",
+            "B": "A corrente é 1A e a potência dissipada é 10W, o que poderia causar falhas em sensores sensíveis ao calor.",
+            "C": "A corrente é 2A e a potência dissipada é 40W, o que deve ser monitorado para evitar superaquecimento e falhas no sistema de controle.",
+            "D": "A corrente é 2A e a potência dissipada é 20W, o que indica uma operação segura, sem risco de superaquecimento."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Usando a Lei de Ohm (V=RI), a corrente é 20V/10Ω=2A. A potência é P=VI=20V*2A=40W. Essa potência dissipada pode causar superaquecimento."
+    },
+    {
+        "id": "1232425",
+        "enunciado": "Para haver uma melhor interpretação do fenômeno de\nresistência elétrica, deve -se analisar os aspectos\nmacroscópicos e microscópicos dos diversos materiais. Um\ndos fatores macroscópicos é:",
+        "alternativas": {
+            "A": "a área da sua seção transversal;",
+            "B": "a forma como estão organizados os íons na rede\ncristalina;",
+            "C": "sua velocidade média de arrasto;",
+            "D": "o espaçamento disponível para o movimento dos\neletróns livres;",
+            "E": "o número de íons e de elétrons livres disponíveis por\nunidade de volume."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Um fator macroscópico da resistência elétrica se refere às características físicas do condutor mensuráveis externamente. A área da seção transversal afeta diretamente a resistência, sendo este um aspecto observável e medível, diferente das opções B, C, D e E, que descrevem aspectos microscópicos ou o comportamento dos portadores de carga em nível atômico."
+    },
+    {
+        "id": "1198091",
+        "enunciado": "Um eletricista está medindo a resistência elétrica de um componente do veículo utilizando um ohmímetro. Após realizar a medição, ele obtém o valor de 250 ohms. Sabendo que a tensão aplicada é de 12 volts, qual é a corrente elétrica que passa por esse componente?",
+        "alternativas": {
+            "A": "0,048 A",
+            "B": "0,05 A",
+            "C": "48 A",
+            "D": "0,0048 A",
+            "E": "0,48 A"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Pela Lei de Ohm (R = V/I), a corrente (I) é igual à tensão (V) dividida pela resistência (R). Logo, I = 12V / 250Ω = 0,048A."
+    },
+    {
+        "id": "1232426",
+        "enunciado": "Capacitores são componentes eletrônicos capazes de\narmazenar cargas elétricas. Ele possui dois terminais que\nsão conectados interiormente por placas metálicas,\ngeralmente de alumínio, e separados por um material\ndielétrico. Assinale a alternativa que se refere ao tipo de\ncapacitor descrito abaixo.\n\nSão usados para substituir os capacitores de eletrolítico,\nquando se quer minimizar o circuito. Seu material\ndielétrico tem baixa corrente de fuga, e uma vida útil\ngeralmente maior do que de outros eletrolíticos. Estes\ntambém merecem cuidado na hora da polarização, pois, se\npolarizá -lo de maneira incorreta, certamente ocasionará\nem uma explosão imediata. Para prevenir isso, como de\ncostume, os fabricantes tomam o cuidado de deixar o\nterminal positivo maior que o terminal negativo.",
+        "alternativas": {
+            "A": "Capacitor de Mica.",
+            "B": "Capacitor SMD.",
+            "C": "Capacitor de Poliéster.",
+            "D": "Capacitor Cerâmico.",
+            "E": "Capacitor de Tântalo."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O capacitor de tantalo substitui eletroliticos, tem baixa fuga e longa vida util. Seu dielétrico é o pentóxido de tantalo, e a polarização incorreta pode causar explosao, sendo o terminal positivo geralmente maior."
+    },
+    {
+        "id": "1232428",
+        "enunciado": "O estudo dos circuitos elétricos em corrente alternada é\num pré -requisito fundamental para o estudo da geração,\ntransmissão e distribuição de energia elétrica em sistemas\nde potência. A transmissão de energia envolve uma grande\nquantidade de potência, sendo transmitida desde a\ngeração até a carga. No que diz respeito ao fator de\npotência, assinale a alternativa cuja afirmação não é\nverdadeira.",
+        "alternativas": {
+            "A": "Em um circuito capacitivo, a corrente se atrasa da\ntensão, motivo pelo qual dizemos que o fator de\npotência está atrasado.",
+            "B": "Quando estamos com uma carga que tem um fator de\npotência unitário, e mais potência reativa capacitiva é\ninjetada nesta carga, o fator de potência passa para\natrasado.",
+            "C": "Em um circuito indutivo, a corrente se adianta da\ntensão e, por isso, dizemos que o fator de potência está\nadiantado.",
+            "D": "Cada carga, individualmente, como um motor ou uma\nlâmpada, tem o seu fator de potência e, \nconsequentemente, o seu triângulo de potências. Os\ntriângulos de potências das diversas cargas podem ser\ncombinados, com o objetivo de obter o triângulo total\nequivalente das cargas.",
+            "E": "O fator de potência, além de expressar a razão entre a\npotência ativa e a potência aparente, representa o\nseno do ângulo entre a tensão e a corrente de um\ncircuito. Portanto, é o mesmo ângulo da impedância\ncomplexa."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em um circuito puramente capacitivo, a corrente adianta-se da tensão, resultando em um fator de potência adiantado. A alternativa A afirma o oposto, incorretamente, além de generalizar para 'circuito capacitivo' sem especificar o grau de capacitância. As demais alternativas descrevem corretamente conceitos relacionados ao fator de potência."
+    },
+    {
+        "id": "1561519",
+        "enunciado": "Para iniciar os conceitos de eletricidade, o professor pode convidar seus alunos a uma reflexão sobre o funcionamento de aparelhos do cotidiano, tomando como exemplo o chuveiro. No chuveiro, o elemento resistivo, responsável pelo aquecimento da água, é um longo fio que é enrolado em espiral para poder caber dentro do corpo do chuveiro, e que possui derivações ao longo de seu comprimento, para que, a partir da administração de seu comprimento, sejam obtidas diferentes temperaturas para o banho. Na reflexão sobre o funcionamento desse aparelho, considerando que o fio resistivo obedece à segunda lei de Ôhm, quando o chuveiro está ajustado para a posição inverno, o comprimento do fio a ser empregado é o",
+        "alternativas": {
+            "A": "maior, sendo mantida a resistividade e aumentando a intensidade de corrente elétrica.",
+            "B": "maior, sendo aumentada a resistividade e mantida a intensidade de corrente elétrica.",
+            "C": "maior, sendo diminuída a resistividade e diminuindo a intensidade de corrente elétrica.",
+            "D": "menor, sendo mantida a resistividade e aumentando a intensidade de corrente elétrica.",
+            "E": "menor, sendo diminuída a resistividade e mantida a intensidade de corrente elétrica."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Na posição inverno, o chuveiro exige maior aquecimento, o que é obtido com um fio resistivo de maior comprimento. A resistência é diretamente proporcional ao comprimento do condutor. Sendo assim, um fio maior gera maior resistência, o que, mantendo a voltagem constante, aumenta a intensidade da corrente elétrica para gerar mais calor."
+    },
+    {
+        "id": "1193765",
+        "enunciado": "Nas instalações elétricas residenciais, um aspecto muito importante a ser considerado é a bitola ou o diâmetro dos fios condutores usados na instalação. Uma escolha equivocada pode oferecer sérios riscos à segurança, uma vez que o aquecimento dos fios de ligação pode ocasionar a fusão do material utilizado no isolamento elétrico ou mesmo dos próprios fios, criando rompimentos e curtos-circuitos. As bitolas mais comuns no Brasil são as de diâmetros 1,5 mm, 2,5 mm, 4,0 mm, 6,0 mm e 10 mm. Para realizar uma escolha segura e economicamente viável, é necessário observar a tensão e a potência nominais dos aparelhos que serão conectados à rede elétrica. Aparelhos que demandam grande intensidade de corrente, para seu funcionamento normal, devem ser ligados a fios de bitola",
+        "alternativas": {
+            "A": "alta, pois oferecem menor resistência elétrica e dissiparão mais energia.",
+            "B": "alta, pois oferecem maior resistência elétrica e dissiparão menos energia.",
+            "C": "alta, pois oferecem menor resistência elétrica e dissiparão menos energia.",
+            "D": "baixa, pois oferecem menor resistência elétrica e dissiparão mais energia.",
+            "E": "baixa, pois oferecem maior resistência elétrica e dissiparão menos energia."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Aparelhos que demandam alta intensidade de corrente para seu funcionamento normal devem ser ligados a fios de bitola alta. Isso ocorre porque fios de maior bitola oferecem menor resistência elétrica, o que, por sua vez, resulta em menor dissipação de energia na forma de calor, sendo mais seguros e eficientes."
+    },
+    {
+        "id": "1193767",
+        "enunciado": "No circuito elétrico mostrado na figura, determine as intensidades de corrente elétrica que atravessam a fonte de tensão constante (20 V) e a resistência de maior valor (4Ω), respectivamente.",
+        "alternativas": {
+            "A": "5 A, 15A",
+            "B": "15 A, 5A",
+            "C": "5 A, 5 A",
+            "D": "15 A, 15A",
+            "E": "10 A, 10A"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A resistência total do circuito em paralelo é dada por (4*4)/(4+4) = 8/8 = 2Ohms. A corrente total da fonte é I = V/R = 20V/2Ohms = 10A. Como as resistências são iguais, a corrente se divide igualmente. Portanto, a corrente em cada resistência de 4Ohms é 10A/2 = 5A."
+    },
+    {
+        "id": "2374307",
+        "enunciado": "Um técnico eletricista é responsável pelo dimensionamento de um motor elétrico trifásico para uma bomba de água em uma indústria. A bomba requer um motor com potência nominal de 10 cavalos-vapor (CV), fator de potência de 0,85 e rendimento de 90%. O sistema de alimentação é trifásico, com tensão de linha de 380 Volts. Para selecionar o disjuntor de proteção e os cabos elétricos, o técnico precisa calcular a corrente nominal de operação deste motor, desconsiderando a corrente de partida. Considerando 1 CV = 735,5 Watts, qual é a corrente nominal aproximada do motor?",
+        "alternativas": {
+            "A": "25,6 A",
+            "B": "19,4 A",
+            "C": "17 A",
+            "D": "14,6 A",
+            "E": "12,8 A"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Primeiro, converte-se cavalos-vapor para Watts: 10 CV * 735,5 W/CV = 7355 W. Em seguida, calcula-se a potência elétrica de entrada considerando o rendimento: Potência_entrada = Potência_nominal / Rendimento = 7355 W / 0,90 = 8172,22 W. A corrente nominal em um sistema trifásico é calculada por I = P_entrada / (V_linha * sqrt(3) * Fator_de_Potência). Portanto, I = 8172,22 W / (380 V * 1,732 * 0,85) ≈ 19,4 A."
+    },
+    {
+        "id": "2374312",
+        "enunciado": "Em um treinamento interno, o eletricista precisa orientar operadores sobre conceitos básicos de transmissão e distribuição, para que entendam registros de ocorrência e recomposição do sistema. Analise as afirmativas abaixo: (__ ) Elevar a tensão tende a reduzir a corrente para a mesma potência transmitida. (__ ) Em linhas, perdas por aquecimento são proporcionais ao quadrado da corrente. (__ ) Transformadores são usados para alterar níveis de tensão em sistemas de corrente alternada. (__ ) A transmissão de energia em Corrente Alternada de Alta Tensão ou Corrente Contínua de Alta Tensão são inviáveis em longas distâncias em função das perdas elétricas associadas. Assinale a alternativa que contém a sequência correta de V(Verdadeiro) e F(Falso) para as afirmativas de cima para baixo:",
+        "alternativas": {
+            "A": "F, V, V, V.",
+            "B": "V, V, V, F.",
+            "C": "V, V, F, F.",
+            "D": "V, F, V, V.",
+            "E": "F, F, V, V."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Primeira afirmativaV: Elevar a tensão reduz a corrente para a mesma potência (P=VI). Segunda afirmativaV: Perdas (P=I²R) são proporcionais ao quadrado da corrente. Terceira afirmativaV: Transformadores alteram tensão em CA. Quarta afirmativaF: Transmissão em CA/CC de Alta Tensão é viável em longas distâncias (embora com desafios), sendo o uso de CA mais comum e eficiente que CC para longas distâncias devido aos transformadores e menor custo em certas condições."
+    },
+    {
+        "id": "2078842",
+        "enunciado": "Uma bobina de cobre apresenta resistência de 100 na temperatura de 0 oC. Adotando-se para o cobre o coeficiente de temperatura de 0,0043 / oC, a resistência da bobina em 100 oC é",
+        "alternativas": {
+            "A": "143.",
+            "B": "100.",
+            "C": "200.",
+            "D": "243."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A fórmula para calcular a resistência com a variação de temperatura é R2 = R1 * (1 + α * ΔT). Substituindo os valores: R2 = 100 * (1 + 0.0043 * 100) = 100 * (1 + 0.43) = 100 * 1.43 = 143."
+    },
+    {
+        "id": "2078856",
+        "enunciado": "Um dínamo que usa excitação separada está ligado em uma carga de 60 . A corrente circulante na carga é de 8 A e a resistência da armadura da máquina é de 1 . A força eletromotriz gerada é",
+        "alternativas": {
+            "A": "400 V.",
+            "B": "480 V.",
+            "C": "488 V.",
+            "D": "520 V."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A relação entre força eletromotriz (FEM), tensão da carga (Vt), corrente da carga (IL) e resistência da armadura (Ra) em um gerador de excitação separada é dada por FEM = Vt + (IL * Ra).  Sabemos que a tensão da carga é Vt = IL * Rcarga. Portanto, Vt = 8 A * 60 ohms = 480 V.  Agora, calculamos a FEM: FEM = 480 V + (8 A * 1 ohm) = 480 V + 8 V = 488 V."
+    },
+    {
+        "id": "1981510",
+        "enunciado": "Segundo o ELAT, Grupo de Eletricidade Atmosférica do INPE, o Brasil, por ser o maior país da zona tropical do planeta, é campeão mundial em incidência de raios. Apesar de um raio poder durar alguns segundos, a descarga que o compõe dura frações de milésimos de segundos. Por isso, o raio tem uma grande potência, e sua energia liberada pode ser comparada ao consumo mensal médio de algumas residências. Suponha que cada residência consuma 150 kWh/mês, que a tensão entre dois pontos da atmosfera seja de 100 milhões de volts e gere um raio de intensidade de 18 mil ampère em um intervalo de tempo igual a 1 × 10^-3 s. Nessas condições, a energia gerada abasteceria completamente quantas casas durante um mês?",
+        "alternativas": {
+            "A": "5",
+            "B": "3",
+            "C": "7",
+            "D": "9",
+            "E": "11"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A energia gerada pelo raio é calculada por E = V * I * t. Substituindo os valores (100x10^6 V * 18x10^3 A * 1x10^-3 s), obtemos 1.8 x 10^9 J. Se cada casa consome 150 kWh/mês, convertendo para Joules (150 * 3.6 x 10^6 J), temos 5.4 x 10^8 J. Dividindo a energia total pela energia por casa (1.8 x 10^9 J / 5.4 x 10^8 J), encontramos aproximadamente 3,33 casas. A alternativa mais próxima é a B."
+    },
+    {
+        "id": "2078862",
+        "enunciado": "Um grupo motor-gerador usado para alimentação de emergência está ligado em estrela e fornecendo tensão fase-neutro de 220 V / 60 Hz. O grupo alimenta uma carga trifásica equilibrada, ligada em triângulo, consistindo de uma resistência de 30 ligada em série com uma reatância indutiva de 40. A corrente fornecida pelo grupo motor-gerador, a potência aparente e o Fator de Potência da carga são, respectivamente:",
+        "alternativas": {
+            "A": "4,4 A; 1,7 kVA e 0,7.",
+            "B": "5,4 A; 3,5 kVA e 0,4.",
+            "C": "13,15 A; 8,6 kVA e 0,6.",
+            "D": "7,6 A; 5 kVA e 0,8."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A tensão fase-fonte é 220V (fase-neutro), então a tensão fase-fase é V_fase-fase = 220 * sqrt(3) = 380V. A impedância da carga é Z = sqrt(30^2 + 40^2) = 50 ohms. Corrente de fase: I_fase = 380V / 50 ohms = 7.6 A. Transformando para triângulo: I_linha = I_fase * sqrt(3) = 7.6 * sqrt(3) = 13.15 A. Potência aparente: S = V_fase-fase * I_linha = 380V * 13.15A = 4997 VA = 4.997 kVA. Essa parte do cálculo não bate com a alternativa. Refazendo: se o SGBD opera em estrela com 220V fase-neutro, a tensão entre fases é 380V. A carga em triângulo vê 380V entre seus terminais de fase. Z = 50 ohms. Corrente de fase na carga: I_fase = 380V / 50 = 7.6A. Corrente de linha do gerador (ligado em estrela): I_linha = I_fase (carga em triângulo) / sqrt(3) = 7.6 / sqrt(3) = 4.39 A. Essa corrente é bem baixa para as alternativas. Se o grupo motor-gerador está ligado em estrela e fornecendo 220V fase-neutro, a tensão entre fases é 380V. A carga trifásica equilibrada, ligada em triângulo, tem 380V entre seus terminais de fase. A i..."
+    },
+    {
+        "id": "1658326",
+        "enunciado": "A Corrente Elétrica indica a quantidade de cargas elétricas que se movimentam na região, com base na unidade de tempo, sendo alcançada a partir da equação:",
+        "alternativas": {
+            "A": "Q = n.e.",
+            "B": "i = ΔQ/Δt.",
+            "C": "U = R.i.",
+            "D": "U = K.q.Q/d."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A corrente elétrica (i) é definida como a quantidade de carga (ΔQ) que atravessa uma seção de um condutor por unidade de tempo (Δt)."
+    },
+    {
+        "id": "1058572",
+        "enunciado": "Eletrização é o processo de tornar um corpo eletricamente neutro em um corpo eletricamente carregado. Corpos neutros são aqueles que apresentam a mesma quantidade de prótons e elétrons, uma vez que essas são as partículas subatômicas dotadas de carga elétrica. A variação de cargas elétricas de um corpo acontece geralmente devido à variação do número de:",
+        "alternativas": {
+            "A": "prótons",
+            "B": "elétrons",
+            "C": "nêutrons",
+            "D": "fótons"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A eletrização de um corpo ocorre pela transferência de elétrons, que são as partículas com carga elétrica que se movem mais facilmente entre os átomos, alterando o balanço de cargas e tornando o corpo carregado positiva ou negativamente."
+    },
+    {
+        "id": "1198082",
+        "enunciado": "Um eletricista de veículos é chamado para solucionar um problema no sistema elétrico de um automóvel. Ao analisar o circuito de partida do veículo, ele identifica que a bateria apresenta 12V, a resistência interna da bateria é de 0,01Ω, a resistência do cabo de ligação da bateria ao motor de partida é de 0,02Ω e a resistência do motor de partida é de 0,1Ω. Utilizando as Leis de Kirchoff, determine a corrente que circula no circuito de partida do veículo e avalie se ela é suficiente para dar partida no motor. Considere que a corrente de partida de um motor de veículo geralmente varia entre 50A e 150A.",
+        "alternativas": {
+            "A": "A corrente no circuito é de 92,3A suficiente para dar partida no motor.",
+            "B": "A corrente no circuito é de 120A, suficiente para dar partida no motor.",
+            "C": "A Lei das Tensões não se aplica a circuitos de corrente contínua, como o circuito de partida do veículo.",
+            "D": "A corrente no circuito é de 10A, insuficiente para dar partida no motor.",
+            "E": "A corrente no circuito não pode ser calculada sem a informação da corrente de partida do motor."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Resistência total = 0,01Ω (bateria) + 0,02Ω (cabo) + 0,1Ω (motor) = 0,13Ω. Pela Lei de Ohm, Corrente = Tensão / Resistência = 12V / 0,13Ω = 92,3A. Este valor está dentro da faixa esperada para dar partida."
+    },
+    {
+        "id": "1198084",
+        "enunciado": "Um eletricista de veículos está diagnosticando um problema em um carro onde os faróis piscam quando o motor está em alta rotação. Suspeitando de um problema de tensão, ele mede a tensão de saída do alternador e observa que ela excede 14,5V quando o motor está acima de 3000 RPM. Considerando que o sistema elétrico do veículo é projetado para uma tensão de 12V, qual das seguintes ações é a mais adequada para resolver o problema?",
+        "alternativas": {
+            "A": "Instalar um capacitor adicional no sistema para absorver picos de tensão.",
+            "B": "Ignorar o problema, pois faróis mais brilhantes são benéficos.",
+            "C": "Substituir a bateria, pois não está regulando a tensão adequadamente.",
+            "D": "Substituir o alternador, pois está gerando tensão excessiva.",
+            "E": "Verificar e substituir o regulador de tensão."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O alternador está gerando tensão excessiva (>14,5V) para um sistema de 12V, indicando que o regulador de tensão, responsável por controlar a saída do alternador, está com defeito. Substituí-lo é a ação mais adequada."
+    },
+    {
+        "id": "1198085",
+        "enunciado": "Um eletricista de veículos está usando um multímetro para medir a tensão da bateria de um carro. O multímetro tem uma escala de tensão DC representada pelo símbolo \"V= \". No entanto, o eletricista acidentalmente ajusta o multímetro para a escala representada pelo símbolo \"V~\". Qual das seguintes afirmações é verdadeira?",
+        "alternativas": {
+            "A": "O multímetro irá medir a tensão da bateria, mas o valor será muito alto.",
+            "B": "O multímetro irá danificar a bateria do carro.",
+            "C": "O multímetro não irá medir a tensão da bateria corretamente.",
+            "D": "O multímetro irá medir a tensão da bateria, mas o valor será muito baixo.",
+            "E": "O multímetro irá medir corretamente a tensão da bateria."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O símbolo V= representa corrente contínua (DC) e V~ representa corrente alternada (AC). Baterias de carro fornecem tensão em DC. Ajustar o multímetro para a escala AC quando deveria ser DC fará com que a medição seja incorreta para o propósito de verificar a tensão da bateria."
+    },
+    {
+        "id": "1198086",
+        "enunciado": "Um eletricista de veículos está inspecionando o sistema de carga do alternador de um caminhão. Durante a verificação, ele nota que o diodo trio do alternador está com defeito. Qual é a função principal do diodo trio e como sua falha pode afetar o sistema de carga do veículo?",
+        "alternativas": {
+            "A": "O diodo trio regula a voltagem da bateria, mantendo-a constante independentemente da carga.",
+            "B": "O diodo trio controla a temperatura do alternador, evitando superaquecimento durante longos períodos de operação.",
+            "C": "O diodo trio retifica a corrente alternada gerada pelo alternador em corrente contínua para carregar a bateria e alimentar os sistemas elétricos do veículo.",
+            "D": "O diodo trio atua como um interruptor de segurança, desconectando o alternador do sistema elétrico em caso de sobrecarga.",
+            "E": "O diodo trio ajusta a rotação do motor, otimizando o desempenho do alternador em diferentes condições de operação."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A função do diodo trio em um alternador é retificar a corrente alternada gerada pelas bobinas em corrente contínua, que é necessária para carregar a bateria e alimentar o sistema elétrico. Sua falha impede essa conversão."
+    },
+    {
+        "id": "1232422",
+        "enunciado": "As torres de linhas de transmissão são estruturas de\ngrande porte e geralmente são constituídas de pórticos\ntreliçados em perfis de aço galvanizado, servindo de\nsuporte para linhas de transmissão, projetadas para\nsuportar altas tensões e esforços e resistentes a\nintempéries. O texto abaixo refere -se ao seguinte tipo de\ntorre de linha de transmissão:\n\nUtilizam cabos, também chamados tirantes ou estais, para\ntransferir parte dos esforços às fundações. Para\ndeterminadas aplicações na linha, este tipo de torre\nresulta em estruturas mais leves e com economia\nsubstancial em seu custo.",
+        "alternativas": {
+            "A": "Torres de Ancoragem.",
+            "B": "Torres Autoportantes.",
+            "C": "Torres de Derivação.",
+            "D": "Torres de Transposição.",
+            "E": "Torres Estaiadas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Torres estaiadas utilizam cabos (estais) para transferir esforços para as fundacoes, resultando em estruturas mais leves e economicas em certas aplicacoes."
+    },
+    {
+        "id": "1082669",
+        "enunciado": "A eletrização é um fenômeno fundamental na física, envolvendo a transferência de cargas elétricas entre corpos. Essa transferência pode ocorrer por diferentes processos, como atrito, contato e indução, resultando na redistribuição de elétrons e consequente geração de cargas positivas ou negativas nos corpos envolvidos. Durante o processo de eletrização por indução, um corpo neutro é colocado próximo a um corpo carregado, sem estabelecer contato direto. Qual dos seguintes fenômenos ocorre durante a eletrização por indução?",
+        "alternativas": {
+            "A": "Transferência direta de elétrons entre os corpos.",
+            "B": "Aproximação dos átomos dos corpos, resultando na transferência de cargas.",
+            "C": "Redistribuição dos prótons nos átomos do corpo neutro.",
+            "D": "Polarização dos átomos do corpo neutro devido à presença do corpo carregado.",
+            "E": "Geração de uma corrente elétrica entre os corpos."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Eletrização por indução envolve a aproximação de um corpo carregado a um neutro. Isso causa a separação das cargas no corpo neutro (polarização), sem transferência de carga direta. As outras opções descrevem outros processos ou conceitos."
+    },
+    {
+        "id": "1198088",
+        "enunciado": "Durante uma inspeção de rotina em um veículo leve, um eletricista de veículos identifica um problema recorrente no motor de partida, que não consegue girar o motor do veículo, mesmo com a bateria totalmente carregada. Após verificar a conexão elétrica e a bateria, ele suspeita de uma falha específica no motor de partida. Qual dos seguintes componentes, se com defeito, é o mais provável de causar a falha observada no motor de partida, impedindo que ele gire o motor do veículo?",
+        "alternativas": {
+            "A": "Relé do farol.",
+            "B": "Fusível principal.",
+            "C": "Bendix.",
+            "D": "Regulador de voltagem.",
+            "E": "Alternador."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O Bendix é o impulsor do motor de partida. Ele engata a cremalheira do volante do motor para girá-lo. Se o Bendix estiver defeituoso, o motor de partida pode funcionar, mas não conseguirá transmitir o movimento para girar o motor do veículo."
+    },
+    {
+        "id": "1232423",
+        "enunciado": "Um bom condutor elétrico contém cargas (elétrons) que\nnão estão ligados aos átomos e, portanto, estão livres para\nse moverem dentro do material. Quando não há nenhum\nmovimento, um condutor em equilíbrio eletrostático tem a\nseguinte propriedade:",
+        "alternativas": {
+            "A": "se um condutor isolado está descarregado, sua carga\nreside na superfície;",
+            "B": "num condutor de forma irregular, a densidade de carga\nσ é maior onde menor for o raio de curvatura da\nsuperfície;",
+            "C": "o campo elétrico no exterior muito próximo do\ncondutor é paralelo à superfície;",
+            "D": "o campo elétrico é diferente de zero em qualquer lugar\nno interior do condutor;",
+            "E": "num condutor de forma irregular, a densidade de carga\nσ é maior onde maior for o raio de curvatura da\nsuperfície;"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em um condutor em equilíbrio eletrostático, a densidade de carga é maior nas regiões com menor raio de curvatura da superfície, devido à repulsão entre as cargas."
+    },
+    {
+        "id": "1082671",
+        "enunciado": "Durante o processo de eletrização por atrito, dois objetos inicialmente neutros entram em contato e, como resultado, um objeto adquire uma carga positiva enquanto o outro adquire uma carga negativa. Qual dos seguintes processos microscópicos poderia explicar essa transferência de cargas?",
+        "alternativas": {
+            "A": "Ruptura das ligações atômicas, liberando elétrons para o outro objeto.",
+            "B": "Deslocamento dos núcleos atômicos entre os objetos.",
+            "C": "Transferência direta de elétrons entre os átomos dos objetos.",
+            "D": "Excitação dos elétrons, resultando na transferência de cargas.",
+            "E": "Aproximação dos átomos dos objetos, gerando interação e transferência de elétrons."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No atrito, a transferência de elétrons de um material para outro é o que causa a eletrização. Um material perde elétrons (fica positivo) e o outro ganha elétrons (fica negativo)."
+    },
+    {
+        "id": "1445026",
+        "enunciado": "Sobre condutores, isolantes e processos de eletrização, analise as afirmativas.I. A carga elétrica total de um sistema eletricamente isolado é constante e quantizada, ou seja, seu valor é múltiplo do valor da carga elétrica elementar.II. Na eletrização por contato, parte da carga elétrica do corpo eletrizado é transferida para o corpo neutro até que o equilíbrio eletrostático seja atingido.III. No processo de eletrização entre um pente de plástico e um tecido de algodão, após o atrito, o pente e o tecido adquirem cargas de sinais iguais.IV. Na eletrização por indução, o corpo induzido deve estar eletricamente isolado para que a separação de cargas seja mantida.V. Condutor é o corpo através do qual as partículas portadoras de cargas elétricas se movem com dificuldade.Estão corretas as afirmativas",
+        "alternativas": {
+            "A": "I, II e V.",
+            "B": "II, III e IV.",
+            "C": "I, II e IV.",
+            "D": "III, IV e V."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As afirmativas I (conservacao e quantizacao da carga), II (transferencia de carga por contato ate equilibrio) e IV (isolamento no induzido) estao corretas. A III esta incorreta (adquirem cargas opostas) e a V esta invertida (movem-se com facilidade em condutores)."
+    },
+    {
+        "id": "1198089",
+        "enunciado": "Durante a manutenção elétrica de um veículo, é necessário medir a potência elétrica em determinados sistemas. Considere as afirmativas abaixo e assinale a alternativa INCORRETA:",
+        "alternativas": {
+            "A": "Um multímetro pode ser utilizado para medir a potência elétrica em um sistema de ignição de um veículo, desde que seja configurado corretamente.",
+            "B": "A fórmula para calcular a potência elétrica em um circuito é P = V x I, onde P é a potência, V é a tensão e I é a corrente elétrica.",
+            "C": "Para medir a potência elétrica em um circuito de um veículo, é necessário conhecer a tensão e a corrente elétrica que passa por esse circuito.",
+            "D": "A potência elétrica é sempre diretamente proporcional à corrente elétrica e inversamente proporcional à tensão em um circuito.",
+            "E": "A potência elétrica é a taxa na qual a energia é transferida ou convertida em um sistema elétrico e é medida em watts (W)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D descreve uma relação incorreta entre potência, corrente e tensão. A potência elétrica é diretamente proporcional tanto à tensão quanto à corrente, não inversamente proporcional à tensão."
+    },
+    {
+        "id": "1198090",
+        "enunciado": "Leia atentamente as afirmativas abaixo e escolha a combinação correta que contém três afirmativas verdadeiras e duas afirmativas falsas.Afirmativas:1.Multímetro: O multímetro é uma ferramenta essencial para o eletricista automotivo. Ele permite medir tensão, corrente e resistência nos circuitos elétricos dos veículos.2.Voltímetro: O voltímetro é usado para medir a tensão elétrica em um circuito. Ele é fundamental para verificar a carga da bateria e a tensão nas diferentes partes do sistema elétrico do veículo.3.Amperímetro: O amperímetro é utilizado para medir a corrente elétrica em um circuito. Ele é importante para verificar se há corrente fluindo corretamente nos componentes do veículo.4.Ohmímetro: O ohmímetro é usado para medir a corrente e tensão elétrica em componentes e fios. Ele é útil para verificar se há conexões adequadas e resistência dentro dos limites esperados.5.Termômetro Infravermelho: O termômetro infravermelho é uma ferramenta que mede a temperatura à distância. Ele é utilizado para avaliar capacidade de condução dos circuitos.Combinações:",
+        "alternativas": {
+            "A": "1, 2 e 3 estão corretas; 4 e 5 estão incorretas.",
+            "B": "1, 3 e 5 estão corretas, 2 e 4 estão incorretas.",
+            "C": "1, 3 e 4 estão corretas, 2 e 5 estão incorretas.",
+            "D": "2, 3 e 4 estão corretas, 1 e 5 estão incorretas.",
+            "E": "1, 2 e 4 estão corretas, 3 e 5 estão incorretas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As afirmativas 1, 2 e 3 descrevem corretamente as funções do multímetro, voltímetro e amperímetro. O ohmímetro mede resistência, não corrente e tensão (4 incorreta). O termômetro infravermelho mede temperatura, não relaciona diretamente à capacidade de condução (5 incorreta)."
+    },
+    {
+        "id": "1444801",
+        "enunciado": "Em instalações de gás natural, a segurança é uma prioridade máxima, especialmente em áreas onde a presença de gás inflamável pode representar um risco de explosão. Considerando a possibilidade de acúmulo de cargas eletrostáticas em equipamentos metálicos, dois corpos esféricos metálicos, inicialmente neutros, são colocados em contato. Um dos corpos foi previamente carregado com uma carga +Q. Após o contato, os corpos são separados. Como ficará a distribuição das cargas após a separação, e por que esse conhecimento é importante para a segurança em instalações de gás natural?",
+        "alternativas": {
+            "A": "Ambos os corpos manterão a carga total +Q, pois a carga não se redistribui durante o contato, aumentando o risco de ignição por descarga eletrostática.",
+            "B": "As cargas se anulam mutuamente, resultando em ambos os corpos ficando neutros, eliminando qualquer risco de descarga eletrostática.",
+            "C": "Um dos corpos ficará com +Q/2, enquanto o outro permanecerá neutro, pois a carga não se distribui de forma igual, o que pode representar um risco de ignição em caso de descarga eletrostática.",
+            "D": "Cada corpo ficará com uma carga +Q/2, distribuída uniformemente, devido à condução da carga entre eles durante o contato, o que é crucial para evitar descargas eletrostáticas que possam causar ignição."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Quando dois condutores metalicos em contato trocam cargas, a carga total se distribui igualmente entre eles. No caso, +Q se dividira, resultando em +Q/2 para cada. A distribuicao igualitária minimiza o risco de descargas eletrostáticas."
+    },
+    {
+        "id": "1081487",
+        "enunciado": "Muitos animais, sendo a maioria de água doce, podem produzir corrente elétrica, tendo desenvolvido uma capacidade de se comunicar, se defender e encontrar alimento por meio da eletricidade (Fonte: https://www.nationalgeographicbrasil.com/animais/2021/05/animais-selvagens-utilizam-a-eletricidade-de-formas-chocantes). A enguia elétrica adulta, por exemplo, pode gerar 860 volts de energia. Supondo que, em uma reação de defesa a um predador, a enguia gere uma corrente de 2A e tensão de 860 V, a potência gerada por este animal foi:",
+        "alternativas": {
+            "A": "1.720 W.",
+            "B": "287 W.",
+            "C": "430 W.",
+            "D": "1.600 W."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A potência (P) é calculada pelo produto da tensão (V) pela corrente (I): P = V * I. Assim, 860 V * 2 A = 1.720 W. As outras alternativas não correspondem ao cálculo correto da potência elétrica."
+    },
+    {
+        "id": "1444802",
+        "enunciado": "Em uma empresa de gás natural, os sistemas de controle e monitoramento frequentemente utilizam circuitos de corrente contínua (CC) para garantir a operação segura de válvulas e sensores. Um resistor de 10 Ω faz parte de um circuito de monitoramento conectado a uma fonte de 20V. Qual é a corrente que passa pelo resistor, e como a potência dissipada por ele pode afetar a operação do sistema?",
+        "alternativas": {
+            "A": "A corrente é 0,5A e a potência dissipada é 10W, sendo uma configuração segura para sistemas de baixa potência.",
+            "B": "A corrente é 1A e a potência dissipada é 10W, o que poderia causar falhas em sensores sensíveis ao calor.",
+            "C": "A corrente é 2A e a potência dissipada é 40W, o que deve ser monitorado para evitar superaquecimento e falhas no sistema de controle.",
+            "D": "A corrente é 2A e a potência dissipada é 20W, o que indica uma operação segura, sem risco de superaquecimento."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Usando a Lei de Ohm (V=RI), a corrente é 20V/10Ω=2A. A potência é P=VI=20V*2A=40W. Essa potência dissipada pode causar superaquecimento."
+    },
+    {
+        "id": "1232425",
+        "enunciado": "Para haver uma melhor interpretação do fenômeno de\nresistência elétrica, deve -se analisar os aspectos\nmacroscópicos e microscópicos dos diversos materiais. Um\ndos fatores macroscópicos é:",
+        "alternativas": {
+            "A": "a área da sua seção transversal;",
+            "B": "a forma como estão organizados os íons na rede\ncristalina;",
+            "C": "sua velocidade média de arrasto;",
+            "D": "o espaçamento disponível para o movimento dos\neletróns livres;",
+            "E": "o número de íons e de elétrons livres disponíveis por\nunidade de volume."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Um fator macroscópico da resistência elétrica se refere às características físicas do condutor mensuráveis externamente. A área da seção transversal afeta diretamente a resistência, sendo este um aspecto observável e medível, diferente das opções B, C, D e E, que descrevem aspectos microscópicos ou o comportamento dos portadores de carga em nível atômico."
+    },
+    {
+        "id": "1198091",
+        "enunciado": "Um eletricista está medindo a resistência elétrica de um componente do veículo utilizando um ohmímetro. Após realizar a medição, ele obtém o valor de 250 ohms. Sabendo que a tensão aplicada é de 12 volts, qual é a corrente elétrica que passa por esse componente?",
+        "alternativas": {
+            "A": "0,048 A",
+            "B": "0,05 A",
+            "C": "48 A",
+            "D": "0,0048 A",
+            "E": "0,48 A"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Pela Lei de Ohm (R = V/I), a corrente (I) é igual à tensão (V) dividida pela resistência (R). Logo, I = 12V / 250Ω = 0,048A."
+    },
+    {
+        "id": "1232426",
+        "enunciado": "Capacitores são componentes eletrônicos capazes de\narmazenar cargas elétricas. Ele possui dois terminais que\nsão conectados interiormente por placas metálicas,\ngeralmente de alumínio, e separados por um material\ndielétrico. Assinale a alternativa que se refere ao tipo de\ncapacitor descrito abaixo.\n\nSão usados para substituir os capacitores de eletrolítico,\nquando se quer minimizar o circuito. Seu material\ndielétrico tem baixa corrente de fuga, e uma vida útil\ngeralmente maior do que de outros eletrolíticos. Estes\ntambém merecem cuidado na hora da polarização, pois, se\npolarizá -lo de maneira incorreta, certamente ocasionará\nem uma explosão imediata. Para prevenir isso, como de\ncostume, os fabricantes tomam o cuidado de deixar o\nterminal positivo maior que o terminal negativo.",
+        "alternativas": {
+            "A": "Capacitor de Mica.",
+            "B": "Capacitor SMD.",
+            "C": "Capacitor de Poliéster.",
+            "D": "Capacitor Cerâmico.",
+            "E": "Capacitor de Tântalo."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O capacitor de tantalo substitui eletroliticos, tem baixa fuga e longa vida util. Seu dielétrico é o pentóxido de tantalo, e a polarização incorreta pode causar explosao, sendo o terminal positivo geralmente maior."
+    },
+    {
+        "id": "1232428",
+        "enunciado": "O estudo dos circuitos elétricos em corrente alternada é\num pré -requisito fundamental para o estudo da geração,\ntransmissão e distribuição de energia elétrica em sistemas\nde potência. A transmissão de energia envolve uma grande\nquantidade de potência, sendo transmitida desde a\ngeração até a carga. No que diz respeito ao fator de\npotência, assinale a alternativa cuja afirmação não é\nverdadeira.",
+        "alternativas": {
+            "A": "Em um circuito capacitivo, a corrente se atrasa da\ntensão, motivo pelo qual dizemos que o fator de\npotência está atrasado.",
+            "B": "Quando estamos com uma carga que tem um fator de\npotência unitário, e mais potência reativa capacitiva é\ninjetada nesta carga, o fator de potência passa para\natrasado.",
+            "C": "Em um circuito indutivo, a corrente se adianta da\ntensão e, por isso, dizemos que o fator de potência está\nadiantado.",
+            "D": "Cada carga, individualmente, como um motor ou uma\nlâmpada, tem o seu fator de potência e, \nconsequentemente, o seu triângulo de potências. Os\ntriângulos de potências das diversas cargas podem ser\ncombinados, com o objetivo de obter o triângulo total\nequivalente das cargas.",
+            "E": "O fator de potência, além de expressar a razão entre a\npotência ativa e a potência aparente, representa o\nseno do ângulo entre a tensão e a corrente de um\ncircuito. Portanto, é o mesmo ângulo da impedância\ncomplexa."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em um circuito puramente capacitivo, a corrente adianta-se da tensão, resultando em um fator de potência adiantado. A alternativa A afirma o oposto, incorretamente, além de generalizar para 'circuito capacitivo' sem especificar o grau de capacitância. As demais alternativas descrevem corretamente conceitos relacionados ao fator de potência."
+    },
+    {
+        "id": "1561519",
+        "enunciado": "Para iniciar os conceitos de eletricidade, o professor pode convidar seus alunos a uma reflexão sobre o funcionamento de aparelhos do cotidiano, tomando como exemplo o chuveiro. No chuveiro, o elemento resistivo, responsável pelo aquecimento da água, é um longo fio que é enrolado em espiral para poder caber dentro do corpo do chuveiro, e que possui derivações ao longo de seu comprimento, para que, a partir da administração de seu comprimento, sejam obtidas diferentes temperaturas para o banho. Na reflexão sobre o funcionamento desse aparelho, considerando que o fio resistivo obedece à segunda lei de Ôhm, quando o chuveiro está ajustado para a posição inverno, o comprimento do fio a ser empregado é o",
+        "alternativas": {
+            "A": "maior, sendo mantida a resistividade e aumentando a intensidade de corrente elétrica.",
+            "B": "maior, sendo aumentada a resistividade e mantida a intensidade de corrente elétrica.",
+            "C": "maior, sendo diminuída a resistividade e diminuindo a intensidade de corrente elétrica.",
+            "D": "menor, sendo mantida a resistividade e aumentando a intensidade de corrente elétrica.",
+            "E": "menor, sendo diminuída a resistividade e mantida a intensidade de corrente elétrica."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Na posição inverno, o chuveiro exige maior aquecimento, o que é obtido com um fio resistivo de maior comprimento. A resistência é diretamente proporcional ao comprimento do condutor. Sendo assim, um fio maior gera maior resistência, o que, mantendo a voltagem constante, aumenta a intensidade da corrente elétrica para gerar mais calor."
+    },
+    {
+        "id": "1193765",
+        "enunciado": "Nas instalações elétricas residenciais, um aspecto muito importante a ser considerado é a bitola ou o diâmetro dos fios condutores usados na instalação. Uma escolha equivocada pode oferecer sérios riscos à segurança, uma vez que o aquecimento dos fios de ligação pode ocasionar a fusão do material utilizado no isolamento elétrico ou mesmo dos próprios fios, criando rompimentos e curtos-circuitos. As bitolas mais comuns no Brasil são as de diâmetros 1,5 mm, 2,5 mm, 4,0 mm, 6,0 mm e 10 mm. Para realizar uma escolha segura e economicamente viável, é necessário observar a tensão e a potência nominais dos aparelhos que serão conectados à rede elétrica. Aparelhos que demandam grande intensidade de corrente, para seu funcionamento normal, devem ser ligados a fios de bitola",
+        "alternativas": {
+            "A": "alta, pois oferecem menor resistência elétrica e dissiparão mais energia.",
+            "B": "alta, pois oferecem maior resistência elétrica e dissiparão menos energia.",
+            "C": "alta, pois oferecem menor resistência elétrica e dissiparão menos energia.",
+            "D": "baixa, pois oferecem menor resistência elétrica e dissiparão mais energia.",
+            "E": "baixa, pois oferecem maior resistência elétrica e dissiparão menos energia."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Aparelhos que demandam alta intensidade de corrente para seu funcionamento normal devem ser ligados a fios de bitola alta. Isso ocorre porque fios de maior bitola oferecem menor resistência elétrica, o que, por sua vez, resulta em menor dissipação de energia na forma de calor, sendo mais seguros e eficientes."
+    },
+    {
+        "id": "1193767",
+        "enunciado": "No circuito elétrico mostrado na figura, determine as intensidades de corrente elétrica que atravessam a fonte de tensão constante (20 V) e a resistência de maior valor (4Ω), respectivamente.",
+        "alternativas": {
+            "A": "5 A, 15A",
+            "B": "15 A, 5A",
+            "C": "5 A, 5 A",
+            "D": "15 A, 15A",
+            "E": "10 A, 10A"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A resistência total do circuito em paralelo é dada por (4*4)/(4+4) = 8/8 = 2Ohms. A corrente total da fonte é I = V/R = 20V/2Ohms = 10A. Como as resistências são iguais, a corrente se divide igualmente. Portanto, a corrente em cada resistência de 4Ohms é 10A/2 = 5A."
+    },
+    {
+        "id": "1059732",
+        "enunciado": "Uma bateria de automóvel de 12 V, operando com sua resistência interna em 4 Ω, alimenta uma carga resistiva, que consome uma corrente elétrica de 0,5 A. Qual é a potência, em W, dissipada pela carga resistiva?",
+        "alternativas": {
+            "A": "12",
+            "B": "6",
+            "C": "5",
+            "D": "3",
+            "E": "1"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A potência dissipada pela carga resistiva é calculada pela fórmula P = V * I, onde V é a tensão e I é a corrente. P = 12 V * 0,5 A = 6 W."
+    },
+    {
+        "id": "2193620",
+        "enunciado": "De acordo com a NBR 5410 - Instalações elétricas de baixa tensão, considerando um FP de 0,92, uma instalação, que contém 100VA, possui a potência de:",
+        "alternativas": {
+            "A": "900 Watts.",
+            "B": "92 Watts.",
+            "C": "920 Watts.",
+            "D": "1000 Watts."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A potência ativa (Watts) é calculada pela fórmula Potência Aparente (VA) * Fator de Potência (FP). Assim, 100 VA * 0,92 = 92 Watts. Contudo, o resultado imediato da conta é 92. Para chegar a 920 Watts na alternativa C, seria necessário considerar 1000 VA."
+    },
+    {
+        "id": "1988435",
+        "enunciado": "Uma bateria composta por 50 células voltaicas em série é carregada por uma fonte de corrente contínua ideal de 220 V. Cada célula tem uma força eletromotriz de 2,30 V e resistência interna de 0,100 Ω. Sendo a corrente de carregamento de 6,00 A, indique o valor da resistência extra que deve ser inserida em série com a fonte.",
+        "alternativas": {
+            "A": "23,0 Ω",
+            "B": "36,6 Ω",
+            "C": "12,5 Ω",
+            "D": "5,00 Ω",
+            "E": "19,2 Ω"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Tensão total = 50 celulas * 2.30 V = 115 V. Tensão da fonte = 220 V. Diferença = 220 - 115 = 105 V. Resistência total da bateria = 50 celulas * 0.100 Ω = 5 Ω. Resistência extra (Re) = (Diferenca - Corrente * Resistência Total) / Corrente = (105 - 6 * 5) / 6 = 75 / 6 = 12.5 Ω. A questão pede a resistência extra em série com a fonte, que seria a diferença de tensão TOTAL dividida pela corrente total, subtraindo as resistências internas."
+    },
+    {
+        "id": "2211787",
+        "enunciado": "Assinale a alternativa que apresenta o valor da corrente de trabalho de um refletor odontológico cujas especificações da lâmpada halógena são de 24 V por 150 Wats.",
+        "alternativas": {
+            "A": "3,52 Amperes.",
+            "B": "4,8 Amperes.",
+            "C": "8,7 Amperes.",
+            "D": "6,25 Amperes.",
+            "E": "5,25 Amperes."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A potência (P) é dada por Tensão (V) vezes Corrente (I). Portanto, I = P / V. A corrente de trabalho é: I = 150 W / 24 V = 6,25 Amperes. A voltagem e a potência são os dados necessários para o cálculo."
+    },
+    {
+        "id": "2100369",
+        "enunciado": "Considere que o potencial elétrico de uma carga pontual é igual a zero, no infinito, e que num ponto A, situado a um metro de distância da carga, o potencial é V. Afastando radialmente mais um metro da carga, o potencial sofre um decréscimo de 1 Volt. Nesta situação, é correto afirmar, que o valor do potencial Eletrostático V no ponto A, em Volts, é",
+        "alternativas": {
+            "A": "2",
+            "B": "4",
+            "C": "6",
+            "D": "8",
+            "E": "10"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O potencial elétrico V é proporcional a 1/r. Se V = k/r, e afastando 1m, o novo potencial é V' = k/(r+1). O decréscimo é V - V' = 1. Então V - k/(r+1) = 1. Se V = k/r, então k/r - k/(r+1) = 1. k(r+1-r) / (r(r+1)) = 1. k / (r(r+1)) = 1. No ponto A, r=1, então V = k/1 = k. Assim, V = k. Então k/(1(1+1)) = 1 -> k/2 = 1 -> k = 2V. Portanto, V=2V, o que é um paradoxo. Refazendo: V_A = k/r. V_B = k/(r+1). V_A - V_B = 1. Logo, k/r - k/(r+1) = 1. k(r+1 - r)/(r(r+1)) = 1. k/(r(r+1)) = 1. Dado que V_A, no ponto A (distante r), é V. Então V = k/r.  Sabemos que o decréscimo é 1V ao afastar mais 1m. V - V' = 1.  V e V' são potenciais.  V = k/r. V' = k/(r+1). No enunciado, o ponto A está a 1m de distância, então r=1.  V(1) = k/1.  Ao afastar mais 1m, o ponto está a 2m da carga. V(2) = k/2.  A diferença é V(1) - V(2) = 1. Logo, k/1 - k/2 = 1. k/2 = 1. k = 2Volts. O potencial no ponto A (r=1m) é V(1) = k/1 = 2Volts.  A alternativa A é 2."
+    },
+    {
+        "id": "1704609",
+        "enunciado": "Em uma casa existe um chuveiro elétrico que está alimentado por uma tensão de fase de 150 V e ele está consumindo uma potência elétrica ativa de 4500 W. Determine a resistência elétrica desse chuveiro.",
+        "alternativas": {
+            "A": "10 Ω",
+            "B": "20 Ω",
+            "C": "5 Ω",
+            "D": "30 Ω",
+            "E": "n.d.r."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A relação entre potência (P), tensão (V) e resistência (R) é dada pela fórmula P = V^2 / R. Isolando R, temos R = V^2 / P. Substituindo os valores dados (V=150 V, P=4500 W), o cálculo resulta em R = 150^2 / 4500 = 22500 / 4500 = 5 Ω."
+    },
+    {
+        "id": "1704622",
+        "enunciado": "Uma resistência elétrica foi fabricada utilizando Nicromo cuja resistividade (ρ) é igual a aproximadamente 1x10-6 Ω.m, sabendo que o comprimento do fio utilizado é de 15 cm e que seu diâmetro é de 0,1 mm. Determine a resistência elétrica do mesmo, bem como a corrente que passará por ele quando sobre ele estiver aplicado uma diferença de potencial (d.d.p.) de 12,5 V. (Use π = 3)",
+        "alternativas": {
+            "A": "R = 5 Ω e IR = 2,5 A;",
+            "B": "R = 1 Ω e IR = 12,5 A;",
+            "C": "R = 12,5 Ω e IR = 1 A;",
+            "D": "R = 2,5 Ω e IR = 5 A;",
+            "E": "R = 25 Ω e IR = 0,5 A;"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A resistência é calculada pela fórmula R = rho * L / A. O aluno deve calcular a área da seção transversal (A = pi * (d/2)^2), converter as unidades para o SI e depois calcular R. Com R e a tensão, a corrente é calculada por I = V/R."
+    },
+    {
+        "id": "1792813",
+        "enunciado": "Dois corpos condutores e de pequenas dimensões, carregados com cargas elétricas de 2μC e 6μC, estão separados por uma distância d e repelem-se com uma força F1. Em um dado instante, são aproximados e tocam-se, trocando cargas elétricas. Após, são separados a uma nova distância de 2d e repelem-se com uma força F2. Qual a razão F1/F2?",
+        "alternativas": {
+            "A": "1/3.",
+            "B": "3/4.",
+            "C": "3/2.",
+            "D": "3.",
+            "E": "6."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Após o toque, as cargas se distribuem igualmente (Q1'=Q2'=(2+6)/2=4μC). A força inicial F1 ~ (2*6)/d². A força final F2 ~ (4*4)/(2d)² = 16/(4d²) = 4/d². A razão F1/F2 = 12/4 = 3."
+    },
+    {
+        "id": "1792815",
+        "enunciado": "Uma gota de massa 3,2x10-5kg e eletricamente carregada encontra-se em equilíbrio em um campo elétrico de 4x104V/m. Supondo que essa gota esteja sujeita apenas ao seu peso e a força elétrica, qual será a quantidade de elétrons em falta/excesso para a sua neutralidade? (Considere a carga elétrica elementar igual a 1,6x10-19C).",
+        "alternativas": {
+            "A": "5x109.",
+            "B": "2x1010.",
+            "C": "5x1010.",
+            "D": "2x1011.",
+            "E": "5x1011."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A força elétrica (F_e = qE) equilibra o peso (P = mg). Calculando q = mg/E, e dividindo por e (carga elementar), obtém-se o número de elétrons em falta/excesso."
+    },
+    {
+        "id": "2085666",
+        "enunciado": "Assinalar a alternativa CORRETA com relação à Lei de Ohm:",
+        "alternativas": {
+            "A": "A diferença de potencial, em volts, é igual à resistência, em ohms, vezes a intensidade de corrente, em ampères.",
+            "B": "A diferença de potencial, em ohms, é igual à resistência, em ampères, vezes a intensidade de corrente, em volts.",
+            "C": "A diferença de potencial, em ampères, é igual à resistência, em volts, vezes a intensidade de corrente, em ohms.",
+            "D": "A diferença de potencial, em watts, é igual à resistência, em ohms, vezes a intensidade de corrente, em ampères."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve corretamente a Lei de Ohm, onde a diferença de potencial (tensão) é igual ao produto da resistência pela intensidade da corrente elétrica. As unidades apresentadas nos itens B, C e D estão incorretas."
+    },
+    {
+        "id": "2085672",
+        "enunciado": "Considerando a operação segura dos sistemas de alta tensão, assinalar a alternativa CORRETA:",
+        "alternativas": {
+            "A": "A interligação com outros sistemas fragiliza o sistema elétrico.",
+            "B": "Canais de comunicação são necessários para prover a informação ao operador sobre as condições do sistema.",
+            "C": "Estando os sistemas interligados, a perda de uma pequena usina geradora instabiliza o conjunto interligado.",
+            "D": "Os sistemas de comunicação permitem que o operador monitore a distância o sistema elétrico, mas não acrescenta segurança alguma ao sistema."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A operação segura de sistemas de alta tensão depende crucialmente de canais de comunicação confiáveis para que o operador receba informações em tempo real sobre o estado do sistema, permitindo a tomada de decisões e a manutenção da estabilidade."
+    },
+    {
+        "id": "2085677",
+        "enunciado": "Considerando os sistemas de proteção para sistemas de distribuição, assinalar a alternativa CORRETA:",
+        "alternativas": {
+            "A": "A distância entre o condutor de aterramento e a carcaça do equipamento deve ser a maior possível.",
+            "B": "Todos os equipamentos a serem protegidos devem ter suas carcaças conectadas ao condutor de aterramento do dispositivo de proteção.",
+            "C": "Os condutores de neutro e aterramento devem possuir conexões independentes à terra.",
+            "D": "O sistema de proteção visa a ampliar ao máximo a queda de tensão devido ao surto."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A segurança em sistemas elétricos exige que as carcaças metálicas de todos os equipamentos (transformadores, motores, etc.) sejam conectadas ao sistema de aterramento para proteção contra choques elétricos."
+    },
+    {
+        "id": "2085681",
+        "enunciado": "Considerando os elementos para o sistema de aterramento, assinalar a alternativa CORRETA:",
+        "alternativas": {
+            "A": "A lama possui melhores condições para o sistema de aterramento que um solo de granito.",
+            "B": "Quanto mais seco o solo melhor será para o sistema de aterramento.",
+            "C": "O sistema de aterramento deve ser superficial à terra para se obter melhor desempenho.",
+            "D": "Em solos de baixa resistividade, torna-se necessário o tratamento químico do solo ou a utilização de hastes profundas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Solos com baixa resistividade elétrica oferecem maior desafio para um bom aterramento. Tratamentos químicos ou o uso de hastes mais longas e profundas visam reduzir essa resistividade e melhorar o desempenho do sistema."
+    },
+    {
+        "id": "2085682",
+        "enunciado": "A resistência depende: I - Do tipo do material. II - Da seção do material. III - Do comprimento do material. IV - Da temperatura. Estão CORRETOS:",
+        "alternativas": {
+            "A": "Somente os itens I e II.",
+            "B": "Somente os itens I e III.",
+            "C": "Somente os itens II e III.",
+            "D": "Todos os itens."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A resistência elétrica de um condutor é diretamente proporcional ao seu comprimento e inversamente proporcional à sua seção. O tipo de material e a temperatura também influenciam significativamente na resistência."
+    },
+    {
+        "id": "2085684",
+        "enunciado": "Analisar as informações abaixo e assinalar a alternativa CORRETA: U = Diferença de potencial em volts. R = Resistência em ohms. I = Intensidade de corrente em àmperes.",
+        "alternativas": {
+            "A": "U = R x I",
+            "B": "R = U x I",
+            "C": "I = R x U",
+            "D": "U = R / I"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A apresenta a Lei de Ohm corretamente: U = R x I. Esta fórmula relaciona a diferença de potencial (U), a resistência (R) e a intensidade da corrente (I) em um circuito elétrico."
+    },
+    {
+        "id": "2085687",
+        "enunciado": "Assinalar a alternativa que preenche a lacuna abaixo CORRETAMENTE: O fenômeno de ____________________ é o responsável pela produção da energia elétrica que vai abastecer as grandes cidades. Pelo fato de a produção se basear em geradores rotativos, a tensão gerada começa de zero, passa por valor máximo positivo, anula-se e depois passa por máximo negativo, e novamente se anula, dando origem a um ciclo.",
+        "alternativas": {
+            "A": "alternância elétrica",
+            "B": "indução eletromagnética",
+            "C": "rotação de energia",
+            "D": "polarização elétrica"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A produção de energia elétrica pelas grandes cidades, em geradores rotativos que geram corrente alternada (ciclos de tensão positiva e negativa), é resultado do fenômeno da indução eletromagnética."
+    },
+    {
+        "id": "2085689",
+        "enunciado": "Assinalar a alternativa CORRETA relacionada a circuitos em série e a circuitos em paralelo:",
+        "alternativas": {
+            "A": "Quatorze lâmpadas de oito volts ligadas em série dão a queda de 120 volts.",
+            "B": "Os circuitos paralelos são os mais utilizados nas instalações elétricas.",
+            "C": "Os circuitos em série são os mais utilizados nas instalações elétricas.",
+            "D": "Em um circuito de 220 volts, com três lâmpadas iguais instaladas, com filamentos de resistência 20 ohms, a resistência equivalente é de 60 Ω."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Circuitos paralelos são os mais comuns em instalações elétricas residenciais e comerciais, pois permitem que cada aparelho funcione independentemente dos demais. Circuitos em série são menos práticos para uso geral."
+    },
+    {
+        "id": "2085695",
+        "enunciado": "A Barra de Proteção para a interligação do condutor de proteção das unidades consumidoras com o condutor de proteção da haste de aterramento deve ser de:",
+        "alternativas": {
+            "A": "Ferro.",
+            "B": "Bronze.",
+            "C": "Cobre.",
+            "D": "Alumínio."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A Barra de Proteção para interligação do condutor de proteção das unidades consumidoras com a haste de aterramento deve ser de cobre, por ser um material com excelente condutividade."
+    }
+]

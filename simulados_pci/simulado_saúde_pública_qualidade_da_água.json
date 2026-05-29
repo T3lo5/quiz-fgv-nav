@@ -1,0 +1,837 @@
+[
+    {
+        "id": "2001635",
+        "enunciado": "São parâmetros físicos de qualidade da água, exceto:",
+        "alternativas": {
+            "A": "Sólidos e condutividade elétrica.",
+            "B": "Alcalinidade e dureza.",
+            "C": "Cor e turbidez.",
+            "D": "Temperatura, sabor e odor."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Alcalinidade e dureza são parâmetros químicos da qualidade da água. Sólidos, condutividade, cor, turbidez, temperatura, sabor e odor são considerados parâmetros físicos."
+    },
+    {
+        "id": "2120085",
+        "enunciado": "Durante a inspeção sanitária em um restaurante no município de Vermelho Novo, o fiscal sanitário observou que a água utili -\nzada para o pr eparo dos alimentos estava sendo armazenada em um tambor sem tampa e sem a indicação de limpeza regular.\nConsiderando a situação hipotética, bem como os critérios básicos de qualidade de água para consumo humano, o fiscal sani -\ntário deverá:",
+        "alternativas": {
+            "A": "Aprovar o arma zenamento, desde que a água não tenha cheiro forte.",
+            "B": "Ignorar o problema, pois o restaurante pode usar qualquer fonte de água.",
+            "C": "Solicitar a substituição do tambor por outro de cor escura para evitar a luz.",
+            "D": "Determinar correção imediata do armazenamento, pois a água deve estar protegida e limpa."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A vigilância sanitária exige que a água para consumo humano esteja protegida de contaminação. Um tambor sem tampa e sem indicação de limpeza regular compromete a qualidade da água, exigindo correção imediata para garantir a segurança alimentar."
+    },
+    {
+        "id": "2334875",
+        "enunciado": "A qualidade da água para consumo humano é monitorada através do VIGIAGUA, seguindo os parâmetros estabelecidos pela Portaria GMMS nº 888, de 4 de maio de 2021 (que alterou o Anexo XX da Portaria de Consolidação nº 52017). Em uma inspeção de rotina no sistema de distribuição, o auditor analisa os parâmetros de turbidez e cloro residual livre. Assinale a afirmativa correta quanto aos padrões de potabilidade exigidos na saída do tratamento e na rede de distribuição.",
+        "alternativas": {
+            "A": "O valor máximo permitido para cloro residual livre em qualquer ponto da rede de distribuição é de 0,5 mgL, pois concentrações superiores são consideradas imediatamente tóxicas para humanos, independentemente do tempo de exposição.",
+            "B": "A turbidez da água pós-filtração ou pós-desinfecção deve ser sempre superior a 5,0 uT (unidades de turbidez) para garantir que minerais essenciais foram preservados durante o tratamento.",
+            "C": "É obrigatória a manutenção de, no mínimo, 0,2 mgL de cloro residual livre ou 2,0 mgL de cloro residual combinado ou de 0,2 mgL de dióxido de cloro em toda a extensão do sistema de distribuição (reservatório e rede).",
+            "D": "A presença de Escherichia coli é tolerada em até 10% das amostras mensais coletadas na saída do tratamento, desde que a contagem de bactérias heterotróficas não exceda 500 UFCmL."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está correta pois a Portaria GMMS nº 888/21 exige, no mínimo, 0,2 mg/L de cloro residual livre ou 2,0 mg/L de cloro residual combinado ou 0,2 mg/L de dióxido de cloro em toda a rede. A alternativa A está incorreta quanto ao valor. A alternativa B está incorreta pois a turbidez deve ser baixa, não superior a 5,0 uT. A alternativa D está incorreta quanto à tolerância de E. coli."
+    },
+    {
+        "id": "2370161",
+        "enunciado": "Representa o grau de interferência com a passagem da luz através da água, conferindo uma aparência turva a mesma:",
+        "alternativas": {
+            "A": "Turbidez.",
+            "B": "Sabor.",
+            "C": "Odor.",
+            "D": "Cor.",
+            "E": "Temperatura."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Turbidez é o termo técnico que descreve a opacidade ou nebulosidade da água, causada pela presença de partículas suspensas que interferem na passagem da luz."
+    },
+    {
+        "id": "2369820",
+        "enunciado": "Representa a concentração de ions de hidrogênio H+ (em escala antilogarítimica), dando uma indicação sobre a condição de acidez, neutralidade ou alcalinidade da água. A faixa é de 0 a 14.",
+        "alternativas": {
+            "A": "pH.",
+            "B": "Sabor.",
+            "C": "Odor.",
+            "D": "Cor.",
+            "E": "Turbidez."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O pH mede a concentração de íons hidrogênio, indicando a acidez, neutralidade ou alcalinidade da água em uma escala de 0 a 14."
+    },
+    {
+        "id": "2369821",
+        "enunciado": "Retrata a quantidade de oxigênio requerida para estabilizar, através de processos bioquímicos, a matéria orgânica carbonácea. É uma indicação indireta, portanto, do carbono orgânico biodegradável.",
+        "alternativas": {
+            "A": "DBO.",
+            "B": "DTO.",
+            "C": "OXB.",
+            "D": "DBA.",
+            "E": "HBO."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "DBO significa Demanda Bioquímica de Oxigênio, que quantifica o oxigênio necessário para a decomposição bioquímica da matéria orgânica em água, indicando poluição orgânica."
+    },
+    {
+        "id": "2369823",
+        "enunciado": "As principais características da água potável são ser inodora, incolor, insípida e, crucialmente, estar livre de microrganismos, poluentes e substâncias tóxicas que possam apresentar risco à saúde. Insípida significa:",
+        "alternativas": {
+            "A": "Sem sabor.",
+            "B": "Sem cor.",
+            "C": "Sem odor.",
+            "D": "Sem oxigênio.",
+            "E": "Sem cheiro."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A palavra 'insípida' no contexto de água potável refere-se à ausência de sabor, sendo uma das características essenciais para que a água seja agradável ao consumo humano e indicativa de pureza."
+    },
+    {
+        "id": "2266809",
+        "enunciado": "Segundo a Portaria GM/MS nº 888, de 4 de maio de 2021, compete à Agência Nacional de Vigilância Sanitária:",
+        "alternativas": {
+            "A": "Realizar gestão dos recursos hídricos presentes em territórios de povos e comunidades tradicionais.",
+            "B": "Avaliar a qualidade da água e implementar ações de qualidade da água para consumo humano nas aldeias indígenas.",
+            "C": "Implementar o Programa Nacional de Vigilância da Qualidade da Água para Consumo Humano.",
+            "D": "Regulamentar, controlar e fiscalizar águas envasadas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A Portaria GM/MS nº 888/2021, em seu artigo 4º, delega à Agência Nacional de Vigilância Sanitária (ANVISA) a competência para instituir e implementar o Programa Nacional de Vigilância da Qualidade da Água para Consumo Humano."
+    },
+    {
+        "id": "1178423",
+        "enunciado": "A água é usada para o preparo dos alimentos e, por isso, precisa ter boa qualidade. Diante disso, é correto afirmar que:",
+        "alternativas": {
+            "A": "É obrigatório o uso de água potável para lavar as mãos.",
+            "B": "A caixa d'água pode estar destampada e com descascamentos.",
+            "C": "É garantida a ausência de bactérias na água corrente.",
+            "D": "Deve ser usada somente água potável para preparar os alimentos.",
+            "E": "Para preparar o gelo, pode ser usada a água não potável."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Apenas água potável deve ser utilizada para preparar alimentos, garantindo a segurança alimentar. É obrigatório o uso de água potável para lavar as mãos e para preparar gelo, e caixas d'água devem estar tampadas e em bom estado."
+    },
+    {
+        "id": "1347769",
+        "enunciado": "A medida do grau de interferência à passagem da luz, através do líquido, se refere à(ao):",
+        "alternativas": {
+            "A": "Dureza.",
+            "B": "Turbidez.",
+            "C": "Sabor.",
+            "D": "Condutividade elétrica.",
+            "E": "Cor."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Turbidez mede o grau de interferência à passagem da luz em um líquido, causado pela presença de partículas em suspensão, como sedimentos ou matéria orgânica."
+    },
+    {
+        "id": "1184714",
+        "enunciado": "Sobre a qualidade da água, é correto afirmar que",
+        "alternativas": {
+            "A": "na recreação (como natação, esqui aquático e mergulho), a água pode conter substâncias químicas prejudiciais à saúde.",
+            "B": "a água utilizada pelas indústrias (água incorporada ao produto) não precisa ser esteticamente agradável.",
+            "C": "a água usada na irrigação de hortaliças e em produtos ingeridos crus ou com casca pode apresentar salinidade em excesso.",
+            "D": "são exemplos de problemas relacionados à qualidade da água as mudanças em suas características químicas, físicas e biológicas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D está correta pois alterações nas características químicas, físicas e biológicas da água são indicativos de problemas em sua qualidade. As demais alternativas apresentam informações imprecisas ou incorretas sobre o uso e a potabilidade da água."
+    },
+    {
+        "id": "1347771",
+        "enunciado": "A medida da capacidade da água de neutralizar os ácidos, servindo assim para expressar a capacidade de tamponamento da água, isto é, sua condição de resistir a mudanças do pH, é chamada de:",
+        "alternativas": {
+            "A": "Alcalinidade.",
+            "B": "Acidez.",
+            "C": "Dureza.",
+            "D": "Oxigênio dissolvido.",
+            "E": "Demanda química de oxigênio."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Alcalinidade refere-se à capacidade da água de neutralizar ácidos, resistindo a variações de pH. É uma medida da presença de íons como carbonatos e bicarbonatos."
+    },
+    {
+        "id": "1130346",
+        "enunciado": "Qual das seguintes opções descreve corretamente a qualidade da água ideal para consumo humano?",
+        "alternativas": {
+            "A": "A qualidade da água para consumo é determinada exclusivamente pela sua aparência visual.",
+            "B": "A qualidade da água para consumo é avaliada com base em parâmetros físicos, químicos e microbiológicos, garantindo que esteja livre de contaminantes e segura para o consumo humano, devendo ser incolor, insípida e inodora.",
+            "C": "A qualidade da água para consumo é determinada apenas pela sua origem.",
+            "D": "A qualidade da água para consumo é medida exclusivamente pelo seu sabor e odor.",
+            "E": "A qualidade da água para consumo é avaliada apenas quanto à sua temperatura."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A qualidade ideal da água para consumo humano é determinada por um conjunto de parâmetros físicos, químicos e microbiológicos que garantem a ausência de contaminantes e a segurança, com características como ser incolor, insípida e inodora."
+    },
+    {
+        "id": "1275471",
+        "enunciado": "Em sistemas de distribuição de água potável, garantir a qualidade e a segurança da água é uma prioridade absoluta. Além dos testes de qualidade química e física, é essencial monitorar a temperatura da água. A temperatura pode afetar diversos aspectos, desde a eficácia do tratamento até a aceitabilidade do consumidor. Por isso, é crucial contar com equipamentos precisos para medir e monitorar continuamente a temperatura da água ao longo do sistema de distribuição. Identifique dentre os seguintes equipamentos qual é utilizado para medir a temperatura da água em um sistema de distribuição de água potável.",
+        "alternativas": {
+            "A": "Potenciômetro.",
+            "B": "Turbidímetro.",
+            "C": "Termômetro.",
+            "D": "Manômetro."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O termômetro é o equipamento específico para medir a temperatura. Potenciômetro mede potencial elétrico, turbidímetro mede a turbidez e manômetro mede pressão."
+    },
+    {
+        "id": "1275472",
+        "enunciado": "Nos sistemas de distribuição de água potável, a análise dos parâmetros físico-químicos da água desempenha um papel essencial na garantia da sua qualidade e segurança. Diversos equipamentos são empregados para essa finalidade, permitindo a medição precisa de diferentes características da água. Esses parâmetros incluem aspectos como turbidez, pH e temperatura, que são fundamentais para avaliar a potabilidade e adequação da água para consumo humano. Identifique qual dos seguintes equipamentos não é utilizado para medir parâmetros físico-químicos da água em um sistema de distribuição de água potável:",
+        "alternativas": {
+            "A": "Turbidímetro.",
+            "B": "pHmetro.",
+            "C": "Odômetro.",
+            "D": "Termômetro."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Turbidímetro mede turbidez, pHmetro mede pH e termômetro mede temperatura. Odômetro é utilizado para medir distâncias percorridas, geralmente em veículos, e não parâmetros físico-químicos da água."
+    },
+    {
+        "id": "1930056",
+        "enunciado": "Assinale a alternativa correta.",
+        "alternativas": {
+            "A": "Água tratada é a água submetida a processos físicos, químicos ou combinação destes, visando atender ao padrão de potabilidade.",
+            "B": "Padrão organoléptico é um conjunto de valores permitidos como parâmetro da qualidade e segurança da água.",
+            "C": "Garantia da qualidade é a ação de coletar nova amostra de água para consumo humano no ponto de coleta que apresentou alteração em algum parâmetro analítico.",
+            "D": "Recoleta é um procedimento de controle da qualidade para monitorar a validade dos ensaios realizados.",
+            "E": "O pH é calculado como sendo a soma das concentrações de íons cálcio e magnésio na água, expressos como carbonato de cálcio."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A define corretamente agua tratada como aquela submetida a processos para atingir o padrao de potabilidade. As demais alternativas apresentam conceitos incorretos sobre padrao organoleptico, garantia de qualidade, recoleta e pH."
+    },
+    {
+        "id": "1930058",
+        "enunciado": "Assinale a alternativa que indica corretamente um conjunto de parâmetros caracterizados por provocar estímulos sensoriais que afetam a aceitação para consumo humano, mas que não necessariamente implicam risco à saúde.",
+        "alternativas": {
+            "A": "Padrão de qualidade",
+            "B": "Padrão de potabilidade",
+            "C": "Água tratada",
+            "D": "Padrão de pureza",
+            "E": "Padrão organoléptico"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Parâmetros organolépticos referem-se a características sensoriais (cor, odor, sabor) que afetam a aceitação do alimento/água, sem necessariamente indicar risco à saúde. Os demais termos descrevem outros aspectos de qualidade ou controle."
+    },
+    {
+        "id": "1930070",
+        "enunciado": "A água potável deve estar em conformidade com o padrão de substâncias químicas que representam risco à saúde, expresso na regulamentação vigente. No caso de adição de flúor (fluoretação), os valores recomendados para concentração de íon fluoreto não podem ultrapassar o valor máximo permitido (VMP) de:",
+        "alternativas": {
+            "A": "1,5 mg/L.",
+            "B": "2,0 mg/L.",
+            "C": "2,5 mg/L.",
+            "D": "3,0 mg/L.",
+            "E": "3,5 mg/L."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A regulamentação vigente estabelece o valor máximo permitido de 1,5 mg/L para a concentração de íon fluoreto na água fluoretada."
+    },
+    {
+        "id": "1930074",
+        "enunciado": "Visando a qualidade das análises físico-químicas da água para consumo humano, há definição de procedimentos para a coleta e preservação de amostras. Assinale a alternativa correta em relação ao tema.",
+        "alternativas": {
+            "A": "Para o parâmetro pH a análise pode ser realizada em até 72 horas.",
+            "B": "Para o parâmetro Temperatura a análise pode ser realizada em até 48 horas.",
+            "C": "Para os parâmetros pH e Temperatura a análise deve ser imediata.",
+            "D": "A análise de cloretos deve ser realizada imediatamente após a coleta.",
+            "E": "Para o parâmetro fluoretos o recipiente recomendado é de vidro, e para a preservação, a amostra deve ser refrigerada por até 7 dias."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para os parametros de pH e Temperatura, a analise da amostra de agua deve ser realizada imediatamente apos a coleta, pois esses valores sao alterados rapidamente com o tempo e as condicoes ambientais."
+    },
+    {
+        "id": "1930088",
+        "enunciado": "Assinale a alternativa correta sobre as análises físico-químicas da água para consumo humano.",
+        "alternativas": {
+            "A": "Cloretos podem ser determinados pelo método de titulação com hidróxido de sódio.",
+            "B": "Cloretos podem ser determinados pelo método de titulação com nitrato de prata.",
+            "C": "O pH é calculado como sendo a soma das concentrações de íons sódio e magnésio na água, expressos como sulfato de magnésio.",
+            "D": "O termo pH representa a concentração de íons hidrogênio em uma solução, o qual pode ser determinado por vários aparelhos, com exceção dos potenciômetros.",
+            "E": "O termo pH representa a concentração de íons hidrogênio em uma solução, o qual pode ser determinado por vários aparelhos, com exceção dos colorímetros."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A determinacao de cloretos em analises de agua e geralmente feita por titulacao com nitrato de prata, um metodo padronizado e confiavel."
+    },
+    {
+        "id": "1930090",
+        "enunciado": "Assinale a alternativa correta sobre os planos de amostragem de controle da qualidade da água para consumo humano.",
+        "alternativas": {
+            "A": "Os responsáveis por Sistemas de Abastecimento de Água (SAA) devem analisar pelo menos uma amostra anual da água bruta em cada ponto de captação com vistas a uma gestão preventiva de risco.",
+            "B": "Os responsáveis por SAA devem elaborar a cada 2 anos o plano de amostragem de cada sistema.",
+            "C": "A amostragem deve obedecer aos seguintes requisitos: distribuição uniforme das coletas ao longo do período de um ano e representatividade dos pontos de coleta no sistema de distribuição (reservatórios e rede).",
+            "D": "A amostragem precisa considerar um dos critérios: abrangência espacial ou pontos estratégicos.",
+            "E": "Não são considerados pontos estratégicos para coleta aqueles próximos a grande circulação de pessoas como: terminais rodoviários e ferroviários."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A Portaria GM/MS nº 888/2021 estabelece que a amostragem deve ser distribuida uniformemente ao longo do ano e ser representativa dos pontos de coleta. A distribuicao uniforme e a representatividade dos pontos sao requisitos essenciais."
+    },
+    {
+        "id": "1930092",
+        "enunciado": "Para os esgotos sanitários oriundos de sistemas públicos e privados de tratamento deverão ser obedecidas as condições e padrões de lançamento especificados na legislação, onde são estabelecidos os parâmetros e as frequências de monitoramento. Assinale a alternativa correta em relação ao tema.",
+        "alternativas": {
+            "A": "Para o monitoramento deverá ser aplicado o critério de médias mensais.",
+            "B": "O ponto de amostragem deverá ser sempre na saída do esgoto tratado e a amostragem sempre do tipo composta.",
+            "C": "Para o monitoramento deverá ser aplicado o critério de médias semestrais.",
+            "D": "O ponto de amostragem será sempre na entrada do esgoto e a amostragem sempre do tipo simples.",
+            "E": "O ponto de amostragem será sempre na saída do esgoto tratado e a amostragem do tipo simples, cabendo ao empreendedor a opção de amostragem composta."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E é a correta pois o ponto de amostragem de efluentes é na saída após o tratamento. A amostragem simples é o padrão, mas o empreendedor pode optar pela composta, dependendo das exigências legais e do ecossistema receptor."
+    },
+    {
+        "id": "1285836",
+        "enunciado": "Em farmácias de manipulação a água potável deve ser analisada a cada seis meses buscando-se o seguimento da legislação vigente e garantia da qualidade. Acerca dos itens a serem analisados, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "Presença de antibióticos",
+            "B": "Contagem total de fungos",
+            "C": "Coliformes totais",
+            "D": "Presença de compostos bioativos"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A análise da água potável em farmácias de manipulação, conforme legislação, inclui a verificação de coliformes totais para garantir a ausência de contaminação fecal e microbiana."
+    },
+    {
+        "id": "1133331",
+        "enunciado": "Em um sistema de distribuição de água, é necessário adotar alguns padrões de potabilidade. Em se tratando do valor Ph (Potencial hidrogeniônico), responsável por características como acidez ou basicidade da água, recomenda-se mantê-lo em qual faixa?",
+        "alternativas": {
+            "A": "4,0 a 7,0.",
+            "B": "5,0 a 7,5.",
+            "C": "6,0 a 9,5.",
+            "D": "3,0 a 5,0.",
+            "E": "5,0 a 10,0."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está correta. A faixa de pH recomendada para água potável, visando atender aos padrões de potabilidade e garantir características organolépticas adequadas e controle de corrosividade, geralmente se situa entre 6,0 e 9,5."
+    },
+    {
+        "id": "1044490",
+        "enunciado": "A determinação da intensidade da cor da água é feita comparando-se a amostra com um padrão de cobalto-platina, sendo o resultado fornecido em unidades de cor, também chamada unidade:",
+        "alternativas": {
+            "A": "Hidrogênio.",
+            "B": "Hazen.",
+            "C": "Hidróxido.",
+            "D": "Hunter."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A unidade Hazen (ou unidade Pt-Co) é utilizada para medir a intensidade da cor em amostras de agua, comparando-a com um padrao de cobalto-platina."
+    },
+    {
+        "id": "1044492",
+        "enunciado": "A medida do grau de interferência à passagem da luz através do líquido é a medida de qualidade da água denominada:",
+        "alternativas": {
+            "A": "Turbidez.",
+            "B": "Sólidos.",
+            "C": "Condutividade.",
+            "D": "pH."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A turbidez indica o grau de interferência da luz na passagem por um líquido, sendo causada pela presença de particulas em suspensão ou coloidais. É uma medida importante da qualidade da agua."
+    },
+    {
+        "id": "1607718",
+        "enunciado": "A água é um recurso essencial para a manutenção da vida, mas que tem disponibilidade limitada em muitas regiões do planeta. Além da avaliação de disponibilidade, a água também é analisada sob diversos parâmetros indicadores da qualidade. Esses parâmetros são medidas que, quando superiores aos valores de referência, sinalizam a ausência de conformidade da água para cada tipo específico de uso, dentre eles, potabilidade, balneabilidade, irrigação e industrial. Como parâmetros utilizados para análise da qualidade da água, têm-se:",
+        "alternativas": {
+            "A": "Químicos – densidade e viscosidade; Físicos – cor e alcalinidade; Biológicos – demanda bioquímica e química de oxigênio.",
+            "B": "Químicos – dureza e potencial hidrogeniônico; Físicos – condutividade elétrica e turbidez; Biológicos – coliformes e algas.",
+            "C": "Químicos – sólidos e alcalinidade; Físicos – temperatura e fluoretos; Biológicos – oxigênio dissolvido e matéria orgânica.",
+            "D": "Químicos – temperatura e condutividade; Físicos – pH e microbiota; Biológicos – sólidos sedimentáveis e não sedimentáveis.",
+            "E": "Químicos – cloretos e nitrogênio; Físicos – componentes orgânicos e inorgânicos; Biológicos – floculação e decantação."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B lista parâmetros corretamente classificados em químicos, físicos e biológicos comumente utilizados para analisar a qualidade da água, indicando sua conformidade."
+    },
+    {
+        "id": "1688705",
+        "enunciado": "Marque a alternativa que representam exemplos de testes de toxicidade para avaliar a qualidade das águas e a carga poluidora em efluentes, corretamente.",
+        "alternativas": {
+            "A": "Demanda química de oxigênio (DQO), demanda bioquímica de oxigênio (DBO).",
+            "B": "Quantidade de substrato na zona bentônica de um meio aquático.",
+            "C": "Quantidade de luz que penetra na lâmina d'água.",
+            "D": "Demanda da quantidade de substrato existente no plâncton.",
+            "E": "Determinação dos fatores ambientais referentes ao intemperismo."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A Demanda Quimica de Oxigenio (DQO) e a Demanda Bioquimica de Oxigenio (DBO) sao testes padronizados e amplamente utilizados para avaliar a quantidade de matéria orgânica oxidavel em efluentes e corpos d'agua, sendo indicadores diretos da carga poluidora e da qualidade da agua."
+    },
+    {
+        "id": "1022164",
+        "enunciado": "O conhecimento da qualidade da água, do ponto de vista agrícola, é fundamental para o êxito da uilização de sistemas irrigados. Com base nisso, assinale a alternaiva correta.",
+        "alternativas": {
+            "A": "A coleta de amostras da água é uma tarefa simples e não exige cuidados necessários para uma correta amostragem.",
+            "B": "Conduividade, pH e oxigênio dissolvido devem ser determinados em laboratório, em razão da diiculdade de se aferir esses parâmetros durante os procedimentos de campo.",
+            "C": "A adequação da água de irrigação depende unicamente do teor total dos sais dissolvidos.",
+            "D": "Os cáions mais comuns encontrados na água de irrigação são o ferro, manganês e zinco, enquanto o fosfato e o nitrato são os ânions mais encontrados.",
+            "E": "A qualidade da água desinada à irrigação é avaliada não somente pelo conteúdo total de sais, mas também pela composição individual dos íons presentes."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A qualidade da água para irrigação é avaliada pelo sal total e pela composição de íons individuais, influenciando a salinização do solo e a toxicidade para as plantas."
+    },
+    {
+        "id": "1022169",
+        "enunciado": "Um dos critérios para a classiicação da qualidade da água para uso em irrigação é a determinação da Relação de Adsorção de Sódio (RAS). Essa relação expressa a aidade relaiva dos íons de sódio em reações de intercâmbio caiônico com o solo. Essa relação do sódio se dá com os seguintes cáions:",
+        "alternativas": {
+            "A": "cálcio e potássio.",
+            "B": "cálcio e magnésio.",
+            "C": "magnésio e potássio.",
+            "D": "cálcio e ferro.",
+            "E": "cálcio e zinco."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A Relação de Adsorção de Sódio (RAS) considera a concentração relativa de sódio em relação aos cátions divalentes, principalmente cálcio e magnésio, no intercâmbio iônico com o solo."
+    },
+    {
+        "id": "2001635",
+        "enunciado": "São parâmetros físicos de qualidade da água, exceto:",
+        "alternativas": {
+            "A": "Sólidos e condutividade elétrica.",
+            "B": "Alcalinidade e dureza.",
+            "C": "Cor e turbidez.",
+            "D": "Temperatura, sabor e odor."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Alcalinidade e dureza são parâmetros químicos da qualidade da água. Sólidos, condutividade, cor, turbidez, temperatura, sabor e odor são considerados parâmetros físicos."
+    },
+    {
+        "id": "2120085",
+        "enunciado": "Durante a inspeção sanitária em um restaurante no município de Vermelho Novo, o fiscal sanitário observou que a água utili -\nzada para o pr eparo dos alimentos estava sendo armazenada em um tambor sem tampa e sem a indicação de limpeza regular.\nConsiderando a situação hipotética, bem como os critérios básicos de qualidade de água para consumo humano, o fiscal sani -\ntário deverá:",
+        "alternativas": {
+            "A": "Aprovar o arma zenamento, desde que a água não tenha cheiro forte.",
+            "B": "Ignorar o problema, pois o restaurante pode usar qualquer fonte de água.",
+            "C": "Solicitar a substituição do tambor por outro de cor escura para evitar a luz.",
+            "D": "Determinar correção imediata do armazenamento, pois a água deve estar protegida e limpa."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A vigilância sanitária exige que a água para consumo humano esteja protegida de contaminação. Um tambor sem tampa e sem indicação de limpeza regular compromete a qualidade da água, exigindo correção imediata para garantir a segurança alimentar."
+    },
+    {
+        "id": "2334875",
+        "enunciado": "A qualidade da água para consumo humano é monitorada através do VIGIAGUA, seguindo os parâmetros estabelecidos pela Portaria GMMS nº 888, de 4 de maio de 2021 (que alterou o Anexo XX da Portaria de Consolidação nº 52017). Em uma inspeção de rotina no sistema de distribuição, o auditor analisa os parâmetros de turbidez e cloro residual livre. Assinale a afirmativa correta quanto aos padrões de potabilidade exigidos na saída do tratamento e na rede de distribuição.",
+        "alternativas": {
+            "A": "O valor máximo permitido para cloro residual livre em qualquer ponto da rede de distribuição é de 0,5 mgL, pois concentrações superiores são consideradas imediatamente tóxicas para humanos, independentemente do tempo de exposição.",
+            "B": "A turbidez da água pós-filtração ou pós-desinfecção deve ser sempre superior a 5,0 uT (unidades de turbidez) para garantir que minerais essenciais foram preservados durante o tratamento.",
+            "C": "É obrigatória a manutenção de, no mínimo, 0,2 mgL de cloro residual livre ou 2,0 mgL de cloro residual combinado ou de 0,2 mgL de dióxido de cloro em toda a extensão do sistema de distribuição (reservatório e rede).",
+            "D": "A presença de Escherichia coli é tolerada em até 10% das amostras mensais coletadas na saída do tratamento, desde que a contagem de bactérias heterotróficas não exceda 500 UFCmL."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está correta pois a Portaria GMMS nº 888/21 exige, no mínimo, 0,2 mg/L de cloro residual livre ou 2,0 mg/L de cloro residual combinado ou 0,2 mg/L de dióxido de cloro em toda a rede. A alternativa A está incorreta quanto ao valor. A alternativa B está incorreta pois a turbidez deve ser baixa, não superior a 5,0 uT. A alternativa D está incorreta quanto à tolerância de E. coli."
+    },
+    {
+        "id": "2370161",
+        "enunciado": "Representa o grau de interferência com a passagem da luz através da água, conferindo uma aparência turva a mesma:",
+        "alternativas": {
+            "A": "Turbidez.",
+            "B": "Sabor.",
+            "C": "Odor.",
+            "D": "Cor.",
+            "E": "Temperatura."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Turbidez é o termo técnico que descreve a opacidade ou nebulosidade da água, causada pela presença de partículas suspensas que interferem na passagem da luz."
+    },
+    {
+        "id": "2369820",
+        "enunciado": "Representa a concentração de ions de hidrogênio H+ (em escala antilogarítimica), dando uma indicação sobre a condição de acidez, neutralidade ou alcalinidade da água. A faixa é de 0 a 14.",
+        "alternativas": {
+            "A": "pH.",
+            "B": "Sabor.",
+            "C": "Odor.",
+            "D": "Cor.",
+            "E": "Turbidez."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O pH mede a concentração de íons hidrogênio, indicando a acidez, neutralidade ou alcalinidade da água em uma escala de 0 a 14."
+    },
+    {
+        "id": "2369821",
+        "enunciado": "Retrata a quantidade de oxigênio requerida para estabilizar, através de processos bioquímicos, a matéria orgânica carbonácea. É uma indicação indireta, portanto, do carbono orgânico biodegradável.",
+        "alternativas": {
+            "A": "DBO.",
+            "B": "DTO.",
+            "C": "OXB.",
+            "D": "DBA.",
+            "E": "HBO."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "DBO significa Demanda Bioquímica de Oxigênio, que quantifica o oxigênio necessário para a decomposição bioquímica da matéria orgânica em água, indicando poluição orgânica."
+    },
+    {
+        "id": "2369823",
+        "enunciado": "As principais características da água potável são ser inodora, incolor, insípida e, crucialmente, estar livre de microrganismos, poluentes e substâncias tóxicas que possam apresentar risco à saúde. Insípida significa:",
+        "alternativas": {
+            "A": "Sem sabor.",
+            "B": "Sem cor.",
+            "C": "Sem odor.",
+            "D": "Sem oxigênio.",
+            "E": "Sem cheiro."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A palavra 'insípida' no contexto de água potável refere-se à ausência de sabor, sendo uma das características essenciais para que a água seja agradável ao consumo humano e indicativa de pureza."
+    },
+    {
+        "id": "2266809",
+        "enunciado": "Segundo a Portaria GM/MS nº 888, de 4 de maio de 2021, compete à Agência Nacional de Vigilância Sanitária:",
+        "alternativas": {
+            "A": "Realizar gestão dos recursos hídricos presentes em territórios de povos e comunidades tradicionais.",
+            "B": "Avaliar a qualidade da água e implementar ações de qualidade da água para consumo humano nas aldeias indígenas.",
+            "C": "Implementar o Programa Nacional de Vigilância da Qualidade da Água para Consumo Humano.",
+            "D": "Regulamentar, controlar e fiscalizar águas envasadas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A Portaria GM/MS nº 888/2021, em seu artigo 4º, delega à Agência Nacional de Vigilância Sanitária (ANVISA) a competência para instituir e implementar o Programa Nacional de Vigilância da Qualidade da Água para Consumo Humano."
+    },
+    {
+        "id": "1178423",
+        "enunciado": "A água é usada para o preparo dos alimentos e, por isso, precisa ter boa qualidade. Diante disso, é correto afirmar que:",
+        "alternativas": {
+            "A": "É obrigatório o uso de água potável para lavar as mãos.",
+            "B": "A caixa d'água pode estar destampada e com descascamentos.",
+            "C": "É garantida a ausência de bactérias na água corrente.",
+            "D": "Deve ser usada somente água potável para preparar os alimentos.",
+            "E": "Para preparar o gelo, pode ser usada a água não potável."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Apenas água potável deve ser utilizada para preparar alimentos, garantindo a segurança alimentar. É obrigatório o uso de água potável para lavar as mãos e para preparar gelo, e caixas d'água devem estar tampadas e em bom estado."
+    },
+    {
+        "id": "1347769",
+        "enunciado": "A medida do grau de interferência à passagem da luz, através do líquido, se refere à(ao):",
+        "alternativas": {
+            "A": "Dureza.",
+            "B": "Turbidez.",
+            "C": "Sabor.",
+            "D": "Condutividade elétrica.",
+            "E": "Cor."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Turbidez mede o grau de interferência à passagem da luz em um líquido, causado pela presença de partículas em suspensão, como sedimentos ou matéria orgânica."
+    },
+    {
+        "id": "1184714",
+        "enunciado": "Sobre a qualidade da água, é correto afirmar que",
+        "alternativas": {
+            "A": "na recreação (como natação, esqui aquático e mergulho), a água pode conter substâncias químicas prejudiciais à saúde.",
+            "B": "a água utilizada pelas indústrias (água incorporada ao produto) não precisa ser esteticamente agradável.",
+            "C": "a água usada na irrigação de hortaliças e em produtos ingeridos crus ou com casca pode apresentar salinidade em excesso.",
+            "D": "são exemplos de problemas relacionados à qualidade da água as mudanças em suas características químicas, físicas e biológicas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D está correta pois alterações nas características químicas, físicas e biológicas da água são indicativos de problemas em sua qualidade. As demais alternativas apresentam informações imprecisas ou incorretas sobre o uso e a potabilidade da água."
+    },
+    {
+        "id": "1347771",
+        "enunciado": "A medida da capacidade da água de neutralizar os ácidos, servindo assim para expressar a capacidade de tamponamento da água, isto é, sua condição de resistir a mudanças do pH, é chamada de:",
+        "alternativas": {
+            "A": "Alcalinidade.",
+            "B": "Acidez.",
+            "C": "Dureza.",
+            "D": "Oxigênio dissolvido.",
+            "E": "Demanda química de oxigênio."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Alcalinidade refere-se à capacidade da água de neutralizar ácidos, resistindo a variações de pH. É uma medida da presença de íons como carbonatos e bicarbonatos."
+    },
+    {
+        "id": "1130346",
+        "enunciado": "Qual das seguintes opções descreve corretamente a qualidade da água ideal para consumo humano?",
+        "alternativas": {
+            "A": "A qualidade da água para consumo é determinada exclusivamente pela sua aparência visual.",
+            "B": "A qualidade da água para consumo é avaliada com base em parâmetros físicos, químicos e microbiológicos, garantindo que esteja livre de contaminantes e segura para o consumo humano, devendo ser incolor, insípida e inodora.",
+            "C": "A qualidade da água para consumo é determinada apenas pela sua origem.",
+            "D": "A qualidade da água para consumo é medida exclusivamente pelo seu sabor e odor.",
+            "E": "A qualidade da água para consumo é avaliada apenas quanto à sua temperatura."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A qualidade ideal da água para consumo humano é determinada por um conjunto de parâmetros físicos, químicos e microbiológicos que garantem a ausência de contaminantes e a segurança, com características como ser incolor, insípida e inodora."
+    },
+    {
+        "id": "1275471",
+        "enunciado": "Em sistemas de distribuição de água potável, garantir a qualidade e a segurança da água é uma prioridade absoluta. Além dos testes de qualidade química e física, é essencial monitorar a temperatura da água. A temperatura pode afetar diversos aspectos, desde a eficácia do tratamento até a aceitabilidade do consumidor. Por isso, é crucial contar com equipamentos precisos para medir e monitorar continuamente a temperatura da água ao longo do sistema de distribuição. Identifique dentre os seguintes equipamentos qual é utilizado para medir a temperatura da água em um sistema de distribuição de água potável.",
+        "alternativas": {
+            "A": "Potenciômetro.",
+            "B": "Turbidímetro.",
+            "C": "Termômetro.",
+            "D": "Manômetro."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O termômetro é o equipamento específico para medir a temperatura. Potenciômetro mede potencial elétrico, turbidímetro mede a turbidez e manômetro mede pressão."
+    },
+    {
+        "id": "1275472",
+        "enunciado": "Nos sistemas de distribuição de água potável, a análise dos parâmetros físico-químicos da água desempenha um papel essencial na garantia da sua qualidade e segurança. Diversos equipamentos são empregados para essa finalidade, permitindo a medição precisa de diferentes características da água. Esses parâmetros incluem aspectos como turbidez, pH e temperatura, que são fundamentais para avaliar a potabilidade e adequação da água para consumo humano. Identifique qual dos seguintes equipamentos não é utilizado para medir parâmetros físico-químicos da água em um sistema de distribuição de água potável:",
+        "alternativas": {
+            "A": "Turbidímetro.",
+            "B": "pHmetro.",
+            "C": "Odômetro.",
+            "D": "Termômetro."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Turbidímetro mede turbidez, pHmetro mede pH e termômetro mede temperatura. Odômetro é utilizado para medir distâncias percorridas, geralmente em veículos, e não parâmetros físico-químicos da água."
+    },
+    {
+        "id": "1930056",
+        "enunciado": "Assinale a alternativa correta.",
+        "alternativas": {
+            "A": "Água tratada é a água submetida a processos físicos, químicos ou combinação destes, visando atender ao padrão de potabilidade.",
+            "B": "Padrão organoléptico é um conjunto de valores permitidos como parâmetro da qualidade e segurança da água.",
+            "C": "Garantia da qualidade é a ação de coletar nova amostra de água para consumo humano no ponto de coleta que apresentou alteração em algum parâmetro analítico.",
+            "D": "Recoleta é um procedimento de controle da qualidade para monitorar a validade dos ensaios realizados.",
+            "E": "O pH é calculado como sendo a soma das concentrações de íons cálcio e magnésio na água, expressos como carbonato de cálcio."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A define corretamente agua tratada como aquela submetida a processos para atingir o padrao de potabilidade. As demais alternativas apresentam conceitos incorretos sobre padrao organoleptico, garantia de qualidade, recoleta e pH."
+    },
+    {
+        "id": "1930058",
+        "enunciado": "Assinale a alternativa que indica corretamente um conjunto de parâmetros caracterizados por provocar estímulos sensoriais que afetam a aceitação para consumo humano, mas que não necessariamente implicam risco à saúde.",
+        "alternativas": {
+            "A": "Padrão de qualidade",
+            "B": "Padrão de potabilidade",
+            "C": "Água tratada",
+            "D": "Padrão de pureza",
+            "E": "Padrão organoléptico"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Parâmetros organolépticos referem-se a características sensoriais (cor, odor, sabor) que afetam a aceitação do alimento/água, sem necessariamente indicar risco à saúde. Os demais termos descrevem outros aspectos de qualidade ou controle."
+    },
+    {
+        "id": "1930070",
+        "enunciado": "A água potável deve estar em conformidade com o padrão de substâncias químicas que representam risco à saúde, expresso na regulamentação vigente. No caso de adição de flúor (fluoretação), os valores recomendados para concentração de íon fluoreto não podem ultrapassar o valor máximo permitido (VMP) de:",
+        "alternativas": {
+            "A": "1,5 mg/L.",
+            "B": "2,0 mg/L.",
+            "C": "2,5 mg/L.",
+            "D": "3,0 mg/L.",
+            "E": "3,5 mg/L."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A regulamentação vigente estabelece o valor máximo permitido de 1,5 mg/L para a concentração de íon fluoreto na água fluoretada."
+    },
+    {
+        "id": "1930074",
+        "enunciado": "Visando a qualidade das análises físico-químicas da água para consumo humano, há definição de procedimentos para a coleta e preservação de amostras. Assinale a alternativa correta em relação ao tema.",
+        "alternativas": {
+            "A": "Para o parâmetro pH a análise pode ser realizada em até 72 horas.",
+            "B": "Para o parâmetro Temperatura a análise pode ser realizada em até 48 horas.",
+            "C": "Para os parâmetros pH e Temperatura a análise deve ser imediata.",
+            "D": "A análise de cloretos deve ser realizada imediatamente após a coleta.",
+            "E": "Para o parâmetro fluoretos o recipiente recomendado é de vidro, e para a preservação, a amostra deve ser refrigerada por até 7 dias."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para os parametros de pH e Temperatura, a analise da amostra de agua deve ser realizada imediatamente apos a coleta, pois esses valores sao alterados rapidamente com o tempo e as condicoes ambientais."
+    },
+    {
+        "id": "1930088",
+        "enunciado": "Assinale a alternativa correta sobre as análises físico-químicas da água para consumo humano.",
+        "alternativas": {
+            "A": "Cloretos podem ser determinados pelo método de titulação com hidróxido de sódio.",
+            "B": "Cloretos podem ser determinados pelo método de titulação com nitrato de prata.",
+            "C": "O pH é calculado como sendo a soma das concentrações de íons sódio e magnésio na água, expressos como sulfato de magnésio.",
+            "D": "O termo pH representa a concentração de íons hidrogênio em uma solução, o qual pode ser determinado por vários aparelhos, com exceção dos potenciômetros.",
+            "E": "O termo pH representa a concentração de íons hidrogênio em uma solução, o qual pode ser determinado por vários aparelhos, com exceção dos colorímetros."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A determinacao de cloretos em analises de agua e geralmente feita por titulacao com nitrato de prata, um metodo padronizado e confiavel."
+    },
+    {
+        "id": "1930090",
+        "enunciado": "Assinale a alternativa correta sobre os planos de amostragem de controle da qualidade da água para consumo humano.",
+        "alternativas": {
+            "A": "Os responsáveis por Sistemas de Abastecimento de Água (SAA) devem analisar pelo menos uma amostra anual da água bruta em cada ponto de captação com vistas a uma gestão preventiva de risco.",
+            "B": "Os responsáveis por SAA devem elaborar a cada 2 anos o plano de amostragem de cada sistema.",
+            "C": "A amostragem deve obedecer aos seguintes requisitos: distribuição uniforme das coletas ao longo do período de um ano e representatividade dos pontos de coleta no sistema de distribuição (reservatórios e rede).",
+            "D": "A amostragem precisa considerar um dos critérios: abrangência espacial ou pontos estratégicos.",
+            "E": "Não são considerados pontos estratégicos para coleta aqueles próximos a grande circulação de pessoas como: terminais rodoviários e ferroviários."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A Portaria GM/MS nº 888/2021 estabelece que a amostragem deve ser distribuida uniformemente ao longo do ano e ser representativa dos pontos de coleta. A distribuicao uniforme e a representatividade dos pontos sao requisitos essenciais."
+    },
+    {
+        "id": "1930092",
+        "enunciado": "Para os esgotos sanitários oriundos de sistemas públicos e privados de tratamento deverão ser obedecidas as condições e padrões de lançamento especificados na legislação, onde são estabelecidos os parâmetros e as frequências de monitoramento. Assinale a alternativa correta em relação ao tema.",
+        "alternativas": {
+            "A": "Para o monitoramento deverá ser aplicado o critério de médias mensais.",
+            "B": "O ponto de amostragem deverá ser sempre na saída do esgoto tratado e a amostragem sempre do tipo composta.",
+            "C": "Para o monitoramento deverá ser aplicado o critério de médias semestrais.",
+            "D": "O ponto de amostragem será sempre na entrada do esgoto e a amostragem sempre do tipo simples.",
+            "E": "O ponto de amostragem será sempre na saída do esgoto tratado e a amostragem do tipo simples, cabendo ao empreendedor a opção de amostragem composta."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E é a correta pois o ponto de amostragem de efluentes é na saída após o tratamento. A amostragem simples é o padrão, mas o empreendedor pode optar pela composta, dependendo das exigências legais e do ecossistema receptor."
+    },
+    {
+        "id": "1285836",
+        "enunciado": "Em farmácias de manipulação a água potável deve ser analisada a cada seis meses buscando-se o seguimento da legislação vigente e garantia da qualidade. Acerca dos itens a serem analisados, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "Presença de antibióticos",
+            "B": "Contagem total de fungos",
+            "C": "Coliformes totais",
+            "D": "Presença de compostos bioativos"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A análise da água potável em farmácias de manipulação, conforme legislação, inclui a verificação de coliformes totais para garantir a ausência de contaminação fecal e microbiana."
+    },
+    {
+        "id": "1133331",
+        "enunciado": "Em um sistema de distribuição de água, é necessário adotar alguns padrões de potabilidade. Em se tratando do valor Ph (Potencial hidrogeniônico), responsável por características como acidez ou basicidade da água, recomenda-se mantê-lo em qual faixa?",
+        "alternativas": {
+            "A": "4,0 a 7,0.",
+            "B": "5,0 a 7,5.",
+            "C": "6,0 a 9,5.",
+            "D": "3,0 a 5,0.",
+            "E": "5,0 a 10,0."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está correta. A faixa de pH recomendada para água potável, visando atender aos padrões de potabilidade e garantir características organolépticas adequadas e controle de corrosividade, geralmente se situa entre 6,0 e 9,5."
+    },
+    {
+        "id": "1044490",
+        "enunciado": "A determinação da intensidade da cor da água é feita comparando-se a amostra com um padrão de cobalto-platina, sendo o resultado fornecido em unidades de cor, também chamada unidade:",
+        "alternativas": {
+            "A": "Hidrogênio.",
+            "B": "Hazen.",
+            "C": "Hidróxido.",
+            "D": "Hunter."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A unidade Hazen (ou unidade Pt-Co) é utilizada para medir a intensidade da cor em amostras de agua, comparando-a com um padrao de cobalto-platina."
+    },
+    {
+        "id": "1044492",
+        "enunciado": "A medida do grau de interferência à passagem da luz através do líquido é a medida de qualidade da água denominada:",
+        "alternativas": {
+            "A": "Turbidez.",
+            "B": "Sólidos.",
+            "C": "Condutividade.",
+            "D": "pH."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A turbidez indica o grau de interferência da luz na passagem por um líquido, sendo causada pela presença de particulas em suspensão ou coloidais. É uma medida importante da qualidade da agua."
+    },
+    {
+        "id": "1607718",
+        "enunciado": "A água é um recurso essencial para a manutenção da vida, mas que tem disponibilidade limitada em muitas regiões do planeta. Além da avaliação de disponibilidade, a água também é analisada sob diversos parâmetros indicadores da qualidade. Esses parâmetros são medidas que, quando superiores aos valores de referência, sinalizam a ausência de conformidade da água para cada tipo específico de uso, dentre eles, potabilidade, balneabilidade, irrigação e industrial. Como parâmetros utilizados para análise da qualidade da água, têm-se:",
+        "alternativas": {
+            "A": "Químicos – densidade e viscosidade; Físicos – cor e alcalinidade; Biológicos – demanda bioquímica e química de oxigênio.",
+            "B": "Químicos – dureza e potencial hidrogeniônico; Físicos – condutividade elétrica e turbidez; Biológicos – coliformes e algas.",
+            "C": "Químicos – sólidos e alcalinidade; Físicos – temperatura e fluoretos; Biológicos – oxigênio dissolvido e matéria orgânica.",
+            "D": "Químicos – temperatura e condutividade; Físicos – pH e microbiota; Biológicos – sólidos sedimentáveis e não sedimentáveis.",
+            "E": "Químicos – cloretos e nitrogênio; Físicos – componentes orgânicos e inorgânicos; Biológicos – floculação e decantação."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B lista parâmetros corretamente classificados em químicos, físicos e biológicos comumente utilizados para analisar a qualidade da água, indicando sua conformidade."
+    },
+    {
+        "id": "1688705",
+        "enunciado": "Marque a alternativa que representam exemplos de testes de toxicidade para avaliar a qualidade das águas e a carga poluidora em efluentes, corretamente.",
+        "alternativas": {
+            "A": "Demanda química de oxigênio (DQO), demanda bioquímica de oxigênio (DBO).",
+            "B": "Quantidade de substrato na zona bentônica de um meio aquático.",
+            "C": "Quantidade de luz que penetra na lâmina d'água.",
+            "D": "Demanda da quantidade de substrato existente no plâncton.",
+            "E": "Determinação dos fatores ambientais referentes ao intemperismo."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A Demanda Quimica de Oxigenio (DQO) e a Demanda Bioquimica de Oxigenio (DBO) sao testes padronizados e amplamente utilizados para avaliar a quantidade de matéria orgânica oxidavel em efluentes e corpos d'agua, sendo indicadores diretos da carga poluidora e da qualidade da agua."
+    },
+    {
+        "id": "1022164",
+        "enunciado": "O conhecimento da qualidade da água, do ponto de vista agrícola, é fundamental para o êxito da uilização de sistemas irrigados. Com base nisso, assinale a alternaiva correta.",
+        "alternativas": {
+            "A": "A coleta de amostras da água é uma tarefa simples e não exige cuidados necessários para uma correta amostragem.",
+            "B": "Conduividade, pH e oxigênio dissolvido devem ser determinados em laboratório, em razão da diiculdade de se aferir esses parâmetros durante os procedimentos de campo.",
+            "C": "A adequação da água de irrigação depende unicamente do teor total dos sais dissolvidos.",
+            "D": "Os cáions mais comuns encontrados na água de irrigação são o ferro, manganês e zinco, enquanto o fosfato e o nitrato são os ânions mais encontrados.",
+            "E": "A qualidade da água desinada à irrigação é avaliada não somente pelo conteúdo total de sais, mas também pela composição individual dos íons presentes."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A qualidade da água para irrigação é avaliada pelo sal total e pela composição de íons individuais, influenciando a salinização do solo e a toxicidade para as plantas."
+    },
+    {
+        "id": "1022169",
+        "enunciado": "Um dos critérios para a classiicação da qualidade da água para uso em irrigação é a determinação da Relação de Adsorção de Sódio (RAS). Essa relação expressa a aidade relaiva dos íons de sódio em reações de intercâmbio caiônico com o solo. Essa relação do sódio se dá com os seguintes cáions:",
+        "alternativas": {
+            "A": "cálcio e potássio.",
+            "B": "cálcio e magnésio.",
+            "C": "magnésio e potássio.",
+            "D": "cálcio e ferro.",
+            "E": "cálcio e zinco."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A Relação de Adsorção de Sódio (RAS) considera a concentração relativa de sódio em relação aos cátions divalentes, principalmente cálcio e magnésio, no intercâmbio iônico com o solo."
+    },
+    {
+        "id": "1420043",
+        "enunciado": "Sobre a qualidade da água para o abastecimento público, leia as alternativas a seguir e assinale a INCORRETA.",
+        "alternativas": {
+            "A": "O residual de cloro garante a proteção da água tratada, caso a mesma seja contaminada na rede de distribuição.",
+            "B": "A fluoretação da água destinada ao consumo humano evita a cárie dentária.",
+            "C": "De acordo com a Resolução CONAMA 357/2005, as águas doces de classe 4 devem ser submetidas ao tratamento convencional ou avançado antes de serem distribuídas à população.",
+            "D": "A turbidez da água distribuída à população deve atender o padrão de potabilidade exigido na norma vigente.",
+            "E": "A concentração de ferro e manganês na água tratada deve estar em conformidade com os padrões de potabilidade definidos na norma legal."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A Resolução CONAMA 357/2005 define classes de corpos d'água e seus usos, não exigindo tratamento convencional ou avançado para todas as águas doces de classe 4 antes da distribuição."
+    },
+    {
+        "id": "1459409",
+        "enunciado": "Na avaliação da qualidade da água são analisados diversos parâmetros. São parâmetros físicos avaliados na qualidade da água:",
+        "alternativas": {
+            "A": "Turbidez, cor e temperatura.",
+            "B": "Arsênio, chumbo e mercúrio.",
+            "C": "Fósforo, cloro residual livre e toxinas.",
+            "D": "Sabor, coliformes e pH."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Parâmetros físicos na análise da qualidade da água incluem características que podem ser percebidas pelos sentidos ou medidas diretamente, como turbidez (turvação), cor e temperatura. Os outros itens incluem parâmetros químicos ou microbiológicos."
+    },
+    {
+        "id": "1459417",
+        "enunciado": "A proliferação excessiva de algas, causada pelo excesso de nutrientes na água é chamada de:",
+        "alternativas": {
+            "A": "Eutrofização.",
+            "B": "Turbidez.",
+            "C": "Corpo d’água.",
+            "D": "Erosão."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Eutrofização é o enriquecimento da água por nutrientes, como nitrogênio e fósforo, que leva ao crescimento excessivo de algas. Esse fenômeno pode prejudicar a qualidade da água e a vida aquática."
+    },
+    {
+        "id": "1507162",
+        "enunciado": "São agentes contaminantes de maior importância da água, EXCETO:",
+        "alternativas": {
+            "A": "matéria orgânica.",
+            "B": "organismos patogênicos.",
+            "C": "oxigênio.",
+            "D": "metais pesados."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O oxigênio é essencial para a vida e não é um agente contaminante da água. Matéria orgânica, organismos patogênicos e metais pesados são contaminantes conhecidos."
+    },
+    {
+        "id": "2218035",
+        "enunciado": "O índice de qualidade das águas (IQA) foi desenvolvido pela National Sanitation Foundation, dos Estados Unidos, em 1970. Em 1975, este índice foi adaptado pela Companhia Ambiental do estado de São Paulo, sendo atualmente o índice mais utilizado no Brasil. O IQA avalia a qualidade da água para o abastecimento público após o tratamento convencional e seus resultados devem ser interpretados levando em consideração este uso da água. Assinale a alternativa que apresenta os parâmetros que compõe o IQA.",
+        "alternativas": {
+            "A": "Temperatura, sólidos totais, pH, turbidez, coliformes termotolerantes, demanda bioquímica de oxigênio, oxigênio dissolvido, fósforo total e nitrogênio total.",
+            "B": "Sólidos totais, pH, turbidez, coliformes termotolerantes, demanda bioquímica de oxigênio, oxigênio dissolvido, fósforo total e nitrogênio total .",
+            "C": "Temperatura, sólidos totais, pH, turbidez, coliformes termotolerantes, demanda química de oxigênio, oxigênio dissolvido, fósforo total e nitrogênio total .",
+            "D": "Temperatura, condutividade, sólidos totais, pH, turbidez, coliformes termotolerantes, demanda química de oxigênio, oxigênio dissolvido, fósforo total e nitrogênio total base.",
+            "E": "Condutividade, sólidos totais, pH, turbidez, coliformes termotolerantes, demanda bioquímica de oxigênio, oxigênio dissolvido, fósforo total e nitrogênio total ."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A lista corretamente os 9 parâmetros que compõem o Índice de Qualidade das Águas da NSF/CETESB: Temperatura, sólidos totais, pH, turbidez, coliformes termotolerantes, demanda bioquímica de oxigênio, oxigênio dissolvido, fósforo total e nitrogênio total."
+    },
+    {
+        "id": "1954199",
+        "enunciado": "Em relação às características físico-químicas da água e à aplicabilidade dos seus diferentes tipos, é correto afirmar que a água",
+        "alternativas": {
+            "A": "para injeção é apirogênica, portanto, adequada para o preparo de reagentes.",
+            "B": "destilada não é adequada para limpeza de material e deve ser utilizada apenas no preparo de meios de cultura.",
+            "C": "tipo I contém 0,5% de NaCl e pode ser utilizada apenas no preparo de meios de cultura.",
+            "D": "para injeção é isosmótica e por isso não é adequada para o preparo de meios de cultura.",
+            "E": "deionizada possui Ph 6.0 e por isso é adequada para o preparo de meios de cultura."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Água para injeção, por ser apirogênica (livre de pirogênios), é adequada para o preparo de reagentes que exigem pureza e ausência de contaminantes. As demais alternativas apresentam imprecisões ou falsidades sobre as características e usos das águas."
+    }
+]

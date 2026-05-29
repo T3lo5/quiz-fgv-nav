@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz FGV Navegação Aérea</title>
+    <title>Quiz Pro - Estudos</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,54 +12,123 @@
 <body>
     <div class="container">
         <header>
-            <h1>Quiz FGV Navegação Aérea</h1>
-            <p>Estudo para certificação da NAV Brasil</p>
+            <h1>Quiz Pro - Estudos</h1>
+            <p>Plataforma completa de estudos para múltiplas disciplinas</p>
         </header>
 
         <main id="quiz-container">
             <section id="welcome-screen">
                 <div class="welcome-content">
-                    <h2>Bem-vindo ao Quiz FGV Navegação Aérea</h2>
-                    <p>Teste seus conhecimentos para o concurso de Profissional Técnico de Navegação Aérea!</p>
+                    <h2>Bem-vindo ao Quiz Pro - Estudos</h2>
+                    <p>Estude diversas matérias com questões personalizadas e simulados completos!</p>
                     <div class="quiz-options">
-                        <!-- Modo de Quiz -->
+                        <!-- Modos de Estudo -->
                         <div class="mode-toggle">
-                            <button id="quiz-mode" class="mode-btn active">Quiz</button>
-                            <button id="study-mode" class="mode-btn">Estudo Focado</button>
+                            <button id="quiz-mode" class="mode-btn active">Simulado Personalizado</button>
+                            <button id="study-mode" class="mode-btn">Estudo por Matéria</button>
+                            <button id="review-mode" class="mode-btn">Revisão Rápida</button>
                         </div>
 
-                        <!-- Configurações do Quiz -->
+                        <!-- Configurações do Simulado Personalizado -->
                         <div id="quiz-settings" class="settings-section">
-                            <div class="option-group">
-                                <label for="exam-type">Tipo:</label>
-                                <select id="exam-type">
-                                    <option value="ATCO">ATCO</option>
-                                    <option value="ATSEP">ATSEP</option>
-                                </select>
+                            <div class="matters-selection">
+                                <h3>Selecione as Matérias</h3>
+
+                                <!-- Campo de Busca -->
+                                <div class="search-group">
+                                    <input type="text" id="matter-search" placeholder="Buscar matéria...">
+                                </div>
+
+                                <!-- Abas de Categorias -->
+                                <div class="category-tabs">
+                                    <button class="tab-btn active" data-category="all">Todas</button>
+                                    <button class="tab-btn" data-category="testes">Testes</button>
+                                    <button class="tab-btn" data-category="saúde">Saúde</button>
+                                    <button class="tab-btn" data-category="direito">Direito</button>
+                                    <button class="tab-btn" data-category="administração">Administração</button>
+                                    <button class="tab-btn" data-category="exatas">Exatas</button>
+                                    <button class="tab-btn" data-category="humanas">Humanas</button>
+                                    <button class="tab-btn" data-category="educação">Educação</button>
+                                </div>
+
+                                <!-- Lista de matérias -->
+                                <div id="matters-list" class="matters-list">
+                                    <!-- Será preenchido dinamicamente -->
+                                </div>
                             </div>
+
+                            <!-- Configurações do Simulado Personalizado -->
+                            <div class="simulated-config">
+                                <h4>Configurações do Simulado Personalizado 💎</h4>
+
+                                <div class="config-section">
+                                    <div class="option-group">
+                                        <label for="total-time">
+                                            ⏱️ Tempo total do Simulado (minutos):
+                                        </label>
+                                        <input type="number" id="total-time" min="5" max="480" value="60"
+                                               placeholder="Ex: 60" class="time-input">
+                                        <small>Deixe em branco para simulado sem tempo</small>
+                                    </div>
+
+                                    <div class="option-group">
+                                        <label>
+                                            📋 Selecione as disciplinas (máximo 5):
+                                        </label>
+                                        <div id="disciplines-selection" class="disciplines-grid">
+                                            <!-- Será preenchido dinamicamente -->
+                                        </div>
+                                    </div>
+
+                                    <div id="questions-per-discipline" class="questions-config">
+                                        <h5>Quantas questões por disciplina?</h5>
+                                        <div id="discipline-questions-inputs">
+                                            <!-- Será preenchido dinamicamente -->
+                                        </div>
+                                        <div class="total-summary">
+                                            <strong>Total de questões: <span id="total-questions-number">0</span></strong>
+                                            <button id="auto-balance" class="btn secondary">Distribuir Igualmente</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="preview-section" id="preview-section" style="display: none;">
+                                    <h5>Prévia do Simulado</h5>
+                                    <div id="preview-content"></div>
+                                </div>
+                            </div>
+
+                            <button id="start-simulated" class="btn primary">Iniciar Simulado</button>
+                        </div>
+
+                        <!-- Configurações de Estudo por Matéria -->
+                        <div id="study-settings" class="settings-section hidden">
+                            <div class="matter-selection">
+                                <h3>Escolha a Matéria para Estudar</h3>
+                                <div id="single-matter-list" class="single-matter-list">
+                                    <!-- Será preenchido dinamicamente -->
+                                </div>
+                                <button id="start-matter-study" class="btn primary">Iniciar Estudo</button>
+                            </div>
+                        </div>
+
+                        <!-- Configurações de Revisão Rápida -->
+                        <div id="review-settings" class="settings-section hidden">
                             <div class="option-group">
-                                <label for="questions-count">Número de questões:</label>
-                                <select id="questions-count">
+                                <label for="review-questions-count">Número de questões para revisão:</label>
+                                <select id="review-questions-count">
                                     <option value="10">10 questões</option>
                                     <option value="20">20 questões</option>
                                     <option value="30">30 questões</option>
-                                    <option value="all">Todas (200+)</option>
+                                    <option value="50">50 questões</option>
                                 </select>
                             </div>
                             <div class="option-group">
-                                <label for="timer">Tempo por questão:</label>
-                                <select id="timer">
-                                    <option value="30">30 segundos</option>
-                                    <option value="45">45 segundos</option>
-                                    <option value="60">1 minuto</option>
-                                    <option value="90">1.5 minutos</option>
-                                    <option value="0">Sem limite</option>
-                                </select>
+                                <label for="review-completed">Incluir apenas questões com gabarito:</label>
+                                <input type="checkbox" id="review-completed" checked>
                             </div>
+                            <button id="start-review" class="btn primary">Iniciar Revisão Rápida</button>
                         </div>
-
-                        <!-- Configurações de Estudo Focado -->
-                        <div id="study-settings" class="settings-section hidden">
                             <div class="option-group">
                                 <label for="study-subject">Matéria:</label>
                                 <select id="study-subject" multiple size="4">
@@ -94,14 +163,15 @@
                                     Mostrar explicações
                                 </label>
                             </div>
-                            <button id="start-study" class="btn primary">Iniciar Estudo Focado</button>
+                        </div>
+
+                        <!-- Botões de Ação Rápida -->
+                        <div class="action-buttons">
+                            <button id="view-results" class="btn secondary">Ver Resultados</button>
+                            <button id="view-bookmarks" class="btn secondary">Ver Favoritos</button>
+                            <button id="view-progress" class="btn secondary">Meu Progresso</button>
                         </div>
                     </div>
-                    <button id="start-quiz" class="btn primary">Iniciar Quiz</button>
-                        <button id="view-results" class="btn secondary">Ver Resultados</button>
-                        <button id="view-bookmarks" class="btn secondary">Ver Favoritos</button>
-                        <button id="view-progress" class="btn secondary">Meu Progresso</button>
-                        <button id="start-review" class="btn primary">Review de Questões</button>
                 </div>
             </section>
 
@@ -297,7 +367,8 @@
         </footer>
     </div>
 
-    <script src="script.js"></script>
+    <script src="js/hub-loader.js"></script>
+<script src="script.js"></script>
 <script src="study_mode_final.js"></script>
 <script src="testDeArquivos/review_system_fixed.js"></script>
 <!-- <script src="data_sync.js"></script> -->

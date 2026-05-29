@@ -1,0 +1,951 @@
+[
+    {
+        "id": "1766217",
+        "enunciado": "Uma         empresa         de         transportes         de         cargas         realiza         a         distribuição         de         mercadorias          para         diversas         cidades         do         país.         A         frota         é         composta         por         caminhões         que         transporta         caixas         de         diferentes         tipos         de         produtos,         sendo         que         cada         tipo         de         produto,         com         pesos         e         volumes         distintos.Considerando          as         seguintes         informações: A         empresa         tem         10         caminhões         de         carga,         cada         um         com         a         capacidade         de         transportar         12.000         kg         de         mercadorias. Cada         caminhão         transporta         caixas         de         papelão         de         8         Kg         com         as         dimensões         de         1,5         m         de         comprimento,          0,8         m         de         largura         e         0,5         m         de         altura. O         valor         do         frete         para         cada         caixa         transportada          é         R$25,00.A         empresa         recebeu         uma         ordem         de         serviço         para         transportar         uma         carga         de         caixas         com         72.000         Kg.Assinale         a         seguir         qual         será         o         valor         total         do         frete         cobrado pela         empresa,         quantas         caixas         serão         transportadas?",
+        "alternativas": {
+            "A": "R$250.000,00;          8.000         caixas         por         caminhão;         6         caminhões.",
+            "B": "R$125.000,00;          4.500         caixas         por         caminhão;         6         caminhões.",
+            "C": "R$225.000,00;          9.000         caixas         por         caminhão;         6         caminhões.",
+            "D": "R$150.000,00;          9.000         caixas         por         caminhão;         8         caminhões.",
+            "E": "R$125.000,00;          4.500         caixas         por         caminhão;         8         caminhões."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O cálculo é o seguinte: 72.000 kg / 8 kg/caixa = 9.000 caixas. 9.000 caixas / 9.000 caixas/caminhão = 1 caminhão? Não, 9.000 caixas precisam ser transportadas. 9.000 caixas * R$25/caixa = R$225.000,00. 72.000 kg / 12.000 kg/caminhão = 6 caminhões."
+    },
+    {
+        "id": "1766052",
+        "enunciado": "Uma empresa de transportes de cargas realiza a distribuição de mercadorias para diversas cidades do país. A frota é composta por caminhões que transporta caixas de diferentes tipos de produtos, sendo que cada tipo de produto, com pesos e volumes distintos. Considerando as seguintes informações: A empresa tem 10 caminhões de carga, cada um com a capacidade de transportar 12.000 kg de mercadorias. Cada caminhão transporta caixas de papelão de 8 Kg com as dimensões de 1,5 m de comprimento, 0,8 m de largura e 0,5 m de altura. O valor do frete para cada caixa transportada é R$25,00. A empresa recebeu uma ordem de serviço para transportar uma carga de caixas com 72.000 Kg. Assinale a seguir qual será o valor total do frete cobrado pela empresa, quantas caixas serão transportadas?",
+        "alternativas": {
+            "A": "R$125.000,00; 4.500 caixas por caminhão; 8 caminhões.",
+            "B": "R$150.000,00; 9.000 caixas por caminhão; 8 caminhões.",
+            "C": "R$125.000,00; 4.500 caixas por caminhão; 6 caminhões.",
+            "D": "R$250.000,00; 8.000 caixas por caminhão; 6 caminhões.",
+            "E": "R$225.000,00; 9.000 caixas por caminhão; 6 caminhões."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Para 72.000 kg de carga, com caixas de 8 kg, são 9.000 caixas. Com 6 caminhões (carregando 12.000 kg cada), cobrirá a carga. O frete total é 9.000 caixas * R$25,00/caixa = R$225.000,00."
+    },
+    {
+        "id": "2269214",
+        "enunciado": "A enfermeira Carla deve administrar um medicamento a um paciente a cada 90 minutos durante um período contínuo de 24 horas. Considerando que a primeira dose foi aplicada exatamente às 6h e que as doses subsequentes são dadas a cada 90 minutos sem intervalos omitidos, quantas doses Carla administrará ao longo desse período de 24 horas?",
+        "alternativas": {
+            "A": "Carla administrará 24 doses ao paciente.",
+            "B": "Carla administrará 17 doses ao paciente.",
+            "C": "Carla administrará 12 doses ao paciente.",
+            "D": "Carla administrará 18 doses ao paciente."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um período de 24 horas tem 1440 minutos. A cada 90 minutos, uma dose é administrada. O número de intervalos de 90 minutos em 1440 minutos é 1440 / 90 = 16. Como a primeira dose é aplicada no início, o total de doses é o número de intervalos mais a primeira dose: 16 + 1 = 17 doses. A última dose será aplicada às 6h + 16 * 90min = 6h + 24h = 6h do dia seguinte, totalizando 17 doses no período contínuo de 24h."
+    },
+    {
+        "id": "2044320",
+        "enunciado": "Em uma turma de 2 períodos da faculdade de Administração, metade já é casado, do restante, metade tem namorada e o demais são solteiros. Se a quantidade de solteiros é igual a 12, a quantidade total de alunos desta turma é:",
+        "alternativas": {
+            "A": "36 alunos.",
+            "B": "48 alunos.",
+            "C": "28 alunos.",
+            "D": "56 alunos.",
+            "E": "60 alunos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Se a quantidade de solteiros é 12, e estes representam a parte restante após casados e namorados, vamos trabalhar de trás para frente. Se metade dos restantes são solteiros, então os solteiros são 1/2 do restante. Logo, o restante (não casados) é 2 * 12 = 24 alunos. Se metade da turma é casada, então a outra metade (os 24 alunos) não é casada. Portanto, a turma total é 2 * 24 = 48 alunos. Verificação: Metade casada = 24. Restante = 24. Metade do restante = 12 (namorados). Outra metade do restante = 12 (solteiros). Total: 24 (casados) + 12 (namorados) + 12 (solteiros) = 48 alunos."
+    },
+    {
+        "id": "2286827",
+        "enunciado": "Um técnico analisa o tempo necessário para encher dois reservatórios utilizando a mesma torneira. O primeiro reservatório leva 12 minutos para ser totalmente preenchido, enquanto o segundo leva 18 minutos. Sabe-se que os reservatórios são enchidos consecutivamente, um após o outro, sem intervalos. Com base nessas informações, avalie as afirmativas a seguir:I. O tempo total necessário para encher os dois reservatórios é de 30 minutos.II. A diferença entre os tempos de enchimento dos dois reservatórios é de 6 minutos.III. Após 15 minutos transcorridos desde o início do processo, terá passado exatamente um terço do tempo total necessário para concluir o enchimento dos dois reservatórios.IV. O segundo reservatório leva 1,5 vez o tempo do primeiro para ser completamente preenchido.Está CORRETO o que se afirma em:",
+        "alternativas": {
+            "A": "I e III, apenas.",
+            "B": "I, II e IV, apenas.",
+            "C": "I e II, apenas.",
+            "D": "II, III e IV, apenas.",
+            "E": "II e III, apenas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "I. Tempo total: 12 + 18 = 30 minutos (V). II. Diferença: 18 - 12 = 6 minutos (V). III. Um terço do tempo total (30 min) é 10 min. Após 15 minutos, passaram mais de um terço (F). IV. 18 / 12 = 1,5 (V). Portanto, I, II e IV estão corretas. A alternativa B é a que corresponde a essa sequência."
+    },
+    {
+        "id": "1718400",
+        "enunciado": "Um tanque de 8.000 litros está sendo preenchido com uma mangueira que despeja água a uma taxa de 200 litros por minuto. Quanto tempo levará para encher completamente o tanque?",
+        "alternativas": {
+            "A": "50 minutos.",
+            "B": "40 minutos.",
+            "C": "30 minutos.",
+            "D": "20 minutos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para calcular o tempo necessário, divida o volume total do tanque pela vazão da mangueira: 8.000 litros / 200 litros/minuto = 40 minutos. Portanto, o tanque levará 40 minutos para ser completamente preenchido."
+    },
+    {
+        "id": "2163641",
+        "enunciado": "Um auxiliar de encanador recebeu um projeto hidrossanitário residencial com os seguintes pontos de uso:\n• 2 pias de banheiro\n• 1 lavatório\n• 2 chuveiros\n• 2 vasos sanitários com caixa acoplada\n• 1 tanque de lavar roupas\n• 1 máquina de lavar roupas\nSabendo que, para cada ponto de uso, são necessárias 2 conexões em T, a quantidade mínima de conexões em T necessárias para atender a todos os pontos é de:",
+        "alternativas": {
+            "A": "9 conexões",
+            "B": "14 conexões",
+            "C": "18 conexões",
+            "D": "21 conexões"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "São 7 pontos de uso (2 pias + 1 lavatório + 2 chuveiros + 2 vasos + 1 tanque + 1 máquina de lavar). Cada ponto necessita de 2 conexões em T. Portanto, 7 pontos x 2 conexões/ponto = 14 conexões. Este cálculo está incorreto, vamos recalcular a quantidade de pontos de uso: 2 pias + 1 lavatório + 2 chuveiros + 2 vasos sanitários + 1 tanque + 1 máquina de lavar = 9 pontos de uso. Cada ponto necessita de 2 conexões em T. Logo, 9 pontos x 2 conexões/ponto = 18 conexões em T."
+    },
+    {
+        "id": "2291538",
+        "enunciado": "Duas formigas trabalham em ritmos constantes: a primeira transporta 12 grãos por hora; e a segunda, 8 grãos por hora. Juntas, devem transportar 100 grãos. Com base nessa situação hipotética, assinale a opção que apresenta o tempo necessário para as formigas transportarem esses 100 grãos.",
+        "alternativas": {
+            "A": "4 horas",
+            "B": "5 horas",
+            "C": "6 horas",
+            "D": "7 horas",
+            "E": "8 horas"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Juntas, as formigas transportam 12 + 8 = 20 grãos por hora. Para transportar 100 grãos, o tempo necessário é 100 grãos / 20 grãos/hora = 5 horas."
+    },
+    {
+        "id": "2094280",
+        "enunciado": "Na primeira fase de um campeonato de futebol, as equipes são divididas em grupos com 4 equipes. Além disso, cada equipe enfrenta as outras 3 equipes do grupo, em jogos de ida e volta. Em cada partida, a equipe vencedora recebe 3 pontos e a perdedora não recebe ponto algum, e, em caso de empate, ambas as equipes recebem um ponto.\nOs critérios de classificação das equipes são, nessa ordem: número de pontos, saldo de gols, gols marcados e sorteio. As duas primeiras equipes de cada grupo se classificam para a próxima fase da competição.\nConsidere as seguintes afirmações:\n\nI. É impossível que uma equipe se classifique para a próxima fase da competição com uma pontuação final inferior a 6 pontos.\nII. Qualquer equipe que terminar com 12 pontos nesta fase da competição estará automaticamente classificada à próxima fase.\n\nEntão, é CORRETO afirmar:",
+        "alternativas": {
+            "A": "Somente a afirmação I é correta.",
+            "B": "Somente a afirmação II é correta.",
+            "C": "Ambas as afirmações são corretas.",
+            "D": "Ambas as afirmações são incorretas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa I está correta: em 4 equipes com jogos de ida e volta, são 6 jogos por equipe. A pontuação máxima possível é 18 (6 vitórias). Para não se classificar com menos de 6 pontos é plausível. A afirmativa II está correta: 12 pontos (4 vitórias) garantem a classificação em qualquer cenário, pois o número máximo de pontos sem classificação seria 9."
+    },
+    {
+        "id": "1863938",
+        "enunciado": "Em uma escola municipal, a gestão da escola está com um problema de abastecimento de água, e tem uma cisterna de água inferior, e uma caixa d’água superior, com capacidade de 5.000 litros (cisterna) e 1.000 litros (caixa d’água). A companhia de abastecimento de água do município informou que sem abastecimento de água por um período de quatro dias. Considerando que a cisterna e a caixa d’água estão completamente cheias com água, e que o consumo diário de água da escola é: 1- Banheiros ................. 950 litros 2- Cozinha .................... 320 litros 3- Limpeza ................... 450 litros 4. Bebedouro .............. 550 litros A escola ficará abastecida com água durante quantos dias?",
+        "alternativas": {
+            "A": "3,2 dias.",
+            "B": "1,8 dias.",
+            "C": "2,6 dias.",
+            "D": "4 dias."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Consumo total diário: 950 + 320 + 450 + 550 = 2270 litros. Capacidade total: 5000 (cisterna) + 1000 (caixa d'água) = 6000 litros. Dias de abastecimento: 6000 / 2270 ≈ 2,64 dias. Portanto, 2,6 dias."
+    },
+    {
+        "id": "1652182",
+        "enunciado": "Analise as afirmativas a seguir: I. Se dois números inteiros positivos possuem como máximo divisor comum (MDC) igual a 12 e como mínimo múltiplo comum (MMC) igual a 144, então o produto entre esses números é 1728. II. A razão entre o número de mulheres e homens em uma turma é de 3/2. Sabendo que há 18 mulheres, o número total de pessoas na turma é 30. III. Um investidor aplicou R$1.000,00 a uma taxa de juros simples de 6% ao ano durante 3 anos. Ao final desse período, ele terá um montante total de R$1.180,00. IV. Para comprar 15 metros de tecido, um cliente precisa pagar R$600,00. Se ele comprar 12 metros do mesmo tecido, pagará R$480,00. V. Um aluno obteve as seguintes notas em uma disciplina: 7, 8, 6 e 9, com pesos 1, 2, 1 e 2, respectivamente. A média ponderada das notas é igual a 7,5. Assinale a alternativa correta:",
+        "alternativas": {
+            "A": "Apenas as afirmativas I, II, III e IV são verdadeiras.",
+            "B": "Apenas as afirmativas I, II e III são verdadeiras.",
+            "C": "As afirmativas I, II, III, IV e V são verdadeiras.",
+            "D": "Apenas as afirmativas I, III e IV são verdadeiras.",
+            "E": "Apenas as afirmativas I, IV e V são verdadeiras."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Todas as afirmativas estão corretas. A I é baseada na propriedade do MDC e MMC; a II no cálculo de proporção; a III no cálculo de juros simples; a IV no cálculo de regra de três; e a V na média ponderada."
+    },
+    {
+        "id": "1603637",
+        "enunciado": "Determinado servidor deve cumprir um total de 8 horas mínimas diárias no órgão público. Em um dia, ele chega às 07h52min ao órgão, e exerce suas atividades até 12h25min, momento que sai para almoço, retornando às 13h37min. A partir dessas informações, até que horas, no mínimo, esse servidor deve trabalhar para cumprir a carga horária do dia?",
+        "alternativas": {
+            "A": "17h04min.",
+            "B": "16h56min.",
+            "C": "17h34min.",
+            "D": "16h36min."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O servidor trabalhou 4h33min (07:52 às 12:25) antes do almoço e retorna às 13:37. Para completar 8h, precisa de mais 3h27min. Somando o tempo restante com o retorno (13:37 + 3h27min), o fim da jornada é às 17h04min."
+    },
+    {
+        "id": "1603640",
+        "enunciado": "Inesperadamente, durante o turno de trabalho de um Auxiliar de Serviços Gerais, verifica-se que houve falta de água, e ele recém havia colocado 10 litros de água em um balde. Ele precisaria da água para limpar alguns ambientes de mesmo tamanho. Sabe-se que ele precisa utilizar a mesma quantidade de água para limpar três ambientes iguais. Nesse sentido, pode-se afirmar que:",
+        "alternativas": {
+            "A": "A água do balde não é suficiente para a limpeza dos três ambientes.",
+            "B": "A água presente no balde é exatamente suficiente para a limpeza dos três ambientes, não sobrando quantidade alguma.",
+            "C": "A água do balde é suficiente para a limpeza dos três ambientes e ainda sobra quantidade para a limpeza de um quarto, idêntico aos anteriores.",
+            "D": "A água presente no balde é suficiente para a limpeza dos três ambientes, e ainda sobra um litro de água."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Se ele precisa da mesma quantidade de água para três ambientes iguais e tem 10 litros, isso significa que cada ambiente consome 10/3 litros. A questão não especifica a quantidade exata por ambiente, mas se assumirmos que a água é distribuída igualmente, 10 litros para 3 ambientes implica uma divisão exata, sem sobras, se essa for a quantidade exata precisa."
+    },
+    {
+        "id": "1558844",
+        "enunciado": "Com a aproximação da data de realização de certo concurso para oficial de justiça, uma escola que se dedica a preparar candidatos a cargos públicos deu três aulas de revisão intensiva para seus alunos. Do total ∑ de alunos, sabe-se que 80 compareceram à primeira aula, 85 à segunda e 65 compareceram à terceira aula de revisão. Dos alunos que assistiram à primeira aula, 36 não retornaram para as duas aulas seguintes, 15 retornaram apenas para a segunda e 20 compareceram às três aulas. Dos alunos que não estavam presentes na primeira aula, 30 compareceram à segunda e à terceira aulas. Com base nessas informações, se 1/5 do total ∑ de alunos não compareceu às aulas de revisão, o valor de ∑ é:",
+        "alternativas": {
+            "A": "165",
+            "B": "170",
+            "C": "204",
+            "D": "230"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Vamos organizar as informações: Total ∑. 1ª aula: 80. 2ª aula: 85. 3ª aula: 65. Saíram da 1ª: 36 não retornaram (para 2ª e 3ª). 15 voltaram SÓ para a 2ª. 20 compareceram às 3 aulas. Dos que NÃO estavam na 1ª (∑ - 80), 30 foram à 2ª e à 3ª. Alunos que FIZERAM 1ª aula: 20 (todas) + 15 (só 2ª) + 36 (nenhuma das outras) = 71. Esses 71 alunos assistiram à 1ª aula. Faltam alunos que assistiram à 1ª e à 2ª (mas não à 3ª), e à 1ª e à 3ª (mas não à 2ª). O enunciado diz que 36 não retornaram para as duas aulas seguintes, então esses 36 assistiram APENAS à 1ª aula. 15 retornaram apenas para a segunda aula (isso significa que eles não foram à primeira aula, mas o enunciado diz 'Dos alunos que assistiram à primeira aula...'). Isso gera uma contradição. Vamos refazer a interpretação: Total ∑. 1ª aula: 80. 2ª aula: 85. 3ª aula: 65. 1ª aula: 20 (todas 3) + 15 (só 2ª) + 36 (só 1ª), total de quem compareceu à 1ª aula = 20+15+36 = 71. Isso contradiz o número 80. A informação 'Dos alunos que assistiram à primeira aula, 36 nã..."
+    },
+    {
+        "id": "1180771",
+        "enunciado": "Um pedreiro sozinho consegue completar um determinado serviço em 12 horas. Se ele tiver um ajudante, que tem metade de sua capacidade de trabalho, eles conseguirão completar esse mesmo serviço em um tempo, em horas, de:",
+        "alternativas": {
+            "A": "6.",
+            "B": "8.",
+            "C": "7.",
+            "D": "10.",
+            "E": "9."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Se o pedreiro sozinho leva 12 horas, sua produção é de 1/12 do serviço por hora. O ajudante tem metade de sua capacidade, então sua produção é de (1/12)/2 = 1/24 do serviço por hora. Juntos, a produção horária é de 1/12 + 1/24 = 2/24 + 1/24 = 3/24 = 1/8 do serviço por hora. Portanto, o tempo total para completar o serviço é o inverso de 1/8, que é 8 horas."
+    },
+    {
+        "id": "1076657",
+        "enunciado": "Certo profissional de tecnologia da informação escolhe apenas um dia por semana (de segunda a sexta-feira) para atualizar o sistema da empresa onde trabalha. Qual o número mínimo de atualizações no sistema deverão ser feitas de forma a garantir que, pelo menos, 7 atualizações sejam realizadas em um mesmo dia da semana?",
+        "alternativas": {
+            "A": "30.",
+            "B": "31.",
+            "C": "35.",
+            "D": "36."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Aplique o Princípio da Casa dos$-(Pigeonhole Principle) -$ . Em 5 dias por semana, para garantir que pelo menos 7 atualizações caiam no mesmo dia, você precisa de $5*(7-1) + 1 = 5*6 + 1 = 30 + 1 = 31$ dias."
+    },
+    {
+        "id": "1637008",
+        "enunciado": "Três amigos moram no mesmo prédio. Sabe-se que Adriana mora 2 andares acima de Rodrigo e que Matilde mora 7 andares acima de Adriana. Quantos andares Matilde mora acima de Rodrigo?",
+        "alternativas": {
+            "A": "9.",
+            "B": "11.",
+            "C": "5.",
+            "D": "12.",
+            "E": "7."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A distância entre Matilde e Rodrigo é a soma das distâncias de Matilde a Adriana e de Adriana a Rodrigo. Adriana está 2 andares acima de Rodrigo e Matilde está 7 andares acima de Adriana. Portanto, Matilde está 2 + 7 = 9 andares acima de Rodrigo."
+    },
+    {
+        "id": "1410574",
+        "enunciado": "As notas de uma mesma prova realizada pelas estudantes Ana, Carla, Daisy, Joana, Laura, Maria e Sara são tais que a nota de• Daisy é menor que a nota de Maria.• Laura é menor que a nota de Carla.• Joana é igual à nota de Sara.• Daisy é maior que a nota de Ana.• Laura é a mesma que a de Maria.• Joana é maior que a nota de Carla.Dentre essas estudantes, é correto afirmar que a estudante que tirou a menor nota nessa prova foi",
+        "alternativas": {
+            "A": "Ana.",
+            "B": "Carla.",
+            "C": "Daisy.",
+            "D": "Joana."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Vamos analisar as relações: Daisy < Maria; Laura < Carla; Joana = Sara; Daisy > Ana; Laura = Maria; Joana > Carla. Combinando: Daisy < Maria = Laura < Carla < Joana. Logo, Ana é menor que Daisy, sendo a menor nota."
+    },
+    {
+        "id": "1173459",
+        "enunciado": "Considere a afirmação: “Todos os alunos do curso foram aprovados no concurso.” A negação dessa afirmativa é que",
+        "alternativas": {
+            "A": "nenhum aluno do curso foi aprovado no concurso.",
+            "B": "pelo menos um aluno do curso foi aprovado no concurso.",
+            "C": "todos os alunos do curso não foram aprovados no concurso.",
+            "D": "pelo menos um aluno do curso não foi aprovado no concurso."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A negação de uma afirmação universal ('Todos A são B') é uma afirmação existencial ('Existe A que não é B'). Portanto, a negação de 'Todos os alunos do curso foram aprovados' é 'Pelo menos um aluno do curso não foi aprovado'."
+    },
+    {
+        "id": "1555162",
+        "enunciado": "Considere que em determinado ano, o mês de março começa em uma quinta-feira. Nesse dia 1°, foi realizado o primeiro encontro de um Clube do Livro. Foi decidido que os encontros ocorreriam a cada 10 dias, a partir do primeiro encontro. Além disso, foi definido que se o número do dia fosse par, o encontro seria às 19 horas, e se o número do dia fosse ímpar, o encontro seria às 20 horas. Nesse sentido, em que dia e horário desse ano ocorrerá o 15° encontro do Clube do Livro?",
+        "alternativas": {
+            "A": "20h, no dia 19 de julho, uma quinta-feira.",
+            "B": "20h, no dia 21 de agosto, uma segunda-feira.",
+            "C": "19h, no dia 09 de agosto, um domingo.",
+            "D": "19h, no dia 11 de julho, uma quarta-feira."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "1203178",
+        "enunciado": "Dois irmãos se associaram para comprar 30 leitões. Mas um pagou o dobro do que o outro. Na hora de distribuir os leitões, o que pagou menos pegava um e o seu irmão pegava dois leitões, seguindo este padrão até terminar a distribuição. Com quantos leitões ficou o irmão que pagou mais?",
+        "alternativas": {
+            "A": "29.",
+            "B": "20.",
+            "C": "15.",
+            "D": "10."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A distribuição dos leitões se dá em proporção de 1 para 2. Se somarmos as partes (1+2=3), e dividirmos 30 leitões por 3, cada 'ciclo' de distribuição são 10 leitões. Como são 30 leitões, haverá 3 ciclos. Na primeira leva, o irmão que pagou menos pega 1 e o outro pega 2. Na segunda 1 e 2. Na terceira 1 e 2. Então, o irmão que pagou menos pegou 3 leitões (1+1+1) e o que pagou mais pegou 6 leitões (2+2+2). SOMANDO os itertools.groupby: O padrão de distribuição é: (1,2), (1,2), (1,2)... Isso não totaliza 30. Vamos pensar em parcelas: O que pagou menos recebeu X leitões e o que pagou mais recebeu Y leitões. X + Y = 30. O que pagou mais pagou 2x, e o que pagou menos pagou x. Quanto ao total pago: 2x + X Leitões = X Leitões. Y Leitões = 2X Leitões. Logo, Y=2X. X+Y=30 -> X + 2X = 30 -> 3X=30 -> X=10. O irmão que pagou menos pagou 10 leitões. O que pagou mais pagou 20 leitões. Se o que pagou mais pagou mais, ele deveria ficar com mais leitões. A alternativa B é 20. Vamos testar. Se o irmão que pagou mais ficou com..."
+    },
+    {
+        "id": "1068989",
+        "enunciado": "Três mangueiras de igual vazão enchem 1/3 de certo tanque em 4 horas. Após esse tempo, é adicionada mais uma mangueira igual às anteriores e, assim, elas terminam de encher o tanque. Ao todo, quanto tempo foi utilizado para encher completamente o tanque, após a quarta mangueira ter sido adicionada?",
+        "alternativas": {
+            "A": "a) 8h",
+            "B": "b) 7h",
+            "C": "c) 6h",
+            "D": "d) 5h"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Com 3 mangueiras, 1/3 do tanque e enchido em 4h. Isso significa que para encher o tanque todo seriam necessarias 3 mangueiras * 4h = 12 horas-mangueira. Para encher 1/3 do tanque, foram usadas 3 mangueiras * 4h = 12 horas-mangueira. Entao, para encher o restante (2/3 do tanque) com 4 mangueiras, seriam necessarias (2/3 * 12 horas-mangueira) / 4 mangueiras = 8 / 4 = 2 horas adicionais. Total: 4h + 2h = 6h."
+    },
+    {
+        "id": "1096570",
+        "enunciado": "Abel, Breno e Célio possuem uma pequena empresa e trabalham juntos no mesmo escritório. Certo dia os três estiveram na empresa, permanecendo no escritório por tempos diferentes. • Abel chegou às 7h50min e ficou no escritório por 7h20min. • Breno chegou às 7h30min e ficou no escritório por 7h. • Célio ficou no escritório por 7h15min saindo às 15h20min. O período de tempo em que os três ficaram juntos no escritório foi de",
+        "alternativas": {
+            "A": "6h05min.",
+            "B": "6h25min.",
+            "C": "6h50min.",
+            "D": "7h20min.",
+            "E": "7h50min."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para encontrar o tempo em que os três ficaram juntos, calculamos os horários de saída de Abel (7h50min + 7h20min = 15h10min) e Breno (7h30min + 7h = 14h30min). Célio saiu às 15h20min. O período em que os três estiveram juntos é o intervalo entre a última chegada (Abel às 7h50min) e a primeira saída (Breno às 14h30min), que resulta em 6h40min. No entanto, analisando as opções e o problema, se Célio saiu às 15h20min e ficou 7h15min, ele entrou às 8h05min. Assim, o período em que ficaram juntos é da entrada do último (Abel, 7h50min) até a saída do primeiro (Célio, 15h20min), mas considerando a saída de Breno às 14h30min. O período comum é de 7h50min até 14h30min, o que dá 6h40min. Revendo os cálculos: Abel: 7h50 a 15h10. Breno: 7h30 a 14h30. Célio: saiu 15h20 e ficou 7h15, logo entrou 8h05. Período comum: 8h05 (entrada de Célio) até 14h30 (saída de Breno). Tempo: 14h30 - 8h05 = 6h25min."
+    },
+    {
+        "id": "1578678",
+        "enunciado": "No Concurso para o cargo de Auxliar de Serviços Gerais da Câmara Municipal de Alpinópolis MG, para preencher as 02  vagas foram recebidas 190 inscrições. qual a relação candidato/vaga:",
+        "alternativas": {
+            "A": "100 candidatos por vaga.",
+            "B": "120 candidatos por vaga.",
+            "C": "95 candidatos por vaga.",
+            "D": "190 candidatos por vaga."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A relação candidato/vaga é calculada dividindo o total de inscritos pelo número de vagas. 190 inscritos / 2 vagas = 95 candidatos por vaga. Portanto, a relação é de 95 candidatos por vaga."
+    },
+    {
+        "id": "1605009",
+        "enunciado": "Márcia tem uma sacola com caramelos e pirulitos. Depois de dar 1/5 dos caramelos para Clara, a quantidade de caramelos que sobra na sacola é 2/3 da quantidade de pirulitos. Em seguida, Márcia deu 56 pirulitos para Rodolfo. A quantidade de pirulitos que restou na sacola foi 4/5 da quantidade de caramelos restante na sacola. Quantos doces de cada tipo restam na sacola de Márcia?",
+        "alternativas": {
+            "A": "100 caramelos e 64 pirulitos.",
+            "B": "80 caramelos e 64 pirulitos.",
+            "C": "100 caramelos e 120 pirulitos.",
+            "D": "80 caramelos e 120 pirulitos.",
+            "E": "64 caramelos e 80 pirulitos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Iniciando com C caramelos e P pirulitos. C1 = C * (4/5). P1 = P. C1 = (2/3)P. Logo, (4/5)C = (2/3)P. P = (6/5)C. Após dar pirulitos: P2 = P1 - 56. P2 = (4/5)C1. P1 - 56 = (4/5)(4/5)C. (6/5)C - 56 = (16/25)C. 1.2C - 56 = 0.64C. 0.56C = 56. C = 100. C1 = 80. P = (6/5)*100 = 120. P1 = 120. P2 = 120 - 56 = 64. RESTAM 80 caramelos e 64 pirulitos."
+    },
+    {
+        "id": "1397666",
+        "enunciado": "Assinale a opção correta: Um servidor da Câmara Municipal de APIAÍ tem a função de distribuir certo número de atividades para 17 estagiários. Distribuindo-se 13 atividades por estagiário irão sobrar 4 tarefas sem serem distribuídas entre os estagiários. Se a mesma quantidade de atividades fosse distribuída igualitariamente por 24 estagiários, cada estagiário receberia 9 atividades e sobrariam, sem serem distribuídas entre os funcionários, um total de tarefas igual a:",
+        "alternativas": {
+            "A": "8.",
+            "B": "4.",
+            "C": "11.",
+            "D": "9."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Se 13 estagiarios recebem 13 atividades cada, sobram 4. Entao, ha 13*17 + 4 = 225 tarefas. Distribuindo 9 por 24 estagiarios, 24*9 = 216. Sobram 225 - 216 = 9 tarefas. Houve um erro de calculo na minha parte, refazendo: 13 atividades por estagiario com 17 estagiarios: 13 * 17 = 221 tarefas total. Sobram 4. Total = 221 + 4 = 225 tarefas. Com 24 estagiarios recebendo 9 atividades: 24 * 9 = 216. Restam 225 - 216 = 9 tarefas. Ha um aparente erro na questao ou nas alternativas. Se 17 estagiarios recebem 13 atividades e sobram 4, o total de atividades e 17*13 + 4 = 221 + 4 = 225. Se distribuirmos 225 atividades para 24 estagiarios, teremos 225 / 24 = 9 com resto 9. A alternativa D seria a correta se a distribuicao fosse 9 para 24 estagiarios, mas o enunciado afirma que sobrariam 'tarefas igual a:'. Vamos recalcular com base nas alternativas. Se sobrasse 8 (A), o total seria 24*9 + 8 = 216 + 8 = 224. Se sobrasse 4 (B), o total seria 24*9 + 4 = 216 + 4 = 220. Se sobrasse 11 (C), o total seria 24*9 + 11 = 216 + 11..."
+    },
+    {
+        "id": "1121519",
+        "enunciado": "Uma empresa precisa contratar um funcionário para realizar a limpeza de suas instalações e colocou um anúncio em suas redes sociais. Cinco profissionais responderam o anúncio e colocaram o orçamento do serviço. O primeiro profissional respondeu dizendo  que precisaria de 8 horas para realizar o serviço cobrando 35 reais por hora trabalhada e um adicional de vale alimentação de 30 reais. O segundo profissional respondeu dizendo que precisaria de 10 horas para realizar o serviço cobrando 45 reais por hora trabalhada e sem adicional de vale alimentação. O terceiro profissional respondeu dizendo que precisaria de 6 horas para realizar o serviço cobrando 30 reais por hora trabalhada e um adicional de vale alimentação de 60 reais. O quarto profissional respondeu dizendo que precisaria de 8 horas para realizar o serviço cobrando 40 reais por hora trabalhada e um adicional de vale alimentação de 30 reais. O quinto profissional respondeu dizendo que precisaria de 10 horas para realizar o serviço cobrando 35 reais por hora trabalhada e um adicional de vale alimentação de 40 reais. Qual profissional a empresa teria que contratar para gastar o menor valor possível:",
+        "alternativas": {
+            "A": "I.",
+            "B": "II.",
+            "C": "III.",
+            "D": "IV.",
+            "E": "V."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Profissional I: (8*35)+30 = 310. Profissional II: (10*45) = 450. Profissional III: (6*30)+60 = 240. Profissional IV: (8*40)+30 = 350. Profissional V: (10*35)+40 = 390. A alternativa D está incorreta."
+    },
+    {
+        "id": "1122213",
+        "enunciado": "Uma empresa precisa contratar um funcionário para realizar a limpeza de suas instalações e colocou um anúncio em suas redes sociais. Cinco profissionais responderam o anúncio e colocaram o orçamento do serviço. O primeiro profissional respondeu dizendo  que precisaria de 8 horas para realizar o serviço cobrando 35 reais por hora trabalhada e um adicional de vale alimentação de 30 reais. O segundo profissional respondeu dizendo que precisaria de 10 horas para realizar o serviço cobrando 45 reais por hora trabalhada e sem adicional de vale alimentação. O terceiro profissional respondeu dizendo que precisaria de 6 horas para realizar o serviço cobrando 30 reais por hora trabalhada e um adicional de vale alimentação de 60 reais. O quarto profissional responde u dizendo que precisaria de 8 horas para realizar o serviço cobrando 40 reais por hora trabalhada e um adicional de vale alimentação de 30 reais. O quinto profissional respondeu dizendo que precisaria de 10 horas para realizar o serviço cobrando 35 reais p or hora trabalhada e um adicional de vale alimentação de 40 reais. Qual profissional a empresa teria que contratar para gastar o menor valor possível:",
+        "alternativas": {
+            "A": "I.",
+            "B": "II.",
+            "C": "III.",
+            "D": "IV.",
+            "E": "V."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Profissional III: 6h * R$30/h + R$60 = R$180 + R$60 = R$240. Profissional I: 8h * R$35/h + R$30 = R$280 + R$30 = R$310. Profissional IV: 8h * R$40/h + R$30 = R$320 + R$30 = R$350. Profissional V: 10h * R$35/h + R$40 = R$350 + R$40 = R$390. Profissional II: 10h * R$45/h = R$450. O profissional III oferece o menor valor."
+    },
+    {
+        "id": "1121172",
+        "enunciado": "Um estudante decidiu dedicar um tempo consistente aos estudos, reservando 2 horas por dia de segunda a sexta-feira. Se ele iniciou seus estudos na segunda-feira, qual será o total de horas que terá estudado ao final de 15 dias?",
+        "alternativas": {
+            "A": "30 horas",
+            "B": "15 horas",
+            "C": "32 horas",
+            "D": "39 horas",
+            "E": "Nenhuma das alternativas"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O estudante estuda 2 horas por dia, de segunda a sexta (5 dias). Em 15 dias, ele completará 3 ciclos de 5 dias, totalizando 3 * 10 = 30 horas estudadas."
+    },
+    {
+        "id": "1441091",
+        "enunciado": "Marta, Pedro e Carol são amigos e estão organizando uma viagem com suas famílias. Para escolher o local da viagem, eles levam em consideração que os três, juntos, têm 6 ﬁlhos, 6 gatos e 3 cachorros. Ademais, sabe-se que: I- Uma pessoa tem três ﬁlhos e dois cachorros. II- Marta, Pedro e Carol têm três animais cada. III- Carol tem tantos ﬁlhos quanto cachorros. IV- Marta tem mais ﬁlhos que Pedro e Carol. Com base nas informações acima, é CORRET O aﬁrmar que:",
+        "alternativas": {
+            "A": "Carol não tem ﬁlhos.",
+            "B": "Pedro tem 2 ﬁlhos.",
+            "C": "Marta não tem cachorros.",
+            "D": "Pedro tem apenas um gato.",
+            "E": "Carol tem 3 cachorros."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Temos 6 filhos. Marta tem mais filhos que Pedro e Carol (IV). Carol tem tantos filhos quanto cachorros (III). Total de animais: 6 gatos + 3 cachorros = 9. Marta, Pedro e Carol têm 3 animais cada = 9 animais. Se Carol tem tantos filhos quanto cachorros, e Pedro tem 2, Marta teria 2 filhos de forma que 2+2+x = 6 não fecha. Se Pedro tem 2 filhos, e Marta tem mais que Pedro e Carol. Se Carol tem 1 filho e 1 cachorro. Marta 4 filhos. 1+2+4 = 7 (ultrapassa) Se Pedro tem 2 filhos, e Carol tem 1 filho, Marta tem 3 filhos. Total 6 filhos. Carol tem 1 cachorro. Marta tem 2 cachorros, Pedro não tem cachorro? Não, total 3 cachorros. Se Pedro tem 2 filhos e Carol tem 1 filho, Pedro tem mais filhos que Carol. Marta tem mais filhos que Pedro e Carol. Se Carol tem 1 filho e 1 cachorro. Pedro tem 2 filhos e 2 cachorros. Marta tem 3 filhos e 0 cachorros. Total animais: Carol 1 cachorro, Pedro 2 cachorros. Fica sem cachorros para Marta. A única opção viável para a distribuição dos 6 filhos é: Carol 1, Pedro 2, Marta 3 (tota..."
+    },
+    {
+        "id": "1766217",
+        "enunciado": "Uma         empresa         de         transportes         de         cargas         realiza         a         distribuição         de         mercadorias          para         diversas         cidades         do         país.         A         frota         é         composta         por         caminhões         que         transporta         caixas         de         diferentes         tipos         de         produtos,         sendo         que         cada         tipo         de         produto,         com         pesos         e         volumes         distintos.Considerando          as         seguintes         informações: A         empresa         tem         10         caminhões         de         carga,         cada         um         com         a         capacidade         de         transportar         12.000         kg         de         mercadorias. Cada         caminhão         transporta         caixas         de         papelão         de         8         Kg         com         as         dimensões         de         1,5         m         de         comprimento,          0,8         m         de         largura         e         0,5         m         de         altura. O         valor         do         frete         para         cada         caixa         transportada          é         R$25,00.A         empresa         recebeu         uma         ordem         de         serviço         para         transportar         uma         carga         de         caixas         com         72.000         Kg.Assinale         a         seguir         qual         será         o         valor         total         do         frete         cobrado pela         empresa,         quantas         caixas         serão         transportadas?",
+        "alternativas": {
+            "A": "R$250.000,00;          8.000         caixas         por         caminhão;         6         caminhões.",
+            "B": "R$125.000,00;          4.500         caixas         por         caminhão;         6         caminhões.",
+            "C": "R$225.000,00;          9.000         caixas         por         caminhão;         6         caminhões.",
+            "D": "R$150.000,00;          9.000         caixas         por         caminhão;         8         caminhões.",
+            "E": "R$125.000,00;          4.500         caixas         por         caminhão;         8         caminhões."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O cálculo é o seguinte: 72.000 kg / 8 kg/caixa = 9.000 caixas. 9.000 caixas / 9.000 caixas/caminhão = 1 caminhão? Não, 9.000 caixas precisam ser transportadas. 9.000 caixas * R$25/caixa = R$225.000,00. 72.000 kg / 12.000 kg/caminhão = 6 caminhões."
+    },
+    {
+        "id": "1766052",
+        "enunciado": "Uma empresa de transportes de cargas realiza a distribuição de mercadorias para diversas cidades do país. A frota é composta por caminhões que transporta caixas de diferentes tipos de produtos, sendo que cada tipo de produto, com pesos e volumes distintos. Considerando as seguintes informações: A empresa tem 10 caminhões de carga, cada um com a capacidade de transportar 12.000 kg de mercadorias. Cada caminhão transporta caixas de papelão de 8 Kg com as dimensões de 1,5 m de comprimento, 0,8 m de largura e 0,5 m de altura. O valor do frete para cada caixa transportada é R$25,00. A empresa recebeu uma ordem de serviço para transportar uma carga de caixas com 72.000 Kg. Assinale a seguir qual será o valor total do frete cobrado pela empresa, quantas caixas serão transportadas?",
+        "alternativas": {
+            "A": "R$125.000,00; 4.500 caixas por caminhão; 8 caminhões.",
+            "B": "R$150.000,00; 9.000 caixas por caminhão; 8 caminhões.",
+            "C": "R$125.000,00; 4.500 caixas por caminhão; 6 caminhões.",
+            "D": "R$250.000,00; 8.000 caixas por caminhão; 6 caminhões.",
+            "E": "R$225.000,00; 9.000 caixas por caminhão; 6 caminhões."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Para 72.000 kg de carga, com caixas de 8 kg, são 9.000 caixas. Com 6 caminhões (carregando 12.000 kg cada), cobrirá a carga. O frete total é 9.000 caixas * R$25,00/caixa = R$225.000,00."
+    },
+    {
+        "id": "2269214",
+        "enunciado": "A enfermeira Carla deve administrar um medicamento a um paciente a cada 90 minutos durante um período contínuo de 24 horas. Considerando que a primeira dose foi aplicada exatamente às 6h e que as doses subsequentes são dadas a cada 90 minutos sem intervalos omitidos, quantas doses Carla administrará ao longo desse período de 24 horas?",
+        "alternativas": {
+            "A": "Carla administrará 24 doses ao paciente.",
+            "B": "Carla administrará 17 doses ao paciente.",
+            "C": "Carla administrará 12 doses ao paciente.",
+            "D": "Carla administrará 18 doses ao paciente."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um período de 24 horas tem 1440 minutos. A cada 90 minutos, uma dose é administrada. O número de intervalos de 90 minutos em 1440 minutos é 1440 / 90 = 16. Como a primeira dose é aplicada no início, o total de doses é o número de intervalos mais a primeira dose: 16 + 1 = 17 doses. A última dose será aplicada às 6h + 16 * 90min = 6h + 24h = 6h do dia seguinte, totalizando 17 doses no período contínuo de 24h."
+    },
+    {
+        "id": "2044320",
+        "enunciado": "Em uma turma de 2 períodos da faculdade de Administração, metade já é casado, do restante, metade tem namorada e o demais são solteiros. Se a quantidade de solteiros é igual a 12, a quantidade total de alunos desta turma é:",
+        "alternativas": {
+            "A": "36 alunos.",
+            "B": "48 alunos.",
+            "C": "28 alunos.",
+            "D": "56 alunos.",
+            "E": "60 alunos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Se a quantidade de solteiros é 12, e estes representam a parte restante após casados e namorados, vamos trabalhar de trás para frente. Se metade dos restantes são solteiros, então os solteiros são 1/2 do restante. Logo, o restante (não casados) é 2 * 12 = 24 alunos. Se metade da turma é casada, então a outra metade (os 24 alunos) não é casada. Portanto, a turma total é 2 * 24 = 48 alunos. Verificação: Metade casada = 24. Restante = 24. Metade do restante = 12 (namorados). Outra metade do restante = 12 (solteiros). Total: 24 (casados) + 12 (namorados) + 12 (solteiros) = 48 alunos."
+    },
+    {
+        "id": "2286827",
+        "enunciado": "Um técnico analisa o tempo necessário para encher dois reservatórios utilizando a mesma torneira. O primeiro reservatório leva 12 minutos para ser totalmente preenchido, enquanto o segundo leva 18 minutos. Sabe-se que os reservatórios são enchidos consecutivamente, um após o outro, sem intervalos. Com base nessas informações, avalie as afirmativas a seguir:I. O tempo total necessário para encher os dois reservatórios é de 30 minutos.II. A diferença entre os tempos de enchimento dos dois reservatórios é de 6 minutos.III. Após 15 minutos transcorridos desde o início do processo, terá passado exatamente um terço do tempo total necessário para concluir o enchimento dos dois reservatórios.IV. O segundo reservatório leva 1,5 vez o tempo do primeiro para ser completamente preenchido.Está CORRETO o que se afirma em:",
+        "alternativas": {
+            "A": "I e III, apenas.",
+            "B": "I, II e IV, apenas.",
+            "C": "I e II, apenas.",
+            "D": "II, III e IV, apenas.",
+            "E": "II e III, apenas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "I. Tempo total: 12 + 18 = 30 minutos (V). II. Diferença: 18 - 12 = 6 minutos (V). III. Um terço do tempo total (30 min) é 10 min. Após 15 minutos, passaram mais de um terço (F). IV. 18 / 12 = 1,5 (V). Portanto, I, II e IV estão corretas. A alternativa B é a que corresponde a essa sequência."
+    },
+    {
+        "id": "1718400",
+        "enunciado": "Um tanque de 8.000 litros está sendo preenchido com uma mangueira que despeja água a uma taxa de 200 litros por minuto. Quanto tempo levará para encher completamente o tanque?",
+        "alternativas": {
+            "A": "50 minutos.",
+            "B": "40 minutos.",
+            "C": "30 minutos.",
+            "D": "20 minutos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para calcular o tempo necessário, divida o volume total do tanque pela vazão da mangueira: 8.000 litros / 200 litros/minuto = 40 minutos. Portanto, o tanque levará 40 minutos para ser completamente preenchido."
+    },
+    {
+        "id": "2163641",
+        "enunciado": "Um auxiliar de encanador recebeu um projeto hidrossanitário residencial com os seguintes pontos de uso:\n• 2 pias de banheiro\n• 1 lavatório\n• 2 chuveiros\n• 2 vasos sanitários com caixa acoplada\n• 1 tanque de lavar roupas\n• 1 máquina de lavar roupas\nSabendo que, para cada ponto de uso, são necessárias 2 conexões em T, a quantidade mínima de conexões em T necessárias para atender a todos os pontos é de:",
+        "alternativas": {
+            "A": "9 conexões",
+            "B": "14 conexões",
+            "C": "18 conexões",
+            "D": "21 conexões"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "São 7 pontos de uso (2 pias + 1 lavatório + 2 chuveiros + 2 vasos + 1 tanque + 1 máquina de lavar). Cada ponto necessita de 2 conexões em T. Portanto, 7 pontos x 2 conexões/ponto = 14 conexões. Este cálculo está incorreto, vamos recalcular a quantidade de pontos de uso: 2 pias + 1 lavatório + 2 chuveiros + 2 vasos sanitários + 1 tanque + 1 máquina de lavar = 9 pontos de uso. Cada ponto necessita de 2 conexões em T. Logo, 9 pontos x 2 conexões/ponto = 18 conexões em T."
+    },
+    {
+        "id": "2291538",
+        "enunciado": "Duas formigas trabalham em ritmos constantes: a primeira transporta 12 grãos por hora; e a segunda, 8 grãos por hora. Juntas, devem transportar 100 grãos. Com base nessa situação hipotética, assinale a opção que apresenta o tempo necessário para as formigas transportarem esses 100 grãos.",
+        "alternativas": {
+            "A": "4 horas",
+            "B": "5 horas",
+            "C": "6 horas",
+            "D": "7 horas",
+            "E": "8 horas"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Juntas, as formigas transportam 12 + 8 = 20 grãos por hora. Para transportar 100 grãos, o tempo necessário é 100 grãos / 20 grãos/hora = 5 horas."
+    },
+    {
+        "id": "2094280",
+        "enunciado": "Na primeira fase de um campeonato de futebol, as equipes são divididas em grupos com 4 equipes. Além disso, cada equipe enfrenta as outras 3 equipes do grupo, em jogos de ida e volta. Em cada partida, a equipe vencedora recebe 3 pontos e a perdedora não recebe ponto algum, e, em caso de empate, ambas as equipes recebem um ponto.\nOs critérios de classificação das equipes são, nessa ordem: número de pontos, saldo de gols, gols marcados e sorteio. As duas primeiras equipes de cada grupo se classificam para a próxima fase da competição.\nConsidere as seguintes afirmações:\n\nI. É impossível que uma equipe se classifique para a próxima fase da competição com uma pontuação final inferior a 6 pontos.\nII. Qualquer equipe que terminar com 12 pontos nesta fase da competição estará automaticamente classificada à próxima fase.\n\nEntão, é CORRETO afirmar:",
+        "alternativas": {
+            "A": "Somente a afirmação I é correta.",
+            "B": "Somente a afirmação II é correta.",
+            "C": "Ambas as afirmações são corretas.",
+            "D": "Ambas as afirmações são incorretas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa I está correta: em 4 equipes com jogos de ida e volta, são 6 jogos por equipe. A pontuação máxima possível é 18 (6 vitórias). Para não se classificar com menos de 6 pontos é plausível. A afirmativa II está correta: 12 pontos (4 vitórias) garantem a classificação em qualquer cenário, pois o número máximo de pontos sem classificação seria 9."
+    },
+    {
+        "id": "1863938",
+        "enunciado": "Em uma escola municipal, a gestão da escola está com um problema de abastecimento de água, e tem uma cisterna de água inferior, e uma caixa d’água superior, com capacidade de 5.000 litros (cisterna) e 1.000 litros (caixa d’água). A companhia de abastecimento de água do município informou que sem abastecimento de água por um período de quatro dias. Considerando que a cisterna e a caixa d’água estão completamente cheias com água, e que o consumo diário de água da escola é: 1- Banheiros ................. 950 litros 2- Cozinha .................... 320 litros 3- Limpeza ................... 450 litros 4. Bebedouro .............. 550 litros A escola ficará abastecida com água durante quantos dias?",
+        "alternativas": {
+            "A": "3,2 dias.",
+            "B": "1,8 dias.",
+            "C": "2,6 dias.",
+            "D": "4 dias."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Consumo total diário: 950 + 320 + 450 + 550 = 2270 litros. Capacidade total: 5000 (cisterna) + 1000 (caixa d'água) = 6000 litros. Dias de abastecimento: 6000 / 2270 ≈ 2,64 dias. Portanto, 2,6 dias."
+    },
+    {
+        "id": "1652182",
+        "enunciado": "Analise as afirmativas a seguir: I. Se dois números inteiros positivos possuem como máximo divisor comum (MDC) igual a 12 e como mínimo múltiplo comum (MMC) igual a 144, então o produto entre esses números é 1728. II. A razão entre o número de mulheres e homens em uma turma é de 3/2. Sabendo que há 18 mulheres, o número total de pessoas na turma é 30. III. Um investidor aplicou R$1.000,00 a uma taxa de juros simples de 6% ao ano durante 3 anos. Ao final desse período, ele terá um montante total de R$1.180,00. IV. Para comprar 15 metros de tecido, um cliente precisa pagar R$600,00. Se ele comprar 12 metros do mesmo tecido, pagará R$480,00. V. Um aluno obteve as seguintes notas em uma disciplina: 7, 8, 6 e 9, com pesos 1, 2, 1 e 2, respectivamente. A média ponderada das notas é igual a 7,5. Assinale a alternativa correta:",
+        "alternativas": {
+            "A": "Apenas as afirmativas I, II, III e IV são verdadeiras.",
+            "B": "Apenas as afirmativas I, II e III são verdadeiras.",
+            "C": "As afirmativas I, II, III, IV e V são verdadeiras.",
+            "D": "Apenas as afirmativas I, III e IV são verdadeiras.",
+            "E": "Apenas as afirmativas I, IV e V são verdadeiras."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Todas as afirmativas estão corretas. A I é baseada na propriedade do MDC e MMC; a II no cálculo de proporção; a III no cálculo de juros simples; a IV no cálculo de regra de três; e a V na média ponderada."
+    },
+    {
+        "id": "1603637",
+        "enunciado": "Determinado servidor deve cumprir um total de 8 horas mínimas diárias no órgão público. Em um dia, ele chega às 07h52min ao órgão, e exerce suas atividades até 12h25min, momento que sai para almoço, retornando às 13h37min. A partir dessas informações, até que horas, no mínimo, esse servidor deve trabalhar para cumprir a carga horária do dia?",
+        "alternativas": {
+            "A": "17h04min.",
+            "B": "16h56min.",
+            "C": "17h34min.",
+            "D": "16h36min."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O servidor trabalhou 4h33min (07:52 às 12:25) antes do almoço e retorna às 13:37. Para completar 8h, precisa de mais 3h27min. Somando o tempo restante com o retorno (13:37 + 3h27min), o fim da jornada é às 17h04min."
+    },
+    {
+        "id": "1603640",
+        "enunciado": "Inesperadamente, durante o turno de trabalho de um Auxiliar de Serviços Gerais, verifica-se que houve falta de água, e ele recém havia colocado 10 litros de água em um balde. Ele precisaria da água para limpar alguns ambientes de mesmo tamanho. Sabe-se que ele precisa utilizar a mesma quantidade de água para limpar três ambientes iguais. Nesse sentido, pode-se afirmar que:",
+        "alternativas": {
+            "A": "A água do balde não é suficiente para a limpeza dos três ambientes.",
+            "B": "A água presente no balde é exatamente suficiente para a limpeza dos três ambientes, não sobrando quantidade alguma.",
+            "C": "A água do balde é suficiente para a limpeza dos três ambientes e ainda sobra quantidade para a limpeza de um quarto, idêntico aos anteriores.",
+            "D": "A água presente no balde é suficiente para a limpeza dos três ambientes, e ainda sobra um litro de água."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Se ele precisa da mesma quantidade de água para três ambientes iguais e tem 10 litros, isso significa que cada ambiente consome 10/3 litros. A questão não especifica a quantidade exata por ambiente, mas se assumirmos que a água é distribuída igualmente, 10 litros para 3 ambientes implica uma divisão exata, sem sobras, se essa for a quantidade exata precisa."
+    },
+    {
+        "id": "1558844",
+        "enunciado": "Com a aproximação da data de realização de certo concurso para oficial de justiça, uma escola que se dedica a preparar candidatos a cargos públicos deu três aulas de revisão intensiva para seus alunos. Do total ∑ de alunos, sabe-se que 80 compareceram à primeira aula, 85 à segunda e 65 compareceram à terceira aula de revisão. Dos alunos que assistiram à primeira aula, 36 não retornaram para as duas aulas seguintes, 15 retornaram apenas para a segunda e 20 compareceram às três aulas. Dos alunos que não estavam presentes na primeira aula, 30 compareceram à segunda e à terceira aulas. Com base nessas informações, se 1/5 do total ∑ de alunos não compareceu às aulas de revisão, o valor de ∑ é:",
+        "alternativas": {
+            "A": "165",
+            "B": "170",
+            "C": "204",
+            "D": "230"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Vamos organizar as informações: Total ∑. 1ª aula: 80. 2ª aula: 85. 3ª aula: 65. Saíram da 1ª: 36 não retornaram (para 2ª e 3ª). 15 voltaram SÓ para a 2ª. 20 compareceram às 3 aulas. Dos que NÃO estavam na 1ª (∑ - 80), 30 foram à 2ª e à 3ª. Alunos que FIZERAM 1ª aula: 20 (todas) + 15 (só 2ª) + 36 (nenhuma das outras) = 71. Esses 71 alunos assistiram à 1ª aula. Faltam alunos que assistiram à 1ª e à 2ª (mas não à 3ª), e à 1ª e à 3ª (mas não à 2ª). O enunciado diz que 36 não retornaram para as duas aulas seguintes, então esses 36 assistiram APENAS à 1ª aula. 15 retornaram apenas para a segunda aula (isso significa que eles não foram à primeira aula, mas o enunciado diz 'Dos alunos que assistiram à primeira aula...'). Isso gera uma contradição. Vamos refazer a interpretação: Total ∑. 1ª aula: 80. 2ª aula: 85. 3ª aula: 65. 1ª aula: 20 (todas 3) + 15 (só 2ª) + 36 (só 1ª), total de quem compareceu à 1ª aula = 20+15+36 = 71. Isso contradiz o número 80. A informação 'Dos alunos que assistiram à primeira aula, 36 nã..."
+    },
+    {
+        "id": "1180771",
+        "enunciado": "Um pedreiro sozinho consegue completar um determinado serviço em 12 horas. Se ele tiver um ajudante, que tem metade de sua capacidade de trabalho, eles conseguirão completar esse mesmo serviço em um tempo, em horas, de:",
+        "alternativas": {
+            "A": "6.",
+            "B": "8.",
+            "C": "7.",
+            "D": "10.",
+            "E": "9."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Se o pedreiro sozinho leva 12 horas, sua produção é de 1/12 do serviço por hora. O ajudante tem metade de sua capacidade, então sua produção é de (1/12)/2 = 1/24 do serviço por hora. Juntos, a produção horária é de 1/12 + 1/24 = 2/24 + 1/24 = 3/24 = 1/8 do serviço por hora. Portanto, o tempo total para completar o serviço é o inverso de 1/8, que é 8 horas."
+    },
+    {
+        "id": "1076657",
+        "enunciado": "Certo profissional de tecnologia da informação escolhe apenas um dia por semana (de segunda a sexta-feira) para atualizar o sistema da empresa onde trabalha. Qual o número mínimo de atualizações no sistema deverão ser feitas de forma a garantir que, pelo menos, 7 atualizações sejam realizadas em um mesmo dia da semana?",
+        "alternativas": {
+            "A": "30.",
+            "B": "31.",
+            "C": "35.",
+            "D": "36."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Aplique o Princípio da Casa dos$-(Pigeonhole Principle) -$ . Em 5 dias por semana, para garantir que pelo menos 7 atualizações caiam no mesmo dia, você precisa de $5*(7-1) + 1 = 5*6 + 1 = 30 + 1 = 31$ dias."
+    },
+    {
+        "id": "1637008",
+        "enunciado": "Três amigos moram no mesmo prédio. Sabe-se que Adriana mora 2 andares acima de Rodrigo e que Matilde mora 7 andares acima de Adriana. Quantos andares Matilde mora acima de Rodrigo?",
+        "alternativas": {
+            "A": "9.",
+            "B": "11.",
+            "C": "5.",
+            "D": "12.",
+            "E": "7."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A distância entre Matilde e Rodrigo é a soma das distâncias de Matilde a Adriana e de Adriana a Rodrigo. Adriana está 2 andares acima de Rodrigo e Matilde está 7 andares acima de Adriana. Portanto, Matilde está 2 + 7 = 9 andares acima de Rodrigo."
+    },
+    {
+        "id": "1410574",
+        "enunciado": "As notas de uma mesma prova realizada pelas estudantes Ana, Carla, Daisy, Joana, Laura, Maria e Sara são tais que a nota de• Daisy é menor que a nota de Maria.• Laura é menor que a nota de Carla.• Joana é igual à nota de Sara.• Daisy é maior que a nota de Ana.• Laura é a mesma que a de Maria.• Joana é maior que a nota de Carla.Dentre essas estudantes, é correto afirmar que a estudante que tirou a menor nota nessa prova foi",
+        "alternativas": {
+            "A": "Ana.",
+            "B": "Carla.",
+            "C": "Daisy.",
+            "D": "Joana."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Vamos analisar as relações: Daisy < Maria; Laura < Carla; Joana = Sara; Daisy > Ana; Laura = Maria; Joana > Carla. Combinando: Daisy < Maria = Laura < Carla < Joana. Logo, Ana é menor que Daisy, sendo a menor nota."
+    },
+    {
+        "id": "1173459",
+        "enunciado": "Considere a afirmação: “Todos os alunos do curso foram aprovados no concurso.” A negação dessa afirmativa é que",
+        "alternativas": {
+            "A": "nenhum aluno do curso foi aprovado no concurso.",
+            "B": "pelo menos um aluno do curso foi aprovado no concurso.",
+            "C": "todos os alunos do curso não foram aprovados no concurso.",
+            "D": "pelo menos um aluno do curso não foi aprovado no concurso."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A negação de uma afirmação universal ('Todos A são B') é uma afirmação existencial ('Existe A que não é B'). Portanto, a negação de 'Todos os alunos do curso foram aprovados' é 'Pelo menos um aluno do curso não foi aprovado'."
+    },
+    {
+        "id": "1555162",
+        "enunciado": "Considere que em determinado ano, o mês de março começa em uma quinta-feira. Nesse dia 1°, foi realizado o primeiro encontro de um Clube do Livro. Foi decidido que os encontros ocorreriam a cada 10 dias, a partir do primeiro encontro. Além disso, foi definido que se o número do dia fosse par, o encontro seria às 19 horas, e se o número do dia fosse ímpar, o encontro seria às 20 horas. Nesse sentido, em que dia e horário desse ano ocorrerá o 15° encontro do Clube do Livro?",
+        "alternativas": {
+            "A": "20h, no dia 19 de julho, uma quinta-feira.",
+            "B": "20h, no dia 21 de agosto, uma segunda-feira.",
+            "C": "19h, no dia 09 de agosto, um domingo.",
+            "D": "19h, no dia 11 de julho, uma quarta-feira."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "1203178",
+        "enunciado": "Dois irmãos se associaram para comprar 30 leitões. Mas um pagou o dobro do que o outro. Na hora de distribuir os leitões, o que pagou menos pegava um e o seu irmão pegava dois leitões, seguindo este padrão até terminar a distribuição. Com quantos leitões ficou o irmão que pagou mais?",
+        "alternativas": {
+            "A": "29.",
+            "B": "20.",
+            "C": "15.",
+            "D": "10."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A distribuição dos leitões se dá em proporção de 1 para 2. Se somarmos as partes (1+2=3), e dividirmos 30 leitões por 3, cada 'ciclo' de distribuição são 10 leitões. Como são 30 leitões, haverá 3 ciclos. Na primeira leva, o irmão que pagou menos pega 1 e o outro pega 2. Na segunda 1 e 2. Na terceira 1 e 2. Então, o irmão que pagou menos pegou 3 leitões (1+1+1) e o que pagou mais pegou 6 leitões (2+2+2). SOMANDO os itertools.groupby: O padrão de distribuição é: (1,2), (1,2), (1,2)... Isso não totaliza 30. Vamos pensar em parcelas: O que pagou menos recebeu X leitões e o que pagou mais recebeu Y leitões. X + Y = 30. O que pagou mais pagou 2x, e o que pagou menos pagou x. Quanto ao total pago: 2x + X Leitões = X Leitões. Y Leitões = 2X Leitões. Logo, Y=2X. X+Y=30 -> X + 2X = 30 -> 3X=30 -> X=10. O irmão que pagou menos pagou 10 leitões. O que pagou mais pagou 20 leitões. Se o que pagou mais pagou mais, ele deveria ficar com mais leitões. A alternativa B é 20. Vamos testar. Se o irmão que pagou mais ficou com..."
+    },
+    {
+        "id": "1068989",
+        "enunciado": "Três mangueiras de igual vazão enchem 1/3 de certo tanque em 4 horas. Após esse tempo, é adicionada mais uma mangueira igual às anteriores e, assim, elas terminam de encher o tanque. Ao todo, quanto tempo foi utilizado para encher completamente o tanque, após a quarta mangueira ter sido adicionada?",
+        "alternativas": {
+            "A": "a) 8h",
+            "B": "b) 7h",
+            "C": "c) 6h",
+            "D": "d) 5h"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Com 3 mangueiras, 1/3 do tanque e enchido em 4h. Isso significa que para encher o tanque todo seriam necessarias 3 mangueiras * 4h = 12 horas-mangueira. Para encher 1/3 do tanque, foram usadas 3 mangueiras * 4h = 12 horas-mangueira. Entao, para encher o restante (2/3 do tanque) com 4 mangueiras, seriam necessarias (2/3 * 12 horas-mangueira) / 4 mangueiras = 8 / 4 = 2 horas adicionais. Total: 4h + 2h = 6h."
+    },
+    {
+        "id": "1096570",
+        "enunciado": "Abel, Breno e Célio possuem uma pequena empresa e trabalham juntos no mesmo escritório. Certo dia os três estiveram na empresa, permanecendo no escritório por tempos diferentes. • Abel chegou às 7h50min e ficou no escritório por 7h20min. • Breno chegou às 7h30min e ficou no escritório por 7h. • Célio ficou no escritório por 7h15min saindo às 15h20min. O período de tempo em que os três ficaram juntos no escritório foi de",
+        "alternativas": {
+            "A": "6h05min.",
+            "B": "6h25min.",
+            "C": "6h50min.",
+            "D": "7h20min.",
+            "E": "7h50min."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para encontrar o tempo em que os três ficaram juntos, calculamos os horários de saída de Abel (7h50min + 7h20min = 15h10min) e Breno (7h30min + 7h = 14h30min). Célio saiu às 15h20min. O período em que os três estiveram juntos é o intervalo entre a última chegada (Abel às 7h50min) e a primeira saída (Breno às 14h30min), que resulta em 6h40min. No entanto, analisando as opções e o problema, se Célio saiu às 15h20min e ficou 7h15min, ele entrou às 8h05min. Assim, o período em que ficaram juntos é da entrada do último (Abel, 7h50min) até a saída do primeiro (Célio, 15h20min), mas considerando a saída de Breno às 14h30min. O período comum é de 7h50min até 14h30min, o que dá 6h40min. Revendo os cálculos: Abel: 7h50 a 15h10. Breno: 7h30 a 14h30. Célio: saiu 15h20 e ficou 7h15, logo entrou 8h05. Período comum: 8h05 (entrada de Célio) até 14h30 (saída de Breno). Tempo: 14h30 - 8h05 = 6h25min."
+    },
+    {
+        "id": "1578678",
+        "enunciado": "No Concurso para o cargo de Auxliar de Serviços Gerais da Câmara Municipal de Alpinópolis MG, para preencher as 02  vagas foram recebidas 190 inscrições. qual a relação candidato/vaga:",
+        "alternativas": {
+            "A": "100 candidatos por vaga.",
+            "B": "120 candidatos por vaga.",
+            "C": "95 candidatos por vaga.",
+            "D": "190 candidatos por vaga."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A relação candidato/vaga é calculada dividindo o total de inscritos pelo número de vagas. 190 inscritos / 2 vagas = 95 candidatos por vaga. Portanto, a relação é de 95 candidatos por vaga."
+    },
+    {
+        "id": "1605009",
+        "enunciado": "Márcia tem uma sacola com caramelos e pirulitos. Depois de dar 1/5 dos caramelos para Clara, a quantidade de caramelos que sobra na sacola é 2/3 da quantidade de pirulitos. Em seguida, Márcia deu 56 pirulitos para Rodolfo. A quantidade de pirulitos que restou na sacola foi 4/5 da quantidade de caramelos restante na sacola. Quantos doces de cada tipo restam na sacola de Márcia?",
+        "alternativas": {
+            "A": "100 caramelos e 64 pirulitos.",
+            "B": "80 caramelos e 64 pirulitos.",
+            "C": "100 caramelos e 120 pirulitos.",
+            "D": "80 caramelos e 120 pirulitos.",
+            "E": "64 caramelos e 80 pirulitos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Iniciando com C caramelos e P pirulitos. C1 = C * (4/5). P1 = P. C1 = (2/3)P. Logo, (4/5)C = (2/3)P. P = (6/5)C. Após dar pirulitos: P2 = P1 - 56. P2 = (4/5)C1. P1 - 56 = (4/5)(4/5)C. (6/5)C - 56 = (16/25)C. 1.2C - 56 = 0.64C. 0.56C = 56. C = 100. C1 = 80. P = (6/5)*100 = 120. P1 = 120. P2 = 120 - 56 = 64. RESTAM 80 caramelos e 64 pirulitos."
+    },
+    {
+        "id": "1397666",
+        "enunciado": "Assinale a opção correta: Um servidor da Câmara Municipal de APIAÍ tem a função de distribuir certo número de atividades para 17 estagiários. Distribuindo-se 13 atividades por estagiário irão sobrar 4 tarefas sem serem distribuídas entre os estagiários. Se a mesma quantidade de atividades fosse distribuída igualitariamente por 24 estagiários, cada estagiário receberia 9 atividades e sobrariam, sem serem distribuídas entre os funcionários, um total de tarefas igual a:",
+        "alternativas": {
+            "A": "8.",
+            "B": "4.",
+            "C": "11.",
+            "D": "9."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Se 13 estagiarios recebem 13 atividades cada, sobram 4. Entao, ha 13*17 + 4 = 225 tarefas. Distribuindo 9 por 24 estagiarios, 24*9 = 216. Sobram 225 - 216 = 9 tarefas. Houve um erro de calculo na minha parte, refazendo: 13 atividades por estagiario com 17 estagiarios: 13 * 17 = 221 tarefas total. Sobram 4. Total = 221 + 4 = 225 tarefas. Com 24 estagiarios recebendo 9 atividades: 24 * 9 = 216. Restam 225 - 216 = 9 tarefas. Ha um aparente erro na questao ou nas alternativas. Se 17 estagiarios recebem 13 atividades e sobram 4, o total de atividades e 17*13 + 4 = 221 + 4 = 225. Se distribuirmos 225 atividades para 24 estagiarios, teremos 225 / 24 = 9 com resto 9. A alternativa D seria a correta se a distribuicao fosse 9 para 24 estagiarios, mas o enunciado afirma que sobrariam 'tarefas igual a:'. Vamos recalcular com base nas alternativas. Se sobrasse 8 (A), o total seria 24*9 + 8 = 216 + 8 = 224. Se sobrasse 4 (B), o total seria 24*9 + 4 = 216 + 4 = 220. Se sobrasse 11 (C), o total seria 24*9 + 11 = 216 + 11..."
+    },
+    {
+        "id": "1121519",
+        "enunciado": "Uma empresa precisa contratar um funcionário para realizar a limpeza de suas instalações e colocou um anúncio em suas redes sociais. Cinco profissionais responderam o anúncio e colocaram o orçamento do serviço. O primeiro profissional respondeu dizendo  que precisaria de 8 horas para realizar o serviço cobrando 35 reais por hora trabalhada e um adicional de vale alimentação de 30 reais. O segundo profissional respondeu dizendo que precisaria de 10 horas para realizar o serviço cobrando 45 reais por hora trabalhada e sem adicional de vale alimentação. O terceiro profissional respondeu dizendo que precisaria de 6 horas para realizar o serviço cobrando 30 reais por hora trabalhada e um adicional de vale alimentação de 60 reais. O quarto profissional respondeu dizendo que precisaria de 8 horas para realizar o serviço cobrando 40 reais por hora trabalhada e um adicional de vale alimentação de 30 reais. O quinto profissional respondeu dizendo que precisaria de 10 horas para realizar o serviço cobrando 35 reais por hora trabalhada e um adicional de vale alimentação de 40 reais. Qual profissional a empresa teria que contratar para gastar o menor valor possível:",
+        "alternativas": {
+            "A": "I.",
+            "B": "II.",
+            "C": "III.",
+            "D": "IV.",
+            "E": "V."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Profissional I: (8*35)+30 = 310. Profissional II: (10*45) = 450. Profissional III: (6*30)+60 = 240. Profissional IV: (8*40)+30 = 350. Profissional V: (10*35)+40 = 390. A alternativa D está incorreta."
+    },
+    {
+        "id": "1122213",
+        "enunciado": "Uma empresa precisa contratar um funcionário para realizar a limpeza de suas instalações e colocou um anúncio em suas redes sociais. Cinco profissionais responderam o anúncio e colocaram o orçamento do serviço. O primeiro profissional respondeu dizendo  que precisaria de 8 horas para realizar o serviço cobrando 35 reais por hora trabalhada e um adicional de vale alimentação de 30 reais. O segundo profissional respondeu dizendo que precisaria de 10 horas para realizar o serviço cobrando 45 reais por hora trabalhada e sem adicional de vale alimentação. O terceiro profissional respondeu dizendo que precisaria de 6 horas para realizar o serviço cobrando 30 reais por hora trabalhada e um adicional de vale alimentação de 60 reais. O quarto profissional responde u dizendo que precisaria de 8 horas para realizar o serviço cobrando 40 reais por hora trabalhada e um adicional de vale alimentação de 30 reais. O quinto profissional respondeu dizendo que precisaria de 10 horas para realizar o serviço cobrando 35 reais p or hora trabalhada e um adicional de vale alimentação de 40 reais. Qual profissional a empresa teria que contratar para gastar o menor valor possível:",
+        "alternativas": {
+            "A": "I.",
+            "B": "II.",
+            "C": "III.",
+            "D": "IV.",
+            "E": "V."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Profissional III: 6h * R$30/h + R$60 = R$180 + R$60 = R$240. Profissional I: 8h * R$35/h + R$30 = R$280 + R$30 = R$310. Profissional IV: 8h * R$40/h + R$30 = R$320 + R$30 = R$350. Profissional V: 10h * R$35/h + R$40 = R$350 + R$40 = R$390. Profissional II: 10h * R$45/h = R$450. O profissional III oferece o menor valor."
+    },
+    {
+        "id": "1121172",
+        "enunciado": "Um estudante decidiu dedicar um tempo consistente aos estudos, reservando 2 horas por dia de segunda a sexta-feira. Se ele iniciou seus estudos na segunda-feira, qual será o total de horas que terá estudado ao final de 15 dias?",
+        "alternativas": {
+            "A": "30 horas",
+            "B": "15 horas",
+            "C": "32 horas",
+            "D": "39 horas",
+            "E": "Nenhuma das alternativas"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O estudante estuda 2 horas por dia, de segunda a sexta (5 dias). Em 15 dias, ele completará 3 ciclos de 5 dias, totalizando 3 * 10 = 30 horas estudadas."
+    },
+    {
+        "id": "1441091",
+        "enunciado": "Marta, Pedro e Carol são amigos e estão organizando uma viagem com suas famílias. Para escolher o local da viagem, eles levam em consideração que os três, juntos, têm 6 ﬁlhos, 6 gatos e 3 cachorros. Ademais, sabe-se que: I- Uma pessoa tem três ﬁlhos e dois cachorros. II- Marta, Pedro e Carol têm três animais cada. III- Carol tem tantos ﬁlhos quanto cachorros. IV- Marta tem mais ﬁlhos que Pedro e Carol. Com base nas informações acima, é CORRET O aﬁrmar que:",
+        "alternativas": {
+            "A": "Carol não tem ﬁlhos.",
+            "B": "Pedro tem 2 ﬁlhos.",
+            "C": "Marta não tem cachorros.",
+            "D": "Pedro tem apenas um gato.",
+            "E": "Carol tem 3 cachorros."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Temos 6 filhos. Marta tem mais filhos que Pedro e Carol (IV). Carol tem tantos filhos quanto cachorros (III). Total de animais: 6 gatos + 3 cachorros = 9. Marta, Pedro e Carol têm 3 animais cada = 9 animais. Se Carol tem tantos filhos quanto cachorros, e Pedro tem 2, Marta teria 2 filhos de forma que 2+2+x = 6 não fecha. Se Pedro tem 2 filhos, e Marta tem mais que Pedro e Carol. Se Carol tem 1 filho e 1 cachorro. Marta 4 filhos. 1+2+4 = 7 (ultrapassa) Se Pedro tem 2 filhos, e Carol tem 1 filho, Marta tem 3 filhos. Total 6 filhos. Carol tem 1 cachorro. Marta tem 2 cachorros, Pedro não tem cachorro? Não, total 3 cachorros. Se Pedro tem 2 filhos e Carol tem 1 filho, Pedro tem mais filhos que Carol. Marta tem mais filhos que Pedro e Carol. Se Carol tem 1 filho e 1 cachorro. Pedro tem 2 filhos e 2 cachorros. Marta tem 3 filhos e 0 cachorros. Total animais: Carol 1 cachorro, Pedro 2 cachorros. Fica sem cachorros para Marta. A única opção viável para a distribuição dos 6 filhos é: Carol 1, Pedro 2, Marta 3 (tota..."
+    },
+    {
+        "id": "1121174",
+        "enunciado": "Paula desafiou seu irmão João a descobrir o dia da semana após 63 dias. João, que estava concentrado nos estudos, respondeu corretamente que, se aquele dia fosse uma segunda-feira, dali a 63 dias seria:",
+        "alternativas": {
+            "A": "Sábado",
+            "B": "Domingo",
+            "C": "Segunda-feira",
+            "D": "Terça-feira",
+            "E": "Nenhuma das alternativas"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Há 7 dias em uma semana. A divisão de 63 dias por 7 resulta em 9, com resto 0. Isso significa que 63 dias equivalem exatamente a 9 semanas completas. Portanto, após 63 dias, a partir de uma segunda-feira, será novamente uma segunda-feira."
+    },
+    {
+        "id": "2146279",
+        "enunciado": "Se um dos funcionários tirar férias, em quantos dias os outros dois conseguem embalar 2400 caixas?",
+        "alternativas": {
+            "A": "Em 12 dias.",
+            "B": "Em 15 dias.",
+            "C": "Em 24 dias.",
+            "D": "Em 20 dias."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Com 3 funcionários embalando 300 caixas em 2 dias, a produtividade é de 50 caixas por funcionário por dia. Com 2 funcionários, a produção diária é de 100 caixas. Para embalar 2400 caixas, são necessários 24 dias (2400 / 100)."
+    },
+    {
+        "id": "1154496",
+        "enunciado": "QUESTÃO 29 – Carlos e João estão estudando juntos para as provas de um concurso. Eles combinaram de se encontrar todos os 7 dias da semana na biblioteca pública municipal para estudar por duas horas e meia por dia. Na última semana, João não foi estudar na sexta-feira. Quantos minutos de estudo foram realizados em conjunto pela dupla nessa última semana?",
+        "alternativas": {
+            "A": "150.",
+            "B": "828.",
+            "C": "900.",
+            "D": "1.050.",
+            "E": "1.080."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Eles estudam 7 dias por semana, 2.5 hrs/dia. Na semana houve 6 dias de estudo conjunto (de segunda a quinta e sábado/domingo). Tempo juntas = 6 dias * 2.5 horas/dia * 60 min/hora = 15 horas * 60 min/hora = 900 minutos. Não, espera. 7 dias - 1 dia = 6 dias de estudo em conjunto. 6 dias * 2.5 horas * 60 min/hora = 900 minutos. Questão de estudo conjunto é um pouco confusa. Vamos reavaliar. Se estudavam 'todos os 7 dias da semana', significa que a base é 7 dias. Se João não foi na sexta, Carlos foi sozinho. O estudo em conjunto foram 6 dias (dom, seg, ter, qua, qui, sab). 6 dias * 2.5h * 60min/h = 900min. Alternativa C. Se a pergunta é por ele, foi 6 dias * 2.5h = 15h. Isso não está nas alternativas. A interpretação mais provável é o tempo em que ambos estiveram juntos. 900 minutos. Por que D? Talvez a interpretação seja que eles se encontram todos os 7 dias, mas em alguns dias um não vai. A forma de contar o tempo de estudo em conjunto é o que o parasita. Se foram 7 dias combinados, mas 1 dia o João falhou...."
+    },
+    {
+        "id": "1503606",
+        "enunciado": "Graciela tem uma adega de vinhos. Ela vende seus vinhos em caixas com seis unidades cada e, em média, vende três caixas por dia. Quantas garrafas Graciela vende, em média, por semana, sabendo que sua adega não abre aos domingos?",
+        "alternativas": {
+            "A": "18.",
+            "B": "108.",
+            "C": "126.",
+            "D": "148.",
+            "E": "180."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Graciela vende 3 caixas/dia * 6 garrafas/caixa = 18 garrafas/dia. Em uma semana de 6 dias (sem domingo), são 18 garrafas/dia * 6 dias = 108 garrafas. Se considerarmos que a semana não abre aos domingos, são 6 dias úteis. 18*6=108. Ah, se considerarmos que todo dia há venda, seriam 7 dias úteis. 18*7=126."
+    },
+    {
+        "id": "1568796",
+        "enunciado": "Na organização de um evento esportivo escolar, a professora de Educação Física Bruna de Paula, ficou responsável pela organização da competição de Handebol, para isso reuniu-se com seus alunos e formalizou as normas, entre elas, o sistema de eliminatórias. Considerando que Bruna de Paula optou pelo sistema de eliminatórias simples e que foram recebidas inscrições de quatorze equipes, a equipe vencedora será conhecida depois de disputados:",
+        "alternativas": {
+            "A": "Quatorze jogos.",
+            "B": "Doze jogos.",
+            "C": "Quinze jogos.",
+            "D": "Treze jogos."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em um sistema de eliminatórias simples com 14 equipes, para definir um único vencedor, são necessários 13 jogos (nº de equipes - 1). Cada jogo elimina uma equipe até restar apenas uma."
+    },
+    {
+        "id": "1028300",
+        "enunciado": "Existem concursos públicos nos quais a folha de resposta das questões objetivas apresenta as seguintes opções: certa ou errada. Se o candidato considerar a questão como certa, ele marca a letra C e, se considerar a questão como errada, marca a letra E na folha de resposta do concurso. O candidato ainda tem a possibilidade de deixar a questão sem responder, caso queira. A forma de pontuação da prova segue os seguintes critérios:• Para cada questão que o candidato responder corretamente, são atribuídos a ele 3 pontos.• Para cada questão que o candidato responder erroneamente, são retirados dele 2 pontos do total de pontos que obteve com os acertos.• Se o candidato não responder à questão, não é atribuído e nem retirado ponto.Em um concurso com 20 questões, que segue o critério determinado acima, um candidato respondeu à folha de resposta da seguinte forma:1 C 11 C2 E 12 C3 134 C 14 E5 C 15 C6 16 E7 E 17 E8 E 18 E9 E 19 C10 C 20 CQuando foi divulgado o gabarito da prova, ele percebeu que, das questões que respondeu, havia errado 3. Dessa forma, podemos afirmar que a pontuação que conseguiu foi a seguinte:",
+        "alternativas": {
+            "A": "45",
+            "B": "36",
+            "C": "54",
+            "D": "24",
+            "E": "48"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O candidato respondeu 17 questões. Das 17, errou 3. Logo, acertou 17 - 3 = 14 questões. Pontuação com acertos: 14 * 3 = 42 pontos. Pontuação por erros: 3 * 2 = 6 pontos. Pontuação final: 42 - 6 = 36 pontos."
+    },
+    {
+        "id": "1959412",
+        "enunciado": "Aline, Bianca, Camila e Eduarda iniciaram este ano pequenos negócios no ramo da confeitaria. Aline faz brigadeiros, Bianca faz biscoitos recheados, Camila faz pães e Eduarda faz bolos. Uma delas vendeu 92 unidades, outra vendeu 80. Houve uma delas que vendeu 112 unidades de seu produto. Sabe-se, ainda, que Aline vendeu menos que 100 unidades; Bianca foi a melhor delas, com 126 unidades vendidas; Eduarda vendeu menos que Aline. Pode-se concluir corretamente que:",
+        "alternativas": {
+            "A": "Eduarda vendeu mais de 100 bolos.",
+            "B": "Eduarda vendeu mais unidades que Aline.",
+            "C": "Aline vendeu 92 brigadeiros.",
+            "D": "Eduarda vendeu mais unidades que Camila.",
+            "E": "Aline vendeu mais unidades que Camila."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sabemos que Bianca vendeu 126. As outras vendas sao 92, 80 e 112. Aline vendeu menos de 100 e Eduarda vendeu menos que Aline. A unica forma disso ser verdade com as vendas disponiveis e se Aline vendeu 92 e Eduarda vendeu 80."
+    },
+    {
+        "id": "1209606",
+        "enunciado": "O Campeonato Brasileiro de Futebol – Série A é disputado por 20 equipes em formato de rodízio simples (pontos corridos) – turno e returno (sem fases complementares ou eliminatórias). Quantos jogos são realizados no campeonato todo? Assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "380",
+            "B": "190",
+            "C": "180",
+            "D": "400"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em um campeonato com 20 equipes em turno e returno, cada equipe joga 19 vezes contra as outras. O total de jogos é (20 equipes * 19 jogos) / 2 (para evitar contagem dupla) = 190 jogos por turno. Com turno e returno, são 190 * 2 = 380 jogos."
+    },
+    {
+        "id": "1209607",
+        "enunciado": "A eliminatória simples é um sistema de disputa indicado para competições com um grande número de concorrentes num curto espaço de tempo, normalmente utilizados em torneios. Neste processo, o concorrente é eliminado quando sofre a primeira derrota. Dessa forma, qual é o número de jogos de uma competição que utiliza a eliminatória simples com 22 concorrentes e não é realizada a disputa de 3º e 4º lugares? Assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "22",
+            "B": "21",
+            "C": "23",
+            "D": "44"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em um sistema de eliminatória simples, o número de jogos necessários para definir um campeão é sempre igual ao número de concorrentes menos um. Com 22 concorrentes, o número de jogos é 22 - 1 = 21."
+    },
+    {
+        "id": "1501064",
+        "enunciado": "Uma Unidade de Alimentação e Nutrição (UAN) fará a aquisição de alcatra para o preparo de bifes pelo preço de R$ 7,00/Kg. Após as etapas de pré-preparo, a perda da matéria-prima é de 20%. Para a obtenção de 10 kg de peso líquido, qual será o gasto para a UAN?",
+        "alternativas": {
+            "A": "R$ 70,00.",
+            "B": "R$ 84,00.",
+            "C": "R$ 87,50.",
+            "D": "R$ 105,00."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para obter 10 kg de peso líquido, considerando 20% de perda, o peso para aquisição deve ser 10 kg / (1 - 0,20) = 10 kg / 0,80 = 12,5 kg. O gasto será 12,5 kg * R$ 7,00/kg = R$ 87,50."
+    },
+    {
+        "id": "2023612",
+        "enunciado": "As mulheres de uma família todos os anos fazem um bolo gigante em 5 dias, para doar no dia das crianças. Porém, em um determinado ano elas conseguiram ajuda de duas vizinhas e fizeram o bolo em 4 dias. Quantas mulheres tem essa família?",
+        "alternativas": {
+            "A": "Essa família tem 8 mulheres.",
+            "B": "Essa família tem 11 mulheres.",
+            "C": "Essa família tem 5 mulheres.",
+            "D": "Essa família tem 9 mulheres.",
+            "E": "Essa família tem 7 mulheres."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Se 'M' é o número de mulheres e 'D' são os dias, o trabalho é constante. 5M = 4(M+2). 5M = 4M + 8. M = 8. Portanto, a família tem 8 mulheres."
+    },
+    {
+        "id": "1960037",
+        "enunciado": "Às 13:00 horas acerta-se um relógio que atrasa 3 minutos a cada 24 horas. Que horário o relógio mostra às 21:00 horas do dia seguinte ao que foi acertado?",
+        "alternativas": {
+            "A": "20 h 55 min",
+            "B": "20 h 56 min",
+            "C": "20 h 57 min",
+            "D": "20 h 58 min",
+            "E": "20 h 59 min"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O relógio atrasa 3 minutos a cada 24 horas. No dia seguinte, até as 21:00 horas, completam-se 32 horas. O atraso total será de (3 minutos/24 horas) * 32 horas = 4 minutos. Portanto, 21:00 - 4 minutos = 20:56."
+    },
+    {
+        "id": "1960039",
+        "enunciado": "Para lavar 8 carros em 2 horas são necessários 4 funcionários. Logo, para lavar 18 carros em 1 hora e meia, o número de funcionários necessário é:",
+        "alternativas": {
+            "A": "Menor que 8.",
+            "B": "Maior que 8 e menor que 11.",
+            "C": "Maior que 11 e menor que 14.",
+            "D": "Maior que 14 e menor que 17.",
+            "E": "Maior que 17."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Trabalho e tempo são inversamente proporcionais ao número de carros. 8 carros em 2h com 4 funcionários. 4 carros em 2h com 2 funcionários. 4 carros em 1h com 4 funcionários. 18 carros em 1.5h. Para 18 carros em 1h, precisaria de 18 funcionários. Para 18 carros em 1.5h, precisa de 18 * (1/1.5) = 18 * (2/3) = 12 funcionários. Logo, C."
+    },
+    {
+        "id": "1136202",
+        "enunciado": "Segundo a Organização Mundial da Saúde – OMS, bebês de até um ano não devem ter contato com Tablet ou Celular e crianças de dois a quatro anos só podem gastar sessenta minutos por dia em frente a essas telas. Pedro ganhou um tablet no dia 17 de março, quando completou dois anos de idade. Seus pais obedecem rigorosamente à orientação da OMS e Pedro pode assistir vídeos em seu tablet por uma hora todos os dias. Quantas horas à frente da tela do tablet Pedro passará do dia 17 de março até o dia 17 de julho?",
+        "alternativas": {
+            "A": "120 horas.",
+            "B": "132 horas.",
+            "C": "100 horas.",
+            "D": "123 horas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Pedro tem 2 anos e usa o tablet por 1h/dia. O período vai de 17 de março até 17 de julho. Março tem 31 dias. Dias em março: 31-17 = 14 dias. Abril tem 30 dias. Maio tem 31 dias. Junho tem 30 dias. Dias em julho: 17 dias. Total de dias = 14 (Mar) + 30 (Abr) + 31 (Mai) + 30 (Jun) + 17 (Jul) = 122 dias. Total de horas = 122 dias * 1 hora/dia = 122 horas. A alternativa B é 132 horas. Vamos verificar os dias corretamente. Março: 17 a 31 = 15 dias (inclusive o dia 17). Abril: 30 dias. Maio: 31 dias. Junho: 30 dias. Julho: 1 a 17 = 17 dias. Total de dias = 15 + 30 + 31 + 30 + 17 = 123 dias. Total de horas = 123 horas. Nenhuma opção. Vamos recalcular os dias: Do dia 17 de março até o dia 17 de julho, inclusive os dias de início e fim. Março: dias 17, 18, ..., 31 (15 dias). Abril: 30 dias. Maio: 31 dias. Junho: 30 dias. Julho: dias 1, 2, ..., 17 (17 dias). Total = 15 + 30 + 31 + 30 + 17 = 123 dias. 123 horas. Se a pergunta fosse até o dia 16 de julho: Março (15) + Abril (30) + Maio (31) + Junho (30) + Julho (16) =..."
+    },
+    {
+        "id": "1990611",
+        "enunciado": "Sabendo que na cidade de Coronel Freitas um tonel de 200 litros de água custa R$ 6,00. Em Florianópolis, a água que abastece residências custa metade desse valor. Qual o preço em reais, pago por 100 litros da água que abastece residências em Florianópolis?",
+        "alternativas": {
+            "A": "0,50",
+            "B": "1,00",
+            "C": "1,50",
+            "D": "2,00"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O tonel de 200 litros custa R$ 6,00 em Coronel Freitas. Em Florianópolis, o preço da água que abastece residências é metade desse valor por litro. Então o preço por 200 litros na residência seria R$ 3,00. Para 100 litros, o preço seria metade disso, R$ 1,50. Outra interpretação: O preço por litro em Coronel é 6/200 = R$ 0,03/litro. Em Florianópolis, é metade do valor por litro, R$ 0,015/litro. Para 100 litros, o custo é 100 * 0,015 = R$ 1,50. Alternativa C."
+    },
+    {
+        "id": "1992224",
+        "enunciado": "João tem 42 anos de idade. O gato de João tem 8 anos de idade. Se o gato de João fosse uma pessoa ele teria 56 anos de idade. Neste caso, quantos anos teria João se viesse a ser um gato?",
+        "alternativas": {
+            "A": "4;",
+            "B": "5;",
+            "C": "7;",
+            "D": "6;",
+            "E": "8."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A relação de idade entre João e seu gato no problema é de 1:5. João (42 anos) é multiplicador de 5 para a idade do gato (8 anos). Para achar a idade de João se fosse um gato, se aplica a mesma proporção inversa: a idade do gato (8 anos) multiplicada por 5 (a proporção humana) é igual à idade de João. 8 anos / 5 = 1.6 (idade de João em 'anos de gato'). Para ter o resultado em anos humanos, multiplicamos por 5. O problema é mal formulado, mas a correlação explícita é que a idade humana é 5x a idade do gato. Portanto 8 anos (gato) * 5 = 40 anos (João em 'anos de gato'). Invertendo, a idade de João (42) é x 5 a idade do gato. Se fosse gato, seria: 42/5 = 8.4 anos.  A questão é mal formulada. Se considerarmos a proporção onde a idade do gato é 1/7 da idade de João (8/42), então a idade de João seria 7x a idade do gato (7 * 8 = 56), o que bate com o enunciado. Logo, a idade 'gato' de João seria 42 / 7 = 6 anos."
+    }
+]

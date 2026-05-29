@@ -1,0 +1,1952 @@
+[
+    {
+        "id": "2318202",
+        "enunciado": "Um administrador de sistemas precisa instalar um conjunto de aplicativos de escritório e produtividade em várias máquinas de uma empresa que utiliza uma distribuição Linux baseada em Debian (como o Ubuntu). Marque a alternativa CORRETA que corresponde a abordagem recomendada para automatizar e gerenciar essa tarefa, e sendo assim a mais eficiente.",
+        "alternativas": {
+            "A": "Baixar os arquivos de instalação .rpm de cada aplicativo e convertê-los para o formato .deb usando a ferramenta alien em cada máquina individualmente.",
+            "B": "Utilizar um script de shell que empregue o gerenciador de pacotes apt (Advanced Package Tool) para instalar os aplicativos a partir dos repositórios oficiais, resolvendo automaticamente as dependências e facilitando futuras atualizações com o comando apt upgrade.",
+            "C": "Copiar a pasta de instalação dos aplicativos de uma máquina já configurada para as demais, pois os binários e as bibliotecas em Linux são totalmente portáteis e não requerem um processo de instalação formal.",
+            "D": "Compilar o código-fonte de cada aplicativo em cada uma das máquinas, garantindo que todas as dependências de compilação sejam resolvidas manualmente."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B é a mais eficiente pois utiliza o gestor de pacotes apt para instalar aplicativos no Debian/Ubuntu, que resolve dependências automaticamente. Isso é mais rápido e seguro que baixar pacotes individuais ou compilar código fonte."
+    },
+    {
+        "id": "1984282",
+        "enunciado": "No Linux, qual comando permite ao usuário trocar temporariamente para outro usuário dentro do terminal?",
+        "alternativas": {
+            "A": "sudo",
+            "B": "su",
+            "C": "chown",
+            "D": "chmod"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'su' (substitute user ou switch user) permite que um usuário troque temporariamente de identidade para outro usuário, incluindo o superusuário (root). Os outros comandos têm funções diferentes: 'sudo' para executar um comando como outro usuário, 'chown' para mudar o dono de um arquivo e 'chmod' para alterar permissões."
+    },
+    {
+        "id": "2309892",
+        "enunciado": "Nos sistemas operacionais Linux, os arquivos podem ser definidos com quais tipos de permissões?",
+        "alternativas": {
+            "A": "Escrita e atualização.",
+            "B": "Execução e remoção.",
+            "C": "Deleção e escrita.",
+            "D": "Leitura e execução.",
+            "E": "Deleção e atualização."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "No Linux, as permissões básicas para arquivos e diretórios são de leitura (r), escrita (w) e execução (x). Essas permissões são aplicadas a três categorias de usuários: proprietário, grupo e outros. As alternativas apresentadas não descrevem corretamente o conjunto completo de permissões padrão."
+    },
+    {
+        "id": "2271450",
+        "enunciado": "No Windows 10, a atualização do sistema é realizada por um recurso que busca, baixa e instala correções diretamente da Microsoft.Qual opção aciona essa funcionalidade?",
+        "alternativas": {
+            "A": "Configurações > Atualização e Segurança > Recuperação.",
+            "B": "Configurações > Atualização e Segurança > Segurança do Windows.",
+            "C": "Configurações > Atualização e Segurança > Windows Update.",
+            "D": "Configurações > Atualização e Segurança > Solução de problemas.",
+            "E": "Configurações > Atualização e Segurança > Programa Windows Insider."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No Windows 10, as atualizações do sistema são gerenciadas pela seção 'Windows Update' dentro de 'Atualização e Segurança' nas Configurações. É lá que o sistema busca e instala as novas versões e correções."
+    },
+    {
+        "id": "2270901",
+        "enunciado": "Em um laboratório com Linux, os usuários precisam salvar arquivos em seus diretórios pessoais e utilizar o LibreOffice para trabalhar com planilhas. Qual alternativa descreve corretamente esse cenário?",
+        "alternativas": {
+            "A": "Linux organiza usuários e permissões no sistema de arquivos; LibreOffice abre e edita planilhas no formato ODS.",
+            "B": "Linux organiza permissões apenas por grupo; LibreOffice abre planilhas somente no formato XLSX.",
+            "C": "Linux salva arquivos obrigatoriamente em partições EXT4; LibreOffice permite apenas visualização de planilhas.",
+            "D": "Linux exige configuração manual para cada diretório pessoal; LibreOffice exporta planilhas apenas para CSV.",
+            "E": "Linux não diferencia leitura e gravação; LibreOffice edita planilhas apenas no modo online."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Linux gerencia diretórios pessoais e permissões de forma eficaz. O LibreOffice Calc é compatível com o formato ODS, padrão do próprio software e também aberto."
+    },
+    {
+        "id": "2288824",
+        "enunciado": "Durante a instalação de uma distribuição Linux em um servidor, o técnico opta por criar partições separadas para/, /home e /var. Assinale a alternativa correta que apresenta a principal vantagem dessa abordagem.",
+        "alternativas": {
+            "A": "Permitir que logs e arquivos de usuários sejam gerenciados independentemente do sistema base, evitando perda de dados em reinstalações.",
+            "B": "Reduzir o consumo de CPU no processamento de arquivos grandes.",
+            "C": "Aumentar a velocidade de leitura de arquivos do sistema.",
+            "D": "Tornar o sistema compatível com partições NTFS."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Partições separadas isolam dados. /home para usuários, /var para logs e sistema. Isso protege dados de usuários e logs em caso de reinstalação do sistema base."
+    },
+    {
+        "id": "2288826",
+        "enunciado": "Um administrador executa o comando chmod 750 /var/log/syslog em um servidor Linux. Assinale a alternativa correta que apresenta o que ocorre com as permissões desse arquivo.",
+        "alternativas": {
+            "A": "Apenas o proprietário pode ler e escrever; o grupo pode ler e executar; e, outros, não têm acesso.",
+            "B": "O proprietário e o grupo têm acesso total; e, outros, apenas leitura.",
+            "C": "O proprietário tem acesso total; o grupo tem leitura e execução; e, outros, não têm permissão.",
+            "D": "O arquivo se torna público e executável por todos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando chmod 750 define as permissões: 7 (leitura, escrita, execução para o proprietário), 5 (leitura, execução para o grupo) e 0 (sem permissões para outros)."
+    },
+    {
+        "id": "2187696",
+        "enunciado": "Um usuário do Linux está no diretório /home/aluno/documentos e deseja: 1. copiar o arquivo relatorio.txt do diretório atual para o diretório /home/aluno/backup; 2. mover o arquivo tarefa.docx do diretório atual para o diretório ../entregas; 3. remover o arquivo temporario.log do diretório atual. A opção que apresenta corretamente os comandos que podem ser utilizados para essas operações, na ordem descrita, é",
+        "alternativas": {
+            "A": "mv /home/aluno/documentos/relatorio.txt /home/aluno/backup/; cp tarefa.docx ../entregas/; del temporario.log",
+            "B": "copy relatorio.txt backup\\; move tarefa.docx ..\\entregas\\; erase temporario.log",
+            "C": "scp relatorio.txt /home/aluno/backup/; mv ../entregas tarefa.docx; rm -dir temporario.log",
+            "D": "cp ../entregas/tarefa.docx; mv relatorio.txt backup/; remove temporario.log",
+            "E": "cp /home/aluno/documentos/relatorio.txt /home/aluno/backup/; mv tarefa.docx ../entregas/; rm temporario.log"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A. Copiar: `cp relatorio.txt /home/aluno/backup/` ou `cp /home/aluno/documentos/relatorio.txt /home/aluno/backup/`. Mover: `mv tarefa.docx ../entregas/`. Remover: `rm temporario.log`. A alternativa E apresenta os comandos corretos e na ordem, considerando o diretório atual do usuário."
+    },
+    {
+        "id": "2206359",
+        "enunciado": "No Linux, qual comando exibe a árvore de diretórios e arquivos de forma hierárquica?",
+        "alternativas": {
+            "A": "Cat",
+            "B": "Ls",
+            "C": "Pwd",
+            "D": "Tree",
+            "E": "Echo"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'tree' no Linux é utilizado para exibir o conteúdo dos diretórios em uma estrutura hierárquica em formato de árvore, mostrando subdiretórios e arquivos de forma organizada."
+    },
+    {
+        "id": "2165801",
+        "enunciado": "Em distribuições Linux, um utilitário é bastante empregado com a função de atribuir um endereço a uma interface de rede ou conﬁ gurar parâmetros de interface de rede. Entre suas principais funções, permite conﬁ gurar endereços IP, possibilita ativar e desativar interfaces, deﬁ ne máscara de rede, serve para conﬁ gurar o endereço de broadcast e visualizar informações, como endereço MAC, status da interface UP ou DOWN, além de estatísticas de tráfego. Esse utilitário é conhecido por:",
+        "alternativas": {
+            "A": "ping",
+            "B": "ifconﬁ g",
+            "C": "nslookup",
+            "D": "traceroute"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O utilitário 'ifconfig' (ou 'ip' em sistemas mais recentes) é a ferramenta padrão em distribuições Linux para configurar e visualizar os parâmetros de interfaces de rede, como endereços IP, máscaras, status (UP/DOWN) e MAC. As outras opções são para diagnósticos de rede ('ping', 'traceroute') ou resolução de nomes ('nslookup')."
+    },
+    {
+        "id": "2350853",
+        "enunciado": "No que diz respeito ao Linux, a hierarquia de diretórios baseia-se na convenção FHS (“Filesystem Hierarchy Standard”). Nesse contexto, um diretório armazena todos os arquivos globais de configuração do sistema, enquanto em outro estão os programas utilizados pelos usuários desse sistema operacional. Esses diretórios são referenciados, respectivamente, como:",
+        "alternativas": {
+            "A": "(    ) /etc e /usr",
+            "B": "(    ) /etc e /apk",
+            "C": "(    ) /cfg e /usr",
+            "D": "(    ) /cfg e /apk"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No padrão FHS do Linux, o diretório /etc armazena arquivos de configuração globais do sistema, enquanto /usr contém programas e dados do usuário (incluindo binários e bibliotecas). /apk não é um diretório padrão FHS conhecido."
+    },
+    {
+        "id": "2290222",
+        "enunciado": "O sistema operacional representa um software fundamental que funciona como um intermediário entre o hardware do computador e os programas e utilizadores, gerindo recursos como memória, processador e dispositivos de entrada/saída, e fornecendo uma interface amigável para a execução de aplicações. Nesse contexto, o Linux é um termo usado para classificar o núcleo do S.O., conhecido como kernel, sendo um dos mais usados no mundo, ao lado do Windows e do MacOS/iOS. Distribuições Linux ou \"distros\" são sistemas operacionais completos criados a partir do kernel Linux e um conjunto de softwares adicionais como o sistema de inicialização, gerenciadores de pacotes e aplicações, que formam uma experiência personalizada para o usuário. Essas “distros” variam para atender diferentes necessidades, desde servidores e desenvolvimento de software até o uso doméstico e a segurança cibernética, combinando o kernel com diferentes interfaces gráficas e ferramentas. Dois exemplos de “distros” Linux são:",
+        "alternativas": {
+            "A": "Debian e Apple",
+            "B": "Ubuntu e Debian",
+            "C": "Apple e LibreStyle",
+            "D": "LibreStyle e Ubuntu"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Ubuntu e Debian são exemplos clássicos e amplamente conhecidos de distribuições Linux (distros). As outras alternativas misturam nomes de empresas (Apple) ou termos genéricos e distros que não são tão representativas ou existentes."
+    },
+    {
+        "id": "2052334",
+        "enunciado": "O Linux permite a administração das contas de seus usuários para acessar os seus recursos. Nesse contexto, por padrão, qual é o comando no Linux que permite a criação de uma nova conta de usuário utilizando opções predefinidas armazenadas em um arquivo de configuração ?",
+        "alternativas": {
+            "A": "adduser .",
+            "B": "useradd.",
+            "C": "passwd .",
+            "D": "chfn.",
+            "E": "loginuser ."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'useradd' é utilizado para criar novas contas de usuário no Linux. Ele permite a configuração de diversos parâmetros, e muitas vezes utiliza informações de arquivos de configuração padrão para definições pré-definidas."
+    },
+    {
+        "id": "1908953",
+        "enunciado": "A administração de sistemas Linux envolve o uso de comandos e configurações básicas para garantir o funcionamento adequado do sistema. A esse respeito, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "O comando chmod 777 script.sh remove todas as permissões de leitura, escrita e execução do arquivo script.sh.",
+            "B": "O comando ls -l lista os arquivos e diretórios no formato longo, exibindo detalhes como permissões, proprietário, grupo, tamanho e data de modificação.",
+            "C": "O arquivo /etc/passwd armazena as senhas dos usuários do sistema em formato criptografado.",
+            "D": "O comando sudo shutdown -h now é utilizado para reiniciar o sistema imediatamente."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'ls -l' exibe informacoes detalhadas sobre arquivos e diretorios, incluindo permissoes. O comando 'chmod 777' concede todas as permissoes, nao as remove. As senhas sao armazenadas em /etc/shadow, nao /etc/passwd. 'sudo shutdown -h now' desliga o sistema, nao o reinicia."
+    },
+    {
+        "id": "2052337",
+        "enunciado": "No Linux, qual é o comando usado para criar um grupo de usuários?",
+        "alternativas": {
+            "A": "grpadd.",
+            "B": "groupadd.",
+            "C": "newgroup.",
+            "D": "newgrp.",
+            "E": "usergrp."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'groupadd' é o comando padrão em sistemas Linux para criar um novo grupo de usuários a partir da linha de comando. As outras opções não são comandos corretos para essa finalidade."
+    },
+    {
+        "id": "2170366",
+        "enunciado": "Em sistemas operacionais, como Linux ou Windows, é comum serem utilizados comandos através do teclado para realizar tarefas de maneira mais dinâmica e, por muitas vezes, em que se exclui a necessidade de trabalhar com uma interface gráfica. Assinale a alternativa que apresenta o comando Linux responsável por listar o conteúdo de uma pasta, incluindo arquivos e diretórios.",
+        "alternativas": {
+            "A": "Cd.",
+            "B": "Cp.",
+            "C": "Ls.",
+            "D": "Mkdir.",
+            "E": "Rmdir."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'ls' no Linux é utilizado para listar o conteúdo de diretórios, exibindo arquivos e subdiretórios presentes em uma determinada pasta. Os outros comandos referem-se a, respectivamente, mudar de diretório, copiar, criar e remover."
+    },
+    {
+        "id": "2405773",
+        "enunciado": "Em um servidor Linux, um analista precisou modificar as permissões de um arquivo e executar o seguinte comando no shell. user@server:~# chmod 750 arquivo.txt. Com base nessa situação hipotética, assinale a opção que apresenta as permissões concedidas ao grupo (G) proprietário do arquivo, após a execução desse comando.",
+        "alternativas": {
+            "A": "O grupo tem permissão de leitura, escrita e execução (rwx).",
+            "B": "O grupo tem permissão apenas de leitura e execução (r -x).",
+            "C": "O grupo tem permissão de leitura, mas não tem permissão de escrita e execução (r --).",
+            "D": "O grupo não tem nenhuma permissão (---).",
+            "E": "O grupo tem permissão apenas de escrita e execução (‑wx)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No comando 'chmod 750', os bits são '7' (leitura, escrita, execução para o dono), '5' (leitura e execução para o grupo) e '0' (sem permissão para outros). Portanto, o grupo (G) tem permissão de leitura (4) e execução (1), totalizando 5, mas não escrita (2)."
+    },
+    {
+        "id": "2371574",
+        "enunciado": "Um administrador de sistemas precisa configurar as permissões de um script crítico no kernel (núcleo) do sistema operacional Linux para garantir a segurança da informação. O objetivo é que apenas o proprietário do arquivo tenha permissão total de leitura, escrita e execução, enquanto o grupo e outros usuários não tenham nenhum acesso. Assinale a alternativa correta que apresenta o comando e a sintaxe octal adequados para essa configuração.",
+        "alternativas": {
+            "A": "chmod 755 arquivo.sh",
+            "B": "chmod 750 arquivo.sh",
+            "C": "chmod 644 arquivo.sh",
+            "D": "chmod 700 arquivo.sh",
+            "E": "chmod 777 arquivo.sh"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'chmod 700 arquivo.sh' define permissões: 7 (leitura, escrita, execução) para o proprietário, 0 para o grupo e 0 para outros. Isso atende exatamente os requisitos."
+    },
+    {
+        "id": "2205914",
+        "enunciado": "Um operador de sistemas em uma empresa de desenvolvimento de software precisa gerenciar permissões de acesso a arquivos de conﬁguração críticos no servidor Linux. Ele quer garantir que apenas a equipe de administradores possa modiﬁcar os arquivos, enquanto os desenvolvedores apenas possam visualizá-los. Para isso, o operador deve conﬁgurar CORRETAMENTE as permissões de:",
+        "alternativas": {
+            "A": "arquivamento e compactação.",
+            "B": "leitura, gravação e execução.",
+            "C": "compartilhamento e impressão.",
+            "D": "usuário e senha.",
+            "E": "backup e restauração."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No Linux, as permissões fundamentais de acesso a arquivos são leitura (para visualização), gravação (para modificação) e execução (para rodar programas). O operador pode configurar essas permissões para diferentes grupos de usuários (administradores, desenvolvedores)."
+    },
+    {
+        "id": "1721703",
+        "enunciado": "Um usuário do Linux precisa descobrir algumas informações detalhadas sobre o hardware instalado em seu computador, que incluem processador, memória e dispositivos de armazenamento. Qual dos seguintes comandos pode indicar as informações procuradas pelo usuário?",
+        "alternativas": {
+            "A": "chmod",
+            "B": "hwinfo",
+            "C": "grep",
+            "D": "mkdir",
+            "E": "ls"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando `hwinfo` é específico para exibir informações detalhadas sobre o hardware do sistema Linux, como processador, memória e dispositivos de armazenamento. Os outros comandos têm funções diferentes: `chmod` (altera permissões), `grep` (busca padrões em texto), `mkdir` (cria diretório) e `ls` (lista arquivos/diretórios)."
+    },
+    {
+        "id": "2274319",
+        "enunciado": "Assinale a alternativa que traduz, de forma correta, um ajuste de permissões em Linux para diretório de projetos com colaboração entre grupos.",
+        "alternativas": {
+            "A": "Definir chmod 777 no diretório e delegar controle por convenção entre usuários durante a edição colaborativa do conteúdo.",
+            "B": "Aplicar permissão de leitura para grupo e escrita para proprietário, mantendo arquivos em diretórios pessoais dos colaboradores no servidor.",
+            "C": "Criar ACL que atribui leitura a visitantes e gravação a convidados mediante convite por e-mail corporativo registrado.",
+            "D": "Mapear o diretório como unidade de rede e transferir o controle para o serviço de e-mail com autenticação por domínio da organização.",
+            "E": "Definir o grupo do diretório para a equipe, ativar setgid, aplicar 775 em diretórios e 664 em arquivos e registrar ACL para casos pontuais."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Esta alternativa descreve uma configuração robusta: grupo para equipe, setgid para manter propriedade de arquivos no diretório de grupo, 775 para diretórios (leitura/escrita/execução para grupo e outros) e 664 para arquivos (leitura/escrita para grupo e leitura para outros), com ACLs para exceções."
+    },
+    {
+        "id": "2052361",
+        "enunciado": "A configuração de um proxy no ambiente Linux envolve a inspeção do conteúdo das variáveis de ambiente. Para verificar se as variáveis de proxy foram definidas para a sessão atual , qual é o comando usado no terminal para que a existência e o conteúdo possa ser listado?",
+        "alternativas": {
+            "A": "ls | grep -i proxy",
+            "B": "env | grep -i proxy",
+            "C": "cat | grep -i proxy",
+            "D": "http_proxy=http://usuário:senha@proxy_host:porta_do_proxy",
+            "E": "https_proxy=http://usuário:senha@proxy_host:porta_do_proxy"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'env | grep -i proxy' lista todas as variáveis de ambiente ('env') e depois filtra ('grep') aquelas que contêm 'proxy' independentemente de serem maiúsculas ou minúsculas ('-i'), mostrando sua configuração."
+    },
+    {
+        "id": "2339360",
+        "enunciado": "Em um sistema Linux, um administrador deseja permitir que o usuário maria tenha, além da permissão de leitura, a permissão de escrita ao arquivo teste.txt, sem alterar o grupo ou dono. Assinale o comando a ser utilizado.",
+        "alternativas": {
+            "A": "setfacl -m u:maria:rw teste.txt",
+            "B": "chown maria teste.txt",
+            "C": "chmod +w maria teste.txt",
+            "D": "chgrp maria teste.txt",
+            "E": "usermod -aG maria teste.txt"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando setfacl -m u:maria:rw teste.txt é usado no Linux para modificar listas de controle de acesso (ACLs), permitindo que o usuário 'maria' tenha permissões de leitura (r) e escrita (w) no arquivo 'teste.txt'."
+    },
+    {
+        "id": "1228402",
+        "enunciado": "Para mostrar os dispositivos USB conectados a uma máquina em sistemas Linux podemos usar o comando:",
+        "alternativas": {
+            "A": "usbstatus.",
+            "B": "usblist.",
+            "C": "lsusb.",
+            "D": "showusb.",
+            "E": "usb."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'lsusb' é a ferramenta padrão em sistemas Linux para listar e exibir informações sobre os dispositivos USB conectados ao sistema, incluindo detalhes sobre os fabricantes e os próprios dispositivos."
+    },
+    {
+        "id": "1135725",
+        "enunciado": "Leia o trecho abaixo.“Mudar o dono ou grupo de um arquivo ou diretório.”Qual comando do Linux deve ser utilizado para desempenhar a função descrita acima?",
+        "alternativas": {
+            "A": "chown.",
+            "B": "cmp.",
+            "C": "ls.",
+            "D": "uncompress."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'chown' (change owner) é utilizado no Linux para alterar o proprietário e/ou o grupo de um arquivo ou diretório."
+    },
+    {
+        "id": "1135746",
+        "enunciado": "Leia o trecho abaixo. “Mudar o dono ou grupo de um arquivo ou diretório.” Qual comando do Linux deve ser utilizado para desempenhar a função descrita acima?",
+        "alternativas": {
+            "A": "chown.",
+            "B": "cmp.",
+            "C": "ls.",
+            "D": "uncompress."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'chown' (change owner) é utilizado no Linux para alterar o proprietário e/ou o grupo de um arquivo ou diretório."
+    },
+    {
+        "id": "1104013",
+        "enunciado": "Um usuário de um computador com sistema operacional Linux precisa usar um comando que permite atualizar os tempos de acesso e modificação de arquivos especificados. Esse comando é conhecido como:",
+        "alternativas": {
+            "A": "cat",
+            "B": "pwd",
+            "C": "move",
+            "D": "touch"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'touch' em sistemas Linux é utilizado para criar um novo arquivo (se ele não existir) ou atualizar os tempos de acesso e modificação de um arquivo existente, sem alterar seu conteúdo."
+    },
+    {
+        "id": "1282904",
+        "enunciado": "Sobre a permissão de arquivos em Sistemas Operacionais Linux, é correto afirmar que:",
+        "alternativas": {
+            "A": "Cada categoria do sistema de permissões possui quatro tipos de permissões: Leitura, Escrita, Gravação e Execução.",
+            "B": "A permissão de Execução permite modificar o conteúdo do arquivo ou criar arquivos dentro do diretório.",
+            "C": "A permissão de Leitura permite ler, executar e listar o conteúdo de um diretório.",
+            "D": "A permissão de Proprietário permite que o dono do conteúdo compartilhe o mesmo com outros usuários.",
+            "E": "O sistema de permissões é baseado em três categorias: Proprietário, Grupo e Outros."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O sistema de permissões em Linux é organizado em três categorias principais: Proprietário (dono do arquivo), Grupo (usuários associados) e Outros (o restante dos usuários)."
+    },
+    {
+        "id": "1155022",
+        "enunciado": "No Linux e em suas distribuições, como o Ubuntu, muitas configurações do sistema podem ser realizadas por meio de comandos na interface de linha de comando. Na versão 16.04 do Ubuntu, qual comando é utilizado para alterar o proprietário de um arquivo ou diretório?",
+        "alternativas": {
+            "A": "chown",
+            "B": "route",
+            "C": "date",
+            "D": "mkdir"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'chown' no Linux é utilizado para alterar o proprietário e o grupo de um arquivo ou diretório. 'route' gerencia tabelas de roteamento; 'date' exibe e altera a data/hora; 'mkdir' cria diretórios."
+    },
+    {
+        "id": "1678887",
+        "enunciado": "Assinale a alternativa que completa de maneira correta o espaço pontilhado entre colchetes no script abaixo, de modo que ele exiba os números inteiros de 1 a 10 ao ser executado em um computador com sistema operacional Ubuntu Linux.",
+        "alternativas": {
+            "A": "$valor <= 10",
+            "B": "$valor -le 10",
+            "C": "$valor -gt 10",
+            "D": "$valor < 10"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para exibir números inteiros de 1 a 10, o loop deve continuar enquanto o valor for menor ou igual a 10. A condição '$valor -le 10' (valor less or equal than 10) garante que o loop será executado para os valores de 1 a 10."
+    },
+    {
+        "id": "2318202",
+        "enunciado": "Um administrador de sistemas precisa instalar um conjunto de aplicativos de escritório e produtividade em várias máquinas de uma empresa que utiliza uma distribuição Linux baseada em Debian (como o Ubuntu). Marque a alternativa CORRETA que corresponde a abordagem recomendada para automatizar e gerenciar essa tarefa, e sendo assim a mais eficiente.",
+        "alternativas": {
+            "A": "Baixar os arquivos de instalação .rpm de cada aplicativo e convertê-los para o formato .deb usando a ferramenta alien em cada máquina individualmente.",
+            "B": "Utilizar um script de shell que empregue o gerenciador de pacotes apt (Advanced Package Tool) para instalar os aplicativos a partir dos repositórios oficiais, resolvendo automaticamente as dependências e facilitando futuras atualizações com o comando apt upgrade.",
+            "C": "Copiar a pasta de instalação dos aplicativos de uma máquina já configurada para as demais, pois os binários e as bibliotecas em Linux são totalmente portáteis e não requerem um processo de instalação formal.",
+            "D": "Compilar o código-fonte de cada aplicativo em cada uma das máquinas, garantindo que todas as dependências de compilação sejam resolvidas manualmente."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B é a mais eficiente pois utiliza o gestor de pacotes apt para instalar aplicativos no Debian/Ubuntu, que resolve dependências automaticamente. Isso é mais rápido e seguro que baixar pacotes individuais ou compilar código fonte."
+    },
+    {
+        "id": "1984282",
+        "enunciado": "No Linux, qual comando permite ao usuário trocar temporariamente para outro usuário dentro do terminal?",
+        "alternativas": {
+            "A": "sudo",
+            "B": "su",
+            "C": "chown",
+            "D": "chmod"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'su' (substitute user ou switch user) permite que um usuário troque temporariamente de identidade para outro usuário, incluindo o superusuário (root). Os outros comandos têm funções diferentes: 'sudo' para executar um comando como outro usuário, 'chown' para mudar o dono de um arquivo e 'chmod' para alterar permissões."
+    },
+    {
+        "id": "2309892",
+        "enunciado": "Nos sistemas operacionais Linux, os arquivos podem ser definidos com quais tipos de permissões?",
+        "alternativas": {
+            "A": "Escrita e atualização.",
+            "B": "Execução e remoção.",
+            "C": "Deleção e escrita.",
+            "D": "Leitura e execução.",
+            "E": "Deleção e atualização."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "No Linux, as permissões básicas para arquivos e diretórios são de leitura (r), escrita (w) e execução (x). Essas permissões são aplicadas a três categorias de usuários: proprietário, grupo e outros. As alternativas apresentadas não descrevem corretamente o conjunto completo de permissões padrão."
+    },
+    {
+        "id": "2271450",
+        "enunciado": "No Windows 10, a atualização do sistema é realizada por um recurso que busca, baixa e instala correções diretamente da Microsoft.Qual opção aciona essa funcionalidade?",
+        "alternativas": {
+            "A": "Configurações > Atualização e Segurança > Recuperação.",
+            "B": "Configurações > Atualização e Segurança > Segurança do Windows.",
+            "C": "Configurações > Atualização e Segurança > Windows Update.",
+            "D": "Configurações > Atualização e Segurança > Solução de problemas.",
+            "E": "Configurações > Atualização e Segurança > Programa Windows Insider."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No Windows 10, as atualizações do sistema são gerenciadas pela seção 'Windows Update' dentro de 'Atualização e Segurança' nas Configurações. É lá que o sistema busca e instala as novas versões e correções."
+    },
+    {
+        "id": "2270901",
+        "enunciado": "Em um laboratório com Linux, os usuários precisam salvar arquivos em seus diretórios pessoais e utilizar o LibreOffice para trabalhar com planilhas. Qual alternativa descreve corretamente esse cenário?",
+        "alternativas": {
+            "A": "Linux organiza usuários e permissões no sistema de arquivos; LibreOffice abre e edita planilhas no formato ODS.",
+            "B": "Linux organiza permissões apenas por grupo; LibreOffice abre planilhas somente no formato XLSX.",
+            "C": "Linux salva arquivos obrigatoriamente em partições EXT4; LibreOffice permite apenas visualização de planilhas.",
+            "D": "Linux exige configuração manual para cada diretório pessoal; LibreOffice exporta planilhas apenas para CSV.",
+            "E": "Linux não diferencia leitura e gravação; LibreOffice edita planilhas apenas no modo online."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Linux gerencia diretórios pessoais e permissões de forma eficaz. O LibreOffice Calc é compatível com o formato ODS, padrão do próprio software e também aberto."
+    },
+    {
+        "id": "2288824",
+        "enunciado": "Durante a instalação de uma distribuição Linux em um servidor, o técnico opta por criar partições separadas para/, /home e /var. Assinale a alternativa correta que apresenta a principal vantagem dessa abordagem.",
+        "alternativas": {
+            "A": "Permitir que logs e arquivos de usuários sejam gerenciados independentemente do sistema base, evitando perda de dados em reinstalações.",
+            "B": "Reduzir o consumo de CPU no processamento de arquivos grandes.",
+            "C": "Aumentar a velocidade de leitura de arquivos do sistema.",
+            "D": "Tornar o sistema compatível com partições NTFS."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Partições separadas isolam dados. /home para usuários, /var para logs e sistema. Isso protege dados de usuários e logs em caso de reinstalação do sistema base."
+    },
+    {
+        "id": "2288826",
+        "enunciado": "Um administrador executa o comando chmod 750 /var/log/syslog em um servidor Linux. Assinale a alternativa correta que apresenta o que ocorre com as permissões desse arquivo.",
+        "alternativas": {
+            "A": "Apenas o proprietário pode ler e escrever; o grupo pode ler e executar; e, outros, não têm acesso.",
+            "B": "O proprietário e o grupo têm acesso total; e, outros, apenas leitura.",
+            "C": "O proprietário tem acesso total; o grupo tem leitura e execução; e, outros, não têm permissão.",
+            "D": "O arquivo se torna público e executável por todos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando chmod 750 define as permissões: 7 (leitura, escrita, execução para o proprietário), 5 (leitura, execução para o grupo) e 0 (sem permissões para outros)."
+    },
+    {
+        "id": "2187696",
+        "enunciado": "Um usuário do Linux está no diretório /home/aluno/documentos e deseja: 1. copiar o arquivo relatorio.txt do diretório atual para o diretório /home/aluno/backup; 2. mover o arquivo tarefa.docx do diretório atual para o diretório ../entregas; 3. remover o arquivo temporario.log do diretório atual. A opção que apresenta corretamente os comandos que podem ser utilizados para essas operações, na ordem descrita, é",
+        "alternativas": {
+            "A": "mv /home/aluno/documentos/relatorio.txt /home/aluno/backup/; cp tarefa.docx ../entregas/; del temporario.log",
+            "B": "copy relatorio.txt backup\\; move tarefa.docx ..\\entregas\\; erase temporario.log",
+            "C": "scp relatorio.txt /home/aluno/backup/; mv ../entregas tarefa.docx; rm -dir temporario.log",
+            "D": "cp ../entregas/tarefa.docx; mv relatorio.txt backup/; remove temporario.log",
+            "E": "cp /home/aluno/documentos/relatorio.txt /home/aluno/backup/; mv tarefa.docx ../entregas/; rm temporario.log"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A. Copiar: `cp relatorio.txt /home/aluno/backup/` ou `cp /home/aluno/documentos/relatorio.txt /home/aluno/backup/`. Mover: `mv tarefa.docx ../entregas/`. Remover: `rm temporario.log`. A alternativa E apresenta os comandos corretos e na ordem, considerando o diretório atual do usuário."
+    },
+    {
+        "id": "2206359",
+        "enunciado": "No Linux, qual comando exibe a árvore de diretórios e arquivos de forma hierárquica?",
+        "alternativas": {
+            "A": "Cat",
+            "B": "Ls",
+            "C": "Pwd",
+            "D": "Tree",
+            "E": "Echo"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'tree' no Linux é utilizado para exibir o conteúdo dos diretórios em uma estrutura hierárquica em formato de árvore, mostrando subdiretórios e arquivos de forma organizada."
+    },
+    {
+        "id": "2165801",
+        "enunciado": "Em distribuições Linux, um utilitário é bastante empregado com a função de atribuir um endereço a uma interface de rede ou conﬁ gurar parâmetros de interface de rede. Entre suas principais funções, permite conﬁ gurar endereços IP, possibilita ativar e desativar interfaces, deﬁ ne máscara de rede, serve para conﬁ gurar o endereço de broadcast e visualizar informações, como endereço MAC, status da interface UP ou DOWN, além de estatísticas de tráfego. Esse utilitário é conhecido por:",
+        "alternativas": {
+            "A": "ping",
+            "B": "ifconﬁ g",
+            "C": "nslookup",
+            "D": "traceroute"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O utilitário 'ifconfig' (ou 'ip' em sistemas mais recentes) é a ferramenta padrão em distribuições Linux para configurar e visualizar os parâmetros de interfaces de rede, como endereços IP, máscaras, status (UP/DOWN) e MAC. As outras opções são para diagnósticos de rede ('ping', 'traceroute') ou resolução de nomes ('nslookup')."
+    },
+    {
+        "id": "2350853",
+        "enunciado": "No que diz respeito ao Linux, a hierarquia de diretórios baseia-se na convenção FHS (“Filesystem Hierarchy Standard”). Nesse contexto, um diretório armazena todos os arquivos globais de configuração do sistema, enquanto em outro estão os programas utilizados pelos usuários desse sistema operacional. Esses diretórios são referenciados, respectivamente, como:",
+        "alternativas": {
+            "A": "(    ) /etc e /usr",
+            "B": "(    ) /etc e /apk",
+            "C": "(    ) /cfg e /usr",
+            "D": "(    ) /cfg e /apk"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No padrão FHS do Linux, o diretório /etc armazena arquivos de configuração globais do sistema, enquanto /usr contém programas e dados do usuário (incluindo binários e bibliotecas). /apk não é um diretório padrão FHS conhecido."
+    },
+    {
+        "id": "2290222",
+        "enunciado": "O sistema operacional representa um software fundamental que funciona como um intermediário entre o hardware do computador e os programas e utilizadores, gerindo recursos como memória, processador e dispositivos de entrada/saída, e fornecendo uma interface amigável para a execução de aplicações. Nesse contexto, o Linux é um termo usado para classificar o núcleo do S.O., conhecido como kernel, sendo um dos mais usados no mundo, ao lado do Windows e do MacOS/iOS. Distribuições Linux ou \"distros\" são sistemas operacionais completos criados a partir do kernel Linux e um conjunto de softwares adicionais como o sistema de inicialização, gerenciadores de pacotes e aplicações, que formam uma experiência personalizada para o usuário. Essas “distros” variam para atender diferentes necessidades, desde servidores e desenvolvimento de software até o uso doméstico e a segurança cibernética, combinando o kernel com diferentes interfaces gráficas e ferramentas. Dois exemplos de “distros” Linux são:",
+        "alternativas": {
+            "A": "Debian e Apple",
+            "B": "Ubuntu e Debian",
+            "C": "Apple e LibreStyle",
+            "D": "LibreStyle e Ubuntu"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Ubuntu e Debian são exemplos clássicos e amplamente conhecidos de distribuições Linux (distros). As outras alternativas misturam nomes de empresas (Apple) ou termos genéricos e distros que não são tão representativas ou existentes."
+    },
+    {
+        "id": "2052334",
+        "enunciado": "O Linux permite a administração das contas de seus usuários para acessar os seus recursos. Nesse contexto, por padrão, qual é o comando no Linux que permite a criação de uma nova conta de usuário utilizando opções predefinidas armazenadas em um arquivo de configuração ?",
+        "alternativas": {
+            "A": "adduser .",
+            "B": "useradd.",
+            "C": "passwd .",
+            "D": "chfn.",
+            "E": "loginuser ."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'useradd' é utilizado para criar novas contas de usuário no Linux. Ele permite a configuração de diversos parâmetros, e muitas vezes utiliza informações de arquivos de configuração padrão para definições pré-definidas."
+    },
+    {
+        "id": "1908953",
+        "enunciado": "A administração de sistemas Linux envolve o uso de comandos e configurações básicas para garantir o funcionamento adequado do sistema. A esse respeito, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "O comando chmod 777 script.sh remove todas as permissões de leitura, escrita e execução do arquivo script.sh.",
+            "B": "O comando ls -l lista os arquivos e diretórios no formato longo, exibindo detalhes como permissões, proprietário, grupo, tamanho e data de modificação.",
+            "C": "O arquivo /etc/passwd armazena as senhas dos usuários do sistema em formato criptografado.",
+            "D": "O comando sudo shutdown -h now é utilizado para reiniciar o sistema imediatamente."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'ls -l' exibe informacoes detalhadas sobre arquivos e diretorios, incluindo permissoes. O comando 'chmod 777' concede todas as permissoes, nao as remove. As senhas sao armazenadas em /etc/shadow, nao /etc/passwd. 'sudo shutdown -h now' desliga o sistema, nao o reinicia."
+    },
+    {
+        "id": "2052337",
+        "enunciado": "No Linux, qual é o comando usado para criar um grupo de usuários?",
+        "alternativas": {
+            "A": "grpadd.",
+            "B": "groupadd.",
+            "C": "newgroup.",
+            "D": "newgrp.",
+            "E": "usergrp."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'groupadd' é o comando padrão em sistemas Linux para criar um novo grupo de usuários a partir da linha de comando. As outras opções não são comandos corretos para essa finalidade."
+    },
+    {
+        "id": "2170366",
+        "enunciado": "Em sistemas operacionais, como Linux ou Windows, é comum serem utilizados comandos através do teclado para realizar tarefas de maneira mais dinâmica e, por muitas vezes, em que se exclui a necessidade de trabalhar com uma interface gráfica. Assinale a alternativa que apresenta o comando Linux responsável por listar o conteúdo de uma pasta, incluindo arquivos e diretórios.",
+        "alternativas": {
+            "A": "Cd.",
+            "B": "Cp.",
+            "C": "Ls.",
+            "D": "Mkdir.",
+            "E": "Rmdir."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'ls' no Linux é utilizado para listar o conteúdo de diretórios, exibindo arquivos e subdiretórios presentes em uma determinada pasta. Os outros comandos referem-se a, respectivamente, mudar de diretório, copiar, criar e remover."
+    },
+    {
+        "id": "2405773",
+        "enunciado": "Em um servidor Linux, um analista precisou modificar as permissões de um arquivo e executar o seguinte comando no shell. user@server:~# chmod 750 arquivo.txt. Com base nessa situação hipotética, assinale a opção que apresenta as permissões concedidas ao grupo (G) proprietário do arquivo, após a execução desse comando.",
+        "alternativas": {
+            "A": "O grupo tem permissão de leitura, escrita e execução (rwx).",
+            "B": "O grupo tem permissão apenas de leitura e execução (r -x).",
+            "C": "O grupo tem permissão de leitura, mas não tem permissão de escrita e execução (r --).",
+            "D": "O grupo não tem nenhuma permissão (---).",
+            "E": "O grupo tem permissão apenas de escrita e execução (‑wx)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No comando 'chmod 750', os bits são '7' (leitura, escrita, execução para o dono), '5' (leitura e execução para o grupo) e '0' (sem permissão para outros). Portanto, o grupo (G) tem permissão de leitura (4) e execução (1), totalizando 5, mas não escrita (2)."
+    },
+    {
+        "id": "2371574",
+        "enunciado": "Um administrador de sistemas precisa configurar as permissões de um script crítico no kernel (núcleo) do sistema operacional Linux para garantir a segurança da informação. O objetivo é que apenas o proprietário do arquivo tenha permissão total de leitura, escrita e execução, enquanto o grupo e outros usuários não tenham nenhum acesso. Assinale a alternativa correta que apresenta o comando e a sintaxe octal adequados para essa configuração.",
+        "alternativas": {
+            "A": "chmod 755 arquivo.sh",
+            "B": "chmod 750 arquivo.sh",
+            "C": "chmod 644 arquivo.sh",
+            "D": "chmod 700 arquivo.sh",
+            "E": "chmod 777 arquivo.sh"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'chmod 700 arquivo.sh' define permissões: 7 (leitura, escrita, execução) para o proprietário, 0 para o grupo e 0 para outros. Isso atende exatamente os requisitos."
+    },
+    {
+        "id": "2205914",
+        "enunciado": "Um operador de sistemas em uma empresa de desenvolvimento de software precisa gerenciar permissões de acesso a arquivos de conﬁguração críticos no servidor Linux. Ele quer garantir que apenas a equipe de administradores possa modiﬁcar os arquivos, enquanto os desenvolvedores apenas possam visualizá-los. Para isso, o operador deve conﬁgurar CORRETAMENTE as permissões de:",
+        "alternativas": {
+            "A": "arquivamento e compactação.",
+            "B": "leitura, gravação e execução.",
+            "C": "compartilhamento e impressão.",
+            "D": "usuário e senha.",
+            "E": "backup e restauração."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No Linux, as permissões fundamentais de acesso a arquivos são leitura (para visualização), gravação (para modificação) e execução (para rodar programas). O operador pode configurar essas permissões para diferentes grupos de usuários (administradores, desenvolvedores)."
+    },
+    {
+        "id": "1721703",
+        "enunciado": "Um usuário do Linux precisa descobrir algumas informações detalhadas sobre o hardware instalado em seu computador, que incluem processador, memória e dispositivos de armazenamento. Qual dos seguintes comandos pode indicar as informações procuradas pelo usuário?",
+        "alternativas": {
+            "A": "chmod",
+            "B": "hwinfo",
+            "C": "grep",
+            "D": "mkdir",
+            "E": "ls"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando `hwinfo` é específico para exibir informações detalhadas sobre o hardware do sistema Linux, como processador, memória e dispositivos de armazenamento. Os outros comandos têm funções diferentes: `chmod` (altera permissões), `grep` (busca padrões em texto), `mkdir` (cria diretório) e `ls` (lista arquivos/diretórios)."
+    },
+    {
+        "id": "2274319",
+        "enunciado": "Assinale a alternativa que traduz, de forma correta, um ajuste de permissões em Linux para diretório de projetos com colaboração entre grupos.",
+        "alternativas": {
+            "A": "Definir chmod 777 no diretório e delegar controle por convenção entre usuários durante a edição colaborativa do conteúdo.",
+            "B": "Aplicar permissão de leitura para grupo e escrita para proprietário, mantendo arquivos em diretórios pessoais dos colaboradores no servidor.",
+            "C": "Criar ACL que atribui leitura a visitantes e gravação a convidados mediante convite por e-mail corporativo registrado.",
+            "D": "Mapear o diretório como unidade de rede e transferir o controle para o serviço de e-mail com autenticação por domínio da organização.",
+            "E": "Definir o grupo do diretório para a equipe, ativar setgid, aplicar 775 em diretórios e 664 em arquivos e registrar ACL para casos pontuais."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Esta alternativa descreve uma configuração robusta: grupo para equipe, setgid para manter propriedade de arquivos no diretório de grupo, 775 para diretórios (leitura/escrita/execução para grupo e outros) e 664 para arquivos (leitura/escrita para grupo e leitura para outros), com ACLs para exceções."
+    },
+    {
+        "id": "2052361",
+        "enunciado": "A configuração de um proxy no ambiente Linux envolve a inspeção do conteúdo das variáveis de ambiente. Para verificar se as variáveis de proxy foram definidas para a sessão atual , qual é o comando usado no terminal para que a existência e o conteúdo possa ser listado?",
+        "alternativas": {
+            "A": "ls | grep -i proxy",
+            "B": "env | grep -i proxy",
+            "C": "cat | grep -i proxy",
+            "D": "http_proxy=http://usuário:senha@proxy_host:porta_do_proxy",
+            "E": "https_proxy=http://usuário:senha@proxy_host:porta_do_proxy"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'env | grep -i proxy' lista todas as variáveis de ambiente ('env') e depois filtra ('grep') aquelas que contêm 'proxy' independentemente de serem maiúsculas ou minúsculas ('-i'), mostrando sua configuração."
+    },
+    {
+        "id": "2339360",
+        "enunciado": "Em um sistema Linux, um administrador deseja permitir que o usuário maria tenha, além da permissão de leitura, a permissão de escrita ao arquivo teste.txt, sem alterar o grupo ou dono. Assinale o comando a ser utilizado.",
+        "alternativas": {
+            "A": "setfacl -m u:maria:rw teste.txt",
+            "B": "chown maria teste.txt",
+            "C": "chmod +w maria teste.txt",
+            "D": "chgrp maria teste.txt",
+            "E": "usermod -aG maria teste.txt"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando setfacl -m u:maria:rw teste.txt é usado no Linux para modificar listas de controle de acesso (ACLs), permitindo que o usuário 'maria' tenha permissões de leitura (r) e escrita (w) no arquivo 'teste.txt'."
+    },
+    {
+        "id": "1228402",
+        "enunciado": "Para mostrar os dispositivos USB conectados a uma máquina em sistemas Linux podemos usar o comando:",
+        "alternativas": {
+            "A": "usbstatus.",
+            "B": "usblist.",
+            "C": "lsusb.",
+            "D": "showusb.",
+            "E": "usb."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'lsusb' é a ferramenta padrão em sistemas Linux para listar e exibir informações sobre os dispositivos USB conectados ao sistema, incluindo detalhes sobre os fabricantes e os próprios dispositivos."
+    },
+    {
+        "id": "1135725",
+        "enunciado": "Leia o trecho abaixo.“Mudar o dono ou grupo de um arquivo ou diretório.”Qual comando do Linux deve ser utilizado para desempenhar a função descrita acima?",
+        "alternativas": {
+            "A": "chown.",
+            "B": "cmp.",
+            "C": "ls.",
+            "D": "uncompress."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'chown' (change owner) é utilizado no Linux para alterar o proprietário e/ou o grupo de um arquivo ou diretório."
+    },
+    {
+        "id": "1135746",
+        "enunciado": "Leia o trecho abaixo. “Mudar o dono ou grupo de um arquivo ou diretório.” Qual comando do Linux deve ser utilizado para desempenhar a função descrita acima?",
+        "alternativas": {
+            "A": "chown.",
+            "B": "cmp.",
+            "C": "ls.",
+            "D": "uncompress."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'chown' (change owner) é utilizado no Linux para alterar o proprietário e/ou o grupo de um arquivo ou diretório."
+    },
+    {
+        "id": "1104013",
+        "enunciado": "Um usuário de um computador com sistema operacional Linux precisa usar um comando que permite atualizar os tempos de acesso e modificação de arquivos especificados. Esse comando é conhecido como:",
+        "alternativas": {
+            "A": "cat",
+            "B": "pwd",
+            "C": "move",
+            "D": "touch"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'touch' em sistemas Linux é utilizado para criar um novo arquivo (se ele não existir) ou atualizar os tempos de acesso e modificação de um arquivo existente, sem alterar seu conteúdo."
+    },
+    {
+        "id": "1282904",
+        "enunciado": "Sobre a permissão de arquivos em Sistemas Operacionais Linux, é correto afirmar que:",
+        "alternativas": {
+            "A": "Cada categoria do sistema de permissões possui quatro tipos de permissões: Leitura, Escrita, Gravação e Execução.",
+            "B": "A permissão de Execução permite modificar o conteúdo do arquivo ou criar arquivos dentro do diretório.",
+            "C": "A permissão de Leitura permite ler, executar e listar o conteúdo de um diretório.",
+            "D": "A permissão de Proprietário permite que o dono do conteúdo compartilhe o mesmo com outros usuários.",
+            "E": "O sistema de permissões é baseado em três categorias: Proprietário, Grupo e Outros."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O sistema de permissões em Linux é organizado em três categorias principais: Proprietário (dono do arquivo), Grupo (usuários associados) e Outros (o restante dos usuários)."
+    },
+    {
+        "id": "1155022",
+        "enunciado": "No Linux e em suas distribuições, como o Ubuntu, muitas configurações do sistema podem ser realizadas por meio de comandos na interface de linha de comando. Na versão 16.04 do Ubuntu, qual comando é utilizado para alterar o proprietário de um arquivo ou diretório?",
+        "alternativas": {
+            "A": "chown",
+            "B": "route",
+            "C": "date",
+            "D": "mkdir"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'chown' no Linux é utilizado para alterar o proprietário e o grupo de um arquivo ou diretório. 'route' gerencia tabelas de roteamento; 'date' exibe e altera a data/hora; 'mkdir' cria diretórios."
+    },
+    {
+        "id": "1678887",
+        "enunciado": "Assinale a alternativa que completa de maneira correta o espaço pontilhado entre colchetes no script abaixo, de modo que ele exiba os números inteiros de 1 a 10 ao ser executado em um computador com sistema operacional Ubuntu Linux.",
+        "alternativas": {
+            "A": "$valor <= 10",
+            "B": "$valor -le 10",
+            "C": "$valor -gt 10",
+            "D": "$valor < 10"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para exibir números inteiros de 1 a 10, o loop deve continuar enquanto o valor for menor ou igual a 10. A condição '$valor -le 10' (valor less or equal than 10) garante que o loop será executado para os valores de 1 a 10."
+    },
+    {
+        "id": "1150256",
+        "enunciado": "O Linux é um sistema operacional de código aberto desenvolvido inicialmente por Linus Torvalds em 1991. É conhecido por sua estabilidade, segurança e flexibilidade e a configuração e administração do Linux exigem conhecimentos específicos para garantir um ambiente estável e seguro. Analise as seguintes afirmativas sobre comandos, arquivos e diretórios Linux:\nI. O comando \"chmod 777\" concede permissões de leitura, escrita e execução para todos os usuários no arquivo.\nII. O arquivo \"/etc/passwd\" armazena senhas de usuários em modo texto, sendo acessível apenas pelo superusuário.\nIII. O diretório \"/bin\" contém arquivos protegidos essenciais para sistema como o command e o kernel, sendo apropriado para armazenar scripts de usuário.\nIV. O comando \"grep\" é utilizado para buscar padrões em arquivos de texto, permitindo a localização eficiente de informações.\nAssinale a alternativa correta:",
+        "alternativas": {
+            "A": "Apenas as afirmativas II e IV são verdadeiras.",
+            "B": "Apenas a afirmativa III é verdadeira.",
+            "C": "Apenas as afirmativas I e IV são verdadeiras.",
+            "D": "Apenas a afirmativa IV é verdadeira.",
+            "E": "As afirmativas I, II, III e IV são verdadeiras."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "I está correta. II está incorreta, pois as senhas não são mais armazenadas em texto no /etc/passwd no Linux moderno. III está incorreta, pois /bin contém comandos executáveis, não arquivos protegidos essenciais como o kernel. IV está correta."
+    },
+    {
+        "id": "1678888",
+        "enunciado": "O comando de shell script utilizado para reportar a quantidade de espaço livre em uma partição do disco é chamado:",
+        "alternativas": {
+            "A": "ls",
+            "B": "df",
+            "C": "list",
+            "D": "slice"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'df' (disk free) no Linux é utilizado para exibir o espaço livre em disco e o uso de partições. As outras opções não correspondem a comandos com essa finalidade."
+    },
+    {
+        "id": "1345326",
+        "enunciado": "As alternativas abaixo apresentam comandos de terminal de um sistema Linux. A alternativa que apresenta CORRETAMENTE o comando Linux e sua função é:",
+        "alternativas": {
+            "A": "sudo - utilizado para conceder temporariamente privilégios de administrador a um usuário.",
+            "B": "ls - permite a criação de uma nova pasta.",
+            "C": "chmod - pesquisa padrões em arquivos de texto.",
+            "D": "chown - altera as permissões de acesso de arquivos ou diretórios.",
+            "E": "cat - exibe informações sobre processos em execução."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve corretamente a função do comando 'sudo'. 'ls' lista arquivos, 'chmod' muda permissões, 'chown' muda o dono e 'cat' concatena e exibe arquivos. As outras alternativas atribuem funções incorretas aos comandos."
+    },
+    {
+        "id": "1615378",
+        "enunciado": "Assinale a alternativa CORRETA, que corresponde ao comando utilizado no sistema operacional Linux, responsável por modificar as permissões de leitura, gravação e execução de um arquivo ou diretório.",
+        "alternativas": {
+            "A": "ping.",
+            "B": "chmod.",
+            "C": "wget.",
+            "D": "jobs."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'chmod' no Linux e utilizado para modificar as permissoes de acesso a arquivos e diretorios. 'ping' verifica a conectividade, 'wget' baixa arquivos da web e 'jobs' lista processos em background."
+    },
+    {
+        "id": "1205243",
+        "enunciado": "Assinale o comando em Linux que deverá ser utilizado quando for necessário alterar as permissões de um arquivo.",
+        "alternativas": {
+            "A": "ls",
+            "B": "md",
+            "C": "chmod",
+            "D": "sudo"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'chmod' em Linux é utilizado especificamente para alterar as permissões de arquivos e diretórios. 'ls' lista arquivos, 'md' não é um comando padrão para alteração de permissões e 'sudo' executa comandos com privilégios de superusuário."
+    },
+    {
+        "id": "1163135",
+        "enunciado": "Ao trabalhar no terminal do Linux, você precisa listar todos os arquivos de um diretório, incluindo os arquivos ocultos. Qual comando a seguir permite fazer isso?",
+        "alternativas": {
+            "A": "ls -h",
+            "B": "ls -r",
+            "C": "ls -t",
+            "D": "ls -l",
+            "E": "ls -a"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O comando 'ls -a' no Linux lista todos os arquivos e diretórios de uma pasta, incluindo aqueles que começam com um ponto ('.'), que são considerados arquivos ocultos."
+    },
+    {
+        "id": "1169767",
+        "enunciado": "Qual comando do Linux é responsável por remover um diretório/arquivo?",
+        "alternativas": {
+            "A": "mkdir.",
+            "B": "cat.",
+            "C": "rm.",
+            "D": "mesg."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'rm' no Linux é utilizado para remover (remover) arquivos e diretórios. 'mkdir' cria, 'cat' exibe e 'mesg' controla mensagens."
+    },
+    {
+        "id": "1228423",
+        "enunciado": "O comando Linux para ajustar os tamanhos dos sistemas de arquivos ext3 e ext4 é o:",
+        "alternativas": {
+            "A": "resize.",
+            "B": "resizefs.",
+            "C": "resize2fs.",
+            "D": "resizext.",
+            "E": "resize2ext."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'resize2fs' é especificamente utilizado para redimensionar sistemas de arquivos ext2, ext3 e ext4 no Linux, permitindo ajustar seus tamanhos de forma dinâmica."
+    },
+    {
+        "id": "1615389",
+        "enunciado": "Leia o trecho e responda. \"O comando ______ é usado para visualizar conteúdos em um diretório. Por padrão, esse comando vai mostrar os conteúdos apenas do diretório atual em que você estiver.\" Das alternativas apresentadas abaixo, qual preenche a lacuna acima corretamente?",
+        "alternativas": {
+            "A": "cd.",
+            "B": "cat.",
+            "C": "ls.",
+            "D": "pwd."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando `ls` é utilizado em sistemas Unix-like (incluindo Linux) para listar o conteúdo de um diretório. Ao ser executado sem argumentos, ele exibe os arquivos e subdiretórios do diretório corrente onde o usuário se encontra."
+    },
+    {
+        "id": "1533120",
+        "enunciado": "No sistema operacional Linux, o comando que permite ao usuário trocar para outro diretório no terminal é:",
+        "alternativas": {
+            "A": "mkdir",
+            "B": "mv",
+            "C": "cd",
+            "D": "rm",
+            "E": "chmod"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'cd' (change directory) no Linux é utilizado para navegar entre diretórios no terminal, permitindo ao usuário mudar para outro local no sistema de arquivos."
+    },
+    {
+        "id": "1228424",
+        "enunciado": "O nível mais alto de abstração do Logical Volume Manager (LVM) do Linux é o:",
+        "alternativas": {
+            "A": "Physical Volume (PV).",
+            "B": "Volume Group (VG).",
+            "C": "Logical Volume (LV).",
+            "D": "Physical Extent (PE).",
+            "E": "Logical Extent (LE)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No LVM, o Volume Gr oup (VG) é o nível mais alto de abstração, agregando um ou mais Physical Volumes (PVs). Os Logical Volumes (LVs) são criados a partir dos VGs, oferecendo flexibilidade no gerenciamento de partições."
+    },
+    {
+        "id": "1180747",
+        "enunciado": "Assinale a alternativa que apresenta o comando no Linux usado para exibir uma visão dinâmica em tempo real dos processos em execução no sistema:",
+        "alternativas": {
+            "A": "ls",
+            "B": "top",
+            "C": "ps",
+            "D": "cat",
+            "E": "df"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'top' no Linux é uma ferramenta de monitoramento que exibe em tempo real uma lista de processos em execução, o uso de CPU, memória e outras informações importantes do sistema. 'ls' lista arquivos; 'ps' exibe uma lista estática de processos; 'cat' exibe o conteúdo de arquivos; e 'df' mostra o uso de espaço em disco."
+    },
+    {
+        "id": "1228425",
+        "enunciado": "OpenSSH é o nome de uma ferramenta do Linux para acesso remoto. O arquivo usado para definir as configurações globais do servidor SSH é:",
+        "alternativas": {
+            "A": "/etc/ssh/ssh_config.",
+            "B": "/etc/ssh/ssh_host_rsa_key.",
+            "C": "/etc/ssh/ssh_host_rsa_key.pub.",
+            "D": "/etc/ssh/sshd_config.",
+            "E": "/etc/ssh/ssh_host_dsa_key."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As configurações globais do servidor OpenSSH são definidas no arquivo sshd_config. Os arquivos com chaves (ssh_host_rsa_key, ssh_host_rsa_key.pub, etc.) são específicos para a autenticação do servidor."
+    },
+    {
+        "id": "1554756",
+        "enunciado": "O Linux, um sistema operacional reconhecido por sua flexibilidade e segurança, possui diversas características fundamentais. Assinale a alternativa correta no contexto das noções básicas de Linux.",
+        "alternativas": {
+            "A": "No Linux, todos os comandos devem ser digitados em letras maiúsculas, pois o sistema é case-insensitive.",
+            "B": "O comando ls no Linux é utilizado para listar os processos em execução no sistema.",
+            "C": "O comando cd /home é usado para mudar o diretório atual para o diretório “home”.",
+            "D": "O Linux não permite a criação de usuários com diferentes níveis de permissão, sendo todos os usuários considerados como administradores.",
+            "E": "No Linux, o diretório raiz (root) é representado pelo símbolo ~."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'cd /home' muda o diretório atual para o diretório 'home'. O Linux é case-sensitive, o 'ls' lista arquivos e diretórios, e a criação de usuários com permissões é possível. O diretório raiz é ' / ', e '~' representa o diretório home do usuário."
+    },
+    {
+        "id": "1081653",
+        "enunciado": "Suponha que você queira listar todos os arquivos e diretórios dentro de um diretório específico, incluindo informações detalhadas, como permissões, proprietário e tamanho. Em um ambiente Linux, o comando CORRETO seria",
+        "alternativas": {
+            "A": "dir",
+            "B": "ls -l",
+            "C": "list -a",
+            "D": "list -d"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'ls -l' no Linux lista o conteúdo de um diretório com detalhes, incluindo permissões, número de links, proprietário, grupo, tamanho, data de modificação e nome do arquivo/diretório. 'dir' é mais comum no DOS/Windows, e 'list' não é um comando padrão para essa função."
+    },
+    {
+        "id": "1411776",
+        "enunciado": "O terminal do Linux é uma interface de linha de comando que permite aos usuários interagir diretamente com o sistema operacional. Usuários podem realizar uma ampla gama de atividades, como navegação entre diretórios, manipulação de arquivos, instalação de software e configuração do sistema. No sistema Ubuntu, a função principal do comando “sudo”, utilizado frequentemente no terminal, é",
+        "alternativas": {
+            "A": "encerrar processos em execução.",
+            "B": "executar comandos como um usuário diferente.",
+            "C": "instalar um novo aplicativo a partir do repositório.",
+            "D": "alternar para o diretório raiz do sistema de arquivos.",
+            "E": "executar comandos com privilégios de superusuário."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O comando 'sudo' (Superuser Do) no Linux é utilizado para executar comandos com privilégios de superusuário (root), permitindo a realização de ações administrativas que normalmente seriam restritas a esse usuário."
+    },
+    {
+        "id": "1571996",
+        "enunciado": "Ao instalar um sistema operacional Linux, qual das seguintes partições é essencial para o boot do sistema?",
+        "alternativas": {
+            "A": "/home",
+            "B": "/boot",
+            "C": "/tmp",
+            "D": "/usr"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A partição /boot é essencial, pois contém os arquivos necessários para que o bootloader (como o GRUB) possa carregar o kernel do Linux e iniciar o sistema operacional. Sem ela, o sistema não consegue inicializar."
+    },
+    {
+        "id": "1554757",
+        "enunciado": "No ambiente Linux, o gerenciamento de permissões de arquivos e diretórios é essencial para garantir a segurança do sistema. Assinale a alternativa que descreve corretamente o funcionamento das permissões no Linux.",
+        "alternativas": {
+            "A": "No Linux, as permissões são atribuídas apenas ao proprietário do arquivo e não podem ser modificadas para outros usuários.",
+            "B": "O comando chmod é utilizado para alterar o proprietário de um arquivo ou diretório no Linux.",
+            "C": "No Linux, um arquivo com a permissão  rwxr-xr-x significa que apenas o proprietário pode executar o arquivo, enquanto outros usuários podem lê-lo e escrevê-lo.",
+            "D": "O comando chown é utilizado para alterar as permissões de leitura, escrita e execução de um arquivo ou diretório no Linux.",
+            "E": "As permissões de leitura, escrita e execução em um arquivo podem ser atribuídas separadamente ao proprietário, ao grupo e a outros usuários."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E está correta pois descreve que as permissões de leitura (r), escrita (w) e execução (x) podem ser definidas individualmente para o proprietário, grupo e outros. As outras alternativas erram ao afirmar que permissões são fixas, que chmod muda proprietário ou interpretam incorretamente os símbolos de permissão."
+    },
+    {
+        "id": "1081654",
+        "enunciado": "Nos sistemas Linux, existem 3 “standard streams” que são representados pelos “file descriptors” (fd) 0, 1 e 2. usuario@ubuntu:~$ base64 prova.txt > arquivo.hash 2>&1 Baseado no conhecimento do uso desses “file descriptors”, é correto afirmar que o comando acima",
+        "alternativas": {
+            "A": "gera um “hash” do arquivo “prova.txt”, localizado na pasta home do usuário, e mostra o “hash” na tela. Caso ocorra algum erro no comando base64, o erro será enviado para dentro do arquivo “arquivo.hash.”",
+            "B": "gera um “hash” dos arquivos “prova.txt” e “arquivo.hash”, localizados na pasta home do usuário, e mostra os “hash” na tela. Caso ocorra algum erro no comando base64, o erro também será mostrado na tela.",
+            "C": "gera um “hash” do arquivo “prova.txt”, localizado na pasta home do usuário, e salva esse “hash” adicionando -o no final do arquivo denominado “arquivo.hash.” Caso ocorra algum erro no comando base64, o erro será mostrado na tela.",
+            "D": "gera um “hash” do arquivo “prova.txt”, localizado na pasta home do usuário, e salva esse “hash” dentro de um arquivo denominado “arquivo.hash.” Caso ocorra algum erro no comando base64, o erro será enviado para dentro do arquivo “arquivo.hash.”"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando `2>&1` redireciona o erro padrão (fd 2) para onde o output padrão (fd 1) está indo. Como o output está sendo salvo em `arquivo.hash`, o erro também será salvo lá."
+    },
+    {
+        "id": "1433414",
+        "enunciado": "Carlos está se preparando para um concurso público e está revisando os passos necessários para instalar uma distribuição Linux em seu computador. Durante seus estudos, ele aprendeu sobre os diferentes sistemas de arquivos que podem ser utilizados durante a formatação das partições. Carlos precisa escolher o sistema de arquivos adequado para a partição raiz (/) ao instalar uma distribuição Linux. Assinale abaixo a alternativa que descreve corretamente o sistema de arquivos que Carlos deve escolher.",
+        "alternativas": {
+            "A": "FAT32",
+            "B": "ext4",
+            "C": "HFS+",
+            "D": "NTFS"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O ext4 é o sistema de arquivos padrão e mais recomendado para a partição raiz (/) em distribuições Linux modernas, oferecendo bom desempenho, robustez e compatibilidade com os recursos do sistema."
+    },
+    {
+        "id": "1445169",
+        "enunciado": "Sobre o seguinte comando Linux, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Instala o pacote flex, exigindo a inserção da senha do administrador do sistema.",
+            "B": "Instala o pacote flex, não exigindo a inserção da senha do administrador do sistema.",
+            "C": "Remove o pacote flex, como administrador do sistema.",
+            "D": "Remove o pacote flex, instalado anteriormente em uma distribuição APT."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'sudo apt install flex' requer privilégios de superusuário (sudo) para instalar pacotes em sistemas baseados em APT, o que geralmente exige a senha do administrador."
+    },
+    {
+        "id": "1081655",
+        "enunciado": "Existem diversos tipos de sistema de arquivos que podem ser utilizadas no sistema operacional Linux. Alguns sistemas de arquivos têm o recurso denominado “Journaling”, através do qual todas as mudanças no sistema de arquivo são armazenadas em um “journal”. Esse recurso permite que tais mudanças possam ser desfeitas caso aconteça algum problema. O sistema de arquivo que possui o recurso de “Journaling” é",
+        "alternativas": {
+            "A": "Ext2",
+            "B": "Ext3",
+            "C": "Fat32",
+            "D": "Swap"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O sistema de arquivos Ext3 é uma evolução do Ext2 e introduz o recurso de journaling, que registra as operações antes de serem efetivamente aplicadas, garantindo a integridade do sistema de arquivos em caso de falhas. Ext2 não possui journaling, Fat32 usa um sistema diferente e Swap é uma área de paginação."
+    },
+    {
+        "id": "1231950",
+        "enunciado": "No Sistema Operacional Linux, um comando é um programa ou utilitário que roda na linha de comando. Uma linha de comando é uma interface que aceita linhas de texto e as processa em instruções para o computador. Considere o comando que produz o caminho absoluto do diretório em que o usuário está. Por exemplo, se o nome de usuário é “john” e ele está em seu diretório de Documentos, seu caminho absoluto seria “/home/john/Documents”. Assinale a alternativa que apresenta o comando descrito.",
+        "alternativas": {
+            "A": "Cd.",
+            "B": "Rm.",
+            "C": "Mkdir.",
+            "D": "Pwd.",
+            "E": "Man."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'pwd' (print working directory) no Linux exibe o caminho absoluto do diretório atual em que o usuário se encontra."
+    },
+    {
+        "id": "1621390",
+        "enunciado": "O Linux é uma família de sistemas operacionais Unix de código aberto, baseados no kernel Linux. Se você quiser verificar quanto de espaço um arquivo ou diretório ocupa, deve usar o comando:",
+        "alternativas": {
+            "A": "man.",
+            "B": "sp.",
+            "C": "du.",
+            "D": "tar.",
+            "E": "apt."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'du' (disk usage) no Linux e utilizado para exibir o espaco ocupado por arquivos e diretorios, permitindo verificar o consumo de disco."
+    },
+    {
+        "id": "1143591",
+        "enunciado": "Um administrador de sistemas está usando um servidor com o sistema operacional Linux e precisa ajustar as permissões de um script chamado backup.sh para garantir a segurança e a funcionalidade adequadas. O administrador é o dono do arquivo e precisa ter todas as permissões, mas todos os outros usuários só podem ler ou executar o arquivo. Nesse contexto, o seguinte comando é adequado para ajustar as permissões desse script:",
+        "alternativas": {
+            "A": "chmod 644 backup.sh",
+            "B": "chmod 755 backup.sh",
+            "C": "chmod 777 backup.sh",
+            "D": "chmod 600 backup.sh",
+            "E": "chmod 744 backup.sh"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando `chmod 755 backup.sh` define permissões de leitura, escrita e execução para o dono (7) e leitura e execução para o grupo e outros (5), garantindo segurança e funcionalidade."
+    },
+    {
+        "id": "1229035",
+        "enunciado": "Em um sistema operacional Linux, o comando CRON executa tarefas agendadas no arquivo /etc/crontab. Quanto ao agendamento de tarefa programado a seguir: 0  7  *  *  1   root service samba start   , assinale a alternativa que apresenta o resultado correto :",
+        "alternativas": {
+            "A": "O serviço samba será inicializado somente às 7h de cada mês.",
+            "B": "O serviço samba será inicializado somente no dia 7 de cada mês.",
+            "C": "O serviço samba será inicializado somente às 7h de toda segunda-feira.",
+            "D": "O serviço samba será inicializado somente no dia 7 de toda segunda-feira.",
+            "E": "O serviço samba será inicializado somente às 7h de todo domingo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O agendamento '0 7 * * 1' significa: minuto 0, hora 7, qualquer dia do mês, qualquer mês, e o dia da semana '1' (segunda-feira). Portanto, inicia às 7h de toda segunda-feira."
+    },
+    {
+        "id": "1295140",
+        "enunciado": "Assinale a alternativa que apresenta o recurso em Linux que deve ser utilizado para executar um comando em modo superusuário.",
+        "alternativas": {
+            "A": "sudo",
+            "B": "mk",
+            "C": "cd",
+            "D": "pwd"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'sudo' (superuser do) em sistemas Linux permite que um usuário execute um comando com privilégios de superusuário (root) ou de outro usuário configurado, sendo indispensável para tarefas administrativas."
+    },
+    {
+        "id": "1615399",
+        "enunciado": "Tarefas críticas, que podem afetar a configuração ou o desempenho do sistema, exigem permissões administrativas, ou permissões de root. Em sistemas Linux, há um comando específico que permite aos usuários autorizados executarem essas tarefas temporariamente, com privilégios elevados, sem a necessidade de trocar de usuário. Como é chamado o comando do Linux responsável por permitir a execução de tarefas que exigem permissões administrativas ou de root?",
+        "alternativas": {
+            "A": "tar.",
+            "B": "grep.",
+            "C": "head.",
+            "D": "sudo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'sudo' (superuser do) permite que usuários autorizados executem programas com privilégios de segurança de outro usuário, geralmente o superusuário (root), de forma temporária e controlada, sem precisar fazer login como esse usuário."
+    },
+    {
+        "id": "1513611",
+        "enunciado": "Em um cenário de execução de comandos via console do Linux, ao digitar puramente o comando com seus possíveis argumentos só será executado se o endereço da pasta onde estiver localizado o comando estiver dentro da variável de ambiente PATH, ou se for um comando interno do shell como o cd. Partindo dessa informação, como adicionar mais uma pasta a ser pesquisada pelo shell denominada /meusProgramas à variável PATH, sem apagar ou sobrescrever o conteúdo dessa variável, sendo que os programas existentes nessa pasta (/meusProgramas) possam ser executados não importando qual a localização (pwd) do usuário no sistema?",
+        "alternativas": {
+            "A": "PATH=$PATH:/meusProgramas.",
+            "B": "PATH=@PATH:/meusProgramas.",
+            "C": "PATH=/meusProgramas.",
+            "D": "PATH=+PATH:/meusProgramas.",
+            "E": "PATH=&PATH:/meusProgramas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para adicionar uma pasta à variável PATH sem apagar seu conteúdo, utiliza-se a atribuição do valor atual concatenado com o novo caminho, separando-os por ':'. Ex: PATH=$PATH:/novo/caminho."
+    },
+    {
+        "id": "1292618",
+        "enunciado": "O Sistema Operacional Linux é amplamente utilizado em servidores, dispositivos embarcados e até mesmo em desktops. Sobre as configurações básicas do Sistema Operacional Linux, analise as afirmativas a seguir.I. No Linux, é possível criar, modificar e excluir usuários do sistema, bem como atribuir permissões de acesso a arquivos e diretórios para cada usuário.II. O Linux permite configurar interfaces de rede, atribuir endereços IP, definir rotas de rede e configurar o acesso à internet, garantindo a conectividade do sistema em redes locais e externas.III. O Linux possui gerenciadores de pacotes que facilitam a instalação, a atualização e a remoção de software no sistema, permitindo adicionar novas funcionalidades conforme necessário. Estão corretas as afirmativas",
+        "alternativas": {
+            "A": "I e II, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II e III."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Todas as afirmativas descrevem corretamente funcionalidades essenciais do Sistema Operacional Linux. A gestão de usuários e permissões (I), a configuração de redes (II) e o uso de gerenciadores de pacotes (III) são pilares do Linux."
+    },
+    {
+        "id": "1410293",
+        "enunciado": "Assinale a alternativa que corresponde a um comando de prompt utilizado em sistemas operacionais Linux para visualizar os endereços IP que estão ativos no computador.",
+        "alternativas": {
+            "A": "ls",
+            "B": "pwd",
+            "C": "chmod",
+            "D": "ifconfig",
+            "E": "cd"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'ifconfig' (ou seu sucessor 'ip addr' em versões mais recentes) é a ferramenta padrão em sistemas Linux para configurar e exibir informações de rede, incluindo endereços IP ativos e interfaces de rede."
+    },
+    {
+        "id": "1090828",
+        "enunciado": "Como é possível listar todos os arquivos de um diretório no Linux utilizando o terminal?",
+        "alternativas": {
+            "A": "Através do comando ‘dir’.",
+            "B": "Através do comando ‘show files’.",
+            "C": "Através do comando ‘list’.",
+            "D": "Através do comando ‘ls’."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "No ambiente Linux, o comando padrão e mais comum para listar o conteúdo de um diretório é 'ls' (list). Os comandos 'dir', 'show files' e 'list' não são nativos ou padrão para essa função no terminal Linux."
+    },
+    {
+        "id": "1270036",
+        "enunciado": "Em um microcomputador com “distro” Linux, um técnico em informática precisa utilizar alguns comandos em uma manutenção de rotina. Entre os comandos disponíveis, dois são listados a seguir. I. É um comando de controle de processo, que lista aqueles que mais CPU usam, útil para verificar os que estão provocando um uso excessivo de memória, além de verificar o percentual de CPU que cada um usa em dado momento. II. É um comando de rede que permite visualizar parâmetros relacionados aos endereços IP do computador. Os comandos caracterizados em I e II são, respectivamente:",
+        "alternativas": {
+            "A": "top e ifconfig",
+            "B": "kill e ifconfig",
+            "C": "top e netstat",
+            "D": "kill e netstat"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'top' lista processos em tempo real, mostrando uso de CPU e memoria. O comando 'ifconfig' exibe e configura interfaces de rede e seus IPs."
+    },
+    {
+        "id": "1533139",
+        "enunciado": "Qual das seguintes distribuições Linux é amplamente reconhecida por sua estabilidade e é frequentemente utilizada em servidores e ambientes corporativos?",
+        "alternativas": {
+            "A": "Debian",
+            "B": "Manjaro",
+            "C": "Pop!_OS",
+            "D": "Zorin OS",
+            "E": "Elementary OS"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Debian é amplamente reconhecido por sua estabilidade, confiabilidade e ciclos de lançamento bem definidos, sendo historicamente uma escolha popular para servidores e infraestruturas corporativas que exigem robustez."
+    },
+    {
+        "id": "1068424",
+        "enunciado": "Ao utilizar o sistema operacional Linux, qual dos comandos a seguir pode ser utilizado para mostrar o conteúdo de um arquivo:",
+        "alternativas": {
+            "A": "dir",
+            "B": "flop",
+            "C": "chmod",
+            "D": "full",
+            "E": "cat"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "No Linux, o comando 'cat' (concatenate) é usado para exibir o conteúdo de um arquivo diretamente no terminal. 'dir' é comum no Windows. 'chmod' altera permissões, 'flop' e 'full' não são comandos padrão para esta finalidade."
+    },
+    {
+        "id": "1068425",
+        "enunciado": "No sistema operacional Linux, ao utilizar o comando “grep” em um arquivo texto, é possível:",
+        "alternativas": {
+            "A": "Compactar o arquivo.",
+            "B": "Procurar por um texto dentro do arquivo.",
+            "C": "Mostrar o tamanho do arquivo.",
+            "D": "Mostrar a data e a hora atual.",
+            "E": "Mostrar as versões existentes do arquivo."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'grep' no Linux filtra linhas em um arquivo que correspondem a um padrão especificado, sendo ideal para procurar por texto dentro do arquivo."
+    },
+    {
+        "id": "1229040",
+        "enunciado": "Em uma distribuição Linux do tipo Debian, podemos instalar e remover softwares, através do comando apt-get install pacote 1  ou apt-get remove pacote 1 . Assinale a alternativa que contém a localização do arquivo de con昀椀guração que informa ao apt-get  sobre onde obter seus pacotes:",
+        "alternativas": {
+            "A": "/etc/apt/preferences",
+            "B": "/etc/apt/sources.list",
+            "C": "/etc/apt/preferences.d",
+            "D": "/etc/apt/apt.conf.d",
+            "E": "/etc/apt/upgrade"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O arquivo '/etc/apt/sources.list' em distribuições Debian (como Ubuntu) é o responsável por listar os repositórios de onde o sistema busca pacotes para instalação ou atualização via 'apt-get'."
+    },
+    {
+        "id": "1154545",
+        "enunciado": "Em um sistema operacional Linux, qual é a função do comando sudo?",
+        "alternativas": {
+            "A": "Mostrar informações detalhadas sobre o sistema operacional instalado.",
+            "B": "Desligar o computador.",
+            "C": "Exibir uma lista de processos que estão em execução.",
+            "D": "Permitir que usuários administradores possam executar comandos como root.",
+            "E": "Modificar as permissões de leitura, gravação e execução de um arquivo ou diretório."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'sudo' (super user do) em sistemas Linux permite que um usuário execute comandos com privilégios de superusuário (root), o que é fundamental para tarefas administrativas, mas com as devidas permissões. As outras alternativas descrevem comandos diferentes ou funcionalidades não relacionadas diretamente ao sudo."
+    },
+    {
+        "id": "1229043",
+        "enunciado": "Para eliminar um processo através do shell do sistema operacional Linux, foi preciso listá-lo para veri昀椀cação através do comando ps. Após selecionar o pid  do processo, qual comando abaixo se torna mais adequado para “eliminar” o processo?",
+        "alternativas": {
+            "A": "Kill pid -p",
+            "B": "Kill 19",
+            "C": "halt -9 pid",
+            "D": "halt pid",
+            "E": "Kill -9 pid"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O comando 'kill -9 pid' é o mais adequado para eliminar um processo no Linux, pois '-9' (SIGKILL) é um sinal que força o término imediato do processo, sem dar chance de gravação ou encerramento gracioso."
+    },
+    {
+        "id": "2115391",
+        "enunciado": "Qual comando no Linux é usado para visualizar o espaço disponível e utilizado em discos e partições?",
+        "alternativas": {
+            "A": "df -h",
+            "B": "du -sh",
+            "C": "free",
+            "D": "memchk",
+            "E": "diskfree"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'df' (disk free) no Linux é utilizado para reportar o espaço livre em disco. A opção '-h' (human-readable) faz com que a saída seja exibida em formatos mais fáceis de ler (como GB, MB)."
+    },
+    {
+        "id": "1513628",
+        "enunciado": "No Linux podemos ter vários usuários e que os usuários podem pertencer a diversos grupos. O sistema operacional não se esquece disso, nem na hora de criar arquivos, e essa informação é usada para fins de proteção e segurança. Assim, mesmo em um ambiente multiusuário, é possível manter controle e privacidade sobre seus dados. As permissões do Linux definem o que o criador, grupo e os demais usuários podem fazer com cada arquivo. Somente o criador ou administrador podem mexer nas permissões de um arquivo. Isso é feito de modo bastante eficiente através de qual comando listado a seguir?",
+        "alternativas": {
+            "A": "chmod",
+            "B": "useradd billg",
+            "C": "mount",
+            "D": "umask",
+            "E": "touch"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'chmod' é utilizado no Linux para alterar as permissões de acesso aos arquivos, permitindo que o proprietário, grupo e outros usuários definam o que pode ser feito."
+    },
+    {
+        "id": "1678779",
+        "enunciado": "No Microsoft Windows 10, é possível, no PowerShell, utilizar uma ferramenta de linha de comando para configurar ajustes na rede. Essa ferramenta é a:",
+        "alternativas": {
+            "A": "NetConf.exe",
+            "B": "NetConfigHost.exe",
+            "C": "Netsh.exe",
+            "D": "SSH.exe",
+            "E": "SFTP.exe"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Netsh.exe é uma ferramenta de linha de comando do Windows que permite configurar e exibir a configuracao de interfaces de rede e alterar nomes do computador, enderecos IP, conexoes de rede e outras configuracoes de rede."
+    },
+    {
+        "id": "1678579",
+        "enunciado": "O comando clássico utilizado no Linux para visualizar e modificar as configurações de rede do sistema, como endereço IP, máscara de sub-rede e outros parâmetros, é o:",
+        "alternativas": {
+            "A": "Traceconfig.",
+            "B": "Sudoconfig.",
+            "C": "Telnetconfig.",
+            "D": "Ifconfig.",
+            "E": "Netconfig."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando Ifconfig (Interface Configuration) é amplamente utilizado em sistemas Linux e Unix para configurar, controlar e consultar interfaces de rede. As demais alternativas não correspondem a comandos conhecidos para essa finalidade."
+    },
+    {
+        "id": "1678794",
+        "enunciado": "Entre os comandos disponíveis para a administração do sistema operacional Linux Debian via terminal, existe um que exibe os processos sendo executados atualmente no computador. Este comando é o:",
+        "alternativas": {
+            "A": "top",
+            "B": "apt",
+            "C": "listprocess",
+            "D": "echo",
+            "E": "man"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'top' no Linux exibe informacoes em tempo real sobre os processos em execucao no sistema, como uso de CPU e memoria. Os demais comandos listed nao tem essa funcao especifica."
+    },
+    {
+        "id": "1625803",
+        "enunciado": "No ambiente Linux, módulos são partes do kernel que são carregadas somente quando são solicitadas por algum aplicativo ou dispositivo e descarregadas da memória quando não são mais usadas. Assinale a alternativa que se refere ao comando que permite carregar diversos módulos e dependências de uma só vez:",
+        "alternativas": {
+            "A": "depmod.",
+            "B": "kmod.",
+            "C": "ismod.",
+            "D": "modprobe.",
+            "E": "modconf."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'modprobe' no Linux é utilizado para carregar módulos do kernel e suas dependências de forma automática, simplificando o gerenciamento."
+    },
+    {
+        "id": "1875779",
+        "enunciado": "Um usuário de S.O Linux precisa realizar uma busca em um arquivo chamado “concursoUFV2023.txt” para saber quantas ocorrências da palavra “UFV” existem no arquivo. Assinale a afirmativa que apresenta CORRETAMENTE a linha de comando que irá retornar o número de ocorrências da palavra “UFV” encontradas no arquivo:",
+        "alternativas": {
+            "A": "grep -c UFV concursoUFV2023.txt",
+            "B": "grep -i “UFV” ConcursoUFV2023.txt",
+            "C": "grep -all UFV concursoUFV2023.txt",
+            "D": "grep -search “UFV” concursoUFV2023.txt"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'grep -c UFV concursoUFV2023.txt' utiliza a opção '-c' para contar as ocorrências da palavra 'UFV' no arquivo especificado."
+    },
+    {
+        "id": "1140035",
+        "enunciado": "Veja as afirmativas a baixoI – GrubII – Eth0III – CdmIV – PromptResponda a alternativa que tiver uma relação correta com as afirmativas apresentadas acima:",
+        "alternativas": {
+            "A": "é um gerenciador de boot nas distribuições Linux, II representa um sistema de arquivos nas distribuições Linux, III é um comando para limpar tela de um terminal e IV se refere a uma linha de comando no terminal do MS-Dos.",
+            "B": "é um gerenciador de boot nas distribuições Linux, II representa uma interface de rede nas distribuições Linux, III é um executável no Windows XP e superiores que inicia um terminal e IV se refere a uma linha de comando no terminal MS-Dos.",
+            "C": "é um tipo de sistema de arquivo das distribuições Linux, II é uma interface de rede nas distribuições Linux, III é comando para criar diretórios nas distribuições Linux e IV se refere a uma linha de comando no terminal do MS-Dos.",
+            "D": "é um tipo de interface gráfica nas distribuições Linux, II é um diretório nas distribuições Linux, III é um executável no Windows XP e superiores que inicia um terminal e IV se refere a uma linha de comando no terminal do MS-Dos.",
+            "E": "é um gerenciador de boot nas distribuições Linux, II é um comando para se iniciar o serviço de rede nas distribuições Linux, III é um comando para listar os comandos de um terminal e IV se refere a uma linha de comando no terminal do MS-Dos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "GRUB é um gerenciador de boot. Eth0 é uma interface de rede. O executor do terminal no Windows é o cmd.exe. Os itens romanos I, II, III e IV referem-se a contextos distintos, sendo a alternativa B a que melhor os descreve."
+    },
+    {
+        "id": "1055569",
+        "enunciado": "Shell em um sistema operacional Linux é:",
+        "alternativas": {
+            "A": "Uma interface gráﬁca do usuário (GUI) usada para gerenciar programas e arquivos.",
+            "B": "Uma interface de linha de comando (CLI) que permite a interação com o sistema operacional.",
+            "C": "Um mecanismo de backup automático que protege os dados do sistema.",
+            "D": "Um programa de edição de imagens e gráﬁcos.",
+            "E": "Um sistema de virtualização para executar aplicativos Windows em sistemas Linux."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No Linux, o 'shell' é um interpretador de comandos. Ele atua como a interface entre o usuário e o kernel do sistema operacional, permitindo a execução de comandos, scripts e a interação com o sistema através de texto."
+    },
+    {
+        "id": "1140039",
+        "enunciado": "Nas distribuições Linux é comum a terminologia root. Analise as alternativas e assinale a que corresponde a sua representação.",
+        "alternativas": {
+            "A": "Um diretório de segurança",
+            "B": "Gerenciamento operacional",
+            "C": "Super usuário, administrador do sistema",
+            "D": "Gerenciador de arquivos EXT",
+            "E": "Protocolo de comunicação entre redes seguras"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Em distribuições Linux, 'root' refere-se ao superusuário, que possui todos os privilégios e controle sobre o sistema operacional. As outras opções descrevem conceitos diferentes de gerenciamento ou componentes de sistema."
+    },
+    {
+        "id": "1164898",
+        "enunciado": "O sistema Linux possui uma estrutura básica de diretórios. Assinale a alternativa que se refere aos diretórios descritos abaixo: I. Contém arquivos, programas do sistema que são usados com frequência pelos usuários; II. Arquivos de configuração de seu computador local.",
+        "alternativas": {
+            "A": "I. /bin; II. /dev.",
+            "B": "I. /boot; II. /etc.",
+            "C": "I. /bin; II. /cdrom.",
+            "D": "I. /boot; II. /dev.",
+            "E": "I. /bin; II. /etc."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "No Linux, o diretório /bin contém executáveis essenciais para o sistema e usuários, enquanto o /etc armazena arquivos de configuração locais. As outras opções descrevem diretórios com propósitos diferentes."
+    },
+    {
+        "id": "1058490",
+        "enunciado": "No ambiente Linux, qual comando é utilizado para listar o conteúdo de um diretório?",
+        "alternativas": {
+            "A": "Show.",
+            "B": "view.",
+            "C": "list.",
+            "D": "cd.",
+            "E": "ls."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "No ambiente Linux, o comando 'ls' é amplamente utilizado para listar o conteúdo de um diretório, abrangendo arquivos e subdiretórios."
+    },
+    {
+        "id": "1317749",
+        "enunciado": "Para desinstalar um PACOTE em um sistema operacional Linux baseado em Debian e remover todos os arquivos de configuração a ele relacionados, deve ser utilizado o seguinte comando:",
+        "alternativas": {
+            "A": "apt purge PACOTE -y",
+            "B": "apt-get remove PACOTE+",
+            "C": "apt remove --all PACOTE -y",
+            "D": "aptitude remove packagename",
+            "E": "dpkg uninstall -R -f PACOTE -y"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'apt purge PACOTE -y' desinstala o pacote e todos os arquivos de configuração associados em sistemas baseados em Debian. O '-y' confirma automaticamente."
+    },
+    {
+        "id": "1055190",
+        "enunciado": "Avalie as afirmativas a seguir sobre o sistema operacional base conhecido por Linux. I- O Linux é uma família de sistemas operacionais Unix de código fechado, baseados no kernel Linux. II- A família Linux inclui versões muito famosas, como por exemplo Ubuntu, Fedora, Mint e Debian. III- O comando fd é utilizado para navegar pelos arquivos e diretórios Linux e ele requer um caminho completo ou o nome de um diretório, dependendo do diretório atual em que o usuário estiver. IV- O comando ls é usado para visualizar conteúdos em um diretório e, por padrão, esse comando mostra os conteúdos apenas do diretório atual em que o usuário estiver. V- O Linux apresenta versões, que são conhecidas popularmente por distribuições. Estão CORRETAS as afirmativas.",
+        "alternativas": {
+            "A": "I, III e V, apenas.",
+            "B": "II, IV e V, apenas.",
+            "C": "II, III e IV, apenas.",
+            "D": "II, III e V, apenas.",
+            "E": "III, IV e V, apenas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I está incorreta pois o Linux é de código aberto. A afirmativa II está correta, listando distribuições famosas. A afirmativa III está incorreta, o comando para navegar é `cd` e `fd` não é um comando padrão comum. A afirmativa IV está correta, `ls` lista conteúdos de diretórios. A afirmativa V está correta, distribuições são as versões do Linux. As corretas são II, IV e V."
+    },
+    {
+        "id": "1165040",
+        "enunciado": "Linux é uma família de sistemas operacionais baseados num mesmo kernel, que é o núcleo de um sistema operacional. O comando uname -a - fornece:",
+        "alternativas": {
+            "A": "Informações sobre o uso do espaço em disco de todos os sistemas de arquivos montados.",
+            "B": "Especificação de onde deseja que o diretório seja criado.",
+            "C": "A possibilidade de especificar tanto o arquivo que deseja copiar quanto o local onde deseja copiá-lo.",
+            "D": "Uma ampla gama de informações básicas sobre o sistema.",
+            "E": "A quantidade de espaço livre disponível no sistema."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando uname -a no Linux exibe informações detalhadas sobre o sistema, como nome, versão do kernel, arquitetura e hostname."
+    },
+    {
+        "id": "1165310",
+        "enunciado": "No sistema operacional Linux, para obter informações sobre o uso do espaço em disco do sistema, mostrado em porcentagem e quilobyte (KB), deve-se utilizar o comando:",
+        "alternativas": {
+            "A": "du.",
+            "B": "def.",
+            "C": "dar.",
+            "D": "df.",
+            "E": "diff."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'df' no Linux e utilizado para relatar a utilizacao do espaco em disco em sistemas de arquivos, mostrando informacoes como porcentagem e tamanho em KB, o que corresponde exatamente ao descrito no enunciado."
+    },
+    {
+        "id": "1317600",
+        "enunciado": "Considere as seguintes assertivas referentes à utilização de arquivos de configuração de um ambiente Linux: I - O arquivo /etc/apt/sources.list lista repositórios de software confiáveis em distribuições derivadas do Debian; II - O arquivo /etc/fstab contém os scripts que devem ser executados periodicamente pelo sistema e sua periodicidade; III - O arquivo /etc/shadow contém dados dos usuários de forma criptografada; IV - O arquivo /boot/vmlinuz contém as instruções para boot do sistema exclusivamente para uso em máquinas virtuais. É possível afirmar que:",
+        "alternativas": {
+            "A": "apenas III e IV estão corretas.",
+            "B": "apenas I e II estão corretas.",
+            "C": "apenas I, II e IV estão corretas.",
+            "D": "apenas I e III estão corretas.",
+            "E": "apenas I, III e IV estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A assertiva I está correta sobre /etc/apt/sources.list. A assertiva II está incorreta, pois /etc/fstab trata de montagem de sistemas de arquivos. A assertiva III está correta sobre /etc/shadow. A assertiva IV está incorreta, pois /boot/vmlinuz é o kernel do Linux, usado em máquinas físicas e virtuais."
+    },
+    {
+        "id": "1165313",
+        "enunciado": "Um sistema de arquivos é um conjunto de estruturas lógicas que permite o sistema operacional controlar o acesso a um dispositivo de armazenamento como disco rígido, pen drive, cd-room, etc. Para verificar quais os sistemas de arquivos que o seu Linux suporta, basta verificar o conteúdo do arquivo:",
+        "alternativas": {
+            "A": "/proc/filesystems.",
+            "B": "/lib/modules.",
+            "C": "/dev/sdb1.",
+            "D": "/mkfs/disc.",
+            "E": "/file/systemsdir."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O arquivo /proc/filesystems no Linux lista todos os sistemas de arquivos suportados pelo kernel do sistema operacional em execução."
+    },
+    {
+        "id": "1021647",
+        "enunciado": "Você está acessando uma máquina Linux e necessita saber qual lista dos módulos do Kernel foram carregados. Para tanto, você fez login com o root e deverá aplicar o comando:",
+        "alternativas": {
+            "A": "probe -l",
+            "B": "lsmod",
+            "C": "depsys",
+            "D": "kshow"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'lsmod' em sistemas Linux é utilizado para listar todos os módulos do kernel que estão carregados na memória do sistema. Os outros comandos não correspondem à funcionalidade de listar módulos carregados."
+    },
+    {
+        "id": "1165314",
+        "enunciado": "A escolha do sistema de arquivos depende do sistema operacional utilizado. O sistema operacional Liux tem como padrão o sistema de arquivos:",
+        "alternativas": {
+            "A": "NTFS.",
+            "B": "XFS.",
+            "C": "JFS.",
+            "D": "FAT.",
+            "E": "EXT4."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O Linux adota o sistema de arquivos EXT4 como padrão em suas distribuições mais recentes, sendo conhecido por sua robustez e desempenho."
+    },
+    {
+        "id": "1317686",
+        "enunciado": "Você está precisando configurar um servidor Linux para uma empresa e precisa implementar um controle de acesso baseado em funções (RBAC) para garantir que os usuários tenham permissões adequadas de acordo com suas responsabilidades. Assinale a opção que descreve corretamente o RBAC em sistemas Linux.",
+        "alternativas": {
+            "A": "O RBAC em Linux é implementado através do uso de firewalls, para restringir o acesso de determinados grupos de usuários.",
+            "B": "O RBAC é uma funcionalidade nativa do kernel original do Linux, que permite controlar o acesso de usuários com base em funções e permissões pré-definidas.",
+            "C": "O RBAC é uma funcionalidade que pode ser incorporada ao kernel original do Linux, por meio de patches ou frameworks.",
+            "D": "Sistemas Linux não permitem o uso de RBAC, sendo uma funcionalidade exclusiva de outros sistemas operacionais.",
+            "E": "O RBAC em Linux é implementado através da criação de papéis específicos no arquivo /etc/groups."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "RBAC em Linux não é nativo do kernel original nem implementado apenas em /etc/groups. Ele pode ser adicionado ou complementado por frameworks e patches, permitindo controle granular de acesso por função."
+    },
+    {
+        "id": "1021648",
+        "enunciado": "Você deve configurar seu servidor Linux com o fuso horário adequado, inclusive prever o horário de verão do hemisfério sul, caso este seja utilizado novamente. Para tanto, você tem que acessar o arquivo:",
+        "alternativas": {
+            "A": "/var/timeconf",
+            "B": "/usr/zoneinfo",
+            "C": "/etc/localtime",
+            "D": "/usr/timeconf"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O arquivo /etc/localtime é um link simbólico para o arquivo de configuração do fuso horário específico do sistema. Alterar este arquivo ou o arquivo para o qual ele aponta é a forma correta de configurar o fuso horário e o horário de verão em sistemas Linux."
+    },
+    {
+        "id": "1008189",
+        "enunciado": "No Sistema Operacional Linux, para permitir que um arquivo de nome stuff esteja disponível para leitura de todos os usuários, é necessário o seguinte comando:",
+        "alternativas": {
+            "A": "chmod a+r stuff.",
+            "B": "change e+r stuff.",
+            "C": "chmod e+r stuff.",
+            "D": "change a+r stuff.",
+            "E": "chmod u+r stuff."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'chmod a+r stuff' no Linux permite definir permissões de leitura ('r') para todos os usuários ('a' - all users) no arquivo 'stuff'. As outras opções utilizam comandos incorretos ou permitem grupos de usuários específicos."
+    },
+    {
+        "id": "1704680",
+        "enunciado": "O sistema operacional GNU/Linux Ubuntu versão 20.04 possui diversos comandos para agilizar o trabalho do usuário no dia a dia. Assim, se um usuário desejar, através de linha de comando em um terminal, criar um arquivo vazio, ele deve utilizar qual comando? Assinale a alternativa correta.",
+        "alternativas": {
+            "A": "create.",
+            "B": "ls.",
+            "C": "mkdir.",
+            "D": "touch.",
+            "E": "cat."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "No ambiente Linux, o comando 'touch' é utilizado especificamente para criar um arquivo vazio ou atualizar o timestamp de um arquivo existente. Os outros comandos têm funções diferentes (ls lista arquivos, mkdir cria diretórios, cat exibe ou concatena arquivos)."
+    },
+    {
+        "id": "2218185",
+        "enunciado": "No sistema operacional Linux, o comando pwd:",
+        "alternativas": {
+            "A": "Lista arquivos de um diretório.",
+            "B": "Altera a senha do usuário corrente.",
+            "C": "Cria um diretório.",
+            "D": "Exibe o nome do diretório corrente.",
+            "E": "Procura arquivos por conteúdo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'pwd' (print working directory) no Linux é utilizado para exibir o nome completo do diretório de trabalho atual. Os outros comandos listados realizam outras funções como listar, alterar senha ou criar diretórios."
+    },
+    {
+        "id": "2118253",
+        "enunciado": "Em sistemas operacionais multitarefas, como o Ubuntu Linux, podem-se executar processos com maior ou menor prioridade. Se, por exemplo, um superusuário atribuir um valor numérico de prioridade mais baixo a um processo, ele passará mais tempo sendo executado pela CPU. No Ubuntu, o comando que permite alterar a prioridade de execução de processo é",
+        "alternativas": {
+            "A": "nice.",
+            "B": "ps.",
+            "C": "kill.",
+            "D": "top."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'nice' permite ajustar a prioridade de um processo em sistemas Unix-like. Um valor numérico mais baixo para 'nice' aumenta a prioridade, resultando em mais tempo de CPU."
+    },
+    {
+        "id": "2118254",
+        "enunciado": "Um técnico em TI, para implementar um certo projeto, instalou, em um computador, o Ubuntu Linux, a linguagem e as ferramentas de programação que utilizaria, além de um servidor de páginas web. Para instalar o Apache 2 no Ubuntu Linux, esse técnico em TI poderá utilizar o comando",
+        "alternativas": {
+            "A": "sudo apt install apache2.",
+            "B": "sudo yum install apache2.",
+            "C": "sudo service install apache2.",
+            "D": "sudo server install apache2."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No ecossistema Debian/Ubuntu, o gerenciador de pacotes APT é utilizado para instalar softwares. Portanto, o comando correto para instalar o Apache 2 é 'sudo apt install apache2'."
+    },
+    {
+        "id": "2118255",
+        "enunciado": "Após instalar o Apache2 em uma máquina com Ubuntu Linux, o técnico em TI, para liberar memória nessa máquina, resolveu desligar o serviço. Para tanto, utilizou o comando",
+        "alternativas": {
+            "A": "sudo service apache2 stop.",
+            "B": "sudo apt stop apache2.",
+            "C": "sudo server apache2 stop.",
+            "D": "sudo yum stop apache2."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando correto para parar um serviço no Ubuntu Linux, utilizando o sistema de gerenciamento de serviços 'service', é 'sudo service apache2 stop'. As outras opções usam comandos inexistentes ou sintaxes incorretas."
+    },
+    {
+        "id": "2118257",
+        "enunciado": "O Ubuntu Linux tem suporte a diversos sistemas de arquivos, tais como Btrfs, ReiserFS e Ext4. O Ext4",
+        "alternativas": {
+            "A": "possui a funcionalidade de journaling.",
+            "B": "exige que as extensões no nome do arquivo tenham, no máximo, quatro caracteres.",
+            "C": "limita o tamanho dos arquivos a quatro gigabytes.",
+            "D": "é incompatível com o sistema de arquivos Ext3."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Ext4 é um sistema de arquivos moderno que inclui a funcionalidade de journaling, o que garante maior integridade dos dados em caso de falhas ou interrupções abruptas do sistema."
+    },
+    {
+        "id": "2116681",
+        "enunciado": "O Syslog é um sistema de registro de eventos utilizado nas distribuições GNU/Linux, cujo objetivo é armazenar mensagens de eventos ocorridos no sistema, permitindo ao administrador localizar possíveis falhas ou tentativas de invasão. A respeito do Syslog, o arquivo responsável por armazenar mensagens relacionadas às tarefas programadas é",
+        "alternativas": {
+            "A": "/var/log/cron.",
+            "B": "/var/log/tallylog.",
+            "C": "/var/log/spooler.",
+            "D": "/var/log/kern.log."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O arquivo '/var/log/cron' no Syslog é o local padrão para o registro de mensagens relacionadas à execução de tarefas agendadas pelo cron, como a periodicidade de execução e possíveis falhas."
+    },
+    {
+        "id": "1897342",
+        "enunciado": "No LINUX, o usuário root é o usuário:",
+        "alternativas": {
+            "A": "administrador de dados.",
+            "B": "master administrador do sistema.",
+            "C": "administrador da rede e suas rotas.",
+            "D": "administrador de bancos de dados.",
+            "E": "que serve pra desativar o sistema."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O usuário 'root' no Linux é o superusuário, com privilégios máximos, capaz de realizar qualquer operação no sistema, sendo portanto o administrador mestre."
+    },
+    {
+        "id": "1447577",
+        "enunciado": "Qual comando está associado a finalização de processos no Linux?",
+        "alternativas": {
+            "A": "proc;",
+            "B": "top;",
+            "C": "pwd;",
+            "D": "kill;",
+            "E": "quit."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'kill' é utilizado no Linux para enviar sinais a processos, sendo comumente usado para finalizá-los."
+    },
+    {
+        "id": "1447763",
+        "enunciado": "Qual comando é uti- lizado no Linux para criação de diretórios?",
+        "alternativas": {
+            "A": "mkdir;",
+            "B": "wd;",
+            "C": "pwd;",
+            "D": "cd;",
+            "E": "rmdir."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando utilizado no Linux para a criação de diretórios é o 'mkdir' (make directory). O comando 'pwd' (print working directory) exibe o diretório atual, 'cd' (change directory) muda o diretório corrente, e 'rmdir' (remove directory) exclui um diretório vazio. O comando 'wd' não é um comando reconhecido no Linux para essa finalidade."
+    },
+    {
+        "id": "1448353",
+        "enunciado": "Qual o nome do diretório onde são armazenados os arquivos de configuração do sistema operacional Debian?",
+        "alternativas": {
+            "A": "/system;",
+            "B": "/root;",
+            "C": "/etc;",
+            "D": "/usr;",
+            "E": "/home."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No sistema operacional Debian, o diretório /etc é o local onde são armazenados os arquivos de configuração do sistema e de diversos aplicativos, sendo essencial para o funcionamento."
+    },
+    {
+        "id": "1418442",
+        "enunciado": "Relativo ao LINUX, assinale a opção que apresenta o comando que altera informação relativa a um utilizador.",
+        "alternativas": {
+            "A": "addgroup",
+            "B": "chfn",
+            "C": "chmod",
+            "D": "dig",
+            "E": "chown"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'chfn' (change finger information) é utilizado no Linux para alterar informações do usuário, como nome completo, sala e telefone, diferentemente dos outros comandos que lidam com grupos, permissões, ou consultas de DNS."
+    },
+    {
+        "id": "1214508",
+        "enunciado": "Acerca d os Sistemas Operacionais Mac OS X e Linux, afirma -se:  \nI- KDE, MINT e Cinnamom são nomes de conhecidas interfaces gráficas Linux.  \nII- Nos terminais Linux, tanto quanto no Mac OS X, o comando “history” pode ser utilizado à descoberta dos últimos comandos executados.  \nIII- O Mac OS X é um sistema operativo proprietário baseado no kernel Unix.  \nÉ corre to o que se afirma em:",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "II, apenas.",
+            "C": "III, apenas.",
+            "D": "I, II e III.",
+            "E": "II e III, apenas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Todas as afirmativas estão corretas. KDE, MINT e Cinnamom são interfaces gráficas Linux. O comando 'history' funciona em ambos os sistemas para listar comandos anteriores. O Mac OS X é proprietário e baseado em Unix."
+    },
+    {
+        "id": "1315681",
+        "enunciado": "Os discos rígidos, CD-ROM, USB estão identificados por arquivos referentes a estes dispositivos, no Linux, no diretório:",
+        "alternativas": {
+            "A": "/usr",
+            "B": "/root",
+            "C": "/bin",
+            "D": "/dev"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "No Linux, dispositivos de hardware como discos rígidos, CD-ROMs e pen drives USB são representados como arquivos no diretório /dev, que significa 'devices' (dispositivos)."
+    },
+    {
+        "id": "2328594",
+        "enunciado": "Você está utilizando um computador com o sistema operacional Linux Ubuntu. Você deseja copiar o arquivo “documento.doc” de 300MB (trezentos megabytes) que está na pasta /home/silva para um pendrive. Entretanto, o pendrive tem a capacidade de 1GB (um gigabyte) e já contém o arquivo “video.mp4” com o tamanho de 900MB (novecentos megabytes). Sabendo que a partição em que se encontra o arquivo “documento.doc” tem mais de 2GB (dois gigabytes) livres e que você pode utilizar a pasta /home/silva, marque a sequência a ser utilizada para copiar o arquivo “documento.doc” para o pendrive e não perder o arquivo “video.mp4”, podendo manter uma copia do “video.mp4” no computador que você está utilizando. Considere, quanto aos comandos de atalho do teclado, que Ctrl + C copia, Ctrl + X recorta e Ctrl + V cola o arquivo selecionado na/da pasta selecionada.",
+        "alternativas": {
+            "A": "Selecione o arquivo “video.mp4” do pendrive e pressione Ctrl + X; entre na pasta /home/silva e pressione Ctrl + V; selecione o arquivo “documento.doc” na pasta /home/silva e pressione Ctrl + C; entre no pendrive e pressione Ctrl + V.",
+            "B": "Selecione o arquivo “documento.doc” na pasta /home/silva e pressione Ctrl + C; entre na pasta /home/silva e pressione Ctrl + V; selecione o arquivo “video.mp4” do pendrive e pressione Ctrl + X; entre no pendrive e pressione Ctrl + V.",
+            "C": "Selecione o arquivo “documento.doc” na pasta /home/silva e pressione Ctrl + C; entre no pendrive e pressione Ctrl + V; selecione o arquivo “video.mp4” do pendrive e pressione Ctrl + X; entre na pasta /home/silva e pressione Ctrl + V.",
+            "D": "Selecione o arquivo “video.mp4” do pendrive e pressione Ctrl + X; entre no pendrive e pressione Ctrl + V; entre na pasta /home/silva e pressione Ctrl + V; selecione o arquivo “documento.doc” na pasta /home/silva e pressione Ctrl + C."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve o procedimento correto. Salva-se o video.mp4 em outro local (recortando do pendrive), copia-se o documento.doc para o pendrive, e depois retorna-se o video.mp4 para o pendrive. O espaço de 1GB do pendrive já era insuficiente para ambos."
+    },
+    {
+        "id": "1483721",
+        "enunciado": "Qual é o comando que usa para mover arquivos em um computador com sistema operacional Linux, utilizando linha de comando?",
+        "alternativas": {
+            "A": "mv.",
+            "B": "rt.",
+            "C": "cmp.",
+            "D": "mkdir.",
+            "E": "setting."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O comando 'mv' em sistemas Linux é utilizado para mover ou renomear arquivos e diretórios."
+    },
+    {
+        "id": "1404711",
+        "enunciado": "Analise o trecho a seguir e assinale a alternativa que completa corretamente a lacuna: “O comando __ _____________________ ___, no Linux, analisa as partições físicas e virtuais, informa a quantidade de espaço disponível em disco e mostra o espaço utilizado em cada partição, além de sua localização física na máquina.”",
+        "alternativas": {
+            "A": "chmod.",
+            "B": "ssh.",
+            "C": "df.",
+            "D": "ps."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'df' no Linux é utilizado para exibir o espaço livre em disco, reportando informações sobre as partições e seu uso. Os outros comandos (chmod, ssh, ps) têm funções distintas (permissões, acesso remoto, processos)."
+    },
+    {
+        "id": "1505131",
+        "enunciado": "Assinale a opção que descreve CORRETAMENTE as permissões de acesso do arquivo ‘arquivo.txt’ após um usuário Linux executar o comando ‘chmod 755 arquivo.txt’.",
+        "alternativas": {
+            "A": "O proprietário do arquivo tem permissões de leitura, escrita e execução. Os usuários do grupo e todos os outros usuários têm permissões de leitura e escrita.",
+            "B": "Todos os usuários têm permissões de leitura e execução.",
+            "C": "O proprietário do arquivo tem permissões de leitura, escrita e execução. Os usuários do grupo e todos os outros usuários têm permissões de leitura e execução.",
+            "D": "Todos os usuários têm permissões de leitura, escrita e execução."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No comando 'chmod 755', o número '7' para o proprietário significa permissão de leitura (4), escrita (2) e execução (1). O número '5' para o grupo e outros significa permissão de leitura (4) e execução (1), sem escrita."
+    },
+    {
+        "id": "1505137",
+        "enunciado": "No Linux, o programa que permite que o usuário manipule como os pacotes de rede serão filtrados pelo kernel é o",
+        "alternativas": {
+            "A": "iptables",
+            "B": "ipfirewall",
+            "C": "ifconfig",
+            "D": "ipconfig"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O iptables é o firewall do kernel do Linux que manipula as regras de filtragem de pacotes de rede. ipfirewall é um termo genérico, ifconfig é para configurar interfaces de rede e ipconfig é um comando do Windows."
+    },
+    {
+        "id": "1821141",
+        "enunciado": "O comando grep é muito utilizado quando se necessita procurar por uma determinada palavra dentro de um ou mais arquivos no Sistema Operacional Linux. Qual parâmetro define a recursividade da busca?",
+        "alternativas": {
+            "A": "grep +R",
+            "B": "grep -S",
+            "C": "grep +S",
+            "D": "grep -R"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O parâmetro -R, usado com o comando grep no Linux, habilita a busca recursiva. Isso significa que o grep procurará o padrão especificado não apenas nos arquivos de diretório atual, mas também em todos os subdiretórios."
+    },
+    {
+        "id": "1825378",
+        "enunciado": "A respeito da estrutura de diretórios e sua principal finalidade no Linux e distribuição Ubuntu Server padrão, é correto afirma r que",
+        "alternativas": {
+            "A": "/bin é o local onde são armazenados os links simbólicos do sistema de arquivo.",
+            "B": "/boot é o principal local onde ficam armazenadas as chaves criptográficas de sessões de login remoto no sistema de arquivos.",
+            "C": "/dev é o local onde se armazenam todos os arquivos de desenvolvimento.",
+            "D": "/etc é o local onde normalmente se armazenam arquivos de configurações globais do sistema.",
+            "E": "/home é o local onde todos os arquivos binários são armazenados."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A pasta /etc é designada para armazenar arquivos de configuração globais do sistema operacional e de aplicativos, sendo essencial para o funcionamento do Linux/Ubuntu Server."
+    },
+    {
+        "id": "1825551",
+        "enunciado": "A respeito da estrutura de diretórios e sua principal finalidade no Linux e distribuição Ubuntu Server padrão, é correto afirmar que",
+        "alternativas": {
+            "A": "A/bin é o local onde são armazenados os links simbólicos do sistema de arquivo.",
+            "B": "B/boot é o principal local onde ficam armazenadas as chaves criptográficas de sessões de login remoto no sistema de arquivos.",
+            "C": "C/dev é o local onde se armazenam todos os arquivos de desenvolvimento.",
+            "D": "D/etc é o local onde normalmente se armazenam arquivos de configurações globais do sistema.",
+            "E": "E/home é o local onde todos os arquivos binários são armazenados."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D está correta pois o diretório /etc no Linux e Ubuntu Server é onde se localizam a maioria dos arquivos de configuração globais do sistema. As outras alternativas descrevem finalidades de outros diretórios ou estão incorretas (ex: A/bin não é para links simbólicos, B/boot não armazena chaves criptográficas, C/dev não é para arquivos de desenvolvimento, E/home não é para binários)."
+    },
+    {
+        "id": "1825651",
+        "enunciado": "A respeito da estrutura de diretórios e sua principal finalidade no Linux e distribuição Ubuntu Server padrão, é correto afirmar que",
+        "alternativas": {
+            "A": "/bin é o local onde são armazenados os links simbólicos do sistema de arquivo.",
+            "B": "/boot é o principal local onde ficam armazenadas as chaves criptográficas de sessões de login remoto no sistema de arquivos.",
+            "C": "/dev é o local onde se armazenam todos os arquivos de desenvolvimento.",
+            "D": "/etc é o local onde normalmente se armazenam arquivos de configurações globais do sistema.",
+            "E": "/home é o local onde todos os arquivos binários são armazenados."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D está correta pois o diretório /etc no Linux e Ubuntu Server é onde se localizam a maioria dos arquivos de configuração globais do sistema. As outras alternativas descrevem finalidades de outros diretórios ou estão incorretas (ex: /bin não é para links simbólicos, /boot não armazena chaves criptográficas, /dev não é para arquivos de desenvolvimento, /home não é para binários)."
+    },
+    {
+        "id": "1380507",
+        "enunciado": "Qual recurso de privacidade do Linux Ubuntu que indexa, por padrão, os arquivos e programas que o usuário acessou para poder mostrá-los posteriormente como sugestão na tela inicial da Dash?",
+        "alternativas": {
+            "A": "SmartScopes",
+            "B": "SmartDash",
+            "C": "UbuntuScopes",
+            "D": "UbuntuDash"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O SmartScopes é um recurso do Linux Ubuntu que integra resultados de busca de diversas fontes, incluindo arquivos e programas acessados pelo usuário, diretamente na Dash, oferecendo sugestões personalizadas."
+    },
+    {
+        "id": "1679465",
+        "enunciado": "Com esse comando no Sistema Operacional Linux reinicializamos o computador:",
+        "alternativas": {
+            "A": "login.",
+            "B": "logout.",
+            "C": "ls.",
+            "D": "shutdown."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando 'shutdown' no Linux é utilizado para desligar ou reiniciar o computador. As outras opções estão relacionadas a login, logout e listagem de arquivos."
+    },
+    {
+        "id": "1679467",
+        "enunciado": "Para criarmos um arquivo no Sistema Operacional Linux utilizamos o comando:",
+        "alternativas": {
+            "A": "cat  >arq.",
+            "B": "lm  >arq.",
+            "C": "rd  >arq.",
+            "D": "as  >arq."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No Sistema Operacional Linux, o comando 'cat >arq' permite criar um novo arquivo chamado 'arq' e esperar pela entrada do usuário para inserir conteúdo, encerrando ao pressionar Ctrl+D."
+    },
+    {
+        "id": "1679472",
+        "enunciado": "Qual comando correto, no Linux, que uso para adicionar apenas permissão de gravação no arquivo “alunos.old.” para um usuário?",
+        "alternativas": {
+            "A": "chmod g=rwx alunos.old.",
+            "B": "alunos.old –rw.",
+            "C": "chmod u+w alunos.old.",
+            "D": "chmod 1 alunos.old."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No Linux, o comando `chmod u+w alunos.old.` adiciona especificamente a permissão de gravação ('w') para o proprietário do arquivo ('u'). As outras opções utilizam sintaxes incorretas ou adicionam outras permissões."
+    },
+    {
+        "id": "1679516",
+        "enunciado": "Qual comando abaixo, de Gestão de Ficheiros e Diretórios, do sistema operacional Linux, cria ou extrai arquivos, muito usado como programa de backup ou compressão de ficheiros?",
+        "alternativas": {
+            "A": "ls.",
+            "B": "tee.",
+            "C": "tar.",
+            "D": "tr."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O comando 'tar' (tape archive) no Linux é amplamente utilizado para criar arquivos compactados (backup) e extrair conteúdo de tais arquivos."
+    },
+    {
+        "id": "1679482",
+        "enunciado": "No Linux, qual é a utilidade do comando ifconfig?",
+        "alternativas": {
+            "A": "Envia e recebe e-mails.",
+            "B": "Compara dois ficheiros.",
+            "C": "Visualizar os ips da máquina, entre outras funções relacionadas com ips.",
+            "D": "Mostra o estado da rede."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No Linux, o comando ifconfig é utilizado para exibir e configurar interfaces de rede. Ele permite visualizar informações como o endereço IP, máscara de sub-rede e status da conexão, sendo fundamental para o gerenciamento de rede."
+    },
+    {
+        "id": "1874929",
+        "enunciado": "É CORRETO afirmar que a operação ‘Criar Link’ para um arquivo no gerenciador de arquivos do Linux:",
+        "alternativas": {
+            "A": "move o arquivo para o diretório de destino.",
+            "B": "cria um atalho informando o diretório onde o arquivo se encontra.",
+            "C": "cria um atalho informando o computador onde o arquivo se encontra na rede interna.",
+            "D": "cria cópias idênticas do arquivo: uma no diretório de origem e outra no diretório de destino."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No Linux, criar um link (ou link simbólico) é semelhante a criar um atalho em outros sistemas operacionais, apontando para o arquivo original no diretório de destino."
+    },
+    {
+        "id": "1874931",
+        "enunciado": "Analise, abaixo, algumas funcionalidades do gerenciador de arquivos Konqueror do Linux: I. Copiar, mover e remover arquivos e diretórios. II. Navegar na Internet. III. Editar o conteúdo de documentos de texto. IV. Criar atalhos para aplicativos que são utilizados com frequência pelo usuário. Estão CORRETAS as funcionalidades:",
+        "alternativas": {
+            "A": "I, II e IV, apenas.",
+            "B": "I e IV, apenas.",
+            "C": "II e III, apenas.",
+            "D": "I, II, III e IV."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Konqueror é um gerenciador de arquivos e navegador web. Portanto, ele gerencia arquivos (I), navega na internet (II). A edição de texto (III) não é sua função primária e a criação de atalhos (IV) para aplicativos é uma função comum de gerentes de arquivo e desktops."
+    },
+    {
+        "id": "1505774",
+        "enunciado": "Com relação aos principais diretórios existentes na instalação padrão de um sistema operacional GNU/Linux, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "Os dispositivos de entrada e saída são associados a arquivos especiais do tipo bloco ou do tipo caractere localizados no diretório / dev.",
+            "B": "Todos os usuários cadastrados possuem um diretório home onde são armazenados seus arquivos e diretórios, inclusive o usuário especial root, cujo home é o diretório raiz, representado pelo símbolo “/.”",
+            "C": "O diretório / lib contém os arquivos binários dos principais comandos usados pelo superusuário (root) na administração do sistema.",
+            "D": "A imagem do sistema operacional e seus principais arquivos de configuração são armazenados no diretório / etc.",
+            "E": "O arquivo / tmp é empregado para armazenar arquivos temporários e os mais diversos logs do sistema, por isso, ele cresce de maneira não controlada e, idealmente, deve ser posto em uma partição separada."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O diretorio /dev armazena arquivos especiais que representam os dispositivos de hardware (entrada/saida), permitindo a interacao do sistema com eles."
+    },
+    {
+        "id": "2085846",
+        "enunciado": "Antes de realizar as mudanças de configuração necessárias à nova versão do aplicativo que o Técnico de Informática acabou de desenvolver, ele resolveu renomear o arquivo original (config.xml) para config.bkp. Sabendo que a aplicação está hospedada em um servidor com sistema operacional Linux, qual dos seguintes comandos deve ser utilizado para renomear o arquivo?",
+        "alternativas": {
+            "A": "cp ./config.xml ./config.bkp.",
+            "B": "mv ./config.xml ./config.bkp.",
+            "C": "rd ./config.xml ./config.bkp.",
+            "D": "dd ./config.xml ./config.bkp."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "No Linux, o comando 'mv' é utilizado para mover ou renomear arquivos e diretórios. A alternativa A (cp) copia o arquivo. A alternativa C (rd) é usada para remover diretórios. A alternativa D (dd) é usada para conversão e cópia de arquivos em baixo nível. Portanto, 'mv' é o comando correto para renomear."
+    }
+]

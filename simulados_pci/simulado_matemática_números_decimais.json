@@ -1,0 +1,815 @@
+[
+    {
+        "id": "2359785",
+        "enunciado": "Dois valores são observados: 4,08 e 4,8. A comparação entre eles baseia-se no valor posicional dos algarismos. A análise comparativa desses valores indica que",
+        "alternativas": {
+            "A": "os dois representam a mesma quantidade.",
+            "B": "a comparação valorativa depende do contexto.",
+            "C": "o valor 4,08 é maior.",
+            "D": "o valor 4,8 é maior."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ao comparar 4,08 e 4,8, percebe-se que o 8 na casa dos décimos em 4,8 é maior que o 0 na casa dos décimos em 4,08."
+    },
+    {
+        "id": "2359726",
+        "enunciado": "Ao se comparar os números decimais 0,29990, 0,29909, 2,9099 e 2,0999, qual representa maior quantidade?",
+        "alternativas": {
+            "A": "0,20999.",
+            "B": "0,29099.",
+            "C": "0,29909.",
+            "D": "0,29990."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para comparar números decimais, analisamos dígito a dígito da esquerda para a direita. O maior número é aquele que possui o maior algarismo na primeira casa diferente. 2,9099 é o maior por ter 2 na casa das unidades."
+    },
+    {
+        "id": "2023021",
+        "enunciado": "Um almoxarifado registrou a saída de 15,75 litros de um produto químico usado na limpeza. Ao preencher o relatório, o servidor precisa informar qual é o valor representado pelo algarismo 7 no número 15,75. Considerando o sistema de numeração decimal, qual é o valor posicional do número 7 em 15,75 litros?",
+        "alternativas": {
+            "A": "7 centenas.",
+            "B": "7 unidades.",
+            "C": "7 décimos.",
+            "D": "7 dezenas.",
+            "E": "7 centésimos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No número decimal 15,75, o algarismo 7 está posicionado à direita da vírgula, na primeira casa decimal, representando a fração 7/10, que é igual a 7 décimos."
+    },
+    {
+        "id": "2325569",
+        "enunciado": "A representação decimal da fração 3/7 é dada a seguir: 3/7=0,428571428 … O milésimo algarismo presente em tal representação, após a vírgula, é",
+        "alternativas": {
+            "A": "8.",
+            "B": "7.",
+            "C": "5.",
+            "D": "4.",
+            "E": "2."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A sequência de algarismos na divisão de 3 por 7 é 428571. Esta sequência se repete. O milésimo algarismo é o colocado na posição 1000. Como 1000 dividido por 6 (tamanho da sequência) tem resto 4, contamos o 4º algarismo da sequência, que é 8. (1000 = 166*6 + 4)."
+    },
+    {
+        "id": "2335342",
+        "enunciado": "Patrick         está         aprendendo          sobre         decomposição          de         números         decimais         e         precisa         fazer         uma         atividade         que         pede         para         escrever         o         número         7.530         em         sua         forma         desenvolvida,          decompondo          milhares,         centenas,         dezenas         e         unidades.         Qual         das         alternativas          abaixo         traz         a         decomposição          correta         deste         número.",
+        "alternativas": {
+            "A": "A         decomposição          correta         é         7         +         5         +         30",
+            "B": "A         decomposição          correta         é         7.000         +         500         +         30         +         0",
+            "C": "A         decomposição          correta         é         70.000         +         5.000         +         300         +         0",
+            "D": "A         decomposição          correta         é         7         +         5         +         3         +         0"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A decomposição desenvolvida de um número decimal representa a soma de cada algarismo multiplicado pela sua potência de 10 correspondente. Assim, 7.530 = 7.000 + 500 + 30 + 0."
+    },
+    {
+        "id": "2382906",
+        "enunciado": "Uma pessoa recebeu o desafio de ordenar os números decimais abaixo em ordem decrescente. Qual será o primeiro número?",
+        "alternativas": {
+            "A": "1,45",
+            "B": "1,48",
+            "C": "1,32",
+            "D": "1,5"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para ordenar em decrescente, comparamos os números. 1,5 é maior que 1,48, 1,45 e 1,32. Portanto, 1,5 é o primeiro número na ordem decrescente."
+    },
+    {
+        "id": "2184074",
+        "enunciado": "A fração 3/8 expressa em forma decimal é:",
+        "alternativas": {
+            "A": "0,3125.",
+            "B": "0,375.",
+            "C": "0,38.",
+            "D": "0,4."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para expressar a fração 3/8 em forma decimal, basta dividir o numerador (3) pelo denominador (8). A divisão 3 ÷ 8 resulta em 0,375. Portanto, a fração 3/8 é igual a 0,375 em decimal."
+    },
+    {
+        "id": "2138684",
+        "enunciado": "Reginaldo está em busca de uma escada para fazer a limpeza de uma  calha em segurança. Para isso, ele buscou na internet\ne encontrou quatro  opções de escadas com as seguintes medidas:\n• Escada I : – 3,2 metros de comprimento.\n• Escada II : – 3,4 metros de comprimento.\n• Escada III : – 3,32 metros de comprimento.\n• Escada IV : – 3,28 metros de comprimento.\nSupondo que a escada seja colocada totalmente em pé, na vertical, e que o telhado de Reginaldo tenha exata mente 3,37\nmetros de altura, qual  escada pode rá ser usada por ele para fazer a limpeza da calha em segu rança?",
+        "alternativas": {
+            "A": "Escada I.",
+            "B": "Escada II.",
+            "C": "Escada III.",
+            "D": "Escada IV."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escada II (3,4m) é a única com comprimento superior à altura do telhado (3,37m), garantindo segurança para a limpeza da calha. As demais são insuficientes."
+    },
+    {
+        "id": "2335298",
+        "enunciado": "Patrick está aprendendo sobre decomposição de números decimais e precisa fazer uma atividade que pede para escrever o número 7.530 em sua forma desenvolvida, decompondo milhares, centenas, dezenas e unidades. Qual das alternativas abaixo traz a decomposição correta deste número.",
+        "alternativas": {
+            "A": "A decomposição correta é 7 + 5 + 3 + 0",
+            "B": "A decomposição correta é 70.000 + 5.000 + 300 + 0",
+            "C": "A decomposição correta é 7 + 5 + 30",
+            "D": "A decomposição correta é 7.000 + 500 + 30 + 0"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A decomposição de um número decimal envolve a multiplicação de cada dígito pelo seu valor posicional (unidades, dezenas, centenas, milhares, etc.). O número 7.530 é lido como 'sete mil, quinhentos e trinta'. Portanto, a decomposição correta é 7 mil + 5 centenas + 3 dezenas + 0 unidades, o que corresponde a 7.000 + 500 + 30 + 0."
+    },
+    {
+        "id": "1707969",
+        "enunciado": "Observe a reta numérica abaixo: O ponto indicado pela seta corresponde ao número:",
+        "alternativas": {
+            "A": "1,4",
+            "B": "1,7",
+            "C": "2,3",
+            "D": "2,7"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A reta numérica apresenta intervalos de 0,1 entre os números inteiros. O ponto indicado pela seta está localizado entre 1,6 e 1,8, sendo 1,7 o valor correto."
+    },
+    {
+        "id": "1732849",
+        "enunciado": "A escrita por extenso do número 23,5 corresponde à:",
+        "alternativas": {
+            "A": "Vinte e três inteiros e cinquenta décimos.",
+            "B": "Vinte e três inteiros e cinco décimos.",
+            "C": "Vinte e três inteiros e cinco milésimos.",
+            "D": "Vinte e três décimos e cinco centésimos.",
+            "E": "Vinte e três décimos e cinco milésimos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O número 23,5 é lido como 'vinte e três inteiros e cinco décimos', onde o '5' está na casa decimal dos décimos."
+    },
+    {
+        "id": "2252421",
+        "enunciado": "Os números decimais estão presentes no nosso dia a dia em diversas situações. Eles são essenciais para expressar valores não inteiros com precisão, em situações como preços de produtos, medidas de massa, distâncias e etc. Em um posto de gasolina, o preço da gasolina aditivada é R$ 6,89. Assinale a alternativa que apresenta a decomposição correta desse número.",
+        "alternativas": {
+            "A": "6 + 0,8 + 0,9",
+            "B": "6 + 0,08 + 0,09",
+            "C": "600 + 80 + 9",
+            "D": "6 + 0,8 + 0,09",
+            "E": "6 + 0,089"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D está correta. O número 6,89 é decomposto como 6 (unidades), 0,8 (oito décimos) e 0,09 (nove centésimos)."
+    },
+    {
+        "id": "1096004",
+        "enunciado": "Em uma receita de bolo, você precisa de 3/4 de xícara de açúcar. Se você deseja medir essa quantidade em termos de decimal, qual é o valor decimal equivalente?",
+        "alternativas": {
+            "A": "0,75",
+            "B": "0,5",
+            "C": "0,25",
+            "D": "0,3"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A fração 3/4 representa a divisão de 3 por 4. Ao realizar essa divisão, obtém-se 0,75. Portanto, o valor decimal equivalente de 3/4 é 0,75."
+    },
+    {
+        "id": "1406629",
+        "enunciado": "Qual é a alternativa que representa a fração 142/1000 em números decimais?",
+        "alternativas": {
+            "A": "0,142",
+            "B": "0,0142",
+            "C": "1,42",
+            "D": "14,2"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter a fração 142/1000 em decimal, divide-se o numerador pelo denominador. 142 dividido por 1000 resulta em 0,142. As outras opções representam divisões incorretas."
+    },
+    {
+        "id": "2137409",
+        "enunciado": "Sendo         X         e         Y         o         numerador          e         denominador, respectivamente,          da         fração         irredutível         que         gera         a         dízima periódica         23,235235235...          Assinale         a         alternativa         que apresenta         corretamente          o         resultado         de         X         -         Y.",
+        "alternativas": {
+            "A": "21351.",
+            "B": "27548.",
+            "C": "22213.",
+            "D": "24315."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter a dízima 23,235235... em fração, seja x = 23,235235...; 1000x = 23235,235235...; 1000x - x = 23235,235235... - 23,235235... = 23212; 999x = 23212; x = 23212/999. Simplificando: 23212/999 = (23212/1.08) / (999/1.08) (aproximado) -> não. Simplificando a fração irredutível: 23212 / 999 = X/Y. x = 23 + 235/999. x = (23*999 + 235)/999 = (22977 + 235)/999 = 23212/999. A fração irredutivel é 23212/999. X=23212, Y=999. X-Y = 23212 - 999 = 22213."
+    },
+    {
+        "id": "1302121",
+        "enunciado": "Sabe-se que ao multiplicar um número por 100 obtém 19,57. Assinale a alternativa que representa corretamente este número.",
+        "alternativas": {
+            "A": "1,957.",
+            "B": "0,1957.",
+            "C": "0,01957.",
+            "D": "0,001957."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Se multiplicar um número desconhecido por 100 resulta em 19,57, o número original é 19,57 / 100, que é igual a 0,1957."
+    },
+    {
+        "id": "1698049",
+        "enunciado": "Margarida está fazendo um bolo e a receita pede ½ quilo de farinha de trigo. Qual número decimal representa essa medida?",
+        "alternativas": {
+            "A": "0,025.",
+            "B": "0,05.",
+            "C": "0,25.",
+            "D": "0,5.",
+            "E": "1,5."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Meio quilo (½ kg) em decimal é representado por 0,5. Dividir 1 por 2 resulta em 0,5. As outras alternativas representam frações diferentes de 1/2."
+    },
+    {
+        "id": "1152433",
+        "enunciado": "Qual é o número decimal que é decomposto em 3 + 0,08 + 0,005?",
+        "alternativas": {
+            "A": "3,850.",
+            "B": "3,085.",
+            "C": "3,580.",
+            "D": "3,058.",
+            "E": "5,038."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A decomposicao decimal representa a soma de unidades, decimos, centesimos e milentesimos. 3 representa 3 unidades, 0,08 representa 8 centesimos e 0,005 representa 5 milentesimos, totalizando 3,085."
+    },
+    {
+        "id": "1466643",
+        "enunciado": "Assinale a alternativa que contém uma dízima periódica.",
+        "alternativas": {
+            "A": "-0.5",
+            "B": "1/4",
+            "C": "0.272727...",
+            "D": "22"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma dízima periódica é um número decimal com uma ou mais casas decimais que se repetem infinitamente. A alternativa C (0.272727...) apresenta o algarismo '27' se repetindo sucessivamente, caracterizando uma dízima periódica simples."
+    },
+    {
+        "id": "1161540",
+        "enunciado": "A distância entre Coronel Bicaco e Porto Alegre é de aproximadamente 421 km. Ao dividir essa distância por 100, obtém -se o seguinte número decimal:",
+        "alternativas": {
+            "A": "0,421.",
+            "B": "4,21.",
+            "C": "40,21.",
+            "D": "41,12.",
+            "E": "42,1."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para dividir 421 km por 100, desloca-se a vírgula duas casas para a esquerda. Assim, 421 se torna 4,21. Logo, o número decimal obtido é 4,21."
+    },
+    {
+        "id": "1200799",
+        "enunciado": "A fração  47/100  é representada pelo seguinte número decimal:",
+        "alternativas": {
+            "A": "0,047.",
+            "B": "0,212.",
+            "C": "0,47.",
+            "D": "2,12.",
+            "E": "4,7."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para converter a fração 47/100 em número decimal, basta dividir o numerador pelo denominador. 47 dividido por 100 resulta em 0,47."
+    },
+    {
+        "id": "1331390",
+        "enunciado": "Qual alternativa representa o número decimal dezoito inteiros e três décimos?",
+        "alternativas": {
+            "A": "18,3.",
+            "B": "18,03.",
+            "C": "18,003.",
+            "D": "1,83.",
+            "E": "0,183."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O número 'dezoito inteiros' corresponde à parte inteira (18) e 'três décimos' à primeira casa decimal (0,3). Juntando, temos 18,3."
+    },
+    {
+        "id": "1144285",
+        "enunciado": "Observe as seguintes afirmativas: I – 0,7% é menor que 0,14%; II – 3% é igual a 0,03; III – 0,09 é menor que 0,18; Estão corretas:",
+        "alternativas": {
+            "A": "Somente I.",
+            "B": "Somente II.",
+            "C": "Somente III.",
+            "D": "I e II.",
+            "E": "II e III."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Analisando as afirmativas: I – 0,7% = 0,007 e 0,14% = 0,0014. Logo, 0,007 é maior que 0,0014, portanto I está incorreta. II – 3% = 0,03. A afirmação diz que 3% é igual a 0,03, o que é correto. Contudo, a questão pede para verificar a veracidade das afirmativas, e não apenas sua igualdade. 3% é igual a 3/100 = 0,03. Então II está correta. III – 0,09 é menor que 0,18. Isso é verdadeiro. Portanto, II e III estão corretas. Revisão: I é falsa (0.7% > 0.14%). II é verdadeira (3% = 0.03). III é verdadeira (0.09 < 0.18). Portanto, II e III estão corretas. A resposta é E. Revisão final: I) 0,7% = 0,007; 0,14% = 0,0014. 0,007 > 0,0014. Logo I é FALSA. II) 3% = 3/100 = 0,03. A afirmação diz 3% é IGUAL a 0,03. Logo II é VERDADEIRA. III) 0,09 < 0,18. Isso é VERDADEIRO. Logo, II e III estão corretas. A alternativa E está correta."
+    },
+    {
+        "id": "1101914",
+        "enunciado": "Qual é a forma correta de ler o número decimal 4,015?",
+        "alternativas": {
+            "A": "Quatro vírgula quinze.",
+            "B": "Quatro inteiros, um décimo e cinco centésimos.",
+            "C": "Quatro inteiros e quinze milésimos.",
+            "D": "Quatro vírgula zero, um e cinco.",
+            "E": "Quatro inteiros e quinze centésimos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O número 4,015 é lido como 'quatro inteiros e quinze milésimos', pois o 1 está na casa dos décimos e o 5 na dos milésimos."
+    },
+    {
+        "id": "1142432",
+        "enunciado": "Analise as informações a seguir:  I. Em um depósito existem chapas de ferro de diversas espessuras. João precisa comprar uma chapa com 5 mm de espessura ou o mais próximo possível a essa medida. No depósito ele só encontrou chapas com as seguintes espessuras: 5,10 mm; 5,021 mm; 4,96 mm; 4,099 mm e 4,07 mm. Assim João comprou chapas com 5,021 mm de espessura, pois eram as que mais se aproximavam da medida que precisava.  II. Saindo de São Bento do Una com destino à Recife, via BR-232, percorremos cerca de 205,8 km. Fazendo a viagem por meio da BR-101 a distância percorrida será de 255,7km. Podemos afirmar que, fazendo o 2º percurso, a distância aumenta em 50,9 km.  Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "As duas afirmativas são verdadeiras.",
+            "B": "A afirmativa I é verdadeira, e a II é falsa.",
+            "C": "A afirmativa II é verdadeira, e a I é falsa.",
+            "D": "As duas afirmativas são falsas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Afirmativa I está correta. A espessura mais próxima de 5 mm é 5,021 mm (diferença de 0,021 mm). Afirmativa II está incorreta. A diferença entre 255,7 km e 205,8 km é de 49,9 km, e não 50,9 km."
+    },
+    {
+        "id": "1096099",
+        "enunciado": "Assinale a alternativa que apresenta uma dízima periódica escrito na forma fracionária.",
+        "alternativas": {
+            "A": "2/5",
+            "B": "1/8",
+            "C": "5/4",
+            "D": "1/6",
+            "E": "1/10"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Uma dízima periódica é um número com casas decimais que se repetem infinitamente. Ao ser convertida para fração (geratriz), essa repetição é representada. A fração 1/6 resulta na dízima 0,1666..., que é periódica."
+    },
+    {
+        "id": "1032161",
+        "enunciado": "Assinale a alternativa que apresenta qual é o valor decimal que corresponde exatamente a 1 por cento.",
+        "alternativas": {
+            "A": "0,1010d",
+            "B": "0,1000",
+            "C": "0,0100",
+            "D": "0,0010",
+            "E": "0,0001"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um por cento (1%) é igual a 1/100. Em forma decimal, isso é 0,01. A alternativa C representa este valor de forma explícita com duas casas decimais após a vírgula."
+    },
+    {
+        "id": "1032853",
+        "enunciado": "Assinale a alternativa que apresenta qual é o valor decimal que corresponde exatamente a 1 por cento.",
+        "alternativas": {
+            "A": "0,1010",
+            "B": "0,1000",
+            "C": "0,0100",
+            "D": "0,0010",
+            "E": "0,0001"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "1 por cento corresponde a 1/100, que em decimal e 0,01. As alternativas C e D apresentam este valor, mas a C esta escrita de forma mais completa e comum."
+    },
+    {
+        "id": "1069562",
+        "enunciado": "Na divisão 0,5÷0,02, obtemos:",
+        "alternativas": {
+            "A": "0,025",
+            "B": "0,25",
+            "C": "2,5",
+            "D": "25",
+            "E": "250"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para dividir 0,5 por 0,02, podemos multiplicar ambos os números por 100 para remover as casas decimais: 0,5 * 100 = 50 e 0,02 * 100 = 2. Assim, a divisão se torna 50 ÷ 2, que é igual a 25. Portanto, 0,5 ÷ 0,02 = 25."
+    },
+    {
+        "id": "1264257",
+        "enunciado": "O antecessor de 4,63 é 4,62, o sucessor de 4,63 será:",
+        "alternativas": {
+            "A": "4,51.",
+            "B": "4,60.",
+            "C": "4,61.",
+            "D": "4,64.",
+            "E": "4,65."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O antecessor de um numero é o que vem imediatamente antes dele, e o sucessor é o que vem imediatamente depois. O antecessor de 4,63 é 4,62. O sucessor de 4,63 é o proximo numero na sequencia, que é 4,64. A ordem crescente dos numeros decimais na vizinhanca e 4,62; 4,63; 4,64."
+    },
+    {
+        "id": "2359785",
+        "enunciado": "Dois valores são observados: 4,08 e 4,8. A comparação entre eles baseia-se no valor posicional dos algarismos. A análise comparativa desses valores indica que",
+        "alternativas": {
+            "A": "os dois representam a mesma quantidade.",
+            "B": "a comparação valorativa depende do contexto.",
+            "C": "o valor 4,08 é maior.",
+            "D": "o valor 4,8 é maior."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ao comparar 4,08 e 4,8, percebe-se que o 8 na casa dos décimos em 4,8 é maior que o 0 na casa dos décimos em 4,08."
+    },
+    {
+        "id": "2359726",
+        "enunciado": "Ao se comparar os números decimais 0,29990, 0,29909, 2,9099 e 2,0999, qual representa maior quantidade?",
+        "alternativas": {
+            "A": "0,20999.",
+            "B": "0,29099.",
+            "C": "0,29909.",
+            "D": "0,29990."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para comparar números decimais, analisamos dígito a dígito da esquerda para a direita. O maior número é aquele que possui o maior algarismo na primeira casa diferente. 2,9099 é o maior por ter 2 na casa das unidades."
+    },
+    {
+        "id": "2023021",
+        "enunciado": "Um almoxarifado registrou a saída de 15,75 litros de um produto químico usado na limpeza. Ao preencher o relatório, o servidor precisa informar qual é o valor representado pelo algarismo 7 no número 15,75. Considerando o sistema de numeração decimal, qual é o valor posicional do número 7 em 15,75 litros?",
+        "alternativas": {
+            "A": "7 centenas.",
+            "B": "7 unidades.",
+            "C": "7 décimos.",
+            "D": "7 dezenas.",
+            "E": "7 centésimos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No número decimal 15,75, o algarismo 7 está posicionado à direita da vírgula, na primeira casa decimal, representando a fração 7/10, que é igual a 7 décimos."
+    },
+    {
+        "id": "2325569",
+        "enunciado": "A representação decimal da fração 3/7 é dada a seguir: 3/7=0,428571428 … O milésimo algarismo presente em tal representação, após a vírgula, é",
+        "alternativas": {
+            "A": "8.",
+            "B": "7.",
+            "C": "5.",
+            "D": "4.",
+            "E": "2."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A sequência de algarismos na divisão de 3 por 7 é 428571. Esta sequência se repete. O milésimo algarismo é o colocado na posição 1000. Como 1000 dividido por 6 (tamanho da sequência) tem resto 4, contamos o 4º algarismo da sequência, que é 8. (1000 = 166*6 + 4)."
+    },
+    {
+        "id": "2335342",
+        "enunciado": "Patrick         está         aprendendo          sobre         decomposição          de         números         decimais         e         precisa         fazer         uma         atividade         que         pede         para         escrever         o         número         7.530         em         sua         forma         desenvolvida,          decompondo          milhares,         centenas,         dezenas         e         unidades.         Qual         das         alternativas          abaixo         traz         a         decomposição          correta         deste         número.",
+        "alternativas": {
+            "A": "A         decomposição          correta         é         7         +         5         +         30",
+            "B": "A         decomposição          correta         é         7.000         +         500         +         30         +         0",
+            "C": "A         decomposição          correta         é         70.000         +         5.000         +         300         +         0",
+            "D": "A         decomposição          correta         é         7         +         5         +         3         +         0"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A decomposição desenvolvida de um número decimal representa a soma de cada algarismo multiplicado pela sua potência de 10 correspondente. Assim, 7.530 = 7.000 + 500 + 30 + 0."
+    },
+    {
+        "id": "2382906",
+        "enunciado": "Uma pessoa recebeu o desafio de ordenar os números decimais abaixo em ordem decrescente. Qual será o primeiro número?",
+        "alternativas": {
+            "A": "1,45",
+            "B": "1,48",
+            "C": "1,32",
+            "D": "1,5"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para ordenar em decrescente, comparamos os números. 1,5 é maior que 1,48, 1,45 e 1,32. Portanto, 1,5 é o primeiro número na ordem decrescente."
+    },
+    {
+        "id": "2184074",
+        "enunciado": "A fração 3/8 expressa em forma decimal é:",
+        "alternativas": {
+            "A": "0,3125.",
+            "B": "0,375.",
+            "C": "0,38.",
+            "D": "0,4."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para expressar a fração 3/8 em forma decimal, basta dividir o numerador (3) pelo denominador (8). A divisão 3 ÷ 8 resulta em 0,375. Portanto, a fração 3/8 é igual a 0,375 em decimal."
+    },
+    {
+        "id": "2138684",
+        "enunciado": "Reginaldo está em busca de uma escada para fazer a limpeza de uma  calha em segurança. Para isso, ele buscou na internet\ne encontrou quatro  opções de escadas com as seguintes medidas:\n• Escada I : – 3,2 metros de comprimento.\n• Escada II : – 3,4 metros de comprimento.\n• Escada III : – 3,32 metros de comprimento.\n• Escada IV : – 3,28 metros de comprimento.\nSupondo que a escada seja colocada totalmente em pé, na vertical, e que o telhado de Reginaldo tenha exata mente 3,37\nmetros de altura, qual  escada pode rá ser usada por ele para fazer a limpeza da calha em segu rança?",
+        "alternativas": {
+            "A": "Escada I.",
+            "B": "Escada II.",
+            "C": "Escada III.",
+            "D": "Escada IV."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escada II (3,4m) é a única com comprimento superior à altura do telhado (3,37m), garantindo segurança para a limpeza da calha. As demais são insuficientes."
+    },
+    {
+        "id": "2335298",
+        "enunciado": "Patrick está aprendendo sobre decomposição de números decimais e precisa fazer uma atividade que pede para escrever o número 7.530 em sua forma desenvolvida, decompondo milhares, centenas, dezenas e unidades. Qual das alternativas abaixo traz a decomposição correta deste número.",
+        "alternativas": {
+            "A": "A decomposição correta é 7 + 5 + 3 + 0",
+            "B": "A decomposição correta é 70.000 + 5.000 + 300 + 0",
+            "C": "A decomposição correta é 7 + 5 + 30",
+            "D": "A decomposição correta é 7.000 + 500 + 30 + 0"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A decomposição de um número decimal envolve a multiplicação de cada dígito pelo seu valor posicional (unidades, dezenas, centenas, milhares, etc.). O número 7.530 é lido como 'sete mil, quinhentos e trinta'. Portanto, a decomposição correta é 7 mil + 5 centenas + 3 dezenas + 0 unidades, o que corresponde a 7.000 + 500 + 30 + 0."
+    },
+    {
+        "id": "1707969",
+        "enunciado": "Observe a reta numérica abaixo: O ponto indicado pela seta corresponde ao número:",
+        "alternativas": {
+            "A": "1,4",
+            "B": "1,7",
+            "C": "2,3",
+            "D": "2,7"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A reta numérica apresenta intervalos de 0,1 entre os números inteiros. O ponto indicado pela seta está localizado entre 1,6 e 1,8, sendo 1,7 o valor correto."
+    },
+    {
+        "id": "1732849",
+        "enunciado": "A escrita por extenso do número 23,5 corresponde à:",
+        "alternativas": {
+            "A": "Vinte e três inteiros e cinquenta décimos.",
+            "B": "Vinte e três inteiros e cinco décimos.",
+            "C": "Vinte e três inteiros e cinco milésimos.",
+            "D": "Vinte e três décimos e cinco centésimos.",
+            "E": "Vinte e três décimos e cinco milésimos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O número 23,5 é lido como 'vinte e três inteiros e cinco décimos', onde o '5' está na casa decimal dos décimos."
+    },
+    {
+        "id": "2252421",
+        "enunciado": "Os números decimais estão presentes no nosso dia a dia em diversas situações. Eles são essenciais para expressar valores não inteiros com precisão, em situações como preços de produtos, medidas de massa, distâncias e etc. Em um posto de gasolina, o preço da gasolina aditivada é R$ 6,89. Assinale a alternativa que apresenta a decomposição correta desse número.",
+        "alternativas": {
+            "A": "6 + 0,8 + 0,9",
+            "B": "6 + 0,08 + 0,09",
+            "C": "600 + 80 + 9",
+            "D": "6 + 0,8 + 0,09",
+            "E": "6 + 0,089"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D está correta. O número 6,89 é decomposto como 6 (unidades), 0,8 (oito décimos) e 0,09 (nove centésimos)."
+    },
+    {
+        "id": "1096004",
+        "enunciado": "Em uma receita de bolo, você precisa de 3/4 de xícara de açúcar. Se você deseja medir essa quantidade em termos de decimal, qual é o valor decimal equivalente?",
+        "alternativas": {
+            "A": "0,75",
+            "B": "0,5",
+            "C": "0,25",
+            "D": "0,3"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A fração 3/4 representa a divisão de 3 por 4. Ao realizar essa divisão, obtém-se 0,75. Portanto, o valor decimal equivalente de 3/4 é 0,75."
+    },
+    {
+        "id": "1406629",
+        "enunciado": "Qual é a alternativa que representa a fração 142/1000 em números decimais?",
+        "alternativas": {
+            "A": "0,142",
+            "B": "0,0142",
+            "C": "1,42",
+            "D": "14,2"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter a fração 142/1000 em decimal, divide-se o numerador pelo denominador. 142 dividido por 1000 resulta em 0,142. As outras opções representam divisões incorretas."
+    },
+    {
+        "id": "2137409",
+        "enunciado": "Sendo         X         e         Y         o         numerador          e         denominador, respectivamente,          da         fração         irredutível         que         gera         a         dízima periódica         23,235235235...          Assinale         a         alternativa         que apresenta         corretamente          o         resultado         de         X         -         Y.",
+        "alternativas": {
+            "A": "21351.",
+            "B": "27548.",
+            "C": "22213.",
+            "D": "24315."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter a dízima 23,235235... em fração, seja x = 23,235235...; 1000x = 23235,235235...; 1000x - x = 23235,235235... - 23,235235... = 23212; 999x = 23212; x = 23212/999. Simplificando: 23212/999 = (23212/1.08) / (999/1.08) (aproximado) -> não. Simplificando a fração irredutível: 23212 / 999 = X/Y. x = 23 + 235/999. x = (23*999 + 235)/999 = (22977 + 235)/999 = 23212/999. A fração irredutivel é 23212/999. X=23212, Y=999. X-Y = 23212 - 999 = 22213."
+    },
+    {
+        "id": "1302121",
+        "enunciado": "Sabe-se que ao multiplicar um número por 100 obtém 19,57. Assinale a alternativa que representa corretamente este número.",
+        "alternativas": {
+            "A": "1,957.",
+            "B": "0,1957.",
+            "C": "0,01957.",
+            "D": "0,001957."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Se multiplicar um número desconhecido por 100 resulta em 19,57, o número original é 19,57 / 100, que é igual a 0,1957."
+    },
+    {
+        "id": "1698049",
+        "enunciado": "Margarida está fazendo um bolo e a receita pede ½ quilo de farinha de trigo. Qual número decimal representa essa medida?",
+        "alternativas": {
+            "A": "0,025.",
+            "B": "0,05.",
+            "C": "0,25.",
+            "D": "0,5.",
+            "E": "1,5."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Meio quilo (½ kg) em decimal é representado por 0,5. Dividir 1 por 2 resulta em 0,5. As outras alternativas representam frações diferentes de 1/2."
+    },
+    {
+        "id": "1152433",
+        "enunciado": "Qual é o número decimal que é decomposto em 3 + 0,08 + 0,005?",
+        "alternativas": {
+            "A": "3,850.",
+            "B": "3,085.",
+            "C": "3,580.",
+            "D": "3,058.",
+            "E": "5,038."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A decomposicao decimal representa a soma de unidades, decimos, centesimos e milentesimos. 3 representa 3 unidades, 0,08 representa 8 centesimos e 0,005 representa 5 milentesimos, totalizando 3,085."
+    },
+    {
+        "id": "1466643",
+        "enunciado": "Assinale a alternativa que contém uma dízima periódica.",
+        "alternativas": {
+            "A": "-0.5",
+            "B": "1/4",
+            "C": "0.272727...",
+            "D": "22"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma dízima periódica é um número decimal com uma ou mais casas decimais que se repetem infinitamente. A alternativa C (0.272727...) apresenta o algarismo '27' se repetindo sucessivamente, caracterizando uma dízima periódica simples."
+    },
+    {
+        "id": "1161540",
+        "enunciado": "A distância entre Coronel Bicaco e Porto Alegre é de aproximadamente 421 km. Ao dividir essa distância por 100, obtém -se o seguinte número decimal:",
+        "alternativas": {
+            "A": "0,421.",
+            "B": "4,21.",
+            "C": "40,21.",
+            "D": "41,12.",
+            "E": "42,1."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para dividir 421 km por 100, desloca-se a vírgula duas casas para a esquerda. Assim, 421 se torna 4,21. Logo, o número decimal obtido é 4,21."
+    },
+    {
+        "id": "1200799",
+        "enunciado": "A fração  47/100  é representada pelo seguinte número decimal:",
+        "alternativas": {
+            "A": "0,047.",
+            "B": "0,212.",
+            "C": "0,47.",
+            "D": "2,12.",
+            "E": "4,7."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para converter a fração 47/100 em número decimal, basta dividir o numerador pelo denominador. 47 dividido por 100 resulta em 0,47."
+    },
+    {
+        "id": "1331390",
+        "enunciado": "Qual alternativa representa o número decimal dezoito inteiros e três décimos?",
+        "alternativas": {
+            "A": "18,3.",
+            "B": "18,03.",
+            "C": "18,003.",
+            "D": "1,83.",
+            "E": "0,183."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O número 'dezoito inteiros' corresponde à parte inteira (18) e 'três décimos' à primeira casa decimal (0,3). Juntando, temos 18,3."
+    },
+    {
+        "id": "1144285",
+        "enunciado": "Observe as seguintes afirmativas: I – 0,7% é menor que 0,14%; II – 3% é igual a 0,03; III – 0,09 é menor que 0,18; Estão corretas:",
+        "alternativas": {
+            "A": "Somente I.",
+            "B": "Somente II.",
+            "C": "Somente III.",
+            "D": "I e II.",
+            "E": "II e III."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Analisando as afirmativas: I – 0,7% = 0,007 e 0,14% = 0,0014. Logo, 0,007 é maior que 0,0014, portanto I está incorreta. II – 3% = 0,03. A afirmação diz que 3% é igual a 0,03, o que é correto. Contudo, a questão pede para verificar a veracidade das afirmativas, e não apenas sua igualdade. 3% é igual a 3/100 = 0,03. Então II está correta. III – 0,09 é menor que 0,18. Isso é verdadeiro. Portanto, II e III estão corretas. Revisão: I é falsa (0.7% > 0.14%). II é verdadeira (3% = 0.03). III é verdadeira (0.09 < 0.18). Portanto, II e III estão corretas. A resposta é E. Revisão final: I) 0,7% = 0,007; 0,14% = 0,0014. 0,007 > 0,0014. Logo I é FALSA. II) 3% = 3/100 = 0,03. A afirmação diz 3% é IGUAL a 0,03. Logo II é VERDADEIRA. III) 0,09 < 0,18. Isso é VERDADEIRO. Logo, II e III estão corretas. A alternativa E está correta."
+    },
+    {
+        "id": "1101914",
+        "enunciado": "Qual é a forma correta de ler o número decimal 4,015?",
+        "alternativas": {
+            "A": "Quatro vírgula quinze.",
+            "B": "Quatro inteiros, um décimo e cinco centésimos.",
+            "C": "Quatro inteiros e quinze milésimos.",
+            "D": "Quatro vírgula zero, um e cinco.",
+            "E": "Quatro inteiros e quinze centésimos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O número 4,015 é lido como 'quatro inteiros e quinze milésimos', pois o 1 está na casa dos décimos e o 5 na dos milésimos."
+    },
+    {
+        "id": "1142432",
+        "enunciado": "Analise as informações a seguir:  I. Em um depósito existem chapas de ferro de diversas espessuras. João precisa comprar uma chapa com 5 mm de espessura ou o mais próximo possível a essa medida. No depósito ele só encontrou chapas com as seguintes espessuras: 5,10 mm; 5,021 mm; 4,96 mm; 4,099 mm e 4,07 mm. Assim João comprou chapas com 5,021 mm de espessura, pois eram as que mais se aproximavam da medida que precisava.  II. Saindo de São Bento do Una com destino à Recife, via BR-232, percorremos cerca de 205,8 km. Fazendo a viagem por meio da BR-101 a distância percorrida será de 255,7km. Podemos afirmar que, fazendo o 2º percurso, a distância aumenta em 50,9 km.  Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "As duas afirmativas são verdadeiras.",
+            "B": "A afirmativa I é verdadeira, e a II é falsa.",
+            "C": "A afirmativa II é verdadeira, e a I é falsa.",
+            "D": "As duas afirmativas são falsas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Afirmativa I está correta. A espessura mais próxima de 5 mm é 5,021 mm (diferença de 0,021 mm). Afirmativa II está incorreta. A diferença entre 255,7 km e 205,8 km é de 49,9 km, e não 50,9 km."
+    },
+    {
+        "id": "1096099",
+        "enunciado": "Assinale a alternativa que apresenta uma dízima periódica escrito na forma fracionária.",
+        "alternativas": {
+            "A": "2/5",
+            "B": "1/8",
+            "C": "5/4",
+            "D": "1/6",
+            "E": "1/10"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Uma dízima periódica é um número com casas decimais que se repetem infinitamente. Ao ser convertida para fração (geratriz), essa repetição é representada. A fração 1/6 resulta na dízima 0,1666..., que é periódica."
+    },
+    {
+        "id": "1032161",
+        "enunciado": "Assinale a alternativa que apresenta qual é o valor decimal que corresponde exatamente a 1 por cento.",
+        "alternativas": {
+            "A": "0,1010d",
+            "B": "0,1000",
+            "C": "0,0100",
+            "D": "0,0010",
+            "E": "0,0001"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um por cento (1%) é igual a 1/100. Em forma decimal, isso é 0,01. A alternativa C representa este valor de forma explícita com duas casas decimais após a vírgula."
+    },
+    {
+        "id": "1032853",
+        "enunciado": "Assinale a alternativa que apresenta qual é o valor decimal que corresponde exatamente a 1 por cento.",
+        "alternativas": {
+            "A": "0,1010",
+            "B": "0,1000",
+            "C": "0,0100",
+            "D": "0,0010",
+            "E": "0,0001"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "1 por cento corresponde a 1/100, que em decimal e 0,01. As alternativas C e D apresentam este valor, mas a C esta escrita de forma mais completa e comum."
+    },
+    {
+        "id": "1069562",
+        "enunciado": "Na divisão 0,5÷0,02, obtemos:",
+        "alternativas": {
+            "A": "0,025",
+            "B": "0,25",
+            "C": "2,5",
+            "D": "25",
+            "E": "250"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para dividir 0,5 por 0,02, podemos multiplicar ambos os números por 100 para remover as casas decimais: 0,5 * 100 = 50 e 0,02 * 100 = 2. Assim, a divisão se torna 50 ÷ 2, que é igual a 25. Portanto, 0,5 ÷ 0,02 = 25."
+    },
+    {
+        "id": "1264257",
+        "enunciado": "O antecessor de 4,63 é 4,62, o sucessor de 4,63 será:",
+        "alternativas": {
+            "A": "4,51.",
+            "B": "4,60.",
+            "C": "4,61.",
+            "D": "4,64.",
+            "E": "4,65."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O antecessor de um numero é o que vem imediatamente antes dele, e o sucessor é o que vem imediatamente depois. O antecessor de 4,63 é 4,62. O sucessor de 4,63 é o proximo numero na sequencia, que é 4,64. A ordem crescente dos numeros decimais na vizinhanca e 4,62; 4,63; 4,64."
+    },
+    {
+        "id": "2197420",
+        "enunciado": "Ana resolveu preparar um bolo de chocolate para o\nlanche da tarde. A receita pedia 3/4 de xícara de chocolate\nem pó, mas seu copo dosador possuía a marcação das\nmedidas somente em números decimais. Considerando-se que o copo dosador e a xícara possuem a mesma\ncapacidade, assinalar a alternativa que apresenta a\nmarcação do copo dosador que Ana deve usar na receita de\nmodo que a quantidade de chocolate em pó utilizada seja\nequivalente a 3/4 da xícara:",
+        "alternativas": {
+            "A": "0,20",
+            "B": "0,35",
+            "C": "0,75",
+            "D": "0,95"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está correta pois 3/4 é equivalente a 0,75. Convertendo a fração para decimal, divide-se o numerador (3) pelo denominador (4), resultando em 0,75."
+    },
+    {
+        "id": "1250565",
+        "enunciado": "Paulo e Celso estavam jogando basquete, e decidiram ver quem conseguiria arremessar a bola mais longe, o jogo teria apenas uma regra, só valeria a distância até o ponto onde a bola tocaria o chão pela primeira vez, e quem arremessasse mais longe seria o vencedor. Paulo arremessou a bola a uma distância de 57,37 metros. Sabendo que no fim desta brincadeira, Celso foi o vencedor, qual das distâncias abaixo, pode ter sido o arremesso de Celso?",
+        "alternativas": {
+            "A": "57 metros.",
+            "B": "56,98 metros.",
+            "C": "57,5 metros.",
+            "D": "57,348 metros."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Celso foi o vencedor, o que significa que ele arremessou a bola mais longe que Paulo. A distância de Paulo foi de 57,37 metros. Portanto, a distância de Celso deve ser maior que 57,37 metros. A alternativa C, 57,5 metros, é a única maior que a distância de Paulo."
+    },
+    {
+        "id": "1481480",
+        "enunciado": "Assinale a alternativa que apresenta corretamente o resultado para a seguinte operação envolvendo números decimais: 1,4 x 2,2",
+        "alternativas": {
+            "A": "3,08.",
+            "B": "3,20.",
+            "C": "3,28.",
+            "D": "3,40.",
+            "E": "4,10."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A multiplicação de 1,4 por 2,2 resulta em 3,08. Multiplica-se os números como se fossem inteiros (14 x 22 = 308) e depois conta-se as casas decimais totais (uma no primeiro número e uma no segundo, totalizando duas) para posicionar a vírgula no resultado."
+    },
+    {
+        "id": "1460273",
+        "enunciado": "Qual das alternativas tem a representação correta, em números decimais, para a seguinte fração 351/1000 ?",
+        "alternativas": {
+            "A": "351.",
+            "B": "35,1.",
+            "C": "0,351.",
+            "D": "3,51."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para converter a fração 351/1000 em decimal, dividimos o numerador pelo denominador. Assim, 351 dividido por 1000 resulta em 0,351, posicionado as casas decimais corretamente."
+    },
+    {
+        "id": "2002718",
+        "enunciado": "Observe as frações e suas respectivas respectivas representações decimais. I-  20/100 = 0,2 II- 4358/100 = 43,58 III- 171/10000 = 0,0171 IV - 255/10 = 25 ,5  Utilizando as igualdades acima, está correto:",
+        "alternativas": {
+            "A": "I e II, apenas",
+            "B": "I, II , III, apenas",
+            "C": "I, II, IV, apenas",
+            "D": "I, II, III e IV"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Todas as igualdades apresentadas estão corretas. A conversão de frações para decimais foi realizada adequadamente em todos os exemplos, demonstrando a correta representação."
+    }
+]

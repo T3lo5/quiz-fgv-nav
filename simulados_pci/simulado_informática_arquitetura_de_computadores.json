@@ -1,0 +1,879 @@
+[
+    {
+        "id": "2239896",
+        "enunciado": "Acerca dos fundamentos de computação, assinale a opção correta.",
+        "alternativas": {
+            "A": "A ar quitetura de computadores define o conjunto de instruções e os recursos lógicos do sistema, enquanto a organização trata da forma como esses recursos são implementados e interconectados fisicamente.",
+            "B": "Dependendo da aplicação e da quantidade de memória requerida, a memória ROM pode ser utilizada como memória adicional à memória RAM.",
+            "C": "Entre as memórias localizadas externamente ao processador, a memória cache é a mais rápida de todas e, por isso, é utilizada prioritariamente durante o armazenamento de programas em execução que não cabem na RAM.",
+            "D": "A princip al função do barramento de I/O é armazenar temporariamente dados e instruções, atuando como memória auxiliar do processador.",
+            "E": "Os dispositiv os de armazenamento óptico, como DVDs e Blu‑rays, permitem reescrita ilimitada, desde que o sistema operacional ofereça suporte a essa funcionalidade."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve corretamente a distincao entre arquitetura (conjunto de instrucoes e logica) e organizacao (implementacao fisica e interconexao). As outras alternativas contem imprecisoes sobre ROM, memoria cache, barramento de I/O e dispositivos opticos."
+    },
+    {
+        "id": "2232569",
+        "enunciado": "Sobre a arquitetura dos computadores, analise as asserções: I) O “cérebro” de qualquer computador é a Unidade Central de Processamento (UCP). II) A unidade “controle” da UCP é responsável pelo controle das instruções que entram e saem do processador. III) A UCP gerencia e processa todos os dados recebidos e gera saída. São encontradas afirmativas válidas em:",
+        "alternativas": {
+            "A": "Apenas I",
+            "B": "Apenas III",
+            "C": "I e II",
+            "D": "I, II e III",
+            "E": "III e I"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Unidade Central de Processamento (UCP), o 'cérebro' do computador, é composta pela unidade de controle e responsável por gerenciar e processar dados, além de executar instruções e gerar saídas."
+    },
+    {
+        "id": "2331126",
+        "enunciado": "Analise as afirmativas abaixo no contexto de arquitetura de computadores, acesso à memória NUMA e UMA.1. O tempo de acesso à memória NUMA independe da localização da memória relativa ao processador.2. NUMA não é uma arquitetura indicada para processadores multicore.3. A arquitetura UMA é de memória compartilhada na qual todos os processadores em uma arquitetura paralela possuem acesso à memória.Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "É correta apenas a afirmativa 3.",
+            "B": "São corretas apenas as afirmativas 1 e 2.",
+            "C": "São corretas apenas as afirmativas 1 e 3.",
+            "D": "São corretas apenas as afirmativas 2 e 3.",
+            "E": "São corretas as afirmativas 1, 2 e 3."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em NUMA, o tempo de acesso varia com a localização da memória. NUMA é projetada para multicore. UMA tem memória compartilhada e acesso igual para todos os processadores. Portanto, apenas a afirmativa 3 está correta."
+    },
+    {
+        "id": "2232577",
+        "enunciado": "A principal tarefa de um computador é a execução de um programa, que é composto por um conjunto de instruções armazenadas na memória. O processador executa as instruções definidas no programa, realizando assim o trabalho real. Selecione a opção que contém apenas componentes válidos da CPU:",
+        "alternativas": {
+            "A": "Registradores e Unidade de Controle",
+            "B": "Unidade de Controle e Paridade",
+            "C": "Núcleo Kernel e Unidade Lógica de Aritmética",
+            "D": "Registradores e Núcleo Kernel",
+            "E": "Unidade de Controle e Sistema de Arquivos"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A CPU (Unidade Central de Processamento) é composta principalmente pela Unidade de Controle (UC), que gerencia as operações, e pelos Registradores, que armazenam temporariamente dados e instruções."
+    },
+    {
+        "id": "1721697",
+        "enunciado": "Assinale a alternativa que não descreve um tipo válido de endereçamento de memória do computador.",
+        "alternativas": {
+            "A": "Registrador",
+            "B": "Cruzado",
+            "C": "Pilha",
+            "D": "Imediato",
+            "E": "Deslocamento"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Registrador, Pilha, Imediato e Deslocamento são tipos ou modos de endereçamento de memória. O termo 'Cruzado' não é um tipo de endereçamento de memória de computador reconhecido."
+    },
+    {
+        "id": "2232589",
+        "enunciado": "Trata-se de um circuito oscilante encarregado de sincronizar e estabelecer a velocidade de transferência de dados entre duas partes cruciais de um processamento. Portanto, a ele está vinculada uma medida da frequência com que as operações são executadas. O texto faz referência a um componente de um computador, conhecido como:",
+        "alternativas": {
+            "A": "Barramento",
+            "B": "Processador",
+            "C": "Memória RAM",
+            "D": "CPU",
+            "E": "Clock"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O texto descreve o 'Clock', um componente responsável por sincronizar operações e ditar a velocidade de processamento de um computador através de sua frequência. O barramento é um canal de comunicação, o processador executa instruções, a memória RAM armazena dados temporariamente e a CPU é a unidade central de processamento, mas é o clock que estabelece o ritmo."
+    },
+    {
+        "id": "1660369",
+        "enunciado": "Considerando essas arquiteturas, qual das alternativas abaixo descreve corretamente uma característica da arquitetura x64 em comparação com a arquitetura x86?",
+        "alternativas": {
+            "A": "A arquitetura x64 limita o processador a 4 GB de memória RAM.",
+            "B": "Processadores baseados em arquitetura x64 executam apenas softwares desenvolvidos para a arquitetura x64.",
+            "C": "A arquitetura x64 permite que o processador enderece uma quantidade significativamente maior de memória RAM.",
+            "D": "A arquitetura x86 oferece maior desempenho gráfico em aplicações 3D."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C é a correta. A arquitetura x64 (64 bits) permite que o processador acesse uma quantidade muito maior de memória RAM em comparação com a arquitetura x86 (32 bits). As outras alternativas estão incorretas ou são imprecisas."
+    },
+    {
+        "id": "1644761",
+        "enunciado": "Relacione a Coluna 1 à Coluna 2, associando os tipos de arquitetura às suas respectivas características. Coluna 1 1. Computadores com conjunto complexo de instruções ( CISC). 2. Computadores com conjunto reduzido de instruções ( RISC). Coluna 2 (  ) Instruções complexas. (  ) Instruções simples. (  ) Vários modos de endereçamento. (  ) Conjunto de instruções reduzido. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "1 – 2 – 1 – 2.",
+            "B": "1 – 1 – 2 – 2.",
+            "C": "2 – 1 – 1 – 2.",
+            "D": "2 – 1 – 2 – 1.",
+            "E": "2 – 2 – 1 – 1."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "CISC tem instruções complexas e múltiplos modos de endereçamento; RISC tem instruções simples e conjunto reduzido. Assim, a ordem correta é 1, 2, 1, 2."
+    },
+    {
+        "id": "1088164",
+        "enunciado": "No contexto da arquitetura de computadores, existe um conceito que se refere a trilhas físicas ou vias de comunicação que permitem a transferência de dados e sinais entre os diferentes componentes de um sistema de computador. Esses componentes atuam como estradas ou canais de comunicação que facilitam a troca de informações entre CPU (Unidade Central de Processamento), memória, periféricos e outros dispositivos dentro de um computador. Qual é o conceito que descreve CORRETAMENTE essa descrição?",
+        "alternativas": {
+            "A": "Dispositivos de Entrada e Saída de Dados.",
+            "B": "Processador.",
+            "C": "Barramentos.",
+            "D": "Softwares."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O conceito que descreve as trilhas físicas e vias de comunicação entre os componentes de um sistema de computador, como CPU, memória e periféricos, é o de Barramentos. Eles funcionam como canais para a transferência de dados e sinais."
+    },
+    {
+        "id": "1240378",
+        "enunciado": "Assinale uma característica correta de um processador de arquitetura RISC (Reduced Instruction Set Computing).",
+        "alternativas": {
+            "A": "Usa o maior conjunto de instruções entre todos os processadores.",
+            "B": "É menos comum em arquiteturas de processadores para dispositivos móveis.",
+            "C": "É um processador que usa um conjunto de instruções simples, em quantidade reduzida e muito otimizada.",
+            "D": "Ele não consegue determinar a quantidade e a complexidade das instruções suportadas por um chip."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Processadores RISC se caracterizam por um conjunto de instruções reduzido, simples e altamente otimizado. Isso permite execuções mais rápidas e eficientes, sendo comum em dispositivos que demandam baixo consumo de energia."
+    },
+    {
+        "id": "1351510",
+        "enunciado": "Considerando a definição dos componentes básicos da arquitetura de um computador, mais especificamente do processador, a proposta de Von Neumann para a construção de um computador previa que, EXCETO:",
+        "alternativas": {
+            "A": "Codificasse instruções que pudessem ser armazenadas na memória e sugeriu que se usassem cadeias de uns e zeros (binário) para codificá-lo.",
+            "B": "Armazenasse na memória as instruções e todas as informações que fossem necessárias para a execução da tarefa desejada.",
+            "C": "A Unidade Central de Processamento (UCP) fosse composta por apenas duas partes: Registradores e Unidade de Controle (UC).",
+            "D": "Ao processar o programa, as instruções fossem buscadas diretamente na memória.",
+            "E": "A UCP fosse responsável pelo processamento e execução de programas armazenados na memória principal."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A proposta de Von Neumann para a UCP previa Unidade Lógica e Aritmética (ULA) e Unidade de Controle (UC), além de registradores. A alternativa C limita a UCP a apenas duas partes, o que contraria essa arquitetura."
+    },
+    {
+        "id": "1237947",
+        "enunciado": "Em um Circuito Integrado (CI) podem ser encontradas milhares de portas lógicas construídas sobre um material semicondutor, como por exemplo, o silício. A escala de integração e consequentemente a dimensão física do CI depende da tecnologia (Lógica Transistor-Transistor (TTL) ou Semicondutor Complementar de Óxido Metálico (CMOS)) e dos dispositivos (Transistor Bipolar de Junção (TBJ) ou Transistor de Efeito de Campo (FET)) utilizados na construção do CI. Os CIs serão menores e comportarão maior número de portas lógicas, à medida que for intensificado o uso de dispositivos do tipo",
+        "alternativas": {
+            "A": "TBJ, CI bipolares e família TTL.",
+            "B": "FET, CI unipolares e família CMOS.",
+            "C": "FET, CI unipolares e família TTL.",
+            "D": "TBJ, CI bipolares e família CMOS."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A miniaturização e aumento da densidade de portas lógicas em CIs são obtidos com tecnologias que utilizam dispositivos menores e mais eficientes. Transistores de Efeito de Campo (FET), especialmente os MOSFETs característicos das famílias CMOS, permitem maior integração e menor consumo de energia comparados aos Transistores Bipolares de Junção (TBJ) e à lógica TTL."
+    },
+    {
+        "id": "1165821",
+        "enunciado": "A influência da arquitetura de von Neumann é vasta, afetando não apenas o design e a construção de computadores, mas também a forma como pensamos sobre programação e processamento de dados. Embora alternativas como a arquitetura de Harvard tenham sido exploradas, especialmente em aplicações que exigem processamento de alta velocidade e de eficiência energética, o modelo de von Neumann continua a ser um pilar fundamental da ciência da computação. Uma característica da arquitetura von Neumann é:",
+        "alternativas": {
+            "A": "execução paralela de instruções.",
+            "B": "separação entre memória de programa e dados.",
+            "C": "uso de pipeline no processador para aumentar a execução de instruções.",
+            "D": "unidade de armazenamento e processamento combinadas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A arquitetura de Von Neumann é caracterizada pela combinação da unidade de processamento e a unidade de armazenamento em uma única estrutura, com um barramento compartilhado para dados e instruções, diferindo da arquitetura de Harvard."
+    },
+    {
+        "id": "1325770",
+        "enunciado": "Em relação à arquitetura de computadores e sua evolução com o passar dos anos, a lacuna entre o desempenho da CPU e o do disco ficou cada vez maior. Assim, muitas técnicas foram utilizadas para acelerar o desempenho da CPU, inclusive opções de utilização de dispositivos de E/S (entrada e saída) paralela com organizações específicas de disco, para melhorar o desempenho e a confiabilidade desse disco. Adotadas pela indústria, essas ideias deram origem a uma nova classe de dispositivos de E/S, denominados:",
+        "alternativas": {
+            "A": "SLED.",
+            "B": "RAID.",
+            "C": "RISC.",
+            "D": "CISC.",
+            "E": "DISK."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A lacuna entre CPU e disco levou ao desenvolvimento de técnicas para acelerar o acesso e melhorar a confiabilidade do disco. Uma classe de dispositivos de E/S que surgiu a partir dessas ideias para melhorar o desempenho e a confiabilidade de discos é o RAID (Redundant Array of Independent Disks)."
+    },
+    {
+        "id": "1184468",
+        "enunciado": "Considerando que um microcomputador possui um Registrador de Dados de Memória de 32 bits, um Registrador de Endereço de Memória com capacidade para armazenar números com 20 bits e que cada célula deste computador armazena dados de 8 bits, a quantidade de células de memória lidas em uma única operação de leitura é igual a",
+        "alternativas": {
+            "A": "4.",
+            "B": "8.",
+            "C": "20.",
+            "D": "32."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Registrador de Dados de Memória (MDR) tem 32 bits, e cada célula armazena 8 bits (1 byte). Para ler 32 bits, são necessárias 32 / 8 = 4 células de memória."
+    },
+    {
+        "id": "1184469",
+        "enunciado": "Sobre o controlador de entrada e saída (E/S), no contexto da arquitetura de computadores, é correto afirmar que",
+        "alternativas": {
+            "A": "converte dados digitais em sinais analógicos para dispositivos de saída.",
+            "B": "armazena temporariamente dados frequentemente acessados, reduzindo a latência de leitura.",
+            "C": "processa os dados nos dispositivos de entrada antes de enviá-los para a CPU.",
+            "D": "realiza o direct memory access (DMA), ou seja, acesso direto à memória, quando lê ou escreve blocos de memória ignorando a CPU."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O controlador de E/S, em conjunto com o DMA, permite que dispositivos de armazenamento transfiram dados diretamente para a memória sem intervenção constante da CPU, otimizando o processamento."
+    },
+    {
+        "id": "1184470",
+        "enunciado": "Sobre as estratégias de armazenamento na memória cache, é correto afirmar que pode ser realizada utilizando o mapeamento",
+        "alternativas": {
+            "A": "associativo. Quando este for o caso, cada bloco da memória principal é mapeado para uma posição fixa da memória cache.",
+            "B": "direto. Quando este for o caso, cada bloco da memória principal é mapeado para uma posição da memória cache, utilizando o algoritmo de substituição least-recently used (LRU).",
+            "C": "associativo. Quando este for o caso, cada bloco da memória principal pode ser alocado em qualquer linha da memória cache.",
+            "D": "direto. Quando este for o caso, cada bloco da memória principal é mapeado para uma posição da memória cache, utilizando o algoritmo de substituição least-frequently used (LFU)."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No mapeamento associativo, cada bloco da memória principal pode ser alocado em qualquer linha da memória cache, oferecendo maior flexibilidade e melhor desempenho em comparação ao direto."
+    },
+    {
+        "id": "1356007",
+        "enunciado": "Cada um dos componentes de um processador possui uma função específica, e trabalham em conjunto para executar instruções e processar dados.  A tarefa de acessar a memória principal em busca de instruções é efetuada pela(o)",
+        "alternativas": {
+            "A": "unidade lógica e aritmética.",
+            "B": "registrador de instruções.",
+            "C": "unidade de gerenciamento de memória.",
+            "D": "unidade de controle.",
+            "E": "gerenciador de acesso externo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A unidade de controle é responsável por buscar instruções na memória principal, decodificá-las e gerar os sinais de controle necessários para que as outras unidades do processador executem a tarefa, incluindo o acesso à memória."
+    },
+    {
+        "id": "1356009",
+        "enunciado": "A memória cache atua como um intermediário entre a CPU e a memória principal, sendo organizada em níveis.  Sobre este tipo de memória, analise as afirmativas a seguir.  I. A memória cache de menor nível (L1) é a que possui o maior tempo de acesso.  II. Os dados armazenados na memória cache de nível L1 são mais frequentemente acessados que aqueles no nível L3.  III. O tempo de acesso à memória cache não influencia o desempenho do processador.  Está correto o que se afirma em",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "II, apenas.",
+            "C": "III, apenas.",
+            "D": "II e III, apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I está incorreta: a memória cache de menor nível (L1) tem o menor tempo de acesso. A afirmativa II está correta: dados mais acessados ficam em níveis mais próximos da CPU (L1 > L2 > L3). A afirmativa III está incorreta: o tempo de acesso à cache impacta diretamente o desempenho."
+    },
+    {
+        "id": "1356011",
+        "enunciado": "Os processadores em geral, no que tange à sua arquitetura, podem ser classificados em dois grandes grupos: RISC e CISC.  Os processadores com arquitetura",
+        "alternativas": {
+            "A": "RISC empregam a técnica de pipelining  mais eficazmente.",
+            "B": "CISC facilitam a otimização do código por compiladores.",
+            "C": "CISC aceitam instruções apenas de um tamanho fixo pré -determinado.",
+            "D": "RISC tendem a ser mais complexos do ponto de vista do hardware.",
+            "E": "RISC empregam microinstruções para os comandos mais complexos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A arquitetura RISC (Reduced Instruction Set Computer) é conhecida por utilizar um conjunto menor de instruções, mais simples e de tamanho fixo, o que permite uma execução mais rápida e mais eficaz da técnica de pipelining, onde múltiplas instruções são processadas em estágios paralelos."
+    },
+    {
+        "id": "1356017",
+        "enunciado": "O recurso que permite que dispositivos periféricos, como controladores de disco, placas de rede e placas de vídeo, acessem diretamente a memória do sistema para ler ou gravar dados sem a necessidade de intervenção da CPU é o(a)",
+        "alternativas": {
+            "A": "E/S programada com espera ocupada.",
+            "B": "Write back.",
+            "C": "E/S por interrupção.",
+            "D": "Interjeição.",
+            "E": "DMA."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "DMA (Direct Memory Access) permite que dispositivos de E/S transfiram dados diretamente para a memória principal sem a participação ativa da CPU, liberando-a para realizar outras tarefas e aumentando a eficiência do sistema."
+    },
+    {
+        "id": "1356019",
+        "enunciado": "Devido à natureza periódica para consultar os controladores de E/S, estratégias de E/S programadas podem introduzir latência em um sistema computacional. Se o intervalo entre as verificações for muito longo, pode haver um atraso na detecção de eventos. Por  outro lado, se o intervalo for muito curto, pode ocorrer um aumento no consumo da CPU. Portanto, é essencial encontrar um equilíbrio adequado entre a latência e o consumo de recursos ao fazer uso desse tipo de técnica.  Diante do exposto, assinale a opção  que apresenta um método de E/S programada.",
+        "alternativas": {
+            "A": "DDIO.",
+            "B": "Direct Cache Access.",
+            "C": "Pipelining.",
+            "D": "Polling.",
+            "E": "SATA."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Polling (ou sonagem) é um método em que o processador verifica periodicamente o status de um dispositivo de E/S para determinar se ele está pronto para receber ou enviar dados. As outras opções se referem a outras tecnologias ou conceitos de computação."
+    },
+    {
+        "id": "1678575",
+        "enunciado": "Em organização de computadores, a arquitetura de Von Neumann define a estrutura e a funcionalidade do computador moderno. Nessa arquitetura, Von Neumann sugeriu o uso da numeração __________ para a representação interna dos números em vez da numeração __________, reduzindo, dessa forma, a complexidade dos circuitos. Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": {
+            "A": "binária – hexadecimal.",
+            "B": "binária – decimal.",
+            "C": "decimal – binária.",
+            "D": "decimal – hexadecimal.",
+            "E": "hexadecimal – decimal."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A arquitetura de Von Neumann propôs o uso da numeração binária para simplificar os circuitos eletrônicos e a representação dos dados, em contraste com a numeração decimal, que exigiria circuitos mais complexos."
+    },
+    {
+        "id": "1143619",
+        "enunciado": "Um computador consiste em um conjunto de componentes ou módulos de três tipos básicos - processador, memória e E/S - que se comunicam entre si, sendo necessário haver caminhos para a conexão desses módulos. O conjunto de caminhos conectando esses diversos módulos é a estrutura de interconexão, e o projeto dessa estrutura depende das trocas que precisam ser feitas entre os módulos. A estrutura de interconexão que permite ao processador ler uma instrução ou uma unidade de dados da memória é a(o)",
+        "alternativas": {
+            "A": "E/S de ou para a memória",
+            "B": "entrada e saída para o processador",
+            "C": "memória para o processador",
+            "D": "processador para memória",
+            "E": "processador para entrada e saída"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A estrutura de interconexão que permite ao processador acessar dados e instruções da memória é a via de comunicação 'memória para o processador', pois o processador precisa ler essas informações para executar tarefas."
+    },
+    {
+        "id": "1045927",
+        "enunciado": "É comum citarmos que o processador do computador é o cérebro da máquina, devido a este componente ser responsável por todo o processamento, seja ele single ou multi thread, a cada ano as fabricantes tentam inovar sua arquitetura, a fim de, maximizar sua velocidade de processamento, bem como redução de tamanho/custo. Assinale abaixo qual a característica que comumente é associada aos processadores baseados na arquitetura ARM.",
+        "alternativas": {
+            "A": "Arquitetura de 256bits",
+            "B": "Alto desempenho em aplicações de reconhecimento de padrões e processamento de imagem",
+            "C": "Baixo consumo de energia e eficiência energética",
+            "D": "Compatibilidade nativa com qualquer software"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Arquiteturas baseadas em ARM são conhecidas por seu baixo consumo de energia e alta eficiência energética, o que as torna ideais para dispositivos móveis e embarcados. As outras opções não são características primárias ou exclusivas da ARM."
+    },
+    {
+        "id": "1165294",
+        "enunciado": "Em Arquitetura de Computadores, um barramento é um conjunto de linhas de comunicação (condutor elétrico ou fibra óptica) que permitem a interligação entre dispositivos de um sistema de computação. Que tipo de barramento é dedicado à memória estática de alto desempenho localizada próximo ao processador?",
+        "alternativas": {
+            "A": "Barramento de Dados.",
+            "B": "Barramento de Memória.",
+            "C": "Barramento de Entrada e Saída.",
+            "D": "Barramento de Processamento.",
+            "E": "Barramento de Cache."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A memória cache é uma memória de altíssimo desempenho localizada próxima ao processador para acelerar o acesso a dados frequentemente utilizados."
+    },
+    {
+        "id": "1165296",
+        "enunciado": "A unidade central de processamento ou CPU (Central Processing Unit), também conhecido como processador, é a parte de um sistema computacional, que realiza as instruções de um programa de computador, para executar a aritmética básica, lógica, e a entrada e saída de dados. Os Registradores são responsáveis por:",
+        "alternativas": {
+            "A": "Decodificar instruções.",
+            "B": "Armazenar dados para o processamento.",
+            "C": "Buscar operandos.",
+            "D": "Controlar o ponto de execução e desvios.",
+            "E": "Executar operações lógicas e aritméticas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os registradores dentro da CPU são unidades de memória de acesso muito rápido, usadas para armazenar temporariamente dados e instruções que estão sendo ativamente processados ou que serão necessários em breve pelo processador."
+    },
+    {
+        "id": "1200226",
+        "enunciado": "Considerando os conceitos do modelo Von Neumann, referentes à arquitetura de um computador, analise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n\n(  ) Dados e instruções são armazenados em uma única memória de leitura e escrita, denominada memória principal.\n(  ) A execução ocorre em um padrão sequencial (a menos que modificado explicitamente) de uma instrução para a seguinte.\n(  ) O conteúdo da memória principal é endereçável de acordo com o tipo de dados contido nela, sem considerar a localização.\n\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "V – F – F.",
+            "B": "V – V – F.",
+            "C": "V – F – V.",
+            "D": "F – V – F.",
+            "E": "F – V – V."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A primeira assertiva é verdadeira: Von Neumann une dados e instruções na mesma memória. A segunda é verdadeira: a execução é sequencial. A terceira é falsa: o conteúdo é endereçável pela localização, não pelo tipo de dados após a leitura."
+    },
+    {
+        "id": "1169370",
+        "enunciado": "Acerca da arquitetura de processadores, julgue as afirmações abaixo. I. A arquitetura RISC (Reduced Instruction Set Computing) possui um conjunto de instruções mais simples, resultando em ciclos de clock mais longos. II. A arquitetura CISC (Complex Instruction Set Computing) é caracterizada por um conjunto de instruções mais complexo e variado. III. Os processadores baseados na arquitetura x86 são predominantemente associados à arquitetura CISC (Complex Instruction Set Computing), enquanto os processadores RISC (Reduced Instruction Set Computing) têm uma arquitetura diferente. Está(ão) CORRETA(S) a(s) seguinte(s) proposição(ões).",
+        "alternativas": {
+            "A": "apenas III;",
+            "B": "apenas I e III;",
+            "C": "apenas II e III;",
+            "D": "apenas II;",
+            "E": "Apenas I."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A arquitetura RISC usa instruções simples e ciclos curtos, enquanto CISC usa instruções complexas. Os processadores x86 são CISC."
+    },
+    {
+        "id": "2095616",
+        "enunciado": "Ao se examinar um sistema padrão de microcomputador com arquitetura Von Neumann, de forma global, exibida na figura, destacam-se os seguintes blocos: Registrador de Instrução (RI); Contador de programa ('Program Counter - PC'); Acumulador; Apontador de pilha ('Stack Pointer - SP'); Unidade Lógica e Aritmética (ULA); Decodificador de instruções; Unidade de controle; Registradores auxiliares; e Flags. O registrador que aponta para o endereço de retorno de sub-rotina é o bloco:",
+        "alternativas": {
+            "A": "Registrador de Instrução (RI)",
+            "B": "Decodificador de instruções",
+            "C": "Apontador de pilha ('Stack Pointer - SP')",
+            "D": "Unidade de controle",
+            "E": "Flags"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Em arquiteturas de Von Neumann, o Stack Pointer (SP) gerencia a pilha, que é usada, entre outras coisas, para armazenar o endereço de retorno de chamadas de sub-rotina, permitindo que a execução retorne ao ponto correto após a sub-rotina ser concluída."
+    },
+    {
+        "id": "2239896",
+        "enunciado": "Acerca dos fundamentos de computação, assinale a opção correta.",
+        "alternativas": {
+            "A": "A ar quitetura de computadores define o conjunto de instruções e os recursos lógicos do sistema, enquanto a organização trata da forma como esses recursos são implementados e interconectados fisicamente.",
+            "B": "Dependendo da aplicação e da quantidade de memória requerida, a memória ROM pode ser utilizada como memória adicional à memória RAM.",
+            "C": "Entre as memórias localizadas externamente ao processador, a memória cache é a mais rápida de todas e, por isso, é utilizada prioritariamente durante o armazenamento de programas em execução que não cabem na RAM.",
+            "D": "A princip al função do barramento de I/O é armazenar temporariamente dados e instruções, atuando como memória auxiliar do processador.",
+            "E": "Os dispositiv os de armazenamento óptico, como DVDs e Blu‑rays, permitem reescrita ilimitada, desde que o sistema operacional ofereça suporte a essa funcionalidade."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve corretamente a distincao entre arquitetura (conjunto de instrucoes e logica) e organizacao (implementacao fisica e interconexao). As outras alternativas contem imprecisoes sobre ROM, memoria cache, barramento de I/O e dispositivos opticos."
+    },
+    {
+        "id": "2232569",
+        "enunciado": "Sobre a arquitetura dos computadores, analise as asserções: I) O “cérebro” de qualquer computador é a Unidade Central de Processamento (UCP). II) A unidade “controle” da UCP é responsável pelo controle das instruções que entram e saem do processador. III) A UCP gerencia e processa todos os dados recebidos e gera saída. São encontradas afirmativas válidas em:",
+        "alternativas": {
+            "A": "Apenas I",
+            "B": "Apenas III",
+            "C": "I e II",
+            "D": "I, II e III",
+            "E": "III e I"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Unidade Central de Processamento (UCP), o 'cérebro' do computador, é composta pela unidade de controle e responsável por gerenciar e processar dados, além de executar instruções e gerar saídas."
+    },
+    {
+        "id": "2331126",
+        "enunciado": "Analise as afirmativas abaixo no contexto de arquitetura de computadores, acesso à memória NUMA e UMA.1. O tempo de acesso à memória NUMA independe da localização da memória relativa ao processador.2. NUMA não é uma arquitetura indicada para processadores multicore.3. A arquitetura UMA é de memória compartilhada na qual todos os processadores em uma arquitetura paralela possuem acesso à memória.Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "É correta apenas a afirmativa 3.",
+            "B": "São corretas apenas as afirmativas 1 e 2.",
+            "C": "São corretas apenas as afirmativas 1 e 3.",
+            "D": "São corretas apenas as afirmativas 2 e 3.",
+            "E": "São corretas as afirmativas 1, 2 e 3."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em NUMA, o tempo de acesso varia com a localização da memória. NUMA é projetada para multicore. UMA tem memória compartilhada e acesso igual para todos os processadores. Portanto, apenas a afirmativa 3 está correta."
+    },
+    {
+        "id": "2232577",
+        "enunciado": "A principal tarefa de um computador é a execução de um programa, que é composto por um conjunto de instruções armazenadas na memória. O processador executa as instruções definidas no programa, realizando assim o trabalho real. Selecione a opção que contém apenas componentes válidos da CPU:",
+        "alternativas": {
+            "A": "Registradores e Unidade de Controle",
+            "B": "Unidade de Controle e Paridade",
+            "C": "Núcleo Kernel e Unidade Lógica de Aritmética",
+            "D": "Registradores e Núcleo Kernel",
+            "E": "Unidade de Controle e Sistema de Arquivos"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A CPU (Unidade Central de Processamento) é composta principalmente pela Unidade de Controle (UC), que gerencia as operações, e pelos Registradores, que armazenam temporariamente dados e instruções."
+    },
+    {
+        "id": "1721697",
+        "enunciado": "Assinale a alternativa que não descreve um tipo válido de endereçamento de memória do computador.",
+        "alternativas": {
+            "A": "Registrador",
+            "B": "Cruzado",
+            "C": "Pilha",
+            "D": "Imediato",
+            "E": "Deslocamento"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Registrador, Pilha, Imediato e Deslocamento são tipos ou modos de endereçamento de memória. O termo 'Cruzado' não é um tipo de endereçamento de memória de computador reconhecido."
+    },
+    {
+        "id": "2232589",
+        "enunciado": "Trata-se de um circuito oscilante encarregado de sincronizar e estabelecer a velocidade de transferência de dados entre duas partes cruciais de um processamento. Portanto, a ele está vinculada uma medida da frequência com que as operações são executadas. O texto faz referência a um componente de um computador, conhecido como:",
+        "alternativas": {
+            "A": "Barramento",
+            "B": "Processador",
+            "C": "Memória RAM",
+            "D": "CPU",
+            "E": "Clock"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O texto descreve o 'Clock', um componente responsável por sincronizar operações e ditar a velocidade de processamento de um computador através de sua frequência. O barramento é um canal de comunicação, o processador executa instruções, a memória RAM armazena dados temporariamente e a CPU é a unidade central de processamento, mas é o clock que estabelece o ritmo."
+    },
+    {
+        "id": "1660369",
+        "enunciado": "Considerando essas arquiteturas, qual das alternativas abaixo descreve corretamente uma característica da arquitetura x64 em comparação com a arquitetura x86?",
+        "alternativas": {
+            "A": "A arquitetura x64 limita o processador a 4 GB de memória RAM.",
+            "B": "Processadores baseados em arquitetura x64 executam apenas softwares desenvolvidos para a arquitetura x64.",
+            "C": "A arquitetura x64 permite que o processador enderece uma quantidade significativamente maior de memória RAM.",
+            "D": "A arquitetura x86 oferece maior desempenho gráfico em aplicações 3D."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C é a correta. A arquitetura x64 (64 bits) permite que o processador acesse uma quantidade muito maior de memória RAM em comparação com a arquitetura x86 (32 bits). As outras alternativas estão incorretas ou são imprecisas."
+    },
+    {
+        "id": "1644761",
+        "enunciado": "Relacione a Coluna 1 à Coluna 2, associando os tipos de arquitetura às suas respectivas características. Coluna 1 1. Computadores com conjunto complexo de instruções ( CISC). 2. Computadores com conjunto reduzido de instruções ( RISC). Coluna 2 (  ) Instruções complexas. (  ) Instruções simples. (  ) Vários modos de endereçamento. (  ) Conjunto de instruções reduzido. A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "1 – 2 – 1 – 2.",
+            "B": "1 – 1 – 2 – 2.",
+            "C": "2 – 1 – 1 – 2.",
+            "D": "2 – 1 – 2 – 1.",
+            "E": "2 – 2 – 1 – 1."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "CISC tem instruções complexas e múltiplos modos de endereçamento; RISC tem instruções simples e conjunto reduzido. Assim, a ordem correta é 1, 2, 1, 2."
+    },
+    {
+        "id": "1088164",
+        "enunciado": "No contexto da arquitetura de computadores, existe um conceito que se refere a trilhas físicas ou vias de comunicação que permitem a transferência de dados e sinais entre os diferentes componentes de um sistema de computador. Esses componentes atuam como estradas ou canais de comunicação que facilitam a troca de informações entre CPU (Unidade Central de Processamento), memória, periféricos e outros dispositivos dentro de um computador. Qual é o conceito que descreve CORRETAMENTE essa descrição?",
+        "alternativas": {
+            "A": "Dispositivos de Entrada e Saída de Dados.",
+            "B": "Processador.",
+            "C": "Barramentos.",
+            "D": "Softwares."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O conceito que descreve as trilhas físicas e vias de comunicação entre os componentes de um sistema de computador, como CPU, memória e periféricos, é o de Barramentos. Eles funcionam como canais para a transferência de dados e sinais."
+    },
+    {
+        "id": "1240378",
+        "enunciado": "Assinale uma característica correta de um processador de arquitetura RISC (Reduced Instruction Set Computing).",
+        "alternativas": {
+            "A": "Usa o maior conjunto de instruções entre todos os processadores.",
+            "B": "É menos comum em arquiteturas de processadores para dispositivos móveis.",
+            "C": "É um processador que usa um conjunto de instruções simples, em quantidade reduzida e muito otimizada.",
+            "D": "Ele não consegue determinar a quantidade e a complexidade das instruções suportadas por um chip."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Processadores RISC se caracterizam por um conjunto de instruções reduzido, simples e altamente otimizado. Isso permite execuções mais rápidas e eficientes, sendo comum em dispositivos que demandam baixo consumo de energia."
+    },
+    {
+        "id": "1351510",
+        "enunciado": "Considerando a definição dos componentes básicos da arquitetura de um computador, mais especificamente do processador, a proposta de Von Neumann para a construção de um computador previa que, EXCETO:",
+        "alternativas": {
+            "A": "Codificasse instruções que pudessem ser armazenadas na memória e sugeriu que se usassem cadeias de uns e zeros (binário) para codificá-lo.",
+            "B": "Armazenasse na memória as instruções e todas as informações que fossem necessárias para a execução da tarefa desejada.",
+            "C": "A Unidade Central de Processamento (UCP) fosse composta por apenas duas partes: Registradores e Unidade de Controle (UC).",
+            "D": "Ao processar o programa, as instruções fossem buscadas diretamente na memória.",
+            "E": "A UCP fosse responsável pelo processamento e execução de programas armazenados na memória principal."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A proposta de Von Neumann para a UCP previa Unidade Lógica e Aritmética (ULA) e Unidade de Controle (UC), além de registradores. A alternativa C limita a UCP a apenas duas partes, o que contraria essa arquitetura."
+    },
+    {
+        "id": "1237947",
+        "enunciado": "Em um Circuito Integrado (CI) podem ser encontradas milhares de portas lógicas construídas sobre um material semicondutor, como por exemplo, o silício. A escala de integração e consequentemente a dimensão física do CI depende da tecnologia (Lógica Transistor-Transistor (TTL) ou Semicondutor Complementar de Óxido Metálico (CMOS)) e dos dispositivos (Transistor Bipolar de Junção (TBJ) ou Transistor de Efeito de Campo (FET)) utilizados na construção do CI. Os CIs serão menores e comportarão maior número de portas lógicas, à medida que for intensificado o uso de dispositivos do tipo",
+        "alternativas": {
+            "A": "TBJ, CI bipolares e família TTL.",
+            "B": "FET, CI unipolares e família CMOS.",
+            "C": "FET, CI unipolares e família TTL.",
+            "D": "TBJ, CI bipolares e família CMOS."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A miniaturização e aumento da densidade de portas lógicas em CIs são obtidos com tecnologias que utilizam dispositivos menores e mais eficientes. Transistores de Efeito de Campo (FET), especialmente os MOSFETs característicos das famílias CMOS, permitem maior integração e menor consumo de energia comparados aos Transistores Bipolares de Junção (TBJ) e à lógica TTL."
+    },
+    {
+        "id": "1165821",
+        "enunciado": "A influência da arquitetura de von Neumann é vasta, afetando não apenas o design e a construção de computadores, mas também a forma como pensamos sobre programação e processamento de dados. Embora alternativas como a arquitetura de Harvard tenham sido exploradas, especialmente em aplicações que exigem processamento de alta velocidade e de eficiência energética, o modelo de von Neumann continua a ser um pilar fundamental da ciência da computação. Uma característica da arquitetura von Neumann é:",
+        "alternativas": {
+            "A": "execução paralela de instruções.",
+            "B": "separação entre memória de programa e dados.",
+            "C": "uso de pipeline no processador para aumentar a execução de instruções.",
+            "D": "unidade de armazenamento e processamento combinadas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A arquitetura de Von Neumann é caracterizada pela combinação da unidade de processamento e a unidade de armazenamento em uma única estrutura, com um barramento compartilhado para dados e instruções, diferindo da arquitetura de Harvard."
+    },
+    {
+        "id": "1325770",
+        "enunciado": "Em relação à arquitetura de computadores e sua evolução com o passar dos anos, a lacuna entre o desempenho da CPU e o do disco ficou cada vez maior. Assim, muitas técnicas foram utilizadas para acelerar o desempenho da CPU, inclusive opções de utilização de dispositivos de E/S (entrada e saída) paralela com organizações específicas de disco, para melhorar o desempenho e a confiabilidade desse disco. Adotadas pela indústria, essas ideias deram origem a uma nova classe de dispositivos de E/S, denominados:",
+        "alternativas": {
+            "A": "SLED.",
+            "B": "RAID.",
+            "C": "RISC.",
+            "D": "CISC.",
+            "E": "DISK."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A lacuna entre CPU e disco levou ao desenvolvimento de técnicas para acelerar o acesso e melhorar a confiabilidade do disco. Uma classe de dispositivos de E/S que surgiu a partir dessas ideias para melhorar o desempenho e a confiabilidade de discos é o RAID (Redundant Array of Independent Disks)."
+    },
+    {
+        "id": "1184468",
+        "enunciado": "Considerando que um microcomputador possui um Registrador de Dados de Memória de 32 bits, um Registrador de Endereço de Memória com capacidade para armazenar números com 20 bits e que cada célula deste computador armazena dados de 8 bits, a quantidade de células de memória lidas em uma única operação de leitura é igual a",
+        "alternativas": {
+            "A": "4.",
+            "B": "8.",
+            "C": "20.",
+            "D": "32."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Registrador de Dados de Memória (MDR) tem 32 bits, e cada célula armazena 8 bits (1 byte). Para ler 32 bits, são necessárias 32 / 8 = 4 células de memória."
+    },
+    {
+        "id": "1184469",
+        "enunciado": "Sobre o controlador de entrada e saída (E/S), no contexto da arquitetura de computadores, é correto afirmar que",
+        "alternativas": {
+            "A": "converte dados digitais em sinais analógicos para dispositivos de saída.",
+            "B": "armazena temporariamente dados frequentemente acessados, reduzindo a latência de leitura.",
+            "C": "processa os dados nos dispositivos de entrada antes de enviá-los para a CPU.",
+            "D": "realiza o direct memory access (DMA), ou seja, acesso direto à memória, quando lê ou escreve blocos de memória ignorando a CPU."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O controlador de E/S, em conjunto com o DMA, permite que dispositivos de armazenamento transfiram dados diretamente para a memória sem intervenção constante da CPU, otimizando o processamento."
+    },
+    {
+        "id": "1184470",
+        "enunciado": "Sobre as estratégias de armazenamento na memória cache, é correto afirmar que pode ser realizada utilizando o mapeamento",
+        "alternativas": {
+            "A": "associativo. Quando este for o caso, cada bloco da memória principal é mapeado para uma posição fixa da memória cache.",
+            "B": "direto. Quando este for o caso, cada bloco da memória principal é mapeado para uma posição da memória cache, utilizando o algoritmo de substituição least-recently used (LRU).",
+            "C": "associativo. Quando este for o caso, cada bloco da memória principal pode ser alocado em qualquer linha da memória cache.",
+            "D": "direto. Quando este for o caso, cada bloco da memória principal é mapeado para uma posição da memória cache, utilizando o algoritmo de substituição least-frequently used (LFU)."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No mapeamento associativo, cada bloco da memória principal pode ser alocado em qualquer linha da memória cache, oferecendo maior flexibilidade e melhor desempenho em comparação ao direto."
+    },
+    {
+        "id": "1356007",
+        "enunciado": "Cada um dos componentes de um processador possui uma função específica, e trabalham em conjunto para executar instruções e processar dados.  A tarefa de acessar a memória principal em busca de instruções é efetuada pela(o)",
+        "alternativas": {
+            "A": "unidade lógica e aritmética.",
+            "B": "registrador de instruções.",
+            "C": "unidade de gerenciamento de memória.",
+            "D": "unidade de controle.",
+            "E": "gerenciador de acesso externo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A unidade de controle é responsável por buscar instruções na memória principal, decodificá-las e gerar os sinais de controle necessários para que as outras unidades do processador executem a tarefa, incluindo o acesso à memória."
+    },
+    {
+        "id": "1356009",
+        "enunciado": "A memória cache atua como um intermediário entre a CPU e a memória principal, sendo organizada em níveis.  Sobre este tipo de memória, analise as afirmativas a seguir.  I. A memória cache de menor nível (L1) é a que possui o maior tempo de acesso.  II. Os dados armazenados na memória cache de nível L1 são mais frequentemente acessados que aqueles no nível L3.  III. O tempo de acesso à memória cache não influencia o desempenho do processador.  Está correto o que se afirma em",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "II, apenas.",
+            "C": "III, apenas.",
+            "D": "II e III, apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I está incorreta: a memória cache de menor nível (L1) tem o menor tempo de acesso. A afirmativa II está correta: dados mais acessados ficam em níveis mais próximos da CPU (L1 > L2 > L3). A afirmativa III está incorreta: o tempo de acesso à cache impacta diretamente o desempenho."
+    },
+    {
+        "id": "1356011",
+        "enunciado": "Os processadores em geral, no que tange à sua arquitetura, podem ser classificados em dois grandes grupos: RISC e CISC.  Os processadores com arquitetura",
+        "alternativas": {
+            "A": "RISC empregam a técnica de pipelining  mais eficazmente.",
+            "B": "CISC facilitam a otimização do código por compiladores.",
+            "C": "CISC aceitam instruções apenas de um tamanho fixo pré -determinado.",
+            "D": "RISC tendem a ser mais complexos do ponto de vista do hardware.",
+            "E": "RISC empregam microinstruções para os comandos mais complexos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A arquitetura RISC (Reduced Instruction Set Computer) é conhecida por utilizar um conjunto menor de instruções, mais simples e de tamanho fixo, o que permite uma execução mais rápida e mais eficaz da técnica de pipelining, onde múltiplas instruções são processadas em estágios paralelos."
+    },
+    {
+        "id": "1356017",
+        "enunciado": "O recurso que permite que dispositivos periféricos, como controladores de disco, placas de rede e placas de vídeo, acessem diretamente a memória do sistema para ler ou gravar dados sem a necessidade de intervenção da CPU é o(a)",
+        "alternativas": {
+            "A": "E/S programada com espera ocupada.",
+            "B": "Write back.",
+            "C": "E/S por interrupção.",
+            "D": "Interjeição.",
+            "E": "DMA."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "DMA (Direct Memory Access) permite que dispositivos de E/S transfiram dados diretamente para a memória principal sem a participação ativa da CPU, liberando-a para realizar outras tarefas e aumentando a eficiência do sistema."
+    },
+    {
+        "id": "1356019",
+        "enunciado": "Devido à natureza periódica para consultar os controladores de E/S, estratégias de E/S programadas podem introduzir latência em um sistema computacional. Se o intervalo entre as verificações for muito longo, pode haver um atraso na detecção de eventos. Por  outro lado, se o intervalo for muito curto, pode ocorrer um aumento no consumo da CPU. Portanto, é essencial encontrar um equilíbrio adequado entre a latência e o consumo de recursos ao fazer uso desse tipo de técnica.  Diante do exposto, assinale a opção  que apresenta um método de E/S programada.",
+        "alternativas": {
+            "A": "DDIO.",
+            "B": "Direct Cache Access.",
+            "C": "Pipelining.",
+            "D": "Polling.",
+            "E": "SATA."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Polling (ou sonagem) é um método em que o processador verifica periodicamente o status de um dispositivo de E/S para determinar se ele está pronto para receber ou enviar dados. As outras opções se referem a outras tecnologias ou conceitos de computação."
+    },
+    {
+        "id": "1678575",
+        "enunciado": "Em organização de computadores, a arquitetura de Von Neumann define a estrutura e a funcionalidade do computador moderno. Nessa arquitetura, Von Neumann sugeriu o uso da numeração __________ para a representação interna dos números em vez da numeração __________, reduzindo, dessa forma, a complexidade dos circuitos. Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": {
+            "A": "binária – hexadecimal.",
+            "B": "binária – decimal.",
+            "C": "decimal – binária.",
+            "D": "decimal – hexadecimal.",
+            "E": "hexadecimal – decimal."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A arquitetura de Von Neumann propôs o uso da numeração binária para simplificar os circuitos eletrônicos e a representação dos dados, em contraste com a numeração decimal, que exigiria circuitos mais complexos."
+    },
+    {
+        "id": "1143619",
+        "enunciado": "Um computador consiste em um conjunto de componentes ou módulos de três tipos básicos - processador, memória e E/S - que se comunicam entre si, sendo necessário haver caminhos para a conexão desses módulos. O conjunto de caminhos conectando esses diversos módulos é a estrutura de interconexão, e o projeto dessa estrutura depende das trocas que precisam ser feitas entre os módulos. A estrutura de interconexão que permite ao processador ler uma instrução ou uma unidade de dados da memória é a(o)",
+        "alternativas": {
+            "A": "E/S de ou para a memória",
+            "B": "entrada e saída para o processador",
+            "C": "memória para o processador",
+            "D": "processador para memória",
+            "E": "processador para entrada e saída"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A estrutura de interconexão que permite ao processador acessar dados e instruções da memória é a via de comunicação 'memória para o processador', pois o processador precisa ler essas informações para executar tarefas."
+    },
+    {
+        "id": "1045927",
+        "enunciado": "É comum citarmos que o processador do computador é o cérebro da máquina, devido a este componente ser responsável por todo o processamento, seja ele single ou multi thread, a cada ano as fabricantes tentam inovar sua arquitetura, a fim de, maximizar sua velocidade de processamento, bem como redução de tamanho/custo. Assinale abaixo qual a característica que comumente é associada aos processadores baseados na arquitetura ARM.",
+        "alternativas": {
+            "A": "Arquitetura de 256bits",
+            "B": "Alto desempenho em aplicações de reconhecimento de padrões e processamento de imagem",
+            "C": "Baixo consumo de energia e eficiência energética",
+            "D": "Compatibilidade nativa com qualquer software"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Arquiteturas baseadas em ARM são conhecidas por seu baixo consumo de energia e alta eficiência energética, o que as torna ideais para dispositivos móveis e embarcados. As outras opções não são características primárias ou exclusivas da ARM."
+    },
+    {
+        "id": "1165294",
+        "enunciado": "Em Arquitetura de Computadores, um barramento é um conjunto de linhas de comunicação (condutor elétrico ou fibra óptica) que permitem a interligação entre dispositivos de um sistema de computação. Que tipo de barramento é dedicado à memória estática de alto desempenho localizada próximo ao processador?",
+        "alternativas": {
+            "A": "Barramento de Dados.",
+            "B": "Barramento de Memória.",
+            "C": "Barramento de Entrada e Saída.",
+            "D": "Barramento de Processamento.",
+            "E": "Barramento de Cache."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A memória cache é uma memória de altíssimo desempenho localizada próxima ao processador para acelerar o acesso a dados frequentemente utilizados."
+    },
+    {
+        "id": "1165296",
+        "enunciado": "A unidade central de processamento ou CPU (Central Processing Unit), também conhecido como processador, é a parte de um sistema computacional, que realiza as instruções de um programa de computador, para executar a aritmética básica, lógica, e a entrada e saída de dados. Os Registradores são responsáveis por:",
+        "alternativas": {
+            "A": "Decodificar instruções.",
+            "B": "Armazenar dados para o processamento.",
+            "C": "Buscar operandos.",
+            "D": "Controlar o ponto de execução e desvios.",
+            "E": "Executar operações lógicas e aritméticas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os registradores dentro da CPU são unidades de memória de acesso muito rápido, usadas para armazenar temporariamente dados e instruções que estão sendo ativamente processados ou que serão necessários em breve pelo processador."
+    },
+    {
+        "id": "1200226",
+        "enunciado": "Considerando os conceitos do modelo Von Neumann, referentes à arquitetura de um computador, analise as assertivas abaixo, assinalando V, se verdadeiras, ou F, se falsas.\n\n(  ) Dados e instruções são armazenados em uma única memória de leitura e escrita, denominada memória principal.\n(  ) A execução ocorre em um padrão sequencial (a menos que modificado explicitamente) de uma instrução para a seguinte.\n(  ) O conteúdo da memória principal é endereçável de acordo com o tipo de dados contido nela, sem considerar a localização.\n\nA ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": {
+            "A": "V – F – F.",
+            "B": "V – V – F.",
+            "C": "V – F – V.",
+            "D": "F – V – F.",
+            "E": "F – V – V."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A primeira assertiva é verdadeira: Von Neumann une dados e instruções na mesma memória. A segunda é verdadeira: a execução é sequencial. A terceira é falsa: o conteúdo é endereçável pela localização, não pelo tipo de dados após a leitura."
+    },
+    {
+        "id": "1169370",
+        "enunciado": "Acerca da arquitetura de processadores, julgue as afirmações abaixo. I. A arquitetura RISC (Reduced Instruction Set Computing) possui um conjunto de instruções mais simples, resultando em ciclos de clock mais longos. II. A arquitetura CISC (Complex Instruction Set Computing) é caracterizada por um conjunto de instruções mais complexo e variado. III. Os processadores baseados na arquitetura x86 são predominantemente associados à arquitetura CISC (Complex Instruction Set Computing), enquanto os processadores RISC (Reduced Instruction Set Computing) têm uma arquitetura diferente. Está(ão) CORRETA(S) a(s) seguinte(s) proposição(ões).",
+        "alternativas": {
+            "A": "apenas III;",
+            "B": "apenas I e III;",
+            "C": "apenas II e III;",
+            "D": "apenas II;",
+            "E": "Apenas I."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A arquitetura RISC usa instruções simples e ciclos curtos, enquanto CISC usa instruções complexas. Os processadores x86 são CISC."
+    },
+    {
+        "id": "2095616",
+        "enunciado": "Ao se examinar um sistema padrão de microcomputador com arquitetura Von Neumann, de forma global, exibida na figura, destacam-se os seguintes blocos: Registrador de Instrução (RI); Contador de programa ('Program Counter - PC'); Acumulador; Apontador de pilha ('Stack Pointer - SP'); Unidade Lógica e Aritmética (ULA); Decodificador de instruções; Unidade de controle; Registradores auxiliares; e Flags. O registrador que aponta para o endereço de retorno de sub-rotina é o bloco:",
+        "alternativas": {
+            "A": "Registrador de Instrução (RI)",
+            "B": "Decodificador de instruções",
+            "C": "Apontador de pilha ('Stack Pointer - SP')",
+            "D": "Unidade de controle",
+            "E": "Flags"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Em arquiteturas de Von Neumann, o Stack Pointer (SP) gerencia a pilha, que é usada, entre outras coisas, para armazenar o endereço de retorno de chamadas de sub-rotina, permitindo que a execução retorne ao ponto correto após a sub-rotina ser concluída."
+    },
+    {
+        "id": "1212707",
+        "enunciado": "Um processador contém locais de armazenamento denominados registradores. Qual é o nome do registrador que armazena o endereço da próxima instrução que o processador deve buscar e executar?",
+        "alternativas": {
+            "A": "Registrador de buffer de memória (MBR - memory buffer register).",
+            "B": "Contador de programa (PC - program counter).",
+            "C": "Registrador de instrução (IR - instruction register).",
+            "D": "Apontador da Pilha (SP - stack pointer).",
+            "E": "Registrador do endereço de memória (MAR - memory address register)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O Contador de Programa (PC) e o registrador responsavel por armazenar o endereco da proxima instrucao a ser executada pelo processador."
+    },
+    {
+        "id": "2118230",
+        "enunciado": "A arquitetura de Von Neumann é a representação do fluxo de dados em um computador, envolvendo entrada, processamento e saída de dados. Posto isso, analise a representação da arquitetura abaixo. Sabendo que II está contido em III, então, I, II e III são, respectivamente,",
+        "alternativas": {
+            "A": "Memória Principal; Unidade Lógica e Aritmética; e Unidade Central de Processamento.",
+            "B": "Unidade Central de Processamento; Unidade de Manipulação de Dados; e Memória Principal.",
+            "C": "Unidade de Manipulação de Dados; Unidade Central de Processamento; e Unidade Lógica e Aritmética.",
+            "D": "Unidade Lógica e Aritmética; Memória Principal; e Unidade de Manipulação de Dados."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A arquitetura de Von Neumann inclui a Memória Principal, Unidade Lógica e Aritmética (ULA) e a Unidade Central de Processamento (CPU). A ULA e a Memória fazem parte da CPU, que é o componente central."
+    },
+    {
+        "id": "1821135",
+        "enunciado": "A arquitetura externa básica de um processador genérico é fundamentada na arquitetura von Neumann, interligada com a 'memória de sistema' e os 'dispositivos de entrada e saída' por meio de barramentos. Todas as informações, dados ou instruções que serão manipulados internamente pelo processador utilizam qual barramento para serem transferidos dos periféricos do sistema para o processador?",
+        "alternativas": {
+            "A": "Barramento de endereço - Address Bus",
+            "B": "Barramento de dados - Data Bus",
+            "C": "Barramento de sinais de controle - Control Bus",
+            "D": "Barramento de processamento - Process Bus"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O Barramento de dados (Data Bus) e o caminho por onde dados e instrucoes transitam entre os perifericos e o processador, sendo responsavel pela transferencia de informacoes."
+    },
+    {
+        "id": "1825545",
+        "enunciado": "O computador passou por diversas evoluções nos últimos anos; entretanto, continua utilizando a mesma lógica computacional e, basicamente, a mesma arquitetura. Nos computadores modernos, é empregada a lógica",
+        "alternativas": {
+            "A": "Adecimal e a arquitetura Von Neumann.",
+            "B": "Bbinária e a arquitetura Claude E. Shannon.",
+            "C": "Cbinária e a arquitetura Von Neumann.",
+            "D": "Dhexadecimal e a arquitetura Alan Turing.",
+            "E": "Edecimal e a arquitetura Claude E. Shannon."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Computadores modernos operam com lógica binária (0s e 1s) e seguem a arquitetura de Von Neumann, que utiliza uma memória unificada para instruções e dados, otimizando o processamento."
+    },
+    {
+        "id": "1825549",
+        "enunciado": "Os microprocessadores cuja característica inclui o uso de instruções de tamanho fixo e número reduzido de formatos são implementados na arquitetura do tipo",
+        "alternativas": {
+            "A": "ACISC.",
+            "B": "BMIPS.",
+            "C": "CTISC.",
+            "D": "DSPARC.",
+            "E": "ERISC."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Arquiteturas RISC (Reduced Instruction Set Computer) caracterizam-se por um conjunto reduzido de instruções de tamanho fixo e formatos simples, otimizando o processamento. ERISC é um tipo de arquitetura RISC."
+    },
+    {
+        "id": "1703249",
+        "enunciado": "A alternativa correta sobre o PIC (controlador de interface programável) é:",
+        "alternativas": {
+            "A": "Os microcontroladores PIC são controladores com um conjunto complexo de instruções CISC.",
+            "B": "O PIC é um microcontrolador com arquitetura Von Neuman e conjunto de instruções RISC.",
+            "C": "O PIC é um microcontrolador com arquitetura Harvard e conjunto de instruções RISC.",
+            "D": "Os microcontroladores PIC são encapsulados em invólucros de até 16 pinos.",
+            "E": "Os microcontroladores PIC armazenam e transmitem informações exclusivamente em 16 bits."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Microcontroladores PIC utilizam arquitetura Harvard, que separa os barramentos de instruções e dados, e possuem um conjunto de instruções RISC (Reduced Instruction Set Computer), que são mais eficientes. O texto não fornece detalhes sobre o número de pinos ou a capacidade de processamento."
+    },
+    {
+        "id": "1267754",
+        "enunciado": "Considerando-se a arquitetura e organização de computadores, leia as afirmativas sobre registradores, conforme a participação destes na organização e funcionamento da unidade central de processamento (CPU).",
+        "alternativas": {
+            "A": "Registradores são memórias internas ao processador que auxiliam a minimizar a quantidade de acessos à memória externa, principal, otimizando a velocidade de execução dos programas.",
+            "B": "Registradores de índice, registradores de segmento e registradores de stack (pilha), são exemplos usuais de registradores de endereçamento. Já contador de programa, registrador de instrução e registrador de endereços são exemplos usuais de registradores de controle.",
+            "C": "Registradores que agrupam e gerenciam informações sobre o estado de execução do programa (registradores de status) são exemplos de registradores frequentemente alterados por atuação explícita e direta dos programadores.",
+            "D": "Nem todos os processadores possuem registradores que funcionam como memória intermediária onde os bits a serem transferidos para o barramento de sistema, e os bits a serem lidos a partir do barramento de dados, são armazenados temporariamente.",
+            "E": "Registradores de controle e status são utilizados pela unidade de controle e por certas rotinas do sistema operacional, de nível privilegiado, no controle da execução de programas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Registradores sao memorias rapidas dentro da CPU que reduzem a necessidade de acessos lentos a memoria principal, acelerando a execucao. Outras afirmativas contem incorrecoes sobre classificacao e alteracao de registradores."
+    },
+    {
+        "id": "1267758",
+        "enunciado": "Considerando-se as diversas abordagens da arquitetura RISC de processadores, assinale a alternativa em que a lista das características consideradas comuns às essas diversas abordagens está CORRETA.",
+        "alternativas": {
+            "A": "No mínimo, uma instrução de máquina por ciclo de máquina; Privilégio das operações de registrador para cache; Modos de endereçamento simples; Formatos de instruções simples com instruções de tamanho fixo.",
+            "B": "Uma instrução de máquina por ciclo de máquina; Maioria das operações é de registrador para registrador; Modos de endereçamento simples; Formatos de instruções simples com instruções de tamanho fixo.",
+            "C": "Uma instrução de máquina por ciclo de máquina; Maioria de operações de registrador para registrador; Implementação apenas dos modos de endereçamento absoluto e relativo; Formatos de instruções simples com instrução de tamanho variável.",
+            "D": "No máximo, duas instruções por ciclo de máquina; Maioria das operações privilegia movimentações de registrador para memória; Modos de endereçamento simples; Formatos de instruções simples com instruções de tamanho fixo.",
+            "E": "No mínimo, uma instrução por ciclo de máquina; Operações privilegiadas de registrador para memória; Modos de endereçamento simples; Formatos de instruções simples com instrução de tamanho variável."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Arquiteturas RISC tipicamente visam executar uma instrucao por ciclo, privilegiam operacoes entre registradores, utilizam modos de enderecamento simples e formatos de instrucao de tamanho fixo para simplificar o pipeline e a decodificacao."
+    },
+    {
+        "id": "1793055",
+        "enunciado": "Segundo a Arquitetura de Von Neumman, os computadores são organizados em componentes conforme as alternativas abaixo, EXCETO:",
+        "alternativas": {
+            "A": "Unidade Central de Processamento –UCP.",
+            "B": "Unidade Lógica e Aritmética –ULA.",
+            "C": "Memória.",
+            "D": "Dispositivos de entrada e saída.",
+            "E": "Barramentos distintos."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A Arquitetura de Von Neumann define UCP, Memória e Dispositivos de E/S, interligados por barramentos. Barramentos distintos não são um componente fundamental dessa arquitetura, mas sim a interligação."
+    }
+]

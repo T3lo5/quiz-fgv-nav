@@ -1,0 +1,854 @@
+[
+    {
+        "id": "1878001",
+        "enunciado": "O que é a pressão arterial?",
+        "alternativas": {
+            "A": "A força que o sangue exerce nas paredes das artérias.",
+            "B": "A quantidade de sangue que o coração bombeia por minuto.",
+            "C": "A resistência do sangue ao fluxo.",
+            "D": "A temperatura do sangue."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Pressão arterial é a força que o sangue circulante aplica sobre as paredes das artérias durante o ciclo cardíaco."
+    },
+    {
+        "id": "1816533",
+        "enunciado": "Quando se trata de atividades aeróbias, sabemos que um de seus benefícios é o fortalecimento do Coração. Assinale a alternativa abaixo que melhor descreve um de seus benefícios para o referido órgão:",
+        "alternativas": {
+            "A": "Aumento da melatonina;",
+            "B": "Fortalecimento do ventrículo esquerdo;",
+            "C": "Constrição frequente da Aorta;",
+            "D": "Aumento da oxigenação no cérebro."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Atividades aeróbicas fortalecem o coração ao melhorar sua eficiência. O ventrículo esquerdo é a câmara cardíaca responsável por bombear o sangue oxigenado para todo o corpo, e seu fortalecimento é um benefício direto do exercício aeróbico."
+    },
+    {
+        "id": "2332781",
+        "enunciado": "Durante a aferição de sinais vitais, o técnico de enfermagem observa que o pulso de um paciente está fraco e rápido, enquanto a pressão arterial está baixa. Considerando a anatomia e função dos vasos sanguíneos e do coração, qual a explicação mais adequada para esses achados?",
+        "alternativas": {
+            "A": "O sangue arterial está sendo bombeado com força excessiva pelas artérias, provocando hipotensão.",
+            "B": "O coração está bombeando menos sangue do que o necessário, e as veias não conseguem manter o retorno adequado.",
+            "C": "As válvulas cardíacas estão impedindo o fluxo venoso, causando hipertensão.",
+            "D": "Os capilares não conseguem transportar sangue arterial, gerando aumento da pressão arterial.",
+            "E": "O sangue venoso está oxigenado, o que provoca aceleração do pulso e aumento da pressão."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Pulso fraco e rápido, e pressão arterial baixa, indicam que o coração está bombeando menos sangue do que o ideal, e o retorno venoso não está sendo eficaz para manter a circulação adequada."
+    },
+    {
+        "id": "2109882",
+        "enunciado": "A respeito da fisiologia cardiovascular, o volume de sangue ejetado por minuto, tanto pelo ventrículo direito quanto pelo ventrículo esquerdo, é denominado:",
+        "alternativas": {
+            "A": "Pressão cardíaca.",
+            "B": "Corrente sanguínea.",
+            "C": "Sistema cardíaco.",
+            "D": "Volume diastólico.",
+            "E": "Débito cardíaco."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O débito cardíaco é o volume de sangue bombeado pelo coração por minuto, calculado pelo produto do volume sistólico (sangue ejetado por batimento) pela frequência cardíaca (batimentos por minuto)."
+    },
+    {
+        "id": "2394567",
+        "enunciado": "No ciclo cardíaco, o principal determinante da pressão arterial sistólica é:",
+        "alternativas": {
+            "A": "débito urinário.",
+            "B": "frequência respiratória.",
+            "C": "volume sistólico.",
+            "D": "temperatura corporal.",
+            "E": "PVC."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A pressão arterial sistólica é diretamente influenciada pelo volume sistólico, ou seja, a quantidade de sangue ejetada pelo ventrículo esquerdo a cada batimento cardíaco."
+    },
+    {
+        "id": "2370043",
+        "enunciado": "Um paciente idoso, acamado há várias semanas e com histórico de insuficiência venosa crônica, apresenta edema significativo nos membros inferiores. O fisioterapeuta planeja uma rotina de mobilização para auxiliar no retorno venoso e aliviar o acúmulo de sangue local. Do ponto de vista fisiológico, qual é o mecanismo primário que o corpo utiliza para superar a pressão hidrostática (que pode chegar a +90 mmHg em ortostatismo) e garantir o retorno unidirecional do sangue das extremidades inferiores para o coração?",
+        "alternativas": {
+            "A": "A alta elasticidade das artérias devido à espessa camada muscular, e a alta pressão arterial sistólica são suficientes para impulsionar o sangue através de todo o circuito venoso.",
+            "B": "A contração da musculatura esquelética adjacente, principalmente nas pernas (bombas de panturrilha), comprime as veias; ao mesmo tempo, as válvulas venosas internas se fecham para impedir o refluxo.",
+            "C": "O sistema de auto-regulação intrínseca dos capilares periféricos garante a constante pressão de 0 mmHg nas veias, mantendo o fluxo contínuo e independente da gravidade.",
+            "D": "A complacência vascular gera um vácuo no sistema venoso que conduz o sangue de volta ao átrio direito.",
+            "E": "A ação do Sistema Nervoso Parassimpático sobre os receptores cardíacos hiperpolariza as veias, promovendo vasodilatação e, consequentemente, reduzindo a resistência para o retorno venoso."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A contracao da musculatura esqueletica nas pernas comprime as veias, impulsionando o sangue contra a gravidade. As valvulas venosas impedem o refluxo, garantindo o retorno unidirecional ao coracao."
+    },
+    {
+        "id": "2370045",
+        "enunciado": "Durante um teste ergométrico, a frequência cardíaca (FC) e a força de contração do coração (FCC) de um paciente aumentam significativamente em resposta ao esforço. A capacidade do coração de aumentar o débito cardíaco (DC) para atender à demanda metabólica tecidual é impulsionado por um efeito inotrópico positivo. Este ajuste é uma resposta regulatória extrínseca mediada, principalmente, pela estimulação do Sistema Nervoso Simpático (SNS) e pela liberação de catecolaminas. Assinale a alternativa CORRETA que explica o mecanismo celular de aumento da força de contração cardíaca induzido pelo SNS?",
+        "alternativas": {
+            "A": "A ação da acetilcolina sobre os receptores cardíacos promove hiperpolarização, o que facilita a despolarização espontânea do nodo sinoatrial (SA).",
+            "B": "Aumento do estiramento da musculatura cardíaca devido ao maior volume de enchimento diastólico, conforme postulado pela Lei de Frank-Starling.",
+            "C": "A ativação do barorreflexo, que, ao detectar a alta pressão sistólica, desativa o parassimpático e reduz a condução de potenciais de ação nas vias lentas.",
+            "D": "A elevação da concentração extracelular de íons K+, induzindo hiperpolarização e, consequentemente, reduzindo o desgaste muscular.",
+            "E": "A estimulação simpática ativa os receptores β1-adrenérgicos, o que leva à abertura de canais para Ca2+, resultando no aumento da força e da frequência cardíaca."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A estimulação simpática em resposta ao esforço atua nos receptores beta-1 adrenérgicos, levando ao aumento da entrada de cálcio nas células miocárdicas, o que eleva a força de contração (inotropismo positivo) e a frequência cardíaca."
+    },
+    {
+        "id": "2104032",
+        "enunciado": "O pulso é o fluxo palpável de sangue em uma artéria periférica. O sangue flui pelo organismo em um circuito contínuo, e o pulso é um indicador indireto do estado circulatório. Em relação à fisiologia e regulação do pulso, assinalar a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Um pulso anormalmente lento, rápido ou irregular não altera o débito cardíaco.",
+            "B": "Quando não é possível modificar a força de contração ou o volume sistólico, uma mudança na frequência cardíaca provoca mudança no débito cardíaco.",
+            "C": "Se a frequência cardíaca de um indivíduo for 70bpm e seu volume sistólico for 70mL, o débito cardíaco será de 4.950mL/min.",
+            "D": "À medida que a frequência cardíaca aumenta, o tempo de preenchimento do ventrículo aumenta, elevando, assim, a pressão arterial."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O débito cardíaco é o produto da frequência cardíaca pelo volume sistólico. Caso o volume sistólico não possa ser alterado, qualquer modificação na frequência cardíaca afetará diretamente o débito cardíaco."
+    },
+    {
+        "id": "2302029",
+        "enunciado": "Durante um episódio de hemorragia aguda, um paciente de 32 anos apresenta queda da pressão arterial média (PAM), taquicardia reflexa e pele fria e úmida. Em relação aos mecanismos fisiológicos envolvidos nesse quadro, analise as alternativas e assinale a CORRETA:",
+        "alternativas": {
+            "A": "A diminuição da pressão de perfusão estimula os barorreceptores arteriais, aumentando sua taxa de disparo, o que leva à redução da liberação de norepinefrina pelos nervos simpáticos.",
+            "B": "A ativação do reflexo barorreceptor promove vasodilatação periférica generalizada mediada por receptores adrenérgicos β2, contribuindo para a manutenção da PAM.",
+            "C": "A queda do retorno venoso reduz o volume sistólico, o que aumenta a frequência cardíaca via mecanismo de Bainbridge.",
+            "D": "A diminuição da PAM é detectada pelos barorreceptores carotídeos e aórticos, levando à redução da atividade parassimpática e aumento da atividade simpática, com consequente vasoconstrição periférica e aumento da resistência vascular sistêmica."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A queda da PAM ativa o reflexo barorreceptor, diminuindo a atividade parassimpática e aumentando a simpática, resultando em vasoconstrição para manter a perfusão. As outras alternativas descrevem mecanismos incorretos ou inversos."
+    },
+    {
+        "id": "1576309",
+        "enunciado": "A Pressão Sanguínea representa a força exercida pelo sangue contra qualquer unidade de área da parede do vaso. Desse modo, a pressão arterial é:",
+        "alternativas": {
+            "A": "Diretamente proporcional ao débito cardíaco e inversamente proporcional à resistência vascular periférica.",
+            "B": "Inversamente proporcional ao fluxo sanguíneo e diretamente proporcional ao débito urinário.",
+            "C": "Diretamente proporcional ao débito cardíaco e à resistência vascular periférica.",
+            "D": "Inversamente proporcional à viscosidade sanguínea e à frequência cardíaca."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A pressao arterial é determinada pela quantidade de sangue bombeada pelo coracao (debito cardiaco) e pela resistencia que os vasos oferecem ao fluxo sanguineo (resistencia vascular periferica)."
+    },
+    {
+        "id": "1142687",
+        "enunciado": "Leia o excerto abaixo. “O coração é constituído de quatro câmaras que consistem de dois pares. Os ____ coletam o sangue que retorna, enquanto os __________ empurram o sangue para fora do coração.” Assinale a alternativa que preenche respectivamente a lacuna do trecho acima.",
+        "alternativas": {
+            "A": "ventrículos; septos musculares",
+            "B": "átrios; ventrículos",
+            "C": "septos musculares; átrios",
+            "D": "ventrículos; átrios"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As câmaras superiores do coração, que recebem o sangue, são os átrios. As câmaras inferiores, que bombeiam o sangue para fora do coração, são os ventrículos. Assim, as lacunas são preenchidas por 'átrios' e 'ventrículos'."
+    },
+    {
+        "id": "1657031",
+        "enunciado": "A liberação de qual substância abaixo na corrente sanguínea está associada à redução da pressão arterial?",
+        "alternativas": {
+            "A": "Peptídeo natriurético atrial.",
+            "B": "Aldosterona.",
+            "C": "Cortisol.",
+            "D": "Noradrenalina."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O peptídeo natriurético atrial (PNA) e liberado em resposta ao aumento do volume e estresse atrial, promovendo a natriurese e diurese, o que consequentemente leva a uma reducao da pressao arterial."
+    },
+    {
+        "id": "1111509",
+        "enunciado": "Em uma paciente que será submetida à cirurgia de revascularização miocárdica, qual dos fatores abaixo aumenta o fluxo sanguíneo coronário por aumento da perfusão coronariana?",
+        "alternativas": {
+            "A": "Pressão arterial diastólica elevada.",
+            "B": "Pressão diastólica final (pd2) do ventrículo esquerdo aumentado.",
+            "C": "Pressão arterial sistólica elevada.",
+            "D": "Frequência cardíaca acima de 120 bpm.",
+            "E": "Níveis elevados de PaCo2."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A pressão diastólica final (pd2) aumentada do ventrículo esquerdo indica maior tempo para diástole e, consequentemente, maior perfusão coronariana. As outras opções ou diminuem o fluxo ou não o aumentam significativamente."
+    },
+    {
+        "id": "1176790",
+        "enunciado": "Durante um estado de choque hipovolêmico, o organismo ativa mecanismos para preservar a perfusão dos órgãos vitais. Considerando a fisiologia cardiovascular, qual é o papel principal da angiotensina II nesse contexto?",
+        "alternativas": {
+            "A": "Constringir os vasos sanguíneos e aumentar a reabsorção de água nos rins.",
+            "B": "Ativar a liberação de vasopressina pela hipófise posterior.",
+            "C": "Inibir a produção de aldosterona pelas glândulas suprarrenais.",
+            "D": "Promover a dilatação dos vasos sanguíneos periféricos.",
+            "E": "Estimular a liberação de insulina pelo pâncreas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve o papel principal da angiotensina II na resposta ao choque hipovolêmico. Ela causa vasoconstrição periférica para manter a pressão arterial e aumenta a reabsorção de água nos rins para restaurar o volume sanguíneo."
+    },
+    {
+        "id": "1111512",
+        "enunciado": "Mulher, 50 anos, portadora de doença arterial coronária controlada com tratamento clínico, é submetida à cirurgia de aneurisma abdominal intrarrenal. Após colocar o cateter de Swan-Ganz na artéria pulmonar, é correto afirmar que:",
+        "alternativas": {
+            "A": "O raio dos vasos pulmonares não modifica os valores da pressão da artéria pulmonar.",
+            "B": "Quanto maior o débito cardíaco, maiores os valores da pressão da artéria pulmonar.",
+            "C": "As mudanças do débito cardíaco fazem aumentar passivamente os valores da pressão da artéria pulmonar.",
+            "D": "Variando o débito cardíaco, os valores da pressão da artéria pulmonar não variam.",
+            "E": "Os valores da pressão da artéria pulmonar são dependentes do débito cardíaco."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A pressão da artéria pulmonar reflete as condições do lado esquerdo do coração e a resistência vascular pulmonar. O débito cardíaco, que representa o volume de sangue bombeado por minuto, influenciando a demanda sobre o coração, afeta diretamente essa pressão."
+    },
+    {
+        "id": "1069502",
+        "enunciado": "A pressão arterial sistólica ocorre durante a __________ do ventrículo esquerdo. E a pressão arterial diastólica ocorre durante o _________________ do ventrículo esquerdo. Responda:",
+        "alternativas": {
+            "A": "Força e Relaxamento",
+            "B": "Integridade e Relaxamento",
+            "C": "Força e Contração",
+            "D": "Contração e Relaxamento",
+            "E": "Relaxamento e Contração"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A pressao arterial sistolica ocorre durante a contracao do ventriculo esquerdo, enquanto a pressao diastolica ocorre durante seu relaxamento."
+    },
+    {
+        "id": "1235703",
+        "enunciado": "Um paciente com lesão vascular no nível medular apresenta aumento da atividade do nervo vagal. Qual das seguintes descrições apresenta os efeitos cardiovasculares que ocorrem quando o paciente passa da posição supina para a posição ortostática?",
+        "alternativas": {
+            "A": "Aumento da pressão arterial e nenhuma alteração na frequência cardíaca.",
+            "B": "Queda na pressão arterial e nenhuma alteração na frequência cardíaca.",
+            "C": "Aumento da pressão arterial e aumento da frequência cardíaca.",
+            "D": "Queda da pressão arterial e redução da frequência cardíaca.",
+            "E": "Nenhuma alteração é esperada no sistema cardiovascular."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O aumento da atividade vagal leva à bradicardia (redução da frequência cardíaca) e hipotensão (queda da pressão arterial), especialmente ao mudar para a posição ortostática, pois há um reflexo para compensar a gravidade."
+    },
+    {
+        "id": "2261826",
+        "enunciado": "Considerando-se a fisiologia cardiovascular, assinalar a alternativa que preenche a lacuna abaixo CORRETAMENTE. A primeira bulha cardíaca (B1) está ligada ao fechamento das valvas mitral e tricúspide (valvas atrioventriculares). Ela marca o início da _______________________________.",
+        "alternativas": {
+            "A": "diástole (relaxamento ventricular)",
+            "B": "sístole (contração ventricular)",
+            "C": "diástole (contração ventricular)",
+            "D": "sístole (contração atrial)"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A primeira bulha cardíaca (B1) é o som do fechamento das valvas atrioventriculares (mitral e tricúspide), que marca o término do enchimento ventricular e o início da contração ventricular (sístole). Portanto, B1 inicia a sístole."
+    },
+    {
+        "id": "1493233",
+        "enunciado": "Complete a expressão seguinte com o termo correspondente: A pressão diastólica (PAd) reflete a pressão ___________ no interior das artérias quando os ventrículos estão relaxados.",
+        "alternativas": {
+            "A": "principal",
+            "B": "remanescente",
+            "C": "antagônica",
+            "D": "secundária",
+            "E": "acumulativa"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A pressão diastólica representa a pressão arterial remanescente nas artérias durante o relaxamento ventricular, sendo um indicador da resistência vascular periférica."
+    },
+    {
+        "id": "1076864",
+        "enunciado": "A pressão arterial é a força exercida sobre as paredes de uma artéria pelo sangue que pulsa sob pressão a partir do coração. O pico de pressão máxima quando a ejeção acontece é a pressão arterial sistólica. Quando os ventrículos se relaxam, o sangue que permanece nas artérias exerce uma pressão mínima ou diastólica. Sobre os fatores que interferem nos valores da pressão arterial, assinale a afirmativa correta.",
+        "alternativas": {
+            "A": "É mais elevada em pessoas com baixo peso.",
+            "B": "Aumenta proporcionalmente com exercícios físicos.",
+            "C": "Normalmente diminui no final da tarde e início da noite.",
+            "D": "É mais elevada nos recém-nascidos e mais baixa em idosos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O exercício físico acelera o metabolismo e aumenta o fluxo sanguíneo, elevando a pressão arterial durante a atividade. A pressão arterial tende a diminuir em repouso e pode variar ao longo do dia, não necessariamente diminuindo à tarde/noite. É mais elevada em pessoas com sobrepeso e em idosos em comparação aos recém-nascidos."
+    },
+    {
+        "id": "1135312",
+        "enunciado": "Os determinantes diretos do retorno venoso são a pressão",
+        "alternativas": {
+            "A": "arterial, a pressão do átrio direito e o tônus arterial.",
+            "B": "do átrio direito, a pressão média de enchimento sistêmica e resistência ao retorno venoso.",
+            "C": "do átrio direito, a pressão capilar pulmonar e a pressão arterial diastólica.",
+            "D": "venosa central, a pressão sistólica pulmonar e a pressão média de enchimento sistêmico.",
+            "E": "venosa central e a pressão arterial média."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O retorno venoso é determinado pela diferença entre a pressão venosa sistêmica média e a do átrio direito, influenciado também pela resistência vascular sistêmica. A pressão arterial é um determinante do fluxo, não diretamente do retorno venoso."
+    },
+    {
+        "id": "1083600",
+        "enunciado": "Sobre a fisiologia do sistema vascular e a etiopatogenia da doença arterial, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "A hipertensão arterial sistêmica é um dos principais fatores de risco no desenvolvimento da doença aterosclerótica pela sua prevalência e por atuar diretamente na biologia celular pela desregulação do sistema renina-angiotensina, determinando a diminuição da angiotensina II, potente vasoconstritor e contribuindo para proliferação de célula muscular lisa vascular.",
+            "B": "O diabetes atua tanto na macro como na microcirculação, agravando a evolução da aterosclerose, principalmente pelo seu efeito sobre a matriz extracelular da parede vascular. Na população, a incidência de insuficiência cerebrovascular e de infarto agudo do miocárdio é maior entre os diabéticos.",
+            "C": "Anatomicamente, as paredes das artérias são muito mais fortes que as das veias. Consequentemente, as veias, em média, são cerca de oito vezes mais distensíveis que as artérias, isto é, determinado aumento de pressão provoca aumento oito vezes maior no volume sanguíneo em uma artéria que em veia de diâmetro comparável.",
+            "D": "Vários estudos publicados demonstram a relação entre tabagismo e aterosclerose, pois este interfere diretamente no equilíbrio homeostático do endotélio vascular. Entre os mecanismos que agravam a doença ateromatosa estão os efeitos deletérios da nicotina e derivados. Atua também aumentando a pressão arterial e diminuindo o HDL e a adesão plaquetária."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O diabetes agrava a aterosclerose afetando a matriz extracelular e aumenta a incidência de eventos cerebrovasculares e infartos. A alternativa A está incorreta pois a hipertensão aumenta a angiotensina II. A alternativa C está incorreta na comparação de distensibilidade entre veias e artérias. A alternativa D está incorreta ao afirmar que o tabagismo diminui a adesão plaquetária."
+    },
+    {
+        "id": "1953321",
+        "enunciado": "Durante a consulta inicial odontológica cabe ao cirurgião-dentista a realização da anamnese, o exame físico e o uso de demais manobras semiológicas. Uma delas é a aferição da pressão arterial, por meio da qual, são determinados os valores de pressão sistólica e diastólica. “A pressão sistólica é a pressão ____________ necessária para que o sangue ____________, impulsionado pelo ventrículo ____________, alcance as células do corpo com o oxigênio.” Assinale a alternativa que completa correta e sequencialmente a afirmativa anterior.",
+        "alternativas": {
+            "A": "Mínima / arterial / direito",
+            "B": "Máxima / arterial / direito",
+            "C": "Máxima / venoso / esquerdo",
+            "D": "Máxima / arterial / esquerdo"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A pressão sistólica (máxima) é a força do sangue contra as artérias durante a contração do ventrículo esquerdo, que impulsiona o sangue oxigenado para o corpo."
+    },
+    {
+        "id": "1042910",
+        "enunciado": "A Pressão arterial (PA) deve ser medida em toda avaliação médica, por qualquer especialidade e demais profissionais da saúde devidamente capacitados. Recomenda-se, pelo menos, a medição da PA a cada dois anos para os adultos. Sobre a PA, marque a alternativa CORRETA.",
+        "alternativas": {
+            "A": "A PA é determinada pelo volume de sangue bombeado pelo coração por minuto e pela resistência que as artérias oferecem quando o sangue passa por elas.",
+            "B": "A PA é composta pela PA sistólica (PAS), exercida na parede das artérias durante a diástole ventricular, e pela PA diastólica (PAD), exercida na parede das artérias durante a diástole ventricular.",
+            "C": "A aferição da pressão arterial, em consultório, é a única técnica para o diagnóstico e o manejo da hipertensão no mundo.",
+            "D": "Quando a PAS e a PAD situam-se em classificações diferentes, a menor deve ser utilizada para classificação da PA.",
+            "E": "Algumas atividades do paciente interferem nos valores de PA e devem ser evitadas nos 30 a 60 minutos que antecedem sua avaliação. A ingestão de alimentos, exercício físico extenuante, tabagismo e ingestão de cafeína não interferem no valor da PA."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A PA decorre do débito cardíaco (volume x frequência) e da resistência vascular periférica. A alternativa B inverte diástole e sístole. A C é falsa pois existem outras técnicas. A D está incorreta, usa-se a maior. A E está incorreta pois algumas atividades interferem."
+    },
+    {
+        "id": "1168821",
+        "enunciado": "Sobre o sistema cardiovascular, marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "o sangue venoso rico em oxigênio retorna ao coração pelo átrio direito;",
+            "B": "o ventrículo esquerdo bombeia sangue oxigenado para todo o corpo através da veia pulmonar;",
+            "C": "as válvulas atrioventriculares impedem o retorno de sangue do ventrículo para o átrio;",
+            "D": "a troca de gases ocorre nos ventrículos do coração;",
+            "E": "a circulação sistêmica é responsável pelo transporte de sangue do coração para os pulmões."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As válvulas atrioventriculares (mitral e tricúspide) abrem-se para permitir a passagem do sangue dos átrios para os ventrículos e fecham-se para impedir seu retorno durante a contração ventricular. As outras alternativas contêm incorreções sobre o fluxo sanguíneo e composição."
+    },
+    {
+        "id": "1036993",
+        "enunciado": "A manutenção da alta resistência vascular pulmonar durante a vida fetal se deve a diversos fatores. Assinale a alternativa onde não se encontra esses fatores.",
+        "alternativas": {
+            "A": "baixa pressão parcial de oxigênio intrapulmonar",
+            "B": "baixa produção de óxido nítrico",
+            "C": "aumento da produção de endotelina",
+            "D": "aumento da produção de tromboxane",
+            "E": "alta produção de prostaciclina"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A manutenção da alta resistência vascular pulmonar fetal é mantida pela baixa PO2, alta produção de prostaciclina e óxido nítrico e baixa produção de endotelina e tromboxane. A alta produção de prostaciclina contribui para a vasodilatação, e não para a manutenção da alta resistência."
+    },
+    {
+        "id": "1031936",
+        "enunciado": "Leia a afirmativa a seguir. “A(O) __________ é o percentual do aumento do volume a partir de aplicada uma determinada pressão.” Assinale a alternativa que preenche corretamente a lacuna.",
+        "alternativas": {
+            "A": "débito cardíaco.",
+            "B": "resistência periférica.",
+            "C": "volemia.",
+            "D": "distensibilidade.",
+            "E": "viscosidade."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A distensibilidade é a capacidade de um vaso acomodar um volume de sangue com pouca variação de pressão. Refere-se à elasticidade e expandibilidade dos vasos sanguíneos."
+    },
+    {
+        "id": "1893259",
+        "enunciado": "Variação na pressão arterial de pacientes hipovolêmicos mantidos em ventilação mecânica pode ser devido a:",
+        "alternativas": {
+            "A": "Queda no fluxo sanguíneo na veia cava, artéria pulmonar e aorta.",
+            "B": "Elevação da resistência vascular pulmonar e queda na pós-carga do VD.",
+            "C": "Aumento da pós-carga por falha de ejeção do ventrículo esquerdo.",
+            "D": "Menor impacto da fase inspiratória na pré-carga do ventrículo direito."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em pacientes hipovolêmicos sob ventilação mecânica, a pressão arterial pode variar devido a alterações no retorno venoso causadas pela pressão intratorácica aumentada durante a inspiração. Isso afeta o fluxo sanguíneo nas veias cavas, artéria pulmonar e aorta."
+    },
+    {
+        "id": "1212937",
+        "enunciado": "O sistema nervoso autônomo é responsável por reflexos cardiovasculares de manter a pressão sanguínea durante alterações posturais. A adoção da posição ortostática dificulta o retorno venoso, reduz a saída cardíaca e a pressão arterial. Assim, é comum a ocorrência de síncopes, devido à hipoperfusão cerebral. É CORRETO afirmar:",
+        "alternativas": {
+            "A": "A redução na pressão arterial gera ativação de barorreceptores, visando à ativação parassimpática.",
+            "B": "Há aumento da atividade vagal, tanto no coração quanto nos vasos sanguíneos.",
+            "C": "Ocorrem respostas neuroumorais, aumentando a excreção de sódio.",
+            "D": "A disfunção autonômica pode ocorrer por síncope vasovagal e hipotensão ortostática neurogênica."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A disfunção autonômica pode manifestar-se através de episódios de síncope vasovagal e dificuldades em manter a pressão arterial em pé (hipotensão ortostática neurogênica), como descrito no texto."
+    },
+    {
+        "id": "1210971",
+        "enunciado": "O exercício é capaz de modificar agudamente diversos parâmetros cardiovasculares, a exemplo da pré-carga. Qual das variáveis a seguir representa a pré-carga?",
+        "alternativas": {
+            "A": "Débito cardíaco.",
+            "B": "Variabilidade da frequência cardíaca.",
+            "C": "Resistência periférica total.",
+            "D": "Lei de Frank-Starling.",
+            "E": "Volume diastólico final."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A pre-carga refere-se ao volume de sangue que preenche o ventriculo esquerdo ao final da diastole, antes da contracao. O volume diastolico final e a principal medida que representa a pre-carga."
+    },
+    {
+        "id": "1878001",
+        "enunciado": "O que é a pressão arterial?",
+        "alternativas": {
+            "A": "A força que o sangue exerce nas paredes das artérias.",
+            "B": "A quantidade de sangue que o coração bombeia por minuto.",
+            "C": "A resistência do sangue ao fluxo.",
+            "D": "A temperatura do sangue."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Pressão arterial é a força que o sangue circulante aplica sobre as paredes das artérias durante o ciclo cardíaco."
+    },
+    {
+        "id": "1816533",
+        "enunciado": "Quando se trata de atividades aeróbias, sabemos que um de seus benefícios é o fortalecimento do Coração. Assinale a alternativa abaixo que melhor descreve um de seus benefícios para o referido órgão:",
+        "alternativas": {
+            "A": "Aumento da melatonina;",
+            "B": "Fortalecimento do ventrículo esquerdo;",
+            "C": "Constrição frequente da Aorta;",
+            "D": "Aumento da oxigenação no cérebro."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Atividades aeróbicas fortalecem o coração ao melhorar sua eficiência. O ventrículo esquerdo é a câmara cardíaca responsável por bombear o sangue oxigenado para todo o corpo, e seu fortalecimento é um benefício direto do exercício aeróbico."
+    },
+    {
+        "id": "2332781",
+        "enunciado": "Durante a aferição de sinais vitais, o técnico de enfermagem observa que o pulso de um paciente está fraco e rápido, enquanto a pressão arterial está baixa. Considerando a anatomia e função dos vasos sanguíneos e do coração, qual a explicação mais adequada para esses achados?",
+        "alternativas": {
+            "A": "O sangue arterial está sendo bombeado com força excessiva pelas artérias, provocando hipotensão.",
+            "B": "O coração está bombeando menos sangue do que o necessário, e as veias não conseguem manter o retorno adequado.",
+            "C": "As válvulas cardíacas estão impedindo o fluxo venoso, causando hipertensão.",
+            "D": "Os capilares não conseguem transportar sangue arterial, gerando aumento da pressão arterial.",
+            "E": "O sangue venoso está oxigenado, o que provoca aceleração do pulso e aumento da pressão."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Pulso fraco e rápido, e pressão arterial baixa, indicam que o coração está bombeando menos sangue do que o ideal, e o retorno venoso não está sendo eficaz para manter a circulação adequada."
+    },
+    {
+        "id": "2109882",
+        "enunciado": "A respeito da fisiologia cardiovascular, o volume de sangue ejetado por minuto, tanto pelo ventrículo direito quanto pelo ventrículo esquerdo, é denominado:",
+        "alternativas": {
+            "A": "Pressão cardíaca.",
+            "B": "Corrente sanguínea.",
+            "C": "Sistema cardíaco.",
+            "D": "Volume diastólico.",
+            "E": "Débito cardíaco."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O débito cardíaco é o volume de sangue bombeado pelo coração por minuto, calculado pelo produto do volume sistólico (sangue ejetado por batimento) pela frequência cardíaca (batimentos por minuto)."
+    },
+    {
+        "id": "2394567",
+        "enunciado": "No ciclo cardíaco, o principal determinante da pressão arterial sistólica é:",
+        "alternativas": {
+            "A": "débito urinário.",
+            "B": "frequência respiratória.",
+            "C": "volume sistólico.",
+            "D": "temperatura corporal.",
+            "E": "PVC."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A pressão arterial sistólica é diretamente influenciada pelo volume sistólico, ou seja, a quantidade de sangue ejetada pelo ventrículo esquerdo a cada batimento cardíaco."
+    },
+    {
+        "id": "2370043",
+        "enunciado": "Um paciente idoso, acamado há várias semanas e com histórico de insuficiência venosa crônica, apresenta edema significativo nos membros inferiores. O fisioterapeuta planeja uma rotina de mobilização para auxiliar no retorno venoso e aliviar o acúmulo de sangue local. Do ponto de vista fisiológico, qual é o mecanismo primário que o corpo utiliza para superar a pressão hidrostática (que pode chegar a +90 mmHg em ortostatismo) e garantir o retorno unidirecional do sangue das extremidades inferiores para o coração?",
+        "alternativas": {
+            "A": "A alta elasticidade das artérias devido à espessa camada muscular, e a alta pressão arterial sistólica são suficientes para impulsionar o sangue através de todo o circuito venoso.",
+            "B": "A contração da musculatura esquelética adjacente, principalmente nas pernas (bombas de panturrilha), comprime as veias; ao mesmo tempo, as válvulas venosas internas se fecham para impedir o refluxo.",
+            "C": "O sistema de auto-regulação intrínseca dos capilares periféricos garante a constante pressão de 0 mmHg nas veias, mantendo o fluxo contínuo e independente da gravidade.",
+            "D": "A complacência vascular gera um vácuo no sistema venoso que conduz o sangue de volta ao átrio direito.",
+            "E": "A ação do Sistema Nervoso Parassimpático sobre os receptores cardíacos hiperpolariza as veias, promovendo vasodilatação e, consequentemente, reduzindo a resistência para o retorno venoso."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A contracao da musculatura esqueletica nas pernas comprime as veias, impulsionando o sangue contra a gravidade. As valvulas venosas impedem o refluxo, garantindo o retorno unidirecional ao coracao."
+    },
+    {
+        "id": "2370045",
+        "enunciado": "Durante um teste ergométrico, a frequência cardíaca (FC) e a força de contração do coração (FCC) de um paciente aumentam significativamente em resposta ao esforço. A capacidade do coração de aumentar o débito cardíaco (DC) para atender à demanda metabólica tecidual é impulsionado por um efeito inotrópico positivo. Este ajuste é uma resposta regulatória extrínseca mediada, principalmente, pela estimulação do Sistema Nervoso Simpático (SNS) e pela liberação de catecolaminas. Assinale a alternativa CORRETA que explica o mecanismo celular de aumento da força de contração cardíaca induzido pelo SNS?",
+        "alternativas": {
+            "A": "A ação da acetilcolina sobre os receptores cardíacos promove hiperpolarização, o que facilita a despolarização espontânea do nodo sinoatrial (SA).",
+            "B": "Aumento do estiramento da musculatura cardíaca devido ao maior volume de enchimento diastólico, conforme postulado pela Lei de Frank-Starling.",
+            "C": "A ativação do barorreflexo, que, ao detectar a alta pressão sistólica, desativa o parassimpático e reduz a condução de potenciais de ação nas vias lentas.",
+            "D": "A elevação da concentração extracelular de íons K+, induzindo hiperpolarização e, consequentemente, reduzindo o desgaste muscular.",
+            "E": "A estimulação simpática ativa os receptores β1-adrenérgicos, o que leva à abertura de canais para Ca2+, resultando no aumento da força e da frequência cardíaca."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A estimulação simpática em resposta ao esforço atua nos receptores beta-1 adrenérgicos, levando ao aumento da entrada de cálcio nas células miocárdicas, o que eleva a força de contração (inotropismo positivo) e a frequência cardíaca."
+    },
+    {
+        "id": "2104032",
+        "enunciado": "O pulso é o fluxo palpável de sangue em uma artéria periférica. O sangue flui pelo organismo em um circuito contínuo, e o pulso é um indicador indireto do estado circulatório. Em relação à fisiologia e regulação do pulso, assinalar a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Um pulso anormalmente lento, rápido ou irregular não altera o débito cardíaco.",
+            "B": "Quando não é possível modificar a força de contração ou o volume sistólico, uma mudança na frequência cardíaca provoca mudança no débito cardíaco.",
+            "C": "Se a frequência cardíaca de um indivíduo for 70bpm e seu volume sistólico for 70mL, o débito cardíaco será de 4.950mL/min.",
+            "D": "À medida que a frequência cardíaca aumenta, o tempo de preenchimento do ventrículo aumenta, elevando, assim, a pressão arterial."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O débito cardíaco é o produto da frequência cardíaca pelo volume sistólico. Caso o volume sistólico não possa ser alterado, qualquer modificação na frequência cardíaca afetará diretamente o débito cardíaco."
+    },
+    {
+        "id": "2302029",
+        "enunciado": "Durante um episódio de hemorragia aguda, um paciente de 32 anos apresenta queda da pressão arterial média (PAM), taquicardia reflexa e pele fria e úmida. Em relação aos mecanismos fisiológicos envolvidos nesse quadro, analise as alternativas e assinale a CORRETA:",
+        "alternativas": {
+            "A": "A diminuição da pressão de perfusão estimula os barorreceptores arteriais, aumentando sua taxa de disparo, o que leva à redução da liberação de norepinefrina pelos nervos simpáticos.",
+            "B": "A ativação do reflexo barorreceptor promove vasodilatação periférica generalizada mediada por receptores adrenérgicos β2, contribuindo para a manutenção da PAM.",
+            "C": "A queda do retorno venoso reduz o volume sistólico, o que aumenta a frequência cardíaca via mecanismo de Bainbridge.",
+            "D": "A diminuição da PAM é detectada pelos barorreceptores carotídeos e aórticos, levando à redução da atividade parassimpática e aumento da atividade simpática, com consequente vasoconstrição periférica e aumento da resistência vascular sistêmica."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A queda da PAM ativa o reflexo barorreceptor, diminuindo a atividade parassimpática e aumentando a simpática, resultando em vasoconstrição para manter a perfusão. As outras alternativas descrevem mecanismos incorretos ou inversos."
+    },
+    {
+        "id": "1576309",
+        "enunciado": "A Pressão Sanguínea representa a força exercida pelo sangue contra qualquer unidade de área da parede do vaso. Desse modo, a pressão arterial é:",
+        "alternativas": {
+            "A": "Diretamente proporcional ao débito cardíaco e inversamente proporcional à resistência vascular periférica.",
+            "B": "Inversamente proporcional ao fluxo sanguíneo e diretamente proporcional ao débito urinário.",
+            "C": "Diretamente proporcional ao débito cardíaco e à resistência vascular periférica.",
+            "D": "Inversamente proporcional à viscosidade sanguínea e à frequência cardíaca."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A pressao arterial é determinada pela quantidade de sangue bombeada pelo coracao (debito cardiaco) e pela resistencia que os vasos oferecem ao fluxo sanguineo (resistencia vascular periferica)."
+    },
+    {
+        "id": "1142687",
+        "enunciado": "Leia o excerto abaixo. “O coração é constituído de quatro câmaras que consistem de dois pares. Os ____ coletam o sangue que retorna, enquanto os __________ empurram o sangue para fora do coração.” Assinale a alternativa que preenche respectivamente a lacuna do trecho acima.",
+        "alternativas": {
+            "A": "ventrículos; septos musculares",
+            "B": "átrios; ventrículos",
+            "C": "septos musculares; átrios",
+            "D": "ventrículos; átrios"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As câmaras superiores do coração, que recebem o sangue, são os átrios. As câmaras inferiores, que bombeiam o sangue para fora do coração, são os ventrículos. Assim, as lacunas são preenchidas por 'átrios' e 'ventrículos'."
+    },
+    {
+        "id": "1657031",
+        "enunciado": "A liberação de qual substância abaixo na corrente sanguínea está associada à redução da pressão arterial?",
+        "alternativas": {
+            "A": "Peptídeo natriurético atrial.",
+            "B": "Aldosterona.",
+            "C": "Cortisol.",
+            "D": "Noradrenalina."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O peptídeo natriurético atrial (PNA) e liberado em resposta ao aumento do volume e estresse atrial, promovendo a natriurese e diurese, o que consequentemente leva a uma reducao da pressao arterial."
+    },
+    {
+        "id": "1111509",
+        "enunciado": "Em uma paciente que será submetida à cirurgia de revascularização miocárdica, qual dos fatores abaixo aumenta o fluxo sanguíneo coronário por aumento da perfusão coronariana?",
+        "alternativas": {
+            "A": "Pressão arterial diastólica elevada.",
+            "B": "Pressão diastólica final (pd2) do ventrículo esquerdo aumentado.",
+            "C": "Pressão arterial sistólica elevada.",
+            "D": "Frequência cardíaca acima de 120 bpm.",
+            "E": "Níveis elevados de PaCo2."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A pressão diastólica final (pd2) aumentada do ventrículo esquerdo indica maior tempo para diástole e, consequentemente, maior perfusão coronariana. As outras opções ou diminuem o fluxo ou não o aumentam significativamente."
+    },
+    {
+        "id": "1176790",
+        "enunciado": "Durante um estado de choque hipovolêmico, o organismo ativa mecanismos para preservar a perfusão dos órgãos vitais. Considerando a fisiologia cardiovascular, qual é o papel principal da angiotensina II nesse contexto?",
+        "alternativas": {
+            "A": "Constringir os vasos sanguíneos e aumentar a reabsorção de água nos rins.",
+            "B": "Ativar a liberação de vasopressina pela hipófise posterior.",
+            "C": "Inibir a produção de aldosterona pelas glândulas suprarrenais.",
+            "D": "Promover a dilatação dos vasos sanguíneos periféricos.",
+            "E": "Estimular a liberação de insulina pelo pâncreas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve o papel principal da angiotensina II na resposta ao choque hipovolêmico. Ela causa vasoconstrição periférica para manter a pressão arterial e aumenta a reabsorção de água nos rins para restaurar o volume sanguíneo."
+    },
+    {
+        "id": "1111512",
+        "enunciado": "Mulher, 50 anos, portadora de doença arterial coronária controlada com tratamento clínico, é submetida à cirurgia de aneurisma abdominal intrarrenal. Após colocar o cateter de Swan-Ganz na artéria pulmonar, é correto afirmar que:",
+        "alternativas": {
+            "A": "O raio dos vasos pulmonares não modifica os valores da pressão da artéria pulmonar.",
+            "B": "Quanto maior o débito cardíaco, maiores os valores da pressão da artéria pulmonar.",
+            "C": "As mudanças do débito cardíaco fazem aumentar passivamente os valores da pressão da artéria pulmonar.",
+            "D": "Variando o débito cardíaco, os valores da pressão da artéria pulmonar não variam.",
+            "E": "Os valores da pressão da artéria pulmonar são dependentes do débito cardíaco."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A pressão da artéria pulmonar reflete as condições do lado esquerdo do coração e a resistência vascular pulmonar. O débito cardíaco, que representa o volume de sangue bombeado por minuto, influenciando a demanda sobre o coração, afeta diretamente essa pressão."
+    },
+    {
+        "id": "1069502",
+        "enunciado": "A pressão arterial sistólica ocorre durante a __________ do ventrículo esquerdo. E a pressão arterial diastólica ocorre durante o _________________ do ventrículo esquerdo. Responda:",
+        "alternativas": {
+            "A": "Força e Relaxamento",
+            "B": "Integridade e Relaxamento",
+            "C": "Força e Contração",
+            "D": "Contração e Relaxamento",
+            "E": "Relaxamento e Contração"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A pressao arterial sistolica ocorre durante a contracao do ventriculo esquerdo, enquanto a pressao diastolica ocorre durante seu relaxamento."
+    },
+    {
+        "id": "1235703",
+        "enunciado": "Um paciente com lesão vascular no nível medular apresenta aumento da atividade do nervo vagal. Qual das seguintes descrições apresenta os efeitos cardiovasculares que ocorrem quando o paciente passa da posição supina para a posição ortostática?",
+        "alternativas": {
+            "A": "Aumento da pressão arterial e nenhuma alteração na frequência cardíaca.",
+            "B": "Queda na pressão arterial e nenhuma alteração na frequência cardíaca.",
+            "C": "Aumento da pressão arterial e aumento da frequência cardíaca.",
+            "D": "Queda da pressão arterial e redução da frequência cardíaca.",
+            "E": "Nenhuma alteração é esperada no sistema cardiovascular."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O aumento da atividade vagal leva à bradicardia (redução da frequência cardíaca) e hipotensão (queda da pressão arterial), especialmente ao mudar para a posição ortostática, pois há um reflexo para compensar a gravidade."
+    },
+    {
+        "id": "2261826",
+        "enunciado": "Considerando-se a fisiologia cardiovascular, assinalar a alternativa que preenche a lacuna abaixo CORRETAMENTE. A primeira bulha cardíaca (B1) está ligada ao fechamento das valvas mitral e tricúspide (valvas atrioventriculares). Ela marca o início da _______________________________.",
+        "alternativas": {
+            "A": "diástole (relaxamento ventricular)",
+            "B": "sístole (contração ventricular)",
+            "C": "diástole (contração ventricular)",
+            "D": "sístole (contração atrial)"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A primeira bulha cardíaca (B1) é o som do fechamento das valvas atrioventriculares (mitral e tricúspide), que marca o término do enchimento ventricular e o início da contração ventricular (sístole). Portanto, B1 inicia a sístole."
+    },
+    {
+        "id": "1493233",
+        "enunciado": "Complete a expressão seguinte com o termo correspondente: A pressão diastólica (PAd) reflete a pressão ___________ no interior das artérias quando os ventrículos estão relaxados.",
+        "alternativas": {
+            "A": "principal",
+            "B": "remanescente",
+            "C": "antagônica",
+            "D": "secundária",
+            "E": "acumulativa"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A pressão diastólica representa a pressão arterial remanescente nas artérias durante o relaxamento ventricular, sendo um indicador da resistência vascular periférica."
+    },
+    {
+        "id": "1076864",
+        "enunciado": "A pressão arterial é a força exercida sobre as paredes de uma artéria pelo sangue que pulsa sob pressão a partir do coração. O pico de pressão máxima quando a ejeção acontece é a pressão arterial sistólica. Quando os ventrículos se relaxam, o sangue que permanece nas artérias exerce uma pressão mínima ou diastólica. Sobre os fatores que interferem nos valores da pressão arterial, assinale a afirmativa correta.",
+        "alternativas": {
+            "A": "É mais elevada em pessoas com baixo peso.",
+            "B": "Aumenta proporcionalmente com exercícios físicos.",
+            "C": "Normalmente diminui no final da tarde e início da noite.",
+            "D": "É mais elevada nos recém-nascidos e mais baixa em idosos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O exercício físico acelera o metabolismo e aumenta o fluxo sanguíneo, elevando a pressão arterial durante a atividade. A pressão arterial tende a diminuir em repouso e pode variar ao longo do dia, não necessariamente diminuindo à tarde/noite. É mais elevada em pessoas com sobrepeso e em idosos em comparação aos recém-nascidos."
+    },
+    {
+        "id": "1135312",
+        "enunciado": "Os determinantes diretos do retorno venoso são a pressão",
+        "alternativas": {
+            "A": "arterial, a pressão do átrio direito e o tônus arterial.",
+            "B": "do átrio direito, a pressão média de enchimento sistêmica e resistência ao retorno venoso.",
+            "C": "do átrio direito, a pressão capilar pulmonar e a pressão arterial diastólica.",
+            "D": "venosa central, a pressão sistólica pulmonar e a pressão média de enchimento sistêmico.",
+            "E": "venosa central e a pressão arterial média."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O retorno venoso é determinado pela diferença entre a pressão venosa sistêmica média e a do átrio direito, influenciado também pela resistência vascular sistêmica. A pressão arterial é um determinante do fluxo, não diretamente do retorno venoso."
+    },
+    {
+        "id": "1083600",
+        "enunciado": "Sobre a fisiologia do sistema vascular e a etiopatogenia da doença arterial, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "A hipertensão arterial sistêmica é um dos principais fatores de risco no desenvolvimento da doença aterosclerótica pela sua prevalência e por atuar diretamente na biologia celular pela desregulação do sistema renina-angiotensina, determinando a diminuição da angiotensina II, potente vasoconstritor e contribuindo para proliferação de célula muscular lisa vascular.",
+            "B": "O diabetes atua tanto na macro como na microcirculação, agravando a evolução da aterosclerose, principalmente pelo seu efeito sobre a matriz extracelular da parede vascular. Na população, a incidência de insuficiência cerebrovascular e de infarto agudo do miocárdio é maior entre os diabéticos.",
+            "C": "Anatomicamente, as paredes das artérias são muito mais fortes que as das veias. Consequentemente, as veias, em média, são cerca de oito vezes mais distensíveis que as artérias, isto é, determinado aumento de pressão provoca aumento oito vezes maior no volume sanguíneo em uma artéria que em veia de diâmetro comparável.",
+            "D": "Vários estudos publicados demonstram a relação entre tabagismo e aterosclerose, pois este interfere diretamente no equilíbrio homeostático do endotélio vascular. Entre os mecanismos que agravam a doença ateromatosa estão os efeitos deletérios da nicotina e derivados. Atua também aumentando a pressão arterial e diminuindo o HDL e a adesão plaquetária."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O diabetes agrava a aterosclerose afetando a matriz extracelular e aumenta a incidência de eventos cerebrovasculares e infartos. A alternativa A está incorreta pois a hipertensão aumenta a angiotensina II. A alternativa C está incorreta na comparação de distensibilidade entre veias e artérias. A alternativa D está incorreta ao afirmar que o tabagismo diminui a adesão plaquetária."
+    },
+    {
+        "id": "1953321",
+        "enunciado": "Durante a consulta inicial odontológica cabe ao cirurgião-dentista a realização da anamnese, o exame físico e o uso de demais manobras semiológicas. Uma delas é a aferição da pressão arterial, por meio da qual, são determinados os valores de pressão sistólica e diastólica. “A pressão sistólica é a pressão ____________ necessária para que o sangue ____________, impulsionado pelo ventrículo ____________, alcance as células do corpo com o oxigênio.” Assinale a alternativa que completa correta e sequencialmente a afirmativa anterior.",
+        "alternativas": {
+            "A": "Mínima / arterial / direito",
+            "B": "Máxima / arterial / direito",
+            "C": "Máxima / venoso / esquerdo",
+            "D": "Máxima / arterial / esquerdo"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A pressão sistólica (máxima) é a força do sangue contra as artérias durante a contração do ventrículo esquerdo, que impulsiona o sangue oxigenado para o corpo."
+    },
+    {
+        "id": "1042910",
+        "enunciado": "A Pressão arterial (PA) deve ser medida em toda avaliação médica, por qualquer especialidade e demais profissionais da saúde devidamente capacitados. Recomenda-se, pelo menos, a medição da PA a cada dois anos para os adultos. Sobre a PA, marque a alternativa CORRETA.",
+        "alternativas": {
+            "A": "A PA é determinada pelo volume de sangue bombeado pelo coração por minuto e pela resistência que as artérias oferecem quando o sangue passa por elas.",
+            "B": "A PA é composta pela PA sistólica (PAS), exercida na parede das artérias durante a diástole ventricular, e pela PA diastólica (PAD), exercida na parede das artérias durante a diástole ventricular.",
+            "C": "A aferição da pressão arterial, em consultório, é a única técnica para o diagnóstico e o manejo da hipertensão no mundo.",
+            "D": "Quando a PAS e a PAD situam-se em classificações diferentes, a menor deve ser utilizada para classificação da PA.",
+            "E": "Algumas atividades do paciente interferem nos valores de PA e devem ser evitadas nos 30 a 60 minutos que antecedem sua avaliação. A ingestão de alimentos, exercício físico extenuante, tabagismo e ingestão de cafeína não interferem no valor da PA."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A PA decorre do débito cardíaco (volume x frequência) e da resistência vascular periférica. A alternativa B inverte diástole e sístole. A C é falsa pois existem outras técnicas. A D está incorreta, usa-se a maior. A E está incorreta pois algumas atividades interferem."
+    },
+    {
+        "id": "1168821",
+        "enunciado": "Sobre o sistema cardiovascular, marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "o sangue venoso rico em oxigênio retorna ao coração pelo átrio direito;",
+            "B": "o ventrículo esquerdo bombeia sangue oxigenado para todo o corpo através da veia pulmonar;",
+            "C": "as válvulas atrioventriculares impedem o retorno de sangue do ventrículo para o átrio;",
+            "D": "a troca de gases ocorre nos ventrículos do coração;",
+            "E": "a circulação sistêmica é responsável pelo transporte de sangue do coração para os pulmões."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As válvulas atrioventriculares (mitral e tricúspide) abrem-se para permitir a passagem do sangue dos átrios para os ventrículos e fecham-se para impedir seu retorno durante a contração ventricular. As outras alternativas contêm incorreções sobre o fluxo sanguíneo e composição."
+    },
+    {
+        "id": "1036993",
+        "enunciado": "A manutenção da alta resistência vascular pulmonar durante a vida fetal se deve a diversos fatores. Assinale a alternativa onde não se encontra esses fatores.",
+        "alternativas": {
+            "A": "baixa pressão parcial de oxigênio intrapulmonar",
+            "B": "baixa produção de óxido nítrico",
+            "C": "aumento da produção de endotelina",
+            "D": "aumento da produção de tromboxane",
+            "E": "alta produção de prostaciclina"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A manutenção da alta resistência vascular pulmonar fetal é mantida pela baixa PO2, alta produção de prostaciclina e óxido nítrico e baixa produção de endotelina e tromboxane. A alta produção de prostaciclina contribui para a vasodilatação, e não para a manutenção da alta resistência."
+    },
+    {
+        "id": "1031936",
+        "enunciado": "Leia a afirmativa a seguir. “A(O) __________ é o percentual do aumento do volume a partir de aplicada uma determinada pressão.” Assinale a alternativa que preenche corretamente a lacuna.",
+        "alternativas": {
+            "A": "débito cardíaco.",
+            "B": "resistência periférica.",
+            "C": "volemia.",
+            "D": "distensibilidade.",
+            "E": "viscosidade."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A distensibilidade é a capacidade de um vaso acomodar um volume de sangue com pouca variação de pressão. Refere-se à elasticidade e expandibilidade dos vasos sanguíneos."
+    },
+    {
+        "id": "1893259",
+        "enunciado": "Variação na pressão arterial de pacientes hipovolêmicos mantidos em ventilação mecânica pode ser devido a:",
+        "alternativas": {
+            "A": "Queda no fluxo sanguíneo na veia cava, artéria pulmonar e aorta.",
+            "B": "Elevação da resistência vascular pulmonar e queda na pós-carga do VD.",
+            "C": "Aumento da pós-carga por falha de ejeção do ventrículo esquerdo.",
+            "D": "Menor impacto da fase inspiratória na pré-carga do ventrículo direito."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em pacientes hipovolêmicos sob ventilação mecânica, a pressão arterial pode variar devido a alterações no retorno venoso causadas pela pressão intratorácica aumentada durante a inspiração. Isso afeta o fluxo sanguíneo nas veias cavas, artéria pulmonar e aorta."
+    },
+    {
+        "id": "1212937",
+        "enunciado": "O sistema nervoso autônomo é responsável por reflexos cardiovasculares de manter a pressão sanguínea durante alterações posturais. A adoção da posição ortostática dificulta o retorno venoso, reduz a saída cardíaca e a pressão arterial. Assim, é comum a ocorrência de síncopes, devido à hipoperfusão cerebral. É CORRETO afirmar:",
+        "alternativas": {
+            "A": "A redução na pressão arterial gera ativação de barorreceptores, visando à ativação parassimpática.",
+            "B": "Há aumento da atividade vagal, tanto no coração quanto nos vasos sanguíneos.",
+            "C": "Ocorrem respostas neuroumorais, aumentando a excreção de sódio.",
+            "D": "A disfunção autonômica pode ocorrer por síncope vasovagal e hipotensão ortostática neurogênica."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A disfunção autonômica pode manifestar-se através de episódios de síncope vasovagal e dificuldades em manter a pressão arterial em pé (hipotensão ortostática neurogênica), como descrito no texto."
+    },
+    {
+        "id": "1210971",
+        "enunciado": "O exercício é capaz de modificar agudamente diversos parâmetros cardiovasculares, a exemplo da pré-carga. Qual das variáveis a seguir representa a pré-carga?",
+        "alternativas": {
+            "A": "Débito cardíaco.",
+            "B": "Variabilidade da frequência cardíaca.",
+            "C": "Resistência periférica total.",
+            "D": "Lei de Frank-Starling.",
+            "E": "Volume diastólico final."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A pre-carga refere-se ao volume de sangue que preenche o ventriculo esquerdo ao final da diastole, antes da contracao. O volume diastolico final e a principal medida que representa a pre-carga."
+    },
+    {
+        "id": "1133452",
+        "enunciado": "Com relação à fisiologia do coração e à pressão arterial, marque a alternativa correta.",
+        "alternativas": {
+            "A": "A pressão arterial sistólica representa a fase de relaxamento do ciclo cardíaco.",
+            "B": "A pressão arterial diastólica representa uma estimativa do trabalho do coração e a força que o sangue exerce contra as paredes arteriais durante a sístole ventricular.",
+            "C": "A pressão arterial sistólica ocorre durante a contração do ventrículo, quando são ejetados sangue para a artéria aorta.",
+            "D": "A sístole diastólica é utilizada para representar a força ou a pressão exercida contra a parede arterial durante o ciclo cardíaco.",
+            "E": "A pressão arterial sistólica ocorre durante a contração do átrio esquerdo, quando é ejetado sangue para o ventrículo esquerdo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A pressão arterial sistólica ocorre durante a fase de contração dos ventrículos, quando o sangue é bombeado para as artérias. A pressão diastólica ocorre durante o relaxamento ventricular. As outras alternativas apresentam definições incorretas."
+    },
+    {
+        "id": "1434943",
+        "enunciado": "A Insuficiência Cardíaca Congestiva (ICC) ocorre quando o coração não está bombeando sangue suficiente para atender às necessidades do corpo. Como resultado, mais sangue é deixado nos ventrículos ao fim de cada ciclo. O resultado é um ciclo de retroalimentação positiva. De acordo com TORTORA, em relação à Insuficiência Cardíaca Congestiva, assinalar a alternativa que preenche as lacunas abaixo CORRETAMENTE: Na ICC, frequentemente, um lado do coração começa a falhar antes do outro. Se o ventrículo ____________ falha primeiro, não consegue bombear para fora todo o sangue que recebe, e o sangue se acumula nos ____________. O resultado é o edema ____________, que leva à sufocação. Se o ventrículo ____________ falhar primeiro, o sangue se acumula nos ____________. Nesse caso, o edema ____________ resultante é geralmente mais evidente como um inchaço nos pés e nos tornozelos.",
+        "alternativas": {
+            "A": "direito - pulmões - periférico - esquerdo - vasos sanguíneos sistêmicos - pulmonar",
+            "B": "esquerdo - pulmões - pulmonar - direito - vasos sanguíneos sistêmicos - periférico",
+            "C": "esquerdo - vasos sanguíneos sistêmicos - pulmonar - direito - pulmões - periférico",
+            "D": "esquerdo - pulmões - periférico - direito - vasos sanguíneos sistêmicos - pulmonar"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Se o ventrículo esquerdo falha, o sangue se acumula nos pulmões causando edema pulmonar. Se o ventrículo direito falha, o sangue se acumula nos vasos sistêmicos causando edema periférico nos pés e tornozelos."
+    },
+    {
+        "id": "2151378",
+        "enunciado": "Bebidas alcoólicas contêm etanol, que atua como uma droga sedativo-hipnótica. O álcool é rapidamente absorvido para a corrente sanguínea a partir do estômago e do trato intestinal. Como as mulheres têm níveis menores de álcool-desidrogenase no estômago (a enzima responsável pelo metabolismo inicial do álcool), apresentam maior concentração sanguínea de álcool do que homens que consomem quantidades semelhantes de álcool por quilograma de peso corporal. A respeito disso, NÃO se pode afirmar que:",
+        "alternativas": {
+            "A": "Após a exposição crônica ao álcool, alguns neurônios cerebrais aparentemente se adaptam a essa exposição, ajustando sua resposta aos estímulos normais. Acredita-se que essa adaptação seja responsável pelo fenômeno de tolerância, em que as quantidades cada vez maiores de álcool são necessárias para atingir os efeitos desejados. Embora muito já se saiba sobre os diversos efeitos do álcool nos vários receptores cerebrais, não foi identificado um local de ação exclusivo.",
+            "B": "Os sintomas de intoxicação leve pelo álcool em indivíduos sem tolerância costumam ocorrer com níveis sanguíneos de álcool entre 20 e 100 mg/dL e incluem euforia, discreta falta de coordenação muscular e leve disfunção cognitiva. Quando os níveis de álcool no sangue ficam mais altos (100 a 200 mg/dL) ocorrem disfunções neurológicas mais substanciais, como comprometimento mental mais grave, ataxia e prolongamento do tempo de reação.",
+            "C": "A cardiomiopatia alcoólica pode apresentar-se clinicamente de forma semelhante a outras causas da insuficiência cardíaca. É a causa mais comum de miocardiopatia não isquêmica em países ocidentais, sendo responsável por 45% dos casos. A exemplo de outras causas, a miocardiopatia alcoólica também responde a tratamentos convencionais para insuficiência cardíaca. A abstinência de álcool pode provocar uma melhora significativa da miocardiopatia em alguns pacientes. O aumento dos níveis de consumo de álcool também está associado a um aumento dos níveis de hipertensão sistólica e diastólica. As arritmias mais comuns associadas ao uso crônico do álcool incluem fibrilação atrial e taquicardia supraventricular.",
+            "D": "A deficiência de vitaminas como a riboflavina e o ácido ascórbico pode desempenhar um papel importante na patogênese da demência alcoólica e disfunção cognitiva grave, como é visto na síndrome de Korsakoff."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A deficiência de vitaminas como riboflavina e ácido ascórbico não é considerada a causa principal para a demência alcoólica ou síndrome de Korsakoff, que estão mais relacionadas à deficiência de tiamina."
+    },
+    {
+        "id": "2151380",
+        "enunciado": "A insuficiência cardíaca é um termo abrangente para a definição de uma síndrome (uma série de sinais e sintomas) que engloba um vasto espectro de distúrbios cardiovasculares e está associada a um risco de morte muito alto e a eventos cardiovasculares adversos não fatais. A respeito disso, NÃO se pode afirmar que:",
+        "alternativas": {
+            "A": "Dos fatores modificáveis, a hipertensão contribui indubitavelmente para o maior risco atribuível populacional de desenvolvimento da insuficiência cardíaca. Em outras palavras, embora o risco aumentado da insuficiência cardíaca em um indivíduo com hipertensão seja moderado, a alta prevalência de hipertensão na população geral significa que, do ponto de vista populacional, a hipertensão é a principal causa da insuficiência cardíaca.",
+            "B": "Dos componentes da pressão arterial, a pressão diastólica elevada tem uma influência maior na incidência da insuficiência cardíaca que a pressão sistólica.",
+            "C": "Estima-se que o tratamento eficaz da hipertensão reduzirá, de maneira substancial, a incidência da insuficiência cardíaca ajustada por idade, em aproximadamente 60% em mulheres e 50% em homens.",
+            "D": "Embora a obesidade seja correlacionada com a hipertensão, anormalidades lipídicas e intolerância à glicose, um índice de massa corporal elevado representa também fator de risco independente para o desenvolvimento da insuficiência cardíaca."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A pressão sistólica elevada tem maior influência na incidência da insuficiência cardíaca do que a diastólica, contrariando a afirmativa B. As demais afirmativas estão de acordo com a literatura médica sobre o tema."
+    },
+    {
+        "id": "2151382",
+        "enunciado": "O impulso cardíaco normal começa no complexo do nó sinusal, que está localizado na junção do átrio direito e da veia cava superior. Propaga-se, então, através do átrio direito e ativa o átrio esquerdo, principalmente através do seio coronário. O tempo necessário para ativar os átrios é representado pela onda P no eletrocardiograma (ECG). Após despolarizar os átrios, o impulso entra no nó atrioventricular (AV), que está localizado na região do septo inferior do átrio direito, onde ocorre um atraso na condução do estímulo elétrico. A respeito disso, NÃO se pode afirmar que:",
+        "alternativas": {
+            "A": "As taquicardias supraventriculares (TSVs) são definidas como arritmias com três ou mais batimentos a uma frequência maior do que 100 batimentos por minuto. Os batimentos, que podem ser regulares ou irregulares, são geralmente de complexo estreito, mas podem ser de complexo largo quando associados a bloqueio de ramo (aberrância) ou a condução por via acessória.",
+            "B": "Dilatação atrial, infarto agudo do miocárdio, embolia pulmonar, estados inflamatórios agudos ou crônicos ou cicatrizes de cirurgia prévia envolvendo o miocárdio atrial ou o pericárdio, estão entre as causas de taquiarritmias atriais.",
+            "C": "Além de sua associação com o envelhecimento, a FA frequentemente ocorre em associação com a hipertensão ou outras comorbidades, como diabetes melito, tireotoxicose, insuficiência cardíaca, doença arterial coronariana, doença cardíaca valvar ou doença pulmonar, como doença pulmonar obstrutiva crônica ou apneia do sono obstrutiva. Cerca de 20% dos pacientes não apresentam comorbidades associadas e têm o que se pode chamar de FA isolada. Alguns pacientes desenvolvem FA após compulsões de uso de álcool (holiday heart) ou após ondas parassimpáticas, como após exercício vigoroso ou uma farta refeição (FA vagal).",
+            "D": "As extrassístoles atriais geralmente não precisam de tratamento, a menos que estejam associadas a sintomas significativos. O tratamento consiste, principalmente, no uso de captopril e hidroclorotiazida."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O tratamento das extrassístoles atriais, quando sintomáticas, geralmente envolve betabloqueadores ou bloqueadores dos canais de cálcio, e não captopril e hidroclorotiazida, que são anti-hipertensivos."
+    },
+    {
+        "id": "2008047",
+        "enunciado": "A pressão (PA) ou tensão arterial (TA) depende da força de contração do coração, da quantidade de sangue circulante e da resistência dos vasos. Ao medir a PA consideramos a pressão máxima ou sistólica que resulta da contração dos ventrículos para ejetar o sangue nas grandes artérias e a pressão mais baixa ou diastólica, que ocorre assim que o coração relaxa (POTTER, 1998).   Sabendo disso, assinale a alternativa em que o nível seja considerado hipotensão:",
+        "alternativas": {
+            "A": "120/080 mm/Hg",
+            "B": "100/060 mm/Hg",
+            "C": "110/090 mm/ Hg",
+            "D": "140/090 mm/Hg."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Hipotensão é caracterizada por níveis de pressão arterial anormalmente baixos. Geralmente, valores abaixo de 90/60 mmHg são considerados hipotensão. A alternativa B (100/060 mmHg) é a que mais se aproxima desse limiar, indicando uma pressão mais baixa que o normal (120/80 mmHg)."
+    },
+    {
+        "id": "1048954",
+        "enunciado": "Assinale a alternativa correta em relação ao sistema renina-angiotensina-aldosterona (SRAA):",
+        "alternativas": {
+            "A": "A renina é produzida pelos pulmões;",
+            "B": "A renina promove a produção de angiotensina I e angiotensina II;",
+            "C": "A angiotensina II também pode ser sintetizada por vias independentes da renina, por meio da conversão enzimática do angiotensinogênio em angiotensina I através da calicreína e catepsina G;",
+            "D": "A aldosterona leva a absorção de sódio com diminuição da volemia e aumenta a captação de norepinefrina."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A Via extrarrenina para formação de angiotensina II, mediada por enzimas como calicreína e catepsina G, é uma via alternativa à renina. A renina é produzida principalmente pelos rins, não pelos pulmões. A angiotensina II causa vasoconstrição e aumento da volemia. A aldosterona causa retenção hidrossalina."
+    },
+    {
+        "id": "1877072",
+        "enunciado": "Considere as afirmações abaixo sobre respostas circulatórias ao exercício. I - A frequência cardíaca aumenta no início do exercício devido à remoção do tônus parassimpático. II - O débito cardíaco aumenta durante o exercício independente da demanda de oxigênio do músculo esquelético. III - O retorno venoso aumenta durante o exercício aeróbio devido à bomba muscular. Quais estão corretas?",
+        "alternativas": {
+            "A": "Apenas I.",
+            "B": "Apenas II.",
+            "C": "Apenas III.",
+            "D": "Apenas I e III.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O aumento da FC no exercício é devido à queda do tônus parassimpático (I). O débito cardíaco aumenta conforme a demanda (II). O retorno venoso aumenta pela bomba muscular (III)."
+    }
+]

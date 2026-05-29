@@ -1,0 +1,776 @@
+[
+    {
+        "id": "2023371",
+        "enunciado": "Sobre os vírus, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "A transcriptase reversa é capaz de gerar RNA a partir de DNA.",
+            "B": "O capsídeo dos vírus é formado por um número fixo de subunidades proteicas.",
+            "C": "Quando não estão infectando uma célula, os vírus são metabolicamente inertes.",
+            "D": "Os especialistas não conseguem classificar os vírus de acordo com o nenhum parâmetro.",
+            "E": "O material genético dos vírus, pode ser DNA e RNA, sempre concomitantemente."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Vírus são entidades acelulares e metabólicas apenas quando dentro de uma célula hospedeira. Fora dela, são inertes. A transcriptase reversa faz RNA a partir de DNA. O capsídeo tem subunidades, mas não necessariamente fixas. Não é verdade que não podem ser classificados, e o material genético é DNA ou RNA, não ambos simultaneamente."
+    },
+    {
+        "id": "2372013",
+        "enunciado": "O vírus HIV (Vírus da Imunodeficiência Humana) é um vírus envelopado, de Ácido Ribonucleico (RNA), responsável pela AIDS (Síndrome da Imunodeficiência Adquirida). Em seu interior, ele carrega enzimas essenciais para sua replicação no interior da célula hospedeira. Sobre essas enzimas, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Peptidase, helicase e ligase.",
+            "B": "Transcriptase reversa, integrase e protease.",
+            "C": "Amilase, transcriptase reversa e peptidase.",
+            "D": "Helicase, protease e transferase.",
+            "E": "Integrase, catalase e peroxidase."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O HIV utiliza enzimas específicas para seu ciclo de vida em células humanas. A transcriptase reversa permite que seu RNA seja convertido em DNA, a integrase insere esse DNA no genoma hospedeiro e a protease processa proteínas virais."
+    },
+    {
+        "id": "1713336",
+        "enunciado": "Um paciente foi admitido na emergência com suspeita de infecção viral grave. Para confirmação diagnóstica, qual o método laboratorial mais apropriado para detecção viral em tempo real?",
+        "alternativas": {
+            "A": "Cultura viral em meio de células primárias.",
+            "B": "Reação em cadeia da polimerase (PCR) em tempo real.",
+            "C": "Teste de aglutinação em látex para antígenos virais.",
+            "D": "Contagem diferencial de leucócitos no hemograma."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A PCR em tempo real é a técnica mais adequada para detecção viral rápida e sensível, pois amplifica e quantifica o material genético viral diretamente, permitindo o diagnóstico precoce. As outras opções são menos específicas ou não permitem a detecção em tempo real."
+    },
+    {
+        "id": "2183479",
+        "enunciado": "Os vírus são entidades acelulares e só se reproduzem no interior de uma célula hospedeira. Ao penetrar na célula, eles passam a comandar o metabolismo celular, fazendo-a replicar seu material genético e sintetizar suas proteínas. A maioria dos vírus é menor do que as menores células e visível apenas ao microscópio eletrônico. A estrutura mais simples do vírus corresponde a uma cápsula proteica (capsídeo) que envolve o material genético, DNA ou RNA; esse conjunto é chamado de nucleocapsídeo. Entretanto, alguns vírus possuem um envoltório lipoprotéico ao redor do nucleocapsídeo, chamado envelope, que é derivado da membrana plasmática da célula hospedeira. Fonte: LOPES, S.; ROSSO, S. Ciências da Natureza − água, agricultura e uso da terra. São Paulo: Editora Moderna, 2020. Dois exemplos de vírus envelopados são:",
+        "alternativas": {
+            "A": "o vírus do HIV e o SARS-CoV-2.",
+            "B": "o vírus do HIV e da poliomielite.",
+            "C": "o vírus da poliomielite e da hepatite.",
+            "D": "o vírus do HIV e da hepatite.",
+            "E": "o vírus SARS-CoV-2 e da poliomielite."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Tanto o vírus HIV quanto o SARS-CoV-2 são exemplos conhecidos de vírus envelopados, possuindo um envelope lipoproteico derivado da membrana da célula hospedeira."
+    },
+    {
+        "id": "1839378",
+        "enunciado": "[Trecho retirado de matéria on-line publicada pelo g1.globo, em 09/01/2025] “O Instituto Adolfo Lutz (IAL), centro de excelência laboratorial do estado de São Paulo, confirmou na última quarta-feira (8) a detecção de norovírus em amostras fecais humanas provenientes da Baixada Santista. O norovírus é um agente infeccioso bastante conhecido pelos infectologistas e comumente associado a surtos de doenças gastrointestinais, especialmente em locais com alta concentração de pessoas e, por isso, pode causar uma explosão de casos, como aconteceu no litoral de São Paulo [...] Os sintomas da infecção por norovírus costumam ser mais intensos nos primeiros 2 a 3 dias, mas geralmente duram cerca de 3 a 7 dias; durante as primeiras 48 horas. É comum a pessoa ter várias evacuações líquidas, o que pode levar à perda significativa de líquidos, além de náuseas e vômitos. Além disso, os sintomas aparecem rapidamente, normalmente no mesmo dia em que a pessoa entra em contato com o vírus, causando mal-estar, evacuações frequentes e dores abdominais. A febre baixa também pode ocorrer, mas é menos comum”. O AGENTE ETIOLÓGICO descrito na notícia:",
+        "alternativas": {
+            "A": "É uma bactéria.",
+            "B": "Foi erradicado.",
+            "C": "É um fungo.",
+            "D": "É um vírus.",
+            "E": "Não existe."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O texto descreve o norovírus como um 'agente infeccioso' e menciona seus sintomas, caracteristicas de um vírus, não de uma bactéria, fungo ou agente erradicado/inexistente."
+    },
+    {
+        "id": "1978822",
+        "enunciado": "A figura a seguir ilustra uma partícula viral específica de um tipo de vírus não envelopado, constituído de capsídeo triplo e onze filamentos de RNA de fita dupla. A vacinação contra esse vírus imuniza oralmente as crianças contra infecções e casos graves de diarreia infantil. Ela é segura, eficaz e reduz significativamente as hospitalizações e mortes relacionadas à doença, fazendo parte dos calendários de vacinação em muitos países. As características biológicas virais, ilustradas e descritas, permitem afirmar que se trata de um",
+        "alternativas": {
+            "A": "arbovírus.",
+            "B": "rotavírus.",
+            "C": "retrovírus.",
+            "D": "coronavírus.",
+            "E": "parvovírus."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A descrição do vírus, com capsídeo triplo, genoma de RNA fita dupla e o fato de causar diarreia infantil, é característica do rotavírus."
+    },
+    {
+        "id": "1812057",
+        "enunciado": "Para cada exame laboratorial, uma amostra biológica específica é requerida. Qual amostra deverá ser preparada para realização de exame de carga viral do HIV-1?",
+        "alternativas": {
+            "A": "Plasma com EDTA",
+            "B": "Sangue total com citrato",
+            "C": "Soro",
+            "D": "Plasma fluoretado"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para a realização da carga viral do HIV-1, a amostra biológica mais adequada é o plasma com EDTA. O EDTA atua como anticoagulante e preserva a integridade do RNA viral, essencial para a precisão do exame."
+    },
+    {
+        "id": "1807619",
+        "enunciado": "É correto afirmar que a replicação viral, que ocorre no interior da célula do hospedeiro, evolui seguindo as etapas de:",
+        "alternativas": {
+            "A": "adsorção, penetração, mitose, desnudamento, transcrição e liberação.",
+            "B": "adsorção, citocinese, desnudamento, tradução, maturação e liberação.",
+            "C": "adsorção, replicação do DNA, desnudamento, transcrição, maturação e liberação.",
+            "D": "adsorção, penetração, desnudamento, transcrição, tradução (síntese), maturação e liberação.",
+            "E": "adsorção, penetração, desnudamento, glicólise, tradução e liberação."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A replicação viral segue um ciclo que inclui adsorção (ligação à célula), penetração (entrada na célula), desnudamento (remoção do capsídeo), transcrição (síntese de RNA viral), tradução/síntese (produção de proteínas virais) e maturação/liberação (montagem e saída da nova partícula viral)."
+    },
+    {
+        "id": "1226658",
+        "enunciado": "Entre os critérios para caracterização de um vírus é o seu tamanho, sendo assim podemos dizer que:",
+        "alternativas": {
+            "A": "o menor vírus mede 30 nm e o maior vírus mede 500 nm de diâmetro.",
+            "B": "o menor vírus mede 20 nm e o maior vírus mede 200 nm de diâmetro.",
+            "C": "o menor vírus mede 20 nm e o maior vírus mede 300 nm de diâmetro.",
+            "D": "o menor vírus mede 30 nm e o maior vírus mede 300 nm de diâmetro.",
+            "E": "o menor vírus mede 50 nme o maior vírus mede 300 nm de diâmetro."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em geral, os vírus mais pequenos medem cerca de 20 nm (como os Parvovirus), e os maiores podem atingir cerca de 200 nm (como os Poxvírus), embora existam exceções e variações."
+    },
+    {
+        "id": "1062081",
+        "enunciado": "Analise as afirmativas a seguir:  I. Vírus não são parasitas intracelulares obrigatórios.  II. Os vírus utilizam as proteínas da célula que parasitam para se reproduzirem. E podem ser classificados como vírus de DNA ou de RNA.  Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "As duas afirmativas são verdadeiras.",
+            "B": "A afirmativa I é verdadeira, e a II é falsa.",
+            "C": "A afirmativa II é verdadeira, e a I é falsa.",
+            "D": "As duas afirmativas são falsas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa I esta incorreta. Virus sao parasitas intracelulares obrigatorios. A afirmativa II esta correta, virus utilizam a maquinaria celular para replicacao e sao classificados como de DNA ou RNA."
+    },
+    {
+        "id": "1142455",
+        "enunciado": "Como os vírus diferem de outros microorganismos, como bactérias e fungos, e quais são as principais características que os tornam únicos?",
+        "alternativas": {
+            "A": "Vírus são microorganismos semelhantes a bactérias, não apresentando diferenças significativas.",
+            "B": "Vírus são compostos principalmente por células eucarióticas, tornando-os semelhantes a fungos.",
+            "C": "Vírus são agentes infecciosos intracelulares que dependem de células hospedeiras para se reproduzirem, diferenciando-se de bactérias e fungos.",
+            "D": "A virologia não tem relevância na prevenção e tratamento de doenças, pois as infecções virais são inevitáveis e não podem ser controladas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Vírus são acelulares e necessitam de células hospedeiras para replicar, diferindo fundamentalmente de bactérias e fungos, que são organismos celulares independentes."
+    },
+    {
+        "id": "1205302",
+        "enunciado": "O cultivo de células hospedeiras é necessário para que vírus se repliquem, permitindo, assim, sua identificação. Sobre esse tema, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "As células para cultivo são obtidas a partir de um órgão animal, sendo incubadas em frascos de vidro ou plástico estéreis contendo meio de cultivo apropriado. Esses meios são, normalmente, simples, contendo pequena variedade de nutrientes e agentes antimicrobianos para prevenir a contaminação bacteriana.",
+            "B": "Os vírus, quando infectam as células do cultivo, promovem a multiplicação dessas células formando colônias.",
+            "C": "Pela contagem do número de colônias, pode-se calcular o título da amostra expressa por unidades formadoras de colônias por mililitro.",
+            "D": "Nem todos os vírus plaqueados infectam as células. Isso pode ocorrer porque alguns vírus podem ter se montado incompletamente durante a maturação ou podem conter genomas defectivos, ou podem ter sido danificados pelo manuseamento ou estocagem. Portanto, a eficiência do plaqueamento raramente alcança 100%."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D descreve corretamente um fato intrínseco à virologia: nem todos os vírus infectam eficientemente as células em cultura, devido a defeitos na maturação ou genoma, resultando em uma eficiência de plaqueamento abaixo de 100%. As outras afirmativas contêm erros sobre o cultivo viral e a interpretação de plaqueamento."
+    },
+    {
+        "id": "1117842",
+        "enunciado": "Em pacientes portadores do HIV, a maioria das infecções oportunistas de etiologia viral são causadas pelo grupo herpes. Esses agentes, por sua vez, facilitam a disseminação e expressividade do HIV, agravando a resposta imunológica. Atualmente, sabe-se que a co-infecção viral pode levar a um efeito sinérgico para ambos os vírus. Dentre os vírus apresentados quais pertencem a família do herpes Vírus?",
+        "alternativas": {
+            "A": "Leucoplasia pilosa, Epstein-Barr e citomegalovírus",
+            "B": "Leucoplasia pilosa, Epstein-Barr e Papiloma Vírus Humano",
+            "C": "Epstein-Barr, Papiloma Vírus Humano e Molusco contagioso",
+            "D": "Sarcoma de Kapos, Epstein-Barr e citomegalovírus"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A leucoplasia pilosa é causada pelo Epstein-Barr, um herpesvírus. Além disso, o citomegalovírus também é um membro da família dos herpesvírus e é conhecido por causar infecções oportunistas nos portadores de HIV."
+    },
+    {
+        "id": "1082663",
+        "enunciado": "“As protuberâncias semelhantes a ferrões são as hemaglutininas. Quando o vírus colide com a célula, essa hemaglutinina roça nas moléculas de ácido siálico que se projetam da superfície das células do aparelho respiratório. (...) A hemaglutinina e o ácido siálico têm formatos extremamente compatíveis e a hemaglutinina se liga ao receptor de ácido siálico como a mão entrando na luva. Enquanto o vírus se aproxima da membrana celular, mais ferrões de hemaglutinina se ligam a mais receptores de ácido siálico. (... ) Assim o vírus cumpre sua primeira tarefa: adsorção, que é a aderência a membrana da célula-alvo.” O texto refere-se ao mecanismo de ação de um vírus que ocasiona:",
+        "alternativas": {
+            "A": "Influenza.",
+            "B": "Meningite.",
+            "C": "Hepatite.",
+            "D": "Dengue.",
+            "E": "Herpes."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A descrição detalha o mecanismo de ligação do vírus às células do aparelho respiratório, caracterizando a hemaglutinina e sua interação com o ácido siálico. Este processo é o mecanismo de entrada do vírus influenza nas células hospedeiras."
+    },
+    {
+        "id": "1323475",
+        "enunciado": "Uma infecção viral pode levar a um espectro de sintomas que vai desde uma doença assintomática até o óbito. Os indivíduos podem contrair vírus ao ingerí-los ou inalá-los, ao serem picados por insetos, por meio de contato sexual ou por infecção congênita. Assinale a alternativa que apresenta apenas vírus transmitidos pela via fecal-oral e que não possuem um envelope (nucleocapsídeo não envelopado).",
+        "alternativas": {
+            "A": "Vírus coxsackie, ecovírus, vírus da hepatite A e rotavírus.",
+            "B": "Vírus coxsackie, vírus das hepatites e da febre amarela.",
+            "C": "HIV, herpes simples tipo 2, vírus das hepatites B e C.",
+            "D": "Vírus da febre amarela, do Nilo Ocidental e da Dengue.",
+            "E": "Rotavírus, ecovírus, vírus da hepatite A e vírus da raiva."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A lista apenas vírus que são transmitidos pela via fecal-oral e são não envelopados: coxsackie, ecovírus, hepatite A e rotavírus. As outras alternativas incluem vírus com outros tipos de transmissão (sexual, vetorial, etc.) ou vírus envelopados (HIV, herpes, hepatite B e C)."
+    },
+    {
+        "id": "1591727",
+        "enunciado": "Com a evolução das gerações dos testes sorológicos, foi possível fazer o diagnóstico da infecção pelo HIV de forma cada vez mais precoce, reduzindo a janela imunológica e melhorando o valor preditivo positivo e disponibilizando uma diversidade de opções no mercado. São testes laboratoriais utilizados para pesquisa de HIV-1/HIV-2, exceto:",
+        "alternativas": {
+            "A": "Ensaio Imunoenzimático (EIE) para detecção de anticorpos totais antiHIV-1/2.",
+            "B": "Imunoblot - teste confirmatório para detecção de anticorpos específicos antiHIV-1/2.",
+            "C": "Western Blot - teste confirmatório para detecção sorológica de anticorpos específicos anti-HIV-1/2.",
+            "D": "Imunocitoquímica para detecção de RNA pro-viral do HIV-1/2, numa reação antígeno-anticorpo.",
+            "E": "Reação em Cadeia da Polimerase em tempo real (qPCR) e Reação em cadeia da polimerase (PCR) para detecção do DNA pro-viral do HIV-1/2."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Imunocitoquímica detecta antígenos em células. A pesquisa de HIV-1/2 envolve a detecção de anticorpos ou material genético (RNA/DNA viral), e não a detecção de RNA pro-viral por reação antígeno-anticorpo específico para diagnóstico sorológico."
+    },
+    {
+        "id": "1368464",
+        "enunciado": "Os vírus, que estão muito associados à promoção de várias doenças em humanos, como Zika, influenza, Ebola, covid-19, entre outras, são",
+        "alternativas": {
+            "A": "organismos procariontes ricos em receptores que reconhecem os linfócitos T.",
+            "B": "organismos clorofilados que expressam genes que inibem o sistema imune do hospedeiro.",
+            "C": "parasitas unicelulares ricos em receptores de membrana para plasmócitos.",
+            "D": "parasitas celulares obrigatórios que se multiplicam dentro da célula hospedeira.",
+            "E": "organismos eucariontes que penetram na célula e expressam genes de virulência."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Vírus são parasitas intracelulares obrigatórios, necessitando invadir uma célula hospedeira para se replicarem, utilizando a maquinaria celular para sua multiplicação. Não possuem estrutura celular própria nem capacidade de vida independente."
+    },
+    {
+        "id": "1226609",
+        "enunciado": "Apesar do desenvolvimento de técnicas rápidas de diagnóstico virológico, o isolamento em cultivo celular (método clássico) ainda é considerado padrão ouro para o diagnóstico de vários patógenos virais e padrão de referência para a comparação de novos métodos. É considerada uma vantagem do cultivo celular na pesquisa:",
+        "alternativas": {
+            "A": "o cultivo celular em monocamadas é uma técnica simples que permite o isolamento de todos os agentes virais patogênicos para o homem e para os animais, o que facilita a adoção dessa técnica na rotina laboratorial.",
+            "B": "o isolamento de um vírus em cultivo celular permite a confirmação de que aquele vírus é o agente etiológico da doença no hospedeiro, o que dispensa a adoção de outras técnicas laboratoriais reduzindo custos adicionais.",
+            "C": "as culturas de células de linhagens contínuas são também utilizadas na produção de vacinas replicativas (vacinas inativadas) e vacinas não replicativas (atenuadas), o que amplia seu uso no laboratório.",
+            "D": "a cultura celular 2D reproduz as características morfológicas e bioquímicas que as células apresentam no seu tecido original, o que faz desse sistema uma opção ao uso se animais de laboratório na pesquisa.",
+            "E": "as culturas celulares amplificam a quantidade de vírus facilitando sua detecção e identificação e permitindo a produção de partículas infecciosas que podem ser estocadas para estudos futuros."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Culturas celulares amplificam a quantidade de vírus, facilitando sua detecção e identificação. Além disso, permitem a produção de partículas virais infecciosas que podem ser estocadas para futuras pesquisas, sendo uma vantagem significativa."
+    },
+    {
+        "id": "1226695",
+        "enunciado": "Sobre os métodos de titulação viral, é correto afirmar que:",
+        "alternativas": {
+            "A": "o ensaio de placas não é adequado para vírus citolíticos.",
+            "B": "no ensaio de placas, a concentração de partículas virais pode ser calculada pelo número total de placas virais multiplicado pelo volume usado e dividido pelo fator de diluição.",
+            "C": "os três principais métodos de titulação consistem no ensaio de placas, na diluição-limite e na reação em cadeia da polimerase.",
+            "D": "o método da diluição-limite detecta as células mortas de uma cultura de células suscetíveis infectadas pelo vírus de interesse.",
+            "E": "o corante cristal violeta não pode ser utilizado nos ensaios de placa e de diluição-limite."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D está correta ao afirmar que o método da diluição-limite detecta células mortas em cultura de células suscetíveis após infecção viral (efeito citopático em diluição-limite). A alternativa A é incorreta, o ensaio de placas é utilizado para vírus citolíticos. A alternativa B contém uma fórmula incorreta para cálculo de partículas virais. A alternativa C lista RT-PCR como um método de titulação, o que não é sua aplicação principal para contagem, e o ensaio de placas e diluição-limite sim, mas a inclusão incorreta invalida a alternativa. A alternativa E está incorreta, pois o cristal violeta é usado para visualizar placas de lise/infecção."
+    },
+    {
+        "id": "1226614",
+        "enunciado": "Na natureza, os vírus são os principais exemplos de como a replicação e propagação da informação genética podem ser realizadas com o máximo de economia e simplicidade e as diferentes estratégias de replicação viral variam conforme o ácido nucleico que compõe o genoma do vírus em questão. A opção que corretamente apresenta o ácido nucleico, a família viral e uma característica de replicação viral é:",
+        "alternativas": {
+            "A": "genoma RNA polaridade positiva (família Coronviridae): são os mecanismos de replicação menos complexos e com maior fidelidade, apresentando baixa taxa de incorporação de erros durante a etapa de replicação.",
+            "B": "genoma RNA diplóide (família Retroviridae): codificam uma enzima com atividade de polimerização de moléculas de DNA a partir de moldes de RNA genômico (RNA polimerase RNA dependente).",
+            "C": "genoma DNA fita simples (família Parvoviridae): independem da maquinaria de transcrição e tradução celular para a expressão e replicação do seu genoma.",
+            "D": "genoma RNA polaridade negativa segmentado (família Orthomyxoviridae): os segmentos de RNA genômico são utilizados cada um como molde para a síntese de uma poliproteína viral, que é posteriormente clivada durante a montagem do vírus.",
+            "E": "genoma DNA extenso (famílias Herpesviridae, Poxviridae): possuem genoma contendo as informações para a síntese da sua própria DNA polimerase e enzimas necessárias para a síntese de dNTPs."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Vírus com genoma DNA extenso, como Herpesviridae e Poxviridae, codificam sua própria DNA polimerase e enzimas para a síntese de dNTPs, otimizando sua replicação. As outras alternativas apresentam incorreções sobre genoma, família ou replicação viral."
+    },
+    {
+        "id": "1102735",
+        "enunciado": "Os vírus são parasitas intracelulares obrigatórios. São componentes básicos de um vírus (presentes em todos os vírus):",
+        "alternativas": {
+            "A": "DNA, RNA, capsídeo e envelope.",
+            "B": "DNA ou RNA, capsídeo e envelope.",
+            "C": "Genoma, núcleo e capsídeo.",
+            "D": "Nucleocapsídeo e envelope.",
+            "E": "Genoma e capsídeo."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Os componentes básicos e presentes em todos os vírus são o genoma (DNA ou RNA) e o capsídeo. O envelope é encontrado apenas em alguns tipos de vírus, não sendo um componente universal."
+    },
+    {
+        "id": "1226697",
+        "enunciado": "Para a vigilância de epizootias em primatas não humanos aplicada à vigilância da febre amarela, amostras de sangue total, soro sanguíneo e tecidos são encaminhadas para investigação. São exemplos de técnicas laboratoriais utilizadas no diagnóstico e/ou pesquisa do “genoma viral completo” e “vírion”, respectivamente:",
+        "alternativas": {
+            "A": "RT-PCR em tempo real / sequenciamento Sanger.",
+            "B": "sequenciamento Sanger / metagenômica.",
+            "C": "metagenômica / RT-PCR.",
+            "D": "isolamento viral / RT-PCR em tempo real.",
+            "E": "sequenciamento NGS / isolamento viral."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O sequenciamento NGS (Next-Generation Sequencing) permite a análise do genoma viral completo, enquanto o isolamento viral, em cultura celular, permite a obtenção do vírion infectivo para estudos posteriores ou diagnóstico."
+    },
+    {
+        "id": "1323809",
+        "enunciado": "Em relação à dengue e suas alterações laboratoriais, assinale a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "Na dengue clássica, observa-se no início da doença leucopenia com linfocitopenia e número de plaquetas normal ou diminuído.",
+            "B": "Para o diagnóstico sorológico, a técnica mais usada é o ELISA, detectando os anticorpos IgG e IgM separadamente, devido à sua alta sensibilidade e facilidade de reação.",
+            "C": "No caso de dengue hemorrágica, ocorre trombocitopenia sem alteração na prova do laço.",
+            "D": "Na infecção primária, anticorpos IgM são detectados, em média, a partir do 4º dia do início de sintomas, declinando a partir do 7º dia de sintomas, até desaparecer totalmente.",
+            "E": "Anticorpos IgG são observados em níveis baixos, elevando-se gradativamente, e mantêm-se detectável por vários anos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A assertiva C está incorreta. Na dengue hemorrágica, a trombocitopenia está frequentemente associada a um teste do laço positivo, indicando fragilidade capilar."
+    },
+    {
+        "id": "1021155",
+        "enunciado": "O vírus da imunodeficiência humana (HIV) foi identificado e isolado pela primeira vez em 1983 e 1984, por dois grupos independentes de cientista, e, posteriormente, descobriu-se tratar de variantes do mesmo vírus. A replicação do HIV envolve várias etapas complexas. Assinale a alternativa cuja afirmativa apresenta uma etapa crítica no ciclo de replicação do HIV.",
+        "alternativas": {
+            "A": "A integrase é uma enzima que permite a integração do genoma do HIV no DNA do hospedeiro, tornando-se um provírus.",
+            "B": "A proteína gp120 do HIV se liga diretamente aos linfócitos T CD4+ e inicia a fusão do vírus com a membrana celular.",
+            "C": "O processo de retrotranscrição envolve a síntese de uma molécula de RNA viral, a partir de uma molécula de DNA viral.",
+            "D": "A fase de montagem do HIV ocorre no núcleo da célula hospedeira, em que as partículas virais são montadas antes de serem liberadas.",
+            "E": "O vírus do HIV, ao se ligar ao linfócito NK, passa a alterar o seu padrão de reconhecimento dos sítios de ligação da membrana celular, o que faz a célula atacar os linfócitos T do próprio organismo."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B descreve uma etapa crítica: a ligação da proteína gp120 aos linfócitos T CD4+, que é o primeiro passo para a infecção viral. As outras opções contêm imprecisões ou erros sobre o ciclo de replicação do HIV."
+    },
+    {
+        "id": "1957405",
+        "enunciado": "Vários vírus têm propriedades oncogênicas e estão ligados ao surgimento de tumores no ser humano. O ví rus que está ligado ao surgimento de carcinoma hepatocelular é o vírus  do(a) :",
+        "alternativas": {
+            "A": "papiloma",
+            "B": "hepatite  C",
+            "C": "Epstein -Barr",
+            "D": "herpes humano"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O vírus da hepatite C (VHC) é um importante fator de risco para o desenvolvimento de carcinoma hepatocelular, especialmente em pacientes com cirrose hepática de longa data."
+    },
+    {
+        "id": "1032197",
+        "enunciado": "No Ciclo Lítico, que o vírus ataca e usa imediatamente a célula hospedeira, colocando-a em função do vírus, ou seja, a célula passa imediatamente a produzir partículas virais. Por isso, as doenças que se desenvolvem por esse ciclo são consideradas agudas, ou seja, de desenvolvimento rápido. Sendo assim a fase do Ciclo Lítico que determina a montagem dos novos vírus, é:",
+        "alternativas": {
+            "A": "Liberação",
+            "B": "Infecção",
+            "C": "Maturação",
+            "D": "Penetração",
+            "E": "Produção Viral"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No ciclo lítico, a maturação é a fase onde as novas partículas virais são montadas dentro da célula hospedeira, antes de serem liberadas para infectar outras células. As outras fases envolvem a entrada, replicação do material genético e a liberação dos vírus."
+    },
+    {
+        "id": "1681220",
+        "enunciado": "Considere-se uma criança de oito meses de idade que é atendida em um hospital com quadro de pneumonia viral. Nesse caso, o quadro provavelmente é devido a uma infecção por",
+        "alternativas": {
+            "A": "norovírus.",
+            "B": "arbovírus.",
+            "C": "herpes-vírus.",
+            "D": "adenovírus.",
+            "E": "poxvírus."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Adenovírus são uma causa comum de infecções respiratórias em crianças, incluindo pneumonia. Norovírus causam gastroenterite; arbovírus são transmitidos por vetores e causam febres; herpes-vírus pode causar diversas infecções, mas pneumonia é menos comum nesta faixa etária; poxvírus causa doenças como varíola."
+    },
+    {
+        "id": "2061155",
+        "enunciado": "As arboviroses são doenças virais causadas pelos arbovírus, cujos vetores são artrópodes. O mosquito Aedes aegypt é um desses vetores, podendo disseminar diversas patologias, como zika, dengue, febre Chikungunya e febre amarela. O zika, por exemplo, é um vírus de",
+        "alternativas": {
+            "A": "RNA, de cadeia simples; e, quando transmitido para mulheres grávidas, pode desencadear o desenvolvimento de microcefalia congênita nos fetos.",
+            "B": "DNA, de cadeia simples; e, quando transmitido para fetos, pode desencadear o desenvolvimento de microcefalia congênita.",
+            "C": "RNA, de cadeia dupla; e, quando transmitido para mulheres grávidas, pode desencadear o desenvolvimento de microcefalia congênita nos fetos;",
+            "D": "DNA, de cadeia dupla; e, quando transmitido para fetos, pode desencadear o desenvolvimento de microcefalia congênita."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O zika é um vírus de RNA de cadeia simples. Sua transmissão para gestantes está associada ao desenvolvimento de microcefalia e outras malformações congênitas nos fetos, sendo este um importante risco associado."
+    },
+    {
+        "id": "1420906",
+        "enunciado": "Os vírus são os agentes responsáveis por inúmeras doenças que afetam a população humana. Entre elas a Pandemia Covid-19 que estamos enfrentando, e a Dengue, doença com a qual convivemos sazonalmente há bastante tempo. Nesses períodos de chuvas, os casos de notificação das arboviroses sempre têm aumento. A Dengue, a Zika, a Chikungunha e a Covid-19 são vírus",
+        "alternativas": {
+            "A": "de RNA.",
+            "B": "que precisam de um hospedeiro intermediário.",
+            "C": "de alto contágio e que não possuem formas de prevenção.",
+            "D": "de DNA.",
+            "E": "para os quais ainda não há vacinas eficazes."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A resposta correta é A pois Dengue, Zika, Chikungunha e Covid-19 sao virus de RNA. As outras alternativas estao incorretas pois exigem hospedeiro intermediario nao e universal, existem formas de prevencao e vacinas."
+    },
+    {
+        "id": "2146773",
+        "enunciado": "Sobre a dosagem viral do HIV, assinalar a alternativa CORRETA:",
+        "alternativas": {
+            "A": "O exame quantifica a concentração de vírus presente na urina.",
+            "B": "Há três exames comercialmente disponíveis, RT -PCR (Real Time PCR), bDNA (Branched chain DNA) e NASBA (Nucleic acid sequence based amplification).",
+            "C": "Não há fatores que podem estar associados ao aumento da carga viral.",
+            "D": "A monitorização da carga viral é muito instável para se obter evidências precoces de falha ao tratamento."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B menciona os métodos RT-PCR, bDNA e NASBA, que são de fato exames comercialmente disponíveis para quantificar a carga viral do HIV. As outras alternativas contêm imprecisões sobre a localização da carga viral e a estabilidade do monitoramento."
+    },
+    {
+        "id": "2023371",
+        "enunciado": "Sobre os vírus, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "A transcriptase reversa é capaz de gerar RNA a partir de DNA.",
+            "B": "O capsídeo dos vírus é formado por um número fixo de subunidades proteicas.",
+            "C": "Quando não estão infectando uma célula, os vírus são metabolicamente inertes.",
+            "D": "Os especialistas não conseguem classificar os vírus de acordo com o nenhum parâmetro.",
+            "E": "O material genético dos vírus, pode ser DNA e RNA, sempre concomitantemente."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Vírus são entidades acelulares e metabólicas apenas quando dentro de uma célula hospedeira. Fora dela, são inertes. A transcriptase reversa faz RNA a partir de DNA. O capsídeo tem subunidades, mas não necessariamente fixas. Não é verdade que não podem ser classificados, e o material genético é DNA ou RNA, não ambos simultaneamente."
+    },
+    {
+        "id": "2372013",
+        "enunciado": "O vírus HIV (Vírus da Imunodeficiência Humana) é um vírus envelopado, de Ácido Ribonucleico (RNA), responsável pela AIDS (Síndrome da Imunodeficiência Adquirida). Em seu interior, ele carrega enzimas essenciais para sua replicação no interior da célula hospedeira. Sobre essas enzimas, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Peptidase, helicase e ligase.",
+            "B": "Transcriptase reversa, integrase e protease.",
+            "C": "Amilase, transcriptase reversa e peptidase.",
+            "D": "Helicase, protease e transferase.",
+            "E": "Integrase, catalase e peroxidase."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O HIV utiliza enzimas específicas para seu ciclo de vida em células humanas. A transcriptase reversa permite que seu RNA seja convertido em DNA, a integrase insere esse DNA no genoma hospedeiro e a protease processa proteínas virais."
+    },
+    {
+        "id": "1713336",
+        "enunciado": "Um paciente foi admitido na emergência com suspeita de infecção viral grave. Para confirmação diagnóstica, qual o método laboratorial mais apropriado para detecção viral em tempo real?",
+        "alternativas": {
+            "A": "Cultura viral em meio de células primárias.",
+            "B": "Reação em cadeia da polimerase (PCR) em tempo real.",
+            "C": "Teste de aglutinação em látex para antígenos virais.",
+            "D": "Contagem diferencial de leucócitos no hemograma."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A PCR em tempo real é a técnica mais adequada para detecção viral rápida e sensível, pois amplifica e quantifica o material genético viral diretamente, permitindo o diagnóstico precoce. As outras opções são menos específicas ou não permitem a detecção em tempo real."
+    },
+    {
+        "id": "2183479",
+        "enunciado": "Os vírus são entidades acelulares e só se reproduzem no interior de uma célula hospedeira. Ao penetrar na célula, eles passam a comandar o metabolismo celular, fazendo-a replicar seu material genético e sintetizar suas proteínas. A maioria dos vírus é menor do que as menores células e visível apenas ao microscópio eletrônico. A estrutura mais simples do vírus corresponde a uma cápsula proteica (capsídeo) que envolve o material genético, DNA ou RNA; esse conjunto é chamado de nucleocapsídeo. Entretanto, alguns vírus possuem um envoltório lipoprotéico ao redor do nucleocapsídeo, chamado envelope, que é derivado da membrana plasmática da célula hospedeira. Fonte: LOPES, S.; ROSSO, S. Ciências da Natureza − água, agricultura e uso da terra. São Paulo: Editora Moderna, 2020. Dois exemplos de vírus envelopados são:",
+        "alternativas": {
+            "A": "o vírus do HIV e o SARS-CoV-2.",
+            "B": "o vírus do HIV e da poliomielite.",
+            "C": "o vírus da poliomielite e da hepatite.",
+            "D": "o vírus do HIV e da hepatite.",
+            "E": "o vírus SARS-CoV-2 e da poliomielite."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Tanto o vírus HIV quanto o SARS-CoV-2 são exemplos conhecidos de vírus envelopados, possuindo um envelope lipoproteico derivado da membrana da célula hospedeira."
+    },
+    {
+        "id": "1839378",
+        "enunciado": "[Trecho retirado de matéria on-line publicada pelo g1.globo, em 09/01/2025] “O Instituto Adolfo Lutz (IAL), centro de excelência laboratorial do estado de São Paulo, confirmou na última quarta-feira (8) a detecção de norovírus em amostras fecais humanas provenientes da Baixada Santista. O norovírus é um agente infeccioso bastante conhecido pelos infectologistas e comumente associado a surtos de doenças gastrointestinais, especialmente em locais com alta concentração de pessoas e, por isso, pode causar uma explosão de casos, como aconteceu no litoral de São Paulo [...] Os sintomas da infecção por norovírus costumam ser mais intensos nos primeiros 2 a 3 dias, mas geralmente duram cerca de 3 a 7 dias; durante as primeiras 48 horas. É comum a pessoa ter várias evacuações líquidas, o que pode levar à perda significativa de líquidos, além de náuseas e vômitos. Além disso, os sintomas aparecem rapidamente, normalmente no mesmo dia em que a pessoa entra em contato com o vírus, causando mal-estar, evacuações frequentes e dores abdominais. A febre baixa também pode ocorrer, mas é menos comum”. O AGENTE ETIOLÓGICO descrito na notícia:",
+        "alternativas": {
+            "A": "É uma bactéria.",
+            "B": "Foi erradicado.",
+            "C": "É um fungo.",
+            "D": "É um vírus.",
+            "E": "Não existe."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O texto descreve o norovírus como um 'agente infeccioso' e menciona seus sintomas, caracteristicas de um vírus, não de uma bactéria, fungo ou agente erradicado/inexistente."
+    },
+    {
+        "id": "1978822",
+        "enunciado": "A figura a seguir ilustra uma partícula viral específica de um tipo de vírus não envelopado, constituído de capsídeo triplo e onze filamentos de RNA de fita dupla. A vacinação contra esse vírus imuniza oralmente as crianças contra infecções e casos graves de diarreia infantil. Ela é segura, eficaz e reduz significativamente as hospitalizações e mortes relacionadas à doença, fazendo parte dos calendários de vacinação em muitos países. As características biológicas virais, ilustradas e descritas, permitem afirmar que se trata de um",
+        "alternativas": {
+            "A": "arbovírus.",
+            "B": "rotavírus.",
+            "C": "retrovírus.",
+            "D": "coronavírus.",
+            "E": "parvovírus."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A descrição do vírus, com capsídeo triplo, genoma de RNA fita dupla e o fato de causar diarreia infantil, é característica do rotavírus."
+    },
+    {
+        "id": "1812057",
+        "enunciado": "Para cada exame laboratorial, uma amostra biológica específica é requerida. Qual amostra deverá ser preparada para realização de exame de carga viral do HIV-1?",
+        "alternativas": {
+            "A": "Plasma com EDTA",
+            "B": "Sangue total com citrato",
+            "C": "Soro",
+            "D": "Plasma fluoretado"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para a realização da carga viral do HIV-1, a amostra biológica mais adequada é o plasma com EDTA. O EDTA atua como anticoagulante e preserva a integridade do RNA viral, essencial para a precisão do exame."
+    },
+    {
+        "id": "1807619",
+        "enunciado": "É correto afirmar que a replicação viral, que ocorre no interior da célula do hospedeiro, evolui seguindo as etapas de:",
+        "alternativas": {
+            "A": "adsorção, penetração, mitose, desnudamento, transcrição e liberação.",
+            "B": "adsorção, citocinese, desnudamento, tradução, maturação e liberação.",
+            "C": "adsorção, replicação do DNA, desnudamento, transcrição, maturação e liberação.",
+            "D": "adsorção, penetração, desnudamento, transcrição, tradução (síntese), maturação e liberação.",
+            "E": "adsorção, penetração, desnudamento, glicólise, tradução e liberação."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A replicação viral segue um ciclo que inclui adsorção (ligação à célula), penetração (entrada na célula), desnudamento (remoção do capsídeo), transcrição (síntese de RNA viral), tradução/síntese (produção de proteínas virais) e maturação/liberação (montagem e saída da nova partícula viral)."
+    },
+    {
+        "id": "1226658",
+        "enunciado": "Entre os critérios para caracterização de um vírus é o seu tamanho, sendo assim podemos dizer que:",
+        "alternativas": {
+            "A": "o menor vírus mede 30 nm e o maior vírus mede 500 nm de diâmetro.",
+            "B": "o menor vírus mede 20 nm e o maior vírus mede 200 nm de diâmetro.",
+            "C": "o menor vírus mede 20 nm e o maior vírus mede 300 nm de diâmetro.",
+            "D": "o menor vírus mede 30 nm e o maior vírus mede 300 nm de diâmetro.",
+            "E": "o menor vírus mede 50 nme o maior vírus mede 300 nm de diâmetro."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em geral, os vírus mais pequenos medem cerca de 20 nm (como os Parvovirus), e os maiores podem atingir cerca de 200 nm (como os Poxvírus), embora existam exceções e variações."
+    },
+    {
+        "id": "1062081",
+        "enunciado": "Analise as afirmativas a seguir:  I. Vírus não são parasitas intracelulares obrigatórios.  II. Os vírus utilizam as proteínas da célula que parasitam para se reproduzirem. E podem ser classificados como vírus de DNA ou de RNA.  Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "As duas afirmativas são verdadeiras.",
+            "B": "A afirmativa I é verdadeira, e a II é falsa.",
+            "C": "A afirmativa II é verdadeira, e a I é falsa.",
+            "D": "As duas afirmativas são falsas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa I esta incorreta. Virus sao parasitas intracelulares obrigatorios. A afirmativa II esta correta, virus utilizam a maquinaria celular para replicacao e sao classificados como de DNA ou RNA."
+    },
+    {
+        "id": "1142455",
+        "enunciado": "Como os vírus diferem de outros microorganismos, como bactérias e fungos, e quais são as principais características que os tornam únicos?",
+        "alternativas": {
+            "A": "Vírus são microorganismos semelhantes a bactérias, não apresentando diferenças significativas.",
+            "B": "Vírus são compostos principalmente por células eucarióticas, tornando-os semelhantes a fungos.",
+            "C": "Vírus são agentes infecciosos intracelulares que dependem de células hospedeiras para se reproduzirem, diferenciando-se de bactérias e fungos.",
+            "D": "A virologia não tem relevância na prevenção e tratamento de doenças, pois as infecções virais são inevitáveis e não podem ser controladas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Vírus são acelulares e necessitam de células hospedeiras para replicar, diferindo fundamentalmente de bactérias e fungos, que são organismos celulares independentes."
+    },
+    {
+        "id": "1205302",
+        "enunciado": "O cultivo de células hospedeiras é necessário para que vírus se repliquem, permitindo, assim, sua identificação. Sobre esse tema, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "As células para cultivo são obtidas a partir de um órgão animal, sendo incubadas em frascos de vidro ou plástico estéreis contendo meio de cultivo apropriado. Esses meios são, normalmente, simples, contendo pequena variedade de nutrientes e agentes antimicrobianos para prevenir a contaminação bacteriana.",
+            "B": "Os vírus, quando infectam as células do cultivo, promovem a multiplicação dessas células formando colônias.",
+            "C": "Pela contagem do número de colônias, pode-se calcular o título da amostra expressa por unidades formadoras de colônias por mililitro.",
+            "D": "Nem todos os vírus plaqueados infectam as células. Isso pode ocorrer porque alguns vírus podem ter se montado incompletamente durante a maturação ou podem conter genomas defectivos, ou podem ter sido danificados pelo manuseamento ou estocagem. Portanto, a eficiência do plaqueamento raramente alcança 100%."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D descreve corretamente um fato intrínseco à virologia: nem todos os vírus infectam eficientemente as células em cultura, devido a defeitos na maturação ou genoma, resultando em uma eficiência de plaqueamento abaixo de 100%. As outras afirmativas contêm erros sobre o cultivo viral e a interpretação de plaqueamento."
+    },
+    {
+        "id": "1117842",
+        "enunciado": "Em pacientes portadores do HIV, a maioria das infecções oportunistas de etiologia viral são causadas pelo grupo herpes. Esses agentes, por sua vez, facilitam a disseminação e expressividade do HIV, agravando a resposta imunológica. Atualmente, sabe-se que a co-infecção viral pode levar a um efeito sinérgico para ambos os vírus. Dentre os vírus apresentados quais pertencem a família do herpes Vírus?",
+        "alternativas": {
+            "A": "Leucoplasia pilosa, Epstein-Barr e citomegalovírus",
+            "B": "Leucoplasia pilosa, Epstein-Barr e Papiloma Vírus Humano",
+            "C": "Epstein-Barr, Papiloma Vírus Humano e Molusco contagioso",
+            "D": "Sarcoma de Kapos, Epstein-Barr e citomegalovírus"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A leucoplasia pilosa é causada pelo Epstein-Barr, um herpesvírus. Além disso, o citomegalovírus também é um membro da família dos herpesvírus e é conhecido por causar infecções oportunistas nos portadores de HIV."
+    },
+    {
+        "id": "1082663",
+        "enunciado": "“As protuberâncias semelhantes a ferrões são as hemaglutininas. Quando o vírus colide com a célula, essa hemaglutinina roça nas moléculas de ácido siálico que se projetam da superfície das células do aparelho respiratório. (...) A hemaglutinina e o ácido siálico têm formatos extremamente compatíveis e a hemaglutinina se liga ao receptor de ácido siálico como a mão entrando na luva. Enquanto o vírus se aproxima da membrana celular, mais ferrões de hemaglutinina se ligam a mais receptores de ácido siálico. (... ) Assim o vírus cumpre sua primeira tarefa: adsorção, que é a aderência a membrana da célula-alvo.” O texto refere-se ao mecanismo de ação de um vírus que ocasiona:",
+        "alternativas": {
+            "A": "Influenza.",
+            "B": "Meningite.",
+            "C": "Hepatite.",
+            "D": "Dengue.",
+            "E": "Herpes."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A descrição detalha o mecanismo de ligação do vírus às células do aparelho respiratório, caracterizando a hemaglutinina e sua interação com o ácido siálico. Este processo é o mecanismo de entrada do vírus influenza nas células hospedeiras."
+    },
+    {
+        "id": "1323475",
+        "enunciado": "Uma infecção viral pode levar a um espectro de sintomas que vai desde uma doença assintomática até o óbito. Os indivíduos podem contrair vírus ao ingerí-los ou inalá-los, ao serem picados por insetos, por meio de contato sexual ou por infecção congênita. Assinale a alternativa que apresenta apenas vírus transmitidos pela via fecal-oral e que não possuem um envelope (nucleocapsídeo não envelopado).",
+        "alternativas": {
+            "A": "Vírus coxsackie, ecovírus, vírus da hepatite A e rotavírus.",
+            "B": "Vírus coxsackie, vírus das hepatites e da febre amarela.",
+            "C": "HIV, herpes simples tipo 2, vírus das hepatites B e C.",
+            "D": "Vírus da febre amarela, do Nilo Ocidental e da Dengue.",
+            "E": "Rotavírus, ecovírus, vírus da hepatite A e vírus da raiva."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A lista apenas vírus que são transmitidos pela via fecal-oral e são não envelopados: coxsackie, ecovírus, hepatite A e rotavírus. As outras alternativas incluem vírus com outros tipos de transmissão (sexual, vetorial, etc.) ou vírus envelopados (HIV, herpes, hepatite B e C)."
+    },
+    {
+        "id": "1591727",
+        "enunciado": "Com a evolução das gerações dos testes sorológicos, foi possível fazer o diagnóstico da infecção pelo HIV de forma cada vez mais precoce, reduzindo a janela imunológica e melhorando o valor preditivo positivo e disponibilizando uma diversidade de opções no mercado. São testes laboratoriais utilizados para pesquisa de HIV-1/HIV-2, exceto:",
+        "alternativas": {
+            "A": "Ensaio Imunoenzimático (EIE) para detecção de anticorpos totais antiHIV-1/2.",
+            "B": "Imunoblot - teste confirmatório para detecção de anticorpos específicos antiHIV-1/2.",
+            "C": "Western Blot - teste confirmatório para detecção sorológica de anticorpos específicos anti-HIV-1/2.",
+            "D": "Imunocitoquímica para detecção de RNA pro-viral do HIV-1/2, numa reação antígeno-anticorpo.",
+            "E": "Reação em Cadeia da Polimerase em tempo real (qPCR) e Reação em cadeia da polimerase (PCR) para detecção do DNA pro-viral do HIV-1/2."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Imunocitoquímica detecta antígenos em células. A pesquisa de HIV-1/2 envolve a detecção de anticorpos ou material genético (RNA/DNA viral), e não a detecção de RNA pro-viral por reação antígeno-anticorpo específico para diagnóstico sorológico."
+    },
+    {
+        "id": "1368464",
+        "enunciado": "Os vírus, que estão muito associados à promoção de várias doenças em humanos, como Zika, influenza, Ebola, covid-19, entre outras, são",
+        "alternativas": {
+            "A": "organismos procariontes ricos em receptores que reconhecem os linfócitos T.",
+            "B": "organismos clorofilados que expressam genes que inibem o sistema imune do hospedeiro.",
+            "C": "parasitas unicelulares ricos em receptores de membrana para plasmócitos.",
+            "D": "parasitas celulares obrigatórios que se multiplicam dentro da célula hospedeira.",
+            "E": "organismos eucariontes que penetram na célula e expressam genes de virulência."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Vírus são parasitas intracelulares obrigatórios, necessitando invadir uma célula hospedeira para se replicarem, utilizando a maquinaria celular para sua multiplicação. Não possuem estrutura celular própria nem capacidade de vida independente."
+    },
+    {
+        "id": "1226609",
+        "enunciado": "Apesar do desenvolvimento de técnicas rápidas de diagnóstico virológico, o isolamento em cultivo celular (método clássico) ainda é considerado padrão ouro para o diagnóstico de vários patógenos virais e padrão de referência para a comparação de novos métodos. É considerada uma vantagem do cultivo celular na pesquisa:",
+        "alternativas": {
+            "A": "o cultivo celular em monocamadas é uma técnica simples que permite o isolamento de todos os agentes virais patogênicos para o homem e para os animais, o que facilita a adoção dessa técnica na rotina laboratorial.",
+            "B": "o isolamento de um vírus em cultivo celular permite a confirmação de que aquele vírus é o agente etiológico da doença no hospedeiro, o que dispensa a adoção de outras técnicas laboratoriais reduzindo custos adicionais.",
+            "C": "as culturas de células de linhagens contínuas são também utilizadas na produção de vacinas replicativas (vacinas inativadas) e vacinas não replicativas (atenuadas), o que amplia seu uso no laboratório.",
+            "D": "a cultura celular 2D reproduz as características morfológicas e bioquímicas que as células apresentam no seu tecido original, o que faz desse sistema uma opção ao uso se animais de laboratório na pesquisa.",
+            "E": "as culturas celulares amplificam a quantidade de vírus facilitando sua detecção e identificação e permitindo a produção de partículas infecciosas que podem ser estocadas para estudos futuros."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Culturas celulares amplificam a quantidade de vírus, facilitando sua detecção e identificação. Além disso, permitem a produção de partículas virais infecciosas que podem ser estocadas para futuras pesquisas, sendo uma vantagem significativa."
+    },
+    {
+        "id": "1226695",
+        "enunciado": "Sobre os métodos de titulação viral, é correto afirmar que:",
+        "alternativas": {
+            "A": "o ensaio de placas não é adequado para vírus citolíticos.",
+            "B": "no ensaio de placas, a concentração de partículas virais pode ser calculada pelo número total de placas virais multiplicado pelo volume usado e dividido pelo fator de diluição.",
+            "C": "os três principais métodos de titulação consistem no ensaio de placas, na diluição-limite e na reação em cadeia da polimerase.",
+            "D": "o método da diluição-limite detecta as células mortas de uma cultura de células suscetíveis infectadas pelo vírus de interesse.",
+            "E": "o corante cristal violeta não pode ser utilizado nos ensaios de placa e de diluição-limite."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D está correta ao afirmar que o método da diluição-limite detecta células mortas em cultura de células suscetíveis após infecção viral (efeito citopático em diluição-limite). A alternativa A é incorreta, o ensaio de placas é utilizado para vírus citolíticos. A alternativa B contém uma fórmula incorreta para cálculo de partículas virais. A alternativa C lista RT-PCR como um método de titulação, o que não é sua aplicação principal para contagem, e o ensaio de placas e diluição-limite sim, mas a inclusão incorreta invalida a alternativa. A alternativa E está incorreta, pois o cristal violeta é usado para visualizar placas de lise/infecção."
+    },
+    {
+        "id": "1226614",
+        "enunciado": "Na natureza, os vírus são os principais exemplos de como a replicação e propagação da informação genética podem ser realizadas com o máximo de economia e simplicidade e as diferentes estratégias de replicação viral variam conforme o ácido nucleico que compõe o genoma do vírus em questão. A opção que corretamente apresenta o ácido nucleico, a família viral e uma característica de replicação viral é:",
+        "alternativas": {
+            "A": "genoma RNA polaridade positiva (família Coronviridae): são os mecanismos de replicação menos complexos e com maior fidelidade, apresentando baixa taxa de incorporação de erros durante a etapa de replicação.",
+            "B": "genoma RNA diplóide (família Retroviridae): codificam uma enzima com atividade de polimerização de moléculas de DNA a partir de moldes de RNA genômico (RNA polimerase RNA dependente).",
+            "C": "genoma DNA fita simples (família Parvoviridae): independem da maquinaria de transcrição e tradução celular para a expressão e replicação do seu genoma.",
+            "D": "genoma RNA polaridade negativa segmentado (família Orthomyxoviridae): os segmentos de RNA genômico são utilizados cada um como molde para a síntese de uma poliproteína viral, que é posteriormente clivada durante a montagem do vírus.",
+            "E": "genoma DNA extenso (famílias Herpesviridae, Poxviridae): possuem genoma contendo as informações para a síntese da sua própria DNA polimerase e enzimas necessárias para a síntese de dNTPs."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Vírus com genoma DNA extenso, como Herpesviridae e Poxviridae, codificam sua própria DNA polimerase e enzimas para a síntese de dNTPs, otimizando sua replicação. As outras alternativas apresentam incorreções sobre genoma, família ou replicação viral."
+    },
+    {
+        "id": "1102735",
+        "enunciado": "Os vírus são parasitas intracelulares obrigatórios. São componentes básicos de um vírus (presentes em todos os vírus):",
+        "alternativas": {
+            "A": "DNA, RNA, capsídeo e envelope.",
+            "B": "DNA ou RNA, capsídeo e envelope.",
+            "C": "Genoma, núcleo e capsídeo.",
+            "D": "Nucleocapsídeo e envelope.",
+            "E": "Genoma e capsídeo."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Os componentes básicos e presentes em todos os vírus são o genoma (DNA ou RNA) e o capsídeo. O envelope é encontrado apenas em alguns tipos de vírus, não sendo um componente universal."
+    },
+    {
+        "id": "1226697",
+        "enunciado": "Para a vigilância de epizootias em primatas não humanos aplicada à vigilância da febre amarela, amostras de sangue total, soro sanguíneo e tecidos são encaminhadas para investigação. São exemplos de técnicas laboratoriais utilizadas no diagnóstico e/ou pesquisa do “genoma viral completo” e “vírion”, respectivamente:",
+        "alternativas": {
+            "A": "RT-PCR em tempo real / sequenciamento Sanger.",
+            "B": "sequenciamento Sanger / metagenômica.",
+            "C": "metagenômica / RT-PCR.",
+            "D": "isolamento viral / RT-PCR em tempo real.",
+            "E": "sequenciamento NGS / isolamento viral."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O sequenciamento NGS (Next-Generation Sequencing) permite a análise do genoma viral completo, enquanto o isolamento viral, em cultura celular, permite a obtenção do vírion infectivo para estudos posteriores ou diagnóstico."
+    },
+    {
+        "id": "1323809",
+        "enunciado": "Em relação à dengue e suas alterações laboratoriais, assinale a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "Na dengue clássica, observa-se no início da doença leucopenia com linfocitopenia e número de plaquetas normal ou diminuído.",
+            "B": "Para o diagnóstico sorológico, a técnica mais usada é o ELISA, detectando os anticorpos IgG e IgM separadamente, devido à sua alta sensibilidade e facilidade de reação.",
+            "C": "No caso de dengue hemorrágica, ocorre trombocitopenia sem alteração na prova do laço.",
+            "D": "Na infecção primária, anticorpos IgM são detectados, em média, a partir do 4º dia do início de sintomas, declinando a partir do 7º dia de sintomas, até desaparecer totalmente.",
+            "E": "Anticorpos IgG são observados em níveis baixos, elevando-se gradativamente, e mantêm-se detectável por vários anos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A assertiva C está incorreta. Na dengue hemorrágica, a trombocitopenia está frequentemente associada a um teste do laço positivo, indicando fragilidade capilar."
+    },
+    {
+        "id": "1021155",
+        "enunciado": "O vírus da imunodeficiência humana (HIV) foi identificado e isolado pela primeira vez em 1983 e 1984, por dois grupos independentes de cientista, e, posteriormente, descobriu-se tratar de variantes do mesmo vírus. A replicação do HIV envolve várias etapas complexas. Assinale a alternativa cuja afirmativa apresenta uma etapa crítica no ciclo de replicação do HIV.",
+        "alternativas": {
+            "A": "A integrase é uma enzima que permite a integração do genoma do HIV no DNA do hospedeiro, tornando-se um provírus.",
+            "B": "A proteína gp120 do HIV se liga diretamente aos linfócitos T CD4+ e inicia a fusão do vírus com a membrana celular.",
+            "C": "O processo de retrotranscrição envolve a síntese de uma molécula de RNA viral, a partir de uma molécula de DNA viral.",
+            "D": "A fase de montagem do HIV ocorre no núcleo da célula hospedeira, em que as partículas virais são montadas antes de serem liberadas.",
+            "E": "O vírus do HIV, ao se ligar ao linfócito NK, passa a alterar o seu padrão de reconhecimento dos sítios de ligação da membrana celular, o que faz a célula atacar os linfócitos T do próprio organismo."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B descreve uma etapa crítica: a ligação da proteína gp120 aos linfócitos T CD4+, que é o primeiro passo para a infecção viral. As outras opções contêm imprecisões ou erros sobre o ciclo de replicação do HIV."
+    },
+    {
+        "id": "1957405",
+        "enunciado": "Vários vírus têm propriedades oncogênicas e estão ligados ao surgimento de tumores no ser humano. O ví rus que está ligado ao surgimento de carcinoma hepatocelular é o vírus  do(a) :",
+        "alternativas": {
+            "A": "papiloma",
+            "B": "hepatite  C",
+            "C": "Epstein -Barr",
+            "D": "herpes humano"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O vírus da hepatite C (VHC) é um importante fator de risco para o desenvolvimento de carcinoma hepatocelular, especialmente em pacientes com cirrose hepática de longa data."
+    },
+    {
+        "id": "1032197",
+        "enunciado": "No Ciclo Lítico, que o vírus ataca e usa imediatamente a célula hospedeira, colocando-a em função do vírus, ou seja, a célula passa imediatamente a produzir partículas virais. Por isso, as doenças que se desenvolvem por esse ciclo são consideradas agudas, ou seja, de desenvolvimento rápido. Sendo assim a fase do Ciclo Lítico que determina a montagem dos novos vírus, é:",
+        "alternativas": {
+            "A": "Liberação",
+            "B": "Infecção",
+            "C": "Maturação",
+            "D": "Penetração",
+            "E": "Produção Viral"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No ciclo lítico, a maturação é a fase onde as novas partículas virais são montadas dentro da célula hospedeira, antes de serem liberadas para infectar outras células. As outras fases envolvem a entrada, replicação do material genético e a liberação dos vírus."
+    },
+    {
+        "id": "1681220",
+        "enunciado": "Considere-se uma criança de oito meses de idade que é atendida em um hospital com quadro de pneumonia viral. Nesse caso, o quadro provavelmente é devido a uma infecção por",
+        "alternativas": {
+            "A": "norovírus.",
+            "B": "arbovírus.",
+            "C": "herpes-vírus.",
+            "D": "adenovírus.",
+            "E": "poxvírus."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Adenovírus são uma causa comum de infecções respiratórias em crianças, incluindo pneumonia. Norovírus causam gastroenterite; arbovírus são transmitidos por vetores e causam febres; herpes-vírus pode causar diversas infecções, mas pneumonia é menos comum nesta faixa etária; poxvírus causa doenças como varíola."
+    },
+    {
+        "id": "2061155",
+        "enunciado": "As arboviroses são doenças virais causadas pelos arbovírus, cujos vetores são artrópodes. O mosquito Aedes aegypt é um desses vetores, podendo disseminar diversas patologias, como zika, dengue, febre Chikungunya e febre amarela. O zika, por exemplo, é um vírus de",
+        "alternativas": {
+            "A": "RNA, de cadeia simples; e, quando transmitido para mulheres grávidas, pode desencadear o desenvolvimento de microcefalia congênita nos fetos.",
+            "B": "DNA, de cadeia simples; e, quando transmitido para fetos, pode desencadear o desenvolvimento de microcefalia congênita.",
+            "C": "RNA, de cadeia dupla; e, quando transmitido para mulheres grávidas, pode desencadear o desenvolvimento de microcefalia congênita nos fetos;",
+            "D": "DNA, de cadeia dupla; e, quando transmitido para fetos, pode desencadear o desenvolvimento de microcefalia congênita."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O zika é um vírus de RNA de cadeia simples. Sua transmissão para gestantes está associada ao desenvolvimento de microcefalia e outras malformações congênitas nos fetos, sendo este um importante risco associado."
+    },
+    {
+        "id": "1420906",
+        "enunciado": "Os vírus são os agentes responsáveis por inúmeras doenças que afetam a população humana. Entre elas a Pandemia Covid-19 que estamos enfrentando, e a Dengue, doença com a qual convivemos sazonalmente há bastante tempo. Nesses períodos de chuvas, os casos de notificação das arboviroses sempre têm aumento. A Dengue, a Zika, a Chikungunha e a Covid-19 são vírus",
+        "alternativas": {
+            "A": "de RNA.",
+            "B": "que precisam de um hospedeiro intermediário.",
+            "C": "de alto contágio e que não possuem formas de prevenção.",
+            "D": "de DNA.",
+            "E": "para os quais ainda não há vacinas eficazes."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A resposta correta é A pois Dengue, Zika, Chikungunha e Covid-19 sao virus de RNA. As outras alternativas estao incorretas pois exigem hospedeiro intermediario nao e universal, existem formas de prevencao e vacinas."
+    },
+    {
+        "id": "2146773",
+        "enunciado": "Sobre a dosagem viral do HIV, assinalar a alternativa CORRETA:",
+        "alternativas": {
+            "A": "O exame quantifica a concentração de vírus presente na urina.",
+            "B": "Há três exames comercialmente disponíveis, RT -PCR (Real Time PCR), bDNA (Branched chain DNA) e NASBA (Nucleic acid sequence based amplification).",
+            "C": "Não há fatores que podem estar associados ao aumento da carga viral.",
+            "D": "A monitorização da carga viral é muito instável para se obter evidências precoces de falha ao tratamento."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B menciona os métodos RT-PCR, bDNA e NASBA, que são de fato exames comercialmente disponíveis para quantificar a carga viral do HIV. As outras alternativas contêm imprecisões sobre a localização da carga viral e a estabilidade do monitoramento."
+    },
+    {
+        "id": "1685312",
+        "enunciado": "Hoje, sabe-se que praticamente qualquer espécie de organismo pode ser infectada por diferentes vírus. Um vírus está associado com certo tipo específico de hospedeiro. O ciclo de vida dos vírus consiste em dois estádios, como apresentado a seguir. Sobre os vírus e seu ciclo de vida, verifica-se que",
+        "alternativas": {
+            "A": "a disseminação virótica ocorre antes do processo de replicação viral.",
+            "B": "antes de entrar na célula hospedeira o vírus realiza interface, duplicando seu DNA.",
+            "C": "a replicação do vírus se dá no momento em que é introduzido na célula hospedeira.",
+            "D": "no interior da célula hospedeira, o DNA do vírus não sofre degradação enzimática."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Dentro da célula hospedeira, o material genético do vírus (DNA ou RNA) não é degradado pelas enzimas da célula hospedeira; ao contrário, ele é utilizado para a replicação viral. A disseminação, replicação e duplicação do material viral ocorrem em diferentes fases do ciclo."
+    }
+]

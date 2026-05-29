@@ -1,0 +1,704 @@
+[
+    {
+        "id": "2359791",
+        "enunciado": "Um mapa registra que 1 cm corresponde a 50 m reais. Uma distância de 3 cm observada nesse mapa representa quantos metros?",
+        "alternativas": {
+            "A": "100 m.",
+            "B": "150 m.",
+            "C": "250 m.",
+            "D": "300 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala é de 1 cm para 50 m. Portanto, 3 cm no mapa equivalem a 3 * 50 m = 150 m na realidade."
+    },
+    {
+        "id": "1816269",
+        "enunciado": "Em um mapa de certa cidade, em escala 1:20000 duas praças estão afastadas de 35 cm. Qual a distância real entre elas?",
+        "alternativas": {
+            "A": "700 metros",
+            "B": "70 metros",
+            "C": "7 km",
+            "D": "14 km"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A escala 1:20000 significa que 1 cm no mapa equivale a 20000 cm na realidade. 35 cm no mapa equivalem a 35 * 20000 cm = 700000 cm = 7 km."
+    },
+    {
+        "id": "1858912",
+        "enunciado": "Observe o trecho a seguir: Balneário Camboriú terá o maior prédio residencial do mundo“O maior prédio residencial do mundo será construído em Balneário Camboriú, no litoral de Santa Catarina. O projeto, chamado de Triumph Tower, contará com uma construção de 509 metros de altura e 154 andares. A edificação será localizada no Barra Sul, bairro de luxo da cidade. O empreendimento está previsto para ser lançado no 2º semestre de 2024, mas ainda não há previsão para início das obras [...]”Suponha que um projetista fará uma maquete do Triumph Tower. A maquete terá escala de 1:2000, ou seja, um comprimento de 2000 metros no mundo real terá comprimento de 1 metro na maquete. Com base nas informações do texto, qual será a altura do prédio na maquete?",
+        "alternativas": {
+            "A": "25,45 mm.",
+            "B": "25,45 cm.",
+            "C": "2,545 m.",
+            "D": "10,18 cm.",
+            "E": "1,018 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala de 1:2000 significa que 1 metro na maquete representa 2000 metros (ou 2 km) na realidade. Portanto, a altura real de 509 metros na maquete será 509 / 2000 = 0,2545 metros, que é igual a 25,45 cm."
+    },
+    {
+        "id": "1858726",
+        "enunciado": "Observe o trecho a seguir: Balneário Camboriú terá o maior prédio residencial do mundo“O maior prédio residencial do mundo será construído em Balneário Camboriú, no litoral de Santa Catarina. O projeto, chamado de Triumph Tower, contará com uma construção de 509 metros de altura e 154 andares. A edificação será localizada no Barra Sul, bairro de luxo da cidade. O empreendimento está previsto para ser lançado no 2º semestre de 2024, mas ainda não há previsão para início das obras [...]”Fonte: https://www.poder360.com.br/infraestrutura/balneario-camboriu-tera-o-maior-predio-residencial-do-mundo/ .Suponha que um projetista fará uma maquete do Triumph Tower. A maquete terá escala de 1:2000, ou seja, um comprimento de 2000 metros no mundo real terá comprimento de 1 metro na maquete. Com base nas informações do texto, qual será a altura do prédio na maquete?",
+        "alternativas": {
+            "A": "25,45 mm.",
+            "B": "25,45 cm.",
+            "C": "2,545 m.",
+            "D": "10,18 cm.",
+            "E": "1,018 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A altura real do prédio é de 509 metros. A escala da maquete é 1:2000. Para encontrar a altura na maquete, dividimos a altura real pela escala: 509 m / 2000 = 0,2545 m. Convertendo para centímetros: 0,2545 m * 100 cm/m = 25,45 cm."
+    },
+    {
+        "id": "1857252",
+        "enunciado": "Observe o trecho a seguir: Balneário Camboriú terá o maior prédio residencial do mundo“O maior prédio residencial do mundo será construído em Balneário Camboriú, no litoral de Santa Catarina. O projeto, chamado de Triumph Tower, contará com uma construção de 509 metros de altura e 154 andares. A edificação será localizada no Barra Sul, bairro de luxo da cidade. O empreendimento está previsto para ser lançado no 2º semestre de 2024, mas ainda não há previsão para início das obras [...]”Fonte: https://www.poder360.com.br/infraestrutura/balneario-camboriu-tera-o-maior-predio-residencial-do-mundo/ . Acesso em 04/02/2025.Suponha que um projetista fará uma maquete do Triumph Tower. A maquete terá escala de 1:2000, ou seja, um comprimento de 2000 metros no mundo real terá comprimento de 1 metro na maquete. Com base nas informações do texto, qual será a altura do prédio na maquete?",
+        "alternativas": {
+            "A": "25,45 mm.",
+            "B": "25,45 cm.",
+            "C": "2,545 m.",
+            "D": "10,18 cm.",
+            "E": "1,018 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A altura real do prédio é de 509 metros. A escala é 1:2000, então a altura na maquete será 509 / 2000 = 0,2545 metros. Convertendo para centímetros, temos 0,2545 * 100 = 25,45 cm."
+    },
+    {
+        "id": "1856830",
+        "enunciado": "Observe o trecho a seguir: Balneário Camboriú terá o maior prédio residencial do mundo\n“O maior prédio residencial do mundo será construído em Balneário Camboriú, no litoral de Santa Catarina. O projeto, chamado de Triumph Tower, contará com uma construção de 509 metros de altura e 154 andares. A edificação será localizada no Barra Sul, bairro de luxo da cidade. O empreendimento está previsto para ser lançado no 2º semestre de 2024, mas ainda não há previsão para início das obras [...]”\nSuponha que um projetista fará uma maquete do Triumph Tower. A maquete terá escala de 1:2000, ou seja, um comprimento de 2000 metros no mundo real terá comprimento de 1 metro na maquete. Com base nas informações do texto, qual será a altura do prédio na maquete?",
+        "alternativas": {
+            "A": "25,45 mm.",
+            "B": "25,45 cm.",
+            "C": "2,545 m.",
+            "D": "10,18 cm.",
+            "E": "1,018 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A altura real do prédio é de 509 metros. A escala é 1:2000, então a altura na maquete será 509 / 2000 = 0,2545 metros. Convertendo para centímetros, temos 0,2545 * 100 = 25,45 cm."
+    },
+    {
+        "id": "2114061",
+        "enunciado": "O que indica a escala 1:2.000? Assinale a alternativa correta:",
+        "alternativas": {
+            "A": "1 dam no papel representa 2.000 metros no terreno.",
+            "B": "2 cm no papel representam 20 metros no terreno.",
+            "C": "1 dam no papel representa 20 metros no terreno.",
+            "D": "1 cm no papel representa 20 metros no terreno.",
+            "E": "1 cm no papel representa 200 metros no terreno."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A escala '1:2.000' significa que 1 unidade de medida no mapa representa 2.000 unidades iguais na realidade. Portanto, 1 cm no papel representa 2.000 cm (ou 20 metros) no terreno."
+    },
+    {
+        "id": "2177763",
+        "enunciado": "Um professor propõe um problema sobre escalas: em um mapa com escala 1:50.000, 3,6 cm representam, em quilômetros, uma distância real de:",
+        "alternativas": {
+            "A": "0,18",
+            "B": "1,8",
+            "C": "3,6",
+            "D": "18",
+            "E": "361"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:50.000 significa que 1 cm no mapa equivale a 50.000 cm na realidade. Convertendo 3,6 cm em quilômetros: 3,6 cm * 50.000 = 180.000 cm = 1.800 m = 1,8 km."
+    },
+    {
+        "id": "2332727",
+        "enunciado": "Em uma planta de lote urbano na escala 1:500, a frente do terreno vale 6 cm. Qual é a medida em metros da frente deste terreno?",
+        "alternativas": {
+            "A": "20",
+            "B": "30",
+            "C": "25",
+            "D": "50",
+            "E": "60"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala de 1:500 significa que 1 cm no mapa equivale a 500 cm na realidade. Portanto, 6 cm no mapa equivalem a 6 * 500 = 3000 cm, o que é igual a 30 metros."
+    },
+    {
+        "id": "1632018",
+        "enunciado": "Ao escolher a escala para um desenho técnico, qual fator deve ser considerado?",
+        "alternativas": {
+            "A": "A cor das linhas do desenho.",
+            "B": "A preferência do desenhista.",
+            "C": "O formato do papel não influencia na escolha da escala, pois a imagem pode ser ajustada.",
+            "D": "O tamanho do objeto a ser representado e o espaço disponível no desenho.",
+            "E": "O tipo de material utilizado para o desenho."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ao escolher a escala para um desenho técnico, é fundamental considerar o tamanho do objeto a ser representado para garantir que ele caiba no espaço disponível no papel, mantendo a clareza e legibilidade dos detalhes."
+    },
+    {
+        "id": "1632020",
+        "enunciado": "Qual tipo de escala é utilizado quando o desenho representa o objeto em tamanho maior que o real?",
+        "alternativas": {
+            "A": "Escala de redução.",
+            "B": "Escala indeterminada.",
+            "C": "Escala de ampliação.",
+            "D": "Escala natural.",
+            "E": "Escala gráfica."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A escala de ampliação é utilizada quando o desenho do objeto é maior que o objeto real. Isso ocorre para detalhar partes pequenas ou para representações em ampliação."
+    },
+    {
+        "id": "1098902",
+        "enunciado": "Ligando a cidade de Pitangueiras ao distrito de Ibitiúva em uma linha reta, encontramos 11,7 km de distância; a imagem apresenta uma escala de 1:150.000. Seguindo a escala fornecida, qual a distância da linha reta traçada?",
+        "alternativas": {
+            "A": "78 cm.",
+            "B": "7,8 cm.",
+            "C": "11,7 cm.",
+            "D": "0,078 cm."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:150.000 significa que 1 cm no mapa equivale a 150.000 cm na realidade. 150.000 cm equivalem a 1,5 km. Assim, 11,7 km na realidade correspondem a 11,7 km / 1,5 km/cm = 7,8 cm no mapa."
+    },
+    {
+        "id": "1099274",
+        "enunciado": "Um casal de namorados viu no shopping de determinada cidade que há uma loja de presentes que cria bonecos de pessoas em uma impressora 3D, usando escalas de 1:3 e 1:6. Sabe-se que as medidas do casal são 1,80 e 1,50 metros. Qual será o tamanho dos bonecos do casal, respectivamente, se eles escolherem a escala 1:6?",
+        "alternativas": {
+            "A": "30 e 20 centímetros.",
+            "B": "30 e 25 centímetros.",
+            "C": "40 e 30 centímetros.",
+            "D": "60 e 50 centímetros."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A escala 1:6 significa que 1 unidade no boneco representa 6 unidades na pessoa real (em cm). Para o casal com 1,80m (180cm) e 1,50m (150cm), os tamanhos dos bonecos são: 180/6 = 30 cm e 150/6 = 25 cm."
+    },
+    {
+        "id": "1124221",
+        "enunciado": "“Guarulhos é sinônimo de aeroporto, é a porta de entrada do Brasil para o mundo. Sua vocação aeroportuária remonta a sua inserção na dinâmica econômica nacional, com o início da construção no ano de 1980, o aeroporto de Cumbica, hoje, é um dos principais Hubs da América Latina. Dentre as características técnicas e infraestrutura aeroportuária podemos destacar algumas como:\n\n- Pistas de pouso / decolagem: 301.500 m² - 09R/27L com 3.000 m x 45 m e 09L/27R com 3.700 m x 45 m, homologada para operação de aeronaves de Código F (A380);”\nFonte: https://www.guarulhos.sp.gov.br/aeroporto\n\nUm estudante de arquitetura, com o objetivo de criar uma versão em miniatura do aeroporto de Guarulhos, resolveu confeccionar uma maquete na escala de 1:50. Considerando as medidas das pistas 09R/27L e 09L/27R fornecidas no texto acima, a área, em cm2, que as duas pistas irão ocupar na maquete serão respectivamente,",
+        "alternativas": {
+            "A": "54,0 e 66,6.",
+            "B": "27,0 e 33,3.",
+            "C": "13,5 e 16,5.",
+            "D": "27,0 e 31,5."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:50 significa que 1 cm na maquete representa 50 cm na realidade. A pista 09R/27L tem 3000m = 300.000cm, ocupando na maquete 300.000/50 = 6.000cm de comprimento e 45m = 4.500cm, ocupando na maquete 4.500/50 = 90cm de largura. A área é de 6.000cm * 90cm = 540.000cm². Hmmm, isso parece incorreto. Vamos refazer o calculo das áreas.\n    Pista 09R/27L: 3000m x 45m. Na maquete: 3000/50 m x 45/50 m = 60m x 0,9m = 54m². Convertendo para cm²: 54 * 10000 = 540.000 cm².\n    Pista 09L/27R: 3700m x 45m. Na maquete: 3700/50 m x 45/50 m = 74m x 0,9m = 66,6m². Convertendo para cm²: 66,6 * 10000 = 666.000 cm².\n    As alternativas estão em cm². Vamos calcular a área de cada pista na maquete.\n    Pista 1 (3000m x 45m): Comprimento na maquete = 3000m / 50 = 60m = 6000cm. Largura na maquete = 45m / 50 = 0,9m = 90cm. Área = 6000cm * 90cm = 540.000 cm².\n    Pista 2 (3700m x 45m): Comprimento na maquete = 3700m / 50 = 74m = 7400cm. Largura na maquete = 45m / 50 = 0,9m = 90cm. Área = 7400cm * 90cm = 666.000 cm².\n    As a..."
+    },
+    {
+        "id": "1603086",
+        "enunciado": "Um engenheiro será responsável por construir um estádio de futebol. O arquiteto lhe entregou um projeto em que a área do estádio no papel é de 400 cm2. O engenheiro vê que a escala do projeto é 1:500, ou seja: cada 1 cm no papel corresponde a 500 cm na realidade. Nesta situação, qual será a área do estádio de futebol na realidade?",
+        "alternativas": {
+            "A": "1000 m2.",
+            "B": "5.000 m2.",
+            "C": "10.000 m2.",
+            "D": "50.000 m2.",
+            "E": "100.000 m2."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A escala 1:500 significa que 1 cm no projeto representa 500 cm na realidade. A área é multiplicada pelo quadrado da escala. Assim, 400 cm² * (500)² = 400 cm² * 250.000 = 100.000.000 cm². Convertendo para m², temos 10.000 m²."
+    },
+    {
+        "id": "1148261",
+        "enunciado": "Um grupo de pesquisas precisa participar de um seminário acadêmico que será realizado na capital do estado. Como o grupo planeja se deslocar de automóvel, com auxílio de um mapa fizeram uma previsão de quanto seria preciso investir em combustível. Para isso, eles precisam saber a distância real entre as duas localidades. Assim sendo, num mapa de escala 1:9.800.000, a distância entre a localidade de origem e a localidade de destino é de 4,2 cm. Dessa forma, a distância em quilômetros entre as duas localidades é:",
+        "alternativas": {
+            "A": "411.000 km.",
+            "B": "411,6 km.",
+            "C": "41.160 km.",
+            "D": "41,16 km."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:9.800.000 significa que 1 cm no mapa representa 9.800.000 cm na realidade. Convertendo para km (9.800.000 cm / 100.000 = 98 km), e multiplicando pela distância no mapa (4,2 cm x 98 km/cm), o resultado é 411,6 km."
+    },
+    {
+        "id": "1336184",
+        "enunciado": "Um urbanista desenhou um parque em uma escala de 1:500. Na planta, a área do parque é de 80 cm². A área real do parque, em metros quadrados, é:",
+        "alternativas": {
+            "A": "Maior que 2300.",
+            "B": "Maior que 2100 e menor que 2300.",
+            "C": "Maior que 1990 e menor que 2100.",
+            "D": "Maior que 1790 em menor que 1990.",
+            "E": "Menor que 1790."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A escala é 1:500, o que significa que 1 unidade na planta representa 500 unidades na realidade. A área na planta é de 80 cm². Como a escala é linear, para áreas, a relação de escala é o quadrado. Portanto, a escala de área é (1/500)² = 1/250000. Para encontrar a área real, multiplicamos a área da planta pelo inverso da escala de área. Área real = Área da planta * (Fator de escala)². Fator de escala de área = 500² = 250000. Área real = 80 cm² * 250000 = 20.000.000 cm². Precisamos converter cm² para m². Sabendo que 1 m = 100 cm, então 1 m² = (100 cm)² = 10000 cm². Portanto, para converter cm² para m², dividimos por 10000. Área real em m² = 20.000.000 cm² / 10000 cm²/m² = 2000 m². Agora comparamos com as alternativas: A) Maior que 2300 (F). B) Maior que 2100 e menor que 2300 (F). C) Maior que 1990 e menor que 2100. Nossa resposta 2000 m² está dentro deste intervalo. D) Maior que 1790 em menor que 1990 (F). E) Menor que 1790 (F). A alternativa C é a correta."
+    },
+    {
+        "id": "1269877",
+        "enunciado": "O técnico agrícola precisa fazer a planta baixa de um galpão, cujo comprimento é 10 metros e a largura é 3 metros. Na planta baixa, o comprimento e a largura do galpão na escala numérica 1:50 deverão ser, respectivamente:",
+        "alternativas": {
+            "A": "10 cm e 3 cm",
+            "B": "20 cm e 6 cm",
+            "C": "100 cm e 50 cm",
+            "D": "150 cm e 50 cm"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:50 significa que 1 unidade na planta representa 50 unidades na realidade. Convertemos metros para centímetros (10m = 1000cm, 3m = 300cm) e dividimos por 50: 1000cm / 50 = 20cm; 300cm / 50 = 6cm."
+    },
+    {
+        "id": "1013453",
+        "enunciado": "Uma maquete é a reprodução em escala reduzida de um cenário, ambiente, sistema ou espaço, e a razão entre os elementos da maquete e os objetos que representam deve ser sempre igual. Em determinada maquete, um prédio com 25 metros de altura está representado com 50cm. Esse mesmo prédio tem 16 metros de largura. Então, é CORRETO que, na maquete, a largura desse prédio será de:",
+        "alternativas": {
+            "A": "41cm",
+            "B": "32cm",
+            "C": "22cm",
+            "D": "16cm"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala é 50cm (maquete) / 25m (real) = 0,5m / 25m = 1:50. A largura real de 16m na maquete será 16m / 50 = 0,32m = 32cm."
+    },
+    {
+        "id": "1015774",
+        "enunciado": "Um desenho representado na escala 1:50 é:",
+        "alternativas": {
+            "A": "5 vezes maior que representado na escala 1:125.",
+            "B": "50% menor que representado na escala 1:75.",
+            "C": "2 vezes maior que representado na escala 1:100.",
+            "D": "4 vezes menor que representado na escala 1:200."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma escala de 1:50 indica que 1 unidade no desenho representa 50 na realidade. Comparada a 1:100 (onde 1 unidade no desenho representa 100 na realidade), a representação em 1:50 é 2 vezes maior, pois o denominador é menor."
+    },
+    {
+        "id": "1028331",
+        "enunciado": "Uma Siderúrgica solicitou um projeto de alto forno, que terá uma altura real de 80 m. Para que o projeto possa ser desenhado no papel, foi adotada uma altura de 40 cm para o desenho na folha. Dessa forma, a escala utilizada no desenho do alto forno deve ser:",
+        "alternativas": {
+            "A": "1:2",
+            "B": "2:1",
+            "C": "1:200",
+            "D": "1:40",
+            "E": "1:80"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A altura real é de 80 m, o que equivale a 8000 cm. A altura no desenho é de 40 cm. A escala é a relação 'desenho' para 'realidade'. Escala = 40 cm / 8000 cm = 4/800 = 1/200."
+    },
+    {
+        "id": "1004257",
+        "enunciado": "O uso de escalímetro é aplicado na medição em projetos de Engenharia, mapas e outros. Em um mapa rodoviário mediu-se, com o auxílio do escalímetro, a distância entre duas cidades, denominadas de X e Y, obtendo-se 14,6cm. A escala do mapa é de 1:500.000. Neste contexto, a distância entre as cidades X e Y é:",
+        "alternativas": {
+            "A": "52km.",
+            "B": "66km.",
+            "C": "73km.",
+            "D": "81km.",
+            "E": "90km."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A escala de 1:500.000 significa que 1cm no mapa representa 500.000cm na realidade. Convertendo 14,6cm para km: 14,6 cm * 500.000 = 7.300.000 cm. Para converter cm em km, divida por 100.000 (100cm=1m, 1000m=1km). 7.300.000 cm / 100.000 = 73 km."
+    },
+    {
+        "id": "1007709",
+        "enunciado": "Uma empresa de engenharia e arquitetura montou uma maquete que representa o projeto do novo empreendimento da companhia. A maquete foi construída em uma placa cujas dimensões são 70 cm × 100 cm. Sabendo que para a construção da maquete foi utilizada uma escala de , quais as medidas reais do empreendimento a ser construído pela empresa.",
+        "alternativas": {
+            "A": "50 m x 74 m",
+            "B": "56 m x 80 m",
+            "C": "62m x 86 m",
+            "D": "68m x 92 m"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala é 1:200. Isso significa que 1 unidade na maquete representa 200 unidades na realidade. As dimensões da maquete são 70 cm x 100 cm. Para as medidas reais, multiplicamos ambas as dimensões por 200 e convertemos para metros. 70 cm * 200 = 14000 cm = 140 m. 100 cm * 200 = 20000 cm = 200 m. Essa escala parece incorreta. Vamos reconsiderar a escala dada, que parece faltar uma informação. Se assumirmos a escala dada como 1/200 em centímetros, então 70cm * 200 = 14000cm = 140m e 100cm * 200 = 20000cm = 200m. Se a escala fosse 1:2000, então 70cm * 2000 = 140000cm = 1400m e 100cm * 2000 = 200000cm = 2000m. Existe um erro na questão, a escala não é clara. Caso a escala seja 1 : 200, as medidas seriam 140m x 200m. Como nenhuma alternativa se ajusta, é provável que a escala esteja incorreta ou faltante. Se a escala fosse 1:800 para 70cm, seria 56m. Se a escala fosse 1:800 para 100cm, seria 80m. Alternativa B: 56m x 80m. Se 56m / 800 = 0.07m = 7cm e 80m / 800 = 0.1m = 10cm. Isso não corresponde. Se usar 1cm pa..."
+    },
+    {
+        "id": "2197120",
+        "enunciado": "Medindo‐se certa distância em uma carta, foram encontrados 32cm. Sendo a escala da carta 1:50.000, ou seja, cada centímetro na carta representa 50.000cm na realidade, a distância no terreno será de:",
+        "alternativas": {
+            "A": "1.600m.",
+            "B": "160km.",
+            "C": "16km.",
+            "D": "15,6cm.",
+            "E": "15,6km."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está correta. 32cm na escala 1:50.000 representam 32 * 50.000 cm = 1.600.000 cm. Convertendo para metros: 1.600.000 / 100 = 16.000m. Convertendo para quilômetros: 16.000 / 1000 = 16km."
+    },
+    {
+        "id": "1207176",
+        "enunciado": "Um jovem desenhou a planta de seu apartamento no papel, utilizando a proporção de 1:50. Sabendo que, em seu desenho, um cômodo quadrado possui lado com medida de 6 cm, o tamanho real desse cômodo é de:",
+        "alternativas": {
+            "A": "1,5 m",
+            "B": "3,0 m",
+            "C": "4,5 m",
+            "D": "6,0 m"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:50 significa que 1 cm no desenho representa 50 cm na realidade. Se o lado do cômodo no desenho mede 6 cm, o tamanho real é 6 cm * 50 = 300 cm. Convertendo para metros, 300 cm = 3,0 m."
+    },
+    {
+        "id": "1991876",
+        "enunciado": "A distância entre duas cidades num mapa de escala 1:30000 é de 10,5 cm. Qual a distância real entre essas duas cidades?",
+        "alternativas": {
+            "A": "3,15 Km.",
+            "B": "31,5 Km.",
+            "C": "31.500 cm.",
+            "D": "31.500 metros."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Escala 1:30000 significa que 1 cm no mapa equivale a 30.000 cm na realidade. 10,5 cm * 30.000 cm/cm = 315.000 cm. Convertendo para km: 315.000 cm / 100.000 cm/km = 3,15 km. Não, 10,5 * 30000 = 315000 cm. 315000 / 100 = 3150 metros. 3150 / 100 = 31,5 km."
+    },
+    {
+        "id": "1044117",
+        "enunciado": "Se temos representando, em uma maquete, um edifício com 18 cm de altura e foi usada a escala de 1cm que equivale a 500cm, qual a altura real desse edifício?",
+        "alternativas": {
+            "A": "60 m.",
+            "B": "80 m.",
+            "C": "90 m.",
+            "D": "180 m."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A escala é 1cm : 500cm. Se o edifício tem 18cm na maquete, a altura real é 18cm * 500 = 9000cm. Convertendo para metros: 9000cm / 100 = 90m."
+    },
+    {
+        "id": "2215093",
+        "enunciado": "Realizando trabalhos topográficos, foi determinado que o comprimento de uma ponte era 287 metros. Se for utilizada a escala 1:1000, qual será o comprimento da representação dessa ponte no desenho?",
+        "alternativas": {
+            "A": "28,7 cm",
+            "B": "2,87 cm",
+            "C": "287 cm",
+            "D": "0,287 cm",
+            "E": "3,48 cm"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A escala 1:1000 significa que 1 unidade no desenho representa 1000 unidades na realidade. Portanto, 287 metros (28700 cm) na realidade serão 28700 cm / 1000 = 28,7 cm no desenho."
+    },
+    {
+        "id": "2359791",
+        "enunciado": "Um mapa registra que 1 cm corresponde a 50 m reais. Uma distância de 3 cm observada nesse mapa representa quantos metros?",
+        "alternativas": {
+            "A": "100 m.",
+            "B": "150 m.",
+            "C": "250 m.",
+            "D": "300 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala é de 1 cm para 50 m. Portanto, 3 cm no mapa equivalem a 3 * 50 m = 150 m na realidade."
+    },
+    {
+        "id": "1816269",
+        "enunciado": "Em um mapa de certa cidade, em escala 1:20000 duas praças estão afastadas de 35 cm. Qual a distância real entre elas?",
+        "alternativas": {
+            "A": "700 metros",
+            "B": "70 metros",
+            "C": "7 km",
+            "D": "14 km"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A escala 1:20000 significa que 1 cm no mapa equivale a 20000 cm na realidade. 35 cm no mapa equivalem a 35 * 20000 cm = 700000 cm = 7 km."
+    },
+    {
+        "id": "1858912",
+        "enunciado": "Observe o trecho a seguir: Balneário Camboriú terá o maior prédio residencial do mundo“O maior prédio residencial do mundo será construído em Balneário Camboriú, no litoral de Santa Catarina. O projeto, chamado de Triumph Tower, contará com uma construção de 509 metros de altura e 154 andares. A edificação será localizada no Barra Sul, bairro de luxo da cidade. O empreendimento está previsto para ser lançado no 2º semestre de 2024, mas ainda não há previsão para início das obras [...]”Suponha que um projetista fará uma maquete do Triumph Tower. A maquete terá escala de 1:2000, ou seja, um comprimento de 2000 metros no mundo real terá comprimento de 1 metro na maquete. Com base nas informações do texto, qual será a altura do prédio na maquete?",
+        "alternativas": {
+            "A": "25,45 mm.",
+            "B": "25,45 cm.",
+            "C": "2,545 m.",
+            "D": "10,18 cm.",
+            "E": "1,018 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala de 1:2000 significa que 1 metro na maquete representa 2000 metros (ou 2 km) na realidade. Portanto, a altura real de 509 metros na maquete será 509 / 2000 = 0,2545 metros, que é igual a 25,45 cm."
+    },
+    {
+        "id": "1858726",
+        "enunciado": "Observe o trecho a seguir: Balneário Camboriú terá o maior prédio residencial do mundo“O maior prédio residencial do mundo será construído em Balneário Camboriú, no litoral de Santa Catarina. O projeto, chamado de Triumph Tower, contará com uma construção de 509 metros de altura e 154 andares. A edificação será localizada no Barra Sul, bairro de luxo da cidade. O empreendimento está previsto para ser lançado no 2º semestre de 2024, mas ainda não há previsão para início das obras [...]”Fonte: https://www.poder360.com.br/infraestrutura/balneario-camboriu-tera-o-maior-predio-residencial-do-mundo/ .Suponha que um projetista fará uma maquete do Triumph Tower. A maquete terá escala de 1:2000, ou seja, um comprimento de 2000 metros no mundo real terá comprimento de 1 metro na maquete. Com base nas informações do texto, qual será a altura do prédio na maquete?",
+        "alternativas": {
+            "A": "25,45 mm.",
+            "B": "25,45 cm.",
+            "C": "2,545 m.",
+            "D": "10,18 cm.",
+            "E": "1,018 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A altura real do prédio é de 509 metros. A escala da maquete é 1:2000. Para encontrar a altura na maquete, dividimos a altura real pela escala: 509 m / 2000 = 0,2545 m. Convertendo para centímetros: 0,2545 m * 100 cm/m = 25,45 cm."
+    },
+    {
+        "id": "1857252",
+        "enunciado": "Observe o trecho a seguir: Balneário Camboriú terá o maior prédio residencial do mundo“O maior prédio residencial do mundo será construído em Balneário Camboriú, no litoral de Santa Catarina. O projeto, chamado de Triumph Tower, contará com uma construção de 509 metros de altura e 154 andares. A edificação será localizada no Barra Sul, bairro de luxo da cidade. O empreendimento está previsto para ser lançado no 2º semestre de 2024, mas ainda não há previsão para início das obras [...]”Fonte: https://www.poder360.com.br/infraestrutura/balneario-camboriu-tera-o-maior-predio-residencial-do-mundo/ . Acesso em 04/02/2025.Suponha que um projetista fará uma maquete do Triumph Tower. A maquete terá escala de 1:2000, ou seja, um comprimento de 2000 metros no mundo real terá comprimento de 1 metro na maquete. Com base nas informações do texto, qual será a altura do prédio na maquete?",
+        "alternativas": {
+            "A": "25,45 mm.",
+            "B": "25,45 cm.",
+            "C": "2,545 m.",
+            "D": "10,18 cm.",
+            "E": "1,018 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A altura real do prédio é de 509 metros. A escala é 1:2000, então a altura na maquete será 509 / 2000 = 0,2545 metros. Convertendo para centímetros, temos 0,2545 * 100 = 25,45 cm."
+    },
+    {
+        "id": "1856830",
+        "enunciado": "Observe o trecho a seguir: Balneário Camboriú terá o maior prédio residencial do mundo\n“O maior prédio residencial do mundo será construído em Balneário Camboriú, no litoral de Santa Catarina. O projeto, chamado de Triumph Tower, contará com uma construção de 509 metros de altura e 154 andares. A edificação será localizada no Barra Sul, bairro de luxo da cidade. O empreendimento está previsto para ser lançado no 2º semestre de 2024, mas ainda não há previsão para início das obras [...]”\nSuponha que um projetista fará uma maquete do Triumph Tower. A maquete terá escala de 1:2000, ou seja, um comprimento de 2000 metros no mundo real terá comprimento de 1 metro na maquete. Com base nas informações do texto, qual será a altura do prédio na maquete?",
+        "alternativas": {
+            "A": "25,45 mm.",
+            "B": "25,45 cm.",
+            "C": "2,545 m.",
+            "D": "10,18 cm.",
+            "E": "1,018 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A altura real do prédio é de 509 metros. A escala é 1:2000, então a altura na maquete será 509 / 2000 = 0,2545 metros. Convertendo para centímetros, temos 0,2545 * 100 = 25,45 cm."
+    },
+    {
+        "id": "2114061",
+        "enunciado": "O que indica a escala 1:2.000? Assinale a alternativa correta:",
+        "alternativas": {
+            "A": "1 dam no papel representa 2.000 metros no terreno.",
+            "B": "2 cm no papel representam 20 metros no terreno.",
+            "C": "1 dam no papel representa 20 metros no terreno.",
+            "D": "1 cm no papel representa 20 metros no terreno.",
+            "E": "1 cm no papel representa 200 metros no terreno."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A escala '1:2.000' significa que 1 unidade de medida no mapa representa 2.000 unidades iguais na realidade. Portanto, 1 cm no papel representa 2.000 cm (ou 20 metros) no terreno."
+    },
+    {
+        "id": "2177763",
+        "enunciado": "Um professor propõe um problema sobre escalas: em um mapa com escala 1:50.000, 3,6 cm representam, em quilômetros, uma distância real de:",
+        "alternativas": {
+            "A": "0,18",
+            "B": "1,8",
+            "C": "3,6",
+            "D": "18",
+            "E": "361"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:50.000 significa que 1 cm no mapa equivale a 50.000 cm na realidade. Convertendo 3,6 cm em quilômetros: 3,6 cm * 50.000 = 180.000 cm = 1.800 m = 1,8 km."
+    },
+    {
+        "id": "2332727",
+        "enunciado": "Em uma planta de lote urbano na escala 1:500, a frente do terreno vale 6 cm. Qual é a medida em metros da frente deste terreno?",
+        "alternativas": {
+            "A": "20",
+            "B": "30",
+            "C": "25",
+            "D": "50",
+            "E": "60"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala de 1:500 significa que 1 cm no mapa equivale a 500 cm na realidade. Portanto, 6 cm no mapa equivalem a 6 * 500 = 3000 cm, o que é igual a 30 metros."
+    },
+    {
+        "id": "1632018",
+        "enunciado": "Ao escolher a escala para um desenho técnico, qual fator deve ser considerado?",
+        "alternativas": {
+            "A": "A cor das linhas do desenho.",
+            "B": "A preferência do desenhista.",
+            "C": "O formato do papel não influencia na escolha da escala, pois a imagem pode ser ajustada.",
+            "D": "O tamanho do objeto a ser representado e o espaço disponível no desenho.",
+            "E": "O tipo de material utilizado para o desenho."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ao escolher a escala para um desenho técnico, é fundamental considerar o tamanho do objeto a ser representado para garantir que ele caiba no espaço disponível no papel, mantendo a clareza e legibilidade dos detalhes."
+    },
+    {
+        "id": "1632020",
+        "enunciado": "Qual tipo de escala é utilizado quando o desenho representa o objeto em tamanho maior que o real?",
+        "alternativas": {
+            "A": "Escala de redução.",
+            "B": "Escala indeterminada.",
+            "C": "Escala de ampliação.",
+            "D": "Escala natural.",
+            "E": "Escala gráfica."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A escala de ampliação é utilizada quando o desenho do objeto é maior que o objeto real. Isso ocorre para detalhar partes pequenas ou para representações em ampliação."
+    },
+    {
+        "id": "1098902",
+        "enunciado": "Ligando a cidade de Pitangueiras ao distrito de Ibitiúva em uma linha reta, encontramos 11,7 km de distância; a imagem apresenta uma escala de 1:150.000. Seguindo a escala fornecida, qual a distância da linha reta traçada?",
+        "alternativas": {
+            "A": "78 cm.",
+            "B": "7,8 cm.",
+            "C": "11,7 cm.",
+            "D": "0,078 cm."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:150.000 significa que 1 cm no mapa equivale a 150.000 cm na realidade. 150.000 cm equivalem a 1,5 km. Assim, 11,7 km na realidade correspondem a 11,7 km / 1,5 km/cm = 7,8 cm no mapa."
+    },
+    {
+        "id": "1099274",
+        "enunciado": "Um casal de namorados viu no shopping de determinada cidade que há uma loja de presentes que cria bonecos de pessoas em uma impressora 3D, usando escalas de 1:3 e 1:6. Sabe-se que as medidas do casal são 1,80 e 1,50 metros. Qual será o tamanho dos bonecos do casal, respectivamente, se eles escolherem a escala 1:6?",
+        "alternativas": {
+            "A": "30 e 20 centímetros.",
+            "B": "30 e 25 centímetros.",
+            "C": "40 e 30 centímetros.",
+            "D": "60 e 50 centímetros."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A escala 1:6 significa que 1 unidade no boneco representa 6 unidades na pessoa real (em cm). Para o casal com 1,80m (180cm) e 1,50m (150cm), os tamanhos dos bonecos são: 180/6 = 30 cm e 150/6 = 25 cm."
+    },
+    {
+        "id": "1124221",
+        "enunciado": "“Guarulhos é sinônimo de aeroporto, é a porta de entrada do Brasil para o mundo. Sua vocação aeroportuária remonta a sua inserção na dinâmica econômica nacional, com o início da construção no ano de 1980, o aeroporto de Cumbica, hoje, é um dos principais Hubs da América Latina. Dentre as características técnicas e infraestrutura aeroportuária podemos destacar algumas como:\n\n- Pistas de pouso / decolagem: 301.500 m² - 09R/27L com 3.000 m x 45 m e 09L/27R com 3.700 m x 45 m, homologada para operação de aeronaves de Código F (A380);”\nFonte: https://www.guarulhos.sp.gov.br/aeroporto\n\nUm estudante de arquitetura, com o objetivo de criar uma versão em miniatura do aeroporto de Guarulhos, resolveu confeccionar uma maquete na escala de 1:50. Considerando as medidas das pistas 09R/27L e 09L/27R fornecidas no texto acima, a área, em cm2, que as duas pistas irão ocupar na maquete serão respectivamente,",
+        "alternativas": {
+            "A": "54,0 e 66,6.",
+            "B": "27,0 e 33,3.",
+            "C": "13,5 e 16,5.",
+            "D": "27,0 e 31,5."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:50 significa que 1 cm na maquete representa 50 cm na realidade. A pista 09R/27L tem 3000m = 300.000cm, ocupando na maquete 300.000/50 = 6.000cm de comprimento e 45m = 4.500cm, ocupando na maquete 4.500/50 = 90cm de largura. A área é de 6.000cm * 90cm = 540.000cm². Hmmm, isso parece incorreto. Vamos refazer o calculo das áreas.\n    Pista 09R/27L: 3000m x 45m. Na maquete: 3000/50 m x 45/50 m = 60m x 0,9m = 54m². Convertendo para cm²: 54 * 10000 = 540.000 cm².\n    Pista 09L/27R: 3700m x 45m. Na maquete: 3700/50 m x 45/50 m = 74m x 0,9m = 66,6m². Convertendo para cm²: 66,6 * 10000 = 666.000 cm².\n    As alternativas estão em cm². Vamos calcular a área de cada pista na maquete.\n    Pista 1 (3000m x 45m): Comprimento na maquete = 3000m / 50 = 60m = 6000cm. Largura na maquete = 45m / 50 = 0,9m = 90cm. Área = 6000cm * 90cm = 540.000 cm².\n    Pista 2 (3700m x 45m): Comprimento na maquete = 3700m / 50 = 74m = 7400cm. Largura na maquete = 45m / 50 = 0,9m = 90cm. Área = 7400cm * 90cm = 666.000 cm².\n    As a..."
+    },
+    {
+        "id": "1603086",
+        "enunciado": "Um engenheiro será responsável por construir um estádio de futebol. O arquiteto lhe entregou um projeto em que a área do estádio no papel é de 400 cm2. O engenheiro vê que a escala do projeto é 1:500, ou seja: cada 1 cm no papel corresponde a 500 cm na realidade. Nesta situação, qual será a área do estádio de futebol na realidade?",
+        "alternativas": {
+            "A": "1000 m2.",
+            "B": "5.000 m2.",
+            "C": "10.000 m2.",
+            "D": "50.000 m2.",
+            "E": "100.000 m2."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A escala 1:500 significa que 1 cm no projeto representa 500 cm na realidade. A área é multiplicada pelo quadrado da escala. Assim, 400 cm² * (500)² = 400 cm² * 250.000 = 100.000.000 cm². Convertendo para m², temos 10.000 m²."
+    },
+    {
+        "id": "1148261",
+        "enunciado": "Um grupo de pesquisas precisa participar de um seminário acadêmico que será realizado na capital do estado. Como o grupo planeja se deslocar de automóvel, com auxílio de um mapa fizeram uma previsão de quanto seria preciso investir em combustível. Para isso, eles precisam saber a distância real entre as duas localidades. Assim sendo, num mapa de escala 1:9.800.000, a distância entre a localidade de origem e a localidade de destino é de 4,2 cm. Dessa forma, a distância em quilômetros entre as duas localidades é:",
+        "alternativas": {
+            "A": "411.000 km.",
+            "B": "411,6 km.",
+            "C": "41.160 km.",
+            "D": "41,16 km."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:9.800.000 significa que 1 cm no mapa representa 9.800.000 cm na realidade. Convertendo para km (9.800.000 cm / 100.000 = 98 km), e multiplicando pela distância no mapa (4,2 cm x 98 km/cm), o resultado é 411,6 km."
+    },
+    {
+        "id": "1336184",
+        "enunciado": "Um urbanista desenhou um parque em uma escala de 1:500. Na planta, a área do parque é de 80 cm². A área real do parque, em metros quadrados, é:",
+        "alternativas": {
+            "A": "Maior que 2300.",
+            "B": "Maior que 2100 e menor que 2300.",
+            "C": "Maior que 1990 e menor que 2100.",
+            "D": "Maior que 1790 em menor que 1990.",
+            "E": "Menor que 1790."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A escala é 1:500, o que significa que 1 unidade na planta representa 500 unidades na realidade. A área na planta é de 80 cm². Como a escala é linear, para áreas, a relação de escala é o quadrado. Portanto, a escala de área é (1/500)² = 1/250000. Para encontrar a área real, multiplicamos a área da planta pelo inverso da escala de área. Área real = Área da planta * (Fator de escala)². Fator de escala de área = 500² = 250000. Área real = 80 cm² * 250000 = 20.000.000 cm². Precisamos converter cm² para m². Sabendo que 1 m = 100 cm, então 1 m² = (100 cm)² = 10000 cm². Portanto, para converter cm² para m², dividimos por 10000. Área real em m² = 20.000.000 cm² / 10000 cm²/m² = 2000 m². Agora comparamos com as alternativas: A) Maior que 2300 (F). B) Maior que 2100 e menor que 2300 (F). C) Maior que 1990 e menor que 2100. Nossa resposta 2000 m² está dentro deste intervalo. D) Maior que 1790 em menor que 1990 (F). E) Menor que 1790 (F). A alternativa C é a correta."
+    },
+    {
+        "id": "1269877",
+        "enunciado": "O técnico agrícola precisa fazer a planta baixa de um galpão, cujo comprimento é 10 metros e a largura é 3 metros. Na planta baixa, o comprimento e a largura do galpão na escala numérica 1:50 deverão ser, respectivamente:",
+        "alternativas": {
+            "A": "10 cm e 3 cm",
+            "B": "20 cm e 6 cm",
+            "C": "100 cm e 50 cm",
+            "D": "150 cm e 50 cm"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:50 significa que 1 unidade na planta representa 50 unidades na realidade. Convertemos metros para centímetros (10m = 1000cm, 3m = 300cm) e dividimos por 50: 1000cm / 50 = 20cm; 300cm / 50 = 6cm."
+    },
+    {
+        "id": "1013453",
+        "enunciado": "Uma maquete é a reprodução em escala reduzida de um cenário, ambiente, sistema ou espaço, e a razão entre os elementos da maquete e os objetos que representam deve ser sempre igual. Em determinada maquete, um prédio com 25 metros de altura está representado com 50cm. Esse mesmo prédio tem 16 metros de largura. Então, é CORRETO que, na maquete, a largura desse prédio será de:",
+        "alternativas": {
+            "A": "41cm",
+            "B": "32cm",
+            "C": "22cm",
+            "D": "16cm"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala é 50cm (maquete) / 25m (real) = 0,5m / 25m = 1:50. A largura real de 16m na maquete será 16m / 50 = 0,32m = 32cm."
+    },
+    {
+        "id": "1015774",
+        "enunciado": "Um desenho representado na escala 1:50 é:",
+        "alternativas": {
+            "A": "5 vezes maior que representado na escala 1:125.",
+            "B": "50% menor que representado na escala 1:75.",
+            "C": "2 vezes maior que representado na escala 1:100.",
+            "D": "4 vezes menor que representado na escala 1:200."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma escala de 1:50 indica que 1 unidade no desenho representa 50 na realidade. Comparada a 1:100 (onde 1 unidade no desenho representa 100 na realidade), a representação em 1:50 é 2 vezes maior, pois o denominador é menor."
+    },
+    {
+        "id": "1028331",
+        "enunciado": "Uma Siderúrgica solicitou um projeto de alto forno, que terá uma altura real de 80 m. Para que o projeto possa ser desenhado no papel, foi adotada uma altura de 40 cm para o desenho na folha. Dessa forma, a escala utilizada no desenho do alto forno deve ser:",
+        "alternativas": {
+            "A": "1:2",
+            "B": "2:1",
+            "C": "1:200",
+            "D": "1:40",
+            "E": "1:80"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A altura real é de 80 m, o que equivale a 8000 cm. A altura no desenho é de 40 cm. A escala é a relação 'desenho' para 'realidade'. Escala = 40 cm / 8000 cm = 4/800 = 1/200."
+    },
+    {
+        "id": "1004257",
+        "enunciado": "O uso de escalímetro é aplicado na medição em projetos de Engenharia, mapas e outros. Em um mapa rodoviário mediu-se, com o auxílio do escalímetro, a distância entre duas cidades, denominadas de X e Y, obtendo-se 14,6cm. A escala do mapa é de 1:500.000. Neste contexto, a distância entre as cidades X e Y é:",
+        "alternativas": {
+            "A": "52km.",
+            "B": "66km.",
+            "C": "73km.",
+            "D": "81km.",
+            "E": "90km."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A escala de 1:500.000 significa que 1cm no mapa representa 500.000cm na realidade. Convertendo 14,6cm para km: 14,6 cm * 500.000 = 7.300.000 cm. Para converter cm em km, divida por 100.000 (100cm=1m, 1000m=1km). 7.300.000 cm / 100.000 = 73 km."
+    },
+    {
+        "id": "1007709",
+        "enunciado": "Uma empresa de engenharia e arquitetura montou uma maquete que representa o projeto do novo empreendimento da companhia. A maquete foi construída em uma placa cujas dimensões são 70 cm × 100 cm. Sabendo que para a construção da maquete foi utilizada uma escala de , quais as medidas reais do empreendimento a ser construído pela empresa.",
+        "alternativas": {
+            "A": "50 m x 74 m",
+            "B": "56 m x 80 m",
+            "C": "62m x 86 m",
+            "D": "68m x 92 m"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala é 1:200. Isso significa que 1 unidade na maquete representa 200 unidades na realidade. As dimensões da maquete são 70 cm x 100 cm. Para as medidas reais, multiplicamos ambas as dimensões por 200 e convertemos para metros. 70 cm * 200 = 14000 cm = 140 m. 100 cm * 200 = 20000 cm = 200 m. Essa escala parece incorreta. Vamos reconsiderar a escala dada, que parece faltar uma informação. Se assumirmos a escala dada como 1/200 em centímetros, então 70cm * 200 = 14000cm = 140m e 100cm * 200 = 20000cm = 200m. Se a escala fosse 1:2000, então 70cm * 2000 = 140000cm = 1400m e 100cm * 2000 = 200000cm = 2000m. Existe um erro na questão, a escala não é clara. Caso a escala seja 1 : 200, as medidas seriam 140m x 200m. Como nenhuma alternativa se ajusta, é provável que a escala esteja incorreta ou faltante. Se a escala fosse 1:800 para 70cm, seria 56m. Se a escala fosse 1:800 para 100cm, seria 80m. Alternativa B: 56m x 80m. Se 56m / 800 = 0.07m = 7cm e 80m / 800 = 0.1m = 10cm. Isso não corresponde. Se usar 1cm pa..."
+    },
+    {
+        "id": "2197120",
+        "enunciado": "Medindo‐se certa distância em uma carta, foram encontrados 32cm. Sendo a escala da carta 1:50.000, ou seja, cada centímetro na carta representa 50.000cm na realidade, a distância no terreno será de:",
+        "alternativas": {
+            "A": "1.600m.",
+            "B": "160km.",
+            "C": "16km.",
+            "D": "15,6cm.",
+            "E": "15,6km."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está correta. 32cm na escala 1:50.000 representam 32 * 50.000 cm = 1.600.000 cm. Convertendo para metros: 1.600.000 / 100 = 16.000m. Convertendo para quilômetros: 16.000 / 1000 = 16km."
+    },
+    {
+        "id": "1207176",
+        "enunciado": "Um jovem desenhou a planta de seu apartamento no papel, utilizando a proporção de 1:50. Sabendo que, em seu desenho, um cômodo quadrado possui lado com medida de 6 cm, o tamanho real desse cômodo é de:",
+        "alternativas": {
+            "A": "1,5 m",
+            "B": "3,0 m",
+            "C": "4,5 m",
+            "D": "6,0 m"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A escala 1:50 significa que 1 cm no desenho representa 50 cm na realidade. Se o lado do cômodo no desenho mede 6 cm, o tamanho real é 6 cm * 50 = 300 cm. Convertendo para metros, 300 cm = 3,0 m."
+    },
+    {
+        "id": "1991876",
+        "enunciado": "A distância entre duas cidades num mapa de escala 1:30000 é de 10,5 cm. Qual a distância real entre essas duas cidades?",
+        "alternativas": {
+            "A": "3,15 Km.",
+            "B": "31,5 Km.",
+            "C": "31.500 cm.",
+            "D": "31.500 metros."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Escala 1:30000 significa que 1 cm no mapa equivale a 30.000 cm na realidade. 10,5 cm * 30.000 cm/cm = 315.000 cm. Convertendo para km: 315.000 cm / 100.000 cm/km = 3,15 km. Não, 10,5 * 30000 = 315000 cm. 315000 / 100 = 3150 metros. 3150 / 100 = 31,5 km."
+    },
+    {
+        "id": "1044117",
+        "enunciado": "Se temos representando, em uma maquete, um edifício com 18 cm de altura e foi usada a escala de 1cm que equivale a 500cm, qual a altura real desse edifício?",
+        "alternativas": {
+            "A": "60 m.",
+            "B": "80 m.",
+            "C": "90 m.",
+            "D": "180 m."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A escala é 1cm : 500cm. Se o edifício tem 18cm na maquete, a altura real é 18cm * 500 = 9000cm. Convertendo para metros: 9000cm / 100 = 90m."
+    },
+    {
+        "id": "2215093",
+        "enunciado": "Realizando trabalhos topográficos, foi determinado que o comprimento de uma ponte era 287 metros. Se for utilizada a escala 1:1000, qual será o comprimento da representação dessa ponte no desenho?",
+        "alternativas": {
+            "A": "28,7 cm",
+            "B": "2,87 cm",
+            "C": "287 cm",
+            "D": "0,287 cm",
+            "E": "3,48 cm"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A escala 1:1000 significa que 1 unidade no desenho representa 1000 unidades na realidade. Portanto, 287 metros (28700 cm) na realidade serão 28700 cm / 1000 = 28,7 cm no desenho."
+    }
+]

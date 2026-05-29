@@ -1,0 +1,864 @@
+[
+    {
+        "id": "2101764",
+        "enunciado": "Assinale a alternativa com a associação correta entre doença, sintoma e conduta.",
+        "alternativas": {
+            "A": "Hipotireoidismo – Bradicardia e sonolência – Levotiroxina.",
+            "B": "Insuficiência renal aguda – Hipotensão e hipocalemia – Reidratação forçada.",
+            "C": "Pneumonia viral – Dor torácica pleurítica – Uso de antibiótico de largo espectro.",
+            "D": "Doença celíaca – Diarreia crônica e perda ponderal – Dieta com glúten e probióticos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O hipotireoidismo pode causar bradicardia e sonolencia. O tratamento padrao é a reposicao com levotiroxina. As demais alternativas apresentam associacoes incorretas ou condutas inadequadas."
+    },
+    {
+        "id": "1752594",
+        "enunciado": "Considerando um paciente masculino, 57 anos, hipertenso, diabético, tabagista ativo (45 maços/ano), que procura a unidade de saúde com quadro de tosse produtiva há 5 dias, febre vespertina, dispneia aos moderados esforços e ausculta pulmonar com crepitações em base direita, radiografia de tórax evidenciando consolidação em lobo inferior direito e glicemia capilar de 320mg/dL, analise a correlação entre achados clínicos e conduta:",
+        "alternativas": {
+            "A": "A presença de comorbidades e hiperglicemia indica necessariamente internação hospitalar e antibioticoterapia endovenosa, independentemente dos critérios de gravidade de CURB-65.",
+            "B": "O tempo de evolução e padrão radiológico sugerem etiologia bacteriana típica, sendo dispensável a investigação de tuberculose mesmo em área de alta prevalência.",
+            "C": "A estratificação de risco deve considerar tanto os critérios clínicos quanto as condições sociais e capacidade de adesão ao tratamento para definição do nível de cuidado.",
+            "D": "A presença de tabagismo ativo contraindica o tratamento ambulatorial, exigindo internação para controle de fatores de risco independentemente da gravidade clínica.",
+            "E": "O controle glicêmico deve ser priorizado em relação ao início da antibioticoterapia, considerando o risco de acidose metabólica pela amoxicilina."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A estratificação de risco para pneumonia, como pelo CURB-65, deve considerar fatores clínicos e também sociocomunitários para decidir o local de tratamento."
+    },
+    {
+        "id": "1752597",
+        "enunciado": "Em relação ao caso de uma paciente feminina, 23 anos, com queixa de tosse seca há 6 semanas, febre vespertina, sudorese noturna, perda ponderal de 8kg no período e história de contato domiciliar com caso confirmado de tuberculose pulmonar há 3 meses, analise a conduta mais adequada no contexto da atenção primária:",
+        "alternativas": {
+            "A": "O diagnóstico presuntivo de tuberculose pulmonar é suficiente para início imediato do tratamento, sendo dispensável a coleta de baciloscopia em casos de contato domiciliar.",
+            "B": "A investigação deve priorizar a realização de teste rápido molecular para TB, associado a culturas e avaliação dos contactantes, com notificação após confirmação laboratorial.",
+            "C": "A baciloscopia negativa em duas amostras exclui o diagnóstico de tuberculose pulmonar ativa, indicando investigação de outras etiologias.",
+            "D": "A radiografia de tórax normal contraindica o prosseguimento da investigação para tuberculose, mesmo em presença de sintomas clássicos.",
+            "E": "O teste tuberculínico positivo isoladamente confirma o diagnóstico de tuberculose ativa, justificando início imediato do tratamento."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em casos suspeitos de TB pulmonar, especialmente com contato domiciliar, a investigação deve priorizar o teste molecular rápido (Xpert MTB/RIF ou similar), culturas e avaliação de contactantes."
+    },
+    {
+        "id": "2034366",
+        "enunciado": "Material que entra no fluxo sanguíneo e o bloqueia.",
+        "alternativas": {
+            "A": "Fômite.",
+            "B": "Lúmen.",
+            "C": "Broto.",
+            "D": "Êmbolo.",
+            "E": "Placa de angioma."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um êmbolo é um corpo estranho material que se desprende de um local e viaja pela corrente sanguínea, podendo obstruir um vaso."
+    },
+    {
+        "id": "1752604",
+        "enunciado": "Um paciente com Diabetes Mellitus tipo 1, em uso irregular de insulina, comparece à ESF com queixa de poliúria, polidipsia, náuseas, vômitos e dor abdominal. Ao exame físico, apresenta-se desidratado e com hálito cetônico. A gasometria arterial revela: pH de 7,10; PaCO2 de 20 mmHg; bicarbonato de 10 mEq/L. Diante desse quadro, qual o distúrbio ácido-base apresentado pelo paciente e qual a principal medida terapêutica a ser instituída?",
+        "alternativas": {
+            "A": "Acidose respiratória; oxigenoterapia.",
+            "B": "Alcalose respiratória; reposição de bicarbonato de sódio.",
+            "C": "Alcalose metabólica; correção da hipocalemia.",
+            "D": "Acidose mista; administração de diurético de alça.",
+            "E": "Acidose metabólica; hidratação venosa com solução salina isotônica e insulinoterapia."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Os valores de pH baixo, bicarbonato baixo e PaCO2 normal/baixo indicam acidose metabólica, comum na cetoacidose diabética, que requer hidratação vigorosa e insulinoterapia."
+    },
+    {
+        "id": "1277731",
+        "enunciado": "A obesidade é considerada um dos principais problemas de saúde pública na atualidade, em função de sua prevalência global crescente e de sua estreita relação com o aumento do risco para mortalidade prematura e com o desenvolvimento de várias doenças, como diabetes, doenças cardiovasculares e câncer. Escolha a alternativa que não corresponde a obesidade.",
+        "alternativas": {
+            "A": "A obesidade metabólica é originada pela inabilidade das vias de regulação homeostáticas em defender o peso usual, estabelecendo-se um novo set-point.",
+            "B": "Em geral, a obesidade é definida como uma condição resultante do equilíbrio no balanço energético que leva ao acúmulo excessivo de gordura corporal, caracterizado por valores de índice de massa corporal (IMC) iguais ou acima de 26 kg/m2. Apesar de a definição ser relativamente simples, é importante ressaltar que essa doença apresenta etiologia fatorial e patogênese simples, de prevenção e tratamento fáceis.",
+            "C": "A obesidade hedônica é comum em situações de distúrbios alimentares que induzem a ingestão alimentar excessiva, sendo resultante da disfunção do sistema não homeostático de regulação do peso corporal.",
+            "D": "A desregulação hormonal e metabólica ocasionada pela exposição crônica a poluentes ambientais denominados disruptores endócrinos, e por alterações nos ciclos circadianos relacionadas com horário de sono reduzido ou mudança nos turnos de trabalho (dia → noite) também são fatores que favorecem a obesidade e doenças relacionadas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B esta incorreta pois a obesidade nao apresenta patogenese simples, nem e de prevencao e tratamento faceis. A definicao de IMC igual ou acima de 26 kg/m2 tambem esta equivocada, sendo 30 kg/m2 o limite para obesidade."
+    },
+    {
+        "id": "1277734",
+        "enunciado": "Os transtornos alimentares (TA) são quadros psiquiátricos de etiologia multifatorial, cujos critérios diagnósticos são pautados em características psicológicas, comportamentais e fisiológicas, estabelecidos pela American Psychiatric Association (APA). Do ponto de vista alimentar, os TA são caracterizados por uma perturbação persistente na alimentação ou no comportamento relacionado à alimentação, que compromete a saúde física ou o funcionamento psicossocial. São TA, de acordo com o DSM-5: anorexia nervosa, bulimia nervosa, transtorno de compulsão alimentar, outro transtorno alimentar especificado (OTAE), pica, transtorno de ruminação e transtorno alimentar restritivo/evitativo, sendo que, com exceção da pica, todos eles são excludentes entre si. Escolha a alternativa que não corresponde aos transtornos alimentares.",
+        "alternativas": {
+            "A": "O transtorno de compulsão alimentar, caracterizado por episódios recorrentes de compulsão alimentar e ausência de comportamentos compensatórios, passou a ser reconhecido como um transtorno alimentar no DSM-5. Ocorre em indivíduos com peso normal, sobrepeso ou obesidade; entretanto, a prevalência é maior entre os que buscam tratamento para emagrecer do que na população geral.",
+            "B": "A bulimia nervosa é caracterizada por restrição persistente da ingestão calórica; medo intenso de ganhar peso ou de engordar, ou comportamento persistente que interfere no ganho de peso; e perturbação na percepção do próprio peso ou da própria forma corporal.",
+            "C": "O transtorno de ruminação é caracterizado pela regurgitação repetida de alimento depois de ingerido por um período mínimo de 1 mês, sendo que o alimento regurgitado pode ser remastigado, novamente deglutido ou cuspido.",
+            "D": "O transtorno alimentar restritivo/evitativo tem como principal característica diagnóstica esquiva ou restrição da ingestão alimentar, que resulta em fracasso persistente na satisfação das necessidades nutricionais e/ou energéticas em algum grau."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B esta incorreta pois descreve anorexia nervosa, nao bulimia nervosa. A bulimia nervosa envolve comportamentos compensatorios purgativos ou nao (vomitos, uso de laxantes) apos episodios de compulsao."
+    },
+    {
+        "id": "1527862",
+        "enunciado": "Na Doença do Refluxo Gastroesofágico (DGRE), o diagnóstico é clínico, sendo presumido pela presença de sintomas típicos. Porém, a presença de sintomas atípicos ou com sinal de alarme são indicativos de exames complementares como a Endoscopia Digestiva Alta (EDA). São indicativos de realização de EDA no paciente com DGRE, EXCETO:",
+        "alternativas": {
+            "A": "Fatores de risco para esôfago de Barrett.",
+            "B": "Investigação de dor torácica de origem cardíaca.",
+            "C": "Pacientes refratários ao tratamento empírico com IBP.",
+            "D": "Recorrência de sintomas após oito semanas de tratamento com IBP."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A EDA não é o exame de primeira escolha para investigar dor torácica de origem cardíaca. Ela é indicada para DGRE em casos de suspeitas específicas ou refratários, mas o manejo da dor torácica de origem cardíaca segue outros protocolos."
+    },
+    {
+        "id": "1527863",
+        "enunciado": "A Gota é uma doença caracterizada pela deposição de cristais de urato monossódico no meio extracelular de articulações, ossos e tecidos moles. Sobre a Gota, assinale a afirmativa INCORRETA.",
+        "alternativas": {
+            "A": "A monoartrite acontece principalmente com a progressão da doença e a poliartrite é mais comum no primeiro episódio.",
+            "B": "A presença de hiperuricemia não é diagnóstica para gota, embora sua presença dentro de um quadro clínico sugestivo favoreça o diagnóstico.",
+            "C": "Na suspeita de Gota, o exame diagnóstico definitivo é sinovianálise, que identifica a presença de cristais de urato monossódico no líquido sinovial obtido por artrocentese.",
+            "D": "São fatores de risco para Gota: idade avançada, sexo masculino, hiperuricemia (>7 mg/dL), obesidade, hiperlipidemia, doença renal crônica, fatores dietéticos (dieta rica em purinas, álcool), entre outros."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está incorreta. A poliartrite é mais comum nos primeiros episódios de gota, enquanto a monoartrite tende a aumentar com a progressão da doença. As demais afirmativas estão corretas sobre a gota."
+    },
+    {
+        "id": "1543047",
+        "enunciado": "Sobre a insuficiência renal aguda, que ocorre devido a lesões nos rins e resulta em uma rápida diminuição das suas funções, qual das seguintes condições NÃO é considerada uma causa comum desta condição?",
+        "alternativas": {
+            "A": "Choque circulatório.",
+            "B": "Infecção generalizada (sepse).",
+            "C": "Desidratação.",
+            "D": "Hipertensão arterial.",
+            "E": "Obstrução renal."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A hipertensão arterial, por si só, não é uma causa comum de insuficiência renal aguda. As outras alternativas representam condições que podem levar a uma diminuição abrupta da função renal."
+    },
+    {
+        "id": "1543050",
+        "enunciado": "Quando um coágulo sanguíneo se forma em uma veia profunda (na maioria das vezes na perna), essa doença é chamada de:",
+        "alternativas": {
+            "A": "Aneurisma.",
+            "B": "Acidente Vascular.",
+            "C": "Tromboembolismo.",
+            "D": "Hemofilia.",
+            "E": "Arteriosclerose."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Tromboembolismo é o termo médico que descreve a formação de um coágulo sanguíneo (trombo) em uma veia profunda e o seu potencial deslocamento para outra parte do corpo, causando um bloqueio (embolia)."
+    },
+    {
+        "id": "1082955",
+        "enunciado": "Conceitua-se Acidente Vascular Encefálico (AVE) como a interrupção dos vasos que levam o sangue ao cérebro por meio de um entupimento ou rompimento, provocando uma paralisia cerebral. São sinais facilmente identificáveis para o reconhecimento do AVE, de acordo com a escala de Cincinnati:",
+        "alternativas": {
+            "A": "Desvio de rima labial, Déficit motor dos membros superiores e Fala anormal.",
+            "B": "Desvio de rima labial, pupilas anisocóricas e Fala anormal.",
+            "C": "Déficit motor dos membros superiores, Fala anormal e pupilas anisocóricas.",
+            "D": "Afonia, Desvio de rima labial e Déficit motor dos membros superiores.",
+            "E": "Afonia, pupilas anisocóricas e Déficit motor dos membros superiores."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A escala de Cincinnati para reconhecimento de AVE inclui três sinais: desvio da rima labial, déficit de força nos membros superiores e fala anormal. A presença de um ou mais desses sinais sugere AVE. As outras alternativas incluem sinais não pertencentes à escala."
+    },
+    {
+        "id": "1527870",
+        "enunciado": "Paciente, sexo masculino, 85 anos, com histórico de diabetes mellitus tipo 2 há trinta anos, apresenta-se com queixa de dor intensa no hálux do pé esquerdo. Relata que há uma semana notou uma ferida na região que progrediu rapidamente, com secreção purulenta e odor desagradável. Ao exame físico, observa-se gangrena do hálux. Sensibilidade reduzida nos pés. Possui todos pulsos distais palpáveis. Qual é o diagnóstico mais provável para as lesões descritas no caso e qual é o melhor tratamento?",
+        "alternativas": {
+            "A": "Pé diabético neuropático infectado; instituir a antibioticoterapia e realizar a amputação do hálux.",
+            "B": "Pé diabético neuropático infectado; instituir a antibioticoterapia e realizar a amputação aberta do hálux.",
+            "C": "Pé diabético neuroisquêmico infectado; instituir a antibioticoterapia e realizar amputação aberta do hálux.",
+            "D": "Pé diabético neuroisquêmico infectado; instituir a antibioticoterapia e realizar amputação fechada do hálux."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A presenca de gangrena, sensibilidade reduzida e pulsos distais palpaveis sugerem lesao neuroisquemica infectada. A amputacao aberta e indicada para permitir a drenagem."
+    },
+    {
+        "id": "1527872",
+        "enunciado": "Paciente, sexo masculino, 60 anos, com história de tabagismo de longa data e diabetes mellitus tipo 2 mal controlado, apresenta-se com uma úlcera dolorosa no pé direito. Relata que a lesão começou como uma área de pele friável e pálida que progrediu para uma úlcera profunda com bordas necróticas e fundo seco. O paciente refere dor intensa no pé afetado, especialmente durante o repouso; nota que a ferida não cicatriza há vários meses, apesar do tratamento com curativos específicos. Quais as principais diferenças no diagnóstico clínico entre úlceras vasculares arteriais e úlceras por leishmaniose cutânea?",
+        "alternativas": {
+            "A": "Úlceras arteriais são tratadas com derribamentos e curativos; úlceras por leishmaniose respondem melhor ao desbridamento cirúrgico e antibioticoterapia de amplo espectro.",
+            "B": "Úlceras arteriais são caracterizadas por bordas irregulares e fundo necrótico, ao contrário das úlceras por leishmaniose, que apresentam bordas bem delimitadas, elevadas e fundo granuloso.",
+            "C": "Úlceras arteriais são frequentemente acompanhadas de edema perilesional e ausência de pulso distal; úlceras por leishmaniose raramente apresentam alterações circulatórias periféricas.",
+            "D": "Úlceras arteriais são mais comuns em pacientes com diabetes mellitus tipo 2 e tabagismo, ao contrário das úlceras por leishmaniose, que ocorrem predominantemente em áreas endêmicas para a doença."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Úlceras arteriais apresentam bordas bem definidas, fundo seco e necrótico, com dor intensa. Úlceras por leishmaniose cutânea, embora possam ser dolorosas, geralmente têm bordas elevadas e um fundo granuloso, com aparência mais superficial e inflamatória."
+    },
+    {
+        "id": "1082958",
+        "enunciado": "Dengue é a principal representante do grupo de doenças das arboviroses. Constitui-se como uma doença febril de etiologia viral. No Brasil, a fêmea do mosquito Aedes aegypti é o principal transmissor do vírus da dengue. Sobre este assunto, julgue os itens a seguir e assinale a alternativa correta: I. Na fase febril a principal manifestação é uma febre alta e abrupta, geralmente de 30ºC a 40ºC, acompanhado de cefaleia, mialgia, exantema, dor retroorbitária, náuseas, vômitos, diarreia e/ou artralgia. II. Uma pequena parcela dos pacientes pode evoluir para a fase crítica que geralmente se inicia com a diminuição do quadro febril e surgimento de sinais de alarme. III. São sinais de alarme na dengue: dor abdominal intensa, vômitos persistentes, sangramento de mucosas e choque.",
+        "alternativas": {
+            "A": "V V F.",
+            "B": "V V V.",
+            "C": "V F V.",
+            "D": "F F F.",
+            "E": "F F V."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As tres afirmativas estao corretas e descrevem fielmente as manifestacoes clinicas e os sinais de alarme da dengue, incluindo a fase febril, a evolucao para a fase critica e os principais sinais de alerta a serem observados."
+    },
+    {
+        "id": "1113692",
+        "enunciado": "As suspeitas iniciais do acidente vascular cerebral isquêmico devem ocorrer sempre diante de alterações neurológicas no paciente, com ou sem sinais de rebaixamento do nível de consciência. São sinais e sintomas mais comuns dessa condição, EXCETO:",
+        "alternativas": {
+            "A": "Ausência de cefaleia.",
+            "B": "Disartria, afasia e apraxia.",
+            "C": "Desvio de rima labial.",
+            "D": "Confusão mental.",
+            "E": "Crise convulsiva."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Cefaleia pode ser um sintoma de AVC isquêmico. Os demais itens listados (disartria, afasia, apraxia, desvio de rima labial, confusão mental e crise convulsiva) são sinais e sintomas mais comuns dessa condição."
+    },
+    {
+        "id": "1113694",
+        "enunciado": "O choque anafilático, também conhecido como anafilaxia, é uma reação alérgica grave e potencialmente fatal que ocorre de forma rápida e pode afetar vários sistemas do corpo. Esse tipo de reação alérgica é uma emergência médica que requer atenção imediata. São manifestações clínicas apresentadas pelo paciente nessa condição, EXCETO:",
+        "alternativas": {
+            "A": "Sensação de morte iminente.",
+            "B": "Arritmias cardíacas.",
+            "C": "Eritema difuso.",
+            "D": "Hipertensão.",
+            "E": "Broncoespasmo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O choque anafilático é caracterizado por uma reação alérgica sistêmica grave que leva à hipotensão (queda da pressão arterial), não hipertensão. As outras opções são manifestações comuns da anafilaxia."
+    },
+    {
+        "id": "1113696",
+        "enunciado": "A Leucemia Mieloide Crônica (LMC) é um tipo de câncer que afeta as células mieloides da medula óssea, levando à produção excessiva de células sanguíneas imaturas. É uma forma de leucemia que progride lentamente e pode afetar os glóbulos brancos, os glóbulos vermelhos e as plaquetas. Assinale a alternativa que corresponde à alteração genética encontrada nessa patologia.",
+        "alternativas": {
+            "A": "Metacêntrico.",
+            "B": "Mitótico.",
+            "C": "Turner.",
+            "D": "Klinefelter.",
+            "E": "Filadélfia."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alteração genética característica da Leucemia Mieloide Crônica (LMC) é a translocação cromossômica entre os cromossomos 9 e 22, conhecida como Cromossomo Filadélfia. As outras opções referem-se a termos genéticos ou síndromes distintas."
+    },
+    {
+        "id": "2067064",
+        "enunciado": "Com base na comparação entre delirium, demência e depressão, assinale a alternativa CORRETA relacionada a demência.",
+        "alternativas": {
+            "A": "Não está normalmente presente com componentes do humor.",
+            "B": "Mudança na cognição.",
+            "C": "Transtornos de percepção.",
+            "D": "Atenção preservada."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A demência é caracterizada por um declínio cognitivo persistente, afetando funções como memória, pensamento e linguagem. Componentes de humor e transtornos de percepção podem estar presentes, mas a mudança na cognição é central."
+    },
+    {
+        "id": "2067068",
+        "enunciado": "Com base nas patologias neonatais, assinale a alternativa CORRETA que é uma a condição na qual o orifício uretral localiza-se atrás da glande peniana, ou em qualquer ponto da superfície ventral do pênis.",
+        "alternativas": {
+            "A": "Lábio leporino.",
+            "B": "Macrossomia.",
+            "C": "Hipospádia.",
+            "D": "Epispádia."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A hipospádia é uma anomalia congênita em que a abertura da uretra (o orifício uretral) se encontra localizada na parte inferior (ventral) do pênis, em vez de estar na ponta da glande. Lábio leporino é uma fissura facial, macrossomia é um peso excessivo ao nascer, e epispádia é similar à hipospádia, mas com a abertura na parte dorsal do pênis."
+    },
+    {
+        "id": "2067071",
+        "enunciado": "Com base na assistência de enfermagem à saúde do adulto, é importante conhecer os grupos de vírus que estão implicados na etiologia do câncer no ser humano. Assinale a alternativa CORRETA que relacionado etiologicamente com linfomas malignos e carcinoma de nasofaringe.",
+        "alternativas": {
+            "A": "Vírus Epstein-Barr.",
+            "B": "Helicobacter pylory.",
+            "C": "Papiloma-vírus.",
+            "D": "Vírus da leucemia - linfoma de células T."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Vírus Epstein-Barr (VEB) é etiologicamente associado ao desenvolvimento de linfomas malignos (como o linfoma de Burkitt) e carcinoma de nasofaringe em humanos."
+    },
+    {
+        "id": "2067076",
+        "enunciado": "Assinale a alternativa CORRETA que corresponde a úlcera que caracterizam-se por apresentar menor prevalência, e é resultado do déficit de oxigênio e nutrientes para as extremidades inferiores, decorrente de aterosclerose.",
+        "alternativas": {
+            "A": "Úlcera venosa.",
+            "B": "Úlcera por pressão.",
+            "C": "Úlcera arterial.",
+            "D": "Úlcera diabética."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A descrição de úlcera resultante de déficit de oxigênio e nutrientes nas extremidades inferiores, decorrente de aterosclerose, caracteriza a úlcera arterial. A aterosclerose causa estreitamento das artérias, comprometendo o fluxo sanguíneo para as pernas."
+    },
+    {
+        "id": "1682503",
+        "enunciado": "Diversos fatores podem impedir a consolidação de uma fratura no momento certo. Alguns desses fatores estão sob controle do cirurgião e outros não. Em relação à consolidação de fraturas, à pseudoartrose e ao retardo de consolidação, assinale a opção correta.",
+        "alternativas": {
+            "A": "É essencial que a destruição dos tecidos moles seja mínima, para maximizar o potencial de consolidação e minimizar complicações relacionadas à desvitalização óssea.",
+            "B": "A incidência de pseudoartrose se aproxima dos 80% na presença de fraturas expostas e de lesões extensas nos tecidos moles.",
+            "C": "Em geral, as fraturas diafisárias dependerão de menos tempo para conseguir a consolidação óssea.",
+            "D": "As condições específicas que mais notavelmente afetam a consolidação óssea são o hipotireoidismo e o tabagismo.",
+            "E": "Ossos previamente irradiados ou ossos com infiltração tumoral não se alteram no processo de consolidação."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. A minimização da destruição de tecidos moles é crucial para a consolidação óssea, pois garante a vitalidade do osso e reduz complicações."
+    },
+    {
+        "id": "1211348",
+        "enunciado": "A artrite reumatoide é uma doença autoimune, inflamatória, simétrica, crônica, que afeta articulações sinoviais pequenas no início, evoluindo para articulações maiores e eventualmente até pele, olhos, coração, rins e pulmões. Sobre essa enfermidade, é CORRETO afirmar:",
+        "alternativas": {
+            "A": "Frequentemente osso subcondral e cartilagem são deteriorados, com enfraquecimento de tendões e ligamentos.",
+            "B": "São sintomas comuns a rigidez matinal (acima de 30 minutos), fadiga, perda de massa corporal e nódulos reumatoides.",
+            "C": "Quando ocorre em pessoas abaixo de 16 anos, é denominada artrite reumatoide juvenil, e difere da outra por apresentar o fator reumatoide.",
+            "D": "Apenas I e II estão corretas.",
+            "E": "Apenas uma das afirmativas (I, II ou III) está correta."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As afirmativas I e II descrevem corretamente aspectos da artrite reumatoide, como a deterioração óssea e da cartilagem, e sintomas comuns como rigidez matinal. A afirmativa III contém um erro ao associar a artrite reumatoide juvenil ao fator reumatoide como diferenciação."
+    },
+    {
+        "id": "1682507",
+        "enunciado": "A sinovite vilonodular pigmentada localizada é histologicamente idêntica a",
+        "alternativas": {
+            "A": "fibroma não ossificante.",
+            "B": "sarcoma sinovial.",
+            "C": "displasia fibrosa.",
+            "D": "tumor de células gigantes da bainha tendínea.",
+            "E": "condromatose sinovial."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A sinovite vilonodular pigmentada localizada é histologicamente idêntica ao tumor de células gigantes da bainha tendínea, apresentando células gigantes multinucleadas e células com pigmento de hemossiderina."
+    },
+    {
+        "id": "1682510",
+        "enunciado": "A tuberculose óssea acomete principalmente a",
+        "alternativas": {
+            "A": "coluna lombosacral, ligamento longitudinal.",
+            "B": "coluna toracolombar, parte anterior do corpo vertebral.",
+            "C": "coluna cervical, parte anterior do corpo vertebral.",
+            "D": "coluna cervical, parte central do corpo vertebral.",
+            "E": "coluna sacral, parte posterior do corpo vertebral."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A tuberculose óssea, também conhecida como Mal de Pott, acomete principalmente a coluna toracolombar, com lesões na parte anterior do corpo vertebral."
+    },
+    {
+        "id": "1682514",
+        "enunciado": "A associação de displasia fibrosa poliostótica, manchas de coloração café com leite e alterações endócrinas hiperfuncionantes caracteriza a síndrome",
+        "alternativas": {
+            "A": "de McCune Albright.",
+            "B": "de Maffucci.",
+            "C": "de Birbeck.",
+            "D": "de Hand-Schuller-Christian.",
+            "E": "de Berardinelli-Seip."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A síndrome de McCune-Albright é caracterizada pela tríade de displasia fibrosa poliostótica, manchas café com leite e alterações endócrinas, como puberdade precoce ou hipertireoidismo."
+    },
+    {
+        "id": "1682524",
+        "enunciado": "Cerca de 10% dos casos atendidos na prática diária de ortopedia são queixas relacionadas a ombro e/ou cintura escapular, sendo que cerca da metade desses casos são especificamente de manguito rotador. Considerando o tema abordado no texto, julgue os itens seguintes. I Um dos locais mais prováveis em que se inicia a degeneração do manguito rotador é a “área crítica de Codman”, uma região hipovascularizada, localizada próxima à inserção do músculo subescapular. II A “área crítica de Codman” situa-se em uma região comprimida entre o acrômio e o tubérculo maior. III Há duas teorias sobre a degeneração do manguito rotador: a intrínseca que sugere que a degeneração ocorre pela idade e a extrínseca em que a degeneração ocorreria por meio de uma compressão no arco coracoacromial. No entanto, ambas sugerem alteração de vascularização. IV A compressão provocada pela elevação braço entre 60° e 120° (arco doloroso) pode reduzir a circulação do supraespinal feita pela artéria supraescapular e pelas artérias circunflexas posterior e anterior. Estão certos apenas os itens",
+        "alternativas": {
+            "A": "I e II.",
+            "B": "I e IV.",
+            "C": "II e III.",
+            "D": "I, III e IV.",
+            "E": "II, III e IV."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os itens I, III e IV estão corretos. O item I localiza a área crítica de Codman. O item III resume as teorias de degeneração do manguito rotador. O item IV explica o arco doloroso e a redução circulatória."
+    },
+    {
+        "id": "1682530",
+        "enunciado": "Um grave acidente automobilístico ocorreu em uma rodovia, no qual, um dos motoristas, de 35 anos de idade, perdeu a direção e colidiu de frente com outro veículo que trafegava no sentido contrário. Esse motorista foi levado ao hospital apresentando vários ferimentos, entre esses, uma fratura de quadril. Ele passou por uma série de exames e foi constatada uma lesão Pipkin tipo IV. Com base nesse caso clínico, assinale a opção correta.",
+        "alternativas": {
+            "A": "Este tipo de fratura é causada pela presença de uma força longitudinal através do fêmur associada a uma grande flexão e adução de quadril.",
+            "B": "A causa deste tipo de fratura foi a desaceleração associada à colisão do joelho fletido do motorista contra o painel.",
+            "C": "Este tipo de fratura está associada à luxação causada pela posteriorização da cabeça femoral. Se caso tivesse ocorrido uma menor rotação interna de fêmur, o paciente teria apenas uma luxação.",
+            "D": "Este tipo de fratura é uma lesão em cisalhamento causada pela colisão da cabeça do fêmur em adução contra a parede posterior com presença de fragmento da cabeça do fêmur no acetábulo.",
+            "E": "A causa deste tipo de fratura foi a desaceleração associada à flexão, hiperabdução e rotação externa."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D descreve corretamente a lesão Pipkin tipo IV como uma lesão em cisalhamento, causada pela colisão da cabeça do fêmur em adução contra a parede posterior do acetábulo, com fragmento da cabeça femoral no acetábulo."
+    },
+    {
+        "id": "1682534",
+        "enunciado": "Dados do Detran/PR apontam que, no ano de 2021, houve 29.968 ocorrências de acidentes de trânsito, sendo que 4% desses ocasionaram óbitos no próprio local ou posteriormente. Estima-se que cerca de 20 a 50% da mortalidade dos acidentes de trânsito no Brasil seja ocasionada por uma abordagem inadequada do politraumatizado. Tendo como referência o tema abordado no texto, julgue os itens subsequentes. I Um paciente politraumatizado pode apresentar alterações metabólicas a serem consideradas para o tratamento, como aumento da necessidade de glicose, ativação do hipotálamo e liberação de adrenalina, noradrenalina, ACTH, TSH, GH e glucagon. II Lesões associadas que podem ocorrer nos indivíduos politraumatizados com fratura de fêmur podem ocasionar uma síndrome da resposta inflamatória sistêmica devido à exacerbação das respostas imunológicas ou inflamatórias que ocorrem com a finalidade de reparo tecidual e de bloquear a ação de bactérias, que se manifestam, horas a dias, após o trauma. III Em caso de traumas em que há uma significativa perda sanguínea, ocorrem respostas cardiovasculares como a migração do líquido do espaço intersticial para intravascular e a hiperventilação para melhorar a oxigenação do sangue. Assinale a opção correta.",
+        "alternativas": {
+            "A": "Nenhum item está certo.",
+            "B": "Apenas o item I está certo.",
+            "C": "Apenas o item II está certo.",
+            "D": "Apenas o item III está certo.",
+            "E": "Todos os itens estão certos."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Todos os itens estão corretos. O item I descreve alterações metabólicas em politraumatizados. O item II aborda a resposta inflamatória sistêmica em fraturas de fêmur. O item III detalha as repostas cardiovasculares em casos de perda sanguínea."
+    },
+    {
+        "id": "2101764",
+        "enunciado": "Assinale a alternativa com a associação correta entre doença, sintoma e conduta.",
+        "alternativas": {
+            "A": "Hipotireoidismo – Bradicardia e sonolência – Levotiroxina.",
+            "B": "Insuficiência renal aguda – Hipotensão e hipocalemia – Reidratação forçada.",
+            "C": "Pneumonia viral – Dor torácica pleurítica – Uso de antibiótico de largo espectro.",
+            "D": "Doença celíaca – Diarreia crônica e perda ponderal – Dieta com glúten e probióticos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O hipotireoidismo pode causar bradicardia e sonolencia. O tratamento padrao é a reposicao com levotiroxina. As demais alternativas apresentam associacoes incorretas ou condutas inadequadas."
+    },
+    {
+        "id": "1752594",
+        "enunciado": "Considerando um paciente masculino, 57 anos, hipertenso, diabético, tabagista ativo (45 maços/ano), que procura a unidade de saúde com quadro de tosse produtiva há 5 dias, febre vespertina, dispneia aos moderados esforços e ausculta pulmonar com crepitações em base direita, radiografia de tórax evidenciando consolidação em lobo inferior direito e glicemia capilar de 320mg/dL, analise a correlação entre achados clínicos e conduta:",
+        "alternativas": {
+            "A": "A presença de comorbidades e hiperglicemia indica necessariamente internação hospitalar e antibioticoterapia endovenosa, independentemente dos critérios de gravidade de CURB-65.",
+            "B": "O tempo de evolução e padrão radiológico sugerem etiologia bacteriana típica, sendo dispensável a investigação de tuberculose mesmo em área de alta prevalência.",
+            "C": "A estratificação de risco deve considerar tanto os critérios clínicos quanto as condições sociais e capacidade de adesão ao tratamento para definição do nível de cuidado.",
+            "D": "A presença de tabagismo ativo contraindica o tratamento ambulatorial, exigindo internação para controle de fatores de risco independentemente da gravidade clínica.",
+            "E": "O controle glicêmico deve ser priorizado em relação ao início da antibioticoterapia, considerando o risco de acidose metabólica pela amoxicilina."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A estratificação de risco para pneumonia, como pelo CURB-65, deve considerar fatores clínicos e também sociocomunitários para decidir o local de tratamento."
+    },
+    {
+        "id": "1752597",
+        "enunciado": "Em relação ao caso de uma paciente feminina, 23 anos, com queixa de tosse seca há 6 semanas, febre vespertina, sudorese noturna, perda ponderal de 8kg no período e história de contato domiciliar com caso confirmado de tuberculose pulmonar há 3 meses, analise a conduta mais adequada no contexto da atenção primária:",
+        "alternativas": {
+            "A": "O diagnóstico presuntivo de tuberculose pulmonar é suficiente para início imediato do tratamento, sendo dispensável a coleta de baciloscopia em casos de contato domiciliar.",
+            "B": "A investigação deve priorizar a realização de teste rápido molecular para TB, associado a culturas e avaliação dos contactantes, com notificação após confirmação laboratorial.",
+            "C": "A baciloscopia negativa em duas amostras exclui o diagnóstico de tuberculose pulmonar ativa, indicando investigação de outras etiologias.",
+            "D": "A radiografia de tórax normal contraindica o prosseguimento da investigação para tuberculose, mesmo em presença de sintomas clássicos.",
+            "E": "O teste tuberculínico positivo isoladamente confirma o diagnóstico de tuberculose ativa, justificando início imediato do tratamento."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em casos suspeitos de TB pulmonar, especialmente com contato domiciliar, a investigação deve priorizar o teste molecular rápido (Xpert MTB/RIF ou similar), culturas e avaliação de contactantes."
+    },
+    {
+        "id": "2034366",
+        "enunciado": "Material que entra no fluxo sanguíneo e o bloqueia.",
+        "alternativas": {
+            "A": "Fômite.",
+            "B": "Lúmen.",
+            "C": "Broto.",
+            "D": "Êmbolo.",
+            "E": "Placa de angioma."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um êmbolo é um corpo estranho material que se desprende de um local e viaja pela corrente sanguínea, podendo obstruir um vaso."
+    },
+    {
+        "id": "1752604",
+        "enunciado": "Um paciente com Diabetes Mellitus tipo 1, em uso irregular de insulina, comparece à ESF com queixa de poliúria, polidipsia, náuseas, vômitos e dor abdominal. Ao exame físico, apresenta-se desidratado e com hálito cetônico. A gasometria arterial revela: pH de 7,10; PaCO2 de 20 mmHg; bicarbonato de 10 mEq/L. Diante desse quadro, qual o distúrbio ácido-base apresentado pelo paciente e qual a principal medida terapêutica a ser instituída?",
+        "alternativas": {
+            "A": "Acidose respiratória; oxigenoterapia.",
+            "B": "Alcalose respiratória; reposição de bicarbonato de sódio.",
+            "C": "Alcalose metabólica; correção da hipocalemia.",
+            "D": "Acidose mista; administração de diurético de alça.",
+            "E": "Acidose metabólica; hidratação venosa com solução salina isotônica e insulinoterapia."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Os valores de pH baixo, bicarbonato baixo e PaCO2 normal/baixo indicam acidose metabólica, comum na cetoacidose diabética, que requer hidratação vigorosa e insulinoterapia."
+    },
+    {
+        "id": "1277731",
+        "enunciado": "A obesidade é considerada um dos principais problemas de saúde pública na atualidade, em função de sua prevalência global crescente e de sua estreita relação com o aumento do risco para mortalidade prematura e com o desenvolvimento de várias doenças, como diabetes, doenças cardiovasculares e câncer. Escolha a alternativa que não corresponde a obesidade.",
+        "alternativas": {
+            "A": "A obesidade metabólica é originada pela inabilidade das vias de regulação homeostáticas em defender o peso usual, estabelecendo-se um novo set-point.",
+            "B": "Em geral, a obesidade é definida como uma condição resultante do equilíbrio no balanço energético que leva ao acúmulo excessivo de gordura corporal, caracterizado por valores de índice de massa corporal (IMC) iguais ou acima de 26 kg/m2. Apesar de a definição ser relativamente simples, é importante ressaltar que essa doença apresenta etiologia fatorial e patogênese simples, de prevenção e tratamento fáceis.",
+            "C": "A obesidade hedônica é comum em situações de distúrbios alimentares que induzem a ingestão alimentar excessiva, sendo resultante da disfunção do sistema não homeostático de regulação do peso corporal.",
+            "D": "A desregulação hormonal e metabólica ocasionada pela exposição crônica a poluentes ambientais denominados disruptores endócrinos, e por alterações nos ciclos circadianos relacionadas com horário de sono reduzido ou mudança nos turnos de trabalho (dia → noite) também são fatores que favorecem a obesidade e doenças relacionadas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B esta incorreta pois a obesidade nao apresenta patogenese simples, nem e de prevencao e tratamento faceis. A definicao de IMC igual ou acima de 26 kg/m2 tambem esta equivocada, sendo 30 kg/m2 o limite para obesidade."
+    },
+    {
+        "id": "1277734",
+        "enunciado": "Os transtornos alimentares (TA) são quadros psiquiátricos de etiologia multifatorial, cujos critérios diagnósticos são pautados em características psicológicas, comportamentais e fisiológicas, estabelecidos pela American Psychiatric Association (APA). Do ponto de vista alimentar, os TA são caracterizados por uma perturbação persistente na alimentação ou no comportamento relacionado à alimentação, que compromete a saúde física ou o funcionamento psicossocial. São TA, de acordo com o DSM-5: anorexia nervosa, bulimia nervosa, transtorno de compulsão alimentar, outro transtorno alimentar especificado (OTAE), pica, transtorno de ruminação e transtorno alimentar restritivo/evitativo, sendo que, com exceção da pica, todos eles são excludentes entre si. Escolha a alternativa que não corresponde aos transtornos alimentares.",
+        "alternativas": {
+            "A": "O transtorno de compulsão alimentar, caracterizado por episódios recorrentes de compulsão alimentar e ausência de comportamentos compensatórios, passou a ser reconhecido como um transtorno alimentar no DSM-5. Ocorre em indivíduos com peso normal, sobrepeso ou obesidade; entretanto, a prevalência é maior entre os que buscam tratamento para emagrecer do que na população geral.",
+            "B": "A bulimia nervosa é caracterizada por restrição persistente da ingestão calórica; medo intenso de ganhar peso ou de engordar, ou comportamento persistente que interfere no ganho de peso; e perturbação na percepção do próprio peso ou da própria forma corporal.",
+            "C": "O transtorno de ruminação é caracterizado pela regurgitação repetida de alimento depois de ingerido por um período mínimo de 1 mês, sendo que o alimento regurgitado pode ser remastigado, novamente deglutido ou cuspido.",
+            "D": "O transtorno alimentar restritivo/evitativo tem como principal característica diagnóstica esquiva ou restrição da ingestão alimentar, que resulta em fracasso persistente na satisfação das necessidades nutricionais e/ou energéticas em algum grau."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B esta incorreta pois descreve anorexia nervosa, nao bulimia nervosa. A bulimia nervosa envolve comportamentos compensatorios purgativos ou nao (vomitos, uso de laxantes) apos episodios de compulsao."
+    },
+    {
+        "id": "1527862",
+        "enunciado": "Na Doença do Refluxo Gastroesofágico (DGRE), o diagnóstico é clínico, sendo presumido pela presença de sintomas típicos. Porém, a presença de sintomas atípicos ou com sinal de alarme são indicativos de exames complementares como a Endoscopia Digestiva Alta (EDA). São indicativos de realização de EDA no paciente com DGRE, EXCETO:",
+        "alternativas": {
+            "A": "Fatores de risco para esôfago de Barrett.",
+            "B": "Investigação de dor torácica de origem cardíaca.",
+            "C": "Pacientes refratários ao tratamento empírico com IBP.",
+            "D": "Recorrência de sintomas após oito semanas de tratamento com IBP."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A EDA não é o exame de primeira escolha para investigar dor torácica de origem cardíaca. Ela é indicada para DGRE em casos de suspeitas específicas ou refratários, mas o manejo da dor torácica de origem cardíaca segue outros protocolos."
+    },
+    {
+        "id": "1527863",
+        "enunciado": "A Gota é uma doença caracterizada pela deposição de cristais de urato monossódico no meio extracelular de articulações, ossos e tecidos moles. Sobre a Gota, assinale a afirmativa INCORRETA.",
+        "alternativas": {
+            "A": "A monoartrite acontece principalmente com a progressão da doença e a poliartrite é mais comum no primeiro episódio.",
+            "B": "A presença de hiperuricemia não é diagnóstica para gota, embora sua presença dentro de um quadro clínico sugestivo favoreça o diagnóstico.",
+            "C": "Na suspeita de Gota, o exame diagnóstico definitivo é sinovianálise, que identifica a presença de cristais de urato monossódico no líquido sinovial obtido por artrocentese.",
+            "D": "São fatores de risco para Gota: idade avançada, sexo masculino, hiperuricemia (>7 mg/dL), obesidade, hiperlipidemia, doença renal crônica, fatores dietéticos (dieta rica em purinas, álcool), entre outros."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está incorreta. A poliartrite é mais comum nos primeiros episódios de gota, enquanto a monoartrite tende a aumentar com a progressão da doença. As demais afirmativas estão corretas sobre a gota."
+    },
+    {
+        "id": "1543047",
+        "enunciado": "Sobre a insuficiência renal aguda, que ocorre devido a lesões nos rins e resulta em uma rápida diminuição das suas funções, qual das seguintes condições NÃO é considerada uma causa comum desta condição?",
+        "alternativas": {
+            "A": "Choque circulatório.",
+            "B": "Infecção generalizada (sepse).",
+            "C": "Desidratação.",
+            "D": "Hipertensão arterial.",
+            "E": "Obstrução renal."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A hipertensão arterial, por si só, não é uma causa comum de insuficiência renal aguda. As outras alternativas representam condições que podem levar a uma diminuição abrupta da função renal."
+    },
+    {
+        "id": "1543050",
+        "enunciado": "Quando um coágulo sanguíneo se forma em uma veia profunda (na maioria das vezes na perna), essa doença é chamada de:",
+        "alternativas": {
+            "A": "Aneurisma.",
+            "B": "Acidente Vascular.",
+            "C": "Tromboembolismo.",
+            "D": "Hemofilia.",
+            "E": "Arteriosclerose."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Tromboembolismo é o termo médico que descreve a formação de um coágulo sanguíneo (trombo) em uma veia profunda e o seu potencial deslocamento para outra parte do corpo, causando um bloqueio (embolia)."
+    },
+    {
+        "id": "1082955",
+        "enunciado": "Conceitua-se Acidente Vascular Encefálico (AVE) como a interrupção dos vasos que levam o sangue ao cérebro por meio de um entupimento ou rompimento, provocando uma paralisia cerebral. São sinais facilmente identificáveis para o reconhecimento do AVE, de acordo com a escala de Cincinnati:",
+        "alternativas": {
+            "A": "Desvio de rima labial, Déficit motor dos membros superiores e Fala anormal.",
+            "B": "Desvio de rima labial, pupilas anisocóricas e Fala anormal.",
+            "C": "Déficit motor dos membros superiores, Fala anormal e pupilas anisocóricas.",
+            "D": "Afonia, Desvio de rima labial e Déficit motor dos membros superiores.",
+            "E": "Afonia, pupilas anisocóricas e Déficit motor dos membros superiores."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A escala de Cincinnati para reconhecimento de AVE inclui três sinais: desvio da rima labial, déficit de força nos membros superiores e fala anormal. A presença de um ou mais desses sinais sugere AVE. As outras alternativas incluem sinais não pertencentes à escala."
+    },
+    {
+        "id": "1527870",
+        "enunciado": "Paciente, sexo masculino, 85 anos, com histórico de diabetes mellitus tipo 2 há trinta anos, apresenta-se com queixa de dor intensa no hálux do pé esquerdo. Relata que há uma semana notou uma ferida na região que progrediu rapidamente, com secreção purulenta e odor desagradável. Ao exame físico, observa-se gangrena do hálux. Sensibilidade reduzida nos pés. Possui todos pulsos distais palpáveis. Qual é o diagnóstico mais provável para as lesões descritas no caso e qual é o melhor tratamento?",
+        "alternativas": {
+            "A": "Pé diabético neuropático infectado; instituir a antibioticoterapia e realizar a amputação do hálux.",
+            "B": "Pé diabético neuropático infectado; instituir a antibioticoterapia e realizar a amputação aberta do hálux.",
+            "C": "Pé diabético neuroisquêmico infectado; instituir a antibioticoterapia e realizar amputação aberta do hálux.",
+            "D": "Pé diabético neuroisquêmico infectado; instituir a antibioticoterapia e realizar amputação fechada do hálux."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A presenca de gangrena, sensibilidade reduzida e pulsos distais palpaveis sugerem lesao neuroisquemica infectada. A amputacao aberta e indicada para permitir a drenagem."
+    },
+    {
+        "id": "1527872",
+        "enunciado": "Paciente, sexo masculino, 60 anos, com história de tabagismo de longa data e diabetes mellitus tipo 2 mal controlado, apresenta-se com uma úlcera dolorosa no pé direito. Relata que a lesão começou como uma área de pele friável e pálida que progrediu para uma úlcera profunda com bordas necróticas e fundo seco. O paciente refere dor intensa no pé afetado, especialmente durante o repouso; nota que a ferida não cicatriza há vários meses, apesar do tratamento com curativos específicos. Quais as principais diferenças no diagnóstico clínico entre úlceras vasculares arteriais e úlceras por leishmaniose cutânea?",
+        "alternativas": {
+            "A": "Úlceras arteriais são tratadas com derribamentos e curativos; úlceras por leishmaniose respondem melhor ao desbridamento cirúrgico e antibioticoterapia de amplo espectro.",
+            "B": "Úlceras arteriais são caracterizadas por bordas irregulares e fundo necrótico, ao contrário das úlceras por leishmaniose, que apresentam bordas bem delimitadas, elevadas e fundo granuloso.",
+            "C": "Úlceras arteriais são frequentemente acompanhadas de edema perilesional e ausência de pulso distal; úlceras por leishmaniose raramente apresentam alterações circulatórias periféricas.",
+            "D": "Úlceras arteriais são mais comuns em pacientes com diabetes mellitus tipo 2 e tabagismo, ao contrário das úlceras por leishmaniose, que ocorrem predominantemente em áreas endêmicas para a doença."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Úlceras arteriais apresentam bordas bem definidas, fundo seco e necrótico, com dor intensa. Úlceras por leishmaniose cutânea, embora possam ser dolorosas, geralmente têm bordas elevadas e um fundo granuloso, com aparência mais superficial e inflamatória."
+    },
+    {
+        "id": "1082958",
+        "enunciado": "Dengue é a principal representante do grupo de doenças das arboviroses. Constitui-se como uma doença febril de etiologia viral. No Brasil, a fêmea do mosquito Aedes aegypti é o principal transmissor do vírus da dengue. Sobre este assunto, julgue os itens a seguir e assinale a alternativa correta: I. Na fase febril a principal manifestação é uma febre alta e abrupta, geralmente de 30ºC a 40ºC, acompanhado de cefaleia, mialgia, exantema, dor retroorbitária, náuseas, vômitos, diarreia e/ou artralgia. II. Uma pequena parcela dos pacientes pode evoluir para a fase crítica que geralmente se inicia com a diminuição do quadro febril e surgimento de sinais de alarme. III. São sinais de alarme na dengue: dor abdominal intensa, vômitos persistentes, sangramento de mucosas e choque.",
+        "alternativas": {
+            "A": "V V F.",
+            "B": "V V V.",
+            "C": "V F V.",
+            "D": "F F F.",
+            "E": "F F V."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As tres afirmativas estao corretas e descrevem fielmente as manifestacoes clinicas e os sinais de alarme da dengue, incluindo a fase febril, a evolucao para a fase critica e os principais sinais de alerta a serem observados."
+    },
+    {
+        "id": "1113692",
+        "enunciado": "As suspeitas iniciais do acidente vascular cerebral isquêmico devem ocorrer sempre diante de alterações neurológicas no paciente, com ou sem sinais de rebaixamento do nível de consciência. São sinais e sintomas mais comuns dessa condição, EXCETO:",
+        "alternativas": {
+            "A": "Ausência de cefaleia.",
+            "B": "Disartria, afasia e apraxia.",
+            "C": "Desvio de rima labial.",
+            "D": "Confusão mental.",
+            "E": "Crise convulsiva."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Cefaleia pode ser um sintoma de AVC isquêmico. Os demais itens listados (disartria, afasia, apraxia, desvio de rima labial, confusão mental e crise convulsiva) são sinais e sintomas mais comuns dessa condição."
+    },
+    {
+        "id": "1113694",
+        "enunciado": "O choque anafilático, também conhecido como anafilaxia, é uma reação alérgica grave e potencialmente fatal que ocorre de forma rápida e pode afetar vários sistemas do corpo. Esse tipo de reação alérgica é uma emergência médica que requer atenção imediata. São manifestações clínicas apresentadas pelo paciente nessa condição, EXCETO:",
+        "alternativas": {
+            "A": "Sensação de morte iminente.",
+            "B": "Arritmias cardíacas.",
+            "C": "Eritema difuso.",
+            "D": "Hipertensão.",
+            "E": "Broncoespasmo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O choque anafilático é caracterizado por uma reação alérgica sistêmica grave que leva à hipotensão (queda da pressão arterial), não hipertensão. As outras opções são manifestações comuns da anafilaxia."
+    },
+    {
+        "id": "1113696",
+        "enunciado": "A Leucemia Mieloide Crônica (LMC) é um tipo de câncer que afeta as células mieloides da medula óssea, levando à produção excessiva de células sanguíneas imaturas. É uma forma de leucemia que progride lentamente e pode afetar os glóbulos brancos, os glóbulos vermelhos e as plaquetas. Assinale a alternativa que corresponde à alteração genética encontrada nessa patologia.",
+        "alternativas": {
+            "A": "Metacêntrico.",
+            "B": "Mitótico.",
+            "C": "Turner.",
+            "D": "Klinefelter.",
+            "E": "Filadélfia."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alteração genética característica da Leucemia Mieloide Crônica (LMC) é a translocação cromossômica entre os cromossomos 9 e 22, conhecida como Cromossomo Filadélfia. As outras opções referem-se a termos genéticos ou síndromes distintas."
+    },
+    {
+        "id": "2067064",
+        "enunciado": "Com base na comparação entre delirium, demência e depressão, assinale a alternativa CORRETA relacionada a demência.",
+        "alternativas": {
+            "A": "Não está normalmente presente com componentes do humor.",
+            "B": "Mudança na cognição.",
+            "C": "Transtornos de percepção.",
+            "D": "Atenção preservada."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A demência é caracterizada por um declínio cognitivo persistente, afetando funções como memória, pensamento e linguagem. Componentes de humor e transtornos de percepção podem estar presentes, mas a mudança na cognição é central."
+    },
+    {
+        "id": "2067068",
+        "enunciado": "Com base nas patologias neonatais, assinale a alternativa CORRETA que é uma a condição na qual o orifício uretral localiza-se atrás da glande peniana, ou em qualquer ponto da superfície ventral do pênis.",
+        "alternativas": {
+            "A": "Lábio leporino.",
+            "B": "Macrossomia.",
+            "C": "Hipospádia.",
+            "D": "Epispádia."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A hipospádia é uma anomalia congênita em que a abertura da uretra (o orifício uretral) se encontra localizada na parte inferior (ventral) do pênis, em vez de estar na ponta da glande. Lábio leporino é uma fissura facial, macrossomia é um peso excessivo ao nascer, e epispádia é similar à hipospádia, mas com a abertura na parte dorsal do pênis."
+    },
+    {
+        "id": "2067071",
+        "enunciado": "Com base na assistência de enfermagem à saúde do adulto, é importante conhecer os grupos de vírus que estão implicados na etiologia do câncer no ser humano. Assinale a alternativa CORRETA que relacionado etiologicamente com linfomas malignos e carcinoma de nasofaringe.",
+        "alternativas": {
+            "A": "Vírus Epstein-Barr.",
+            "B": "Helicobacter pylory.",
+            "C": "Papiloma-vírus.",
+            "D": "Vírus da leucemia - linfoma de células T."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Vírus Epstein-Barr (VEB) é etiologicamente associado ao desenvolvimento de linfomas malignos (como o linfoma de Burkitt) e carcinoma de nasofaringe em humanos."
+    },
+    {
+        "id": "2067076",
+        "enunciado": "Assinale a alternativa CORRETA que corresponde a úlcera que caracterizam-se por apresentar menor prevalência, e é resultado do déficit de oxigênio e nutrientes para as extremidades inferiores, decorrente de aterosclerose.",
+        "alternativas": {
+            "A": "Úlcera venosa.",
+            "B": "Úlcera por pressão.",
+            "C": "Úlcera arterial.",
+            "D": "Úlcera diabética."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A descrição de úlcera resultante de déficit de oxigênio e nutrientes nas extremidades inferiores, decorrente de aterosclerose, caracteriza a úlcera arterial. A aterosclerose causa estreitamento das artérias, comprometendo o fluxo sanguíneo para as pernas."
+    },
+    {
+        "id": "1682503",
+        "enunciado": "Diversos fatores podem impedir a consolidação de uma fratura no momento certo. Alguns desses fatores estão sob controle do cirurgião e outros não. Em relação à consolidação de fraturas, à pseudoartrose e ao retardo de consolidação, assinale a opção correta.",
+        "alternativas": {
+            "A": "É essencial que a destruição dos tecidos moles seja mínima, para maximizar o potencial de consolidação e minimizar complicações relacionadas à desvitalização óssea.",
+            "B": "A incidência de pseudoartrose se aproxima dos 80% na presença de fraturas expostas e de lesões extensas nos tecidos moles.",
+            "C": "Em geral, as fraturas diafisárias dependerão de menos tempo para conseguir a consolidação óssea.",
+            "D": "As condições específicas que mais notavelmente afetam a consolidação óssea são o hipotireoidismo e o tabagismo.",
+            "E": "Ossos previamente irradiados ou ossos com infiltração tumoral não se alteram no processo de consolidação."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. A minimização da destruição de tecidos moles é crucial para a consolidação óssea, pois garante a vitalidade do osso e reduz complicações."
+    },
+    {
+        "id": "1211348",
+        "enunciado": "A artrite reumatoide é uma doença autoimune, inflamatória, simétrica, crônica, que afeta articulações sinoviais pequenas no início, evoluindo para articulações maiores e eventualmente até pele, olhos, coração, rins e pulmões. Sobre essa enfermidade, é CORRETO afirmar:",
+        "alternativas": {
+            "A": "Frequentemente osso subcondral e cartilagem são deteriorados, com enfraquecimento de tendões e ligamentos.",
+            "B": "São sintomas comuns a rigidez matinal (acima de 30 minutos), fadiga, perda de massa corporal e nódulos reumatoides.",
+            "C": "Quando ocorre em pessoas abaixo de 16 anos, é denominada artrite reumatoide juvenil, e difere da outra por apresentar o fator reumatoide.",
+            "D": "Apenas I e II estão corretas.",
+            "E": "Apenas uma das afirmativas (I, II ou III) está correta."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As afirmativas I e II descrevem corretamente aspectos da artrite reumatoide, como a deterioração óssea e da cartilagem, e sintomas comuns como rigidez matinal. A afirmativa III contém um erro ao associar a artrite reumatoide juvenil ao fator reumatoide como diferenciação."
+    },
+    {
+        "id": "1682507",
+        "enunciado": "A sinovite vilonodular pigmentada localizada é histologicamente idêntica a",
+        "alternativas": {
+            "A": "fibroma não ossificante.",
+            "B": "sarcoma sinovial.",
+            "C": "displasia fibrosa.",
+            "D": "tumor de células gigantes da bainha tendínea.",
+            "E": "condromatose sinovial."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A sinovite vilonodular pigmentada localizada é histologicamente idêntica ao tumor de células gigantes da bainha tendínea, apresentando células gigantes multinucleadas e células com pigmento de hemossiderina."
+    },
+    {
+        "id": "1682510",
+        "enunciado": "A tuberculose óssea acomete principalmente a",
+        "alternativas": {
+            "A": "coluna lombosacral, ligamento longitudinal.",
+            "B": "coluna toracolombar, parte anterior do corpo vertebral.",
+            "C": "coluna cervical, parte anterior do corpo vertebral.",
+            "D": "coluna cervical, parte central do corpo vertebral.",
+            "E": "coluna sacral, parte posterior do corpo vertebral."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A tuberculose óssea, também conhecida como Mal de Pott, acomete principalmente a coluna toracolombar, com lesões na parte anterior do corpo vertebral."
+    },
+    {
+        "id": "1682514",
+        "enunciado": "A associação de displasia fibrosa poliostótica, manchas de coloração café com leite e alterações endócrinas hiperfuncionantes caracteriza a síndrome",
+        "alternativas": {
+            "A": "de McCune Albright.",
+            "B": "de Maffucci.",
+            "C": "de Birbeck.",
+            "D": "de Hand-Schuller-Christian.",
+            "E": "de Berardinelli-Seip."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A síndrome de McCune-Albright é caracterizada pela tríade de displasia fibrosa poliostótica, manchas café com leite e alterações endócrinas, como puberdade precoce ou hipertireoidismo."
+    },
+    {
+        "id": "1682524",
+        "enunciado": "Cerca de 10% dos casos atendidos na prática diária de ortopedia são queixas relacionadas a ombro e/ou cintura escapular, sendo que cerca da metade desses casos são especificamente de manguito rotador. Considerando o tema abordado no texto, julgue os itens seguintes. I Um dos locais mais prováveis em que se inicia a degeneração do manguito rotador é a “área crítica de Codman”, uma região hipovascularizada, localizada próxima à inserção do músculo subescapular. II A “área crítica de Codman” situa-se em uma região comprimida entre o acrômio e o tubérculo maior. III Há duas teorias sobre a degeneração do manguito rotador: a intrínseca que sugere que a degeneração ocorre pela idade e a extrínseca em que a degeneração ocorreria por meio de uma compressão no arco coracoacromial. No entanto, ambas sugerem alteração de vascularização. IV A compressão provocada pela elevação braço entre 60° e 120° (arco doloroso) pode reduzir a circulação do supraespinal feita pela artéria supraescapular e pelas artérias circunflexas posterior e anterior. Estão certos apenas os itens",
+        "alternativas": {
+            "A": "I e II.",
+            "B": "I e IV.",
+            "C": "II e III.",
+            "D": "I, III e IV.",
+            "E": "II, III e IV."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os itens I, III e IV estão corretos. O item I localiza a área crítica de Codman. O item III resume as teorias de degeneração do manguito rotador. O item IV explica o arco doloroso e a redução circulatória."
+    },
+    {
+        "id": "1682530",
+        "enunciado": "Um grave acidente automobilístico ocorreu em uma rodovia, no qual, um dos motoristas, de 35 anos de idade, perdeu a direção e colidiu de frente com outro veículo que trafegava no sentido contrário. Esse motorista foi levado ao hospital apresentando vários ferimentos, entre esses, uma fratura de quadril. Ele passou por uma série de exames e foi constatada uma lesão Pipkin tipo IV. Com base nesse caso clínico, assinale a opção correta.",
+        "alternativas": {
+            "A": "Este tipo de fratura é causada pela presença de uma força longitudinal através do fêmur associada a uma grande flexão e adução de quadril.",
+            "B": "A causa deste tipo de fratura foi a desaceleração associada à colisão do joelho fletido do motorista contra o painel.",
+            "C": "Este tipo de fratura está associada à luxação causada pela posteriorização da cabeça femoral. Se caso tivesse ocorrido uma menor rotação interna de fêmur, o paciente teria apenas uma luxação.",
+            "D": "Este tipo de fratura é uma lesão em cisalhamento causada pela colisão da cabeça do fêmur em adução contra a parede posterior com presença de fragmento da cabeça do fêmur no acetábulo.",
+            "E": "A causa deste tipo de fratura foi a desaceleração associada à flexão, hiperabdução e rotação externa."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D descreve corretamente a lesão Pipkin tipo IV como uma lesão em cisalhamento, causada pela colisão da cabeça do fêmur em adução contra a parede posterior do acetábulo, com fragmento da cabeça femoral no acetábulo."
+    },
+    {
+        "id": "1682534",
+        "enunciado": "Dados do Detran/PR apontam que, no ano de 2021, houve 29.968 ocorrências de acidentes de trânsito, sendo que 4% desses ocasionaram óbitos no próprio local ou posteriormente. Estima-se que cerca de 20 a 50% da mortalidade dos acidentes de trânsito no Brasil seja ocasionada por uma abordagem inadequada do politraumatizado. Tendo como referência o tema abordado no texto, julgue os itens subsequentes. I Um paciente politraumatizado pode apresentar alterações metabólicas a serem consideradas para o tratamento, como aumento da necessidade de glicose, ativação do hipotálamo e liberação de adrenalina, noradrenalina, ACTH, TSH, GH e glucagon. II Lesões associadas que podem ocorrer nos indivíduos politraumatizados com fratura de fêmur podem ocasionar uma síndrome da resposta inflamatória sistêmica devido à exacerbação das respostas imunológicas ou inflamatórias que ocorrem com a finalidade de reparo tecidual e de bloquear a ação de bactérias, que se manifestam, horas a dias, após o trauma. III Em caso de traumas em que há uma significativa perda sanguínea, ocorrem respostas cardiovasculares como a migração do líquido do espaço intersticial para intravascular e a hiperventilação para melhorar a oxigenação do sangue. Assinale a opção correta.",
+        "alternativas": {
+            "A": "Nenhum item está certo.",
+            "B": "Apenas o item I está certo.",
+            "C": "Apenas o item II está certo.",
+            "D": "Apenas o item III está certo.",
+            "E": "Todos os itens estão certos."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Todos os itens estão corretos. O item I descreve alterações metabólicas em politraumatizados. O item II aborda a resposta inflamatória sistêmica em fraturas de fêmur. O item III detalha as repostas cardiovasculares em casos de perda sanguínea."
+    },
+    {
+        "id": "1682536",
+        "enunciado": "O desalinhamento carpal, em virtude de uma consolidação viciosa de fraturas do rádio em sua porção distal, compromete o desempenho funcional da mão. Considerando a avaliação e as complicações das fraturas radiocarpais resultantes do mau alinhamento, assinale a opção correta.",
+        "alternativas": {
+            "A": "O mau alinhamento pode provocar uma inclinação do semilunar em direção oposta à direção do rádio distal, provocando uma compensação na articulação mediocarpal, com flexão da articulação na inclinação dorsal e extensão na inclinação volar.",
+            "B": "Dentre as complicações das fraturas do rádio distal está a consolidação viciosa que pode resultar no comprometimento da funcionalidade ou gerar alterações degenerativas apenas nas articulações radiocarpal e mediocarpal.",
+            "C": "A mecânica radiocarpal pode ser alterada pela consolidação viciosa no rádio ocasionando exacerbação da inclinação palmar reduzindo assim a força de contato sobre o lábio dorsal do rádio.",
+            "D": "Com relação ao comprometimento da radioulnar, a classificação de Frykman incorporou o envolvimento da articulação radioulnar somente nos tipos VII e VIII.",
+            "E": "Um desalinhamento com aumento da angulação dorsal aumenta a tensão dos ligamentos radioulnares e altera a mecânica radioulnar, sobrecarregando a musculatura de antebraço."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E está correta pois o aumento da angulação dorsal em fraturas distais do rádio, ao alterar a mecânica de antebraço, aumenta a tensão nos ligamentos radioulnares e sobrecarrega a musculatura do antebraço."
+    },
+    {
+        "id": "1922321",
+        "enunciado": "Mulher de 21 anos procura o consultório médico com cefaleia unilateral que apresenta desde a adolescência. O médico suspeita que essa paciente apresente o diagnóstico de enxaqueca. Todas as alternativas abaixo reforçam o diagnóstico dessa doença, EXCETO",
+        "alternativas": {
+            "A": "presença de sintomas neurológicos transitórios (auras).",
+            "B": "cefaleia pulsátil de intensidade moderada a severa.",
+            "C": "cefaleia associada à náusea ou a vômitos.",
+            "D": "intolerância a estímulos sensoriais (fotofobia ou fonofobia).",
+            "E": "presença de congestão nasal ou rinorreia durante a cefaleia."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Congestão nasal ou rinorreia não são sintomas clássicos de enxaqueca. Os demais sintomas são fortemente sugestivos do diagnóstico."
+    },
+    {
+        "id": "1922323",
+        "enunciado": "Paciente 35 anos chega à urgência, com forte suspeita de meningite bacteriana. Qual a etiologia mais provável para esse quadro nessa faixa etária?",
+        "alternativas": {
+            "A": "Escherichia coli",
+            "B": "Enterococcus faecalis",
+            "C": "Klebsiela pneumoniae",
+            "D": "Streptococcus pneumoniae",
+            "E": "Staphilococus aureus"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em adultos jovens e sem fatores de risco específicos, Streptococcus pneumoniae é uma das causas mais comuns de meningite bacteriana. E. coli é mais comum em neonatos, Klebsiella e Enterococcus em pacientes hospitalizados/imunossuprimidos, e S. aureus em casos específicos."
+    },
+    {
+        "id": "1922331",
+        "enunciado": "Em relação à pancreatite aguda grave, assinale a afirmativa CORRETA.",
+        "alternativas": {
+            "A": "A profilaxia antibiótica para prevenir complicações infecciosas está bem estabelecida quando a TC revela necrose.",
+            "B": "A profilaxia probiótica para prevenir complicações infecciosas está bem estabelecida quando a TC revela necrose.",
+            "C": "Quando biliar, a esfincterotomia endoscópica deverá ser realizada, se houver condições, tendo ou não colangite.",
+            "D": "A alimentação enteral deve ser iniciada precocemente, após estabilização clínica, por via nasojejunal ou nasogástrica com soluções poliméricas ou elementar.",
+            "E": "Uma TC com contraste deve ser feita imediatamente, ao se suspeitar do diagnóstico. De preferência, nas primeiras 12 horas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alimentação enteral precoce, por via nasojejunal ou nasogástrica com fórmulas adequadas, é recomendada após estabilização clínica na pancreatite aguda grave. As demais opções apresentam condutas ou prazos incorretos ou não estabelecidos."
+    },
+    {
+        "id": "1922340",
+        "enunciado": "Fala contra a síndrome do intestino irritável:",
+        "alternativas": {
+            "A": "mucorreia.",
+            "B": "distensão abdominal e flatulência.",
+            "C": "dor abdominal baixa e prisão de ventre.",
+            "D": "dor abdominal baixa e diarreia.",
+            "E": "sangramento às evacuações."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Sangramento às evacuações não é característico da síndrome do intestino irritável, que geralmente cursa com dor abdominal, alterações do hábito intestinal e distensão, mas sem sangramento macroscópico."
+    },
+    {
+        "id": "1922343",
+        "enunciado": "A febre no abdômen agudo inflamatório (apendicite, colecistite, diverticulite) é",
+        "alternativas": {
+            "A": "alta nas primeiras horas.",
+            "B": "quase sempre acompanhada de calafrios.",
+            "C": "geralmente ausente no início e depois tende a ser baixa e sem calafrios.",
+            "D": "obrigatória para se chegar a esse diagnóstico.",
+            "E": "sempre progressiva."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No abdômen agudo inflamatório, a febre geralmente surge após as primeiras horas de evolução. Inicialmente, pode haver febre baixa ou ausente, sem calafrios. A febre alta e com calafrios tende a ser um sinal de disseminação da infecção."
+    },
+    {
+        "id": "1922345",
+        "enunciado": "Em relação às doenças perianais, assinale a afirmativa INCORRETA.",
+        "alternativas": {
+            "A": "A classificação de hemorroidas em interna e externa considera a linha denteada.",
+            "B": "A fístula anal, em sua grande maioria, é uma complicação do abscesso anal.",
+            "C": "As hemorroidas internas são dolorosas, e a fissura anal é, praticamente, indolor.",
+            "D": "A doença perianal é mais frequente na doença de Crohn que na retocolite.",
+            "E": "O tumor epidermóide de canal anal pode metastizar para os linfonodos inguinais."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Hemorroidas internas, quando prolapsadas, causam dor; a fissura anal é classicamente dolorosa."
+    },
+    {
+        "id": "1922354",
+        "enunciado": "A escala de Alvarado foi idealizada para ajudar o diagnóstico de apendicite aguda. Nela existem dois itens que pontuam mais. Um é a dor no Quadrante Inferior Direito (QID), e o outro é",
+        "alternativas": {
+            "A": "Blumberg positivo no QID.",
+            "B": "temperatura oral maior que 37,2.",
+            "C": "náuseas e vômitos.",
+            "D": "anorexia.",
+            "E": "leucocitose."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Leucocitose com desvio à esquerda é um dos sinais que mais pontuam na escala de Alvarado, ao lado da dor no QID, indicando processo inflamatório agudo."
+    }
+]

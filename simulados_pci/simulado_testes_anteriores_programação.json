@@ -1,0 +1,1100 @@
+[
+    {
+        "id": "3078325",
+        "enunciado": "Barbosa (2007) estabelece um conceito para webjornalismo, aquele jornalismo publicado na web, seja textual ou multimídia. Segundo a autora, o webjornalismo tem fases em seu desenvolvimento, inicialmente passando por um período de adaptação do off-line para então entrar em um segundo momento de transição. Assinale a alternativa que apresenta uma característica da segunda fase do webjornalismo.",
+        "alternativas": {
+            "A": "Produz-se conteúdos com hiperlinks, aplicações interativas e multimídia.",
+            "B": "O conteúdo ofertado na web é o mesmo publicado nas mídias físicas.",
+            "C": "A produção de conteúdo é feita exclusivamente para web.",
+            "D": "Os conteúdos produzidos são sempre acompanhados de recursos de áudio.",
+            "E": "Abolição completa da mídia física, com a migração total para o digital."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A segunda fase do webjornalismo, após a adaptação inicial, caracteriza-se pela exploração das potencialidades da web, como interatividade, multimídia e hiperlinks, para criar conteúdos mais ricos e dinâmicos."
+    },
+    {
+        "id": "3022543",
+        "enunciado": "Observe o trecho do algoritmo a seguir em linguagem Java.public static void main (String[] args){int x=0, y=0, z=1;//importado de java.util.Scanner;Scanner ler = new Scanner(System.in);y=ler.nextInt();x=ler.nextInt();z=x;while(y>1){z=z*x;y=y-1;}System.out.println(z);}A representação correta desse trecho do algoritmo,em linguagem Java, é",
+        "alternativas": {
+            "A": "calcula o fatorial de um número.",
+            "B": "encontra um elemento de uma matriz.",
+            "C": "gera o enésimo termo da sequência de Fibonacci.",
+            "D": "calcula a potência de qualquer número inteiro,cujo expoente seja maior ou igual a 1.",
+            "E": "calcula a potência de qualquer número inteiro"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O algoritmo inicializa z com 1. Em seguida, um loop decrementa y de 1 enquanto multiplica z por x. Se y for igual a 1, nenhum loop é executado e z permanece 1. Caso contrário, z se torna x elevado a y. Isso calcula x elevado a (y inicial - 1), que é equivalente a x elevado a um expoente maior ou igual a 1, pois y é subtraído até ser menor ou igual a 1."
+    },
+    {
+        "id": "3010711",
+        "enunciado": "Analise as seguintes afirmativas e assinale a alternativa CORRETA:I. Em Python, após um condicional if podemos utilizar elsif para fazermos novas avaliações em vez de usarmos else if.II. Para comentarmos diversas linhas de código em Python devemos iniciar utilizando /*",
+        "alternativas": {
+            "A": "Apenas a afirmativa I está correta.",
+            "B": "Apenas a afirmativa II está correta.",
+            "C": "Ambas afirmativas estão corretas",
+            "D": "Nenhuma afirmativa está correta."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em Python, usa-se 'elif', não 'elsif'. Para comentar múltiplas linhas, usa-se aspas triplas ('\"\"\"' ou \"'''\"), não '/*'."
+    },
+    {
+        "id": "3010714",
+        "enunciado": "Em relação ao tema Programação orientada a Objetos (POO) utilizando o Delphi 7, qual destes comandos faz parte da sintaxe CORRETA para criação de classes em Delphi:",
+        "alternativas": {
+            "A": "class TNome",
+            "B": "TNome class",
+            "C": "TNome = class",
+            "D": "Não existe POO em Delphi."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C esta correta. Em Delphi, a sintaxe para declaracao de classes utiliza o modificador 'class', precedido pelo nome da classe e seguido pela palavra reservada 'class', como em 'TNome = class'."
+    },
+    {
+        "id": "3053850",
+        "enunciado": "Nas tecnologias PHP, PostgreSQL, XML, CSS, JavaScript e Java,",
+        "alternativas": {
+            "A": "códigos escritos em JavaScript, quaisquer que sejam eles, são necessariamente executados em um browser, e não podem ser executados \"fora\" de um browser.",
+            "B": "dados podem ser armazenados no PostgreSQL e serializados em XML para transferência.",
+            "C": "o uso de Java é incompatível com CSS e exige PHP para aplicações web.",
+            "D": "o uso de PHP é necessário em páginas web dinâmicas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O PostgreSQL é um banco de dados relacional e o XML é um formato para serialização de dados, permitindo sua estruturação para troca entre sistemas. Assim, dados podem ser armazenados no PostgreSQL e exportados formatados em XML."
+    },
+    {
+        "id": "3053851",
+        "enunciado": "Sistemas de Gerenciamento de Bancos de Dados (SGBDs) oferecem serviços para armazenamento de dados. MySQL, SQL Server e PostgreSQL são alguns exemplos. Especificamente, o PostgreSQL",
+        "alternativas": {
+            "A": "impede a criação de índices em dados do tipo texto e numérico.",
+            "B": "oferece os tipos de dados JSON e XML.",
+            "C": "é uma tecnologia que foi criada há menos de uma década.",
+            "D": "é incompatível com uso em nuvem (cloudcomputing)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O PostgreSQL oferece suporte nativo e robusto para os tipos de dados JSON e XML, permitindo consultas eficientes diretamente nesses formatos. Ele não impede a criação de índices em dados texto/numérico e é uma tecnologia madura, compatível com cloud computing."
+    },
+    {
+        "id": "3010718",
+        "enunciado": "Analise o seguinte trecho de código em Java e assinale a alternativa que exibe o valor que será apresentado ao término de sua execução:public class numeros{public static void main(String[] args) {for (int i = 0; i if (i == 3) {continue;}System.out.print(i);}}}",
+        "alternativas": {
+            "A": "01234.",
+            "B": "0123.",
+            "C": "0124.",
+            "D": "012."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C esta correta. O loop itera de i=0 ate i=4. O comando 'continue' pula a iteracao quando i=3. Assim, os valores impressos serao 0, 1, 2 e 4, resultando em '0124'."
+    },
+    {
+        "id": "3053852",
+        "enunciado": "Atualmente, Java e JavaScript estão entre as linguagens de programação de maior emprego pela indústria de software. Apesar da semelhança dos nomes, elas possuem muitas diferenças. Qual dos trechos abaixo é válido, tanto em JavaScript quanto em Java?",
+        "alternativas": {
+            "A": "X = = = \"true\" : 10 : 20;",
+            "B": "function* x() { return 2; }",
+            "C": "switch(a) { case \"a\": case \"A\": return \"A\"; }",
+            "D": "x –> 1;"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C apresenta um trecho válido em ambas as linguagens. O uso do switch com múltiplos cases e retorno é sintaticamente correto em ambas, ao contrário das outras opções que contêm sintaxe específica de uma ou outra linguagem."
+    },
+    {
+        "id": "3012319",
+        "enunciado": "Considerando a linguagem C, identifique como verdadeiras (V) ou falsas (F) as seguintes afirmativas:( )Uma função não pode ser definida dentro de outra função.( )As funções podem retornar apenas um valor.( )O número máximo de argumentos de uma função é 10.( )A estrutura de comando switch-case não pode ser usada com variáveis tipo char.Assinale a alternativa que apresenta a sequência correta, de cima para baixo.",
+        "alternativas": {
+            "A": "V – V – V – V.",
+            "B": "V – V – F – F.",
+            "C": "F – F – V – V.",
+            "D": "V – F – V – F.",
+            "E": "F – F – F – F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3053853",
+        "enunciado": "Programação orientada a objetos está baseada no que é conhecido por orientação a objetos. Nesse contexto,",
+        "alternativas": {
+            "A": "a delegação e a herança são recursos para reutilizar comportamento.",
+            "B": "a serialização é necessária no processo de especialização.",
+            "C": "a generalização depende de composição.",
+            "D": "o polimorfismo depende de sobrecarga (overloading)"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Delegação e herança são mecanismos essenciais na Programação Orientada a Objetos que permitem a reutilização de código e comportamento, respectivamente."
+    },
+    {
+        "id": "3053854",
+        "enunciado": "O desenvolvimento de software é, na maioria dos casos, um esforço coletivo que depende de vários papéis, atividades, processos e ferramentas. Nesse sentido,",
+        "alternativas": {
+            "A": "os métodos ágeis são, em geral, baseados no desenvolvimento incremental e/ou iterativo.",
+            "B": "o desenvolvimento iterativo é necessariamente incremental.",
+            "C": "o desenvolvimento usando o modelo waterfall é indicado para lidar com riscos.",
+            "D": "a Rapid Application Development (RAD) é uma metodologia baseada no waterfall."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Metodologias ágeis como Scrum e Kanban baseiam-se em entregas incrementais e iterações curtas, promovendo flexibilidade e adaptação."
+    },
+    {
+        "id": "3053855",
+        "enunciado": "O desenvolvimento de software envolve várias atividades, papéis e artefatos. Equipes que desenvolvem software, em geral, também fazem uso de ferramentas que",
+        "alternativas": {
+            "A": "formam a base sobre a qual as metodologias são construídas.",
+            "B": "são úteis para apoiar a programação orientada a objetos e não a programação funcional.",
+            "C": "devem ser adequadamente identificadas antes da definição do projeto em que serão empregadas.",
+            "D": "promovem a produtividade da equipe."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ferramentas no desenvolvimento de software visam aprimorar o processo e a produção. Elas auxiliam na automação de tarefas, colaboração e na entrega mais rápida e eficiente, impactando diretamente a produtividade da equipe."
+    },
+    {
+        "id": "3053856",
+        "enunciado": "Considere que os números 10, 11, 12, 13, 14 foram inseridos, nessa ordem, em uma fila. Esses mesmos números foram inseridos na mesma ordem em uma pilha. Nesse caso,",
+        "alternativas": {
+            "A": "o topo da pilha é o número 10.",
+            "B": "o primeiro elemento a ser removido da pilha é o número 10.",
+            "C": "o número 14 é o primeiro elemento a ser removido da fila.",
+            "D": "o último elemento a ser removido da fila é o número 14."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3055841",
+        "enunciado": "Uma função com um único parâmetro foi chamada dentro de um programa. Caso a passagem do conteúdo de uma variável para esta função seja por meio desse parâmetro, por valor, esse tipo de chamada permite",
+        "alternativas": {
+            "A": "criar múltiplas instâncias dessa variável, desde que autorizado pelo usuário do programa.",
+            "B": "criar múltiplas instâncias dessa variável, caso não se utilize a pilha como forma de chamada da sub-rotina.",
+            "C": "usar, dentro da função, o valor da variável, bem como permite alterar o valor da variável original.",
+            "D": "usar, dentro da função, uma cópia do valor da variável, porém não permite alterar o valor da variável original.",
+            "E": "usar esse parâmetro de entrada também como um parâmetro de saída."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A passagem de parâmetro por valor cria uma cópia do argumento dentro da função. Assim, qualquer modificação feita no parâmetro dentro da função não afeta a variável original fora dela."
+    },
+    {
+        "id": "3053857",
+        "enunciado": "Considere um vetor de números inteiros, em que se deseja buscar um dos elementos que está presente neste vetor. O algoritmo de busca binária requer que",
+        "alternativas": {
+            "A": "o vetor tenha elementos repetidos.",
+            "B": "os elementos do vetor sejam números primos.",
+            "C": "os elementos do vetor estejam ordenados.",
+            "D": "o vetor tenha 2n elementos, tal que n é um número inteiro maior do que zero."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O algoritmo de busca binária opera dividindo repetidamente o intervalo de busca. Para isso, é fundamental que o conjunto de dados (vetor) esteja previamente ordenado para que a comparação com o elemento central seja eficaz."
+    },
+    {
+        "id": "3055842",
+        "enunciado": "Um programa de computador orientado a evento é caracterizado por",
+        "alternativas": {
+            "A": "utilizar interfaces gráficas visuais.",
+            "B": "ter seu código separado e organizado de acordo com sua importância para a aplicação.",
+            "C": "ter controle total sobre seu fluxo de execução, iniciando qualquer interação com o sistema operacional ou plataforma subjacente.",
+            "D": "receber mensagens do sistema operacional ou plataforma subjacente, que inicia interações com o programa, e por prover o tratamento dessas mensagens, produzindo respostas apropriadas para cada uma.",
+            "E": "não permitir interações com o usuário durante sua execução."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Event-driven programs respond to external stimuli (events) generated by the OS or platform. They don't control execution flow proactively but reactively, making D the most accurate description."
+    },
+    {
+        "id": "3038138",
+        "enunciado": "Considerando a utilização da linguagem Java, suponha que exista uma classe denominada Bicicleta e que, dentro dela, exista, entre outros, o trecho de código mostrado no Quadro 2 abaixo:public Bicicleta(int inicioCadencia, int inicioVel, int inicioMarcha) {marcha = inicioMarcha;cadencia = inicioCadencia;vel = inicioVel;}Quadro 2 – Trecho de código JavaEm relação ao trecho mostrado e às características da linguagem Java, analise as assertivas a seguir:O trecho de código mostrado é um exemplo de construtor.Para criar um novo objeto Bicicleta, utiliza-se o operador new, como, por exemplo: Bicicleta minhaBike = new Bicicleta(25, 0, 7);.O trecho mostrado não é um método.Para evitar conflitos, deve haver apenas um construtor por classe.Quais estão corretas?",
+        "alternativas": {
+            "A": "Apenas I e II.",
+            "B": "Apenas II e III.",
+            "C": "Apenas III e IV.",
+            "D": "Apenas II, III e IV.",
+            "E": "I, II, III e IV."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O trecho apresentado é um construtor de classe, responsável por inicializar um objeto. A criação de objetos em Java utiliza o operador 'new'. Construtores não são métodos comuns. Uma classe pode ter múltiplos construtores (sobrecarga), desde que tenham parâmetros diferentes. Portanto, I e II estão corretas."
+    },
+    {
+        "id": "3055843",
+        "enunciado": "No contexto da orientação a objetos, existe uma medi -da de quanto dois itens, tais como classes ou métodos, estão inter-relacionados. Esta medida costuma ser classificada como forte, quando um item depende da forma como o outro foi implementado, ou fraca, quando um item depende do outro, mas não de seus detalhes de implementação. Essa medida é conhecida como",
+        "alternativas": {
+            "A": "coesão.",
+            "B": "exceção.",
+            "C": "sobrecarga.",
+            "D": "interface.",
+            "E": "acoplamento."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Acoplamento é a medida de inter-relação entre itens (classes, métodos). Forte acoplamento ocorre quando uma implementação depende de outra. Fraco acoplamento ocorre quando há dependência, mas não dos detalhes de implementação."
+    },
+    {
+        "id": "3042407",
+        "enunciado": "Em relação ao conceito compilação e interpretação, em termos de linguagens de programação, analise as afirmativas abaixo.Em linguagens de programação que fazem compilação, o código fonte é convertido para código de baixo nível, este sendo executado diretamente pelo computador.Alguns exemplos de linguagens de programação interpretadas são: C, PHP e Ruby.As linguagens interpretadas fazem uso de um interpretador,como intermediário, para a execução do código fonte.Assinale",
+        "alternativas": {
+            "A": "se somente a afirmativa I estiver correta.",
+            "B": "se somente as afirmativas I e II estiverem corretas.",
+            "C": "se somente as afirmativas I e III estiverem corretas.",
+            "D": "se somente a afirmativa II estiver correta.",
+            "E": "se todas as afirmativas estiverem corretas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa I está correta, pois linguagens compiladas convertem código fonte para código de baixo nível executável. A afirmativa II está incorreta, pois C é compilada, e PHP e Ruby são mais interpretadas ou possuem modelos híbridos. A afirmativa III está correta, pois linguagens interpretadas usam um interpretador para executar o código fonte linha por linha. Portanto, I e III estão corretas."
+    },
+    {
+        "id": "3053858",
+        "enunciado": "Considere o esquema R(X,Y,Z) de uma das relações de um banco de dados relacional, no qual a chave primária é composta pelos atributos (X,Y) e o atributo Z é uma chave estrangeira. Com base necessariamente nessas informações, nesse contexto o atributo",
+        "alternativas": {
+            "A": "Y não pode ter valores repetidos entre as tuplas da relação.",
+            "B": "Z não pode ter valores repetidos entre as tuplas da relação.",
+            "C": "Z não pode assumir valor nulo.",
+            "D": "Y não pode assumir valor nulo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em um banco de dados relacional, a chave primária (X,Y) identifica unicamente cada tupla. A chave primária não pode conter valores nulos em nenhum de seus atributos. Portanto, Y não pode ser nulo."
+    },
+    {
+        "id": "3055844",
+        "enunciado": "Na plataforma Microsoft COM ( Component Object Model), todos os componentes devem implementar a interface:",
+        "alternativas": {
+            "A": "IObject",
+            "B": "IUnknown",
+            "C": "IDispatch",
+            "D": "IOleObject",
+            "E": "IBase"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na plataforma COM da Microsoft, todos os objetos COM devem implementar a interface IUnknown. Esta interface é fundamental para o gerenciamento da vida útil do objeto e para a navegação de interfaces."
+    },
+    {
+        "id": "3053859",
+        "enunciado": "No mapeamento de um esquema do modelo entidade relacionamento para o modelo relacional, os tipos de relacionamento com cardinalidade",
+        "alternativas": {
+            "A": "um-para-muitos são, necessariamente, mapeados pelacriação de uma nova relação.",
+            "B": "muitos-para-muitos são, necessariamente, mapeados ela criação de uma nova relação.",
+            "C": "um-para-um são, necessariamente, mapeados pelacriação de uma nova relação.",
+            "D": "um-para-muitos são, necessariamente, mapeados pelas são de relações."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Relacionamentos muitos-para-muitos (N:M) no modelo entidade-relacionamento são mapeados para o modelo relacional através da criação de uma nova tabela (ou relação). Essa tabela intermediária terá chaves estrangeiras que referenciam as chaves primárias das duas tabelas originais."
+    },
+    {
+        "id": "3055845",
+        "enunciado": "Analise o trecho de programa a seguir, elaborado na Linguagem HTML.A opção que deve ser colocada no espaço vazio da segunda linha para que o arquivo imagem.jpg possa ser utilizado como fundo da tela é:",
+        "alternativas": {
+            "A": "background=\"imagem.jpg\"",
+            "B": "bg=imagem.jpg",
+            "C": "figure=imagem.jpg",
+            "D": "fundo=\"imagem.jpg\"",
+            "E": "picture=\"imagem.jpg\""
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No HTML, para definir a imagem de fundo de um elemento, como o corpo da página (`<body>`), utiliza-se o atributo `background`. Portanto, `background=\"imagem.jpg\"` é a sintaxe correta para definir `imagem.jpg` como fundo."
+    },
+    {
+        "id": "3053860",
+        "enunciado": "No modelo entidade-relacionamento, um tipo de entidade define uma coleção (conjunto) de entidades que têm os mesmos atributos. As entidades do tipo fraca",
+        "alternativas": {
+            "A": "possuem, necessariamente, atributos que permitem valores repetidos.",
+            "B": "possuem, necessariamente, atributos que permitem valores nulos.",
+            "C": "são identificadas pelos seus próprios atributos.",
+            "D": "estão relacionadas com pelo menos uma entidade de identificação."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Entidades fracas não possuem chave primária própria que as identifique unicamente. Elas dependem de uma entidade forte (de identificação) com a qual possuem um relacionamento para serem identificadas."
+    },
+    {
+        "id": "3055846",
+        "enunciado": "Elaborou-se um programa escrito na Linguagem HTM Lque, após ser aberto por um navegador típico que suporta essa linguagem, exibiu o seguinte link:Manual para ConsultaUm usuário selecionou esse link, que provocou a abertura do arquivo:Manual para Consulta.pdf.Uma possível linha de comando que geraria tal link, supondo que o arquivo será aberto após o click, é:",
+        "alternativas": {
+            "A": "",
+            "B": "Manual para Consulta",
+            "C": "Manual para Consulta",
+            "D": "",
+            "E": "Manual para Consulta"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3053861",
+        "enunciado": "Em um banco de dados de empregados, no qual existem vários empregados com salários distintos entre si, o comando SQL que retorna os empregados cujo salário é inferior ao maior salário existente é:",
+        "alternativas": {
+            "A": "select * from empregado where salario > all (selectsalario from empregado)",
+            "B": "select * from empregado where salario < all (selectsalario from empregado)",
+            "C": "select * from empregado where salario > any (selectsalario from empregado)",
+            "D": "select * from empregado where salario < any (selectsalario from empregado)"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A subconsulta com `any` (ou `some`) retorna tuplas onde a condição é satisfeita por PELO MENOS UM dos valores retornados pela subconsulta. Para salários inferiores ao maior, usamos `< any` (menor que qualquer um dos salários, ou seja, menor que algum deles)."
+    },
+    {
+        "id": "3055847",
+        "enunciado": "Na linguagem Java Script, o operador === (três sinais de igualdade) realiza a comparação apenas do",
+        "alternativas": {
+            "A": "tipo dos operandos.",
+            "B": "conteúdo dos operandos.",
+            "C": "valor dos operandos.",
+            "D": "valor lógico dos operandos.",
+            "E": "valor e do tipo dos operandos."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O operador === em JavaScript realiza uma comparação estrita, verificando tanto o valor quanto o tipo dos operandos. Ele retorna true apenas se ambos forem idênticos em valor e tipo."
+    },
+    {
+        "id": "3053862",
+        "enunciado": "Na configuração do Sistema Linux, o comando chmod modifica as permissões de arquivos com respeito à execução, leitura e escrita. A expressão chmod 751 arq2 é equivalente a:",
+        "alternativas": {
+            "A": "chmod u=rx,g=rwx,o=x arq2",
+            "B": "chmod u=rx,g=rwx,o=r arq2",
+            "C": "chmod u=rwx,g=rx,o=x arq2",
+            "D": "chmod u=rwx,g=rx,o=r arq2"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O número 7 em chmod representa permissões de leitura (r=4), escrita (w=2) e execução (x=1) para o proprietário (u), totalizando 7 (4+2+1). O 5 (4+1) para o grupo (g) é leitura e execução. O 1 (1) para outros (o) é apenas execução. Portanto, u=rwx,g=rx,o=x."
+    },
+    {
+        "id": "3024610",
+        "enunciado": "São exemplos de linguagem de segunda e quarta geração, respectivamente:",
+        "alternativas": {
+            "A": "Java e Fortran.",
+            "B": "COBOL e SQL.",
+            "C": "ADA e Fortran.",
+            "D": "SQL e Java.",
+            "E": "PHP e C++."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Linguagens de segunda geração (linguagem de montagem) são mais próximas do hardware. COBOL é um exemplo. SQL, embora declarativa, é amplamente utilizada em sistemas web e pode ser considerada de alto nível ou quarta geração para aplicações de banco de dados."
+    },
+    {
+        "id": "3053863",
+        "enunciado": "Em geral, sistemas operacionais oferecem suporte a um ou mais sistemas de arquivos que controlam a forma como os dados são identificados, gravados e recuperados a partir dos meios de armazenamento. As últimas versões Windows têm adotado um sistema de arquivos primário que é denominado de",
+        "alternativas": {
+            "A": "NTFS",
+            "B": "EXT4",
+            "C": "ReiserFS",
+            "D": "ZFS"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O NTFS (New Technology File System) é o sistema de arquivos padrão e mais avançado adotado pelas versões mais recentes do sistema operacional Windows."
+    },
+    {
+        "id": "3078325",
+        "enunciado": "Barbosa (2007) estabelece um conceito para webjornalismo, aquele jornalismo publicado na web, seja textual ou multimídia. Segundo a autora, o webjornalismo tem fases em seu desenvolvimento, inicialmente passando por um período de adaptação do off-line para então entrar em um segundo momento de transição. Assinale a alternativa que apresenta uma característica da segunda fase do webjornalismo.",
+        "alternativas": {
+            "A": "Produz-se conteúdos com hiperlinks, aplicações interativas e multimídia.",
+            "B": "O conteúdo ofertado na web é o mesmo publicado nas mídias físicas.",
+            "C": "A produção de conteúdo é feita exclusivamente para web.",
+            "D": "Os conteúdos produzidos são sempre acompanhados de recursos de áudio.",
+            "E": "Abolição completa da mídia física, com a migração total para o digital."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A segunda fase do webjornalismo, após a adaptação inicial, caracteriza-se pela exploração das potencialidades da web, como interatividade, multimídia e hiperlinks, para criar conteúdos mais ricos e dinâmicos."
+    },
+    {
+        "id": "3022543",
+        "enunciado": "Observe o trecho do algoritmo a seguir em linguagem Java.public static void main (String[] args){int x=0, y=0, z=1;//importado de java.util.Scanner;Scanner ler = new Scanner(System.in);y=ler.nextInt();x=ler.nextInt();z=x;while(y>1){z=z*x;y=y-1;}System.out.println(z);}A representação correta desse trecho do algoritmo,em linguagem Java, é",
+        "alternativas": {
+            "A": "calcula o fatorial de um número.",
+            "B": "encontra um elemento de uma matriz.",
+            "C": "gera o enésimo termo da sequência de Fibonacci.",
+            "D": "calcula a potência de qualquer número inteiro,cujo expoente seja maior ou igual a 1.",
+            "E": "calcula a potência de qualquer número inteiro"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O algoritmo inicializa z com 1. Em seguida, um loop decrementa y de 1 enquanto multiplica z por x. Se y for igual a 1, nenhum loop é executado e z permanece 1. Caso contrário, z se torna x elevado a y. Isso calcula x elevado a (y inicial - 1), que é equivalente a x elevado a um expoente maior ou igual a 1, pois y é subtraído até ser menor ou igual a 1."
+    },
+    {
+        "id": "3010711",
+        "enunciado": "Analise as seguintes afirmativas e assinale a alternativa CORRETA:I. Em Python, após um condicional if podemos utilizar elsif para fazermos novas avaliações em vez de usarmos else if.II. Para comentarmos diversas linhas de código em Python devemos iniciar utilizando /*",
+        "alternativas": {
+            "A": "Apenas a afirmativa I está correta.",
+            "B": "Apenas a afirmativa II está correta.",
+            "C": "Ambas afirmativas estão corretas",
+            "D": "Nenhuma afirmativa está correta."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em Python, usa-se 'elif', não 'elsif'. Para comentar múltiplas linhas, usa-se aspas triplas ('\"\"\"' ou \"'''\"), não '/*'."
+    },
+    {
+        "id": "3010714",
+        "enunciado": "Em relação ao tema Programação orientada a Objetos (POO) utilizando o Delphi 7, qual destes comandos faz parte da sintaxe CORRETA para criação de classes em Delphi:",
+        "alternativas": {
+            "A": "class TNome",
+            "B": "TNome class",
+            "C": "TNome = class",
+            "D": "Não existe POO em Delphi."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C esta correta. Em Delphi, a sintaxe para declaracao de classes utiliza o modificador 'class', precedido pelo nome da classe e seguido pela palavra reservada 'class', como em 'TNome = class'."
+    },
+    {
+        "id": "3053850",
+        "enunciado": "Nas tecnologias PHP, PostgreSQL, XML, CSS, JavaScript e Java,",
+        "alternativas": {
+            "A": "códigos escritos em JavaScript, quaisquer que sejam eles, são necessariamente executados em um browser, e não podem ser executados \"fora\" de um browser.",
+            "B": "dados podem ser armazenados no PostgreSQL e serializados em XML para transferência.",
+            "C": "o uso de Java é incompatível com CSS e exige PHP para aplicações web.",
+            "D": "o uso de PHP é necessário em páginas web dinâmicas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O PostgreSQL é um banco de dados relacional e o XML é um formato para serialização de dados, permitindo sua estruturação para troca entre sistemas. Assim, dados podem ser armazenados no PostgreSQL e exportados formatados em XML."
+    },
+    {
+        "id": "3053851",
+        "enunciado": "Sistemas de Gerenciamento de Bancos de Dados (SGBDs) oferecem serviços para armazenamento de dados. MySQL, SQL Server e PostgreSQL são alguns exemplos. Especificamente, o PostgreSQL",
+        "alternativas": {
+            "A": "impede a criação de índices em dados do tipo texto e numérico.",
+            "B": "oferece os tipos de dados JSON e XML.",
+            "C": "é uma tecnologia que foi criada há menos de uma década.",
+            "D": "é incompatível com uso em nuvem (cloudcomputing)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O PostgreSQL oferece suporte nativo e robusto para os tipos de dados JSON e XML, permitindo consultas eficientes diretamente nesses formatos. Ele não impede a criação de índices em dados texto/numérico e é uma tecnologia madura, compatível com cloud computing."
+    },
+    {
+        "id": "3010718",
+        "enunciado": "Analise o seguinte trecho de código em Java e assinale a alternativa que exibe o valor que será apresentado ao término de sua execução:public class numeros{public static void main(String[] args) {for (int i = 0; i if (i == 3) {continue;}System.out.print(i);}}}",
+        "alternativas": {
+            "A": "01234.",
+            "B": "0123.",
+            "C": "0124.",
+            "D": "012."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C esta correta. O loop itera de i=0 ate i=4. O comando 'continue' pula a iteracao quando i=3. Assim, os valores impressos serao 0, 1, 2 e 4, resultando em '0124'."
+    },
+    {
+        "id": "3053852",
+        "enunciado": "Atualmente, Java e JavaScript estão entre as linguagens de programação de maior emprego pela indústria de software. Apesar da semelhança dos nomes, elas possuem muitas diferenças. Qual dos trechos abaixo é válido, tanto em JavaScript quanto em Java?",
+        "alternativas": {
+            "A": "X = = = \"true\" : 10 : 20;",
+            "B": "function* x() { return 2; }",
+            "C": "switch(a) { case \"a\": case \"A\": return \"A\"; }",
+            "D": "x –> 1;"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C apresenta um trecho válido em ambas as linguagens. O uso do switch com múltiplos cases e retorno é sintaticamente correto em ambas, ao contrário das outras opções que contêm sintaxe específica de uma ou outra linguagem."
+    },
+    {
+        "id": "3012319",
+        "enunciado": "Considerando a linguagem C, identifique como verdadeiras (V) ou falsas (F) as seguintes afirmativas:( )Uma função não pode ser definida dentro de outra função.( )As funções podem retornar apenas um valor.( )O número máximo de argumentos de uma função é 10.( )A estrutura de comando switch-case não pode ser usada com variáveis tipo char.Assinale a alternativa que apresenta a sequência correta, de cima para baixo.",
+        "alternativas": {
+            "A": "V – V – V – V.",
+            "B": "V – V – F – F.",
+            "C": "F – F – V – V.",
+            "D": "V – F – V – F.",
+            "E": "F – F – F – F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3053853",
+        "enunciado": "Programação orientada a objetos está baseada no que é conhecido por orientação a objetos. Nesse contexto,",
+        "alternativas": {
+            "A": "a delegação e a herança são recursos para reutilizar comportamento.",
+            "B": "a serialização é necessária no processo de especialização.",
+            "C": "a generalização depende de composição.",
+            "D": "o polimorfismo depende de sobrecarga (overloading)"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Delegação e herança são mecanismos essenciais na Programação Orientada a Objetos que permitem a reutilização de código e comportamento, respectivamente."
+    },
+    {
+        "id": "3053854",
+        "enunciado": "O desenvolvimento de software é, na maioria dos casos, um esforço coletivo que depende de vários papéis, atividades, processos e ferramentas. Nesse sentido,",
+        "alternativas": {
+            "A": "os métodos ágeis são, em geral, baseados no desenvolvimento incremental e/ou iterativo.",
+            "B": "o desenvolvimento iterativo é necessariamente incremental.",
+            "C": "o desenvolvimento usando o modelo waterfall é indicado para lidar com riscos.",
+            "D": "a Rapid Application Development (RAD) é uma metodologia baseada no waterfall."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Metodologias ágeis como Scrum e Kanban baseiam-se em entregas incrementais e iterações curtas, promovendo flexibilidade e adaptação."
+    },
+    {
+        "id": "3053855",
+        "enunciado": "O desenvolvimento de software envolve várias atividades, papéis e artefatos. Equipes que desenvolvem software, em geral, também fazem uso de ferramentas que",
+        "alternativas": {
+            "A": "formam a base sobre a qual as metodologias são construídas.",
+            "B": "são úteis para apoiar a programação orientada a objetos e não a programação funcional.",
+            "C": "devem ser adequadamente identificadas antes da definição do projeto em que serão empregadas.",
+            "D": "promovem a produtividade da equipe."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ferramentas no desenvolvimento de software visam aprimorar o processo e a produção. Elas auxiliam na automação de tarefas, colaboração e na entrega mais rápida e eficiente, impactando diretamente a produtividade da equipe."
+    },
+    {
+        "id": "3053856",
+        "enunciado": "Considere que os números 10, 11, 12, 13, 14 foram inseridos, nessa ordem, em uma fila. Esses mesmos números foram inseridos na mesma ordem em uma pilha. Nesse caso,",
+        "alternativas": {
+            "A": "o topo da pilha é o número 10.",
+            "B": "o primeiro elemento a ser removido da pilha é o número 10.",
+            "C": "o número 14 é o primeiro elemento a ser removido da fila.",
+            "D": "o último elemento a ser removido da fila é o número 14."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3055841",
+        "enunciado": "Uma função com um único parâmetro foi chamada dentro de um programa. Caso a passagem do conteúdo de uma variável para esta função seja por meio desse parâmetro, por valor, esse tipo de chamada permite",
+        "alternativas": {
+            "A": "criar múltiplas instâncias dessa variável, desde que autorizado pelo usuário do programa.",
+            "B": "criar múltiplas instâncias dessa variável, caso não se utilize a pilha como forma de chamada da sub-rotina.",
+            "C": "usar, dentro da função, o valor da variável, bem como permite alterar o valor da variável original.",
+            "D": "usar, dentro da função, uma cópia do valor da variável, porém não permite alterar o valor da variável original.",
+            "E": "usar esse parâmetro de entrada também como um parâmetro de saída."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A passagem de parâmetro por valor cria uma cópia do argumento dentro da função. Assim, qualquer modificação feita no parâmetro dentro da função não afeta a variável original fora dela."
+    },
+    {
+        "id": "3053857",
+        "enunciado": "Considere um vetor de números inteiros, em que se deseja buscar um dos elementos que está presente neste vetor. O algoritmo de busca binária requer que",
+        "alternativas": {
+            "A": "o vetor tenha elementos repetidos.",
+            "B": "os elementos do vetor sejam números primos.",
+            "C": "os elementos do vetor estejam ordenados.",
+            "D": "o vetor tenha 2n elementos, tal que n é um número inteiro maior do que zero."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O algoritmo de busca binária opera dividindo repetidamente o intervalo de busca. Para isso, é fundamental que o conjunto de dados (vetor) esteja previamente ordenado para que a comparação com o elemento central seja eficaz."
+    },
+    {
+        "id": "3055842",
+        "enunciado": "Um programa de computador orientado a evento é caracterizado por",
+        "alternativas": {
+            "A": "utilizar interfaces gráficas visuais.",
+            "B": "ter seu código separado e organizado de acordo com sua importância para a aplicação.",
+            "C": "ter controle total sobre seu fluxo de execução, iniciando qualquer interação com o sistema operacional ou plataforma subjacente.",
+            "D": "receber mensagens do sistema operacional ou plataforma subjacente, que inicia interações com o programa, e por prover o tratamento dessas mensagens, produzindo respostas apropriadas para cada uma.",
+            "E": "não permitir interações com o usuário durante sua execução."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Event-driven programs respond to external stimuli (events) generated by the OS or platform. They don't control execution flow proactively but reactively, making D the most accurate description."
+    },
+    {
+        "id": "3038138",
+        "enunciado": "Considerando a utilização da linguagem Java, suponha que exista uma classe denominada Bicicleta e que, dentro dela, exista, entre outros, o trecho de código mostrado no Quadro 2 abaixo:public Bicicleta(int inicioCadencia, int inicioVel, int inicioMarcha) {marcha = inicioMarcha;cadencia = inicioCadencia;vel = inicioVel;}Quadro 2 – Trecho de código JavaEm relação ao trecho mostrado e às características da linguagem Java, analise as assertivas a seguir:O trecho de código mostrado é um exemplo de construtor.Para criar um novo objeto Bicicleta, utiliza-se o operador new, como, por exemplo: Bicicleta minhaBike = new Bicicleta(25, 0, 7);.O trecho mostrado não é um método.Para evitar conflitos, deve haver apenas um construtor por classe.Quais estão corretas?",
+        "alternativas": {
+            "A": "Apenas I e II.",
+            "B": "Apenas II e III.",
+            "C": "Apenas III e IV.",
+            "D": "Apenas II, III e IV.",
+            "E": "I, II, III e IV."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O trecho apresentado é um construtor de classe, responsável por inicializar um objeto. A criação de objetos em Java utiliza o operador 'new'. Construtores não são métodos comuns. Uma classe pode ter múltiplos construtores (sobrecarga), desde que tenham parâmetros diferentes. Portanto, I e II estão corretas."
+    },
+    {
+        "id": "3055843",
+        "enunciado": "No contexto da orientação a objetos, existe uma medi -da de quanto dois itens, tais como classes ou métodos, estão inter-relacionados. Esta medida costuma ser classificada como forte, quando um item depende da forma como o outro foi implementado, ou fraca, quando um item depende do outro, mas não de seus detalhes de implementação. Essa medida é conhecida como",
+        "alternativas": {
+            "A": "coesão.",
+            "B": "exceção.",
+            "C": "sobrecarga.",
+            "D": "interface.",
+            "E": "acoplamento."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Acoplamento é a medida de inter-relação entre itens (classes, métodos). Forte acoplamento ocorre quando uma implementação depende de outra. Fraco acoplamento ocorre quando há dependência, mas não dos detalhes de implementação."
+    },
+    {
+        "id": "3042407",
+        "enunciado": "Em relação ao conceito compilação e interpretação, em termos de linguagens de programação, analise as afirmativas abaixo.Em linguagens de programação que fazem compilação, o código fonte é convertido para código de baixo nível, este sendo executado diretamente pelo computador.Alguns exemplos de linguagens de programação interpretadas são: C, PHP e Ruby.As linguagens interpretadas fazem uso de um interpretador,como intermediário, para a execução do código fonte.Assinale",
+        "alternativas": {
+            "A": "se somente a afirmativa I estiver correta.",
+            "B": "se somente as afirmativas I e II estiverem corretas.",
+            "C": "se somente as afirmativas I e III estiverem corretas.",
+            "D": "se somente a afirmativa II estiver correta.",
+            "E": "se todas as afirmativas estiverem corretas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa I está correta, pois linguagens compiladas convertem código fonte para código de baixo nível executável. A afirmativa II está incorreta, pois C é compilada, e PHP e Ruby são mais interpretadas ou possuem modelos híbridos. A afirmativa III está correta, pois linguagens interpretadas usam um interpretador para executar o código fonte linha por linha. Portanto, I e III estão corretas."
+    },
+    {
+        "id": "3053858",
+        "enunciado": "Considere o esquema R(X,Y,Z) de uma das relações de um banco de dados relacional, no qual a chave primária é composta pelos atributos (X,Y) e o atributo Z é uma chave estrangeira. Com base necessariamente nessas informações, nesse contexto o atributo",
+        "alternativas": {
+            "A": "Y não pode ter valores repetidos entre as tuplas da relação.",
+            "B": "Z não pode ter valores repetidos entre as tuplas da relação.",
+            "C": "Z não pode assumir valor nulo.",
+            "D": "Y não pode assumir valor nulo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em um banco de dados relacional, a chave primária (X,Y) identifica unicamente cada tupla. A chave primária não pode conter valores nulos em nenhum de seus atributos. Portanto, Y não pode ser nulo."
+    },
+    {
+        "id": "3055844",
+        "enunciado": "Na plataforma Microsoft COM ( Component Object Model), todos os componentes devem implementar a interface:",
+        "alternativas": {
+            "A": "IObject",
+            "B": "IUnknown",
+            "C": "IDispatch",
+            "D": "IOleObject",
+            "E": "IBase"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na plataforma COM da Microsoft, todos os objetos COM devem implementar a interface IUnknown. Esta interface é fundamental para o gerenciamento da vida útil do objeto e para a navegação de interfaces."
+    },
+    {
+        "id": "3053859",
+        "enunciado": "No mapeamento de um esquema do modelo entidade relacionamento para o modelo relacional, os tipos de relacionamento com cardinalidade",
+        "alternativas": {
+            "A": "um-para-muitos são, necessariamente, mapeados pelacriação de uma nova relação.",
+            "B": "muitos-para-muitos são, necessariamente, mapeados ela criação de uma nova relação.",
+            "C": "um-para-um são, necessariamente, mapeados pelacriação de uma nova relação.",
+            "D": "um-para-muitos são, necessariamente, mapeados pelas são de relações."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Relacionamentos muitos-para-muitos (N:M) no modelo entidade-relacionamento são mapeados para o modelo relacional através da criação de uma nova tabela (ou relação). Essa tabela intermediária terá chaves estrangeiras que referenciam as chaves primárias das duas tabelas originais."
+    },
+    {
+        "id": "3055845",
+        "enunciado": "Analise o trecho de programa a seguir, elaborado na Linguagem HTML.A opção que deve ser colocada no espaço vazio da segunda linha para que o arquivo imagem.jpg possa ser utilizado como fundo da tela é:",
+        "alternativas": {
+            "A": "background=\"imagem.jpg\"",
+            "B": "bg=imagem.jpg",
+            "C": "figure=imagem.jpg",
+            "D": "fundo=\"imagem.jpg\"",
+            "E": "picture=\"imagem.jpg\""
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No HTML, para definir a imagem de fundo de um elemento, como o corpo da página (`<body>`), utiliza-se o atributo `background`. Portanto, `background=\"imagem.jpg\"` é a sintaxe correta para definir `imagem.jpg` como fundo."
+    },
+    {
+        "id": "3053860",
+        "enunciado": "No modelo entidade-relacionamento, um tipo de entidade define uma coleção (conjunto) de entidades que têm os mesmos atributos. As entidades do tipo fraca",
+        "alternativas": {
+            "A": "possuem, necessariamente, atributos que permitem valores repetidos.",
+            "B": "possuem, necessariamente, atributos que permitem valores nulos.",
+            "C": "são identificadas pelos seus próprios atributos.",
+            "D": "estão relacionadas com pelo menos uma entidade de identificação."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Entidades fracas não possuem chave primária própria que as identifique unicamente. Elas dependem de uma entidade forte (de identificação) com a qual possuem um relacionamento para serem identificadas."
+    },
+    {
+        "id": "3055846",
+        "enunciado": "Elaborou-se um programa escrito na Linguagem HTM Lque, após ser aberto por um navegador típico que suporta essa linguagem, exibiu o seguinte link:Manual para ConsultaUm usuário selecionou esse link, que provocou a abertura do arquivo:Manual para Consulta.pdf.Uma possível linha de comando que geraria tal link, supondo que o arquivo será aberto após o click, é:",
+        "alternativas": {
+            "A": "",
+            "B": "Manual para Consulta",
+            "C": "Manual para Consulta",
+            "D": "",
+            "E": "Manual para Consulta"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3053861",
+        "enunciado": "Em um banco de dados de empregados, no qual existem vários empregados com salários distintos entre si, o comando SQL que retorna os empregados cujo salário é inferior ao maior salário existente é:",
+        "alternativas": {
+            "A": "select * from empregado where salario > all (selectsalario from empregado)",
+            "B": "select * from empregado where salario < all (selectsalario from empregado)",
+            "C": "select * from empregado where salario > any (selectsalario from empregado)",
+            "D": "select * from empregado where salario < any (selectsalario from empregado)"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A subconsulta com `any` (ou `some`) retorna tuplas onde a condição é satisfeita por PELO MENOS UM dos valores retornados pela subconsulta. Para salários inferiores ao maior, usamos `< any` (menor que qualquer um dos salários, ou seja, menor que algum deles)."
+    },
+    {
+        "id": "3055847",
+        "enunciado": "Na linguagem Java Script, o operador === (três sinais de igualdade) realiza a comparação apenas do",
+        "alternativas": {
+            "A": "tipo dos operandos.",
+            "B": "conteúdo dos operandos.",
+            "C": "valor dos operandos.",
+            "D": "valor lógico dos operandos.",
+            "E": "valor e do tipo dos operandos."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O operador === em JavaScript realiza uma comparação estrita, verificando tanto o valor quanto o tipo dos operandos. Ele retorna true apenas se ambos forem idênticos em valor e tipo."
+    },
+    {
+        "id": "3053862",
+        "enunciado": "Na configuração do Sistema Linux, o comando chmod modifica as permissões de arquivos com respeito à execução, leitura e escrita. A expressão chmod 751 arq2 é equivalente a:",
+        "alternativas": {
+            "A": "chmod u=rx,g=rwx,o=x arq2",
+            "B": "chmod u=rx,g=rwx,o=r arq2",
+            "C": "chmod u=rwx,g=rx,o=x arq2",
+            "D": "chmod u=rwx,g=rx,o=r arq2"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O número 7 em chmod representa permissões de leitura (r=4), escrita (w=2) e execução (x=1) para o proprietário (u), totalizando 7 (4+2+1). O 5 (4+1) para o grupo (g) é leitura e execução. O 1 (1) para outros (o) é apenas execução. Portanto, u=rwx,g=rx,o=x."
+    },
+    {
+        "id": "3024610",
+        "enunciado": "São exemplos de linguagem de segunda e quarta geração, respectivamente:",
+        "alternativas": {
+            "A": "Java e Fortran.",
+            "B": "COBOL e SQL.",
+            "C": "ADA e Fortran.",
+            "D": "SQL e Java.",
+            "E": "PHP e C++."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Linguagens de segunda geração (linguagem de montagem) são mais próximas do hardware. COBOL é um exemplo. SQL, embora declarativa, é amplamente utilizada em sistemas web e pode ser considerada de alto nível ou quarta geração para aplicações de banco de dados."
+    },
+    {
+        "id": "3053863",
+        "enunciado": "Em geral, sistemas operacionais oferecem suporte a um ou mais sistemas de arquivos que controlam a forma como os dados são identificados, gravados e recuperados a partir dos meios de armazenamento. As últimas versões Windows têm adotado um sistema de arquivos primário que é denominado de",
+        "alternativas": {
+            "A": "NTFS",
+            "B": "EXT4",
+            "C": "ReiserFS",
+            "D": "ZFS"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O NTFS (New Technology File System) é o sistema de arquivos padrão e mais avançado adotado pelas versões mais recentes do sistema operacional Windows."
+    },
+    {
+        "id": "3055848",
+        "enunciado": "Na linguagem de programação C#, a expressão++x—produz:",
+        "alternativas": {
+            "A": "a atribuição de undefined para a variável \"x\".",
+            "B": "o incremento da variável \" x\" e a operação de pós --decremento não é executada.",
+            "C": "o decremento da variável \"x\" e a operação de pré--incremento não é executada.",
+            "D": "nenhum efeito sobre a variável \"x\", pois a variável é incrementada e decrementada logo em seguida.",
+            "E": "um erro de compilação, pois não é possível utilizar os operadores de pré-incremento e pós-decremento conjuntamente."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Em C#, a expressão ++x-- combina um operador de pré-incremento (++x) com um operador de pós-decremento (--). Isso resulta em um erro de compilação, pois não é permitido usar esses operadores de forma simultânea em uma única expressão dessa maneira."
+    },
+    {
+        "id": "3053864",
+        "enunciado": "Após a criação de uma nova partição no sistema Linux, esta pode ser formatada com um sistema de arquivos específico, pelo uso do comando",
+        "alternativas": {
+            "A": "ldconfig",
+            "B": "init",
+            "C": "link",
+            "D": "mkfs"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando mkfs (make filesystem) é utilizado no Linux para criar um sistema de arquivos em uma partição ou dispositivo de armazenamento, como após a criação de uma nova partição."
+    },
+    {
+        "id": "3055849",
+        "enunciado": "No PHP, caso a declaração require não puder acessar o arquivo indicado, o interpretador produz um",
+        "alternativas": {
+            "A": "alerta e o programa continua sua execução sem carregar o arquivo.",
+            "B": "alerta e o programa é encerrado.",
+            "C": "alerta e o programa continua sua execução caso o arquivo puder ser criado.",
+            "D": "erro fatal e o programa é encerrado.",
+            "E": "erro fatal e o programa entra em loop até conseguir carregar o arquivo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "In PHP, 'require' includes and evaluates a file. If the file is not found, it causes a fatal error and halts script execution because the script cannot proceed without the required code."
+    },
+    {
+        "id": "3053865",
+        "enunciado": "A sequência de camadas do Modelo de Referência OSI, na ordem do nível mais alto para o mais baixo, é, respectivamente:",
+        "alternativas": {
+            "A": "Aplicação, Apresentação, Transporte, Sessão, Rede, Enlace, Física.",
+            "B": "Aplicação, Apresentação, Sessão, Transporte, Rede, Enlace, Física.",
+            "C": "Aplicação, Apresentação, Enlace, Transporte, Rede, Sessão, Física.",
+            "D": "Aplicação, Apresentação, Sessão, Transporte, Enlace, Rede, Física."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A sequência correta das camadas do modelo OSI, do nível mais alto para o mais baixo, é: Aplicação, Apresentação, Sessão, Transporte, Rede, Enlace e Física. Essa ordem é fundamental para o entendimento do funcionamento das redes de computadores."
+    },
+    {
+        "id": "3055850",
+        "enunciado": "No PL/SQL, a diretiva NOCOPY é utilizada para",
+        "alternativas": {
+            "A": "indicar que o parâmetro de um procedimento deve ser passado por referência.",
+            "B": "indicar que o parâmetro de um procedimento deve ser passado por valor.",
+            "C": "evitar que o resultado de uma instrução SELECT seja copiado para uma tabela temporária.",
+            "D": "fornecer acesso direto às tabelas do banco de da -dos, em vez de uma cópia delas.",
+            "E": "mover o conteúdo de uma tabela para outra em vez de manter uma cópia."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No PL/SQL, a diretiva NOCOPY utilizada em parâmetros de procedimentos e funções indica que os parâmetros de 'OUT' ou 'IN OUT' devem ser passados por referência, evitando a cópia desnecessária do valor para a memória e melhorando a performance, especialmente com coleções ou tipos complexos."
+    },
+    {
+        "id": "3053866",
+        "enunciado": "Com respeito às tarefas realizadas em cada camada do Modelo OSI, a compressão e criptografia de dados são atribuições típicas da camada de",
+        "alternativas": {
+            "A": "apresentação.",
+            "B": "enlace.",
+            "C": "rede.",
+            "D": "sessão."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A camada de apresentação do modelo OSI é responsável por traduzir, formatar, comprimir e criptografar dados para garantir a comunicação entre aplicações."
+    },
+    {
+        "id": "3015486",
+        "enunciado": "Acerca do HTML, assinale a alternativa INCORRETA",
+        "alternativas": {
+            "A": "O HTML é composto de diversas tags, cada uma possui uma funcionalidade específica e significado.",
+            "B": "Um documento HTML válido precisa seguir obrigatoriamente a estrutura composta pelas tags <html>, <head>e <body> e a instrução <!DOCTYPE>.",
+            "C": "O DOCTYPE não é uma tag HTML, mas uma instrução. Ela indica para o navegador qual versão do HTML deve seru tilizada para renderizar a página.",
+            "D": "A tag <head> não contém informações sobre o documento que são de interesse do navegador, registrando apenas informações dos visitantes do site. São informações exibidas de forma simplificada na área do documento no navegador."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A tag <head> no HTML contém metadados sobre o documento (título, descrição, links para estilos e scripts), informações relevantes para os navegadores e mecanismos de busca, e não apenas para os visitantes. As demais alternativas estão corretas."
+    },
+    {
+        "id": "3055851",
+        "enunciado": "Em um diagrama de classes UML, a composição difere da agregação pois:",
+        "alternativas": {
+            "A": "na composição, os objetos associados são da mesma classe.",
+            "B": "na composição, os objetos associados compartilham seus métodos e atributos, formando um único objeto.",
+            "C": "na agregação, o ciclo de vida dos objetos associados não depende do contêiner.",
+            "D": "a agregação não admite associação reflexiva sobre uma classe.",
+            "E": "somente a composição permite associação opcional entre as classes."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Na agregação (semelhante à composição, mas com ciclo de vida independente), um objeto 'parte' pode existir independentemente do objeto 'todo'. Na composição, a parte só existe enquanto o todo existir. A dependência de ciclo de vida é a principal diferença."
+    },
+    {
+        "id": "3017452",
+        "enunciado": "A respeito da Programação Orientada a Objetos, analise as afirmativas abaixo e assinale a alternativa correta.I. Na definição de uma classe é possível não especificar atributos.II. Durante a execução de um programa, o número de objetos instanciados deve ser igual ao de classes definidas.III. Toda classe é superclasse de pelo menos uma subclasse.",
+        "alternativas": {
+            "A": "Todas as afirmativas estão corretas.",
+            "B": "Somente a afirmativa II está correta.",
+            "C": "Somente as afirmativas II e III estão corretas.",
+            "D": "Somente as afirmativas I e III estão corretas.",
+            "E": "Somente a afirmativa I está correta."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A afirmativa I esta correta pois uma classe pode ter apenas metodos e nenhuma atributo. A afirmativa II esta incorreta, o numero de objetos nao precisa ser igual ao de classes. A afirmativa III esta incorreta, uma classe pode nao ser superclasse de nenhuma outra."
+    },
+    {
+        "id": "3015487",
+        "enunciado": "O JavaScript, como o próprio nome sugere, é uma linguagem scripting. Nesse contexto, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Existem várias formas de executar códigos Java Script em uma página. Uma delas é executar códigos nos chamados consoles.",
+            "B": "Uma linguagem de scripting é uma linguagem de programação que não permite ao programador controlar uma ou mais aplicações de terceiros.",
+            "C": "O JavaScript não possui grande tolerância a erros, uma vez que conversões automáticas não podem ser realizadas durante operações.",
+            "D": "Em JavaScript, não é possível criar um timer para executar um trecho de código após um certo tempo, ou ainda executar algo de tempos em tempos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O JavaScript pode ser executado em páginas web de diversas formas, incluindo diretamente no console do navegador, permitindo testes e interações com o código da página."
+    },
+    {
+        "id": "3053867",
+        "enunciado": "Dentre os protocolos que compreendem a camada de Aplicação do Modelo TCP/IP, encontram-se:",
+        "alternativas": {
+            "A": "IP, Telnet, NFS.",
+            "B": "Telnet, TCP e NFS.",
+            "C": "ICMP, IP e DNS.",
+            "D": "DHCP, DNS e SNMP."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O Modelo TCP/IP agrupa protocolos em camadas. A camada de Aplicação inclui protocolos como DHCP (Configuração Dinâmica de Host), DNS (Sistema de Nomes de Domínio) e SNMP (Protocolo Simples de Gerenciamento de Rede), usados para serviços de rede."
+    },
+    {
+        "id": "3055852",
+        "enunciado": "No modelo entidade-relacionamento utilizado para a modelagem de bancos de dados relacionais, um conjunto de entidades fracas é aquele que",
+        "alternativas": {
+            "A": "possui um número máximo de atributos, conforme definido pelo sistema gerenciador de bancos dedados.",
+            "B": "não pode ser formado por tipos de dados numéricos.",
+            "C": "não é armazenado fisicamente no banco de dados.",
+            "D": "não possui atributos capazes de compor sua chave primária.",
+            "E": "não admite relacionamentos com outros conjuntos de entidades."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Weak entities cannot form their own primary key and rely on the primary key of a strong entity to be identified. This is a core definition in the ER model."
+    },
+    {
+        "id": "3017453",
+        "enunciado": "Assinale a alternativa que represente a definição do conceito de herança existente na Programação Orientada a Objetos.",
+        "alternativas": {
+            "A": "Atributos e métodos definidos em uma classe estão automaticamente definidos nas subclasses dessa classe.",
+            "B": "Somente atributos definidos em uma classe estão automaticamente definidos nas subclasses dessa classe.",
+            "C": "Somente métodos definidos em uma classe estão automaticamente definidos nas subclasses dessa classe.",
+            "D": "Atributos e métodos definidos em uma classe estão automaticamente definidos na superclasse dessa classe.",
+            "E": "Classes que estão no mesmo nível em uma hierarquia de classes herdam atributos e métodos umas das outras."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Herança na POO permite que subclasses herdem automaticamente atributos e métodos de suas superclasses, promovendo o reuso de código e a organização hierárquica."
+    },
+    {
+        "id": "3055853",
+        "enunciado": "No modelo relacional de bancos de dados, quando se especifica, por exemplo, que os valores de um determina -do atributo devem se situar entre os valores 200 e 5000, está se especificando seu (sua)",
+        "alternativas": {
+            "A": "cardinalidade.",
+            "B": "ordenação.",
+            "C": "domínio.",
+            "D": "herança.",
+            "E": "chave candidata."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O domínio de um atributo em um modelo relacional define o conjunto de valores permitidos para esse atributo. Especificar uma faixa de valores (entre 200 e 5000) delimita exatamente o domínio desse atributo."
+    },
+    {
+        "id": "3053868",
+        "enunciado": "Um protocolo é um padrão (ou conjunto de padrões) que governa as regras para configurar, comunicar e transferir dados em redes de computadores. O compartilhamento dedados de gerenciamento em uma rede e o envio e recebimento de e-mails são, respectivamente, papéis próprios dos protocolos",
+        "alternativas": {
+            "A": "SNMP e TFTP.",
+            "B": "UDP e SMTP.",
+            "C": "SNMP e SMTP.",
+            "D": "TFTP e UDP."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O protocolo SNMP (Simple Network Management Protocol) é usado para gerenciamento de rede, incluindo o compartilhamento de dados de gerenciamento. O protocolo SMTP (Simple Mail Transfer Protocol) é amplamente utilizado para o envio e recebimento de e-mails."
+    },
+    {
+        "id": "3053869",
+        "enunciado": "O utilitário ifconfig é uma ferramenta de interface de linha de comando disponível em sistemas Linux com recursos para configuração, controle e consulta dos parâmetros da interface de rede. A expressão que exibe informações restritas a todas as interfaces de rede atualmente ativas (em operação) é:",
+        "alternativas": {
+            "A": "ifconfig l0 127.0.0.1",
+            "B": "ifconfig",
+            "C": "ifconfig -d",
+            "D": "ifconfig eth1 up"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O comando 'ifconfig' sem parâmetros exibe informações de configuração de todas as interfaces de rede ativas no sistema. As outras opções ou são para configuração específica (`l0`, `eth1 up`) ou não são flags padrão para listar todas (`-d`)."
+    },
+    {
+        "id": "3055854",
+        "enunciado": "Em bancos de dados relacionais, a forma normal que estabelece que os domínios de seus atributos devem ser atômicos (admitir um valor único para cada atributo) é a",
+        "alternativas": {
+            "A": "Primeira Forma Normal.",
+            "B": "Segunda Forma Normal.",
+            "C": "Terceira Forma Normal.",
+            "D": "Quarta Forma Normal.",
+            "E": "Quinta Forma Normal."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A Primeira Forma Normal (1FN) estabelece que todos os atributos de uma relação devem ser atômicos, ou seja, cada célula da tabela deve conter um único valor e não um conjunto de valores (como listas ou grupos)."
+    },
+    {
+        "id": "3053870",
+        "enunciado": "Um dispositivo de rede que opera tipicamente na camada Enlace do modelo de referência OSI é denominado de",
+        "alternativas": {
+            "A": "bridge.",
+            "B": "hub.",
+            "C": "repeater.",
+            "D": "data package."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Uma bridge opera na camada de enlace (Data Link Layer) para conectar segmentos de rede e gerenciar o tráfego com base em endereços MAC."
+    },
+    {
+        "id": "3024619",
+        "enunciado": "O J2EE é um exemplo de aplicação potencialmente utilizada em:",
+        "alternativas": {
+            "A": "VPN.",
+            "B": "web services.",
+            "C": "PKI.",
+            "D": "RSS.",
+            "E": "SQL."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "J2EE (Java 2 Platform, Enterprise Edition) é uma plataforma voltada para desenvolvimento de aplicações empresariais e web services, oferecendo um conjunto de APIs e serviços robustos."
+    },
+    {
+        "id": "3042867",
+        "enunciado": "A Apple desenvolveu uma linguagem de programação própria para desenvolvimento de aplicações sob IOS. Ela se chama:",
+        "alternativas": {
+            "A": "C++.",
+            "B": "PHP.",
+            "C": "Python.",
+            "D": "Swift.",
+            "E": "Java Script."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Swift é a linguagem de programação desenvolvida pela Apple especificamente para a criação de aplicativos para suas plataformas, como iOS, macOS, watchOS e tvOS. Ela substituiu em grande parte o Objective-C para novos desenvolvimentos."
+    },
+    {
+        "id": "3055856",
+        "enunciado": "Considere o seguinte comando do SQL padrão para bancos de dados relacionais:SELECT NomeFROM ClienteWHERE Nome LIKE “%Maria%”Essa consulta SQL vai ter como resultado o Nome dos Clientes que",
+        "alternativas": {
+            "A": "possuam o string “Maria” em qualquer parte do atributo Nome da tabela Cliente.",
+            "B": "possuam duas vezes o string “%” em qualquer parte do atributo Nome da tabela Cliente.",
+            "C": "possuam o string “%” em qualquer parte do atributo Nome da tabela Cliente.",
+            "D": "não possuam o string “Maria” no início do atributo Nome da tabela Cliente.",
+            "E": "não possuam o string “Maria” no final do atributo Nome da tabela Cliente."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Na cláusula WHERE, o operador LIKE com o caractere curinga '%' antes e depois de uma string busca por qualquer registro onde a string especificada apareça em qualquer parte do campo. `%Maria%` significa 'qualquer coisa antes de Maria, Maria, e qualquer coisa depois de Maria'."
+    },
+    {
+        "id": "3053871",
+        "enunciado": "Os sistemas Linux buscam padronizar diretórios para a localização de arquivos. Comandos essenciais do sistema operacional, tais como cat, tar, su, rm e pwd, em geral, estão localizados nos seguintes diretórios:",
+        "alternativas": {
+            "A": "/lib e /var",
+            "B": "/usr/lib e /lib",
+            "C": "/bin e /usr/bin",
+            "D": "/usr/bin e /var"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Comandos essenciais do sistema operacional Linux, como cat, tar, su, rm e pwd, que são executáveis de uso geral, geralmente são encontrados nos diretórios /bin e /usr/bin."
+    },
+    {
+        "id": "3053872",
+        "enunciado": "Seja uma estrutura de memória paginada, em que a memória física é dividida em blocos de tamanho fixo chamados quadros, e a memória lógica em blocos do mesmo tamanho chamados de páginas. Considere que o espaço de endereçamento lógico possui 16 páginas, cada uma com 2048 endereços, e a memória física possui 128 quadros. Os tamanhos mínimos dos endereços lógico e físico são de, respectivamente,",
+        "alternativas": {
+            "A": "18 e 16 bits.",
+            "B": "16 e 18 bits.",
+            "C": "15 e 18 bits.",
+            "D": "18 e 15 bits"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3055857",
+        "enunciado": "Uma das propriedades básicas de uma transação em um banco de dados relacional estabelece que cada transação não deve sofrer interferência de outras transações em execução no banco de dados. Essa propriedade denomina-se",
+        "alternativas": {
+            "A": "durabilidade.",
+            "B": "isolamento.",
+            "C": "consistência.",
+            "D": "integridade.",
+            "E": "cardinalidade."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A propriedade de isolamento em transações de banco de dados garante que uma transação em execução não seja afetada por outras transações concorrentes. Isso evita inconsistências e garante que cada transação opere como se estivesse rodando sozinha no sistema."
+    },
+    {
+        "id": "3053873",
+        "enunciado": "Em um dado escalonamento em sistemas interativos, considere o algoritmo que utiliza um quantum, que se refere a um intervalo de tempo durante o qual um processo pode ser executado. Todos os processos recebem o mesmo valor de quantum para o uso da CPU. Depois que o quantum de um processo expira e o processo ainda não terminou, ocorre uma preempção e o processo é inserido no final da fila, então o processo aguardará até que seja novamente sua vez para usara CPU. Se o processo foi bloqueado ou finalizado antes de o quantum ter expirado, a comutação da CPU é feita quando o processo é bloqueado. Esse algoritmo de escalonamento é denominado de",
+        "alternativas": {
+            "A": "Round-Robin.",
+            "B": "Prioridade.",
+            "C": "Escalonamento Garantido.",
+            "D": "Loteria."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O algoritmo Round-Robin utiliza um quantum de tempo para distribuir a CPU entre os processos de forma equitativa, trocando-os ao final do intervalo."
+    },
+    {
+        "id": "3055858",
+        "enunciado": "No modelo dimensional, composto por tabelas fato e tabelas dimensão,",
+        "alternativas": {
+            "A": "as tabelas fato não admitem chaves estrangeiras.",
+            "B": "as tabelas dimensão comportam apenas atributos multivalorados.",
+            "C": "o relacionamento de cada tabela dimensão para a tabela fato é de “um para muitos”.",
+            "D": "nas tabelas dimensão há apenas atributos numéricos.",
+            "E": "não há atributos numéricos nas tabelas fato."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Em um modelo dimensional, as tabelas dimensão descrevem as características dos dados e se relacionam com a tabela fato (que contém as métricas) na proporção de um para muitos, onde um registro da dimensão pode se relacionar com muitos registros da fato."
+    },
+    {
+        "id": "3023756",
+        "enunciado": "Ao escrever um texto em HTML, a formatação não é interpretada, ou seja, é preciso incluir comandos de quebra de linha, parágrafo e de texto pré-formatado. Nesse sentido, o comando:",
+        "alternativas": {
+            "A": "termina um parágrafo (pula duas linhas).",
+            "B": "inicia um parágrafo de texto.",
+            "C": "coloca um texto pré-formatado.",
+            "D": "termina uma linha de texto (pula para próxima linha).",
+            "E": "interpreta o HTML como se fosse texto puro (.txt)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O comando `<br>` em HTML é utilizado para quebrar uma linha de texto, forçando o conteúdo seguinte a iniciar na linha abaixo, sem iniciar um novo parágrafo."
+    },
+    {
+        "id": "3023412",
+        "enunciado": "Em relação aos arrays e arraylists na linguagem Java, avalie se são verdadeiras (V) ou falsas (F) as afirmativas a seguir:Tentar utilizar uma constante antes de ela ser inicializada é um erro de compilação.Atribuir um valor a uma variável constante depois de ela ter sido inicializada é um erro de compilação.A linguagem Java não permite aos programadores escolher entre passar por valor e passar por referência, pois todos os argumentos são passados por referência.As afirmativas I, II e III são, respectivamente:",
+        "alternativas": {
+            "A": "V, F e V.",
+            "B": "F, V e V.",
+            "C": "V, V e F.",
+            "D": "F, F e V.",
+            "E": "V, V e V."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A primeira afirmativa é verdadeira pois tentar usar uma constante antes de ser inicializada impede a compilação. A segunda é verdadeira pois a inicialização de constantes ocorre apenas uma vez. A terceira é falsa pois Java passa argumentos por valor, não por referência, para tipos primitivos."
+    }
+]

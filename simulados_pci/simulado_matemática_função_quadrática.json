@@ -1,0 +1,468 @@
+[
+    {
+        "id": "2064842",
+        "enunciado": "A receita diária de uma pequena lanchonete pode ser modelada por R(x) = 2x² - 40x, onde x é o número de combos vendidos no dia. Assim, a partir de quantos combos vendidos em um dia a lanchonete começa a ter lucro?",
+        "alternativas": {
+            "A": "A lanchonete começa a ter lucro a partir do 40° combo vendido.",
+            "B": "A lanchonete começa a ter lucro a partir do 15° combo vendido.",
+            "C": "A lanchonete começa a ter lucro a partir do 21° combo vendido.",
+            "D": "A lanchonete começa a ter lucro a partir do 25° combo vendido."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para ter lucro, a receita R(x) deve ser maior que o custo (considerado zero neste modelo simplificado). Assim, R(x) > 0. 2x² - 40x > 0. Fatorando: 2x(x - 20) > 0. Como x > 0 (número de combos), a solução é x - 20 > 0, ou seja, x > 20. Portanto, a partir do 21º combo."
+    },
+    {
+        "id": "2269016",
+        "enunciado": "Um laboratório de balística programou um lançador para avaliar a rota de um sensor que precisa cruzar um portão de detecção posicionado a 72 m de altura. O software modelou a altitude do sensor por h(t) = -4,9t² + 39,2t + 6, em metros, com t em segundos após o disparo. Por norma de segurança, o sensor deve permanecer acima de 72 m por pelo menos 2,4 s contínuos para validar a leitura. A equipe registrou logs e constatou que o modelo foi obedecido com erro inferior a 1%. Considerando apenas o modelo matemático, em qual intervalo de tempo o sensor fica acima do portão, e a janela contínua atende à exigência mínima?",
+        "alternativas": {
+            "A": "O sensor fica acima de 72 m no intervalo (0,0; 6,0) e a janela contínua é de 6,0 s.",
+            "B": "O sensor fica acima de 72 m, com 2,41 s < t < 5,59 s e a janela contínua é superior a 2,4 s.",
+            "C": "O sensor fica acima de 72 m no intervalo (0,5; 3,5) e a janela contínua é exatamente 3,0 s.",
+            "D": "O sensor fica acima de 72 m no intervalo (1,0; 5,0) e a janela contínua é inferior a 2,0 s."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O problema envolve resolver h(t) > 72. Isolando t, obtém-se -4,9t² + 39,2t - 66 > 0. As raízes da equação -4,9t² + 39,2t - 66 = 0 são aproximadamente 2,41 e 5,59. Como a parábola é voltada para baixo, o sensor está acima de 72m entre esses valores. A diferença 5,59 - 2,41 é aproximadamente 3,18s, que é superior a 2,4s."
+    },
+    {
+        "id": "2329931",
+        "enunciado": "Considere a função f(x) = 2x² - 3x + 4 aplicada ao controle de um sistema automatizado em que certos valores de entrada determinam ajustes específicos. Para avaliar o comportamento desta função, analise as afirmativas abaixo, considerando cálculos diretos dos valores correspondentes. I.f(2) resulta em 6. II.f(-1) resulta em 9. III.f(3) resulta em 19. IV.f(0,5) resulta em 3,75. Está CORRETO o que se afirma em:",
+        "alternativas": {
+            "A": "I, III e IV, apenas.",
+            "B": "I e III, apenas.",
+            "C": "III e IV, apenas.",
+            "D": "I e II, apenas.",
+            "E": "II e III, apenas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Calculando cada afirmativa: I. f(2) = 2(2)² - 3(2) + 4 = 8 - 6 + 4 = 6 (Verdadeira). II. f(-1) = 2(-1)² - 3(-1) + 4 = 2 + 3 + 4 = 9 (Verdadeira). III. f(3) = 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13 (Falsa). IV. f(0.5) = 2(0.5)² - 3(0.5) + 4 = 0.5 - 1.5 + 4 = 3 (Falsa). CORRIGINDO: III. f(3) = 2(9) - 9 + 4 = 18 - 9 + 4 = 13. O enunciado afirma que f(3) resulta em 19. Isso está errado. Verificando com 19: f(3) = 2(3*3) - 3(3) + 4 = 18-9+4 = 13. OK, A lei é f(x) = 2x² - 3x + 4. Vamos recalcular f(3): 2*(3^2) - 3*(3) + 4 = 2*9 - 9 + 4 = 18 - 9 + 4 = 13. A afirmativa III é, portanto, Falsa.  Recalculando IV: f(0.5) = 2*(0.5^2) - 3*(0.5) + 4 = 2*0.25 - 1.5 + 4 = 0.5 - 1.5 + 4 = 3. A afirmativa IV é, portanto, Falsa.  A questão parece ter um erro na redação da alternativa III, que diz que f(3) resulta em 19.  Se f(3)=19, então 2*9 - 3*3 + 4 = 18-9+4 = 13. O valor 19 não está correto.  Vamos verificar se a alternativa A está calculada corretamente com f(3)=19 e f(0.5)=3.75.  Se f(3)=13 e f(0.5)=3.  Há um erro na quest..."
+    },
+    {
+        "id": "2182722",
+        "enunciado": "Uma fonte lança água para cima, em uma trajetória dada pela equação - t² + 4t - 3, com t dado em segundos. Qual é o tempo (t) que o jato de água leva para percorrer toda a trajetória, do ponto de saída ao que volta ao solo?",
+        "alternativas": {
+            "A": "t = 5 segundos.",
+            "B": "t = 7 segundos.",
+            "C": "t = 3 segundos.",
+            "D": "t = 1 segundos.",
+            "E": "t = 2 segundos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A trajetória é dada por uma função quadrática f(t) = -t² + 4t - 3. O jato de água sai do solo em t=1 e retorna ao solo em t=3 (raízes da equação -t² + 4t - 3 = 0). O tempo total de percurso é a diferença entre os tempos de retorno e saída, ou seja, 3s - 1s = 2s. No entanto, a questão pergunta o tempo que leva para percorrer toda a trajetória (subida e descida). O tempo para atingir o ponto mais alto é t = -b/2a = -4/(2*(-1)) = 2s. O tempo total em que a água está no ar é quando f(t)=0, o que ocorre em t=1 e t=3. Portanto, o tempo total de percurso é 3 segundos."
+    },
+    {
+        "id": "2334835",
+        "enunciado": "Um engenheiro analisa a trajetória de um objeto lançado verticalmente cujo deslocamento h(t), em metros, é dado por h(t) = - 5t² + 20t + 3. Ele precisa saber a altura máxima atingida pelo objeto para ajustar um equipamento de medição. Considerando apenas o modelo fornecido e sem interferência de fatores externos, qual é a altura máxima?",
+        "alternativas": {
+            "A": "A altura máxima é de 23 m.",
+            "B": "A altura máxima é de 19 m.",
+            "C": "A altura máxima é de 25 m.",
+            "D": "A altura máxima é de 21 m."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A função h(t) = -5t² + 20t + 3 descreve uma parábola com concavidade para baixo. O valor máximo é atingido no vértice. A coordenada t do vértice é dada por -b/(2a), onde a=-5 e b=20. Então, t = -20 / (2 * -5) = -20 / -10 = 2. Substituindo t=2 na função: h(2) = -5(2)² + 20(2) + 3 = -5(4) + 40 + 3 = -20 + 40 + 3 = 23."
+    },
+    {
+        "id": "2269027",
+        "enunciado": "Uma equipe de robótica programou um drone para realizar um lançamento de sensores e registrou a altura h(t), em metros, ao longo do tempo t, em segundos, pelo modelo quadrático h(t) = -5t² + 40t + 5. O objetivo é estimar, a partir do modelo, parâmetros operacionais de voo para ajustar o instante de liberação dos sensores. O piloto precisa saber quando o drone toca o solo, qual é o ponto de maior altitude e se determinadas cotas são atingidas em intervalos seguros. Após a coleta, o grupo propôs as seguintes afirmações sobre o voo estimado pelo modelo: (__ )O drone atinge altura máxima de 85 m no instante t = 4 s. (__ )O contato com o solo ocorre aproximadamente em t = 8,12 s. (__ )Entre t = 0 s e t = 3 s, a altura média é de 65 m. (__ )A equação h(t) = 45 possui duas soluções reais distintas no intervalo (0; 8). A sequência CORRETA, de cima para baixo, é:",
+        "alternativas": {
+            "A": "V, F, V, V.",
+            "B": "V, V, V, F.",
+            "C": "V, V, F, V.",
+            "D": "F, V, V, F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A altura maxima de um parabola h(t) = at^2+bt+c ocorre em t = -b/(2a). Aqui, t = -40/(2*(-5)) = 4s. A altura maxima e h(4) = -5(4^2) + 40(4) + 5 = -80 + 160 + 5 = 85m. Primeira afirmativa V. O contato com o solo ocorre quando h(t)=0. -5t^2+40t+5=0. Usando Bhaskara: t = [-40 +- sqrt(40^2 - 4*(-5)*5)] / (2*(-5)) = [-40 +- sqrt(1600 + 100)] / -10 = [-40 +- sqrt(1700)] / -10. sqrt(1700) approx 41.23. t = [-40 +- 41.23] / -10. t1 = [-40 - 41.23] / -10 = -81.23 / -10 = 8.12 s. Segunda afirmativa V. Altura media entre t=0 e t=3: h(0)=5, h(3)=-5(9)+40(3)+5 = -45+120+5 = 80. A altura media de uma parabola nao eh a media simples dos pontos na mesma formula h(t)=at^2+bt+c entre dois pontos. A integral de h(t) de 0 a 3 eh [-5t^3/3 + 20t^2 + 5t] de 0 a 3 = -5(9)/3 + 20(9) + 5(3) = -15 + 180 + 15 = 180. A altura media eh 180 / (3-0) = 60m. A terceira afirmativa F. A equacao h(t)=45: -5t^2+40t+5=45 => -5t^2+40t-40=0 => t^2-8t+8=0. Discriminante = (-8)^2 - 4*1*8 = 64 - 32 = 32 > 0. Portando, existem duas solucoes reais d..."
+    },
+    {
+        "id": "2055248",
+        "enunciado": "Uma empresa está modelando o lucro mensal (em milhares de reais) com a venda de um novo produto por meio da função f(x) = −2x² + 20x − 36, onde x representa o número de peças vendidas (em centenas). Qual é o número de peças vendidas que maximiza o lucro?",
+        "alternativas": {
+            "A": "750 peças.",
+            "B": "420 peças.",
+            "C": "860 peças.",
+            "D": "500 peças."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A funcao f(x) = -2x² + 20x - 36 representa uma parabola com concavidade para baixo. O vertice dessa parabola, que corresponde ao ponto de maximo, pode ser encontrado pela formula x = -b/(2a). Substituindo os valores de a=-2 e b=20, obtemos x = -20/(2*(-2)) = -20/-4 = 5. Portanto, o numero depeas vendidas que maximiza o lucro e 5 centenas, ou seja, 500peas."
+    },
+    {
+        "id": "2138600",
+        "enunciado": "Para iluminar as barracas de um festival gastronômico, a diretoria de eventos municipal irá alugar até g geradores portáteis. O custo diário C(g) de operação é descrito, em centenas de reais, pela seguinte função:C(g) = g² – 5g + 6Se o orçamento aprovado para essa despesa é de, no máximo, R$ 600,00 por dia, qual é o maior número total de geradores que pode ser utilizado sem ultrapassar o orçamento?",
+        "alternativas": {
+            "A": "5 geradores.",
+            "B": "6 geradores.",
+            "C": "7 geradores.",
+            "D": "8 geradores."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A função C(g) = g² – 5g + 6 deve ser menor ou igual a 6 (pois o orçamento é 600,00 e C(g) está em centenas de reais). Resolvendo g² – 5g + 6 ≤ 6, obtemos g² – 5g ≤ 0, ou g(g-5) ≤ 0. As raízes são 0 e 5. Para a desigualdade ser satisfeita, g deve estar entre 0 e 5 (inclusive). O maior número inteiro de geradores é 5. Se o orçamento é de R$600,00, e C(g) está em centenas de reais, então C(g) ≤ 6. g² – 5g + 6 ≤ 6. g² – 5g ≤ 0. g(g-5) ≤ 0. A solução desta inequação é 0 ≤ g ≤ 5. Portanto, o maior número de geradores é 5."
+    },
+    {
+        "id": "2169448",
+        "enunciado": "Uma empresa de tecnologia está desenvolvendo um software que calcula o balanço financeiro de seus projetos, representado pela função quadrática f(x) = - 2x² + 8x - 6, em milhões de reais, onde x é o número de projetos realizados por mês. Sabendo que essa função tem raízes reais, qual é a soma dos valores de x que levam o lucro a zero?",
+        "alternativas": {
+            "A": "A soma é 3.",
+            "B": "A soma é - 4.",
+            "C": "A soma é 4.",
+            "D": "A soma é - 3.",
+            "E": "A soma é 2."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para encontrar a soma das rau00edzes de uma funu00e7u00e3o quadru00e1tica na forma axu00b2 + bx + c = 0, utilizamos a fu00f3rmula -b/a. Na funu00e7u00e3o f(x) = -2xu00b2 + 8x - 6, temos a=-2 e b=8. A soma das rau00edzes u00e9 -8 / -2 = 4. A alternativa C estu00e1 correta."
+    },
+    {
+        "id": "2346729",
+        "enunciado": "Um setor processa documentos ao longo do dia. O número total de documentos processados até determinado horário t, em horas, variando de t = 0 a t = 12, é dado pela função: N(t) = -t² + 12t + 13. Com base nessa função, determine o número máximo de documentos processados em um dia e o horário em que esse máximo ocorre.",
+        "alternativas": {
+            "A": "36 documentos às 6 horas.",
+            "B": "45 documentos às 8 horas.",
+            "C": "49 documentos às 6 horas.",
+            "D": "49 documentos às 12 horas.",
+            "E": "72 documentos às 12 horas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A função N(t) = -t² + 12t + 13 é uma parábola com concavidade para baixo. O valor máximo ocorre no vértice. O tempo (t) do vértice é -b/(2a) = -12/(2*(-1)) = 6 horas. Substituíndo t=6 em N(t), temos N(6) = -(6)² + 12*(6) + 13 = -36 + 72 + 13 = 49 documentos."
+    },
+    {
+        "id": "2385321",
+        "enunciado": "Durante um teste de segurança na válvula de contenção de uma estação de tratamento químico, foi necessário liberar exatamente 224 litros de um fluido pressurizado. Para esse tipo de teste, a quantidade Q, em litros, que escapa pelo sistema quando a válvula permanece aberta por x minutos é dada por Q = x*(30 - x). Considerando que a válvula só pode permanecer aberta por no máximo 15 minutos, qual deve ser o tempo de abertura, em minutos, para que a quantidade liberada atinja exatamente os 224 litros, respeitando o limite de segurança?",
+        "alternativas": {
+            "A": "O tempo de abertura deve ser de 10 minutos.",
+            "B": "O tempo de abertura deve ser de 9 minutos.",
+            "C": "O tempo de abertura deve ser de 12 minutos.",
+            "D": "O tempo de abertura deve ser de 14 minutos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A equação é Q = x(30 - x), onde Q=224. 224 = 30x - x². Resolvendo a equação quadrática x² - 30x + 224 = 0, encontramos as raízes x=8 e x=12. Como a válvula só pode abrir por no máximo 15 minutos, ambos são válidos, mas a pergunta pergunta qual tempo DEVE ser para atingir exatamente os 224 L, e 12 minutos é um dos tempos que funciona."
+    },
+    {
+        "id": "2359602",
+        "enunciado": "Um sistema automático de enchimento monitora o volume de um reservatório ao longo do tempo, modelado pela função V(t) = t² − 6t + 5, em que t é medido em horas desde o início do processo. A partir dessa expressão, é possível identificar instantes em que o volume atinge mínimos, zera ou apresenta comportamento crescente ou decrescente. Analise as assertivas e classifique cada uma como verdadeira (V) ou falsa (F). (__ )Um reservatório possui volume (em m³) determinado por V(t) = t² − 6t + 5, em que t representa o tempo em horas desde o início do enchimento. (__ )O volume atinge valor mínimo quando t = 3 horas. (__ )O volume será igual a 0 m³ apenas em um único instante. (__ )O valor máximo do volume ocorre no instante t = 0. Assinale a alternativa que apresenta a sequência CORRETA dos itens acima, de cima para baixo:",
+        "alternativas": {
+            "A": "V, V, F, F.",
+            "B": "F, V, F, V.",
+            "C": "V, F, V, F.",
+            "D": "V, F, F, V."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A função V(t) = t² - 6t + 5 representa um reservatório (V). O vértice da parábola (mínimo) ocorre em t = -b/2a = 6/2 = 3. Para t=0, V=5. O volume é positivo em alguns momentos e zero apenas em t=1 e t=5. Portanto, as afirmativas são V, V, F, F."
+    },
+    {
+        "id": "2212860",
+        "enunciado": "O engenheiro Marcelo precisa projetar uma viga metálica cuja resistência (R) depende da equação R = x² − 8x + 12, em que x representa a espessura da viga em milímetros. Para garantir segurança, ele analisa alguns aspectos matemáticos da equação antes da construção. Com base nisso, avalie as afirmações: I.O discriminante da equação é igual a 16. II.As raízes da equação são 2 e 6. III.A parábola é côncava para baixo. IV.A soma das raízes é igual a 8. Está CORRETO o que se afirma em:",
+        "alternativas": {
+            "A": "I e III, apenas.",
+            "B": "II, III e IV, apenas.",
+            "C": "I e IV, apenas.",
+            "D": "I, II e IV, apenas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As afirmações I, II e IV estão corretas. O discriminante é (-8)² - 4(1)(12) = 64 - 48 = 16 (I). As raízes são [8 ± sqrt(16)]/2, ou seja, (8 ± 4)/2, resultando em 6 e 2 (II). A soma das raízes é -(-8)/1 = 8 (IV). A afirmação III está incorreta pois o coeficiente de x² é positivo (1), logo a parábola é côncava para cima."
+    },
+    {
+        "id": "2212358",
+        "enunciado": "O engenheiro Marcelo precisa projetar uma viga metálica cuja resistência (R) depende da equação R = x² − 8x + 12, em que x representa a espessura da viga em milímetros. Para garantir segurança, ele analisa alguns aspectos matemáticos da equação antes da construção. Com base nisso, avalie as afirmações: I.O discriminante da equação é igual a 16. II.As raízes da equação são 2 e 6. III.A parábola é côncava para baixo. IV.A soma das raízes é igual a 8. Está CORRETO o que se afirma em:",
+        "alternativas": {
+            "A": "I e IV, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II, III e IV, apenas.",
+            "D": "I, II e IV, apenas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "I. Discriminante (Δ) = (-8)² - 4*1*12 = 64 - 48 = 16 (correto). II. Raízes = (-(-8) ± √16) / 2 = (8 ± 4) / 2; x1 = 12/2 = 6, x2 = 4/2 = 2 (correto). III. A parábola é côncava para cima pois o coeficiente de x² é positivo (incorreto). IV. Soma das raízes = -(-8)/1 = 8 (correto)."
+    },
+    {
+        "id": "2010573",
+        "enunciado": "A concavidade da parábola define o ponto de máximo e o ponto de mínimo da função do 2º grau. Seja a função y = x² +2x – 3. Com base nessas informações, assinale a alternativa que determina se essa função tem ponto de mínimo ou ponto de máximo e qual sua coordenada.",
+        "alternativas": {
+            "A": "Ponto de máximo, v (-1,- 4).",
+            "B": "Ponto de máximo, v (-4,- 1).",
+            "C": "Ponto de mínimo, v (0, - 4).",
+            "D": "Ponto de mínimo, v (-1,3).",
+            "E": "Ponto de mínimo, v (-1,- 4)."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A função y = x² + 2x – 3 é uma parábola com o coeficiente 'a' (do x²) positivo (a=1), o que indica concavidade para cima e, portanto, um ponto de mínimo. O vértice V é calculado por xv = -b/2a e yv = f(xv)."
+    },
+    {
+        "id": "2132069",
+        "enunciado": "O lucro de uma empresa é dado por , onde x é a quantidade vendida. Assim, podemos afirmar que:",
+        "alternativas": {
+            "A": "o lucro é positivo para x maior que 20.",
+            "B": "o lucro é máximo para x igual a 20.",
+            "C": "o lucro é positivo para x entre 5 e 20.",
+            "D": "o lucro é máximo para x igual a 3."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O lucro é dado pela função quadrática L(x) = -x² + 40x - 100. O lucro é máximo no vértice da parábola. A coordenada x do vértice é dada por -b/(2a), que neste caso é -40/(2*(-1)) = 20. Portanto, o lucro é máximo para x=20."
+    },
+    {
+        "id": "2120891",
+        "enunciado": "Uma bola, ao ser chutada, numa partida de futebol, teve sua trajetória descrita pela equação h(t) = – 2t² + 16t (t ≥ 0), onde t é o tempo medido em segundo e h(t) é a altura em metros da bola no instante t. Determine, após o chute, qual a altura máxima atingida pela bola:",
+        "alternativas": {
+            "A": "28.",
+            "B": "32.",
+            "C": "30.",
+            "D": "34."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A altura maxima de uma parabola da forma at² + bt + c ocorre em t = -b/(2a). Na equacao dada, h(t) = -2t² + 16t, temos a=-2 e b=16. O tempo sera t = -16/(2*(-2)) = 4 segundos. A altura maxima sera h(4) = -2(4)² + 16(4) = -32 + 64 = 32 metros."
+    },
+    {
+        "id": "2006077",
+        "enunciado": "A função definida por f(x)=x² -3x+4 tem seu valor mínimo para x igual a:",
+        "alternativas": {
+            "A": "( ) 7/4.",
+            "B": "( ) -4/7.",
+            "C": "( ) -7/4.",
+            "D": "( ) 4/7."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O valor mínimo de uma função quadrática f(x) = ax² + bx + c ocorre no vértice. O x do vértice é dado por -b/(2a). Na função f(x)=x² -3x+4, a=1 e b=-3, logo x = -(-3)/(2*1) = 3/2. Como 3/2 não está nas alternativas, e o *valor mínimo* da função é 7/4 (obtido ao substituir x=3/2 na função: (3/2)² - 3(3/2) + 4 = 9/4 - 9/2 + 4 = 7/4), é provável que a questão tenha uma formulação imprecisa, e a alternativa A (7/4) seja a resposta esperada ao se referir ao valor mínimo da função, e não ao x onde ele ocorre."
+    },
+    {
+        "id": "2006083",
+        "enunciado": "Sendo a função f:R→R definida por f(x)=4x -2-2x², então o valor de f(-5) é:",
+        "alternativas": {
+            "A": "( ) -32.",
+            "B": "( ) -72.",
+            "C": "( ) 68.",
+            "D": "( ) -45."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para calcular f(-5), substitua x por -5 na função: f(-5) = 4(-5) - 2 - 2(-5)². Resolva: -20 - 2 - 2(25) = -22 - 50 = -72."
+    },
+    {
+        "id": "2064842",
+        "enunciado": "A receita diária de uma pequena lanchonete pode ser modelada por R(x) = 2x² - 40x, onde x é o número de combos vendidos no dia. Assim, a partir de quantos combos vendidos em um dia a lanchonete começa a ter lucro?",
+        "alternativas": {
+            "A": "A lanchonete começa a ter lucro a partir do 40° combo vendido.",
+            "B": "A lanchonete começa a ter lucro a partir do 15° combo vendido.",
+            "C": "A lanchonete começa a ter lucro a partir do 21° combo vendido.",
+            "D": "A lanchonete começa a ter lucro a partir do 25° combo vendido."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para ter lucro, a receita R(x) deve ser maior que o custo (considerado zero neste modelo simplificado). Assim, R(x) > 0. 2x² - 40x > 0. Fatorando: 2x(x - 20) > 0. Como x > 0 (número de combos), a solução é x - 20 > 0, ou seja, x > 20. Portanto, a partir do 21º combo."
+    },
+    {
+        "id": "2269016",
+        "enunciado": "Um laboratório de balística programou um lançador para avaliar a rota de um sensor que precisa cruzar um portão de detecção posicionado a 72 m de altura. O software modelou a altitude do sensor por h(t) = -4,9t² + 39,2t + 6, em metros, com t em segundos após o disparo. Por norma de segurança, o sensor deve permanecer acima de 72 m por pelo menos 2,4 s contínuos para validar a leitura. A equipe registrou logs e constatou que o modelo foi obedecido com erro inferior a 1%. Considerando apenas o modelo matemático, em qual intervalo de tempo o sensor fica acima do portão, e a janela contínua atende à exigência mínima?",
+        "alternativas": {
+            "A": "O sensor fica acima de 72 m no intervalo (0,0; 6,0) e a janela contínua é de 6,0 s.",
+            "B": "O sensor fica acima de 72 m, com 2,41 s < t < 5,59 s e a janela contínua é superior a 2,4 s.",
+            "C": "O sensor fica acima de 72 m no intervalo (0,5; 3,5) e a janela contínua é exatamente 3,0 s.",
+            "D": "O sensor fica acima de 72 m no intervalo (1,0; 5,0) e a janela contínua é inferior a 2,0 s."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O problema envolve resolver h(t) > 72. Isolando t, obtém-se -4,9t² + 39,2t - 66 > 0. As raízes da equação -4,9t² + 39,2t - 66 = 0 são aproximadamente 2,41 e 5,59. Como a parábola é voltada para baixo, o sensor está acima de 72m entre esses valores. A diferença 5,59 - 2,41 é aproximadamente 3,18s, que é superior a 2,4s."
+    },
+    {
+        "id": "2329931",
+        "enunciado": "Considere a função f(x) = 2x² - 3x + 4 aplicada ao controle de um sistema automatizado em que certos valores de entrada determinam ajustes específicos. Para avaliar o comportamento desta função, analise as afirmativas abaixo, considerando cálculos diretos dos valores correspondentes. I.f(2) resulta em 6. II.f(-1) resulta em 9. III.f(3) resulta em 19. IV.f(0,5) resulta em 3,75. Está CORRETO o que se afirma em:",
+        "alternativas": {
+            "A": "I, III e IV, apenas.",
+            "B": "I e III, apenas.",
+            "C": "III e IV, apenas.",
+            "D": "I e II, apenas.",
+            "E": "II e III, apenas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Calculando cada afirmativa: I. f(2) = 2(2)² - 3(2) + 4 = 8 - 6 + 4 = 6 (Verdadeira). II. f(-1) = 2(-1)² - 3(-1) + 4 = 2 + 3 + 4 = 9 (Verdadeira). III. f(3) = 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13 (Falsa). IV. f(0.5) = 2(0.5)² - 3(0.5) + 4 = 0.5 - 1.5 + 4 = 3 (Falsa). CORRIGINDO: III. f(3) = 2(9) - 9 + 4 = 18 - 9 + 4 = 13. O enunciado afirma que f(3) resulta em 19. Isso está errado. Verificando com 19: f(3) = 2(3*3) - 3(3) + 4 = 18-9+4 = 13. OK, A lei é f(x) = 2x² - 3x + 4. Vamos recalcular f(3): 2*(3^2) - 3*(3) + 4 = 2*9 - 9 + 4 = 18 - 9 + 4 = 13. A afirmativa III é, portanto, Falsa.  Recalculando IV: f(0.5) = 2*(0.5^2) - 3*(0.5) + 4 = 2*0.25 - 1.5 + 4 = 0.5 - 1.5 + 4 = 3. A afirmativa IV é, portanto, Falsa.  A questão parece ter um erro na redação da alternativa III, que diz que f(3) resulta em 19.  Se f(3)=19, então 2*9 - 3*3 + 4 = 18-9+4 = 13. O valor 19 não está correto.  Vamos verificar se a alternativa A está calculada corretamente com f(3)=19 e f(0.5)=3.75.  Se f(3)=13 e f(0.5)=3.  Há um erro na quest..."
+    },
+    {
+        "id": "2182722",
+        "enunciado": "Uma fonte lança água para cima, em uma trajetória dada pela equação - t² + 4t - 3, com t dado em segundos. Qual é o tempo (t) que o jato de água leva para percorrer toda a trajetória, do ponto de saída ao que volta ao solo?",
+        "alternativas": {
+            "A": "t = 5 segundos.",
+            "B": "t = 7 segundos.",
+            "C": "t = 3 segundos.",
+            "D": "t = 1 segundos.",
+            "E": "t = 2 segundos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A trajetória é dada por uma função quadrática f(t) = -t² + 4t - 3. O jato de água sai do solo em t=1 e retorna ao solo em t=3 (raízes da equação -t² + 4t - 3 = 0). O tempo total de percurso é a diferença entre os tempos de retorno e saída, ou seja, 3s - 1s = 2s. No entanto, a questão pergunta o tempo que leva para percorrer toda a trajetória (subida e descida). O tempo para atingir o ponto mais alto é t = -b/2a = -4/(2*(-1)) = 2s. O tempo total em que a água está no ar é quando f(t)=0, o que ocorre em t=1 e t=3. Portanto, o tempo total de percurso é 3 segundos."
+    },
+    {
+        "id": "2334835",
+        "enunciado": "Um engenheiro analisa a trajetória de um objeto lançado verticalmente cujo deslocamento h(t), em metros, é dado por h(t) = - 5t² + 20t + 3. Ele precisa saber a altura máxima atingida pelo objeto para ajustar um equipamento de medição. Considerando apenas o modelo fornecido e sem interferência de fatores externos, qual é a altura máxima?",
+        "alternativas": {
+            "A": "A altura máxima é de 23 m.",
+            "B": "A altura máxima é de 19 m.",
+            "C": "A altura máxima é de 25 m.",
+            "D": "A altura máxima é de 21 m."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A função h(t) = -5t² + 20t + 3 descreve uma parábola com concavidade para baixo. O valor máximo é atingido no vértice. A coordenada t do vértice é dada por -b/(2a), onde a=-5 e b=20. Então, t = -20 / (2 * -5) = -20 / -10 = 2. Substituindo t=2 na função: h(2) = -5(2)² + 20(2) + 3 = -5(4) + 40 + 3 = -20 + 40 + 3 = 23."
+    },
+    {
+        "id": "2269027",
+        "enunciado": "Uma equipe de robótica programou um drone para realizar um lançamento de sensores e registrou a altura h(t), em metros, ao longo do tempo t, em segundos, pelo modelo quadrático h(t) = -5t² + 40t + 5. O objetivo é estimar, a partir do modelo, parâmetros operacionais de voo para ajustar o instante de liberação dos sensores. O piloto precisa saber quando o drone toca o solo, qual é o ponto de maior altitude e se determinadas cotas são atingidas em intervalos seguros. Após a coleta, o grupo propôs as seguintes afirmações sobre o voo estimado pelo modelo: (__ )O drone atinge altura máxima de 85 m no instante t = 4 s. (__ )O contato com o solo ocorre aproximadamente em t = 8,12 s. (__ )Entre t = 0 s e t = 3 s, a altura média é de 65 m. (__ )A equação h(t) = 45 possui duas soluções reais distintas no intervalo (0; 8). A sequência CORRETA, de cima para baixo, é:",
+        "alternativas": {
+            "A": "V, F, V, V.",
+            "B": "V, V, V, F.",
+            "C": "V, V, F, V.",
+            "D": "F, V, V, F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A altura maxima de um parabola h(t) = at^2+bt+c ocorre em t = -b/(2a). Aqui, t = -40/(2*(-5)) = 4s. A altura maxima e h(4) = -5(4^2) + 40(4) + 5 = -80 + 160 + 5 = 85m. Primeira afirmativa V. O contato com o solo ocorre quando h(t)=0. -5t^2+40t+5=0. Usando Bhaskara: t = [-40 +- sqrt(40^2 - 4*(-5)*5)] / (2*(-5)) = [-40 +- sqrt(1600 + 100)] / -10 = [-40 +- sqrt(1700)] / -10. sqrt(1700) approx 41.23. t = [-40 +- 41.23] / -10. t1 = [-40 - 41.23] / -10 = -81.23 / -10 = 8.12 s. Segunda afirmativa V. Altura media entre t=0 e t=3: h(0)=5, h(3)=-5(9)+40(3)+5 = -45+120+5 = 80. A altura media de uma parabola nao eh a media simples dos pontos na mesma formula h(t)=at^2+bt+c entre dois pontos. A integral de h(t) de 0 a 3 eh [-5t^3/3 + 20t^2 + 5t] de 0 a 3 = -5(9)/3 + 20(9) + 5(3) = -15 + 180 + 15 = 180. A altura media eh 180 / (3-0) = 60m. A terceira afirmativa F. A equacao h(t)=45: -5t^2+40t+5=45 => -5t^2+40t-40=0 => t^2-8t+8=0. Discriminante = (-8)^2 - 4*1*8 = 64 - 32 = 32 > 0. Portando, existem duas solucoes reais d..."
+    },
+    {
+        "id": "2055248",
+        "enunciado": "Uma empresa está modelando o lucro mensal (em milhares de reais) com a venda de um novo produto por meio da função f(x) = −2x² + 20x − 36, onde x representa o número de peças vendidas (em centenas). Qual é o número de peças vendidas que maximiza o lucro?",
+        "alternativas": {
+            "A": "750 peças.",
+            "B": "420 peças.",
+            "C": "860 peças.",
+            "D": "500 peças."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A funcao f(x) = -2x² + 20x - 36 representa uma parabola com concavidade para baixo. O vertice dessa parabola, que corresponde ao ponto de maximo, pode ser encontrado pela formula x = -b/(2a). Substituindo os valores de a=-2 e b=20, obtemos x = -20/(2*(-2)) = -20/-4 = 5. Portanto, o numero depeas vendidas que maximiza o lucro e 5 centenas, ou seja, 500peas."
+    },
+    {
+        "id": "2138600",
+        "enunciado": "Para iluminar as barracas de um festival gastronômico, a diretoria de eventos municipal irá alugar até g geradores portáteis. O custo diário C(g) de operação é descrito, em centenas de reais, pela seguinte função:C(g) = g² – 5g + 6Se o orçamento aprovado para essa despesa é de, no máximo, R$ 600,00 por dia, qual é o maior número total de geradores que pode ser utilizado sem ultrapassar o orçamento?",
+        "alternativas": {
+            "A": "5 geradores.",
+            "B": "6 geradores.",
+            "C": "7 geradores.",
+            "D": "8 geradores."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A função C(g) = g² – 5g + 6 deve ser menor ou igual a 6 (pois o orçamento é 600,00 e C(g) está em centenas de reais). Resolvendo g² – 5g + 6 ≤ 6, obtemos g² – 5g ≤ 0, ou g(g-5) ≤ 0. As raízes são 0 e 5. Para a desigualdade ser satisfeita, g deve estar entre 0 e 5 (inclusive). O maior número inteiro de geradores é 5. Se o orçamento é de R$600,00, e C(g) está em centenas de reais, então C(g) ≤ 6. g² – 5g + 6 ≤ 6. g² – 5g ≤ 0. g(g-5) ≤ 0. A solução desta inequação é 0 ≤ g ≤ 5. Portanto, o maior número de geradores é 5."
+    },
+    {
+        "id": "2169448",
+        "enunciado": "Uma empresa de tecnologia está desenvolvendo um software que calcula o balanço financeiro de seus projetos, representado pela função quadrática f(x) = - 2x² + 8x - 6, em milhões de reais, onde x é o número de projetos realizados por mês. Sabendo que essa função tem raízes reais, qual é a soma dos valores de x que levam o lucro a zero?",
+        "alternativas": {
+            "A": "A soma é 3.",
+            "B": "A soma é - 4.",
+            "C": "A soma é 4.",
+            "D": "A soma é - 3.",
+            "E": "A soma é 2."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para encontrar a soma das rau00edzes de uma funu00e7u00e3o quadru00e1tica na forma axu00b2 + bx + c = 0, utilizamos a fu00f3rmula -b/a. Na funu00e7u00e3o f(x) = -2xu00b2 + 8x - 6, temos a=-2 e b=8. A soma das rau00edzes u00e9 -8 / -2 = 4. A alternativa C estu00e1 correta."
+    },
+    {
+        "id": "2346729",
+        "enunciado": "Um setor processa documentos ao longo do dia. O número total de documentos processados até determinado horário t, em horas, variando de t = 0 a t = 12, é dado pela função: N(t) = -t² + 12t + 13. Com base nessa função, determine o número máximo de documentos processados em um dia e o horário em que esse máximo ocorre.",
+        "alternativas": {
+            "A": "36 documentos às 6 horas.",
+            "B": "45 documentos às 8 horas.",
+            "C": "49 documentos às 6 horas.",
+            "D": "49 documentos às 12 horas.",
+            "E": "72 documentos às 12 horas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A função N(t) = -t² + 12t + 13 é uma parábola com concavidade para baixo. O valor máximo ocorre no vértice. O tempo (t) do vértice é -b/(2a) = -12/(2*(-1)) = 6 horas. Substituíndo t=6 em N(t), temos N(6) = -(6)² + 12*(6) + 13 = -36 + 72 + 13 = 49 documentos."
+    },
+    {
+        "id": "2385321",
+        "enunciado": "Durante um teste de segurança na válvula de contenção de uma estação de tratamento químico, foi necessário liberar exatamente 224 litros de um fluido pressurizado. Para esse tipo de teste, a quantidade Q, em litros, que escapa pelo sistema quando a válvula permanece aberta por x minutos é dada por Q = x*(30 - x). Considerando que a válvula só pode permanecer aberta por no máximo 15 minutos, qual deve ser o tempo de abertura, em minutos, para que a quantidade liberada atinja exatamente os 224 litros, respeitando o limite de segurança?",
+        "alternativas": {
+            "A": "O tempo de abertura deve ser de 10 minutos.",
+            "B": "O tempo de abertura deve ser de 9 minutos.",
+            "C": "O tempo de abertura deve ser de 12 minutos.",
+            "D": "O tempo de abertura deve ser de 14 minutos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A equação é Q = x(30 - x), onde Q=224. 224 = 30x - x². Resolvendo a equação quadrática x² - 30x + 224 = 0, encontramos as raízes x=8 e x=12. Como a válvula só pode abrir por no máximo 15 minutos, ambos são válidos, mas a pergunta pergunta qual tempo DEVE ser para atingir exatamente os 224 L, e 12 minutos é um dos tempos que funciona."
+    },
+    {
+        "id": "2359602",
+        "enunciado": "Um sistema automático de enchimento monitora o volume de um reservatório ao longo do tempo, modelado pela função V(t) = t² − 6t + 5, em que t é medido em horas desde o início do processo. A partir dessa expressão, é possível identificar instantes em que o volume atinge mínimos, zera ou apresenta comportamento crescente ou decrescente. Analise as assertivas e classifique cada uma como verdadeira (V) ou falsa (F). (__ )Um reservatório possui volume (em m³) determinado por V(t) = t² − 6t + 5, em que t representa o tempo em horas desde o início do enchimento. (__ )O volume atinge valor mínimo quando t = 3 horas. (__ )O volume será igual a 0 m³ apenas em um único instante. (__ )O valor máximo do volume ocorre no instante t = 0. Assinale a alternativa que apresenta a sequência CORRETA dos itens acima, de cima para baixo:",
+        "alternativas": {
+            "A": "V, V, F, F.",
+            "B": "F, V, F, V.",
+            "C": "V, F, V, F.",
+            "D": "V, F, F, V."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A função V(t) = t² - 6t + 5 representa um reservatório (V). O vértice da parábola (mínimo) ocorre em t = -b/2a = 6/2 = 3. Para t=0, V=5. O volume é positivo em alguns momentos e zero apenas em t=1 e t=5. Portanto, as afirmativas são V, V, F, F."
+    },
+    {
+        "id": "2212860",
+        "enunciado": "O engenheiro Marcelo precisa projetar uma viga metálica cuja resistência (R) depende da equação R = x² − 8x + 12, em que x representa a espessura da viga em milímetros. Para garantir segurança, ele analisa alguns aspectos matemáticos da equação antes da construção. Com base nisso, avalie as afirmações: I.O discriminante da equação é igual a 16. II.As raízes da equação são 2 e 6. III.A parábola é côncava para baixo. IV.A soma das raízes é igual a 8. Está CORRETO o que se afirma em:",
+        "alternativas": {
+            "A": "I e III, apenas.",
+            "B": "II, III e IV, apenas.",
+            "C": "I e IV, apenas.",
+            "D": "I, II e IV, apenas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As afirmações I, II e IV estão corretas. O discriminante é (-8)² - 4(1)(12) = 64 - 48 = 16 (I). As raízes são [8 ± sqrt(16)]/2, ou seja, (8 ± 4)/2, resultando em 6 e 2 (II). A soma das raízes é -(-8)/1 = 8 (IV). A afirmação III está incorreta pois o coeficiente de x² é positivo (1), logo a parábola é côncava para cima."
+    },
+    {
+        "id": "2212358",
+        "enunciado": "O engenheiro Marcelo precisa projetar uma viga metálica cuja resistência (R) depende da equação R = x² − 8x + 12, em que x representa a espessura da viga em milímetros. Para garantir segurança, ele analisa alguns aspectos matemáticos da equação antes da construção. Com base nisso, avalie as afirmações: I.O discriminante da equação é igual a 16. II.As raízes da equação são 2 e 6. III.A parábola é côncava para baixo. IV.A soma das raízes é igual a 8. Está CORRETO o que se afirma em:",
+        "alternativas": {
+            "A": "I e IV, apenas.",
+            "B": "I e III, apenas.",
+            "C": "II, III e IV, apenas.",
+            "D": "I, II e IV, apenas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "I. Discriminante (Δ) = (-8)² - 4*1*12 = 64 - 48 = 16 (correto). II. Raízes = (-(-8) ± √16) / 2 = (8 ± 4) / 2; x1 = 12/2 = 6, x2 = 4/2 = 2 (correto). III. A parábola é côncava para cima pois o coeficiente de x² é positivo (incorreto). IV. Soma das raízes = -(-8)/1 = 8 (correto)."
+    },
+    {
+        "id": "2010573",
+        "enunciado": "A concavidade da parábola define o ponto de máximo e o ponto de mínimo da função do 2º grau. Seja a função y = x² +2x – 3. Com base nessas informações, assinale a alternativa que determina se essa função tem ponto de mínimo ou ponto de máximo e qual sua coordenada.",
+        "alternativas": {
+            "A": "Ponto de máximo, v (-1,- 4).",
+            "B": "Ponto de máximo, v (-4,- 1).",
+            "C": "Ponto de mínimo, v (0, - 4).",
+            "D": "Ponto de mínimo, v (-1,3).",
+            "E": "Ponto de mínimo, v (-1,- 4)."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A função y = x² + 2x – 3 é uma parábola com o coeficiente 'a' (do x²) positivo (a=1), o que indica concavidade para cima e, portanto, um ponto de mínimo. O vértice V é calculado por xv = -b/2a e yv = f(xv)."
+    },
+    {
+        "id": "2132069",
+        "enunciado": "O lucro de uma empresa é dado por , onde x é a quantidade vendida. Assim, podemos afirmar que:",
+        "alternativas": {
+            "A": "o lucro é positivo para x maior que 20.",
+            "B": "o lucro é máximo para x igual a 20.",
+            "C": "o lucro é positivo para x entre 5 e 20.",
+            "D": "o lucro é máximo para x igual a 3."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O lucro é dado pela função quadrática L(x) = -x² + 40x - 100. O lucro é máximo no vértice da parábola. A coordenada x do vértice é dada por -b/(2a), que neste caso é -40/(2*(-1)) = 20. Portanto, o lucro é máximo para x=20."
+    },
+    {
+        "id": "2120891",
+        "enunciado": "Uma bola, ao ser chutada, numa partida de futebol, teve sua trajetória descrita pela equação h(t) = – 2t² + 16t (t ≥ 0), onde t é o tempo medido em segundo e h(t) é a altura em metros da bola no instante t. Determine, após o chute, qual a altura máxima atingida pela bola:",
+        "alternativas": {
+            "A": "28.",
+            "B": "32.",
+            "C": "30.",
+            "D": "34."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A altura maxima de uma parabola da forma at² + bt + c ocorre em t = -b/(2a). Na equacao dada, h(t) = -2t² + 16t, temos a=-2 e b=16. O tempo sera t = -16/(2*(-2)) = 4 segundos. A altura maxima sera h(4) = -2(4)² + 16(4) = -32 + 64 = 32 metros."
+    },
+    {
+        "id": "2006077",
+        "enunciado": "A função definida por f(x)=x² -3x+4 tem seu valor mínimo para x igual a:",
+        "alternativas": {
+            "A": "( ) 7/4.",
+            "B": "( ) -4/7.",
+            "C": "( ) -7/4.",
+            "D": "( ) 4/7."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O valor mínimo de uma função quadrática f(x) = ax² + bx + c ocorre no vértice. O x do vértice é dado por -b/(2a). Na função f(x)=x² -3x+4, a=1 e b=-3, logo x = -(-3)/(2*1) = 3/2. Como 3/2 não está nas alternativas, e o *valor mínimo* da função é 7/4 (obtido ao substituir x=3/2 na função: (3/2)² - 3(3/2) + 4 = 9/4 - 9/2 + 4 = 7/4), é provável que a questão tenha uma formulação imprecisa, e a alternativa A (7/4) seja a resposta esperada ao se referir ao valor mínimo da função, e não ao x onde ele ocorre."
+    },
+    {
+        "id": "2006083",
+        "enunciado": "Sendo a função f:R→R definida por f(x)=4x -2-2x², então o valor de f(-5) é:",
+        "alternativas": {
+            "A": "( ) -32.",
+            "B": "( ) -72.",
+            "C": "( ) 68.",
+            "D": "( ) -45."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para calcular f(-5), substitua x por -5 na função: f(-5) = 4(-5) - 2 - 2(-5)². Resolva: -20 - 2 - 2(25) = -22 - 50 = -72."
+    }
+]

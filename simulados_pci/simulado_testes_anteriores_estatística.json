@@ -1,0 +1,1208 @@
+[
+    {
+        "id": "3105175",
+        "enunciado": "Estatísticas descritivas sintetizam os dados resumindo a informação. São medidas deposição e dispersão, respectivamente:",
+        "alternativas": {
+            "A": "Amplitude e desvio padrão.",
+            "B": "Quartis e coeficiente de variação.",
+            "C": "Variância e média.",
+            "D": "Mediana e quartis.",
+            "E": "Moda e percentis."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Estatísticas descritivas incluem medidas de posição (como quartis) e de dispersão (como coeficiente de variação). Amplitude é de dispersão, variância é de dispersão, média e mediana são de posição, moda é de posição e percentis são de posição. Portanto, a alternativa B é a única que apresenta ambas as categorias corretamente."
+    },
+    {
+        "id": "3105176",
+        "enunciado": "Se a mediana de um determinado processo for igual a 7, isso quer dizer que:",
+        "alternativas": {
+            "A": "O 7º valor da amostra representará a mediana.",
+            "B": "O 7º valor da amostra ordenada representará a mediana.",
+            "C": "A posição mediana é 7.",
+            "D": "50% dos valores da amostra são iguais a 7.",
+            "E": "50% dos valores da amostra são menores ou iguais a 7."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A mediana representa o valor central em um conjunto de dados ordenado. Ao afirmar que 50% dos valores são menores ou iguais a 7, e os outros 50% são maiores ou iguais a 7, descreve-se corretamente a propriedade da mediana."
+    },
+    {
+        "id": "3105177",
+        "enunciado": "Considere que, em 100 pessoas, 20% estão contaminadas com o Covid-19.Selecionando 5 pessoas desta amostra sem reposição, qual a chance de 2 estarem contaminadas e terem sido escolhidas? Para resolver esse problema, qual distribuição estatística deve ser utilizada?",
+        "alternativas": {
+            "A": "Distribuição normal.",
+            "B": "Distribuição binomial.",
+            "C": "Distribuição hipergeométrica.",
+            "D": "Distribuição de Poisson.",
+            "E": "Distribuição binomial negativa."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O problema envolve a seleção de uma amostra sem reposição de uma população finita com dois resultados (contaminado/não contaminado). Essa situação é modelada pela distribuição hipergeométrica, ao contrário da binomial, que assume reposição ou população infinita."
+    },
+    {
+        "id": "3105178",
+        "enunciado": "Assumindo que todas as outras variáveis permaneçam inalteradas, para diminuir a amplitude do intervalo de confiança de uma amostra, o que deve acontecer com o tamanho dessa amostra?",
+        "alternativas": {
+            "A": "Aumentar.",
+            "B": "Permanecer igual.",
+            "C": "Diminuir.",
+            "D": "Nada se pode afirmar.",
+            "E": "Aumentar ou diminuir."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A amplitude de um intervalo de confianca é diretamente proporcional ao tamanho da amostra. Para diminuir a amplitude, mantendo o nivel de confianca, o tamanho da amostra precisa ser aumentado."
+    },
+    {
+        "id": "3105179",
+        "enunciado": "Qual a distribuição estatística de probabilidade associada à quantidade de enfartes por dia na cidade de Porto Alegre?",
+        "alternativas": {
+            "A": "Binomial.",
+            "B": "Normal.",
+            "C": "Exponencial.",
+            "D": "Poisson.",
+            "E": "Hipergeométrica."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A distribuição de Poisson é adequada para modelar a ocorrência de eventos raros e independentes em um intervalo de tempo ou espaço, como o número de enfartes por dia. As outras distribuições não se encaixam nessa situação específica."
+    },
+    {
+        "id": "3105180",
+        "enunciado": "Qual o desvio padrão de uma amostra que possui distribuição exponencial com média 50?",
+        "alternativas": {
+            "A": "0,8.",
+            "B": "0,02.",
+            "C": "12,5.",
+            "D": "25,0.",
+            "E": "50,0."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Para uma distribuição exponencial, a média é igual ao desvio padrão (µ = σ). Portanto, se a média é 50, o desvio padrão também é 50."
+    },
+    {
+        "id": "3105181",
+        "enunciado": "O poder do teste de hipóteses para diferença entre médias é medido por:",
+        "alternativas": {
+            "A": "Alfa.",
+            "B": "1-alfa.",
+            "C": "Beta.",
+            "D": "1-beta.",
+            "E": "Alfa-beta."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O poder do teste de hipóteses (1-beta) mede a probabilidade de rejeitar corretamente a hipótese nula quando ela é falsa, ou seja, a capacidade do teste em detectar um efeito real."
+    },
+    {
+        "id": "3105182",
+        "enunciado": "Das seguintes definições, qual é verdadeira no modelo de regressão com b0 = -400; b1=0,00 e n=10?",
+        "alternativas": {
+            "A": "Não existe relacionamento entre x e y.",
+            "B": "x e y são positivamente correlacionadas.",
+            "C": "x e y são negativamente relacionadas.",
+            "D": "O erro padrão da estimativa é alto.",
+            "E": "O relacionamento entre x e y é não linear."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No modelo de regressao, b1 representa o coeficiente angular. Se b1 = 0,00, significa que a variavel x nao tem influencia linear sobre y. Portanto, nao ha relacao linear entre x e y."
+    },
+    {
+        "id": "3105183",
+        "enunciado": "Cinco dados de seis lados são lançados juntos 100 vezes. Dois histogramas são construídos: um para os resultados de 500 indivíduos e outro para as 100 médias de cinco resultados. Nesta situação, os resultados individuais e as médias seguem, respectivamente, as seguintes distribuições:",
+        "alternativas": {
+            "A": "Distribuição uniforme discreta e distribuição t.",
+            "B": "Distribuição normal e distribuição uniforme discreta.",
+            "C": "Distribuição uniforme discreta e distribuição normal.",
+            "D": "Distribuição binomial e distribuição normal.",
+            "E": "Distribuição uniforme discreta e distribuição binomial."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Os resultados individuais de lançamentos de dados (assumindo dados justos) seguem uma distribuição uniforme discreta. Pelo Teorema do Limite Central, as médias de amostras suficientemente grandes, independentemente da distribuição original, tendem a seguir uma distribuição normal."
+    },
+    {
+        "id": "3105184",
+        "enunciado": "Um conjunto de dados possui distribuição normal com média 100 e desvio padrão10. A área correspondente ao intervalo de 70 a 130 é igual a:",
+        "alternativas": {
+            "A": "68,26%.",
+            "B": "99%.",
+            "C": "95,44%.",
+            "D": "99,73%.",
+            "E": "99,994%."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3105185",
+        "enunciado": "As técnicas de amostragem podem ser classificadas como amostras probabilísticas e amostras não probabilísticas. São, respectivamente, uma técnica probabilística e uma técnica não probabilística:",
+        "alternativas": {
+            "A": "Amostra aleatória simples e amostra sistemática.",
+            "B": "Amostra por cotas e amostra por julgamento.",
+            "C": "Amostra por conglomerado (cluster) e amostra por cotas.",
+            "D": "Amostra aleatória simples e amostra por conglomerado (cluster).",
+            "E": "Amostra por cotas e amostra por conveniência."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A amostra por conglomerado (cluster) é probabilística, pois todos os conglomerados têm chance de serem selecionados e todos os elementos dentro deles são incluídos. A amostra por cotas é não probabilística, pois a seleção dos indivíduos dentro das cotas não é aleatória."
+    },
+    {
+        "id": "3105186",
+        "enunciado": "Assinale a alternativa que indica uma desvantagem da técnica de amostragem sistemática.",
+        "alternativas": {
+            "A": "Não ser probabilística.",
+            "B": "Exigir grandes tamanhos de amostragem.",
+            "C": "Podem ocorrer problemas se existir algum tipo de periocidade oculta.",
+            "D": "Alta complexidade.",
+            "E": "Erro elevado."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A amostragem sistemática assume uma distribuição aleatória dos elementos. Se houver uma periodicidade oculta na população que coincida com o intervalo de seleção (k), a amostra resultante pode não ser representativa, introduzindo um viés."
+    },
+    {
+        "id": "3105187",
+        "enunciado": "Em uma ANOVA one way, o que é comparado?",
+        "alternativas": {
+            "A": "A estatística observada do teste-z sobre vários níveis de significância.",
+            "B": "A estatística observada do teste-z versus o valor crítico.",
+            "C": "A estatística observada do teste-t versus o valor crítico.",
+            "D": "A estatística observada do teste-F versus o valor crítico.",
+            "E": "A estatística observada do teste-F versus vários níveis de significância."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A ANOVA (Análise de Variância) compara as médias de três ou mais grupos. Para isso, utiliza a estatística F, que é a razão entre a variância entre os grupos e a variância dentro dos grupos, comparada com um valor crítico da distribuição F."
+    },
+    {
+        "id": "3105188",
+        "enunciado": "Qual método de previsão de Séries Temporais deve ser utilizado quando temos tendência e sazonalidade presentes nos dados?",
+        "alternativas": {
+            "A": "Decomposição.",
+            "B": "Média Móvel.",
+            "C": "Alisamento exponencial simples.",
+            "D": "Alisamento exponencial duplo.",
+            "E": "Análise de tendência com regressão linear."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O metodo de decomposicao de séries temporais e indicado quando ha presenca de tendencia e sazonalidade nos dados. Ele permite separar esses componentes e modela-los individualmente."
+    },
+    {
+        "id": "3105189",
+        "enunciado": "Qual o percentual de (1-alfa)*100% do intervalo de confiança para μ em que falha em capturar μ?",
+        "alternativas": {
+            "A": "(1-alfa)*100%.",
+            "B": "alfa*100%.",
+            "C": "5%.",
+            "D": "1%.",
+            "E": "Não é possível afirmar."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O intervalo de confiança para μ tem uma probabilidade de (1-alfa) de capturar o verdadeiro valor de μ. Consequentemente, a probabilidade de falha em capturar μ é de 1 - (1-alfa), que é igual a alfa. Assim, a porcentagem de falha é alfa*100%."
+    },
+    {
+        "id": "3105190",
+        "enunciado": "A média de altura de todos os alunos de uma Universidade é o tema de nosso interesse. Uma amostra da média das alturas dos alunos masculinos da cadeira de Inferência é de1,75 m. A média da altura de todos os alunos, a amostra da média da altura de alunos masculinos da cadeira de Estatística e o valor de 1,75 m são, respectivamente, denominados:",
+        "alternativas": {
+            "A": "Parâmetro, estimativa e estimador.",
+            "B": "Parâmetro, estimador e estimativa.",
+            "C": "Estimador, parâmetro e estimativa.",
+            "D": "Estimativa, parâmetro e estimador.",
+            "E": "Estimador, estimativa e parâmetro."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Parâmetro é o valor verdadeiro da população (média de altura de todos os alunos). Estimador é a regra usada para calcular a estatística a partir da amostra (média da altura dos alunos masculinos da cadeira de Estatística). Estimativa é o valor numérico obtido pelo estimador (1,75 m)."
+    },
+    {
+        "id": "3105191",
+        "enunciado": "Analise as descrições abaixo:Constante numérica que descreve a população.A chance do pesquisador em não capturar o parâmetro no intervalo de confiança.O desvio padrão da distribuição amostral da média.Assinale a alternativa que apresenta a correta definição de cada uma das descrições acima.",
+        "alternativas": {
+            "A": "1. Parâmetro – 2. Alfa – 3. Erro padrão da média.",
+            "B": "1. Parâmetro – 2. Erro padrão da média – 3. alfa.",
+            "C": "1. Estimativa – 2. Erro padrão da média – 3. 1-alfa.",
+            "D": "1. Estimador – 2. Alfa – 3. Erro padrão da média.",
+            "E": "1. Parâmetro – 2. 1-alfa – 3. Erro padrão da média."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A primeira descricao, 'Constante numerica que descreve a populacao', e um parametro. A segunda, 'A chance do pesquisador em nao capturar o parametro no intervalo de confianca', e o nivel de significância alfa. A terceira, 'O desvio padrao da distribuicao amostral da media', e o erro padrao da media."
+    },
+    {
+        "id": "3134173",
+        "enunciado": "Dois eventos independentes A e B têm probabilidades respectivas iguais a 0,4 e 0,5.A probabilidade de A∪B ocorrer é igual a",
+        "alternativas": {
+            "A": "0,5",
+            "B": "0,6",
+            "C": "0,7",
+            "D": "0,8",
+            "E": "0,9"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para eventos independentes, P(A∪B) = P(A) + P(B) - P(A∩B). Como são independentes, P(A∩B) = P(A) * P(B). Assim, P(A∪B) = 0,4 + 0,5 - (0,4 * 0,5) = 0,9 - 0,2 = 0,7."
+    },
+    {
+        "id": "3134174",
+        "enunciado": "Dois eventos A e B são tais que P[A] = 0,8, P[B] = 0,5 e P[A|B]=0,4.Assim, a probabilidade condicional P[B|A] é igual a",
+        "alternativas": {
+            "A": "15%.",
+            "B": "25%.",
+            "C": "30%.",
+            "D": "40%.",
+            "E": "50%."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134175",
+        "enunciado": "Se A e B são eventos possíveis, avalie as afirmativas a seguir.Se A e B são mutuamente exclusivos então são independentes.Se P[A] = 0,5 e P[B] = 0,7 então P[A∩B] não pode ser igual a 0,4.Se A e B são independentes então podem ser mutuamente exclusivos.Está correto o que se afirma em",
+        "alternativas": {
+            "A": "se nenhuma afirmativa estiver correta.",
+            "B": "I, apenas.",
+            "C": "II, apenas.",
+            "D": "I e III, apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134176",
+        "enunciado": "Em uma população muito grande, pessoas serão aleatoriamente escolhidas até que uma pessoa acometida por uma certa doença seja encontrada. A variável aleatória que contará quantas pessoas serão observadas até que tal pessoa seja encontrada, tem distribuição de probabilidades",
+        "alternativas": {
+            "A": "binomial.",
+            "B": "Poisson.",
+            "C": "geométrica.",
+            "D": "hipergeométrica.",
+            "E": "binomial negativa."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A variável aleatória que conta o número de tentativas até o primeiro sucesso em uma sequência de experimentos independentes com probabilidade de sucesso constante segue a distribuição geométrica. A busca por uma pessoa com uma doença é um exemplo clássico disso."
+    },
+    {
+        "id": "3105192",
+        "enunciado": "Para reduzir a margem de erro de um intervalo de confiança de 95% em um terço do valor do atual, mantendo o mesmo desvio padrão, é necessário:",
+        "alternativas": {
+            "A": "Aumentar o tamanho amostral em 3 vezes.",
+            "B": "Aumentar o tamanho amostral em 6 vezes.",
+            "C": "Aumentar o tamanho amostral em 9 vezes.",
+            "D": "Aumentar o tamanho amostral em 2 vezes.",
+            "E": "Não é possível afirmar."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A margem de erro (E) em um intervalo de confiança é proporcional a 1/√n. Para reduzir E em um terço (E/3), mantendo o mesmo desvio padrão e nível de confiança, o tamanho da amostra (n) deve ser aumentado em 3² = 9 vezes."
+    },
+    {
+        "id": "3134177",
+        "enunciado": "Em uma população, 10% das pessoas têm uma dada comorbidade. Se quatro pessoas forem aleatoriamente sorteadas, com reposição, dessa população, a probabilidade de que ao menos uma apresente a referida comorbidade é, aproximadamente, igual a",
+        "alternativas": {
+            "A": "0,34.",
+            "B": "0,42.",
+            "C": "0,54.",
+            "D": "0,66.",
+            "E": "0,78."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A probabilidade de uma pessoa NÃO ter a comorbidade é 1 - 0,10 = 0,90. A probabilidade de NENHUMA das quatro ter comorbidade é (0,90)⁴ = 0,6561. A probabilidade de ao menos uma ter é 1 - 0,6561 = 0,3439, aproximadamente 0,34."
+    },
+    {
+        "id": "3105193",
+        "enunciado": "Em uma análise de regressão, se o coeficiente de determinação r2 = 1, então:(Considere SQT = Soma de quadrados total; SQE = Soma de quadrados do erro; SQR = Soma de quadrados da regressão.)",
+        "alternativas": {
+            "A": "SQE = SQT.",
+            "B": "SQE = 1.",
+            "C": "SQR = SQE.",
+            "D": "SQR = SQT.",
+            "E": "SQR > SQT."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O coeficiente de determinação (r²) representa a proporção da variância total da variável dependente que é explicada pelo modelo de regressão. Se r² = 1, significa que todo o SQT é explicado pela regressão, logo, SQR = SQT."
+    },
+    {
+        "id": "3105194",
+        "enunciado": "Em um gráfico de resíduos em uma análise de regressão, são exibidos:",
+        "alternativas": {
+            "A": "Resíduos da variável explicativa versus resíduos da variável de resposta.",
+            "B": "Resíduos da variável explicativa versus a variável de resposta.",
+            "C": "A variável explicativa versus a variável de resposta.",
+            "D": "A variável explicativa sobre o eixo x, contra a variável resposta sobre o eixo y.",
+            "E": "A variável explicativa versus resíduos da variável resposta."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Um gráfico de resíduos em análise de regressão plota os resíduos (diferença entre o valor observado e o previsto) contra uma variável, geralmente a variável explicativa ou os valores previstos. A alternativa E descreve a relação mais comum e informativa para avaliar a adequação do modelo."
+    },
+    {
+        "id": "3105195",
+        "enunciado": "Se, em um teste de hipóteses, reduzirmos o valor do erro do tipo I, definindo um novo valor da região crítica, por exemplo, definindo o valor do erro de tipo I de 0,05 para 0,01, o que ocorrerá?",
+        "alternativas": {
+            "A": "Alfa irá aumentar.",
+            "B": "Alfa não irá se alterar.",
+            "C": "Não existirá mudanças no erro tipo II.",
+            "D": "O poder do teste irá aumentar.",
+            "E": "O poder do teste irá reduzir"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Reduzir o erro tipo I (alfa) aumenta a chance de cometer o erro tipo II (beta), pois a região de rejeição se torna menor. Consequentemente, o poder do teste (1 - beta) diminui."
+    },
+    {
+        "id": "3134179",
+        "enunciado": "Se uma variável aleatória X tem distribuição normal com média15 e variância 4, então P[ X > 20] é, aproximadamente, igual a",
+        "alternativas": {
+            "A": "0,2%.",
+            "B": "0,6%.",
+            "C": "0,9%.",
+            "D": "1,4%.",
+            "E": "1,8%."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134180",
+        "enunciado": "Uma amostra aleatória simples de 625 trabalhadores mostrou que, desses, 125 estavam desempregados. Um intervalo aproximado de 95% de confiança para a verdadeira proporção de desempregados na população de trabalhadores, será dado por",
+        "alternativas": {
+            "A": "(0,19; 0,21).",
+            "B": "(0,17; 0,23).",
+            "C": "(0,16; 0,24).",
+            "D": "(0,15; 0,25).",
+            "E": "(0,14; 0,26)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3105196",
+        "enunciado": "Suponha que estimamos um modelo de regressão linear múltiplo com os regressoresX1 e X2, pelo método dos mínimos quadrados. Em seguida, reestimamos o modelo com um terceiro regressor, X3, adicionado ao modelo original. Os coeficientes estimados de X1 e X2 permanecerão inalterados se:",
+        "alternativas": {
+            "A": "A correlação amostral entre X1 e X2 é zero.",
+            "B": "A correlação amostral entre X3 e X1 e entre X3 e X2 é zero.",
+            "C": "A correlação amostral entre X3 e X1 é zero.",
+            "D": "X1 é uma variável intercepta, isto é, um vetor de uns.",
+            "E": "A correlação amostral entre X3 e X2 é zero."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os coeficientes estimados de X1 e X2 só permanecerão inalterados ao adicionar X3 se X3 não tiver correlação com X1 e X2, pois isso evita que X3 'capture' parte da variabilidade explicada por X1 e X2, distorcendo seus coeficientes (multicolinearidade)."
+    },
+    {
+        "id": "3105197",
+        "enunciado": "Nos processos de séries temporais ARMA, os gráficos FAC (Função de Autocorrelação)do FACP (Autocorrelação Parcial) nos auxiliam a identificar os modelos corretos. Sendo assim, assinale a alternativa correta.Padrão FAC(I). Infinita: decai para zero (exponencialmente ou segundo uma senoide amortecida).(II). Finita: decai bruscamente para zero a partir do lag q.(III). Infinita: decai para zero (exponencialmente ou segundo uma senoide amortecida).",
+        "alternativas": {
+            "A": "O modelo AR(p) possui comportamento do FAC (II).",
+            "B": "O modelo MA(q) possui comportamento do FAC (III).",
+            "C": "O modelo ARMA (p,q) possui comportamento FAC (II).",
+            "D": "O modelo ARMA (p,q) possui comportamento FAC (III).",
+            "E": "O modelo MA(q) possui comportamento do FAC (I)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3105175",
+        "enunciado": "Estatísticas descritivas sintetizam os dados resumindo a informação. São medidas deposição e dispersão, respectivamente:",
+        "alternativas": {
+            "A": "Amplitude e desvio padrão.",
+            "B": "Quartis e coeficiente de variação.",
+            "C": "Variância e média.",
+            "D": "Mediana e quartis.",
+            "E": "Moda e percentis."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Estatísticas descritivas incluem medidas de posição (como quartis) e de dispersão (como coeficiente de variação). Amplitude é de dispersão, variância é de dispersão, média e mediana são de posição, moda é de posição e percentis são de posição. Portanto, a alternativa B é a única que apresenta ambas as categorias corretamente."
+    },
+    {
+        "id": "3105176",
+        "enunciado": "Se a mediana de um determinado processo for igual a 7, isso quer dizer que:",
+        "alternativas": {
+            "A": "O 7º valor da amostra representará a mediana.",
+            "B": "O 7º valor da amostra ordenada representará a mediana.",
+            "C": "A posição mediana é 7.",
+            "D": "50% dos valores da amostra são iguais a 7.",
+            "E": "50% dos valores da amostra são menores ou iguais a 7."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A mediana representa o valor central em um conjunto de dados ordenado. Ao afirmar que 50% dos valores são menores ou iguais a 7, e os outros 50% são maiores ou iguais a 7, descreve-se corretamente a propriedade da mediana."
+    },
+    {
+        "id": "3105177",
+        "enunciado": "Considere que, em 100 pessoas, 20% estão contaminadas com o Covid-19.Selecionando 5 pessoas desta amostra sem reposição, qual a chance de 2 estarem contaminadas e terem sido escolhidas? Para resolver esse problema, qual distribuição estatística deve ser utilizada?",
+        "alternativas": {
+            "A": "Distribuição normal.",
+            "B": "Distribuição binomial.",
+            "C": "Distribuição hipergeométrica.",
+            "D": "Distribuição de Poisson.",
+            "E": "Distribuição binomial negativa."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O problema envolve a seleção de uma amostra sem reposição de uma população finita com dois resultados (contaminado/não contaminado). Essa situação é modelada pela distribuição hipergeométrica, ao contrário da binomial, que assume reposição ou população infinita."
+    },
+    {
+        "id": "3105178",
+        "enunciado": "Assumindo que todas as outras variáveis permaneçam inalteradas, para diminuir a amplitude do intervalo de confiança de uma amostra, o que deve acontecer com o tamanho dessa amostra?",
+        "alternativas": {
+            "A": "Aumentar.",
+            "B": "Permanecer igual.",
+            "C": "Diminuir.",
+            "D": "Nada se pode afirmar.",
+            "E": "Aumentar ou diminuir."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A amplitude de um intervalo de confianca é diretamente proporcional ao tamanho da amostra. Para diminuir a amplitude, mantendo o nivel de confianca, o tamanho da amostra precisa ser aumentado."
+    },
+    {
+        "id": "3105179",
+        "enunciado": "Qual a distribuição estatística de probabilidade associada à quantidade de enfartes por dia na cidade de Porto Alegre?",
+        "alternativas": {
+            "A": "Binomial.",
+            "B": "Normal.",
+            "C": "Exponencial.",
+            "D": "Poisson.",
+            "E": "Hipergeométrica."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A distribuição de Poisson é adequada para modelar a ocorrência de eventos raros e independentes em um intervalo de tempo ou espaço, como o número de enfartes por dia. As outras distribuições não se encaixam nessa situação específica."
+    },
+    {
+        "id": "3105180",
+        "enunciado": "Qual o desvio padrão de uma amostra que possui distribuição exponencial com média 50?",
+        "alternativas": {
+            "A": "0,8.",
+            "B": "0,02.",
+            "C": "12,5.",
+            "D": "25,0.",
+            "E": "50,0."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Para uma distribuição exponencial, a média é igual ao desvio padrão (µ = σ). Portanto, se a média é 50, o desvio padrão também é 50."
+    },
+    {
+        "id": "3105181",
+        "enunciado": "O poder do teste de hipóteses para diferença entre médias é medido por:",
+        "alternativas": {
+            "A": "Alfa.",
+            "B": "1-alfa.",
+            "C": "Beta.",
+            "D": "1-beta.",
+            "E": "Alfa-beta."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O poder do teste de hipóteses (1-beta) mede a probabilidade de rejeitar corretamente a hipótese nula quando ela é falsa, ou seja, a capacidade do teste em detectar um efeito real."
+    },
+    {
+        "id": "3105182",
+        "enunciado": "Das seguintes definições, qual é verdadeira no modelo de regressão com b0 = -400; b1=0,00 e n=10?",
+        "alternativas": {
+            "A": "Não existe relacionamento entre x e y.",
+            "B": "x e y são positivamente correlacionadas.",
+            "C": "x e y são negativamente relacionadas.",
+            "D": "O erro padrão da estimativa é alto.",
+            "E": "O relacionamento entre x e y é não linear."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No modelo de regressao, b1 representa o coeficiente angular. Se b1 = 0,00, significa que a variavel x nao tem influencia linear sobre y. Portanto, nao ha relacao linear entre x e y."
+    },
+    {
+        "id": "3105183",
+        "enunciado": "Cinco dados de seis lados são lançados juntos 100 vezes. Dois histogramas são construídos: um para os resultados de 500 indivíduos e outro para as 100 médias de cinco resultados. Nesta situação, os resultados individuais e as médias seguem, respectivamente, as seguintes distribuições:",
+        "alternativas": {
+            "A": "Distribuição uniforme discreta e distribuição t.",
+            "B": "Distribuição normal e distribuição uniforme discreta.",
+            "C": "Distribuição uniforme discreta e distribuição normal.",
+            "D": "Distribuição binomial e distribuição normal.",
+            "E": "Distribuição uniforme discreta e distribuição binomial."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Os resultados individuais de lançamentos de dados (assumindo dados justos) seguem uma distribuição uniforme discreta. Pelo Teorema do Limite Central, as médias de amostras suficientemente grandes, independentemente da distribuição original, tendem a seguir uma distribuição normal."
+    },
+    {
+        "id": "3105184",
+        "enunciado": "Um conjunto de dados possui distribuição normal com média 100 e desvio padrão10. A área correspondente ao intervalo de 70 a 130 é igual a:",
+        "alternativas": {
+            "A": "68,26%.",
+            "B": "99%.",
+            "C": "95,44%.",
+            "D": "99,73%.",
+            "E": "99,994%."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3105185",
+        "enunciado": "As técnicas de amostragem podem ser classificadas como amostras probabilísticas e amostras não probabilísticas. São, respectivamente, uma técnica probabilística e uma técnica não probabilística:",
+        "alternativas": {
+            "A": "Amostra aleatória simples e amostra sistemática.",
+            "B": "Amostra por cotas e amostra por julgamento.",
+            "C": "Amostra por conglomerado (cluster) e amostra por cotas.",
+            "D": "Amostra aleatória simples e amostra por conglomerado (cluster).",
+            "E": "Amostra por cotas e amostra por conveniência."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A amostra por conglomerado (cluster) é probabilística, pois todos os conglomerados têm chance de serem selecionados e todos os elementos dentro deles são incluídos. A amostra por cotas é não probabilística, pois a seleção dos indivíduos dentro das cotas não é aleatória."
+    },
+    {
+        "id": "3105186",
+        "enunciado": "Assinale a alternativa que indica uma desvantagem da técnica de amostragem sistemática.",
+        "alternativas": {
+            "A": "Não ser probabilística.",
+            "B": "Exigir grandes tamanhos de amostragem.",
+            "C": "Podem ocorrer problemas se existir algum tipo de periocidade oculta.",
+            "D": "Alta complexidade.",
+            "E": "Erro elevado."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A amostragem sistemática assume uma distribuição aleatória dos elementos. Se houver uma periodicidade oculta na população que coincida com o intervalo de seleção (k), a amostra resultante pode não ser representativa, introduzindo um viés."
+    },
+    {
+        "id": "3105187",
+        "enunciado": "Em uma ANOVA one way, o que é comparado?",
+        "alternativas": {
+            "A": "A estatística observada do teste-z sobre vários níveis de significância.",
+            "B": "A estatística observada do teste-z versus o valor crítico.",
+            "C": "A estatística observada do teste-t versus o valor crítico.",
+            "D": "A estatística observada do teste-F versus o valor crítico.",
+            "E": "A estatística observada do teste-F versus vários níveis de significância."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A ANOVA (Análise de Variância) compara as médias de três ou mais grupos. Para isso, utiliza a estatística F, que é a razão entre a variância entre os grupos e a variância dentro dos grupos, comparada com um valor crítico da distribuição F."
+    },
+    {
+        "id": "3105188",
+        "enunciado": "Qual método de previsão de Séries Temporais deve ser utilizado quando temos tendência e sazonalidade presentes nos dados?",
+        "alternativas": {
+            "A": "Decomposição.",
+            "B": "Média Móvel.",
+            "C": "Alisamento exponencial simples.",
+            "D": "Alisamento exponencial duplo.",
+            "E": "Análise de tendência com regressão linear."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O metodo de decomposicao de séries temporais e indicado quando ha presenca de tendencia e sazonalidade nos dados. Ele permite separar esses componentes e modela-los individualmente."
+    },
+    {
+        "id": "3105189",
+        "enunciado": "Qual o percentual de (1-alfa)*100% do intervalo de confiança para μ em que falha em capturar μ?",
+        "alternativas": {
+            "A": "(1-alfa)*100%.",
+            "B": "alfa*100%.",
+            "C": "5%.",
+            "D": "1%.",
+            "E": "Não é possível afirmar."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O intervalo de confiança para μ tem uma probabilidade de (1-alfa) de capturar o verdadeiro valor de μ. Consequentemente, a probabilidade de falha em capturar μ é de 1 - (1-alfa), que é igual a alfa. Assim, a porcentagem de falha é alfa*100%."
+    },
+    {
+        "id": "3105190",
+        "enunciado": "A média de altura de todos os alunos de uma Universidade é o tema de nosso interesse. Uma amostra da média das alturas dos alunos masculinos da cadeira de Inferência é de1,75 m. A média da altura de todos os alunos, a amostra da média da altura de alunos masculinos da cadeira de Estatística e o valor de 1,75 m são, respectivamente, denominados:",
+        "alternativas": {
+            "A": "Parâmetro, estimativa e estimador.",
+            "B": "Parâmetro, estimador e estimativa.",
+            "C": "Estimador, parâmetro e estimativa.",
+            "D": "Estimativa, parâmetro e estimador.",
+            "E": "Estimador, estimativa e parâmetro."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Parâmetro é o valor verdadeiro da população (média de altura de todos os alunos). Estimador é a regra usada para calcular a estatística a partir da amostra (média da altura dos alunos masculinos da cadeira de Estatística). Estimativa é o valor numérico obtido pelo estimador (1,75 m)."
+    },
+    {
+        "id": "3105191",
+        "enunciado": "Analise as descrições abaixo:Constante numérica que descreve a população.A chance do pesquisador em não capturar o parâmetro no intervalo de confiança.O desvio padrão da distribuição amostral da média.Assinale a alternativa que apresenta a correta definição de cada uma das descrições acima.",
+        "alternativas": {
+            "A": "1. Parâmetro – 2. Alfa – 3. Erro padrão da média.",
+            "B": "1. Parâmetro – 2. Erro padrão da média – 3. alfa.",
+            "C": "1. Estimativa – 2. Erro padrão da média – 3. 1-alfa.",
+            "D": "1. Estimador – 2. Alfa – 3. Erro padrão da média.",
+            "E": "1. Parâmetro – 2. 1-alfa – 3. Erro padrão da média."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A primeira descricao, 'Constante numerica que descreve a populacao', e um parametro. A segunda, 'A chance do pesquisador em nao capturar o parametro no intervalo de confianca', e o nivel de significância alfa. A terceira, 'O desvio padrao da distribuicao amostral da media', e o erro padrao da media."
+    },
+    {
+        "id": "3134173",
+        "enunciado": "Dois eventos independentes A e B têm probabilidades respectivas iguais a 0,4 e 0,5.A probabilidade de A∪B ocorrer é igual a",
+        "alternativas": {
+            "A": "0,5",
+            "B": "0,6",
+            "C": "0,7",
+            "D": "0,8",
+            "E": "0,9"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para eventos independentes, P(A∪B) = P(A) + P(B) - P(A∩B). Como são independentes, P(A∩B) = P(A) * P(B). Assim, P(A∪B) = 0,4 + 0,5 - (0,4 * 0,5) = 0,9 - 0,2 = 0,7."
+    },
+    {
+        "id": "3134174",
+        "enunciado": "Dois eventos A e B são tais que P[A] = 0,8, P[B] = 0,5 e P[A|B]=0,4.Assim, a probabilidade condicional P[B|A] é igual a",
+        "alternativas": {
+            "A": "15%.",
+            "B": "25%.",
+            "C": "30%.",
+            "D": "40%.",
+            "E": "50%."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134175",
+        "enunciado": "Se A e B são eventos possíveis, avalie as afirmativas a seguir.Se A e B são mutuamente exclusivos então são independentes.Se P[A] = 0,5 e P[B] = 0,7 então P[A∩B] não pode ser igual a 0,4.Se A e B são independentes então podem ser mutuamente exclusivos.Está correto o que se afirma em",
+        "alternativas": {
+            "A": "se nenhuma afirmativa estiver correta.",
+            "B": "I, apenas.",
+            "C": "II, apenas.",
+            "D": "I e III, apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134176",
+        "enunciado": "Em uma população muito grande, pessoas serão aleatoriamente escolhidas até que uma pessoa acometida por uma certa doença seja encontrada. A variável aleatória que contará quantas pessoas serão observadas até que tal pessoa seja encontrada, tem distribuição de probabilidades",
+        "alternativas": {
+            "A": "binomial.",
+            "B": "Poisson.",
+            "C": "geométrica.",
+            "D": "hipergeométrica.",
+            "E": "binomial negativa."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A variável aleatória que conta o número de tentativas até o primeiro sucesso em uma sequência de experimentos independentes com probabilidade de sucesso constante segue a distribuição geométrica. A busca por uma pessoa com uma doença é um exemplo clássico disso."
+    },
+    {
+        "id": "3105192",
+        "enunciado": "Para reduzir a margem de erro de um intervalo de confiança de 95% em um terço do valor do atual, mantendo o mesmo desvio padrão, é necessário:",
+        "alternativas": {
+            "A": "Aumentar o tamanho amostral em 3 vezes.",
+            "B": "Aumentar o tamanho amostral em 6 vezes.",
+            "C": "Aumentar o tamanho amostral em 9 vezes.",
+            "D": "Aumentar o tamanho amostral em 2 vezes.",
+            "E": "Não é possível afirmar."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A margem de erro (E) em um intervalo de confiança é proporcional a 1/√n. Para reduzir E em um terço (E/3), mantendo o mesmo desvio padrão e nível de confiança, o tamanho da amostra (n) deve ser aumentado em 3² = 9 vezes."
+    },
+    {
+        "id": "3134177",
+        "enunciado": "Em uma população, 10% das pessoas têm uma dada comorbidade. Se quatro pessoas forem aleatoriamente sorteadas, com reposição, dessa população, a probabilidade de que ao menos uma apresente a referida comorbidade é, aproximadamente, igual a",
+        "alternativas": {
+            "A": "0,34.",
+            "B": "0,42.",
+            "C": "0,54.",
+            "D": "0,66.",
+            "E": "0,78."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A probabilidade de uma pessoa NÃO ter a comorbidade é 1 - 0,10 = 0,90. A probabilidade de NENHUMA das quatro ter comorbidade é (0,90)⁴ = 0,6561. A probabilidade de ao menos uma ter é 1 - 0,6561 = 0,3439, aproximadamente 0,34."
+    },
+    {
+        "id": "3105193",
+        "enunciado": "Em uma análise de regressão, se o coeficiente de determinação r2 = 1, então:(Considere SQT = Soma de quadrados total; SQE = Soma de quadrados do erro; SQR = Soma de quadrados da regressão.)",
+        "alternativas": {
+            "A": "SQE = SQT.",
+            "B": "SQE = 1.",
+            "C": "SQR = SQE.",
+            "D": "SQR = SQT.",
+            "E": "SQR > SQT."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O coeficiente de determinação (r²) representa a proporção da variância total da variável dependente que é explicada pelo modelo de regressão. Se r² = 1, significa que todo o SQT é explicado pela regressão, logo, SQR = SQT."
+    },
+    {
+        "id": "3105194",
+        "enunciado": "Em um gráfico de resíduos em uma análise de regressão, são exibidos:",
+        "alternativas": {
+            "A": "Resíduos da variável explicativa versus resíduos da variável de resposta.",
+            "B": "Resíduos da variável explicativa versus a variável de resposta.",
+            "C": "A variável explicativa versus a variável de resposta.",
+            "D": "A variável explicativa sobre o eixo x, contra a variável resposta sobre o eixo y.",
+            "E": "A variável explicativa versus resíduos da variável resposta."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Um gráfico de resíduos em análise de regressão plota os resíduos (diferença entre o valor observado e o previsto) contra uma variável, geralmente a variável explicativa ou os valores previstos. A alternativa E descreve a relação mais comum e informativa para avaliar a adequação do modelo."
+    },
+    {
+        "id": "3105195",
+        "enunciado": "Se, em um teste de hipóteses, reduzirmos o valor do erro do tipo I, definindo um novo valor da região crítica, por exemplo, definindo o valor do erro de tipo I de 0,05 para 0,01, o que ocorrerá?",
+        "alternativas": {
+            "A": "Alfa irá aumentar.",
+            "B": "Alfa não irá se alterar.",
+            "C": "Não existirá mudanças no erro tipo II.",
+            "D": "O poder do teste irá aumentar.",
+            "E": "O poder do teste irá reduzir"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Reduzir o erro tipo I (alfa) aumenta a chance de cometer o erro tipo II (beta), pois a região de rejeição se torna menor. Consequentemente, o poder do teste (1 - beta) diminui."
+    },
+    {
+        "id": "3134179",
+        "enunciado": "Se uma variável aleatória X tem distribuição normal com média15 e variância 4, então P[ X > 20] é, aproximadamente, igual a",
+        "alternativas": {
+            "A": "0,2%.",
+            "B": "0,6%.",
+            "C": "0,9%.",
+            "D": "1,4%.",
+            "E": "1,8%."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134180",
+        "enunciado": "Uma amostra aleatória simples de 625 trabalhadores mostrou que, desses, 125 estavam desempregados. Um intervalo aproximado de 95% de confiança para a verdadeira proporção de desempregados na população de trabalhadores, será dado por",
+        "alternativas": {
+            "A": "(0,19; 0,21).",
+            "B": "(0,17; 0,23).",
+            "C": "(0,16; 0,24).",
+            "D": "(0,15; 0,25).",
+            "E": "(0,14; 0,26)."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3105196",
+        "enunciado": "Suponha que estimamos um modelo de regressão linear múltiplo com os regressoresX1 e X2, pelo método dos mínimos quadrados. Em seguida, reestimamos o modelo com um terceiro regressor, X3, adicionado ao modelo original. Os coeficientes estimados de X1 e X2 permanecerão inalterados se:",
+        "alternativas": {
+            "A": "A correlação amostral entre X1 e X2 é zero.",
+            "B": "A correlação amostral entre X3 e X1 e entre X3 e X2 é zero.",
+            "C": "A correlação amostral entre X3 e X1 é zero.",
+            "D": "X1 é uma variável intercepta, isto é, um vetor de uns.",
+            "E": "A correlação amostral entre X3 e X2 é zero."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os coeficientes estimados de X1 e X2 só permanecerão inalterados ao adicionar X3 se X3 não tiver correlação com X1 e X2, pois isso evita que X3 'capture' parte da variabilidade explicada por X1 e X2, distorcendo seus coeficientes (multicolinearidade)."
+    },
+    {
+        "id": "3105197",
+        "enunciado": "Nos processos de séries temporais ARMA, os gráficos FAC (Função de Autocorrelação)do FACP (Autocorrelação Parcial) nos auxiliam a identificar os modelos corretos. Sendo assim, assinale a alternativa correta.Padrão FAC(I). Infinita: decai para zero (exponencialmente ou segundo uma senoide amortecida).(II). Finita: decai bruscamente para zero a partir do lag q.(III). Infinita: decai para zero (exponencialmente ou segundo uma senoide amortecida).",
+        "alternativas": {
+            "A": "O modelo AR(p) possui comportamento do FAC (II).",
+            "B": "O modelo MA(q) possui comportamento do FAC (III).",
+            "C": "O modelo ARMA (p,q) possui comportamento FAC (II).",
+            "D": "O modelo ARMA (p,q) possui comportamento FAC (III).",
+            "E": "O modelo MA(q) possui comportamento do FAC (I)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134181",
+        "enunciado": "Planeja-se estimar o parâmetro p de uma distribuição Bernoulli a partir de uma amostra aleatória simples. Como sabemos, p é à proporção de “sucessos” na população. Avalie, então, se as afirmativas a seguir, acerca do estimador ”proporção de sucessos na amostra”, estão corretas.É estimador de máxima verossimilhança.É estimador não tendencioso.É estatística suficiente.Está correto o que se afirma em",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "I e II, apenas.",
+            "C": "I e III, apenas.",
+            "D": "II e III, apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O estimador 'proporção de sucessos na amostra' (a média amostral) é, de fato, o estimador de máxima verossimilhança para p em uma distribuição Bernoulli. Ele também é um estimador não tendencioso e uma estatística suficiente para p."
+    },
+    {
+        "id": "3105198",
+        "enunciado": "Considere o modelo de série temporal AR(1) que tenha uma perturbação com média zero e variância constante.yt = 0,2 + 0,8yt-1 + utA média incondicional de y é:",
+        "alternativas": {
+            "A": "0,8.",
+            "B": "0,2.",
+            "C": "1.",
+            "D": "1,25.",
+            "E": "5."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para um modelo AR(1) estacionário, a média incondicional é dada por Média = constante / (1 - coeficiente AR). Neste caso, Média = 0.2 / (1 - 0.8) = 0.2 / 0.2 = 1. A média incondicional, como a constante é 0.2 e o coeficiente é 0.8, calculamos 0.2 / (1-0.8) = 0.2 / 0.2 = 1."
+    },
+    {
+        "id": "3134182",
+        "enunciado": "Uma amostra aleatória simples X1, X2, X3, de tamanho 3, de uma população com média µ será obtida.Avalie, então, se os seguintes estimadores são não-tendenciosos para µ:T1 = X1 + X2 + X3T2 = (X1 + X2 + X3)/3T3 = X1 – X2 + X3Assinale:",
+        "alternativas": {
+            "A": "se apenas o estimador T2 é não-tendencioso.",
+            "B": "se apenas os estimadores T1 e T2 são não-tendenciosos.",
+            "C": "se apenas os estimadores T1 e T3 são não-tendenciosos.",
+            "D": "se apenas os estimadores T2 e T3 são não-tendenciosos.",
+            "E": "se os estimadores T1, T2 e T3 são não-tendenciosos."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134183",
+        "enunciado": "Os táxis, em uma determinada cidade, são numerados de 1 a n, ou seja, n é quantidade de táxis na cidade. Para estimar n, uma amostra aleatória simples de 10 números de táxis indicou as seguintes numerações:23, 35, 57, 102, 305, 38, 48, 204, 245, 267.A estimativa de máxima verossimilhança de n é",
+        "alternativas": {
+            "A": "132.",
+            "B": "267.",
+            "C": "289.",
+            "D": "305.",
+            "E": "328."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3105199",
+        "enunciado": "Queremos comparar 4 amostras distintas em relação à tendência central, verificando se provém da mesma população. A análise preliminar dos dados desta amostra mostrou que todas as amostras apresentam uma forte não normalidade, com uma forte assimetria. Nessa situação, qual seria o melhor tipo de teste de hipóteses para ser utilizado?",
+        "alternativas": {
+            "A": "Teste Mann-Whitney.",
+            "B": "Teste Kruskal-Wallis.",
+            "C": "Teste ANOVA one way.",
+            "D": "Teste Friedman.",
+            "E": "Teste exato de Fisher."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134184",
+        "enunciado": "As distribuições de probabilidade, apresentadas a seguir, pertencem à família exponencial, exceto uma. Assinale-a.",
+        "alternativas": {
+            "A": "Bernoulli.",
+            "B": "Uniforme.",
+            "C": "Geométrica.",
+            "D": "Poisson.",
+            "E": "Hipergeométrica."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A distribuicao uniforme e a unica apresentada que nao pertence a familia exponencial das distribuicoes de probabilidade."
+    },
+    {
+        "id": "3105200",
+        "enunciado": "Qual seria o teste não paramétrico alternativo para o teste ANOVA two way?",
+        "alternativas": {
+            "A": "Teste Friedman.",
+            "B": "Kruskal-Wallis.",
+            "C": "Moods Median.",
+            "D": "Teste Levene.",
+            "E": "Teste F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134185",
+        "enunciado": "Uma amostra aleatória simples de tamanho 25 de uma distribuição normal com média µ e variância σ2 desconhecidas, apresentou os seguintes dados suficientes: Média amostral = 40,0 Desvio-padrão amostral = 2,5Um intervalo de 95% de confiança para µ será dado, aproximadamente, por",
+        "alternativas": {
+            "A": "(39,0; 41,0).",
+            "B": "(38,6; 41,4).",
+            "C": "(38,0; 42,0).",
+            "D": "(37,6; 42,4).",
+            "E": "(37,0; 43,0)."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134186",
+        "enunciado": "X e Y são variáveis aleatórias independentes, com médias E[ X ] =2 e E[ Y ] = 4 e variâncias Var[ X ] = 2 e Var[ Y ] = 5.A variável W = 4Y – 3 X tem média e variância iguais, respectivamente, a",
+        "alternativas": {
+            "A": "8 e 56.",
+            "B": "8 e 62.",
+            "C": "8 e 74.",
+            "D": "10 e 98.",
+            "E": "10 e 106."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134187",
+        "enunciado": "Para testar H0: p ≤ 0,5 versus H1: p > 0,5, em que p é uma proporção de “sucessos” populacional, uma amostra aleatória simples de tamanho 144 será obtida e será usado o critério dê decisão que rejeitará H0 se a proporção de “sucessos” observada na amostra for maior do que 0,6.O nível de significância desse critério é, aproximadamente, igual a",
+        "alternativas": {
+            "A": "0,01.",
+            "B": "0,02.",
+            "C": "0,03.",
+            "D": "0,04.",
+            "E": "0,05."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3105202",
+        "enunciado": "Um produto entra em oferta com uma baixa de 10% sobre o preço original, patrocinada pelo fabricante, mas, em função dos concorrentes, o varejista oferece um desconto adicional, sobre o preço rebaixado, de 10%. Qual o valor total da baixa?",
+        "alternativas": {
+            "A": "20%.",
+            "B": "19,5%.",
+            "C": "19%.",
+            "D": "18%.",
+            "E": "15%."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O primeiro desconto é de 10%, reduzindo o preço para 90%. O segundo desconto de 10% é aplicado sobre o preço rebaixado (90%), então 10% de 90% é 9%. O preço final é 90% - 9% = 81% do original. A baixa total é 100% - 81% = 19%."
+    },
+    {
+        "id": "3105203",
+        "enunciado": "Uma pesquisa de intenção de voto foi realizada. Para seu cadastramento no Tribunal Regional Eleitoral, foi solicitado o registro de um estatístico responsável. Um amigo seu solicitou seu registro e assinatura no Conselho Regional de Estatística como estatístico responsável. Nesse caso, você não participou do planejamento da pesquisa eleitoral. Qual a postura correta em relação à ética profissional?",
+        "alternativas": {
+            "A": "Você pode assinar sem problemas.",
+            "B": "Você não pode assinar, pois fere a ética profissional.",
+            "C": "Você pode assinar apenas se concordar com como foi feito o trabalho.",
+            "D": "Você não pode assinar, porém a empresa pode utilizar, no trabalho, o número de seu registro do Conselho Regional de Estatística como responsável pela pesquisa.",
+            "E": "Você pode assinar, desde que o trabalho tenha sido feito e interrompido por outro estatístico, não sendo necessário comunicar-se com ele."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O profissional de estatística, ao assinar como responsável técnico por uma pesquisa, assume responsabilidade técnica e ética pelo planejamento e execução. Assinar sem ter participado do planejamento fere o código de ética, pois implica em endossar um trabalho que não foi supervisionado desde o seu início."
+    },
+    {
+        "id": "3134188",
+        "enunciado": "Se X tem distribuição binomial (n, p), então a média e a variância de X são, respectivamente,",
+        "alternativas": {
+            "A": "np e np(1 – p).",
+            "B": "p e p(1 – p)/n.",
+            "C": "np e np2.",
+            "D": "p e np(1 – p).",
+            "E": "np e p(1 – p)."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A distribuição binomial (n, p) descreve o número de sucessos em n tentativas independentes, cada uma com probabilidade de sucesso p. Sua média é np e sua variância é np(1-p)."
+    },
+    {
+        "id": "3105204",
+        "enunciado": "Em um teste de QI com distribuição normal, em que a média é 100 e o desvio padrão é 10, gostaríamos de separar os alunos com 2,28% do percentual mais elevado no teste. Qual deve ser a nota de corte para separar os que alunos que têm 2,28% com notas mais elevadas?",
+        "alternativas": {
+            "A": "110.",
+            "B": "115.",
+            "C": "120.",
+            "D": "130.",
+            "E": "140."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Em uma distribuição normal com média 100 e desvio padrão 10, percentis elevados geralmente correspondem a valores z significativos. 2,28% do percentual mais elevado corresponde a aproximação de 2 desvios padrão acima da média (z=2). Nota de corte = Média + z * Desvio Padrão = 100 + 2 * 10 = 120."
+    },
+    {
+        "id": "3134189",
+        "enunciado": "Se X tem distribuição normal com média µ e desvio padrão σ,avalie se as afirmativas a seguir estão corretas:A função de densidade de probabilidade de X é simétrica em relação a µ.P[ µ – 2 < X < µ + 2] ≅ 0,95.P [ X > µ – 3] ≅ 1.Está correto o que se afirma em",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "I e II, apenas.",
+            "C": "I e III, apenas.",
+            "D": "II e III, apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134190",
+        "enunciado": "Para testar H0: µ ≤ 20 contra H1: µ > 20, em que µ é a média de uma distribuição normal com variância igual a 4, uma amostra aleatória simples de tamanho 100 foi observada e revelou uma média amostral igual a 20, 3.O p-valor aproximado associado ao teste uniformemente mais poderoso de tamanho α e a respectiva decisão ao nível α = 0,01são, respectivamente,",
+        "alternativas": {
+            "A": "0,067 e rejeitar H0.",
+            "B": "0,006 e não rejeitar H0.",
+            "C": "0,067 e não rejeitar H0.",
+            "D": "0,006 e rejeitar H0.",
+            "E": "0,344 e não rejeitar H0."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3134191",
+        "enunciado": "Suponha que carros passem por um posto de observação em uma estrada remota de acordo com um processo Poisson, com taxa média de ocorrência igual a 2 carros por minuto. Se um carro acaba de passar por esse posto, o tempo de espera, até que o próximo carro passe pelo posto, tem distribuição de probabilidades:",
+        "alternativas": {
+            "A": "cauchy (α = 1, β = 2).",
+            "B": "beta (α = 1, β = 2).",
+            "C": "uniforme (0, 2).",
+            "D": "exponencial (λ = 2).",
+            "E": "normal (µ = 2, σ2 = 1)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O tempo entre ocorrências em um processo Poisson segue uma distribuição exponencial. Se a taxa média de ocorrência é λ carros por minuto, o tempo de espera entre carros tem distribuição exponencial com parâmetro λ. Aqui, λ = 2 carros/minuto."
+    },
+    {
+        "id": "3134192",
+        "enunciado": "Se X1, X2, ... Xn é uma amostra aleatória simples de uma determinada distribuição de probabilidades f(x), avalie se as afirmativas a seguir estão corretas.X1, X2, ... Xn são independentes.X1, X2, ... Xn são identicamente distribuídos.Nem sempre cada Xi, i = 1,..., n, tem distribuição f(x).Está correto o que se afirma em",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "I e II, apenas.",
+            "C": "I e III, apenas.",
+            "D": "II e III, apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na definicao de amostra aleatoria simples, os elementos sao independentes e identicamente distribuidos. Nem sempre cada Xi tera a mesma distribuicao da populacao, mas sim da propria distribuicao que a amostra representa."
+    },
+    {
+        "id": "3134193",
+        "enunciado": "Avalie se os seguintes tipos de amostragem são probabilísticas.Amostragem estratificada.Amostragem por conglomerados.Amostragem sistemática.Assinale a opção que indica as amostragens probabilísticas.",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "I e II, apenas.",
+            "C": "I e III, apenas.",
+            "D": "II e III, apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A amostragem estratificada, por conglomerados e sistemática são todas técnicas de amostragem probabilística, pois cada elemento da população tem uma probabilidade conhecida de ser selecionado."
+    },
+    {
+        "id": "3134194",
+        "enunciado": "No cálculo do tamanho da amostra para a estimação de uma média, um aspecto muito importante é o fator de correção de população finita, a ser usado se o tamanho N da população a ser estudada não é grande o suficiente em relação ao tamanho n da amostra.Quando é esse o caso, o fator de correção a ser usado é dado por",
+        "alternativas": {
+            "A": "(N – n) / N.",
+            "B": "(N – n) / (N – 1).",
+            "C": "(N – 1) / (n – 1).",
+            "D": "n / (N – 1).",
+            "E": "n / N."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O fator de correcao para populacao finita, usado quando a amostra nao e pequena em relacao a populacao, e dado pela formula (N-n)/(N-1)."
+    },
+    {
+        "id": "3134195",
+        "enunciado": "Acerca da regressão linear, avalie as afirmativas a seguir.A regressão linear por mínimos quadrados ajustados determina uma equação que minimiza a soma dos quadrados dos resíduos.De um modo geral, podemos considerar que um modelo ajusta bem os dados se as diferenças entre os valores observados e os valores previstos pelo modelo forem pequenas e não tendenciosas.A análise do gráfico dos resíduos pode revelar padrões indesejados que indiquem resultados tendenciosos.Está correto o que se afirma em",
+        "alternativas": {
+            "A": "I, apenas.",
+            "B": "I e II, apenas.",
+            "C": "I e III, apenas.",
+            "D": "II e III, apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A análise da regressão linear por mínimos quadrados minimiza a soma dos resíduos. Um bom ajuste envolve resíduos pequenos e não tendenciosos. O gráfico dos resíduos é crucial para identificar padrões indesejáveis e tendências."
+    },
+    {
+        "id": "3134196",
+        "enunciado": "Numa regressão linear, as afirmativas a seguir, acerca do coeficiente de determinação, estão corretas, exceto uma. Assinale-a.",
+        "alternativas": {
+            "A": "Mede a porcentagem da variação total da variável resposta que é explicada pela regressão.",
+            "B": "É o quadrado do coeficiente de correlação estimado.",
+            "C": "É um número entre 0 e 1.",
+            "D": "Determina se as estimativas e predições dos coeficientes são tendenciosas.",
+            "E": "Em geral, mas nem sempre, quanto maior seu valor, melhor o modelo se ajusta aos dados"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O coeficiente de determinação (R²) mede o quão bem a regressão se ajusta aos dados. Ele não determina se as estimativas dos coeficientes são tendenciosas; isso envolve outros testes e pressupostos do modelo de regressão linear."
+    },
+    {
+        "id": "3134198",
+        "enunciado": "Suponha que X1, X2,..., Xn seja uma amostra aleatória de uma distribuição Bernoulli (θ), θ desconhecido. Se usarmos uma distribuição a priori Beta (α = 1, β = 1) para θ, sen = 10 e se as observações são, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, então a distribuição a posteriori de θ dada a amostra observada tem distribuição Beta com parâmetros iguais a",
+        "alternativas": {
+            "A": "6 e 4.",
+            "B": "7 e 5.",
+            "C": "6 e 10.",
+            "D": "8 e 6.",
+            "E": "9 e 5."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3077175",
+        "enunciado": "Em relação aos conhecimentos tratados na ciência estatística, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "A amostra representa uma cópia fidedigna da população para fins de inferência estatística.",
+            "B": "A estatística descritiva utiliza amostras representativas da população para inferir quanto às características dessa população, sendo fundamental para descrever a população.",
+            "C": "A interpolação é uma tentativa de obter uma função polinomial que melhor se ajuste a um conjunto de dados discretos.",
+            "D": "A regressão linear por meio de uma reta é possível sempre que a correlação entre duas variáveis apresente o coeficiente de correlação diferente de zero.",
+            "E": "Uma correlação perfeita entre duas variáveis implica que o coeficiente de correlação é igual a 1."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3012104",
+        "enunciado": "Para testar a eficiência de um novo adubo no crescimento de plantas, um pesquisador avaliou o crescimento de plantas que receberam o adubo em comparação com o de plantas que não receberam o adubo. Foi medido o crescimento de 30 plantas em cada grupo. Que teste estatístico deve ser utilizado para que se possa verificar se o adubo fez diferença na resposta?",
+        "alternativas": {
+            "A": "Teste-t de amostras independentes.",
+            "B": "Análise de componentes principais.",
+            "C": "Anova de duas vias.",
+            "D": "Anova aninhada.",
+            "E": "Qui-quadrado."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para comparar a media de uma variavel continua (crescimento) entre dois grupos independentes (com e sem adubo), o teste estatistico mais apropriado é o Teste-t de amostras independentes. As demais opcoes sao para comparacao de mais de dois grupos (ANOVA) ou para dados categoricos (Qui-quadrado)."
+    },
+    {
+        "id": "3012105",
+        "enunciado": "Suponha que, num ambiente lacustre muito grande, existam duas populações de peixes: uma herbívora (H) e outra carnívora (C), que se alimenta dos peixes herbívoros. Na população H, há indivíduos que conseguem escapar dos carnívoros sempre (correspondendo a 25% da população - P(H) = 0,25), e outros que não escapam. A probabilidade de que os carnívoros ocorram em alguma região do lago é de 80% (P(C) = 0,80). Suponha, também, que ambas as espécies podem chegar a qualquer região do grande lago, de maneira independente. A espécie H persiste em regiões em que não exista a espécie C, mas só persistirá em ambientes com a espécie C se tiver indivíduos que conseguem escapar. Com base nessas informações, é correto afirmar que a probabilidade de que uma região não contenha herbívoros é de:",
+        "alternativas": {
+            "A": "25%.",
+            "B": "40%.",
+            "C": "60%.",
+            "D": "75%.",
+            "E": "80%."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3012106",
+        "enunciado": "O termo estatístico graus de liberdade pode ser conceituado como:",
+        "alternativas": {
+            "A": "quantidade de amostras subtraída de um.",
+            "B": "quantidade de observações livres para serem manipuladas.",
+            "C": "número de observações feitas em uma amostra de tamanho n-1.",
+            "D": "número de observações, em uma amostra, que são “livres para variar” quando está sendo estimada a variância.",
+            "E": "número fixo de observações que podem ser realizadas em uma amostra sem variar as demais observações da mesma amostra."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os graus de liberdade referem-se ao número de observações em uma amostra que podem assumir valores independentes, sem alterar a variância calculada a partir dos dados."
+    },
+    {
+        "id": "3008225",
+        "enunciado": "H(X) [entropia de Shannon] pode ser vista como uma medida da quantidade média de informação contida em X ou, de forma equivalente, a quantidade de incerteza que existe até o valor de X ser revelado.BLOCH, M.; BARROS, J. Physical-layer security: from information theory to security engineering. Cambridge: Cambridge University Press, 2011. Tradução livre. Acerca da entropia de Shannon, e sendo X uma variável discreta aleatória, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "H(X) pode ter valores positivos e negativos. Quanto maior o valor de H(X), menos incerteza existe no sistema.",
+            "B": "H(X) pode ter qualquer valor positivo, não tendo valor limitado pelo número de valores distintos de X. Quanto maior o valor de H(X), menos incerteza existe no sistema.",
+            "C": "H(X) tem um valor positivo e limitado pelo número de valores distintos de X. Quanto maior o valor de H(X), menos incerteza existe no sistema.",
+            "D": "H(X) pode ter qualquer valor positivo, não tendo valor limitado pelo número de valores distintos de X. Quanto maior o valor de H(X), mais incerteza existe no sistema.",
+            "E": "H(X) tem um valor positivo e limitado pelo número de valores distintos de X. Quanto maior o valor de H(X), mais incerteza existe no sistema."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A entropia H(X) mede a incerteza. É sempre positiva e limitada pelo número de valores distintos de X. Quanto maior H(X), maior a incerteza."
+    },
+    {
+        "id": "3025805",
+        "enunciado": "A variável aleatória discreta, X, recebeu a seguinte sequência de valores: {6, 6, 4, 5, 6, 7, 9, 1, 8}. Assinale a alternativa que corretamente apresenta os quartis Q1, Q2 e Q3. Associados a esse conjunto de dados.",
+        "alternativas": {
+            "A": "Q1=5; Q2=6; Q3=6;",
+            "B": "Q1=4; Q2=5; Q3=6;",
+            "C": "Q1=5; Q2=6; Q3=7;",
+            "D": "Q1=5; Q2=5; Q3=6;"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Primeiro, ordenamos os dados: {1, 4, 5, 6, 6, 6, 7, 8, 9}. Com 9 valores, a mediana (Q2) é o 5º valor, que é 6. O primeiro quartil (Q1) é a mediana dos primeiros 4 valores: {1, 4, 5, 6}, sendo a média de 4 e 5, que é 5. O terceiro quartil (Q3) é a mediana dos últimos 4 valores: {6, 7, 8, 9}, sendo a média de 7 e 8, que é 7."
+    },
+    {
+        "id": "3025807",
+        "enunciado": "A mega sena é a loteria mais popular do Brasil.Promovida pela Caixa Econômica Federal, na edição de 2017 chegou ao prêmio de 280 milhões de reais.Neste jogo são sorteados 6 números entre 1 e 60.Sobre a soma dos números sorteados, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "Não existe um valor mais provável para a soma, pois todos os jogos são igualmente prováveis",
+            "B": "Há maior probabilidade do jogo sorteado ter soma próxima a 100",
+            "C": "Há maior probabilidade do jogo sorteado ter soma entre 150 e 210",
+            "D": "É impossível que a soma tenha o valor 18"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A soma dos números sorteados na Mega-Sena (6 números de 1 a 60) tende a se concentrar em torno da média. A média de um número sorteado é (1+60)/2 = 30. A soma esperada de 6 números seria 6 * 30 = 180. Portanto, o intervalo de 150 a 210 é o mais provável."
+    },
+    {
+        "id": "3025808",
+        "enunciado": "Um time de um determinado esporte tem em um determinado período, 60% de chance de ganhar um jogo (independente de resultados anteriores). Assinale a alternativa que apresenta corretamente a distribuição de de probabilidade da variável aleatória X= “ganhar k-jogos, em N jogos disputados”.",
+        "alternativas": {
+            "A": "Distribuição Binomial B(X=k;N,p=0,6)",
+            "B": "Distribuição de Poisson P(X=k; λ); com λ=0,6N",
+            "C": "Distribuição Normal N(X=k; σ, x0); com x0 =0,6N; σ=",
+            "D": "Distribuição Uniforme, com altura 0,6/N para k entre 0 e N"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O problema descreve um experimento com um número fixo de tentativas (N jogos), onde cada tentativa tem dois resultados possíveis (ganhar ou perder) com probabilidade constante (p=0,6), e os eventos são independentes. Essa é a definição de uma Distribuição Binomial."
+    },
+    {
+        "id": "3012308",
+        "enunciado": "Um sistema antivírus consegue identificar a ação de um vírus de computador dependendo de suas ações no sistema infectado. O vírus incorpora seu código executável a um aplicativo do usuário e procura mascarar suas atividades, dificultando sua detecção pelo sistema antivírus. Em um sistema típico, uma execução do antivírus consegue identifica rum vírus em um programa infectado e ativo com uma probabilidade de 20%. Programas infectados têm sua execução bloqueada. Para reduzir casos de falsos positivos, um programa antivírus bloqueia um aplicativo quando identifica pela 4ª vez ação considerada suspeita. A probabilidade de que sejam necessárias 10 verificações (pelo antivírus) de um mesmo aplicativo contaminado para que que ocorra o seu bloqueio é:(Com 2 casas de precisão após a vírgula, valores após a 3ª casa devem ser ignorados).",
+        "alternativas": {
+            "A": "0,42.",
+            "B": "0,20.",
+            "C": "0,14.",
+            "D": "0,08.",
+            "E": "0,03"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A questão descreve uma distribuição geométrica. O bloqueio ocorre na 4ª verificação, com probabilidade de detecção de 0,20 em cada, e probabilidade de não detecção de 0,80. A probabilidade de precisar de exatamente 10 verificações envolve combinações e probabilidades de sucesso e falha."
+    },
+    {
+        "id": "3012437",
+        "enunciado": "O desvio padrão é a medida mais usada na comparação de diferenças entre conjuntos de dados, por ter grande precisão. Desvio padrão é a:",
+        "alternativas": {
+            "A": "raiz quadrada da variância dividida por n (número de amostras).",
+            "B": "raiz quadrada da média dividida por n (número de amostras).",
+            "C": "variância dividida por n (número de amostras).",
+            "D": "variância dividida pela raiz quadrada de n (número de amostras).",
+            "E": "raiz quadrada da variância."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O desvio padrão é uma medida de dispersão que quantifica a variabilidade de um conjunto de dados em relação à média. Ele é definido como a raiz quadrada da variância."
+    }
+]

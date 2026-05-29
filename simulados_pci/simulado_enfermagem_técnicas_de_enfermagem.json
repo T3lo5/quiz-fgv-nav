@@ -1,0 +1,936 @@
+[
+    {
+        "id": "2249034",
+        "enunciado": "O transporte interno de pacientes hospitalizados pode contribuir significativamente para a ocorrência de eventos adversos, principalmente em casos críticos. Durante o turno noturno, o técnico em enfermagem precisa transferir um paciente acamado da maca para o leito. Considerando a técnica segura de mobilização, é CORRETO afirmar que o profissional deve:",
+        "alternativas": {
+            "A": "Realizar o movimento de rotação com as costas inclinadas e joelhos estendidos.",
+            "B": "Posicionar o leito em altura inferior à maca para facilitar o deslizamento.",
+            "C": "Flexionar os joelhos, manter a coluna ereta e utilizar o peso do corpo.",
+            "D": "Pedir ao paciente que segure firmemente o lençol de arrasto com os braços."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A transferência segura de um paciente acamado envolve boa biomecânica. Flexionar os joelhos e manter a coluna ereta distribui o peso e protege a coluna. Utilizar o peso do corpo de forma adequada gera força para a mobilização, evitando lesões no profissional e no paciente."
+    },
+    {
+        "id": "2249037",
+        "enunciado": "O preparo do paciente para exames laboratoriais é essencial e varia conforme o tipo de exame, mas geralmente inclui seguir as instruções específicas do laboratório ou médico. Um técnico em enfermagem irá preparar um paciente para coleta de glicemia de jejum. Na orientação, o profissional deve informar corretamente que:",
+        "alternativas": {
+            "A": "Deve realizar atividade física leve para estimular o metabolismo da glicose.",
+            "B": "O paciente deve evitar a ingestão de água para não diluir a amostra sanguínea.",
+            "C": "É permitido o consumo de água em pequena quantidade antes do exame.",
+            "D": "O paciente pode ingerir café adoçado até duas horas antes da coleta."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para a coleta de glicemia de jejum, o paciente deve estar em jejum de 8 a 12 horas. A ingestão de água em pequena quantidade não afeta o resultado do exame de glicose, sendo permitido para evitar desidratação. Atividades físicas e ingestão de outros líquidos, especialmente adoçados, interferem no resultado."
+    },
+    {
+        "id": "2249041",
+        "enunciado": "A escolha do curativo ideal depende da lesão, como nível de exsudato (secreção), presença de infecção e estágio da cicatrização. Durante o atendimento domiciliar, o técnico de enfermagem deve realizar curativo em uma ferida cirúrgica limpa com boa cicatrização. Nessa situação, é CORRETO afirmar que o tipo de curativo indicado é:",
+        "alternativas": {
+            "A": "Curativo seco estéril com gaze e fita microporosa.",
+            "B": "Curativo oclusivo com gaze úmida e pomada antibiótica.",
+            "C": "Curativo de carvão ativado com cobertura absorvente.",
+            "D": "Curativo úmido com solução salina hipertônica estéril."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para uma ferida cirúrgica limpa com boa cicatrização, o objetivo do curativo é proteger. Um curativo seco estéril com gaze e fita microporosa impede a contaminação, possibilita a observação da ferida e não interfere no processo de cicatrização normal."
+    },
+    {
+        "id": "2249046",
+        "enunciado": "Queimaduras elétricas são lesões graves causadas pela passagem de corrente elétrica pelo corpo, gerando calor e destruindo tecidos internos e externos. Sobre os cuidados imediatos em queimaduras elétricas, é INCORRETO afirmar:",
+        "alternativas": {
+            "A": "É indicado aplicar gelo no local da entrada da corrente elétrica.",
+            "B": "As lesões internas podem ser mais graves que as visíveis na pele.",
+            "C": "Deve desligar a fonte de energia antes de tocar a vítima.",
+            "D": "A avaliação cardíaca é essencial devido ao risco de arritmias."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Aplicar gelo em queimaduras elétricas (A) é INCORRETO; pode piorar a lesão tecidual. Queimaduras elétricas podem ter lesões internas graves não visíveis (B), é crucial desligar a fonte de energia antes de tocar a vítima (C) e a avaliação cardíaca é essencial devido ao risco de arritmias (D)."
+    },
+    {
+        "id": "2249048",
+        "enunciado": "A escolha da via depende da ação farmacológica desejada e do tipo de medicamento, que pode variar da aplicação mais superficial da intradérmica à inserção mais profunda na veia, músculo ou tecido subcutâneo. Durante a administração de medicação intramuscular em paciente adulto, o técnico em enfermagem deve escolher o local mais seguro e eficiente. Considerando as boas práticas, assinale a alternativa que corresponde ao local preferencial para aplicação de medicamentos:",
+        "alternativas": {
+            "A": "Músculo deltoide, pela rápida absorção e fácil localização.",
+            "B": "Região dorsoglútea, pela maior profundidade e volume do músculo.",
+            "C": "Músculo vasto lateral, indicado apenas para aplicação em lactentes.",
+            "D": "Região ventroglútea, por reduzir risco de lesão do nervo ciático."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A região ventroglútea é o local preferencial para aplicação IM em adultos, pois minimiza o risco de lesão do nervo ciático e de atingir grandes vasos. O deltoide (A) é mais para vacinas e volumes menores. A dorsoglútea (B) tem risco de lesão do ciático. O vasto lateral (C) é preferencial em lactentes, mas não exclusivo."
+    },
+    {
+        "id": "2249051",
+        "enunciado": "Durante a admissão de um paciente idoso na unidade de clínica médica, o técnico de enfermagem deve verificar os sinais vitais. Ao aferir a pressão arterial, o profissional observa que o paciente apresenta edema em ambos os braços. Nesse caso, é CORRETO afirmar que a conduta mais adequada para mensurar corretamente a pressão é:",
+        "alternativas": {
+            "A": "Realizar a aferição logo após a administração dos medicamentos diuréticos.",
+            "B": "Aferir no braço com menor edema e registrar a observação no prontuário.",
+            "C": "Optar pela aferição em membro inferior, preferencialmente na artéria poplítea.",
+            "D": "Aferir em qualquer braço, pois o edema não interfere na leitura dos valores."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O edema nos braços pode dificultar a aferição da pressão arterial. A melhor alternativa é optar por um membro inferior, como a artéria poplítea, que não é afetada pelo edema nos braços. Aferir em braço com menor edema (B) pode não ser ideal, e após diuréticos (A) ou em qualquer braço (D) são condutas inadequadas."
+    },
+    {
+        "id": "2160216",
+        "enunciado": "A técnica asséptica deve ser utilizada em:",
+        "alternativas": {
+            "A": "Troca de roupa de cama.",
+            "B": "Curativo de ferida.",
+            "C": "Banho no leito.",
+            "D": "Medição de peso.",
+            "E": "Aferição de temperatura."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A técnica asséptica é fundamental na realização de curativos de feridas para prevenir infecções. As outras atividades mencionadas não exigem esse rigor estrito de assepsia, embora boas práticas de higiene sejam sempre necessárias."
+    },
+    {
+        "id": "2274219",
+        "enunciado": "Assinale a alternativa que apresenta, em sequência segura e lógica, as etapas do banho no leito de um paciente adulto acamado com cateter venoso periférico, garantindo conforto, preservação do dispositivo e registro adequado do procedimento.",
+        "alternativas": {
+            "A": "Higieniza o paciente primeiro, depois reúne os materiais, expõe todo o corpo de uma vez, inicia pelas pernas e seca com fricção vigorosa.",
+            "B": "Ajusta a cama na altura baixa, começa pela higiene íntima, mantém o ambiente ventilado e troca a roupa de cama antes do banho.",
+            "C": "Higieniza as mãos, confere a identificação, organiza os materiais ao alcance, protege o cateter com barreira impermeável, realiza a higiene por segmentos do rosto aos pés, seca por tamponamento, preserva a privacidade e registra o procedimento.",
+            "D": "Mantém o cateter descoberto para inspeção contínua, inicia pelo tronco e termina no rosto, seca por fricção para “estimular a circulação” e faz o registro apenas ao final do plantão.",
+            "E": "Eleva as grades laterais e posiciona o paciente em decúbito lateral, inicia pelo dorso, aplica talco perfumado nas dobras e calça luvas apenas ao término do banho."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A sequência segura para banho no leito inclui higienização das mãos, conferência da identificação, organização de materiais, proteção do cateter, higiene segmentada (rosto aos pés), secagem por tamponamento, preservação da privacidade e registro."
+    },
+    {
+        "id": "2183897",
+        "enunciado": "A administração de medicamentos por via intramuscular (IM) é um procedimento comum na prática da enfermagem e requer a escolha correta do local de aplicação para garantir a segurança do paciente e a eficácia do fármaco. Sobre os principais músculos utilizados para a injeção IM, analise as afirmativas a seguir: I. O músculo deltoide, localizado no braço, é indicado para a administração de pequenos volumes (geralmente até 2 mL) e de vacinas, devendo-se ter cuidado para não atingir o nervo radial. II. O músculo ventroglúteo (na região do quadril) é considerado um local seguro para injeções IM em adultos e crianças, pois é livre de grandes vasos e nervos importantes e possui uma camada de gordura menos espessa. III. O músculo dorsoglúteo (no glúteo), embora tradicionalmente utilizado, apresenta maior risco de lesão no nervo ciático e de aplicação no tecido subcutâneo, sendo sua utilização cada vez mais restrita. Está correto o que se afirma em:",
+        "alternativas": {
+            "A": "I e III apenas.",
+            "B": "III apenas.",
+            "C": "I e II apenas.",
+            "D": "II e III apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "As três afirmativas descrevem corretamente locais e precauções para aplicação de injeções intramusculares. Deltoide para pequenos volumes, ventroglúteo como local seguro e dorsoglúteo com riscos evitados."
+    },
+    {
+        "id": "2274221",
+        "enunciado": "Durante o plantão, uma idosa com sonda nasoenteral apresenta prescrição de metoprolol succinato 50 mg de liberação prolongada, dipirona 500 mg/mL (gotas) e lansoprazol em cápsulas. A dieta enteral está temporariamente suspensa, e a equipe solicita a administração dos medicamentos por meio da sonda. Considerando as boas práticas de segurança, a integridade do lúmen e as atribuições do técnico de enfermagem, assinale a conduta correta.",
+        "alternativas": {
+            "A": "Prepara a dipirona diluída em água filtrada, comunica à enfermeira sobre a formulação de liberação prolongada do metoprolol para orientação/substituição segura, abre a cápsula de lansoprazol e administra os microgrânulos sem triturá-los conforme protocolo, realizando irrigação com água antes, entre e após as doses.",
+            "B": "Tritura os três medicamentos juntos, mistura com 20 mL de dieta enteral, administra de uma só vez pela sonda e faz apenas uma irrigação final de 10 mL de água.",
+            "C": "Aspira as gotas de dipirona, reconstitui o lansoprazol em água morna, associa o metoprolol triturado na mesma seringa e reinicia imediatamente a dieta enteral contínua.",
+            "D": "Dilui o metoprolol de liberação prolongada em pequena quantidade de água, administra pela sonda, pausa a irrigação entre os medicamentos e libera o fluxo da dieta logo em seguida.",
+            "E": "Abre a cápsula de lansoprazol na mesma seringa da dipirona, utiliza 5 mL de água para todos os fármacos e registra o procedimento em bloco único de administração."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A dipirona pode ser diluída. Metoprolol de liberação prolongada não deve ser triturado, exigindo orientação enfermeira. Lansoprazol em cápsula deve ter os microgrânulos administrados sem triturar. Irrigação com água é fundamental antes, entre e após."
+    },
+    {
+        "id": "2268298",
+        "enunciado": "Em muitas técnicas de enfermagem costuma-se posicionar o corpo do paciente de três formas diferentes: “de costas”, “de barriga para baixo”, “apoiado do lado direito ou esquerdo”. Tecnicamente, como se denominam estas posições?",
+        "alternativas": {
+            "A": "posição ereta, posição deitada, posição inclinada",
+            "B": "posição frontal, posição posterior, posição transversal",
+            "C": "decúbito dorsal, decúbito ventral, decúbito lateral",
+            "D": "decúbito anterior, decúbito posterior, decúbito longitudinal",
+            "E": "posição de litotômica, posição de Trendelemburg, posição de Sims"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As posições técnicas são: decúbito dorsal ('de costas'), decúbito ventral ('de barriga para baixo') e decúbito lateral (apoiado no lado)."
+    },
+    {
+        "id": "2274222",
+        "enunciado": "Durante o atendimento em sala de curativos, o técnico de enfermagem é designado para realizar o curativo de uma incisão cirúrgica limpa, com dreno laminar em funcionamento e pequena quantidade de exsudato seroso. Considerando as boas práticas de assepsia e a sequência correta de limpeza e cobertura, identifique a técnica mais adequada para o procedimento.",
+        "alternativas": {
+            "A": "Retira o curativo antigo com gaze úmida, limpa da periferia para o centro, aplica pomada antibiótica de rotina e cobre com gaze comum.",
+            "B": "Utiliza clorexidina alcoólica diretamente no leito da ferida, seca com jato de ar, deixa a área descoberta e troca a cada 48 horas.",
+            "C": "Fixa o dreno por cima da cobertura com micropore, realiza limpeza circular ampla e mantém o mesmo campo para “otimizar” tempo.",
+            "D": "Hidrata a ferida com soro açucarado, inicia a limpeza pelo dreno em direção à incisão e aplica filme oclusivo total.",
+            "E": "Retira o curativo com técnica asséptica, limpa a incisão do centro para a periferia com movimentos únicos e gaze estéril, higieniza a pele ao redor do dreno da saída para fora, seca e cobre com gaze estéril, fixando sem tracionar o dreno."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A técnica mais adequada para curativo de incisão cirúrgica com dreno envolve a retirada asséptica, limpeza do centro para a periferia com movimentos únicos, higienização da pele ao redor do dreno, secagem e cobertura com gaze estéril, sem tracionar o dreno."
+    },
+    {
+        "id": "1856792",
+        "enunciado": "Assinale a posição utilizada em cirurgias oftalmológicas, de cabeça e pesçoço, para facilitar a respiração, prevenir broncoaspiração de vômitos.",
+        "alternativas": {
+            "A": "Posição de Kraske",
+            "B": "Posição de Trendelenburg reversa",
+            "C": "Posição Prona",
+            "D": "Posição ortostática",
+            "E": "Posição litotômica"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A posição de Trendelenburg reversa (ou de Fowler elevada) eleva a cabeceira, facilitando a respiração e prevenindo a aspiração em cirurgias de cabeça, pescoço e oftálmicas."
+    },
+    {
+        "id": "2268305",
+        "enunciado": "A aspiração traqueal é um procedimento invasivo, com objetivos de favorecer a permeabilidade das vias aéreas e melhorar a ventilação pulmonar, pois remove secreções. Conforme tipo de acesso, como é classificada a aspiração traqueal?",
+        "alternativas": {
+            "A": "aberta, fechada e intermediária",
+            "B": "orotraqueal, nasotraqueal e endotraqueal",
+            "C": "intermitente, contínua e pressórica",
+            "D": "alto fluxo, médio fluxo e baixo fluxo",
+            "E": "superior, central e periférica"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A classificação da aspiração traqueal por tipo de acesso se refere à via pela qual é realizada: orotraqueal (orientada para a boca), nasotraqueal (nariz) e endotraqueal (através de tubo)."
+    },
+    {
+        "id": "1660032",
+        "enunciado": "A nebulização é uma metodologia que possibilita a inspiração de um vapor contendo uma solução medicamentosa, geralmente corticoides e broncodilatadores de rápido efeito descongestionante (Brasil, 2022). Considerando que um paciente está recebendo nebulização com broncodilatador, assinale a alternativa CORRETA que corresponde à posição ideal para esse procedimento.",
+        "alternativas": {
+            "A": "Decúbito dorsal.",
+            "B": "Posição de Fowler.",
+            "C": "Posição de Sims.",
+            "D": "Posição de Trendelenburg."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A posição de Fowler é a mais indicada para nebulização, pois facilita a expansão pulmonar e a inspiração da medicação, otimizando a eficácia do tratamento broncodilatador."
+    },
+    {
+        "id": "1660033",
+        "enunciado": "Um paciente, internado na unidade de clínica médica, apresenta dispneia e tosse produtiva. O médico prescreve oxigenioterapia por cateter nasal a 3 litros/minuto. É CORRETO afirmar que ao instalar a oxigenioterapia, o técnico de enfermagem deve:",
+        "alternativas": {
+            "A": "Administrar antitérmicos.",
+            "B": "Trocar o cateter nasal a cada 12 horas.",
+            "C": "Umidificar o oxigênio.",
+            "D": "Manter a cabeceira do leito rebaixada."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Ao administrar oxigenioterapia, especialmente por cateter nasal, é crucial umidificar o oxigênio para evitar o ressecamento das mucosas nasais e do trato respiratório, prevenindo irritação e desconforto para o paciente."
+    },
+    {
+        "id": "1660035",
+        "enunciado": "O técnico de enfermagem está prestando cuidados a um paciente com sonda nasogástrica aberta para drenagem. Assinale a alternativa CORRETA que corresponde ao cuidado que o técnico deve ter para evitar a broncoaspiração.",
+        "alternativas": {
+            "A": "Desconectar a sonda nasogástrica durante o banho.",
+            "B": "Administrar antibióticos.",
+            "C": "Manter o paciente em decúbito dorsal.",
+            "D": "Elevar a cabeceira do leito."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Manter a cabeceira do leito elevada, em posição semissentada (Fowler ou semi-Fowler), é uma medida crucial para prevenir a broncoaspiração em pacientes com sonda nasogástrica aberta."
+    },
+    {
+        "id": "1660037",
+        "enunciado": "A hipertensão arterial ou pressão alta é uma doença crônica caracterizada pelos níveis elevados da pressão sanguínea nas artérias (Brasil, 2024). Para a verificação da pressão arterial, assinale a alternativa CORRETA que corresponde ao posicionamento ideal do paciente.",
+        "alternativas": {
+            "A": "Posição de Trendelenburg.",
+            "B": "Decúbito lateral.",
+            "C": "Posição sentada, com o braço apoiado na altura do coração.",
+            "D": "Decúbito ventral."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A aferição da pressão arterial é idealmente realizada com o paciente sentado, com o braço apoiado na altura do coração para garantir leituras precisas e confortáveis."
+    },
+    {
+        "id": "1660040",
+        "enunciado": "O médico prescreve compressa fria para um paciente com edema no tornozelo após entorse. Assinale a alternativa CORRETA que corresponde aos materiais que a equipe de enfermagem deve utilizar para preparar a compressa fria.",
+        "alternativas": {
+            "A": "Bacia com água quente, compressas e toalha.",
+            "B": "Bolsa térmica com água morna e toalha.",
+            "C": "Compressas embebidas em solução fisiológica e bandagem.",
+            "D": "Bacia com água fria, gelo picado, bolsa térmica e toalha."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para uma compressa fria, utiliza-se água fria, podendo-se adicionar gelo picado para maior refrigeração, e uma bolsa térmica pode ser envolvida. A toalha ajuda na aplicação."
+    },
+    {
+        "id": "1660042",
+        "enunciado": "Uma paciente está recebendo dieta enteral por sonda nasogástrica. Assinale a alternativa CORRETA que corresponde aos cuidados que a equipe de enfermagem deve ter ao administrar a dieta.",
+        "alternativas": {
+            "A": "Administrar a dieta em temperatura gelada.",
+            "B": "Verificar o posicionamento da sonda antes de administrar a dieta.",
+            "C": "Manter a cabeceira do leito rebaixada.",
+            "D": "Infundir a dieta rapidamente."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Verificar o posicionamento correto da sonda antes da administração da dieta é fundamental para evitar complicações como refluxo e aspiração."
+    },
+    {
+        "id": "1660044",
+        "enunciado": "Um paciente está internado na enfermaria psiquiátrica com quadro de agitação psicomotora. O médico prescreve a restrição física do paciente no leito. Assinale a alternativa CORRETA que corresponde ao tipo de restrição que a equipe de enfermagem deve priorizar.",
+        "alternativas": {
+            "A": "Restrição física com o uso de contenções de couro.",
+            "B": "Restrição física com o mínimo de dispositivos possível, utilizando técnicas menos restritivas, como lençóis, e sempre com prescrição médica e monitoramento constante.",
+            "C": "Restrição química com uso de medicamentos.",
+            "D": "Isolamento do paciente em quarto escuro."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A prioridade em restrições físicas é utilizar métodos menos invasivos possíveis, com monitoramento constante e sempre sob prescrição médica, minimizando o uso de dispositivos."
+    },
+    {
+        "id": "1660045",
+        "enunciado": "Frequência cardíaca ou ritmo cardíaco é o número de vezes que o coração bate por minuto (Brasil, 2023). Assinale a alternativa CORRETA que corresponde aos pontos de referência anatômicos para a verificação da frequência cardíaca apical.",
+        "alternativas": {
+            "A": "Quinto espaço intercostal, na linha clavicular média.",
+            "B": "Segundo espaço intercostal, na linha esternal.",
+            "C": "Fossa cubital.",
+            "D": "Região inguinal."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A ausculta cardíaca apical é realizada no quinto espaço intercostal, na linha média clavicular, onde o ápice do coração faz contato com a parede torácica."
+    },
+    {
+        "id": "1660047",
+        "enunciado": "Sr. José, 65 anos, está internado na unidade de terapia intensiva após sofrer um AVC. Ele está inconsciente, com sonda nasogástrica para alimentação e sonda vesical de demora. É CORRETO afirmar que ao realizar o curativo do cateter venoso central, o técnico de enfermagem deve:",
+        "alternativas": {
+            "A": "Usar luvas de procedimento e gaze estéril para limpar o local de inserção do cateter.",
+            "B": "Realizar a limpeza do local de inserção do cateter com movimentos circulares de dentro para fora.",
+            "C": "Utilizar técnica asséptica durante todo o procedimento.",
+            "D": "Remover o curativo anterior com as mãos, pois já está sujo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A técnica asséptica é essencial em todos os procedimentos invasivos, como a manipulação de cateteres venosos centrais, para prevenir infecções."
+    },
+    {
+        "id": "1182953",
+        "enunciado": "Ao verificar a pressão arterial (PA) do paciente, alguns cuidados são fundamentais para se obter um resultado fidedigno. Assinale a alternativa correta em relação aos cuidados citados.",
+        "alternativas": {
+            "A": "O braço do paciente deverá estar posicionado no nível do coração.",
+            "B": "O braço do paciente deverá estar posicionado acima do nível do coração.",
+            "C": "O braço do paciente deverá estar posicionado abaixo do nível do coração.",
+            "D": "O braço do paciente a ser escolhido para fazer a medida da PA deverá ser sempre o direito.",
+            "E": "A posição do braço do paciente não interfere no resultado da medida da pressão arterial."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para que a medição da pressão arterial seja fidedigna, o braço do paciente deve estar posicionado no nível do coração. Essa posição garante que a coluna de sangue na artéria branquial esteja na mesma altura da bomba cardíaca, evitando erros de leitura causados pela gravidade, que poderiam inflar ou desinflar artificialmente os valores medidos."
+    },
+    {
+        "id": "1278006",
+        "enunciado": "“A punção venosa é uma técnica _________, portanto é necessária a adoção de medidas de segurança, como a _________ das mãos, o uso de luvas e a _________ da pele do paciente.” Assinale a alternativa que melhor complete as lacunas da afirmação acima.",
+        "alternativas": {
+            "A": "Asséptica / Higienização / Antissepsia.",
+            "B": "Higiênica / Higienização / Assepsia.",
+            "C": "Antisséptica / Assepsia / Higienização.",
+            "D": "Antisséptica / Higienização / Assepsia."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A punção venosa é uma técnica asséptica (livre de microrganismos). A higienização das mãos previne a contaminação. A antissepsia da pele reduz a carga microbiana do local puncionado para garantir a assepsia."
+    },
+    {
+        "id": "1282212",
+        "enunciado": "Durante a aplicação de um gesso circular no antebraço, determine qual das seguintes precauções é essencial para prevenir a síndrome compartimental:",
+        "alternativas": {
+            "A": "Aplicar o gesso somente na posição de pronação completa do antebraço.",
+            "B": "Assegurar que o gesso esteja suficientemente apertado para imobilizar a articulação do cotovelo.",
+            "C": "Envolver completamente o pulso e as articulações metacarpofalângicas, deixando os dedos livres para movimento.",
+            "D": "Manter uma camada uniforme e sem dobras de acolchoamento sob o gesso, para evitar pressão irregular.",
+            "E": "Realizar a imobilização com o membro em posição de máxima extensão para promover a cicatrização óssea."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A síndrome compartimental é prevenida com acolchoamento adequado e uniforme sob o gesso, evitando compressão e permitindo circulação sanguínea, especialmente com o membro em posição funcional. As outras opções não abordam diretamente a prevenção da síndrome."
+    },
+    {
+        "id": "1282213",
+        "enunciado": "Aponte qual técnica é mais indicada para a aplicação de gesso em um paciente com fratura de tornozelo, para permitir alguma mobilidade articular e reduzir o risco de atrofia muscular:",
+        "alternativas": {
+            "A": "Gesso tipo Robert-Jones, com imobilização completa do tornozelo e parte da perna.",
+            "B": "Bota de gesso com articulação no tornozelo, permitindo flexão e extensão limitadas.",
+            "C": "Gesso enfaixado circular completo, desde o pé até abaixo do joelho, sem articulações.",
+            "D": "Gesso suspenso, com tração para alinhar a fratura sem imobilização direta do tornozelo.",
+            "E": "Gesso em oito, envolvendo apenas a área do tornozelo, deixando livre a articulação."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para fraturas de tornozelo que permitem alguma mobilidade articular e reduzem risco de atrofia, a bota de gesso com articulação no tornozelo é a mais indicada, pois limita os movimentos sem imobilizar completamente."
+    },
+    {
+        "id": "1282214",
+        "enunciado": "Ao aplicar um gesso longo para imobilização de uma fratura diafisária de fêmur em um adulto, qual dos seguintes aspectos é crucial para garantir a eficácia do tratamento e o conforto do paciente?",
+        "alternativas": {
+            "A": "Incluir tanto a articulação do quadril quanto a do joelho na imobilização, para garantir a estabilidade da fratura.",
+            "B": "Deixar o joelho livre de imobilização para permitir a mobilidade e reduzir o risco de trombose venosa profunda.",
+            "C": "Usar um apoio de peso na extremidade distal do gesso para facilitar a deambulação precoce.",
+            "D": "Aplicar o gesso em uma posição que favoreça a flexão do joelho a 45 graus, para promover uma posição funcional.",
+            "E": "Incluir a articulação do tornozelo na imobilização, garantindo uma distribuição uniforme da pressão ao longo do membro."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A imobilização de uma fratura diafisária de fêmur exige a inclusão das articulações proximal (quadril) e distal (joelho) para garantir a estabilidade e o alinhamento adequados. As demais alternativas apresentam práticas incorretas ou irrelevantes."
+    },
+    {
+        "id": "1281659",
+        "enunciado": "Uma das técnicas utilizada na preparação para exames é a percussão. Sobre essa técnica, ao colocar os tecidos subjacentes em movimento, a percussão ajuda a determinar a densidade do tecido subjacente e se está cheio de ar, cheio de líquido ou se é sólido. São produzidos sons audíveis e vibrações palpáveis, os quais é possível distinguir os sons descritos abaixo, afora:",
+        "alternativas": {
+            "A": "Submacicez",
+            "B": "Timpanismo",
+            "C": "Ressonância",
+            "D": "Hiper-ressonância",
+            "E": "Áudio-perceptível"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A percussão produz sons como submacidez, timpanismo, ressonância e hiperressonância, relacionados à densidade do tecido. 'Áudio-perceptível' não é um tipo de som produzido pela percussão, mas sim uma característica geral de sons que podem ser ouvidos."
+    },
+    {
+        "id": "1198165",
+        "enunciado": "Com base nas complicações relacionadas à traqueostomia, assinale a alternativa CORRETA que corresponde a uma complicação tardia.",
+        "alternativas": {
+            "A": "Traqueomalacea.",
+            "B": "Pneumomediastino.",
+            "C": "Hipercarbia.",
+            "D": "Ulceração do estoma.",
+            "E": "Hemorragia."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Complicações tardias da traqueostomia incluem traqueomalácia (enfraquecimento da cartilagem da traqueia), estenose traqueal e fístula traqueoesofágica. As demais são complicações precoces ou imediatas."
+    },
+    {
+        "id": "2249034",
+        "enunciado": "O transporte interno de pacientes hospitalizados pode contribuir significativamente para a ocorrência de eventos adversos, principalmente em casos críticos. Durante o turno noturno, o técnico em enfermagem precisa transferir um paciente acamado da maca para o leito. Considerando a técnica segura de mobilização, é CORRETO afirmar que o profissional deve:",
+        "alternativas": {
+            "A": "Realizar o movimento de rotação com as costas inclinadas e joelhos estendidos.",
+            "B": "Posicionar o leito em altura inferior à maca para facilitar o deslizamento.",
+            "C": "Flexionar os joelhos, manter a coluna ereta e utilizar o peso do corpo.",
+            "D": "Pedir ao paciente que segure firmemente o lençol de arrasto com os braços."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A transferência segura de um paciente acamado envolve boa biomecânica. Flexionar os joelhos e manter a coluna ereta distribui o peso e protege a coluna. Utilizar o peso do corpo de forma adequada gera força para a mobilização, evitando lesões no profissional e no paciente."
+    },
+    {
+        "id": "2249037",
+        "enunciado": "O preparo do paciente para exames laboratoriais é essencial e varia conforme o tipo de exame, mas geralmente inclui seguir as instruções específicas do laboratório ou médico. Um técnico em enfermagem irá preparar um paciente para coleta de glicemia de jejum. Na orientação, o profissional deve informar corretamente que:",
+        "alternativas": {
+            "A": "Deve realizar atividade física leve para estimular o metabolismo da glicose.",
+            "B": "O paciente deve evitar a ingestão de água para não diluir a amostra sanguínea.",
+            "C": "É permitido o consumo de água em pequena quantidade antes do exame.",
+            "D": "O paciente pode ingerir café adoçado até duas horas antes da coleta."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para a coleta de glicemia de jejum, o paciente deve estar em jejum de 8 a 12 horas. A ingestão de água em pequena quantidade não afeta o resultado do exame de glicose, sendo permitido para evitar desidratação. Atividades físicas e ingestão de outros líquidos, especialmente adoçados, interferem no resultado."
+    },
+    {
+        "id": "2249041",
+        "enunciado": "A escolha do curativo ideal depende da lesão, como nível de exsudato (secreção), presença de infecção e estágio da cicatrização. Durante o atendimento domiciliar, o técnico de enfermagem deve realizar curativo em uma ferida cirúrgica limpa com boa cicatrização. Nessa situação, é CORRETO afirmar que o tipo de curativo indicado é:",
+        "alternativas": {
+            "A": "Curativo seco estéril com gaze e fita microporosa.",
+            "B": "Curativo oclusivo com gaze úmida e pomada antibiótica.",
+            "C": "Curativo de carvão ativado com cobertura absorvente.",
+            "D": "Curativo úmido com solução salina hipertônica estéril."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para uma ferida cirúrgica limpa com boa cicatrização, o objetivo do curativo é proteger. Um curativo seco estéril com gaze e fita microporosa impede a contaminação, possibilita a observação da ferida e não interfere no processo de cicatrização normal."
+    },
+    {
+        "id": "2249046",
+        "enunciado": "Queimaduras elétricas são lesões graves causadas pela passagem de corrente elétrica pelo corpo, gerando calor e destruindo tecidos internos e externos. Sobre os cuidados imediatos em queimaduras elétricas, é INCORRETO afirmar:",
+        "alternativas": {
+            "A": "É indicado aplicar gelo no local da entrada da corrente elétrica.",
+            "B": "As lesões internas podem ser mais graves que as visíveis na pele.",
+            "C": "Deve desligar a fonte de energia antes de tocar a vítima.",
+            "D": "A avaliação cardíaca é essencial devido ao risco de arritmias."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Aplicar gelo em queimaduras elétricas (A) é INCORRETO; pode piorar a lesão tecidual. Queimaduras elétricas podem ter lesões internas graves não visíveis (B), é crucial desligar a fonte de energia antes de tocar a vítima (C) e a avaliação cardíaca é essencial devido ao risco de arritmias (D)."
+    },
+    {
+        "id": "2249048",
+        "enunciado": "A escolha da via depende da ação farmacológica desejada e do tipo de medicamento, que pode variar da aplicação mais superficial da intradérmica à inserção mais profunda na veia, músculo ou tecido subcutâneo. Durante a administração de medicação intramuscular em paciente adulto, o técnico em enfermagem deve escolher o local mais seguro e eficiente. Considerando as boas práticas, assinale a alternativa que corresponde ao local preferencial para aplicação de medicamentos:",
+        "alternativas": {
+            "A": "Músculo deltoide, pela rápida absorção e fácil localização.",
+            "B": "Região dorsoglútea, pela maior profundidade e volume do músculo.",
+            "C": "Músculo vasto lateral, indicado apenas para aplicação em lactentes.",
+            "D": "Região ventroglútea, por reduzir risco de lesão do nervo ciático."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A região ventroglútea é o local preferencial para aplicação IM em adultos, pois minimiza o risco de lesão do nervo ciático e de atingir grandes vasos. O deltoide (A) é mais para vacinas e volumes menores. A dorsoglútea (B) tem risco de lesão do ciático. O vasto lateral (C) é preferencial em lactentes, mas não exclusivo."
+    },
+    {
+        "id": "2249051",
+        "enunciado": "Durante a admissão de um paciente idoso na unidade de clínica médica, o técnico de enfermagem deve verificar os sinais vitais. Ao aferir a pressão arterial, o profissional observa que o paciente apresenta edema em ambos os braços. Nesse caso, é CORRETO afirmar que a conduta mais adequada para mensurar corretamente a pressão é:",
+        "alternativas": {
+            "A": "Realizar a aferição logo após a administração dos medicamentos diuréticos.",
+            "B": "Aferir no braço com menor edema e registrar a observação no prontuário.",
+            "C": "Optar pela aferição em membro inferior, preferencialmente na artéria poplítea.",
+            "D": "Aferir em qualquer braço, pois o edema não interfere na leitura dos valores."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O edema nos braços pode dificultar a aferição da pressão arterial. A melhor alternativa é optar por um membro inferior, como a artéria poplítea, que não é afetada pelo edema nos braços. Aferir em braço com menor edema (B) pode não ser ideal, e após diuréticos (A) ou em qualquer braço (D) são condutas inadequadas."
+    },
+    {
+        "id": "2160216",
+        "enunciado": "A técnica asséptica deve ser utilizada em:",
+        "alternativas": {
+            "A": "Troca de roupa de cama.",
+            "B": "Curativo de ferida.",
+            "C": "Banho no leito.",
+            "D": "Medição de peso.",
+            "E": "Aferição de temperatura."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A técnica asséptica é fundamental na realização de curativos de feridas para prevenir infecções. As outras atividades mencionadas não exigem esse rigor estrito de assepsia, embora boas práticas de higiene sejam sempre necessárias."
+    },
+    {
+        "id": "2274219",
+        "enunciado": "Assinale a alternativa que apresenta, em sequência segura e lógica, as etapas do banho no leito de um paciente adulto acamado com cateter venoso periférico, garantindo conforto, preservação do dispositivo e registro adequado do procedimento.",
+        "alternativas": {
+            "A": "Higieniza o paciente primeiro, depois reúne os materiais, expõe todo o corpo de uma vez, inicia pelas pernas e seca com fricção vigorosa.",
+            "B": "Ajusta a cama na altura baixa, começa pela higiene íntima, mantém o ambiente ventilado e troca a roupa de cama antes do banho.",
+            "C": "Higieniza as mãos, confere a identificação, organiza os materiais ao alcance, protege o cateter com barreira impermeável, realiza a higiene por segmentos do rosto aos pés, seca por tamponamento, preserva a privacidade e registra o procedimento.",
+            "D": "Mantém o cateter descoberto para inspeção contínua, inicia pelo tronco e termina no rosto, seca por fricção para “estimular a circulação” e faz o registro apenas ao final do plantão.",
+            "E": "Eleva as grades laterais e posiciona o paciente em decúbito lateral, inicia pelo dorso, aplica talco perfumado nas dobras e calça luvas apenas ao término do banho."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A sequência segura para banho no leito inclui higienização das mãos, conferência da identificação, organização de materiais, proteção do cateter, higiene segmentada (rosto aos pés), secagem por tamponamento, preservação da privacidade e registro."
+    },
+    {
+        "id": "2183897",
+        "enunciado": "A administração de medicamentos por via intramuscular (IM) é um procedimento comum na prática da enfermagem e requer a escolha correta do local de aplicação para garantir a segurança do paciente e a eficácia do fármaco. Sobre os principais músculos utilizados para a injeção IM, analise as afirmativas a seguir: I. O músculo deltoide, localizado no braço, é indicado para a administração de pequenos volumes (geralmente até 2 mL) e de vacinas, devendo-se ter cuidado para não atingir o nervo radial. II. O músculo ventroglúteo (na região do quadril) é considerado um local seguro para injeções IM em adultos e crianças, pois é livre de grandes vasos e nervos importantes e possui uma camada de gordura menos espessa. III. O músculo dorsoglúteo (no glúteo), embora tradicionalmente utilizado, apresenta maior risco de lesão no nervo ciático e de aplicação no tecido subcutâneo, sendo sua utilização cada vez mais restrita. Está correto o que se afirma em:",
+        "alternativas": {
+            "A": "I e III apenas.",
+            "B": "III apenas.",
+            "C": "I e II apenas.",
+            "D": "II e III apenas.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "As três afirmativas descrevem corretamente locais e precauções para aplicação de injeções intramusculares. Deltoide para pequenos volumes, ventroglúteo como local seguro e dorsoglúteo com riscos evitados."
+    },
+    {
+        "id": "2274221",
+        "enunciado": "Durante o plantão, uma idosa com sonda nasoenteral apresenta prescrição de metoprolol succinato 50 mg de liberação prolongada, dipirona 500 mg/mL (gotas) e lansoprazol em cápsulas. A dieta enteral está temporariamente suspensa, e a equipe solicita a administração dos medicamentos por meio da sonda. Considerando as boas práticas de segurança, a integridade do lúmen e as atribuições do técnico de enfermagem, assinale a conduta correta.",
+        "alternativas": {
+            "A": "Prepara a dipirona diluída em água filtrada, comunica à enfermeira sobre a formulação de liberação prolongada do metoprolol para orientação/substituição segura, abre a cápsula de lansoprazol e administra os microgrânulos sem triturá-los conforme protocolo, realizando irrigação com água antes, entre e após as doses.",
+            "B": "Tritura os três medicamentos juntos, mistura com 20 mL de dieta enteral, administra de uma só vez pela sonda e faz apenas uma irrigação final de 10 mL de água.",
+            "C": "Aspira as gotas de dipirona, reconstitui o lansoprazol em água morna, associa o metoprolol triturado na mesma seringa e reinicia imediatamente a dieta enteral contínua.",
+            "D": "Dilui o metoprolol de liberação prolongada em pequena quantidade de água, administra pela sonda, pausa a irrigação entre os medicamentos e libera o fluxo da dieta logo em seguida.",
+            "E": "Abre a cápsula de lansoprazol na mesma seringa da dipirona, utiliza 5 mL de água para todos os fármacos e registra o procedimento em bloco único de administração."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A dipirona pode ser diluída. Metoprolol de liberação prolongada não deve ser triturado, exigindo orientação enfermeira. Lansoprazol em cápsula deve ter os microgrânulos administrados sem triturar. Irrigação com água é fundamental antes, entre e após."
+    },
+    {
+        "id": "2268298",
+        "enunciado": "Em muitas técnicas de enfermagem costuma-se posicionar o corpo do paciente de três formas diferentes: “de costas”, “de barriga para baixo”, “apoiado do lado direito ou esquerdo”. Tecnicamente, como se denominam estas posições?",
+        "alternativas": {
+            "A": "posição ereta, posição deitada, posição inclinada",
+            "B": "posição frontal, posição posterior, posição transversal",
+            "C": "decúbito dorsal, decúbito ventral, decúbito lateral",
+            "D": "decúbito anterior, decúbito posterior, decúbito longitudinal",
+            "E": "posição de litotômica, posição de Trendelemburg, posição de Sims"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As posições técnicas são: decúbito dorsal ('de costas'), decúbito ventral ('de barriga para baixo') e decúbito lateral (apoiado no lado)."
+    },
+    {
+        "id": "2274222",
+        "enunciado": "Durante o atendimento em sala de curativos, o técnico de enfermagem é designado para realizar o curativo de uma incisão cirúrgica limpa, com dreno laminar em funcionamento e pequena quantidade de exsudato seroso. Considerando as boas práticas de assepsia e a sequência correta de limpeza e cobertura, identifique a técnica mais adequada para o procedimento.",
+        "alternativas": {
+            "A": "Retira o curativo antigo com gaze úmida, limpa da periferia para o centro, aplica pomada antibiótica de rotina e cobre com gaze comum.",
+            "B": "Utiliza clorexidina alcoólica diretamente no leito da ferida, seca com jato de ar, deixa a área descoberta e troca a cada 48 horas.",
+            "C": "Fixa o dreno por cima da cobertura com micropore, realiza limpeza circular ampla e mantém o mesmo campo para “otimizar” tempo.",
+            "D": "Hidrata a ferida com soro açucarado, inicia a limpeza pelo dreno em direção à incisão e aplica filme oclusivo total.",
+            "E": "Retira o curativo com técnica asséptica, limpa a incisão do centro para a periferia com movimentos únicos e gaze estéril, higieniza a pele ao redor do dreno da saída para fora, seca e cobre com gaze estéril, fixando sem tracionar o dreno."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A técnica mais adequada para curativo de incisão cirúrgica com dreno envolve a retirada asséptica, limpeza do centro para a periferia com movimentos únicos, higienização da pele ao redor do dreno, secagem e cobertura com gaze estéril, sem tracionar o dreno."
+    },
+    {
+        "id": "1856792",
+        "enunciado": "Assinale a posição utilizada em cirurgias oftalmológicas, de cabeça e pesçoço, para facilitar a respiração, prevenir broncoaspiração de vômitos.",
+        "alternativas": {
+            "A": "Posição de Kraske",
+            "B": "Posição de Trendelenburg reversa",
+            "C": "Posição Prona",
+            "D": "Posição ortostática",
+            "E": "Posição litotômica"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A posição de Trendelenburg reversa (ou de Fowler elevada) eleva a cabeceira, facilitando a respiração e prevenindo a aspiração em cirurgias de cabeça, pescoço e oftálmicas."
+    },
+    {
+        "id": "2268305",
+        "enunciado": "A aspiração traqueal é um procedimento invasivo, com objetivos de favorecer a permeabilidade das vias aéreas e melhorar a ventilação pulmonar, pois remove secreções. Conforme tipo de acesso, como é classificada a aspiração traqueal?",
+        "alternativas": {
+            "A": "aberta, fechada e intermediária",
+            "B": "orotraqueal, nasotraqueal e endotraqueal",
+            "C": "intermitente, contínua e pressórica",
+            "D": "alto fluxo, médio fluxo e baixo fluxo",
+            "E": "superior, central e periférica"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A classificação da aspiração traqueal por tipo de acesso se refere à via pela qual é realizada: orotraqueal (orientada para a boca), nasotraqueal (nariz) e endotraqueal (através de tubo)."
+    },
+    {
+        "id": "1660032",
+        "enunciado": "A nebulização é uma metodologia que possibilita a inspiração de um vapor contendo uma solução medicamentosa, geralmente corticoides e broncodilatadores de rápido efeito descongestionante (Brasil, 2022). Considerando que um paciente está recebendo nebulização com broncodilatador, assinale a alternativa CORRETA que corresponde à posição ideal para esse procedimento.",
+        "alternativas": {
+            "A": "Decúbito dorsal.",
+            "B": "Posição de Fowler.",
+            "C": "Posição de Sims.",
+            "D": "Posição de Trendelenburg."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A posição de Fowler é a mais indicada para nebulização, pois facilita a expansão pulmonar e a inspiração da medicação, otimizando a eficácia do tratamento broncodilatador."
+    },
+    {
+        "id": "1660033",
+        "enunciado": "Um paciente, internado na unidade de clínica médica, apresenta dispneia e tosse produtiva. O médico prescreve oxigenioterapia por cateter nasal a 3 litros/minuto. É CORRETO afirmar que ao instalar a oxigenioterapia, o técnico de enfermagem deve:",
+        "alternativas": {
+            "A": "Administrar antitérmicos.",
+            "B": "Trocar o cateter nasal a cada 12 horas.",
+            "C": "Umidificar o oxigênio.",
+            "D": "Manter a cabeceira do leito rebaixada."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Ao administrar oxigenioterapia, especialmente por cateter nasal, é crucial umidificar o oxigênio para evitar o ressecamento das mucosas nasais e do trato respiratório, prevenindo irritação e desconforto para o paciente."
+    },
+    {
+        "id": "1660035",
+        "enunciado": "O técnico de enfermagem está prestando cuidados a um paciente com sonda nasogástrica aberta para drenagem. Assinale a alternativa CORRETA que corresponde ao cuidado que o técnico deve ter para evitar a broncoaspiração.",
+        "alternativas": {
+            "A": "Desconectar a sonda nasogástrica durante o banho.",
+            "B": "Administrar antibióticos.",
+            "C": "Manter o paciente em decúbito dorsal.",
+            "D": "Elevar a cabeceira do leito."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Manter a cabeceira do leito elevada, em posição semissentada (Fowler ou semi-Fowler), é uma medida crucial para prevenir a broncoaspiração em pacientes com sonda nasogástrica aberta."
+    },
+    {
+        "id": "1660037",
+        "enunciado": "A hipertensão arterial ou pressão alta é uma doença crônica caracterizada pelos níveis elevados da pressão sanguínea nas artérias (Brasil, 2024). Para a verificação da pressão arterial, assinale a alternativa CORRETA que corresponde ao posicionamento ideal do paciente.",
+        "alternativas": {
+            "A": "Posição de Trendelenburg.",
+            "B": "Decúbito lateral.",
+            "C": "Posição sentada, com o braço apoiado na altura do coração.",
+            "D": "Decúbito ventral."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A aferição da pressão arterial é idealmente realizada com o paciente sentado, com o braço apoiado na altura do coração para garantir leituras precisas e confortáveis."
+    },
+    {
+        "id": "1660040",
+        "enunciado": "O médico prescreve compressa fria para um paciente com edema no tornozelo após entorse. Assinale a alternativa CORRETA que corresponde aos materiais que a equipe de enfermagem deve utilizar para preparar a compressa fria.",
+        "alternativas": {
+            "A": "Bacia com água quente, compressas e toalha.",
+            "B": "Bolsa térmica com água morna e toalha.",
+            "C": "Compressas embebidas em solução fisiológica e bandagem.",
+            "D": "Bacia com água fria, gelo picado, bolsa térmica e toalha."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para uma compressa fria, utiliza-se água fria, podendo-se adicionar gelo picado para maior refrigeração, e uma bolsa térmica pode ser envolvida. A toalha ajuda na aplicação."
+    },
+    {
+        "id": "1660042",
+        "enunciado": "Uma paciente está recebendo dieta enteral por sonda nasogástrica. Assinale a alternativa CORRETA que corresponde aos cuidados que a equipe de enfermagem deve ter ao administrar a dieta.",
+        "alternativas": {
+            "A": "Administrar a dieta em temperatura gelada.",
+            "B": "Verificar o posicionamento da sonda antes de administrar a dieta.",
+            "C": "Manter a cabeceira do leito rebaixada.",
+            "D": "Infundir a dieta rapidamente."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Verificar o posicionamento correto da sonda antes da administração da dieta é fundamental para evitar complicações como refluxo e aspiração."
+    },
+    {
+        "id": "1660044",
+        "enunciado": "Um paciente está internado na enfermaria psiquiátrica com quadro de agitação psicomotora. O médico prescreve a restrição física do paciente no leito. Assinale a alternativa CORRETA que corresponde ao tipo de restrição que a equipe de enfermagem deve priorizar.",
+        "alternativas": {
+            "A": "Restrição física com o uso de contenções de couro.",
+            "B": "Restrição física com o mínimo de dispositivos possível, utilizando técnicas menos restritivas, como lençóis, e sempre com prescrição médica e monitoramento constante.",
+            "C": "Restrição química com uso de medicamentos.",
+            "D": "Isolamento do paciente em quarto escuro."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A prioridade em restrições físicas é utilizar métodos menos invasivos possíveis, com monitoramento constante e sempre sob prescrição médica, minimizando o uso de dispositivos."
+    },
+    {
+        "id": "1660045",
+        "enunciado": "Frequência cardíaca ou ritmo cardíaco é o número de vezes que o coração bate por minuto (Brasil, 2023). Assinale a alternativa CORRETA que corresponde aos pontos de referência anatômicos para a verificação da frequência cardíaca apical.",
+        "alternativas": {
+            "A": "Quinto espaço intercostal, na linha clavicular média.",
+            "B": "Segundo espaço intercostal, na linha esternal.",
+            "C": "Fossa cubital.",
+            "D": "Região inguinal."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A ausculta cardíaca apical é realizada no quinto espaço intercostal, na linha média clavicular, onde o ápice do coração faz contato com a parede torácica."
+    },
+    {
+        "id": "1660047",
+        "enunciado": "Sr. José, 65 anos, está internado na unidade de terapia intensiva após sofrer um AVC. Ele está inconsciente, com sonda nasogástrica para alimentação e sonda vesical de demora. É CORRETO afirmar que ao realizar o curativo do cateter venoso central, o técnico de enfermagem deve:",
+        "alternativas": {
+            "A": "Usar luvas de procedimento e gaze estéril para limpar o local de inserção do cateter.",
+            "B": "Realizar a limpeza do local de inserção do cateter com movimentos circulares de dentro para fora.",
+            "C": "Utilizar técnica asséptica durante todo o procedimento.",
+            "D": "Remover o curativo anterior com as mãos, pois já está sujo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A técnica asséptica é essencial em todos os procedimentos invasivos, como a manipulação de cateteres venosos centrais, para prevenir infecções."
+    },
+    {
+        "id": "1182953",
+        "enunciado": "Ao verificar a pressão arterial (PA) do paciente, alguns cuidados são fundamentais para se obter um resultado fidedigno. Assinale a alternativa correta em relação aos cuidados citados.",
+        "alternativas": {
+            "A": "O braço do paciente deverá estar posicionado no nível do coração.",
+            "B": "O braço do paciente deverá estar posicionado acima do nível do coração.",
+            "C": "O braço do paciente deverá estar posicionado abaixo do nível do coração.",
+            "D": "O braço do paciente a ser escolhido para fazer a medida da PA deverá ser sempre o direito.",
+            "E": "A posição do braço do paciente não interfere no resultado da medida da pressão arterial."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para que a medição da pressão arterial seja fidedigna, o braço do paciente deve estar posicionado no nível do coração. Essa posição garante que a coluna de sangue na artéria branquial esteja na mesma altura da bomba cardíaca, evitando erros de leitura causados pela gravidade, que poderiam inflar ou desinflar artificialmente os valores medidos."
+    },
+    {
+        "id": "1278006",
+        "enunciado": "“A punção venosa é uma técnica _________, portanto é necessária a adoção de medidas de segurança, como a _________ das mãos, o uso de luvas e a _________ da pele do paciente.” Assinale a alternativa que melhor complete as lacunas da afirmação acima.",
+        "alternativas": {
+            "A": "Asséptica / Higienização / Antissepsia.",
+            "B": "Higiênica / Higienização / Assepsia.",
+            "C": "Antisséptica / Assepsia / Higienização.",
+            "D": "Antisséptica / Higienização / Assepsia."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A punção venosa é uma técnica asséptica (livre de microrganismos). A higienização das mãos previne a contaminação. A antissepsia da pele reduz a carga microbiana do local puncionado para garantir a assepsia."
+    },
+    {
+        "id": "1282212",
+        "enunciado": "Durante a aplicação de um gesso circular no antebraço, determine qual das seguintes precauções é essencial para prevenir a síndrome compartimental:",
+        "alternativas": {
+            "A": "Aplicar o gesso somente na posição de pronação completa do antebraço.",
+            "B": "Assegurar que o gesso esteja suficientemente apertado para imobilizar a articulação do cotovelo.",
+            "C": "Envolver completamente o pulso e as articulações metacarpofalângicas, deixando os dedos livres para movimento.",
+            "D": "Manter uma camada uniforme e sem dobras de acolchoamento sob o gesso, para evitar pressão irregular.",
+            "E": "Realizar a imobilização com o membro em posição de máxima extensão para promover a cicatrização óssea."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A síndrome compartimental é prevenida com acolchoamento adequado e uniforme sob o gesso, evitando compressão e permitindo circulação sanguínea, especialmente com o membro em posição funcional. As outras opções não abordam diretamente a prevenção da síndrome."
+    },
+    {
+        "id": "1282213",
+        "enunciado": "Aponte qual técnica é mais indicada para a aplicação de gesso em um paciente com fratura de tornozelo, para permitir alguma mobilidade articular e reduzir o risco de atrofia muscular:",
+        "alternativas": {
+            "A": "Gesso tipo Robert-Jones, com imobilização completa do tornozelo e parte da perna.",
+            "B": "Bota de gesso com articulação no tornozelo, permitindo flexão e extensão limitadas.",
+            "C": "Gesso enfaixado circular completo, desde o pé até abaixo do joelho, sem articulações.",
+            "D": "Gesso suspenso, com tração para alinhar a fratura sem imobilização direta do tornozelo.",
+            "E": "Gesso em oito, envolvendo apenas a área do tornozelo, deixando livre a articulação."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para fraturas de tornozelo que permitem alguma mobilidade articular e reduzem risco de atrofia, a bota de gesso com articulação no tornozelo é a mais indicada, pois limita os movimentos sem imobilizar completamente."
+    },
+    {
+        "id": "1282214",
+        "enunciado": "Ao aplicar um gesso longo para imobilização de uma fratura diafisária de fêmur em um adulto, qual dos seguintes aspectos é crucial para garantir a eficácia do tratamento e o conforto do paciente?",
+        "alternativas": {
+            "A": "Incluir tanto a articulação do quadril quanto a do joelho na imobilização, para garantir a estabilidade da fratura.",
+            "B": "Deixar o joelho livre de imobilização para permitir a mobilidade e reduzir o risco de trombose venosa profunda.",
+            "C": "Usar um apoio de peso na extremidade distal do gesso para facilitar a deambulação precoce.",
+            "D": "Aplicar o gesso em uma posição que favoreça a flexão do joelho a 45 graus, para promover uma posição funcional.",
+            "E": "Incluir a articulação do tornozelo na imobilização, garantindo uma distribuição uniforme da pressão ao longo do membro."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A imobilização de uma fratura diafisária de fêmur exige a inclusão das articulações proximal (quadril) e distal (joelho) para garantir a estabilidade e o alinhamento adequados. As demais alternativas apresentam práticas incorretas ou irrelevantes."
+    },
+    {
+        "id": "1281659",
+        "enunciado": "Uma das técnicas utilizada na preparação para exames é a percussão. Sobre essa técnica, ao colocar os tecidos subjacentes em movimento, a percussão ajuda a determinar a densidade do tecido subjacente e se está cheio de ar, cheio de líquido ou se é sólido. São produzidos sons audíveis e vibrações palpáveis, os quais é possível distinguir os sons descritos abaixo, afora:",
+        "alternativas": {
+            "A": "Submacicez",
+            "B": "Timpanismo",
+            "C": "Ressonância",
+            "D": "Hiper-ressonância",
+            "E": "Áudio-perceptível"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A percussão produz sons como submacidez, timpanismo, ressonância e hiperressonância, relacionados à densidade do tecido. 'Áudio-perceptível' não é um tipo de som produzido pela percussão, mas sim uma característica geral de sons que podem ser ouvidos."
+    },
+    {
+        "id": "1198165",
+        "enunciado": "Com base nas complicações relacionadas à traqueostomia, assinale a alternativa CORRETA que corresponde a uma complicação tardia.",
+        "alternativas": {
+            "A": "Traqueomalacea.",
+            "B": "Pneumomediastino.",
+            "C": "Hipercarbia.",
+            "D": "Ulceração do estoma.",
+            "E": "Hemorragia."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Complicações tardias da traqueostomia incluem traqueomalácia (enfraquecimento da cartilagem da traqueia), estenose traqueal e fístula traqueoesofágica. As demais são complicações precoces ou imediatas."
+    },
+    {
+        "id": "1269963",
+        "enunciado": "No curativo, faz-se uma limpeza mecânica da ferida com irrigação de solução salina sob pressão, de forma a remover corpos estranhos e grande parte de bactérias superficiais. Quanto ao preparo da pele ou da mucosa íntegra para procedimentos invasivos ou cirúrgicos, indica-se o uso de:",
+        "alternativas": {
+            "A": "soluções aquosas",
+            "B": "antissépticos",
+            "C": "germicidas",
+            "D": "fungicidas"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para preparo da pele ou mucosa íntegra para procedimentos invasivos ou cirúrgicos, o uso de antissépticos é indicado para reduzir a carga microbiana superficial, prevenindo infecções. Soluções aquosas são para limpeza, germicidas e fungicidas têm ação mais específica e intensa."
+    },
+    {
+        "id": "1263722",
+        "enunciado": "A oximetria de pulso é utilizada para avaliar a saturação de oxigênio (SpO2) no sangue de pacientes submetidos à sedação, diagnosticar hipoxemia, fazer ajustes de oxigênio suplementar e para avaliar a tolerância às atividades. Assinalar a alternativa com os valores normais da SpO2.",
+        "alternativas": {
+            "A": "De 95 a 100%.",
+            "B": "De 65 a 80%.",
+            "C": "De 75 a 85%.",
+            "D": "De 86 a 93%."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Valores normais de SpO2 (saturação de oxigênio no sangue) em adultos saudáveis geralmente ficam entre 95% e 100%. Saturações abaixo de 95% podem indicar hipoxemia. As outras faixas são consideradas baixas ou patológicas."
+    },
+    {
+        "id": "1074677",
+        "enunciado": "Analise as afirmativas abaixo sobre a técnica de aferição de pressão arterial.1. Deixar o paciente em repouso por 3 a 5 minutos.2. Certificar-se de que o paciente praticou exer -cícios físicos, não ingeriu bebidas alcoólicas, café ou fumou nos últimos 30 minutos.3. O paciente está sentado, com pernas cruzadas, pés apoiados no chão, dorso recostado na cadeira e relaxado.4. O braço deve estar na altura do coração, apoiado, com a palma da mão voltada para cima e as roupas não devem garrotear o membro.Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "São corretas apenas as afirmativas 1 e 4.",
+            "B": "São corretas apenas as afirmativas 2 e 3.",
+            "C": "São corretas apenas as afirmativas 3 e 4.",
+            "D": "São corretas apenas as afirmativas 1, 2 e 3.",
+            "E": "São corretas apenas as afirmativas 2, 3 e 4."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A afirmativa 1 (repouso) e a afirmativa 4 (braço na altura do coração, apoiado, etc.) estão corretas para a aferição de pressão arterial. A afirmativa 2 está incorreta pois não se certifica o exercício ou ingestão, mas sim que não houve nos 30 mins antes. A afirmativa 3 está incorreta pois as pernas não devem estar cruzadas."
+    },
+    {
+        "id": "1094792",
+        "enunciado": "O Cateter Venoso Periférico (CVP) é um recurso material indispensável no contexto hospitalar , utilizado na administração de ﬂuidos, nutrientes, medicamentos e hemoderivados e, também, na coleta de sangue para exames. A sua utilização não está isenta de risco de complicações, com impacto sobre a segurança e o bem-estar do doente (SALGUEIRO-OLIVEIRA  et al., 2019). No que diz respeito ao CVP, assinale a alternativa CORRET A.",
+        "alternativas": {
+            "A": "Deve-se selecionar o CVP  de maior calibre.",
+            "B": "A descontaminação dos garrotes não constitui parte do protocolo assistencial relacionada a presença do CVP.",
+            "C": "Recomenda-se a utilização de adesivo de cor castanha durante o uso do CVP.",
+            "D": "As tiras de ﬁta adesiva para ﬁxar o CVP  devem ser previamente cortadas e aﬁxadas na bandeja.",
+            "E": "A ﬂebite é uma das complicações mais frequentes associada ao CVP  e sua manifestação pode se desenvolver em até 48 horas após a alta hospitalar."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A flebite, uma inflamação da veia, é uma complicação comum associada ao uso de cateteres venosos periféricos. Essa inflamação pode se manifestar dias após a remoção do cateter, inclusive após a alta hospitalar."
+    },
+    {
+        "id": "1691122",
+        "enunciado": "É correto afirmar que o Enfaixamento Tipo\nBota (SuroPodálico) tem por finalidade:",
+        "alternativas": {
+            "A": "Limitar o movimento de extensão do\njoelho.",
+            "B": "Limitar o movimento do tornozelo.",
+            "C": "Limitar o movimento do olécrano.",
+            "D": "Limitar o movimento de flexão do joelho.",
+            "E": "Limitação do movimento do punho."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O enfaixamento tipo \"Bota\" (SuroPodálico) envolve o pé e o tornozelo. Sua finalidade é restringir o movimento desta articulação, sendo útil em entorses de tornozelo e outras lesões locais."
+    },
+    {
+        "id": "1691125",
+        "enunciado": "Para limitar a movimentação do punho,\ntratamento de fraturas, inflamações, luxações e\ntorções no antebraço, a técnica gessada\nindicada é:",
+        "alternativas": {
+            "A": "Braquial gessado.",
+            "B": "Áxilo palmar gessado.",
+            "C": "Antebraquiomanual gessado.",
+            "D": "Antibraquiopalmar gessado.",
+            "E": "Inguinopodálico gessado."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O nome 'antibraquiopalmar' indica a imobilização da região do antebraço (antebraquio) e da mão (palmar), que é o objetivo para tratar as condições mencionadas."
+    },
+    {
+        "id": "2026858",
+        "enunciado": "No atendimento das urgências e emer gências, em relação as queimaduras é CORRET O aﬁrmar que:",
+        "alternativas": {
+            "A": "a) As queimaduras de terceiro grau envolvem lesões que atingem todas as camadas da pele, incluindo músculos e vasos sanguíneos. São indolores.",
+            "B": "b) Durante a avaliação inicial da queimadura, analisa-se apenas a profundidade da queimadura.",
+            "C": "c) Não há como calcular a extensão de áreas corporais queimadas.",
+            "D": "d) A idade não é um fator determinante de sobrevida do paciente queimado.",
+            "E": "e) As queimaduras são lesões causadas exclusivamente por agentes térmicos, como calor ou fogo."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Queimaduras de terceiro grau atingem todas as camadas da pele, incluindo músculos e vasos, e são indolores devido à destruição das terminações nervosas."
+    },
+    {
+        "id": "1896748",
+        "enunciado": "Na unidade de internação, a cama fechada é:",
+        "alternativas": {
+            "A": "Cama desocupada e que não pode ser ocupada.",
+            "B": "Cama ocupada por um paciente que está em óbito.",
+            "C": "Cama com defeito.",
+            "D": "Cama desocupada, que está aguardando por um paciente."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Na enfermagem hospitalar, cama fechada refere-se a uma cama desocupada que está preparada e em espera para receber um novo paciente, contrastando com cama aberta (ocupada) ou cama de óbito."
+    },
+    {
+        "id": "1044631",
+        "enunciado": "Para verificação da pulsação periférica, o técnico poderá utilizar os dedos indicador e médio para verificar a frequência cardíaca nos seguintes pulsos, exceto?",
+        "alternativas": {
+            "A": "Braquial.",
+            "B": "Carotídeo.",
+            "C": "Apical.",
+            "D": "Poplíteo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A verificação da pulsação periférica pode ser feita em pulsos como o braquial, carotídeo e poplíteo. O pulso apical é verificado diretamente sobre o precórdio com estetoscópio, não com os dedos na superfície."
+    },
+    {
+        "id": "1044632",
+        "enunciado": "Os sinais vitais devem ser verificados seguindo uma sequência para otimizar o tempo do profissional executante. O primeiro passo da técnica é:",
+        "alternativas": {
+            "A": "Colocar o termômetro para verificação da temperatura.",
+            "B": "Aferir a pressão arterial.",
+            "C": "Verificar a frequência cardíaca e os movimentos respiratórios.",
+            "D": "Questionar o paciente sobre dor, aplicando a escala específica utilizada na instituição de saúde."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A sequência padrão de verificação de sinais vitais inicia com a frequência cardíaca e os movimentos respiratórios, pois são geralmente mais fáceis de observar e quantificar sem interferência de outras técnicas."
+    },
+    {
+        "id": "1044633",
+        "enunciado": "Com relação à verificação da glicemia capilar, entre os passos da técnica apresentados abaixo, qual deve ocorrer primeiro?",
+        "alternativas": {
+            "A": "Pressionar o dedo do paciente com algodão embebido em álcool 70% para cessar o sangramento.",
+            "B": "Segurar a tira reagente que está no glicosímetro, junto à gota de sangue.",
+            "C": "Manter o dedo selecionado voltado para baixo, comprimindo-o levemente.",
+            "D": "Colocar a lanceta no lancetador e encaixá-la corretamente."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O primeiro passo na técnica de glicemia capilar é preparar o material. Isso inclui colocar a lanceta no lancetador para garantir que esteja pronta para uso estéril e seguro."
+    },
+    {
+        "id": "2130146",
+        "enunciado": "Sobre o procedimento de nebulização, assinale a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Deve ser aplicado obrigatoriamente de forma intermitente, sendo contraindicado a forma contínua.",
+            "B": "É o procedimento destinado a induzir a bronco-constrição por meio de medicações em forma de aerossol, induzindo a redução de processos alérgicos e inflamatórios brônquicos.",
+            "C": "É o processo terapêutico que distribui suspensão de partículas de água em oxigênio ou ar comprimido, com ou sem medicação associada.",
+            "D": "Promove a expectoração por meio de vácuo, primordial para inibir a síntese mucoica no interior dos alvéolos afetados."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Nebulização é a disseminação de partículas de água ou medicação em suspensão no ar para inalação, visando a hidratação e/ou medicação das vias aéreas."
+    },
+    {
+        "id": "1435119",
+        "enunciado": "Segundo CINTRA, são fatores técnicos que interferem nas medidas de pressões, em geral, dentre outros:",
+        "alternativas": {
+            "A": "Posição de referência zero inadequada, oclusão do cateter ou mau posicionamento do mesmo e alterações nas condições do transdutor.",
+            "B": "Bolhas de ar no sistema, posição de referência zero adequada, valor de pressão arterial inferior a 120/80mmHg e quando há registro de curva de pressão.",
+            "C": "Oclusão do cateter ou mau posicionamento do mesmo, quando há registro de curva de pressão e alterações provocadas pela calibração interna do aparelho.",
+            "D": "Pressão arterial pulmonar de 6-12mmHg, artefatos no osciloscópio, posição de referência zero inadequada e necessidade de heparina para manutenção de permeabilidade."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A lista fatores técnicos que comprovadamente interferem em medições de pressão, como posição zero incorreta, obstrução ou mau posicionamento do cateter e problemas no transdutor."
+    },
+    {
+        "id": "1944836",
+        "enunciado": "Ao examinar paciente de 50 anos, peso normal, no posicionamento para verificação da pressão arterial são indicados os seguintes procedimentos:",
+        "alternativas": {
+            "A": "Colocar a paciente na posição dorsal por 10 minutos, com as pernas cruzadas, braços acima da altura do coração e com pernas e pés elevados.",
+            "B": "Apoiar o braço da paciente abaixo da altura do coração e a palma da mão voltada para baixo, com o cotovelo reto.",
+            "C": "Manter a paciente sentada com as pernas descruzadas, o braço na altura do coração, palma da mão voltada para cima e do cotovelo ligeiramente fletido.",
+            "D": "Acomodar paciente no leito por 20 minutos, com as pernas cruzadas, braço acima da altura do coração e com a palma da mão lateralizada."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para aferição da pressão arterial, o paciente deve estar sentado, com o braço apoiado na altura do coração, pernas descruzadas e pés apoiados, garantindo a precisão da medição."
+    },
+    {
+        "id": "1848757",
+        "enunciado": "Assinale a alternativa correta sobre essa aferição.",
+        "alternativas": {
+            "A": "Manter o braço do paciente para baixo, com a palma da mão voltada para cima e cotovelo ligeiramente fletido.",
+            "B": "Certificar-se de que o paciente está com a bexiga cheia e com as pernas fletidas.",
+            "C": "Utilizar manguito de tamanho adequado ao braço do paciente, cerca de 2 a 3 cm acima da fossa antecubital.",
+            "D": "Pressionar a câmpula do estetoscópio sobre a artéria braquial, comprimindo-a para ouvir melhor os valores aferidos.",
+            "E": "Não é necessário alguns minutos para realizar uma nova aferição."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está correta pois o uso de manguito de tamanho adequado é essencial para uma aferição precisa da pressão arterial, garantindo que meça a artéria braquial corretamente."
+    }
+]

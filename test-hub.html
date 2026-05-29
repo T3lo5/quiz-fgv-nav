@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Hub Loader</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .status { padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        .loading { background: #cce5ff; color: #004085; }
+        #log { background: #f8f9fa; padding: 10px; height: 300px; overflow-y: scroll; }
+        pre { white-space: pre-wrap; word-wrap: break-word; }
+    </style>
+</head>
+<body>
+    <h1>🧪 Teste do Quiz Pro Hub</h1>
+
+    <div id="status" class="status loading">
+        ⏳ Inicializando sistema...
+    </div>
+
+    <h2>📊 Estatísticas</h2>
+    <div id="statistics">
+        Carregando...
+    </div>
+
+    <h2>📚 Disciplinas Disponíveis</h2>
+    <div id="disciplines">
+        Carregando...
+    </div>
+
+    <h2>🪵 Console Log</h2>
+    <div id="log">
+        <pre id="logContent"></pre>
+    </div>
+
+    <script src="js/hub-loader.js"></script>
+    <script>
+        // Capturar console.log para exibir na página
+        const logContent = document.getElementById('logContent');
+        const originalLog = console.log;
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            logContent.innerHTML += new Date().toLocaleTimeString() + ': ' + args.join(' ') + '\n';
+            logContent.scrollTop = logContent.scrollHeight;
+        };
+
+        // Testar o Hub Loader
+        async function runTests() {
+            try {
+                console.log('🚀 Iniciando testes do Hub Loader...');
+
+                // Teste 1: Inicialização
+                console.log('\n=== Teste 1: Inicialização ===');
+                await window.HubLoader.init();
+                console.log('✅ Hub Loader inicializado com sucesso!');
+
+                // Teste 2: Obter estatísticas
+                console.log('\n=== Teste 2: Estatísticas ===');
+                const stats = window.HubLoader.getStats();
+                console.log('📊 Estatísticas:', stats);
+                displayStats(stats);
+
+                // Teste 3: Listar disciplinas
+                console.log('\n=== Teste 3: Listar Disciplinas ===');
+                const disciplinas = window.HubLoader.getDisciplinas();
+                console.log('📚 Disciplinas encontradas:', disciplinas.length);
+                displayDisciplines(disciplinas);
+
+                // Teste 4: Carregar questões de uma disciplina
+                console.log('\n=== Teste 4: Carregar Questões de Matemática ===');
+                try {
+                    const mathQuestions = await window.HubLoader.loadQuestions({
+                        disciplina: 'matemática',
+                        quantidade: 10
+                    });
+                    console.log('✅ Carregadas', mathQuestions.length, 'questões de matemática');
+                    console.log('Exemplo questão 1:', mathQuestions[0]);
+                } catch (error) {
+                    console.error('❌ Erro ao carregar matemática:', error);
+                }
+
+                // Teste 5: Carregar questões de múltiplas disciplinas
+                console.log('\n=== Teste 5: Carregar Questões Múltiplas ===');
+                try {
+                    const multiQuestions = await window.HubLoader.loadQuestions({
+                        disciplinas: ['matemática', 'português'],
+                        temasPorDisciplina: [5, 5]
+                    });
+                    console.log('✅ Carregadas', multiQuestions.length, 'questões totais');
+                } catch (error) {
+                    console.error('❌ Erro no carregamento múltiplo:', error);
+                }
+
+                // Atualizar status
+                document.getElementById('status').className = 'status success';
+                document.getElementById('status').innerHTML = '✅ Todos os testes concluídos com sucesso!';
+
+            } catch (error) {
+                console.error('💥 Erro nos testes:', error);
+                document.getElementById('status').className = 'status error';
+                document.getElementById('status').innerHTML = '❌ Erro: ' + error.message;
+            }
+        }
+
+        function displayStats(stats) {
+            const statsDiv = document.getElementById('statistics');
+            statsDiv.innerHTML = `
+                <ul>
+                    <li><strong>Total de Questões:</strong> ${stats.totalQuestoes?.toLocaleString() || 'N/A'}</li>
+                    <li><strong>Total de Arquivos:</strong> ${stats.totalArquivos || 'N/A'}</li>
+                    <li><strong>Total de Disciplinas:</strong> ${stats.totalDisciplinas || 'N/A'}</li>
+                    <li><strong>Itens em Cache:</strong> ${stats.cacheItens || 'N/A'}</li>
+                    <li><strong>Carregando:</strong> ${stats.carregando || 'N/A'}</li>
+                </ul>
+            `;
+        }
+
+        function displayDisciplines(disciplines) {
+            const discDiv = document.getElementById('disciplines');
+            discDiv.innerHTML = '<ul>' +
+                disciplines.slice(0, 10).map(d =>
+                    `<li>
+                        <strong style="color: ${d.cor}">${d.nome}</strong> -
+                        ${d.totalQuestoes} questões, ${d.temas} temas
+                    </li>`
+                ).join('') +
+                (disciplines.length > 10 ? '<li>... e mais ' + (disciplines.length - 10) + ' disciplinas</li>' : '') +
+                '</ul>';
+        }
+
+        // Iniciar testes após carregar a página
+        setTimeout(runTests, 100);
+    </script>
+</body>
+</html>

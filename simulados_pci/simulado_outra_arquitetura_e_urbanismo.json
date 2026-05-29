@@ -1,0 +1,769 @@
+[
+    {
+        "id": "2062901",
+        "enunciado": "Em um projeto arquitetônico, a planta baixa representa:",
+        "alternativas": {
+            "A": "A visualização lateral da edificação.",
+            "B": "O corte vertical da estrutura.",
+            "C": "A vista superior da construção, com os ambientes divididos.",
+            "D": "O planejamento da instalação elétrica."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A planta baixa é um desenho técnico que representa uma vista superior horizontal da edificação, cortada a uma altura padrão do piso, mostrando a divisão dos ambientes e suas dimensões."
+    },
+    {
+        "id": "2062903",
+        "enunciado": "Em uma etapa de locação da obra, para garantir a precisão na marcação dos eixos principais e esquadros, o profissional deve:",
+        "alternativas": {
+            "A": "Usar nível, trena, linha, mangueira de nível ou nível a laser e aplicar o teorema de Pitágoras para garantir ângulos retos.",
+            "B": "Realizar marcações visuais com auxílio de tinta spray.",
+            "C": "Utilizar uma régua e linha de pedreiro apenas.",
+            "D": "Solicitar a presença do engenheiro somente no final da obra."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A locação precisa dos eixos requer o uso de instrumentos de medição como nível, trena, linha e mangueira de nível ou nível a laser. O Teorema de Pitágoras é essencial para garantir a formação de ângulos retos (esquadros) entre as linhas de locação."
+    },
+    {
+        "id": "2062905",
+        "enunciado": "Para que serve prumada durante o levantamento de uma parede?",
+        "alternativas": {
+            "A": "Verificar se a parede está perfeitamente vertical.",
+            "B": "Calcular a área de pintura.",
+            "C": "Medir a espessura da parede.",
+            "D": "Marcar a altura do revestimento."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A prumada é uma linha vertical de referência usada na construção para garantir que a parede seja construída perfeitamente na vertical, assegurando seu alinhamento e estabilidade."
+    },
+    {
+        "id": "2062906",
+        "enunciado": "Em relação às instalações hidráulicas, é correto afirmar que:",
+        "alternativas": {
+            "A": "Os tubos de esgoto são usados para levar água potável à caixa d'água.",
+            "B": "As instalações elétricas devem ser colocadas dentro dos tubos de esgoto.",
+            "C": "A água pluvial deve ser lançada na mesma tubulação do esgoto doméstico.",
+            "D": "Os tubos de esgoto devem ter caimento para facilitar o escoamento dos resíduos."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O caimento dos tubos de esgoto é essencial para que os resíduos líquidos e sólidos fluam por gravidade. Tubos de esgoto não conduzem água potável; instalações elétricas não devem estar em tubos de esgoto; e água pluvial não deve ser lançada no esgoto doméstico."
+    },
+    {
+        "id": "1769666",
+        "enunciado": "A certificação Procel Edifica, promovida pelo Programa Nacional de Conservação de Energia Elétrica (Procel), é uma ferramenta importante para avaliar e incentivar a eficiência energética em edificações. Diferentemente de outras certificações que focam amplamente na sustentabilidade geral, o Procel Edifica tem como objetivo central a redução do consumo de energia elétrica, promovendo tecnologias e estratégias que garantam desempenho superior em iluminação, climatização e isolamento térmico. Considere o caso de um edifício comercial projetado para obter a certificação, onde a análise inicial apontou problemas no desempenho da envoltória térmica, mas alta eficiência nos sistemas de iluminação. Com base nos critérios técnicos do Procel Edifica, qual alternativa está correta?",
+        "alternativas": {
+            "A": "Exige que todas as demandas elétricas do edifício sejam atendidas exclusivamente por sistemas de energia solar, desconsiderando outras fontes de eficiência energética.",
+            "B": "Avalia o desempenho energético do edifício de maneira integrada, considerando aspectos como a envoltória térmica, sistemas de iluminação natural e artificial, além da eficiência dos sistemas de climatização, independentemente de soluções exclusivas de geração de energia.",
+            "C": "Prioriza a reutilização de materiais de construção e tecnologias sustentáveis, mesmo que isso não tenha impacto direto no consumo energético da edificação.",
+            "D": "Certifica apenas edifícios que utilizam exclusivamente materiais reciclados em sua construção, garantindo alinhamento com critérios de sustentabilidade global.",
+            "E": "Impõe restrições ao uso de tecnologia de automação, privilegiando sistemas manuais em edificações comerciais para reduzir custos operacionais."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O Procel Edifica avalia o desempenho energético de forma integrada, considerando múltiplos fatores como envoltória, iluminação e climatização, e não se restringe a fontes exclusivas ou materiais específicos, segundo a descrição."
+    },
+    {
+        "id": "2305510",
+        "enunciado": "A planta baixa em um projeto arquitetônico representa:",
+        "alternativas": {
+            "A": "Elevação frontal.",
+            "B": "Vista lateral.",
+            "C": "Corte horizontal a 1,20 m do piso, mostrando paredes, portas e janelas.",
+            "D": "Perspectiva isométrica."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A planta baixa representa um corte horizontal em uma edificação, geralmente a 1,20m do piso, revelando a disposição das paredes, vãos de portas e janelas, e outros elementos internos."
+    },
+    {
+        "id": "1769668",
+        "enunciado": "Em Nova York, iniciativas urbanas têm promovido o uso de telhados verdes como solução para mitigar os efeitos da ilha de calor, melhorar a gestão de águas pluviais e criar espaços verdes adicionais em um ambiente densamente urbanizado. Esses sistemas têm ganho destaque em edifícios residenciais e comerciais, ajudando a reduzir a carga térmica, especialmente durante os meses de verão, e a gerenciar o escoamento de água durante tempestades intensas, características da região. No entanto, a implementação de telhados verdes enfrenta desafios técnicos significativos. Em um projeto recente no centro de Manhattan, um arquiteto propôs a instalação de um sistema de telhado verde extensivo em um edifício histórico de cinco andares. Durante a análise técnica, surgiram questões relacionadas ao peso adicional do sistema, à compatibilidade com a impermeabilização existente e à drenagem. Esses fatores demonstram que a aplicação de telhados verdes, embora vantajosa, exige um planejamento técnico detalhado para evitar problemas estruturais e operacionais. Quais são os principais desafios técnicos associados à implementação de um sistema de telhado verde nesse contexto?",
+        "alternativas": {
+            "A": "A incompatibilidade do telhado verde com sistemas de impermeabilização modernos, tornando inviável sua instalação em edifícios existentes.",
+            "B": "A necessidade de reforço estrutural da edificação para suportar o peso adicional do substrato, vegetação e água acumulada, especialmente em construções mais antigas.",
+            "C": "A eliminação da possibilidade de manutenção das áreas adjacentes ao telhado verde, comprometendo a funcionalidade do edifício.",
+            "D": "A ausência de benefícios térmicos ou hídricos em climas temperados, onde sua aplicação é menos efetiva.",
+            "E": "O aumento da vulnerabilidade a infiltrações devido à drenagem inadequada, especialmente em períodos de chuvas intensas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O principal desafio técnico de telhados verdes em edifícios existentes, especialmente os históricos, é o reforço estrutural para suportar o peso adicional, conforme debatido no texto sobre o caso de Manhattan."
+    },
+    {
+        "id": "1769670",
+        "enunciado": "Durante o projeto de uma biblioteca pública, foi necessário controlar o ruído externo proveniente de uma avenida próxima. Quais medidas seriam mais eficientes para garantir conforto acústico interno, considerando a NBR 15575?",
+        "alternativas": {
+            "A": "Utilizar exclusivamente materiais de absorção sonora nas paredes internas.",
+            "B": "Substituir o sistema de janelas por modelos basculantes sem vedação.",
+            "C": "Aplicar vidros duplos e projetar paredes externas com isolamento acústico adequado.",
+            "D": "Reforçar as paredes internas com drywall, sem alterar os elementos externos.",
+            "E": "Adotar divisórias internas móveis com propriedades acústicas, mesmo que não haja impacto externo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C, com vidros duplos e paredes com isolamento acústico, é a mais completa para controle de ruído externo, abordando a fachada e a vedação, em conformidade com a NBR 15575. As outras opções são parciais ou inadequadas."
+    },
+    {
+        "id": "2027023",
+        "enunciado": "Em relação às fases do projeto arquitetônico conforme as boas práticas de arquitetura e os referenciais normativos nacionais, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "O projeto executivo deve incluir detalhes construtivos e especificações de materiais.",
+            "B": "O anteprojeto dispensa a compatibilização com instalações prediais.",
+            "C": "O estudo preliminar ocorre após o projeto executivo.",
+            "D": "O projeto legal é destinado, exclusivamente, à visualização 3D da edificação."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O projeto executivo detalha os aspectos construtivos e as especificações de materiais, sendo essencial para a execução da obra."
+    },
+    {
+        "id": "2154706",
+        "enunciado": "A respeito da estratégia de redução de calor através da ventilação cruzada, é correto afirmar que:",
+        "alternativas": {
+            "A": "Consiste em criar aberturas em pontos estratégicos, permitindo que o ar circule naturalmente, sem a necessidade de equipamentos de refrigeração.",
+            "B": "A camada de vegetação atua como isolante térmico, reduzindo a temperatura interna do espaço e aumentando a umidade do ar.",
+            "C": "Pode ser realizada através de persianas, cortinas, brises ou até mesmo árvores e arbustos.",
+            "D": "O uso de vidros específicos, como o vidro com proteção solar, pode reduzir a entrada de calor no ambiente, mantendo a temperatura interna agradável.",
+            "E": "A escolha da orientação deve levar em conta a incidência de raios solares durante o dia, evitando a exposição direta à luz solar nos horários mais quentes."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A ventilação cruzada consiste em criar aberturas em fachadas opostas para permitir a circulação natural do ar, dissipando o calor sem necessidade de equipamentos mecânicos. As outras alternativas descrevem outras estratégias de conforto térmico ou elementos que podem auxiliar, mas não definem a ventilação cruzada em si."
+    },
+    {
+        "id": "1769680",
+        "enunciado": "Um arquiteto propôs o uso de sistemas de sombreamento dinâmico em um edifício corporativo, visando melhorar o desempenho térmico e reduzir o consumo de energia. Quais são os principais desafios associados à implementação desse tipo de solução?",
+        "alternativas": {
+            "A": "Limitações na integração com sistemas de ventilação natural e redução da eficiência térmica.",
+            "B": "Restrição do uso de vidros de alto desempenho, que são incompatíveis com sistemas dinâmicos.",
+            "C": "Aumento do consumo energético devido à necessidade de ajustes constantes nos sistemas de sombreamento.",
+            "D": "Redução da iluminação natural nos espaços internos, comprometendo o conforto lumínico.",
+            "E": "Alto custo inicial e necessidade de manutenção regular para garantir o desempenho ao longo do tempo."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E aborda os principais desafios técnicos e financeiros dos sistemas de sombreamento dinâmico: alto custo inicial e necessidade de manutenção. As outras opções focam em aspectos menos centrais ou implausíveis."
+    },
+    {
+        "id": "2154710",
+        "enunciado": "Bairros existem para satisfazer tanto as necessidades diárias quanto aquelas que surgem ao longo da vida. Para satisfazer a essas necessidades de curto e longo prazo e para possibilitar opções de vida saudáveis, os bairros precisam:",
+        "alternativas": {
+            "A": "Incluir uma grande variedade de usos do solo, tipos de edificação e tipos de moradia.",
+            "B": "Dividir as funções urbanas em zonas distintas (residencial, comercial, industrial).",
+            "C": "De um anel de áreas verdes, como parques e terras agrícolas, circundando a cidade, separando-a do campo e proporcionando um amortecedor contra a expansão urbana.",
+            "D": "Implantar edifícios em grandes vazios urbanos, com paisagismo e áreas verdes.",
+            "E": "Priorizar a circulação de pedestres e ciclistas, com ruas projetadas para minimizar o tráfego de carros e promover a segurança."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A diversidade de usos do solo, tipos de edificação e moradia em um bairro atende às variadas necessidades ao longo da vida, promovendo um ambiente mais dinâmico e saudável. As outras alternativas focam em aspectos isolados ou excessivamente restritivos."
+    },
+    {
+        "id": "2027031",
+        "enunciado": "Em relação aos projetos complementares em uma obra de arquitetura, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "O projeto de segurança contra incêndio é uma etapa fundamental no planejamento da edificação.",
+            "B": "O projeto de drenagem de águas pluviais deve ser elaborado apenas em áreas urbanas.",
+            "C": "O projeto de instalações elétricas deve ser desenvolvido após a escolha do mobiliário e decoração final.",
+            "D": "O projeto estrutural deve ser feito apenas após a conclusão do projeto arquitetônico."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O projeto de segurança contra incêndio é uma etapa crucial no planejamento de qualquer edificação, visando garantir a segurança dos ocupantes."
+    },
+    {
+        "id": "1769682",
+        "enunciado": "No Nordeste brasileiro, conhecido por seu clima tropical úmido e forte incidência solar, a arquitetura tradicional incorpora soluções vernaculares que dialogam com a cultura local e o ambiente natural. Exemplos como o uso de grandes beirais em casas de fazenda, a ventilação cruzada em edifícios antigos e materiais locais, como a madeira e a argila, são inspirações para projetos contemporâneos que buscam aliar eficiência térmica e respeito às tradições regionais. Durante o projeto de uma escola pública em uma cidade nordestina, o arquiteto buscou maximizar o conforto térmico utilizando estratégias passivas, enquanto promovia um design que celebrasse elementos culturais, como a sombra de espaços abertos para reuniões e o uso de padrões decorativos inspirados em rendas de bilro. O desafio consistia em reduzir o ganho térmico interno sem comprometer a ventilação e iluminação natural, essenciais para o bem-estar dos alunos. Dado o contexto climático e cultural, qual seria a solução mais eficaz para garantir o conforto térmico e o alinhamento com a cultura regional?",
+        "alternativas": {
+            "A": "Adotar grandes beirais e brises-soleil para reduzir a incidência direta de radiação solar, promovendo sombra e ventilação cruzada nas áreas internas.",
+            "B": "Implantar fachadas completamente envidraçadas para maximizar a entrada de luz natural, ignorando o aumento do ganho térmico.",
+            "C": "Utilizar sistemas de climatização artificial como o principal método de controle térmico, eliminando a necessidade de estratégias passivas.",
+            "D": "Substituir materiais vernaculares por superfícies metálicas reflexivas, priorizando a estética contemporânea.",
+            "E": "Incorporar ventilação cruzada apenas nas áreas de circulação, ignorando a importância dessa solução em ambientes como salas de aula."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A, com beirais e brises-soleil, promove sombra e ventilação cruzada, soluções passivas eficientes e alinhadas à arquitetura tradicional nordestina, conforme descrito no texto."
+    },
+    {
+        "id": "1769684",
+        "enunciado": "Em um projeto de teatro, foi necessário um tratamento acústico rigoroso devido à proximidade de uma avenida movimentada. Quais medidas deveriam ser priorizadas para garantir o conforto acústico no interior do espaço?",
+        "alternativas": {
+            "A": "Substituir as paredes externas por vidro duplo, sem modificações internas.",
+            "B": "Implementar sistemas de absorção sonora nas paredes internas e usar portas acústicas.",
+            "C": "Substituir as poltronas tradicionais por modelos com isolamento acústico integrado.",
+            "D": "Priorizar o isolamento do teto e ignorar os tratamentos nas paredes e no piso.",
+            "E": "Adotar cortinas pesadas para bloquear os ruídos externos, dispensando outros tratamentos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B apresenta as medidas mais eficientes para o tratamento acústico: absorção sonora nas paredes e portas acústicas, focando na fonte do ruído e na barreira, essenciais em um ambiente com tráfego intenso."
+    },
+    {
+        "id": "2027034",
+        "enunciado": "Sobre o planejamento urbano e a mobilidade em áreas metropolitanas, qual afirmação é correta?",
+        "alternativas": {
+            "A": "O transporte público deve ser opcional, dado que o uso de carros particulares é mais eficiente para a mobilidade.",
+            "B": "O zoneamento urbano deve ser ignorado, pois o crescimento urbano deve ser espontâneo e sem restrições.",
+            "C": "O uso de ciclovias e calçadas largas não é uma prioridade no planejamento das grandes cidades.",
+            "D": "A integração entre diferentes modos de transporte é essencial para garantir eficiência e acessibilidade no sistema de mobilidade urbana."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um planejamento urbano eficiente prioriza a integração entre os modais de transporte (ônibus, metrô, bicicletas, etc.) para otimizar o fluxo de pessoas, garantir acessibilidade e reduzir congestionamentos nas áreas metropolitanas."
+    },
+    {
+        "id": "1769686",
+        "enunciado": "O Rio Grande do Norte, especialmente em cidades como Natal e São Miguel do Gostoso, possui casarios históricos que são símbolos da memória cultural e arquitetônica da região. Esses imóveis, muitas vezes protegidos por tombamento, apresentam características típicas do período colonial, como fachadas com janelas de madeira, adornos decorativos e cores vibrantes. Um desses casarios, localizado no centro histórico de Natal, foi adquirido por uma empresa para ser transformado em um centro cultural, mas as exigências contemporâneas, como acessibilidade e instalações modernas, trouxeram desafios ao arquiteto responsável pela restauração. Durante a elaboração do projeto, o arquiteto propôs mudanças na fachada do imóvel, como a remoção de adornos originais e a ampliação das aberturas para maior entrada de luz natural. Considerando o tombamento do imóvel e as normas de proteção ao patrimônio histórico, quais seriam as implicações dessa proposta?",
+        "alternativas": {
+            "A": "Alterações na fachada seriam permitidas apenas se aprovadas previamente pelo IPHAN, e desde que demonstrassem compatibilidade com a preservação do caráter histórico do imóvel.",
+            "B": "A proposta seria automaticamente aprovada se atendesse às necessidades funcionais do novo uso proposto.",
+            "C": "Qualquer alteração seria considerada uma violação das normas de tombamento, resultando na perda do status de proteção do imóvel.",
+            "D": "O arquiteto seria penalizado financeiramente caso realizasse qualquer modificação, independentemente da autorização do órgão responsável.",
+            "E": "As alterações na fachada poderiam ser realizadas livremente, desde que preservassem os materiais originais utilizados na construção."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. Alterações em imóveis tombados exigem aprovação do IPHAN e compatibilidade com a preservação histórica, mesmo para novos usos. As demais opções são simplistas ou incorretas."
+    },
+    {
+        "id": "2395585",
+        "enunciado": "No processo de desenvolvimento de um projeto arquitetônico, os estudos preliminares têm como principal objetivo:",
+        "alternativas": {
+            "A": "elaborar o projeto executivo completo.",
+            "B": "realizar apenas cálculos estruturais.",
+            "C": "emitir o alvará de construção.",
+            "D": "executar o orçamento final da obra.",
+            "E": "definir soluções iniciais de implantação, forma e função."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Estudos preliminares em arquitetura visam definir as concepções iniciais do projeto, como a implantação no terreno, a forma e a função, antes de aprofundar em detalhes executivos ou orçamentários."
+    },
+    {
+        "id": "2154718",
+        "enunciado": "Uma região muito verticalizada pode apresentar baixas densidades demográficas relativas (Higienópolis, em São Paulo, com uma proporção aproximada de 80 m2 de área construída por habitante), enquanto uma região pouco verticalizada pode apresentar altas densidades demográficas (Brasilândia, também em São Paulo, com uma proporção aproximada de 12 m2 de área construída por habitante). A respeito da verticalização, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "A verticalização não implica necessariamente maior densidade populacional ou de empregos.",
+            "B": "Áreas menos verticalizadas possuem menos densidade.",
+            "C": "A verticalização está diretamente relacionada à geração de empregos.",
+            "D": "A verticalização está diretamente relacionada à densidade populacional.",
+            "E": "A verticalização é o melhor caminho para o desenvolvimento urbano."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A verticalização refere-se à construção de edifícios altos. No entanto, uma área verticalizada pode ter baixa densidade populacional ou de empregos dependendo do uso do solo e do planejamento urbano. As outras alternativas estabelecem relações causais diretas que nem sempre se concretizam."
+    },
+    {
+        "id": "1769694",
+        "enunciado": "Inspirado no cenário de O Auto da Compadecida, ambientado no calor intenso do sertão nordestino, onde a simplicidade arquitetônica tradicional utiliza recursos criativos para lidar com condições climáticas desafiadoras, um edifício comercial em uma cidade do semiárido brasileiro foi projetado com uma fachada completamente envidraçada voltada para o oeste. Essa escolha resultou em desconforto térmico significativo nos ambientes internos, um problema comum em regiões de alta incidência solar. Assim como as casas sertanejas, que empregam soluções como paredes grossas de barro e alpendres sombreados para enfrentar o calor, o edifício moderno precisou incorporar estratégias que mitigassem o ganho térmico sem comprometer sua estética contemporânea. Quais estratégias seriam mais eficazes para corrigir o problema, considerando o contexto climático e o equilíbrio entre funcionalidade e estética?",
+        "alternativas": {
+            "A": "Substituir os vidros por paredes de alvenaria com isolamento térmico, eliminando completamente a entrada de luz natural.",
+            "B": "Instalar brises-soleil horizontais, que remetam à sombra dos alpendres sertanejos, e utilizar películas de controle solar nos vidros para reduzir a incidência de radiação sem comprometer a transparência.",
+            "C": "Aplicar cortinas internas opacas em todas as janelas, bloqueando a radiação solar, mas limitando a entrada de luz natural.",
+            "D": "Reforçar o sistema de climatização artificial, aumentando a capacidade dos aparelhos de ar-condicionado, mesmo que isso eleve o consumo energético.",
+            "E": "Alterar completamente a orientação do edifício, reposicionando a fachada envidraçada para outra direção, independentemente de restrições urbanísticas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B oferece a solução mais eficaz: brises-soleil horizontais e películas de controle solar, que mimetizam os alpendres sertanejos e reduzem o ganho térmico, conforme a analogia proposta no texto."
+    },
+    {
+        "id": "1769696",
+        "enunciado": "Inspirado pelos teatros europeus clássicos, como o Teatro alla Scala, em Milão, e o Royal Opera House, em Londres, o projeto de um auditório universitário buscou integrar elementos de conforto lumínico e funcionalidade, equilibrando tradição e modernidade. Os teatros históricos são conhecidos por sua iluminação cuidadosamente planejada, que utiliza sistemas difusos para evitar reflexos indesejados e garantir visibilidade ideal para o público. Esses conceitos influenciam diretamente projetos contemporâneos, onde o controle de luz natural e artificial é crucial para evitar desconfortos durante apresentações e aulas. No contexto de um auditório universitário no Brasil, com desafios específicos relacionados à forte incidência de luz natural e à necessidade de flexibilidade para diferentes usos, quais soluções deveriam ser priorizadas para garantir conforto lumínico e evitar reflexos prejudiciais?",
+        "alternativas": {
+            "A": "Utilizar iluminação difusa no teto, complementada com o controle de entrada de luz natural por meio de persianas ajustáveis ou brises-soleil, permitindo a adaptação para diferentes condições de luminosidade externa.",
+            "B": "Substituir todas as janelas por vidros transparentes de alta transmitância, aumentando a entrada de luz natural, combinada com luminárias artificiais de alta intensidade.",
+            "C": "Instalar luzes de alta intensidade diretamente sobre o público, assegurando a iluminação da plateia durante apresentações ou aulas.",
+            "D": "Adotar cores escuras nas paredes internas para absorver a luz natural, reduzindo os reflexos, mas comprometendo a clareza do ambiente.",
+            "E": "Bloquear completamente a entrada de luz natural, utilizando exclusivamente iluminação artificial para garantir controle total da luminosidade."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A propõe o uso de iluminação difusa e controle da luz natural com persianas ou brises, soluções adequadas para conforto lumínico em auditórios, equilibrando tradição e modernidade, conforme o texto."
+    },
+    {
+        "id": "1796666",
+        "enunciado": "Os processos para desenvolvimento da atividade técnica do projeto arquitetônico para edificações envolvem duas grandes fases: Fase de preparação; Fase de elaboração e desenvolvimento de projetos técnicos. Assinale qual das etapas apontadas abaixo está inserida na FASE DE PREPARAÇÃO.",
+        "alternativas": {
+            "A": "Levantamento de informações preliminares (LV - PRE).",
+            "B": "Projetos executivos complementares (PE -COMP).",
+            "C": "Documentação conforme construído – (“AS BUILT”).",
+            "D": "Estudo preliminar arquitetônico (EP -ARQ)."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O levantamento de informações preliminares (LV - PRE) é a primeira etapa da Fase de Preparação, englobando a coleta de dados essenciais para o início do projeto. As demais opções pertencem à fase de elaboração e desenvolvimento ou são resultados do processo."
+    },
+    {
+        "id": "1796670",
+        "enunciado": "As regras adotadas para as cotas têm o objetivo de deixar sua representação clara e padronizada, além de auxiliar na interpretação exata do projeto. Considerando os padrões de cotagem definidos pela norma, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Em um mesmo desenho, dependendo da escala, pode-se utilizar mais de uma unidade de medida.",
+            "B": "As linhas de chamada das cotas devem encostar no objeto dimensionado.",
+            "C": "Sempre que possível, duplicar as cotas.",
+            "D": "O limite de linha de cota representa-se por meio de uma seta, um traço ou um círculo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D descreve corretamente as representações comuns para o final de uma linha de cota, como setas, traços ou círculos, visando delimitar a dimensão. As outras alternativas contêm incorreções sobre unidades de medida, linhas de chamada e duplicação de cotas."
+    },
+    {
+        "id": "1347913",
+        "enunciado": "As técnicas retrospectivas em arquitetura envolvem uma série de metodologias e abordagens para estudar, preservar e reabilitar construções históricas. Analise as afirmativas abaixo em relação a essas técnicas. 1. As técnicas retrospectivas envolvem a análise detalhada de documentos históricos, fotografias e plantas arquitetônicas para entender a evolução de um edifício ao longo do tempo. 2. A aplicação de técnicas retrospectivas pode incluir a reabilitação de edifícios históricos, respeitando suas características originais enquanto adapta o uso para necessidades contemporâneas. 3. Algumas práticas em conservação muitas vezes enfatizam a intervenção mínima, onde as ações são reversíveis e o objetivo é preservar tanto quanto possível. A demolição de elementos não originais pode ir contra esses princípios ao remover partes que, embora não sejam originais, têm valor histórico. Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "É correta apenas a afirmativa 1.",
+            "B": "É correta apenas a afirmativa 2.",
+            "C": "É correta apenas a afirmativa 3.",
+            "D": "São corretas apenas as afirmativas 1 e 2.",
+            "E": "São corretas as afirmativas 1, 2 e 3."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Todas as afirmativas estão corretas. As técnicas retrospectivas incluem análise documental e fotos, priorizam reabilitação respeitando o original e admitem intervenção reversível mínima."
+    },
+    {
+        "id": "1205955",
+        "enunciado": "Por que é importante considerar a orientação e insolação em uma edificação?",
+        "alternativas": {
+            "A": "Para aumentar os custos de construção.",
+            "B": "Para garantir a iluminação natural adequada e o conforto térmico dos usuários.",
+            "C": "Não há importância em considerar a orientação e a insolação.",
+            "D": "Para simplificar o projeto arquitetônico."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A orientação e insolação adequadas em um projeto são cruciais para otimizar a entrada de luz solar, garantindo iluminação natural e conforto térmico, impactando diretamente o bem-estar dos ocupantes e a eficiência energética."
+    },
+    {
+        "id": "1205956",
+        "enunciado": "O que são cortes em um projeto arquitetônico?",
+        "alternativas": {
+            "A": "Elementos utilizados apenas em projetos de paisagismo.",
+            "B": "Representações gráficas das vistas verticais de uma edificação, mostrando a disposição interna dos ambientes e detalhes construtivos.",
+            "C": "Elementos decorativos a serem utilizados nas paredes de uma obra civil, na fase de acabamento.",
+            "D": "Orientações dimensionais em um projeto arquitetônico para os cortes a serem feitos no terreno."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Cortes em um projeto arquitetônico são desenhos que representam uma seção vertical da edificação, revelando a estrutura interna e detalhes construtivos, essenciais para a compreensão completa do projeto."
+    },
+    {
+        "id": "1294859",
+        "enunciado": "Em relação à apresentação do projeto executivo arquitetônico, assinale com V as afirmativas verdadeiras e com F as falsas.  ) (É necessária a planta geral de implantação contendo informações planialtimétricas e de locação.  ) (A apresentação de cortes longitudinais e transversais não é obrigatória nessa etapa.  ) (São necessárias as elevações frontais e posteriores; as laterais são dispensadas.  ) (São necessárias as plantas e detalhes das coberturas.Assinale a sequência correta.",
+        "alternativas": {
+            "A": "V V V V",
+            "B": "V F F V",
+            "C": "F F V F",
+            "D": "F V F F"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A planta geral de implantação é essencial (verdadeira). Cortes longitudinais e transversais, elevações laterais e todos os detalhes de cobertura são obrigatórios no projeto executivo. Logo, as outras afirmativas são falsas."
+    },
+    {
+        "id": "1186409",
+        "enunciado": "A técnica retrospectiva “anastilose” na arquitetura é utilizada para:",
+        "alternativas": {
+            "A": "adaptar um edifício histórico às normas de acessibilidade vigentes.",
+            "B": "modernizar um edifício histórico com tecnologias contemporâneas.",
+            "C": "construir um novo edifício com base em um estilo arquitetônico do passado.",
+            "D": "adicionar elementos ornamentais contemporâneos a um edifício histórico.",
+            "E": "restaurar monumento ou edifício histórico através da reconstrução de partes danificadas ou perdidas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Anastilose em arquitetura refere-se à restauração e reconstrução de partes danificadas ou perdidas em monumentos ou edifícios históricos, reintegrando elementos originais ou reproduzindo-os fielmente."
+    },
+    {
+        "id": "1186410",
+        "enunciado": "Assinale a alternativa que indica corretamente a principal finalidade da projeção ortogonal em desenho técnico para arquitetura.",
+        "alternativas": {
+            "A": "Adicionar detalhes estéticos e artísticos aos projetos.",
+            "B": "Criar efeitos de sombreamento e textura nos desenhos.",
+            "C": "Gerar modelos virtuais para visualização em computador.",
+            "D": "Representar objetos tridimensionais em duas dimensões.",
+            "E": "Realizar cálculos estruturais para determinar a resistência dos materiais."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A projeção ortogonal é uma técnica fundamental no desenho técnico que permite representar visualmente objetos tridimensionais em um plano bidimensional, como plantas, cortes e vistas."
+    },
+    {
+        "id": "1522781",
+        "enunciado": "Assinale a alternativa que se refere à representação de uma edificação vista de forma lateral, mostrando a aparência externa, incluindo aberturas como portas e janelas, mas sem cortar o interior da construção.",
+        "alternativas": {
+            "A": "Planta baixa.",
+            "B": "Corte transversal.",
+            "C": "Planta de situação.",
+            "D": "Fachada.",
+            "E": "Planta de localização."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A representacao de uma edificacao vista lateralmente, mostrando a aparencia externa sem cortes internos, e a definicao de fachada. Planta baixa mostra o corte horizontal, corte transversal e longitudinal mostram cortes internos. Plantas de situacao e localizacao indicam o contexto."
+    },
+    {
+        "id": "2062901",
+        "enunciado": "Em um projeto arquitetônico, a planta baixa representa:",
+        "alternativas": {
+            "A": "A visualização lateral da edificação.",
+            "B": "O corte vertical da estrutura.",
+            "C": "A vista superior da construção, com os ambientes divididos.",
+            "D": "O planejamento da instalação elétrica."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A planta baixa é um desenho técnico que representa uma vista superior horizontal da edificação, cortada a uma altura padrão do piso, mostrando a divisão dos ambientes e suas dimensões."
+    },
+    {
+        "id": "2062903",
+        "enunciado": "Em uma etapa de locação da obra, para garantir a precisão na marcação dos eixos principais e esquadros, o profissional deve:",
+        "alternativas": {
+            "A": "Usar nível, trena, linha, mangueira de nível ou nível a laser e aplicar o teorema de Pitágoras para garantir ângulos retos.",
+            "B": "Realizar marcações visuais com auxílio de tinta spray.",
+            "C": "Utilizar uma régua e linha de pedreiro apenas.",
+            "D": "Solicitar a presença do engenheiro somente no final da obra."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A locação precisa dos eixos requer o uso de instrumentos de medição como nível, trena, linha e mangueira de nível ou nível a laser. O Teorema de Pitágoras é essencial para garantir a formação de ângulos retos (esquadros) entre as linhas de locação."
+    },
+    {
+        "id": "2062905",
+        "enunciado": "Para que serve prumada durante o levantamento de uma parede?",
+        "alternativas": {
+            "A": "Verificar se a parede está perfeitamente vertical.",
+            "B": "Calcular a área de pintura.",
+            "C": "Medir a espessura da parede.",
+            "D": "Marcar a altura do revestimento."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A prumada é uma linha vertical de referência usada na construção para garantir que a parede seja construída perfeitamente na vertical, assegurando seu alinhamento e estabilidade."
+    },
+    {
+        "id": "2062906",
+        "enunciado": "Em relação às instalações hidráulicas, é correto afirmar que:",
+        "alternativas": {
+            "A": "Os tubos de esgoto são usados para levar água potável à caixa d'água.",
+            "B": "As instalações elétricas devem ser colocadas dentro dos tubos de esgoto.",
+            "C": "A água pluvial deve ser lançada na mesma tubulação do esgoto doméstico.",
+            "D": "Os tubos de esgoto devem ter caimento para facilitar o escoamento dos resíduos."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O caimento dos tubos de esgoto é essencial para que os resíduos líquidos e sólidos fluam por gravidade. Tubos de esgoto não conduzem água potável; instalações elétricas não devem estar em tubos de esgoto; e água pluvial não deve ser lançada no esgoto doméstico."
+    },
+    {
+        "id": "1769666",
+        "enunciado": "A certificação Procel Edifica, promovida pelo Programa Nacional de Conservação de Energia Elétrica (Procel), é uma ferramenta importante para avaliar e incentivar a eficiência energética em edificações. Diferentemente de outras certificações que focam amplamente na sustentabilidade geral, o Procel Edifica tem como objetivo central a redução do consumo de energia elétrica, promovendo tecnologias e estratégias que garantam desempenho superior em iluminação, climatização e isolamento térmico. Considere o caso de um edifício comercial projetado para obter a certificação, onde a análise inicial apontou problemas no desempenho da envoltória térmica, mas alta eficiência nos sistemas de iluminação. Com base nos critérios técnicos do Procel Edifica, qual alternativa está correta?",
+        "alternativas": {
+            "A": "Exige que todas as demandas elétricas do edifício sejam atendidas exclusivamente por sistemas de energia solar, desconsiderando outras fontes de eficiência energética.",
+            "B": "Avalia o desempenho energético do edifício de maneira integrada, considerando aspectos como a envoltória térmica, sistemas de iluminação natural e artificial, além da eficiência dos sistemas de climatização, independentemente de soluções exclusivas de geração de energia.",
+            "C": "Prioriza a reutilização de materiais de construção e tecnologias sustentáveis, mesmo que isso não tenha impacto direto no consumo energético da edificação.",
+            "D": "Certifica apenas edifícios que utilizam exclusivamente materiais reciclados em sua construção, garantindo alinhamento com critérios de sustentabilidade global.",
+            "E": "Impõe restrições ao uso de tecnologia de automação, privilegiando sistemas manuais em edificações comerciais para reduzir custos operacionais."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O Procel Edifica avalia o desempenho energético de forma integrada, considerando múltiplos fatores como envoltória, iluminação e climatização, e não se restringe a fontes exclusivas ou materiais específicos, segundo a descrição."
+    },
+    {
+        "id": "2305510",
+        "enunciado": "A planta baixa em um projeto arquitetônico representa:",
+        "alternativas": {
+            "A": "Elevação frontal.",
+            "B": "Vista lateral.",
+            "C": "Corte horizontal a 1,20 m do piso, mostrando paredes, portas e janelas.",
+            "D": "Perspectiva isométrica."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A planta baixa representa um corte horizontal em uma edificação, geralmente a 1,20m do piso, revelando a disposição das paredes, vãos de portas e janelas, e outros elementos internos."
+    },
+    {
+        "id": "1769668",
+        "enunciado": "Em Nova York, iniciativas urbanas têm promovido o uso de telhados verdes como solução para mitigar os efeitos da ilha de calor, melhorar a gestão de águas pluviais e criar espaços verdes adicionais em um ambiente densamente urbanizado. Esses sistemas têm ganho destaque em edifícios residenciais e comerciais, ajudando a reduzir a carga térmica, especialmente durante os meses de verão, e a gerenciar o escoamento de água durante tempestades intensas, características da região. No entanto, a implementação de telhados verdes enfrenta desafios técnicos significativos. Em um projeto recente no centro de Manhattan, um arquiteto propôs a instalação de um sistema de telhado verde extensivo em um edifício histórico de cinco andares. Durante a análise técnica, surgiram questões relacionadas ao peso adicional do sistema, à compatibilidade com a impermeabilização existente e à drenagem. Esses fatores demonstram que a aplicação de telhados verdes, embora vantajosa, exige um planejamento técnico detalhado para evitar problemas estruturais e operacionais. Quais são os principais desafios técnicos associados à implementação de um sistema de telhado verde nesse contexto?",
+        "alternativas": {
+            "A": "A incompatibilidade do telhado verde com sistemas de impermeabilização modernos, tornando inviável sua instalação em edifícios existentes.",
+            "B": "A necessidade de reforço estrutural da edificação para suportar o peso adicional do substrato, vegetação e água acumulada, especialmente em construções mais antigas.",
+            "C": "A eliminação da possibilidade de manutenção das áreas adjacentes ao telhado verde, comprometendo a funcionalidade do edifício.",
+            "D": "A ausência de benefícios térmicos ou hídricos em climas temperados, onde sua aplicação é menos efetiva.",
+            "E": "O aumento da vulnerabilidade a infiltrações devido à drenagem inadequada, especialmente em períodos de chuvas intensas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O principal desafio técnico de telhados verdes em edifícios existentes, especialmente os históricos, é o reforço estrutural para suportar o peso adicional, conforme debatido no texto sobre o caso de Manhattan."
+    },
+    {
+        "id": "1769670",
+        "enunciado": "Durante o projeto de uma biblioteca pública, foi necessário controlar o ruído externo proveniente de uma avenida próxima. Quais medidas seriam mais eficientes para garantir conforto acústico interno, considerando a NBR 15575?",
+        "alternativas": {
+            "A": "Utilizar exclusivamente materiais de absorção sonora nas paredes internas.",
+            "B": "Substituir o sistema de janelas por modelos basculantes sem vedação.",
+            "C": "Aplicar vidros duplos e projetar paredes externas com isolamento acústico adequado.",
+            "D": "Reforçar as paredes internas com drywall, sem alterar os elementos externos.",
+            "E": "Adotar divisórias internas móveis com propriedades acústicas, mesmo que não haja impacto externo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C, com vidros duplos e paredes com isolamento acústico, é a mais completa para controle de ruído externo, abordando a fachada e a vedação, em conformidade com a NBR 15575. As outras opções são parciais ou inadequadas."
+    },
+    {
+        "id": "2027023",
+        "enunciado": "Em relação às fases do projeto arquitetônico conforme as boas práticas de arquitetura e os referenciais normativos nacionais, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "O projeto executivo deve incluir detalhes construtivos e especificações de materiais.",
+            "B": "O anteprojeto dispensa a compatibilização com instalações prediais.",
+            "C": "O estudo preliminar ocorre após o projeto executivo.",
+            "D": "O projeto legal é destinado, exclusivamente, à visualização 3D da edificação."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O projeto executivo detalha os aspectos construtivos e as especificações de materiais, sendo essencial para a execução da obra."
+    },
+    {
+        "id": "2154706",
+        "enunciado": "A respeito da estratégia de redução de calor através da ventilação cruzada, é correto afirmar que:",
+        "alternativas": {
+            "A": "Consiste em criar aberturas em pontos estratégicos, permitindo que o ar circule naturalmente, sem a necessidade de equipamentos de refrigeração.",
+            "B": "A camada de vegetação atua como isolante térmico, reduzindo a temperatura interna do espaço e aumentando a umidade do ar.",
+            "C": "Pode ser realizada através de persianas, cortinas, brises ou até mesmo árvores e arbustos.",
+            "D": "O uso de vidros específicos, como o vidro com proteção solar, pode reduzir a entrada de calor no ambiente, mantendo a temperatura interna agradável.",
+            "E": "A escolha da orientação deve levar em conta a incidência de raios solares durante o dia, evitando a exposição direta à luz solar nos horários mais quentes."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A ventilação cruzada consiste em criar aberturas em fachadas opostas para permitir a circulação natural do ar, dissipando o calor sem necessidade de equipamentos mecânicos. As outras alternativas descrevem outras estratégias de conforto térmico ou elementos que podem auxiliar, mas não definem a ventilação cruzada em si."
+    },
+    {
+        "id": "1769680",
+        "enunciado": "Um arquiteto propôs o uso de sistemas de sombreamento dinâmico em um edifício corporativo, visando melhorar o desempenho térmico e reduzir o consumo de energia. Quais são os principais desafios associados à implementação desse tipo de solução?",
+        "alternativas": {
+            "A": "Limitações na integração com sistemas de ventilação natural e redução da eficiência térmica.",
+            "B": "Restrição do uso de vidros de alto desempenho, que são incompatíveis com sistemas dinâmicos.",
+            "C": "Aumento do consumo energético devido à necessidade de ajustes constantes nos sistemas de sombreamento.",
+            "D": "Redução da iluminação natural nos espaços internos, comprometendo o conforto lumínico.",
+            "E": "Alto custo inicial e necessidade de manutenção regular para garantir o desempenho ao longo do tempo."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E aborda os principais desafios técnicos e financeiros dos sistemas de sombreamento dinâmico: alto custo inicial e necessidade de manutenção. As outras opções focam em aspectos menos centrais ou implausíveis."
+    },
+    {
+        "id": "2154710",
+        "enunciado": "Bairros existem para satisfazer tanto as necessidades diárias quanto aquelas que surgem ao longo da vida. Para satisfazer a essas necessidades de curto e longo prazo e para possibilitar opções de vida saudáveis, os bairros precisam:",
+        "alternativas": {
+            "A": "Incluir uma grande variedade de usos do solo, tipos de edificação e tipos de moradia.",
+            "B": "Dividir as funções urbanas em zonas distintas (residencial, comercial, industrial).",
+            "C": "De um anel de áreas verdes, como parques e terras agrícolas, circundando a cidade, separando-a do campo e proporcionando um amortecedor contra a expansão urbana.",
+            "D": "Implantar edifícios em grandes vazios urbanos, com paisagismo e áreas verdes.",
+            "E": "Priorizar a circulação de pedestres e ciclistas, com ruas projetadas para minimizar o tráfego de carros e promover a segurança."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A diversidade de usos do solo, tipos de edificação e moradia em um bairro atende às variadas necessidades ao longo da vida, promovendo um ambiente mais dinâmico e saudável. As outras alternativas focam em aspectos isolados ou excessivamente restritivos."
+    },
+    {
+        "id": "2027031",
+        "enunciado": "Em relação aos projetos complementares em uma obra de arquitetura, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "O projeto de segurança contra incêndio é uma etapa fundamental no planejamento da edificação.",
+            "B": "O projeto de drenagem de águas pluviais deve ser elaborado apenas em áreas urbanas.",
+            "C": "O projeto de instalações elétricas deve ser desenvolvido após a escolha do mobiliário e decoração final.",
+            "D": "O projeto estrutural deve ser feito apenas após a conclusão do projeto arquitetônico."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O projeto de segurança contra incêndio é uma etapa crucial no planejamento de qualquer edificação, visando garantir a segurança dos ocupantes."
+    },
+    {
+        "id": "1769682",
+        "enunciado": "No Nordeste brasileiro, conhecido por seu clima tropical úmido e forte incidência solar, a arquitetura tradicional incorpora soluções vernaculares que dialogam com a cultura local e o ambiente natural. Exemplos como o uso de grandes beirais em casas de fazenda, a ventilação cruzada em edifícios antigos e materiais locais, como a madeira e a argila, são inspirações para projetos contemporâneos que buscam aliar eficiência térmica e respeito às tradições regionais. Durante o projeto de uma escola pública em uma cidade nordestina, o arquiteto buscou maximizar o conforto térmico utilizando estratégias passivas, enquanto promovia um design que celebrasse elementos culturais, como a sombra de espaços abertos para reuniões e o uso de padrões decorativos inspirados em rendas de bilro. O desafio consistia em reduzir o ganho térmico interno sem comprometer a ventilação e iluminação natural, essenciais para o bem-estar dos alunos. Dado o contexto climático e cultural, qual seria a solução mais eficaz para garantir o conforto térmico e o alinhamento com a cultura regional?",
+        "alternativas": {
+            "A": "Adotar grandes beirais e brises-soleil para reduzir a incidência direta de radiação solar, promovendo sombra e ventilação cruzada nas áreas internas.",
+            "B": "Implantar fachadas completamente envidraçadas para maximizar a entrada de luz natural, ignorando o aumento do ganho térmico.",
+            "C": "Utilizar sistemas de climatização artificial como o principal método de controle térmico, eliminando a necessidade de estratégias passivas.",
+            "D": "Substituir materiais vernaculares por superfícies metálicas reflexivas, priorizando a estética contemporânea.",
+            "E": "Incorporar ventilação cruzada apenas nas áreas de circulação, ignorando a importância dessa solução em ambientes como salas de aula."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A, com beirais e brises-soleil, promove sombra e ventilação cruzada, soluções passivas eficientes e alinhadas à arquitetura tradicional nordestina, conforme descrito no texto."
+    },
+    {
+        "id": "1769684",
+        "enunciado": "Em um projeto de teatro, foi necessário um tratamento acústico rigoroso devido à proximidade de uma avenida movimentada. Quais medidas deveriam ser priorizadas para garantir o conforto acústico no interior do espaço?",
+        "alternativas": {
+            "A": "Substituir as paredes externas por vidro duplo, sem modificações internas.",
+            "B": "Implementar sistemas de absorção sonora nas paredes internas e usar portas acústicas.",
+            "C": "Substituir as poltronas tradicionais por modelos com isolamento acústico integrado.",
+            "D": "Priorizar o isolamento do teto e ignorar os tratamentos nas paredes e no piso.",
+            "E": "Adotar cortinas pesadas para bloquear os ruídos externos, dispensando outros tratamentos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B apresenta as medidas mais eficientes para o tratamento acústico: absorção sonora nas paredes e portas acústicas, focando na fonte do ruído e na barreira, essenciais em um ambiente com tráfego intenso."
+    },
+    {
+        "id": "2027034",
+        "enunciado": "Sobre o planejamento urbano e a mobilidade em áreas metropolitanas, qual afirmação é correta?",
+        "alternativas": {
+            "A": "O transporte público deve ser opcional, dado que o uso de carros particulares é mais eficiente para a mobilidade.",
+            "B": "O zoneamento urbano deve ser ignorado, pois o crescimento urbano deve ser espontâneo e sem restrições.",
+            "C": "O uso de ciclovias e calçadas largas não é uma prioridade no planejamento das grandes cidades.",
+            "D": "A integração entre diferentes modos de transporte é essencial para garantir eficiência e acessibilidade no sistema de mobilidade urbana."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um planejamento urbano eficiente prioriza a integração entre os modais de transporte (ônibus, metrô, bicicletas, etc.) para otimizar o fluxo de pessoas, garantir acessibilidade e reduzir congestionamentos nas áreas metropolitanas."
+    },
+    {
+        "id": "1769686",
+        "enunciado": "O Rio Grande do Norte, especialmente em cidades como Natal e São Miguel do Gostoso, possui casarios históricos que são símbolos da memória cultural e arquitetônica da região. Esses imóveis, muitas vezes protegidos por tombamento, apresentam características típicas do período colonial, como fachadas com janelas de madeira, adornos decorativos e cores vibrantes. Um desses casarios, localizado no centro histórico de Natal, foi adquirido por uma empresa para ser transformado em um centro cultural, mas as exigências contemporâneas, como acessibilidade e instalações modernas, trouxeram desafios ao arquiteto responsável pela restauração. Durante a elaboração do projeto, o arquiteto propôs mudanças na fachada do imóvel, como a remoção de adornos originais e a ampliação das aberturas para maior entrada de luz natural. Considerando o tombamento do imóvel e as normas de proteção ao patrimônio histórico, quais seriam as implicações dessa proposta?",
+        "alternativas": {
+            "A": "Alterações na fachada seriam permitidas apenas se aprovadas previamente pelo IPHAN, e desde que demonstrassem compatibilidade com a preservação do caráter histórico do imóvel.",
+            "B": "A proposta seria automaticamente aprovada se atendesse às necessidades funcionais do novo uso proposto.",
+            "C": "Qualquer alteração seria considerada uma violação das normas de tombamento, resultando na perda do status de proteção do imóvel.",
+            "D": "O arquiteto seria penalizado financeiramente caso realizasse qualquer modificação, independentemente da autorização do órgão responsável.",
+            "E": "As alterações na fachada poderiam ser realizadas livremente, desde que preservassem os materiais originais utilizados na construção."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A está correta. Alterações em imóveis tombados exigem aprovação do IPHAN e compatibilidade com a preservação histórica, mesmo para novos usos. As demais opções são simplistas ou incorretas."
+    },
+    {
+        "id": "2395585",
+        "enunciado": "No processo de desenvolvimento de um projeto arquitetônico, os estudos preliminares têm como principal objetivo:",
+        "alternativas": {
+            "A": "elaborar o projeto executivo completo.",
+            "B": "realizar apenas cálculos estruturais.",
+            "C": "emitir o alvará de construção.",
+            "D": "executar o orçamento final da obra.",
+            "E": "definir soluções iniciais de implantação, forma e função."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Estudos preliminares em arquitetura visam definir as concepções iniciais do projeto, como a implantação no terreno, a forma e a função, antes de aprofundar em detalhes executivos ou orçamentários."
+    },
+    {
+        "id": "2154718",
+        "enunciado": "Uma região muito verticalizada pode apresentar baixas densidades demográficas relativas (Higienópolis, em São Paulo, com uma proporção aproximada de 80 m2 de área construída por habitante), enquanto uma região pouco verticalizada pode apresentar altas densidades demográficas (Brasilândia, também em São Paulo, com uma proporção aproximada de 12 m2 de área construída por habitante). A respeito da verticalização, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "A verticalização não implica necessariamente maior densidade populacional ou de empregos.",
+            "B": "Áreas menos verticalizadas possuem menos densidade.",
+            "C": "A verticalização está diretamente relacionada à geração de empregos.",
+            "D": "A verticalização está diretamente relacionada à densidade populacional.",
+            "E": "A verticalização é o melhor caminho para o desenvolvimento urbano."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A verticalização refere-se à construção de edifícios altos. No entanto, uma área verticalizada pode ter baixa densidade populacional ou de empregos dependendo do uso do solo e do planejamento urbano. As outras alternativas estabelecem relações causais diretas que nem sempre se concretizam."
+    },
+    {
+        "id": "1769694",
+        "enunciado": "Inspirado no cenário de O Auto da Compadecida, ambientado no calor intenso do sertão nordestino, onde a simplicidade arquitetônica tradicional utiliza recursos criativos para lidar com condições climáticas desafiadoras, um edifício comercial em uma cidade do semiárido brasileiro foi projetado com uma fachada completamente envidraçada voltada para o oeste. Essa escolha resultou em desconforto térmico significativo nos ambientes internos, um problema comum em regiões de alta incidência solar. Assim como as casas sertanejas, que empregam soluções como paredes grossas de barro e alpendres sombreados para enfrentar o calor, o edifício moderno precisou incorporar estratégias que mitigassem o ganho térmico sem comprometer sua estética contemporânea. Quais estratégias seriam mais eficazes para corrigir o problema, considerando o contexto climático e o equilíbrio entre funcionalidade e estética?",
+        "alternativas": {
+            "A": "Substituir os vidros por paredes de alvenaria com isolamento térmico, eliminando completamente a entrada de luz natural.",
+            "B": "Instalar brises-soleil horizontais, que remetam à sombra dos alpendres sertanejos, e utilizar películas de controle solar nos vidros para reduzir a incidência de radiação sem comprometer a transparência.",
+            "C": "Aplicar cortinas internas opacas em todas as janelas, bloqueando a radiação solar, mas limitando a entrada de luz natural.",
+            "D": "Reforçar o sistema de climatização artificial, aumentando a capacidade dos aparelhos de ar-condicionado, mesmo que isso eleve o consumo energético.",
+            "E": "Alterar completamente a orientação do edifício, reposicionando a fachada envidraçada para outra direção, independentemente de restrições urbanísticas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B oferece a solução mais eficaz: brises-soleil horizontais e películas de controle solar, que mimetizam os alpendres sertanejos e reduzem o ganho térmico, conforme a analogia proposta no texto."
+    },
+    {
+        "id": "1769696",
+        "enunciado": "Inspirado pelos teatros europeus clássicos, como o Teatro alla Scala, em Milão, e o Royal Opera House, em Londres, o projeto de um auditório universitário buscou integrar elementos de conforto lumínico e funcionalidade, equilibrando tradição e modernidade. Os teatros históricos são conhecidos por sua iluminação cuidadosamente planejada, que utiliza sistemas difusos para evitar reflexos indesejados e garantir visibilidade ideal para o público. Esses conceitos influenciam diretamente projetos contemporâneos, onde o controle de luz natural e artificial é crucial para evitar desconfortos durante apresentações e aulas. No contexto de um auditório universitário no Brasil, com desafios específicos relacionados à forte incidência de luz natural e à necessidade de flexibilidade para diferentes usos, quais soluções deveriam ser priorizadas para garantir conforto lumínico e evitar reflexos prejudiciais?",
+        "alternativas": {
+            "A": "Utilizar iluminação difusa no teto, complementada com o controle de entrada de luz natural por meio de persianas ajustáveis ou brises-soleil, permitindo a adaptação para diferentes condições de luminosidade externa.",
+            "B": "Substituir todas as janelas por vidros transparentes de alta transmitância, aumentando a entrada de luz natural, combinada com luminárias artificiais de alta intensidade.",
+            "C": "Instalar luzes de alta intensidade diretamente sobre o público, assegurando a iluminação da plateia durante apresentações ou aulas.",
+            "D": "Adotar cores escuras nas paredes internas para absorver a luz natural, reduzindo os reflexos, mas comprometendo a clareza do ambiente.",
+            "E": "Bloquear completamente a entrada de luz natural, utilizando exclusivamente iluminação artificial para garantir controle total da luminosidade."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A propõe o uso de iluminação difusa e controle da luz natural com persianas ou brises, soluções adequadas para conforto lumínico em auditórios, equilibrando tradição e modernidade, conforme o texto."
+    },
+    {
+        "id": "1796666",
+        "enunciado": "Os processos para desenvolvimento da atividade técnica do projeto arquitetônico para edificações envolvem duas grandes fases: Fase de preparação; Fase de elaboração e desenvolvimento de projetos técnicos. Assinale qual das etapas apontadas abaixo está inserida na FASE DE PREPARAÇÃO.",
+        "alternativas": {
+            "A": "Levantamento de informações preliminares (LV - PRE).",
+            "B": "Projetos executivos complementares (PE -COMP).",
+            "C": "Documentação conforme construído – (“AS BUILT”).",
+            "D": "Estudo preliminar arquitetônico (EP -ARQ)."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O levantamento de informações preliminares (LV - PRE) é a primeira etapa da Fase de Preparação, englobando a coleta de dados essenciais para o início do projeto. As demais opções pertencem à fase de elaboração e desenvolvimento ou são resultados do processo."
+    },
+    {
+        "id": "1796670",
+        "enunciado": "As regras adotadas para as cotas têm o objetivo de deixar sua representação clara e padronizada, além de auxiliar na interpretação exata do projeto. Considerando os padrões de cotagem definidos pela norma, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Em um mesmo desenho, dependendo da escala, pode-se utilizar mais de uma unidade de medida.",
+            "B": "As linhas de chamada das cotas devem encostar no objeto dimensionado.",
+            "C": "Sempre que possível, duplicar as cotas.",
+            "D": "O limite de linha de cota representa-se por meio de uma seta, um traço ou um círculo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D descreve corretamente as representações comuns para o final de uma linha de cota, como setas, traços ou círculos, visando delimitar a dimensão. As outras alternativas contêm incorreções sobre unidades de medida, linhas de chamada e duplicação de cotas."
+    },
+    {
+        "id": "1347913",
+        "enunciado": "As técnicas retrospectivas em arquitetura envolvem uma série de metodologias e abordagens para estudar, preservar e reabilitar construções históricas. Analise as afirmativas abaixo em relação a essas técnicas. 1. As técnicas retrospectivas envolvem a análise detalhada de documentos históricos, fotografias e plantas arquitetônicas para entender a evolução de um edifício ao longo do tempo. 2. A aplicação de técnicas retrospectivas pode incluir a reabilitação de edifícios históricos, respeitando suas características originais enquanto adapta o uso para necessidades contemporâneas. 3. Algumas práticas em conservação muitas vezes enfatizam a intervenção mínima, onde as ações são reversíveis e o objetivo é preservar tanto quanto possível. A demolição de elementos não originais pode ir contra esses princípios ao remover partes que, embora não sejam originais, têm valor histórico. Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "É correta apenas a afirmativa 1.",
+            "B": "É correta apenas a afirmativa 2.",
+            "C": "É correta apenas a afirmativa 3.",
+            "D": "São corretas apenas as afirmativas 1 e 2.",
+            "E": "São corretas as afirmativas 1, 2 e 3."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Todas as afirmativas estão corretas. As técnicas retrospectivas incluem análise documental e fotos, priorizam reabilitação respeitando o original e admitem intervenção reversível mínima."
+    },
+    {
+        "id": "1205955",
+        "enunciado": "Por que é importante considerar a orientação e insolação em uma edificação?",
+        "alternativas": {
+            "A": "Para aumentar os custos de construção.",
+            "B": "Para garantir a iluminação natural adequada e o conforto térmico dos usuários.",
+            "C": "Não há importância em considerar a orientação e a insolação.",
+            "D": "Para simplificar o projeto arquitetônico."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A orientação e insolação adequadas em um projeto são cruciais para otimizar a entrada de luz solar, garantindo iluminação natural e conforto térmico, impactando diretamente o bem-estar dos ocupantes e a eficiência energética."
+    },
+    {
+        "id": "1205956",
+        "enunciado": "O que são cortes em um projeto arquitetônico?",
+        "alternativas": {
+            "A": "Elementos utilizados apenas em projetos de paisagismo.",
+            "B": "Representações gráficas das vistas verticais de uma edificação, mostrando a disposição interna dos ambientes e detalhes construtivos.",
+            "C": "Elementos decorativos a serem utilizados nas paredes de uma obra civil, na fase de acabamento.",
+            "D": "Orientações dimensionais em um projeto arquitetônico para os cortes a serem feitos no terreno."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Cortes em um projeto arquitetônico são desenhos que representam uma seção vertical da edificação, revelando a estrutura interna e detalhes construtivos, essenciais para a compreensão completa do projeto."
+    },
+    {
+        "id": "1294859",
+        "enunciado": "Em relação à apresentação do projeto executivo arquitetônico, assinale com V as afirmativas verdadeiras e com F as falsas.  ) (É necessária a planta geral de implantação contendo informações planialtimétricas e de locação.  ) (A apresentação de cortes longitudinais e transversais não é obrigatória nessa etapa.  ) (São necessárias as elevações frontais e posteriores; as laterais são dispensadas.  ) (São necessárias as plantas e detalhes das coberturas.Assinale a sequência correta.",
+        "alternativas": {
+            "A": "V V V V",
+            "B": "V F F V",
+            "C": "F F V F",
+            "D": "F V F F"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A planta geral de implantação é essencial (verdadeira). Cortes longitudinais e transversais, elevações laterais e todos os detalhes de cobertura são obrigatórios no projeto executivo. Logo, as outras afirmativas são falsas."
+    },
+    {
+        "id": "1186409",
+        "enunciado": "A técnica retrospectiva “anastilose” na arquitetura é utilizada para:",
+        "alternativas": {
+            "A": "adaptar um edifício histórico às normas de acessibilidade vigentes.",
+            "B": "modernizar um edifício histórico com tecnologias contemporâneas.",
+            "C": "construir um novo edifício com base em um estilo arquitetônico do passado.",
+            "D": "adicionar elementos ornamentais contemporâneos a um edifício histórico.",
+            "E": "restaurar monumento ou edifício histórico através da reconstrução de partes danificadas ou perdidas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Anastilose em arquitetura refere-se à restauração e reconstrução de partes danificadas ou perdidas em monumentos ou edifícios históricos, reintegrando elementos originais ou reproduzindo-os fielmente."
+    },
+    {
+        "id": "1186410",
+        "enunciado": "Assinale a alternativa que indica corretamente a principal finalidade da projeção ortogonal em desenho técnico para arquitetura.",
+        "alternativas": {
+            "A": "Adicionar detalhes estéticos e artísticos aos projetos.",
+            "B": "Criar efeitos de sombreamento e textura nos desenhos.",
+            "C": "Gerar modelos virtuais para visualização em computador.",
+            "D": "Representar objetos tridimensionais em duas dimensões.",
+            "E": "Realizar cálculos estruturais para determinar a resistência dos materiais."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A projeção ortogonal é uma técnica fundamental no desenho técnico que permite representar visualmente objetos tridimensionais em um plano bidimensional, como plantas, cortes e vistas."
+    },
+    {
+        "id": "1522781",
+        "enunciado": "Assinale a alternativa que se refere à representação de uma edificação vista de forma lateral, mostrando a aparência externa, incluindo aberturas como portas e janelas, mas sem cortar o interior da construção.",
+        "alternativas": {
+            "A": "Planta baixa.",
+            "B": "Corte transversal.",
+            "C": "Planta de situação.",
+            "D": "Fachada.",
+            "E": "Planta de localização."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A representacao de uma edificacao vista lateralmente, mostrando a aparencia externa sem cortes internos, e a definicao de fachada. Planta baixa mostra o corte horizontal, corte transversal e longitudinal mostram cortes internos. Plantas de situacao e localizacao indicam o contexto."
+    },
+    {
+        "id": "1091797",
+        "enunciado": "Quando tratamos das etapas para elaboração de um projeto, a etapa destinada à concepção e à representação final das informações técnicas dos projetos e de seus elementos, instalações e componentes, completas, definitivas e necessárias à execução dos serviços e obras correspondentes é a etapa da elaboração do:",
+        "alternativas": {
+            "A": "Projeto completo.",
+            "B": "Projeto executivo complementar.",
+            "C": "Anteprojeto complementar.",
+            "D": "Projeto completo da edificação.",
+            "E": "Projeto executivo arquitetônico."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A etapa que descreve a concepção e representação final das informações técnicas para execução de um projeto é a de elaboração do 'Projeto completo', que engloba todos os elementos necessários para a obra."
+    }
+]

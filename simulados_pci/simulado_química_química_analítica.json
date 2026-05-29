@@ -1,0 +1,936 @@
+[
+    {
+        "id": "2237766",
+        "enunciado": "Durante a rotina de um laboratório de análises de água, o técnico realiza a determinação da concentração de nitrato em amostras coletadas de diferentes pontos de um reservatório. Para isso, utiliza o método espectrofotométrico, no qual ocorre a formação de um composto colorido cuja intensidade é medida em um comprimento de onda específico. Considerando os fundamentos e aplicações da espectrofotometria de absorção molecular, assinale a alternativa CORRET A.",
+        "alternativas": {
+            "A": "A espectrofotometria baseia-se na emissão de luz pela amostra após excitação térmica, sendo adequada apenas para análises de metais pesados.",
+            "B": "O método é fundamentado na absorção de radiação por espécies químicas, e a intensidade da cor formada é diretamente proporcional à concentração do analito, segundo a Lei de Lambert-Beer.",
+            "C": "A técnica não requer calibração, pois a absorbância medida independe da concentração da substância analisada.",
+            "D": "A espectrofotometria de absorção molecular utiliza radiação ionizante, capaz de promover transições eletrônicas em metais e íons complexos.",
+            "E": "A absorbância é inversamente proporcional à transmitância e ambas variam de forma aleatória com a concentração da substância."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A espectrofotometria de absorção molecular baseia-se na absorção de luz por uma substância. A Lei de Lambert-Beer estabelece que a absorbância (e, consequentemente, a intensidade da cor) é diretamente proporcional à concentração do analito, o que a torna útil para quantificação. As demais alternativas contêm informações incorretas sobre a técnica."
+    },
+    {
+        "id": "2237770",
+        "enunciado": "Em uma rotina de titulação ácido fraco × base forte (por exemplo, ácido acético padronizado com NaOH), o técnico analista precisa escolher um indicador ácido–base adequado para leitura do ponto final. Sabe-se que, para esse sistema, o pH no ponto de equivalência é maior que 7, e a curva apresenta uma região de variação abrupta de pH próxima ao equivalente. Considerando o critério teórico de seleção de indicadores, assinale a alternativa CORRET A.",
+        "alternativas": {
+            "A": "Azul de bromotimol é sempre a melhor escolha, independentemente do sistema titulante–titulado.",
+            "B": "Qualquer indicador serve, pois a mudança de cor sempre coincide com o ponto de equivalência.",
+            "C": "Fenolftaleína é proibida nesse tipo de titulação.",
+            "D": "A faixa de viragem do indicador deve conter o pH no ponto de equivalência da titulação (sobrepor-se à região de variação abrupta de pH).",
+            "E": "O indicador deve ter pKₐ = 7 obrigatoriamente, qualquer que seja o sistema."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A escolha do indicador em titulações ácido-base depende do pH no ponto de equivalência. Para ácido fraco/base forte, o pH no ponto de equivalência é > 7. O indicador ideal deve ter sua faixa de viragem de cor contendo este valor de pH, garantindo a leitura correta do ponto final."
+    },
+    {
+        "id": "2064139",
+        "enunciado": "Em um laboratório de análises químicas, o técnico precisa avaliar com precisão a concentração de um sal dissolvido em água, garantindo a confiabilidade do resultado. Para isso, ele opta por um método volumétrico. De que forma o preparo adequado da solução padrão influencia a exatidão da análise?",
+        "alternativas": {
+            "A": "A solução padrão pode ser preparada de maneira aproximada, sem controle de pureza, pois pequenas variações não afetam a concentração.",
+            "B": "Ao garantir que a solução padrão seja preparada com reagentes de grau analítico, utilizando balança e volumetria rigorosas, minimiza-se o erro sistemático e assegura-se a precisão dos resultados.",
+            "C": "O uso de reagentes técnicos e a ausência de determinação da massa exata elevam a confiabilidade dos resultados.",
+            "D": "É suficiente medir apenas o volume, dispensando a pesagem rigorosa, pois o rótulo do reagente indica a concentração final desejada."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A exatidão de uma análise volumétrica depende fundamentalmente da precisão da solução padrão. Usar reagentes de alta pureza e medidas rigorosas de massa e volume minimiza erros sistemáticos, garantindo a confiabilidade e precisão dos resultados analíticos."
+    },
+    {
+        "id": "2131935",
+        "enunciado": "Durante uma rotina em laboratório, um técnico precisa manipular um solvente orgânico volátil, altamente inflamável e de toxicidade moderada. Considerando as normas de biossegurança em ambientes laboratoriais, qual deve ser o procedimento mais adequado?",
+        "alternativas": {
+            "A": "Realizar o manuseio em bancada comum, utilizando apenas jaleco e luvas, já que o solvente é de toxicidade moderada.",
+            "B": "Utilizar capela de exaustão, armazenar o frasco em armário ventilado próprio para inflamáveis e utilizar EPIs adequados, como óculos, jaleco e luvas resistentes.",
+            "C": "Diluir previamente o solvente em água antes de qualquer manipulação, a fim de reduzir sua inflamabilidade.",
+            "D": "Garantir a manipulação apenas em horários de menor fluxo no laboratório, sem necessidade de capela, desde que os EPIs sejam utilizados corretamente.",
+            "E": "Descartar o resíduo em lixo comum, desde que o volume seja pequeno, para reduzir o risco de contato direto."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Dada a inflamabilidade e toxicidade moderada do solvente, o manuseio seguro exige capela de exaustão para controle de vapores, armazenamento em local apropriado para inflamáveis e uso de Equipamentos de Proteção Individual (EPIs) como óculos, jaleco e luvas resistentes. As outras alternativas subestimam os riscos ou propõem medidas inadequadas."
+    },
+    {
+        "id": "2064143",
+        "enunciado": "Um equipamento de absorção atômica começa a apresentar resultados discrepantes, sugerindo sub ou superestimação de metais analisados. Qual a melhor estratégia para assegurar a confiabilidade desses dados, considerando calibração e manutenção?",
+        "alternativas": {
+            "A": "Repetir a leitura das amostras sem revisar o estado das lâmpadas, pois o problema raramente é de origem instrumental.",
+            "B": "Considerar que a absorção atômica não exige calibração frequente, então manter a operação normalmente.",
+            "C": "Realizar inspeção das lâmpadas de cátodo oco, do sistema de nebulização e da chama, verificar a curva de calibração e possíveis contaminações, restabelecendo as condições originais de operação e repetindo as leituras.",
+            "D": "Descartar todas as soluções-padrão, pois nenhuma afeta a exatidão, e insistir no mesmo método de leitura."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C descreve a estratégia mais completa e confiável. A inspeção de componentes chave como lâmpadas e nebulizador, verificação da calibração e possíveis contaminações são passos essenciais para diagnosticar e corrigir problemas em equipamentos de absorção atômica."
+    },
+    {
+        "id": "1851889",
+        "enunciado": "A cromatografia e as técnicas espectroscópicas de absorção molecular e emissão/absorção atômica são amplamente utilizadas na análise química para separação e identificação de compostos. Sobre essas técnicas, analise as assertivas abaixo e assinale a alternativa correta.I. A cromatografia gasosa (GC) é amplamente utilizada para a separação de compostos polares de alto peso molecular, pois sua fase móvel líquida permite uma eluição eficiente de amostras aquosas.II. A espectrofotometria de absorção molecular no UV-Vis é baseada na absorção de energia por moléculas, promovendo transições eletrônicas entre estados vibracionais e rotacionais dos núcleos atômicos.III. A cromatografia líquida de alta eficiência (HPLC) utiliza uma fase móvel gasosa e uma fase estacionária sólida, sendo um método eficiente para separar compostos voláteis e gasosos.A) Todas as assertivas estão corretas.B) Todas as assertivas estão incorretas.C) Apenas a assertiva I está correta.D) Apenas a assertiva II está correta.E) Apenas as assertivas II e III estão corretas.",
+        "alternativas": {
+            "A": "Todas as assertivas estão corretas.",
+            "B": "Todas as assertivas estão incorretas.",
+            "C": "Apenas a assertiva I está correta.",
+            "D": "Apenas a assertiva II está correta.",
+            "E": "Apenas as assertivas II e III estão corretas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Todas as assertivas estão incorretas. I: GC separa compostos voláteis. II: Transições eletrônicas ocorrem entre orbitais eletrônicos, não núcleos. III: HPLC usa fase móvel líquida e separa compostos não voláteis."
+    },
+    {
+        "id": "2064144",
+        "enunciado": "No controle de qualidade em análises laboratoriais, a reprodutibilidade dos resultados depende de protocolos padronizados. De que forma esse controle pode ser reforçado?",
+        "alternativas": {
+            "A": "Confiar somente na experiência do analista, dispensando testes de verificação periódica.",
+            "B": "Avaliar exclusivamente a exatidão, pois a precisão não afeta a comparação de resultados interlaboratoriais.",
+            "C": "Reduzir a frequência de testes com padrões de referência, assumindo que os métodos são intrinsecamente confiáveis.",
+            "D": "Empregar padrões internos e externos, definir rotinas de checagem de precisão e exatidão, documentar variações e promover comparações interlaboratoriais para corrigir eventuais desvios."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O controle de qualidade em análises laboratoriais é reforçado pela utilização de padrões internos e externos para verificação da precisão e exatidão, documentação de desvios e participação em comparações interlaboratoriais. Isso garante a confiabilidade e a reprodutibilidade dos resultados."
+    },
+    {
+        "id": "1897108",
+        "enunciado": "A precipitação do cloreto de prata (AgCl) para determinar a quantidade de prata em uma amostra é um exemplo de método de análise química conhecido como:",
+        "alternativas": {
+            "A": "Análise gravimétrica",
+            "B": "Análise volumétrica",
+            "C": "Análise colorimétrica",
+            "D": "Análise potenciométrica",
+            "E": "Análise espectrofotométrica"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Análise gravimétrica envolve a medição da massa de um analito, geralmente após sua precipitação ou separação de uma solução. Na precipitação do cloreto de prata, a massa do precipitado é medida para determinar a quantidade de prata. Análise volumétrica usa titulação. Colorimétrica e espectrofotométrica usam cores. Potenciométrica usa potencial elétrico."
+    },
+    {
+        "id": "1851893",
+        "enunciado": "A análise de alimentos é fundamental para determinar sua composição química e qualidade nutricional. Com base nos métodos utilizados para a quantificação de lipídios, proteínas, carboidratos e enzimas, analise as assertivas a seguir e assinale a alternativa correta.I. O método Soxhlet, utilizado para determinar a quantidade de lipídios, baseia-se em medir a quantidade total de nitrogênio na amostra, sendo um método amplamente utilizado para alimentos ricos em gorduras.II. Um dos principais procedimentos para a quantificação de proteínas nos alimentos utiliza solventes orgânicos para extrair proteínas da matriz alimentar.III. O método Kjeldahl é amplamente utilizado na quantificação de proteínas em alimentos. Consiste em etapas de digestão, destilação e titulação.",
+        "alternativas": {
+            "A": "Todas as assertivas estão corretas.",
+            "B": "Todas as assertivas estão incorretas.",
+            "C": "Apenas a assertiva I está correta.",
+            "D": "Apenas a assertiva III está correta.",
+            "E": "Apenas as assertivas II e III estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A assertiva I está incorreta pois o método Soxhlet quantifica lipídios por extração, não por nitrogênio. A assertiva II está incorreta na explicação do método de quantificação de proteínas. A assertiva III descreve corretamente o método Kjeldahl."
+    },
+    {
+        "id": "2118724",
+        "enunciado": "Em análises realizadas para controle de qualidade da água e identificação de substâncias, o técnico ou a técnica de laboratório podem empregar métodos espectrométricos para determinar a presença e a concentração de compostos orgânicos e inorgânicos. Dois métodos amplamente utilizados são a espectrofotometria na região do ultravioleta-visível (UV-Vis) e a espectroscopia no infravermelho (IV), cada um com aplicações e princípios distintos. Com base nessas técnicas, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "A espectroscopia no infravermelho determina a condutividade elétrica pela variação de absorbância em soluções aquosas.",
+            "B": "A absorção na região UV-Vis ocorre por vibrações moleculares específicas, como as das ligações C=O e O–H.",
+            "C": "Os métodos UV-Vis e IV são considerados destrutivos, pois a radiação altera permanentemente a estrutura dos analitos.",
+            "D": "A espectrofotometria UV-Vis quantifica espécies pela absorção de radiação, e o infravermelho identifica grupos funcionais pelas vibrações moleculares."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "UV-Vis quantifica substâncias pela energia absorvida que promove transições eletrônicas. Infravermelho identifica grupos funcionais pela energia absorvida que causa vibrações moleculares específicas. As outras alternativas contêm incorreções sobre os princípios dessas técnicas."
+    },
+    {
+        "id": "2118728",
+        "enunciado": "A potenciometria é uma técnica instrumental amplamente utilizada em laboratórios de controle de qualidade, saneamento e análises ambientais, por permitir a determinação de pH e de concentrações iônicas específicas com o uso de eletrodos indicadores apropriados. A prática exige cuidados com calibração, temperatura e manutenção dos eletrodos, especialmente os de vidro, sensíveis a variações nas condições de uso. Com base nos fundamentos dos métodos potenciométricos, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "O eletrodo de vidro utilizado na medida de pH converte corrente elétrica em sinal óptico, permitindo a leitura direta da absorbância.",
+            "B": "A técnica de potenciometria é baseada na condução térmica entre os eletrodos, e não depende da natureza dos íons presentes na solução.",
+            "C": "A determinação potenciométrica do pH exige o uso de indicadores colorimétricos e reagentes que gerem mudança visível no meio.",
+            "D": "A potenciometria mede a diferença de potencial elétrico entre dois eletrodos, sendo o eletrodo de referência responsável por manter potencial constante durante a análise."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A potenciometria mede diferenças de potencial. O eletrodo de referência tem a função de manter um potencial constante e estável, servindo como ponto de comparação para o eletrodo indicador, que varia conforme a concentração do analito."
+    },
+    {
+        "id": "2402523",
+        "enunciado": "Ao se construir uma curva de calibração confiável, os valores experimentais devem ser ajustados por meio da solução branco (muitas vezes chamada apenas de “branco”). Para que essa solução cumpra corretamente sua função, ela deve",
+        "alternativas": {
+            "A": "ser constituída exclusivamente de água destilada.",
+            "B": "ser preparada com solução tampão ajustada para pH 7.",
+            "C": "ser formulada para conter, se possível, todos os componentes da matriz da amostra, exceto o analito.",
+            "D": "conter o padrão do analito em concentração conhecida.",
+            "E": "apresentar absorção no mesmo comprimento de onda que o analito."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A solução branca serve como referência para a interferência da matriz da amostra. Idealmente, ela deve refletir todos os componentes da amostra, exceto o analito de interesse, para que sua contribuição possa ser subtraída dos resultados da amostra real."
+    },
+    {
+        "id": "1583658",
+        "enunciado": "Em um laboratório de aulas de química analítica experimental faz-se a titulação volumétrica de uma solução de ácido acético, de concentração desconhecida, utilizando solução aquosa de hidróxido de sódio, de concentração 0,10 mol.L-1. Nesse laboratório estão disponíveis os indicadores ácido-base mostrados na tabela: Indicador ácido-base Cor 1 Faixa de viragem Cor 2 Fenolftaleína Incolor 8,2 < pH < 9,8 Rósea -avermelhada Azul de bromotimol Amarela 6,0 < pH < 7,6 Azul Azul de bromofenol Azul 3,0 < pH < 4,6 Violeta. Sobre esse procedimento, a única alternativa CORRETA é:",
+        "alternativas": {
+            "A": "O pH, no ponto estequiométrico, é maior que 7.",
+            "B": "O melhor indicador ácido-base é o azul de bromofenol.",
+            "C": "Dentre os instrumentos necessários estão o béquer, a proveta e balão volumétrico.",
+            "D": "Após a viragem, a fenolftaleína apresenta-se em sua forma protonada.",
+            "E": "No ponto estequiométrico, a base conjugada é fraca."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O ácido acético é um ácido fraco e o hidróxido de sódio é uma base forte. A titulação de um ácido fraco com uma base forte resulta em um ponto estequiométrico com pH > 7. O azul de bromofenol vira em pH ácido (3,0-4,6), a fenolftaleína em pH básico (8,2-9,8). O ponto estequiométrico é básico."
+    },
+    {
+        "id": "1583662",
+        "enunciado": "Para determinar a concentração de uma solução aquosa de hidróxido de sódio, um estudante coletou uma amostra de 10,0 mL dessa solução; em seguida, adicionou algumas gotas de um indicador ácido-base. Para realizar a titulação, preencheu uma bureta de 25,0 mL com solução aquosa de ácido clorídrico, de concentração 0,10 mol/L. Abaixo é apresentada uma tabela com os valores de pH da faixa de viragem de alguns indicadores ácido-base. Indicador ácido-base Cor 1 Faixa de viragem Cor 2 Fenolftaleína Incolor 8,2 < pH < 9,8 Rósea -avermelhada Azul de bromotimol Amarela 6,0 < pH < 7,6 Azul Azul de bromofenol Azul 3,0 < pH < 4,6 Violeta. Considerando as informações expostas e que, para a titulação foram gastos 15,0 mL da solução ácida, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "Nenhum dos indicadores citados é indicado, o correto seria utilização de um agente complexante.",
+            "B": "O melhor indicador ácido-base, em termos de aproximação ao pH do ponto de equivalência, é a fenolftaleína.",
+            "C": "Se o estudante acertou o ponto de equivalência, a concentração determinada da solução básica foi 0,25 mol/L.",
+            "D": "O uso do azul de bromotimol é contraindicado por não apresentar reversibilidade química de protonação/desprotonação.",
+            "E": "No ponto de viragem, o volume gasto da solução ácida é igual a 150% do volume da solução básica."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A titulação Ácido-Base envolve um ácido forte (HCl) e uma base forte (NaOH). O ponto de equivalência para essa titulação ocorrerá em pH neutro (pH=7), onde um indicador ácido-base com faixa de viragem próxima a este valor seria ideal. A fenolftaleína (8,2-9,8) e o azul de bromotimol (6,0-7,6) não são ideais. Calculando a concentração: 0,10 mol/L * 15,0 mL = X mol/L * 10,0 mL => X = 0,15 mol/L para o ácido em relação à base. A concentração da base é 0,15 mol/L. A concentração calculada da solução básica é 0,15 mol/L / 1 = 0,15 mol/L. Erro no cálculo. Vamos recalcular: Mol do ácido = 0,10 mol/L * 0,015 L = 0,0015 mol. Mol da base = Mol do ácido = 0,0015 mol. Concentração da base = 0,0015 mol / 0,010 L = 0,15 mol/L. A alternativa C afirma que a concentração é 0,25 mol/L. Há um erro nesta alternativa ou no meu cálculo. Vamos refazer o cálculo: Na titulação de um ácido monoprótico com uma base monoprótica, em pontos de equivalência, o número de mols do ácido é igual ao número de mols da base. Mols de HCl = con..."
+    },
+    {
+        "id": "1244138",
+        "enunciado": "Considere a seguinte situação hipotética: Um pesquisador deseja avaliar derivados da estrutura química abaixo indicada como inibidor de corrosão para meio de CO2 e H2S. O pesquisador precisa confirmar as estruturas químicas almejadas e pretende empregar técnicas de caracterização como a espectroscopia no infravermelho. Destaca-se que em cada caso, outras bandas aparecerão no espectro, porém apenas as bandas mencionadas em cada alternativa devem ser correlacionadas com a posição no espectro. Com base nessa situação, assinale a afirmativa incorreta quanto à correlação do tipo de banda e sua posição no espectro.",
+        "alternativas": {
+            "A": "Caso a estrutura almejada possua R1 sendo radical alquila e R2 sendo hidrogênio (–H), apresentará banda característica de estiramento C=N em aproximadamente 1610-1640 cm-1.",
+            "B": "Caso a estrutura almejada possua R1 sendo –CH2CH2OH e R2 sendo um radical alquila, apresentará banda característica de estiramento OH em aproximadamente 700 cm-1.",
+            "C": "Caso a estrutura almejada possua em R3 e R4 um anel aromático conjugado ao heterociclo da figura, apresentará bandas características de estiramento C=C aromático em aproximadamente 1600 e 1475 cm-1, e deformação angular =C –H em 690-900 cm-1.",
+            "D": "Caso a estrutura almejada possua R1 sendo hidrogênio (–H) e R2 sendo um radical –NHCH2CH2CH2CH3, apresentará banda característica de deformação angular NH em aproximadamente de 1500 cm-1.",
+            "E": "Caso a estrutura almejada possua R1 sendo –(C=O)NH2 e R2 sendo um radical alquila, apresentará banda característica de estiramento NH em aproximadamente 3180-3350 cm-1 e C=O em aproximadamente 1640-1700 cm-1."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O estiramento de OH em álcoois (R-OH) geralmente aparece em faixas de frequência mais altas, entre 3200-3600 cm-1 para ligações intermoleculares e mais alto ainda para ligações intramoleculares. A faixa de 700 cm-1 é típica de deformações angulares."
+    },
+    {
+        "id": "1173649",
+        "enunciado": "O objetivo da digestão ácida no tratamento de amostras minerais e ambientais é",
+        "alternativas": {
+            "A": "alterar a composição química da amostra.",
+            "B": "aumentar o tamanho dos grãos minerais para análise.",
+            "C": "dissolver seletivamente certos minerais da amostra.",
+            "D": "converter os componentes da amostra em formas solúveis.",
+            "E": "reduzir a amostra a pó fino sem alterar sua composição."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A digestão ácida visa converter componentes da amostra em formas solúveis, facilitando a análise posterior dos elementos de interesse que foram dissolvidos."
+    },
+    {
+        "id": "1173650",
+        "enunciado": "Os ácidos comumente utilizados na digestão ácida de amostras minerais são",
+        "alternativas": {
+            "A": "ácido cianídrico e ácido bórico.",
+            "B": "ácido acético e ácido butírico.",
+            "C": "ácido cítrico e ácido láctico.",
+            "D": "ácido bórico e ácido fosfórico.",
+            "E": "ácido nítrico e ácido clorídrico."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Ácido nítrico e ácido clorídrico são ácidos fortes comumente empregados na digestão ácida de amostras minerais devido ao seu poder oxidante e à capacidade de dissolver uma vasta gama de substâncias."
+    },
+    {
+        "id": "1244140",
+        "enunciado": "Quanto aos ensaios empregados para avaliar a eficiência de inibidores de corrosão, tem-se os ensaios de imersão no meio a ser estudado, baseados em perda de massa do material metálico. Assinale a alternativa correta.",
+        "alternativas": {
+            "A": "A perda de massa do corpo de prova não ensaiado (controle) é usada para correção da perda de massa dos corpos de prova ensaiados apenas na ausência de inibidor.",
+            "B": "Apenas métodos químicos de remoção de produtos de corrosão são recomendados pela norma.",
+            "C": "Tanto a remoção inadequada dos produtos de corrosão como a limpeza demasiada são citados pela ASTM G1-03(2017)e1 como possíveis fontes de imprecisão.",
+            "D": "A ASTM G1-03(2017)e1 e seus anexos fornecem informação apenas sobre o produto químico e o tempo de exposição para determinados materiais metálicos específicos na etapa de limpeza para remoção de produtos de corrosão.",
+            "E": "A norma ASTM G31-21 aborda o uso de réplicas nos ensaios, mas não menciona nem recomenda o uso do coeficiente de variação das réplicas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A norma ASTM G1-03(2017)e1 aborda os procedimentos para ensaios de corrosao, incluindo a remoção de produtos de corrosão. Tanto a remoção inadequada de produtos quanto a remoção excessiva podem levar a imprecisões nos resultados, afetando a determinação da perda de massa."
+    },
+    {
+        "id": "1173651",
+        "enunciado": "Qual teste é comumente usado para identificar a presença de íons de ferro (Fe3+) em uma amostra?",
+        "alternativas": {
+            "A": "Teste do nitrato de prata.",
+            "B": "Teste do sulfato de bário.",
+            "C": "Teste do tiocianato de potássio.",
+            "D": "Teste do carbonato de sódio.",
+            "E": "Teste do cloreto de cálcio."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O íon Fe³⁺ reage com íons tiocianato (SCN⁻) formando um complexo de cor vermelha intensa (sulfeto de hexatiocianato de ferro(III)), servindo como um teste característico para a presença de ferro(III)."
+    },
+    {
+        "id": "1173652",
+        "enunciado": "Qual é uma etapa crítica na análise gravimétrica?",
+        "alternativas": {
+            "A": "A precipitação do analito.",
+            "B": "A evaporação da amostra.",
+            "C": "A dissolução da amostra.",
+            "D": "A filtração da amostra.",
+            "E": "A centrifugação da amostra."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A precipitação controlada do analito é uma etapa crítica na análise gravimétrica, pois garante que apenas a substância de interesse seja separada em forma sólida e mensurável."
+    },
+    {
+        "id": "1173653",
+        "enunciado": "O que a espectroscopia UV/Vis mede em uma amostra?",
+        "alternativas": {
+            "A": "A radioatividade da amostra.",
+            "B": "A condutividade elétrica da amostra.",
+            "C": "A absorção de luz em determinados comprimentos de onda.",
+            "D": "A emissão de luz pela amostra.",
+            "E": "A refração da luz na amostra."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A espectroscopia UV/Vis (Ultravioleta/Visível) é baseada na interação da luz com a matéria. Ela quantifica a quantidade de luz que uma amostra absorve em diferentes comprimentos de onda do espectro UV e visível."
+    },
+    {
+        "id": "1173654",
+        "enunciado": "Em espectroscopia UV/Vis, o que é uma banda de absorção?",
+        "alternativas": {
+            "A": "Uma faixa de frequências onde não ocorre absorção.",
+            "B": "Uma faixa de frequências onde ocorre emissão de luz.",
+            "C": "Uma faixa de comprimentos de onda onde ocorre absorção máxima.",
+            "D": "Uma faixa de comprimentos de onda onde ocorre absorção mínima.",
+            "E": "Uma faixa de comprimentos de onda onde a luz é completamente refletida."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma banda de absorção em espectroscopia UV/Vis corresponde a uma região específica do espectro onde a substância absorve luz. Geralmente, se refere ao pico de absorção, que indica o comprimento de onda onde a absorção é máxima para uma transição eletrônica particular."
+    },
+    {
+        "id": "1173655",
+        "enunciado": "Qual é o papel do plasma indutivamente acoplado (ICP) na técnica de ICP -MS?",
+        "alternativas": {
+            "A": "Geração de íons.",
+            "B": "Separação de elementos.",
+            "C": "Amplificação de sinais.",
+            "D": "Visualização de amostras.",
+            "E": "Calibração do equipamento."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Plasma Indutivamente Acoplado (ICP) é a fonte de ionização na técnica ICP-MS. Ele introduz energia suficiente para dissociar a amostra e gerar íons, que são então direcionados para o espectrômetro de massa para detecção e quantificação."
+    },
+    {
+        "id": "1269791",
+        "enunciado": "Nos instrumentos destinados a espectrometria ótica de emissão com plasma de argônio (ICP/OES) a/as:",
+        "alternativas": {
+            "A": "fonte mais largamente utilizada é a lâmpada de cátodo oco",
+            "B": "modulação pode ser conseguida interpondo-se um recortador de luz entre a fonte e a chama",
+            "C": "resolução e a seletividade em emissão são obtidas primariamente pelo monocromador",
+            "D": "diferenças de resolução vêm primariamente da emissão muito estreita fornecida por uma lâmpada de descarga sem eletrodos"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Em ICP/OES, a separação espectral e a diferenciação entre os comprimentos de onda emitidos são realizadas primariamente pelo monocromador, que direciona a luz para o detector de forma seletiva, garantindo a precisão e a capacidade de distinção dos elementos presentes."
+    },
+    {
+        "id": "1347342",
+        "enunciado": "A espectrometria no infravermelho é uma técnica que se baseia na interação da radiação com a matéria, sendo uma importante análise instrumental, a qual possui uma ampla faixa de aplicações em laboratórios de análises químicas. Com relação à espectrometria no infravermelho, assinale a opção INCORRETA.",
+        "alternativas": {
+            "A": "Esta técnica pode ser utilizada para auxiliar na elucidação de estruturas moleculares, pois fornece dados sobre transições vibracionais de espécies poliatômicas.",
+            "B": "A absorção de radiação no infravermelho é um processo contínuo.",
+            "C": "O infravermelho vibracional compreende a faixa entre 4.000 e 400 cm-1.",
+            "D": "No processo de absorção de radiação no infravermelho são absorvidas as frequências que equivalem às frequências vibracionais da molécula em análise.",
+            "E": "Espectros na região do infravermelho apresentam comumente contribuições externas, como gás carbônico (CO2) e umidade."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A absorção de radiação no infravermelho não é um processo contínuo, mas sim quantizado. As moléculas absorvem energia em frequências específicas, correspondentes às suas transições vibracionais. As outras alternativas descrevem corretamente aspectos da espectrometria de infravermelho."
+    },
+    {
+        "id": "1347343",
+        "enunciado": "Espectrômetros no UV-visível são equipamentos comumente utilizados em laboratórios de análises químicas de efluentes de indústrias têxteis com ênfase na identificação de corantes. Com relação à espectrometria no UV-visível, assinale a alternativa CORRETA, referente aos componentes básicos da instrumentação deste equipamento.",
+        "alternativas": {
+            "A": "Um atomizador, um monocromador, uma cubeta e uma chama.",
+            "B": "Uma fonte de luz, um monocromador, uma cubeta e um atomizador.",
+            "C": "Uma chama, um monocromador, um detector e um processador.",
+            "D": "Uma fonte de luz, um difratômetro, um atomizador e um detector.",
+            "E": "Uma fonte de luz, um monocromador, uma cubeta e um detector."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Um espectrômetro UV-Vis básico é composto por: fonte de luz (emite radiação), monocromador (seleciona o comprimento de onda), cubeta (contém a amostra) e detector (mede a intensidade da luz transmitida)."
+    },
+    {
+        "id": "1347345",
+        "enunciado": "A espectrometria no UV-visível é uma técnica versátil, de baixo custo e comumente utilizada em laboratórios de química. Para determinações quantitativas, a Lei de Beer é fundamental na utilização da espectrometria do UV-visível. Considerando a Lei de Beer, assinale a alternativa CORRETA:",
+        "alternativas": {
+            "A": "A absortividade molar é um parâmetro da Lei de Beer, que não é intrínseco da espécie absorvente.",
+            "B": "A Lei de Beer é válida para qualquer faixa de concentração da substância a ser analisada.",
+            "C": "A Lei de Beer independe do comprimento do caminho óptico.",
+            "D": "Quanto menor for a absortividade molar, menor será a absorbância.",
+            "E": "A Lei de Beer sofre desvios em análises que envolvem soluções diluídas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A absortividade molar (a) é um fator diretamente relacionado à absorbância (A = a * b * c). Portanto, quanto menor for a absortividade molar, mantendo-se os outros fatores constantes, menor será a absorbância medida. As outras alternativas apresentam incorreções sobre a Lei de Beer."
+    },
+    {
+        "id": "1347347",
+        "enunciado": "A Cromatografia é um método de separação com inúmeras aplicações, tais como fármacos, alimentos, combustíveis, entre outros. Em relação aos tipos de cromatografia, tem-se, por exemplo, a cromatografia líquida e a cromatografia gasosa. Sobre a Cromatografia Gasosa, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "A fase gasosa móvel é responsável por transportar os solutos gasosos através de uma coluna que contém a fase estacionária.",
+            "B": "A fase móvel líquida é responsável por transportar solutos gasosos em uma coluna que contém a fase estacionária.",
+            "C": "A fase móvel é composta por um gás inerte, normalmente nitrogênio, hélio ou oxigênio.",
+            "D": "A fase gasosa transporta solutos líquidos em uma coluna que contém a fase estacionária.",
+            "E": "Compostos não voláteis e termicamente estáveis são ideais para análise por cromatografia gasosa."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Na cromatografia gasosa, a fase móvel é um gás que transporta os solutos através da fase estacionária. A alternativa A descreve corretamente a função da fase gasosa móvel. As outras alternativas apresentam descrições incorretas sobre as fases ou os solutos transportados."
+    },
+    {
+        "id": "1347351",
+        "enunciado": "Um laboratório de química na área de alimentos recebeu uma amostra de suco de laranja para determinação do teor de sacarose. Dois métodos analíticos diferentes (Método 1 e Método 2) foram utilizados, sendo o teor de sacarose determinado em triplicata para cada método. A tabela abaixo apresenta os resultados encontrados, onde s é o desvio padrão e CV o coeficiente de variação. Calculou-se o erro relativo (%) em relação ao valor de referência para a amostra em questão, que é de 10 g.L-1. Parâmetro Método 1 Método 2 Média ± s (g.L-1) 10,3±0,2 9,5±0,7 CV (%) 0,4 1,4 Erro relativo (%) 3,0 -5,0. Com base nos resultados apresentados na tabela, a alternativa que apresenta a análise CORRETA sobre os métodos utilizados na determinação do teor de sacarose do suco de laranja é:",
+        "alternativas": {
+            "A": "O método 2 apresenta melhor precisão e exatidão do que o método 1, o que é indicado pelo maior valor de CV e erro relativo mais próximo de zero.",
+            "B": "O método 1 apresenta melhor precisão, pois teve menor valor de CV, porém, o método 2 foi mais exato, já que apresenta o menor o valor do erro relativo.",
+            "C": "O método 2 apresenta melhor precisão, pois teve maior valor de CV, porém, o método 1 foi mais exato, uma vez que o erro relativo foi menor.",
+            "D": "O método 1 apresenta melhor precisão, pois teve menor valor de CV, assim como melhor exatidão, já que o erro relativo foi mais próximo de zero.",
+            "E": "O método 1 apresenta melhor precisão, pois teve maior valor de CV, assim como melhor exatidão, já que o erro relativo foi mais próximo de zero."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D está correta. O Método 1 tem menor CV (0,4% vs 1,4%), indicando maior precisão. Seu erro relativo (3,0%) é menos distante de zero na comparação com -5,0% do Método 2, indicando melhor exatidão."
+    },
+    {
+        "id": "1347354",
+        "enunciado": "Uma indústria de cosméticos optou por monitorar a condutividade de sua água purificada mediante utilização de um condutívimetro, um equipamento que mede a condutância de soluções. Sobre essa técnica, assinale a alternativa INCORRETA:",
+        "alternativas": {
+            "A": "O Siemens (S) é uma Unidade Internacional de Unidades que mede a condutividade elétrica.",
+            "B": "Antes de fazer uma medida no condutivímetro é necessário calibrar o equipamento utilizando-se soluções padrões com condutividade conhecida.",
+            "C": "Para soluções de baixa condutância (soluções extremamente diluídas), os eletrodos devem ser grandes com uma pequena distância entre eles.",
+            "D": "A condutividade elétrica é uma propriedade que depende da presença de íons dissolvidos em soluções iônicas, pois os íons permitem a passagem da corrente elétrica.",
+            "E": "A medida da condutividade é sensível apenas a íons inorgânicos de pequeno raio iônico."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E está incorreta. A condutividade elétrica não é sensível apenas a íons inorgânicos de pequeno raio, mas também a outros íons e depende de fatores como concentração e mobilidade dos íons."
+    },
+    {
+        "id": "2237766",
+        "enunciado": "Durante a rotina de um laboratório de análises de água, o técnico realiza a determinação da concentração de nitrato em amostras coletadas de diferentes pontos de um reservatório. Para isso, utiliza o método espectrofotométrico, no qual ocorre a formação de um composto colorido cuja intensidade é medida em um comprimento de onda específico. Considerando os fundamentos e aplicações da espectrofotometria de absorção molecular, assinale a alternativa CORRET A.",
+        "alternativas": {
+            "A": "A espectrofotometria baseia-se na emissão de luz pela amostra após excitação térmica, sendo adequada apenas para análises de metais pesados.",
+            "B": "O método é fundamentado na absorção de radiação por espécies químicas, e a intensidade da cor formada é diretamente proporcional à concentração do analito, segundo a Lei de Lambert-Beer.",
+            "C": "A técnica não requer calibração, pois a absorbância medida independe da concentração da substância analisada.",
+            "D": "A espectrofotometria de absorção molecular utiliza radiação ionizante, capaz de promover transições eletrônicas em metais e íons complexos.",
+            "E": "A absorbância é inversamente proporcional à transmitância e ambas variam de forma aleatória com a concentração da substância."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A espectrofotometria de absorção molecular baseia-se na absorção de luz por uma substância. A Lei de Lambert-Beer estabelece que a absorbância (e, consequentemente, a intensidade da cor) é diretamente proporcional à concentração do analito, o que a torna útil para quantificação. As demais alternativas contêm informações incorretas sobre a técnica."
+    },
+    {
+        "id": "2237770",
+        "enunciado": "Em uma rotina de titulação ácido fraco × base forte (por exemplo, ácido acético padronizado com NaOH), o técnico analista precisa escolher um indicador ácido–base adequado para leitura do ponto final. Sabe-se que, para esse sistema, o pH no ponto de equivalência é maior que 7, e a curva apresenta uma região de variação abrupta de pH próxima ao equivalente. Considerando o critério teórico de seleção de indicadores, assinale a alternativa CORRET A.",
+        "alternativas": {
+            "A": "Azul de bromotimol é sempre a melhor escolha, independentemente do sistema titulante–titulado.",
+            "B": "Qualquer indicador serve, pois a mudança de cor sempre coincide com o ponto de equivalência.",
+            "C": "Fenolftaleína é proibida nesse tipo de titulação.",
+            "D": "A faixa de viragem do indicador deve conter o pH no ponto de equivalência da titulação (sobrepor-se à região de variação abrupta de pH).",
+            "E": "O indicador deve ter pKₐ = 7 obrigatoriamente, qualquer que seja o sistema."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A escolha do indicador em titulações ácido-base depende do pH no ponto de equivalência. Para ácido fraco/base forte, o pH no ponto de equivalência é > 7. O indicador ideal deve ter sua faixa de viragem de cor contendo este valor de pH, garantindo a leitura correta do ponto final."
+    },
+    {
+        "id": "2064139",
+        "enunciado": "Em um laboratório de análises químicas, o técnico precisa avaliar com precisão a concentração de um sal dissolvido em água, garantindo a confiabilidade do resultado. Para isso, ele opta por um método volumétrico. De que forma o preparo adequado da solução padrão influencia a exatidão da análise?",
+        "alternativas": {
+            "A": "A solução padrão pode ser preparada de maneira aproximada, sem controle de pureza, pois pequenas variações não afetam a concentração.",
+            "B": "Ao garantir que a solução padrão seja preparada com reagentes de grau analítico, utilizando balança e volumetria rigorosas, minimiza-se o erro sistemático e assegura-se a precisão dos resultados.",
+            "C": "O uso de reagentes técnicos e a ausência de determinação da massa exata elevam a confiabilidade dos resultados.",
+            "D": "É suficiente medir apenas o volume, dispensando a pesagem rigorosa, pois o rótulo do reagente indica a concentração final desejada."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A exatidão de uma análise volumétrica depende fundamentalmente da precisão da solução padrão. Usar reagentes de alta pureza e medidas rigorosas de massa e volume minimiza erros sistemáticos, garantindo a confiabilidade e precisão dos resultados analíticos."
+    },
+    {
+        "id": "2131935",
+        "enunciado": "Durante uma rotina em laboratório, um técnico precisa manipular um solvente orgânico volátil, altamente inflamável e de toxicidade moderada. Considerando as normas de biossegurança em ambientes laboratoriais, qual deve ser o procedimento mais adequado?",
+        "alternativas": {
+            "A": "Realizar o manuseio em bancada comum, utilizando apenas jaleco e luvas, já que o solvente é de toxicidade moderada.",
+            "B": "Utilizar capela de exaustão, armazenar o frasco em armário ventilado próprio para inflamáveis e utilizar EPIs adequados, como óculos, jaleco e luvas resistentes.",
+            "C": "Diluir previamente o solvente em água antes de qualquer manipulação, a fim de reduzir sua inflamabilidade.",
+            "D": "Garantir a manipulação apenas em horários de menor fluxo no laboratório, sem necessidade de capela, desde que os EPIs sejam utilizados corretamente.",
+            "E": "Descartar o resíduo em lixo comum, desde que o volume seja pequeno, para reduzir o risco de contato direto."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Dada a inflamabilidade e toxicidade moderada do solvente, o manuseio seguro exige capela de exaustão para controle de vapores, armazenamento em local apropriado para inflamáveis e uso de Equipamentos de Proteção Individual (EPIs) como óculos, jaleco e luvas resistentes. As outras alternativas subestimam os riscos ou propõem medidas inadequadas."
+    },
+    {
+        "id": "2064143",
+        "enunciado": "Um equipamento de absorção atômica começa a apresentar resultados discrepantes, sugerindo sub ou superestimação de metais analisados. Qual a melhor estratégia para assegurar a confiabilidade desses dados, considerando calibração e manutenção?",
+        "alternativas": {
+            "A": "Repetir a leitura das amostras sem revisar o estado das lâmpadas, pois o problema raramente é de origem instrumental.",
+            "B": "Considerar que a absorção atômica não exige calibração frequente, então manter a operação normalmente.",
+            "C": "Realizar inspeção das lâmpadas de cátodo oco, do sistema de nebulização e da chama, verificar a curva de calibração e possíveis contaminações, restabelecendo as condições originais de operação e repetindo as leituras.",
+            "D": "Descartar todas as soluções-padrão, pois nenhuma afeta a exatidão, e insistir no mesmo método de leitura."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C descreve a estratégia mais completa e confiável. A inspeção de componentes chave como lâmpadas e nebulizador, verificação da calibração e possíveis contaminações são passos essenciais para diagnosticar e corrigir problemas em equipamentos de absorção atômica."
+    },
+    {
+        "id": "1851889",
+        "enunciado": "A cromatografia e as técnicas espectroscópicas de absorção molecular e emissão/absorção atômica são amplamente utilizadas na análise química para separação e identificação de compostos. Sobre essas técnicas, analise as assertivas abaixo e assinale a alternativa correta.I. A cromatografia gasosa (GC) é amplamente utilizada para a separação de compostos polares de alto peso molecular, pois sua fase móvel líquida permite uma eluição eficiente de amostras aquosas.II. A espectrofotometria de absorção molecular no UV-Vis é baseada na absorção de energia por moléculas, promovendo transições eletrônicas entre estados vibracionais e rotacionais dos núcleos atômicos.III. A cromatografia líquida de alta eficiência (HPLC) utiliza uma fase móvel gasosa e uma fase estacionária sólida, sendo um método eficiente para separar compostos voláteis e gasosos.A) Todas as assertivas estão corretas.B) Todas as assertivas estão incorretas.C) Apenas a assertiva I está correta.D) Apenas a assertiva II está correta.E) Apenas as assertivas II e III estão corretas.",
+        "alternativas": {
+            "A": "Todas as assertivas estão corretas.",
+            "B": "Todas as assertivas estão incorretas.",
+            "C": "Apenas a assertiva I está correta.",
+            "D": "Apenas a assertiva II está correta.",
+            "E": "Apenas as assertivas II e III estão corretas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Todas as assertivas estão incorretas. I: GC separa compostos voláteis. II: Transições eletrônicas ocorrem entre orbitais eletrônicos, não núcleos. III: HPLC usa fase móvel líquida e separa compostos não voláteis."
+    },
+    {
+        "id": "2064144",
+        "enunciado": "No controle de qualidade em análises laboratoriais, a reprodutibilidade dos resultados depende de protocolos padronizados. De que forma esse controle pode ser reforçado?",
+        "alternativas": {
+            "A": "Confiar somente na experiência do analista, dispensando testes de verificação periódica.",
+            "B": "Avaliar exclusivamente a exatidão, pois a precisão não afeta a comparação de resultados interlaboratoriais.",
+            "C": "Reduzir a frequência de testes com padrões de referência, assumindo que os métodos são intrinsecamente confiáveis.",
+            "D": "Empregar padrões internos e externos, definir rotinas de checagem de precisão e exatidão, documentar variações e promover comparações interlaboratoriais para corrigir eventuais desvios."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O controle de qualidade em análises laboratoriais é reforçado pela utilização de padrões internos e externos para verificação da precisão e exatidão, documentação de desvios e participação em comparações interlaboratoriais. Isso garante a confiabilidade e a reprodutibilidade dos resultados."
+    },
+    {
+        "id": "1897108",
+        "enunciado": "A precipitação do cloreto de prata (AgCl) para determinar a quantidade de prata em uma amostra é um exemplo de método de análise química conhecido como:",
+        "alternativas": {
+            "A": "Análise gravimétrica",
+            "B": "Análise volumétrica",
+            "C": "Análise colorimétrica",
+            "D": "Análise potenciométrica",
+            "E": "Análise espectrofotométrica"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Análise gravimétrica envolve a medição da massa de um analito, geralmente após sua precipitação ou separação de uma solução. Na precipitação do cloreto de prata, a massa do precipitado é medida para determinar a quantidade de prata. Análise volumétrica usa titulação. Colorimétrica e espectrofotométrica usam cores. Potenciométrica usa potencial elétrico."
+    },
+    {
+        "id": "1851893",
+        "enunciado": "A análise de alimentos é fundamental para determinar sua composição química e qualidade nutricional. Com base nos métodos utilizados para a quantificação de lipídios, proteínas, carboidratos e enzimas, analise as assertivas a seguir e assinale a alternativa correta.I. O método Soxhlet, utilizado para determinar a quantidade de lipídios, baseia-se em medir a quantidade total de nitrogênio na amostra, sendo um método amplamente utilizado para alimentos ricos em gorduras.II. Um dos principais procedimentos para a quantificação de proteínas nos alimentos utiliza solventes orgânicos para extrair proteínas da matriz alimentar.III. O método Kjeldahl é amplamente utilizado na quantificação de proteínas em alimentos. Consiste em etapas de digestão, destilação e titulação.",
+        "alternativas": {
+            "A": "Todas as assertivas estão corretas.",
+            "B": "Todas as assertivas estão incorretas.",
+            "C": "Apenas a assertiva I está correta.",
+            "D": "Apenas a assertiva III está correta.",
+            "E": "Apenas as assertivas II e III estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A assertiva I está incorreta pois o método Soxhlet quantifica lipídios por extração, não por nitrogênio. A assertiva II está incorreta na explicação do método de quantificação de proteínas. A assertiva III descreve corretamente o método Kjeldahl."
+    },
+    {
+        "id": "2118724",
+        "enunciado": "Em análises realizadas para controle de qualidade da água e identificação de substâncias, o técnico ou a técnica de laboratório podem empregar métodos espectrométricos para determinar a presença e a concentração de compostos orgânicos e inorgânicos. Dois métodos amplamente utilizados são a espectrofotometria na região do ultravioleta-visível (UV-Vis) e a espectroscopia no infravermelho (IV), cada um com aplicações e princípios distintos. Com base nessas técnicas, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "A espectroscopia no infravermelho determina a condutividade elétrica pela variação de absorbância em soluções aquosas.",
+            "B": "A absorção na região UV-Vis ocorre por vibrações moleculares específicas, como as das ligações C=O e O–H.",
+            "C": "Os métodos UV-Vis e IV são considerados destrutivos, pois a radiação altera permanentemente a estrutura dos analitos.",
+            "D": "A espectrofotometria UV-Vis quantifica espécies pela absorção de radiação, e o infravermelho identifica grupos funcionais pelas vibrações moleculares."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "UV-Vis quantifica substâncias pela energia absorvida que promove transições eletrônicas. Infravermelho identifica grupos funcionais pela energia absorvida que causa vibrações moleculares específicas. As outras alternativas contêm incorreções sobre os princípios dessas técnicas."
+    },
+    {
+        "id": "2118728",
+        "enunciado": "A potenciometria é uma técnica instrumental amplamente utilizada em laboratórios de controle de qualidade, saneamento e análises ambientais, por permitir a determinação de pH e de concentrações iônicas específicas com o uso de eletrodos indicadores apropriados. A prática exige cuidados com calibração, temperatura e manutenção dos eletrodos, especialmente os de vidro, sensíveis a variações nas condições de uso. Com base nos fundamentos dos métodos potenciométricos, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "O eletrodo de vidro utilizado na medida de pH converte corrente elétrica em sinal óptico, permitindo a leitura direta da absorbância.",
+            "B": "A técnica de potenciometria é baseada na condução térmica entre os eletrodos, e não depende da natureza dos íons presentes na solução.",
+            "C": "A determinação potenciométrica do pH exige o uso de indicadores colorimétricos e reagentes que gerem mudança visível no meio.",
+            "D": "A potenciometria mede a diferença de potencial elétrico entre dois eletrodos, sendo o eletrodo de referência responsável por manter potencial constante durante a análise."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A potenciometria mede diferenças de potencial. O eletrodo de referência tem a função de manter um potencial constante e estável, servindo como ponto de comparação para o eletrodo indicador, que varia conforme a concentração do analito."
+    },
+    {
+        "id": "2402523",
+        "enunciado": "Ao se construir uma curva de calibração confiável, os valores experimentais devem ser ajustados por meio da solução branco (muitas vezes chamada apenas de “branco”). Para que essa solução cumpra corretamente sua função, ela deve",
+        "alternativas": {
+            "A": "ser constituída exclusivamente de água destilada.",
+            "B": "ser preparada com solução tampão ajustada para pH 7.",
+            "C": "ser formulada para conter, se possível, todos os componentes da matriz da amostra, exceto o analito.",
+            "D": "conter o padrão do analito em concentração conhecida.",
+            "E": "apresentar absorção no mesmo comprimento de onda que o analito."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A solução branca serve como referência para a interferência da matriz da amostra. Idealmente, ela deve refletir todos os componentes da amostra, exceto o analito de interesse, para que sua contribuição possa ser subtraída dos resultados da amostra real."
+    },
+    {
+        "id": "1583658",
+        "enunciado": "Em um laboratório de aulas de química analítica experimental faz-se a titulação volumétrica de uma solução de ácido acético, de concentração desconhecida, utilizando solução aquosa de hidróxido de sódio, de concentração 0,10 mol.L-1. Nesse laboratório estão disponíveis os indicadores ácido-base mostrados na tabela: Indicador ácido-base Cor 1 Faixa de viragem Cor 2 Fenolftaleína Incolor 8,2 < pH < 9,8 Rósea -avermelhada Azul de bromotimol Amarela 6,0 < pH < 7,6 Azul Azul de bromofenol Azul 3,0 < pH < 4,6 Violeta. Sobre esse procedimento, a única alternativa CORRETA é:",
+        "alternativas": {
+            "A": "O pH, no ponto estequiométrico, é maior que 7.",
+            "B": "O melhor indicador ácido-base é o azul de bromofenol.",
+            "C": "Dentre os instrumentos necessários estão o béquer, a proveta e balão volumétrico.",
+            "D": "Após a viragem, a fenolftaleína apresenta-se em sua forma protonada.",
+            "E": "No ponto estequiométrico, a base conjugada é fraca."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O ácido acético é um ácido fraco e o hidróxido de sódio é uma base forte. A titulação de um ácido fraco com uma base forte resulta em um ponto estequiométrico com pH > 7. O azul de bromofenol vira em pH ácido (3,0-4,6), a fenolftaleína em pH básico (8,2-9,8). O ponto estequiométrico é básico."
+    },
+    {
+        "id": "1583662",
+        "enunciado": "Para determinar a concentração de uma solução aquosa de hidróxido de sódio, um estudante coletou uma amostra de 10,0 mL dessa solução; em seguida, adicionou algumas gotas de um indicador ácido-base. Para realizar a titulação, preencheu uma bureta de 25,0 mL com solução aquosa de ácido clorídrico, de concentração 0,10 mol/L. Abaixo é apresentada uma tabela com os valores de pH da faixa de viragem de alguns indicadores ácido-base. Indicador ácido-base Cor 1 Faixa de viragem Cor 2 Fenolftaleína Incolor 8,2 < pH < 9,8 Rósea -avermelhada Azul de bromotimol Amarela 6,0 < pH < 7,6 Azul Azul de bromofenol Azul 3,0 < pH < 4,6 Violeta. Considerando as informações expostas e que, para a titulação foram gastos 15,0 mL da solução ácida, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "Nenhum dos indicadores citados é indicado, o correto seria utilização de um agente complexante.",
+            "B": "O melhor indicador ácido-base, em termos de aproximação ao pH do ponto de equivalência, é a fenolftaleína.",
+            "C": "Se o estudante acertou o ponto de equivalência, a concentração determinada da solução básica foi 0,25 mol/L.",
+            "D": "O uso do azul de bromotimol é contraindicado por não apresentar reversibilidade química de protonação/desprotonação.",
+            "E": "No ponto de viragem, o volume gasto da solução ácida é igual a 150% do volume da solução básica."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A titulação Ácido-Base envolve um ácido forte (HCl) e uma base forte (NaOH). O ponto de equivalência para essa titulação ocorrerá em pH neutro (pH=7), onde um indicador ácido-base com faixa de viragem próxima a este valor seria ideal. A fenolftaleína (8,2-9,8) e o azul de bromotimol (6,0-7,6) não são ideais. Calculando a concentração: 0,10 mol/L * 15,0 mL = X mol/L * 10,0 mL => X = 0,15 mol/L para o ácido em relação à base. A concentração da base é 0,15 mol/L. A concentração calculada da solução básica é 0,15 mol/L / 1 = 0,15 mol/L. Erro no cálculo. Vamos recalcular: Mol do ácido = 0,10 mol/L * 0,015 L = 0,0015 mol. Mol da base = Mol do ácido = 0,0015 mol. Concentração da base = 0,0015 mol / 0,010 L = 0,15 mol/L. A alternativa C afirma que a concentração é 0,25 mol/L. Há um erro nesta alternativa ou no meu cálculo. Vamos refazer o cálculo: Na titulação de um ácido monoprótico com uma base monoprótica, em pontos de equivalência, o número de mols do ácido é igual ao número de mols da base. Mols de HCl = con..."
+    },
+    {
+        "id": "1244138",
+        "enunciado": "Considere a seguinte situação hipotética: Um pesquisador deseja avaliar derivados da estrutura química abaixo indicada como inibidor de corrosão para meio de CO2 e H2S. O pesquisador precisa confirmar as estruturas químicas almejadas e pretende empregar técnicas de caracterização como a espectroscopia no infravermelho. Destaca-se que em cada caso, outras bandas aparecerão no espectro, porém apenas as bandas mencionadas em cada alternativa devem ser correlacionadas com a posição no espectro. Com base nessa situação, assinale a afirmativa incorreta quanto à correlação do tipo de banda e sua posição no espectro.",
+        "alternativas": {
+            "A": "Caso a estrutura almejada possua R1 sendo radical alquila e R2 sendo hidrogênio (–H), apresentará banda característica de estiramento C=N em aproximadamente 1610-1640 cm-1.",
+            "B": "Caso a estrutura almejada possua R1 sendo –CH2CH2OH e R2 sendo um radical alquila, apresentará banda característica de estiramento OH em aproximadamente 700 cm-1.",
+            "C": "Caso a estrutura almejada possua em R3 e R4 um anel aromático conjugado ao heterociclo da figura, apresentará bandas características de estiramento C=C aromático em aproximadamente 1600 e 1475 cm-1, e deformação angular =C –H em 690-900 cm-1.",
+            "D": "Caso a estrutura almejada possua R1 sendo hidrogênio (–H) e R2 sendo um radical –NHCH2CH2CH2CH3, apresentará banda característica de deformação angular NH em aproximadamente de 1500 cm-1.",
+            "E": "Caso a estrutura almejada possua R1 sendo –(C=O)NH2 e R2 sendo um radical alquila, apresentará banda característica de estiramento NH em aproximadamente 3180-3350 cm-1 e C=O em aproximadamente 1640-1700 cm-1."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O estiramento de OH em álcoois (R-OH) geralmente aparece em faixas de frequência mais altas, entre 3200-3600 cm-1 para ligações intermoleculares e mais alto ainda para ligações intramoleculares. A faixa de 700 cm-1 é típica de deformações angulares."
+    },
+    {
+        "id": "1173649",
+        "enunciado": "O objetivo da digestão ácida no tratamento de amostras minerais e ambientais é",
+        "alternativas": {
+            "A": "alterar a composição química da amostra.",
+            "B": "aumentar o tamanho dos grãos minerais para análise.",
+            "C": "dissolver seletivamente certos minerais da amostra.",
+            "D": "converter os componentes da amostra em formas solúveis.",
+            "E": "reduzir a amostra a pó fino sem alterar sua composição."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A digestão ácida visa converter componentes da amostra em formas solúveis, facilitando a análise posterior dos elementos de interesse que foram dissolvidos."
+    },
+    {
+        "id": "1173650",
+        "enunciado": "Os ácidos comumente utilizados na digestão ácida de amostras minerais são",
+        "alternativas": {
+            "A": "ácido cianídrico e ácido bórico.",
+            "B": "ácido acético e ácido butírico.",
+            "C": "ácido cítrico e ácido láctico.",
+            "D": "ácido bórico e ácido fosfórico.",
+            "E": "ácido nítrico e ácido clorídrico."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Ácido nítrico e ácido clorídrico são ácidos fortes comumente empregados na digestão ácida de amostras minerais devido ao seu poder oxidante e à capacidade de dissolver uma vasta gama de substâncias."
+    },
+    {
+        "id": "1244140",
+        "enunciado": "Quanto aos ensaios empregados para avaliar a eficiência de inibidores de corrosão, tem-se os ensaios de imersão no meio a ser estudado, baseados em perda de massa do material metálico. Assinale a alternativa correta.",
+        "alternativas": {
+            "A": "A perda de massa do corpo de prova não ensaiado (controle) é usada para correção da perda de massa dos corpos de prova ensaiados apenas na ausência de inibidor.",
+            "B": "Apenas métodos químicos de remoção de produtos de corrosão são recomendados pela norma.",
+            "C": "Tanto a remoção inadequada dos produtos de corrosão como a limpeza demasiada são citados pela ASTM G1-03(2017)e1 como possíveis fontes de imprecisão.",
+            "D": "A ASTM G1-03(2017)e1 e seus anexos fornecem informação apenas sobre o produto químico e o tempo de exposição para determinados materiais metálicos específicos na etapa de limpeza para remoção de produtos de corrosão.",
+            "E": "A norma ASTM G31-21 aborda o uso de réplicas nos ensaios, mas não menciona nem recomenda o uso do coeficiente de variação das réplicas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A norma ASTM G1-03(2017)e1 aborda os procedimentos para ensaios de corrosao, incluindo a remoção de produtos de corrosão. Tanto a remoção inadequada de produtos quanto a remoção excessiva podem levar a imprecisões nos resultados, afetando a determinação da perda de massa."
+    },
+    {
+        "id": "1173651",
+        "enunciado": "Qual teste é comumente usado para identificar a presença de íons de ferro (Fe3+) em uma amostra?",
+        "alternativas": {
+            "A": "Teste do nitrato de prata.",
+            "B": "Teste do sulfato de bário.",
+            "C": "Teste do tiocianato de potássio.",
+            "D": "Teste do carbonato de sódio.",
+            "E": "Teste do cloreto de cálcio."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O íon Fe³⁺ reage com íons tiocianato (SCN⁻) formando um complexo de cor vermelha intensa (sulfeto de hexatiocianato de ferro(III)), servindo como um teste característico para a presença de ferro(III)."
+    },
+    {
+        "id": "1173652",
+        "enunciado": "Qual é uma etapa crítica na análise gravimétrica?",
+        "alternativas": {
+            "A": "A precipitação do analito.",
+            "B": "A evaporação da amostra.",
+            "C": "A dissolução da amostra.",
+            "D": "A filtração da amostra.",
+            "E": "A centrifugação da amostra."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A precipitação controlada do analito é uma etapa crítica na análise gravimétrica, pois garante que apenas a substância de interesse seja separada em forma sólida e mensurável."
+    },
+    {
+        "id": "1173653",
+        "enunciado": "O que a espectroscopia UV/Vis mede em uma amostra?",
+        "alternativas": {
+            "A": "A radioatividade da amostra.",
+            "B": "A condutividade elétrica da amostra.",
+            "C": "A absorção de luz em determinados comprimentos de onda.",
+            "D": "A emissão de luz pela amostra.",
+            "E": "A refração da luz na amostra."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A espectroscopia UV/Vis (Ultravioleta/Visível) é baseada na interação da luz com a matéria. Ela quantifica a quantidade de luz que uma amostra absorve em diferentes comprimentos de onda do espectro UV e visível."
+    },
+    {
+        "id": "1173654",
+        "enunciado": "Em espectroscopia UV/Vis, o que é uma banda de absorção?",
+        "alternativas": {
+            "A": "Uma faixa de frequências onde não ocorre absorção.",
+            "B": "Uma faixa de frequências onde ocorre emissão de luz.",
+            "C": "Uma faixa de comprimentos de onda onde ocorre absorção máxima.",
+            "D": "Uma faixa de comprimentos de onda onde ocorre absorção mínima.",
+            "E": "Uma faixa de comprimentos de onda onde a luz é completamente refletida."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma banda de absorção em espectroscopia UV/Vis corresponde a uma região específica do espectro onde a substância absorve luz. Geralmente, se refere ao pico de absorção, que indica o comprimento de onda onde a absorção é máxima para uma transição eletrônica particular."
+    },
+    {
+        "id": "1173655",
+        "enunciado": "Qual é o papel do plasma indutivamente acoplado (ICP) na técnica de ICP -MS?",
+        "alternativas": {
+            "A": "Geração de íons.",
+            "B": "Separação de elementos.",
+            "C": "Amplificação de sinais.",
+            "D": "Visualização de amostras.",
+            "E": "Calibração do equipamento."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Plasma Indutivamente Acoplado (ICP) é a fonte de ionização na técnica ICP-MS. Ele introduz energia suficiente para dissociar a amostra e gerar íons, que são então direcionados para o espectrômetro de massa para detecção e quantificação."
+    },
+    {
+        "id": "1269791",
+        "enunciado": "Nos instrumentos destinados a espectrometria ótica de emissão com plasma de argônio (ICP/OES) a/as:",
+        "alternativas": {
+            "A": "fonte mais largamente utilizada é a lâmpada de cátodo oco",
+            "B": "modulação pode ser conseguida interpondo-se um recortador de luz entre a fonte e a chama",
+            "C": "resolução e a seletividade em emissão são obtidas primariamente pelo monocromador",
+            "D": "diferenças de resolução vêm primariamente da emissão muito estreita fornecida por uma lâmpada de descarga sem eletrodos"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Em ICP/OES, a separação espectral e a diferenciação entre os comprimentos de onda emitidos são realizadas primariamente pelo monocromador, que direciona a luz para o detector de forma seletiva, garantindo a precisão e a capacidade de distinção dos elementos presentes."
+    },
+    {
+        "id": "1347342",
+        "enunciado": "A espectrometria no infravermelho é uma técnica que se baseia na interação da radiação com a matéria, sendo uma importante análise instrumental, a qual possui uma ampla faixa de aplicações em laboratórios de análises químicas. Com relação à espectrometria no infravermelho, assinale a opção INCORRETA.",
+        "alternativas": {
+            "A": "Esta técnica pode ser utilizada para auxiliar na elucidação de estruturas moleculares, pois fornece dados sobre transições vibracionais de espécies poliatômicas.",
+            "B": "A absorção de radiação no infravermelho é um processo contínuo.",
+            "C": "O infravermelho vibracional compreende a faixa entre 4.000 e 400 cm-1.",
+            "D": "No processo de absorção de radiação no infravermelho são absorvidas as frequências que equivalem às frequências vibracionais da molécula em análise.",
+            "E": "Espectros na região do infravermelho apresentam comumente contribuições externas, como gás carbônico (CO2) e umidade."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A absorção de radiação no infravermelho não é um processo contínuo, mas sim quantizado. As moléculas absorvem energia em frequências específicas, correspondentes às suas transições vibracionais. As outras alternativas descrevem corretamente aspectos da espectrometria de infravermelho."
+    },
+    {
+        "id": "1347343",
+        "enunciado": "Espectrômetros no UV-visível são equipamentos comumente utilizados em laboratórios de análises químicas de efluentes de indústrias têxteis com ênfase na identificação de corantes. Com relação à espectrometria no UV-visível, assinale a alternativa CORRETA, referente aos componentes básicos da instrumentação deste equipamento.",
+        "alternativas": {
+            "A": "Um atomizador, um monocromador, uma cubeta e uma chama.",
+            "B": "Uma fonte de luz, um monocromador, uma cubeta e um atomizador.",
+            "C": "Uma chama, um monocromador, um detector e um processador.",
+            "D": "Uma fonte de luz, um difratômetro, um atomizador e um detector.",
+            "E": "Uma fonte de luz, um monocromador, uma cubeta e um detector."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Um espectrômetro UV-Vis básico é composto por: fonte de luz (emite radiação), monocromador (seleciona o comprimento de onda), cubeta (contém a amostra) e detector (mede a intensidade da luz transmitida)."
+    },
+    {
+        "id": "1347345",
+        "enunciado": "A espectrometria no UV-visível é uma técnica versátil, de baixo custo e comumente utilizada em laboratórios de química. Para determinações quantitativas, a Lei de Beer é fundamental na utilização da espectrometria do UV-visível. Considerando a Lei de Beer, assinale a alternativa CORRETA:",
+        "alternativas": {
+            "A": "A absortividade molar é um parâmetro da Lei de Beer, que não é intrínseco da espécie absorvente.",
+            "B": "A Lei de Beer é válida para qualquer faixa de concentração da substância a ser analisada.",
+            "C": "A Lei de Beer independe do comprimento do caminho óptico.",
+            "D": "Quanto menor for a absortividade molar, menor será a absorbância.",
+            "E": "A Lei de Beer sofre desvios em análises que envolvem soluções diluídas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A absortividade molar (a) é um fator diretamente relacionado à absorbância (A = a * b * c). Portanto, quanto menor for a absortividade molar, mantendo-se os outros fatores constantes, menor será a absorbância medida. As outras alternativas apresentam incorreções sobre a Lei de Beer."
+    },
+    {
+        "id": "1347347",
+        "enunciado": "A Cromatografia é um método de separação com inúmeras aplicações, tais como fármacos, alimentos, combustíveis, entre outros. Em relação aos tipos de cromatografia, tem-se, por exemplo, a cromatografia líquida e a cromatografia gasosa. Sobre a Cromatografia Gasosa, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "A fase gasosa móvel é responsável por transportar os solutos gasosos através de uma coluna que contém a fase estacionária.",
+            "B": "A fase móvel líquida é responsável por transportar solutos gasosos em uma coluna que contém a fase estacionária.",
+            "C": "A fase móvel é composta por um gás inerte, normalmente nitrogênio, hélio ou oxigênio.",
+            "D": "A fase gasosa transporta solutos líquidos em uma coluna que contém a fase estacionária.",
+            "E": "Compostos não voláteis e termicamente estáveis são ideais para análise por cromatografia gasosa."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Na cromatografia gasosa, a fase móvel é um gás que transporta os solutos através da fase estacionária. A alternativa A descreve corretamente a função da fase gasosa móvel. As outras alternativas apresentam descrições incorretas sobre as fases ou os solutos transportados."
+    },
+    {
+        "id": "1347351",
+        "enunciado": "Um laboratório de química na área de alimentos recebeu uma amostra de suco de laranja para determinação do teor de sacarose. Dois métodos analíticos diferentes (Método 1 e Método 2) foram utilizados, sendo o teor de sacarose determinado em triplicata para cada método. A tabela abaixo apresenta os resultados encontrados, onde s é o desvio padrão e CV o coeficiente de variação. Calculou-se o erro relativo (%) em relação ao valor de referência para a amostra em questão, que é de 10 g.L-1. Parâmetro Método 1 Método 2 Média ± s (g.L-1) 10,3±0,2 9,5±0,7 CV (%) 0,4 1,4 Erro relativo (%) 3,0 -5,0. Com base nos resultados apresentados na tabela, a alternativa que apresenta a análise CORRETA sobre os métodos utilizados na determinação do teor de sacarose do suco de laranja é:",
+        "alternativas": {
+            "A": "O método 2 apresenta melhor precisão e exatidão do que o método 1, o que é indicado pelo maior valor de CV e erro relativo mais próximo de zero.",
+            "B": "O método 1 apresenta melhor precisão, pois teve menor valor de CV, porém, o método 2 foi mais exato, já que apresenta o menor o valor do erro relativo.",
+            "C": "O método 2 apresenta melhor precisão, pois teve maior valor de CV, porém, o método 1 foi mais exato, uma vez que o erro relativo foi menor.",
+            "D": "O método 1 apresenta melhor precisão, pois teve menor valor de CV, assim como melhor exatidão, já que o erro relativo foi mais próximo de zero.",
+            "E": "O método 1 apresenta melhor precisão, pois teve maior valor de CV, assim como melhor exatidão, já que o erro relativo foi mais próximo de zero."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A alternativa D está correta. O Método 1 tem menor CV (0,4% vs 1,4%), indicando maior precisão. Seu erro relativo (3,0%) é menos distante de zero na comparação com -5,0% do Método 2, indicando melhor exatidão."
+    },
+    {
+        "id": "1347354",
+        "enunciado": "Uma indústria de cosméticos optou por monitorar a condutividade de sua água purificada mediante utilização de um condutívimetro, um equipamento que mede a condutância de soluções. Sobre essa técnica, assinale a alternativa INCORRETA:",
+        "alternativas": {
+            "A": "O Siemens (S) é uma Unidade Internacional de Unidades que mede a condutividade elétrica.",
+            "B": "Antes de fazer uma medida no condutivímetro é necessário calibrar o equipamento utilizando-se soluções padrões com condutividade conhecida.",
+            "C": "Para soluções de baixa condutância (soluções extremamente diluídas), os eletrodos devem ser grandes com uma pequena distância entre eles.",
+            "D": "A condutividade elétrica é uma propriedade que depende da presença de íons dissolvidos em soluções iônicas, pois os íons permitem a passagem da corrente elétrica.",
+            "E": "A medida da condutividade é sensível apenas a íons inorgânicos de pequeno raio iônico."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E está incorreta. A condutividade elétrica não é sensível apenas a íons inorgânicos de pequeno raio, mas também a outros íons e depende de fatores como concentração e mobilidade dos íons."
+    },
+    {
+        "id": "1678680",
+        "enunciado": "Na análise gravimétrica, qual dos seguintes procedimentos é essencial para garantir a precisão do resultado final?",
+        "alternativas": {
+            "A": "Utilizar um indicador de pH para monitorar a reação de precipitação.",
+            "B": "Garantir que o precipitado seja completamente seco antes de pesá-lo.",
+            "C": "Aumentar o volume de solvente para dissolver todo o precipitado.",
+            "D": "Realizar a filtração em papel filtro comum, sem necessidade de lavagem.",
+            "E": "Medir o volume do precipitado em vez da massa."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em análise gravimétrica, após a precipitação e filtração, é vital garantir que o precipitado esteja completamente seco antes de pesá-lo. A umidade residual afetaria a massa medida, levando a um resultado impreciso e a um erro sistemático na quantificação."
+    },
+    {
+        "id": "1269803",
+        "enunciado": "No que diz respeito à cromatografia com fase gasosa, os mecanismos de separação que podem ser utilizados são:",
+        "alternativas": {
+            "A": "adsorção e partição",
+            "B": "troca iônica e adsorção",
+            "C": "partição e permeação em gel",
+            "D": "troca iônica e permeação em gel"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Na cromatografia gasosa, os principais mecanismos de separação são a adsorção (retenção na superfície da fase estacionária sólida) e a partição (distribuição entre fases líquida e gasosa). As outras opções incluem mecanismos de outras técnicas cromatográficas."
+    },
+    {
+        "id": "1678682",
+        "enunciado": "Qual das alternativas a seguir é correta sobre o uso da balança analítica em laboratório?",
+        "alternativas": {
+            "A": "É utilizada para medir volumes de líquidos com alta precisão.",
+            "B": "Ao usar uma balança analítica, a pesagem deve ser realizada com a porta aberta para facilitar a leitura.",
+            "C": "É capaz de medir massas com uma precisão de até quatro casas decimais, sendo ideal para análises quantitativas.",
+            "D": "A pesagem de sólidos higroscópicos pode ser feita diretamente na balança sem proteção.",
+            "E": "Sua calibração é desnecessária quando usada em condições normais de laboratório."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Balanças analíticas são projetadas para medir massas com alta precisão, geralmente até quatro casas decimais, sendo Cruciais para análises quantitativas que exigem exatidão. As outras opções descrevem usos incorretos ou práticas inadequadas para balanças analíticas."
+    },
+    {
+        "id": "1678683",
+        "enunciado": "A cromatografia é uma técnica amplamente utilizada para separar componentes de uma mistura. Qual das seguintes afirmativas descreve corretamente o princípio básico da cromatografia?",
+        "alternativas": {
+            "A": "Os componentes de uma mistura são separados com base em suas diferentes massas molares.",
+            "B": "A separação ocorre devido às diferentes velocidades de migração dos componentes de uma mistura entre as fases estacionária e móvel.",
+            "C": "A separação ocorre devido à reação química entre os componentes e a fase estacionária.",
+            "D": "A cromatografia só pode ser usada para separar compostos gasosos.",
+            "E": "A cromatografia depende exclusivamente do pH da mistura para separar os componentes."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A cromatografia separa compostos com base em suas diferentes afinidades com uma fase estacionaria e uma fase movel, fazendo com que migrem em velocidades distintas e, assim, se separem."
+    },
+    {
+        "id": "1287730",
+        "enunciado": "A análise qualitativa com emprego da escala semimicro apresenta diversas vantagens, como economia de reagentes, menor tempo de análise, aumento da eficiência de separação e racionalização e otimização do tempo e do espaço físico. Uma dessas técnicas é o teste de acidez e alcalinidade. Sobre esse teste, é correto afirmar que:",
+        "alternativas": {
+            "A": "O papel de tornassol não faz a leitura de meios ácidos.",
+            "B": "Prioritariamente, o papel indicador deve ser utilizado em tubo de ensaio.",
+            "C": "Deve-se gotejar o líquido sobre o papel indicador com auxílio de bastão de vidro.",
+            "D": "O líquido deve ser aquecido antes de ter o pH analisado em papel indicador.",
+            "E": "A formação de precipitado é um efeito negativo do uso do papel de tornassol ou indicador."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Ao utilizar papel indicador, o líquido deve ser cuidadosamente gotejado sobre ele com um bastão de vidro para evitar contaminação e garantir a precisão da leitura."
+    },
+    {
+        "id": "1678691",
+        "enunciado": "Durante a pesagem de uma amostra em uma balança analítica, o analista notou que correntes de ar no laboratório estavam causando flutuações nas leituras da balança. Esse tipo de erro é classificado como:",
+        "alternativas": {
+            "A": "Erro sistemático, pois ocorre devido ao equipamento descalibrado.",
+            "B": "Erro aleatório, causado por variações imprevisíveis no ambiente de medição.",
+            "C": "Erro de arredondamento, causado por casas decimais insuficientes nas medições.",
+            "D": "Erro sistemático, que pode ser corrigido ajustando o ambiente do laboratório.",
+            "E": "Erro grosseiro, devido à manipulação inadequada do equipamento."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Flutuacoes causadas por correntes de ar em uma balanca analitica sao imprevisiveis e variam independentemente do operator ou do equipamento, caracterizando um erro aleatorio. Um erro sistematico seria constante e previsivel."
+    },
+    {
+        "id": "1678696",
+        "enunciado": "Na análise química qualitativa, a principal finalidade é identificar a presença de certos íons ou compostos em uma amostra. Qual dos seguintes procedimentos pode ser utilizado para identificar íons metálicos em uma solução?",
+        "alternativas": {
+            "A": "Titulação ácido-base.",
+            "B": "Destilação simples.",
+            "C": "Teste de chama.",
+            "D": "Filtração a vácuo.",
+            "E": "Análise gravimétrica."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O teste de chama e um procedimento qualitativo onde amostras de sais metalicos sao expostas a uma chama, e a cor resultante da chama indica a presença de certos ions metalicos. Os outros procedimentos listados sao de natureza quantitativa ou de separacao."
+    },
+    {
+        "id": "2061935",
+        "enunciado": "A cromatografia com fase móvel líquida é uma técnica que tem se consolidado cada vez mais quanto a seu uso como ferramenta de análise principalmente para substâncias que apresentam baixa estabilidade térmica. Considere as afirmativas a seguir relacionadas à cromatografia com fase móvel líquida.",
+        "alternativas": {
+            "A": "Na cromatografia por adsorção, quanto mais forte for a interação entre a fase móvel e a fase estacionária, maior será a adsorção do soluto.",
+            "B": "O que se chama de série eluotrópica é a classificação dos solventes de acordo com sua capacidade de adsorção à fase estacionária.",
+            "C": "Compostos que são melhor separados por cromatografia de adsorção são solúveis em solventes orgânicos e não são iônicos.",
+            "D": "Detector por fotoionização e detector de luminescência são dispositivos para detecção de sinal do analito na cromatografia em fase líquida."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A série eluotrópica classifica os solventes pela sua força de eluição (capacidade de mover o soluto pela fase estacionária), que está relacionada à sua interação com essa fase."
+    },
+    {
+        "id": "2061941",
+        "enunciado": "Os erros sistemáticos podem ser determinados, indentificáveis e são da mesma ordem de grandeza para réplicas de medidas realizadas de maneira semelhante. Sobre esses tipos de erros, avalie as afirmativas abaixo.",
+        "alternativas": {
+            "A": "Afetam todos os dados de um conjunto de forma dispersa. Por essa razão, apresentam um sinal positivo.",
+            "B": "Podem ser de natureza instrumental, por razão de calibração ou condições de uso inadequados.",
+            "C": "Podem ser decorrentes de comportamento químico ou físico não ideal de sistemas analíticos e podem ser amenizados por tratamento estatístico.",
+            "D": "Podem ser devidos a treinamento insuficiente do analista em determinado procedimento que o induz à repetição."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Erros sistemáticos podem ter origem instrumental, devida a calibração inadequada ou mal uso do equipamento."
+    },
+    {
+        "id": "1214646",
+        "enunciado": "Cromatografia gasosa (CG) é uma técnica muito empregada em laboratórios de análises e pesquisas, pois, apresenta elevada eficiência na detecção de diversos compostos. Isso posto, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "Cromatografia gasosa não apresenta resultados satisfatórios na identificação de polímeros e oligômeros.",
+            "B": "A técnica não é indicada para amostras de elevada complexidade ou multicomponentes.",
+            "C": "A coluna cromatográfica deve ser selecionada de acordo com o perfil do analito e da amostra, tais como: polaridade, volatilidade, peso molecular e quantidade de analito na amostra.",
+            "D": "A técnica indica que seja injetado um grande volume de amostra de forma lenta.",
+            "E": "Para diminuição de custos operacionais, em análises rotineiras, faz-se desnecessária a utilização de gases de arraste de alto grau de pureza."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A escolha da coluna cromatográfica é crucial e depende das características do analito e da amostra, como polaridade e volatilidade. As demais alternativas apresentam informações incorretas sobre a técnica."
+    },
+    {
+        "id": "1214647",
+        "enunciado": "Um estudante de Química da FURB está desenvolvendo seu projeto de pesquisa para seu Trabalho de Conclusão de Curso (TCC), em que pretende confeccionar nanopartículas poliméricas carregadas com um fármaco. Para determinar a eficiência de encapsulação do sistema formado, é necessária a utilização de uma técnica analítica como cromatografia líquida de alta eficiência (HPLC). A respeito dessa técnica, afirma-se:",
+        "alternativas": {
+            "A": "I- Dois tipos de eluição são empregados: isocrática (um único solvente) e gradiente (mistura de dois solventes).",
+            "B": "II- As colunas mais utilizadas na separação de compostos orgânicos são do tipo fase reversa com base de sílica com grupos C 18 e C 8.",
+            "C": "III- A fase móvel utilizada em HPLC são solventes de alto grau de pureza, como acetonitrila, hexano, metanol, água, entre outros.",
+            "D": "É correto o que se afirma em:",
+            "E": "II e III, apenas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "As afirmativas I, II e III estão corretas. A eluição isocrática e gradiente são comuns em HPLC. Colunas de fase reversa C18 e C8 são amplamente usadas. Solventes de alta pureza são essenciais como fase móvel."
+    },
+    {
+        "id": "2100466",
+        "enunciado": "Três métodos analíticos, 1, 2 e 3, foram utilizados para determinação de Zn em uma amostra. Todos os métodos apresentaram o mesmo desvio padrão. Nos métodos 1 e 2 foram realizadas 6 replicadas, porém, o cálculo da incerteza foi feito para um nível de confiança de 95% no método 1 e de 99,5% no método 2. No método 3, foram realizadas 10 replicadas e a incerteza foi calculada para um nível de confiança de 95%. Comparando-se estes métodos, é correto afirmar que",
+        "alternativas": {
+            "A": "o método 2 é mais exato que os métodos 1 e 3.",
+            "B": "o método 3 apresenta uma incerteza menor que método 2.",
+            "C": "o método 2 apresenta uma incerteza menor que método 1.",
+            "D": "o método 3 apresenta uma incerteza maior que os métodos 1 e 2.",
+            "E": "o método 2 é mais preciso que o método 1."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O método 3, com mais replicatas e mesmo nível de confiança que o método 1, tende a apresentar uma incerteza menor. A comparação direta com método 2 não é conclusiva sem mais dados, mas o aumento de amostras geralmente reduz a incerteza."
+    },
+    {
+        "id": "1704273",
+        "enunciado": "Em uma das etapas para quantificar a salinidade dos fertilizantes, é comumente utilizado:",
+        "alternativas": {
+            "A": "Potenciômetro com eletrodo combinado.",
+            "B": "Microscopia eletrônica de varredura.",
+            "C": "Condutivímetro.",
+            "D": "Soluções de NaOH e KCl.",
+            "E": "Somente outro equipamento."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A salinidade dos fertilizantes é determinada pela condutividade elétrica da solução. O condutivímetro é o equipamento que mede essa propriedade, relacionando-a diretamente com a concentração de sais dissolvidos."
+    }
+]

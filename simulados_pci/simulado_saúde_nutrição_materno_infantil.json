@@ -1,0 +1,955 @@
+[
+    {
+        "id": "1729869",
+        "enunciado": "Um lactante de 4 meses, amamentado exclusivamente ao seio, apresenta sinais clínicos de anemia ferropriva. A conduta nutricional mais adequada para o manejo desse caso é:",
+        "alternativas": {
+            "A": "Introduzir papas de frutas ricas em ferro para corrigir a deficiência nutricional.",
+            "B": "Substituir a amamentação por fórmula infantil enriquecida com ferro para garantir adequada absorção do mineral.",
+            "C": "Introduzir alimentos fortificados com ferro antes dos 6 meses para compensar a baixa oferta nutricional.",
+            "D": "Manter o aleitamento materno exclusivo e iniciar suplementação profilática de ferro conforme diretrizes pediátricas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para anemia ferropriva em lactantes, o aleitamento materno exclusivo deve ser mantido, com suplementação de ferro conforme diretrizes, pois a dieta complementar só é indicada após 6 meses."
+    },
+    {
+        "id": "2071947",
+        "enunciado": "Ao atender uma gestante adolescente em uma escola, a nutricionista observou sinais de anemia. A avaliação apontou baixa ingestão de ferro e alimentos fontes de vitamina C. Qual orientação nutricional deve ser priorizada nesse caso, considerando a biodisponibilidade de nutrientes?",
+        "alternativas": {
+            "A": "Reforçar o consumo de leite e derivados nas refeições principais.",
+            "B": "Evitar o consumo de frutas para reduzir o açúcar da dieta.",
+            "C": "Estimular o consumo de alimentos ricos em ferro junto com fontes de vitamina C.",
+            "D": "Diminuir a ingestão de proteínas para equilibrar a absorção de ferro.",
+            "E": "Recomendar suplementação de cálcio para aumentar a absorção de ferro."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A vitamina C aumenta a absorção do ferro não-heme. Portanto, combinar alimentos ricos em ferro (carnes, leguminosas) com fontes de vitamina C (frutas cítricas, pimentão) na mesma refeição otimiza a absorção e combate a anemia."
+    },
+    {
+        "id": "2101900",
+        "enunciado": "A respeito das orientações nutricionais na gravidez, assinale a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "O aumento das necessidades energéticas e proteicas durante a gestação visa suprir as demandas do crescimento fetal, da placenta e das alterações fisiológicas maternas.",
+            "B": "O ácido fólico deve ser suplementado especialmente no primeiro trimestre, contribuindo para a prevenção de defeitos do tubo neural no feto.",
+            "C": "O controle do ganho de peso deve considerar o estado nutricional pré-gestacional da mulher, sendo mais restritivo em gestantes obesas e mais liberal em gestantes com baixo peso.",
+            "D": "A ingestão de alimentos crus, como frutas, verduras e carnes, é incentivada para garantir a oferta adequada de micronutrientes e evitar quadros de constipação intestinal."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A ingestão de alimentos crus não é incentivada de forma genérica, pois pode trazer riscos à saúde. O foco é o consumo de alimentos seguros e adequadamente preparados para garantir a ingestão de nutrientes."
+    },
+    {
+        "id": "1716224",
+        "enunciado": "O colostro é o primeiro leite produzido pelas glândulas mamárias, que é rico em anticorpos e proteínas. Ele é produzido:",
+        "alternativas": {
+            "A": "após o primeiro mês de amamentação",
+            "B": "nos primeiros dias após o parto e é fundamental para o desenvolvimento e imunidade do bebê",
+            "C": "no terceiro mês de gestação",
+            "D": "no quarto mês de gestação"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O colostro, rico em anticorpos essenciais para a imunidade do recém-nascido, é produzido nas primeiras mamadas após o parto."
+    },
+    {
+        "id": "1713770",
+        "enunciado": "No contexto da nutrição materno-infantil, a Organização Mundial da Saúde recomenda o aleitamento materno exclusivo até:",
+        "alternativas": {
+            "A": "Três meses de idade.",
+            "B": "Seis meses de idade.",
+            "C": "Nove meses de idade.",
+            "D": "Dois anos de idade, sem complementação alimentar."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A Organização Mundial da Saúde recomenda o aleitamento materno exclusivo até os seis meses de idade, para garantir o desenvolvimento adequado do bebê e prevenir doenças. Após esse período, a complementação alimentar é introduzida, mas o aleitamento pode continuar."
+    },
+    {
+        "id": "1925860",
+        "enunciado": "De acordo com o Guia alimentar para crianças brasileiras menores de 2 anos (Ministério da Saúde, 2019), em relação ao aleitamento materno, é correto afirmar que",
+        "alternativas": {
+            "A": "a ingestão de bebidas alcoólicas pela lactante, em quantidade máxima de 300 mL/dia, não é proibida, pois, nessa quantidade, não ocorre interferência na produção de leite.",
+            "B": "são poucas as condições em que se recomenda à mulher não amamentar, sendo permitido até que mães usuárias regulares de drogas ilícitas amamentem seus filhos enquanto estiverem fazendo uso dessas substâncias.",
+            "C": "a “descida do leite” ou apojadura pode demorar um pouco mais para acontecer para algumas mulheres, sendo associada a fatores como cesarianas eletivas, partos prematuros e obesidade materna.",
+            "D": "a presença de mamas com mamilo plano ou invertido impede a amamentação, sendo necessária a utilização de fórmulas infantis apropriadas.",
+            "E": "sinais como choro, não eliminação de fezes e irritabilidade do bebê são sugestivos de produção de pouco leite pela mãe, sendo recomendada a oferta de outros leites e alimentos à criança."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A apojadura, ou 'descida do leite', pode ser postergada em casos como cesariana eletiva, parto prematuro ou obesidade materna, conforme o Guia alimentar para crianças brasileiras menores de 2 anos."
+    },
+    {
+        "id": "1766899",
+        "enunciado": "A avaliação nutricional da gestante tem como objetivo analisar o estado nutricional da mulher durante a gravidez, identificando possíveis desvios no peso inicial (antes da gestação) e no ganho de peso ao longo da gestação. Sobre a avaliação nutricional da gestante, registre V, para verdadeiro, e F, para falso: (__ ) A avaliação nutricional da gestante deve incluir uma anamnese nutricional completa, com a análise antropométrica, bioquímica, clínica e alimentar, a fim de identificar o diagnóstico nutricional adequado. (__ ) O estado nutricional da mãe afeta diretamente no crescimento e desenvolvimento da criança, não apenas durante a gestação, mas também nos primeiros anos de vida. (__ ) O acompanhamento adequado do peso e da nutrição materna é essencial para o bem-estar da mãe e do bebê. Assinale a alternativa com a sequência CORRETA.",
+        "alternativas": {
+            "A": "V, V, V.",
+            "B": "F, F, V.",
+            "C": "F, V, F.",
+            "D": "V, F, F.",
+            "E": "F, F, F."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Todas as afirmativas estão corretas. A avaliação nutricional da gestante é abrangente (anamnese, antropometria, bioquímica, clínica, alimentar). O estado nutricional materno impacta o desenvolvimento fetal e infantil. O acompanhamento adequado é vital para mãe e bebê."
+    },
+    {
+        "id": "2087465",
+        "enunciado": "Nos primeiros dias de vida, o leite materno apresenta características específicas que atendem plenamente às necessidades do recém-nascido. Considerando essa afirmação, assinale a alternativa que corresponde corretamente o tipo de leite produzido nesse período.",
+        "alternativas": {
+            "A": "Leite maduro.",
+            "B": "Colostro.",
+            "C": "Leite definitivo.",
+            "D": "Leite de produção contínua."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O primeiro leite produzido pela mãe, nos primeiros dias após o parto, tem características especiais e é rico em nutrientes para o recém-nascido. Este leite é conhecido como colostro."
+    },
+    {
+        "id": "1858350",
+        "enunciado": "Analise as asserções abaixo e marque na sequência a alternativa correspondente. I – O aleitamento materno não deve ser incentivado e apoiado pelo nutricionista, porque ele apresenta poucos benefícios em comparação com os danos causados à mãe e ao bebê. II – Além dos benefícios para o bebê, o aleitamento materno promove a saúde materna, pois diminui o risco de desenvolvimento de câncer de mama e de ovário.",
+        "alternativas": {
+            "A": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+            "B": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+            "C": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+            "D": "As asserções I e II são proposições verdadeiras, e a II não é uma justificativa da I.",
+            "E": "As asserções I e II são proposições falsas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A asserção I é falsa; o aleitamento materno é altamente recomendado e benéfico. A asserção II é verdadeira, pois o aleitamento materno comprovadamente reduz riscos de certos cânceres em mulheres."
+    },
+    {
+        "id": "1732144",
+        "enunciado": "Sobre os distúrbios nutricionais na infância e adolescência, analise as afirmativas.I. A obesidade infantil está relacionada, apenas, ao consumo excessivo de calorias, não tendo influência de fatores genéticos ou comportamentais.II. A deficiência de ferro é a principal causa de anemia em crianças, podendo levar a prejuízos no desenvolvimento cognitivo e motor.III. A desnutrição energética-proteica grave inclui quadros como o Marasmo e o Kwashiorkor.IV. O excesso de consumo de alimentos ultraprocessados pode ser um dos fatores para o aumento de doenças crônicas.Marque a opção que apresenta as afirmativas CORRETAS.",
+        "alternativas": {
+            "A": "I – II.",
+            "B": "II – III.",
+            "C": "II – III – IV.",
+            "D": "I – III – IV.",
+            "E": "I – II – III – IV."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa I está incorreta, pois a obesidade infantil é multifatorial, incluindo fatores genéticos e comportamentais. A afirmativa II está correta, pois a deficiência de ferro é a principal causa de anemia em crianças e afeta o desenvolvimento. A afirmativa III está correta, pois Marasmo e Kwashiorkor são formas de desnutrição energético-proteica grave. A afirmativa IV está correta, pois o consumo excessivo de ultraprocessados está associado a doenças crônicas. Logo, II, III e IV estão corretas."
+    },
+    {
+        "id": "1577066",
+        "enunciado": "Considerando a nutrição adequada às gestantes e nas condições patológicas inerentes ao estado gravídico, marque a afirmativa correta.",
+        "alternativas": {
+            "A": "Na pré-eclâmpsia, a prescrição da dieta deve ser normossódica; a restrição de sal é justificada quando é necessário redução de volume intravascular.",
+            "B": "Pode-se instituir a ceia (ou lanche noturno) com 50 g de carboidratos, excluindo-se lipídios e proteínas para a prevenção de hipoglicemia nas mulheres com diabetes mellitus gestacional que necessitam de insulina.",
+            "C": "Para uma gestante com IMC adequado para idade gestacional, não há necessidade de um acréscimo de calorias durante a gestação.",
+            "D": "Alguns vegetais, como repolho, brócolis e couve-manteiga pioram os sintomas na hiperemese gravídica."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Na pré-eclâmpsia, a dieta normossódica é recomendada. A restrição de sal é usada para reduzir o volume intravascular em casos de edema, não como regra geral."
+    },
+    {
+        "id": "1265325",
+        "enunciado": "A composição do leite materno varia ao longo do período de lactação e ao longo do dia. Diante disso, assinale a alternativa que corresponde ao leite produzido nos primeiros dias de vida do recém-nascido:",
+        "alternativas": {
+            "A": "Leite complementar.",
+            "B": "Leite de transição.",
+            "C": "Colostro.",
+            "D": "Leite maduro."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O colostro é o leite produzido nos primeiros dias após o parto. É rico em proteínas, anticorpos e outros nutrientes essenciais para o recém-nascido, protegendo-o e auxiliando no desenvolvimento."
+    },
+    {
+        "id": "1176823",
+        "enunciado": "Acerca do aleitamento materno, julgue as frases abaixo.\n\nI. O leite materno é uma composição dinâmica que se adapta às necessidades do bebê em diferentes fases do crescimento, proporcionando imunidade, prevenindo doenças e promovendo um desenvolvimento cognitivo saudável.\nII. O leite materno contém anticorpos, proteínas, gorduras, vitaminas e minerais, ajustando-se precisamente para atender às demandas específicas de cada criança.\nIII. Além dos benefícios físicos, o ato de amamentar estabelece um vínculo emocional profundo entre a mãe e o bebê, pois o contato pela pele, o olhar amoroso e o toque suave durante a amamentação contribuem para a construção de uma relação afetiva sólida.\n\nEstá(ão) correta(s) a(s) seguinte(s) proposição(ões).",
+        "alternativas": {
+            "A": "I, II e III.",
+            "B": "Apenas, II.",
+            "C": "Apenas, II e III.",
+            "D": "Apenas, I e III.",
+            "E": "Apenas, III."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A é a correta. Todas as proposições descrevem com precisão os benefícios do aleitamento materno, tanto em termos nutricionais e imunológicos quanto no desenvolvimento do vínculo afetivo entre mãe e bebê."
+    },
+    {
+        "id": "1577070",
+        "enunciado": "A respeito da alimentação do lactente, identifique o alimento que poderá ser oferecido a partir dos 6 meses de idade.",
+        "alternativas": {
+            "A": "Café, chá-mate.",
+            "B": "Chás de camomila, erva cidreira e hortelã, sem adição de açúcar ou adoçante.",
+            "C": "Iogurtes com mel e tipo petit suisse.",
+            "D": "Queijos tipo cheddar e fundido."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Após os 6 meses, a introdução alimentar deve ser gradual e cautelosa. Bebidas como chás de ervas sem açúcar ou adoçantes (como camomila, erva cidreira, hortelã) são consideradas seguras e apropriadas para oferta, auxiliando na hidratação. Café, chás fortes, iogurtes com mel e queijos processados são desaconselhados nesta fase."
+    },
+    {
+        "id": "1226874",
+        "enunciado": "Atualmente, existem evidências robustas de que o melhor leite para o recém-nascido pré-termo é o leite de sua mãe. Nos últimos anos, o foco dos estudos sobre nutrição e leite materno tem se concentrado em seu papel na imunologia, por meio da microbiota (microbioma). Neste contexto, com relação ao leite materno, é INCORRETO afirmar que:",
+        "alternativas": {
+            "A": "seus componentes variam de acordo com a idade gestacional.",
+            "B": "o leite da mãe de bebês prematuros apresenta uma concentração maior de imunoglobulinas, lactoferrina, lisozima e anticorpos contra patógenos nosocomiais, em comparação com o leite de mães de bebês a termo.",
+            "C": "promove o desenvolvimento de um microbioma saudável no trato gastrointestinal do recém-nascido.",
+            "D": "o contato pele a pele durante a posição canguru e a amamentação promovem a colonização intestinal do bebê com uma microbiota saudável da mãe, além de potencializar a produção de imunoglobulinas e anticorpos específicos contra patógenos hospitalares no leite materno.",
+            "E": "é contraindicado para a minimização da dor do RN durante procedimentos técnicos como a punção de calcanhar, por exemplo."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O leite materno, inclusive o de mães de prematuros, é benéfico para minimizar a dor em procedimentos, não sendo contraindicado. As demais afirmativas descrevem corretamente as propriedades e benefícios do leite materno."
+    },
+    {
+        "id": "1870368",
+        "enunciado": "Assinale a alternativa que indica corretamente o objetivo de suplementar ácido fólico durante a gestação:",
+        "alternativas": {
+            "A": "Reduz o risco de hipertensão gestacional.",
+            "B": "Previne malformações no tubo neural do bebê.",
+            "C": "Diminui as chances de ganho de peso excessivo na gestação.",
+            "D": "Aumenta a imunidade do bebê após o nascimento.",
+            "E": "Ajuda no controle do diabetes gestacional."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A suplementação de ácido fólico na gestação é essencial para prevenir defeitos do tubo neural, como espinha bífida e anencefalia, garantindo o desenvolvimento adequado do sistema nervoso central do feto."
+    },
+    {
+        "id": "1593387",
+        "enunciado": "O banco de leite humano consiste em um centro especializado vinculado a um hospital materno e/ou infantil, responsável pela promoção do aleitamento materno e atividade de coleta, processamento e controle de qualidade do colostro, leite de transição e leite humano maduro para distribuição. O leite humano ordenhado cru coletado e aprovado pelo banco de leite humano deve ser pasteurizado em quais condições de temperatura e tempo?",
+        "alternativas": {
+            "A": "600°C por 40 min.",
+            "B": "750°C por 20 min.",
+            "C": "48,50 °C por 35 min.",
+            "D": "550°C por 25 min.",
+            "E": "62,50 °C por 30 min."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A pasteurização adequada do leite humano cru para bancos de leite é realizada a 62,50°C por 30 minutos, garantindo a segurança sem perder suas propriedades."
+    },
+    {
+        "id": "1115257",
+        "enunciado": "A partir do sexto mês a produção de leite materno pela mãe passa a não pr eencher de forma adequada as necessidades de nutrientes do lactente, especialmente de ferro, tornando necessário a introdução da alimentação complementar. Sobre o assunto, marque a afirmativa INCORRETA em relação a criança em aleitamento materno exclusivo.",
+        "alternativas": {
+            "A": "O início da introdução alimentar deve ser paulatino, uma refeição por vez, para observar possíveis reações e permitir a adaptação da criança. Uma nova refeição poderá ser introduzida 4 a 7 dias após uma outra ter sido implementada.",
+            "B": "Inicialmente, as papas  devem ser oferecidas após terem sido passadas por uma peneira fina, a partir dos 8 meses de vida, os alimentos podem ser oferecidos amassados com garfo e aos 12 meses em pequenos pedaços e bem cozidos.",
+            "C": "O leite materno ou fórmula não poderá continuar send o oferecido após todas as refeições.",
+            "D": "Quando a criança completa 6 meses faz -se necessário introduzir o suco de frutas cítricas, entre a primeira e a segunda refeição (mamada), o volume não deve ultrapassar 100 ml."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está incorreta pois o leite materno ou fórmula não deve ser substituído, mas sim complementado, devendo continuar sendo oferecido em quantidades adequadas após as refeições complementares. As demais alternativas descrevem práticas corretas para a introdução alimentar."
+    },
+    {
+        "id": "1064136",
+        "enunciado": "Sobre os tipos de aleitamento materno, assinale o que for correto.",
+        "alternativas": {
+            "A": "O aleitamento materno exclusivo ocorre quando a criança recebe somente leite materno, direto da mama ou ordenhado, ou leite humano de outra fonte, sem outros líquidos ou sólidos.",
+            "B": "No aleitamento materno complementado, a criança recebe, além do leite materno, água ou bebidas à base de água (água adocicada, chás, infusões) e sucos de frutas.",
+            "C": "Quando a criança recebe, além do leite materno, outros tipos de leite, o aleitamento materno é dito predominante.",
+            "D": "O aleitamento materno misto ou parcial é quando a criança recebe, além do leite materno, alimentos complementares, definidos como qualquer alimento sólido ou semissólido."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A define corretamente o aleitamento materno exclusivo. A B está incorreta, pois o aleitamento complementado inclui outros líquidos e sólidos. A C está incorreta, pois a criança que recebe outros tipos de leite com o materno é aleitamento misto. A D está incorreta, pois alimentos complementares definem aleitamento complementar e não misto."
+    },
+    {
+        "id": "1270830",
+        "enunciado": "A recomendação nutricional de alguns nutrientes pode se encontrar aumentada durante a gravidez. Um desses nutrientes é o folato, essencial para a formação do tubo neural do feto. Assinale a alternativa que corresponde à RDA (Recommended Dietary Allowance) de gestantes entre 19 a 30 anos:",
+        "alternativas": {
+            "A": "400 mcg/d.",
+            "B": "1.000 mcg/d.",
+            "C": "600 mcg/d.",
+            "D": "500 mcg/d.",
+            "E": "520 mcg/d."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A RDA (Recommended Dietary Allowance) para folato em gestantes entre 19 a 30 anos é de 600 mcg/dia. As outras opções representam valores de outros nutrientes ou faixas etárias, ou ainda a EAR."
+    },
+    {
+        "id": "1160874",
+        "enunciado": "Alguns dos fatores de proteção do leite materno são total ou parcialmente inativados pelo calor, razão pela qual o leite humano pasteurizado não tem o mesmo valor biológico que o leite cru. Um desse fatores que não sofre alteração pelo efeito do calor, é(são):",
+        "alternativas": {
+            "A": "as citoquinas.",
+            "B": "a Lactoperoxidase.",
+            "C": "a Lipase.",
+            "D": "a Lactoferrina.",
+            "E": "o IgM e IgG."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Lactoferrina, um fator de proteção do leite materno, mantém sua atividade mesmo após a pasteurização, ao contrário de outros componentes como citocinas e enzimas."
+    },
+    {
+        "id": "1502597",
+        "enunciado": "Sobre a composição do leite materno, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "O carboidrato que existe em maior quantidade é a frutose.",
+            "B": "40% do leite materno é composto por água.",
+            "C": "Ácidos graxos de cadeia longa não estão presentes no leite materno.",
+            "D": "Proporcionalmente, o leite materno é composto por mais caseína e menos proteínas do soro quando comparado com o leite de vaca.",
+            "E": "O crescimento de uma microbiota intestinal adequada é propiciado por meio do fator bifidogênico."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O fator bifidogênico, como a presença de oligossacarídeos, no leite materno estimula o crescimento de bactérias benéficas na flora intestinal do bebê, como as Bifidobactérias."
+    },
+    {
+        "id": "1040676",
+        "enunciado": "Por que o aleitamento materno é fortemente recomendado nos primeiros meses de vida de um bebê?",
+        "alternativas": {
+            "A": "O aleitamento materno é relevante apenas para o conforto emocional da mãe.",
+            "B": "Fornece nutrientes essenciais e fortalece o sistema imunológico do bebê.",
+            "C": "É uma prática necessária apenas por razões culturais.",
+            "D": "O leite materno deve ser substituído por fórmulas assim que possível."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O aleitamento materno fornece nutrientes essenciais para o desenvolvimento do bebe e anticorpos que fortalecem seu sistema imunologico, protegendo-o contra infeccoes."
+    },
+    {
+        "id": "1891694",
+        "enunciado": "O ganho de peso ao longo da gestação sofre variações, dependendo do estado nutricional inicial da gestante, trimestre de gestação e alterações hormonais. Com base nas novas recomendações de ganho de peso do Ministério da Saúde (2023), uma gestante classificada como baixo peso no período pré-gestacional (IMC < 18,5kg/m2) poderá ganhar em torno de",
+        "alternativas": {
+            "A": "7,2 – 9kg.",
+            "B": "8 – 12,7kg.",
+            "C": "15- 17,3kg.",
+            "D": "9,7 – 12,2kg.",
+            "E": "12,5 - 16kg."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As novas recomendações do Ministério da Saúde (2023) para gestantes com baixo peso pré-gestacional (IMC < 18,5kg/m²) indicam um ganho de peso total entre 8 e 12,7kg."
+    },
+    {
+        "id": "1891699",
+        "enunciado": "A amamentação envolve uma série de fatores relacionados à mãe e ao recém-nascido, e o sucesso dessa prática depende do conhecimento de seu manejo. Problemas comuns associados à amamentação, como a presença de fissura e trauma dos mamilos, estão associadas ao desmame precoce. Esses problemas estão, muitas vezes, relacionados a(à)",
+        "alternativas": {
+            "A": "Mamilos invertidos.",
+            "B": "Pega incorreta do bebê.",
+            "C": "Implante mamário.",
+            "D": "Ingurgitamento mamário.",
+            "E": "amamentação de gêmeos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Fissuras e traumas nos mamilos, que levam ao desmame precoce, são frequentemente causados pela pega incorreta do bebê, uma vez que a boca do bebê não abrange a aréola de forma adequada, gerando dor e lesões na mãe."
+    },
+    {
+        "id": "1891705",
+        "enunciado": "De acordo com as recomendações nutricionais propostas pelo Institute of Medicine, IOM, para o cálculo das necessidades energéticas da gestante, é necessário acrescentar aos valores de necessidade estimada de energia (EER) para mulheres não grávidas um adicional de energia para o segundo e para o terceiro trimestre de gestação. Esses valores correspondem a",
+        "alternativas": {
+            "A": "340 kcal para o segundo trimestre e 452kcal para o terceiro trimestre.",
+            "B": "250 kcal para o segundo trimestre e 630kcal para o terceiro trimestre.",
+            "C": "450 kcal para o segundo trimestre e 700kcal para o terceiro trimestre.",
+            "D": "150 kcal para o segundo trimestre e 356kcal para o terceiro trimestre.",
+            "E": "200 kcal para o segundo trimestre e 410kcal para o terceiro trimestre."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As recomendações do Institute of Medicine (IOM) para gestantes incluem um acréscimo de 340 kcal no segundo trimestre e 452 kcal no terceiro trimestre nas necessidades energéticas estimadas (EER) para mulheres não grávidas."
+    },
+    {
+        "id": "1891707",
+        "enunciado": "A anemia ferropriva é um dos mais graves problemas nutricionais mundiais em termos de prevalência. No Brasil, a prevalência de anemia é maior entre as crianças na faixa etária de 6 a 23 meses (19,0%), de acordo com os dados do Estudo Nacional de Alimentação e Nutrição Infantil (Enani -2019). Entre as principais causas da anemia ferropriva nessa faixa etária, podemos destacar",
+        "alternativas": {
+            "A": "introdução tardia da alimentação complementar.",
+            "B": "uso de fórmulas infantis fortificadas e bicos artificiais.",
+            "C": "consumo elevado de alimentos ricos em ferro heme.",
+            "D": "consumo elevado de vegetais e frutas ricos em ácidos cítrico e málico.",
+            "E": "crianças, filhos de mães que desenvolveram diabetes gestacional."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A introdução tardia da alimentação complementar leva a uma deficiência na oferta de ferro, um nutriente essencial que deve ser fornecido a partir dos 6 meses, quando as reservas do bebê começam a diminuir. Nas demais alternativas, os fatores apresentados não são causas primárias ou indicam o oposto."
+    },
+    {
+        "id": "1891708",
+        "enunciado": "A Estratégia de Prevenção e Atenção à Obesidade Infantil (PROTEJA) tem como objetivo deter o avanço da obesidade infantil e contribuir para a melhoria da saúde e da nutrição das crianças brasileiras. Entre as Estratégias efetivas para prevenção e reversão do cenário de obesidade infantil do PROTEJA, está(ão)",
+        "alternativas": {
+            "A": "Ações na atenção terciária à saúde.",
+            "B": "Promoção da saúde nos parques.",
+            "C": "Promoção de saúde nas escolas.",
+            "D": "Ambientes alimentares dinâmicos e coloridos.",
+            "E": "Campanhas com propagandas de produtos infantis."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C é a mais adequada. Promoção de saúde nas escolas é uma estratégia chave para a prevenção e controle da obesidade infantil, permitindo o alcance de um grande número de crianças e a implementação de ações educativas e de mudança de hábitos."
+    },
+    {
+        "id": "1088723",
+        "enunciado": "Em relação às adaptações no metabolismo dos macronutrientes na gestação é CORRETO afirmar que",
+        "alternativas": {
+            "A": "a sensibilidade à insulina fica prejudicada e os níveis de glicemia aumentam logo no primeiro trimestre, ficando mais acessíveis ao feto.",
+            "B": "ocorre leve hipoglicemia em jejum, hiperglicemia pós-prandial e hiperinsulinemia.",
+            "C": "os níveis de triglicerídeos reduzem e o colesterol triplica.",
+            "D": "os níveis de aminoácidos no sangue duplicam.",
+            "E": "a insulina inibe a síntese proteica."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Durante a gestação, observa-se uma tendência a leve hipoglicemia em jejum devido à maior captação de glicose pela placenta, seguida por hiperglicemia pós-prandial e uma resposta compensatória de hiperinsulinemia para manejar os níveis de glicose."
+    },
+    {
+        "id": "1210375",
+        "enunciado": "Uma gestante de 24 anos de Garuva (SC) foi atendida pelo nutricionista da atenção básica e sua primeira consulta foi na 10ª semana de gestação. De acordo com seu IMC, a gestante apresentava peso adequado, mas sua alimentação era pobre em frutas, verduras, carnes e derivados, pois relatava não conseguir comprar esses alimentos, dada sua situação socioeconômica. Ela é beneficiária do Programa Bolsa Família e este seria seu terceiro filho. Dentre as queixas relatadas, a gestante dizia sentir náuseas. Qual seria a conduta nutricional mais adequada dentre as listadas a seguir.",
+        "alternativas": {
+            "A": "Adaptar a sua alimentação de acordo com suas condições socioeconômicas, oferecer suplementação de nutrientes necessários e realizar orientações relativas ao alívio das náuseas.",
+            "B": "Encaminhá-la à assistência social e realizar acompanhamentos de rotina, verificando seu ganho de peso.",
+            "C": "Realizar um plano alimentar com suplementação de ferro e vitamina A e orientá-la sobre os auxílios oferecidos pelo município para famílias carentes.",
+            "D": "Acompanhar a gestante, moldando seu plano alimentar à sua realidade, e sugerir chás que diminuam o desconforto das náuseas.",
+            "E": "Oferecer suplementação de ferro, folato e vitamina A e realizar refeições pequenas e com mais frequência."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A é a mais completa, pois aborda a adaptação da dieta à realidade socioeconômica, a suplementação necessária e orientações para as náuseas, lidando com as múltiplas necessidades da gestante."
+    },
+    {
+        "id": "1729869",
+        "enunciado": "Um lactante de 4 meses, amamentado exclusivamente ao seio, apresenta sinais clínicos de anemia ferropriva. A conduta nutricional mais adequada para o manejo desse caso é:",
+        "alternativas": {
+            "A": "Introduzir papas de frutas ricas em ferro para corrigir a deficiência nutricional.",
+            "B": "Substituir a amamentação por fórmula infantil enriquecida com ferro para garantir adequada absorção do mineral.",
+            "C": "Introduzir alimentos fortificados com ferro antes dos 6 meses para compensar a baixa oferta nutricional.",
+            "D": "Manter o aleitamento materno exclusivo e iniciar suplementação profilática de ferro conforme diretrizes pediátricas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para anemia ferropriva em lactantes, o aleitamento materno exclusivo deve ser mantido, com suplementação de ferro conforme diretrizes, pois a dieta complementar só é indicada após 6 meses."
+    },
+    {
+        "id": "2071947",
+        "enunciado": "Ao atender uma gestante adolescente em uma escola, a nutricionista observou sinais de anemia. A avaliação apontou baixa ingestão de ferro e alimentos fontes de vitamina C. Qual orientação nutricional deve ser priorizada nesse caso, considerando a biodisponibilidade de nutrientes?",
+        "alternativas": {
+            "A": "Reforçar o consumo de leite e derivados nas refeições principais.",
+            "B": "Evitar o consumo de frutas para reduzir o açúcar da dieta.",
+            "C": "Estimular o consumo de alimentos ricos em ferro junto com fontes de vitamina C.",
+            "D": "Diminuir a ingestão de proteínas para equilibrar a absorção de ferro.",
+            "E": "Recomendar suplementação de cálcio para aumentar a absorção de ferro."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A vitamina C aumenta a absorção do ferro não-heme. Portanto, combinar alimentos ricos em ferro (carnes, leguminosas) com fontes de vitamina C (frutas cítricas, pimentão) na mesma refeição otimiza a absorção e combate a anemia."
+    },
+    {
+        "id": "2101900",
+        "enunciado": "A respeito das orientações nutricionais na gravidez, assinale a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "O aumento das necessidades energéticas e proteicas durante a gestação visa suprir as demandas do crescimento fetal, da placenta e das alterações fisiológicas maternas.",
+            "B": "O ácido fólico deve ser suplementado especialmente no primeiro trimestre, contribuindo para a prevenção de defeitos do tubo neural no feto.",
+            "C": "O controle do ganho de peso deve considerar o estado nutricional pré-gestacional da mulher, sendo mais restritivo em gestantes obesas e mais liberal em gestantes com baixo peso.",
+            "D": "A ingestão de alimentos crus, como frutas, verduras e carnes, é incentivada para garantir a oferta adequada de micronutrientes e evitar quadros de constipação intestinal."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A ingestão de alimentos crus não é incentivada de forma genérica, pois pode trazer riscos à saúde. O foco é o consumo de alimentos seguros e adequadamente preparados para garantir a ingestão de nutrientes."
+    },
+    {
+        "id": "1716224",
+        "enunciado": "O colostro é o primeiro leite produzido pelas glândulas mamárias, que é rico em anticorpos e proteínas. Ele é produzido:",
+        "alternativas": {
+            "A": "após o primeiro mês de amamentação",
+            "B": "nos primeiros dias após o parto e é fundamental para o desenvolvimento e imunidade do bebê",
+            "C": "no terceiro mês de gestação",
+            "D": "no quarto mês de gestação"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O colostro, rico em anticorpos essenciais para a imunidade do recém-nascido, é produzido nas primeiras mamadas após o parto."
+    },
+    {
+        "id": "1713770",
+        "enunciado": "No contexto da nutrição materno-infantil, a Organização Mundial da Saúde recomenda o aleitamento materno exclusivo até:",
+        "alternativas": {
+            "A": "Três meses de idade.",
+            "B": "Seis meses de idade.",
+            "C": "Nove meses de idade.",
+            "D": "Dois anos de idade, sem complementação alimentar."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A Organização Mundial da Saúde recomenda o aleitamento materno exclusivo até os seis meses de idade, para garantir o desenvolvimento adequado do bebê e prevenir doenças. Após esse período, a complementação alimentar é introduzida, mas o aleitamento pode continuar."
+    },
+    {
+        "id": "1925860",
+        "enunciado": "De acordo com o Guia alimentar para crianças brasileiras menores de 2 anos (Ministério da Saúde, 2019), em relação ao aleitamento materno, é correto afirmar que",
+        "alternativas": {
+            "A": "a ingestão de bebidas alcoólicas pela lactante, em quantidade máxima de 300 mL/dia, não é proibida, pois, nessa quantidade, não ocorre interferência na produção de leite.",
+            "B": "são poucas as condições em que se recomenda à mulher não amamentar, sendo permitido até que mães usuárias regulares de drogas ilícitas amamentem seus filhos enquanto estiverem fazendo uso dessas substâncias.",
+            "C": "a “descida do leite” ou apojadura pode demorar um pouco mais para acontecer para algumas mulheres, sendo associada a fatores como cesarianas eletivas, partos prematuros e obesidade materna.",
+            "D": "a presença de mamas com mamilo plano ou invertido impede a amamentação, sendo necessária a utilização de fórmulas infantis apropriadas.",
+            "E": "sinais como choro, não eliminação de fezes e irritabilidade do bebê são sugestivos de produção de pouco leite pela mãe, sendo recomendada a oferta de outros leites e alimentos à criança."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A apojadura, ou 'descida do leite', pode ser postergada em casos como cesariana eletiva, parto prematuro ou obesidade materna, conforme o Guia alimentar para crianças brasileiras menores de 2 anos."
+    },
+    {
+        "id": "1766899",
+        "enunciado": "A avaliação nutricional da gestante tem como objetivo analisar o estado nutricional da mulher durante a gravidez, identificando possíveis desvios no peso inicial (antes da gestação) e no ganho de peso ao longo da gestação. Sobre a avaliação nutricional da gestante, registre V, para verdadeiro, e F, para falso: (__ ) A avaliação nutricional da gestante deve incluir uma anamnese nutricional completa, com a análise antropométrica, bioquímica, clínica e alimentar, a fim de identificar o diagnóstico nutricional adequado. (__ ) O estado nutricional da mãe afeta diretamente no crescimento e desenvolvimento da criança, não apenas durante a gestação, mas também nos primeiros anos de vida. (__ ) O acompanhamento adequado do peso e da nutrição materna é essencial para o bem-estar da mãe e do bebê. Assinale a alternativa com a sequência CORRETA.",
+        "alternativas": {
+            "A": "V, V, V.",
+            "B": "F, F, V.",
+            "C": "F, V, F.",
+            "D": "V, F, F.",
+            "E": "F, F, F."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Todas as afirmativas estão corretas. A avaliação nutricional da gestante é abrangente (anamnese, antropometria, bioquímica, clínica, alimentar). O estado nutricional materno impacta o desenvolvimento fetal e infantil. O acompanhamento adequado é vital para mãe e bebê."
+    },
+    {
+        "id": "2087465",
+        "enunciado": "Nos primeiros dias de vida, o leite materno apresenta características específicas que atendem plenamente às necessidades do recém-nascido. Considerando essa afirmação, assinale a alternativa que corresponde corretamente o tipo de leite produzido nesse período.",
+        "alternativas": {
+            "A": "Leite maduro.",
+            "B": "Colostro.",
+            "C": "Leite definitivo.",
+            "D": "Leite de produção contínua."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O primeiro leite produzido pela mãe, nos primeiros dias após o parto, tem características especiais e é rico em nutrientes para o recém-nascido. Este leite é conhecido como colostro."
+    },
+    {
+        "id": "1858350",
+        "enunciado": "Analise as asserções abaixo e marque na sequência a alternativa correspondente. I – O aleitamento materno não deve ser incentivado e apoiado pelo nutricionista, porque ele apresenta poucos benefícios em comparação com os danos causados à mãe e ao bebê. II – Além dos benefícios para o bebê, o aleitamento materno promove a saúde materna, pois diminui o risco de desenvolvimento de câncer de mama e de ovário.",
+        "alternativas": {
+            "A": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+            "B": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+            "C": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+            "D": "As asserções I e II são proposições verdadeiras, e a II não é uma justificativa da I.",
+            "E": "As asserções I e II são proposições falsas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A asserção I é falsa; o aleitamento materno é altamente recomendado e benéfico. A asserção II é verdadeira, pois o aleitamento materno comprovadamente reduz riscos de certos cânceres em mulheres."
+    },
+    {
+        "id": "1732144",
+        "enunciado": "Sobre os distúrbios nutricionais na infância e adolescência, analise as afirmativas.I. A obesidade infantil está relacionada, apenas, ao consumo excessivo de calorias, não tendo influência de fatores genéticos ou comportamentais.II. A deficiência de ferro é a principal causa de anemia em crianças, podendo levar a prejuízos no desenvolvimento cognitivo e motor.III. A desnutrição energética-proteica grave inclui quadros como o Marasmo e o Kwashiorkor.IV. O excesso de consumo de alimentos ultraprocessados pode ser um dos fatores para o aumento de doenças crônicas.Marque a opção que apresenta as afirmativas CORRETAS.",
+        "alternativas": {
+            "A": "I – II.",
+            "B": "II – III.",
+            "C": "II – III – IV.",
+            "D": "I – III – IV.",
+            "E": "I – II – III – IV."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa I está incorreta, pois a obesidade infantil é multifatorial, incluindo fatores genéticos e comportamentais. A afirmativa II está correta, pois a deficiência de ferro é a principal causa de anemia em crianças e afeta o desenvolvimento. A afirmativa III está correta, pois Marasmo e Kwashiorkor são formas de desnutrição energético-proteica grave. A afirmativa IV está correta, pois o consumo excessivo de ultraprocessados está associado a doenças crônicas. Logo, II, III e IV estão corretas."
+    },
+    {
+        "id": "1577066",
+        "enunciado": "Considerando a nutrição adequada às gestantes e nas condições patológicas inerentes ao estado gravídico, marque a afirmativa correta.",
+        "alternativas": {
+            "A": "Na pré-eclâmpsia, a prescrição da dieta deve ser normossódica; a restrição de sal é justificada quando é necessário redução de volume intravascular.",
+            "B": "Pode-se instituir a ceia (ou lanche noturno) com 50 g de carboidratos, excluindo-se lipídios e proteínas para a prevenção de hipoglicemia nas mulheres com diabetes mellitus gestacional que necessitam de insulina.",
+            "C": "Para uma gestante com IMC adequado para idade gestacional, não há necessidade de um acréscimo de calorias durante a gestação.",
+            "D": "Alguns vegetais, como repolho, brócolis e couve-manteiga pioram os sintomas na hiperemese gravídica."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Na pré-eclâmpsia, a dieta normossódica é recomendada. A restrição de sal é usada para reduzir o volume intravascular em casos de edema, não como regra geral."
+    },
+    {
+        "id": "1265325",
+        "enunciado": "A composição do leite materno varia ao longo do período de lactação e ao longo do dia. Diante disso, assinale a alternativa que corresponde ao leite produzido nos primeiros dias de vida do recém-nascido:",
+        "alternativas": {
+            "A": "Leite complementar.",
+            "B": "Leite de transição.",
+            "C": "Colostro.",
+            "D": "Leite maduro."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O colostro é o leite produzido nos primeiros dias após o parto. É rico em proteínas, anticorpos e outros nutrientes essenciais para o recém-nascido, protegendo-o e auxiliando no desenvolvimento."
+    },
+    {
+        "id": "1176823",
+        "enunciado": "Acerca do aleitamento materno, julgue as frases abaixo.\n\nI. O leite materno é uma composição dinâmica que se adapta às necessidades do bebê em diferentes fases do crescimento, proporcionando imunidade, prevenindo doenças e promovendo um desenvolvimento cognitivo saudável.\nII. O leite materno contém anticorpos, proteínas, gorduras, vitaminas e minerais, ajustando-se precisamente para atender às demandas específicas de cada criança.\nIII. Além dos benefícios físicos, o ato de amamentar estabelece um vínculo emocional profundo entre a mãe e o bebê, pois o contato pela pele, o olhar amoroso e o toque suave durante a amamentação contribuem para a construção de uma relação afetiva sólida.\n\nEstá(ão) correta(s) a(s) seguinte(s) proposição(ões).",
+        "alternativas": {
+            "A": "I, II e III.",
+            "B": "Apenas, II.",
+            "C": "Apenas, II e III.",
+            "D": "Apenas, I e III.",
+            "E": "Apenas, III."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A é a correta. Todas as proposições descrevem com precisão os benefícios do aleitamento materno, tanto em termos nutricionais e imunológicos quanto no desenvolvimento do vínculo afetivo entre mãe e bebê."
+    },
+    {
+        "id": "1577070",
+        "enunciado": "A respeito da alimentação do lactente, identifique o alimento que poderá ser oferecido a partir dos 6 meses de idade.",
+        "alternativas": {
+            "A": "Café, chá-mate.",
+            "B": "Chás de camomila, erva cidreira e hortelã, sem adição de açúcar ou adoçante.",
+            "C": "Iogurtes com mel e tipo petit suisse.",
+            "D": "Queijos tipo cheddar e fundido."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Após os 6 meses, a introdução alimentar deve ser gradual e cautelosa. Bebidas como chás de ervas sem açúcar ou adoçantes (como camomila, erva cidreira, hortelã) são consideradas seguras e apropriadas para oferta, auxiliando na hidratação. Café, chás fortes, iogurtes com mel e queijos processados são desaconselhados nesta fase."
+    },
+    {
+        "id": "1226874",
+        "enunciado": "Atualmente, existem evidências robustas de que o melhor leite para o recém-nascido pré-termo é o leite de sua mãe. Nos últimos anos, o foco dos estudos sobre nutrição e leite materno tem se concentrado em seu papel na imunologia, por meio da microbiota (microbioma). Neste contexto, com relação ao leite materno, é INCORRETO afirmar que:",
+        "alternativas": {
+            "A": "seus componentes variam de acordo com a idade gestacional.",
+            "B": "o leite da mãe de bebês prematuros apresenta uma concentração maior de imunoglobulinas, lactoferrina, lisozima e anticorpos contra patógenos nosocomiais, em comparação com o leite de mães de bebês a termo.",
+            "C": "promove o desenvolvimento de um microbioma saudável no trato gastrointestinal do recém-nascido.",
+            "D": "o contato pele a pele durante a posição canguru e a amamentação promovem a colonização intestinal do bebê com uma microbiota saudável da mãe, além de potencializar a produção de imunoglobulinas e anticorpos específicos contra patógenos hospitalares no leite materno.",
+            "E": "é contraindicado para a minimização da dor do RN durante procedimentos técnicos como a punção de calcanhar, por exemplo."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O leite materno, inclusive o de mães de prematuros, é benéfico para minimizar a dor em procedimentos, não sendo contraindicado. As demais afirmativas descrevem corretamente as propriedades e benefícios do leite materno."
+    },
+    {
+        "id": "1870368",
+        "enunciado": "Assinale a alternativa que indica corretamente o objetivo de suplementar ácido fólico durante a gestação:",
+        "alternativas": {
+            "A": "Reduz o risco de hipertensão gestacional.",
+            "B": "Previne malformações no tubo neural do bebê.",
+            "C": "Diminui as chances de ganho de peso excessivo na gestação.",
+            "D": "Aumenta a imunidade do bebê após o nascimento.",
+            "E": "Ajuda no controle do diabetes gestacional."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A suplementação de ácido fólico na gestação é essencial para prevenir defeitos do tubo neural, como espinha bífida e anencefalia, garantindo o desenvolvimento adequado do sistema nervoso central do feto."
+    },
+    {
+        "id": "1593387",
+        "enunciado": "O banco de leite humano consiste em um centro especializado vinculado a um hospital materno e/ou infantil, responsável pela promoção do aleitamento materno e atividade de coleta, processamento e controle de qualidade do colostro, leite de transição e leite humano maduro para distribuição. O leite humano ordenhado cru coletado e aprovado pelo banco de leite humano deve ser pasteurizado em quais condições de temperatura e tempo?",
+        "alternativas": {
+            "A": "600°C por 40 min.",
+            "B": "750°C por 20 min.",
+            "C": "48,50 °C por 35 min.",
+            "D": "550°C por 25 min.",
+            "E": "62,50 °C por 30 min."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A pasteurização adequada do leite humano cru para bancos de leite é realizada a 62,50°C por 30 minutos, garantindo a segurança sem perder suas propriedades."
+    },
+    {
+        "id": "1115257",
+        "enunciado": "A partir do sexto mês a produção de leite materno pela mãe passa a não pr eencher de forma adequada as necessidades de nutrientes do lactente, especialmente de ferro, tornando necessário a introdução da alimentação complementar. Sobre o assunto, marque a afirmativa INCORRETA em relação a criança em aleitamento materno exclusivo.",
+        "alternativas": {
+            "A": "O início da introdução alimentar deve ser paulatino, uma refeição por vez, para observar possíveis reações e permitir a adaptação da criança. Uma nova refeição poderá ser introduzida 4 a 7 dias após uma outra ter sido implementada.",
+            "B": "Inicialmente, as papas  devem ser oferecidas após terem sido passadas por uma peneira fina, a partir dos 8 meses de vida, os alimentos podem ser oferecidos amassados com garfo e aos 12 meses em pequenos pedaços e bem cozidos.",
+            "C": "O leite materno ou fórmula não poderá continuar send o oferecido após todas as refeições.",
+            "D": "Quando a criança completa 6 meses faz -se necessário introduzir o suco de frutas cítricas, entre a primeira e a segunda refeição (mamada), o volume não deve ultrapassar 100 ml."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está incorreta pois o leite materno ou fórmula não deve ser substituído, mas sim complementado, devendo continuar sendo oferecido em quantidades adequadas após as refeições complementares. As demais alternativas descrevem práticas corretas para a introdução alimentar."
+    },
+    {
+        "id": "1064136",
+        "enunciado": "Sobre os tipos de aleitamento materno, assinale o que for correto.",
+        "alternativas": {
+            "A": "O aleitamento materno exclusivo ocorre quando a criança recebe somente leite materno, direto da mama ou ordenhado, ou leite humano de outra fonte, sem outros líquidos ou sólidos.",
+            "B": "No aleitamento materno complementado, a criança recebe, além do leite materno, água ou bebidas à base de água (água adocicada, chás, infusões) e sucos de frutas.",
+            "C": "Quando a criança recebe, além do leite materno, outros tipos de leite, o aleitamento materno é dito predominante.",
+            "D": "O aleitamento materno misto ou parcial é quando a criança recebe, além do leite materno, alimentos complementares, definidos como qualquer alimento sólido ou semissólido."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A define corretamente o aleitamento materno exclusivo. A B está incorreta, pois o aleitamento complementado inclui outros líquidos e sólidos. A C está incorreta, pois a criança que recebe outros tipos de leite com o materno é aleitamento misto. A D está incorreta, pois alimentos complementares definem aleitamento complementar e não misto."
+    },
+    {
+        "id": "1270830",
+        "enunciado": "A recomendação nutricional de alguns nutrientes pode se encontrar aumentada durante a gravidez. Um desses nutrientes é o folato, essencial para a formação do tubo neural do feto. Assinale a alternativa que corresponde à RDA (Recommended Dietary Allowance) de gestantes entre 19 a 30 anos:",
+        "alternativas": {
+            "A": "400 mcg/d.",
+            "B": "1.000 mcg/d.",
+            "C": "600 mcg/d.",
+            "D": "500 mcg/d.",
+            "E": "520 mcg/d."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A RDA (Recommended Dietary Allowance) para folato em gestantes entre 19 a 30 anos é de 600 mcg/dia. As outras opções representam valores de outros nutrientes ou faixas etárias, ou ainda a EAR."
+    },
+    {
+        "id": "1160874",
+        "enunciado": "Alguns dos fatores de proteção do leite materno são total ou parcialmente inativados pelo calor, razão pela qual o leite humano pasteurizado não tem o mesmo valor biológico que o leite cru. Um desse fatores que não sofre alteração pelo efeito do calor, é(são):",
+        "alternativas": {
+            "A": "as citoquinas.",
+            "B": "a Lactoperoxidase.",
+            "C": "a Lipase.",
+            "D": "a Lactoferrina.",
+            "E": "o IgM e IgG."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Lactoferrina, um fator de proteção do leite materno, mantém sua atividade mesmo após a pasteurização, ao contrário de outros componentes como citocinas e enzimas."
+    },
+    {
+        "id": "1502597",
+        "enunciado": "Sobre a composição do leite materno, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "O carboidrato que existe em maior quantidade é a frutose.",
+            "B": "40% do leite materno é composto por água.",
+            "C": "Ácidos graxos de cadeia longa não estão presentes no leite materno.",
+            "D": "Proporcionalmente, o leite materno é composto por mais caseína e menos proteínas do soro quando comparado com o leite de vaca.",
+            "E": "O crescimento de uma microbiota intestinal adequada é propiciado por meio do fator bifidogênico."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O fator bifidogênico, como a presença de oligossacarídeos, no leite materno estimula o crescimento de bactérias benéficas na flora intestinal do bebê, como as Bifidobactérias."
+    },
+    {
+        "id": "1040676",
+        "enunciado": "Por que o aleitamento materno é fortemente recomendado nos primeiros meses de vida de um bebê?",
+        "alternativas": {
+            "A": "O aleitamento materno é relevante apenas para o conforto emocional da mãe.",
+            "B": "Fornece nutrientes essenciais e fortalece o sistema imunológico do bebê.",
+            "C": "É uma prática necessária apenas por razões culturais.",
+            "D": "O leite materno deve ser substituído por fórmulas assim que possível."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O aleitamento materno fornece nutrientes essenciais para o desenvolvimento do bebe e anticorpos que fortalecem seu sistema imunologico, protegendo-o contra infeccoes."
+    },
+    {
+        "id": "1891694",
+        "enunciado": "O ganho de peso ao longo da gestação sofre variações, dependendo do estado nutricional inicial da gestante, trimestre de gestação e alterações hormonais. Com base nas novas recomendações de ganho de peso do Ministério da Saúde (2023), uma gestante classificada como baixo peso no período pré-gestacional (IMC < 18,5kg/m2) poderá ganhar em torno de",
+        "alternativas": {
+            "A": "7,2 – 9kg.",
+            "B": "8 – 12,7kg.",
+            "C": "15- 17,3kg.",
+            "D": "9,7 – 12,2kg.",
+            "E": "12,5 - 16kg."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As novas recomendações do Ministério da Saúde (2023) para gestantes com baixo peso pré-gestacional (IMC < 18,5kg/m²) indicam um ganho de peso total entre 8 e 12,7kg."
+    },
+    {
+        "id": "1891699",
+        "enunciado": "A amamentação envolve uma série de fatores relacionados à mãe e ao recém-nascido, e o sucesso dessa prática depende do conhecimento de seu manejo. Problemas comuns associados à amamentação, como a presença de fissura e trauma dos mamilos, estão associadas ao desmame precoce. Esses problemas estão, muitas vezes, relacionados a(à)",
+        "alternativas": {
+            "A": "Mamilos invertidos.",
+            "B": "Pega incorreta do bebê.",
+            "C": "Implante mamário.",
+            "D": "Ingurgitamento mamário.",
+            "E": "amamentação de gêmeos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Fissuras e traumas nos mamilos, que levam ao desmame precoce, são frequentemente causados pela pega incorreta do bebê, uma vez que a boca do bebê não abrange a aréola de forma adequada, gerando dor e lesões na mãe."
+    },
+    {
+        "id": "1891705",
+        "enunciado": "De acordo com as recomendações nutricionais propostas pelo Institute of Medicine, IOM, para o cálculo das necessidades energéticas da gestante, é necessário acrescentar aos valores de necessidade estimada de energia (EER) para mulheres não grávidas um adicional de energia para o segundo e para o terceiro trimestre de gestação. Esses valores correspondem a",
+        "alternativas": {
+            "A": "340 kcal para o segundo trimestre e 452kcal para o terceiro trimestre.",
+            "B": "250 kcal para o segundo trimestre e 630kcal para o terceiro trimestre.",
+            "C": "450 kcal para o segundo trimestre e 700kcal para o terceiro trimestre.",
+            "D": "150 kcal para o segundo trimestre e 356kcal para o terceiro trimestre.",
+            "E": "200 kcal para o segundo trimestre e 410kcal para o terceiro trimestre."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As recomendações do Institute of Medicine (IOM) para gestantes incluem um acréscimo de 340 kcal no segundo trimestre e 452 kcal no terceiro trimestre nas necessidades energéticas estimadas (EER) para mulheres não grávidas."
+    },
+    {
+        "id": "1891707",
+        "enunciado": "A anemia ferropriva é um dos mais graves problemas nutricionais mundiais em termos de prevalência. No Brasil, a prevalência de anemia é maior entre as crianças na faixa etária de 6 a 23 meses (19,0%), de acordo com os dados do Estudo Nacional de Alimentação e Nutrição Infantil (Enani -2019). Entre as principais causas da anemia ferropriva nessa faixa etária, podemos destacar",
+        "alternativas": {
+            "A": "introdução tardia da alimentação complementar.",
+            "B": "uso de fórmulas infantis fortificadas e bicos artificiais.",
+            "C": "consumo elevado de alimentos ricos em ferro heme.",
+            "D": "consumo elevado de vegetais e frutas ricos em ácidos cítrico e málico.",
+            "E": "crianças, filhos de mães que desenvolveram diabetes gestacional."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A introdução tardia da alimentação complementar leva a uma deficiência na oferta de ferro, um nutriente essencial que deve ser fornecido a partir dos 6 meses, quando as reservas do bebê começam a diminuir. Nas demais alternativas, os fatores apresentados não são causas primárias ou indicam o oposto."
+    },
+    {
+        "id": "1891708",
+        "enunciado": "A Estratégia de Prevenção e Atenção à Obesidade Infantil (PROTEJA) tem como objetivo deter o avanço da obesidade infantil e contribuir para a melhoria da saúde e da nutrição das crianças brasileiras. Entre as Estratégias efetivas para prevenção e reversão do cenário de obesidade infantil do PROTEJA, está(ão)",
+        "alternativas": {
+            "A": "Ações na atenção terciária à saúde.",
+            "B": "Promoção da saúde nos parques.",
+            "C": "Promoção de saúde nas escolas.",
+            "D": "Ambientes alimentares dinâmicos e coloridos.",
+            "E": "Campanhas com propagandas de produtos infantis."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C é a mais adequada. Promoção de saúde nas escolas é uma estratégia chave para a prevenção e controle da obesidade infantil, permitindo o alcance de um grande número de crianças e a implementação de ações educativas e de mudança de hábitos."
+    },
+    {
+        "id": "1088723",
+        "enunciado": "Em relação às adaptações no metabolismo dos macronutrientes na gestação é CORRETO afirmar que",
+        "alternativas": {
+            "A": "a sensibilidade à insulina fica prejudicada e os níveis de glicemia aumentam logo no primeiro trimestre, ficando mais acessíveis ao feto.",
+            "B": "ocorre leve hipoglicemia em jejum, hiperglicemia pós-prandial e hiperinsulinemia.",
+            "C": "os níveis de triglicerídeos reduzem e o colesterol triplica.",
+            "D": "os níveis de aminoácidos no sangue duplicam.",
+            "E": "a insulina inibe a síntese proteica."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Durante a gestação, observa-se uma tendência a leve hipoglicemia em jejum devido à maior captação de glicose pela placenta, seguida por hiperglicemia pós-prandial e uma resposta compensatória de hiperinsulinemia para manejar os níveis de glicose."
+    },
+    {
+        "id": "1210375",
+        "enunciado": "Uma gestante de 24 anos de Garuva (SC) foi atendida pelo nutricionista da atenção básica e sua primeira consulta foi na 10ª semana de gestação. De acordo com seu IMC, a gestante apresentava peso adequado, mas sua alimentação era pobre em frutas, verduras, carnes e derivados, pois relatava não conseguir comprar esses alimentos, dada sua situação socioeconômica. Ela é beneficiária do Programa Bolsa Família e este seria seu terceiro filho. Dentre as queixas relatadas, a gestante dizia sentir náuseas. Qual seria a conduta nutricional mais adequada dentre as listadas a seguir.",
+        "alternativas": {
+            "A": "Adaptar a sua alimentação de acordo com suas condições socioeconômicas, oferecer suplementação de nutrientes necessários e realizar orientações relativas ao alívio das náuseas.",
+            "B": "Encaminhá-la à assistência social e realizar acompanhamentos de rotina, verificando seu ganho de peso.",
+            "C": "Realizar um plano alimentar com suplementação de ferro e vitamina A e orientá-la sobre os auxílios oferecidos pelo município para famílias carentes.",
+            "D": "Acompanhar a gestante, moldando seu plano alimentar à sua realidade, e sugerir chás que diminuam o desconforto das náuseas.",
+            "E": "Oferecer suplementação de ferro, folato e vitamina A e realizar refeições pequenas e com mais frequência."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A é a mais completa, pois aborda a adaptação da dieta à realidade socioeconômica, a suplementação necessária e orientações para as náuseas, lidando com as múltiplas necessidades da gestante."
+    },
+    {
+        "id": "2142561",
+        "enunciado": "Considerando-se que a passagem, para o leite materno, de substâncias heterólogas consumidas pela mãe, como o leite de vaca, é um fato já comprovado, marcar C para as afirmativas Certas, E para as Erradas e, após, assinalar a alternativa que apresenta a sequência CORRETA:(---) Quando existe predisposição genética para quadros alérgicos de um determinado componente do alimento, o lactente pode ser sensibilizado precocemente, caso a mãe inclua, em sua dieta, alimentos que o contenham.(---) Se a nutriz já tem o hábito de tomar leite ou seus derivados e não tem antecedentes pessoais ou familiares de alergia ao leite, não há justificativa para suspender esses produtos de sua alimentação só pela queixa de cólicas do lactente.",
+        "alternativas": {
+            "A": "C - C.",
+            "B": "E - C.",
+            "C": "C - E.",
+            "D": "E - E."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Ambas as afirmativas estão corretas. A primeira aborda a possibilidade de sensibilização do lactente a alérgenos presentes na dieta materna. A segunda orienta sobre a não suspensão de derivados de leite sem justificativa clara em pais sem histórico de alergia com queixas de cólicas."
+    },
+    {
+        "id": "2142569",
+        "enunciado": "Considerando-se a composição do leite materno e os aspectos nutricionais, analisar os itens abaixo:I. Tem-se o leite de transição entre o 5º e o 15º dia de lactação. Nessa fase, o conteúdo do leite vai sofrendo modificações na sua concentração e volume até atingir um volume estável e modificando sua composição até atingir os valores médios do leite maduro.II. O leite maduro é o que se segue ao leite de transição. Tem volume e composição estáveis. Tem volume médio de 700 a 900ml/dia nos primeiros 6 meses, cerca de 600ml/dia no segundo semestre e 550ml/dia no segundo ano de lactação. Fornece, em média, 70kcal/dl.a) Os itens I e II estão corretos.b) Somente o item I está correto.c) Somente o item II está correto.d) Os itens I e II estão incorretos.",
+        "alternativas": {
+            "A": "Os itens I e II estão corretos.",
+            "B": "Somente o item I está correto.",
+            "C": "Somente o item II está correto.",
+            "D": "Os itens I e II estão incorretos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Ambos os itens descrevem corretamente as fases do leite materno (transição e maduro) e suas características de composição e volume, estando de acordo com conhecimentos estabelecidos na área de nutrição infantil e aleitamento materno."
+    },
+    {
+        "id": "1903865",
+        "enunciado": "No tocante aos aspectos fisiológicos da lactação, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "O colostro é o primeiro leite secretado pela glândula mamária logo após o parto, persistindo por um período de 15 dias.",
+            "B": "O leite maduro contém mais proteínas do que o colostro.",
+            "C": "A principal função do hormônio prolactina é a produção do leite materno.",
+            "D": "O leite maduro contém menos lactose do que o colostro.",
+            "E": "O colostro é o segundo leite secretado pela glândula mamária, sendo produzido cerca de 30 dias após o parto."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A prolactina é o principal hormônio responsável pela produção de leite na glândula mamária. O colostro é rico em anticorpos e tem menor volume que o leite maduro, que possui mais lactose e menos proteínas, mas em maior volume total."
+    },
+    {
+        "id": "1220934",
+        "enunciado": "Uma ótima nutrição é essencial durante a gestação uma vez que várias alterações anatômicas, bioquímicas e fisiológicas ocorrem para manter um ambiente saudável para o feto em desenvolvimento, sem comprometer a saúde materna. Muitas dessas alterações iniciam-se nas primeiras semanas da gestação, e, em conjunto, regulam o metabolismo materno, promovem o crescimento fetal e preparam a mãe para o trabalho de parto, a expulsão do bebê e a lactação. Nesse contexto, é fundamental determinar as necessidades da gestante a fim de direcionar melhor as estratégias de intervenção. Com relação às necessidades nutricionais no período gestacional, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "A gordura é a principal fonte de energia do feto. A transferência de ácidos graxos da mãe para o feto é estimada em 17 a 26 g/dia. No final da gestação, acredita-se que todos estes ácidos graxos são utilizados pelo cérebro fetal como fonte energética.",
+            "B": "A ingestão excessiva de vitamina A (retinol) é comprovadamente teratogênica para o ser humano. O primeiro trimestre da gestação parece ser o período mais crítico para a ocorrência de danos, resultando em aborto espontâneo e defeitos de na scença que afetam o sistema cardiovascular, o sistema nervoso central, a região craniofacial e o timo.",
+            "C": "O primeiro trimestre de gestação é o que ocorre maior requerimento de ferro pela gestante, devido ao aumento da massa eritrocitária para suprir a necessidade do feto. Neste período, a Organização Mundial de Saúde recomenda que todas as gestantes sejam suplementadas como medida profilática.",
+            "D": "Durante o último trimestre de gestação, a gestante deve manter sua ingestão energética semelhante ao período pré-gestacional, a fim de evitar situações de cetose materna.",
+            "E": "Em razão da piora na eficiência da absorção de cálcio durante a gestação, mesmo com a ingestão suficiente deste mineral, deve-se recomendar suplementação a fim de se evitar osteomalácia clínica da gestante e menor densidade óssea dos bebês."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O excesso de vitamina A (retinol) na gestação é teratogênico, especialmente no primeiro trimestre, podendo causar aborto e defeitos congênitos graves no feto, como os listados. As outras alternativas apresentam informações incorretas sobre as necessidades nutricionais gestacionais."
+    },
+    {
+        "id": "1029970",
+        "enunciado": "Pelo leite materno ser um alimento completo, trazendo benefícios para o bebê e a mãe, o Ministério da Saúde recomenda:",
+        "alternativas": {
+            "A": "que nos primeiros tres meses o bebe receba somente leite materno, ou seja, sem necessidade de sucos, chás, águas e outros alimentos;",
+            "B": "que nos primeiros dois anos a criança receba somente leite materno, ou seja, sem necessidade de sucos, chás, águas e outros alimentos;",
+            "C": "que nos primeiros seis meses o bebe receba somente leite materno, ou seja, sem necessidade de sucos, chás, águas e outros alimentos;",
+            "D": "que o bebê não receba somente leite materno, devendo haver complementação com sucos, águas, chás e outros alimentos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A recomendação do Ministério da Saúde, alinhada com a Organização Mundial da Saúde, é o aleitamento materno exclusivo nos primeiros seis meses de vida. Após esse período, a introdução de outros alimentos é gradualmente recomendada, mantendo o leite materno."
+    },
+    {
+        "id": "1890112",
+        "enunciado": "Considerando uma mulher jovem que iniciou sua gestação eutrófica (IMC = 23 kg/m²), a faixa de ganho de peso total recomendada durante a gestação é de ___________, enquanto o ganho de peso total para o 1º trimestre deverá ser de _______kg. Correspondem aos espaços em branco, respectivamente:",
+        "alternativas": {
+            "A": "11,5 – 16,0kg / 2,3kg.",
+            "B": "7,0 – 11,5kg / 0,9kg.",
+            "C": "11,5 – 16,0kg / 1,6kg.",
+            "D": "12,5 – 18,0kg / 2,3kg."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para uma gestação eutrófica com IMC de 23 kg/m², o ganho de peso total recomendado é de 11,5 a 16,0 kg. No primeiro trimestre, o ganho esperado é de cerca de 1,6 kg. As outras opções apresentam valores fora das faixas recomendadas."
+    },
+    {
+        "id": "1890120",
+        "enunciado": "O governo brasileiro e órgãos representativos no Brasil recomendam o aleitamento materno exclusivo até o 6º mês de vida e adequação das práticas da alimentação complementar ao leite materno a partir dessa idade. A respeito dos Dez passos da Alimentação Saudável para Crianças Brasileiras Menores de 2 Anos recomendados pelo Ministério da Saúde e OPAS/OMS, assinale a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "A partir dos 6 meses as necessidades nutricionais da criança já não são mais atendidas só com o leite materno, embora este ainda continue sendo uma fonte importante de calorias e nutrientes. A partir dessa idade, a criança já apresenta maturidade fisiológica e neurológica para receber outros alimentos.",
+            "B": "Ao completar 6 meses de idade os alimentos complementares devem ser oferecidos três vezes ao dia (papa salgada e papa de fruta), pois contribuem com o fornecimento de energia, proteína e micronutrientes, além de preparar a criança para a formação dos hábitos alimentares saudáveis no futuro.",
+            "C": "A introdução dos alimentos complementares não deve respeitar a identidade cultural e alimentar das diversas regiões, resgatando e valorizando os alimentos regionais, ou seja, as frutas, legumes e verduras produzidas localmente.",
+            "D": "Com a introdução dos alimentos complementares é importante que a criança receba água nos intervalos. A água oferecida deve ser a mais limpa possível (tratada, filtrada e fervida)."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C está INCORRETA. A introdução dos alimentos complementares DEVE respeitar a identidade cultural e alimentar, valorizando alimentos regionais. As outras afirmativas refletem as recomendações do Ministério da Saúde e OPAS/OMS."
+    },
+    {
+        "id": "1890125",
+        "enunciado": "Segundo os Protocolos do Sistema de Vigilância Alimentar e Nutricional – SISVAN na assistência à saúde, durante a avaliação de gestantes os profissionais de saúde devem estar atentos:",
+        "alternativas": {
+            "A": "A classificação do estado nutricional utilizando do gráfico de acompanhamento nutricional da gestante, sendo identificadas quatro classificações possíveis: baixo peso, peso adequado, sobrepeso e obesidade. Para tanto, é necessário avaliar o Índice de Massa Corporal (IMC) da gestante e a idade gestacional.",
+            "B": "A deficiência de ferro é a causa mais comum de anemia nutricional atualmente, seguida da anemia megaloblástica por deficiência de ácido ascórbico. A distribuição normal da hemoglobina na gestante varia segundo sua idade, período gestacional e prática de tabagismo.",
+            "C": "A presença de Hipertensão Arterial Sistêmica, durante a gestação o acompanhamento da pressão arterial deve fazer parte da avaliação de rotina durante todas as consultas de pré-natal e deve ser avaliado em conjunto com a verificação do aumento súbito de peso corporal (ganho de peso superior a 100 g por semana) e/ou presença de edema, principalmente a partir da 24ª semana de gestação.",
+            "D": "A presença de Diabetes Gestacional uma vez que as principais causas do desenvolvimento da criança macrossômica são: a hipoglicemia, que leva ao maior suprimento de glicose ao feto e a redução dos hormônios adreno-corticais pela mãe, que favorece a passagem da glicose para o feto. A macrossomia fetal está associada com complicações perinatais, tais como: a morbidade materna, traumas de nascimento, hipoglicemia neonatal, hiperbilirrubinemia e mortalidade perinatal."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A alternativa A descreve corretamente a classificação do estado nutricional da gestante pelo SISVAN, utilizando o IMC e idade gestacional para as quatro categorias mencionadas. As demais alternativas contêm informações imprecisas ou incompletas."
+    },
+    {
+        "id": "1023860",
+        "enunciado": "O colostro, primeiro leite secretado após o parto pela glândula mamária, é constituído de proteínas, gordura, açúcar, sais minerais e água. Em relação ao leite maduro, podemos dizer que o colostro:",
+        "alternativas": {
+            "A": "Contém mais proteína, menos açúcar e gordura, logo, é menos calórico;",
+            "B": "Contém menos proteína, mais açúcar e gordura, logo, é mais calórico;",
+            "C": "Contém mesma quantidade de proteína, açúcar e gordura, logo, tem o mesmo valor calórico;",
+            "D": "Contém mais proteína, menos açúcar e mais gordura, logo, é mais calórico."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O colostro é mais rico em proteínas e minerais, mas tem menor teor de carboidratos e gorduras em comparação com o leite maduro. Essa composição o torna menos calórico, mas rico em nutrientes importantes para o recém-nascido."
+    },
+    {
+        "id": "1819293",
+        "enunciado": "De acordo com o Ministério da Saúde (2011), o ganho de peso recomendado durante a gestação para gestantes com estado nutricional pré-gestacional de baixo peso é de",
+        "alternativas": {
+            "A": "11,5 a 16,0 kg.",
+            "B": "7,0 a 11,5 kg.",
+            "C": "16,0 a 20,0 kg.",
+            "D": "12,5 a 18,0 kg."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As recomendações de ganho de peso durante a gestação variam conforme o estado nutricional pré-gestacional da mulher. Para gestantes com 'baixo peso' (Índice de Massa Corporal - IMC < 18,5), a recomendação do Ministério da Saúde é de um ganho de peso total entre 11,5 a 16,0 kg. As outras faixas correspondem a outros estados nutricionais (peso normal, sobrepeso, obesidade)."
+    },
+    {
+        "id": "1462727",
+        "enunciado": "“A nutrição ideal para uma concepção bem-sucedida é quando inclui quantidades adequadas de todas as vitaminas, minerais e macronutrientes fornecedores de energias necessárias.”MAHAN, L. Kathleen; STUMP, Sylvia Escott; RAYMOND, Janice. Krause Alimentos, Nutrição e Dietoterapia Mundial Editora, 2012.Nesse sentido, para evitar má formação do tubo neural, os Centros para Controle e Prevenção de Doenças recomendam que todas as mulheres em idade fértil aumentem a ingestão de:",
+        "alternativas": {
+            "A": "Ácido Fólico.",
+            "B": "Fósforo.",
+            "C": "Sódio.",
+            "D": "Vitamina C."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Ácido Fólico é crucial para a prevenção da má formação do tubo neural em fetos. Recomenda-se sua suplementação para mulheres em idade fértil antes e durante a gravidez."
+    },
+    {
+        "id": "1462733",
+        "enunciado": "“O estresse oxidativo esgota os armazenamentos de nutrientes e contribui para as complicações nas gestantes. A anemia é uma das complicações nutricionais mais comum encontrada na gravidez.”MAHAN, L. Kathleen; STUMP, Sylvia Escott; RAYMOND, Janice. Krause (Alimentos, Nutrição e Dietoterapia). Mundial Editora, 2012.Portanto, além da alteração nas hemácias, o diagnóstico da anemia por carência de ferro é baseado no valor da concentração da hemoglobina e do hematócrito inferior ou igual a, respectivamente:",
+        "alternativas": {
+            "A": "15g/100 ml e 30%.",
+            "B": "14g/100 ml e 33%.",
+            "C": "11g/100 ml e 33%.",
+            "D": "18g/100 ml e 30%."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "De acordo com a OMS e diversas referências médicas, a anemia por deficiência de ferro em gestantes é diagnosticada com hemoglobina igual ou inferior a 11g/100 ml e hematócrito igual ou inferior a 33%."
+    },
+    {
+        "id": "1462737",
+        "enunciado": "“A Organização Mundial da Saúde (OMS) e o Fundo das Nações Unidas para a Infância (UNICEF) adotaram a Baby-Friendly Hospital Initiative (BFHI – Iniciativa do Hospital Amigo da Criança), em 1991 um esforço global para aumentar a incidência e a duração da amamentação.”MAHAN, L. Kathleen; STUMP, Sylvia Escott; RAYMOND, Janice. Krause Alimentos, Nutrição e Dietoterapia. Mundial Editora, 2012.Portanto, após seis meses de vida, uma das razões para a introdução da alimentação complementar é que, no lactente estão diminuindo as reservas do seguinte mineral:",
+        "alternativas": {
+            "A": "Ferro.",
+            "B": "Cálcio.",
+            "C": "Flúor.",
+            "D": "Fósforo"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Após seis meses, as reservas de ferro do bebê começam a diminuir, o que justifica a introdução da alimentação complementar para suprir essa necessidade e prevenir a anemia ferropriva."
+    },
+    {
+        "id": "1462738",
+        "enunciado": "“Durante os primeiros dias de vida, o bebê que é amamentado recebe um líquido amarelo transparente, que supre a necessidade da criança durante a primeira semana, chamado de Colostro.”MAHAN, L. Kathleen; STUMP, Sylvia Escott; RAYMOND, Janice. Krause .Alimentos, Nutrição e Dietoterapia. Mundial Editora, 2012.O Colostro, comparado ao leite materno, apresenta dez vezes mais o seguinte componente:",
+        "alternativas": {
+            "A": "Lactose.",
+            "B": "Água.",
+            "C": "Lactoalbumina.",
+            "D": "Caroteno."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O colostro, leite primordial, é rico em vitaminas lipossolúveis, incluindo o caroteno (precursor da vitamina A), em quantidade significativamente maior que o leite maduro."
+    },
+    {
+        "id": "1462740",
+        "enunciado": "“O leite humano é, sem dúvida, o melhor alimento para a criança. Sua composição fornece a energia e os nutrientes necessários em quantidades apropriadas.”MAHAN, L. Kathleen; STUMP, Sylvia Escott; RAYMOND, Janice. Krause .Alimentos, Nutrição e Dietoterapia.. Mundial Editora, 2012.A relação caseína/lactoalbumina no leite humano é de:",
+        "alternativas": {
+            "A": "80% - 60%.",
+            "B": "80% - 20%.",
+            "C": "40% - 60%.",
+            "D": "40% - 20%."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A relação entre caseína e lactoalbumina no leite humano é de aproximadamente 80% de caseína e 20% de lactoalbumina, sendo essa proporção importante para a digestão."
+    },
+    {
+        "id": "1955263",
+        "enunciado": "Durante os primeiros dias de vida, o bebê que é amamentado recebe __________, um líquido __________, transparente, que supre as necessidades da criança durante a primeira semana. Ele contém menos __________ e _________, porém possui maiores concentrações de __________, sódio, potássio e cloro do que o leite materno.Assinale a alternativa que preenche correta e respectivamente as lacunas do texto acima.",
+        "alternativas": {
+            "A": "colostro – amarelo – proteínas – vitaminas – lipídios",
+            "B": "colostro – branco – lipídio – carboidratos – vitaminas",
+            "C": "soro de leite – amarelo – sais minerais – vitaminas – carboidrato",
+            "D": "leite de vaca – branco – lipídio – proteína – carboidrato",
+            "E": "colostro – amarelo – lipídio – carboidrato – proteínas"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O colostro, líquido inicial amarelado e transparente, possui menos lipídios e carboidratos, mas contém maiores concentrações de proteínas, sódio, potássio e cloro, fornecendo os nutrientes essenciais para o recém-nascido."
+    }
+]

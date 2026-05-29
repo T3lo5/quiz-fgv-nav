@@ -1,0 +1,997 @@
+[
+    {
+        "id": "2376439",
+        "enunciado": "A professora utiliza o critério de divisibilidade por 2 para a classificação de números. O algarismo da unidade que não permite que um número seja par é o seguinte:",
+        "alternativas": {
+            "A": "0.",
+            "B": "2.",
+            "C": "4.",
+            "D": "7.",
+            "E": "8."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um número é considerado par quando seu algarismo da unidade é 0, 2, 4, 6 ou 8. Para um número ser ímpar, o algarismo da unidade deve ser um dos que não são pares, ou seja, 1, 3, 5, 7 ou 9."
+    },
+    {
+        "id": "1721130",
+        "enunciado": "Qual das seguintes alternativas é múltiplo de 15?",
+        "alternativas": {
+            "A": "28",
+            "B": "40",
+            "C": "52",
+            "D": "63",
+            "E": "75"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Um número é múltiplo de 15 se for divisível por 3 e por 5. Testando as alternativas: 28 (não por 3 nem 5), 40 (por 5, mas não por 3), 52 (nem por 3 nem 5), 63 (por 3, mas não por 5), 75 (por 3 e 5). Portanto, 75 é múltiplo de 15 (75 = 15 * 5)."
+    },
+    {
+        "id": "1723742",
+        "enunciado": "Assinale a alternativa que contém apenas números divisíveis por 6:",
+        "alternativas": {
+            "A": "16; 48; 54; 228.",
+            "B": "44; 54; 228; 306",
+            "C": "42; 60; 222; 306",
+            "D": "66; 132; 224; 308"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para ser divisível por 6, um número deve ser divisível por 2 (par) e por 3 (soma dos algarismos divisível por 3). Na alternativa C: 42 (ok), 60 (ok), 222 (2+2+2=6, ok), 306 (3+0+6=9, ok)."
+    },
+    {
+        "id": "1856120",
+        "enunciado": "Em uma rua, todos os números das casas são múltiplos de 3 e de 4 simultaneamente. Dentre as alternativas abaixo, qual NÃO pode ser o número de uma casa dessa rua?",
+        "alternativas": {
+            "A": "180.",
+            "B": "146.",
+            "C": "216.",
+            "D": "624.",
+            "E": "372."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os numeros das casas devem ser multiplos de 3 e 4 simultaneamente, ou seja, multiplos de 12. Analisando as alternativas, 146 (146/12 = 12,16) nao e divisivel por 12, logo, nao pode ser o numero de uma casa."
+    },
+    {
+        "id": "1732766",
+        "enunciado": "Na lista de números a seguir, assinale aquele cuja divisão por 3 é exata.",
+        "alternativas": {
+            "A": "23.",
+            "B": "26.",
+            "C": "32.",
+            "D": "45.",
+            "E": "89."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A divisibilidade por 3 ocorre quando a soma dos algarismos do número é divisível por 3. No número 45, a soma dos algarismos é 4 + 5 = 9, que é divisível por 3. Portanto, 45 é divisível por 3."
+    },
+    {
+        "id": "2281100",
+        "enunciado": "No Sistema de Numeração Decimal (SDN), a sequência numérica é fundamental. O antecessor  do número 499 (quatrocentos e noventa e nove) e o sucessor  do número 501 (quinhentos e um) são, respectivamente:",
+        "alternativas": {
+            "A": "501 e 499.",
+            "B": "500 e 500.",
+            "C": "500 e 502.",
+            "D": "498 e 502.",
+            "E": "498 e 500."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O antecessor de 499 é 498 (499-1). O sucessor de 501 é 502 (501+1). Portanto, a sequência correta é 498 e 502."
+    },
+    {
+        "id": "1856479",
+        "enunciado": "Qual dos seguintes números NÃO é divisor de 36?",
+        "alternativas": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um número é divisor de 36 se a divisão de 36 por ele resultar em um número inteiro. 36/1=36, 36/2=18, 36/4=9, 36/6=6. No entanto, 36/5 não resulta em um número inteiro, logo 5 não é divisor de 36."
+    },
+    {
+        "id": "1753511",
+        "enunciado": "Qual dos seguintes números é múltiplo de 12?",
+        "alternativas": {
+            "A": "48",
+            "B": "50",
+            "C": "55",
+            "D": "100",
+            "E": "110"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Um múltiplo de 12 é um número que pode ser obtido multiplicando 12 por um número inteiro. Testando as alternativas: 48 / 12 = 4. As outras opções não são divisíveis exatamente por 12 (50/12≈4.16, 55/12≈4.58, 100/12≈8.33, 110/12≈9.16)."
+    },
+    {
+        "id": "1699162",
+        "enunciado": "João organizou 36 balas em saquinhos, de modo que cada saquinho tivesse a mesma quantidade de balas e nenhuma sobrasse. Qual das quantidades abaixo pode representar o número de balas em cada saquinho?",
+        "alternativas": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para que 36 balas sejam divididas em saquinhos com a mesma quantidade sem sobrar, o número de balas por saquinho deve ser um divisor de 36. Dentre as opções, apenas 6 é um divisor de 36 (36 ÷ 6 = 6)."
+    },
+    {
+        "id": "1753515",
+        "enunciado": "Qual dos seguintes números é um divisor de 72?",
+        "alternativas": {
+            "A": "5",
+            "B": "6",
+            "C": "13",
+            "D": "11",
+            "E": "14"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um divisor de 72 é um número que divide 72 exatamente, sem deixar resto. Testando as alternativas: 72 / 5 = 14.4, 72 / 6 = 12, 72 / 13 ≈ 5.5, 72 / 11 ≈ 6.5, 72 / 14 ≈ 5.1. Portanto, 6 é o único divisor inteiro de 72 entre as opções."
+    },
+    {
+        "id": "2384075",
+        "enunciado": "Para organizar os alunos em uma atividade, a professora precisava formar grupos iguais, sem sobrar ninguØm. Ao todo, havia 24 alunos na sala. Qual das alternativas abaixo indica uma quantidade de alunos por grupo que permite essa divisªo exata?",
+        "alternativas": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "9",
+            "E": "10"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para formar grupos iguais sem sobrar alunos, a quantidade de alunos por grupo deve ser um divisor exato do total de alunos (24). Entre as alternativas, apenas 6 divide 24 de forma exata (24 ÷ 6 = 4)."
+    },
+    {
+        "id": "1793418",
+        "enunciado": "Qual das alternativas abaixo é um divisor exato de 24?",
+        "alternativas": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "9",
+            "E": "10"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um divisor exato de 24 é um número que, ao dividir 24, resulta em um número inteiro sem resto. Verificando as alternativas: 24/5 = 4,8; 24/6 = 4; 24/7 ≈ 3,43; 24/9 ≈ 2,67; 24/10 = 2,4. Portanto, 6 é o único divisor exato."
+    },
+    {
+        "id": "1721232",
+        "enunciado": "Qual dos seguintes números é múltiplo de 18?",
+        "alternativas": {
+            "A": "50",
+            "B": "36",
+            "C": "28",
+            "D": "45",
+            "E": "60"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um multiplo de 18 e um numero que, ao ser dividido por 18, tem resto 0. Vamos verificar as alternativas: A) 50/18 = 2 com resto 14. B) 36/18 = 2 com resto 0. C) 28/18 = 1 com resto 10. D) 45/18 = 2 com resto 9. E) 60/18 = 3 com resto 6. Portanto, 36 e multiplo de 18."
+    },
+    {
+        "id": "1721236",
+        "enunciado": "Qual dos seguintes números é um divisor de 84?",
+        "alternativas": {
+            "A": "10",
+            "B": "7",
+            "C": "9",
+            "D": "13",
+            "E": "15"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para identificar um divisor de 84, primeiramente encontramos os fatores primos de 84: 84 = 2^2 * 3 * 7. Verificamos quais das alternativas sao formadas apenas por estes fatores primos ou sao estes fatores primos. O numero 7 e um fator primo de 84."
+    },
+    {
+        "id": "2045610",
+        "enunciado": "Assinale a alternativa que contém todos os números divisíveis por 3:",
+        "alternativas": {
+            "A": "3, 27 e 2.843.",
+            "B": "6, 15 e 193.",
+            "C": "3, 12 e 1554.",
+            "D": "9, 23 e 261."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para que um número seja divisível por 3, a soma de seus algarismos deve ser divisível por 3. Na alternativa C, 3 é divisível por 3. 12 (1+2=3) é divisível por 3. 1554 (1+5+5+4=15) é divisível por 3. As outras alternativas contêm números cujas somas de algarismos não são divisíveis por 3 (A: 2.843 = 17; B: 193 = 13; D: 23 = 5, 261 = 9 mas o 23 não é)."
+    },
+    {
+        "id": "1691402",
+        "enunciado": "Qual número é divisível por 2?",
+        "alternativas": {
+            "A": "19.",
+            "B": "31.",
+            "C": "48.",
+            "D": "55.",
+            "E": "63."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um número é divisível por 2 se o seu último dígito for par (0, 2, 4, 6 ou 8). Entre as alternativas, apenas 48 termina com um dígito par."
+    },
+    {
+        "id": "1511604",
+        "enunciado": "Em um grupo com total de 57 pessoas, 21 são crianças, e os demais, adultos. Deseja-se dividir essas 57 pessoas em grupos, cada um contendo certa quantidade x de crianças e certa quantidade y de adultos, de modo que cada uma das 57 pessoas participe de um grupo, e que x e y sejam os menores números possíveis. Nessas condições, y – x deve ser igual a",
+        "alternativas": {
+            "A": "5.",
+            "B": "4.",
+            "C": "3.",
+            "D": "2.",
+            "E": "1."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Total de pessoas = 57. Crianças = 21. Adultos = 57 - 21 = 36. Queremos a menor quantidade x de crianças e y de adultos em cada grupo, de modo que todos participem. Isso se resolve encontrando o Máximo Divisor Comum (MDC) de 21 e 36. MDC(21, 36) = 3. Assim, x = 21 / 3 = 7 crianças por grupo, e y = 36 / 3 = 12 adultos por grupo. A diferença y - x = 12 - 7 = 5. A questão pede que x e y sejam os menores números possíveis, o que implica que o número de grupos seja o maior possível, o que é dado pelo MDC. Se a intenção é que cada grupo tenha a menor quantidade *possível* de crianças e adultos, isso significa que o número de grupos deve ser o maior possível, o que é o MDC. Grupos = MDC(21, 36) = 3. Crianças por grupo (x) = 21/3 = 7. Adultos por grupo (y) = 36/3 = 12. y - x = 12 - 7 = 5. Entretanto, se a pergunta é sobre ter o menor número possível de crianças e adultos em cada grupo, e que todos participem, ela pode ser interpretada como dividir 21 crianças em x grupos e 36 adultos em y grupos, onde x e y podem ..."
+    },
+    {
+        "id": "1707361",
+        "enunciado": "Assinale a alternativa que contém somente números que são divisíveis por 4:",
+        "alternativas": {
+            "A": "88; 120; 412.",
+            "B": "98; 246; 424.",
+            "C": "76; 246; 412.",
+            "D": "88; 124; 398."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para ser divisível por 4, um número deve ter suas duas últimas casas decimais divisíveis por 4. No item A: 88 (88/4=22), 120 (20/4=5), 412 (12/4=3). Sim, todos são divisíveis por 4."
+    },
+    {
+        "id": "1256958",
+        "enunciado": "Considere os 5 números naturais a=32145326, b=547845907, c=211314567907, d=98760122113 e f=67853425262862. É(São) divisível(is) por 3",
+        "alternativas": {
+            "A": "a e b, apenas.",
+            "B": "a e d, apenas.",
+            "C": "b e c, apenas.",
+            "D": "f, apenas.",
+            "E": "d, apenas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um número é divisível por 3 se a soma de seus algarismos for divisível por 3. Para 'a' (3+2+1+4+5+3+2+6=26, não divisível por 3). Para 'd' (9+8+7+6+0+1+2+2+1+1+3=43, não divisível por 3). Houve erro na resposta ou no cálculo."
+    },
+    {
+        "id": "1232635",
+        "enunciado": "O número 464 é divisível pelo número:",
+        "alternativas": {
+            "A": "3.",
+            "B": "4.",
+            "C": "5.",
+            "D": "6.",
+            "E": "7."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para verificar a divisibilidade por 4, basta analisar os dois últimos dígitos do número. Como 64 é divisível por 4 (64 / 4 = 16), o número 464 também é divisível por 4."
+    },
+    {
+        "id": "1231005",
+        "enunciado": "Um número é divisível por 4 se o número formado pelos seus dois últimos algarismos for divisível por 4. Com base nesse critério, assinale a alternativa que não apresenta um número divisível por 4.",
+        "alternativas": {
+            "A": "12.684.532",
+            "B": "16.932.480",
+            "C": "22.567.128",
+            "D": "27.843.251"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A divisibilidade por 4 é verificada pelos dois últimos algarismos. Em 12.684.532, '32' é divisível por 4. Em 16.932.480, '80' é divisível por 4. Em 22.567.128, '28' é divisível por 4. Em 27.843.251, '51' não é divisível por 4."
+    },
+    {
+        "id": "1139455",
+        "enunciado": "Assinale a alternativa que indica um número que NÃO é divisível por 3.",
+        "alternativas": {
+            "A": "135.",
+            "B": "233.",
+            "C": "372.",
+            "D": "468.",
+            "E": "525."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um número é divisível por 3 se a soma de seus algarismos for divisível por 3. A soma dos algarismos de 233 é 2+3+3 = 8, que não é divisível por 3."
+    },
+    {
+        "id": "1274352",
+        "enunciado": "Qual número é um divisor do número 20?",
+        "alternativas": {
+            "A": "3.",
+            "B": "5.",
+            "C": "6.",
+            "D": "7.",
+            "E": "8."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um divisor de um número é aquele que, ao dividi-lo, resulta em um número inteiro. 20 dividido por 5 é igual a 4."
+    },
+    {
+        "id": "1503599",
+        "enunciado": "Qual dos números abaixo é divisível por 5?",
+        "alternativas": {
+            "A": "134.",
+            "B": "135.",
+            "C": "136.",
+            "D": "137.",
+            "E": "138."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um numero e divisivel por 5 se o seu ultimo algarismo for 0 ou 5. O numero 135 termina em 5, portanto e divisivel por 5."
+    },
+    {
+        "id": "1053230",
+        "enunciado": "Qual dos números abaixo é um divisor exato de 240?",
+        "alternativas": {
+            "A": "7",
+            "B": "50",
+            "C": "42",
+            "D": "40",
+            "E": "32"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para verificar qual numero e divisor exato de 240, basta realizar a divisao. 240 dividido por 40 resulta em 6, sem resto. As outras alternativas nao resultam em divisao exata."
+    },
+    {
+        "id": "1644041",
+        "enunciado": "A quantidade de números naturais existentes,\ninferiores a 2000 e divisíveis por 12, 16 e 24 simulta -nneamente é:",
+        "alternativas": {
+            "A": "Menor que 28.",
+            "B": "Maior que 28 e menor que 32.",
+            "C": "Maior que 32 e menor que 36.",
+            "D": "Maior que 36 e menor que 40.",
+            "E": "Maior que 40."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Para ser divisível por 12, 16 e 24, o número deve ser divisível pelo MMC(12, 16, 24) = 48. Os múltiplos de 48 inferiores a 2000 são 48, 96, 144, ..., 1968. Existem 41 múltiplos."
+    },
+    {
+        "id": "1101908",
+        "enunciado": "Qual dos números abaixo NÃO é divisor de 80?",
+        "alternativas": {
+            "A": "2.",
+            "B": "5.",
+            "C": "7.",
+            "D": "8.",
+            "E": "10."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Divisores de 80 são os números que dividem 80 sem deixar resto. 7 não divide 80 de forma exata (80/7 ≈ 11,4)."
+    },
+    {
+        "id": "1327831",
+        "enunciado": "A alternativa que indica um número divisível tanto por 2 quanto por 3, cujo resultado não sobre resto, é:",
+        "alternativas": {
+            "A": "230.",
+            "B": "234.",
+            "C": "238.",
+            "D": "242.",
+            "E": "248."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para ser divisível por 2, o número deve ser par. Para ser divisível por 3, a soma dos seus algarismos deve ser divisível por 3. Apenas 234 atende a ambos os critérios: 234 é par e 2+3+4=9, que é divisível por 3."
+    },
+    {
+        "id": "1327331",
+        "enunciado": "A alternativa que indica um número divisível tanto por 2 quanto por 3, cujo resultado não sobra resto, é:",
+        "alternativas": {
+            "A": "230.",
+            "B": "234.",
+            "C": "238.",
+            "D": "242.",
+            "E": "248."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um número divisível por 2 é par e termina em 0, 2, 4, 6 ou 8. Um número divisível por 3 tem a soma dos seus algarismos divisível por 3. A alternativa B (234) é par e 2+3+4=9, que é divisível por 3."
+    },
+    {
+        "id": "1576967",
+        "enunciado": "Considere o número de 3 algarismo, qual o algarismo de menor valor que deve ser colocado no lugar do  x, para formar um número divisível por 6:",
+        "alternativas": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para um número ser divisível por 6, ele deve ser divisível por 2 e por 3. Um número é divisível por 2 se for par. Um número é divisível por 3 se a soma de seus algarismos for divisível por 3. No número x_ x_ x, para ser divisível por 6. Se o número for 2x2. A soma 2+x+2=4+x deve ser divisível por 3. O menor valor de x para que 4+x seja divisível por 3 é x=2 (4+2=6), formando 222, que é par e a soma é 6, logo divisível por 3. Logo divisível por 6."
+    },
+    {
+        "id": "2376439",
+        "enunciado": "A professora utiliza o critério de divisibilidade por 2 para a classificação de números. O algarismo da unidade que não permite que um número seja par é o seguinte:",
+        "alternativas": {
+            "A": "0.",
+            "B": "2.",
+            "C": "4.",
+            "D": "7.",
+            "E": "8."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um número é considerado par quando seu algarismo da unidade é 0, 2, 4, 6 ou 8. Para um número ser ímpar, o algarismo da unidade deve ser um dos que não são pares, ou seja, 1, 3, 5, 7 ou 9."
+    },
+    {
+        "id": "1721130",
+        "enunciado": "Qual das seguintes alternativas é múltiplo de 15?",
+        "alternativas": {
+            "A": "28",
+            "B": "40",
+            "C": "52",
+            "D": "63",
+            "E": "75"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Um número é múltiplo de 15 se for divisível por 3 e por 5. Testando as alternativas: 28 (não por 3 nem 5), 40 (por 5, mas não por 3), 52 (nem por 3 nem 5), 63 (por 3, mas não por 5), 75 (por 3 e 5). Portanto, 75 é múltiplo de 15 (75 = 15 * 5)."
+    },
+    {
+        "id": "1723742",
+        "enunciado": "Assinale a alternativa que contém apenas números divisíveis por 6:",
+        "alternativas": {
+            "A": "16; 48; 54; 228.",
+            "B": "44; 54; 228; 306",
+            "C": "42; 60; 222; 306",
+            "D": "66; 132; 224; 308"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para ser divisível por 6, um número deve ser divisível por 2 (par) e por 3 (soma dos algarismos divisível por 3). Na alternativa C: 42 (ok), 60 (ok), 222 (2+2+2=6, ok), 306 (3+0+6=9, ok)."
+    },
+    {
+        "id": "1856120",
+        "enunciado": "Em uma rua, todos os números das casas são múltiplos de 3 e de 4 simultaneamente. Dentre as alternativas abaixo, qual NÃO pode ser o número de uma casa dessa rua?",
+        "alternativas": {
+            "A": "180.",
+            "B": "146.",
+            "C": "216.",
+            "D": "624.",
+            "E": "372."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os numeros das casas devem ser multiplos de 3 e 4 simultaneamente, ou seja, multiplos de 12. Analisando as alternativas, 146 (146/12 = 12,16) nao e divisivel por 12, logo, nao pode ser o numero de uma casa."
+    },
+    {
+        "id": "1732766",
+        "enunciado": "Na lista de números a seguir, assinale aquele cuja divisão por 3 é exata.",
+        "alternativas": {
+            "A": "23.",
+            "B": "26.",
+            "C": "32.",
+            "D": "45.",
+            "E": "89."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A divisibilidade por 3 ocorre quando a soma dos algarismos do número é divisível por 3. No número 45, a soma dos algarismos é 4 + 5 = 9, que é divisível por 3. Portanto, 45 é divisível por 3."
+    },
+    {
+        "id": "2281100",
+        "enunciado": "No Sistema de Numeração Decimal (SDN), a sequência numérica é fundamental. O antecessor  do número 499 (quatrocentos e noventa e nove) e o sucessor  do número 501 (quinhentos e um) são, respectivamente:",
+        "alternativas": {
+            "A": "501 e 499.",
+            "B": "500 e 500.",
+            "C": "500 e 502.",
+            "D": "498 e 502.",
+            "E": "498 e 500."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O antecessor de 499 é 498 (499-1). O sucessor de 501 é 502 (501+1). Portanto, a sequência correta é 498 e 502."
+    },
+    {
+        "id": "1856479",
+        "enunciado": "Qual dos seguintes números NÃO é divisor de 36?",
+        "alternativas": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um número é divisor de 36 se a divisão de 36 por ele resultar em um número inteiro. 36/1=36, 36/2=18, 36/4=9, 36/6=6. No entanto, 36/5 não resulta em um número inteiro, logo 5 não é divisor de 36."
+    },
+    {
+        "id": "1753511",
+        "enunciado": "Qual dos seguintes números é múltiplo de 12?",
+        "alternativas": {
+            "A": "48",
+            "B": "50",
+            "C": "55",
+            "D": "100",
+            "E": "110"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Um múltiplo de 12 é um número que pode ser obtido multiplicando 12 por um número inteiro. Testando as alternativas: 48 / 12 = 4. As outras opções não são divisíveis exatamente por 12 (50/12≈4.16, 55/12≈4.58, 100/12≈8.33, 110/12≈9.16)."
+    },
+    {
+        "id": "1699162",
+        "enunciado": "João organizou 36 balas em saquinhos, de modo que cada saquinho tivesse a mesma quantidade de balas e nenhuma sobrasse. Qual das quantidades abaixo pode representar o número de balas em cada saquinho?",
+        "alternativas": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para que 36 balas sejam divididas em saquinhos com a mesma quantidade sem sobrar, o número de balas por saquinho deve ser um divisor de 36. Dentre as opções, apenas 6 é um divisor de 36 (36 ÷ 6 = 6)."
+    },
+    {
+        "id": "1753515",
+        "enunciado": "Qual dos seguintes números é um divisor de 72?",
+        "alternativas": {
+            "A": "5",
+            "B": "6",
+            "C": "13",
+            "D": "11",
+            "E": "14"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um divisor de 72 é um número que divide 72 exatamente, sem deixar resto. Testando as alternativas: 72 / 5 = 14.4, 72 / 6 = 12, 72 / 13 ≈ 5.5, 72 / 11 ≈ 6.5, 72 / 14 ≈ 5.1. Portanto, 6 é o único divisor inteiro de 72 entre as opções."
+    },
+    {
+        "id": "2384075",
+        "enunciado": "Para organizar os alunos em uma atividade, a professora precisava formar grupos iguais, sem sobrar ninguØm. Ao todo, havia 24 alunos na sala. Qual das alternativas abaixo indica uma quantidade de alunos por grupo que permite essa divisªo exata?",
+        "alternativas": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "9",
+            "E": "10"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para formar grupos iguais sem sobrar alunos, a quantidade de alunos por grupo deve ser um divisor exato do total de alunos (24). Entre as alternativas, apenas 6 divide 24 de forma exata (24 ÷ 6 = 4)."
+    },
+    {
+        "id": "1793418",
+        "enunciado": "Qual das alternativas abaixo é um divisor exato de 24?",
+        "alternativas": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "9",
+            "E": "10"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um divisor exato de 24 é um número que, ao dividir 24, resulta em um número inteiro sem resto. Verificando as alternativas: 24/5 = 4,8; 24/6 = 4; 24/7 ≈ 3,43; 24/9 ≈ 2,67; 24/10 = 2,4. Portanto, 6 é o único divisor exato."
+    },
+    {
+        "id": "1721232",
+        "enunciado": "Qual dos seguintes números é múltiplo de 18?",
+        "alternativas": {
+            "A": "50",
+            "B": "36",
+            "C": "28",
+            "D": "45",
+            "E": "60"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um multiplo de 18 e um numero que, ao ser dividido por 18, tem resto 0. Vamos verificar as alternativas: A) 50/18 = 2 com resto 14. B) 36/18 = 2 com resto 0. C) 28/18 = 1 com resto 10. D) 45/18 = 2 com resto 9. E) 60/18 = 3 com resto 6. Portanto, 36 e multiplo de 18."
+    },
+    {
+        "id": "1721236",
+        "enunciado": "Qual dos seguintes números é um divisor de 84?",
+        "alternativas": {
+            "A": "10",
+            "B": "7",
+            "C": "9",
+            "D": "13",
+            "E": "15"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para identificar um divisor de 84, primeiramente encontramos os fatores primos de 84: 84 = 2^2 * 3 * 7. Verificamos quais das alternativas sao formadas apenas por estes fatores primos ou sao estes fatores primos. O numero 7 e um fator primo de 84."
+    },
+    {
+        "id": "2045610",
+        "enunciado": "Assinale a alternativa que contém todos os números divisíveis por 3:",
+        "alternativas": {
+            "A": "3, 27 e 2.843.",
+            "B": "6, 15 e 193.",
+            "C": "3, 12 e 1554.",
+            "D": "9, 23 e 261."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para que um número seja divisível por 3, a soma de seus algarismos deve ser divisível por 3. Na alternativa C, 3 é divisível por 3. 12 (1+2=3) é divisível por 3. 1554 (1+5+5+4=15) é divisível por 3. As outras alternativas contêm números cujas somas de algarismos não são divisíveis por 3 (A: 2.843 = 17; B: 193 = 13; D: 23 = 5, 261 = 9 mas o 23 não é)."
+    },
+    {
+        "id": "1691402",
+        "enunciado": "Qual número é divisível por 2?",
+        "alternativas": {
+            "A": "19.",
+            "B": "31.",
+            "C": "48.",
+            "D": "55.",
+            "E": "63."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um número é divisível por 2 se o seu último dígito for par (0, 2, 4, 6 ou 8). Entre as alternativas, apenas 48 termina com um dígito par."
+    },
+    {
+        "id": "1511604",
+        "enunciado": "Em um grupo com total de 57 pessoas, 21 são crianças, e os demais, adultos. Deseja-se dividir essas 57 pessoas em grupos, cada um contendo certa quantidade x de crianças e certa quantidade y de adultos, de modo que cada uma das 57 pessoas participe de um grupo, e que x e y sejam os menores números possíveis. Nessas condições, y – x deve ser igual a",
+        "alternativas": {
+            "A": "5.",
+            "B": "4.",
+            "C": "3.",
+            "D": "2.",
+            "E": "1."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Total de pessoas = 57. Crianças = 21. Adultos = 57 - 21 = 36. Queremos a menor quantidade x de crianças e y de adultos em cada grupo, de modo que todos participem. Isso se resolve encontrando o Máximo Divisor Comum (MDC) de 21 e 36. MDC(21, 36) = 3. Assim, x = 21 / 3 = 7 crianças por grupo, e y = 36 / 3 = 12 adultos por grupo. A diferença y - x = 12 - 7 = 5. A questão pede que x e y sejam os menores números possíveis, o que implica que o número de grupos seja o maior possível, o que é dado pelo MDC. Se a intenção é que cada grupo tenha a menor quantidade *possível* de crianças e adultos, isso significa que o número de grupos deve ser o maior possível, o que é o MDC. Grupos = MDC(21, 36) = 3. Crianças por grupo (x) = 21/3 = 7. Adultos por grupo (y) = 36/3 = 12. y - x = 12 - 7 = 5. Entretanto, se a pergunta é sobre ter o menor número possível de crianças e adultos em cada grupo, e que todos participem, ela pode ser interpretada como dividir 21 crianças em x grupos e 36 adultos em y grupos, onde x e y podem ..."
+    },
+    {
+        "id": "1707361",
+        "enunciado": "Assinale a alternativa que contém somente números que são divisíveis por 4:",
+        "alternativas": {
+            "A": "88; 120; 412.",
+            "B": "98; 246; 424.",
+            "C": "76; 246; 412.",
+            "D": "88; 124; 398."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para ser divisível por 4, um número deve ter suas duas últimas casas decimais divisíveis por 4. No item A: 88 (88/4=22), 120 (20/4=5), 412 (12/4=3). Sim, todos são divisíveis por 4."
+    },
+    {
+        "id": "1256958",
+        "enunciado": "Considere os 5 números naturais a=32145326, b=547845907, c=211314567907, d=98760122113 e f=67853425262862. É(São) divisível(is) por 3",
+        "alternativas": {
+            "A": "a e b, apenas.",
+            "B": "a e d, apenas.",
+            "C": "b e c, apenas.",
+            "D": "f, apenas.",
+            "E": "d, apenas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um número é divisível por 3 se a soma de seus algarismos for divisível por 3. Para 'a' (3+2+1+4+5+3+2+6=26, não divisível por 3). Para 'd' (9+8+7+6+0+1+2+2+1+1+3=43, não divisível por 3). Houve erro na resposta ou no cálculo."
+    },
+    {
+        "id": "1232635",
+        "enunciado": "O número 464 é divisível pelo número:",
+        "alternativas": {
+            "A": "3.",
+            "B": "4.",
+            "C": "5.",
+            "D": "6.",
+            "E": "7."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para verificar a divisibilidade por 4, basta analisar os dois últimos dígitos do número. Como 64 é divisível por 4 (64 / 4 = 16), o número 464 também é divisível por 4."
+    },
+    {
+        "id": "1231005",
+        "enunciado": "Um número é divisível por 4 se o número formado pelos seus dois últimos algarismos for divisível por 4. Com base nesse critério, assinale a alternativa que não apresenta um número divisível por 4.",
+        "alternativas": {
+            "A": "12.684.532",
+            "B": "16.932.480",
+            "C": "22.567.128",
+            "D": "27.843.251"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A divisibilidade por 4 é verificada pelos dois últimos algarismos. Em 12.684.532, '32' é divisível por 4. Em 16.932.480, '80' é divisível por 4. Em 22.567.128, '28' é divisível por 4. Em 27.843.251, '51' não é divisível por 4."
+    },
+    {
+        "id": "1139455",
+        "enunciado": "Assinale a alternativa que indica um número que NÃO é divisível por 3.",
+        "alternativas": {
+            "A": "135.",
+            "B": "233.",
+            "C": "372.",
+            "D": "468.",
+            "E": "525."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um número é divisível por 3 se a soma de seus algarismos for divisível por 3. A soma dos algarismos de 233 é 2+3+3 = 8, que não é divisível por 3."
+    },
+    {
+        "id": "1274352",
+        "enunciado": "Qual número é um divisor do número 20?",
+        "alternativas": {
+            "A": "3.",
+            "B": "5.",
+            "C": "6.",
+            "D": "7.",
+            "E": "8."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um divisor de um número é aquele que, ao dividi-lo, resulta em um número inteiro. 20 dividido por 5 é igual a 4."
+    },
+    {
+        "id": "1503599",
+        "enunciado": "Qual dos números abaixo é divisível por 5?",
+        "alternativas": {
+            "A": "134.",
+            "B": "135.",
+            "C": "136.",
+            "D": "137.",
+            "E": "138."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um numero e divisivel por 5 se o seu ultimo algarismo for 0 ou 5. O numero 135 termina em 5, portanto e divisivel por 5."
+    },
+    {
+        "id": "1053230",
+        "enunciado": "Qual dos números abaixo é um divisor exato de 240?",
+        "alternativas": {
+            "A": "7",
+            "B": "50",
+            "C": "42",
+            "D": "40",
+            "E": "32"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para verificar qual numero e divisor exato de 240, basta realizar a divisao. 240 dividido por 40 resulta em 6, sem resto. As outras alternativas nao resultam em divisao exata."
+    },
+    {
+        "id": "1644041",
+        "enunciado": "A quantidade de números naturais existentes,\ninferiores a 2000 e divisíveis por 12, 16 e 24 simulta -nneamente é:",
+        "alternativas": {
+            "A": "Menor que 28.",
+            "B": "Maior que 28 e menor que 32.",
+            "C": "Maior que 32 e menor que 36.",
+            "D": "Maior que 36 e menor que 40.",
+            "E": "Maior que 40."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Para ser divisível por 12, 16 e 24, o número deve ser divisível pelo MMC(12, 16, 24) = 48. Os múltiplos de 48 inferiores a 2000 são 48, 96, 144, ..., 1968. Existem 41 múltiplos."
+    },
+    {
+        "id": "1101908",
+        "enunciado": "Qual dos números abaixo NÃO é divisor de 80?",
+        "alternativas": {
+            "A": "2.",
+            "B": "5.",
+            "C": "7.",
+            "D": "8.",
+            "E": "10."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Divisores de 80 são os números que dividem 80 sem deixar resto. 7 não divide 80 de forma exata (80/7 ≈ 11,4)."
+    },
+    {
+        "id": "1327831",
+        "enunciado": "A alternativa que indica um número divisível tanto por 2 quanto por 3, cujo resultado não sobre resto, é:",
+        "alternativas": {
+            "A": "230.",
+            "B": "234.",
+            "C": "238.",
+            "D": "242.",
+            "E": "248."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para ser divisível por 2, o número deve ser par. Para ser divisível por 3, a soma dos seus algarismos deve ser divisível por 3. Apenas 234 atende a ambos os critérios: 234 é par e 2+3+4=9, que é divisível por 3."
+    },
+    {
+        "id": "1327331",
+        "enunciado": "A alternativa que indica um número divisível tanto por 2 quanto por 3, cujo resultado não sobra resto, é:",
+        "alternativas": {
+            "A": "230.",
+            "B": "234.",
+            "C": "238.",
+            "D": "242.",
+            "E": "248."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um número divisível por 2 é par e termina em 0, 2, 4, 6 ou 8. Um número divisível por 3 tem a soma dos seus algarismos divisível por 3. A alternativa B (234) é par e 2+3+4=9, que é divisível por 3."
+    },
+    {
+        "id": "1576967",
+        "enunciado": "Considere o número de 3 algarismo, qual o algarismo de menor valor que deve ser colocado no lugar do  x, para formar um número divisível por 6:",
+        "alternativas": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para um número ser divisível por 6, ele deve ser divisível por 2 e por 3. Um número é divisível por 2 se for par. Um número é divisível por 3 se a soma de seus algarismos for divisível por 3. No número x_ x_ x, para ser divisível por 6. Se o número for 2x2. A soma 2+x+2=4+x deve ser divisível por 3. O menor valor de x para que 4+x seja divisível por 3 é x=2 (4+2=6), formando 222, que é par e a soma é 6, logo divisível por 3. Logo divisível por 6."
+    },
+    {
+        "id": "1575723",
+        "enunciado": "Considere o número de 3 algarismo, qual o algarismo de menor valor que deve ser colocado no lugar do  x, para formar um número divisível por 6: 4 7 x",
+        "alternativas": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para um número ser divisível por 6, deve ser divisível por 2 (par) e por 3 (soma dos algarismos divisível por 3). Para ser par, x deve ser 0, 2, 4, 6 ou 8. A soma dos algarismos é 4+7+x = 11+x. Para ser divisível por 3, 11+x deve ser múltiplo de 3. Testando os valores pares: 11+0=11 (não), 11+2=13 (não), 11+4=15 (sim), 11+6=17 (não), 11+8=19 (não). Assim o menor algarismo é 4, mas a alternativa B=2 é 11+2=13(nao), 11+0=11(nao), 11+1=12(sim). 471 não é divisível por 2.  472 é divisível por 2, e 4+7+2=13 não é divisível por 3. 473 não é divisível por 2. Então, testando as opções: A) 471 (não divisível por 2), B) 472 (4+7+2=13, não divisível por 3), C) 473 (não divisível por 2), D) 474 (4+7+4=15, divisível por 3 e por 2). O menor algarismo para ser divisível por 6 (par e por 3) é 4. A questão pergunta o 'algarismo de menor valor' que deve ser colocado. Revisando: 47x. Para ser divisível por 2, x é par. Para ser divisível por 3, 4+7+x deve ser divisível por 3. 11+x deve ser múltiplo de 3. Se x=1, 12 (OK), mas..."
+    },
+    {
+        "id": "1102615",
+        "enunciado": "Entre as alternativas a seguir, aquela que contém apenas números divisíveis por 3 é:",
+        "alternativas": {
+            "A": "3, 6, 49, 51.",
+            "B": "13, 23, 66, 99.",
+            "C": "3, 15, 27, 42.",
+            "D": "15, 23, 33, 41.",
+            "E": "3, 18, 29, 36."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um número é divisível por 3 se a soma de seus algarismos for divisível por 3. Na alternativa C, 3 (3), 15 (1+5=6), 27 (2+7=9) e 42 (4+2=6) são todos divisíveis por 3."
+    },
+    {
+        "id": "1161578",
+        "enunciado": "O número 345 NÃO é múltiplo de:",
+        "alternativas": {
+            "A": "3.",
+            "B": "5.",
+            "C": "15.",
+            "D": "19.",
+            "E": "23."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Calculando a divisibilidade de 345 pelos numeros apresentados, verifica-se que e divisivel por 3, 5, 15 e 23. Nao e divisivel por 19, pois 345 / 19 nao resulta em um numero inteiro."
+    },
+    {
+        "id": "1216519",
+        "enunciado": "Qual dos números abaixo NÃO tem o número 7 como divisor?",
+        "alternativas": {
+            "A": "294.",
+            "B": "392.",
+            "C": "714.",
+            "D": "758.",
+            "E": "875."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para verificar se 7 é divisor, dividimos os números por 7. 294/7=42, 392/7=56, 714/7=102, 875/7=125. 758/7 não resulta em um número inteiro (758 = 7*108 + 2), portanto 7 não é divisor de 758."
+    },
+    {
+        "id": "1217372",
+        "enunciado": "QUESTÃO 37 – Qual dos números abaixo NÃO tem o número 7 como divisor?",
+        "alternativas": {
+            "A": "294.",
+            "B": "392.",
+            "C": "714.",
+            "D": "758.",
+            "E": "875."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para verificar se um número é divisível por 7, podemos realizar a divisão. 294/7 = 42; 392/7 = 56; 714/7 = 102; 875/7 = 125. Já 758 não é divisível por 7 (758 = 108 * 7 + 2)."
+    },
+    {
+        "id": "2201046",
+        "enunciado": "O número 847 é múltiplo exato de qual dos algarismos abaixo?",
+        "alternativas": {
+            "A": "12",
+            "B": "6",
+            "C": "7",
+            "D": "3"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para determinar se 847 é múltiplo de um algarismo, realiza-se a divisão. 847 ÷ 7 = 121, indicando que 7 é um divisor exato de 847."
+    },
+    {
+        "id": "1931718",
+        "enunciado": "Sejam os números: 38; 142; 247; 384; 720; 2606. Quantos deles são divisíveis por 6?",
+        "alternativas": {
+            "A": "Nenhum",
+            "B": "2",
+            "C": "4",
+            "D": "Todos"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para ser divisível por 6, um número deve ser divisível por 2 (ser par) e por 3 (a soma dos seus algarismos deve ser divisível por 3). Os números 142 (1+4+2=7) e 720 (7+2+0=9) são os únicos divisíveis por 6. São 2 números."
+    },
+    {
+        "id": "1033523",
+        "enunciado": "Quais dos conjuntos abaixo, são números divisíveis por 2, 3 e 6 ao mesmo tempo?",
+        "alternativas": {
+            "A": "(9,12 e 18)",
+            "B": "(12,15 e 16)",
+            "C": "(24, 36 e 48)",
+            "D": "(25,30 e 45)"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Numeros divisíveis por 2, 3 e 6 ao mesmo tempo devem ser pares e divisíveis por 3. O conjunto C (24, 36 e 48) apresenta apenas numeros que satisfazem estas condicoes."
+    },
+    {
+        "id": "2199381",
+        "enunciado": "Para que o número 12.34X seja divisível por 5, faz-se necessário que X seja igual a 0 ou igual a:",
+        "alternativas": {
+            "A": "2",
+            "B": "4",
+            "C": "3",
+            "D": "5"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um número é divisível por 5 se o seu último dígito for 0 ou 5. No número 12.34X, para que ele seja divisível por 5, X deve ser 0 ou 5. Portanto, X pode ser igual a 5."
+    },
+    {
+        "id": "1069553",
+        "enunciado": "Considerando um número que seja dividido por 7 e tenha resto diferente de 0 (zero) pode -se dizer que o resto dessa divisão poderá ser um dos números abaixo, exceto:",
+        "alternativas": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "5",
+            "E": "7"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Ao dividir um numero por 7, os restos possiveis sao 0, 1, 2, 3, 4, 5 e 6. O numero 7 nao pode ser resto de uma divisao por 7."
+    },
+    {
+        "id": "1069557",
+        "enunciado": "Dentre os números abaixo o único que é múltiplo de 4 é:",
+        "alternativas": {
+            "A": "218",
+            "B": "314",
+            "C": "572",
+            "D": "698",
+            "E": "842"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um número é múltiplo de 4 se os dois últimos algarismos formarem um número divisível por 4. Analisando as alternativas: A) 18 não é divisível por 4. B) 14 não é divisível por 4. C) 72 é divisível por 4 (72/4 = 18). D) 98 não é divisível por 4. E) 42 não é divisível por 4. Portanto, 572 é o único múltiplo de 4."
+    },
+    {
+        "id": "1069558",
+        "enunciado": "Sobre o divisor de um número é certo que:",
+        "alternativas": {
+            "A": "sempre será menor que o número.",
+            "B": "sempre é divisor primo.",
+            "C": "sempre é par se o número for par.",
+            "D": "sempre é primo se o número for ímpar.",
+            "E": "sempre deixa resto zero ao dividir o número."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O divisor de um número, por definição, é um número que divide o dividendo de forma exata, ou seja, sem deixar resto. As demais alternativas contêm generalizações incorretas sobre divisores (podem ser maiores, primos ou não, etc.). A única afirmação sempre verdadeira é que o divisor deixa resto zero ao dividir o número."
+    },
+    {
+        "id": "1264255",
+        "enunciado": "O número 54 NÃO é múltiplo de:",
+        "alternativas": {
+            "A": "2.",
+            "B": "3.",
+            "C": "5.",
+            "D": "6.",
+            "E": "9."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Um numero é múltiplo de outro quando o resultado da divisão é um número inteiro. 54/2 = 27 (sim). 54/3 = 18 (sim). 54/5 = 10,8 (nao). 54/6 = 9 (sim). 54/9 = 6 (sim). Portanto, 54 NAO é múltiplo de 5."
+    },
+    {
+        "id": "1230577",
+        "enunciado": "Qual é o máximo divisor comum dos números 28 e 32?",
+        "alternativas": {
+            "A": "4.",
+            "B": "6.",
+            "C": "8.",
+            "D": "14.",
+            "E": "18."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para encontrar o Máximo Divisor Comum (MDC) de 28 e 32, listamos seus divisores: Divisores de 28: 1, 2, 4, 7, 14, 28. Divisores de 32: 1, 2, 4, 8, 16, 32. O maior divisor comum a ambos é 4."
+    },
+    {
+        "id": "1264264",
+        "enunciado": "Os números 16, 24 e 40 são todos múltiplos de:",
+        "alternativas": {
+            "A": "3.",
+            "B": "4.",
+            "C": "5.",
+            "D": "7.",
+            "E": "9."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os numeros sao 16, 24 e 40. Vamos verificar os multiplos: Multiplos de 3: 16 (nao), 24 (sim), 40 (nao). Multiplos de 4: 16 (sim), 24 (sim), 40 (sim). Multiplos de 5: 16 (nao), 24 (nao), 40 (sim). Multiplos de 7: nenhum. Multiplos de 9: nenhum."
+    },
+    {
+        "id": "1405570",
+        "enunciado": "Um diretor de um clube pretende distribuir ingressos para 10 funcionários de modo que todos recebam a mesma quantidade de ingressos e verificou que sobrariam 3 ingressos. Para conseguir distribuir os ingressos de forma igualitária é preciso, então, ter mais quantos ingressos:",
+        "alternativas": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Se ao distribuir para 10 funcionu00e1rios sobram 3 ingressos, significa que o total de ingressos u00e9 da forma 10*k + 3. Para a distribuiu00e7u00e3o ser igualitu00e1ria sem sobras, o total de ingressos deve ser um mu00faltiplo de 10. O pru00f3ximo mu00faltiplo de 10 apu00f3s um nu00famero que deixa resto 3 u00e9 o nu00famero que precisa de mais 7 ingressos (para atingir o pru00f3ximo mu00faltiplo). Ex: Se T=13, 13/10 = 1 com resto 3. Precisaria de +7 para chegar a 20. Se T=23, 23/10=2 com resto 3. Precisaria de +7 para chegar a 30. Portanto, mais 7 ingressos seriam necessu00e1rios para que a distribuiu00e7u00e3o seja igualitu00e1ria sem sobras."
+    },
+    {
+        "id": "1692815",
+        "enunciado": "A turma de Ana tem mais de 30 e menos de 40 alunos e hoje não faltou ninguém. A professora de Matemática conseguiu fazer grupos de 4 alunos sem que sobrasse ninguém. E, na aula de Geografia, o professor fez grupos de 6 alunos, também sem sobrar alunos. Quantos alunos há na turma de Ana?",
+        "alternativas": {
+            "A": "38 alunos.",
+            "B": "36 alunos.",
+            "C": "35 alunos.",
+            "D": "34 alunos.",
+            "E": "32 alunos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O numero de alunos e multiplo de 4 e 6, logo multiplo comum de 4 e 6. O MMC(4,6) = 12. O numero de alunos e multiplo de 12. Entre 30 e 40, o unico multiplo de 12 e 36. 36 e multiplo de 4 (36/4=9) e de 6 (36/6=6)."
+    },
+    {
+        "id": "2127207",
+        "enunciado": "O número 24 é divisível por?",
+        "alternativas": {
+            "A": "1, 2, 3, 4, 6, 8, 12, 24.",
+            "B": "0, 2, 3, 4, 6, 8, 12, 24.",
+            "C": "1, 2, 3, 4, 5, 6, 12, 24.",
+            "D": "1, 2, 3, 4, 6, 9, 12, 24."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Os divisores de um numero sao aqueles inteiros que o dividem sem deixar resto. O numero 0 nao pode ser divisor. O numero 5 e 9 nao dividem 24 sem resto."
+    }
+]

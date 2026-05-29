@@ -1,0 +1,956 @@
+[
+    {
+        "id": "2096032",
+        "enunciado": "Um percurso de 7,2 km equivale a quantos metros?",
+        "alternativas": {
+            "A": "720 m",
+            "B": "7 200 m",
+            "C": "72 000 m",
+            "D": "720 000 m"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para converter quilômetros em metros, multiplicamos por 1000. Assim, 7,2 km equivalem a 7,2 * 1000 = 7200 metros."
+    },
+    {
+        "id": "2168406",
+        "enunciado": "Quantos metros há em 3 quilômetros?",
+        "alternativas": {
+            "A": "30 metros.",
+            "B": "300 metros.",
+            "C": "3.000 metros.",
+            "D": "30.000 metros.",
+            "E": "300.000 metros."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "1 quilômetro (km) equivale a 1.000 metros (m). Portanto, 3 quilômetros equivalem a 3 x 1.000 metros, resultando em 3.000 metros."
+    },
+    {
+        "id": "2107457",
+        "enunciado": "João planejou fazer uma caminhada de 6 quilômetros. Após algum tempo, ele já percorreu 2 quilômetros. Com base nessa informação, assinale a alternativa que indica quanto ainda falta para João concluir a caminhada, em metros:",
+        "alternativas": {
+            "A": "3.000 m.",
+            "B": "4.000 m.",
+            "C": "5.000 m.",
+            "D": "6.000 m.",
+            "E": "8.000 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "João planejou caminhar 6 km e já percorreu 2 km, restando 4 km. Para converter quilômetros em metros, multiplicamos por 1000. Portanto, 4 km equivalem a 4.000 metros."
+    },
+    {
+        "id": "2068046",
+        "enunciado": "Uma certa distância de A até B equivale a 25 decâmetros, logo o dobro desse valor em centímetros valerá:",
+        "alternativas": {
+            "A": "25.000 cm",
+            "B": "500.000 cm",
+            "C": "50.000 cm",
+            "D": "250.000 cm"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "1 decâmetro (dam) = 10 metros (m). Assim, 25 dam = 250 m. O dobro é 500 m. Para converter metros em centímetros, multiplicamos por 100: 500 m * 100 = 50.000 cm."
+    },
+    {
+        "id": "2168107",
+        "enunciado": "Qual das alternativas abaixo representa corretamente a equivalência entre as unidades de tempo?",
+        "alternativas": {
+            "A": "1 hora tem 100 minutos.",
+            "B": "1 dia tem 10 horas.",
+            "C": "1 semana tem 5 dias.",
+            "D": "1 hora tem 60 minutos.",
+            "E": "1 mês tem sempre 30 dias."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Esta alternativa apresenta a única equivalência de tempo correta e amplamente aceita universalmente: 1 hora é composta por 60 minutos."
+    },
+    {
+        "id": "2335294",
+        "enunciado": "Pedro produz feijão no seu sítio e vende na feira. Em uma promoção ele juntou um pacote de 2 kg de feijão preto, com outro de 750 g de feijão vermelho para formar uma única oferta. Quantos quilos de feijão Pedro está vendendo nesta oferta?",
+        "alternativas": {
+            "A": "Pedro está vendendo 2,75 kg de feijão nesta oferta.",
+            "B": "Pedro está vendendo 2,5 kg de feijão nesta oferta.",
+            "C": "Pedro está vendendo 3,15 kg de feijão nesta oferta.",
+            "D": "Pedro está vendendo 2,6 kg de feijão nesta oferta."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para somar os pesos, é necessário converter as unidades para serem iguais. A conversão de gramas para quilogramas é feita dividindo por 1.000. Assim, 750 g = 0,75 kg. Somando ao peso do outro pacote: 2 kg + 0,75 kg = 2,75 kg. Portanto, Pedro está vendendo 2,75 kg de feijão."
+    },
+    {
+        "id": "2240704",
+        "enunciado": "Uma costureira leva aproximadamente 14 minutos para ajustar uma peça de roupa. Em um dia, ela precisa ajustar 12 peças iguais, levando o mesmo tempo em cada uma. Quantas horas e minutos ela levará para concluir todos os ajustes?",
+        "alternativas": {
+            "A": "2 horas e 38 minutos",
+            "B": "2 horas e 44 minutos",
+            "C": "2 horas e 48 minutos",
+            "D": "2 horas e 56 minutos",
+            "E": "3 horas"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O tempo total para ajustar 12 peças é 12 peças * 14 minutos/peça = 168 minutos. Convertendo para horas: 168 minutos / 60 minutos/hora = 2 horas e 48 minutos. Portanto, ela levará 2 horas e 48 minutos."
+    },
+    {
+        "id": "2241618",
+        "enunciado": "Em uma loja de móveis planejados, um cliente está escolhendo a mesa ideal para sua sala de jantar. O vendedor informa que o modelo escolhido possui 120 centímetros de comprimento, mas o cliente prefere saber essa medida em metros, para compará-la com o espaço disponível no ambiente. Quantos metros isso representa?",
+        "alternativas": {
+            "A": "1,2 metros.",
+            "B": "1200 metros.",
+            "C": "12 metros.",
+            "D": "0,12 metros."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter centímetros em metros, dividimos por 100. Assim, 120 centímetros divididos por 100 é igual a 1,2 metros."
+    },
+    {
+        "id": "2071501",
+        "enunciado": "O reservatório de água de um condomínio comporta 20.000 litros. Essa capacidade será escrita na parte externa do reservatório, porém, na unidade de medida m3. O valor assim indicado será:",
+        "alternativas": {
+            "A": "0,2",
+            "B": "2",
+            "C": "20",
+            "D": "200",
+            "E": "2.000"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para converter litros para metros cúbicos, a relação é 1 m³ = 1000 litros. Portanto, 20.000 litros / 1000 litros/m³ = 20 m³. O valor indicado será 20."
+    },
+    {
+        "id": "2376442",
+        "enunciado": "Uma caixa de leite tem um volume interno de 1.000 mililitros (mL). A unidade de medida do Sistema Internacional (SI) que expressa este volume de forma equivalente é o seguinte:",
+        "alternativas": {
+            "A": "100 centilitros (cL).",
+            "B": "1 decilitro (dL).",
+            "C": "1 litro (L).",
+            "D": "1 decalitro (daL).",
+            "E": "1 hectolitro (hL)."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No Sistema Internacional de Unidades (SI), o litro (L) é uma unidade de volume comumente usada. Um mililitro (mL) é definido como 1/1000 de um litro. Portanto, 1.000 mL equivalem a 1 L."
+    },
+    {
+        "id": "2109861",
+        "enunciado": "Gustavo foi ao mercado comprar carne picada para fazer estrogonofe. Ele encontrou a carne que queria em pacotes contendo 300 gramas de carne. Ele quer comprar 2,4 kg dessa carne. Qual é de pacotes que ele deve comprar? Assinale a alternativa correta:",
+        "alternativas": {
+            "A": "6 pacotes.",
+            "B": "10 pacotes.",
+            "C": "8 pacotes.",
+            "D": "7 pacotes.",
+            "E": "9 pacotes."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Gustavo quer 2,4 kg de carne, o que equivale a 2400 gramas. Cada pacote tem 300 gramas. Número de pacotes = 2400 / 300 = 8 pacotes."
+    },
+    {
+        "id": "2376444",
+        "enunciado": "Um técnico agrícola precisa cercar um campo retangular. Para calcular o perímetro total do campo, a unidade de medida do Sistema Internacional (SI) que ele deve utilizar para expressar este comprimento é o seguinte:",
+        "alternativas": {
+            "A": "Metro quadrado (m²).",
+            "B": "Metro cúbico (m³).",
+            "C": "Quilograma (Kg).",
+            "D": "Hectare (ha).",
+            "E": "Metro (m)."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O perímetro de um campo retangular representa o comprimento total de sua borda. O Sistema Internacional de Unidades (SI) define o metro (m) como a unidade fundamental para medir comprimento. Unidades como m² e m³ medem área e volume, respectivamente."
+    },
+    {
+        "id": "2232715",
+        "enunciado": "Um pote de creme para mãos pesa 250 gramas. Quantos miligramas tem esse pote de creme para mãos?",
+        "alternativas": {
+            "A": "250.000 miligramas",
+            "B": "0,25 miligramas",
+            "C": "2.500 miligramas",
+            "D": "25.500 miligramas",
+            "E": "Nenhuma das alternativas"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter gramas em miligramas, multiplicamos por 1000. Assim, 250 gramas equivalem a 250 * 1000 = 250.000 miligramas."
+    },
+    {
+        "id": "2107465",
+        "enunciado": "Maria pegou uma corda de 900 cm de comprimento para montar uma divisão em um galpão. Ela cortou a corda em 6 pedaços de mesmo tamanho. A medida, em metros, de cada pedaço que Maria obteve, após o corte, foi:",
+        "alternativas": {
+            "A": "1,2 m.",
+            "B": "1,5 m.",
+            "C": "1,8 m.",
+            "D": "2,1 m.",
+            "E": "2,2 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A corda tem 900 cm, o que equivale a 9 metros (900/100). Ao ser dividida em 6 pedaços de mesmo tamanho, cada pedaço terá 1,5 metros (9/6)."
+    },
+    {
+        "id": "1992937",
+        "enunciado": "Os pontos extremos do Brasil correspondem àquelas localidades situadas nos limites norte, sul, leste e oeste do país. A identificação e demarcação dos pontos extremos do Brasil é importante para a delimitação dos limites do território brasileiro, além de agregar valor turístico às localidades correspondentes. Os pontos extremos são: ao norte, a nascente do rio Ailã; ao sul, o Arroio Chuí; ao leste, a Ponta do Seixas e ao sul, a nascente do rio Moa. A distância entre os extremos norte e sul é de 4.378,40 quilômetros e a distância entre os extremos leste e oeste é de 4.326,63 quilômetros. Quanto vale, em metros, essas duas distâncias somadas? Lembre-se de que 1 quilômetro é igual a 1.000 metros.",
+        "alternativas": {
+            "A": "87.050.300,00.",
+            "B": "8.705.030,00.",
+            "C": "870.503,00.",
+            "D": "87.050,30."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A distância total em quilômetros é 4.378,40 + 4.326,63 = 8.705,03 km. Para converter para metros, multiplicamos por 1.000: 8.705,03 km * 1.000 m/km = 8.705.030 metros. A alternativa B está correta."
+    },
+    {
+        "id": "1797873",
+        "enunciado": "Uma seringa possui volume interno total de 3 mL. Expressando essa medida em mm³, obtém-se",
+        "alternativas": {
+            "A": "0,3",
+            "B": "3",
+            "C": "30",
+            "D": "300",
+            "E": "3 000"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "1 mililitro (mL) é equivalente a 1 centímetro cúbico (cm³). Sabendo que 1 cm³ = 1000 mm³, então 3 mL = 3 cm³ = 3 * 1000 mm³ = 3000 mm³."
+    },
+    {
+        "id": "2168420",
+        "enunciado": "Quantos gramas há em 2,5 kg?",
+        "alternativas": {
+            "A": "2.500 g.",
+            "B": "250 g.",
+            "C": "25.000 g.",
+            "D": "200 g.",
+            "E": "1.250 g."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter quilogramas (kg) em gramas (g), multiplica-se o valor em kg por 1.000, pois 1 kg = 1.000 g. Portanto, 2,5 kg * 1.000 g/kg = 2.500 g."
+    },
+    {
+        "id": "2240714",
+        "enunciado": "Helena iniciou uma pintura em sua casa em uma segunda-feira, e o pintor informou que levaria 12 dias para concluir o serviço, trabalhando todos os dias, inclusive nos finais de semana. Considerando que a segunda-feira é o primeiro dia de trabalho, em que dia da semana o serviço será finalizado?",
+        "alternativas": {
+            "A": "Quinta-feira",
+            "B": "Sexta-feira",
+            "C": "Terça-feira",
+            "D": "Domingo",
+            "E": "Segunda-feira"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A pintura começou em uma segunda-feira (dia 1). 12 dias depois, contamos 12 dias a partir da segunda-feira. Dia 1 é Segunda, Dia 7 é Domingo, Dia 8 é Segunda, Dia 12 é Sexta-feira."
+    },
+    {
+        "id": "2385718",
+        "enunciado": "A conexão roscável que corresponde a um tubo soldável de 25mm possui qual medida em polegadas?",
+        "alternativas": {
+            "A": "½ polegada.",
+            "B": "1 polegada.",
+            "C": "1. ½ polegada.",
+            "D": "¾ polegada.",
+            "E": "2 polegadas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As tubulações soldáveis de 25mm são equivalentes às conexões roscáveis de ¾ de polegada, padrão comum em instalações hidráulicas."
+    },
+    {
+        "id": "2332726",
+        "enunciado": "Uma rotação completa corresponde a 360 graus ou 400 grados. Portanto, um ângulo de 45 graus corresponde a:",
+        "alternativas": {
+            "A": "40 grados.",
+            "B": "47 grados.",
+            "C": "52 grados.",
+            "D": "55 grados.",
+            "E": "50 grados."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Uma rotação completa é 360 graus ou 400 grados. Para converter 45 graus para grados, usa-se a proporção: 45/360 = x/400. Resolvendo, x = 50 grados."
+    },
+    {
+        "id": "2323824",
+        "enunciado": "Assinale a alternativa CORRETA que indica a unidade de medida comumente usada na medição de vazão de um hidrômetro.",
+        "alternativas": {
+            "A": "Metros por segundo (m/s).",
+            "B": "Quilogramas por segundo (kg/s).",
+            "C": "Metros cúbicos por hora (m³/h).",
+            "D": "Centímetros por segundo (cm/s).",
+            "E": "Pascal (Pa)."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A vazão em hidrômetros geralmente é medida em volume de água por unidade de tempo. Metros cúbicos por hora (m³/h) é uma unidade comum para expressar essa taxa de fluxo em sistemas hidráulicos."
+    },
+    {
+        "id": "2323826",
+        "enunciado": "Alguns hidrômetros modernos utilizam sistemas que permitem enviar dados de consumo diretamente para a central de controle. Assim sendo, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Esse sistema dispensa o uso de computadores.",
+            "B": "Os dados são enviados de forma eletrônica para facilitar a leitura.",
+            "C": "O sistema serve apenas para controlar a pressão da água.",
+            "D": "As informações ficam armazenadas apenas no visor do hidrômetro.",
+            "E": "O sistema substitui a necessidade de manutenção do aparelho."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os hidrômetros com sistemas de telemetria enviam dados de consumo eletronicamente, o que simplifica e agiliza o processo de leitura e análise, dispensando a visita manual em muitos casos."
+    },
+    {
+        "id": "2036489",
+        "enunciado": "Considerando que as unidades de medida lineares são o metro (m), decímetro (dm), centímetro (cm), milímetro (mm), decâmetro (dam), hectômetro (hm) e quilômetro (km), os instrumentos de medição lineares incluem:",
+        "alternativas": {
+            "A": "nível, trena, paquímetro, micrômetro, réguas e esquadro.",
+            "B": "réguas, prumo, paquímetro, linhas, régua milimetrada e escalas.",
+            "C": "esquadro, trena, multímetro, termômetro, réguas e escalas.",
+            "D": "metro, trena, paquímetro, micrômetro, réguas e escalas.",
+            "E": "escala, trena, prumo de centro, micrômetro, nível e esquadro."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os instrumentos listados, exceto 'escalas' genéricas, são todos utilizados para medição de comprimento, abrangendo desde medições macroscópicas (trena) até microscópicas (micrômetro), além de blocos padrão (metro) e ferramentas de verificação (paquímetro)."
+    },
+    {
+        "id": "2408636",
+        "enunciado": "Durante a edição anual da Maratona Ecológica, voltada à conscientização ambiental, um dos percursos intermediários oferecidos aos atletas teve a distância oficial de 15,7 quilômetros. Considerando essa distância em metros, qual foi o total percorrido por um corredor que completou integralmente o trajeto?",
+        "alternativas": {
+            "A": "A distância percorrida foi de 15.700 metros.",
+            "B": "A distância percorrida foi de 1.570 metros.",
+            "C": "A distância percorrida foi de 157.000 metros.",
+            "D": "A distância percorrida foi de 157 metros."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter quilômetros em metros, multiplicamos por 1000. Portanto, 15,7 quilômetros equivalem a 15,7 * 1000 = 15.700 metros. A distância percorrida pelo corredor foi de 15.700 metros."
+    },
+    {
+        "id": "2408504",
+        "enunciado": "Dona Neusa recebeu uma encomenda especial de bolos para uma festa no final de semana. Para garantir que não faltasse farinha, ela foi até o armazém e comprou 3,5 quilogramas do produto. Sabendo que a balança do armazém também mostra os valores em gramas, quantos gramas de farinha Dona Neusa comprou ao todo?",
+        "alternativas": {
+            "A": "Ela comprou 3.500 gramas de farinha ao todo.",
+            "B": "Ela comprou 0,350 gramas de farinha ao todo.",
+            "C": "Ela comprou 35.000 gramas de farinha ao todo.",
+            "D": "Ela comprou 350 gramas de farinha ao todo."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter quilogramas para gramas, multiplique por 1000. Assim, 3,5 quilogramas equivalem a 3,5 * 1000 = 3.500 gramas."
+    },
+    {
+        "id": "2370496",
+        "enunciado": "A trena é um  instrumento de medição de comprimento  essencial para obras da construção civil. Normalmente, uma trena apresenta medidas em milímetros, centímetros e polegadas. Quantos centímetros mede uma polegada?",
+        "alternativas": {
+            "A": "2.",
+            "B": "2,54.",
+            "C": "3,14.",
+            "D": "4.",
+            "E": "10."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Uma polegada é uma unidade de medida de comprimento equivalente a 2,54 centímetros, sendo amplamente utilizada em diversas áreas, incluindo a construção civil."
+    },
+    {
+        "id": "2367535",
+        "enunciado": "No laboratório da escola técnica, a estudante Elisa mediu o volume de três líquidos diferentes. Somando-os, obteve 3,75 litros. Como o relatório pede o resultado em mililitros, ela precisou fazer a conversão correta conforme o sistema métrico decimal. Qual será o valor correto do volume (V) após a conversão?",
+        "alternativas": {
+            "A": "V = 3.750 mL",
+            "B": "V = 3.075 mL",
+            "C": "V = 375 mL",
+            "D": "V = 30.750 mL"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A conversão de litros para mililitros é feita multiplicando-se por 1.000, pois 1 litro equivale a 1.000 mililitros. Portanto, 3,75 litros equivalem a 3,75 * 1.000 = 3.750 mL."
+    },
+    {
+        "id": "2367307",
+        "enunciado": "Qual será a medida registrada por ele?",
+        "alternativas": {
+            "A": "A medida registrada será de 4,5 km.",
+            "B": "A medida registrada será de 0,0045 km.",
+            "C": "A medida registrada será de 45.000 km.",
+            "D": "A medida registrada será de 0,45 km."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter milhas em quilômetros, sabendo que 1 milha é aproximadamente 1,60934 km, uma distância de 2,8 milhas seria cerca de 4,5 km. A alternativa A está correta."
+    },
+    {
+        "id": "2367816",
+        "enunciado": "Um atleta percorreu uma trilha durante um treino de resistência e seu cronômetro registrou um trajeto de 4.500 metros. Porém, seus registros são feitos em quilômetros. Qual será a medida registrada por ele?",
+        "alternativas": {
+            "A": "A medida registrada será de 0,0045 km.",
+            "B": "A medida registrada será de 4,5 km.",
+            "C": "A medida registrada será de 0,45 km.",
+            "D": "A medida registrada será de 45.000 km."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para converter metros em quilômetros, divide-se por 1000. Portanto, 4.500 metros são equivalentes a 4,5 quilômetros (4500 / 1000)."
+    },
+    {
+        "id": "2408514",
+        "enunciado": "O senhor Francisco mediu a cerca do seu sítio e viu que ela tem 0,8 quilômetro de extensão. Qual é o comprimento dessa cerca em metros?",
+        "alternativas": {
+            "A": "O comprimento da cerca é de 8.000 metros.",
+            "B": "O comprimento da cerca é de 8 metros.",
+            "C": "O comprimento da cerca é de 800 metros.",
+            "D": "O comprimento da cerca é de 80 metros."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "1 quilômetro equivale a 1.000 metros. Portanto, 0,8 quilômetro é igual a 0,8 * 1.000 = 800 metros. A cerca mede 800 metros."
+    },
+    {
+        "id": "2096032",
+        "enunciado": "Um percurso de 7,2 km equivale a quantos metros?",
+        "alternativas": {
+            "A": "720 m",
+            "B": "7 200 m",
+            "C": "72 000 m",
+            "D": "720 000 m"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para converter quilômetros em metros, multiplicamos por 1000. Assim, 7,2 km equivalem a 7,2 * 1000 = 7200 metros."
+    },
+    {
+        "id": "2168406",
+        "enunciado": "Quantos metros há em 3 quilômetros?",
+        "alternativas": {
+            "A": "30 metros.",
+            "B": "300 metros.",
+            "C": "3.000 metros.",
+            "D": "30.000 metros.",
+            "E": "300.000 metros."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "1 quilômetro (km) equivale a 1.000 metros (m). Portanto, 3 quilômetros equivalem a 3 x 1.000 metros, resultando em 3.000 metros."
+    },
+    {
+        "id": "2107457",
+        "enunciado": "João planejou fazer uma caminhada de 6 quilômetros. Após algum tempo, ele já percorreu 2 quilômetros. Com base nessa informação, assinale a alternativa que indica quanto ainda falta para João concluir a caminhada, em metros:",
+        "alternativas": {
+            "A": "3.000 m.",
+            "B": "4.000 m.",
+            "C": "5.000 m.",
+            "D": "6.000 m.",
+            "E": "8.000 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "João planejou caminhar 6 km e já percorreu 2 km, restando 4 km. Para converter quilômetros em metros, multiplicamos por 1000. Portanto, 4 km equivalem a 4.000 metros."
+    },
+    {
+        "id": "2068046",
+        "enunciado": "Uma certa distância de A até B equivale a 25 decâmetros, logo o dobro desse valor em centímetros valerá:",
+        "alternativas": {
+            "A": "25.000 cm",
+            "B": "500.000 cm",
+            "C": "50.000 cm",
+            "D": "250.000 cm"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "1 decâmetro (dam) = 10 metros (m). Assim, 25 dam = 250 m. O dobro é 500 m. Para converter metros em centímetros, multiplicamos por 100: 500 m * 100 = 50.000 cm."
+    },
+    {
+        "id": "2168107",
+        "enunciado": "Qual das alternativas abaixo representa corretamente a equivalência entre as unidades de tempo?",
+        "alternativas": {
+            "A": "1 hora tem 100 minutos.",
+            "B": "1 dia tem 10 horas.",
+            "C": "1 semana tem 5 dias.",
+            "D": "1 hora tem 60 minutos.",
+            "E": "1 mês tem sempre 30 dias."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Esta alternativa apresenta a única equivalência de tempo correta e amplamente aceita universalmente: 1 hora é composta por 60 minutos."
+    },
+    {
+        "id": "2335294",
+        "enunciado": "Pedro produz feijão no seu sítio e vende na feira. Em uma promoção ele juntou um pacote de 2 kg de feijão preto, com outro de 750 g de feijão vermelho para formar uma única oferta. Quantos quilos de feijão Pedro está vendendo nesta oferta?",
+        "alternativas": {
+            "A": "Pedro está vendendo 2,75 kg de feijão nesta oferta.",
+            "B": "Pedro está vendendo 2,5 kg de feijão nesta oferta.",
+            "C": "Pedro está vendendo 3,15 kg de feijão nesta oferta.",
+            "D": "Pedro está vendendo 2,6 kg de feijão nesta oferta."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para somar os pesos, é necessário converter as unidades para serem iguais. A conversão de gramas para quilogramas é feita dividindo por 1.000. Assim, 750 g = 0,75 kg. Somando ao peso do outro pacote: 2 kg + 0,75 kg = 2,75 kg. Portanto, Pedro está vendendo 2,75 kg de feijão."
+    },
+    {
+        "id": "2240704",
+        "enunciado": "Uma costureira leva aproximadamente 14 minutos para ajustar uma peça de roupa. Em um dia, ela precisa ajustar 12 peças iguais, levando o mesmo tempo em cada uma. Quantas horas e minutos ela levará para concluir todos os ajustes?",
+        "alternativas": {
+            "A": "2 horas e 38 minutos",
+            "B": "2 horas e 44 minutos",
+            "C": "2 horas e 48 minutos",
+            "D": "2 horas e 56 minutos",
+            "E": "3 horas"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O tempo total para ajustar 12 peças é 12 peças * 14 minutos/peça = 168 minutos. Convertendo para horas: 168 minutos / 60 minutos/hora = 2 horas e 48 minutos. Portanto, ela levará 2 horas e 48 minutos."
+    },
+    {
+        "id": "2241618",
+        "enunciado": "Em uma loja de móveis planejados, um cliente está escolhendo a mesa ideal para sua sala de jantar. O vendedor informa que o modelo escolhido possui 120 centímetros de comprimento, mas o cliente prefere saber essa medida em metros, para compará-la com o espaço disponível no ambiente. Quantos metros isso representa?",
+        "alternativas": {
+            "A": "1,2 metros.",
+            "B": "1200 metros.",
+            "C": "12 metros.",
+            "D": "0,12 metros."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter centímetros em metros, dividimos por 100. Assim, 120 centímetros divididos por 100 é igual a 1,2 metros."
+    },
+    {
+        "id": "2071501",
+        "enunciado": "O reservatório de água de um condomínio comporta 20.000 litros. Essa capacidade será escrita na parte externa do reservatório, porém, na unidade de medida m3. O valor assim indicado será:",
+        "alternativas": {
+            "A": "0,2",
+            "B": "2",
+            "C": "20",
+            "D": "200",
+            "E": "2.000"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para converter litros para metros cúbicos, a relação é 1 m³ = 1000 litros. Portanto, 20.000 litros / 1000 litros/m³ = 20 m³. O valor indicado será 20."
+    },
+    {
+        "id": "2376442",
+        "enunciado": "Uma caixa de leite tem um volume interno de 1.000 mililitros (mL). A unidade de medida do Sistema Internacional (SI) que expressa este volume de forma equivalente é o seguinte:",
+        "alternativas": {
+            "A": "100 centilitros (cL).",
+            "B": "1 decilitro (dL).",
+            "C": "1 litro (L).",
+            "D": "1 decalitro (daL).",
+            "E": "1 hectolitro (hL)."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "No Sistema Internacional de Unidades (SI), o litro (L) é uma unidade de volume comumente usada. Um mililitro (mL) é definido como 1/1000 de um litro. Portanto, 1.000 mL equivalem a 1 L."
+    },
+    {
+        "id": "2109861",
+        "enunciado": "Gustavo foi ao mercado comprar carne picada para fazer estrogonofe. Ele encontrou a carne que queria em pacotes contendo 300 gramas de carne. Ele quer comprar 2,4 kg dessa carne. Qual é de pacotes que ele deve comprar? Assinale a alternativa correta:",
+        "alternativas": {
+            "A": "6 pacotes.",
+            "B": "10 pacotes.",
+            "C": "8 pacotes.",
+            "D": "7 pacotes.",
+            "E": "9 pacotes."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Gustavo quer 2,4 kg de carne, o que equivale a 2400 gramas. Cada pacote tem 300 gramas. Número de pacotes = 2400 / 300 = 8 pacotes."
+    },
+    {
+        "id": "2376444",
+        "enunciado": "Um técnico agrícola precisa cercar um campo retangular. Para calcular o perímetro total do campo, a unidade de medida do Sistema Internacional (SI) que ele deve utilizar para expressar este comprimento é o seguinte:",
+        "alternativas": {
+            "A": "Metro quadrado (m²).",
+            "B": "Metro cúbico (m³).",
+            "C": "Quilograma (Kg).",
+            "D": "Hectare (ha).",
+            "E": "Metro (m)."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O perímetro de um campo retangular representa o comprimento total de sua borda. O Sistema Internacional de Unidades (SI) define o metro (m) como a unidade fundamental para medir comprimento. Unidades como m² e m³ medem área e volume, respectivamente."
+    },
+    {
+        "id": "2232715",
+        "enunciado": "Um pote de creme para mãos pesa 250 gramas. Quantos miligramas tem esse pote de creme para mãos?",
+        "alternativas": {
+            "A": "250.000 miligramas",
+            "B": "0,25 miligramas",
+            "C": "2.500 miligramas",
+            "D": "25.500 miligramas",
+            "E": "Nenhuma das alternativas"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter gramas em miligramas, multiplicamos por 1000. Assim, 250 gramas equivalem a 250 * 1000 = 250.000 miligramas."
+    },
+    {
+        "id": "2107465",
+        "enunciado": "Maria pegou uma corda de 900 cm de comprimento para montar uma divisão em um galpão. Ela cortou a corda em 6 pedaços de mesmo tamanho. A medida, em metros, de cada pedaço que Maria obteve, após o corte, foi:",
+        "alternativas": {
+            "A": "1,2 m.",
+            "B": "1,5 m.",
+            "C": "1,8 m.",
+            "D": "2,1 m.",
+            "E": "2,2 m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A corda tem 900 cm, o que equivale a 9 metros (900/100). Ao ser dividida em 6 pedaços de mesmo tamanho, cada pedaço terá 1,5 metros (9/6)."
+    },
+    {
+        "id": "1992937",
+        "enunciado": "Os pontos extremos do Brasil correspondem àquelas localidades situadas nos limites norte, sul, leste e oeste do país. A identificação e demarcação dos pontos extremos do Brasil é importante para a delimitação dos limites do território brasileiro, além de agregar valor turístico às localidades correspondentes. Os pontos extremos são: ao norte, a nascente do rio Ailã; ao sul, o Arroio Chuí; ao leste, a Ponta do Seixas e ao sul, a nascente do rio Moa. A distância entre os extremos norte e sul é de 4.378,40 quilômetros e a distância entre os extremos leste e oeste é de 4.326,63 quilômetros. Quanto vale, em metros, essas duas distâncias somadas? Lembre-se de que 1 quilômetro é igual a 1.000 metros.",
+        "alternativas": {
+            "A": "87.050.300,00.",
+            "B": "8.705.030,00.",
+            "C": "870.503,00.",
+            "D": "87.050,30."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A distância total em quilômetros é 4.378,40 + 4.326,63 = 8.705,03 km. Para converter para metros, multiplicamos por 1.000: 8.705,03 km * 1.000 m/km = 8.705.030 metros. A alternativa B está correta."
+    },
+    {
+        "id": "1797873",
+        "enunciado": "Uma seringa possui volume interno total de 3 mL. Expressando essa medida em mm³, obtém-se",
+        "alternativas": {
+            "A": "0,3",
+            "B": "3",
+            "C": "30",
+            "D": "300",
+            "E": "3 000"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "1 mililitro (mL) é equivalente a 1 centímetro cúbico (cm³). Sabendo que 1 cm³ = 1000 mm³, então 3 mL = 3 cm³ = 3 * 1000 mm³ = 3000 mm³."
+    },
+    {
+        "id": "2168420",
+        "enunciado": "Quantos gramas há em 2,5 kg?",
+        "alternativas": {
+            "A": "2.500 g.",
+            "B": "250 g.",
+            "C": "25.000 g.",
+            "D": "200 g.",
+            "E": "1.250 g."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter quilogramas (kg) em gramas (g), multiplica-se o valor em kg por 1.000, pois 1 kg = 1.000 g. Portanto, 2,5 kg * 1.000 g/kg = 2.500 g."
+    },
+    {
+        "id": "2240714",
+        "enunciado": "Helena iniciou uma pintura em sua casa em uma segunda-feira, e o pintor informou que levaria 12 dias para concluir o serviço, trabalhando todos os dias, inclusive nos finais de semana. Considerando que a segunda-feira é o primeiro dia de trabalho, em que dia da semana o serviço será finalizado?",
+        "alternativas": {
+            "A": "Quinta-feira",
+            "B": "Sexta-feira",
+            "C": "Terça-feira",
+            "D": "Domingo",
+            "E": "Segunda-feira"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A pintura começou em uma segunda-feira (dia 1). 12 dias depois, contamos 12 dias a partir da segunda-feira. Dia 1 é Segunda, Dia 7 é Domingo, Dia 8 é Segunda, Dia 12 é Sexta-feira."
+    },
+    {
+        "id": "2385718",
+        "enunciado": "A conexão roscável que corresponde a um tubo soldável de 25mm possui qual medida em polegadas?",
+        "alternativas": {
+            "A": "½ polegada.",
+            "B": "1 polegada.",
+            "C": "1. ½ polegada.",
+            "D": "¾ polegada.",
+            "E": "2 polegadas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "As tubulações soldáveis de 25mm são equivalentes às conexões roscáveis de ¾ de polegada, padrão comum em instalações hidráulicas."
+    },
+    {
+        "id": "2332726",
+        "enunciado": "Uma rotação completa corresponde a 360 graus ou 400 grados. Portanto, um ângulo de 45 graus corresponde a:",
+        "alternativas": {
+            "A": "40 grados.",
+            "B": "47 grados.",
+            "C": "52 grados.",
+            "D": "55 grados.",
+            "E": "50 grados."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Uma rotação completa é 360 graus ou 400 grados. Para converter 45 graus para grados, usa-se a proporção: 45/360 = x/400. Resolvendo, x = 50 grados."
+    },
+    {
+        "id": "2323824",
+        "enunciado": "Assinale a alternativa CORRETA que indica a unidade de medida comumente usada na medição de vazão de um hidrômetro.",
+        "alternativas": {
+            "A": "Metros por segundo (m/s).",
+            "B": "Quilogramas por segundo (kg/s).",
+            "C": "Metros cúbicos por hora (m³/h).",
+            "D": "Centímetros por segundo (cm/s).",
+            "E": "Pascal (Pa)."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A vazão em hidrômetros geralmente é medida em volume de água por unidade de tempo. Metros cúbicos por hora (m³/h) é uma unidade comum para expressar essa taxa de fluxo em sistemas hidráulicos."
+    },
+    {
+        "id": "2323826",
+        "enunciado": "Alguns hidrômetros modernos utilizam sistemas que permitem enviar dados de consumo diretamente para a central de controle. Assim sendo, assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "Esse sistema dispensa o uso de computadores.",
+            "B": "Os dados são enviados de forma eletrônica para facilitar a leitura.",
+            "C": "O sistema serve apenas para controlar a pressão da água.",
+            "D": "As informações ficam armazenadas apenas no visor do hidrômetro.",
+            "E": "O sistema substitui a necessidade de manutenção do aparelho."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os hidrômetros com sistemas de telemetria enviam dados de consumo eletronicamente, o que simplifica e agiliza o processo de leitura e análise, dispensando a visita manual em muitos casos."
+    },
+    {
+        "id": "2036489",
+        "enunciado": "Considerando que as unidades de medida lineares são o metro (m), decímetro (dm), centímetro (cm), milímetro (mm), decâmetro (dam), hectômetro (hm) e quilômetro (km), os instrumentos de medição lineares incluem:",
+        "alternativas": {
+            "A": "nível, trena, paquímetro, micrômetro, réguas e esquadro.",
+            "B": "réguas, prumo, paquímetro, linhas, régua milimetrada e escalas.",
+            "C": "esquadro, trena, multímetro, termômetro, réguas e escalas.",
+            "D": "metro, trena, paquímetro, micrômetro, réguas e escalas.",
+            "E": "escala, trena, prumo de centro, micrômetro, nível e esquadro."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os instrumentos listados, exceto 'escalas' genéricas, são todos utilizados para medição de comprimento, abrangendo desde medições macroscópicas (trena) até microscópicas (micrômetro), além de blocos padrão (metro) e ferramentas de verificação (paquímetro)."
+    },
+    {
+        "id": "2408636",
+        "enunciado": "Durante a edição anual da Maratona Ecológica, voltada à conscientização ambiental, um dos percursos intermediários oferecidos aos atletas teve a distância oficial de 15,7 quilômetros. Considerando essa distância em metros, qual foi o total percorrido por um corredor que completou integralmente o trajeto?",
+        "alternativas": {
+            "A": "A distância percorrida foi de 15.700 metros.",
+            "B": "A distância percorrida foi de 1.570 metros.",
+            "C": "A distância percorrida foi de 157.000 metros.",
+            "D": "A distância percorrida foi de 157 metros."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter quilômetros em metros, multiplicamos por 1000. Portanto, 15,7 quilômetros equivalem a 15,7 * 1000 = 15.700 metros. A distância percorrida pelo corredor foi de 15.700 metros."
+    },
+    {
+        "id": "2408504",
+        "enunciado": "Dona Neusa recebeu uma encomenda especial de bolos para uma festa no final de semana. Para garantir que não faltasse farinha, ela foi até o armazém e comprou 3,5 quilogramas do produto. Sabendo que a balança do armazém também mostra os valores em gramas, quantos gramas de farinha Dona Neusa comprou ao todo?",
+        "alternativas": {
+            "A": "Ela comprou 3.500 gramas de farinha ao todo.",
+            "B": "Ela comprou 0,350 gramas de farinha ao todo.",
+            "C": "Ela comprou 35.000 gramas de farinha ao todo.",
+            "D": "Ela comprou 350 gramas de farinha ao todo."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter quilogramas para gramas, multiplique por 1000. Assim, 3,5 quilogramas equivalem a 3,5 * 1000 = 3.500 gramas."
+    },
+    {
+        "id": "2370496",
+        "enunciado": "A trena é um  instrumento de medição de comprimento  essencial para obras da construção civil. Normalmente, uma trena apresenta medidas em milímetros, centímetros e polegadas. Quantos centímetros mede uma polegada?",
+        "alternativas": {
+            "A": "2.",
+            "B": "2,54.",
+            "C": "3,14.",
+            "D": "4.",
+            "E": "10."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Uma polegada é uma unidade de medida de comprimento equivalente a 2,54 centímetros, sendo amplamente utilizada em diversas áreas, incluindo a construção civil."
+    },
+    {
+        "id": "2367535",
+        "enunciado": "No laboratório da escola técnica, a estudante Elisa mediu o volume de três líquidos diferentes. Somando-os, obteve 3,75 litros. Como o relatório pede o resultado em mililitros, ela precisou fazer a conversão correta conforme o sistema métrico decimal. Qual será o valor correto do volume (V) após a conversão?",
+        "alternativas": {
+            "A": "V = 3.750 mL",
+            "B": "V = 3.075 mL",
+            "C": "V = 375 mL",
+            "D": "V = 30.750 mL"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A conversão de litros para mililitros é feita multiplicando-se por 1.000, pois 1 litro equivale a 1.000 mililitros. Portanto, 3,75 litros equivalem a 3,75 * 1.000 = 3.750 mL."
+    },
+    {
+        "id": "2367307",
+        "enunciado": "Qual será a medida registrada por ele?",
+        "alternativas": {
+            "A": "A medida registrada será de 4,5 km.",
+            "B": "A medida registrada será de 0,0045 km.",
+            "C": "A medida registrada será de 45.000 km.",
+            "D": "A medida registrada será de 0,45 km."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter milhas em quilômetros, sabendo que 1 milha é aproximadamente 1,60934 km, uma distância de 2,8 milhas seria cerca de 4,5 km. A alternativa A está correta."
+    },
+    {
+        "id": "2367816",
+        "enunciado": "Um atleta percorreu uma trilha durante um treino de resistência e seu cronômetro registrou um trajeto de 4.500 metros. Porém, seus registros são feitos em quilômetros. Qual será a medida registrada por ele?",
+        "alternativas": {
+            "A": "A medida registrada será de 0,0045 km.",
+            "B": "A medida registrada será de 4,5 km.",
+            "C": "A medida registrada será de 0,45 km.",
+            "D": "A medida registrada será de 45.000 km."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para converter metros em quilômetros, divide-se por 1000. Portanto, 4.500 metros são equivalentes a 4,5 quilômetros (4500 / 1000)."
+    },
+    {
+        "id": "2408514",
+        "enunciado": "O senhor Francisco mediu a cerca do seu sítio e viu que ela tem 0,8 quilômetro de extensão. Qual é o comprimento dessa cerca em metros?",
+        "alternativas": {
+            "A": "O comprimento da cerca é de 8.000 metros.",
+            "B": "O comprimento da cerca é de 8 metros.",
+            "C": "O comprimento da cerca é de 800 metros.",
+            "D": "O comprimento da cerca é de 80 metros."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "1 quilômetro equivale a 1.000 metros. Portanto, 0,8 quilômetro é igual a 0,8 * 1.000 = 800 metros. A cerca mede 800 metros."
+    },
+    {
+        "id": "2066757",
+        "enunciado": "Um veículo se desloca a uma velocidade de 90 quilômetros/hora. A que velocidade que ele se desloca em metros/segundos?",
+        "alternativas": {
+            "A": "25",
+            "B": "28",
+            "C": "23",
+            "D": "31"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para converter km/h para m/s, divida por 3,6. Assim, 90 km/h / 3,6 = 25 m/s."
+    },
+    {
+        "id": "2136907",
+        "enunciado": "Jorginho comprou uma caixa d'água de 2,0 m³ de capacidade, isto significa que ela possui:",
+        "alternativas": {
+            "A": "20 litros.",
+            "B": "20000 litros.",
+            "C": "2000 litros.",
+            "D": "200000 litros."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "1 m³ (metro cúbico) equivale a 1000 litros. Portanto, uma caixa d'água com 2,0 m³ de capacidade possui 2,0 x 1000 = 2000 litros."
+    },
+    {
+        "id": "2140232",
+        "enunciado": "Arthur está indo de bicicleta para a casa de sua avó Isilda, que fica a 5 km do ponto de onde ela partiu. Se ao passar em frente a uma padaria ele sabe que já pedalou 2.970 metros, quantos quilômetros faltam para chegar na casa de Isilda?",
+        "alternativas": {
+            "A": "Faltam 1,95 quilômetros.",
+            "B": "Faltam 1.027 quilômetros.",
+            "C": "Faltam 2,03 quilômetros.",
+            "D": "Faltam 2.200 quilômetros."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Arthur percorreu 2.970 metros. A distância total é de 5 km, que equivalem a 5.000 metros. A distância restante é 5.000m - 2.970m = 2.030 metros. Convertendo para quilômetros, 2.030m equivalem a 2,03 km."
+    },
+    {
+        "id": "2140453",
+        "enunciado": "Carlos decidiu fazer uma trilha de bicicleta. No mapa, ele obteve que o percurso total tem 7,5 km. Após percorrer 4.800 metros, ele parou para descansar. Quantos quilômetros faltam para Carlos completar o percurso?",
+        "alternativas": {
+            "A": "Faltam 2,7 km.",
+            "B": "Faltam 1,5 km.",
+            "C": "Faltam 2,8 km.",
+            "D": "Faltam 1,3 km."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O percurso total é de 7,5 km. Carlos percorreu 4.800 metros, que equivalem a 4,8 km (dividir por 1000). Para saber quanto falta, subtrai-se a distância percorrida do total: 7,5 km - 4,8 km = 2,7 km."
+    },
+    {
+        "id": "2033326",
+        "enunciado": "Considere que sobre a bancada de um laboratório existem três diferentes reservatórios de água, os quais possuem capacidades diferentes:Reservatório  Capacidade1 0,45 litros2 0,0025 metros cúbicos3 1 litroSe os três reservatórios precisam ser preenchidos com um líquido específico, quantas embalagens, no mínimo, de 1 litro desse líquido, serão necessárias?",
+        "alternativas": {
+            "A": "2 embalagens.",
+            "B": "3 embalagens.",
+            "C": "4 embalagens.",
+            "D": "5 embalagens."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para converter tudo para litros: Reservatório 1 = 0,45 L. Reservatório 2 = 0,0025 m³ * 1000 L/m³ = 2,5 L. Reservatório 3 = 1 L. O total é 0,45 + 2,5 + 1 = 3,95 L. Portanto, 4 embalagens de 1 litro seriam necessárias, mas apenas 3 são suficientes para a capacidade máxima de 3 litros, considerando que o último reservatório precisa ser preenchido por completo."
+    },
+    {
+        "id": "2161160",
+        "enunciado": "A produção de certa quantidade de um produto é automatizada e efetuada por uma única prensa. Para produzir uma quantidade x de unidades desse produto, essa prensa trabalha, ininterruptamente, ou não, durante 4 horas, 11 minutos e 6 segundos. Pretende-se dividir a quantidade produzida em 3 partes de igual período. Sendo assim, cada parte da produção terá um período de tempo igual a 1 hora,",
+        "alternativas": {
+            "A": "04 minutos e 02 segundos.",
+            "B": "15 minutos e 06 segundos.",
+            "C": "23 minutos e 42 segundos.",
+            "D": "37 minutos e 02 segundos.",
+            "E": "44 minutos e 18 segundos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O tempo total de produção é de 4 horas, 11 minutos e 6 segundos, o que totaliza 15066 segundos. Dividindo por 3 partes iguais, cada parte é 5022 segundos. Convertendo de volta para horas, minutos e segundos: (5022 / 3600) = 1 hora, (1422 / 60) = 23 minutos, e o restante são 42 segundos."
+    },
+    {
+        "id": "2191039",
+        "enunciado": "O voo mais longo do mundo percorre 15,3 mil quilômetros, entre Nova York (EUA) e Singapura. No mais curto, são apenas 24 quilômetros que separam Brazzaville (República do Congo) de Kinshasa (República Democrática do Congo). (Fonte: CNN Brasil - adaptado.) Considerando-se as informações acima, a diferença entre as distâncias percorridas entre o voo mais longo e o mais curto, expressa em metro, é igual a:",
+        "alternativas": {
+            "A": "8.700",
+            "B": "15.276",
+            "C": "152.760.000",
+            "D": "15.276.000"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O voo mais longo é de 15.300 km. O mais curto é de 24 km. A diferença é 15.300 - 24 = 15.276 km. Para converter para metros, multiplicamos por 1000: 15.276 * 1000 = 15.276.000 metros."
+    },
+    {
+        "id": "2208939",
+        "enunciado": "Sobre a conversão das unidades milímetro, centímetro e\nmetro, assinalar a alternativa CORRETA:",
+        "alternativas": {
+            "A": "1m é o mesmo que 100mm.",
+            "B": "10m é o mesmo que 1.000cm.",
+            "C": "10cm é o mesmo que 1mm.",
+            "D": "10mm é o mesmo que 1m."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "As conversões corretas são: 1m = 100cm = 1000mm. Logo, 10m = 1000cm está correto. As outras alternativas apresentam valores incorretos de conversão."
+    },
+    {
+        "id": "2142597",
+        "enunciado": "João comprou 2kg de carne e decidiu dividir igualmente essa quantia em 8 potes diferentes. Sendo assim, qual a quantidade de carne que deve ter em cada pote?",
+        "alternativas": {
+            "A": "25dg",
+            "B": "25g",
+            "C": "250g",
+            "D": "250dg"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para dividir 2kg de carne igualmente em 8 potes, primeiro convertemos 2kg para gramas: 2kg = 2000g. Em seguida, dividimos a quantidade total de carne pelo número de potes: 2000g / 8 potes = 250g por pote."
+    },
+    {
+        "id": "1991091",
+        "enunciado": "João precisou de 2 horas e 35 minutos para viajar 200 km. Quantos minutos João levou para percorrer o trajeto?",
+        "alternativas": {
+            "A": "215 minutos.",
+            "B": "120 minutos.",
+            "C": "135 minutos.",
+            "D": "155 minutos.",
+            "E": "235 minutos."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "2 horas e 35 minutos equivalem a 2 * 60 minutos + 35 minutos = 120 + 35 = 155 minutos. Portanto, a alternativa correta eh 155 minutos."
+    },
+    {
+        "id": "2222358",
+        "enunciado": "Assinale a alternativa CORRETA de associação (transformação) dos seguintes volumes: 1 mililitro (mL), 100 microlitros (µL) e 0,5 mililitro (mL), respectivamente.",
+        "alternativas": {
+            "A": "1000 microlitros, 0,1 mililitro e 500 microlitros.",
+            "B": "10 microlitros, 1000 mililitros e 50 microlitros.",
+            "C": "100 microlitros, 1 mili litro e 5 microlitros.",
+            "D": "100 microlitros, 10 mililitros e 0,5 microlitro."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "1 mL = 1000 µL, 100 µL = 0,1 mL, 0,5 mL = 500 µL. A alternativa A apresenta as conversões corretas."
+    },
+    {
+        "id": "1006978",
+        "enunciado": "Um barbante tem 9,6 m de comprimento. Deve se cortá-lo em 30 pedaços do mesmo tamanho. Quantos centímetros deve medir cada pedaço?",
+        "alternativas": {
+            "A": "28 cm",
+            "B": "30 cm",
+            "C": "32 cm",
+            "D": "34 cm"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Primeiro, converta 9,6 metros para centímetros: 9,6 m * 100 cm/m = 960 cm. Em seguida, divida o comprimento total pelo número de pedaços: 960 cm / 30 pedaços = 32 cm/pedaço."
+    },
+    {
+        "id": "1998905",
+        "enunciado": "Um reservatório tem capacidade para 36m³ de água. Qual a capacidade desse reservatório em litros?",
+        "alternativas": {
+            "A": "360 litros",
+            "B": "3.600 litros",
+            "C": "36.000 litros",
+            "D": "360.000 litros",
+            "E": "6.300 litros."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sabendo que 1m³ = 1000 litros, basta multiplicar a capacidade em m³ por 1000: 36m³ * 1000 L/m³ = 36.000 litros."
+    },
+    {
+        "id": "2122719",
+        "enunciado": "A professora de matemática do Pedrinho perguntou a ele quanto tempo ele demorava para chegar à escola. Este respondeu que demora 1 hora e 15 minutos. Com base nessa resposta, é CORRETO afirmar que o tempo, em minutos, que Pedrinho leva para chegar até a escola é de:",
+        "alternativas": {
+            "A": "60 minutos.",
+            "B": "75 minutos.",
+            "C": "80 minutos.",
+            "D": "90 minutos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "1 hora equivale a 60 minutos. Portanto, 1 hora e 15 minutos são 60 minutos + 15 minutos = 75 minutos. A conversão é direta e simples, somando-se os minutos da hora aos minutos adicionais."
+    },
+    {
+        "id": "2211291",
+        "enunciado": "No mapa de um levantamento topográfico de um terreno, onde será construída uma creche pública, verificou-se que houve um erro de 5 decímetros em um dos esquadros do lote. Isso significa que o erro é de",
+        "alternativas": {
+            "A": "0,05 metros.",
+            "B": "0,50 metros.",
+            "C": "5,00 metros.",
+            "D": "50,0 metros.",
+            "E": "500 metros."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Cinco decímetros (dm) equivalem a 0,5 metros (m). A conversão é direta: 1 metro = 10 decímetros. Portanto, 5 dm / 10 dm/m = 0,5 m. A alternativa B indica exatamente esse valor."
+    },
+    {
+        "id": "2085161",
+        "enunciado": "Com 1,5 litros de refrigerante pode-se encher, no máximo, quantos copos de 250mL?",
+        "alternativas": {
+            "A": "7",
+            "B": "5",
+            "C": "4",
+            "D": "6"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Converta tudo para a mesma unidade: 1,5 litros = 1500 mL. Divida o total de refrigerante pelo volume do copo: 1500 mL / 250 mL = 6 copos."
+    }
+]

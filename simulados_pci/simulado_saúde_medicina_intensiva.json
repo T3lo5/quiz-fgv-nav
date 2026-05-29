@@ -1,0 +1,812 @@
+[
+    {
+        "id": "2375089",
+        "enunciado": "As indicações para a traqueostomia em pacientes críticos incluem as seguintes, EXCETO:",
+        "alternativas": {
+            "A": "Presença de condições patológicas que indiquem entubação mecânica prolongada, incapacidade de proteger as vias aéreas ou ambos.",
+            "B": "Necessidade de via aérea cirúrgica em razão da impossibilidade de entubar o paciente.",
+            "C": "Alto risco para abordagem de via aérea em razão de imobilização para fixação de da fratura cervical.",
+            "D": "Presença de infecção ativa na pele do pescoço.",
+            "E": "Edema das vias aéreas e via aérea de alto risco após trauma e cirurgia maxilofacial."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A infecção ativa na pele do pescoço não é uma indicação absoluta para traqueostomia; na verdade, pode ser uma contraindicação relativa, dependendo da gravidade e do controle da infecção."
+    },
+    {
+        "id": "1926092",
+        "enunciado": "Após as medidas iniciais, o paciente permanece hipoten-so e taquicárdico. Os exames laboratoriais mostram um lactato de 5 mmol/L (acima do limite normal) e uma redução modesta na saturação venosa central de oxigênio (ScvO2), apesar da otimização das intervenções iniciais. Com base nas informações e nos achados clínicos, qual das alternativas a seguir é uma importante consideração prognóstica para este paciente em relação ao risco de mortalidade?",
+        "alternativas": {
+            "A": "A diminuição do lactato sem precisar de monitora-mento contínuo seria suficiente para confirmar a melhora do prognóstico.",
+            "B": "A ScvO2 abaixo do esperado sugere que a oferta de oxigênio aos tecidos está adequada, não sendo necessária intervenção adicional.",
+            "C": "A manutenção de hipotensão após 6 horas indica um prognóstico favorável, já que a resposta do paciente está sendo lenta, mas progressiva.",
+            "D": "A persistência de níveis elevados de lactato indica alto risco de mortalidade e insuficiência de perfu-são tecidual, sendo um parâmetro crucial para o prognóstico."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O lactato elevado é um marcador de hipoperfusão tecidual e de baixo débito cardíaco. Sua persistência indica falha na ressuscitação volêmica e/ou vasopressores, associada a aumento do risco de mortalidade."
+    },
+    {
+        "id": "2253305",
+        "enunciado": "Um homem de 42 anos é internado na UTI após traumatismo cranioencefálico (TCE) grave em acidente automobilístico. Chega entubado, sedado e com Glasgow 6 (E1 V1 M4). A tomografia de crânio mostra edema cerebral difuso e desvio da linha média de 6 mm. Nas primeiras 24 horas, mantém pressão arterial média (PAM) de 70 mmHg, pressão intracraniana (PIC) de 26 mmHg e saturação jugular venosa (SjO 2) de 52%. O neurointensivista discute medidas de controle da PIC e otimização da perfusão cerebral. Com base nesse cenário, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "A hiperventilação profilática com PaCO 2 < 25 mmHg deve ser instituída rotineiramente nas primeiras 48 horas para reduzir a PIC.",
+            "B": "A posição supina plana melhora o retorno venoso cerebral e reduz a pressão intracraniana.",
+            "C": "A manitoloterapia deve ser evitada em todos os casos de TCE grave devido ao risco de hiperosmolaridade.",
+            "D": "O objetivo principal é manter a pressão de perfusão cerebral (PPC) abaixo de 50 mmHg para evitar hiperfluxo cerebral.",
+            "E": "O manejo adequado inclui manter PPC ≥ 60–70 mmHg, PaCO 2 entre 35–40 mmHg, elevação da cabeceira a 30° e uso criterioso de agentes osmóticos (manitol ou salina hipertônica)."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Manter a Pressão de Perfusão Cerebral (PPC) adequada é vital no TCE grave. A alternativa E descreve as medidas fundamentais para otimizar a perfusão cerebral, como elevação da cabeceira e controle do CO2."
+    },
+    {
+        "id": "1518359",
+        "enunciado": "Homem de 60 anos, admitido na UTI após uma cirurgia cardíaca complexa, requer sedação contínua para garantir conforto e sincronização com a ventilação mecânica. A equipe de UTI está considerando diferentes agentes sedativos para o manejo do paciente. Com base nas diretrizes atuais sobre sedação em UTI, qual das seguintes alternativas é a mais correta?",
+        "alternativas": {
+            "A": "O propofol é a escolha preferida para sedação em pacientes com instabilidade hemodinâmica, devido à sua baixa taxa de efeitos colaterais cardiovasculares e pulmonares.",
+            "B": "A dexmedetomidina é a escolha ideal para sedação profunda em pacientes que necessitam de ventilação mecânica, devido à sua capacidade de proporcionar uma sedação profunda e analgesia eficaz.",
+            "C": "O uso de benzodiazepínicos como o midazolam para sedação prolongada em UTI deve ser evitado devido ao seu potencial para acumulação e efeitos adversos prolongados, como delirium.",
+            "D": "A sedação leve com agentes como a dexmedetomidina é recomendada para todos os pacientes críticos para minimizar o risco de delirium e outros efeitos adversos associados à sedação profunda.",
+            "E": "A utilização de sedação contínua é sempre preferível à sedação intermitente para todos os pacientes com ventilação mecânica, para garantir melhor controle dos sintomas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Benzodiazepínicos como o midazolam causam acúmulo em uso prolongado, especialmente em pacientes críticos, aumentando o risco de delirium e prolongamento do tempo de desmame da ventilação. As outras alternativas apresentam afirmações incorretas sobre o uso de sedativos em UTI."
+    },
+    {
+        "id": "1518361",
+        "enunciado": "Homem com síndrome de insuficiência respiratória aguda grave, internado na UTI e sob ventilação mecânica, está sendo considerado para uso de bloqueadores neuromusculares para otimizar a ventilação e melhorar a sincronização com o ventilador. Com base nas recomendações atuais sobre o uso de bloqueadores neuromusculares em UTI, qual das seguintes alternativas é a mais correta?",
+        "alternativas": {
+            "A": "O uso de bloqueadores neuromusculares é recomendado para todos os pacientes com ventilação mecânica para melhorar o conforto e reduzir a necessidade de sedação profunda.",
+            "B": "O bloqueio neuromuscular com agentes como o rocurônio pode ser feito independentemente da confirmação de que o paciente está totalmente sedado.",
+            "C": "O uso de bloqueadores neuromusculares pode ser benéfico em pacientes com ARDS severo para reduzir o trabalho respiratório e melhorar a ventilação, mas deve ser monitorado cuidadosamente para evitar complicações, como a fraqueza muscular prolongada.",
+            "D": "Os bloqueadores neuromusculares devem ser utilizados como tratamento de primeira linha para pacientes com insuficiência respiratória hipoxêmica, independentemente da presença de ventilação mecânica ou sedação.",
+            "E": "O uso prolongado de bloqueadores neuromusculares em UTI não requer monitoramento da função neuromuscular, uma vez que o efeito dos medicamentos é previsível e uniforme em todos os pacientes."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Bloqueadores neuromusculares em ARDS severo podem reduzir o trabalho respiratório e melhorar a sincronia com o ventilador, mas o uso deve ser criterioso, em curto prazo, e com monitoramento rigoroso para evitar complicações como fraqueza muscular prolongada e neuropatia."
+    },
+    {
+        "id": "1518362",
+        "enunciado": "Homem, 65 anos, com história de cirrose hepática e internação na UTI por insuficiência respiratória, desenvolve sinais de hemorragia digestiva superior, incluindo melena e hematêmese. Considerando o manejo de hemorragia digestiva em UTI, qual das seguintes alternativas é a mais correta?",
+        "alternativas": {
+            "A": "O uso de agentes antiácidos como a ranitidina é sempre suficiente para o manejo inicial de hemorragias digestivas agudas em pacientes com cirrose hepática e varizes esofágicas.",
+            "B": "A administração de antibióticos profiláticos não é recomendada para pacientes com hemorragia digestiva proveniente de varizes esofágicas, pois não há evidência de benefício significativo na prevenção de infecções secundárias.",
+            "C": "A realização de endoscopia digestiva deve ser adiada até a estabilização hemodinâmica do paciente, para evitar complicações relacionadas ao procedimento em situações de choque hipovolêmico.",
+            "D": "A infusão de soluções cristaloides é a única medida necessária para corrigir a perda de sangue em pacientes com hemorragia digestiva, sem necessidade de transfusão de hemoderivados.",
+            "E": "A administração de vasoconstritores, como a terlipressina, é uma estratégia recomendada para controlar a hemorragia digestiva em pacientes com varizes esofágicas, ajudando a reduzir a pressão portal."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A administração de vasoconstritores como a terlipressina é uma estratégia chave no manejo de hemorragia por varizes esofágicas, pois reduz o fluxo esplênico e a pressão portal, auxiliando no controle do sangramento."
+    },
+    {
+        "id": "1518364",
+        "enunciado": "Homem de 27 anos, admitido na UTI após um acidente automobilístico, apresenta níveis elevados de creatina quinase (CK) e mioglobina urinária, com evidências clínicas sugerindo rabdomiólise. Considerando o manejo da rabdomiólise em UTI, qual das seguintes alternativas é a mais correta?",
+        "alternativas": {
+            "A": "A administração de soluções hipertônicas é a abordagem preferida para a correção da hiponatremia associada à rabdomiólise e prevenção de complicações renais.",
+            "B": "A monitorização da função renal é desnecessária se o paciente apresenta níveis normais de creatinina e ureia, pois a rabdomiólise não afeta a função renal diretamente.",
+            "C": "A prevenção de complicações renais na rabdomiólise inclui a administração precoce e agressiva de fluidos intravenosos, com ênfase em soluções isotônicas, como a solução salina normal, para garantir uma diurese adequada.",
+            "D": "O tratamento com bicarbonato de sódio deve ser usado rotineiramente para todos os pacientes com rabdomiólise.",
+            "E": "O uso de diuréticos de alça, como a furosemida, é a principal estratégia para prevenir a progressão da rabdomiólise, independentemente da resposta clínica à administração de fluidos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A correta manejo da rabdomiolise em UTI com foco na prevencao de lesao renal aguda e hidratacao agressiva com coleta isotopicamente. A alternativa A e falsa devido ao risco da corrigenda hiponatremia com solucao hipertônica. A B e falsa pois a funcao renal pode ser afetada diretamente pela mioglobina. A D e falsa a indicacao do bicarbonato e especifica. A E e falsa a diureticos de alca podem ser prejudiciais."
+    },
+    {
+        "id": "1518366",
+        "enunciado": "Homem, 68 anos, com insuficiência renal aguda e sintomas de sobrecarga volumétrica e desequilíbrios eletrolíticos, está internado na UTI. A equipe médica está considerando diferentes métodos dialíticos para o manejo da insuficiência renal aguda. Qual das seguintes alternativas é a mais correta sobre os métodos dialíticos em UTI?",
+        "alternativas": {
+            "A": "A hemodiálise contínua é preferida para todos os pacientes com insuficiência renal aguda na UTI devido à sua capacidade de fornecer uma remoção mais eficiente de toxinas e excesso de líquidos.",
+            "B": "A diálise peritoneal é geralmente indicada como tratamento de primeira linha para insuficiência renal aguda em pacientes com instabilidade hemodinâmica, devido à sua menor necessidade de suporte hemodinâmico.",
+            "C": "A hemofiltração contínua (CVVH) é frequentemente utilizada em pacientes com insuficiência renal aguda e instabilidade hemodinâmica porque permite um controle mais preciso da remoção de fluidos e solutos, além de reduzir a sobrecarga circulatória.",
+            "D": "A hemodiálise intermitente é contraindicada em pacientes com insuficiência renal aguda na UTI, devido ao seu potencial para causar desequilíbrios eletrolíticos e sobrecarga de volume.",
+            "E": "A escolha do método dialítico deve sempre priorizar a utilização de diálise peritoneal em pacientes com insuficiência renal aguda para minimizar o risco de infecção e complicações associadas à inserção de cateteres."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C descreve corretamente ahemofiltração contínua (CVVH) como método dialítico eficaz na UTI para pacientes instáveis hemodinamicamente, permitindo controle de fluidos e solutos. A alternativa A é falsa pois a hemodiálise contínua não é a preferida para todos os casos. A alternativa B é falsa, pois a diálise peritoneal não é de primeira linha para instabilidade hemodinâmica. A D é falsa, a hemodiálise intermitente pode ser usada. A E é falsa ao priorizar diálise peritoneal."
+    },
+    {
+        "id": "1518368",
+        "enunciado": "Homem de 58 anos, admitido na UTI com diagnóstico de Síndrome Coronariana Aguda (SCA), apresenta dor torácica intensa, elevação dos marcadores de necrose miocárdica e alterações no eletrocardiograma indicativas de infarto do miocárdio, com elevação do segmento ST (IAMST). Qual das seguintes abordagens é a mais apropriada para o manejo inicial desse paciente?",
+        "alternativas": {
+            "A": "O uso de anticoagulantes orais, como a varfarina, é a abordagem preferencial para todos os pacientes com SCA para prevenir eventos tromboembólicos.",
+            "B": "A terapia de reperfusão, que inclui trombólise ou Intervenção Coronária Percutânea (ICP), deve ser considerada rapidamente para pacientes com infarto do miocárdio com elevação do segmento ST, para melhorar a sobrevida e reduzir a mortalidade.",
+            "C": "A administração de nitroglicerina intravenosa deve ser iniciada imediatamente para todos os pacientes com infarto do miocárdio com elevação do segmento ST, para aliviar a dor torácica e reduzir a carga cardíaca, sem considerar a pressão arterial.",
+            "D": "A terapia com bloqueadores beta deve ser iniciada em todos os pacientes com SCA independentemente da presença de contraindicações, como bradicardia ou hipotensão.",
+            "E": "A administração de aspirina deve ser evitada em pacientes com SCA para prevenir complicações hemorrágicas, optando por alternativas menos invasivas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em IAMST, a terapia de reperfusao (trombólise ou ICP) é crucial. Ela restaura rapidamente o fluxo sanguineo coronariano, reduzindo a extensao do dano miocardico e melhorando o prognostico."
+    },
+    {
+        "id": "1518370",
+        "enunciado": "Homem de 55 anos, admitido na UTI com diagnóstico de Embolia Pulmonar (EP) maciça, apresenta hipotensão severa, taquipneia e desvio do septo do ventrículo direito no ecocardiograma. Qual das seguintes estratégias é a mais apropriada para o manejo inicial desse paciente?",
+        "alternativas": {
+            "A": "A administração de anticoagulantes orais deve ser iniciada imediatamente para prevenir a progressão do trombo e reduzir o risco de novos eventos tromboembólicos.",
+            "B": "A trombólise sistêmica com agentes trombolíticos, como alteplase, deve ser considerada rapidamente para pacientes com EP maciça e instabilidade hemodinâmica para restaurar o fluxo pulmonar e melhorar a função ventricular direita.",
+            "C": "A colocação de um filtro de veia cava inferior deve ser realizada como tratamento inicial para prevenir a formação de novos trombos pulmonares, sem considerar a necessidade de anticoagulação.",
+            "D": "O uso de diuréticos de alça, como a furosemida, é recomendado como tratamento inicial para todos os pacientes com embolia pulmonar, para reduzir a pressão arterial e aliviar a sobrecarga de volume.",
+            "E": "A ventilação mecânica deve ser iniciada de forma precoce em todos os pacientes com embolia pulmonar para garantir a oxigenação adequada, independentemente da gravidade da insuficiência respiratória."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na embolia pulmonar macica com instabilidade hemodinâmica, a trombólise sistêmica é a estratégia de escolha para dissolver o trombo, restaurar o fluxo e melhorar a funcao ventricular direita."
+    },
+    {
+        "id": "1518372",
+        "enunciado": "Considerando a avaliação pré-operatória para cirurgias de grande porte, qual das seguintes estratégias é a mais apropriada para identificar e minimizar os riscos associados à cirurgia?",
+        "alternativas": {
+            "A": "A avaliação pré-operatória deve incluir uma revisão detalhada da história médica, avaliação das comorbidades e risco cirúrgico, e a realização de exames laboratoriais e de imagem direcionados com base nas características individuais do paciente e do procedimento planejado.",
+            "B": "A avaliação cardíaca com teste de estresse deve ser rotineiramente realizada para todos os pacientes que irão se submeter à cirurgia de grande porte, independentemente da presença de sintomas ou história clínica.",
+            "C": "A avaliação pulmonar pré-operatória deve incluir a realização de uma tomografia computadorizada de alta resolução para todos os pacientes, visando identificar possíveis doenças pulmonares intersticiais ou outras condições pulmonares.",
+            "D": "A realização de um teste de função hepática avançado deve ser feita para todos os pacientes, independentemente da presença de doenças hepáticas, para avaliar o risco de complicações hepáticas durante e após a cirurgia.",
+            "E": "A profilaxia antibiótica deve ser administrada a todos os pacientes pré-operatórios, independentemente do tipo de cirurgia, para reduzir o risco de infecções pós-operatórias."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A avaliação pré-operatória adequada envolve uma análise completa do paciente, incluindo histórico, comorbidades, risco cirúrgico e exames direcionados, visando minimizar riscos. As demais alternativas propõem exames de rotina generalizados, o que nem sempre é necessário ou o principal ponto de partida."
+    },
+    {
+        "id": "1518374",
+        "enunciado": "Homem de 45 anos, admitido na UTI após uma cirurgia abdominal complexa, apresenta dor significativa e requer manejo adequado da analgesia. Considerando as diretrizes para analgesia em UTI, qual das seguintes alternativas é a mais correta sobre a escolha e o manejo de analgésicos para pacientes críticos?",
+        "alternativas": {
+            "A": "A utilização de opioides de ação curta, como a morfina, deve ser evitada em pacientes com insuficiência renal, pois pode levar a acúmulo e aumento do risco de efeitos adversos.",
+            "B": "A analgesia multimodal, que combina opioides com analgésicos não opioides e/ou adjuvantes, é recomendada para melhorar o controle da dor e reduzir o uso de altas doses de opioides em pacientes críticos.",
+            "C": "A administração contínua de opioides deve ser a única abordagem para manejo da dor em pacientes críticos, independentemente da duração da analgesia necessária, para evitar a complexidade de outros agentes analgésicos.",
+            "D": "Analgésicos não opioides, como o paracetamol, devem ser utilizados em pacientes críticos somente após a falha de tratamento com opioides, devido à sua eficácia limitada no controle da dor intensa.",
+            "E": "A analgesia com bloqueadores neuromusculares é indicada para todos os pacientes críticos com dor intensa para garantir um controle efetivo da dor e prevenir movimentos indesejados."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A analgesia multimodal é a abordagem mais indicada em UTIs. Ela combina diferentes classes de analgésicos para otimizar o controle da dor, minimizar efeitos colaterais e reduzir a necessidade de altas doses de opioides."
+    },
+    {
+        "id": "1518376",
+        "enunciado": "Homem, 68 anos, é admitido na UTI com diagnóstico de choque séptico. O paciente apresenta febre alta, taquicardia, hipotensão persistente e sinais de perfusão inadequada. Qual das seguintes abordagens é a mais apropriada para o diagnóstico e manejo inicial desse paciente?",
+        "alternativas": {
+            "A": "Iniciar a administração de antibióticos de amplo espectro imediatamente após a coleta de culturas e antes da confirmação do patógeno, para cobrir a ampla gama de potenciais agentes infecciosos.",
+            "B": "Adiar a administração de fluidos intravenosos até que os resultados dos exames laboratoriais confirmem a presença de infecção, para evitar sobrecarga de volume.",
+            "C": "Realizar uma biópsia do tecido infectado para identificar o patógeno antes de iniciar qualquer tratamento, para garantir a escolha adequada dos antibióticos.",
+            "D": "A administração precoce de vasopressores deve ser considerada como o primeiro passo no manejo, sem a necessidade de avaliação inicial do volume intravascular do paciente.",
+            "E": "A realização de uma tomografia computadorizada de corpo inteiro deve ser a primeira abordagem para diagnóstico de infecção, independentemente da gravidade do choque séptico e da apresentação clínica do paciente."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No choque séptico, a administração precoce de antibióticos de amplo espectro, após a coleta de culturas, é crucial para combater a infecção e melhorar o prognóstico, mesmo antes da identificação exata do patógeno. As outras medidas adiam o tratamento essencial ou são incorretas como primeira abordagem."
+    },
+    {
+        "id": "1518378",
+        "enunciado": "Homem, 50 anos, é admitido na UTI após um trauma cervical severo. O paciente apresenta hipotensão persistente e bradicardia, com sinais de perda de função motora abaixo do nível da lesão. Qual das seguintes abordagens é a mais apropriada para o diagnóstico e manejo inicial do choque neurogênico?",
+        "alternativas": {
+            "A": "Iniciar a administração de fluidos intravenosos e vasopressores imediatamente para tratar a hipotensão, sem considerar o histórico do trauma e a avaliação neurológica.",
+            "B": "A administração de atropina deve ser considerada como o tratamento inicial para a bradicardia, independentemente da causa subjacente da hipotensão.",
+            "C": "Realizar uma ressonância magnética da coluna cervical para confirmar a lesão medular antes de iniciar qualquer tratamento para o choque neurogênico.",
+            "D": "O tratamento inicial do choque neurogênico deve focar na estabilização hemodinâmica com fluidos intravenosos e vasopressores, com ênfase em evitar a hipotensão e a bradicardia resultantes da perda de tono simpático.",
+            "E": "A administração de corticosteroides deve ser iniciada imediatamente para todos os pacientes com choque neurogênico para reduzir a inflamação e o edema medular."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O choque neurogênico resulta da perda do tônus simpático. O manejo inicial visa estabilizar a hemodinâmica com fluidos e vasopressores para manter a perfusão e evitar a hipotensão e bradicardia associadas à lesão medular."
+    },
+    {
+        "id": "1043001",
+        "enunciado": "Paciente mulher de 30 anos submetida à laparotomia exploradora de urgência está na unidade de terapia intensiva (UTI) com quadro de choque séptico de origem abdominal por apendicite complicada com peritonite purulenta generalizada, insuficiência renal e insuficiência respiratória grave (síndrome da angústia respiratória do adulto (SARA)) em fase avançada. Suporte circulatório com aminas vasoativas, antibioticoterapia sistêmica, hidratação, suporte respiratório com ventilador mecânico e outras medidas empregadas. Gasometria arterial: pH = 7,20 (normal 7,35 a 7,45); PaCO2 = 55 mmHg (normal 35 a 45 mmHg); Bicarbonato = 19 mmol/L (normal 22 a 26 mmol/L); Base Excess (BE) = -6,5 (normal -2 a +2). Em relação ao quadro apresentado, analise as afirmativas.",
+        "alternativas": {
+            "A": "I. O pH menor que 7,35 indica acidose.",
+            "B": "II. A complacência pulmonar é normal na SARA e a retenção de CO2 é decorrente da insuficiência renal.",
+            "C": "III. O distúrbio ácido-básico é misto, com componente tanto respiratório quanto metabólico.",
+            "D": "IV. O choque séptico cursa com aumento do metabolismo anaeróbico, mas sem acúmulo de ácido láctico no organismo.",
+            "E": "V. O bicarbonato é consumido na acidose metabólica, reagindo com o excesso de íons H+ presentes no organismo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O pH baixo (7,20), a PaCO2 alta (55 mmHg) e BE baixo (-6,5) indicam acidose respiratória e metabólica, configurando um distúrbio misto."
+    },
+    {
+        "id": "1011291",
+        "enunciado": "VMNI é a abreviação para Ventilação Mecânica Não Invasiva. Trata-se de uma modalidade de suporte ventilatório utilizada no campo da medicina, especialmente em pacientes com dificuldades respiratórias. Em que situação a VMNI deve ser interrompida ou reavaliada em um paciente com insuficiência respiratória?",
+        "alternativas": {
+            "A": "A VMNI deve ser interrompida após 24 horas, independentemente da melhora do paciente.",
+            "B": "A VMNI deve ser reavaliada apenas se o paciente reclamar de desconforto.",
+            "C": "A VMNI nunca deve ser interrompida após o início.",
+            "D": "A VMNI deve ser interrompida apenas se o paciente estiver consciente e capaz de respirar sem assistência.",
+            "E": "A VMNI deve ser interrompida se não houver melhora clínica significativa após um período de tempo e deve ser reavaliada se houver piora clínica."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A VMNI deve ser interrompida se nao houver melhora ou se houver piora clinica. Alternativas A, B, C e D ignoram a necessidade de avaliacao continua e o bem-estar do paciente."
+    },
+    {
+        "id": "2225681",
+        "enunciado": "Homem de 67 anos, com dez dias de revascularização do miocárdio, foi mantido na UTI devido à arritmia. Encontra-se sob intubação orotraqueal, mas em desmame, em pressão de suporte e recebendo nutrição parenteral. Passou a apresentar distensão e dor à palpação do abdome, principalmente em hipocôndrio direito, associado à febre e leucocitose. Qual a hipótese diagnóstica mais provável?",
+        "alternativas": {
+            "A": "Colecistite aguda alitiásica – ultrassonografia de abdome.",
+            "B": "Infarto hepático – arteriografia hepática.",
+            "C": "Hepatite transfusional – hemocultura.",
+            "D": "Síndrome hepatorrenal – clearance de creatinina."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O quadro clínico de dor abdominal em hipocôndrio direito, febre e leucocitose em um paciente pós-cirurgia cardíaca, com nutrição parenteral, sugere colecistite aguda alitiásica. A ultrassonografia de abdome é o exame de escolha para o diagnóstico."
+    },
+    {
+        "id": "2222926",
+        "enunciado": "Em pacientes críticos, o uso dos scores tipo SOFA (Sequential Organ Failure Assessment) e APACHE II (Acute Physiology and Chronic Health Evaluation) permite fazer uma previsão prognóstica e das disfunções orgânicas apresentadas pelos pacientes. Por isso é importante o intensivista considerar que o:",
+        "alternativas": {
+            "A": "APACHE II utiliza 12 variáveis e normalmente é usado na admissão do paciente.",
+            "B": "APACHE é utilizado para comparar dois pacientes, quanto à evolução de disfunções orgânicas, na UTI.",
+            "C": "SOFA é calculado com base no número de intervenções médicas utilizadas durante a terapêutica diária, na UTI.",
+            "D": "SOFA reflete as disfunções orgânicas diárias, enquanto o APACHE reflete as alterações fisiológicas diárias de cada paciente."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O APACHE II utiliza 12 variáveis e é calculado na admissão do paciente para prognóstico. O SOFA avalia disfunções orgânicas diárias. O APACHE II não é para comparar a evolução das disfunções em UTI."
+    },
+    {
+        "id": "2222934",
+        "enunciado": "Homem de 64 anos, 60 kg e 1.60 m, encontra-se em sepse abdominal na UTI do Instituto Dr. José Frota (IJF) com PA de 110x60mmHg, FC de 94 bpm e SpO 2 de 94%. A monitorização minimamente invasiva do débito cardíaco evidencia índice cardíaco de 2.5 L/min/m com variação do volume sistólico de 18%. O lactato arterial está em ascensão com último valor de 4.2mmol/L. Foi instituída conduta terapêutica que resultou em aumento do consumo de O 2 e redução da saturação venosa central de O 2. A terapia capaz de causar esse efeito é a administração de:",
+        "alternativas": {
+            "A": "coloides.",
+            "B": "cristaloides.",
+            "C": "inotrópicos.",
+            "D": "vasopressores."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Inotrópicos, como dobutamina ou milrinona, visam aumentar a contratilidade miocárdica. Em septicemia, um aumento do débito cardíaco e da extração de oxigênio pode levar a um aumento do consumo de O2 e diminuição da saturação venosa central de O2, como descrito."
+    },
+    {
+        "id": "1744276",
+        "enunciado": "São fatores de risco para via aérea difícil, EXCETO:",
+        "alternativas": {
+            "A": "Ser idoso.",
+            "B": "Ser obeso.",
+            "C": "Apresentar todos os dentes.",
+            "D": "Ter barba.",
+            "E": "Ter histórico de ronco."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A presença de todos os dentes, especialmente se hígidos, não é um fator de risco para via aérea difícil. Fatores como obesidade, idade avançada, barba e ronco estão mais frequentemente associados a dificuldades na intubação."
+    },
+    {
+        "id": "1744277",
+        "enunciado": "Em relação aos cateteres venosos, assinale a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "A ponta do cateter deve ficar localizada 3 a 5 cm acima da junção cavoatrial.",
+            "B": "A passagem do cateter central deve ser feita com base na Técnica de Seldinger.",
+            "C": "Cateter venoso central é o acesso de escolha para paciente instável agudamente que necessite repor grande volume de fluidos.",
+            "D": "Nutrição parenteral total deve ser administrada em acesso venoso central exclusivo.",
+            "E": "O risco de infecção de um cateter central aumenta conforme o número de vias do cateter."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A ponta do cateter venoso central deve ser o mais próximo possível da junção cavoatrial, preferencialmente na veia cava superior, para otimizar a infusão e diminuir o risco de arritmias. 3-5 cm acima pode ser insuficiente."
+    },
+    {
+        "id": "1744279",
+        "enunciado": "Mulher de 18 anos interna na UTI após acidente automobilístico com múltiplas fraturas ósseas, porém sem alterações na função intestinal. É necessária ventilação mecânica para proteger a via aérea e manejar analgesia enquanto aguarda m-se cirurgias ortopédicas em alguns dias. Sobre o caso, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "As necessidades energéticas da paciente provavelmente excedem 300% os valores normais.",
+            "B": "Nutrição parenteral total deve ser prontamente iniciada.",
+            "C": "A dieta enteral deve ser iniciada após uma semana do início da dieta parenteral.",
+            "D": "Deve-se passar uma sonda nasoenteral e iniciar dieta enteral no primeiro ou segundo dia de UTI.",
+            "E": "Deve-se realizar nutrição parenteral e enteral em conjunto nesta paciente."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em pacientes na UTI que necessitam de ventilação mecânica e aguardam cirurgia, a nutrição enteral deve ser iniciada precocemente (primeiro ou segundo dia) para manter a integridade da barreira intestinal e reduzir complicações."
+    },
+    {
+        "id": "1744290",
+        "enunciado": "A ressuscitação volêmica com amido no choque séptico está associada:",
+        "alternativas": {
+            "A": "À maior mortalidade.",
+            "B": "A menos insuficiência renal.",
+            "C": "À redução da pressão plasmática oncótica.",
+            "D": "À redução nos custos com fluidos.",
+            "E": "A melhores resultados."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Estudos demonstraram que o uso de amido no choque séptico está associado a maior risco de insuficiência renal aguda e aumento da mortalidade, sendo seu uso desaconselhado."
+    },
+    {
+        "id": "1744298",
+        "enunciado": "Com base nos critérios de Berlim para avaliação de hipoxemia em pacientes com SARA, analise as assertivas abaixo: I. A SARA é leve quando a relação PaO2/FiO2 estiver entre 200 e 300 com PEEP > 5. II. A SARA é moderada quando a relação PaO2/FiO2 estiver entre 100 e 200 com PEEP > 5. III. A SARA é grave quando a FiO2 for 100% independentemente da PaO2. IV. A SARA é grave quando a relação PaO2/FiO2 estiver abaixo de 100 com PEEP > 5. Quais estão corretas?",
+        "alternativas": {
+            "A": "Apenas II.",
+            "B": "Apenas III.",
+            "C": "Apenas I e II.",
+            "D": "Apenas I, II e IV.",
+            "E": "Apenas I, III e IV."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os critérios de Berlim classificam SARA leve (200-300), moderada (100-200) e grave (<100) com base na relação PaO2/FiO2 e PEEP > 5. A alternativa III está incorreta pois a FiO2 de 100% não é critério isolado para SARA grave."
+    },
+    {
+        "id": "1744300",
+        "enunciado": "Qual das alternativas abaixo é a causa mais comum de choque cardiogênico?",
+        "alternativas": {
+            "A": "Doença cardíaca valvar.",
+            "B": "Miocardite.",
+            "C": "Complicações mecânicas do infarto agudo do miocárdio.",
+            "D": "Infarto do ventrículo direito.",
+            "E": "Bombeamento insuficiente no infarto agudo do miocárdio."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As complicações mecânicas agudas decorrentes de um infarto do miocárdio, como ruptura de parede livre, ruptura de septo interventricular ou disfunção de músculo papilar, levam a choque cardiogênico de forma mais frequente."
+    },
+    {
+        "id": "1744302",
+        "enunciado": "Homem de 70 anos está internado na UTI há 26 dias após quadro de Covid-19. Evoluiu com choque, disfunção multiorgânica e SARA; agora, traqueostomizado em reabilitação. Iniciou com febre e hipotensão, tendo iniciado vasopressor. Foi iniciado empiricamente Cefepime e Vancomicina. Várias culturas negativas. Urocultura negativa. Radiografia de tórax sem novo infiltrado nem aumento de secreção respiratória. Exames laboratoriais evidenciaram elevação de bilirrubinas, fosfatase alcalina e transaminases. Enzimas pancreáticas sem alterações. Ultrassom do abdome mostra lama biliar, sem cálculos. Ducto biliar normal. Qual das alternativas abaixo é a mais adequada para avaliação e tratamento desse paciente?",
+        "alternativas": {
+            "A": "Iniciar tratamento com Clindamicina.",
+            "B": "Iniciar tratamento com metronidazol.",
+            "C": "Suspender o Cefepime.",
+            "D": "Encaminhar para laparotomia exploradora.",
+            "E": "Realizar cintilografia hepatobiliar."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A paciente apresenta elevação de enzimas hepáticas e alterações na vesícula biliar (lama biliar) após quadro de sepse e uso de antibióticos, sugerindo possível colecistite acalculosa. A cintilografia hepatobiliar auxiliaria no diagnóstico."
+    },
+    {
+        "id": "1744305",
+        "enunciado": "São recomendações para a prevenção de infecções de corrente sanguínea relacionadas a cateter profundo, EXCETO:",
+        "alternativas": {
+            "A": "Uso de precauções máximas de barreira durante a inserção do cateter.",
+            "B": "Preparo do local da inserção do cateter com agente antisséptico antes da inserção.",
+            "C": "Revisão diária para remover os cateteres que não estão sendo utilizados.",
+            "D": "Trocar o cateter rotineiramente a cada 7 dias.",
+            "E": "Esterilizar o ponto de acesso com antisséptico antes de acessá-lo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A troca rotineira de cateteres profundos a cada 7 dias não é mais recomendada e pode aumentar o risco de infecção. A remoção quando não mais indicados e o uso de técnica asséptica são prioritários."
+    },
+    {
+        "id": "1744308",
+        "enunciado": "Em relação ao delirium em pacientes internados na UTI, assinale a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "A idade e a disfunção cognitiva prévia são fatores de risco para que aconteça.",
+            "B": "Os diazepínicos são a droga de primeira escolha para o tratamento da fase aguda.",
+            "C": "Tratamento ineficaz da dor tem relação com a ocorrência de delirium.",
+            "D": "Os pacientes com delirium hipoativo podem ter o seu diagnóstico dificultado.",
+            "E": "As consequências dos episódios de delirium quando da internação na UTI podem permanecer por anos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Diazepínicos, como benzodiazepínicos, podem agravar o delirium, especialmente em idosos, sendo outras classes de hipnóticos (como a quetiapina em alguns casos) ou antipsicóticos a escolha em situações específicas, e não a primeira linha."
+    },
+    {
+        "id": "1744310",
+        "enunciado": "Paciente de 46 anos interna por quadro de sepse respiratória na UTI. Exame bacteriológico da secreção respiratória evidenciou Pseudomonas aeruginosa. Assinale a alternativa que NÃO pode ser útil para o tratamento desta paciente.",
+        "alternativas": {
+            "A": "Piperacilina -Tazobactam.",
+            "B": "Cefepime.",
+            "C": "Ceftazidima -Avibactam.",
+            "D": "Ertapenem.",
+            "E": "Meropenem."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ertapenem é um carbapenem de espectro mais restrito, geralmente ineficaz contra Pseudomonas aeruginosa, que frequentemente apresenta mecanismos de resistência a beta-lactâmicos."
+    },
+    {
+        "id": "1512436",
+        "enunciado": "Quais das seguintes medicações fazem parte da sequência rápida para intubação orotraqueal:",
+        "alternativas": {
+            "A": "Lidocaína e atropina.",
+            "B": "Adenosina e midazolam.",
+            "C": "Succinilcolina e fentanil.",
+            "D": "Amiodarona e propofol.",
+            "E": "Etomidato e enoxaparina."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Na sequência rápida para intubação orotraqueal, a medicação hipnótica (como etomidato ou propofol) é administrada para sedação, e o bloqueador neuromuscular (como succinilcolina) é usado para facilitar a intubação. O Fentanil é um opioide analgésico que também pode ser usado para potencializar a sedação e atenuar a resposta autonômica à laringoscopia."
+    },
+    {
+        "id": "2375089",
+        "enunciado": "As indicações para a traqueostomia em pacientes críticos incluem as seguintes, EXCETO:",
+        "alternativas": {
+            "A": "Presença de condições patológicas que indiquem entubação mecânica prolongada, incapacidade de proteger as vias aéreas ou ambos.",
+            "B": "Necessidade de via aérea cirúrgica em razão da impossibilidade de entubar o paciente.",
+            "C": "Alto risco para abordagem de via aérea em razão de imobilização para fixação de da fratura cervical.",
+            "D": "Presença de infecção ativa na pele do pescoço.",
+            "E": "Edema das vias aéreas e via aérea de alto risco após trauma e cirurgia maxilofacial."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A infecção ativa na pele do pescoço não é uma indicação absoluta para traqueostomia; na verdade, pode ser uma contraindicação relativa, dependendo da gravidade e do controle da infecção."
+    },
+    {
+        "id": "1926092",
+        "enunciado": "Após as medidas iniciais, o paciente permanece hipoten-so e taquicárdico. Os exames laboratoriais mostram um lactato de 5 mmol/L (acima do limite normal) e uma redução modesta na saturação venosa central de oxigênio (ScvO2), apesar da otimização das intervenções iniciais. Com base nas informações e nos achados clínicos, qual das alternativas a seguir é uma importante consideração prognóstica para este paciente em relação ao risco de mortalidade?",
+        "alternativas": {
+            "A": "A diminuição do lactato sem precisar de monitora-mento contínuo seria suficiente para confirmar a melhora do prognóstico.",
+            "B": "A ScvO2 abaixo do esperado sugere que a oferta de oxigênio aos tecidos está adequada, não sendo necessária intervenção adicional.",
+            "C": "A manutenção de hipotensão após 6 horas indica um prognóstico favorável, já que a resposta do paciente está sendo lenta, mas progressiva.",
+            "D": "A persistência de níveis elevados de lactato indica alto risco de mortalidade e insuficiência de perfu-são tecidual, sendo um parâmetro crucial para o prognóstico."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O lactato elevado é um marcador de hipoperfusão tecidual e de baixo débito cardíaco. Sua persistência indica falha na ressuscitação volêmica e/ou vasopressores, associada a aumento do risco de mortalidade."
+    },
+    {
+        "id": "2253305",
+        "enunciado": "Um homem de 42 anos é internado na UTI após traumatismo cranioencefálico (TCE) grave em acidente automobilístico. Chega entubado, sedado e com Glasgow 6 (E1 V1 M4). A tomografia de crânio mostra edema cerebral difuso e desvio da linha média de 6 mm. Nas primeiras 24 horas, mantém pressão arterial média (PAM) de 70 mmHg, pressão intracraniana (PIC) de 26 mmHg e saturação jugular venosa (SjO 2) de 52%. O neurointensivista discute medidas de controle da PIC e otimização da perfusão cerebral. Com base nesse cenário, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "A hiperventilação profilática com PaCO 2 < 25 mmHg deve ser instituída rotineiramente nas primeiras 48 horas para reduzir a PIC.",
+            "B": "A posição supina plana melhora o retorno venoso cerebral e reduz a pressão intracraniana.",
+            "C": "A manitoloterapia deve ser evitada em todos os casos de TCE grave devido ao risco de hiperosmolaridade.",
+            "D": "O objetivo principal é manter a pressão de perfusão cerebral (PPC) abaixo de 50 mmHg para evitar hiperfluxo cerebral.",
+            "E": "O manejo adequado inclui manter PPC ≥ 60–70 mmHg, PaCO 2 entre 35–40 mmHg, elevação da cabeceira a 30° e uso criterioso de agentes osmóticos (manitol ou salina hipertônica)."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Manter a Pressão de Perfusão Cerebral (PPC) adequada é vital no TCE grave. A alternativa E descreve as medidas fundamentais para otimizar a perfusão cerebral, como elevação da cabeceira e controle do CO2."
+    },
+    {
+        "id": "1518359",
+        "enunciado": "Homem de 60 anos, admitido na UTI após uma cirurgia cardíaca complexa, requer sedação contínua para garantir conforto e sincronização com a ventilação mecânica. A equipe de UTI está considerando diferentes agentes sedativos para o manejo do paciente. Com base nas diretrizes atuais sobre sedação em UTI, qual das seguintes alternativas é a mais correta?",
+        "alternativas": {
+            "A": "O propofol é a escolha preferida para sedação em pacientes com instabilidade hemodinâmica, devido à sua baixa taxa de efeitos colaterais cardiovasculares e pulmonares.",
+            "B": "A dexmedetomidina é a escolha ideal para sedação profunda em pacientes que necessitam de ventilação mecânica, devido à sua capacidade de proporcionar uma sedação profunda e analgesia eficaz.",
+            "C": "O uso de benzodiazepínicos como o midazolam para sedação prolongada em UTI deve ser evitado devido ao seu potencial para acumulação e efeitos adversos prolongados, como delirium.",
+            "D": "A sedação leve com agentes como a dexmedetomidina é recomendada para todos os pacientes críticos para minimizar o risco de delirium e outros efeitos adversos associados à sedação profunda.",
+            "E": "A utilização de sedação contínua é sempre preferível à sedação intermitente para todos os pacientes com ventilação mecânica, para garantir melhor controle dos sintomas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Benzodiazepínicos como o midazolam causam acúmulo em uso prolongado, especialmente em pacientes críticos, aumentando o risco de delirium e prolongamento do tempo de desmame da ventilação. As outras alternativas apresentam afirmações incorretas sobre o uso de sedativos em UTI."
+    },
+    {
+        "id": "1518361",
+        "enunciado": "Homem com síndrome de insuficiência respiratória aguda grave, internado na UTI e sob ventilação mecânica, está sendo considerado para uso de bloqueadores neuromusculares para otimizar a ventilação e melhorar a sincronização com o ventilador. Com base nas recomendações atuais sobre o uso de bloqueadores neuromusculares em UTI, qual das seguintes alternativas é a mais correta?",
+        "alternativas": {
+            "A": "O uso de bloqueadores neuromusculares é recomendado para todos os pacientes com ventilação mecânica para melhorar o conforto e reduzir a necessidade de sedação profunda.",
+            "B": "O bloqueio neuromuscular com agentes como o rocurônio pode ser feito independentemente da confirmação de que o paciente está totalmente sedado.",
+            "C": "O uso de bloqueadores neuromusculares pode ser benéfico em pacientes com ARDS severo para reduzir o trabalho respiratório e melhorar a ventilação, mas deve ser monitorado cuidadosamente para evitar complicações, como a fraqueza muscular prolongada.",
+            "D": "Os bloqueadores neuromusculares devem ser utilizados como tratamento de primeira linha para pacientes com insuficiência respiratória hipoxêmica, independentemente da presença de ventilação mecânica ou sedação.",
+            "E": "O uso prolongado de bloqueadores neuromusculares em UTI não requer monitoramento da função neuromuscular, uma vez que o efeito dos medicamentos é previsível e uniforme em todos os pacientes."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Bloqueadores neuromusculares em ARDS severo podem reduzir o trabalho respiratório e melhorar a sincronia com o ventilador, mas o uso deve ser criterioso, em curto prazo, e com monitoramento rigoroso para evitar complicações como fraqueza muscular prolongada e neuropatia."
+    },
+    {
+        "id": "1518362",
+        "enunciado": "Homem, 65 anos, com história de cirrose hepática e internação na UTI por insuficiência respiratória, desenvolve sinais de hemorragia digestiva superior, incluindo melena e hematêmese. Considerando o manejo de hemorragia digestiva em UTI, qual das seguintes alternativas é a mais correta?",
+        "alternativas": {
+            "A": "O uso de agentes antiácidos como a ranitidina é sempre suficiente para o manejo inicial de hemorragias digestivas agudas em pacientes com cirrose hepática e varizes esofágicas.",
+            "B": "A administração de antibióticos profiláticos não é recomendada para pacientes com hemorragia digestiva proveniente de varizes esofágicas, pois não há evidência de benefício significativo na prevenção de infecções secundárias.",
+            "C": "A realização de endoscopia digestiva deve ser adiada até a estabilização hemodinâmica do paciente, para evitar complicações relacionadas ao procedimento em situações de choque hipovolêmico.",
+            "D": "A infusão de soluções cristaloides é a única medida necessária para corrigir a perda de sangue em pacientes com hemorragia digestiva, sem necessidade de transfusão de hemoderivados.",
+            "E": "A administração de vasoconstritores, como a terlipressina, é uma estratégia recomendada para controlar a hemorragia digestiva em pacientes com varizes esofágicas, ajudando a reduzir a pressão portal."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A administração de vasoconstritores como a terlipressina é uma estratégia chave no manejo de hemorragia por varizes esofágicas, pois reduz o fluxo esplênico e a pressão portal, auxiliando no controle do sangramento."
+    },
+    {
+        "id": "1518364",
+        "enunciado": "Homem de 27 anos, admitido na UTI após um acidente automobilístico, apresenta níveis elevados de creatina quinase (CK) e mioglobina urinária, com evidências clínicas sugerindo rabdomiólise. Considerando o manejo da rabdomiólise em UTI, qual das seguintes alternativas é a mais correta?",
+        "alternativas": {
+            "A": "A administração de soluções hipertônicas é a abordagem preferida para a correção da hiponatremia associada à rabdomiólise e prevenção de complicações renais.",
+            "B": "A monitorização da função renal é desnecessária se o paciente apresenta níveis normais de creatinina e ureia, pois a rabdomiólise não afeta a função renal diretamente.",
+            "C": "A prevenção de complicações renais na rabdomiólise inclui a administração precoce e agressiva de fluidos intravenosos, com ênfase em soluções isotônicas, como a solução salina normal, para garantir uma diurese adequada.",
+            "D": "O tratamento com bicarbonato de sódio deve ser usado rotineiramente para todos os pacientes com rabdomiólise.",
+            "E": "O uso de diuréticos de alça, como a furosemida, é a principal estratégia para prevenir a progressão da rabdomiólise, independentemente da resposta clínica à administração de fluidos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A correta manejo da rabdomiolise em UTI com foco na prevencao de lesao renal aguda e hidratacao agressiva com coleta isotopicamente. A alternativa A e falsa devido ao risco da corrigenda hiponatremia com solucao hipertônica. A B e falsa pois a funcao renal pode ser afetada diretamente pela mioglobina. A D e falsa a indicacao do bicarbonato e especifica. A E e falsa a diureticos de alca podem ser prejudiciais."
+    },
+    {
+        "id": "1518366",
+        "enunciado": "Homem, 68 anos, com insuficiência renal aguda e sintomas de sobrecarga volumétrica e desequilíbrios eletrolíticos, está internado na UTI. A equipe médica está considerando diferentes métodos dialíticos para o manejo da insuficiência renal aguda. Qual das seguintes alternativas é a mais correta sobre os métodos dialíticos em UTI?",
+        "alternativas": {
+            "A": "A hemodiálise contínua é preferida para todos os pacientes com insuficiência renal aguda na UTI devido à sua capacidade de fornecer uma remoção mais eficiente de toxinas e excesso de líquidos.",
+            "B": "A diálise peritoneal é geralmente indicada como tratamento de primeira linha para insuficiência renal aguda em pacientes com instabilidade hemodinâmica, devido à sua menor necessidade de suporte hemodinâmico.",
+            "C": "A hemofiltração contínua (CVVH) é frequentemente utilizada em pacientes com insuficiência renal aguda e instabilidade hemodinâmica porque permite um controle mais preciso da remoção de fluidos e solutos, além de reduzir a sobrecarga circulatória.",
+            "D": "A hemodiálise intermitente é contraindicada em pacientes com insuficiência renal aguda na UTI, devido ao seu potencial para causar desequilíbrios eletrolíticos e sobrecarga de volume.",
+            "E": "A escolha do método dialítico deve sempre priorizar a utilização de diálise peritoneal em pacientes com insuficiência renal aguda para minimizar o risco de infecção e complicações associadas à inserção de cateteres."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C descreve corretamente ahemofiltração contínua (CVVH) como método dialítico eficaz na UTI para pacientes instáveis hemodinamicamente, permitindo controle de fluidos e solutos. A alternativa A é falsa pois a hemodiálise contínua não é a preferida para todos os casos. A alternativa B é falsa, pois a diálise peritoneal não é de primeira linha para instabilidade hemodinâmica. A D é falsa, a hemodiálise intermitente pode ser usada. A E é falsa ao priorizar diálise peritoneal."
+    },
+    {
+        "id": "1518368",
+        "enunciado": "Homem de 58 anos, admitido na UTI com diagnóstico de Síndrome Coronariana Aguda (SCA), apresenta dor torácica intensa, elevação dos marcadores de necrose miocárdica e alterações no eletrocardiograma indicativas de infarto do miocárdio, com elevação do segmento ST (IAMST). Qual das seguintes abordagens é a mais apropriada para o manejo inicial desse paciente?",
+        "alternativas": {
+            "A": "O uso de anticoagulantes orais, como a varfarina, é a abordagem preferencial para todos os pacientes com SCA para prevenir eventos tromboembólicos.",
+            "B": "A terapia de reperfusão, que inclui trombólise ou Intervenção Coronária Percutânea (ICP), deve ser considerada rapidamente para pacientes com infarto do miocárdio com elevação do segmento ST, para melhorar a sobrevida e reduzir a mortalidade.",
+            "C": "A administração de nitroglicerina intravenosa deve ser iniciada imediatamente para todos os pacientes com infarto do miocárdio com elevação do segmento ST, para aliviar a dor torácica e reduzir a carga cardíaca, sem considerar a pressão arterial.",
+            "D": "A terapia com bloqueadores beta deve ser iniciada em todos os pacientes com SCA independentemente da presença de contraindicações, como bradicardia ou hipotensão.",
+            "E": "A administração de aspirina deve ser evitada em pacientes com SCA para prevenir complicações hemorrágicas, optando por alternativas menos invasivas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em IAMST, a terapia de reperfusao (trombólise ou ICP) é crucial. Ela restaura rapidamente o fluxo sanguineo coronariano, reduzindo a extensao do dano miocardico e melhorando o prognostico."
+    },
+    {
+        "id": "1518370",
+        "enunciado": "Homem de 55 anos, admitido na UTI com diagnóstico de Embolia Pulmonar (EP) maciça, apresenta hipotensão severa, taquipneia e desvio do septo do ventrículo direito no ecocardiograma. Qual das seguintes estratégias é a mais apropriada para o manejo inicial desse paciente?",
+        "alternativas": {
+            "A": "A administração de anticoagulantes orais deve ser iniciada imediatamente para prevenir a progressão do trombo e reduzir o risco de novos eventos tromboembólicos.",
+            "B": "A trombólise sistêmica com agentes trombolíticos, como alteplase, deve ser considerada rapidamente para pacientes com EP maciça e instabilidade hemodinâmica para restaurar o fluxo pulmonar e melhorar a função ventricular direita.",
+            "C": "A colocação de um filtro de veia cava inferior deve ser realizada como tratamento inicial para prevenir a formação de novos trombos pulmonares, sem considerar a necessidade de anticoagulação.",
+            "D": "O uso de diuréticos de alça, como a furosemida, é recomendado como tratamento inicial para todos os pacientes com embolia pulmonar, para reduzir a pressão arterial e aliviar a sobrecarga de volume.",
+            "E": "A ventilação mecânica deve ser iniciada de forma precoce em todos os pacientes com embolia pulmonar para garantir a oxigenação adequada, independentemente da gravidade da insuficiência respiratória."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na embolia pulmonar macica com instabilidade hemodinâmica, a trombólise sistêmica é a estratégia de escolha para dissolver o trombo, restaurar o fluxo e melhorar a funcao ventricular direita."
+    },
+    {
+        "id": "1518372",
+        "enunciado": "Considerando a avaliação pré-operatória para cirurgias de grande porte, qual das seguintes estratégias é a mais apropriada para identificar e minimizar os riscos associados à cirurgia?",
+        "alternativas": {
+            "A": "A avaliação pré-operatória deve incluir uma revisão detalhada da história médica, avaliação das comorbidades e risco cirúrgico, e a realização de exames laboratoriais e de imagem direcionados com base nas características individuais do paciente e do procedimento planejado.",
+            "B": "A avaliação cardíaca com teste de estresse deve ser rotineiramente realizada para todos os pacientes que irão se submeter à cirurgia de grande porte, independentemente da presença de sintomas ou história clínica.",
+            "C": "A avaliação pulmonar pré-operatória deve incluir a realização de uma tomografia computadorizada de alta resolução para todos os pacientes, visando identificar possíveis doenças pulmonares intersticiais ou outras condições pulmonares.",
+            "D": "A realização de um teste de função hepática avançado deve ser feita para todos os pacientes, independentemente da presença de doenças hepáticas, para avaliar o risco de complicações hepáticas durante e após a cirurgia.",
+            "E": "A profilaxia antibiótica deve ser administrada a todos os pacientes pré-operatórios, independentemente do tipo de cirurgia, para reduzir o risco de infecções pós-operatórias."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A avaliação pré-operatória adequada envolve uma análise completa do paciente, incluindo histórico, comorbidades, risco cirúrgico e exames direcionados, visando minimizar riscos. As demais alternativas propõem exames de rotina generalizados, o que nem sempre é necessário ou o principal ponto de partida."
+    },
+    {
+        "id": "1518374",
+        "enunciado": "Homem de 45 anos, admitido na UTI após uma cirurgia abdominal complexa, apresenta dor significativa e requer manejo adequado da analgesia. Considerando as diretrizes para analgesia em UTI, qual das seguintes alternativas é a mais correta sobre a escolha e o manejo de analgésicos para pacientes críticos?",
+        "alternativas": {
+            "A": "A utilização de opioides de ação curta, como a morfina, deve ser evitada em pacientes com insuficiência renal, pois pode levar a acúmulo e aumento do risco de efeitos adversos.",
+            "B": "A analgesia multimodal, que combina opioides com analgésicos não opioides e/ou adjuvantes, é recomendada para melhorar o controle da dor e reduzir o uso de altas doses de opioides em pacientes críticos.",
+            "C": "A administração contínua de opioides deve ser a única abordagem para manejo da dor em pacientes críticos, independentemente da duração da analgesia necessária, para evitar a complexidade de outros agentes analgésicos.",
+            "D": "Analgésicos não opioides, como o paracetamol, devem ser utilizados em pacientes críticos somente após a falha de tratamento com opioides, devido à sua eficácia limitada no controle da dor intensa.",
+            "E": "A analgesia com bloqueadores neuromusculares é indicada para todos os pacientes críticos com dor intensa para garantir um controle efetivo da dor e prevenir movimentos indesejados."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A analgesia multimodal é a abordagem mais indicada em UTIs. Ela combina diferentes classes de analgésicos para otimizar o controle da dor, minimizar efeitos colaterais e reduzir a necessidade de altas doses de opioides."
+    },
+    {
+        "id": "1518376",
+        "enunciado": "Homem, 68 anos, é admitido na UTI com diagnóstico de choque séptico. O paciente apresenta febre alta, taquicardia, hipotensão persistente e sinais de perfusão inadequada. Qual das seguintes abordagens é a mais apropriada para o diagnóstico e manejo inicial desse paciente?",
+        "alternativas": {
+            "A": "Iniciar a administração de antibióticos de amplo espectro imediatamente após a coleta de culturas e antes da confirmação do patógeno, para cobrir a ampla gama de potenciais agentes infecciosos.",
+            "B": "Adiar a administração de fluidos intravenosos até que os resultados dos exames laboratoriais confirmem a presença de infecção, para evitar sobrecarga de volume.",
+            "C": "Realizar uma biópsia do tecido infectado para identificar o patógeno antes de iniciar qualquer tratamento, para garantir a escolha adequada dos antibióticos.",
+            "D": "A administração precoce de vasopressores deve ser considerada como o primeiro passo no manejo, sem a necessidade de avaliação inicial do volume intravascular do paciente.",
+            "E": "A realização de uma tomografia computadorizada de corpo inteiro deve ser a primeira abordagem para diagnóstico de infecção, independentemente da gravidade do choque séptico e da apresentação clínica do paciente."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "No choque séptico, a administração precoce de antibióticos de amplo espectro, após a coleta de culturas, é crucial para combater a infecção e melhorar o prognóstico, mesmo antes da identificação exata do patógeno. As outras medidas adiam o tratamento essencial ou são incorretas como primeira abordagem."
+    },
+    {
+        "id": "1518378",
+        "enunciado": "Homem, 50 anos, é admitido na UTI após um trauma cervical severo. O paciente apresenta hipotensão persistente e bradicardia, com sinais de perda de função motora abaixo do nível da lesão. Qual das seguintes abordagens é a mais apropriada para o diagnóstico e manejo inicial do choque neurogênico?",
+        "alternativas": {
+            "A": "Iniciar a administração de fluidos intravenosos e vasopressores imediatamente para tratar a hipotensão, sem considerar o histórico do trauma e a avaliação neurológica.",
+            "B": "A administração de atropina deve ser considerada como o tratamento inicial para a bradicardia, independentemente da causa subjacente da hipotensão.",
+            "C": "Realizar uma ressonância magnética da coluna cervical para confirmar a lesão medular antes de iniciar qualquer tratamento para o choque neurogênico.",
+            "D": "O tratamento inicial do choque neurogênico deve focar na estabilização hemodinâmica com fluidos intravenosos e vasopressores, com ênfase em evitar a hipotensão e a bradicardia resultantes da perda de tono simpático.",
+            "E": "A administração de corticosteroides deve ser iniciada imediatamente para todos os pacientes com choque neurogênico para reduzir a inflamação e o edema medular."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O choque neurogênico resulta da perda do tônus simpático. O manejo inicial visa estabilizar a hemodinâmica com fluidos e vasopressores para manter a perfusão e evitar a hipotensão e bradicardia associadas à lesão medular."
+    },
+    {
+        "id": "1043001",
+        "enunciado": "Paciente mulher de 30 anos submetida à laparotomia exploradora de urgência está na unidade de terapia intensiva (UTI) com quadro de choque séptico de origem abdominal por apendicite complicada com peritonite purulenta generalizada, insuficiência renal e insuficiência respiratória grave (síndrome da angústia respiratória do adulto (SARA)) em fase avançada. Suporte circulatório com aminas vasoativas, antibioticoterapia sistêmica, hidratação, suporte respiratório com ventilador mecânico e outras medidas empregadas. Gasometria arterial: pH = 7,20 (normal 7,35 a 7,45); PaCO2 = 55 mmHg (normal 35 a 45 mmHg); Bicarbonato = 19 mmol/L (normal 22 a 26 mmol/L); Base Excess (BE) = -6,5 (normal -2 a +2). Em relação ao quadro apresentado, analise as afirmativas.",
+        "alternativas": {
+            "A": "I. O pH menor que 7,35 indica acidose.",
+            "B": "II. A complacência pulmonar é normal na SARA e a retenção de CO2 é decorrente da insuficiência renal.",
+            "C": "III. O distúrbio ácido-básico é misto, com componente tanto respiratório quanto metabólico.",
+            "D": "IV. O choque séptico cursa com aumento do metabolismo anaeróbico, mas sem acúmulo de ácido láctico no organismo.",
+            "E": "V. O bicarbonato é consumido na acidose metabólica, reagindo com o excesso de íons H+ presentes no organismo."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O pH baixo (7,20), a PaCO2 alta (55 mmHg) e BE baixo (-6,5) indicam acidose respiratória e metabólica, configurando um distúrbio misto."
+    },
+    {
+        "id": "1011291",
+        "enunciado": "VMNI é a abreviação para Ventilação Mecânica Não Invasiva. Trata-se de uma modalidade de suporte ventilatório utilizada no campo da medicina, especialmente em pacientes com dificuldades respiratórias. Em que situação a VMNI deve ser interrompida ou reavaliada em um paciente com insuficiência respiratória?",
+        "alternativas": {
+            "A": "A VMNI deve ser interrompida após 24 horas, independentemente da melhora do paciente.",
+            "B": "A VMNI deve ser reavaliada apenas se o paciente reclamar de desconforto.",
+            "C": "A VMNI nunca deve ser interrompida após o início.",
+            "D": "A VMNI deve ser interrompida apenas se o paciente estiver consciente e capaz de respirar sem assistência.",
+            "E": "A VMNI deve ser interrompida se não houver melhora clínica significativa após um período de tempo e deve ser reavaliada se houver piora clínica."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A VMNI deve ser interrompida se nao houver melhora ou se houver piora clinica. Alternativas A, B, C e D ignoram a necessidade de avaliacao continua e o bem-estar do paciente."
+    },
+    {
+        "id": "2225681",
+        "enunciado": "Homem de 67 anos, com dez dias de revascularização do miocárdio, foi mantido na UTI devido à arritmia. Encontra-se sob intubação orotraqueal, mas em desmame, em pressão de suporte e recebendo nutrição parenteral. Passou a apresentar distensão e dor à palpação do abdome, principalmente em hipocôndrio direito, associado à febre e leucocitose. Qual a hipótese diagnóstica mais provável?",
+        "alternativas": {
+            "A": "Colecistite aguda alitiásica – ultrassonografia de abdome.",
+            "B": "Infarto hepático – arteriografia hepática.",
+            "C": "Hepatite transfusional – hemocultura.",
+            "D": "Síndrome hepatorrenal – clearance de creatinina."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O quadro clínico de dor abdominal em hipocôndrio direito, febre e leucocitose em um paciente pós-cirurgia cardíaca, com nutrição parenteral, sugere colecistite aguda alitiásica. A ultrassonografia de abdome é o exame de escolha para o diagnóstico."
+    },
+    {
+        "id": "2222926",
+        "enunciado": "Em pacientes críticos, o uso dos scores tipo SOFA (Sequential Organ Failure Assessment) e APACHE II (Acute Physiology and Chronic Health Evaluation) permite fazer uma previsão prognóstica e das disfunções orgânicas apresentadas pelos pacientes. Por isso é importante o intensivista considerar que o:",
+        "alternativas": {
+            "A": "APACHE II utiliza 12 variáveis e normalmente é usado na admissão do paciente.",
+            "B": "APACHE é utilizado para comparar dois pacientes, quanto à evolução de disfunções orgânicas, na UTI.",
+            "C": "SOFA é calculado com base no número de intervenções médicas utilizadas durante a terapêutica diária, na UTI.",
+            "D": "SOFA reflete as disfunções orgânicas diárias, enquanto o APACHE reflete as alterações fisiológicas diárias de cada paciente."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O APACHE II utiliza 12 variáveis e é calculado na admissão do paciente para prognóstico. O SOFA avalia disfunções orgânicas diárias. O APACHE II não é para comparar a evolução das disfunções em UTI."
+    },
+    {
+        "id": "2222934",
+        "enunciado": "Homem de 64 anos, 60 kg e 1.60 m, encontra-se em sepse abdominal na UTI do Instituto Dr. José Frota (IJF) com PA de 110x60mmHg, FC de 94 bpm e SpO 2 de 94%. A monitorização minimamente invasiva do débito cardíaco evidencia índice cardíaco de 2.5 L/min/m com variação do volume sistólico de 18%. O lactato arterial está em ascensão com último valor de 4.2mmol/L. Foi instituída conduta terapêutica que resultou em aumento do consumo de O 2 e redução da saturação venosa central de O 2. A terapia capaz de causar esse efeito é a administração de:",
+        "alternativas": {
+            "A": "coloides.",
+            "B": "cristaloides.",
+            "C": "inotrópicos.",
+            "D": "vasopressores."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Inotrópicos, como dobutamina ou milrinona, visam aumentar a contratilidade miocárdica. Em septicemia, um aumento do débito cardíaco e da extração de oxigênio pode levar a um aumento do consumo de O2 e diminuição da saturação venosa central de O2, como descrito."
+    },
+    {
+        "id": "1744276",
+        "enunciado": "São fatores de risco para via aérea difícil, EXCETO:",
+        "alternativas": {
+            "A": "Ser idoso.",
+            "B": "Ser obeso.",
+            "C": "Apresentar todos os dentes.",
+            "D": "Ter barba.",
+            "E": "Ter histórico de ronco."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A presença de todos os dentes, especialmente se hígidos, não é um fator de risco para via aérea difícil. Fatores como obesidade, idade avançada, barba e ronco estão mais frequentemente associados a dificuldades na intubação."
+    },
+    {
+        "id": "1744277",
+        "enunciado": "Em relação aos cateteres venosos, assinale a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "A ponta do cateter deve ficar localizada 3 a 5 cm acima da junção cavoatrial.",
+            "B": "A passagem do cateter central deve ser feita com base na Técnica de Seldinger.",
+            "C": "Cateter venoso central é o acesso de escolha para paciente instável agudamente que necessite repor grande volume de fluidos.",
+            "D": "Nutrição parenteral total deve ser administrada em acesso venoso central exclusivo.",
+            "E": "O risco de infecção de um cateter central aumenta conforme o número de vias do cateter."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A ponta do cateter venoso central deve ser o mais próximo possível da junção cavoatrial, preferencialmente na veia cava superior, para otimizar a infusão e diminuir o risco de arritmias. 3-5 cm acima pode ser insuficiente."
+    },
+    {
+        "id": "1744279",
+        "enunciado": "Mulher de 18 anos interna na UTI após acidente automobilístico com múltiplas fraturas ósseas, porém sem alterações na função intestinal. É necessária ventilação mecânica para proteger a via aérea e manejar analgesia enquanto aguarda m-se cirurgias ortopédicas em alguns dias. Sobre o caso, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "As necessidades energéticas da paciente provavelmente excedem 300% os valores normais.",
+            "B": "Nutrição parenteral total deve ser prontamente iniciada.",
+            "C": "A dieta enteral deve ser iniciada após uma semana do início da dieta parenteral.",
+            "D": "Deve-se passar uma sonda nasoenteral e iniciar dieta enteral no primeiro ou segundo dia de UTI.",
+            "E": "Deve-se realizar nutrição parenteral e enteral em conjunto nesta paciente."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em pacientes na UTI que necessitam de ventilação mecânica e aguardam cirurgia, a nutrição enteral deve ser iniciada precocemente (primeiro ou segundo dia) para manter a integridade da barreira intestinal e reduzir complicações."
+    },
+    {
+        "id": "1744290",
+        "enunciado": "A ressuscitação volêmica com amido no choque séptico está associada:",
+        "alternativas": {
+            "A": "À maior mortalidade.",
+            "B": "A menos insuficiência renal.",
+            "C": "À redução da pressão plasmática oncótica.",
+            "D": "À redução nos custos com fluidos.",
+            "E": "A melhores resultados."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Estudos demonstraram que o uso de amido no choque séptico está associado a maior risco de insuficiência renal aguda e aumento da mortalidade, sendo seu uso desaconselhado."
+    },
+    {
+        "id": "1744298",
+        "enunciado": "Com base nos critérios de Berlim para avaliação de hipoxemia em pacientes com SARA, analise as assertivas abaixo: I. A SARA é leve quando a relação PaO2/FiO2 estiver entre 200 e 300 com PEEP > 5. II. A SARA é moderada quando a relação PaO2/FiO2 estiver entre 100 e 200 com PEEP > 5. III. A SARA é grave quando a FiO2 for 100% independentemente da PaO2. IV. A SARA é grave quando a relação PaO2/FiO2 estiver abaixo de 100 com PEEP > 5. Quais estão corretas?",
+        "alternativas": {
+            "A": "Apenas II.",
+            "B": "Apenas III.",
+            "C": "Apenas I e II.",
+            "D": "Apenas I, II e IV.",
+            "E": "Apenas I, III e IV."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os critérios de Berlim classificam SARA leve (200-300), moderada (100-200) e grave (<100) com base na relação PaO2/FiO2 e PEEP > 5. A alternativa III está incorreta pois a FiO2 de 100% não é critério isolado para SARA grave."
+    },
+    {
+        "id": "1744300",
+        "enunciado": "Qual das alternativas abaixo é a causa mais comum de choque cardiogênico?",
+        "alternativas": {
+            "A": "Doença cardíaca valvar.",
+            "B": "Miocardite.",
+            "C": "Complicações mecânicas do infarto agudo do miocárdio.",
+            "D": "Infarto do ventrículo direito.",
+            "E": "Bombeamento insuficiente no infarto agudo do miocárdio."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As complicações mecânicas agudas decorrentes de um infarto do miocárdio, como ruptura de parede livre, ruptura de septo interventricular ou disfunção de músculo papilar, levam a choque cardiogênico de forma mais frequente."
+    },
+    {
+        "id": "1744302",
+        "enunciado": "Homem de 70 anos está internado na UTI há 26 dias após quadro de Covid-19. Evoluiu com choque, disfunção multiorgânica e SARA; agora, traqueostomizado em reabilitação. Iniciou com febre e hipotensão, tendo iniciado vasopressor. Foi iniciado empiricamente Cefepime e Vancomicina. Várias culturas negativas. Urocultura negativa. Radiografia de tórax sem novo infiltrado nem aumento de secreção respiratória. Exames laboratoriais evidenciaram elevação de bilirrubinas, fosfatase alcalina e transaminases. Enzimas pancreáticas sem alterações. Ultrassom do abdome mostra lama biliar, sem cálculos. Ducto biliar normal. Qual das alternativas abaixo é a mais adequada para avaliação e tratamento desse paciente?",
+        "alternativas": {
+            "A": "Iniciar tratamento com Clindamicina.",
+            "B": "Iniciar tratamento com metronidazol.",
+            "C": "Suspender o Cefepime.",
+            "D": "Encaminhar para laparotomia exploradora.",
+            "E": "Realizar cintilografia hepatobiliar."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A paciente apresenta elevação de enzimas hepáticas e alterações na vesícula biliar (lama biliar) após quadro de sepse e uso de antibióticos, sugerindo possível colecistite acalculosa. A cintilografia hepatobiliar auxiliaria no diagnóstico."
+    },
+    {
+        "id": "1744305",
+        "enunciado": "São recomendações para a prevenção de infecções de corrente sanguínea relacionadas a cateter profundo, EXCETO:",
+        "alternativas": {
+            "A": "Uso de precauções máximas de barreira durante a inserção do cateter.",
+            "B": "Preparo do local da inserção do cateter com agente antisséptico antes da inserção.",
+            "C": "Revisão diária para remover os cateteres que não estão sendo utilizados.",
+            "D": "Trocar o cateter rotineiramente a cada 7 dias.",
+            "E": "Esterilizar o ponto de acesso com antisséptico antes de acessá-lo."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A troca rotineira de cateteres profundos a cada 7 dias não é mais recomendada e pode aumentar o risco de infecção. A remoção quando não mais indicados e o uso de técnica asséptica são prioritários."
+    },
+    {
+        "id": "1744308",
+        "enunciado": "Em relação ao delirium em pacientes internados na UTI, assinale a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "A idade e a disfunção cognitiva prévia são fatores de risco para que aconteça.",
+            "B": "Os diazepínicos são a droga de primeira escolha para o tratamento da fase aguda.",
+            "C": "Tratamento ineficaz da dor tem relação com a ocorrência de delirium.",
+            "D": "Os pacientes com delirium hipoativo podem ter o seu diagnóstico dificultado.",
+            "E": "As consequências dos episódios de delirium quando da internação na UTI podem permanecer por anos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Diazepínicos, como benzodiazepínicos, podem agravar o delirium, especialmente em idosos, sendo outras classes de hipnóticos (como a quetiapina em alguns casos) ou antipsicóticos a escolha em situações específicas, e não a primeira linha."
+    },
+    {
+        "id": "1744310",
+        "enunciado": "Paciente de 46 anos interna por quadro de sepse respiratória na UTI. Exame bacteriológico da secreção respiratória evidenciou Pseudomonas aeruginosa. Assinale a alternativa que NÃO pode ser útil para o tratamento desta paciente.",
+        "alternativas": {
+            "A": "Piperacilina -Tazobactam.",
+            "B": "Cefepime.",
+            "C": "Ceftazidima -Avibactam.",
+            "D": "Ertapenem.",
+            "E": "Meropenem."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ertapenem é um carbapenem de espectro mais restrito, geralmente ineficaz contra Pseudomonas aeruginosa, que frequentemente apresenta mecanismos de resistência a beta-lactâmicos."
+    },
+    {
+        "id": "1512436",
+        "enunciado": "Quais das seguintes medicações fazem parte da sequência rápida para intubação orotraqueal:",
+        "alternativas": {
+            "A": "Lidocaína e atropina.",
+            "B": "Adenosina e midazolam.",
+            "C": "Succinilcolina e fentanil.",
+            "D": "Amiodarona e propofol.",
+            "E": "Etomidato e enoxaparina."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Na sequência rápida para intubação orotraqueal, a medicação hipnótica (como etomidato ou propofol) é administrada para sedação, e o bloqueador neuromuscular (como succinilcolina) é usado para facilitar a intubação. O Fentanil é um opioide analgésico que também pode ser usado para potencializar a sedação e atenuar a resposta autonômica à laringoscopia."
+    },
+    {
+        "id": "1512438",
+        "enunciado": "Aponte a escala utilizada para avaliação do grau de sedação de um paciente:",
+        "alternativas": {
+            "A": "RASS.",
+            "B": "SOFA.",
+            "C": "APACHE.",
+            "D": "Glasgow.",
+            "E": "RIFLE."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A escala RASS (Richmond Agitation-Sedation Scale) é utilizada especificamente para avaliar o nível de sedação e agitação em pacientes, sendo amplamente empregada em unidades de terapia intensiva. As outras escalas avaliam outros aspectos, como gravidade da doença (SOFA, APACHE) ou estado neurológico (Glasgow)."
+    },
+    {
+        "id": "1074188",
+        "enunciado": "O “Driving pressure” tem sido alternativa de ventilação protetora na Síndrome do desconforto respiratório agudo, com melhora da sobrevida. Ele é igual a:",
+        "alternativas": {
+            "A": "∆P = Pressão de platô de via aérea – PEEP.",
+            "B": "∆P = Pressão inspiratória máxima dinâmica – PEEP.",
+            "C": "∆P = Pressão de platô de via aérea + PEEP.",
+            "D": "∆P = Pressão autolimitada em ciclagem a tempo.",
+            "E": "∆P = Pressão de platô de via aérea para P/F menor que 150."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O Driving Pressure (∆P) é a diferença entre a pressão de platô de via aérea e a PEEP (Pressão positiva ao final da expiração), sendo um indicador de complacência pulmonar e associado à melhora da sobrevida na SDRA."
+    },
+    {
+        "id": "1026416",
+        "enunciado": "Assinale a alternativa incorreta.",
+        "alternativas": {
+            "A": "O USG à beira do leito vem ganhando cada vez mais espaço na terapia intensiva;",
+            "B": "A medição da Veia Cava Superior é bom preditor da volemia do paciente;",
+            "C": "O pró-BNP pode ser utilizado nos casos agudos para diferenciar a dispneia de origem pulmonar da cardíaca;",
+            "D": "A pró-calcitonina é um pró-hormônio que em condições habituais permanece apenas no interior das células."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A medição da Veia Cava Inferior e sua variação com a respiração é um preditor dinâmico da volemia. A Veia Cava Superior, embora também seja utilizada em alguns contextos, não é considerada o principal preditor isolado de volemia."
+    }
+]

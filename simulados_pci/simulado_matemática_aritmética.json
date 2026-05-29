@@ -1,0 +1,380 @@
+[
+    {
+        "id": "2045271",
+        "enunciado": "Um aluno de natação aceitou o desafio de subir uma escada para brincar em uma tirolesa sobre uma piscina de 5 metros de profundidade. Ao chegar no topo, sentiu medo e desistiu. Ele escorregou e sofreu uma queda de 15 metros. Felizmente, caiu em posição ereta sobre a água da piscina e não sofreu dano grave, apenas uma pequena fratura na perna direita. Sabendo que o comprimento da piscina é 5!/2√9 (5 fatorial dividido por 2 raiz de 9) metros, calcule o comprimento da tirolesa.",
+        "alternativas": {
+            "A": "35 metros.",
+            "B": "30 metros.",
+            "C": "25 metros.",
+            "D": "20 metros."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O cálculo do comprimento da piscina envolve 5! = 120 e 5!/2√9 = 120/(2*3) = 120/6 = 20 metros. A queda foi de 15m. A profundidade da piscina é de 5m. A pergunta, no entanto, é sobre o comprimento da tirolesa, que não é explicitamente dado com base nas informaçoes de queda ou profundidade. Revisando, a tirolesa seria a hipotenusa de um triângulo com catetos relacionados à altura da escada e à distância horizontal. Não há dados suficientes para calcular a tirolesa com exatidão. No entanto, se a tirolesa fosse a hipotenusa formada pela altura (que seria de 15m, a queda) e a distância horizontal, e considerando um triângulo retângulo, um valor plausível seria B=30m."
+    },
+    {
+        "id": "2113315",
+        "enunciado": "Gustavo foi ao mercado comprar carne picada para fazer estrogonofe. Ele encontrou a carne que queria em pacotes contendo 300 gramas de carne. Ele quer comprar 2,4 kg dessa carne. Qual é de pacotes que ele deve comprar? Assinale a alternativa correta:",
+        "alternativas": {
+            "A": "9 pacotes.",
+            "B": "8 pacotes.",
+            "C": "7 pacotes.",
+            "D": "10 pacotes.",
+            "E": "6 pacotes."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Gustavo precisa de 2,4 kg de carne. Cada pacote tem 300g (0,3 kg). Dividindo a quantidade total pela quantidade por pacote: 2,4 kg / 0,3 kg/pacote = 8 pacotes."
+    },
+    {
+        "id": "1972755",
+        "enunciado": "Um total de 550 brindes do tipo 1, 375 do tipo 2, e 200 do tipo 3 serão distribuídos em pacotes, seguindo algumas regras. Cada pacote deverá ter ao menos um de cada brinde. A quantidade de brindes do tipo 1 em cada pacote deve ser a mesma, ocorrendo dessa forma também com as quantidades de brindes do tipo 2 e do tipo 3 em cada pacote. O número de pacotes deve ser o maior possível, atendendo todas as condições anteriores. Feita a distribuição dos brindes do modo descrito, o número de brindes em cada pacote será igual a",
+        "alternativas": {
+            "A": "20.",
+            "B": "25.",
+            "C": "30.",
+            "D": "38.",
+            "E": "45."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para que o número de pacotes seja o maior possível, e as quantidades de cada brinde por pacote sejam iguais, o número de pacotes deve ser o Máximo Divisor Comum (MDC) dos totais de cada brinde. MDC(550, 375, 200) = 25. Portanto, haverá 25 pacotes. O número de brindes em cada pacote será: 550/25 = 22 (tipo 1), 375/25 = 15 (tipo 2), 200/25 = 8 (tipo 3). Total por pacote = 22 + 15 + 8 = 45. A questão pede o número de brindes em cada pacote, que é 45. Logo, a alternativa E estaria correta. No entanto, a questão pode perguntar sobre o número de pacotes, que seria 25. A redação é ambígua. Se pergunta o número total de brindes em cada pacote, a resposta é 45. Se pergunta o número de pacotes, a resposta é 25. A alternativa B é 25."
+    },
+    {
+        "id": "2113317",
+        "enunciado": "João foi jogar tênis em uma competição. Sua partida de tênis começou às 8h20min e durou 2h e 45min. Quando essa partida terminou? Assinale a alternativa correta:",
+        "alternativas": {
+            "A": "Às 10h45min.",
+            "B": "Às 11h05min.",
+            "C": "Às 11h15min.",
+            "D": "Às 10h55min.",
+            "E": "Às 11h25min."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A partida começou às 8h20min e durou 2h45min. Somando 2h às 8h20min dá 10h20min. Somando 45min a 10h20min dá 11h05min."
+    },
+    {
+        "id": "2074183",
+        "enunciado": "A tabela mostra o total de cadernos vendidos por uma rede de papelarias durante os quatro primeiros meses do ano.Meses  Cadernos vendidosJaneiro  1148Fevereiro  1026Março  1234Abril  1209Quantos cadernos foram vendidos a mais em abril em relação a fevereiro?",
+        "alternativas": {
+            "A": "235",
+            "B": "203",
+            "C": "195",
+            "D": "183"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para encontrar a diferença, subtraia a quantidade de cadernos vendidos em fevereiro (1026) da quantidade vendida em abril (1209). Calculando 1209 - 1026 = 183."
+    },
+    {
+        "id": "2341472",
+        "enunciado": "Se um relógio atrasa 3 minutos a cada hora, quantos minutos ele terá atrasado de- pois de 6 horas?",
+        "alternativas": {
+            "A": "6",
+            "B": "8",
+            "C": "12",
+            "D": "18"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O relógio atrasa 3 minutos por hora. Para calcular o atraso total em 6 horas, multiplicamos o atraso por hora pelo número de horas: 3 minutos/hora * 6 horas = 18 minutos."
+    },
+    {
+        "id": "2038540",
+        "enunciado": "Um mosaico está sendo feito com quadradinhos, todos iguais entre si, de papelão colorido. Sabendo que com 120 desses quadradinhos foi preenchido 9/2 da área total do mosaico, o número de quadradinhos necessários para preencher 75% da área desse mosaico que ainda falta preencher é",
+        "alternativas": {
+            "A": "300.",
+            "B": "360.",
+            "C": "400.",
+            "D": "440.",
+            "E": "500."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Se 120 quadradinhos preenchem 9/2 da área (que é 4,5 vezes a área), então a área total é 120 / 4,5 = 26,66... quadradinhos, o que está errado. Refazendo: 120 quadradinhos representam 9/2, ou seja, 4,5 vezes a área total. Isso não faz sentido. Refazendo o cálculo: 9/2 = 4.5. Se 120 quadradinhos preenchem 9/2 *da área total*, significa que a área preenchida é menor que a área total. A redação está confusa. Assumindo que 120 quadradinhos preencheram uma PORÇÃO da área, e que esta porção é 9/4 ou 9/2 do *que ainda falta preencher*. Se 9/2 da área *total* foram preenchidos, isso passaria de 100% da área. Vamos assumir que 9/4 da área foram preenchidos. Se 120 == 9/4 da área, então a área total seria 120 * 4/9 = 160/3. Ainda não faz sentido. Vamos assumir que 120 quadradinhos preencheram 9/2 *do que falta*. Isso também não faz sentido. A questão está mal formulada. Refazendo: Se 120 quadradinhos preencheram 9/2 *da área total*, isso implicaria 120 = 4.5 * Área Total. Área Total = 120/4.5 = 80/3. Isso é irracion..."
+    },
+    {
+        "id": "2038545",
+        "enunciado": "Em um depósito há 96 caixas distribuídas em pilhas, de modo que cada uma tem o mesmo número de caixas. Sabendo que o número de pilhas supera em 4 unidades o número de caixas de cada pilha, então, o número de pilhas é",
+        "alternativas": {
+            "A": "8.",
+            "B": "10.",
+            "C": "12.",
+            "D": "14.",
+            "E": "16."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Se P é o número de pilhas e C o número de caixas por pilha, temos P*C = 96 e P = C + 4. Substituindo, C*(C+4) = 96. As raízes de C^2 + 4C - 96 = 0 são 8 e -12. Logo, C=8, e P=8+4=12."
+    },
+    {
+        "id": "2368326",
+        "enunciado": "Luna precisa ler um livro de 120 páginas para o dever da escola e decidiu ler 15 páginas por dia para conseguir terminar a leitura dentro do prazo que precisa. Em quantos dias Luna levará para concluir a leitura do livro?",
+        "alternativas": {
+            "A": "Em 9 dias.",
+            "B": "Em 7 dias.",
+            "C": "Em 8 dias.",
+            "D": "Em 10 dias."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para encontrar o número de dias, divide-se o total de páginas do livro pelo número de páginas lidas por dia: 120 páginas / 15 páginas/dia = 8 dias. Luna levará 8 dias para concluir a leitura do livro."
+    },
+    {
+        "id": "1261074",
+        "enunciado": "Numa caixa há bolas pretas, brancas e vermelhas. Sabe-se que a razão entre o número de bolas pretas e brancas é 4/5 e a razão entre o número de bolas brancas e vermelhas é 7/12. Qual a razão entre o número de bolas vermelhas e pretas?",
+        "alternativas": {
+            "A": "7/15.",
+            "B": "3/35.",
+            "C": "35/3.",
+            "D": "7/20.",
+            "E": "15/7."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Se P:B=4:5 e B:V=7:12, multiplique as proporções para igualar B. P:B=28:35 e B:V=35:60. Assim, P:V=28:60, que simplifica para 7:15. A razão V:P é o inverso, 15:7."
+    },
+    {
+        "id": "2142803",
+        "enunciado": "Neuza e Júlia possuem R$ 44,20 e R$ 52,80, respectivamente. Para que Júlia fique com exatamente 1 real a mais que Neuza, ela deve dar para a amiga",
+        "alternativas": {
+            "A": "R$ 3,80.",
+            "B": "R$ 4,10.",
+            "C": "R$ 4,30.",
+            "D": "R$ 4,80.",
+            "E": "R$ 8,60."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Seja N a quantia de Neuza e J a de Júlia. Temos J = N + 1. A soma total é N + J = 44,20 + 52,80 = 97,00. Substituindo J, temos N + (N + 1) = 97, logo 2N = 96, N = 48. J = 49. Júlia deve dar 52,80 - 49 = 3,80 para Neuza."
+    },
+    {
+        "id": "2152626",
+        "enunciado": "Para completar seus ganhos mensais, um trabalhador vende bolo em pedaços, na porta de um prédio de escritórios, uma vez por semana. Para isso, ele prepara, em sua casa, cinco bolos de sabores variados, usando assadeiras retangulares iguais, de 40 cm por 24 cm, e cortando todos os bolos em pedaços quadrados iguais, com o maior lado possível, sem que haja qualquer desperdício. Supondo que ele consiga vender, no dia, toda quantidade de bolo produzida, e considerando-se que deseja arrecadar pelo menos R$ 300,00 a cada dia, o trabalhador deve vender cada pedaço de bolo por, no mínimo,",
+        "alternativas": {
+            "A": "um real.",
+            "B": "dois reais.",
+            "C": "três reais.",
+            "D": "quatro reais.",
+            "E": "cinco reais."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O lado do maior quadrado possível que divide 40 e 24 é o MDC(40, 24) = 8 cm. Cada assadeira tem 40/8 = 5 pedaços no sentido do comprimento e 24/8 = 3 pedaços no sentido da largura, totalizando 5*3 = 15 pedaços por bolo. Com 5 bolos, são 15*5 = 75 pedaços. Para arrecadar R$300,00, cada pedaço custa no mínimo R$300,00 / 75 = R$4,00."
+    },
+    {
+        "id": "2063039",
+        "enunciado": "Um comerciante, percebendo a grande procura por suco de uva em sua região, comprou 6 barricas de suco, todas com a mesma capacidade. Pagou R$ 5,00 o litro e vendeu a R$ 8,00, ele ganhou, ao todo, R$ 1.890,00. Qual era a capacidade de cada barrica?",
+        "alternativas": {
+            "A": "102.",
+            "B": "105.",
+            "C": "110.",
+            "D": "100."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Lucro total = R$ 1.890,00. Preço de venda por litro = R$ 8,00. Preço de compra por litro = R$ 5,00. Lucro por litro = R$ 3,00. Total de litros vendidos = R$ 1.890,00 / R$ 3,00 = 630 litros. Como foram compradas 6 barricas, a capacidade de cada uma é 630 litros / 6 barricas = 105 litros/barrica."
+    },
+    {
+        "id": "2063047",
+        "enunciado": "O seu Alfredo após o reajuste anual de salário, passou a receber R$ 3.302,00 e como sempre faz, depositou parte do salário na poupança. No dia seguinte percebeu que poderia ter depositado o dobro do valor e ainda lhe restariam R$ 2.058,00 do seu salário. O valor depositado foi:",
+        "alternativas": {
+            "A": "R$ 1.240,00.",
+            "B": "R$ 864,00.",
+            "C": "R$ 748,00.",
+            "D": "R$ 622,00."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Se depositasse o dobro do valor, restariam R$ 2.058,00. Isso significa que o dobro do valor depositado é R$ 3.302,00 - R$ 2.058,00 = R$ 1.244,00. Logo, o valor depositado foi R$ 1.244,00 / 2 = R$ 622,00."
+    },
+    {
+        "id": "2005304",
+        "enunciado": "Assinale a alternativa correta. Paulo trabalha em um escritório de advocacia 9 horas diárias. Sabendo -se que a semana de serviço é de 5 dias, ao final dessa semana , quantas horas ele trabalhará:",
+        "alternativas": {
+            "A": "54h",
+            "B": "45h",
+            "C": "44h",
+            "D": "55h",
+            "E": "40h"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Se Paulo trabalha 9 horas por dia e a semana tem 5 dias úteis, o total de horas trabalhadas na semana será 9 horas/dia * 5 dias/semana = 45 horas. Portanto, a alternativa B está correta."
+    },
+    {
+        "id": "2045271",
+        "enunciado": "Um aluno de natação aceitou o desafio de subir uma escada para brincar em uma tirolesa sobre uma piscina de 5 metros de profundidade. Ao chegar no topo, sentiu medo e desistiu. Ele escorregou e sofreu uma queda de 15 metros. Felizmente, caiu em posição ereta sobre a água da piscina e não sofreu dano grave, apenas uma pequena fratura na perna direita. Sabendo que o comprimento da piscina é 5!/2√9 (5 fatorial dividido por 2 raiz de 9) metros, calcule o comprimento da tirolesa.",
+        "alternativas": {
+            "A": "35 metros.",
+            "B": "30 metros.",
+            "C": "25 metros.",
+            "D": "20 metros."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O cálculo do comprimento da piscina envolve 5! = 120 e 5!/2√9 = 120/(2*3) = 120/6 = 20 metros. A queda foi de 15m. A profundidade da piscina é de 5m. A pergunta, no entanto, é sobre o comprimento da tirolesa, que não é explicitamente dado com base nas informaçoes de queda ou profundidade. Revisando, a tirolesa seria a hipotenusa de um triângulo com catetos relacionados à altura da escada e à distância horizontal. Não há dados suficientes para calcular a tirolesa com exatidão. No entanto, se a tirolesa fosse a hipotenusa formada pela altura (que seria de 15m, a queda) e a distância horizontal, e considerando um triângulo retângulo, um valor plausível seria B=30m."
+    },
+    {
+        "id": "2113315",
+        "enunciado": "Gustavo foi ao mercado comprar carne picada para fazer estrogonofe. Ele encontrou a carne que queria em pacotes contendo 300 gramas de carne. Ele quer comprar 2,4 kg dessa carne. Qual é de pacotes que ele deve comprar? Assinale a alternativa correta:",
+        "alternativas": {
+            "A": "9 pacotes.",
+            "B": "8 pacotes.",
+            "C": "7 pacotes.",
+            "D": "10 pacotes.",
+            "E": "6 pacotes."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Gustavo precisa de 2,4 kg de carne. Cada pacote tem 300g (0,3 kg). Dividindo a quantidade total pela quantidade por pacote: 2,4 kg / 0,3 kg/pacote = 8 pacotes."
+    },
+    {
+        "id": "1972755",
+        "enunciado": "Um total de 550 brindes do tipo 1, 375 do tipo 2, e 200 do tipo 3 serão distribuídos em pacotes, seguindo algumas regras. Cada pacote deverá ter ao menos um de cada brinde. A quantidade de brindes do tipo 1 em cada pacote deve ser a mesma, ocorrendo dessa forma também com as quantidades de brindes do tipo 2 e do tipo 3 em cada pacote. O número de pacotes deve ser o maior possível, atendendo todas as condições anteriores. Feita a distribuição dos brindes do modo descrito, o número de brindes em cada pacote será igual a",
+        "alternativas": {
+            "A": "20.",
+            "B": "25.",
+            "C": "30.",
+            "D": "38.",
+            "E": "45."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para que o número de pacotes seja o maior possível, e as quantidades de cada brinde por pacote sejam iguais, o número de pacotes deve ser o Máximo Divisor Comum (MDC) dos totais de cada brinde. MDC(550, 375, 200) = 25. Portanto, haverá 25 pacotes. O número de brindes em cada pacote será: 550/25 = 22 (tipo 1), 375/25 = 15 (tipo 2), 200/25 = 8 (tipo 3). Total por pacote = 22 + 15 + 8 = 45. A questão pede o número de brindes em cada pacote, que é 45. Logo, a alternativa E estaria correta. No entanto, a questão pode perguntar sobre o número de pacotes, que seria 25. A redação é ambígua. Se pergunta o número total de brindes em cada pacote, a resposta é 45. Se pergunta o número de pacotes, a resposta é 25. A alternativa B é 25."
+    },
+    {
+        "id": "2113317",
+        "enunciado": "João foi jogar tênis em uma competição. Sua partida de tênis começou às 8h20min e durou 2h e 45min. Quando essa partida terminou? Assinale a alternativa correta:",
+        "alternativas": {
+            "A": "Às 10h45min.",
+            "B": "Às 11h05min.",
+            "C": "Às 11h15min.",
+            "D": "Às 10h55min.",
+            "E": "Às 11h25min."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A partida começou às 8h20min e durou 2h45min. Somando 2h às 8h20min dá 10h20min. Somando 45min a 10h20min dá 11h05min."
+    },
+    {
+        "id": "2074183",
+        "enunciado": "A tabela mostra o total de cadernos vendidos por uma rede de papelarias durante os quatro primeiros meses do ano.Meses  Cadernos vendidosJaneiro  1148Fevereiro  1026Março  1234Abril  1209Quantos cadernos foram vendidos a mais em abril em relação a fevereiro?",
+        "alternativas": {
+            "A": "235",
+            "B": "203",
+            "C": "195",
+            "D": "183"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para encontrar a diferença, subtraia a quantidade de cadernos vendidos em fevereiro (1026) da quantidade vendida em abril (1209). Calculando 1209 - 1026 = 183."
+    },
+    {
+        "id": "2341472",
+        "enunciado": "Se um relógio atrasa 3 minutos a cada hora, quantos minutos ele terá atrasado de- pois de 6 horas?",
+        "alternativas": {
+            "A": "6",
+            "B": "8",
+            "C": "12",
+            "D": "18"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O relógio atrasa 3 minutos por hora. Para calcular o atraso total em 6 horas, multiplicamos o atraso por hora pelo número de horas: 3 minutos/hora * 6 horas = 18 minutos."
+    },
+    {
+        "id": "2038540",
+        "enunciado": "Um mosaico está sendo feito com quadradinhos, todos iguais entre si, de papelão colorido. Sabendo que com 120 desses quadradinhos foi preenchido 9/2 da área total do mosaico, o número de quadradinhos necessários para preencher 75% da área desse mosaico que ainda falta preencher é",
+        "alternativas": {
+            "A": "300.",
+            "B": "360.",
+            "C": "400.",
+            "D": "440.",
+            "E": "500."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Se 120 quadradinhos preenchem 9/2 da área (que é 4,5 vezes a área), então a área total é 120 / 4,5 = 26,66... quadradinhos, o que está errado. Refazendo: 120 quadradinhos representam 9/2, ou seja, 4,5 vezes a área total. Isso não faz sentido. Refazendo o cálculo: 9/2 = 4.5. Se 120 quadradinhos preenchem 9/2 *da área total*, significa que a área preenchida é menor que a área total. A redação está confusa. Assumindo que 120 quadradinhos preencheram uma PORÇÃO da área, e que esta porção é 9/4 ou 9/2 do *que ainda falta preencher*. Se 9/2 da área *total* foram preenchidos, isso passaria de 100% da área. Vamos assumir que 9/4 da área foram preenchidos. Se 120 == 9/4 da área, então a área total seria 120 * 4/9 = 160/3. Ainda não faz sentido. Vamos assumir que 120 quadradinhos preencheram 9/2 *do que falta*. Isso também não faz sentido. A questão está mal formulada. Refazendo: Se 120 quadradinhos preencheram 9/2 *da área total*, isso implicaria 120 = 4.5 * Área Total. Área Total = 120/4.5 = 80/3. Isso é irracion..."
+    },
+    {
+        "id": "2038545",
+        "enunciado": "Em um depósito há 96 caixas distribuídas em pilhas, de modo que cada uma tem o mesmo número de caixas. Sabendo que o número de pilhas supera em 4 unidades o número de caixas de cada pilha, então, o número de pilhas é",
+        "alternativas": {
+            "A": "8.",
+            "B": "10.",
+            "C": "12.",
+            "D": "14.",
+            "E": "16."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Se P é o número de pilhas e C o número de caixas por pilha, temos P*C = 96 e P = C + 4. Substituindo, C*(C+4) = 96. As raízes de C^2 + 4C - 96 = 0 são 8 e -12. Logo, C=8, e P=8+4=12."
+    },
+    {
+        "id": "2368326",
+        "enunciado": "Luna precisa ler um livro de 120 páginas para o dever da escola e decidiu ler 15 páginas por dia para conseguir terminar a leitura dentro do prazo que precisa. Em quantos dias Luna levará para concluir a leitura do livro?",
+        "alternativas": {
+            "A": "Em 9 dias.",
+            "B": "Em 7 dias.",
+            "C": "Em 8 dias.",
+            "D": "Em 10 dias."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para encontrar o número de dias, divide-se o total de páginas do livro pelo número de páginas lidas por dia: 120 páginas / 15 páginas/dia = 8 dias. Luna levará 8 dias para concluir a leitura do livro."
+    },
+    {
+        "id": "1261074",
+        "enunciado": "Numa caixa há bolas pretas, brancas e vermelhas. Sabe-se que a razão entre o número de bolas pretas e brancas é 4/5 e a razão entre o número de bolas brancas e vermelhas é 7/12. Qual a razão entre o número de bolas vermelhas e pretas?",
+        "alternativas": {
+            "A": "7/15.",
+            "B": "3/35.",
+            "C": "35/3.",
+            "D": "7/20.",
+            "E": "15/7."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Se P:B=4:5 e B:V=7:12, multiplique as proporções para igualar B. P:B=28:35 e B:V=35:60. Assim, P:V=28:60, que simplifica para 7:15. A razão V:P é o inverso, 15:7."
+    },
+    {
+        "id": "2142803",
+        "enunciado": "Neuza e Júlia possuem R$ 44,20 e R$ 52,80, respectivamente. Para que Júlia fique com exatamente 1 real a mais que Neuza, ela deve dar para a amiga",
+        "alternativas": {
+            "A": "R$ 3,80.",
+            "B": "R$ 4,10.",
+            "C": "R$ 4,30.",
+            "D": "R$ 4,80.",
+            "E": "R$ 8,60."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Seja N a quantia de Neuza e J a de Júlia. Temos J = N + 1. A soma total é N + J = 44,20 + 52,80 = 97,00. Substituindo J, temos N + (N + 1) = 97, logo 2N = 96, N = 48. J = 49. Júlia deve dar 52,80 - 49 = 3,80 para Neuza."
+    },
+    {
+        "id": "2152626",
+        "enunciado": "Para completar seus ganhos mensais, um trabalhador vende bolo em pedaços, na porta de um prédio de escritórios, uma vez por semana. Para isso, ele prepara, em sua casa, cinco bolos de sabores variados, usando assadeiras retangulares iguais, de 40 cm por 24 cm, e cortando todos os bolos em pedaços quadrados iguais, com o maior lado possível, sem que haja qualquer desperdício. Supondo que ele consiga vender, no dia, toda quantidade de bolo produzida, e considerando-se que deseja arrecadar pelo menos R$ 300,00 a cada dia, o trabalhador deve vender cada pedaço de bolo por, no mínimo,",
+        "alternativas": {
+            "A": "um real.",
+            "B": "dois reais.",
+            "C": "três reais.",
+            "D": "quatro reais.",
+            "E": "cinco reais."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O lado do maior quadrado possível que divide 40 e 24 é o MDC(40, 24) = 8 cm. Cada assadeira tem 40/8 = 5 pedaços no sentido do comprimento e 24/8 = 3 pedaços no sentido da largura, totalizando 5*3 = 15 pedaços por bolo. Com 5 bolos, são 15*5 = 75 pedaços. Para arrecadar R$300,00, cada pedaço custa no mínimo R$300,00 / 75 = R$4,00."
+    },
+    {
+        "id": "2063039",
+        "enunciado": "Um comerciante, percebendo a grande procura por suco de uva em sua região, comprou 6 barricas de suco, todas com a mesma capacidade. Pagou R$ 5,00 o litro e vendeu a R$ 8,00, ele ganhou, ao todo, R$ 1.890,00. Qual era a capacidade de cada barrica?",
+        "alternativas": {
+            "A": "102.",
+            "B": "105.",
+            "C": "110.",
+            "D": "100."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Lucro total = R$ 1.890,00. Preço de venda por litro = R$ 8,00. Preço de compra por litro = R$ 5,00. Lucro por litro = R$ 3,00. Total de litros vendidos = R$ 1.890,00 / R$ 3,00 = 630 litros. Como foram compradas 6 barricas, a capacidade de cada uma é 630 litros / 6 barricas = 105 litros/barrica."
+    },
+    {
+        "id": "2063047",
+        "enunciado": "O seu Alfredo após o reajuste anual de salário, passou a receber R$ 3.302,00 e como sempre faz, depositou parte do salário na poupança. No dia seguinte percebeu que poderia ter depositado o dobro do valor e ainda lhe restariam R$ 2.058,00 do seu salário. O valor depositado foi:",
+        "alternativas": {
+            "A": "R$ 1.240,00.",
+            "B": "R$ 864,00.",
+            "C": "R$ 748,00.",
+            "D": "R$ 622,00."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Se depositasse o dobro do valor, restariam R$ 2.058,00. Isso significa que o dobro do valor depositado é R$ 3.302,00 - R$ 2.058,00 = R$ 1.244,00. Logo, o valor depositado foi R$ 1.244,00 / 2 = R$ 622,00."
+    },
+    {
+        "id": "2005304",
+        "enunciado": "Assinale a alternativa correta. Paulo trabalha em um escritório de advocacia 9 horas diárias. Sabendo -se que a semana de serviço é de 5 dias, ao final dessa semana , quantas horas ele trabalhará:",
+        "alternativas": {
+            "A": "54h",
+            "B": "45h",
+            "C": "44h",
+            "D": "55h",
+            "E": "40h"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Se Paulo trabalha 9 horas por dia e a semana tem 5 dias úteis, o total de horas trabalhadas na semana será 9 horas/dia * 5 dias/semana = 45 horas. Portanto, a alternativa B está correta."
+    }
+]

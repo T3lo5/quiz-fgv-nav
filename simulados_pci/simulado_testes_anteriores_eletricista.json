@@ -1,0 +1,2374 @@
+[
+    {
+        "id": "3107470",
+        "enunciado": "Seja um sistema de aquecimento por resistência elétrica que foi projetado para consumir 2.000 W de potência elétrica quando alimentado por uma tensão elétrica alternada de 220 V eficazes. Se esse sistema for conectado em uma tensão elétrica alternada com 110 V eficazes, qual será a potência elétrica dissipada pelo sistema de aquecimento?",
+        "alternativas": {
+            "A": "200 W",
+            "B": "500 W",
+            "C": "1.000 W",
+            "D": "2.000 W",
+            "E": "4.000 W"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A potência dissipada por um resistor em um circuito elétrico é proporcional ao quadrado da tensão (P = V²/R). Se a tensão é reduzida pela metade (220V para 110V) e a resistência permanece constante, a potência será reduzida à quarta parte (2000W / 4 = 500W)."
+    },
+    {
+        "id": "3108901",
+        "enunciado": "Seja um sistema de aquecimento por resistência elétrica que foi projetado para consumir 2.000 W de potência elétrica quando alimentado por uma tensão elétrica alternada de 220 V eficazes.Se esse sistema for conectado em uma tensão elétrica alternada com 110 V eficazes, qual será a potência elétrica dissipada pelo sistema de aquecimento?",
+        "alternativas": {
+            "A": "200 W",
+            "B": "500 W",
+            "C": "1.000 W",
+            "D": "2.000 W",
+            "E": "4.000 W"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A potência elétrica (P) em um circuito resistivo é dada por P = V²/R. Se R é constante e a tensão (V) é reduzida pela metade (de 220V para 110V), a potência dissipada será reduzida para 1/4 (pois P é proporcional ao quadrado da tensão). Assim, (1/4) * 2000W = 500W."
+    },
+    {
+        "id": "3108902",
+        "enunciado": "Assinale a alternativa que apresenta as unidades de medidas de resistência elétrica, frequência e energia, respectivamente.",
+        "alternativas": {
+            "A": "Volts, rpm e Watts",
+            "B": "Ampere, rad/s e kWh",
+            "C": "Siemens, Hertz e Watts",
+            "D": "Ohm, rpm e Ampere",
+            "E": "Check-square Ohm, Hertz e Joule"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A resistencia eletrica e medida em Ohm, a frequencia em Hertz e a energia em Joule. As outras alternativas apresentam unidades incorretas ou aplicadas a grandezas distintas."
+    },
+    {
+        "id": "3107471",
+        "enunciado": "Assinale a alternativa que apresenta as unidades de medidas de resistência elétrica, frequência e energia, respectivamente.",
+        "alternativas": {
+            "A": "Volts, rpm e Watts",
+            "B": "Ampere, rad/s e kWh",
+            "C": "Siemens, Hertz e Watts",
+            "D": "Ohm, rpm e Ampere",
+            "E": "Ohm, Hertz e Joule"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "As unidades de medida são: Ohm para resistência elétrica, Hertz para frequência e Joule para energia. As outras alternativas apresentam unidades incorretas ou misturam grandezas."
+    },
+    {
+        "id": "3108903",
+        "enunciado": "Assinale a alternativa correta em relação a resistência elétrica de fios condutores.",
+        "alternativas": {
+            "A": "A resistência elétrica é diretamente proporcional ao comprimento do fio, e diretamente proporcional a área de seção transversal do fio (bitola).",
+            "B": "A resistência elétrica é inversamente proporcional ao comprimento do fio, e inversamente proporcional a área de seção transversal do fio(bitola).",
+            "C": "A resistência elétrica de um fio não tem relação com seu comprimento e nem com sua área de seção transversal. Esta depende somente do tipo de material utilizado.",
+            "D": "A resistência elétrica é diretamente proporcional ao comprimento do fio, e inversamente proporcional a área de seção transversal do fio (bitola).",
+            "E": "A resistência elétrica é inversamente proporcional ao comprimento do fio, e diretamente proporcional a área de seção transversal do fio(bitola)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A resistencia eletrica de um condutor e diretamente proporcional ao seu comprimento (quanto maior o fio, maior a resistencia) e inversamente proporcional a sua area de secao transversal (quanto mais grosso o fio, menor a resistencia)."
+    },
+    {
+        "id": "3107472",
+        "enunciado": "Assinale a alternativa correta em relação a resistência elétrica de fios condutores.",
+        "alternativas": {
+            "A": "A resistência elétrica é diretamente proporcional ao comprimento do fio, e diretamente proporcional a área de seção transversal do fio (bitola).",
+            "B": "A resistência elétrica é inversamente proporcional ao comprimento do fio, e inversamente proporcional a área de seção transversal do fio (bitola).",
+            "C": "A resistência elétrica de um fio não tem relação com seu comprimento e nem com sua área de seção transversal. Esta depende somente do tipo de material utilizado.",
+            "D": "A resistência elétrica é diretamente proporcional ao comprimento do fio, e inversamente proporcional a área de seção transversal do fio (bitola).",
+            "E": "A resistência elétrica é inversamente proporcional ao comprimento do fio, e diretamente proporcional a área de seção transversal do fio(bitola)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A resistência elétrica de um fio condutor é diretamente proporcional ao seu comprimento (quanto maior o fio, maior a resistência) e inversamente proporcional à sua área de seção transversal (quanto mais espesso o fio, menor a resistência)."
+    },
+    {
+        "id": "3108904",
+        "enunciado": "Notou-se a necessidade de manutenção em uma tomada de uma instalação elétrica. Para isso o responsável pela manutenção fez o seccionamento do circuito da tomada no quadro geral de baixa tensão (QGBT).São medidas de precaução que devem ser tomadas para impedir a energização inadvertida do circuito.Travamento do dispositivo de seccionamento do circuito com cadeado.Fixação de placas de advertência no QGBT.Remoção de todas as pessoas capacitadas do estabelecimento.Travamento do sistema de medição com cadeado.Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "São corretas apenas as afirmativas 1 e 2.",
+            "B": "São corretas apenas as afirmativas 1 e 4.",
+            "C": "São corretas apenas as afirmativas 2 e 3.",
+            "D": "São corretas apenas as afirmativas 3 e 4.",
+            "E": "São corretas apenas as afirmativas 2, 3 e 4."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As medidas corretas são o travamento (1) e a fixação de placas (2). A remoção de pessoas (3) não é uma medida de precaução contra energização. O travamento do sistema de medição (4) não garante o bloqueio contra energização do circuito específico."
+    },
+    {
+        "id": "3107473",
+        "enunciado": "Notou-se a necessidade de manutenção em uma tomada de uma instalação elétrica. Para isso o responsável pela manutenção fez o seccionamento do circuito da tomada no quadro geral de baixa tensão(QGBT).São medidas de precaução que devem ser tomadas para impedir a energização inadvertida do circuito.Travamento do dispositivo de seccionamento do circuito com cadeado.Fixação de placas de advertência no QGBT.Remoção de todas as pessoas capacitadas do estabelecimento.Travamento do sistema de medição com cadeado.Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "São corretas apenas as afirmativas 1 e 2.",
+            "B": "São corretas apenas as afirmativas 1 e 4.",
+            "C": "São corretas apenas as afirmativas 2 e 3.",
+            "D": "São corretas apenas as afirmativas 3 e 4.",
+            "E": "São corretas apenas as afirmativas 2, 3 e 4."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para impedir a energização inadvertida, são corretas as medidas de travamento do dispositivo de seccionamento com cadeado (1) e a fixação de placas de advertência (2). A remoção de todas as pessoas não é necessária e o travamento do sistema de medição não impede a energização."
+    },
+    {
+        "id": "3108905",
+        "enunciado": "Um sistema de acionamento elétrico automático estava apresentando problemas. Durante a inspeção notou-se que os contatos principais de um contator, que são normalmente abertos, estavam apresentando continuidade (fechados) mesmo com sua bobina desenergizada.Assinale a alternativa que apresenta o possível motivo para o defeito do dispositivo.",
+        "alternativas": {
+            "A": "Contatos soldados devido a um curto-circuito",
+            "B": "Botoeira de ligação com defeito",
+            "C": "Relé térmico na função de teste",
+            "D": "Bobina da contatora queimada",
+            "E": "Fusível de comando queimado"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Contatos soldados em um contator, que deveriam estar abertos, mas permanecem fechados mesmo sem energização, indicam que eles foram fundidos, geralmente devido a um curto-circuito. As outras opções não explicam esse comportamento."
+    },
+    {
+        "id": "3107474",
+        "enunciado": "Um sistema de acionamento elétrico automático estava apresentando problemas. Durante a inspeção notou-se que os contatos principais de um contator, que são normalmente abertos, estavam apresentando continuidade (fechados) mesmo com sua bobina desenergizada.Assinale a alternativa que apresenta o possível motivo para o defeito do dispositivo.",
+        "alternativas": {
+            "A": "Contatos soldados devido a um curto-circuito",
+            "B": "Botoeira de ligação com defeito",
+            "C": "Relé térmico na função de teste",
+            "D": "Bobina da contatora queimada",
+            "E": "Fusível de comando queimado"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Contatos de um contator que deveriam estar abertos e apresentam continuidade (fechados) com a bobina desenergizada indicam que eles estão soldados, geralmente por sobrecarga ou curto-circuito."
+    },
+    {
+        "id": "3108906",
+        "enunciado": "Assinale a alternativa correta em relação a manutenção preventiva:",
+        "alternativas": {
+            "A": "Sempre que possível, as verificações devem ser realizadas com a instalação energizada.",
+            "B": "Verificações e intervenções nas instalações elétricas devem ser executadas somente por pessoas advertidas ou qualificadas.",
+            "C": "Invólucros, tampas e outros meios destinados a garantir proteção contra contatos com partes vivas não podem ser abertos, nem para fins de verificação ou manutenção.",
+            "D": "O reaperto das conexões deve ser realizado somente em caso de problemas na instalação.",
+            "E": "Condutores são robustos e isentos de problemas e, portanto, não precisam de inspeção de periódica."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A segurança em instalações elétricas exige que intervenções sejam realizadas por profissionais qualificados para evitar acidentes. As demais afirmativas apresentam práticas inadequadas ou erradas em relação à manutenção elétrica segura."
+    },
+    {
+        "id": "3107475",
+        "enunciado": "Assinale a alternativa correta em relação a manutenção preventiva:",
+        "alternativas": {
+            "A": "Sempre que possível, as verificações devem ser realizadas com a instalação energizada.",
+            "B": "Verificações e intervenções nas instalações elétricas devem ser executadas somente por pessoas advertidas ou qualificadas.",
+            "C": "Invólucros, tampas e outros meios destinados a garantir proteção contra contatos com partes vivas não podem ser abertos, nem para fins de verificação ou manutenção.",
+            "D": "O reaperto das conexões deve ser realizado somente em caso de problemas na instalação.",
+            "E": "Condutores são robustos e isentos de problemas e, portanto, não precisam de inspeção de periódica."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A manutenção preventiva de instalações elétricas deve ser realizada APENAS por profissionais qualificados ou advertidos, para garantir a segurança e evitar riscos."
+    },
+    {
+        "id": "3108907",
+        "enunciado": "Analise as afirmativas abaixo que tratam de manutenção elétrica corretiva.Parte de uma instalação elétrica que, após inspeção, for considerada insegura, deve ser imediatamente desenergizada na parte afetada.A atuação dos dispositivos de proteção sem causa conhecida, deve ser comunicada a uma pessoa advertida ou qualificada, para a providenciar a correção do problema.Qualquer instalação nova, ampliação ou reforma de instalação existente deve ser inspecionada e ensaiada, antes de ser colocada em serviço pelo usuário.Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "É correta apenas a afirmativa 2.",
+            "B": "São corretas apenas as afirmativas 1 e 2.",
+            "C": "São corretas apenas as afirmativas 1 e 3.",
+            "D": "São corretas apenas as afirmativas 2 e 3.",
+            "E": "São corretas as afirmativas 1, 2 e 3."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "As tres afirmativas apresentadas estao corretas. A instalacao insegura deve ser desenergizada, atuacoes de protecao sem causa conhecida exigem comunicacao e correcao, e instalacoes novas devem ser inspecionadas antes do uso."
+    },
+    {
+        "id": "3107476",
+        "enunciado": "Analise as afirmativas abaixo que tratam de manutenção elétrica corretiva.Parte de uma instalação elétrica que, após inspeção, for considerada insegura, deve ser imediatamente desenergizada na parte afetada.A atuação dos dispositivos de proteção sem causa conhecida, deve ser comunicada a uma pessoa advertida ou qualificada, para a providenciar a correção do problema.Qualquer instalação nova, ampliação ou reforma de instalação existente deve ser inspecionada e ensaiada, antes de ser colocada em serviço pelo usuário.Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "É correta apenas a afirmativa 2.",
+            "B": "São corretas apenas as afirmativas 1 e 2.",
+            "C": "São corretas apenas as afirmativas 1 e 3.",
+            "D": "São corretas apenas as afirmativas 2 e 3.",
+            "E": "São corretas as afirmativas 1, 2 e 3."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Todas as afirmativas estão corretas. A afirmativa 1 descreve a desenergização imediata de partes inseguras. A 2 trata da comunicação de atuação indevida de proteções. A 3 enfatiza a inspeção de novas instalações."
+    },
+    {
+        "id": "3119372",
+        "enunciado": "Sobre uma instalação elétrica residencial, de acordo com a ABNT NBR 5410, assinale a alternativa INCORRETA:",
+        "alternativas": {
+            "A": "Um circuito de Tomadas de Uso Geral (TUG) deve ser alimentado por cabos com seção mínima de 2,5mm².",
+            "B": "As tomadas de uso geral devem ser diferencias das tomadas de uso específico.",
+            "C": "Os cabos devem ser apropriados para que cada circuito funcione corretamente.",
+            "D": "Dificilmente o profissional encontrará o disjuntor do mesmo valor calculado para um determinado circuito, dessa forma ele deverá utilizar o disjuntor com valor acima do calculado. Por exemplo, se a conta do circuito der 13 ampères, deve ser utilizado um disjuntor de 40 A, disponível no mercado."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A norma NBR 5410 estabelece que o disjuntor deve ter valor igual ou proximo ao corrente calculada, nunca acima de forma desproporcional. Usar um disjuntor de 40A para um circuito de 13A e perigoso e incorreto, pois nao protege adequadamente contra sobrecargas."
+    },
+    {
+        "id": "3119373",
+        "enunciado": "O dispositivo de proteção contra surtos, destinado a proteger os equipamentos elétricos contra picos de tensão – geralmente causados por descargas atmosféricas – é COMUMENTE conhecido por suasigla:",
+        "alternativas": {
+            "A": "IR.",
+            "B": "DISJUNTOR DIN.",
+            "C": "DPS.",
+            "D": "DR."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O Dispositivo de Proteção contra Surtos é comumente conhecido pela sigla DPS, sendo crucial para proteger equipamentos contra sobretensões."
+    },
+    {
+        "id": "3119374",
+        "enunciado": "A DIFERENÇA de potencial entre dois pontos é denominada:",
+        "alternativas": {
+            "A": "Tensão elétrica.",
+            "B": "Corrente elétrica.",
+            "C": "Potência elétrica.",
+            "D": "Resistência elétrica."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A diferença de potencial elétrico entre dois pontos é a definição formal de tensão elétrica, também conhecida como voltagem. Corrente é o fluxo de carga, potência é a energia gasta por unidade de tempo, e resistência é a oposição à passagem de corrente."
+    },
+    {
+        "id": "3129777",
+        "enunciado": "A frequência de fornecimento de energia do Brasil é de:",
+        "alternativas": {
+            "A": "40 Hz",
+            "B": "60 Hz",
+            "C": "40 e 50 Hz",
+            "D": "Nenhuma anterior",
+            "E": "Todas as frequências"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A frequência padrão de fornecimento de energia elétrica no Brasil é de 60 Hertz (Hz), tanto para a rede doméstica quanto industrial."
+    },
+    {
+        "id": "3129778",
+        "enunciado": "O chuveiro é um dispositivo basicamente:",
+        "alternativas": {
+            "A": "Indutivo",
+            "B": "Gerador",
+            "C": "Ativo",
+            "D": "Resistivo",
+            "E": "Alternativas C e D"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A função principal de um chuveiro elétrico é converter energia elétrica em calor para aquecer a água. Isso é feito através de uma resistência elétrica."
+    },
+    {
+        "id": "3129779",
+        "enunciado": "Um fio muito longo com passagem de alta tensão pode gerar:",
+        "alternativas": {
+            "A": "Vibração e aquecimento",
+            "B": "Campo elétrico somente",
+            "C": "Campo magnético somente",
+            "D": "Campo gravitacional",
+            "E": "Campo elétrico e magnético"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Um fio condutor com alta tensão transportando corrente elétrica gera um campo magnético ao seu redor. Além disso, a própria presença da alta tensão cria um campo elétrico. Portanto, ambas as condições estão presentes."
+    },
+    {
+        "id": "3129780",
+        "enunciado": "De acordo com a Norma Brasileira de Segurança do Trabalho, acima de quantos metros é considerado trabalho em altura?",
+        "alternativas": {
+            "A": "1m",
+            "B": "1,5m",
+            "C": "2m",
+            "D": "2,5m",
+            "E": "3m"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3129781",
+        "enunciado": "É considerada Alta Tensão (AT):",
+        "alternativas": {
+            "A": "Acima de 380 V",
+            "B": "Acima de 13,5 KVA",
+            "C": "Tensão superior a 1000 V em corrente alternada",
+            "D": "Tensão acima de 1500 V em corrente contínua",
+            "E": "Alternativas C e D"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A norma técnica define Alta Tensão (AT) valores específicos. Em corrente alternada, é considerada AT a tensão superior a 1000 V. Em corrente contínua, a tensão acima de 1500 V é considerada AT. Ambas as afirmações C e D estão corretas."
+    },
+    {
+        "id": "3129782",
+        "enunciado": "Qual a impedância de um sistema tipo LC ligado à corrente contínua?",
+        "alternativas": {
+            "A": "Zero",
+            "B": "Total",
+            "C": "Variável",
+            "D": "Não é possível calcular",
+            "E": "Impedância resistiva"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em corrente contínua (CC), um indutor (L) ideal se comporta como um curto-circuito, oferecendo resistência zero."
+    },
+    {
+        "id": "3129783",
+        "enunciado": "Num circuito RLC onde passamos uma corrente alternada (CA), a resposta do circuito elétrico é conhecida como:",
+        "alternativas": {
+            "A": "Resistência",
+            "B": "Indutância",
+            "C": "Reatância",
+            "D": "Impedância",
+            "E": "Nenhuma anterior"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Impedância (Z) é a oposição total à passagem de corrente alternada em um circuito RLC, combinando resistência (R), reatância indutiva (XL) e reatância capacitiva (XC)."
+    },
+    {
+        "id": "3129784",
+        "enunciado": "Um amperímetro deve ser ligado de qual maneira ao circuito? E qual sua resistência?",
+        "alternativas": {
+            "A": "Em série e nula",
+            "B": "Em paralelo e alta",
+            "C": "Em série e alta",
+            "D": "Em paralelo e nula",
+            "E": "Nenhuma anterior"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3129785",
+        "enunciado": "Como variamos a velocidade de um motor elétrico corretamente?",
+        "alternativas": {
+            "A": "Com variação de corrente",
+            "B": "Com variação de tensão",
+            "C": "Com caixa de marcha",
+            "D": "Com inversor de frequência",
+            "E": "Todas as opções acima"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3129786",
+        "enunciado": "Um motor elétrico tem corrente nominal de 10Amperes e corrente de partida 5 vezes acorrente nominal. Qual disjuntor usar para proteção do circuito?",
+        "alternativas": {
+            "A": "Disjuntor de 50 Amperes",
+            "B": "Disjuntor de 50 Amperes tipo C",
+            "C": "Disjuntor de 10 Amperes tipo D",
+            "D": "Disjuntor de 10 Amperes tipo B",
+            "E": "Qualquer um dos itens acima"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3083410",
+        "enunciado": "O eletro magnetismo retrata a relação entre cargas elétricas em movimento e a variação do fluxo magnético. Este conceito foi utilizado para a concepção de alguns equipamentos elétricos. Dentre as alternativas abaixo indique um deles.",
+        "alternativas": {
+            "A": "Motor elétrico.",
+            "B": "Lâmpada incandescente.",
+            "C": "Lâmpada LED.",
+            "D": "Ferro de passar roupas.",
+            "E": "Bateria de Carro."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O motor elétrico baseia-se no princípio do eletromagnetismo, onde a interação entre campos magnéticos e correntes elétricas gera movimento. As outras alternativas são exemplos de equipamentos elétricos, mas não utilizam diretamente o eletromagnetismo para seu funcionamento principal."
+    },
+    {
+        "id": "3083411",
+        "enunciado": "Um empresário mudou-se para uma cidade na qual o nível de tensão entre fase e neutro é de 110 V, na cidade em que ele morava o nível de tensão entre fase e neutro é 220 V. O empresário trouxe o seu chuveiro elétrico de 4400 W/ 220 V. Caso ele decida ligá-lo entre fase e neutro na nova cidade, sobre esta situação, indique dentre as alternativas, abaixo a CORRETA.",
+        "alternativas": {
+            "A": "O chuveiro não aquece a água, mas se ele for ligado entre duas fases funcionará normalmente.",
+            "B": "O chuveiro superaquece e pode queimar.",
+            "C": "O chuveiro só funciona se o neutro for ligado em um interruptor bipolar.",
+            "D": "O chuveiro só funciona se o neutro for ligado Junto ao aterramento.",
+            "E": "O chuveiro aquece a água."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O chuveiro é de 4400W/220V. Na nova cidade, a tensão é 110V. Se ligado em 110V, a potência diminuirá drasticamente e ele apenas aquecerá levemente a água, não funcionará em plena capacidade."
+    },
+    {
+        "id": "3083412",
+        "enunciado": "Um circuito composto por uma fonte de tensão e duas resistências de 20 Ohms em paralelo tem uma corrente circulante de 4 A. Se essas resistências forem ligadas em série e na mesma fonte durante 10 h, qual será a energia elétrica consumida durante o período informado nesta segunda situação?",
+        "alternativas": {
+            "A": "80 kwh",
+            "B": "40 kwh",
+            "C": "0,4 kWh",
+            "D": "0,8 kwh",
+            "E": "32 kwh"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3107470",
+        "enunciado": "Seja um sistema de aquecimento por resistência elétrica que foi projetado para consumir 2.000 W de potência elétrica quando alimentado por uma tensão elétrica alternada de 220 V eficazes. Se esse sistema for conectado em uma tensão elétrica alternada com 110 V eficazes, qual será a potência elétrica dissipada pelo sistema de aquecimento?",
+        "alternativas": {
+            "A": "200 W",
+            "B": "500 W",
+            "C": "1.000 W",
+            "D": "2.000 W",
+            "E": "4.000 W"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A potência dissipada por um resistor em um circuito elétrico é proporcional ao quadrado da tensão (P = V²/R). Se a tensão é reduzida pela metade (220V para 110V) e a resistência permanece constante, a potência será reduzida à quarta parte (2000W / 4 = 500W)."
+    },
+    {
+        "id": "3108901",
+        "enunciado": "Seja um sistema de aquecimento por resistência elétrica que foi projetado para consumir 2.000 W de potência elétrica quando alimentado por uma tensão elétrica alternada de 220 V eficazes.Se esse sistema for conectado em uma tensão elétrica alternada com 110 V eficazes, qual será a potência elétrica dissipada pelo sistema de aquecimento?",
+        "alternativas": {
+            "A": "200 W",
+            "B": "500 W",
+            "C": "1.000 W",
+            "D": "2.000 W",
+            "E": "4.000 W"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A potência elétrica (P) em um circuito resistivo é dada por P = V²/R. Se R é constante e a tensão (V) é reduzida pela metade (de 220V para 110V), a potência dissipada será reduzida para 1/4 (pois P é proporcional ao quadrado da tensão). Assim, (1/4) * 2000W = 500W."
+    },
+    {
+        "id": "3108902",
+        "enunciado": "Assinale a alternativa que apresenta as unidades de medidas de resistência elétrica, frequência e energia, respectivamente.",
+        "alternativas": {
+            "A": "Volts, rpm e Watts",
+            "B": "Ampere, rad/s e kWh",
+            "C": "Siemens, Hertz e Watts",
+            "D": "Ohm, rpm e Ampere",
+            "E": "Check-square Ohm, Hertz e Joule"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A resistencia eletrica e medida em Ohm, a frequencia em Hertz e a energia em Joule. As outras alternativas apresentam unidades incorretas ou aplicadas a grandezas distintas."
+    },
+    {
+        "id": "3107471",
+        "enunciado": "Assinale a alternativa que apresenta as unidades de medidas de resistência elétrica, frequência e energia, respectivamente.",
+        "alternativas": {
+            "A": "Volts, rpm e Watts",
+            "B": "Ampere, rad/s e kWh",
+            "C": "Siemens, Hertz e Watts",
+            "D": "Ohm, rpm e Ampere",
+            "E": "Ohm, Hertz e Joule"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "As unidades de medida são: Ohm para resistência elétrica, Hertz para frequência e Joule para energia. As outras alternativas apresentam unidades incorretas ou misturam grandezas."
+    },
+    {
+        "id": "3108903",
+        "enunciado": "Assinale a alternativa correta em relação a resistência elétrica de fios condutores.",
+        "alternativas": {
+            "A": "A resistência elétrica é diretamente proporcional ao comprimento do fio, e diretamente proporcional a área de seção transversal do fio (bitola).",
+            "B": "A resistência elétrica é inversamente proporcional ao comprimento do fio, e inversamente proporcional a área de seção transversal do fio(bitola).",
+            "C": "A resistência elétrica de um fio não tem relação com seu comprimento e nem com sua área de seção transversal. Esta depende somente do tipo de material utilizado.",
+            "D": "A resistência elétrica é diretamente proporcional ao comprimento do fio, e inversamente proporcional a área de seção transversal do fio (bitola).",
+            "E": "A resistência elétrica é inversamente proporcional ao comprimento do fio, e diretamente proporcional a área de seção transversal do fio(bitola)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A resistencia eletrica de um condutor e diretamente proporcional ao seu comprimento (quanto maior o fio, maior a resistencia) e inversamente proporcional a sua area de secao transversal (quanto mais grosso o fio, menor a resistencia)."
+    },
+    {
+        "id": "3107472",
+        "enunciado": "Assinale a alternativa correta em relação a resistência elétrica de fios condutores.",
+        "alternativas": {
+            "A": "A resistência elétrica é diretamente proporcional ao comprimento do fio, e diretamente proporcional a área de seção transversal do fio (bitola).",
+            "B": "A resistência elétrica é inversamente proporcional ao comprimento do fio, e inversamente proporcional a área de seção transversal do fio (bitola).",
+            "C": "A resistência elétrica de um fio não tem relação com seu comprimento e nem com sua área de seção transversal. Esta depende somente do tipo de material utilizado.",
+            "D": "A resistência elétrica é diretamente proporcional ao comprimento do fio, e inversamente proporcional a área de seção transversal do fio (bitola).",
+            "E": "A resistência elétrica é inversamente proporcional ao comprimento do fio, e diretamente proporcional a área de seção transversal do fio(bitola)."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A resistência elétrica de um fio condutor é diretamente proporcional ao seu comprimento (quanto maior o fio, maior a resistência) e inversamente proporcional à sua área de seção transversal (quanto mais espesso o fio, menor a resistência)."
+    },
+    {
+        "id": "3108904",
+        "enunciado": "Notou-se a necessidade de manutenção em uma tomada de uma instalação elétrica. Para isso o responsável pela manutenção fez o seccionamento do circuito da tomada no quadro geral de baixa tensão (QGBT).São medidas de precaução que devem ser tomadas para impedir a energização inadvertida do circuito.Travamento do dispositivo de seccionamento do circuito com cadeado.Fixação de placas de advertência no QGBT.Remoção de todas as pessoas capacitadas do estabelecimento.Travamento do sistema de medição com cadeado.Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "São corretas apenas as afirmativas 1 e 2.",
+            "B": "São corretas apenas as afirmativas 1 e 4.",
+            "C": "São corretas apenas as afirmativas 2 e 3.",
+            "D": "São corretas apenas as afirmativas 3 e 4.",
+            "E": "São corretas apenas as afirmativas 2, 3 e 4."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As medidas corretas são o travamento (1) e a fixação de placas (2). A remoção de pessoas (3) não é uma medida de precaução contra energização. O travamento do sistema de medição (4) não garante o bloqueio contra energização do circuito específico."
+    },
+    {
+        "id": "3107473",
+        "enunciado": "Notou-se a necessidade de manutenção em uma tomada de uma instalação elétrica. Para isso o responsável pela manutenção fez o seccionamento do circuito da tomada no quadro geral de baixa tensão(QGBT).São medidas de precaução que devem ser tomadas para impedir a energização inadvertida do circuito.Travamento do dispositivo de seccionamento do circuito com cadeado.Fixação de placas de advertência no QGBT.Remoção de todas as pessoas capacitadas do estabelecimento.Travamento do sistema de medição com cadeado.Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "São corretas apenas as afirmativas 1 e 2.",
+            "B": "São corretas apenas as afirmativas 1 e 4.",
+            "C": "São corretas apenas as afirmativas 2 e 3.",
+            "D": "São corretas apenas as afirmativas 3 e 4.",
+            "E": "São corretas apenas as afirmativas 2, 3 e 4."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para impedir a energização inadvertida, são corretas as medidas de travamento do dispositivo de seccionamento com cadeado (1) e a fixação de placas de advertência (2). A remoção de todas as pessoas não é necessária e o travamento do sistema de medição não impede a energização."
+    },
+    {
+        "id": "3108905",
+        "enunciado": "Um sistema de acionamento elétrico automático estava apresentando problemas. Durante a inspeção notou-se que os contatos principais de um contator, que são normalmente abertos, estavam apresentando continuidade (fechados) mesmo com sua bobina desenergizada.Assinale a alternativa que apresenta o possível motivo para o defeito do dispositivo.",
+        "alternativas": {
+            "A": "Contatos soldados devido a um curto-circuito",
+            "B": "Botoeira de ligação com defeito",
+            "C": "Relé térmico na função de teste",
+            "D": "Bobina da contatora queimada",
+            "E": "Fusível de comando queimado"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Contatos soldados em um contator, que deveriam estar abertos, mas permanecem fechados mesmo sem energização, indicam que eles foram fundidos, geralmente devido a um curto-circuito. As outras opções não explicam esse comportamento."
+    },
+    {
+        "id": "3107474",
+        "enunciado": "Um sistema de acionamento elétrico automático estava apresentando problemas. Durante a inspeção notou-se que os contatos principais de um contator, que são normalmente abertos, estavam apresentando continuidade (fechados) mesmo com sua bobina desenergizada.Assinale a alternativa que apresenta o possível motivo para o defeito do dispositivo.",
+        "alternativas": {
+            "A": "Contatos soldados devido a um curto-circuito",
+            "B": "Botoeira de ligação com defeito",
+            "C": "Relé térmico na função de teste",
+            "D": "Bobina da contatora queimada",
+            "E": "Fusível de comando queimado"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Contatos de um contator que deveriam estar abertos e apresentam continuidade (fechados) com a bobina desenergizada indicam que eles estão soldados, geralmente por sobrecarga ou curto-circuito."
+    },
+    {
+        "id": "3108906",
+        "enunciado": "Assinale a alternativa correta em relação a manutenção preventiva:",
+        "alternativas": {
+            "A": "Sempre que possível, as verificações devem ser realizadas com a instalação energizada.",
+            "B": "Verificações e intervenções nas instalações elétricas devem ser executadas somente por pessoas advertidas ou qualificadas.",
+            "C": "Invólucros, tampas e outros meios destinados a garantir proteção contra contatos com partes vivas não podem ser abertos, nem para fins de verificação ou manutenção.",
+            "D": "O reaperto das conexões deve ser realizado somente em caso de problemas na instalação.",
+            "E": "Condutores são robustos e isentos de problemas e, portanto, não precisam de inspeção de periódica."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A segurança em instalações elétricas exige que intervenções sejam realizadas por profissionais qualificados para evitar acidentes. As demais afirmativas apresentam práticas inadequadas ou erradas em relação à manutenção elétrica segura."
+    },
+    {
+        "id": "3107475",
+        "enunciado": "Assinale a alternativa correta em relação a manutenção preventiva:",
+        "alternativas": {
+            "A": "Sempre que possível, as verificações devem ser realizadas com a instalação energizada.",
+            "B": "Verificações e intervenções nas instalações elétricas devem ser executadas somente por pessoas advertidas ou qualificadas.",
+            "C": "Invólucros, tampas e outros meios destinados a garantir proteção contra contatos com partes vivas não podem ser abertos, nem para fins de verificação ou manutenção.",
+            "D": "O reaperto das conexões deve ser realizado somente em caso de problemas na instalação.",
+            "E": "Condutores são robustos e isentos de problemas e, portanto, não precisam de inspeção de periódica."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A manutenção preventiva de instalações elétricas deve ser realizada APENAS por profissionais qualificados ou advertidos, para garantir a segurança e evitar riscos."
+    },
+    {
+        "id": "3108907",
+        "enunciado": "Analise as afirmativas abaixo que tratam de manutenção elétrica corretiva.Parte de uma instalação elétrica que, após inspeção, for considerada insegura, deve ser imediatamente desenergizada na parte afetada.A atuação dos dispositivos de proteção sem causa conhecida, deve ser comunicada a uma pessoa advertida ou qualificada, para a providenciar a correção do problema.Qualquer instalação nova, ampliação ou reforma de instalação existente deve ser inspecionada e ensaiada, antes de ser colocada em serviço pelo usuário.Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "É correta apenas a afirmativa 2.",
+            "B": "São corretas apenas as afirmativas 1 e 2.",
+            "C": "São corretas apenas as afirmativas 1 e 3.",
+            "D": "São corretas apenas as afirmativas 2 e 3.",
+            "E": "São corretas as afirmativas 1, 2 e 3."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "As tres afirmativas apresentadas estao corretas. A instalacao insegura deve ser desenergizada, atuacoes de protecao sem causa conhecida exigem comunicacao e correcao, e instalacoes novas devem ser inspecionadas antes do uso."
+    },
+    {
+        "id": "3107476",
+        "enunciado": "Analise as afirmativas abaixo que tratam de manutenção elétrica corretiva.Parte de uma instalação elétrica que, após inspeção, for considerada insegura, deve ser imediatamente desenergizada na parte afetada.A atuação dos dispositivos de proteção sem causa conhecida, deve ser comunicada a uma pessoa advertida ou qualificada, para a providenciar a correção do problema.Qualquer instalação nova, ampliação ou reforma de instalação existente deve ser inspecionada e ensaiada, antes de ser colocada em serviço pelo usuário.Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": {
+            "A": "É correta apenas a afirmativa 2.",
+            "B": "São corretas apenas as afirmativas 1 e 2.",
+            "C": "São corretas apenas as afirmativas 1 e 3.",
+            "D": "São corretas apenas as afirmativas 2 e 3.",
+            "E": "São corretas as afirmativas 1, 2 e 3."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Todas as afirmativas estão corretas. A afirmativa 1 descreve a desenergização imediata de partes inseguras. A 2 trata da comunicação de atuação indevida de proteções. A 3 enfatiza a inspeção de novas instalações."
+    },
+    {
+        "id": "3119372",
+        "enunciado": "Sobre uma instalação elétrica residencial, de acordo com a ABNT NBR 5410, assinale a alternativa INCORRETA:",
+        "alternativas": {
+            "A": "Um circuito de Tomadas de Uso Geral (TUG) deve ser alimentado por cabos com seção mínima de 2,5mm².",
+            "B": "As tomadas de uso geral devem ser diferencias das tomadas de uso específico.",
+            "C": "Os cabos devem ser apropriados para que cada circuito funcione corretamente.",
+            "D": "Dificilmente o profissional encontrará o disjuntor do mesmo valor calculado para um determinado circuito, dessa forma ele deverá utilizar o disjuntor com valor acima do calculado. Por exemplo, se a conta do circuito der 13 ampères, deve ser utilizado um disjuntor de 40 A, disponível no mercado."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A norma NBR 5410 estabelece que o disjuntor deve ter valor igual ou proximo ao corrente calculada, nunca acima de forma desproporcional. Usar um disjuntor de 40A para um circuito de 13A e perigoso e incorreto, pois nao protege adequadamente contra sobrecargas."
+    },
+    {
+        "id": "3119373",
+        "enunciado": "O dispositivo de proteção contra surtos, destinado a proteger os equipamentos elétricos contra picos de tensão – geralmente causados por descargas atmosféricas – é COMUMENTE conhecido por suasigla:",
+        "alternativas": {
+            "A": "IR.",
+            "B": "DISJUNTOR DIN.",
+            "C": "DPS.",
+            "D": "DR."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O Dispositivo de Proteção contra Surtos é comumente conhecido pela sigla DPS, sendo crucial para proteger equipamentos contra sobretensões."
+    },
+    {
+        "id": "3119374",
+        "enunciado": "A DIFERENÇA de potencial entre dois pontos é denominada:",
+        "alternativas": {
+            "A": "Tensão elétrica.",
+            "B": "Corrente elétrica.",
+            "C": "Potência elétrica.",
+            "D": "Resistência elétrica."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A diferença de potencial elétrico entre dois pontos é a definição formal de tensão elétrica, também conhecida como voltagem. Corrente é o fluxo de carga, potência é a energia gasta por unidade de tempo, e resistência é a oposição à passagem de corrente."
+    },
+    {
+        "id": "3129777",
+        "enunciado": "A frequência de fornecimento de energia do Brasil é de:",
+        "alternativas": {
+            "A": "40 Hz",
+            "B": "60 Hz",
+            "C": "40 e 50 Hz",
+            "D": "Nenhuma anterior",
+            "E": "Todas as frequências"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A frequência padrão de fornecimento de energia elétrica no Brasil é de 60 Hertz (Hz), tanto para a rede doméstica quanto industrial."
+    },
+    {
+        "id": "3129778",
+        "enunciado": "O chuveiro é um dispositivo basicamente:",
+        "alternativas": {
+            "A": "Indutivo",
+            "B": "Gerador",
+            "C": "Ativo",
+            "D": "Resistivo",
+            "E": "Alternativas C e D"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A função principal de um chuveiro elétrico é converter energia elétrica em calor para aquecer a água. Isso é feito através de uma resistência elétrica."
+    },
+    {
+        "id": "3129779",
+        "enunciado": "Um fio muito longo com passagem de alta tensão pode gerar:",
+        "alternativas": {
+            "A": "Vibração e aquecimento",
+            "B": "Campo elétrico somente",
+            "C": "Campo magnético somente",
+            "D": "Campo gravitacional",
+            "E": "Campo elétrico e magnético"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Um fio condutor com alta tensão transportando corrente elétrica gera um campo magnético ao seu redor. Além disso, a própria presença da alta tensão cria um campo elétrico. Portanto, ambas as condições estão presentes."
+    },
+    {
+        "id": "3129780",
+        "enunciado": "De acordo com a Norma Brasileira de Segurança do Trabalho, acima de quantos metros é considerado trabalho em altura?",
+        "alternativas": {
+            "A": "1m",
+            "B": "1,5m",
+            "C": "2m",
+            "D": "2,5m",
+            "E": "3m"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3129781",
+        "enunciado": "É considerada Alta Tensão (AT):",
+        "alternativas": {
+            "A": "Acima de 380 V",
+            "B": "Acima de 13,5 KVA",
+            "C": "Tensão superior a 1000 V em corrente alternada",
+            "D": "Tensão acima de 1500 V em corrente contínua",
+            "E": "Alternativas C e D"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A norma técnica define Alta Tensão (AT) valores específicos. Em corrente alternada, é considerada AT a tensão superior a 1000 V. Em corrente contínua, a tensão acima de 1500 V é considerada AT. Ambas as afirmações C e D estão corretas."
+    },
+    {
+        "id": "3129782",
+        "enunciado": "Qual a impedância de um sistema tipo LC ligado à corrente contínua?",
+        "alternativas": {
+            "A": "Zero",
+            "B": "Total",
+            "C": "Variável",
+            "D": "Não é possível calcular",
+            "E": "Impedância resistiva"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em corrente contínua (CC), um indutor (L) ideal se comporta como um curto-circuito, oferecendo resistência zero."
+    },
+    {
+        "id": "3129783",
+        "enunciado": "Num circuito RLC onde passamos uma corrente alternada (CA), a resposta do circuito elétrico é conhecida como:",
+        "alternativas": {
+            "A": "Resistência",
+            "B": "Indutância",
+            "C": "Reatância",
+            "D": "Impedância",
+            "E": "Nenhuma anterior"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Impedância (Z) é a oposição total à passagem de corrente alternada em um circuito RLC, combinando resistência (R), reatância indutiva (XL) e reatância capacitiva (XC)."
+    },
+    {
+        "id": "3129784",
+        "enunciado": "Um amperímetro deve ser ligado de qual maneira ao circuito? E qual sua resistência?",
+        "alternativas": {
+            "A": "Em série e nula",
+            "B": "Em paralelo e alta",
+            "C": "Em série e alta",
+            "D": "Em paralelo e nula",
+            "E": "Nenhuma anterior"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3129785",
+        "enunciado": "Como variamos a velocidade de um motor elétrico corretamente?",
+        "alternativas": {
+            "A": "Com variação de corrente",
+            "B": "Com variação de tensão",
+            "C": "Com caixa de marcha",
+            "D": "Com inversor de frequência",
+            "E": "Todas as opções acima"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3129786",
+        "enunciado": "Um motor elétrico tem corrente nominal de 10Amperes e corrente de partida 5 vezes acorrente nominal. Qual disjuntor usar para proteção do circuito?",
+        "alternativas": {
+            "A": "Disjuntor de 50 Amperes",
+            "B": "Disjuntor de 50 Amperes tipo C",
+            "C": "Disjuntor de 10 Amperes tipo D",
+            "D": "Disjuntor de 10 Amperes tipo B",
+            "E": "Qualquer um dos itens acima"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3083410",
+        "enunciado": "O eletro magnetismo retrata a relação entre cargas elétricas em movimento e a variação do fluxo magnético. Este conceito foi utilizado para a concepção de alguns equipamentos elétricos. Dentre as alternativas abaixo indique um deles.",
+        "alternativas": {
+            "A": "Motor elétrico.",
+            "B": "Lâmpada incandescente.",
+            "C": "Lâmpada LED.",
+            "D": "Ferro de passar roupas.",
+            "E": "Bateria de Carro."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O motor elétrico baseia-se no princípio do eletromagnetismo, onde a interação entre campos magnéticos e correntes elétricas gera movimento. As outras alternativas são exemplos de equipamentos elétricos, mas não utilizam diretamente o eletromagnetismo para seu funcionamento principal."
+    },
+    {
+        "id": "3083411",
+        "enunciado": "Um empresário mudou-se para uma cidade na qual o nível de tensão entre fase e neutro é de 110 V, na cidade em que ele morava o nível de tensão entre fase e neutro é 220 V. O empresário trouxe o seu chuveiro elétrico de 4400 W/ 220 V. Caso ele decida ligá-lo entre fase e neutro na nova cidade, sobre esta situação, indique dentre as alternativas, abaixo a CORRETA.",
+        "alternativas": {
+            "A": "O chuveiro não aquece a água, mas se ele for ligado entre duas fases funcionará normalmente.",
+            "B": "O chuveiro superaquece e pode queimar.",
+            "C": "O chuveiro só funciona se o neutro for ligado em um interruptor bipolar.",
+            "D": "O chuveiro só funciona se o neutro for ligado Junto ao aterramento.",
+            "E": "O chuveiro aquece a água."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O chuveiro é de 4400W/220V. Na nova cidade, a tensão é 110V. Se ligado em 110V, a potência diminuirá drasticamente e ele apenas aquecerá levemente a água, não funcionará em plena capacidade."
+    },
+    {
+        "id": "3083412",
+        "enunciado": "Um circuito composto por uma fonte de tensão e duas resistências de 20 Ohms em paralelo tem uma corrente circulante de 4 A. Se essas resistências forem ligadas em série e na mesma fonte durante 10 h, qual será a energia elétrica consumida durante o período informado nesta segunda situação?",
+        "alternativas": {
+            "A": "80 kwh",
+            "B": "40 kwh",
+            "C": "0,4 kWh",
+            "D": "0,8 kwh",
+            "E": "32 kwh"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3083413",
+        "enunciado": "Um eletricista, durante uma manutenção de autoclave com potência de 1,1 kW, precisava identificar o valor de uma das resistência do equipamento. Como instrumento de trabalho, ele recebeu um amperímetro de segunda linha que tinha uma resistência interna de 2Ohms. Ao ligar a referida resistência do autoclave em uma fonte de tensão de 220V, ele mediu uma corrente de 22 A. Diante dessas informações, ele concluiu que o valor da referida resistência era de:",
+        "alternativas": {
+            "A": "8 Ohms",
+            "B": "10 Ohms",
+            "C": "05 Ohms",
+            "D": "44 Ohms",
+            "E": "42 Ohms"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3088156",
+        "enunciado": "Assinale a alternativa que indica um dispositivo que pode ser utilizado para medir diretamente a tensão em um resistor.",
+        "alternativas": {
+            "A": "Amperímetro",
+            "B": "Potenciômetro",
+            "C": "Ohmímetro",
+            "D": "Voltímetro"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um voltimetro mede a diferenca de potencial (tensao) entre dois pontos de um circuito. Amperimetro mede corrente, potenciometro mede diferenca de potencial para calibracao e ohmimetro mede resistencia."
+    },
+    {
+        "id": "3083414",
+        "enunciado": "Ao acionar um motor de indução de 04 polos, em tensão alternada de 220 V/ 60 Hz, mediu-se uma velocidade em seu eixo de 1620 rpm. Desta forma qual seria respectivamente a sua velocidade síncrona e o seu escorregamento?",
+        "alternativas": {
+            "A": "180 rpm e 5%",
+            "B": "1620 rpm e 10%",
+            "C": "1800 rpm e 10%",
+            "D": "1620 rpm e 1%",
+            "E": "1800 rpm e 1%"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A velocidade síncrona (Ns) é calculada por Ns = (120 * f) / p, onde f é a frequência (60 Hz) e p é o número de polos (4). Ns = (120 * 60) / 4 = 1800 rpm. O escorregamento (s) é s = (Ns - Nr) / Ns = (1800 - 1620) / 1800 = 180 / 1800 = 0.1 = 10%."
+    },
+    {
+        "id": "3088157",
+        "enunciado": "Dispositivos de proteção e aterramento são utilizados para garantir a segurança das instalações elétricas tanto para os usuários quanto para os equipamentos presentes na rede.Em relação a esses dispositivos, assinale a alternativa incorreta.",
+        "alternativas": {
+            "A": "Dispositivos de proteção contra curto-circuito devem ser projetados para interromper acorrente de curto-circuito antes que seus efeitos térmicos, elétricos e mecânicos possam se tornar perigosos.",
+            "B": "Dispositivos de proteção contra sobretensão devem estar ligados diretamente ao neutro da rede elétrica, para que possam devolver à rede qualquer quantidade de energia que exceda a capacidade dos dispositivos instalados.",
+            "C": "Um aterramento de uma estrutura elétrica tem como objetivo estabelecer uma referência para a rede elétrica e permitir o fluxo seguro decorrentes elétricas indesejadas (correntes de raios, curto-circuito, entre outros) para a terra.",
+            "D": "Nas instalações elétricas, o aterramento funcional consiste na ligação à terra de um dos condutores do sistema (geralmente o neutro) e está relacionado com o funcionamento correto, seguro e confiável da instalação."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B está incorreta pois os dispositivos de proteção contra sobretensão devem ser ligados entre o condutor de fase e o terra, ou entre fase e neutro, e não diretamente ao neutro da rede. O objetivo é desviar o excesso de tensão para a terra e não devolvê-lo à rede."
+    },
+    {
+        "id": "3083415",
+        "enunciado": "Uma fábrica de pequeno porte já teve queima de diversos equipamentos causada por sobretensões, uma reforma foi feita nas instalações elétricas substituindo cabos, eletrodutos, tomadas e interruptores antigos. Além da reforma já feita, é importante investir na proteção das instalações elétricas contra as sobretenções. Para isto, deve-se promover a instalação de:",
+        "alternativas": {
+            "A": "Fusíveis NH.",
+            "B": "Disjuntor Termomagnético.",
+            "C": "Disjuntor Diferencial Residual.",
+            "D": "DPS.",
+            "E": "Elos Fusíveis"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "DPS (Dispositivo de Proteção contra Surtos) é o equipamento projetado especificamente para proteger instalações elétricas e equipamentos contra sobretensões transitórias, como as causadas por raios e manobras na rede elétrica."
+    },
+    {
+        "id": "3088158",
+        "enunciado": "Em relação aos conceitos de instalações elétricas, assinale a alternativa incorreta.",
+        "alternativas": {
+            "A": "A queda de tensão percentual pode ser obtida pela relação:tensão de entrada tensão na carga_____________________________________x 100 tensão de entrada",
+            "B": "O fator de demanda representada a relação entre potência utilizada e potência instalada: FD=________________________ x 100 potência utilizada",
+            "C": "O número de condutores a considerar durante o projeto de uma instalação elétrica é igual ao número de condutores efetivamente percorridos por corrente elétrica.",
+            "D": "Em um circuito de corrente alternada trifásico sem neutro, existem três condutores carregados."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A alternativa B está incorreta. O Fator de Demanda é a relação entre a potência máxima demandada e a potência instalada, e não a relação entre potência utilizada e instalada. A fórmula correta é: FD = Potência Máxima Demandada / Potência Instalada."
+    },
+    {
+        "id": "3083416",
+        "enunciado": "Após a instalação de um sistema de aterramento composto por uma haste cobreada de 2,4 m, conectores e cabo de cobre nu, mediu-se a resistência deste sistema e encontrou um valor bem acima do pretendido. Qual das alternativas seguinte é a mais efetiva para melhorar o sistema de aterramento.",
+        "alternativas": {
+            "A": "Tratar o solo com sílica.",
+            "B": "Instalar mais duas hastes a 10 cm da primeira formando um triângulo.",
+            "C": "Tratar o solo com carvão vegetal invertido.",
+            "D": "Instalar mais uma haste a três metros de distância.",
+            "E": "Manter o solo encharcado."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Para melhorar a resistência de um sistema de aterramento com haste única, adicionar mais hastes aumenta a área de contato com o solo e a dissipação da corrente. Uma distância de três metros é recomendada para que as hastes atuem de forma independente e mais efetiva."
+    },
+    {
+        "id": "3083417",
+        "enunciado": "A norma ABNT NBR 5410 descreve as condições para se obter segurança e o funcionamento correto das instalações elétricas de baixa tensão. Sobre esta norma é CORRETO afirmar:",
+        "alternativas": {
+            "A": "A norma sugere que tomadas em mesma parede devem pertencer a um mesmo circuito, por questões de segurança.",
+            "B": "A norma é aplicada também nas instalações elétricas em embarcações, quando a carga instalada for acima de 25 kW.2",
+            "C": "A norma afirma que os condutores de cobre em circuitos de corrente alternada precisam ter seção mínima de 1,5mm em circuito de iluminação e 2,5 mm em circuito de força.",
+            "D": "A norma não permite a instalação de tomadas em ambientes com áreas molhadas.",
+            "E": "A norma não permite quedas de tensão superior a 5% dentro das instalações elétricas, para não comprometer o funcionamento e vida útil dos equipamentos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A norma ABNT NBR 5410 estabelece seções mínimas para condutores de cobre em circuitos de iluminação (1,5mm²) e força (2,5mm²), visando garantir a segurança contra sobrecargas e curtos-circuitos."
+    },
+    {
+        "id": "3088159",
+        "enunciado": "A descoberta de materiais semicondutores permitiu a construção de diversos dispositivos eletrônicos, entre os quais podem ser destacados os diodos e transistores.Sobre esses materiais e dispositivos, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "Um diodo ideal se comporta como um circuito aberto na região de condução e como um curto-circuito quando polarizado reversamente.",
+            "B": "A resistência de polarização reversa é responsável por permitir que o diodo ideal conduza corrente em ambos os sentidos.",
+            "C": "O potencial máximo de polarização direta que pode ser aplicado antes que o diodo entre na região Zener é chamado de tensão de pico inversa.",
+            "D": "Um diodo ideal pode ser considerado como uma chave capaz de conduzir corrente em um único sentido."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um diodo ideal funciona como uma chave que permite a passagem de corrente em apenas um sentido. As outras alternativas descrevem o comportamento do diodo de forma incorreta."
+    },
+    {
+        "id": "3088160",
+        "enunciado": "Máquinas elétricas são dispositivos que realizam a conversão entre energia elétrica e mecânica ou vice-versa.Sobre esses dispositivos, assinale a alternativa incorreta.",
+        "alternativas": {
+            "A": "Normalmente o enrolamento de armadura de uma máquina rotativa conduz corrente alternada.",
+            "B": "Em uma máquina de corrente alternada,por exemplo a máquina de indução,o enrolamento de armadura se encontra no rotor.",
+            "C": "Em máquinas de corrente contínua, o enrolamento de armadura se encontra na parte rotativa.",
+            "D": "A maioria das máquinas de corrente contínua apresenta um conjunto de enrolamento que conduz corrente contínua e é chamado de enrolamento de campo."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3083418",
+        "enunciado": "A norma ABNT NBR 5410 trata da capacidade de corrente dos cabos levando em consideração o material condutor, o tipo de isolação, quantidade de condutores e o método de instalação. Nas alternativas abaixo em qual situação o cabo para circuitos de força terá a maior capacidade de corrente.",
+        "alternativas": {
+            "A": "Circuito com dois cabos unipolares de cobre, isolação em PVC e com o método de instalação B2.",
+            "B": "Circuito com dois cabos unipolares de cobre, isolação em XLPE e com o método de instalação B1.",
+            "C": "Circuito com três cabos unipolares de cobre, isolação em PVC e com o método de instalação B1.",
+            "D": "Circuito com dois cabos unipolares de cobre, isolação em XLPE e com o método de instalação B2.",
+            "E": "Circuito com três cabos unipolares de cobre, isolação em XLPE e com o método de instalação B1."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3088161",
+        "enunciado": "Um dos instantes mais críticos durante a operação de motores elétricos é a partida, pois nesse momento os motores solicitam uma corrente maior do que a necessária durante a operação.São métodos que podem ser utilizados para acionamento de motores trifásicos, exceto:",
+        "alternativas": {
+            "A": "Partida direta.",
+            "B": "Chave compensadora.",
+            "C": "Chave estrela – triângulo.",
+            "D": "Chave de impedância."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Partida direta, chave compensadora e chave estrela-triangulo sao metodos comuns de partida para motores trifasicos. Chave de impedancia nao e um metodo usual para partida de motores assincronos trifasicos."
+    },
+    {
+        "id": "3088162",
+        "enunciado": "A conversão entre bases numéricas é um dos pilares da teoria de sistemas digitais.Assinale a alternativa que indica a representação decimal para o número binário 110110.",
+        "alternativas": {
+            "A": "54",
+            "B": "53",
+            "C": "27",
+            "D": "22"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3088163",
+        "enunciado": "Os CLPs (controladores lógicos programáveis) são amplamente utilizados na indústria para a automação e o controle dos mais diversos tipos de processos.Assinale a alternativa que apresenta linguagens de programação definidas pela Norma IEC 61131.",
+        "alternativas": {
+            "A": "Python e Texto estruturado",
+            "B": "FBD e SFC",
+            "C": "C++ e Lista de instruções",
+            "D": "Ladder e VHDL"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A Norma IEC 61131-3 define as linguagens de programação para CLPs. Dentre as alternativas, FBD (Diagrama de Blocos Funcionais) e SFC (Sequenciador Gráfico) são linguagens padronizadas por esta norma. Python, C++, Lista de Instruções e VHDL não são as únicas ou principais linguagens definidas por ela neste contexto."
+    },
+    {
+        "id": "3088164",
+        "enunciado": "Vazão ou fluxo é considerado o volume (ou massa) de uma substância que percorre uma determinada seção por unidade de tempo.São medidores de vazão, exceto:",
+        "alternativas": {
+            "A": "Rotâmetros.",
+            "B": "Disco nutante.",
+            "C": "Sensor LDR.",
+            "D": "Medidor tipo turbina."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O sensor LDR (Light Dependent Resistor) é um componente eletrônico que varia sua resistência com a incidência de luz, não sendo um medidor de vazão. Rotâmetros, disco nutante e medidor tipo turbina são exemplos de dispositivos utilizados para medir vazão."
+    },
+    {
+        "id": "3088165",
+        "enunciado": "A medição de temperatura é fundamental em diversos processos industriais e, portanto, existem múltiplos dispositivos capazes de aferir as variações térmicas.Sobre esses dispositivos, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "Termistores do tipo NTC apresentam resistência negativa quando ocorre aumento da temperatura.",
+            "B": "Termistores do tipo PTC apresentam redução da resistência quando ocorre aumento de temperatura.",
+            "C": "Um termopar é um dispositivo formado por um único material, em que a extremidade condutora fica em contato com o processo a ser medido.",
+            "D": "As termo resistências são sensores de temperatura baseados na mudança do valor de resistência devido a alterações térmicas; um exemplo é o PT-100."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Termo resistências, como a PT-100, se baseiam na variação da resistência com a temperatura. Termistores NTC e PTC têm comportamento inverso em relação à resistência. Termopares são feitos de dois materiais distintos."
+    },
+    {
+        "id": "3088166",
+        "enunciado": "Indicadores de performance ou desempenho, também conhecidos como KPIs (key performance indicators), são ferramentas de gestão para verificação do nível de sucesso de uma organização.São itens que podem ser considerados KPIs, exceto:",
+        "alternativas": {
+            "A": "Qualidade.",
+            "B": "Eficiência.",
+            "C": "Capacidade.",
+            "D": "Relutância."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Qualidade, Eficiência e Capacidade são indicadores de desempenho (KPIs) focados em resultados e processos. Relutância é um conceito da área de eletromagnetismo e não se refere a um KPI de gestão."
+    },
+    {
+        "id": "3088167",
+        "enunciado": "Durante a etapa de planejamento para um processo produtivo, o gerenciamento de custos é de vital importância, pois todo tipo de projeto é uma atividade intrinsecamente econômica.São características do processo de orçamentação, exceto:",
+        "alternativas": {
+            "A": "Aproximação: o orçamento é baseado em uma previsão, portanto não é uma ciência exata.",
+            "B": "Temporalidade: um orçamento deve ser atualizado constantemente, principalmente para a avaliação de custos indiretos.",
+            "C": "Padronização: um orçamento deve determinar com perfeição todos os custos, mesmo para obras de longa duração.",
+            "D": "Fatores condicionantes: um orçamento deve considerar diversos fatores tais como clima,legislação, mão de obra disponível, duração e impostos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3068713",
+        "enunciado": "Leia as afirmativas a seguir:A Comissão Interna de Prevenção de Acidentes deve ocultar dos servidores todas as informações relativas à segurança e à saúde no ambiente de trabalho.Compõem o projeto da instalação elétrica as tabelas, as memórias de cálculos, as lista de componentes e materiais e outros documentos com informações pertinentes ao trabalho do eletricista.Utilizar mobiliário inadequado é um fator de risco ergonômico no ambiente de trabalho.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa II, apenas.",
+            "C": "Estão corretas as afirmativas I e II, apenas.",
+            "D": "Estão corretas as afirmativas II e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa I esta incorreta pois a CIPA não deve ocultar informações. A afirmativa II esta correta pois projeto elétrico inclui documentos diversos. A afirmativa III esta correta pois mobiliário inadequado é risco ergonômico. Logo, II e III estão corretas."
+    },
+    {
+        "id": "3068714",
+        "enunciado": "Leia as afirmativas a seguir:A comissão interna de prevenção de acidentes deve contemplar, em sua composição, representantes dos servidores da instituição.As primeiras etapas para elaboração do projeto elétrico se constituem ainda na fase de planejamento da construção civil de uma instalação.A comissão interna de prevenção de acidentes deve participar da implementação das medidas necessárias de prevenção aos riscos laborais.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Estão corretas as afirmativas II e III, apenas.",
+            "D": "Estão corretas as afirmativas I e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A afirmativa I está correta, a CIPA deve ter representantes dos servidores. A afirmativa II está correta, o planejamento elétrico integra a construção civil. A afirmativa III está correta, a CIPA participa da implementação de medidas preventivas."
+    },
+    {
+        "id": "3068715",
+        "enunciado": "Leia as afirmativas a seguir:A qualidade no serviço público envolve a comparação das expectativas do cidadão com a percepção do serviço entregue.O servidor público não deve manter limpo o seu local de trabalho.Os riscos químicos no ambiente de trabalho podem ser causados por substâncias, compostos ou outros produtos químicos aos quais o servidor possa estar exposto.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Estão corretas as afirmativas II e III, apenas.",
+            "D": "Estão corretas as afirmativas I e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa I esta correta pois qualidade envolve expectativa vs percepção. A afirmativa II esta incorreta pois o servidor deve manter o local limpo. A afirmativa III esta correta pois riscos químicos vêm de substâncias químicas. Logo, I e III estão corretas."
+    },
+    {
+        "id": "3068716",
+        "enunciado": "Leia as afirmativas a seguir:Os riscos biológicos no ambiente de trabalho não podem ser causados pelo contato do servidor com parasitas e bacilos.Quando as expectativas do cidadão são atingidas ou superadas, temos um cidadão insatisfeito com o serviço público.O acidente de trabalho é um evento planejado que sempre resulta em morte de um servidor.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Estão corretas as afirmativas II e III, apenas.",
+            "D": "Estão corretas as afirmativas I e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "I incorreta: riscos biológicos incluem parasitas. II incorreta: expectativas atendidas/superadas geram cidadão satisfeito. III incorreta: acidente de trabalho não é planejado e nem sempre resulta em morte."
+    },
+    {
+        "id": "3068717",
+        "enunciado": "Leia as afirmativas a seguir:A empatia é a atitude do entendimento, da interação e da expressão facial e corporal.Um sistema de automação predial não permite controlar e monitorar o consumo energético da edificação.O desempenho do produto é um fator que não deve ser considerado no momento da escolha dos materiais elétricos.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Está correta a afirmativa III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3068718",
+        "enunciado": "Leia as afirmativas a seguir:No contexto da saúde e segurança laboral, o termo \"toxicidade \"refere-se ao potencial de uma substância de exercer um efeito danoso no trabalhador.Manter uma atitude indiferente durante o atendimento ao usuário é uma forma de evitar dissabores e situações constrangedoras.Direito pode ser entendido como o conjunto de normas e leis positivas vigentes num país e que têm força coercitiva.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Estão corretas as afirmativas II e III, apenas.",
+            "D": "Estão corretas as afirmativas I e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa I esta correta pois toxicidade é o potencial de dano. A afirmativa II esta incorreta pois a indiferença prejudica o atendimento. A afirmativa III esta correta pois define direito como normas com força coercitiva. Logo, I e III estão corretas."
+    },
+    {
+        "id": "3068719",
+        "enunciado": "Leia as afirmativas a seguir:Postura inadequada e sobrecarga de trabalho são exemplos de riscos químicos que podem ocorrer no ambiente de trabalho.A NR10 (norma regulamentadora nº 10) é uma norma que busca garantir a saúde e a segurança dos que estejam envolvidos direta e indiretamente nas atividades e serviços em eletricidade.O servidor deve procurar identificar claramente as necessidades do usuário e esforçar-se para ser inflexível no seu atendimento.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Está correta a afirmativa III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa II esta correta, pois a NR10 trata da segurança em eletricidade. A afirmativa I esta incorreta pois postura inadequada e sobrecarga são riscos ergonômicos, não químicos. A afirmativa III esta incorreta pois o servidor deve ser flexível e atender às necessidades do usuário."
+    },
+    {
+        "id": "3068720",
+        "enunciado": "Leia as afirmativas a seguir:Utilizar indicadores para mensurar o nível de satisfação dos usuários dos serviços é uma atitude contrária à melhoria da qualidade no atendimento.O transformador elétrico é o equipamento utilizado na transformação dos valores de tensão e de corrente de ondas térmicas, ou seja, transformadores químicos.O resistor é um componente elétrico ativo que tem a função primária de ampliar o fluxo da corrente elétrica em um circuito aberto, apenas.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Está correta a afirmativa III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A afirmativa I está errada pois indicadores de satisfação ajudam na melhoria. A afirmativa II está errada, transformadores elétricos lidam com tensão e corrente, não ondas térmicas ou químicas. A afirmativa III está errada, o resistor é um componente passivo e não amplifica fluxo em circuito aberto."
+    },
+    {
+        "id": "3068721",
+        "enunciado": "Leia as afirmativas a seguir:A garantia do produto é um fator que não deve ser considerado no momento da escolha dos materiais elétricos.Os transformadores elétricos são equipamentos que têm por objetivo transformar energia mecânica em energia elétrica em um sistema.O servidor público deve preferir utilizar um tom de voz moderado ao comunicar-se com seus colegas de trabalho e com o usuário dos serviços, principalmente em ambientes fechados.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Está correta a afirmativa III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa I esta incorreta pois a garantia do produto é fator importante. A afirmativa II esta incorreta pois transformadores convertem energia elétrica. A afirmativa III esta correta pois tom de voz moderado é adequado. Logo, apenas a III está correta."
+    },
+    {
+        "id": "3068722",
+        "enunciado": "Leia as afirmativas a seguir:As máquina e equipamentos sem proteção são fatores de risco de acidente no ambiente de trabalho.O atendente deve esclarecer e direcionar os usuários nas dúvidas quanto aos serviços oferecidos pela instituição.O risco de acidente inclui fatores que coloquem o colaborador em situação vulnerável e possam afetar sua integridade e seu bem-estar físico e psíquico.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Estão corretas as afirmativas II e III, apenas.",
+            "D": "Estão corretas as afirmativas I e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A afirmativa I está correta, máquinas sem proteção são risco. A afirmativa II está correta, o atendente direciona o usuário. A afirmativa III está correta, definindo o risco de acidente como algo que afeta o colaborador."
+    },
+    {
+        "id": "3068723",
+        "enunciado": "Leia as afirmativas a seguir:O dano é a consequência de um perigo laboral, embora não tenha qualquer relação com lesões ou doenças.Os cabos desbitolados possuem comercialização legalizada no Brasil e sempre conduzem energia corretamente.O direito de recusa é a ferramenta legal que o trabalhador tem para não executar atividades em que não tenham sido tomadas as medidas necessárias que garantam segurança do mesmo no decorrer dos serviços e atividades.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Está correta a afirmativa III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa I esta incorreta pois dano tem relação com lesões. A afirmativa II esta incorreta pois cabos desbitolados não possuem comercialização legal. A afirmativa III esta correta pois define o direito de recusa. Logo, apenas a III está correta."
+    },
+    {
+        "id": "3068725",
+        "enunciado": "Leia as afirmativas a seguir:A largura, o comprimento e a altura de cada área ou cômodo de uma edificação são utilizados para os cálculos de área e de volume e estes novos dados são utilizados para a definição de luminotécnica e da carga prevista para a instalação.Ter domínio da norma culta da língua portuguesa é um fator prejudicial à qualidade do atendimento ao público em uma instituição pública.Ao fazer uso da empatia, o servidor está agindo em desfavor da qualidade no atendimento na instituição.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Está correta a afirmativa III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I está correta, pois dimensões são usadas para cálculo de luminotécnica e carga. A afirmativa II está incorreta; o domínio da norma culta é fundamental para bom atendimento. A afirmativa III está incorreta; empatia melhora o atendimento."
+    },
+    {
+        "id": "3068726",
+        "enunciado": "Leia as afirmativas a seguir:De acordo com o princípio da moralidade da Administração Pública, é correto afirmar que o fim é sempre o bem comum.Um acidente de trabalho pode provocar um dano físico de caráter permanente no servidor.Conhecer as atividades realizadas pelos demais servidores públicos na instituição é um fator favorável à qualidade no atendimento ao usuário dos serviços.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Estão corretas as afirmativas II e III, apenas.",
+            "D": "Estão corretas as afirmativas I e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A afirmativa I está correta, moralidade na Adm. Pública visa o bem comum. A afirmativa II está correta, acidentes podem causar danos permanentes. A afirmativa III está correta, conhecer outras atividades melhora o atendimento."
+    },
+    {
+        "id": "3068727",
+        "enunciado": "Leia as afirmativas a seguir:Quando estiver diante de duas opções, o servidor público deve escolher a melhor e a mais vantajosa para o bem comum.Os transformadores podem ser utilizados para garantir a alteração das impedâncias dentro dos circuitos elétricos, sendo de fundamental importância para os sistemas elétricos.No contexto da comunicação e do atendimento ao usuário, o receptor (ou destinatário) é o sujeito que recebe a mensagem.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Estão corretas as afirmativas II e III, apenas.",
+            "D": "Estão corretas as afirmativas I e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A afirmativa I está correta, o servidor deve buscar o melhor para o bem comum. A afirmativa II está correta, transformadores alteram impedâncias. A afirmativa III está correta, definindo corretamente o receptor na comunicação."
+    },
+    {
+        "id": "3068728",
+        "enunciado": "Leia as afirmativas a seguir:O gozo de férias anuais remuneradas não é um direito dos trabalhadores urbanos e rurais.As condições do mobiliário e dos equipamentos podem estar relacionadas a riscos à saúde e à segurança do trabalhador.Um sistema de automação predial não permite proporcionar conforto e controle personalizado dos sistemas aos usuários da edificação.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Está correta a afirmativa III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa II esta correta, pois mobiliário e equipamentos inadequados podem gerar riscos à saúde e segurança. A afirmativa I esta incorreta pois férias anuais remuneradas são um direito trabalhista. A afirmativa III esta incorreta pois a automação predial pode proporcionar conforto e controle personalizado."
+    },
+    {
+        "id": "3068729",
+        "enunciado": "Leia as afirmativas a seguir:Ao comunicar-se com um usuário dos serviços, o servidor público deve procurar transmitir uma imagem profissional de eficácia e de bom funcionamento da instituição.Ao realizar as instalações elétricas, deve-se dar preferência à utilização de cabos desbitolados.A doença profissional pode ser entendida como aquela produzida ou desencadeada pelo exercício do trabalho peculiar a determinada atividade.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Estão corretas as afirmativas II e III, apenas.",
+            "D": "Estão corretas as afirmativas I e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa I esta correta pois o servidor deve transmitir imagem profissional. A afirmativa II esta incorreta pois deve-se usar cabos normalizados. A afirmativa III esta correta pois define doença profissional. Logo, I e III estão corretas."
+    },
+    {
+        "id": "3068730",
+        "enunciado": "Leia as afirmativas a seguir:Ao receber um telefonema, o servidor não assume a responsabilidade pelas informações transmitidas por ele.Fazer uso da empatia é uma atitude que dificulta o bom atendimento ao cidadão no serviço público.O calçado de segurança não protege o colaborador contra cortes durante a realização das atividades laborais.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Estão corretas as afirmativas II e III, apenas.",
+            "D": "Estão corretas as afirmativas I e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A afirmativa I está errada; o servidor é responsável pelas informações que transmite. A afirmativa II está errada; empatia facilita o bom atendimento. A afirmativa III está errada; calçados de segurança protegem contra cortes."
+    },
+    {
+        "id": "3068731",
+        "enunciado": "Leia as afirmativas a seguir:Os movimentos de articulações em seus limites extremos constituem fatores de risco estatisticamente significantes para a ocorrência de lesões por esforços repetitivos ou distúrbios osteomusculares relacionados ao trabalho.A Comissão Interna de Prevenção de Acidentes tem por atribuição ocultar os riscos dos processos de trabalho da organização.É de suma importância para o profissional da área de projetos elétricos entender e se familiarizar com o projeto arquitetônico civil, pois a leitura e a interpretação do desenho arquitetônico não são relevantes para a elaboração do projeto elétrico.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Está correta a afirmativa III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I está correta, pois movimentos extremos de articulações causam Lesões por Esforços Repetitivos (LER). A afirmativa II está incorreta, pois a CIPA identifica e avalia riscos, não os oculta. A afirmativa III está incorreta, pois entender o projeto arquitetônico é relevante para o projeto elétrico."
+    },
+    {
+        "id": "3068732",
+        "enunciado": "Leia as afirmativas a seguir:A comissão interna de prevenção de acidentes deve participar das discussões para avaliar os impactos de alterações no ambiente de trabalho relacionadas à segurança e à saúde dos trabalhadores.Um bom atendimento requer comunicar-se de forma clara, evitando utilização de gírias.Os servidores públicos têm o dever de ampliar os riscos inerentes ao próprio trabalho, obliterando as normas de saúde, higiene e segurança da instituição.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Estão corretas as afirmativas I e II, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa I esta correta pois CIPA participa de discussões de impacto. A afirmativa II esta correta pois comunicação clara e sem gírias é essencial. A afirmativa III esta incorreta pois o dever é reduzir riscos. Logo, I e II estão corretas."
+    },
+    {
+        "id": "3053179",
+        "enunciado": "Para a medição de qual grandeza elétrica, o instrumento utilizado deve ser ligado em paralelo e em série ao componente do circuito?",
+        "alternativas": {
+            "A": "Corrente Elétrica.",
+            "B": "Tensão Elétrica.",
+            "C": "Potência Elétrica.",
+            "D": "Resistência Elétrica"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3068733",
+        "enunciado": "Leia as afirmativas a seguir:Diversas categorias profissionais estão expostas a diversos riscos laborais, seja de natureza física, química, ergonômica etc. Assim, cabe ao servidor público ter consciência sobre as práticas de saúde e segurança que devem ser adotadas em seu ambiente de trabalho.A distribuição se caracteriza como o segmento do setor elétrico dedicado à entrega de energia elétrica para um usuário final.Os cabos desbitolados são aqueles que possuem precisamente a quantidade de cobre que a norma técnica exige. Eles são mais caros e mais grossos que os condutores normatizados.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Estão corretas as afirmativas I e II, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa I esta correta pois o servidor deve ter consciência dos riscos. A afirmativa II esta correta pois distribuição entrega energia ao usuário final. A afirmativa III esta incorreta pois cabos desbitolados não seguem normas. Logo, I e II estão corretas."
+    },
+    {
+        "id": "3053180",
+        "enunciado": "Das técnicas de emendas em condutores utilizadas em instalações elétricas, a respeito da emenda em derivação, podemos afirmar que:",
+        "alternativas": {
+            "A": "Devem ser feitas entre condutores de mesma bitola.",
+            "B": "Tem a finalidade de aumentar seu comprimento.",
+            "C": "Não deve ser utilizada para ramificar os condutores",
+            "D": "Podem ser executadas entre condutores de bitolasdiferentes."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A emenda em derivação pode ser executada entre condutores de bitolas diferentes, permitindo criar um ramal a partir de uma linha principal."
+    },
+    {
+        "id": "3071193",
+        "enunciado": "Uma unidade consumidora solicita 45 kW de potência durante um período de 15minutos. Em relação à instalação, esse valor representa a(o):",
+        "alternativas": {
+            "A": "Energia média consumida.",
+            "B": "Potência aparente solicitada.",
+            "C": "Demanda.",
+            "D": "Fator de carga.",
+            "E": "Fator de demanda."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A potência solicitada por uma unidade consumidora em um determinado período, independentemente da duração, é definida como Demanda. É a carga máxima que o consumidor espera utilizar."
+    },
+    {
+        "id": "3053181",
+        "enunciado": "Julgue se as afirmações abaixo são verdadeiras e em seguida assinale a alternativa correta:Em instalações que contenham diversas cargas (ativase reativas) a potência total deve ser especificada pela potência aparente que é o produto da tensão pela corrente do circuito.Existem cargas que são puramente resistivas tais comomotores, transformadores, etc. Estas cargas são chamadas cargas resistivas e necessitam além da potência ativa, a potência reativa, necessária para estabelecer o campo magnético que faz o motorfuncionar.Quando a carga alimentada não é uma carga puramente resistiva, (ferro de passar roupas, chuveiro,etc.) dizemos que a potência é uma potência ativa, ouseja, toda a energia elétrica é convertida em trabalho.",
+        "alternativas": {
+            "A": "Somente a afirmação I é verdadeira.",
+            "B": "Somente a afirmação I e II são verdadeiras.",
+            "C": "Somente a afirmação II e III são verdadeiras.",
+            "D": "As afirmações I, II e III são verdadeiras."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3068735",
+        "enunciado": "Leia as afirmativas a seguir:Para lidar adequadamente com as reclamações dos cidadãos, o servidor público deve ouvi-los com atenção.A instituição empregadora é obrigada a fornecer ao servidor o equipamento de proteção individual em perfeito estado de conservação e funcionamento, nas circunstâncias cabíveis.Um acidente laboral com um servidor não costuma causar perdas financeiras para o trabalhador ou para a instituição.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Estão corretas as afirmativas I e II, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa I esta correta pois ouvir o cidadão é importante. A afirmativa II esta correta pois a instituição deve fornecer EPIs adequados. A afirmativa III esta incorreta pois acidentes laborais causam perdas financeiras. Logo, I e II estão corretas."
+    },
+    {
+        "id": "3071194",
+        "enunciado": "Qual a função dos capacitores instalados em subestações e ao longo das linhas de distribuição?",
+        "alternativas": {
+            "A": "Neutralizar os efeitos provocados por descargas atmosféricas.",
+            "B": "Proteger as linhas contra surtos de tensão decorrentes de manobras.",
+            "C": "Impedir a circulação de corrente contínua ao longo da linha.",
+            "D": "Eliminar frequências parasitas que possam ser induzidas ao longo da rede.",
+            "E": "Injetar potência reativa para prover elevação da tensão e reduzir as perdas nas linhas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Capacitores em subestações e linhas de distribuição injetam potência reativa. Isso eleva a tensão da rede, compensando a queda de tensão natural das linhas, e melhora o fator de potência, reduzindo perdas."
+    },
+    {
+        "id": "3053182",
+        "enunciado": "A grande maioria dos materiais conhecidos se encaixa em um destes dois grupos: condutor elétrico ou isolante elétrico. Há, contudo, certos materiais que não se enquadram bem em nenhuma dessas suas categorias, mas sim em um grupo intermediário, por exemplo:",
+        "alternativas": {
+            "A": "A baquelite.",
+            "B": "O silício.",
+            "C": "A porcelana.",
+            "D": "A prata."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Materiais que não se encaixam perfeitamente como condutores ou isolantes são os semicondutores. O silício é um exemplo clássico de material semicondutor, fundamental na indústria eletrônica por sua capacidade de conduzir eletricidade sob certas condições."
+    },
+    {
+        "id": "3068736",
+        "enunciado": "Leia as afirmativas a seguir:Ao realizar os acabamentos elétricos, deve-se evitar utilizar materiais que apresentem o selo do INMETRO (Instituto Nacional de Meteorologia Qualidade e Tecnologia).Realizar o próprio trabalho em turnos noturnos é um fator de risco ergonômico no ambiente de trabalho.Um sistema de automação predial não permite reduzir custos no consumo de energia elétrica na edificação.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Está correta a afirmativa III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa II esta correta, pois trabalhar em turnos noturnos é um fator de risco ergonômico. A afirmativa I esta incorreta, pois deve-se utilizar materiais com selo do INMETRO. A afirmativa III esta incorreta, pois a automação predial pode reduzir custos de energia elétrica."
+    },
+    {
+        "id": "3053183",
+        "enunciado": "A Eletrostática é a parte da área da eletricidade que estuda as cargas elétricas sem movimento, ou seja, em estado de repouso. De acordo com esse estudo não é correto afirmar que:",
+        "alternativas": {
+            "A": "Quando eletrizamos um condutor, a carga elétrica se distribui por toda a sua superfície externa. Em um isolante, as cargas adquiridas permanecem na região em que foram obtidas.",
+            "B": "Nos condutores dielétricos, os elétrons estão fortemente presos ao núcleo do átomo e dificilmente serão dele arrancados, como na borracha, na madeira, no papel, na água pura, nos tecidos, etc.",
+            "C": "A carga elétrica do elétron (ou do próton) constitui a quantidade fundamental de carga elétrica, ou seja, a menor quantidade de carga elétrica que pode existir, também denominada carga elementar.",
+            "D": "Se ligarmos um condutor eletrizado à Terra, por meio de um fio condutor, a carga em excesso do condutor “escoa” para a Terra, o que significa dizer que, se o condutor estiver inicialmente carregado negativamente, elétrons se transferem da Terra para o condutor."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Ao ligar um condutor eletrizado negativamente à Terra, elétrons tendem a sair do condutor para a Terra, e não o contrário."
+    },
+    {
+        "id": "3068737",
+        "enunciado": "Leia as afirmativas a seguir:É dever do servidor público ligar o seu nome a empreendimentos de cunho duvidoso.O servidor público nunca deve respeitar a hierarquia e nem obedecer aos seus superiores.No contexto da saúde e segurança ocupacional, a sinalização no ambiente de trabalho deve ser um procedimento padronizado, destinado a orientar, omitir, ocultar e promover acidentes.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Está correta a afirmativa III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A afirmativa I está incorreta, o servidor não deve ligar seu nome a empreendimentos duvidosos. A afirmativa II está incorreta, o servidor deve respeitar a hierarquia. A afirmativa III está incorreta, a sinalização visa orientar e prevenir acidentes, não promover."
+    },
+    {
+        "id": "3071195",
+        "enunciado": "A unidade kVA (kilo Volt-Ampére), frequentemente utilizada para especificar equipamentos e instalações, quantifica:",
+        "alternativas": {
+            "A": "Potência aparente.",
+            "B": "Potência reativa.",
+            "C": "Demanda.",
+            "D": "Energia.",
+            "E": "Fator de potência."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A unidade kVA (kilo Volt-Ampére) é a unidade de medida da potência aparente em sistemas elétricos de corrente alternada, que representa a potência total fornecida pela fonte."
+    },
+    {
+        "id": "3053184",
+        "enunciado": "Chama-se serie triboelétrica a relação ordenada de substâncias em que, ao atritarmos duas delas, a que figura antes se eletriza positivamente, e a que figura de pois, negativamente. Sendo assim, com qual dos materiais abaixo se atritarmos um isopor, ele ficará carregado negativamente?",
+        "alternativas": {
+            "A": "Teflon",
+            "B": "Silicone",
+            "C": "Vidro",
+            "D": "PVC"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A série triboelétrica lista materiais pela tendência a perder ou ganhar elétrons. Materiais anteriores na série, como o vidro, tendem a perder elétrons e se eletrizar positivamente quando atritados com materiais posteriores, como o isopor, que tenderá a se eletrizar negativamente."
+    },
+    {
+        "id": "3068738",
+        "enunciado": "Leia as afirmativas a seguir:A durabilidade do produto é um fator que não deve ser considerado no momento da escolha dos materiais elétricos.O resistor tem a função de provocar uma queda de tensão.A comissão interna de prevenção de acidentes deve atuar em prol da prevenção de acidentes e doenças decorrentes do trabalho na instituição.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa II, apenas.",
+            "C": "Estão corretas as afirmativas I e II, apenas.",
+            "D": "Estão corretas as afirmativas II e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa I esta incorreta pois durabilidade é fator importante. A afirmativa II esta correta pois o resistor causa queda de tensão. A afirmativa III esta correta pois CIPA atua na prevenção de acidentes. Logo, II e III estão corretas."
+    },
+    {
+        "id": "3053185",
+        "enunciado": "O campo elétrico é uma grandeza vetorial que mede o módulo da força elétrica por unidade de carga em cada ponto do espaço ao redor de uma carga elétrica. O Dipolo Elétrico é:",
+        "alternativas": {
+            "A": "Um sistema de duas cargas iguais, mas de intensidade diferente, separadas por uma distância finita.",
+            "B": "Um sistema de duas cargas oposta, mas de mesma intensidade, separadas por uma distância finita.",
+            "C": "Um sistema de duas cargas oposta e de intensidade diferente, separadas por uma distância finita.",
+            "D": "Um sistema de duas cargas iguais e de mesma intensidade, separadas por uma distância finita."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Um dipolo elétrico é definido como um sistema formado por duas cargas de igual magnitude, mas de sinais opostos (uma positiva e outra negativa), separadas por uma determinada distância. Essa configuração cria um campo elétrico."
+    },
+    {
+        "id": "3056926",
+        "enunciado": "Entre os materiais apresentados a seguir, assinale alternativa que contém o que é utilizado na construção de dutos das redes elétricas subterrâneas.",
+        "alternativas": {
+            "A": "Poliuretano – PU.",
+            "B": "Polietileno de alta densidade – PEAD.",
+            "C": "Poli(metil metacrilato) – PMMA.",
+            "D": "Poli(tereftalato de butileno) – PBT.",
+            "E": "Poliestireno – PS."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O Polietileno de Alta Densidade (PEAD) é amplamente utilizado na fabricação de dutos para redes elétricas subterrâneas devido à sua resistência mecânica, química e à umidade."
+    },
+    {
+        "id": "3068739",
+        "enunciado": "Leia as afirmativas a seguir:Os riscos ergonômicos podem ser causados por condições de trabalho em ambiente de monotonia.O mapa de riscos é um diagrama do ambiente de trabalho no qual se indicam os diversos tipos de riscos através de quadrados cinzas.Quanto ao uso do equipamento de proteção individual, é vedado ao servidor usá-lo quando estiver realizando uma atividade relacionada com o risco de acidente.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Está correta a afirmativa III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A afirmativa I está correta; monotonia é um fator de risco ergonômico. A afirmativa II está incorreta; o mapa de riscos usa cores para identificar os riscos, não apenas quadrados cinzas. A afirmativa III está incorreta; EPIs devem ser usados quando há risco, não vedado seu uso."
+    },
+    {
+        "id": "3071196",
+        "enunciado": "A potência ativa solicitada pela carga no diagrama da figura 3 acima pode ser obtida pela expressão:",
+        "alternativas": {
+            "A": "√3 * VL * IL.",
+            "B": "3 * VL * IL.",
+            "C": "3 * VL * IL * cosφ.",
+            "D": "√3 * VL * IL * cosφ.",
+            "E": "√3 * VF * IF * cosφ."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A potência ativa em um sistema trifásico é calculada por P = √3 * VL * IL * cosφ, onde VL é a tensão de linha, IL é a corrente de linha e cosφ é o fator de potência. A alternativa D é a única que apresenta a fórmula correta."
+    },
+    {
+        "id": "3053186",
+        "enunciado": "Nas afirmações abaixo, assinale (V) se forem verdadeiras e (F) se forem falsas, e em seguida marque a alternativa correta:( )Entende-se por intensidade de tensão elétrica a quantidade de elétrons que fluem através de um condutor durante um certo intervalo de tempo.( )No caso dos curtos-circuitos, ocorre uma elevação gradual em intensidade da corrente elétrica, enquanto que na ocasião dassobre correntes a corrente elétrica assume valores altíssimos instantaneamente.( )A tensão alternada é variável em relação aotempo na polaridade, porém, não na suaintensidade.( )As fontes geradoras utilizadas pelas indústriasde energia elétrica são fontes de energiaalternada, enquanto a fonte mais utilizada parafornecimento de tensão continua é a bateria e osretificadores.",
+        "alternativas": {
+            "A": "(F); (F); (F); (V)",
+            "B": "(V); (V); (V); (V)",
+            "C": "(F); (F); (F); (F)",
+            "D": "(F); (V); (F); (V)"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3068740",
+        "enunciado": "Leia as afirmativas a seguirO sistema de distribuição é composto pela rede elétrica e pelo conjunto de instalações e equipamentos elétricos que operam em níveis de alta, média e baixa tensão.No contexto da comunicação organizacional, emissor ou remetente é o que recebe a mensagem.O resistor possui uma resistência maior do que os cabos e trilhas de um circuito elétrico, forçando a redução da corrente elétrica que passa por ele.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Estão corretas as afirmativas II e III, apenas.",
+            "D": "Estão corretas as afirmativas I e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa I está correta. A afirmativa II está incorreta pois o emissor é quem envia a mensagem. A afirmativa III está correta; resistores limitam a corrente de forma mais expressiva que cabos e trilhas."
+    },
+    {
+        "id": "3071197",
+        "enunciado": "Para permitir ações seguras de manutenção em partes da instalação colocadas fora de serviço, mas que normalmente estão sob tensão, como redes de distribuição, é recomendado:",
+        "alternativas": {
+            "A": "Seccionamento dos condutores do circuito.",
+            "B": "Instalação de um aterramento de trabalho.",
+            "C": "Isolação das partes vivas.",
+            "D": "Instalação de uma ligação equipotencial.",
+            "E": "Ligação dos condutores do circuito em curto."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3053187",
+        "enunciado": "Assinale a alternativa que está correta quanto à utilização do voltímetro e do amperímetro:",
+        "alternativas": {
+            "A": "Caso o voltímetro tenha polaridade, o lado (+) do mesmo deve ser ligado ao polo negativo da fonte e olado (-) do aparelho com o positivo da fonte.",
+            "B": "Tanto no amperímetro como no voltímetro, deve-se procurar utilizar uma escala, onde a leitura da medida efetuada seja o menos próximo possível do meio da mesma.",
+            "C": "O ajuste de zero do voltímetro deve ser feito sempre que for necessário com ausência de corrente.",
+            "D": "Na utilização dos amperímetros, deve-se obedecer à polaridade do aparelho, se o mesmo for polarizado. O polo positivo (+) do amperímetro ligado ao polo positivo da fonte e o polo negativo (-) ao polo negativo do circuito."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O amperímetro deve ser ligado em série com o circuito, e se for polarizado, o polo (+) do aparelho deve ir no polo (+) do circuito e o (-) no polo (-) do circuito. O voltímetro é ligado em paralelo (e se polarizado, (+) no (+) e (-) no (-)). A alternativa D descreve corretamente a ligação polarizada do amperímetro."
+    },
+    {
+        "id": "3056927",
+        "enunciado": "Em relação aos eletrodutos, a taxa máxima de ocupação trata",
+        "alternativas": {
+            "A": "da razão entre o somatório das seções transversais dos condutores e a área útil do eletroduto.",
+            "B": "da quantidade máxima de condutores que podem passar pelo eletroduto conforme o circuito.",
+            "C": "da quantidade máxima de eletrodutos permitida para cada circuito.",
+            "D": "da quantidade máxima de ramos de circuitos que podem ocupar um eletroduto.",
+            "E": "da razão entre a quantidade de condutores permitidos em um eletroduto e a quantidade máxima de circuitos permitidos."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A taxa máxima de ocupação em eletrodutos, de acordo com normas técnicas, refere-se à relação entre a área de seção transversal dos condutores e a área interna total do eletroduto, garantindo segurança e funcionalidade."
+    },
+    {
+        "id": "3068741",
+        "enunciado": "Leia as afirmativas a seguir:A planta geral da instalação é a parte mais importante do projeto, pois acompanha o eletricista todo o tempo em que ele estiver efetuando a instalação elétrica.A NR10 (norma regulamentadora nº 10) é uma norma que tem como caráter regulamentar todos os serviços que envolvam eletricidade e seus riscos.O servidor público deve adotar uma postura de injustiça no atendimento ao usuário dos serviços.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Estão corretas as afirmativas I e II, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3071198",
+        "enunciado": "Como consequência de transformadores operando a vazio, ou seja, sem carga, pode-se citar:Perdas no núcleo produzidas pela corrente de magnetização.Baixo fator de potência devido a elevado componente reativo da corrente de magnetização.Elevadas perdas nos enrolamentos por efeito Joule.Quais estão corretas?",
+        "alternativas": {
+            "A": "Apenas I.",
+            "B": "Apenas I e II.",
+            "C": "Apenas I e III.",
+            "D": "Apenas II e III.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Transformadores em vazio apresentam perdas no núcleo (excitação e histerese). O fator de potência é baixo devido à corrente de magnetização. As perdas nos enrolamentos por efeito Joule são reduzidas pois não há corrente de carga."
+    },
+    {
+        "id": "3053188",
+        "enunciado": "Dos materiais listados abaixo, o que apresenta menor resistividade elétrica é:",
+        "alternativas": {
+            "A": "O cobre.",
+            "B": "O grafite.",
+            "C": "A prata.",
+            "D": "O alumínio."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A resistividade elétrica é uma propriedade intrínseca do material. Dentre as opções, a prata apresenta a menor resistividade elétrica, sendo um dos melhores condutores de eletricidade."
+    },
+    {
+        "id": "3056928",
+        "enunciado": "Assinale a alternativa contendo a informação que preenche corretamente a lacuna do texto a seguir.Os___________________ são dispositivos empregados em instalações elétricas para a proteção contra sobre tensões transitórias causadas por descargas atmosféricas.",
+        "alternativas": {
+            "A": "PDA – Protetores de descargas atmosféricas",
+            "B": "DAS – Dispositivos antissurtos e sobretensões",
+            "C": "DPS – Dispositivos de proteção contra surtos",
+            "D": "DR – Disjuntores residuais",
+            "E": "DDS – Disjuntores dissipadores de sobretensões"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Os Dispositivos de Proteção contra Surtos (DPS) são projetados especificamente para proteger instalações elétricas contra sobretensões transitórias, como as causadas por descargas atmosféricas, desviando a corrente excessiva para a terra."
+    },
+    {
+        "id": "3068742",
+        "enunciado": "Leia as afirmativas a seguir:O acidente de trabalho ocorre apenas na residência do trabalhador.Ter conhecimento sobre a estrutura organizacional da instituição pode ser prejudicial ao atendimento prestado pelo servidor público.Os cabos desbitolados conduzem melhor a energia elétrica e previnem a ocorrência de incêndios nas instalações.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Estão corretas as afirmativas I e II, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A afirmativa I está incorreta, acidentes de trabalho podem ocorrer em outros locais além da residência. A afirmativa II está incorreta, o conhecimento da estrutura organizacional é benéfico. A afirmativa III está incorreta, cabos desbitolados causam problemas e riscos."
+    },
+    {
+        "id": "3071199",
+        "enunciado": "Você está montando um transformador cujo enrolamento primário possui 200espiras, alimentado por uma fonte de 120 V. Qual o número de espiras necessárias no enrolamento secundário para se obter uma tensão de 6 V na saída?",
+        "alternativas": {
+            "A": "6.",
+            "B": "8.",
+            "C": "10.",
+            "D": "12.",
+            "E": "20."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A relação entre as tensões e o número de espiras em um transformador ideal é dada pela fórmula Vp/Vs = Np/Ns. Substituindo os valores conhecidos temos 120 V / 6 V = 200 espiras / Ns. Resolvendo para Ns: Ns = (6 V * 200 espiras) / 120 V = 1200 / 120 = 10 espiras."
+    },
+    {
+        "id": "3053189",
+        "enunciado": "Nos circuitos elétricos, os valores da tensão, corrente e resistência estão proporcionalmente relacionados entre si por uma lei fundamental da eletricidade, denominada Lei de Ohm, ou seja:",
+        "alternativas": {
+            "A": "Um aumento da resistência elétrica do circuito implica também no aumento da corrente.",
+            "B": "A intensidade da corrente elétrica é diretamente proporcional ao valor da tensão aplicada, desde que o valor da resistência do circuito não seja constante.",
+            "C": "Um aumento de valor da tensão elétrica aplicada, implicará na diminuição da corrente.",
+            "D": "A intensidade da corrente é inversamente proporcional à resistência, desde que o valor da tensão aplicada seja mantido constante no circuito."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Lei de Ohm afirma que a corrente (I) é diretamente proporcional à tensão (U) e inversamente proporcional à resistência (R), ou seja, I = U/R. Portanto, se a tensão for mantida constante, um aumento na resistência causará uma diminuição na corrente, e vice-versa."
+    },
+    {
+        "id": "3061955",
+        "enunciado": "Os motores de indução possuem uma corrente de partida de06 a 08 vezes a corrente nominal. Para minimizar esta corrente são elaborados acionamentos de motores com tensão reduzida. Entre os dispositivos descritos abaixo, qual deles NÂO reduz a tensão durante a partida do motor?",
+        "alternativas": {
+            "A": "Partida estrela-triângulo.",
+            "B": "Partida série-paralelo.",
+            "C": "Partida direta.",
+            "D": "Partida soft-starter."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A partida direta aplica a tensão total da rede ao motor, resultando na corrente de partida elevada. As outras opções (estrela-triângulo, série-paralelo e soft-starter) são métodos de partida que limitam essa corrente ao reduzir a tensão aplicada ao motor no início da operação."
+    },
+    {
+        "id": "3068743",
+        "enunciado": "Leia as afirmativas a seguir:Ser ético dispensa a busca de aprimoramento da conduta pessoal ou profissional.A névoa, o vapor, a poeira e os fumos metálicos são exemplos de riscos químicos aos quais o colaborador pode estar exposto no ambiente de trabalho.A fim de reduzir os riscos de acidentes, o colaborador deve procurar usar luvas antes de manipular produtos químicos.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa II, apenas.",
+            "C": "Estão corretas as afirmativas I e II, apenas.",
+            "D": "Estão corretas as afirmativas II e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa I está incorreta. Ética exige aprimoramento. A afirmativa II está correta, pois névoa, vapor, poeira e fumos são riscos químicos. A afirmativa III está correta, pois luvas protegem contra produtos químicos."
+    },
+    {
+        "id": "3071200",
+        "enunciado": "Os núcleos dos transformadores de potência geralmente são construídos com pacotes de lâminas de ferro-silício (Fe-Si) isoladas entre si. Essa técnica tem por objetivo:",
+        "alternativas": {
+            "A": "Reduzir as correntes parasitas, também chamadas correntes de Foucault, que circulam pelo núcleo, diminuindo as perdas.",
+            "B": "Melhorar a capacidade de dissipação de calor produzido no núcleo.",
+            "C": "Otimizar o fluxo magnético através do núcleo.",
+            "D": "Reduzir as perdas por histerese.",
+            "E": "Reduzir a relutância magnética do núcleo."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A construção dos núcleos de transformadores com lâminas de ferro-silício isoladas entre si visa reduzir as correntes parasitas (correntes de Foucault) que se formam no núcleo, minimizando as perdas de energia por aquecimento."
+    },
+    {
+        "id": "3053190",
+        "enunciado": "Magnetismo pode ser definido como sendo apropriedade que certos corpos possuem de atraírem materiais ferrosos. São materiais ferromagnéticos:",
+        "alternativas": {
+            "A": "Alumínio; Níquel; Ferro.",
+            "B": "Níquel; Ferro; Cobalto.",
+            "C": "Ferro; Alumínio; Cobalto.",
+            "D": "Cobalto; Alumínio; Níquel; Ferro."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Materiais ferromagnéticos são aqueles fortemente atraídos por ímãs e que podem ser magnetizados. Níquel, ferro e cobalto são os elementos mais conhecidos e exemplos clássicos de materiais ferromagnéticos. Alumínio é paramagnético."
+    },
+    {
+        "id": "3054629",
+        "enunciado": "Analise o trecho e assinale a alternativa que completa CORRETAMENTE a lacuna.Ao executar uma instalação elétrica, utilize sempre ferramentas com ___________________. Dessa maneira, se a ferramenta que você estiver utilizando encostar acidentalmente em uma parte energizada, será menor o risco de choque elétrico.",
+        "alternativas": {
+            "A": "Cabo de material de metal.",
+            "B": "Cabo de material térmico.",
+            "C": "Cabo de material brilhante.",
+            "D": "Cabo de material metálico.",
+            "E": "Cabo de material isolante."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Para evitar choques elétricos durante a manipulação de instalações elétricas, as ferramentas utilizadas devem possuir cabos feitos de material isolante, que impede a passagem da corrente elétrica."
+    },
+    {
+        "id": "3061956",
+        "enunciado": "Assinale a alternativa CORRETA que mostra o valor da corrente para o circuito de um chuveiro com potência de 4400W em 220V.",
+        "alternativas": {
+            "A": "20 A.",
+            "B": "25 A.",
+            "C": "30 A.",
+            "D": "40 A."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A corrente (I) é calculada pela fórmula I = P/V, onde P é potência e V é tensão. Portanto, I = 4400W / 220V = 20A. As demais opções apresentam valores de corrente incorretos."
+    },
+    {
+        "id": "3068744",
+        "enunciado": "Leia as afirmativas a seguir:O piso salarial proporcional à extensão e à complexidade do trabalho não é um direito dos trabalhadores rurais.A resiliência é uma habilidade que pode ser utilizada pelo servidor no momento de administrar reclamações dos usuários.É vedado à Comissão Interna de Prevenção de Acidentes realizar esforços em favor da prevenção de acidentes na instituição.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Está correta a afirmativa III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa II esta correta. A resiliência é uma habilidade importante para lidar com reclamações. A afirmativa I esta incorreta, pois o piso salarial proporcional é um direito dos trabalhadores rurais. A afirmativa III esta incorreta, pois a CIPA tem o dever de atuar na prevenção de acidentes."
+    },
+    {
+        "id": "3071201",
+        "enunciado": "Qual equipamento tem a função de proteger as instalações consumidoras e também as pessoas contra sobre tensões transitórias na rede elétrica causadas por descargas atmosféricas e que, geralmente, é instalado o mais próximo possível do ponto de entrada da instalação?",
+        "alternativas": {
+            "A": "Para-raios.",
+            "B": "Dispositivo de Proteção contra Surtos (DPS).",
+            "C": "Transformador isolador.",
+            "D": "Disjuntor termomagnético.",
+            "E": "Fusível Diazed."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O Dispositivo de Proteção contra Surtos (DPS) é o equipamento projetado para proteger instalações e pessoas contra sobretensões transitórias causadas por descargas atmosféricas, sendo instalado próximo ao ponto de entrada da instalação."
+    },
+    {
+        "id": "3053191",
+        "enunciado": "O capacitor é um componente que armazena cargas elétricas num campo elétrico, acumulando um desequilíbrio interno de carga elétrica. Colocando-seum capacitor em paralelo com uma bobina, podemos concluir que:",
+        "alternativas": {
+            "A": "Utiliza-se o capacitor para melhorar o fator de potência.",
+            "B": "O capacitor atua no mesmo sentido da bobina.",
+            "C": "Instalando um capacitor, ele age junto à bobina, fazendo aumentar as potências aparente e reativa",
+            "D": "Instalando um capacitor, ele conserva o valor dapotência ativa e consequentemente aumentando a potência total."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Capacitores e bobinas sao usados para compensar a reatancia indutiva e capacitiva, respectivamente. Ao colocar um capacitor em paralelo com uma bobina, a carga reativa indutiva da bobina e neutralizada, o que melhora o fator de potencia do circuito. Isso e comum em sistemas eletricos para reduzir perdas."
+    },
+    {
+        "id": "3054630",
+        "enunciado": "Para a troca de lâmpadas, são corretas todas as alternativas abaixo, EXCETO:",
+        "alternativas": {
+            "A": "Não toque na parte metálica do bocal nem na rosa enquanto estiver fazendo a troca.",
+            "B": "Desligue o interruptor e o disjuntor do circuito antes de trocar a lâmpada.",
+            "C": "Não segure a lâmpada pelo bulbo, e rosqueie com força para que não aja problemas.",
+            "D": "Segure a lâmpada pelo vidro. Não exagere na forçaao rosqueá-la.",
+            "E": "Use escadas adequadas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Ao trocar uma lâmpada, deve-se segurá-la pelo bulbo (parte de vidro) e não pelo culote metálico. Rosquear com excesso de força pode danificar o bocal ou a lâmpada."
+    },
+    {
+        "id": "3056929",
+        "enunciado": "Assinale a alternativa que contém o valor mais próximo para a indutância de um solenoide hipotético que possui as seguintes características: Fluxo magnético = 0,3 weber; Número de espiras = 500; Corrente elétrica que percorre o solenoide = 1,5 A.",
+        "alternativas": {
+            "A": "0,0009 H.",
+            "B": "0,004 H.",
+            "C": "100 H.",
+            "D": "225 H.",
+            "E": "2500 H."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3061957",
+        "enunciado": "Assinale a alternativa CORRETA que representa o consumo mensal de uma geladeira 300 W, ligada 10 horas por dia.",
+        "alternativas": {
+            "A": "900 kwh.",
+            "B": "100 kwh.",
+            "C": "90 kwh.",
+            "D": "300 kwh."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Consumo = Potência (kW) x Tempo (h). 300W = 0,3 kW. Consumo mensal = 0,3 kW x 10h/dia x 30 dias/mês = 90 kWh."
+    },
+    {
+        "id": "3068745",
+        "enunciado": "Leia as afirmativas a seguir:No contexto da comunicação organizacional, canal é a linguagem utilizada na construção da mensagem.Diante de um usuário dos serviços imperioso, o servidor público deve buscar ajuda com habilidade e sem demonstrar ao usuário insegurança ou pouco conhecimento do assunto.No atendimento telefônico, o atendente deve prestar informações de forma objetiva e clara.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa II, apenas.",
+            "C": "Estão corretas as afirmativas I e II, apenas.",
+            "D": "Estão corretas as afirmativas II e III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A afirmativa I está incorreta, pois canal é o meio, não a linguagem. A afirmativa II está correta, o servidor deve ajudar com habilidade. A afirmativa III está correta, pois informações devem ser objetivas e claras."
+    },
+    {
+        "id": "3053192",
+        "enunciado": "Dizemos que um circuito elétrico está ligado em estrela, quando:",
+        "alternativas": {
+            "A": "As cargas estão ligadas entre fase e fase, em umcircuito trifásico.",
+            "B": "As cargas estão ligadas entre fase e fase, em um circuito monofásico.",
+            "C": "As cargas estão ligadas entre fase e neutro e um circuito monofásico.",
+            "D": "As cargas estão ligadas entre fase e neutro e um circuito trifásico."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Um circuito ligado em estrela, em sistemas trifásicos, conecta um ponto comum (neutro) a cada uma das fases. As cargas são conectadas entre a fase e o neutro. As outras alternativas descrevem configurações incorretas ou condições inexistentes."
+    },
+    {
+        "id": "3054631",
+        "enunciado": "Em relação as instalações elétricas, considere os itens abaixo e marque a alternativa CORRETA.Faça periodicamente um exame completo na instalação elétrica, verificando o estado de conservação e limpeza de todos os componentes. Substitua peças defeituosas ou em más condições e verifique o funcionamento dos circuitos;Acréscimos de carga (instalação de novos equipamentos elétricos) podem causar aquecimento excessivo dos fios condutores e maior consumo de energia, resultando em curtos-circuitos e incêndios. Certifique-se de que os cabos e todos os componentes do circuito suportem a nova carga;Incêndios em materiais de fácil combustão, como madeira, pano, papel, lixo, não devem ser combatidos com extintores de água.Dos itens acima:",
+        "alternativas": {
+            "A": "Apenas o item II está correto.",
+            "B": "Apenas os itens I e II estão corretos.",
+            "C": "Apenas os itens I e III estão corretos.",
+            "D": "Apenas os itens II e III estão corretos",
+            "E": "Todos os itens estão corretos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3056930",
+        "enunciado": "Assinale a alternativa que contém o valor da rotação deum motor elétrico trifásico de indução de 4 polos, ligado em uma rede 60 Hz.",
+        "alternativas": {
+            "A": "28800 rpm.",
+            "B": "1800 rpm.",
+            "C": "900 rpm.",
+            "D": "14400 rpm.",
+            "E": "184 rpm."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A rotação de um motor síncrono é calculada por Sinc = (120 * Frequência) / Polos. Para 60 Hz e 4 polos, Sinc = (120 * 60) / 4 = 1800 rpm. A rotação de um motor de indução é próxima disso."
+    },
+    {
+        "id": "3061958",
+        "enunciado": "Assinale a alternativa CORRETA que mostra qual é a finalidade do relé térmico em um circuito de acionamento de motores.",
+        "alternativas": {
+            "A": "Abrir o circuito por falta de fase.",
+            "B": "Abrir o circuito por falta de neutro.",
+            "C": "Abrir o circuito por sobretensão.",
+            "D": "Abrir o circuito por sobrecorrente."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O relé térmico tem como função principal proteger motores elétricos contra sobrecorrente, desarmando o circuito quando a corrente ultrapassa um limite seguro, evitando danos por superaquecimento."
+    },
+    {
+        "id": "3071202",
+        "enunciado": "De acordo com a Lei nº 8.429/1992 (Lei da Improbidade Administrativa), além das sanções penais, civis e administrativas previstas em legislação específica, o servidor que cometer ato de improbidade administrativa importando em enriquecimento ilícito estará sujeito, entre outras, às seguintes penas:Perda da função pública.Perda dos bens ou valores acrescidos ilicitamente ao patrimônio.Ressarcimento integral do dano, quando houver.Quais estão corretas?",
+        "alternativas": {
+            "A": "Apenas I.",
+            "B": "Apenas I e II.",
+            "C": "Apenas I e III.",
+            "D": "Apenas II e III.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A Lei de Improbidade Administrativa (Lei 8.429/1992) prevê, em caso de enriquecimento ilícito, as sanções de perda da função pública, perda de bens e ressarcimento integral do dano, todas listadas nas afirmativas I, II e III."
+    },
+    {
+        "id": "3053193",
+        "enunciado": "O choque elétrico nada mais é do que a passagem de corrente elétrica pelo corpo humano, dessa forma o corpo passa a ser o condutor de eletricidade nesse momento. Porém nem todo choque elétrico vai causaro mesmo dano no corpo humano, pois há várias fontesde energia, várias formas de se levar uma descargaelétrica, e sendo assim o grau de perigo e dano causado no corpo humano, dentre outros, vai depender do seguinte fator:",
+        "alternativas": {
+            "A": "Intensidade da potência elétrica.",
+            "B": "Tempo de contato com a tensão elétrica.",
+            "C": "Área de contato com área energizada.",
+            "D": "Tipo de circuito elétrico, se contínuo ou alternado."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3054632",
+        "enunciado": "Incêndios em aparelhos elétricos energizados ou em líquidos inflamáveis (óleos, graxas, vernizes, gases) devem ser combatidos com:",
+        "alternativas": {
+            "A": "Extintores de água pressurizada e extintores de CO3.",
+            "B": "Extintores de CO3 ou pó químico.",
+            "C": "Extintores de CO2 ou pó químico.",
+            "D": "Extintores de água pressurizada.",
+            "E": "Extintores de água pressurizada ou pó químico."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Incêndios em equipamentos elétricos e líquidos inflamáveis (Classe B e C) devem ser combatidos com extintores de CO2 ou pó químico, que não conduzem eletricidade nem reagem com líquidos inflamáveis."
+    },
+    {
+        "id": "3061959",
+        "enunciado": "A norma regulamentadora NR-10 estabelece os requisitos e condições mínimas para trabalhos em instalações elétricas e serviços com eletricidade. Assinale a alternativa que NÃO faz parte das medidas de controle do risco elétrico.",
+        "alternativas": {
+            "A": "Desenergização.",
+            "B": "Equipotencialização.",
+            "C": "Dispositivo a corrente de fuga.",
+            "D": "Relé falta de fase"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A NR-10 menciona desenergização, equipotencialização e dispositivo a corrente de fuga como medidas de controle do risco elétrico. O relé falta de fase não é uma medida de controle especificada na norma para o risco elétrico em geral."
+    },
+    {
+        "id": "3068747",
+        "enunciado": "Leia as afirmativas a seguir:O cancelamento da naturalização por sentença transitada em julgado nunca causa a perda de direitos políticos no Brasil.O conceito de agente de risco físico contempla as diversas formas de energia a que possam estar expostos os trabalhadores, tais como ruído e calor, durante o exercício da sua profissão.O conceito de pro atividade, no atendimento ao público, refere-se à habilidade de escrever de acordo com a norma culta da língua.Marque a alternativa CORRETA:",
+        "alternativas": {
+            "A": "Nenhuma afirmativa está correta.",
+            "B": "Está correta a afirmativa I, apenas.",
+            "C": "Está correta a afirmativa II, apenas.",
+            "D": "Está correta a afirmativa III, apenas.",
+            "E": "Todas as afirmativas estão corretas."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A afirmativa II esta correta, pois o conceito de agente de risco físico abrange diversas formas de energia a que trabalhadores podem estar expostos. A afirmativa I esta incorreta, pois o cancelamento da naturalização pode causar perda de direitos políticos. A afirmativa III esta incorreta, pois proatividade no atendimento envolve antecipar necessidades, não apenas escrever bem."
+    },
+    {
+        "id": "3071203",
+        "enunciado": "É considerada medição indireta de energia na unidade consumidora aquela que:",
+        "alternativas": {
+            "A": "É realizada por a mostragem.",
+            "B": "Registra apenas a energia ativa consumida.",
+            "C": "Não registra a demanda, apenas o consumo de energia.",
+            "D": "Utiliza transformador de corrente (TC) para reduzir o nível de corrente da instalação.",
+            "E": "Registra os valores consumidos de acordo com o horário ao longo do dia."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A medição indireta de energia na unidade consumidora é aquela que se utiliza de instrumentos como transformadores de potencial (TP) e/ou transformadores de corrente (TC) para adequar os altos níveis de tensão e corrente aos medidores. O uso de TC é citado na alternativa D."
+    },
+    {
+        "id": "3053194",
+        "enunciado": "O corpo humano começa a perceber a passagem da corrente elétrica somente se essa estiver acima de certa intensidade. Então, qual a intensidade de corrente elétrica pode levar uma pessoa a óbito:",
+        "alternativas": {
+            "A": "Entre 1 mA e 10mA",
+            "B": "Entre 10 mA e 3A",
+            "C": "Entre 0,1 mA e 1A",
+            "D": "Entre 0,3 mA e 10mA"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A passagem de corrente elétrica pelo corpo humano pode ser fatal dependendo da intensidade e do tempo de exposição. Correntes entre 10 mA e 3A são consideradas perigosas e podem levar a fibrilação ventricular, parada cardíaca e óbito."
+    },
+    {
+        "id": "3054633",
+        "enunciado": "As emendas de fios devem ser bem feitas, para evitar que se aqueçam ou se soltem. Depois de emendá-los, proteja-os com:",
+        "alternativas": {
+            "A": "Fita de plástico clínico.",
+            "B": "Fita isolante.",
+            "C": "Fita cetim.",
+            "D": "Fita de metais.",
+            "E": "Fita gorgurão."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A fita isolante é o material correto para isolar e proteger emendas de fios elétricos, prevenindo aquecimento e soltura. As outras opções não possuem as propriedades adequadas para essa finalidade."
+    },
+    {
+        "id": "3061960",
+        "enunciado": "As cores da capa dos fios condutores numa instalação elétrica predial representam a sua função dentro dos circuitos. Assim, é CORRETO afirmar que as cores dos condutores neutro, terra e retorno são respectivamente:",
+        "alternativas": {
+            "A": "branco, amarelo e azul.",
+            "B": "azul, verde e amarelo.",
+            "C": "azul, preto e amarelo.",
+            "D": "preto, vermelho e branco"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Na instalação elétrica, o condutor neutro geralmente é azul, o condutor de proteção (terra) é verde e o retorno (fase) pode ser de outras cores como amarelo, vermelho ou preto, dependendo da norma e do projeto."
+    },
+    {
+        "id": "3053195",
+        "enunciado": "Existem diferentes tipos de para-raios. Os mais utilizados no Brasil é o de Franklin, composto por uma haste metálica onde ficam os captadores e um cabo de condução que vai até o solo e a energia da descarga elétrica é:",
+        "alternativas": {
+            "A": "Isolada por meio de isolamento.",
+            "B": "Conservada por meio de capacitores.",
+            "C": "Dissipada por meio de aterramento.",
+            "D": "Conservada por meio de baterias eletrolíticas"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O para-raios de Franklin tem a função de conduzir a energia da descarga elétrica atmosférica para o solo, evitando danos à estrutura. Isso é feito através do aterramento."
+    },
+    {
+        "id": "3054634",
+        "enunciado": "Responda (V) para verdadeiro ou (F) para falso, tendo em vista os fusíveis:(__)- Fusíveis são dispositivos de proteção contra sobrecarga ou curto-circuito na instalação elétrica. Quando um fusível derreter ou fundir, desligue a chave e troque-o por um novo, de igual amperagem;(__)- Substitua fusíveis por moedas, arames, fios de cobre ou qualquer outro objeto do tipo. Isso elimina o principal dispositivo de segurança contra a queima de equipamentos e lâmpadas;(__)- Não se deve instalar interruptor, fusível ou qualquer outro dispositivo no fio neutro.A sequência CORRETA corresponde a:",
+        "alternativas": {
+            "A": "V-V-F.",
+            "B": "V-F-V.",
+            "C": "F-F-V.",
+            "D": "V-F-F.",
+            "E": "F-V-F."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A primeira afirmativa é verdadeira, pois fusíveis são protetores elétricos. A segunda é falsa, pois substituir fusíveis por materiais inadequados é perigoso. A terceira é verdadeira, pois o neutro não deve ter dispositivos de interrupção."
+    },
+    {
+        "id": "3061961",
+        "enunciado": "Está previsto na NBR-5410, a norma de instalações elétricas prediais, o uso do dispositivo DR (diferencial residual). Assim, é CORRETO afirmar que a função deste elemento é:",
+        "alternativas": {
+            "A": "proteger os equipamentos contra sobrecargas.",
+            "B": "proteger os equipamentos contra descargas atmosféricas.",
+            "C": "proteger as pessoas contra descargas atmosféricas.",
+            "D": "proteger as pessoas contra choques elétricos."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O dispositivo DR (Diferencial Residual) tem como principal função a proteção das pessoas contra choques elétricos, detectando pequenas fugas de corrente e interrompendo o circuito rapidamente."
+    },
+    {
+        "id": "3071204",
+        "enunciado": "Quanto à validade da Permissão de Trabalho previamente emitida para autorizar atividades em altura não rotineiras, a NR 35 (Trabalho em altura) prevê:É limitada à duração da atividade.Deve ser restrita ao turno de trabalho.Não pode ser revalidada.Quais estão corretas?",
+        "alternativas": {
+            "A": "Apenas I.",
+            "B": "Apenas I e II.",
+            "C": "Apenas I e III.",
+            "D": "Apenas II e III.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3053196",
+        "enunciado": "Ao partir um imã em forma de uma barra retangularem quatro pedaços, obteremos:",
+        "alternativas": {
+            "A": "Quatro imãs, cada um com seu polo norte e sul.",
+            "B": "Quatro imãs, com apenas os dois polos, o norte e sulda barra original.",
+            "C": "Quatro imãs, dois com polo norte e dois com polo sul.",
+            "D": "Quatro imãs, desmagnetizados."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Um imã, quando partido, gera novos imãs com seus proprios polos norte e sul. Isso ocorre devido a propriedade do magnetismo, onde cada pedaco de material magnetizado, ao ser separado, tera seus proximos polos norte e sul, independentemente do tamanho."
+    },
+    {
+        "id": "3054635",
+        "enunciado": "Sobre a abertura das vias aéreas em casos de parada cardiorrespiratória (PCR) responda verdadeiro (V) ou falso (F) eassinale a alternativa que traz a sequência CORRETA.(__) Em caso de vítima de PCR clínica, não fazer a hiperextensão do pescoço da vítima;(__) Em caso de vítima de PCR pós-trauma, fazer a hiperextensão do pescoço da vítima para posicionamento;(__) Para hiperextensão do pescoço deve-se colocar uma das mãos sobre a testa da vítima e a outra com as pontas dos dedos na mandíbula; A mão que estiver espalmada na testa será a responsável pela maior parte da força, apenas para apoio e direção.",
+        "alternativas": {
+            "A": "V/V/F.",
+            "B": "V/F/F.",
+            "C": "F/V/F.",
+            "D": "F/F/V.",
+            "E": "F/V/V."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3071205",
+        "enunciado": "De acordo com o previsto na NR 10 (Segurança em instalações e serviços em eletricidade), as medidas de proteção coletiva, durante a execução de trabalhos em instalações elétricas, compreendem:Desenergização elétrica da instalação.Proibição do uso de adornos pessoais.Proibição da execução individual dos serviços.Quais estão corretas?",
+        "alternativas": {
+            "A": "Apenas I.",
+            "B": "Apenas I e II.",
+            "C": "Apenas I e III.",
+            "D": "Apenas II e III.",
+            "E": "I, II e III."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Das medidas apresentadas, apenas a desenergização elétrica da instalação é considerada uma medida de proteção coletiva pela NR 10. A proibição de adornos e a proibição de execução individual são medidas de proteção individual (EPIs) ou de organização do trabalho."
+    },
+    {
+        "id": "3053197",
+        "enunciado": "As baterias funcionam como uma pilha convencional, ou seja, dentro do dispositivo ocorre:",
+        "alternativas": {
+            "A": "Eletrização por meio de indução, obtendo assim, aenergia elétrica.",
+            "B": "A ação de um campo magnético, gerando a produção de corrente elétrica.",
+            "C": "Uma força eletromagnética induzida, produzindo a corrente elétrica.",
+            "D": "Uma reação de oxidação e outra de redução, o que gera produção de corrente elétrica."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Baterias, assim como pilhas, convertem energia química em energia elétrica através de reações redox. Uma reação de oxidação em um eletrodo e uma reação de redução no outro criam a diferença de potencial (tensão) que impulsiona a corrente elétrica."
+    },
+    {
+        "id": "3071206",
+        "enunciado": "Para evitar que uma linha de distribuição aérea fique fora de operação após um defeito transitório, como o causado por um contato de galho de árvore devido ao vento, utiliza-se a(o):",
+        "alternativas": {
+            "A": "Seccionalizador.",
+            "B": "Relé diferencial (F.87).",
+            "C": "Relé Buchholz (F.63).",
+            "D": "Chave seccionadora fusível.",
+            "E": "Relé religador (F.79)."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O relé religador (F.79) atua automaticamente em curtos-circuitos transitórios, como o de galhos em linhas aéreas, reabrindo o circuito momentaneamente e religando-o se a falta for eliminada, restaurando a operação."
+    },
+    {
+        "id": "3053198",
+        "enunciado": "Entre as resistências de um condutor e suas dimensões existem as duas relações seguintes. Uma delas é:",
+        "alternativas": {
+            "A": "A resistência elétrica de um condutor homogêneo é sempre igual ao dobro do seu comprimento.",
+            "B": "A resistência elétrica de um condutor homogêneo é proporcional a densidade do seu material.",
+            "C": "A resistência elétrica de um condutor homogêneo é menor ou maior de acordo com a sua temperatura.",
+            "D": "A resistência elétrica de um condutor homogêneo é inversamente proporcional à área de sua secção transversal"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A resistência elétrica (R) de um condutor é dada por R = ρL/A, onde ρ é a resistividade, L é o comprimento e A é a área da secção transversal. A alternativa D expressa corretamente que R é inversamente proporcional à área."
+    },
+    {
+        "id": "3054636",
+        "enunciado": "É importante ressaltar que as queimaduras provocam edema, por conta dessa condição, é necessário:",
+        "alternativas": {
+            "A": "Retirar as roupas após apagar as chamas.",
+            "B": "Hidratar a vítima rapidamente.",
+            "C": "Não retirar as roupas queimadas.",
+            "D": "Retirar rapidamente acessórios como pulseiras e relógios.",
+            "E": "Colocar a parte queimada debaixo da água Corrente fria, em jato suave, por aproximadamente, 10 (dez) minutos."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em queimaduras, o edema é comum. A rápida retirada de acessórios como anéis, pulseiras e relógios é crucial para evitar que o inchaço dificulte sua remoção posterior e cause mais danos."
+    },
+    {
+        "id": "3056931",
+        "enunciado": "Assinale a alternativa que contém o valor mais próximo (em módulo) da reatância capacitiva para um capacitor de 1 μF inserido em um circuito com frequência de60 hertz.Dado: considere π = 3.",
+        "alternativas": {
+            "A": "10 mΩ.",
+            "B": "360 μΩ.",
+            "C": "100 kΩ.",
+            "D": "2,7 kΩ.",
+            "E": "16,6 kΩ."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A reatância capacitiva (Xc) é dada por Xc = 1 / (2 * π * f * C). Com f = 60 Hz e C = 1 μF = 10^-6 F, e π = 3, Xc = 1 / (2 * 3 * 60 * 10^-6) = 1 / (360 * 10^-5) = 10^5 / 360 = 100000 / 360 ≈ 277,78 Ω. Em kΩ, isso é 0,277 kΩ. A alternativa mais próxima é 2,7 kΩ. Vamos refazer: Xc = 1 / (2 * pi * f * C). Xc = 1 / (2 * 3.14159 * 60 * 1e-6) ≈ 1 / (3.7699 * 1e-4) ≈ 2652.58 Ohms, ou 2.65 kOhms. Usando pi=3: Xc = 1 / (2 * 3 * 60 * 1e-6) = 1 / (360 * 1e-5) = 1 / 0.0036 = 277.78 Ohms. A alternativa D é 2.7 kOhms = 2700 Ohms. A alternativa com pi=3 está errada.  Se pi é 3,14, Xc = 1/(2*3,14*60*10^-6) = 1/(376,8*10^-6) = 2653 Ohms = 2,65kOhms. Logo, D é a mais próxima.  Porém, se considerarmos pi=3, o cálculo está mais próximo de 277,78 ohms.  Algo está muito estranho.  Se a resposta for E (16,6kΩ), o valor seria 16600 Ohms.  Vamos recalcular com a fórmula e testar cada alternativa para ver qual resulta em 1μF e 60Hz.  Xc = 1 / (2 * pi * f * C).  Xc = 1 / (2 * pi * 60 * 1 * 10^-6).  Usando pi ≈ 3.14159, Xc ≈ 2652.58 ..."
+    },
+    {
+        "id": "3061962",
+        "enunciado": "Um motor trifásico, de 50 CV e 1760 rpm aciona uma bomba de 50 CV através de seu eixo. Um eletricista ao ligar o motor percebeu que o eixo gira na velocidade nominal e faz a bomba funcionar, porém a água não sobe pela tubulação de recalque. Entre as alternativas abaixo é CORRETO afirmar que a água não é bombeada por quê?",
+        "alternativas": {
+            "A": "A sequência de fase do motor está invertida.",
+            "B": "O motor não tem potência para acionar a bomba.",
+            "C": "O rotor da bomba não gira.",
+            "D": "A velocidade do motor não é suficiente."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Se o motor funciona na velocidade nominal, mas a água não sobe, o problema não é a potência do motor nem sua velocidade insuficiente. O rotor da bomba girando é implícito pelo funcionamento. A inversão da sequência de fase em um motor trifásico resulta na inversão do sentido de rotação, o que pode impedir o bombeamento de água se a bomba for sensível à direção."
+    },
+    {
+        "id": "3071207",
+        "enunciado": "De acordo com a Resolução Normativa nº 414/2010 da ANEEL, que estabelece as condições gerais de fornecimento de energia elétrica, a modalidade tarifária Convencional Monômia é aplicada às unidades consumidoras de qual grupo e composta por qual tarifa respectivamente?",
+        "alternativas": {
+            "A": "A – Tarifas de consumo de energia elétrica e demanda de potência, independente das horas de utilização do dia.",
+            "B": "B – Tarifas de consumo de energia elétrica, independente das horas de utilização do dia.",
+            "C": "A – Tarifas diferenciadas de consumo de energia elétrica e demanda de potência, de acordo comas horas de utilização do dia.",
+            "D": "B – Tarifas de consumo de energia elétrica e demanda de potência, independente das horas de utilização do dia.",
+            "E": "A – Tarifas diferenciadas de consumo de energia elétrica de acordo com as horas de utilização do dia e uma única tarifa de demanda de potência."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A modalidade tarifária Convencional Monômia, conforme a RN 414/2010 da ANEEL, é aplicada ao Grupo B e utiliza uma tarifa única para o consumo de energia elétrica, independentemente do horário de uso."
+    },
+    {
+        "id": "3056932",
+        "enunciado": "Assinale a alternativa contendo a informação que preenche corretamente a lacuna do texto a seguir.Os____________________ são equipamentos para chaveamento e proteção, utilizados em redes de distribuição, que funcionam por meio do sensoriamento e interrupção automática. Eles detectam sob recorrentes, interrompem as correntes de falta e reenergizam a rede automaticamente. Caso a falta seja permanente, o equipamento irá abrir e manter o circuito aberto após um pré-determinado número de operações (normalmente três ou quatro).",
+        "alternativas": {
+            "A": "fusíveis",
+            "B": "reestruturadores",
+            "C": "bancos de interruptores",
+            "D": "reguladores",
+            "E": "religadores"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075894",
+        "enunciado": "Juntamente com o processador e os dispositivos de memória, os módulos de entrada e saída (E/S) também são um elemento-chave de um microcomputador digital. Dispositivos de armazenamento de massa de dados, como discos rígidos magnéticos, discos ópticos e de estado sólido, são acessados através de módulos de E/S.A interface serial com unidades de disco, amplamente utilizada nos microcomputadores, capaz de atingir taxas de transferência de até 6,0 Gbps, é:",
+        "alternativas": {
+            "A": "Modbus",
+            "B": "Fieldbus",
+            "C": "PCI",
+            "D": "BIOS",
+            "E": "SATA"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O SATA (Serial ATA) é uma interface de comunicação em série que conecta dispositivos de armazenamento como HDs e SSDs ao computador, conhecida por suas altas taxas de transferência de dados, que podem atingir 6,0 Gbps e superiores."
+    },
+    {
+        "id": "3056933",
+        "enunciado": "Assinale a alternativa contendo a informação que preenche corretamente a lacuna do texto a seguir.Os_____________ são dispositivos automáticos que separam e eliminam o condensado formado nas tubulações e nos aparelhos de aquecimento.",
+        "alternativas": {
+            "A": "eliminadores de saturados",
+            "B": "acumuladores de condensados",
+            "C": "purgadores de vapor",
+            "D": "escoadores de condensados",
+            "E": "acumuladores de saturação"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Purgadores de vapor são dispositivos automáticos projetados para remover condensado e ar de sistemas de vapor sem permitir a fuga de vapor, garantindo a eficiência do aquecimento."
+    },
+    {
+        "id": "3056934",
+        "enunciado": "Em relação ao uso de equipamentos de proteção individual, é responsabilidade do trabalhador",
+        "alternativas": {
+            "A": "comunicar ao MTE qualquer irregularidade observada.",
+            "B": "substituir imediatamente, quando danificado ou extraviado.",
+            "C": "responsabilizar-se pela higienização e manutenção periódica.",
+            "D": "responsabilizar-se pela guarda e conservação.",
+            "E": "adquirir o adequado ao risco de cada atividade."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A Norma Regulamentadora (NR) 6 estabelece que é responsabilidade do trabalhador usar o EPI apenas para a finalidade a que se destina, zelar pela sua guarda e conservação e comunicar ao empregador qualquer alteração que o torne impróprio para uso."
+    },
+    {
+        "id": "3075895",
+        "enunciado": "O armazenamento de dados em um microcomputador digital é normalmente organizado em diferentes níveis de hierarquia de memória, com o objetivo de obter o melhor compromisso entre três principais parâmetros de desempenho: capacidade de armazenamento, custo por bit da memória e velocidade de acesso.Nos diferentes níveis de hierarquia de memória, observa-se que",
+        "alternativas": {
+            "A": "o custo por bit armazenado é maior nos dispositivos de armazenamento com maior capacidade e maior velocidade de acesso, como no sistema RAID, do que em memórias do tipo cache.",
+            "B": "o sistema RAID permite aumentar a velocidade de acesso aos dados armazenados na memória principal do tipo DRAM.",
+            "C": "o custo por bit em dispositivos de armazenamento de alta capacidade, como no sistema RAID, é maior do que em dispositivos de menor capacidade, como as memórias principais do tipo DRAM.",
+            "D": "os dispositivos de armazenamento externo, como cache, discos magnéticos e ópticos somente são acessados pelo microprocessador através de dispositivos de entrada e saída (E/S) e, portanto, apresentam baixa velocidade de acesso.",
+            "E": "as memórias cache do tipo SRAM apresentam maior velocidade de acesso do que uma memória principal do tipo DRAM, mas possuem maior custo por bit."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A hierarquia de memória é organizada por velocidade e custo. Memórias SRAM (cache) são mais rápidas e caras que DRAM (memória principal). Dispositivos de armazenamento de massa (HDs, SSDs) são mais lentos e baratos. Essa relação é fundamental na organização recursiva de velocidade e custo por bit nessas camadas."
+    },
+    {
+        "id": "3056935",
+        "enunciado": "Quando um profissional termina uma atividade em uma instalação elétrica de energizada e retira todas as ferramentas, utensílios e equipamentos, qual deve ser o próximo procedimento adotado antes da reenergização do sistema?",
+        "alternativas": {
+            "A": "Remoção da sinalização de impedimento de reenergização.",
+            "B": "Destravamento, se houver, e religação dos dispositivos de seccionamento.",
+            "C": "Retirada da zona controlada de todos os trabalhadores não envolvidos no processo de reenergização.",
+            "D": "Remoção do aterramento temporário, da equipotencialização e das proteções adicionais.",
+            "E": "Remoção da sinalização de energização"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075896",
+        "enunciado": "Em sistemas de telefonia fixa com comutação por circuitos, a comutação digital é realizada utilizando-se a técnica",
+        "alternativas": {
+            "A": "FDM (Frequency Division Multiplexing)",
+            "B": "TDM (Time Division Multiplexing)",
+            "C": "CDM (Code Division Multiplexing)",
+            "D": "WDM (Wavelength Division Multiplexing)",
+            "E": "OFDM (Orthogonal Frequency Division Multiplexing)"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em sistemas de telefonia fixa com comutação por circuitos, a comutação digital utiliza a técnica TDM (Time Division Multiplexing), que divide o tempo em slots para transmitir dados de múltiplos usuários em um mesmo canal."
+    },
+    {
+        "id": "3075897",
+        "enunciado": "Um sistema elétrico equilibrado na configuração Estrela é composto por uma fonte e uma carga. A sequência defases é ACB, e o ângulo da fase B da fonte é igual a zero.Sabendo-se que o fator de potência da carga é iguala 0,866 capacitivo, o ângulo da corrente de linha da fase A é igual a",
+        "alternativas": {
+            "A": "30o",
+            "B": "45o",
+            "C": "90o",
+            "D": "130o",
+            "E": "150"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075898",
+        "enunciado": "Considere um transformador trifásico de 1,0 MVA, com tensão de linha de 500 kV no primário, 10 kV no secundário e com reatância de 0,1 p.u.A reatância no lado de baixa, em ohms, é igual a",
+        "alternativas": {
+            "A": "5",
+            "B": "10",
+            "C": "25",
+            "D": "40",
+            "E": "50"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075899",
+        "enunciado": "Uma instalação elétrica industrial solicita uma potência aparente de 2.500 kVA com fator de potência igual a 0,7, perfazendo, assim, uma demanda máxima.Sabendo-se que a demanda média da indústria é de1.540 kW, o fator de carga dessa instalação é igual a",
+        "alternativas": {
+            "A": "0,96",
+            "B": "0,92",
+            "C": "0,88",
+            "D": "0,80",
+            "E": "0,78"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075900",
+        "enunciado": "Um material condutor, cujo coeficiente de temperatura a 20 ºC é de 0,004, apresenta nessa condição uma resistência elétrica de 5 ohms.Quando esse material for submetido a uma temperatura de 70 ºC, o valor de sua resistência elétrica, em ohms, será de",
+        "alternativas": {
+            "A": "3,2",
+            "B": "4,0",
+            "C": "6,0",
+            "D": "6,8",
+            "E": "7,2"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075901",
+        "enunciado": "Um dielétrico, quando sujeito à ação de um campo elétrico externo, apresenta a polarização de suas partículas elementares.Em um dielétrico líquido não polar, submetido a um campo elétrico externo, apenas é admissível a existência da polarização",
+        "alternativas": {
+            "A": "eletrônica",
+            "B": "iônica",
+            "C": "dipolar",
+            "D": "estrutural",
+            "E": "espontânea"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Em um dielétrico líquido não polar, a polarização sob um campo elétrico externo ocorre predominantemente pela distorção da nuvem eletrônica dos átomos, o que configura a polarização eletrônica. Já a polarização dipolar exige dipolos permanentes pré-existentes."
+    },
+    {
+        "id": "3075903",
+        "enunciado": "Uma subestação industrial, alimentada com tensão de linha de 13,8 kV, utiliza para a medição de tarifação um transformador de potencial (TP) de 13800/115 V, que introduz um erro de relação de -0,2%.Quando um voltímetro ideal, conectado no secundário do TP, indica uma tensão de 114 V, o valor verdadeiro da tensão no primário do TP, em volts, é",
+        "alternativas": {
+            "A": "13.543,20",
+            "B": "13.652,64",
+            "C": "13.680,00",
+            "D": "13.707,36",
+            "E": "13.726,84"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075904",
+        "enunciado": "Uma função do disjuntor (número funcional 52) é interromper as correntes de defeito de um dado circuito do sistema elétrico, durante o menor espaço de tempo possível. Para tanto, os disjuntores são providos de meios para a interrupção do arco elétrico, sendo classificados de acordo com esse meio de extinção ou da tecnologia empregada.Um exemplo é o disjuntor a",
+        "alternativas": {
+            "A": "CO",
+            "B": "CO2",
+            "C": "SiC",
+            "D": "SF6",
+            "E": "ZnO"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075905",
+        "enunciado": "O relé de distância (número funcional 21) opera quando a medida dos parâmetros de impedância série do circuito protegido é inferior aos limites predeterminados (ou ajustados).Sendo assim, esse relé pode ser aplicado para proteção",
+        "alternativas": {
+            "A": "de correntes desbalanceadas no estator do gerador",
+            "B": "de sobre tensão no neutro do gerador",
+            "C": "de Perda de Sincronismo (PPS)",
+            "D": "para detecção de formação gás em tranformador",
+            "E": "contra sobre temperatura do enrolamento do transformador"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O relé de distância (funcional 21) mede a impedância da linha protegida. Sua característica principal é atuar quando essa impedância cai abaixo de um valor ajustado, o que ocorre em faltas (curto-circuitos). A Perda de Sincronismo (PPS) é uma condição em que a máquina síncrona perde sua sincronia com o sistema, caracterizada por um rápido aumento na impedância vista pelo relé, permitindo a sua atuação correta nessa proteção."
+    },
+    {
+        "id": "3075906",
+        "enunciado": "O acionamento de motores pode ocasionar redução na tensão da rede devido à alta corrente de partida (ou corrente de inrush).Esse problema de queda na tensão pode ser mitigado, se for utilizado o seguinte dispositivo que auxilia a partida de motores:",
+        "alternativas": {
+            "A": "limitador de sobre excitação",
+            "B": "limitador de subexcitação",
+            "C": "transformador defasador",
+            "D": "banco de capacitor",
+            "E": "autotransformador"
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "O autotransformador é utilizado para reduzir a corrente de partida de motores de indução, aplicando uma tensão menor no início e aumentando-a gradualmente conforme o motor acelera, mitigando assim a queda de tensão na rede."
+    },
+    {
+        "id": "3075907",
+        "enunciado": "Uma linha de produção é composta por quatro motores de indução monofásicos, operando em condições nominais. Cada motor tem potência nominal de 2 cv e fator de potência nominal de 0,8. A potência medida na saída do ramal que alimenta os motores é 10 kVA.Adotando-se 1 cv igual a 750 W, o valor do rendimento, em %, da linha de produção é",
+        "alternativas": {
+            "A": "68",
+            "B": "70",
+            "C": "75",
+            "D": "80",
+            "E": "84"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075908",
+        "enunciado": "Um motor de indução trifásico bobinado, com rotor ligado em estrela, possui escorregamento de 4% em suas condições nominais. Sua resistência do rotor por fase é 0,2 ῼ. Mantendo-se a tensão terminal e o torque de saída do motor constantes, o valor da resistência, em ῼ, que deverá ser adicionada ao circuito do rotor, de modo que o escorregamento seja de 10%, é",
+        "alternativas": {
+            "A": "0,1",
+            "B": "0,3",
+            "C": "0,5",
+            "D": "0,8",
+            "E": "0,9"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Sem comentário"
+    },
+    {
+        "id": "3075909",
+        "enunciado": "Um transformador monofásico de 1 kVA, 1000/100 V, é ligado como autotransformador elevador 1000/1100 V.Considerando-se que, nessa configuração, as correntes nominais das bobinas sejam mantidas, a razão entre a potência transferida por condução e a potência transferida pelo circuito magnético no autotransformador é",
+        "alternativas": {
+            "A": "1/11",
+            "B": "1/10",
+            "C": "1",
+            "D": "10",
+            "E": "11"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sem comentário"
+    }
+]

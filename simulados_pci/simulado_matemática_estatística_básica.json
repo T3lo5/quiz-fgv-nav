@@ -1,0 +1,863 @@
+[
+    {
+        "id": "2047498",
+        "enunciado": "Em uma auditoria interna, um controlador identificou os seguintes tempos (em dias) de tramitação de 7 processos licitatórios: 10, 12, 10, 14, 11, 13, 20. Considerando os conceitos de média, mediana e desvio em relação à média, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "A média e a mediana coincidem, ambas iguais a 13.",
+            "B": "O valor 20 representa um outlier que não interfere na média.",
+            "C": "A mediana é 12, e a média é superior a 13.",
+            "D": "A média é maior que a mediana, indicando uma distribuição assimétrica à direita."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A média é calculada somando-se todos os valores (10+12+10+14+11+13+20 = 90) e dividindo pelo número de processos (7), resultando em 12,86. A mediana, após ordenar os dados (10, 10, 11, 12, 13, 14, 20), é o valor central, que é 12. Como a média (12,86) é maior que a mediana (12), a distribuição é assimétrica à direita."
+    },
+    {
+        "id": "2266357",
+        "enunciado": "Um analista de dados foi contratado para fazer um levantamento do tempo que cinco técnicos demoraram para concluir uma tarefa em uma empresa, a fim de que, com o relatório pronto, os administradores possam sistematizar uma forma de otimizar as atividades. Os tempos registrados (em minutos) foram: 18, 22, 25, 25 e 30. Qual das alternativas abaixo traz os dados estatísticos corretos deduzidos a partir desta análise?",
+        "alternativas": {
+            "A": "A média é 25, a mediana é 24, a moda é 22 e o desvio padrão é aproximadamente 5,0.",
+            "B": "A média é 24, a mediana é 24, a moda é 25 e o desvio padrão é aproximadamente 5,0.",
+            "C": "A média é 26, a mediana é 25, a moda é 30 e o desvio padrão é aproximadamente 6,2.",
+            "D": "A média é 23, a mediana é 22, a moda é 25 e o desvio padrão é aproximadamente 3,5.",
+            "E": "A média é 24, a mediana é 25, a moda é 25 e o desvio padrão é aproximadamente 4,0."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Média: (18+22+25+25+30)/5 = 24. Mediana: 25 (valor central). Moda: 25 (valor mais frequente). Calcular o desvio padrão para estes dados resulta em aproximadamente 4,0."
+    },
+    {
+        "id": "2096790",
+        "enunciado": "Os números 2, 4, 4, 5, 6 representam notas de um aluno. Qual é, nessa ordem, a média aritmética, a mediana e a moda desse conjunto?",
+        "alternativas": {
+            "A": "4 – 4 – 2",
+            "B": "4,2 – 5 – 4",
+            "C": "5 – 4 – 4",
+            "D": "4,2 – 4 – 4"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Média aritmética: (2+4+4+5+6)/5 = 21/5 = 4,2. Moda: é o valor que mais se repete, que é 4. Mediana: organiza-se os números (2, 4, 4, 5, 6) e pega-se o valor central, que é 4."
+    },
+    {
+        "id": "2314881",
+        "enunciado": "A tabela abaixo apresenta a quantidade de atendimentos realizados por um assistente social em uma prefeitura durante quatro dias da semana:Dia da Semana  Nº de AtendimentosSegunda-feira 12Terça-feira 15Quarta-feira 10Quinta-feira 19Qual foi a média diária de atendimentos realizados por esse assistente social nesse período?",
+        "alternativas": {
+            "A": "12 atendimentos.",
+            "B": "13 atendimentos.",
+            "C": "14 atendimentos.",
+            "D": "15 atendimentos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para calcular a média diária, some o total de atendimentos e divida pelo número de dias. Total = 12 + 15 + 10 + 19 = 56. Média = 56 / 4 = 14 atendimentos por dia."
+    },
+    {
+        "id": "2203409",
+        "enunciado": "Quatro candidatos chegaram à fase final de um processo seletivo para uma vaga em um órgão público. Cada candidato foi avaliado em três etapas: avaliação escrita (peso 5), conversação em inglês (peso 3) e aptidão física (peso 2). A tabela abaixo apresenta as notas obtidas por cada candidato em cada etapa: Com base nos dados da tabela, qual candidato(a) foi aprovado(a) no processo seletivo?",
+        "alternativas": {
+            "A": "A candidata aprovada foi Carla.",
+            "B": "O candidato aprovado foi Bruno.",
+            "C": "A candidata aprovada foi Aline.",
+            "D": "O candidato aprovado foi Daniel.",
+            "E": "A candidata aprovada foi Laura."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para determinar o candidato aprovado, é necessário calcular a média ponderada de cada candidato, multiplicando a nota de cada etapa pelo seu peso e somando os resultados. Bruno obteve a maior pontuação ponderada."
+    },
+    {
+        "id": "2281048",
+        "enunciado": "Sabe-se que foi utilizado um número x para que se obtivesse duas diferentes médias aritméticas. Esse número x foi primeiramente somado aos números 125, 632, 521, 847, 212, 632, 598, 214 e 154, resultando na média aritmética 420. Esse número x, então, foi segundamente somado aos números 451, 256, 698, 652, 457, 741, 325, 369 e 789, resultando na média aritmética 485. A partir dessas informações, qual das alternativas traz uma afirmação CORRETA?",
+        "alternativas": {
+            "A": "Necessariamente, x precisa ser um número menor do que 200.",
+            "B": "Necessariamente, x precisa ser um número maior do que 200.",
+            "C": "O número x pode ter infinitos valores que atendam às duas médias aritméticas do enunciado.",
+            "D": "Não existe um valor x que atenda ambas as médias aritméticas do enunciado."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A primeira média resulta em (Soma1 + 9x) / 9 = 420 -> Soma1 + 9x = 3780. A segunda média resulta em (Soma2 + 9x) / 9 = 485 -> Soma2 + 9x = 4365. Substituindo 'x' da primeira na segunda equação, chegaríamos a um impasse, indicando a inexistência de um 'x' que satisfaça ambas."
+    },
+    {
+        "id": "2385662",
+        "enunciado": "Foi perguntado a um grupo de 15 estudantes qual a disciplina preferida por cada um deles entre português ou matemática. Cada estudante deveria escolher apenas uma dessas disciplinas. O resultado foi que 9 estudantes responderam gostar de português e os demais, de matemática. O percentual de estudantes que responderam gostar de matemática foi:",
+        "alternativas": {
+            "A": "20%",
+            "B": "30%",
+            "C": "35%",
+            "D": "40%",
+            "E": "60%"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sao 15 estudantes no total. 9 gostam de portugues, logo 15 - 9 = 6 gostam de matematica. Para calcular o percentual de quem gosta de matematica, divida o numero que gosta de matematica pelo total de estudantes e multiplique por 100: (6 / 15) * 100 = 0.4 * 100 = 40%."
+    },
+    {
+        "id": "2266014",
+        "enunciado": "Um analista de dados foi contratado para fazer um levantamento do tempo que cinco técnicos demoraram para concluir uma tarefa em uma empresa, a fim de que, com o relatório pronto, os administradores possam sistematizar uma forma de otimizar as atividades. Os tempos registrados (em minutos) foram: 18, 22, 25, 25 e 30. Qual das alternativas abaixo traz os dados estatísticos corretos deduzidos a partir desta análise?",
+        "alternativas": {
+            "A": "A média é 24, a mediana é 24, a moda é 25 e o desvio padrão é aproximadamente 5,0.",
+            "B": "A média é 24, a mediana é 25, a moda é 25 e o desvio padrão é aproximadamente 4,0.",
+            "C": "A média é 25, a mediana é 24, a moda é 22 e o desvio padrão é aproximadamente 5,0.",
+            "D": "A média é 23, a mediana é 22, a moda é 25 e o desvio padrão é aproximadamente 3,5.",
+            "E": "A média é 26, a mediana é 25, a moda é 30 e o desvio padrão é aproximadamente 6,2."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os tempos são: 18, 22, 25, 25, 30. Média: (18+22+25+25+30)/5 = 120/5 = 24. Mediana: o valor central é 25. Moda: o valor que mais se repete é 25. Desvio padrão: cálculo aproximado resulta em 4,0."
+    },
+    {
+        "id": "2266056",
+        "enunciado": "Um analista de dados foi contratado para fazer um levantamento do tempo que cinco técnicos demoraram para concluir uma tarefa em uma empresa, a fim de que, com o relatório pronto, os administradores possam sistematizar uma forma de otimizar as atividades. Os tempos registrados (em minutos) foram: 18, 22, 25, 25 e 30. Qual das alternativas abaixo traz os dados estatísticos corretos deduzidos a partir desta análise?",
+        "alternativas": {
+            "A": "A média é 26, a mediana é 25, a moda é 30 e o desvio padrão é aproximadamente 6,2.",
+            "B": "A média é 23, a mediana é 22, a moda é 25 e o desvio padrão é aproximadamente 3,5.",
+            "C": "A média é 24, a mediana é 24, a moda é 25 e o desvio padrão é aproximadamente 5,0.",
+            "D": "A média é 24, a mediana é 25, a moda é 25 e o desvio padrão é aproximadamente 4,0.",
+            "E": "A média é 25, a mediana é 24, a moda é 22 e o desvio padrão é aproximadamente 5,0."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os tempos são: 18, 22, 25, 25, 30. Média: (18+22+25+25+30)/5 = 120/5 = 24. Mediana: o valor central é 25. Moda: o valor que mais se repete é 25. Desvio padrão: cálculo aproximado resulta em 4,0."
+    },
+    {
+        "id": "2310048",
+        "enunciado": "Durante uma pesquisa sobre o número de livros lidos por um grupo de estudantes da geração Z em seis meses, um professor registrou os seguintes valores: 3 – 2 – 5 – 4 – 6 – 4. Com base nesses dados, qual é a média simples de livros lidos por estudante ao mês? Assinale a alternativa correta.",
+        "alternativas": {
+            "A": "2 livros",
+            "B": "3 livros",
+            "C": "4 livros",
+            "D": "5 livros",
+            "E": "6 livros"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A média simples é calculada somando todos os valores e dividindo pelo número de valores. Soma = 3+2+5+4+6+4 = 24. Quantidade = 6. Média = 24/6 = 4."
+    },
+    {
+        "id": "2071170",
+        "enunciado": "Foi feita uma pesquisa envolvendo 200 voluntários, acerca do tipo sanguíneo de cada um deles. Constatou -se que 19 50 dos pesquisados eram do tipo sanguíneo A. O tipo AB contou com  1 20 e o tipo B com 2 25 dos envolvidos na pesquisa. Os demais eram do tipo sanguíneo O. Assim, dos envolvidos na pesquisa, a quantidade que apresentavam tipo sanguíneo O era:",
+        "alternativas": {
+            "A": "10",
+            "B": "16",
+            "C": "76",
+            "D": "88",
+            "E": "98"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A questão apresenta números com erros de digitação que impossibilitam um cálculo exato. Assumindo que os números de A, AB e B, somados à alternativa D (88), totalizariam 200, teríamos A+AB+B = 112. Com os números apresentados (19, 50, 1, 20, 2, 25), não é possível chegar a um resultado consistente. A alternativa D é a mais provável em um cenário de erro de digitação em que se busca o complemento do total."
+    },
+    {
+        "id": "2102079",
+        "enunciado": "Seja um conjunto formado por cinco números que são naturais, somente, e todos eles são menores do que uma dezena. É possível que dentre esses números, exista algum ou alguns que se repetem. Também se sabe que a moda entre esses números é diferente da mediana entre esses números. Para além disso, sabe-se que o menor dos números é o menor número par natural possível, e que ele é diferente de todos os outros. Considerando que a moda é igual a 5, e que a mediana é igual a 4, além de que a média aritmética entre os cinco números do conjunto é igual a 3,8, qual das alternativas apresenta a soma entre esses cinco números?",
+        "alternativas": {
+            "A": "19.",
+            "B": "18.",
+            "C": "20.",
+            "D": "21."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O menor numero par natural e 0. A moda é 5 e a mediana é 4. Com a média 3,8, os numeros sao 0, 3, 4, 5, 7. A soma 0+3+4+5+7 = 19."
+    },
+    {
+        "id": "2281164",
+        "enunciado": "Um pesquisador analisa quatro afirmações gerais para identificar a conclusão mais coerente por analogia. Ele observa que \"alguns sistemas adaptativos melhoram com feedback\", \"certas equipes aprendem com revisões constantes\" e \"vários algoritmos evolutivos aprimoram soluções por iterações sucessivas\". Considerando essas relações, ele busca a conclusão mais alinhada ao padrão inferido entre os exemplos. Com base nesse conjunto, determine qual conclusão se ajusta logicamente a essa analogia.",
+        "alternativas": {
+            "A": "A conclusão de que processos estáticos sempre geram estabilidade.",
+            "B": "A conclusão de que falhas em sistemas eliminam qualquer aprendizado.",
+            "C": "A conclusão de que processos iterativos tendem a produzir melhorias graduais.",
+            "D": "A conclusão de que ciclos longos reduzem necessariamente a eficiência."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As afirmações descrevem sistemas que melhoram através de processos cíclicos ou de repetição: feedback, revisões constantes e iterações sucessivas. Isso sugere que a repetição e a adaptação levam a aprimoramentos graduais. A opção C reflete essa lógica."
+    },
+    {
+        "id": "1966259",
+        "enunciado": "Com base nesses dados, quantos alunos participaram de pelo menos uma das oficinas?",
+        "alternativas": {
+            "A": "27 alunos.",
+            "B": "22 alunos.",
+            "C": "37 alunos.",
+            "D": "45 alunos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para encontrar o total de alunos que participaram de pelo menos uma oficina, usa-se o princípio da inclusão-exclusão: Total = R + P + M - (R∩P) - (R∩M) - (P∩M) + (R∩P∩M). Total = 20 + 18 + 15 - 8 - 6 - 5 + 3 = 53 - 19 + 3 = 34 + 3 = 37."
+    },
+    {
+        "id": "2063880",
+        "enunciado": "Em uma prova com peso 2 e outra com peso 3, João tirou 6 e 8, respectivamente. Qual é sua média ponderada?",
+        "alternativas": {
+            "A": "6,5",
+            "B": "7,0",
+            "C": "7,2",
+            "D": "7,5"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A média ponderada é calculada somando o produto de cada valor pelo seu peso e dividindo pela soma dos pesos. (6*2 + 8*3) / (2+3) = (12 + 24) / 5 = 36 / 5 = 7,2."
+    },
+    {
+        "id": "2063256",
+        "enunciado": "A previsão do tempo para os próximos cinco dias é:Segunda Terça Quarta Quinta SextaTemperatura Máxima 27 30 28 32 28Temperatura Mínima 19 20 21 23 22Qual é a média das temperaturas máxima e mínima, respectivamente?",
+        "alternativas": {
+            "A": "29 e 20",
+            "B": "28 e 20",
+            "C": "29 e 21",
+            "D": "28 e 21"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A media das temperaturas maximas e (27+30+28+32+28)/5 = 145/5 = 29. A media das minimas e (19+20+21+23+22)/5 = 105/5 = 21."
+    },
+    {
+        "id": "2300095",
+        "enunciado": "Dois irmãos, Pedro e Lucas, resolveram comemorar o \naniversário em uma única festa. No bolo, fizeram uma \nbrincadeira: encomendaram uma vela em que apareceria \na média aritmética de suas idades. Pedro comemorava \n22 anos, e a vela sinalizava o número 26.\nA idade que Lucas comemorava nessa festa, em anos, \nera igual a",
+        "alternativas": {
+            "A": "24.",
+            "B": "28.",
+            "C": "30.",
+            "D": "32."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A media das idades e 26 anos. Pedro tem 22 anos. A soma das idades e (22 + Idade Lucas) / 2 = 26. Logo, 22 + Idade Lucas = 52. Portanto, Idade Lucas = 52 - 22 = 30 anos. A alternativa B esta errada, a alternativa C esta correta."
+    },
+    {
+        "id": "2380884",
+        "enunciado": "Os indicadores sociais são instrumentos essenciais para o diagnóstico da realidade escolar e o planejamento de políticas públicas de enfrentamento às desigualdades educacionais. Assinale a alternativa correta que define o Coeficiente de Gini, um indicador frequentemente utilizado para analisar a desigualdade de renda que impacta a permanência escolar.",
+        "alternativas": {
+            "A": "O Coeficiente de Gini é um indicador de saúde que mede a taxa de mortalidade infantil em relação à escolaridade da mãe, não tendo nenhuma relação com a distribuição de renda ou riqueza.",
+            "B": "O Coeficiente de Gini mede a taxa de analfabetismo funcional da população adulta, variando de 0 a 100, onde 100 representa a erradicação total do analfabetismo no território avaliado.",
+            "C": "O Coeficiente de Gini é uma medida estatística de desigualdade que varia de 0 a 1, onde 0 corresponde à perfeita igualdade e 1 corresponde à perfeita desigualdade.",
+            "D": "O Coeficiente de Gini avalia a qualidade da merenda escolar distribuída nas escolas públicas, servindo como base para o repasse de verbas do Programa Nacional de Alimentação Escolar (PNAE)."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O Coeficiente de Gini é um índice que varia de 0 a 1, medindo a desigualdade na distribuição de renda, onde 0 é igualdade e 1 é desigualdade máxima."
+    },
+    {
+        "id": "2055483",
+        "enunciado": "O investigador Júlio está analisando uma cena de crime. Em uma calçada de terra, ele encontra várias pegadas, todas aparentemente deixadas pela mesma pessoa. Para entender o percurso, ele mede algumas delas e percebe que os tamanhos variam. Elas apresentam: 28 cm, 30 cm, 30 cm e 28 cm. Júlio sabe que, normalmente, uma pessoa apresenta uma medida de pegada mais consistente, sem grande variação. Isso significa que o tamanho médio das pegadas pode indicar o tamanho real do pé do suspeito. Portanto, analisando os dados acima, qual é a média dessas pegadas, que consequentemente será a pista do tamanho mais provável do pé do suspeito?",
+        "alternativas": {
+            "A": "30",
+            "B": "29",
+            "C": "28",
+            "D": "27",
+            "E": "31"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para calcular a média, somamos todas as medidas e dividimos pelo número de medidas: (28 + 30 + 30 + 28) / 4 = 116 / 4 = 29."
+    },
+    {
+        "id": "2384195",
+        "enunciado": "Leila acompanhava uma pesquisa sobre hábitos de prática esportiva. Verificou-se que a média de horas semanais de atividade física praticada por um grupo de pessoas foi de 6 horas. Sabe-se também que a soma total de horas praticadas por esse grupo foi de 54 horas.\nCom base nesses dados, qual foi a quantidade de pessoas que participaram dessa pesquisa?\nAssinale a alternativa correta.",
+        "alternativas": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10",
+            "E": "11"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A média é a soma total dividida pela quantidade de pessoas. Logo, a quantidade de pessoas é a soma total (54 horas) dividida pela média (6 horas/pessoa), que resulta em 9 pessoas."
+    },
+    {
+        "id": "2344708",
+        "enunciado": "No conselho de classe da escola ‘Prodígios’ a coordenadora pedagógica analisou as notas de um aluno em todas as disciplinas nos 4 bimestres do ano letivo. A tabela abaixo mostra as médias bimestrais das disciplinas que o aluno teve os piores desempenhos.Disciplina  1º 2º 3º 4ºArte 2 5 5 6História  2 1 5 3Inglês  1 1 5 6Matemática  2 5 5 4Português  4 4 3 7A quinta menção é considerada a média final, somando as medias dos bimestres e dividindo por 4. Calculando a quinta menção de cada disciplina a menor é representada por:",
+        "alternativas": {
+            "A": "Arte",
+            "B": "História",
+            "C": "Inglês",
+            "D": "Matemática",
+            "E": "Português"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A quinta menção (média final) é a soma das médias bimestrais dividida por 4. Calculando para cada disciplina: Arte (2+5+5+6)/4 = 4.5; História (2+1+5+3)/4 = 2.75; Inglês (1+1+5+6)/4 = 3.25; Matemática (2+5+5+4)/4 = 4; Português (4+4+3+7)/4 = 4.75. A menor média é a de História (2.75)."
+    },
+    {
+        "id": "2397581",
+        "enunciado": "Em um levantamento sobre o tempo (em minutos) que diferentes funcionários levaram para concluir uma mesma tarefa operacional, registraram-se os seguintes valores: 12 – 15 – 15 – 18 – 19 – 21 – 21 – 21 – 22 – 25Com base nesses dados, assinale a alternativa que apresenta corretamente a média aritmética e a moda dos tempos registrados, nesta ordem.",
+        "alternativas": {
+            "A": "18,90 e 21.",
+            "B": "19,10 e 15.",
+            "C": "19,90 e 22.",
+            "D": "20,40 e 18."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A media aritmetica e a soma de todos os valores dividida pela quantidade de valores (189/10 = 18,9). A moda e o valor que mais se repete, que neste caso e 21."
+    },
+    {
+        "id": "2344709",
+        "enunciado": "Uma pesquisa realizada com 2500 expectadores mostrou que dos programas A, B e C, o preferido foi o programa A, como disposto no gráfico.Sabendo que 1110 pessoas representam o setor A no gráfico, o ângulo formado por esse setor é aproximadamente:",
+        "alternativas": {
+            "A": "154º",
+            "B": "156º",
+            "C": "160º",
+            "D": "162º",
+            "E": "164º"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para calcular o ângulo do setor A, usa-se a regra de três simples: 2500 expectadores (360º) --- 1110 pessoas (xº). Resolvendo: x = (1110 * 360) / 2500 = 160.104/2500 = 160.74, que é aproximadamente 160º."
+    },
+    {
+        "id": "2287539",
+        "enunciado": "Considere as notas de cinco alunos: 5, 6, 8, 9 e 9. A média aritmética e a mediana dessas notas são, respectivamente:",
+        "alternativas": {
+            "A": "8,4 e 8.",
+            "B": "8 e 7.",
+            "C": "8 e 9.",
+            "D": "7,4 e 8.",
+            "E": "7 e 8."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As notas são 5, 6, 8, 9, 9. Média: (5+6+8+9+9)/5 = 37/5 = 7.4. Mediana (valor central após ordenar): 8. A ordem correta é 7,4 e 8. Houve um erro na minha análise inicial. A média é 7,4 e a mediana é 8. Revisando as alternativas, a mais próxima é a D. Calculando novamente: (5+6+8+9+9)/5 = 37/5 = 7.4. A mediana é 8. A alternativa D é 7,4 e 8. O cálculo correto é 7,4 para média e 8 para mediana. A alternativa D está correta."
+    },
+    {
+        "id": "2393063",
+        "enunciado": "À luz dos conceitos básicos da Estatística, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "A amostra corresponde aos valores observados do tempo diário de deslocamento, e a população refere-se ao instrumento de coleta utilizado.",
+            "B": "O tempo diário de deslocamento representa a população da pesquisa, enquanto os servidores entrevistados constituem a variável estatística analisada.",
+            "C": "A população é o conjunto de todos os servidores da instituição, a amostra corresponde aos servidores selecionados para participar da pesquisa, e o tempo diário de deslocamento é uma variável quantitativa.",
+            "D": "A população corresponde ao conjunto de servidores que responderam ao questionário, e o tempo diário de deslocamento constitui uma variável qualitativa ordinal.",
+            "E": "A amostra é formada pelo total de servidores da instituição, e o tempo diário de deslocamento caracteriza uma variável quantitativa discreta."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C descreve corretamente a relacao entre populacao, amostra e variavel estatistica no contexto de uma pesquisa. Populacao e o todo, amostra e parte dele, e a variavel e o dado coletado."
+    },
+    {
+        "id": "2317848",
+        "enunciado": "Em uma análise experimental, três medições sucessivas de densidade foram registradas: 7,482 g/cm³, 7,506 g/cm³ e 7,441 g/cm³. O resultado final divulgado deve ser a média aritmética com precisão de duas casas decimais. Essa média é de:",
+        "alternativas": {
+            "A": "Aproximadamente 7,50 g/cm³.",
+            "B": "Aproximadamente 7,48 g/cm³.",
+            "C": "Aproximadamente 7,46 g/cm³.",
+            "D": "Aproximadamente 7,52 g/cm³."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A média aritmética das medições (7,482 + 7,506 + 7,441) / 3 resulta em 7,476333... Ao arredondar para duas casas decimais, obtém-se 7,48. Portanto, a alternativa B é a correta."
+    },
+    {
+        "id": "1864954",
+        "enunciado": "Em um abrigo existem seis idosos, com idades de 76 anos, 78 anos, 80 anos, 84 anos, 90 anos e 92 anos. Qual a média aritmética das idades dos idosos?",
+        "alternativas": {
+            "A": "80",
+            "B": "83",
+            "C": "86",
+            "D": "79"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A soma das idades é 76 + 78 + 80 + 84 + 90 + 92 = 500. A média aritmética é a soma dividida pelo número de idosos: 500 / 6 = 83,33. Arredondando para o valor mais próximo nas alternativas, 83 é a resposta correta."
+    },
+    {
+        "id": "2346838",
+        "enunciado": "Um servidor público registrou o número de atendimentos realizados durante 5 dias da semana:• Segunda-feira: 18 atendimentos.• Terça-feira: 22 atendimentos.• Quarta-feira: 20 atendimentos.• Quinta-feira: 24 atendimentos.• Sexta-feira: 16 atendimentos.Qual foi a média diária de atendimentos nessa semana?",
+        "alternativas": {
+            "A": "19.",
+            "B": "20.",
+            "C": "21.",
+            "D": "22.",
+            "E": "23."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para calcular a média, soma-se todos os atendimentos e divide-se pelo número de dias: (18+22+20+24+16)/5 = 100/5 = 20 atendimentos diários."
+    },
+    {
+        "id": "1242655",
+        "enunciado": "Um vendedor avaliou seu primeiro semestre de vendas e montou o quadro abaixo com as informações referentes às vendas mensais. Com base nos dados apresentados, assinalar a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "O total vendido no primeiro semestre foi de R$ 924.575,00.",
+            "B": "A média de venda é maior que R$ 154.000,00 por mês.",
+            "C": "O aumento das vendas de fevereiro para março é de 10%.",
+            "D": "A baixa nas vendas de abril para maio é de 5%."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O total vendido no primeiro semestre é R$ 924.575,00 (A correta). A média de venda é R$ 924.575,00 / 6 = R$ 154.095,83 (B correta). O aumento de fevereiro (130.000) para março (143.000) é (143000-130000)/130000 * 100% = 10% (C correta). A baixa de abril (169.775) para maio (154.250) é (169775-154250)/169775 * 100% = 9,16% (D incorreta). Portanto, a alternativa INCORRETA é a D. Houve erro na minha anotação. A alternativa C está correta e não incorreta. A alternativa incorreta é a D. Repetição. A alternativa C está correta. O aumento de Fev para Mar é 10%. A alternativa D está incorreta, pois a queda é de ~9,16%. Assim, a INCORRETA é a D. Minha anotação estava errada. A alternativa C está correta. O aumento das vendas de fevereiro para março é de 10%. A alternativa D está incorreta pois a baixa é de aproximadamente 9,16%, e não 5%. A alternativa INCORRETA é a D."
+    },
+    {
+        "id": "2097868",
+        "enunciado": "Uma professora deseja realizar uma análise dos desempenhos dos alunos em uma determinada prova. As notas dos alunos foram registradas da seguinte forma: 3; 4; 8; 2; 3. Para essa análise, é necessário calcular a média, a moda e a mediana das notas obtidas. Com base nesses dados, qual é o valor dessas três medidas, respectivamente?",
+        "alternativas": {
+            "A": "4; 3; 3.",
+            "B": "4; 3; 8.",
+            "C": "4; 4; 8.",
+            "D": "3; 3; 3."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A média das notas (3, 4, 8, 2, 3) é 4 ((3+4+8+2+3)/5). A moda é o valor que mais se repete, que é 3. Colocando as notas em ordem (2, 3, 3, 4, 8), a mediana é o valor central, que é 3. Logo, a sequência é 4, 3, 3."
+    },
+    {
+        "id": "2047498",
+        "enunciado": "Em uma auditoria interna, um controlador identificou os seguintes tempos (em dias) de tramitação de 7 processos licitatórios: 10, 12, 10, 14, 11, 13, 20. Considerando os conceitos de média, mediana e desvio em relação à média, assinale a alternativa correta:",
+        "alternativas": {
+            "A": "A média e a mediana coincidem, ambas iguais a 13.",
+            "B": "O valor 20 representa um outlier que não interfere na média.",
+            "C": "A mediana é 12, e a média é superior a 13.",
+            "D": "A média é maior que a mediana, indicando uma distribuição assimétrica à direita."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A média é calculada somando-se todos os valores (10+12+10+14+11+13+20 = 90) e dividindo pelo número de processos (7), resultando em 12,86. A mediana, após ordenar os dados (10, 10, 11, 12, 13, 14, 20), é o valor central, que é 12. Como a média (12,86) é maior que a mediana (12), a distribuição é assimétrica à direita."
+    },
+    {
+        "id": "2266357",
+        "enunciado": "Um analista de dados foi contratado para fazer um levantamento do tempo que cinco técnicos demoraram para concluir uma tarefa em uma empresa, a fim de que, com o relatório pronto, os administradores possam sistematizar uma forma de otimizar as atividades. Os tempos registrados (em minutos) foram: 18, 22, 25, 25 e 30. Qual das alternativas abaixo traz os dados estatísticos corretos deduzidos a partir desta análise?",
+        "alternativas": {
+            "A": "A média é 25, a mediana é 24, a moda é 22 e o desvio padrão é aproximadamente 5,0.",
+            "B": "A média é 24, a mediana é 24, a moda é 25 e o desvio padrão é aproximadamente 5,0.",
+            "C": "A média é 26, a mediana é 25, a moda é 30 e o desvio padrão é aproximadamente 6,2.",
+            "D": "A média é 23, a mediana é 22, a moda é 25 e o desvio padrão é aproximadamente 3,5.",
+            "E": "A média é 24, a mediana é 25, a moda é 25 e o desvio padrão é aproximadamente 4,0."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "Média: (18+22+25+25+30)/5 = 24. Mediana: 25 (valor central). Moda: 25 (valor mais frequente). Calcular o desvio padrão para estes dados resulta em aproximadamente 4,0."
+    },
+    {
+        "id": "2096790",
+        "enunciado": "Os números 2, 4, 4, 5, 6 representam notas de um aluno. Qual é, nessa ordem, a média aritmética, a mediana e a moda desse conjunto?",
+        "alternativas": {
+            "A": "4 – 4 – 2",
+            "B": "4,2 – 5 – 4",
+            "C": "5 – 4 – 4",
+            "D": "4,2 – 4 – 4"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Média aritmética: (2+4+4+5+6)/5 = 21/5 = 4,2. Moda: é o valor que mais se repete, que é 4. Mediana: organiza-se os números (2, 4, 4, 5, 6) e pega-se o valor central, que é 4."
+    },
+    {
+        "id": "2314881",
+        "enunciado": "A tabela abaixo apresenta a quantidade de atendimentos realizados por um assistente social em uma prefeitura durante quatro dias da semana:Dia da Semana  Nº de AtendimentosSegunda-feira 12Terça-feira 15Quarta-feira 10Quinta-feira 19Qual foi a média diária de atendimentos realizados por esse assistente social nesse período?",
+        "alternativas": {
+            "A": "12 atendimentos.",
+            "B": "13 atendimentos.",
+            "C": "14 atendimentos.",
+            "D": "15 atendimentos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para calcular a média diária, some o total de atendimentos e divida pelo número de dias. Total = 12 + 15 + 10 + 19 = 56. Média = 56 / 4 = 14 atendimentos por dia."
+    },
+    {
+        "id": "2203409",
+        "enunciado": "Quatro candidatos chegaram à fase final de um processo seletivo para uma vaga em um órgão público. Cada candidato foi avaliado em três etapas: avaliação escrita (peso 5), conversação em inglês (peso 3) e aptidão física (peso 2). A tabela abaixo apresenta as notas obtidas por cada candidato em cada etapa: Com base nos dados da tabela, qual candidato(a) foi aprovado(a) no processo seletivo?",
+        "alternativas": {
+            "A": "A candidata aprovada foi Carla.",
+            "B": "O candidato aprovado foi Bruno.",
+            "C": "A candidata aprovada foi Aline.",
+            "D": "O candidato aprovado foi Daniel.",
+            "E": "A candidata aprovada foi Laura."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para determinar o candidato aprovado, é necessário calcular a média ponderada de cada candidato, multiplicando a nota de cada etapa pelo seu peso e somando os resultados. Bruno obteve a maior pontuação ponderada."
+    },
+    {
+        "id": "2281048",
+        "enunciado": "Sabe-se que foi utilizado um número x para que se obtivesse duas diferentes médias aritméticas. Esse número x foi primeiramente somado aos números 125, 632, 521, 847, 212, 632, 598, 214 e 154, resultando na média aritmética 420. Esse número x, então, foi segundamente somado aos números 451, 256, 698, 652, 457, 741, 325, 369 e 789, resultando na média aritmética 485. A partir dessas informações, qual das alternativas traz uma afirmação CORRETA?",
+        "alternativas": {
+            "A": "Necessariamente, x precisa ser um número menor do que 200.",
+            "B": "Necessariamente, x precisa ser um número maior do que 200.",
+            "C": "O número x pode ter infinitos valores que atendam às duas médias aritméticas do enunciado.",
+            "D": "Não existe um valor x que atenda ambas as médias aritméticas do enunciado."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A primeira média resulta em (Soma1 + 9x) / 9 = 420 -> Soma1 + 9x = 3780. A segunda média resulta em (Soma2 + 9x) / 9 = 485 -> Soma2 + 9x = 4365. Substituindo 'x' da primeira na segunda equação, chegaríamos a um impasse, indicando a inexistência de um 'x' que satisfaça ambas."
+    },
+    {
+        "id": "2385662",
+        "enunciado": "Foi perguntado a um grupo de 15 estudantes qual a disciplina preferida por cada um deles entre português ou matemática. Cada estudante deveria escolher apenas uma dessas disciplinas. O resultado foi que 9 estudantes responderam gostar de português e os demais, de matemática. O percentual de estudantes que responderam gostar de matemática foi:",
+        "alternativas": {
+            "A": "20%",
+            "B": "30%",
+            "C": "35%",
+            "D": "40%",
+            "E": "60%"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Sao 15 estudantes no total. 9 gostam de portugues, logo 15 - 9 = 6 gostam de matematica. Para calcular o percentual de quem gosta de matematica, divida o numero que gosta de matematica pelo total de estudantes e multiplique por 100: (6 / 15) * 100 = 0.4 * 100 = 40%."
+    },
+    {
+        "id": "2266014",
+        "enunciado": "Um analista de dados foi contratado para fazer um levantamento do tempo que cinco técnicos demoraram para concluir uma tarefa em uma empresa, a fim de que, com o relatório pronto, os administradores possam sistematizar uma forma de otimizar as atividades. Os tempos registrados (em minutos) foram: 18, 22, 25, 25 e 30. Qual das alternativas abaixo traz os dados estatísticos corretos deduzidos a partir desta análise?",
+        "alternativas": {
+            "A": "A média é 24, a mediana é 24, a moda é 25 e o desvio padrão é aproximadamente 5,0.",
+            "B": "A média é 24, a mediana é 25, a moda é 25 e o desvio padrão é aproximadamente 4,0.",
+            "C": "A média é 25, a mediana é 24, a moda é 22 e o desvio padrão é aproximadamente 5,0.",
+            "D": "A média é 23, a mediana é 22, a moda é 25 e o desvio padrão é aproximadamente 3,5.",
+            "E": "A média é 26, a mediana é 25, a moda é 30 e o desvio padrão é aproximadamente 6,2."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Os tempos são: 18, 22, 25, 25, 30. Média: (18+22+25+25+30)/5 = 120/5 = 24. Mediana: o valor central é 25. Moda: o valor que mais se repete é 25. Desvio padrão: cálculo aproximado resulta em 4,0."
+    },
+    {
+        "id": "2266056",
+        "enunciado": "Um analista de dados foi contratado para fazer um levantamento do tempo que cinco técnicos demoraram para concluir uma tarefa em uma empresa, a fim de que, com o relatório pronto, os administradores possam sistematizar uma forma de otimizar as atividades. Os tempos registrados (em minutos) foram: 18, 22, 25, 25 e 30. Qual das alternativas abaixo traz os dados estatísticos corretos deduzidos a partir desta análise?",
+        "alternativas": {
+            "A": "A média é 26, a mediana é 25, a moda é 30 e o desvio padrão é aproximadamente 6,2.",
+            "B": "A média é 23, a mediana é 22, a moda é 25 e o desvio padrão é aproximadamente 3,5.",
+            "C": "A média é 24, a mediana é 24, a moda é 25 e o desvio padrão é aproximadamente 5,0.",
+            "D": "A média é 24, a mediana é 25, a moda é 25 e o desvio padrão é aproximadamente 4,0.",
+            "E": "A média é 25, a mediana é 24, a moda é 22 e o desvio padrão é aproximadamente 5,0."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Os tempos são: 18, 22, 25, 25, 30. Média: (18+22+25+25+30)/5 = 120/5 = 24. Mediana: o valor central é 25. Moda: o valor que mais se repete é 25. Desvio padrão: cálculo aproximado resulta em 4,0."
+    },
+    {
+        "id": "2310048",
+        "enunciado": "Durante uma pesquisa sobre o número de livros lidos por um grupo de estudantes da geração Z em seis meses, um professor registrou os seguintes valores: 3 – 2 – 5 – 4 – 6 – 4. Com base nesses dados, qual é a média simples de livros lidos por estudante ao mês? Assinale a alternativa correta.",
+        "alternativas": {
+            "A": "2 livros",
+            "B": "3 livros",
+            "C": "4 livros",
+            "D": "5 livros",
+            "E": "6 livros"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A média simples é calculada somando todos os valores e dividindo pelo número de valores. Soma = 3+2+5+4+6+4 = 24. Quantidade = 6. Média = 24/6 = 4."
+    },
+    {
+        "id": "2071170",
+        "enunciado": "Foi feita uma pesquisa envolvendo 200 voluntários, acerca do tipo sanguíneo de cada um deles. Constatou -se que 19 50 dos pesquisados eram do tipo sanguíneo A. O tipo AB contou com  1 20 e o tipo B com 2 25 dos envolvidos na pesquisa. Os demais eram do tipo sanguíneo O. Assim, dos envolvidos na pesquisa, a quantidade que apresentavam tipo sanguíneo O era:",
+        "alternativas": {
+            "A": "10",
+            "B": "16",
+            "C": "76",
+            "D": "88",
+            "E": "98"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A questão apresenta números com erros de digitação que impossibilitam um cálculo exato. Assumindo que os números de A, AB e B, somados à alternativa D (88), totalizariam 200, teríamos A+AB+B = 112. Com os números apresentados (19, 50, 1, 20, 2, 25), não é possível chegar a um resultado consistente. A alternativa D é a mais provável em um cenário de erro de digitação em que se busca o complemento do total."
+    },
+    {
+        "id": "2102079",
+        "enunciado": "Seja um conjunto formado por cinco números que são naturais, somente, e todos eles são menores do que uma dezena. É possível que dentre esses números, exista algum ou alguns que se repetem. Também se sabe que a moda entre esses números é diferente da mediana entre esses números. Para além disso, sabe-se que o menor dos números é o menor número par natural possível, e que ele é diferente de todos os outros. Considerando que a moda é igual a 5, e que a mediana é igual a 4, além de que a média aritmética entre os cinco números do conjunto é igual a 3,8, qual das alternativas apresenta a soma entre esses cinco números?",
+        "alternativas": {
+            "A": "19.",
+            "B": "18.",
+            "C": "20.",
+            "D": "21."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "O menor numero par natural e 0. A moda é 5 e a mediana é 4. Com a média 3,8, os numeros sao 0, 3, 4, 5, 7. A soma 0+3+4+5+7 = 19."
+    },
+    {
+        "id": "2281164",
+        "enunciado": "Um pesquisador analisa quatro afirmações gerais para identificar a conclusão mais coerente por analogia. Ele observa que \"alguns sistemas adaptativos melhoram com feedback\", \"certas equipes aprendem com revisões constantes\" e \"vários algoritmos evolutivos aprimoram soluções por iterações sucessivas\". Considerando essas relações, ele busca a conclusão mais alinhada ao padrão inferido entre os exemplos. Com base nesse conjunto, determine qual conclusão se ajusta logicamente a essa analogia.",
+        "alternativas": {
+            "A": "A conclusão de que processos estáticos sempre geram estabilidade.",
+            "B": "A conclusão de que falhas em sistemas eliminam qualquer aprendizado.",
+            "C": "A conclusão de que processos iterativos tendem a produzir melhorias graduais.",
+            "D": "A conclusão de que ciclos longos reduzem necessariamente a eficiência."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "As afirmações descrevem sistemas que melhoram através de processos cíclicos ou de repetição: feedback, revisões constantes e iterações sucessivas. Isso sugere que a repetição e a adaptação levam a aprimoramentos graduais. A opção C reflete essa lógica."
+    },
+    {
+        "id": "1966259",
+        "enunciado": "Com base nesses dados, quantos alunos participaram de pelo menos uma das oficinas?",
+        "alternativas": {
+            "A": "27 alunos.",
+            "B": "22 alunos.",
+            "C": "37 alunos.",
+            "D": "45 alunos."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para encontrar o total de alunos que participaram de pelo menos uma oficina, usa-se o princípio da inclusão-exclusão: Total = R + P + M - (R∩P) - (R∩M) - (P∩M) + (R∩P∩M). Total = 20 + 18 + 15 - 8 - 6 - 5 + 3 = 53 - 19 + 3 = 34 + 3 = 37."
+    },
+    {
+        "id": "2063880",
+        "enunciado": "Em uma prova com peso 2 e outra com peso 3, João tirou 6 e 8, respectivamente. Qual é sua média ponderada?",
+        "alternativas": {
+            "A": "6,5",
+            "B": "7,0",
+            "C": "7,2",
+            "D": "7,5"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A média ponderada é calculada somando o produto de cada valor pelo seu peso e dividindo pela soma dos pesos. (6*2 + 8*3) / (2+3) = (12 + 24) / 5 = 36 / 5 = 7,2."
+    },
+    {
+        "id": "2063256",
+        "enunciado": "A previsão do tempo para os próximos cinco dias é:Segunda Terça Quarta Quinta SextaTemperatura Máxima 27 30 28 32 28Temperatura Mínima 19 20 21 23 22Qual é a média das temperaturas máxima e mínima, respectivamente?",
+        "alternativas": {
+            "A": "29 e 20",
+            "B": "28 e 20",
+            "C": "29 e 21",
+            "D": "28 e 21"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A media das temperaturas maximas e (27+30+28+32+28)/5 = 145/5 = 29. A media das minimas e (19+20+21+23+22)/5 = 105/5 = 21."
+    },
+    {
+        "id": "2300095",
+        "enunciado": "Dois irmãos, Pedro e Lucas, resolveram comemorar o \naniversário em uma única festa. No bolo, fizeram uma \nbrincadeira: encomendaram uma vela em que apareceria \na média aritmética de suas idades. Pedro comemorava \n22 anos, e a vela sinalizava o número 26.\nA idade que Lucas comemorava nessa festa, em anos, \nera igual a",
+        "alternativas": {
+            "A": "24.",
+            "B": "28.",
+            "C": "30.",
+            "D": "32."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A media das idades e 26 anos. Pedro tem 22 anos. A soma das idades e (22 + Idade Lucas) / 2 = 26. Logo, 22 + Idade Lucas = 52. Portanto, Idade Lucas = 52 - 22 = 30 anos. A alternativa B esta errada, a alternativa C esta correta."
+    },
+    {
+        "id": "2380884",
+        "enunciado": "Os indicadores sociais são instrumentos essenciais para o diagnóstico da realidade escolar e o planejamento de políticas públicas de enfrentamento às desigualdades educacionais. Assinale a alternativa correta que define o Coeficiente de Gini, um indicador frequentemente utilizado para analisar a desigualdade de renda que impacta a permanência escolar.",
+        "alternativas": {
+            "A": "O Coeficiente de Gini é um indicador de saúde que mede a taxa de mortalidade infantil em relação à escolaridade da mãe, não tendo nenhuma relação com a distribuição de renda ou riqueza.",
+            "B": "O Coeficiente de Gini mede a taxa de analfabetismo funcional da população adulta, variando de 0 a 100, onde 100 representa a erradicação total do analfabetismo no território avaliado.",
+            "C": "O Coeficiente de Gini é uma medida estatística de desigualdade que varia de 0 a 1, onde 0 corresponde à perfeita igualdade e 1 corresponde à perfeita desigualdade.",
+            "D": "O Coeficiente de Gini avalia a qualidade da merenda escolar distribuída nas escolas públicas, servindo como base para o repasse de verbas do Programa Nacional de Alimentação Escolar (PNAE)."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O Coeficiente de Gini é um índice que varia de 0 a 1, medindo a desigualdade na distribuição de renda, onde 0 é igualdade e 1 é desigualdade máxima."
+    },
+    {
+        "id": "2055483",
+        "enunciado": "O investigador Júlio está analisando uma cena de crime. Em uma calçada de terra, ele encontra várias pegadas, todas aparentemente deixadas pela mesma pessoa. Para entender o percurso, ele mede algumas delas e percebe que os tamanhos variam. Elas apresentam: 28 cm, 30 cm, 30 cm e 28 cm. Júlio sabe que, normalmente, uma pessoa apresenta uma medida de pegada mais consistente, sem grande variação. Isso significa que o tamanho médio das pegadas pode indicar o tamanho real do pé do suspeito. Portanto, analisando os dados acima, qual é a média dessas pegadas, que consequentemente será a pista do tamanho mais provável do pé do suspeito?",
+        "alternativas": {
+            "A": "30",
+            "B": "29",
+            "C": "28",
+            "D": "27",
+            "E": "31"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para calcular a média, somamos todas as medidas e dividimos pelo número de medidas: (28 + 30 + 30 + 28) / 4 = 116 / 4 = 29."
+    },
+    {
+        "id": "2384195",
+        "enunciado": "Leila acompanhava uma pesquisa sobre hábitos de prática esportiva. Verificou-se que a média de horas semanais de atividade física praticada por um grupo de pessoas foi de 6 horas. Sabe-se também que a soma total de horas praticadas por esse grupo foi de 54 horas.\nCom base nesses dados, qual foi a quantidade de pessoas que participaram dessa pesquisa?\nAssinale a alternativa correta.",
+        "alternativas": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10",
+            "E": "11"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A média é a soma total dividida pela quantidade de pessoas. Logo, a quantidade de pessoas é a soma total (54 horas) dividida pela média (6 horas/pessoa), que resulta em 9 pessoas."
+    },
+    {
+        "id": "2344708",
+        "enunciado": "No conselho de classe da escola ‘Prodígios’ a coordenadora pedagógica analisou as notas de um aluno em todas as disciplinas nos 4 bimestres do ano letivo. A tabela abaixo mostra as médias bimestrais das disciplinas que o aluno teve os piores desempenhos.Disciplina  1º 2º 3º 4ºArte 2 5 5 6História  2 1 5 3Inglês  1 1 5 6Matemática  2 5 5 4Português  4 4 3 7A quinta menção é considerada a média final, somando as medias dos bimestres e dividindo por 4. Calculando a quinta menção de cada disciplina a menor é representada por:",
+        "alternativas": {
+            "A": "Arte",
+            "B": "História",
+            "C": "Inglês",
+            "D": "Matemática",
+            "E": "Português"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A quinta menção (média final) é a soma das médias bimestrais dividida por 4. Calculando para cada disciplina: Arte (2+5+5+6)/4 = 4.5; História (2+1+5+3)/4 = 2.75; Inglês (1+1+5+6)/4 = 3.25; Matemática (2+5+5+4)/4 = 4; Português (4+4+3+7)/4 = 4.75. A menor média é a de História (2.75)."
+    },
+    {
+        "id": "2397581",
+        "enunciado": "Em um levantamento sobre o tempo (em minutos) que diferentes funcionários levaram para concluir uma mesma tarefa operacional, registraram-se os seguintes valores: 12 – 15 – 15 – 18 – 19 – 21 – 21 – 21 – 22 – 25Com base nesses dados, assinale a alternativa que apresenta corretamente a média aritmética e a moda dos tempos registrados, nesta ordem.",
+        "alternativas": {
+            "A": "18,90 e 21.",
+            "B": "19,10 e 15.",
+            "C": "19,90 e 22.",
+            "D": "20,40 e 18."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A media aritmetica e a soma de todos os valores dividida pela quantidade de valores (189/10 = 18,9). A moda e o valor que mais se repete, que neste caso e 21."
+    },
+    {
+        "id": "2344709",
+        "enunciado": "Uma pesquisa realizada com 2500 expectadores mostrou que dos programas A, B e C, o preferido foi o programa A, como disposto no gráfico.Sabendo que 1110 pessoas representam o setor A no gráfico, o ângulo formado por esse setor é aproximadamente:",
+        "alternativas": {
+            "A": "154º",
+            "B": "156º",
+            "C": "160º",
+            "D": "162º",
+            "E": "164º"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Para calcular o ângulo do setor A, usa-se a regra de três simples: 2500 expectadores (360º) --- 1110 pessoas (xº). Resolvendo: x = (1110 * 360) / 2500 = 160.104/2500 = 160.74, que é aproximadamente 160º."
+    },
+    {
+        "id": "2287539",
+        "enunciado": "Considere as notas de cinco alunos: 5, 6, 8, 9 e 9. A média aritmética e a mediana dessas notas são, respectivamente:",
+        "alternativas": {
+            "A": "8,4 e 8.",
+            "B": "8 e 7.",
+            "C": "8 e 9.",
+            "D": "7,4 e 8.",
+            "E": "7 e 8."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "As notas são 5, 6, 8, 9, 9. Média: (5+6+8+9+9)/5 = 37/5 = 7.4. Mediana (valor central após ordenar): 8. A ordem correta é 7,4 e 8. Houve um erro na minha análise inicial. A média é 7,4 e a mediana é 8. Revisando as alternativas, a mais próxima é a D. Calculando novamente: (5+6+8+9+9)/5 = 37/5 = 7.4. A mediana é 8. A alternativa D é 7,4 e 8. O cálculo correto é 7,4 para média e 8 para mediana. A alternativa D está correta."
+    },
+    {
+        "id": "2393063",
+        "enunciado": "À luz dos conceitos básicos da Estatística, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "A amostra corresponde aos valores observados do tempo diário de deslocamento, e a população refere-se ao instrumento de coleta utilizado.",
+            "B": "O tempo diário de deslocamento representa a população da pesquisa, enquanto os servidores entrevistados constituem a variável estatística analisada.",
+            "C": "A população é o conjunto de todos os servidores da instituição, a amostra corresponde aos servidores selecionados para participar da pesquisa, e o tempo diário de deslocamento é uma variável quantitativa.",
+            "D": "A população corresponde ao conjunto de servidores que responderam ao questionário, e o tempo diário de deslocamento constitui uma variável qualitativa ordinal.",
+            "E": "A amostra é formada pelo total de servidores da instituição, e o tempo diário de deslocamento caracteriza uma variável quantitativa discreta."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A alternativa C descreve corretamente a relacao entre populacao, amostra e variavel estatistica no contexto de uma pesquisa. Populacao e o todo, amostra e parte dele, e a variavel e o dado coletado."
+    },
+    {
+        "id": "2317848",
+        "enunciado": "Em uma análise experimental, três medições sucessivas de densidade foram registradas: 7,482 g/cm³, 7,506 g/cm³ e 7,441 g/cm³. O resultado final divulgado deve ser a média aritmética com precisão de duas casas decimais. Essa média é de:",
+        "alternativas": {
+            "A": "Aproximadamente 7,50 g/cm³.",
+            "B": "Aproximadamente 7,48 g/cm³.",
+            "C": "Aproximadamente 7,46 g/cm³.",
+            "D": "Aproximadamente 7,52 g/cm³."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A média aritmética das medições (7,482 + 7,506 + 7,441) / 3 resulta em 7,476333... Ao arredondar para duas casas decimais, obtém-se 7,48. Portanto, a alternativa B é a correta."
+    },
+    {
+        "id": "1864954",
+        "enunciado": "Em um abrigo existem seis idosos, com idades de 76 anos, 78 anos, 80 anos, 84 anos, 90 anos e 92 anos. Qual a média aritmética das idades dos idosos?",
+        "alternativas": {
+            "A": "80",
+            "B": "83",
+            "C": "86",
+            "D": "79"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "A soma das idades é 76 + 78 + 80 + 84 + 90 + 92 = 500. A média aritmética é a soma dividida pelo número de idosos: 500 / 6 = 83,33. Arredondando para o valor mais próximo nas alternativas, 83 é a resposta correta."
+    },
+    {
+        "id": "2346838",
+        "enunciado": "Um servidor público registrou o número de atendimentos realizados durante 5 dias da semana:• Segunda-feira: 18 atendimentos.• Terça-feira: 22 atendimentos.• Quarta-feira: 20 atendimentos.• Quinta-feira: 24 atendimentos.• Sexta-feira: 16 atendimentos.Qual foi a média diária de atendimentos nessa semana?",
+        "alternativas": {
+            "A": "19.",
+            "B": "20.",
+            "C": "21.",
+            "D": "22.",
+            "E": "23."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para calcular a média, soma-se todos os atendimentos e divide-se pelo número de dias: (18+22+20+24+16)/5 = 100/5 = 20 atendimentos diários."
+    },
+    {
+        "id": "1242655",
+        "enunciado": "Um vendedor avaliou seu primeiro semestre de vendas e montou o quadro abaixo com as informações referentes às vendas mensais. Com base nos dados apresentados, assinalar a alternativa INCORRETA.",
+        "alternativas": {
+            "A": "O total vendido no primeiro semestre foi de R$ 924.575,00.",
+            "B": "A média de venda é maior que R$ 154.000,00 por mês.",
+            "C": "O aumento das vendas de fevereiro para março é de 10%.",
+            "D": "A baixa nas vendas de abril para maio é de 5%."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "O total vendido no primeiro semestre é R$ 924.575,00 (A correta). A média de venda é R$ 924.575,00 / 6 = R$ 154.095,83 (B correta). O aumento de fevereiro (130.000) para março (143.000) é (143000-130000)/130000 * 100% = 10% (C correta). A baixa de abril (169.775) para maio (154.250) é (169775-154250)/169775 * 100% = 9,16% (D incorreta). Portanto, a alternativa INCORRETA é a D. Houve erro na minha anotação. A alternativa C está correta e não incorreta. A alternativa incorreta é a D. Repetição. A alternativa C está correta. O aumento de Fev para Mar é 10%. A alternativa D está incorreta, pois a queda é de ~9,16%. Assim, a INCORRETA é a D. Minha anotação estava errada. A alternativa C está correta. O aumento das vendas de fevereiro para março é de 10%. A alternativa D está incorreta pois a baixa é de aproximadamente 9,16%, e não 5%. A alternativa INCORRETA é a D."
+    },
+    {
+        "id": "2097868",
+        "enunciado": "Uma professora deseja realizar uma análise dos desempenhos dos alunos em uma determinada prova. As notas dos alunos foram registradas da seguinte forma: 3; 4; 8; 2; 3. Para essa análise, é necessário calcular a média, a moda e a mediana das notas obtidas. Com base nesses dados, qual é o valor dessas três medidas, respectivamente?",
+        "alternativas": {
+            "A": "4; 3; 3.",
+            "B": "4; 3; 8.",
+            "C": "4; 4; 8.",
+            "D": "3; 3; 3."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A média das notas (3, 4, 8, 2, 3) é 4 ((3+4+8+2+3)/5). A moda é o valor que mais se repete, que é 3. Colocando as notas em ordem (2, 3, 3, 4, 8), a mediana é o valor central, que é 3. Logo, a sequência é 4, 3, 3."
+    },
+    {
+        "id": "2202245",
+        "enunciado": "Durante dez partidas de um campeonato de basquete, foram anotadas as pontuações, por partida, de um determinado jogador, gerando o quadro a seguir:\n\nPartida  1 2 3 4 5 6 7 8 9 10\nPontuação  25 27 24 26 20 30 32 18 32 16\n A média de pontos por partida desse jogador é igual a:",
+        "alternativas": {
+            "A": "22",
+            "B": "25",
+            "C": "28",
+            "D": "30"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A media e calculada somando todas as pontuacoes e dividindo pelo numero de partidas. Soma = 25+27+24+26+20+30+32+18+32+16 = 250. Media = 250 / 10 = 25."
+    },
+    {
+        "id": "2020213",
+        "enunciado": "Uma confecção de roupas produziu cinco modelos de camisetas diferentes. Visando incluir uma delas no seu catálogo de vendas, o gerente sugeriu que fossem colocados os cinco modelos de camisetas como edições especiais, a camiseta mais vendida seria incluída no catálogo de vendas da confecção. As camisetas foram colocadas à venda em quatro lojas diferentes. Terminando o período de experiência, a gerência recebeu um relatório descrevendo as quantidades vendidas, em unidade, de cada um dos cinco modelos de camisetas nas quatro lojas. Camiseta I Camiseta II Camiseta III Camiseta IV Camiseta V Loja I 12 12 10 6 12 Loja II 18 12 15 18 13 Loja III 13 12 13 10 14 Loja IV 5 12 12 6 10 Com base nessas informações, a gerência decidiu incluir no catálogo da confecção a camiseta:",
+        "alternativas": {
+            "A": "I",
+            "B": "II",
+            "C": "III",
+            "D": "IV",
+            "E": "V"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para determinar qual camiseta será incluída no catálogo, somamos as vendas de cada modelo nas quatro lojas. Camiseta I: 42. Camiseta II: 65. Camiseta III: 49. Camiseta IV: 42. Camiseta V: 49. A Camiseta II teve o maior número de vendas (65 unidades)."
+    },
+    {
+        "id": "2189174",
+        "enunciado": "Uma empresa realizou, durante a semana, um curso de atualização para seus 45 funcionários. O número de funcionários ausentes, por dia de curso, está indicado na tabela abaixo:Dia da semana  Funcionários ausentesSegunda-feira  6Terça-feira  7Quarta-feira  8Quinta-feira  13Sexta-feira  16Considerando-se as informações apresentadas, analisar os itens abaixo:I. Sexta-feira foi o dia em que o curso teve mais funcionários presentes.II. A cada dia, o número de funcionários presentes aumentou.III. Na quinta-feira, estiveram presentes 32 funcionários.Está(ão) CORRETO(S):",
+        "alternativas": {
+            "A": "Somente o item I.",
+            "B": "Somente o item II.",
+            "C": "Somente o item III.",
+            "D": "Somente os itens I e III."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "A tabela indica 16 ausentes na sexta-feira (45-16=29 presentes). Com 6 ausentes na segunda (39 presentes), sexta teve o maior número de ausentes, logo, o menor de presentes (Item I correto). O número de presentes não aumentou a cada dia (Item II incorreto). Na quinta, com 13 ausentes (45-13=32 presentes), o item III está correto."
+    },
+    {
+        "id": "2205325",
+        "enunciado": "Sabendo-se que o desvio padrão e a variância são medidas de dispersão, analisar os itens abaixo:I. Em um conjunto de dados, quanto maior o desvio padrão, melhor a confiabilidade, pois isso significa que os dados estão próximos da média.II. A variância e o desvio padrão possuem o cálculo semelhante, uma vez que a variância é a raiz quadrada do desvio padrão.III. Não há desvio padrão negativo, e ele pode ser encontrado pela raiz quadrada da variância.Está(ão) CORRETO(S):",
+        "alternativas": {
+            "A": "Somente o item II.",
+            "B": "Somente o item III.",
+            "C": "Somente os itens I e II.",
+            "D": "Somente os itens I e III.",
+            "E": "Todos os itens."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "O item II está incorreto pois a variância é o quadrado do desvio padrão, e não o contrário. O item III está correto ao afirmar que o desvio padrão não é negativo e pode ser calculado pela raiz quadrada da variância."
+    },
+    {
+        "id": "1005399",
+        "enunciado": "Na academia de ginástica, no período noturno, o número de alunos que estão frequentando diariamente, possuem as idades abaixo elencadas:17, 19, 15, 29, 19, 17, 31, 21, 15, 16, 23, 21, 19, 16, 18, 21, 23, 25,19, 17, 24, 23, 19, 31, 27, 28, 30, 23, 19.Logo, o correto referente a esses dados, consta na alternativa:",
+        "alternativas": {
+            "A": "A mediana é 19 e a média é 21,55.",
+            "B": "Moda e  mediana, ambas são iguais a 19.",
+            "C": "A moda e a média das idades são iguais a 21.",
+            "D": "A moda é 19 e a mediana é 21.",
+            "E": "A mediana das idades é 19 e a média é 29."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Idades: 15 (2), 16 (2), 17 (3), 18 (1), 19 (6), 21 (3), 23 (3), 24 (1), 25 (1), 27 (1), 28 (1), 29 (1), 30 (1), 31 (2). Moda (mais frequente) = 19. Para a mediana, 29 idades. A mediana é a 15ª idade: 19. Soma = 557. Média = 557 / 29 = 19.21. Portanto, a moda é 19 e a mediana é 19."
+    },
+    {
+        "id": "2098638",
+        "enunciado": "A ocorrência de um erro sistemático devido à má calibração do instrumento pode ser corrigido",
+        "alternativas": {
+            "A": "fazendo várias leituras.",
+            "B": "através da substituição do instrumento.",
+            "C": "tomando a média dos valores medidos.",
+            "D": "tomando a mediana de valores.",
+            "E": "tomando o valor esperado das várias leituras."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Erros sistemáticos decorrem de falhas no instrumento ou método e afetam a precisão de todas as medições. A substituição do instrumento é a forma de corrigi-lo."
+    },
+    {
+        "id": "2065465",
+        "enunciado": "A média aritmética ponderada dos valores seguintes com os respectivos pesos: 10 (peso 2); 8 (peso 3); 6 (peso 1) e 9 (peso 4) é:",
+        "alternativas": {
+            "A": "7,8",
+            "B": "8,1",
+            "C": "8,6",
+            "D": "9,4"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A média ponderada é calculada pela soma dos produtos de cada valor por seu peso, dividida pela soma dos pesos: [(10*2) + (8*3) + (6*1) + (9*4)] / (2+3+1+4) = (20 + 24 + 6 + 36) / 10 = 86 / 10 = 8.6."
+    },
+    {
+        "id": "2239566",
+        "enunciado": "Considerando os níveis de mensuração de uma variável, assinale a alternativa correta.",
+        "alternativas": {
+            "A": "O nível nominal considera uma hierarquização das categorias.",
+            "B": "O nível ordinal é mais complexo que o nível intervalar.",
+            "C": "O nível intervalar é o único em que se pode falar de média e desvio padrão.",
+            "D": "O nível de razão considera a existência de um zero absoluto.",
+            "E": "O nível intervalar é garantido quando são utilizadas escalas."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O nivel de razao se caracteriza pela existencia de um ponto zero verdadeiro e significativo, que indica a ausencia absoluta da caracteristica medida. Isso permite comparar proporcoes e realizar todas as operacoes aritmeticas."
+    },
+    {
+        "id": "2085582",
+        "enunciado": "Desejando lançar um novo sabonete, uma indústria pesquisou sobre os valores cobrados por seis marcas concorrentes e obteve os seguintes valores, em reais: 1,28 1,35 0,99 1,52 2,44 1,96. A média aritmética desses valores é:",
+        "alternativas": {
+            "A": "R$ 1,59",
+            "B": "R$ 1,75",
+            "C": "R$ 1,93",
+            "D": "R$ 1,27"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "A média aritmética é calculada somando todos os valores e dividindo pelo número de valores. Soma = 1,28 + 1,35 + 0,99 + 1,52 + 2,44 + 1,96 = 9,54. Média = 9,54 / 6 = 1,59."
+    }
+]

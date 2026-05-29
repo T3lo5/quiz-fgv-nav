@@ -1,0 +1,510 @@
+[
+    {
+        "id": "2340651",
+        "enunciado": "Sabe-se que se cada um dos dados numéricos de uma distribuição é menor ou igual a M, então a média aritmética dos dados da distribuição é menor, ou igual, a M. Ou seja, se a média aritmética dos dados numéricos de uma distribuição é maior que 7, então",
+        "alternativas": {
+            "A": "cada um dos dados da distribuição é maior que 7.",
+            "B": "nenhum dos dados da distribuição é maior que 7.",
+            "C": "algum dos dados da distribuição é maior que 7.",
+            "D": "algum dos dados da distribuição é menor que 7.",
+            "E": "todos os dados da distribuição são iguais a 7."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A premissa dada é: se todos os dados ≤ M, então a média ≤ M. A contrapositiva lógica é: se a média > M, então nem todos os dados são ≤ M, o que implica que ao menos um dado é > M."
+    },
+    {
+        "id": "2040150",
+        "enunciado": "Em um campeonato com 32 competidores, após a 1ª rodada, metade dos atletas são eliminados, e a cada nova rodada, a metade dos competidores da rodada anterior continua na disputa. Considerando esse processo de eliminação pela metade a cada rodada, quantas rodadas serão necessárias até que reste apenas 1 competidor como vencedor?",
+        "alternativas": {
+            "A": "3 rodadas.",
+            "B": "5 rodadas.",
+            "C": "9 rodadas.",
+            "D": "7 rodadas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Com 32 competidores, cada rodada elimina metade. Para chegar a 1 vencedor, são necessárias rodadas que reduzam o número para 1. 32 -> 16 -> 8 -> 4 -> 2 -> 1. Isso totaliza 5 rodadas (2^5 = 32)."
+    },
+    {
+        "id": "2396390",
+        "enunciado": "Em um prédio com 3 andares e 4 apartamentos por andar, numerados como 101 104 no primeiro andar e 201 204 no segundo, assinale a alternativa abaixo que apresenta a numeração correspondente ao último apartamento do terceiro andar.",
+        "alternativas": {
+            "A": "301",
+            "B": "302",
+            "C": "303",
+            "D": "304",
+            "E": "305"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O prédio tem 3 andares com 4 apartamentos por andar. O primeiro andar tem numeração de 101 a 104. O segundo andar vai de 201 a 204. Seguindo o padrão, o terceiro andar terá numeração de 301 a 304. O último apartamento é o 304."
+    },
+    {
+        "id": "2310677",
+        "enunciado": "No desenvolvimento do pensamento matemático, é fundamental distinguir os tipos de raciocínio para conduzir o aluno da conjectura à prova. Enquanto a observação de padrões em casos particulares leva a generalizações prováveis (indução), a validação rigorosa de teoremas exige um tipo de raciocínio que parte de premissas gerais verdadeiras (axiomas/definições) para chegar a uma conclusão necessária e específica. Esse raciocínio é classificado como:",
+        "alternativas": {
+            "A": "Abdutivo.",
+            "B": "Analógico.",
+            "C": "Intuitivo.",
+            "D": "Dedutivo.",
+            "E": "Dialético."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O raciocínio dedutivo parte de premissas gerais ou universais (axiomas, definições, teoremas) para chegar a uma conclusão específica e necessária. É o tipo de raciocínio usado para provas matemáticas rigorosas."
+    },
+    {
+        "id": "2396402",
+        "enunciado": "Luiza analisa uma lista de sentenças matemáticas e precisa identificar qual delas é aberta. Nesse sentido, assinale a alternativa que apresenta uma sentença aberta.",
+        "alternativas": {
+            "A": "2 + 3 = 5",
+            "C": "x + 1 = 4",
+            "D": "9 × 2 = 18",
+            "E": "7 + 8 = 15"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma sentença aberta em matemática é aquela que contém uma variável (ou mais) e cujo valor de verdade (verdadeiro ou falso) depende do valor atribuído a essa variável. A alternativa C, 'x + 1 = 4', é a única que contém uma variável 'x'."
+    },
+    {
+        "id": "2255574",
+        "enunciado": "Um candidato foi pagar a taxa de inscrição de um concurso público, que custa R$ 135,00. Ele possui apenas notas de R$ 50,00, R$ 20,00 e R$ 5,00. Considerando que ele deseja pagar exatamente o valor da inscrição usando o menor número possível de notas, a combinação de notas que ele deve usar é:",
+        "alternativas": {
+            "A": "2 notas de R$ 50,00, 1 nota de R$ 20,00 e 3 notas de R$ 5,00",
+            "B": "1 nota de R$ 50,00, 4 notas de R$ 20,00 e 1 nota de R$ 5,00",
+            "C": "2 notas de R$ 50,00, 2 notas de R$ 20,00 e 1 nota de R$ 5,00",
+            "D": "3 notas de R$ 50,00 e 1 nota de R$ 5,00",
+            "E": "3 notas de R$ 50,00, 1 nota de R$ 20,00 e 1 nota de R$ 5,00."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para minimizar o número de notas, priorize as de maior valor. 2 notas de R$50 (R$100) + 1 nota de R$20 (R$20) + 3 notas de R$5 (R$15) = R$135."
+    },
+    {
+        "id": "1077104",
+        "enunciado": "O modelo de competição “mata-mata” consiste em uma disputa entre dois adversários que se enfrentam para decidir qual deles avança para uma próxima fase de uma competição. Sabe-se que esse modelo funciona bem quando o número de equipes é 2 n, sendo n um número natural. Para quantidades de equipes diferentes de 2 n alguns ajustes devem ser feitos para garantir o bom andamento da competição. O regulamento de um campeonato determina que, no início de cada rodada, as equipes sejam classificadas em um ranking e, caso o número de equipes seja par, a primeira colocada do ranking enfrentará a última colocada; a segunda do ranking enfrentará a penúltima e, assim, sucessivamente. No caso de o número de equipes ser ímpar, a equipe melhor colocada no ranking avança automaticamente para a próxima fase e o pareamento entre as equipes é feito sem a equipe que avançou. Considere um campeonato que adotou o modelo de competição “mata-mata”, em que uma das equipes participantes conseguiu avançar para a final do campeonato (em que disputam apenas duas equipes) sem jogar nenhum jogo, onde ela enfrentará uma equipe que jogou 5 partidas. Neste caso, o número de equipes inscritas nesse campeonato foi:",
+        "alternativas": {
+            "A": "31.",
+            "B": "32.",
+            "C": "33.",
+            "D": "35."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para avançar sem jogar, a equipe deve ter 'descansado' em rodadas ímpares. Uma equipe que jogou 5 partidas em um mata-mata com 31 equipes (2^5 - 1) faz 5 partidas. A equipe que avançou sem jogar participou da estrutura de 'descanso'."
+    },
+    {
+        "id": "1598618",
+        "enunciado": "Um dado comum de 6 faces é construído, por padrão, de modo que os pares de faces cujos números que somam 7 estejam opostos entre si. Ou seja, a face de número 1 oposta à face de número 6, a face que contém o número 2 oposta à de número 5 e, por fim, a face com o número 3 oposta à que tem o número 4. Considere que uma partícula se move na superfície do dado, sem se movimentar ao longo de suas arestas. Essa partícula deseja “visitar” as seis faces dos dados, sem retornar à face que já tenha estado anteriormente. O trajeto 1 – 6 – 2, por exemplo, inicia seu deslocamento na face de número 1, segue para a face de número 6 e, logo após, move-se para a face de número 2, na ordem indicada inicialmente. Qual dos trajetos a seguir é o único em que a partícula pode completar esse percurso?",
+        "alternativas": {
+            "A": "1 – 2 – 3 – 4 – 5 – 6.",
+            "B": "2 – 4 – 1 – 6 – 5 – 3.",
+            "C": "3 – 2 – 5 – 1 – 6 – 4.",
+            "D": "4 – 1 – 5 – 3 – 2 – 6."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em um dado, faces opostas somam 7. Logo, 1-6, 2-5, 3-4. Para visitar todas as 6 faces sem repetir e sem mover pelas arestas, a partícula deve sempre se mover para uma face adjacente. A alternativa B (2-4-1-6-5-3) permite o seguinte: 2 é adjacente a 4. 4 é adjacente a 1. 1 é adjacente a 6. 6 é oposto a 1. Portanto, este trajeto não é possível pois 6 não é adjacente a 1. Refletindo na questão anterior (ID 1598687) que tinha o mesmo enunciado e resposta B com outra sequência. A análise da adjacência é crucial.  Na opção B: 2 (adjacentes 1,3,4); vai para 4. 4 (adjacentes 1,3,6); vai para 1. 1 (adjacentes 2,3,5); vai para 6. Mas 6 é oposto a 1. Logo, B é inválida.  Na verdade, o enunciado é idêntico ao do ID 1598687.  Verificando o gabarito comum de questões com trajeto em dado, a lógica é que cada número citado deve ser adjacente ao anterior.  Analisando as opções: A) 1 (adj 2) -> 2 (adj 3) -> 3 (adj 4) -> 4 (adj 5) -> 5 (adj 6). Em um cubo, de qualquer face, há 3 faces adjacentes e 1 oposta. 1 é adj 2? Sim. ..."
+    },
+    {
+        "id": "1201265",
+        "enunciado": "Um campeonato de futebol com 32 equipes será realizado em formato de copa, com 5 fases eliminatórias, com cada fase realizada em dois jogos, um na cidade de cada equipe. Para respeitar o tempo de descanso e recuperação dos jogadores, um time deve fazer jogos com um intervalo de, no mínimo, dois dias de descanso entre um jogo e outro. É CORRETO afirmar que o campeonato durará pelo menos:",
+        "alternativas": {
+            "A": "10 dias.",
+            "B": "18 dias.",
+            "C": "20 dias.",
+            "D": "28 dias."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Com 32 equipes, 5 fases eliminatórias e 2 jogos por fase, temos um total de jogos. Para que haja 2 dias de descanso entre jogos, o campeonato terá uma duração mínima. 5 fases resultam em 5 confrontos. Considerando 2 jogos por confronto e 2 dias de descanso, a duração mínima seria de (5-1) * (2+2) + 2 = 18 dias."
+    },
+    {
+        "id": "1830583",
+        "enunciado": "Um conjunto com quatro lâmpadas coloridas – amarela, vermelha, verde e azul – acendem e apagam intermitentemente. Todas ficam apenas 1 segundo acesas, porém o tempo que levam para acender é exclusivo, conforme abaixo:  Amarela: 8 segundos.  Vermelha: 10 segundos.  Verde: 12 segundos.  Azul: 15 segundos. Após ligado o circuito e as lâmpadas começarem a acender e apagar, em determinado instante, todas acenderam juntas. Assinale a alternativa que indica o tempo que levará para que todas acendam juntas novamente.",
+        "alternativas": {
+            "A": "100 segundos.",
+            "B": "120 segundos.",
+            "C": "150 segundos.",
+            "D": "160 segundos.",
+            "E": "180 segundos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para que todas as lu00e2mpadas acendam juntas novamente, u00e9 necessu00e1rio encontrar o Mu00ednimo Mu00faltiplo Comum (MMC) dos tempos de cada lu00e2mpada: 8, 10, 12 e 15 segundos. Fatorando os nu00fameros: 8 = 2u00b3; 10 = 2 * 5; 12 = 2u00b2 * 3; 15 = 3 * 5. O MMC considera a maior potu00eancia de cada fator primo presente: 2u00b3 (de 8), 3 (de 12 e 15) e 5 (de 10 e 15). MMC = 2u00b3 * 3 * 5 = 8 * 3 * 5 = 120 segundos. A alternativa B estu00e1 correta."
+    },
+    {
+        "id": "1670184",
+        "enunciado": "Considere x∈U em que U={12,13,15,16,19,21,24} e a sentença aberta: “x é um número ímpar e x−6>10”. Qual das alternativas a seguir representa o conjunto verdade dessa sentença?",
+        "alternativas": {
+            "A": "{13,15}.",
+            "B": "{13,15,17}.",
+            "C": "{17,19}.",
+            "D": "{19,21}.",
+            "E": "{19,21,23}."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Analisando a sentença: 'x é ímpar' e 'x-6>10' (x>16). No conjunto U={12,13,15,16,19,21,24}, os números ímpares maiores que 16 são 19 e 21."
+    },
+    {
+        "id": "1093719",
+        "enunciado": "Um detetive recebeu uma missão para desvendar o mistério de um cofre trancado. O cofre possui um teclado numérico com os números de 0 a 9 e uma sequência de números que deve ser digitada para abrir o cofre. O detetive encontrou uma pista que dizia que: “Para abrir o cofre, você deve seguir as seguintes regras\":\n\n O primeiro número é o dobro d o segundo número.\n O terceiro número equivale ao resultado da soma do primeiro número com o segundo número.\n O quarto número é o triplo do segundo número subtraído ao primeiro número.\n O quinto número é a razão entre o terceiro com o quarto dígito.\n O sexto nú mero é o produto entre a metade do primeiro número e o quádruplo do segundo número.\n O sétimo número é a razão entre o sexto número e o primeiro número.\n O oitavo número é o resultado da soma entre a raiz quadrada do sexto número e o quíntuplo do segundo núm ero.\n O nono número é a soma do sétimo e do oitavo número.\n O décimo número é o produto entre a terça parte do nono número e a metade do sétimo número.\n\nO detetive precisa descobrir a sequência correta de números para abrir o cofre. Ele sabe que o segundo é  o número 3. Nessas condições, qual é a sequência correta de números para abrir o cofre?",
+        "alternativas": {
+            "A": "6, 3, 9, 3, 3, 36, 6, 21, 27, 27",
+            "B": "3, 3, 6, 3, 1, 34, 6, 22, 27, 27",
+            "C": "6, 3, 6, 3, 1, 36, 6, 21, 28, 24",
+            "D": "3, 3, 3, 1, 3, 32, 6, 21, 27, 24"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Com o segundo número sendo 3, calculamos os demais: 1º = 2*3 = 6. 3º = 6+3 = 9. 4º = 3*3 - 6 = 3. 5º = 9/3 = 3. 6º = (6/2)*(3*2) = 3*6 = 36. 7º = 36/6 = 6. 8º = sqrt(36) + 5*3 = 6 + 15 = 21. 9º = 6+21 = 27. 10º = (27/3)*(6/2) = 9*3 = 27. A sequência é 6, 3, 9, 3, 3, 36, 6, 21, 27, 27."
+    },
+    {
+        "id": "1666402",
+        "enunciado": "Analise as assertivas abaixo que tratam sobre a Lógica\nMatemática. A seguir aponte a alternativa CORRETA.\n\nI - Um dos tipos mais conhecidos é a lógica modal, que\nlida com proposições simples e os conectivos lógicos.\n\nII - A lógica de primeira ordem, por sua vez, permite a\nquantificação sobre objetos e variáveis.\n\nIII - A lógica fuzzy lida com a incerteza e a imprecisão.",
+        "alternativas": {
+            "A": "Apenas a assertiva I está correta.",
+            "B": "Apenas a assertiva II está correta.",
+            "C": "Apenas a assertiva III está correta.",
+            "D": "Apenas as assertivas I e II estão corretas.",
+            "E": "Apenas as assertivas II e III estão corretas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E está correta pois a lógica de primeira ordem (II) permite quantificação e a lógica fuzzy (III) lida com incerteza e imprecisão, ambas correta s. A lógica modal (I) não se limita a proposições simples."
+    },
+    {
+        "id": "1056808",
+        "enunciado": "Sabemos que o ano tem duração de 365 dias e os meses têm 30 ou 31 dias, sendo somente fevereiro com 28 dias. De 4 em 4 anos temos o ano bissexto com 366 dias e fevereiro com 29 dias, em qual das alternativas abaixo encontramos um ano bissexto?",
+        "alternativas": {
+            "A": "1981",
+            "B": "1988",
+            "C": "1991",
+            "D": "1995",
+            "E": "2003"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Anos bissextos são divisíveis por 4. Dos anos apresentados, 1988 é o único divisível por 4 (1988 / 4 = 497), sendo assim, um ano bissexto."
+    },
+    {
+        "id": "1230897",
+        "enunciado": "Qual das alternativas abaixo é uma sentença aberta?",
+        "alternativas": {
+            "A": "Existe um único número natural x tal que x + 4 = 5.",
+            "B": "Madri é a capital da Espanha.",
+            "C": "x é um número natural e x> 2.",
+            "D": "O mínimo múltiplo comum entre 3 e 4 é 12.",
+            "E": "O triplo de p é maior do que p, para todo número natural p."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma sentença aberta contém uma variável (como 'x' ou 'p') cujo valor não é determinado no enunciado, tornando a proposição verdadeira ou falsa dependendo do valor atribuído à variável."
+    },
+    {
+        "id": "1212014",
+        "enunciado": "A eliminatória simples é um processo de organização de uma competição, na qual o concorrente é eliminado quando sofre a primeira derrota. Dessa forma, qual é o número de jogos de uma competição que utiliza a eliminatória simples com 27 concorrentes e n ão é realizada a disputa de 3 º e 4º lugares? Assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "25",
+            "B": "26",
+            "C": "27",
+            "D": "52",
+            "E": "53"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em uma eliminatoria simples com N concorrentes, o numero de jogos para se ter um unico vencedor é N-1. Isso ocorre pois a cada jogo, um concorrente é eliminado, e para ter um unico campeao, N-1 concorrentes precisam ser eliminados. Portanto, com 27 concorrentes, sao necessarios 27-1 = 26 jogos."
+    },
+    {
+        "id": "1108599",
+        "enunciado": "Foi realizada uma pesquisa com n pessoas a respeito da prática do jogo de xadrez e de damas. Das pessoas entrevistadas, 100 pessoas praticam damas, 90 pessoas praticam só um dos dois jogos, 120 pessoas não praticam damas, e 110 pessoas praticam xadrez ou damas. Com base nisso, o valor de n é",
+        "alternativas": {
+            "A": "220",
+            "B": "420",
+            "C": "110",
+            "D": "230",
+            "E": "240"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sejam D o conjunto de praticantes de damas e X o de xadrez. Temos |D|=100. Pessoas que praticam só um jogo é |D-X| + |X-D| = 90. Pessoas que não praticam damas é |X-D| = 120. Se |X-D|=120, então |D-X| + 120 = 90 (impossível). O enunciado está inconsistente. Refazendo com a interpretação que 120 não praticam damas, logo são aqueles que praticam xadrez mas não damas (XA-D) = 120. Logo, 120 + |apenas D| = 90 (impossível). Supõe-se '120 pessoas não praticam damas ' se refira a X apenas. Se apenas X=120 e apenas D=90, então X ou D = 120+90 = 210? Não, X=120. E D=100. X ou D = 110. |D|=100. Apenas Um=90. Não D=120. X ou D=110. Se apenas X=120 e apenas D = 90, então D total = 90 + (x intersect D). Não, se apenas D=90 e D=100, então x intersect D = 10. Se X ou D = 110 e x intersect D = 10, então D=100, X=100. X ou D = D+X - X intersect D = 100+100-10=190. Inconsistente. Se 'não praticam damas' é o complemento, então N - D = 120. E 'praticam só um dos dois jogos' = 90. Se 'praticam xadrez ou damas' = 110. Se N-D=1..."
+    },
+    {
+        "id": "2241978",
+        "enunciado": "Em uma classe de 20 estudantes, 12 são meninas. Além disso, dos 20 estudantes, 15 gostam de Matemática. É correto concluir que",
+        "alternativas": {
+            "A": "nenhuma menina gosta de Matemática.",
+            "B": "todas as meninas gostam de Matemática.",
+            "C": "no máximo 7 meninas gostam de Matemática.",
+            "D": "no mínimo 7 meninas gostam de Matemática.",
+            "E": "exatamente 7 meninas gostam de Matemática."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em uma classe de 20 estudantes, 15 gostam de Matemática. Há 8 meninas (20-12). No pior cenário, todas as 12 meni- nas não gostam de Matemática. Sobram 3 meninas que gostam de Matemática. Se 15 gostam de Matemática de um total de 20, significa que no máximo 5 não gostam. Como há 8 meninas, mesmo que todas as 5 que não gostam de matemática sejam meninas, ainda sobram 3 meninas que gostam de matemática. O número mínimo de meninas que gostam de matemática é 7 (15 gostam de matemática - 8 que não gostam de matemática,  assumindo que as 8 sao meninas que nao gostam)."
+    },
+    {
+        "id": "1373545",
+        "enunciado": "Em uma empresa com 40 funcionários, sabe-se que 25 destes têm um salário mensal menor que 4 salários mínimos e que 20 destes têm um salário superior a dois salários mínimos. Nessas condições, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "algum funcionário recebe exatamente 3 salários mínimos.",
+            "B": "nenhum funcionário recebe exatamente 3 salários mínimos.",
+            "C": "existe algum funcionário que recebe mais que 2, porém menos que 4 salários mínimos.",
+            "D": "nenhum funcionário que recebe mais que 2, porém menos que 4 salários mínimos.",
+            "E": "todos os funcionários recebem o mesmo valor."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Se 25 funcionários ganham MENOS que 4 SM e 20 ganham MAIS que 2 SM, o total de funcionários é 40. Para que a afirmação C não seja válida, todos os funcionários deveriam estar ou abaixo de 2 SM, ou acima de 4 SM. A soma dos que estão nessas faixas extremas seria 25 + 20 = 45, o que é superior ao total de funcionários. Assim, o cruzamento entre essas faixas é garantido."
+    },
+    {
+        "id": "1267544",
+        "enunciado": "Na era digital um professor de filosofia contribui na formação dos estudantes quando ajuda-os a conhecer alguns princípios da lógica matemática. Assim sendo a proposição: ~p ^ (p ^ ~q) é uma:",
+        "alternativas": {
+            "A": "Contigência",
+            "B": "Tautologia",
+            "C": "Contradição",
+            "D": "Indeterminação",
+            "E": "Inferência"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A proposição ~p ^ (p ^ ~q) é uma contradição porque, independente dos valores verdadeiros de p e q, a expressão sempre resultará em FALSO. Analisando a parte (p ^ ~q), se p for FALSO, a expressão será FALSO. Se p for VERDADEIRO, ~q será FALSO para a expressão ser verdade, mas ~p será FALSO. Portanto, a conjunção sempre será FALSO."
+    },
+    {
+        "id": "2340651",
+        "enunciado": "Sabe-se que se cada um dos dados numéricos de uma distribuição é menor ou igual a M, então a média aritmética dos dados da distribuição é menor, ou igual, a M. Ou seja, se a média aritmética dos dados numéricos de uma distribuição é maior que 7, então",
+        "alternativas": {
+            "A": "cada um dos dados da distribuição é maior que 7.",
+            "B": "nenhum dos dados da distribuição é maior que 7.",
+            "C": "algum dos dados da distribuição é maior que 7.",
+            "D": "algum dos dados da distribuição é menor que 7.",
+            "E": "todos os dados da distribuição são iguais a 7."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A premissa dada é: se todos os dados ≤ M, então a média ≤ M. A contrapositiva lógica é: se a média > M, então nem todos os dados são ≤ M, o que implica que ao menos um dado é > M."
+    },
+    {
+        "id": "2040150",
+        "enunciado": "Em um campeonato com 32 competidores, após a 1ª rodada, metade dos atletas são eliminados, e a cada nova rodada, a metade dos competidores da rodada anterior continua na disputa. Considerando esse processo de eliminação pela metade a cada rodada, quantas rodadas serão necessárias até que reste apenas 1 competidor como vencedor?",
+        "alternativas": {
+            "A": "3 rodadas.",
+            "B": "5 rodadas.",
+            "C": "9 rodadas.",
+            "D": "7 rodadas."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Com 32 competidores, cada rodada elimina metade. Para chegar a 1 vencedor, são necessárias rodadas que reduzam o número para 1. 32 -> 16 -> 8 -> 4 -> 2 -> 1. Isso totaliza 5 rodadas (2^5 = 32)."
+    },
+    {
+        "id": "2396390",
+        "enunciado": "Em um prédio com 3 andares e 4 apartamentos por andar, numerados como 101 104 no primeiro andar e 201 204 no segundo, assinale a alternativa abaixo que apresenta a numeração correspondente ao último apartamento do terceiro andar.",
+        "alternativas": {
+            "A": "301",
+            "B": "302",
+            "C": "303",
+            "D": "304",
+            "E": "305"
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O prédio tem 3 andares com 4 apartamentos por andar. O primeiro andar tem numeração de 101 a 104. O segundo andar vai de 201 a 204. Seguindo o padrão, o terceiro andar terá numeração de 301 a 304. O último apartamento é o 304."
+    },
+    {
+        "id": "2310677",
+        "enunciado": "No desenvolvimento do pensamento matemático, é fundamental distinguir os tipos de raciocínio para conduzir o aluno da conjectura à prova. Enquanto a observação de padrões em casos particulares leva a generalizações prováveis (indução), a validação rigorosa de teoremas exige um tipo de raciocínio que parte de premissas gerais verdadeiras (axiomas/definições) para chegar a uma conclusão necessária e específica. Esse raciocínio é classificado como:",
+        "alternativas": {
+            "A": "Abdutivo.",
+            "B": "Analógico.",
+            "C": "Intuitivo.",
+            "D": "Dedutivo.",
+            "E": "Dialético."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "O raciocínio dedutivo parte de premissas gerais ou universais (axiomas, definições, teoremas) para chegar a uma conclusão específica e necessária. É o tipo de raciocínio usado para provas matemáticas rigorosas."
+    },
+    {
+        "id": "2396402",
+        "enunciado": "Luiza analisa uma lista de sentenças matemáticas e precisa identificar qual delas é aberta. Nesse sentido, assinale a alternativa que apresenta uma sentença aberta.",
+        "alternativas": {
+            "A": "2 + 3 = 5",
+            "C": "x + 1 = 4",
+            "D": "9 × 2 = 18",
+            "E": "7 + 8 = 15"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma sentença aberta em matemática é aquela que contém uma variável (ou mais) e cujo valor de verdade (verdadeiro ou falso) depende do valor atribuído a essa variável. A alternativa C, 'x + 1 = 4', é a única que contém uma variável 'x'."
+    },
+    {
+        "id": "2255574",
+        "enunciado": "Um candidato foi pagar a taxa de inscrição de um concurso público, que custa R$ 135,00. Ele possui apenas notas de R$ 50,00, R$ 20,00 e R$ 5,00. Considerando que ele deseja pagar exatamente o valor da inscrição usando o menor número possível de notas, a combinação de notas que ele deve usar é:",
+        "alternativas": {
+            "A": "2 notas de R$ 50,00, 1 nota de R$ 20,00 e 3 notas de R$ 5,00",
+            "B": "1 nota de R$ 50,00, 4 notas de R$ 20,00 e 1 nota de R$ 5,00",
+            "C": "2 notas de R$ 50,00, 2 notas de R$ 20,00 e 1 nota de R$ 5,00",
+            "D": "3 notas de R$ 50,00 e 1 nota de R$ 5,00",
+            "E": "3 notas de R$ 50,00, 1 nota de R$ 20,00 e 1 nota de R$ 5,00."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para minimizar o número de notas, priorize as de maior valor. 2 notas de R$50 (R$100) + 1 nota de R$20 (R$20) + 3 notas de R$5 (R$15) = R$135."
+    },
+    {
+        "id": "1077104",
+        "enunciado": "O modelo de competição “mata-mata” consiste em uma disputa entre dois adversários que se enfrentam para decidir qual deles avança para uma próxima fase de uma competição. Sabe-se que esse modelo funciona bem quando o número de equipes é 2 n, sendo n um número natural. Para quantidades de equipes diferentes de 2 n alguns ajustes devem ser feitos para garantir o bom andamento da competição. O regulamento de um campeonato determina que, no início de cada rodada, as equipes sejam classificadas em um ranking e, caso o número de equipes seja par, a primeira colocada do ranking enfrentará a última colocada; a segunda do ranking enfrentará a penúltima e, assim, sucessivamente. No caso de o número de equipes ser ímpar, a equipe melhor colocada no ranking avança automaticamente para a próxima fase e o pareamento entre as equipes é feito sem a equipe que avançou. Considere um campeonato que adotou o modelo de competição “mata-mata”, em que uma das equipes participantes conseguiu avançar para a final do campeonato (em que disputam apenas duas equipes) sem jogar nenhum jogo, onde ela enfrentará uma equipe que jogou 5 partidas. Neste caso, o número de equipes inscritas nesse campeonato foi:",
+        "alternativas": {
+            "A": "31.",
+            "B": "32.",
+            "C": "33.",
+            "D": "35."
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Para avançar sem jogar, a equipe deve ter 'descansado' em rodadas ímpares. Uma equipe que jogou 5 partidas em um mata-mata com 31 equipes (2^5 - 1) faz 5 partidas. A equipe que avançou sem jogar participou da estrutura de 'descanso'."
+    },
+    {
+        "id": "1598618",
+        "enunciado": "Um dado comum de 6 faces é construído, por padrão, de modo que os pares de faces cujos números que somam 7 estejam opostos entre si. Ou seja, a face de número 1 oposta à face de número 6, a face que contém o número 2 oposta à de número 5 e, por fim, a face com o número 3 oposta à que tem o número 4. Considere que uma partícula se move na superfície do dado, sem se movimentar ao longo de suas arestas. Essa partícula deseja “visitar” as seis faces dos dados, sem retornar à face que já tenha estado anteriormente. O trajeto 1 – 6 – 2, por exemplo, inicia seu deslocamento na face de número 1, segue para a face de número 6 e, logo após, move-se para a face de número 2, na ordem indicada inicialmente. Qual dos trajetos a seguir é o único em que a partícula pode completar esse percurso?",
+        "alternativas": {
+            "A": "1 – 2 – 3 – 4 – 5 – 6.",
+            "B": "2 – 4 – 1 – 6 – 5 – 3.",
+            "C": "3 – 2 – 5 – 1 – 6 – 4.",
+            "D": "4 – 1 – 5 – 3 – 2 – 6."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em um dado, faces opostas somam 7. Logo, 1-6, 2-5, 3-4. Para visitar todas as 6 faces sem repetir e sem mover pelas arestas, a partícula deve sempre se mover para uma face adjacente. A alternativa B (2-4-1-6-5-3) permite o seguinte: 2 é adjacente a 4. 4 é adjacente a 1. 1 é adjacente a 6. 6 é oposto a 1. Portanto, este trajeto não é possível pois 6 não é adjacente a 1. Refletindo na questão anterior (ID 1598687) que tinha o mesmo enunciado e resposta B com outra sequência. A análise da adjacência é crucial.  Na opção B: 2 (adjacentes 1,3,4); vai para 4. 4 (adjacentes 1,3,6); vai para 1. 1 (adjacentes 2,3,5); vai para 6. Mas 6 é oposto a 1. Logo, B é inválida.  Na verdade, o enunciado é idêntico ao do ID 1598687.  Verificando o gabarito comum de questões com trajeto em dado, a lógica é que cada número citado deve ser adjacente ao anterior.  Analisando as opções: A) 1 (adj 2) -> 2 (adj 3) -> 3 (adj 4) -> 4 (adj 5) -> 5 (adj 6). Em um cubo, de qualquer face, há 3 faces adjacentes e 1 oposta. 1 é adj 2? Sim. ..."
+    },
+    {
+        "id": "1201265",
+        "enunciado": "Um campeonato de futebol com 32 equipes será realizado em formato de copa, com 5 fases eliminatórias, com cada fase realizada em dois jogos, um na cidade de cada equipe. Para respeitar o tempo de descanso e recuperação dos jogadores, um time deve fazer jogos com um intervalo de, no mínimo, dois dias de descanso entre um jogo e outro. É CORRETO afirmar que o campeonato durará pelo menos:",
+        "alternativas": {
+            "A": "10 dias.",
+            "B": "18 dias.",
+            "C": "20 dias.",
+            "D": "28 dias."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Com 32 equipes, 5 fases eliminatórias e 2 jogos por fase, temos um total de jogos. Para que haja 2 dias de descanso entre jogos, o campeonato terá uma duração mínima. 5 fases resultam em 5 confrontos. Considerando 2 jogos por confronto e 2 dias de descanso, a duração mínima seria de (5-1) * (2+2) + 2 = 18 dias."
+    },
+    {
+        "id": "1830583",
+        "enunciado": "Um conjunto com quatro lâmpadas coloridas – amarela, vermelha, verde e azul – acendem e apagam intermitentemente. Todas ficam apenas 1 segundo acesas, porém o tempo que levam para acender é exclusivo, conforme abaixo:  Amarela: 8 segundos.  Vermelha: 10 segundos.  Verde: 12 segundos.  Azul: 15 segundos. Após ligado o circuito e as lâmpadas começarem a acender e apagar, em determinado instante, todas acenderam juntas. Assinale a alternativa que indica o tempo que levará para que todas acendam juntas novamente.",
+        "alternativas": {
+            "A": "100 segundos.",
+            "B": "120 segundos.",
+            "C": "150 segundos.",
+            "D": "160 segundos.",
+            "E": "180 segundos."
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Para que todas as lu00e2mpadas acendam juntas novamente, u00e9 necessu00e1rio encontrar o Mu00ednimo Mu00faltiplo Comum (MMC) dos tempos de cada lu00e2mpada: 8, 10, 12 e 15 segundos. Fatorando os nu00fameros: 8 = 2u00b3; 10 = 2 * 5; 12 = 2u00b2 * 3; 15 = 3 * 5. O MMC considera a maior potu00eancia de cada fator primo presente: 2u00b3 (de 8), 3 (de 12 e 15) e 5 (de 10 e 15). MMC = 2u00b3 * 3 * 5 = 8 * 3 * 5 = 120 segundos. A alternativa B estu00e1 correta."
+    },
+    {
+        "id": "1670184",
+        "enunciado": "Considere x∈U em que U={12,13,15,16,19,21,24} e a sentença aberta: “x é um número ímpar e x−6>10”. Qual das alternativas a seguir representa o conjunto verdade dessa sentença?",
+        "alternativas": {
+            "A": "{13,15}.",
+            "B": "{13,15,17}.",
+            "C": "{17,19}.",
+            "D": "{19,21}.",
+            "E": "{19,21,23}."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Analisando a sentença: 'x é ímpar' e 'x-6>10' (x>16). No conjunto U={12,13,15,16,19,21,24}, os números ímpares maiores que 16 são 19 e 21."
+    },
+    {
+        "id": "1093719",
+        "enunciado": "Um detetive recebeu uma missão para desvendar o mistério de um cofre trancado. O cofre possui um teclado numérico com os números de 0 a 9 e uma sequência de números que deve ser digitada para abrir o cofre. O detetive encontrou uma pista que dizia que: “Para abrir o cofre, você deve seguir as seguintes regras\":\n\n O primeiro número é o dobro d o segundo número.\n O terceiro número equivale ao resultado da soma do primeiro número com o segundo número.\n O quarto número é o triplo do segundo número subtraído ao primeiro número.\n O quinto número é a razão entre o terceiro com o quarto dígito.\n O sexto nú mero é o produto entre a metade do primeiro número e o quádruplo do segundo número.\n O sétimo número é a razão entre o sexto número e o primeiro número.\n O oitavo número é o resultado da soma entre a raiz quadrada do sexto número e o quíntuplo do segundo núm ero.\n O nono número é a soma do sétimo e do oitavo número.\n O décimo número é o produto entre a terça parte do nono número e a metade do sétimo número.\n\nO detetive precisa descobrir a sequência correta de números para abrir o cofre. Ele sabe que o segundo é  o número 3. Nessas condições, qual é a sequência correta de números para abrir o cofre?",
+        "alternativas": {
+            "A": "6, 3, 9, 3, 3, 36, 6, 21, 27, 27",
+            "B": "3, 3, 6, 3, 1, 34, 6, 22, 27, 27",
+            "C": "6, 3, 6, 3, 1, 36, 6, 21, 28, 24",
+            "D": "3, 3, 3, 1, 3, 32, 6, 21, 27, 24"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Com o segundo número sendo 3, calculamos os demais: 1º = 2*3 = 6. 3º = 6+3 = 9. 4º = 3*3 - 6 = 3. 5º = 9/3 = 3. 6º = (6/2)*(3*2) = 3*6 = 36. 7º = 36/6 = 6. 8º = sqrt(36) + 5*3 = 6 + 15 = 21. 9º = 6+21 = 27. 10º = (27/3)*(6/2) = 9*3 = 27. A sequência é 6, 3, 9, 3, 3, 36, 6, 21, 27, 27."
+    },
+    {
+        "id": "1666402",
+        "enunciado": "Analise as assertivas abaixo que tratam sobre a Lógica\nMatemática. A seguir aponte a alternativa CORRETA.\n\nI - Um dos tipos mais conhecidos é a lógica modal, que\nlida com proposições simples e os conectivos lógicos.\n\nII - A lógica de primeira ordem, por sua vez, permite a\nquantificação sobre objetos e variáveis.\n\nIII - A lógica fuzzy lida com a incerteza e a imprecisão.",
+        "alternativas": {
+            "A": "Apenas a assertiva I está correta.",
+            "B": "Apenas a assertiva II está correta.",
+            "C": "Apenas a assertiva III está correta.",
+            "D": "Apenas as assertivas I e II estão corretas.",
+            "E": "Apenas as assertivas II e III estão corretas."
+        },
+        "gabarito_correto": "E",
+        "comentario_ia": "A alternativa E está correta pois a lógica de primeira ordem (II) permite quantificação e a lógica fuzzy (III) lida com incerteza e imprecisão, ambas correta s. A lógica modal (I) não se limita a proposições simples."
+    },
+    {
+        "id": "1056808",
+        "enunciado": "Sabemos que o ano tem duração de 365 dias e os meses têm 30 ou 31 dias, sendo somente fevereiro com 28 dias. De 4 em 4 anos temos o ano bissexto com 366 dias e fevereiro com 29 dias, em qual das alternativas abaixo encontramos um ano bissexto?",
+        "alternativas": {
+            "A": "1981",
+            "B": "1988",
+            "C": "1991",
+            "D": "1995",
+            "E": "2003"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Anos bissextos são divisíveis por 4. Dos anos apresentados, 1988 é o único divisível por 4 (1988 / 4 = 497), sendo assim, um ano bissexto."
+    },
+    {
+        "id": "1230897",
+        "enunciado": "Qual das alternativas abaixo é uma sentença aberta?",
+        "alternativas": {
+            "A": "Existe um único número natural x tal que x + 4 = 5.",
+            "B": "Madri é a capital da Espanha.",
+            "C": "x é um número natural e x> 2.",
+            "D": "O mínimo múltiplo comum entre 3 e 4 é 12.",
+            "E": "O triplo de p é maior do que p, para todo número natural p."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Uma sentença aberta contém uma variável (como 'x' ou 'p') cujo valor não é determinado no enunciado, tornando a proposição verdadeira ou falsa dependendo do valor atribuído à variável."
+    },
+    {
+        "id": "1212014",
+        "enunciado": "A eliminatória simples é um processo de organização de uma competição, na qual o concorrente é eliminado quando sofre a primeira derrota. Dessa forma, qual é o número de jogos de uma competição que utiliza a eliminatória simples com 27 concorrentes e n ão é realizada a disputa de 3 º e 4º lugares? Assinale a alternativa CORRETA.",
+        "alternativas": {
+            "A": "25",
+            "B": "26",
+            "C": "27",
+            "D": "52",
+            "E": "53"
+        },
+        "gabarito_correto": "B",
+        "comentario_ia": "Em uma eliminatoria simples com N concorrentes, o numero de jogos para se ter um unico vencedor é N-1. Isso ocorre pois a cada jogo, um concorrente é eliminado, e para ter um unico campeao, N-1 concorrentes precisam ser eliminados. Portanto, com 27 concorrentes, sao necessarios 27-1 = 26 jogos."
+    },
+    {
+        "id": "1108599",
+        "enunciado": "Foi realizada uma pesquisa com n pessoas a respeito da prática do jogo de xadrez e de damas. Das pessoas entrevistadas, 100 pessoas praticam damas, 90 pessoas praticam só um dos dois jogos, 120 pessoas não praticam damas, e 110 pessoas praticam xadrez ou damas. Com base nisso, o valor de n é",
+        "alternativas": {
+            "A": "220",
+            "B": "420",
+            "C": "110",
+            "D": "230",
+            "E": "240"
+        },
+        "gabarito_correto": "A",
+        "comentario_ia": "Sejam D o conjunto de praticantes de damas e X o de xadrez. Temos |D|=100. Pessoas que praticam só um jogo é |D-X| + |X-D| = 90. Pessoas que não praticam damas é |X-D| = 120. Se |X-D|=120, então |D-X| + 120 = 90 (impossível). O enunciado está inconsistente. Refazendo com a interpretação que 120 não praticam damas, logo são aqueles que praticam xadrez mas não damas (XA-D) = 120. Logo, 120 + |apenas D| = 90 (impossível). Supõe-se '120 pessoas não praticam damas ' se refira a X apenas. Se apenas X=120 e apenas D=90, então X ou D = 120+90 = 210? Não, X=120. E D=100. X ou D = 110. |D|=100. Apenas Um=90. Não D=120. X ou D=110. Se apenas X=120 e apenas D = 90, então D total = 90 + (x intersect D). Não, se apenas D=90 e D=100, então x intersect D = 10. Se X ou D = 110 e x intersect D = 10, então D=100, X=100. X ou D = D+X - X intersect D = 100+100-10=190. Inconsistente. Se 'não praticam damas' é o complemento, então N - D = 120. E 'praticam só um dos dois jogos' = 90. Se 'praticam xadrez ou damas' = 110. Se N-D=1..."
+    },
+    {
+        "id": "2241978",
+        "enunciado": "Em uma classe de 20 estudantes, 12 são meninas. Além disso, dos 20 estudantes, 15 gostam de Matemática. É correto concluir que",
+        "alternativas": {
+            "A": "nenhuma menina gosta de Matemática.",
+            "B": "todas as meninas gostam de Matemática.",
+            "C": "no máximo 7 meninas gostam de Matemática.",
+            "D": "no mínimo 7 meninas gostam de Matemática.",
+            "E": "exatamente 7 meninas gostam de Matemática."
+        },
+        "gabarito_correto": "D",
+        "comentario_ia": "Em uma classe de 20 estudantes, 15 gostam de Matemática. Há 8 meninas (20-12). No pior cenário, todas as 12 meni- nas não gostam de Matemática. Sobram 3 meninas que gostam de Matemática. Se 15 gostam de Matemática de um total de 20, significa que no máximo 5 não gostam. Como há 8 meninas, mesmo que todas as 5 que não gostam de matemática sejam meninas, ainda sobram 3 meninas que gostam de matemática. O número mínimo de meninas que gostam de matemática é 7 (15 gostam de matemática - 8 que não gostam de matemática,  assumindo que as 8 sao meninas que nao gostam)."
+    },
+    {
+        "id": "1373545",
+        "enunciado": "Em uma empresa com 40 funcionários, sabe-se que 25 destes têm um salário mensal menor que 4 salários mínimos e que 20 destes têm um salário superior a dois salários mínimos. Nessas condições, é CORRETO afirmar que:",
+        "alternativas": {
+            "A": "algum funcionário recebe exatamente 3 salários mínimos.",
+            "B": "nenhum funcionário recebe exatamente 3 salários mínimos.",
+            "C": "existe algum funcionário que recebe mais que 2, porém menos que 4 salários mínimos.",
+            "D": "nenhum funcionário que recebe mais que 2, porém menos que 4 salários mínimos.",
+            "E": "todos os funcionários recebem o mesmo valor."
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "Se 25 funcionários ganham MENOS que 4 SM e 20 ganham MAIS que 2 SM, o total de funcionários é 40. Para que a afirmação C não seja válida, todos os funcionários deveriam estar ou abaixo de 2 SM, ou acima de 4 SM. A soma dos que estão nessas faixas extremas seria 25 + 20 = 45, o que é superior ao total de funcionários. Assim, o cruzamento entre essas faixas é garantido."
+    },
+    {
+        "id": "1267544",
+        "enunciado": "Na era digital um professor de filosofia contribui na formação dos estudantes quando ajuda-os a conhecer alguns princípios da lógica matemática. Assim sendo a proposição: ~p ^ (p ^ ~q) é uma:",
+        "alternativas": {
+            "A": "Contigência",
+            "B": "Tautologia",
+            "C": "Contradição",
+            "D": "Indeterminação",
+            "E": "Inferência"
+        },
+        "gabarito_correto": "C",
+        "comentario_ia": "A proposição ~p ^ (p ^ ~q) é uma contradição porque, independente dos valores verdadeiros de p e q, a expressão sempre resultará em FALSO. Analisando a parte (p ^ ~q), se p for FALSO, a expressão será FALSO. Se p for VERDADEIRO, ~q será FALSO para a expressão ser verdade, mas ~p será FALSO. Portanto, a conjunção sempre será FALSO."
+    }
+]

@@ -10,6 +10,9 @@
     let quizQuestions = [];
     let userAnswers = [];
     let startTime = null;
+    let selectedDisciplines = new Set();
+    let questionsPerDiscipline = {};
+    let availableDisciplines = [];
 
     // Elementos DOM
     let welcomeScreen, questionScreen, resultScreen, reviewScreen;
@@ -19,6 +22,36 @@
     // Função para carregar questões do arquivo JSON
     async function loadQuestions() {
         try {
+            // Tentar usar o Hub Loader primeiro
+            if (window.HubLoader && window.HubLoader.catalog) {
+                console.log('🔄 Usando Hub Loader para carregar questões...');
+
+                // Carregar perguntas das disciplinas principais como exemplo
+                // TODO: Implementar sistema de seleção de disciplinas
+                const disciplinasPrincipais = ['matemática', 'português', 'direito', 'informática'];
+                let allQuestionsFromHub = [];
+
+                for (const disciplina of disciplinasPrincipais) {
+                    try {
+                        const questions = await window.HubLoader.loadQuestions({
+                            disciplina: disciplina,
+                            quantidade: 50 // Limitar para performance inicial
+                        });
+                        allQuestionsFromHub.push(...questions);
+                        console.log(`✅ Carregadas ${questions.length} questões de ${disciplina}`);
+                    } catch (error) {
+                        console.warn(`⚠️ Não foi possível carregar ${disciplina}:`, error.message);
+                    }
+                }
+
+                if (allQuestionsFromHub.length > 0) {
+                    questions = allQuestionsFromHub;
+                    console.log(`🎯 Total de questões carregadas: ${questions.length}`);
+                    return;
+                }
+            }
+
+            // Fallback para o sistema antigo
             const response = await fetch('questions.json');
             if (!response.ok) {
                 throw new Error('Não foi possível carregar as questões');
@@ -720,15 +753,21 @@
         console.log(`Configurações - Tipo: ${examType}, Quantidade: ${questionsCount}, Timer: ${timerOption}`);
 
         // Filtrar questões por tipo (se necessário)
-        quizQuestions = [...questions];
-        console.log(`Total de questões disponíveis: ${quizQuestions.length}`);
-
-        // Limitar número de questões
-        if (questionsCount !== 'all') {
-            const count = parseInt(questionsCount);
-            quizQuestions = shuffleArray(quizQuestions).slice(0, count);
+        if (examType === 'personalized') {
+            // Modo simulado personalizado com múltiplas disciplinas
+            await loadPersonalizedQuestions();
         } else {
-            quizQuestions = shuffleArray(quizQuestions);
+            // Modo tradicional
+            quizQuestions = [...questions];
+            console.log(`Total de questões disponíveis: ${quizQuestions.length}`);
+
+            // Limitar número de questões
+            if (questionsCount !== 'all') {
+                const count = parseInt(questionsCount);
+                quizQuestions = shuffleArray(quizQuestions).slice(0, count);
+            } else {
+                quizQuestions = shuffleArray(quizQuestions);
+            }
         }
 
         // Configurar timer
@@ -947,14 +986,42 @@
     // Carregar questões ao iniciar
     console.log('Adicionando listener DOMContentLoaded');
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', () => {
-            console.log('DOM carregado, iniciando carregamento de questões...');
-            initDOMElements();
-            loadQuestions();
+        document.addEventListener('DOMContentLoaded', async () => {
+            console.log('DOM carregado, iniciando carregamento do Hub...');
+
+            // Inicializar o Hub Loader primeiro
+            try {
+                await window.HubLoader.init();
+                console.log('✅ Hub Loader inicializado');
+
+                // Inicializar elementos DOM
+                initDOMElements();
+
+                // Carregar questões usando o novo sistema
+                await loadQuestions();
+            } catch (error) {
+                console.error('❌ Falha ao inicializar Hub Loader:', error);
+                console.log('🔄 Usando sistema antigo como fallback...');
+
+                // Fallback para o sistema antigo
+                initDOMElements();
+                loadQuestions();
+            }
         });
     } else {
-        console.log('DOM já carregado, iniciando carregamento de questões...');
-        initDOMElements();
-        loadQuestions();
+        console.log('DOM já carregado, iniciando imediatamente...');
+
+        // Inicializar em modo async
+        (async () => {
+            try {
+                await window.HubLoader.init();
+                initDOMElements();
+                await loadQuestions();
+            } catch (error) {
+                console.error('❌ Erro no carregamento:', error);
+                initDOMElements();
+                loadQuestions();
+            }
+        })();
     }
 })();
