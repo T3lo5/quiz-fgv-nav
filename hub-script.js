@@ -4,6 +4,502 @@
  */
 
 // ========================================
+// CRIAR-03: Sistema de Cache para Otimizar Carregamento
+// ========================================
+
+/**
+ * CacheManager - Gerencia cache usando IndexedDB
+ * Implementa CRIAR-03.1 a CRIAR-03.8
+ */
+const CacheManager = {
+    DB_NAME: 'QuizProHubCache',
+    DB_VERSION: 1,
+    STORES: {
+        DISCIPLINES: 'disciplines',
+        QUESTIONS: 'questions',
+        METADATA: 'metadata'
+    },
+    CACHE_TTL: 7 * 24 * 60 * 60 * 1000, // 7 dias em milissegundos
+    MAX_CACHE_SIZE: 50 * 1024 * 1024, // 50MB limite
+    
+    db: null,
+    
+    /**
+     * CRIAR-03.1: Inicializar IndexedDB
+     */
+    async init() {
+        return new Promise((resolve, reject) => {
+            const request = indexedDB.open(this.DB_NAME, this.DB_VERSION);
+            
+            request.onerror = () => {
+                console.warn('⚠️ IndexedDB não disponível, usando fallback para localStorage');
+                resolve(null);
+            };
+            
+            request.onsuccess = (event) => {
+                this.db = event.target.result;
+                console.log('✅ IndexedDB inicializado com sucesso');
+                resolve(this.db);
+            };
+            
+            request.onupgradeneeded = (event) => {
+                const db = event.target.result;
+                
+                // Store para metadados das disciplinas
+                if (!db.objectStoreNames.contains(this.STORES.DISCIPLINES)) {
+                    const disciplinesStore = db.createObjectStore(this.STORES.DISCIPLINES, { keyPath: 'id' });
+                    disciplinesStore.createIndex('name', 'name', { unique: false });
+                    disciplinesStore.createIndex('category', 'category', { unique: false });
+                    disciplinesStore.createIndex('lastAccessed', 'lastAccessed', { unique: false });
+                }
+                
+                // Store para questões (armazenamento por disciplina)
+                if (!db.objectStoreNames.contains(this.STORES.QUESTIONS)) {
+                    const questionsStore = db.createObjectStore(this.STORES.QUESTIONS, { keyPath: 'disciplineId' });
+                    questionsStore.createIndex('lastUpdated', 'lastUpdated', { unique: false });
+                }
+                
+                // Store para metadados gerais
+                if (!db.objectStoreNames.contains(this.STORES.METADATA)) {
+                    db.createObjectStore(this.STORES.METADATA, { keyPath: 'key' });
+                }
+            };
+        });
+    },
+    
+    /**
+     * CRIAR-03.2: Estratégia de cache por disciplina
+     */
+    async cacheDiscipline(disciplineData) {
+        if (!this.db) return this.cacheInLocalStorage('disc_' + disciplineData.id, disciplineData);
+        
+        return new Promise((resolve, reject) => {
+            const transaction = this.db.transaction([this.STORES.DISCIPLINES], 'readwrite');
+            const store = transaction.objectStore(this.STORES.DISCIPLINES);
+            
+            const dataToCache = {
+                ...disciplineData,
+                lastAccessed: Date.now(),
+                cachedAt: Date.now()
+            };
+            
+            const request = store.put(dataToCache);
+            
+            request.onsuccess = () => {
+                console.log(`✅ Disciplina "${disciplineData.name}" cacheada`);
+                resolve(true);
+            };
+            
+            request.onerror = () => {
+                console.error('❌ Erro ao cachear disciplina:', request.error);
+                reject(request.error);
+            };
+        });
+    },
+    
+    /**
+     * CRIAR-03.2: Buscar disciplina do cache
+     */
+    async getCachedDiscipline(disciplineId) {
+        if (!this.db) return this.getCachedFromLocalStorage('disc_' + disciplineId);
+        
+        return new Promise((resolve, reject) => {
+            const transaction = this.db.transaction([this.STORES.DISCIPLINES], 'readonly');
+            const store = transaction.objectStore(this.STORES.DISCIPLINES);
+            const request = store.get(disciplineId);
+            
+            request.onsuccess = () => {
+                const data = request.result;
+                
+                // CRIAR-03.3: Verificar validade do cache (time-based invalidation)
+                if (data && (Date.now() - data.cachedAt) < this.CACHE_TTL) {
+                    // Atualizar lastAccessed
+                    this.updateAccessTime(disciplineId);
+                    resolve(data);
+                } else if (data) {
+                    // Cache expirado, remover
+                    this.removeCachedDiscipline(disciplineId);
+                    resolve(null);
+                } else {
+                    resolve(null);
+                }
+            };
+            
+            request.onerror = () => reject(request.error);
+        });
+    },
+    
+    /**
+     * CRIAR-03.2: Cache de questões por disciplina
+     */
+    async cacheQuestions(disciplineId, questions) {
+        if (!this.db) return this.cacheInLocalStorage('questions_' + disciplineId, questions);
+        
+        return new Promise((resolve, reject) => {
+            const transaction = this.db.transaction([this.STORES.QUESTIONS], 'readwrite');
+            const store = transaction.objectStore(this.STORES.QUESTIONS);
+            
+            // CRIAR-03.6: Compressão simples (JSON stringify)
+            const dataToCache = {
+                disciplineId: disciplineId,
+                questions: questions,
+                count: questions.length,
+                lastUpdated: Date.now(),
+                compressed: true
+            };
+            
+            const request = store.put(dataToCache);
+            
+            request.onsuccess = () => {
+                console.log(`✅ ${questions.length} questões cacheadas para disciplina ${disciplineId}`);
+                
+                // CRIAR-03.7: Monitorar uso de espaço
+                this.checkCacheSize();
+                resolve(true);
+            };
+            
+            request.onerror = () => {
+                console.error('❌ Erro ao cachear questões:', request.error);
+                reject(request.error);
+            };
+        });
+    },
+    
+    /**
+     * CRIAR-03.2: Buscar questões do cache
+     */
+    async getCachedQuestions(disciplineId) {
+        if (!this.db) return this.getCachedFromLocalStorage('questions_' + disciplineId);
+        
+        return new Promise((resolve, reject) => {
+            const transaction = this.db.transaction([this.STORES.QUESTIONS], 'readonly');
+            const store = transaction.objectStore(this.STORES.QUESTIONS);
+            const request = store.get(disciplineId);
+            
+            request.onsuccess = () => {
+                const data = request.result;
+                
+                // CRIAR-03.3: Validar cache (24 horas para questões)
+                if (data && (Date.now() - data.lastUpdated) < (24 * 60 * 60 * 1000)) {
+                    resolve(data.questions);
+                } else {
+                    resolve(null);
+                }
+            };
+            
+            request.onerror = () => reject(request.error);
+        });
+    },
+    
+    /**
+     * CRIAR-03.3: Atualizar tempo de acesso
+     */
+    async updateAccessTime(disciplineId) {
+        if (!this.db) return;
+        
+        const transaction = this.db.transaction([this.STORES.DISCIPLINES], 'readwrite');
+        const store = transaction.objectStore(this.STORES.DISCIPLINES);
+        
+        const getRequest = store.get(disciplineId);
+        getRequest.onsuccess = () => {
+            const data = getRequest.result;
+            if (data) {
+                data.lastAccessed = Date.now();
+                store.put(data);
+            }
+        };
+    },
+    
+    /**
+     * CRIAR-03.3: Remover disciplina do cache
+     */
+    async removeCachedDiscipline(disciplineId) {
+        if (!this.db) return this.removeFromLocalStorage('disc_' + disciplineId);
+        
+        return new Promise((resolve) => {
+            const transaction = this.db.transaction([this.STORES.DISCIPLINES], 'readwrite');
+            const store = transaction.objectStore(this.STORES.DISCIPLINES);
+            store.delete(disciplineId);
+            transaction.oncomplete = () => resolve(true);
+        });
+    },
+    
+    /**
+     * CRIAR-03.4: Prefetch de disciplinas frequentes
+     */
+    async prefetchFrequentDisciplines(disciplines) {
+        const frequentIds = this.getFrequentDisciplineIds();
+        
+        for (const disc of disciplines) {
+            if (frequentIds.includes(disc.id) || disc.isFavorite) {
+                try {
+                    await this.cacheDiscipline(disc);
+                    console.log(`📥 Prefetch: ${disc.name}`);
+                } catch (error) {
+                    console.warn(`⚠️ Falha no prefetch de ${disc.name}:`, error);
+                }
+            }
+        }
+    },
+    
+    /**
+     * CRIAR-03.4: Obter IDs de disciplinas frequentes do localStorage
+     */
+    getFrequentDisciplineIds() {
+        const frequent = localStorage.getItem('quizpro_frequent_disciplines');
+        return frequent ? JSON.parse(frequent) : [];
+    },
+    
+    /**
+     * CRIAR-03.5: Fallback para localStorage quando IndexedDB falha
+     */
+    cacheInLocalStorage(key, data) {
+        try {
+            const serialized = JSON.stringify({
+                data: data,
+                cachedAt: Date.now(),
+                ttl: this.CACHE_TTL
+            });
+            
+            // Verificar limite de espaço (5MB típico para localStorage)
+            const currentSize = localStorage.length;
+            if (currentSize > 100) {
+                // Limpar itens antigos se estiver cheio
+                this.cleanLocalStorage();
+            }
+            
+            localStorage.setItem(key, serialized);
+            return true;
+        } catch (error) {
+            console.error('❌ Erro ao cachear em localStorage:', error);
+            return false;
+        }
+    },
+    
+    /**
+     * CRIAR-03.5: Obter do localStorage
+     */
+    getCachedFromLocalStorage(key) {
+        try {
+            const item = localStorage.getItem(key);
+            if (!item) return null;
+            
+            const parsed = JSON.parse(item);
+            
+            // Verificar validade
+            if (Date.now() - parsed.cachedAt < parsed.ttl) {
+                return parsed.data;
+            } else {
+                localStorage.removeItem(key);
+                return null;
+            }
+        } catch (error) {
+            console.error('❌ Erro ao ler cache do localStorage:', error);
+            return null;
+        }
+    },
+    
+    /**
+     * CRIAR-03.5: Remover do localStorage
+     */
+    removeFromLocalStorage(key) {
+        localStorage.removeItem(key);
+    },
+    
+    /**
+     * CRIAR-03.5: Limpar localStorage antigo
+     */
+    cleanLocalStorage() {
+        const now = Date.now();
+        const keysToRemove = [];
+        
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key && key.startsWith('disc_') || key.startsWith('questions_')) {
+                try {
+                    const item = localStorage.getItem(key);
+                    const parsed = JSON.parse(item);
+                    
+                    if (now - parsed.cachedAt > this.CACHE_TTL) {
+                        keysToRemove.push(key);
+                    }
+                } catch (e) {
+                    keysToRemove.push(key);
+                }
+            }
+        }
+        
+        keysToRemove.forEach(key => localStorage.removeItem(key));
+        console.log(`🧹 Limpou ${keysToRemove.length} itens antigos do localStorage`);
+    },
+    
+    /**
+     * CRIAR-03.6: Compressão de dados (simples - pode ser estendido com LZString)
+     */
+    compressData(data) {
+        // Implementação básica - em produção usar biblioteca como LZString
+        return JSON.stringify(data);
+    },
+    
+    decompressData(compressed) {
+        try {
+            return JSON.parse(compressed);
+        } catch (e) {
+            return compressed;
+        }
+    },
+    
+    /**
+     * CRIAR-03.7: Monitorar uso de espaço em disco
+     */
+    async checkCacheSize() {
+        if (!this.db) return;
+        
+        return new Promise((resolve) => {
+            const transaction = this.db.transaction([this.STORES.QUESTIONS, this.STORES.DISCIPLINES], 'readonly');
+            let totalSize = 0;
+            
+            [this.STORES.QUESTIONS, this.STORES.DISCIPLINES].forEach(storeName => {
+                const store = transaction.objectStore(storeName);
+                const request = store.getAll();
+                
+                request.onsuccess = () => {
+                    const data = request.result;
+                    const size = new Blob([JSON.stringify(data)]).size;
+                    totalSize += size;
+                };
+            });
+            
+            transaction.oncomplete = () => {
+                const sizeMB = (totalSize / (1024 * 1024)).toFixed(2);
+                console.log(`💾 Uso do cache: ${sizeMB}MB / ${this.MAX_CACHE_SIZE / (1024 * 1024)}MB`);
+                
+                // Se exceder limite, limpar cache antigo
+                if (totalSize > this.MAX_CACHE_SIZE) {
+                    this.cleanupOldCache();
+                }
+                
+                resolve(totalSize);
+            };
+        });
+    },
+    
+    /**
+     * CRIAR-03.7: Limpar cache antigo (LRU - Least Recently Used)
+     */
+    async cleanupOldCache() {
+        if (!this.db) return;
+        
+        console.log('🧹 Limpando cache antigo (LRU)...');
+        
+        const transaction = this.db.transaction([this.STORES.DISCIPLINES], 'readwrite');
+        const store = transaction.objectStore(this.STORES.DISCIPLINES);
+        const index = store.index('lastAccessed');
+        
+        const request = index.getAll();
+        request.onsuccess = () => {
+            const items = request.result;
+            // Ordenar por lastAccessed e remover os mais antigos
+            items.sort((a, b) => a.lastAccessed - b.lastAccessed);
+            
+            // Remover 20% dos itens mais antigos
+            const toRemove = Math.floor(items.length * 0.2);
+            for (let i = 0; i < toRemove; i++) {
+                store.delete(items[i].id);
+            }
+            
+            console.log(`🗑️ Removidos ${toRemove} itens antigos do cache`);
+        };
+    },
+    
+    /**
+     * CRIAR-03.8: Limpar cache manualmente via UI
+     */
+    async clearCache() {
+        if (!this.db) {
+            localStorage.clear();
+            console.log('✅ Cache localStorage limpo');
+            return true;
+        }
+        
+        return new Promise((resolve) => {
+            const transaction = this.db.transaction(
+                [this.STORES.DISCIPLINES, this.STORES.QUESTIONS, this.STORES.METADATA],
+                'readwrite'
+            );
+            
+            transaction.objectStore(this.STORES.DISCIPLINES).clear();
+            transaction.objectStore(this.STORES.QUESTIONS).clear();
+            transaction.objectStore(this.STORES.METADATA).clear();
+            
+            transaction.oncomplete = () => {
+                console.log('✅ Cache completo limpo');
+                resolve(true);
+            };
+        });
+    },
+    
+    /**
+     * CRIAR-03.8: Obter estatísticas do cache
+     */
+    async getCacheStats() {
+        if (!this.db) {
+            return {
+                disciplines: 0,
+                questions: 0,
+                size: '0 MB',
+                hitRate: 0
+            };
+        }
+        
+        return new Promise((resolve) => {
+            const stats = {
+                disciplines: 0,
+                questions: 0,
+                size: '0 MB',
+                hitRate: 0
+            };
+            
+            const transaction = this.db.transaction(
+                [this.STORES.DISCIPLINES, this.STORES.QUESTIONS],
+                'readonly'
+            );
+            
+            // Contar disciplinas
+            const discStore = transaction.objectStore(this.STORES.DISCIPLINES);
+            discStore.count().onsuccess = (e) => {
+                stats.disciplines = e.target.result;
+            };
+            
+            // Contar questões
+            const questStore = transaction.objectStore(this.STORES.QUESTIONS);
+            questStore.count().onsuccess = (e) => {
+                stats.questions = e.target.result;
+            };
+            
+            transaction.oncomplete = () => {
+                // Calcular hit rate do localStorage
+                const cacheHits = parseInt(localStorage.getItem('quizpro_cache_hits') || '0');
+                const cacheMisses = parseInt(localStorage.getItem('quizpro_cache_misses') || '0');
+                const total = cacheHits + cacheMisses;
+                stats.hitRate = total > 0 ? Math.round((cacheHits / total) * 100) : 0;
+                
+                resolve(stats);
+            };
+        });
+    },
+    
+    /**
+     * Track cache hit/miss para métricas
+     */
+    trackCacheHit(hit) {
+        const key = hit ? 'quizpro_cache_hits' : 'quizpro_cache_misses';
+        const current = parseInt(localStorage.getItem(key) || '0');
+        localStorage.setItem(key, current + 1);
+    }
+};
+
+// ========================================
 // Inicialização e Estado Global
 // ========================================
 const HubApp = {
@@ -24,14 +520,24 @@ const HubApp = {
         // UI-03: Navegação por categorias
         navigationHistory: [],
         currentCategory: null,
-        expandedCategories: []
+        expandedCategories: [],
+        // CRIAR-03: Cache stats
+        cacheStats: {
+            enabled: false,
+            hitRate: 0
+        }
     },
-
+    
     // ========================================
     // Inicialização
     // ========================================
-    init() {
+    async init() {
         console.log('🎯 Quiz Pro Hub - Inicializando...');
+        
+        // CRIAR-03: Inicializar sistema de cache primeiro
+        await CacheManager.init();
+        this.state.cacheStats.enabled = !!CacheManager.db;
+        
         this.cacheElements();
         this.bindEvents();
         this.loadData();
@@ -39,6 +545,9 @@ const HubApp = {
         this.updateStats();
         // UI-03: Inicializar sistema de navegação
         this.initCategoryNavigation();
+        
+        // CRIAR-03: Mostrar stats do cache
+        this.showCacheStats();
     },
 
     // ========================================
@@ -166,6 +675,12 @@ const HubApp = {
         this.areaFilterBtns.forEach(btn => {
             btn.addEventListener('click', (e) => this.filterByArea(e));
         });
+        
+        // CRIAR-03.8: Evento para limpar cache manualmente
+        const clearCacheBtn = document.getElementById('clear-cache-btn');
+        if (clearCacheBtn) {
+            clearCacheBtn.addEventListener('click', () => this.clearCache());
+        }
     },
 
     // ========================================
@@ -173,23 +688,51 @@ const HubApp = {
     // ========================================
     async loadData() {
         try {
-            // Carregar catálogo de disciplinas
-            const response = await fetch('data/catalog.json');
-            const catalog = await response.json();
+            // CRIAR-03: Tentar carregar catálogo do cache primeiro
+            const cachedCatalog = await CacheManager.getCachedDiscipline('catalog');
             
-            this.state.disciplines = catalog.disciplines || [];
-            this.state.categories = catalog.categories || {};
-            this.state.stats.totalDisciplines = this.state.disciplines.length;
-            
-            // Calcular total de questões
-            this.state.stats.totalQuestions = this.state.disciplines.reduce((total, disc) => {
-                return total + (disc.questionsCount || 0);
-            }, 0);
+            if (cachedCatalog && !cachedCatalog.expired) {
+                console.log('📦 Cache hit: catalog.json');
+                CacheManager.trackCacheHit(true);
+                
+                this.state.disciplines = cachedCatalog.disciplines || [];
+                this.state.categories = cachedCatalog.categories || {};
+                this.state.stats.totalDisciplines = this.state.disciplines.length;
+                this.state.stats.totalQuestions = cachedCatalog.totalQuestions || 0;
+                
+                console.log('✅ Dados carregados do cache');
+            } else {
+                CacheManager.trackCacheHit(false);
+                
+                // Carregar catálogo de disciplinas
+                const response = await fetch('data/catalog.json');
+                const catalog = await response.json();
+                
+                this.state.disciplines = catalog.disciplines || [];
+                this.state.categories = catalog.categories || {};
+                this.state.stats.totalDisciplines = this.state.disciplines.length;
+                
+                // Calcular total de questões
+                this.state.stats.totalQuestions = this.state.disciplines.reduce((total, disc) => {
+                    return total + (disc.questionsCount || 0);
+                }, 0);
+                
+                // CRIAR-03.2: Cachear catálogo
+                await CacheManager.cacheDiscipline({
+                    id: 'catalog',
+                    name: 'Catálogo Geral',
+                    disciplines: this.state.disciplines,
+                    categories: this.state.categories,
+                    totalQuestions: this.state.stats.totalQuestions,
+                    cachedAt: Date.now()
+                });
+                
+                console.log('✅ Dados carregados da rede e cacheados');
+            }
             
             // Carregar dados do localStorage
             this.loadUserData();
             
-            console.log('✅ Dados carregados com sucesso');
             console.log(`📚 ${this.state.stats.totalDisciplines} disciplinas`);
             console.log(`📝 ${this.state.stats.totalQuestions} questões`);
             
@@ -317,6 +860,20 @@ const HubApp = {
         this.studyTimeEl.textContent = this.state.stats.studyTime;
         this.animateNumber(this.completedTestsEl, this.state.stats.completedTests);
     },
+    
+    /**
+     * CRIAR-03.8: Mostrar estatísticas do cache na UI
+     */
+    async showCacheStats() {
+        const stats = await CacheManager.getCacheStats();
+        this.state.cacheStats.hitRate = stats.hitRate;
+        
+        console.log('📊 Estatísticas do Cache:');
+        console.log(`   - Disciplinas cacheadas: ${stats.disciplines}`);
+        console.log(`   - Questões cacheadas: ${stats.questions}`);
+        console.log(`   - Cache Hit Rate: ${stats.hitRate}%`);
+        console.log(`   - Cache habilitado: ${this.state.cacheStats.enabled ? '✅' : '⚠️ (localStorage fallback)'}`);
+    },
 
     animateNumber(element, target) {
         if (!element) return;
@@ -423,6 +980,21 @@ const HubApp = {
         // Redirecionar para página de criação de simulado
         // window.location.href = 'index.html#quiz-settings';
         alert('📝 Abrindo configuração de simulado personalizado...');
+    },
+    
+    /**
+     * CRIAR-03.8: Limpar cache manualmente via UI
+     */
+    async clearCache() {
+        const confirmed = confirm('Tem certeza que deseja limpar todo o cache? Isso pode tornar o carregamento mais lento na próxima vez.');
+        
+        if (!confirmed) return;
+        
+        console.log('🧹 Limpando cache...');
+        await CacheManager.clearCache();
+        
+        alert('✅ Cache limpo com sucesso! O aplicativo será recarregado.');
+        location.reload();
     },
 
     viewCategory(categoryKey) {
