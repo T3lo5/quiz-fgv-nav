@@ -127,6 +127,29 @@
                                 <label for="review-completed">Incluir apenas questões com gabarito:</label>
                                 <input type="checkbox" id="review-completed" checked>
                             </div>
+                            
+                            <!-- Filtros Avançados - Tarefa 2.2 KANBAN -->
+                            <div class="option-group">
+                                <label for="review-subject">Matéria:</label>
+                                <select id="review-subject">
+                                    <option value="">Todas as matérias</option>
+                                    <!-- Preenchido dinamicamente -->
+                                </select>
+                            </div>
+                            <div class="option-group">
+                                <label for="review-difficulty">Dificuldade:</label>
+                                <select id="review-difficulty">
+                                    <option value="">Todas as dificuldades</option>
+                                    <option value="Fácil">Fácil</option>
+                                    <option value="Médio">Médio</option>
+                                    <option value="Difícil">Difícil</option>
+                                </select>
+                            </div>
+                            <div class="option-group">
+                                <label for="review-keyword">Busca por palavra-chave:</label>
+                                <input type="text" id="review-keyword" placeholder="Digite um termo para buscar...">
+                            </div>
+                            
                             <button id="start-review" class="btn primary">Iniciar Revisão Rápida</button>
                         </div>
                             <div class="option-group">
