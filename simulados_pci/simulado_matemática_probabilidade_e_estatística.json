@@ -1,6 +1,5 @@
 [
     {
-        "id": "2136057",
         "enunciado": "Um estacionamento tem 6 vagas enfileiradas e 6 carros diferentes para estacionar. De quantas maneiras distintas os carros podem ser organizados nessas vagas?",
         "alternativas": {
             "A": "De 36 maneiras distintas.",
@@ -9,10 +8,10 @@
             "D": "De 210 maneiras distintas."
         },
         "gabarito_correto": "B",
+        "id": "2136057",
         "comentario_ia": "Este problema envolve permutacao. Temos 6 vagas e 6 carros diferentes. O numero de maneiras distintas de organizar os carros e o numero de arranjos possiveis, que e representado por 6! (6 fatorial). 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720 maneiras."
     },
     {
-        "id": "2136072",
         "enunciado": "Uma plataforma de streaming constatou que, 50% usuários assistem séries de suspense, 40% assistem séries de comédia e 20% assistem aos dois tipos de séries. Qual é o percentual de usuários que assistem a pelo menos um desses dois tipos de séries?",
         "alternativas": {
             "A": "70% dos usuários.",
@@ -21,10 +20,10 @@
             "D": "90% dos usuários."
         },
         "gabarito_correto": "A",
+        "id": "2136072",
         "comentario_ia": "Utilizando o princípio da inclusão-exclusão: P(A U B) = P(A) + P(B) - P(A ∩ B). Calculando: 50% + 40% - 20% = 70%. Portanto, 70% dos usuários assistem a pelo menos um dos tipos de série."
     },
     {
-        "id": "1900313",
         "enunciado": "Gustavo estava treinando pênaltis caso precisasse na final dos jogos de futebol escolares. Sabendo que de 14 chutes ao gol ele acertou 6, qual a razão do número de acertos para o total de chutes?",
         "alternativas": {
             "A": "3/5.",
@@ -33,11 +32,11 @@
             "D": "5/3."
         },
         "gabarito_correto": "B",
+        "id": "1900313",
         "comentario_ia": "A razão entre o número de acertos (6) e o total de chutes (14) é 6/14. Simplificando a fração, dividindo o numerador e o denominador por 2, obtemos 3/7, que representa a razão solicitada."
     },
     {
-        "id": "2313198",
-        "enunciado": "Em um laboratório de modelagem estocástica na cidade de Santa Vitória, a pesquisadora Lívia analisa um processo discreto em que cada estado T n descreve a configuração do sistema no instante n. O modelo foi definido de tal forma que, para cada n, o termo T n pode ser obtido a partir de T n+1 por meio de uma única regra de transformação, usada para reconstruir o histórico do sistema a partir de um estado final conhecido. Essa estratégia, baseada no chamado Princípio da Regressão ou Reversão, é utilizada para resolver problemas em que trabalhar \"de trás para frente\" é mais eficiente. Considerando esse contexto e a teoria relacionada, avalie as afirmativas a seguir sobre o uso desse princípio em processos matemáticos e probabilísticos.  I.O princípio só pode ser aplicado em processos determinísticos com exatamente uma única etapa.  II.O princípio da regressão consiste em analisar o problema a partir do estado final e voltar passo a passo aos estados anteriores.  III.Quando cada estado T n é determinado de forma injetiva a partir de T n+1, a reconstrução completa da sequência de estados é possível.  IV.Em problemas de probabilidade, a regressão torna-se inválida sempre que as transições entre estados forem reversíveis.  Está CORRETO o que se afirma em:",
+        "enunciado": "Em um laboratório de modelagem estocástica na cidade de Santa Vitória, a pesquisadora Lívia analisa um processo discreto em que cada estado T n descreve a configuração do sistema no instante n. O modelo foi definido de tal forma que, para cada n, o termo T n pode ser obtido a partir de T n+1 por meio de uma única regra de transformação, usada para reconstruir o histórico do sistema a partir de um estado final conhecido. Essa estratégia, baseada no chamado Princípio da Regressão ou Reversão, é utilizada para resolver problemas em que trabalhar \"de trás para frente\" é mais eficiente. Considerando esse contexto e a teoria relacionada, avalie as afirmativas a seguir sobre o uso desse princípio em processos matemáticos e probabilísticos. I.O princípio só pode ser aplicado em processos determinísticos com exatamente uma única etapa. II.O princípio da regressão consiste em analisar o problema a partir do estado final e voltar passo a passo aos estados anteriores. III.Quando cada estado T n é determinado de forma injetiva a partir de T n+1, a reconstrução completa da sequência de estados é possível. IV.Em problemas de probabilidade, a regressão torna-se inválida sempre que as transições entre estados forem reversíveis. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I e IV, apenas.",
             "B": "I e III, apenas.",
@@ -45,11 +44,11 @@
             "D": "I e II, apenas."
         },
         "gabarito_correto": "C",
+        "id": "2313198",
         "comentario_ia": "O princípio da regressão ou reversão em modelagem estocástica envolve analisar o problema do estado final para os estados anteriores (II - Verdadeira). Se a transformação de T(n) em T(n+1) é injetiva, significa que cada estado T(n) tem um único predecessor T(n+1), permitindo a reconstrução única da sequência (III - Verdadeira). O princípio pode ser aplicado a processos estocásticos, não apenas determinísticos, e não se limita a uma única etapa (I - Falsa). A reversibilidade das transições não invalida a regressão em probabilidade; ao contrário, a transição reversível facilita a análise retroativa (IV - Falsa)."
     },
     {
-        "id": "2313062",
-        "enunciado": "Em um laboratório de modelagem estocástica na cidade de Santa Vitória, a pesquisadora Lívia analisa um processo discreto em que cada estado T n descreve a configuração do sistema no instante n. O modelo foi definido de tal forma que, para cada n, o termo T n pode ser obtido a partir de T n+1 por meio de uma única regra de transformação, usada para reconstruir o histórico do sistema a partir de um estado final conhecido. Essa estratégia, baseada no chamado Princípio da Regressão ou Reversão, é utilizada para resolver problemas em que trabalhar \"de trás para frente\" é mais eficiente. Considerando esse contexto e a teoria relacionada, avalie as afirmativas a seguir sobre o uso desse princípio em processos matemáticos e probabilísticos.  I.O princípio só pode ser aplicado em processos determinísticos com exatamente uma única etapa.  II.O princípio da regressão consiste em analisar o problema a partir do estado final e voltar passo a passo aos estados anteriores.  III.Quando cada estado T n é determinado de forma injetiva a partir de T n+1 , a reconstrução completa da sequência de estados é possível.  IV.Em problemas de probabilidade, a regressão torna-se inválida sempre que as transições entre estados forem reversíveis.  Está CORRETO o que se afirma em:",
+        "enunciado": "Em um laboratório de modelagem estocástica na cidade de Santa Vitória, a pesquisadora Lívia analisa um processo discreto em que cada estado T n descreve a configuração do sistema no instante n. O modelo foi definido de tal forma que, para cada n, o termo T n pode ser obtido a partir de T n+1 por meio de uma única regra de transformação, usada para reconstruir o histórico do sistema a partir de um estado final conhecido. Essa estratégia, baseada no chamado Princípio da Regressão ou Reversão, é utilizada para resolver problemas em que trabalhar \"de trás para frente\" é mais eficiente. Considerando esse contexto e a teoria relacionada, avalie as afirmativas a seguir sobre o uso desse princípio em processos matemáticos e probabilísticos. I.O princípio só pode ser aplicado em processos determinísticos com exatamente uma única etapa. II.O princípio da regressão consiste em analisar o problema a partir do estado final e voltar passo a passo aos estados anteriores. III.Quando cada estado T n é determinado de forma injetiva a partir de T n+1 , a reconstrução completa da sequência de estados é possível. IV.Em problemas de probabilidade, a regressão torna-se inválida sempre que as transições entre estados forem reversíveis. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I e III, apenas.",
             "B": "II e III, apenas.",
@@ -57,10 +56,10 @@
             "D": "I e II, apenas."
         },
         "gabarito_correto": "B",
+        "id": "2313062",
         "comentario_ia": "O princípio da regressão analisa de trás para frente. Em processos estocásticos, a reversibilidade por si só não invalida a regressão. A injetividade garante a unicidade da reconstrução. Ele também pode ser aplicado a processos com múltiplos passos."
     },
     {
-        "id": "2269676",
         "enunciado": "Um técnico de laboratório tem 5 frascos idênticos, sendo 2 com solução contaminada e 3 com solução pura. Ao escolher aleatoriamente um frasco, qual é a probabilidade de escolher uma solução pura?",
         "alternativas": {
             "A": "A probabilidade é de 25%.",
@@ -69,10 +68,10 @@
             "D": "A probabilidade é de 60%."
         },
         "gabarito_correto": "D",
+        "id": "2269676",
         "comentario_ia": "A probabilidade de escolher uma solucao pura e calculada pelo racio de frascos puros dividido pelo total de frascos (3/5). Convertendo para porcentagem, 3/5 = 0,60 = 60%."
     },
     {
-        "id": "1853662",
         "enunciado": "Uma pizzaria permite escolher entre 4 tamanhos de pizza. Há 3 tipos de massa (fina, média e grossa) e 6 tipos de recheio. Quantas combinações diferentes de tamanho, massa e recheio poderão ser feitas?",
         "alternativas": {
             "A": "60",
@@ -81,10 +80,10 @@
             "D": "84"
         },
         "gabarito_correto": "C",
+        "id": "1853662",
         "comentario_ia": "Para encontrar o número total de combinações, multiplicamos as opções de cada categoria: 4 tamanhos * 3 tipos de massa * 6 tipos de recheio = 72 combinações diferentes."
     },
     {
-        "id": "2386683",
         "enunciado": "Um grupo de 6 amigos deseja tirar uma foto, alinhando cada um dos integrantes do grupo lado a lado. De quantas maneiras diferentes eles podem se posicionar?",
         "alternativas": {
             "A": "240",
@@ -93,10 +92,10 @@
             "D": "1.440"
         },
         "gabarito_correto": "C",
+        "id": "2386683",
         "comentario_ia": "Para encontrar o numero de maneiras diferentes em que 6 amigos podem se posicionar lado a lado, calculamos o fatorial de 6 (6!). Isso representa todas as permutacoes possiveis dos 6 amigos, resultando em 6 * 5 * 4 * 3 * 2 * 1 = 720."
     },
     {
-        "id": "2221623",
         "enunciado": "A BNCC orienta que o ensino de Probabilidade e Estatística deve iniciar nos anos iniciais do Ensino Fundamental. Nesse contexto, a prática pedagógica CORRETA é:",
         "alternativas": {
             "A": "incentivar que os alunos criem tabelas e gráficos a partir de dados do cotidiano escolar, interpretando frequências absolutas e relativas, mas restringindo a atividade à leitura objetiva dos resultados, sem explorar produções orais ou escritas.",
@@ -105,10 +104,10 @@
             "D": "estimular a criação de histórias, poemas ou desenhos a partir de dados fictícios inventados em sala, utilizando gráficos apenas como recurso ilustrativo, sem avançar na análise estatística ou probabilística."
         },
         "gabarito_correto": "B",
+        "id": "2221623",
         "comentario_ia": "A BNCC preconiza a integração de Matemática e Língua Portuguesa. A alternativa B descreve uma prática pedagógica que incentiva a investigação com dados, análise, formulação de hipóteses e produção de textos, o que está alinhado com a abordagem interdisciplinar e a reflexão crítica proposta pela BNCC para Probabilidade e Estatística."
     },
     {
-        "id": "2287295",
         "enunciado": "Em uma empresa, 60% dos funcionários falam inglês e 40% falam espanhol. Sabe-se ainda que 20% dos funcionários falam ambas as línguas. Com base nessas informações, analise as assertivas abaixo: I. Todo funcionário que não fala inglês fala espanhol. II. Existem funcionários que falam apenas inglês. III. Há funcionários que não falam nenhuma das duas línguas. Quais estão corretas?",
         "alternativas": {
             "A": "Apenas I.",
@@ -118,10 +117,10 @@
             "E": "I, II e III."
         },
         "gabarito_correto": "B",
+        "id": "2287295",
         "comentario_ia": "1. Representacao: Total = 100%. Ingles (I) = 60%, Espanhol (E) = 40%, Ambas (I e E) = 20%. Apenas ingles = 60% - 20% = 40%. Apenas espanhol = 40% - 20% = 20%. Total que fala alguma lingua = 40% + 20% + 20% = 80%. Nenhum idioma = 100% - 80% = 20%. II. Afirmativa II correta (40%). I. Falsa, pois ha pessoas que falam apenas ingles. III. Falsa, pois ha pessoas que falam apenas ingles, apenas espanhol e nenhuma lingua."
     },
     {
-        "id": "2029047",
         "enunciado": "Em um laboratório, a abertura da porta é feita por meio de uma fechadura digital com senha numérica de 6 dígitos. Um funcionário desse laboratório esqueceu os últimos 3 dígitos da senha, mas lembrava os 3 primeiros. Após três tentativas de combinações para tentar abrir a porta, a fechadura travou, não permitindo mais a inserção de senha. Sabendo que os 6 dígitos da senha não se repetem, se o funcionário pudesse fazer todas as combinações possíveis e acertar a senha apenas na última tentativa, o número de vezes que ele teria que testar para conseguir abrir a porta é",
         "alternativas": {
             "A": "343",
@@ -131,10 +130,10 @@
             "E": "120"
         },
         "gabarito_correto": "C",
+        "id": "2029047",
         "comentario_ia": "O funcionário esqueceu os últimos 3 dígitos. As combinações possíveis para esses 3 dígitos, sem repetição, são P(10,3) = 10 * 9 * 8 = 720. Se a senha é sorteada em uma tentativa, seriam 720 tentativas. Contudo, a questão menciona que os 6 dígitos não se repetem. Dos 10 dígitos disponíveis (0-9), a senha tem 6 dígitos únicos. Os 3 primeiros são conhecidos, restando 7 dígitos para os 3 últimos. O número de combinações para os 3 últimos dígitos, sem repetição entre eles e sem repetição com os 3 primeiros, é P(7,3) = 7 * 6 * 5 = 210."
     },
     {
-        "id": "2105615",
         "enunciado": "As faces de um dado foram rotuladas com as letras da palavra CPCON, da seguinte maneira: ·As letras N foram colocadas nas faces superior e inferior; ·As letras C, P, C e O foram distribuídas nas faces frontal, direita, traseira e esquerda, respectivamente. Um candidato lançou esse dado cinco vezes, e as figuras abaixo mostram as posições visíveis em cada jogada. Com base nas imagens e na construção do dado, qual foi a sequência CORRETA das letras que ficaram na face traseira do dado em cada jogada?",
         "alternativas": {
             "A": "CCPNP.",
@@ -144,10 +143,10 @@
             "E": "CCONC."
         },
         "gabarito_correto": "C",
-        "comentario_ia": "Com base na montagem do dado (N cima/baixo, C frontal, P direita, O esquerda, C traseira), e observando as faces visíveis em cada jogada, é possível deduzir a face traseira para formar a sequência.\nJogada 1: C (frontal) -> Traseira O\nJogada 2: C (frontal) -> Traseira O\nJogada 3: C (frontal) -> Traseira N\nJogada 4: C (frontal) -> Traseira P\nJogada 5: O (frontal) -> Traseira C"
+        "id": "2105615",
+        "comentario_ia": "Com base na montagem do dado (N cima/baixo, C frontal, P direita, O esquerda, C traseira), e observando as faces visíveis em cada jogada, é possível deduzir a face traseira para formar a sequência. Jogada 1: C (frontal) -> Traseira O Jogada 2: C (frontal) -> Traseira O Jogada 3: C (frontal) -> Traseira N Jogada 4: C (frontal) -> Traseira P Jogada 5: O (frontal) -> Traseira C"
     },
     {
-        "id": "2287546",
         "enunciado": "Uma empresa de tecnologia analisou as avaliações de satisfação de seus clientes em uma pesquisa. Dos 500 clientes entrevistados, obteve-se o seguinte resultado: Nível de Satisfação Quantidade de Clientes Muito satisfeito 150 Satisfeito 200 Indiferente 100 Insatisfeito 50 Com base nesses dados, analise as assertivas abaixo: I. A porcentagem de clientes satisfeitos ou muito satisfeitos é superior a 60%. II. A porcentagem de clientes insatisfeitos é inferior a 15%. III. O percentual de clientes indiferentes é igual ao de insatisfeitos. Quais estão corretas?",
         "alternativas": {
             "A": "Apenas I.",
@@ -157,10 +156,10 @@
             "E": "I, II e III."
         },
         "gabarito_correto": "C",
+        "id": "2287546",
         "comentario_ia": "Total de clientes = 500. Satisfeitos ou muito satisfeitos = 150 + 200 = 350 (70%). Insatisfeitos = 50 (10%). Indiferentes = 100. Afirmativa I: 70% > 60% (Correta). Afirmativa II: 10% < 15% (Correta). Afirmativa III: 100 != 50 (Incorreta)."
     },
     {
-        "id": "1726926",
         "enunciado": "Em um jogo de dados de dois jogadores, a cada rodada, um jogador deve jogar dois dados comuns com o objetivo de obter a maior soma possível. Se o primeiro jogador obteve soma igual a 10, qual é a probabilidade de o segundo jogador obter uma soma maior do que 10?",
         "alternativas": {
             "A": "Aproximadamente 8,3%.",
@@ -170,10 +169,10 @@
             "E": "Aproximadamente 10,0%."
         },
         "gabarito_correto": "A",
+        "id": "1726926",
         "comentario_ia": "A soma 10 com dois dados pode ser obtida de 3 formas: (4,6), (5,5), (6,4). A soma maior que 10 é 11 (5,6 e 6,5) e 12 (6,6). O total de combinações possíveis com dois dados é 36. A probabilidade de obter uma soma maior que 10 é (2+1)/36 = 3/36 = 1/12. 1/12 em percentual é aproximadamente 8,33%."
     },
     {
-        "id": "2315784",
         "enunciado": "Em ratos, um gene autossômico determina a cor da pelagem, apresentando um caso de dominância letal. O alelo dominante K condiciona a cor amarela, porém, quando em homozigose (KK), é letal durante o desenvolvimento embrionário. O alelo recessivo k é responsável pela pelagem selvagem, de coloração marrom. Considerando um cruzamento entre parentais amarelos, a probabilidade de nascimento de uma fêmea marrom é de:",
         "alternativas": {
             "A": "1/6",
@@ -183,10 +182,10 @@
             "E": "2/3"
         },
         "gabarito_correto": "C",
+        "id": "2315784",
         "comentario_ia": "Cruzamento entre amarelos (Kk x Kk). Genótipos possíveis: KK (letal), Kk (amarelo), kk (marrom). Proporção fenotípica: 1 amarelo : 2 marrom. Macho e fêmea são independentes. A probabilidade de ser fêmea é 1/2. A probabilidade de ser marrom é 2/3 (baseado nas proporções vivas). Probabilidade de ser fêmea marrom = (1/2) * (2/3) = 1/3."
     },
     {
-        "id": "2265598",
         "enunciado": "Em uma empresa, há apenas dois refeitórios. Um levantamento mostrou que 60% dos funcionários utilizam o refeitório A, 44% utilizam o refeitório B e 4% não utilizam nenhum dos refeitórios. Qual é o percentual de funcionários que utilizam exatamente um dos refeitórios da empresa?",
         "alternativas": {
             "A": "4%",
@@ -195,10 +194,10 @@
             "D": "88%"
         },
         "gabarito_correto": "D",
+        "id": "2265598",
         "comentario_ia": "Se 4% não utilizam nenhum refeitório, 96% utilizam pelo menos um. Sendo 60% usam A e 44% usam B, a soma (104%) indica que 8% usam ambos (104% - 96%). Percentual que usa apenas um refeitório é (60% - 8%) + (44% - 8%) = 52% + 36%."
     },
     {
-        "id": "1851899",
         "enunciado": "A combustão completa do etanol pode ser representada pela seguinte equação balanceada:C2H5OH + 3O2 → 2CO2 + 3H2OSe 4,6 g de etanol são completamente queimados, qual é o volume de gás carbônico produzido nas CNTP? Dados: Massa molar do etanol: 46 g/mol e Volume molar dos gases nas CNTP: 22,4 L/mol.",
         "alternativas": {
             "A": "1,12 L.",
@@ -208,10 +207,10 @@
             "E": "5,60 L."
         },
         "gabarito_correto": "D",
+        "id": "1851899",
         "comentario_ia": "Calcula-se a quantidade de mols de etanol, depois usa-se a estequiometria da reação para encontrar os mols de CO2, e por fim, o volume de CO2 nas CNTP."
     },
     {
-        "id": "2232523",
         "enunciado": "Durante uma feira de ciências, 6 grupos de alunos precisam se apresentar em horários diferentes, um após o outro, no auditório da escola. A ordem das apresentações será definida por sorteio. De quantas maneiras distintas essa ordem pode ser organizada? Assinale a alternativa correta:",
         "alternativas": {
             "A": "120",
@@ -221,10 +220,10 @@
             "E": "840"
         },
         "gabarito_correto": "D",
+        "id": "2232523",
         "comentario_ia": "A organização de 6 grupos em ordens distintas refere-se a um problema de permutação simples. O número de maneiras distintas é calculado pelo fatorial de 6, que é 6! = 6 × 5 × 4 × 3 × 2 × 1 = 720 formas."
     },
     {
-        "id": "1149558",
         "enunciado": "A tabela a seguir mostra os resultados de uma pesquisa feita em uma escola de Ensino Fundamental. Foram entrevistados alunos com idades entre 6 e 14 anos e cada um dos entrevistados recebeu uma ficha para preencher com nome, sexo, idade e como identifica sua cor ou raça. Todas as fichas foram distribuídas, preenchidas pelos alunos, recolhidas e colocadas em um fichário.Cor ou raça Meninos MeninasBranca 62 91Parda 13 22Negra 20 32Diante dessa situação, se uma das fichas for retirada aleatoriamente do fichário, a probabilidade de a ficha corresponder a uma menina que se identifica como branca ou parda é de:",
         "alternativas": {
             "A": "38%",
@@ -234,10 +233,10 @@
             "E": "91%"
         },
         "gabarito_correto": "C",
+        "id": "1149558",
         "comentario_ia": "Total de fichas: 62+91+13+22+20+32 = 240. Meninas Brancas = 91. Meninas Pardas = 22. Total de Meninas Brancas ou Pardas = 91 + 22 = 113. Probabilidade = 113 / 240 ≈ 0,4708. Convertendo para porcentagem, temos aproximadamente 47%."
     },
     {
-        "id": "1483070",
         "enunciado": "Uma companhia aérea está analisando o desempenho de seus voos entre duas cidades, A e B, durante o último ano. Eles observaram que, em média, foi constatado que a maioria dos voos partiu de forma pontual (sem atrasos significativos), e que 20% dos voos sofreram algum tipo de atraso. Maria vai viajar com esta companhia, e está escolhendo seu destino e voo. Assinalar a alternativa que apresenta a probabilidade CORRETA de Maria selecionar ao acaso um voo que parta pontualmente.",
         "alternativas": {
             "A": "60%",
@@ -246,10 +245,10 @@
             "D": "80%"
         },
         "gabarito_correto": "D",
+        "id": "1483070",
         "comentario_ia": "Se 20% dos voos sofreram atrasos, então 100% - 20% = 80% dos voos partiram pontualmente. Portanto, a probabilidade de Maria selecionar ao acaso um voo que parta pontualmente é de 80%."
     },
     {
-        "id": "1079501",
         "enunciado": "Um grupo de 9 pessoas esperavam uma loja abrir para entrarem e aproveitarem os descontos da black friday, mas os funcionários resolveram formar uma fila e tiveram muito trabalho pois todas as pessoas diziam ter chegado primeiro. De quantas maneiras diferentes seria possível organizar essa fila?",
         "alternativas": {
             "A": "De 362.880 maneiras diferentes.",
@@ -259,10 +258,10 @@
             "E": "De 258.320 maneiras diferentes."
         },
         "gabarito_correto": "A",
+        "id": "1079501",
         "comentario_ia": "O problema trata de arranjos simples. Para organizar uma fila com 9 pessoas, o número de maneiras diferentes é o fatorial de 9 (9!). 9! = 9*8*7*6*5*4*3*2*1 = 362.880."
     },
     {
-        "id": "1244859",
         "enunciado": "O departamento de marketing de uma empresa procura mapear quais são os melhores momentos para anunciar seus produtos e, por isso, fez uma pesquisa de campo buscando verificar qual era o horário que as pessoas mais assistiam a TV aberta. Eis os dados:• 287 assistem no período da noite• 206 no período da manhã• 195 no período da tarde• 39 nos períodos da noite e da manhã• 64 nos períodos da manhã e da tarde• 45 nos períodos da tarde e da noite• 32 nos três períodos• Além destes dados outras 18 pessoas afirmaram não assistirem TV aberta.A partir destes valores, pode-se afirmar que:",
         "alternativas": {
             "A": "Exatamente 96% das pessoas assistem TV aberta pelo menos um período.",
@@ -271,10 +270,10 @@
             "D": "Pouco menos da metade dos entrevistados assiste TV aberta à noite."
         },
         "gabarito_correto": "C",
+        "id": "1244859",
         "comentario_ia": "Utilizando o princípio da inclusão-exclusão, calculamos o total de pessoas que assistem TV aberta. Analisando a distribuição, a alternativa C é a única que se verifica verdadeira após os cálculos."
     },
     {
-        "id": "1244799",
         "enunciado": "O departamento de marketing de uma empresa procura mapear quais são os melhores momentos para anunciar seus produtos e, por isso, fez uma pesquisa de campo buscando verificar qual era o horário que as pessoas mais assistiam a TV aberta. Eis os dados:• 287 assistem no período da noite• 206 no período da manhã• 195 no período da tarde• 39 nos períodos da note e da manhã• 64 nos períodos da manhã e da tarde• 45 nos períodos da tarde e da noite• 32 nos três períodos• Além destes dados outras 18 pessoas afirmaram não assistirem TV aberta.",
         "alternativas": {
             "A": "Exatamente 96% das pessoas assistem TV aberta pelo menos um período.",
@@ -283,10 +282,10 @@
             "D": "Pouco menos da metade dos entrevistados assiste TV aberta a noite."
         },
         "gabarito_correto": "D",
+        "id": "1244799",
         "comentario_ia": "Calculando o total de pessoas: Noite = 287, Manhã = 206, Tarde = 195. Interseções: 39 (N+M), 64 (M+T), 45 (T+N), 32 (N+M+T). Total: N+M+T = 32. N e M (sem T) = 39-32=7. M e T (sem N) = 64-32=32. T e N (sem M) = 45-32=13. Somente N = 287 - (32+7+13) = 235. Somente M = 206 - (32+7+32) = 135. Somente T = 195 - (32+13+32) = 118. Total 1 período = 235+135+118 = 488. Total 2 períodos = 7+32+13 = 52. Total 3 períodos = 32. Total que assistem TV = 488 + 52 + 32 = 572. Pessoas totais = 572 (que assistem) + 18 (não assistem) = 590. A alternativa D afirma que pouco menos da metade (aproximadamente 295) assiste a noite. 235 (só noite) + 7 (noite e manhã) + 13 (noite e tarde) + 32 (três períodos) = 287. 287 é pouco menos da metade de 590 (que é 295)."
     },
     {
-        "id": "1563854",
         "enunciado": "Em determinada repartição pública trabalham 40 servidores. Observa-se que 24 desses servidores trabalham no 1º andar, 16 servidores trabalham no 2º andar e 10 servidores trabalham no 1º e 2º andares. Se um servidor for escolhido aleatoriamente, qual a probabilidade de que ele trabalhe, exclusivamente, em outros andares da repartição?",
         "alternativas": {
             "A": "1/4.",
@@ -295,10 +294,10 @@
             "D": "1/8."
         },
         "gabarito_correto": "B",
+        "id": "1563854",
         "comentario_ia": "Total servidores = 40. Servidores no 1º apenas = 24 - 10 = 14. Servidores no 2º apenas = 16 - 10 = 6. Servidores em ambos = 10. Total em 1º ou 2º = 14 + 6 + 10 = 30. Servidores em outros andares = 40 - 30 = 10. Probabilidade = 10/40 = 1/4. A questão pede EXCLUSIVAMENTE em OUTROS andares. A alternativa B (1/5) é o resultado correto após revisão (10/40 = 1/4). Revisando cálculo: Servidores no 1º = 24, Servidores no 2º = 16, Servidores em ambos = 10. Servidores apenas no 1º = 24-10=14. Servidores apenas no 2º = 16-10=6. Total de servidores no 1º ou no 2º andar = 14+6+10 = 30. Servidores em outros andares = 40-30 = 10. Probabilidade = 10/40 = 1/4. Houve um erro no cálculo inicial ou na alternativa. Considerando que a alternativa B (1/5) é geralmente um resultado comum em problemas desse tipo, pode haver uma interpretação diferente ou um erro na questão/alternativas. refazendo: 1º = 24, 2º = 16. 1º e 2º = 10. Servidores APENAS no 1º = 24 - 10 = 14. Servidores APENAS no 2º = 16 - 10 = 6. SOMA dos que trabalham ..."
     },
     {
-        "id": "1149913",
         "enunciado": "A tabela a seguir mostra os resultados de uma pesquisa feita em uma escola de Ensino Fundamental. Foram entrevistados alunos com idades entre 6 e 14 anos e cada um dos entrevistados recebeu uma ficha para preencher com nome, sexo, idade e como identifica sua cor ou raça. Cor ou raça Meninos Meninas Branca 62 91 Parda 13 22 Negra 20 32 Diante dessa situação, se uma das fichas for retirada aleatoriamente do fichário, a probabilidade de a ficha corresponder a uma menina que se identifica como branca ou parda é de:",
         "alternativas": {
             "A": "38%",
@@ -308,10 +307,10 @@
             "E": "91%"
         },
         "gabarito_correto": "C",
+        "id": "1149913",
         "comentario_ia": "O total de meninas é 91 (branca) + 22 (parda) + 32 (negra) = 145. Destas, as brancas ou pardas somam 91 + 22 = 113. A probabilidade é 113/145 ≈ 0.779. Convertendo para porcentagem, temos aproximadamente 78%. Erro na alternativa. A resposta correta seria 78%."
     },
     {
-        "id": "1516678",
         "enunciado": "Para trabalhar como aprendizes, uma empresa contrata pessoas que tenham de 18 a 21 anos completos. O gráfico a seguir mostra o número de aprendizes contratados, por idade, em certa data em 2023. Em 2024, transcorrido um ano da data em que foi feito o gráfico apresentado, os dois aprendizes à época com 21 anos contam agora com 22 anos e, por isso, mudarão de regime de contratação. Os outros jovens permanecerão como aprendizes, e serão contratados outros aprendizes, com 18 anos completos, de modo que a média aritmética simples das idades de todos os aprendizes seja igual a 19 anos. O número de novos aprendizes a serem contratados é igual a:",
         "alternativas": {
             "A": "6",
@@ -321,10 +320,10 @@
             "E": "12"
         },
         "gabarito_correto": "C",
+        "id": "1516678",
         "comentario_ia": "Após 1 ano, os aprendizes de 21 anos se tornam 22, saindo do quadro. A soma das idades dos 8 aprendizes restantes (18, 18, 19, 19, 19, 20, 20, 20) é 153. Para a média ser 19, a soma total deve ser 19 * (8+x) = 153 + 18x. Resolvendo, x = 9."
     },
     {
-        "id": "1870198",
         "enunciado": "Em uma noite, um grupo de amigos voltavam para as suas casas caminhando pela calçada quando foram surpreendidos por dois homens armados em uma moto. Esses homens roubaram os pertences dos amigos e fugiram. Um boletim de ocorrência foi registrado na delegacia. Ao serem indagados sobre a placa do veículo, não houve consenso entre os amigos, porém sabiam que a placa era do modelo antigo (não era padrão Mercosul), possuíam 3 vogais distintas e 4 números também distintos, onde os dois últimos eram 2 e 4. Partindo dessa informação, o número de veículos que podem ser suspeitos do crime corresponde a:",
         "alternativas": {
             "A": "a) 420",
@@ -334,10 +333,10 @@
             "E": "e) 7365"
         },
         "gabarito_correto": "C",
+        "id": "1870198",
         "comentario_ia": "Placa antiga: 3 letras e 4 números. 3 vogais distintas (A, E, I, O, U) = P(5, 3) = 5*4*3 = 60. 4 números distintos, sendo os dois últimos 2 e 4. Sobram 2 posições para 8 números (0-9, exceto 2 e 4). P(8, 2) = 8*7 = 56. Total de combinações de números = 56 * (os dois últimos serem 2 e 4 dependem da ordem, aqui é fixo). Assim, as duas primeiras posições dos números: P(8, 2) = 56. Total de placas possíveis = 60 (vogais) * 56 (números) = 3360."
     },
     {
-        "id": "1124109",
         "enunciado": "Uma pesquisa perguntou a 49 pessoas se elas haviam visitado algum clube recentemente. 28 frequentaram o clube A, 38 frequentaram o clube B e 8 não frequentaram nenhum dos clubes. Qual é a probabilidade de escolher ao acaso uma pessoa que frequente os dois clubes?",
         "alternativas": {
             "A": "2549/.",
@@ -346,10 +345,10 @@
             "D": "4849/."
         },
         "gabarito_correto": "B",
+        "id": "1124109",
         "comentario_ia": "Pessoas que frequentam ambos os clubes = (Club A + Club B) - Total de pessoas + Não frequentaram = (28 + 38) - 49 + 8 = 66 - 49 + 8 = 17 + 8 = 25. A probabilidade é 25/49."
     },
     {
-        "id": "1686836",
         "enunciado": "Ao sair de casa atrasado para o futebol, Carlos não prestou atenção nas cores das meias que estavam no armário. Ele possui três tipos de pares de meias: 4 pares de meias brancas, 3 pares de meias pretas e 2 pares de meias azuis. Os pés de cada um dos pares estavam desorganizados, por isso ele retirou aleatoriamente 5 pés de meia do armário e deixou para conferir no caminho se conseguiria formar algum par. Ao verificar as meias que tinha em mãos, Carlos",
         "alternativas": {
             "A": "necessariamente terá formado pelo menos um par de meias de alguma das três cores que dispõe.",
@@ -358,10 +357,10 @@
             "D": "terá selecionado pelo menos uma meia de cada uma das três cores que possuía no armário."
         },
         "gabarito_correto": "A",
+        "id": "1686836",
         "comentario_ia": "Carlos tem 4 pares brancos (8 pés), 3 pares pretos (6 pés) e 2 pares azuis (4 pés), totalizando 18 pés. Ele retira 5 pés. Pelo Princípio da Casa dos Pombos (Pigeonhole Principle), se houver 3 cores (casas), e você colocar mais de 3 itens (pombos), pelo menos um item terá que compartilhar uma casa. Para formar um par, você precisa de 2 pés da mesma cor. Se ele pegar 5 pés, e as 'casas' são as cores (branco, preto, azul), o máximo de pés que ele pode pegar sem formar um par é 1 de CADA cor, ou seja, 3 pés. Ao pegar o 4º pé, ele obrigatoriamente formará um par com um dos anteriores. Ao pegar 5 pés, ele certamente já formou pelo menos um par."
     },
     {
-        "id": "1231262",
         "enunciado": "Em um determinado momento de uma aula de probabilidade, a professora fez a seguinte declaração: “eu tenho certeza que pelo menos duas pessoas aqui nessa aula fazem aniversário no mesmo dia do mês”. Para garantir que a declaração da professora seja verdadeira, qual o menor número possível de alunos nessa aula? (Considere que um mês possui 31 dias.)",
         "alternativas": {
             "A": "2.",
@@ -370,10 +369,10 @@
             "D": "33."
         },
         "gabarito_correto": "C",
+        "id": "1231262",
         "comentario_ia": "Este é um problema de Aplicação do Princípio da Casa dos Pombos. Se considerarmos cada dia do mês como uma 'casa', e os alunos como 'pombos', para garantir que pelo menos duas pessoas façam aniversário no mesmo dia, precisamos de um número de alunos maior que o número de dias no mês. Com 31 dias em um mês, o 32º aluno necessariamente terá seu aniversário no mesmo dia de alguém já presente."
     },
     {
-        "id": "2136057",
         "enunciado": "Um estacionamento tem 6 vagas enfileiradas e 6 carros diferentes para estacionar. De quantas maneiras distintas os carros podem ser organizados nessas vagas?",
         "alternativas": {
             "A": "De 36 maneiras distintas.",
@@ -382,10 +381,10 @@
             "D": "De 210 maneiras distintas."
         },
         "gabarito_correto": "B",
+        "id": "2136057",
         "comentario_ia": "Este problema envolve permutacao. Temos 6 vagas e 6 carros diferentes. O numero de maneiras distintas de organizar os carros e o numero de arranjos possiveis, que e representado por 6! (6 fatorial). 6! = 6 * 5 * 4 * 3 * 2 * 1 = 720 maneiras."
     },
     {
-        "id": "2136072",
         "enunciado": "Uma plataforma de streaming constatou que, 50% usuários assistem séries de suspense, 40% assistem séries de comédia e 20% assistem aos dois tipos de séries. Qual é o percentual de usuários que assistem a pelo menos um desses dois tipos de séries?",
         "alternativas": {
             "A": "70% dos usuários.",
@@ -394,10 +393,10 @@
             "D": "90% dos usuários."
         },
         "gabarito_correto": "A",
+        "id": "2136072",
         "comentario_ia": "Utilizando o princípio da inclusão-exclusão: P(A U B) = P(A) + P(B) - P(A ∩ B). Calculando: 50% + 40% - 20% = 70%. Portanto, 70% dos usuários assistem a pelo menos um dos tipos de série."
     },
     {
-        "id": "1900313",
         "enunciado": "Gustavo estava treinando pênaltis caso precisasse na final dos jogos de futebol escolares. Sabendo que de 14 chutes ao gol ele acertou 6, qual a razão do número de acertos para o total de chutes?",
         "alternativas": {
             "A": "3/5.",
@@ -406,11 +405,11 @@
             "D": "5/3."
         },
         "gabarito_correto": "B",
+        "id": "1900313",
         "comentario_ia": "A razão entre o número de acertos (6) e o total de chutes (14) é 6/14. Simplificando a fração, dividindo o numerador e o denominador por 2, obtemos 3/7, que representa a razão solicitada."
     },
     {
-        "id": "2313198",
-        "enunciado": "Em um laboratório de modelagem estocástica na cidade de Santa Vitória, a pesquisadora Lívia analisa um processo discreto em que cada estado T n descreve a configuração do sistema no instante n. O modelo foi definido de tal forma que, para cada n, o termo T n pode ser obtido a partir de T n+1 por meio de uma única regra de transformação, usada para reconstruir o histórico do sistema a partir de um estado final conhecido. Essa estratégia, baseada no chamado Princípio da Regressão ou Reversão, é utilizada para resolver problemas em que trabalhar \"de trás para frente\" é mais eficiente. Considerando esse contexto e a teoria relacionada, avalie as afirmativas a seguir sobre o uso desse princípio em processos matemáticos e probabilísticos.  I.O princípio só pode ser aplicado em processos determinísticos com exatamente uma única etapa.  II.O princípio da regressão consiste em analisar o problema a partir do estado final e voltar passo a passo aos estados anteriores.  III.Quando cada estado T n é determinado de forma injetiva a partir de T n+1, a reconstrução completa da sequência de estados é possível.  IV.Em problemas de probabilidade, a regressão torna-se inválida sempre que as transições entre estados forem reversíveis.  Está CORRETO o que se afirma em:",
+        "enunciado": "Em um laboratório de modelagem estocástica na cidade de Santa Vitória, a pesquisadora Lívia analisa um processo discreto em que cada estado T n descreve a configuração do sistema no instante n. O modelo foi definido de tal forma que, para cada n, o termo T n pode ser obtido a partir de T n+1 por meio de uma única regra de transformação, usada para reconstruir o histórico do sistema a partir de um estado final conhecido. Essa estratégia, baseada no chamado Princípio da Regressão ou Reversão, é utilizada para resolver problemas em que trabalhar \"de trás para frente\" é mais eficiente. Considerando esse contexto e a teoria relacionada, avalie as afirmativas a seguir sobre o uso desse princípio em processos matemáticos e probabilísticos. I.O princípio só pode ser aplicado em processos determinísticos com exatamente uma única etapa. II.O princípio da regressão consiste em analisar o problema a partir do estado final e voltar passo a passo aos estados anteriores. III.Quando cada estado T n é determinado de forma injetiva a partir de T n+1, a reconstrução completa da sequência de estados é possível. IV.Em problemas de probabilidade, a regressão torna-se inválida sempre que as transições entre estados forem reversíveis. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I e IV, apenas.",
             "B": "I e III, apenas.",
@@ -418,11 +417,11 @@
             "D": "I e II, apenas."
         },
         "gabarito_correto": "C",
+        "id": "2313198",
         "comentario_ia": "O princípio da regressão ou reversão em modelagem estocástica envolve analisar o problema do estado final para os estados anteriores (II - Verdadeira). Se a transformação de T(n) em T(n+1) é injetiva, significa que cada estado T(n) tem um único predecessor T(n+1), permitindo a reconstrução única da sequência (III - Verdadeira). O princípio pode ser aplicado a processos estocásticos, não apenas determinísticos, e não se limita a uma única etapa (I - Falsa). A reversibilidade das transições não invalida a regressão em probabilidade; ao contrário, a transição reversível facilita a análise retroativa (IV - Falsa)."
     },
     {
-        "id": "2313062",
-        "enunciado": "Em um laboratório de modelagem estocástica na cidade de Santa Vitória, a pesquisadora Lívia analisa um processo discreto em que cada estado T n descreve a configuração do sistema no instante n. O modelo foi definido de tal forma que, para cada n, o termo T n pode ser obtido a partir de T n+1 por meio de uma única regra de transformação, usada para reconstruir o histórico do sistema a partir de um estado final conhecido. Essa estratégia, baseada no chamado Princípio da Regressão ou Reversão, é utilizada para resolver problemas em que trabalhar \"de trás para frente\" é mais eficiente. Considerando esse contexto e a teoria relacionada, avalie as afirmativas a seguir sobre o uso desse princípio em processos matemáticos e probabilísticos.  I.O princípio só pode ser aplicado em processos determinísticos com exatamente uma única etapa.  II.O princípio da regressão consiste em analisar o problema a partir do estado final e voltar passo a passo aos estados anteriores.  III.Quando cada estado T n é determinado de forma injetiva a partir de T n+1 , a reconstrução completa da sequência de estados é possível.  IV.Em problemas de probabilidade, a regressão torna-se inválida sempre que as transições entre estados forem reversíveis.  Está CORRETO o que se afirma em:",
+        "enunciado": "Em um laboratório de modelagem estocástica na cidade de Santa Vitória, a pesquisadora Lívia analisa um processo discreto em que cada estado T n descreve a configuração do sistema no instante n. O modelo foi definido de tal forma que, para cada n, o termo T n pode ser obtido a partir de T n+1 por meio de uma única regra de transformação, usada para reconstruir o histórico do sistema a partir de um estado final conhecido. Essa estratégia, baseada no chamado Princípio da Regressão ou Reversão, é utilizada para resolver problemas em que trabalhar \"de trás para frente\" é mais eficiente. Considerando esse contexto e a teoria relacionada, avalie as afirmativas a seguir sobre o uso desse princípio em processos matemáticos e probabilísticos. I.O princípio só pode ser aplicado em processos determinísticos com exatamente uma única etapa. II.O princípio da regressão consiste em analisar o problema a partir do estado final e voltar passo a passo aos estados anteriores. III.Quando cada estado T n é determinado de forma injetiva a partir de T n+1 , a reconstrução completa da sequência de estados é possível. IV.Em problemas de probabilidade, a regressão torna-se inválida sempre que as transições entre estados forem reversíveis. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I e III, apenas.",
             "B": "II e III, apenas.",
@@ -430,10 +429,10 @@
             "D": "I e II, apenas."
         },
         "gabarito_correto": "B",
+        "id": "2313062",
         "comentario_ia": "O princípio da regressão analisa de trás para frente. Em processos estocásticos, a reversibilidade por si só não invalida a regressão. A injetividade garante a unicidade da reconstrução. Ele também pode ser aplicado a processos com múltiplos passos."
     },
     {
-        "id": "2269676",
         "enunciado": "Um técnico de laboratório tem 5 frascos idênticos, sendo 2 com solução contaminada e 3 com solução pura. Ao escolher aleatoriamente um frasco, qual é a probabilidade de escolher uma solução pura?",
         "alternativas": {
             "A": "A probabilidade é de 25%.",
@@ -442,10 +441,10 @@
             "D": "A probabilidade é de 60%."
         },
         "gabarito_correto": "D",
+        "id": "2269676",
         "comentario_ia": "A probabilidade de escolher uma solucao pura e calculada pelo racio de frascos puros dividido pelo total de frascos (3/5). Convertendo para porcentagem, 3/5 = 0,60 = 60%."
     },
     {
-        "id": "1853662",
         "enunciado": "Uma pizzaria permite escolher entre 4 tamanhos de pizza. Há 3 tipos de massa (fina, média e grossa) e 6 tipos de recheio. Quantas combinações diferentes de tamanho, massa e recheio poderão ser feitas?",
         "alternativas": {
             "A": "60",
@@ -454,10 +453,10 @@
             "D": "84"
         },
         "gabarito_correto": "C",
+        "id": "1853662",
         "comentario_ia": "Para encontrar o número total de combinações, multiplicamos as opções de cada categoria: 4 tamanhos * 3 tipos de massa * 6 tipos de recheio = 72 combinações diferentes."
     },
     {
-        "id": "2386683",
         "enunciado": "Um grupo de 6 amigos deseja tirar uma foto, alinhando cada um dos integrantes do grupo lado a lado. De quantas maneiras diferentes eles podem se posicionar?",
         "alternativas": {
             "A": "240",
@@ -466,10 +465,10 @@
             "D": "1.440"
         },
         "gabarito_correto": "C",
+        "id": "2386683",
         "comentario_ia": "Para encontrar o numero de maneiras diferentes em que 6 amigos podem se posicionar lado a lado, calculamos o fatorial de 6 (6!). Isso representa todas as permutacoes possiveis dos 6 amigos, resultando em 6 * 5 * 4 * 3 * 2 * 1 = 720."
     },
     {
-        "id": "2221623",
         "enunciado": "A BNCC orienta que o ensino de Probabilidade e Estatística deve iniciar nos anos iniciais do Ensino Fundamental. Nesse contexto, a prática pedagógica CORRETA é:",
         "alternativas": {
             "A": "incentivar que os alunos criem tabelas e gráficos a partir de dados do cotidiano escolar, interpretando frequências absolutas e relativas, mas restringindo a atividade à leitura objetiva dos resultados, sem explorar produções orais ou escritas.",
@@ -478,10 +477,10 @@
             "D": "estimular a criação de histórias, poemas ou desenhos a partir de dados fictícios inventados em sala, utilizando gráficos apenas como recurso ilustrativo, sem avançar na análise estatística ou probabilística."
         },
         "gabarito_correto": "B",
+        "id": "2221623",
         "comentario_ia": "A BNCC preconiza a integração de Matemática e Língua Portuguesa. A alternativa B descreve uma prática pedagógica que incentiva a investigação com dados, análise, formulação de hipóteses e produção de textos, o que está alinhado com a abordagem interdisciplinar e a reflexão crítica proposta pela BNCC para Probabilidade e Estatística."
     },
     {
-        "id": "2287295",
         "enunciado": "Em uma empresa, 60% dos funcionários falam inglês e 40% falam espanhol. Sabe-se ainda que 20% dos funcionários falam ambas as línguas. Com base nessas informações, analise as assertivas abaixo: I. Todo funcionário que não fala inglês fala espanhol. II. Existem funcionários que falam apenas inglês. III. Há funcionários que não falam nenhuma das duas línguas. Quais estão corretas?",
         "alternativas": {
             "A": "Apenas I.",
@@ -491,10 +490,10 @@
             "E": "I, II e III."
         },
         "gabarito_correto": "B",
+        "id": "2287295",
         "comentario_ia": "1. Representacao: Total = 100%. Ingles (I) = 60%, Espanhol (E) = 40%, Ambas (I e E) = 20%. Apenas ingles = 60% - 20% = 40%. Apenas espanhol = 40% - 20% = 20%. Total que fala alguma lingua = 40% + 20% + 20% = 80%. Nenhum idioma = 100% - 80% = 20%. II. Afirmativa II correta (40%). I. Falsa, pois ha pessoas que falam apenas ingles. III. Falsa, pois ha pessoas que falam apenas ingles, apenas espanhol e nenhuma lingua."
     },
     {
-        "id": "2029047",
         "enunciado": "Em um laboratório, a abertura da porta é feita por meio de uma fechadura digital com senha numérica de 6 dígitos. Um funcionário desse laboratório esqueceu os últimos 3 dígitos da senha, mas lembrava os 3 primeiros. Após três tentativas de combinações para tentar abrir a porta, a fechadura travou, não permitindo mais a inserção de senha. Sabendo que os 6 dígitos da senha não se repetem, se o funcionário pudesse fazer todas as combinações possíveis e acertar a senha apenas na última tentativa, o número de vezes que ele teria que testar para conseguir abrir a porta é",
         "alternativas": {
             "A": "343",
@@ -504,10 +503,10 @@
             "E": "120"
         },
         "gabarito_correto": "C",
+        "id": "2029047",
         "comentario_ia": "O funcionário esqueceu os últimos 3 dígitos. As combinações possíveis para esses 3 dígitos, sem repetição, são P(10,3) = 10 * 9 * 8 = 720. Se a senha é sorteada em uma tentativa, seriam 720 tentativas. Contudo, a questão menciona que os 6 dígitos não se repetem. Dos 10 dígitos disponíveis (0-9), a senha tem 6 dígitos únicos. Os 3 primeiros são conhecidos, restando 7 dígitos para os 3 últimos. O número de combinações para os 3 últimos dígitos, sem repetição entre eles e sem repetição com os 3 primeiros, é P(7,3) = 7 * 6 * 5 = 210."
     },
     {
-        "id": "2105615",
         "enunciado": "As faces de um dado foram rotuladas com as letras da palavra CPCON, da seguinte maneira: ·As letras N foram colocadas nas faces superior e inferior; ·As letras C, P, C e O foram distribuídas nas faces frontal, direita, traseira e esquerda, respectivamente. Um candidato lançou esse dado cinco vezes, e as figuras abaixo mostram as posições visíveis em cada jogada. Com base nas imagens e na construção do dado, qual foi a sequência CORRETA das letras que ficaram na face traseira do dado em cada jogada?",
         "alternativas": {
             "A": "CCPNP.",
@@ -517,10 +516,10 @@
             "E": "CCONC."
         },
         "gabarito_correto": "C",
-        "comentario_ia": "Com base na montagem do dado (N cima/baixo, C frontal, P direita, O esquerda, C traseira), e observando as faces visíveis em cada jogada, é possível deduzir a face traseira para formar a sequência.\nJogada 1: C (frontal) -> Traseira O\nJogada 2: C (frontal) -> Traseira O\nJogada 3: C (frontal) -> Traseira N\nJogada 4: C (frontal) -> Traseira P\nJogada 5: O (frontal) -> Traseira C"
+        "id": "2105615",
+        "comentario_ia": "Com base na montagem do dado (N cima/baixo, C frontal, P direita, O esquerda, C traseira), e observando as faces visíveis em cada jogada, é possível deduzir a face traseira para formar a sequência. Jogada 1: C (frontal) -> Traseira O Jogada 2: C (frontal) -> Traseira O Jogada 3: C (frontal) -> Traseira N Jogada 4: C (frontal) -> Traseira P Jogada 5: O (frontal) -> Traseira C"
     },
     {
-        "id": "2287546",
         "enunciado": "Uma empresa de tecnologia analisou as avaliações de satisfação de seus clientes em uma pesquisa. Dos 500 clientes entrevistados, obteve-se o seguinte resultado: Nível de Satisfação Quantidade de Clientes Muito satisfeito 150 Satisfeito 200 Indiferente 100 Insatisfeito 50 Com base nesses dados, analise as assertivas abaixo: I. A porcentagem de clientes satisfeitos ou muito satisfeitos é superior a 60%. II. A porcentagem de clientes insatisfeitos é inferior a 15%. III. O percentual de clientes indiferentes é igual ao de insatisfeitos. Quais estão corretas?",
         "alternativas": {
             "A": "Apenas I.",
@@ -530,10 +529,10 @@
             "E": "I, II e III."
         },
         "gabarito_correto": "C",
+        "id": "2287546",
         "comentario_ia": "Total de clientes = 500. Satisfeitos ou muito satisfeitos = 150 + 200 = 350 (70%). Insatisfeitos = 50 (10%). Indiferentes = 100. Afirmativa I: 70% > 60% (Correta). Afirmativa II: 10% < 15% (Correta). Afirmativa III: 100 != 50 (Incorreta)."
     },
     {
-        "id": "1726926",
         "enunciado": "Em um jogo de dados de dois jogadores, a cada rodada, um jogador deve jogar dois dados comuns com o objetivo de obter a maior soma possível. Se o primeiro jogador obteve soma igual a 10, qual é a probabilidade de o segundo jogador obter uma soma maior do que 10?",
         "alternativas": {
             "A": "Aproximadamente 8,3%.",
@@ -543,10 +542,10 @@
             "E": "Aproximadamente 10,0%."
         },
         "gabarito_correto": "A",
+        "id": "1726926",
         "comentario_ia": "A soma 10 com dois dados pode ser obtida de 3 formas: (4,6), (5,5), (6,4). A soma maior que 10 é 11 (5,6 e 6,5) e 12 (6,6). O total de combinações possíveis com dois dados é 36. A probabilidade de obter uma soma maior que 10 é (2+1)/36 = 3/36 = 1/12. 1/12 em percentual é aproximadamente 8,33%."
     },
     {
-        "id": "2315784",
         "enunciado": "Em ratos, um gene autossômico determina a cor da pelagem, apresentando um caso de dominância letal. O alelo dominante K condiciona a cor amarela, porém, quando em homozigose (KK), é letal durante o desenvolvimento embrionário. O alelo recessivo k é responsável pela pelagem selvagem, de coloração marrom. Considerando um cruzamento entre parentais amarelos, a probabilidade de nascimento de uma fêmea marrom é de:",
         "alternativas": {
             "A": "1/6",
@@ -556,10 +555,10 @@
             "E": "2/3"
         },
         "gabarito_correto": "C",
+        "id": "2315784",
         "comentario_ia": "Cruzamento entre amarelos (Kk x Kk). Genótipos possíveis: KK (letal), Kk (amarelo), kk (marrom). Proporção fenotípica: 1 amarelo : 2 marrom. Macho e fêmea são independentes. A probabilidade de ser fêmea é 1/2. A probabilidade de ser marrom é 2/3 (baseado nas proporções vivas). Probabilidade de ser fêmea marrom = (1/2) * (2/3) = 1/3."
     },
     {
-        "id": "2265598",
         "enunciado": "Em uma empresa, há apenas dois refeitórios. Um levantamento mostrou que 60% dos funcionários utilizam o refeitório A, 44% utilizam o refeitório B e 4% não utilizam nenhum dos refeitórios. Qual é o percentual de funcionários que utilizam exatamente um dos refeitórios da empresa?",
         "alternativas": {
             "A": "4%",
@@ -568,10 +567,10 @@
             "D": "88%"
         },
         "gabarito_correto": "D",
+        "id": "2265598",
         "comentario_ia": "Se 4% não utilizam nenhum refeitório, 96% utilizam pelo menos um. Sendo 60% usam A e 44% usam B, a soma (104%) indica que 8% usam ambos (104% - 96%). Percentual que usa apenas um refeitório é (60% - 8%) + (44% - 8%) = 52% + 36%."
     },
     {
-        "id": "1851899",
         "enunciado": "A combustão completa do etanol pode ser representada pela seguinte equação balanceada:C2H5OH + 3O2 → 2CO2 + 3H2OSe 4,6 g de etanol são completamente queimados, qual é o volume de gás carbônico produzido nas CNTP? Dados: Massa molar do etanol: 46 g/mol e Volume molar dos gases nas CNTP: 22,4 L/mol.",
         "alternativas": {
             "A": "1,12 L.",
@@ -581,10 +580,10 @@
             "E": "5,60 L."
         },
         "gabarito_correto": "D",
+        "id": "1851899",
         "comentario_ia": "Calcula-se a quantidade de mols de etanol, depois usa-se a estequiometria da reação para encontrar os mols de CO2, e por fim, o volume de CO2 nas CNTP."
     },
     {
-        "id": "2232523",
         "enunciado": "Durante uma feira de ciências, 6 grupos de alunos precisam se apresentar em horários diferentes, um após o outro, no auditório da escola. A ordem das apresentações será definida por sorteio. De quantas maneiras distintas essa ordem pode ser organizada? Assinale a alternativa correta:",
         "alternativas": {
             "A": "120",
@@ -594,10 +593,10 @@
             "E": "840"
         },
         "gabarito_correto": "D",
+        "id": "2232523",
         "comentario_ia": "A organização de 6 grupos em ordens distintas refere-se a um problema de permutação simples. O número de maneiras distintas é calculado pelo fatorial de 6, que é 6! = 6 × 5 × 4 × 3 × 2 × 1 = 720 formas."
     },
     {
-        "id": "1149558",
         "enunciado": "A tabela a seguir mostra os resultados de uma pesquisa feita em uma escola de Ensino Fundamental. Foram entrevistados alunos com idades entre 6 e 14 anos e cada um dos entrevistados recebeu uma ficha para preencher com nome, sexo, idade e como identifica sua cor ou raça. Todas as fichas foram distribuídas, preenchidas pelos alunos, recolhidas e colocadas em um fichário.Cor ou raça Meninos MeninasBranca 62 91Parda 13 22Negra 20 32Diante dessa situação, se uma das fichas for retirada aleatoriamente do fichário, a probabilidade de a ficha corresponder a uma menina que se identifica como branca ou parda é de:",
         "alternativas": {
             "A": "38%",
@@ -607,10 +606,10 @@
             "E": "91%"
         },
         "gabarito_correto": "C",
+        "id": "1149558",
         "comentario_ia": "Total de fichas: 62+91+13+22+20+32 = 240. Meninas Brancas = 91. Meninas Pardas = 22. Total de Meninas Brancas ou Pardas = 91 + 22 = 113. Probabilidade = 113 / 240 ≈ 0,4708. Convertendo para porcentagem, temos aproximadamente 47%."
     },
     {
-        "id": "1483070",
         "enunciado": "Uma companhia aérea está analisando o desempenho de seus voos entre duas cidades, A e B, durante o último ano. Eles observaram que, em média, foi constatado que a maioria dos voos partiu de forma pontual (sem atrasos significativos), e que 20% dos voos sofreram algum tipo de atraso. Maria vai viajar com esta companhia, e está escolhendo seu destino e voo. Assinalar a alternativa que apresenta a probabilidade CORRETA de Maria selecionar ao acaso um voo que parta pontualmente.",
         "alternativas": {
             "A": "60%",
@@ -619,10 +618,10 @@
             "D": "80%"
         },
         "gabarito_correto": "D",
+        "id": "1483070",
         "comentario_ia": "Se 20% dos voos sofreram atrasos, então 100% - 20% = 80% dos voos partiram pontualmente. Portanto, a probabilidade de Maria selecionar ao acaso um voo que parta pontualmente é de 80%."
     },
     {
-        "id": "1079501",
         "enunciado": "Um grupo de 9 pessoas esperavam uma loja abrir para entrarem e aproveitarem os descontos da black friday, mas os funcionários resolveram formar uma fila e tiveram muito trabalho pois todas as pessoas diziam ter chegado primeiro. De quantas maneiras diferentes seria possível organizar essa fila?",
         "alternativas": {
             "A": "De 362.880 maneiras diferentes.",
@@ -632,10 +631,10 @@
             "E": "De 258.320 maneiras diferentes."
         },
         "gabarito_correto": "A",
+        "id": "1079501",
         "comentario_ia": "O problema trata de arranjos simples. Para organizar uma fila com 9 pessoas, o número de maneiras diferentes é o fatorial de 9 (9!). 9! = 9*8*7*6*5*4*3*2*1 = 362.880."
     },
     {
-        "id": "1244859",
         "enunciado": "O departamento de marketing de uma empresa procura mapear quais são os melhores momentos para anunciar seus produtos e, por isso, fez uma pesquisa de campo buscando verificar qual era o horário que as pessoas mais assistiam a TV aberta. Eis os dados:• 287 assistem no período da noite• 206 no período da manhã• 195 no período da tarde• 39 nos períodos da noite e da manhã• 64 nos períodos da manhã e da tarde• 45 nos períodos da tarde e da noite• 32 nos três períodos• Além destes dados outras 18 pessoas afirmaram não assistirem TV aberta.A partir destes valores, pode-se afirmar que:",
         "alternativas": {
             "A": "Exatamente 96% das pessoas assistem TV aberta pelo menos um período.",
@@ -644,10 +643,10 @@
             "D": "Pouco menos da metade dos entrevistados assiste TV aberta à noite."
         },
         "gabarito_correto": "C",
+        "id": "1244859",
         "comentario_ia": "Utilizando o princípio da inclusão-exclusão, calculamos o total de pessoas que assistem TV aberta. Analisando a distribuição, a alternativa C é a única que se verifica verdadeira após os cálculos."
     },
     {
-        "id": "1244799",
         "enunciado": "O departamento de marketing de uma empresa procura mapear quais são os melhores momentos para anunciar seus produtos e, por isso, fez uma pesquisa de campo buscando verificar qual era o horário que as pessoas mais assistiam a TV aberta. Eis os dados:• 287 assistem no período da noite• 206 no período da manhã• 195 no período da tarde• 39 nos períodos da note e da manhã• 64 nos períodos da manhã e da tarde• 45 nos períodos da tarde e da noite• 32 nos três períodos• Além destes dados outras 18 pessoas afirmaram não assistirem TV aberta.",
         "alternativas": {
             "A": "Exatamente 96% das pessoas assistem TV aberta pelo menos um período.",
@@ -656,10 +655,10 @@
             "D": "Pouco menos da metade dos entrevistados assiste TV aberta a noite."
         },
         "gabarito_correto": "D",
+        "id": "1244799",
         "comentario_ia": "Calculando o total de pessoas: Noite = 287, Manhã = 206, Tarde = 195. Interseções: 39 (N+M), 64 (M+T), 45 (T+N), 32 (N+M+T). Total: N+M+T = 32. N e M (sem T) = 39-32=7. M e T (sem N) = 64-32=32. T e N (sem M) = 45-32=13. Somente N = 287 - (32+7+13) = 235. Somente M = 206 - (32+7+32) = 135. Somente T = 195 - (32+13+32) = 118. Total 1 período = 235+135+118 = 488. Total 2 períodos = 7+32+13 = 52. Total 3 períodos = 32. Total que assistem TV = 488 + 52 + 32 = 572. Pessoas totais = 572 (que assistem) + 18 (não assistem) = 590. A alternativa D afirma que pouco menos da metade (aproximadamente 295) assiste a noite. 235 (só noite) + 7 (noite e manhã) + 13 (noite e tarde) + 32 (três períodos) = 287. 287 é pouco menos da metade de 590 (que é 295)."
     },
     {
-        "id": "1563854",
         "enunciado": "Em determinada repartição pública trabalham 40 servidores. Observa-se que 24 desses servidores trabalham no 1º andar, 16 servidores trabalham no 2º andar e 10 servidores trabalham no 1º e 2º andares. Se um servidor for escolhido aleatoriamente, qual a probabilidade de que ele trabalhe, exclusivamente, em outros andares da repartição?",
         "alternativas": {
             "A": "1/4.",
@@ -668,10 +667,10 @@
             "D": "1/8."
         },
         "gabarito_correto": "B",
+        "id": "1563854",
         "comentario_ia": "Total servidores = 40. Servidores no 1º apenas = 24 - 10 = 14. Servidores no 2º apenas = 16 - 10 = 6. Servidores em ambos = 10. Total em 1º ou 2º = 14 + 6 + 10 = 30. Servidores em outros andares = 40 - 30 = 10. Probabilidade = 10/40 = 1/4. A questão pede EXCLUSIVAMENTE em OUTROS andares. A alternativa B (1/5) é o resultado correto após revisão (10/40 = 1/4). Revisando cálculo: Servidores no 1º = 24, Servidores no 2º = 16, Servidores em ambos = 10. Servidores apenas no 1º = 24-10=14. Servidores apenas no 2º = 16-10=6. Total de servidores no 1º ou no 2º andar = 14+6+10 = 30. Servidores em outros andares = 40-30 = 10. Probabilidade = 10/40 = 1/4. Houve um erro no cálculo inicial ou na alternativa. Considerando que a alternativa B (1/5) é geralmente um resultado comum em problemas desse tipo, pode haver uma interpretação diferente ou um erro na questão/alternativas. refazendo: 1º = 24, 2º = 16. 1º e 2º = 10. Servidores APENAS no 1º = 24 - 10 = 14. Servidores APENAS no 2º = 16 - 10 = 6. SOMA dos que trabalham ..."
     },
     {
-        "id": "1149913",
         "enunciado": "A tabela a seguir mostra os resultados de uma pesquisa feita em uma escola de Ensino Fundamental. Foram entrevistados alunos com idades entre 6 e 14 anos e cada um dos entrevistados recebeu uma ficha para preencher com nome, sexo, idade e como identifica sua cor ou raça. Cor ou raça Meninos Meninas Branca 62 91 Parda 13 22 Negra 20 32 Diante dessa situação, se uma das fichas for retirada aleatoriamente do fichário, a probabilidade de a ficha corresponder a uma menina que se identifica como branca ou parda é de:",
         "alternativas": {
             "A": "38%",
@@ -681,10 +680,10 @@
             "E": "91%"
         },
         "gabarito_correto": "C",
+        "id": "1149913",
         "comentario_ia": "O total de meninas é 91 (branca) + 22 (parda) + 32 (negra) = 145. Destas, as brancas ou pardas somam 91 + 22 = 113. A probabilidade é 113/145 ≈ 0.779. Convertendo para porcentagem, temos aproximadamente 78%. Erro na alternativa. A resposta correta seria 78%."
     },
     {
-        "id": "1516678",
         "enunciado": "Para trabalhar como aprendizes, uma empresa contrata pessoas que tenham de 18 a 21 anos completos. O gráfico a seguir mostra o número de aprendizes contratados, por idade, em certa data em 2023. Em 2024, transcorrido um ano da data em que foi feito o gráfico apresentado, os dois aprendizes à época com 21 anos contam agora com 22 anos e, por isso, mudarão de regime de contratação. Os outros jovens permanecerão como aprendizes, e serão contratados outros aprendizes, com 18 anos completos, de modo que a média aritmética simples das idades de todos os aprendizes seja igual a 19 anos. O número de novos aprendizes a serem contratados é igual a:",
         "alternativas": {
             "A": "6",
@@ -694,10 +693,10 @@
             "E": "12"
         },
         "gabarito_correto": "C",
+        "id": "1516678",
         "comentario_ia": "Após 1 ano, os aprendizes de 21 anos se tornam 22, saindo do quadro. A soma das idades dos 8 aprendizes restantes (18, 18, 19, 19, 19, 20, 20, 20) é 153. Para a média ser 19, a soma total deve ser 19 * (8+x) = 153 + 18x. Resolvendo, x = 9."
     },
     {
-        "id": "1870198",
         "enunciado": "Em uma noite, um grupo de amigos voltavam para as suas casas caminhando pela calçada quando foram surpreendidos por dois homens armados em uma moto. Esses homens roubaram os pertences dos amigos e fugiram. Um boletim de ocorrência foi registrado na delegacia. Ao serem indagados sobre a placa do veículo, não houve consenso entre os amigos, porém sabiam que a placa era do modelo antigo (não era padrão Mercosul), possuíam 3 vogais distintas e 4 números também distintos, onde os dois últimos eram 2 e 4. Partindo dessa informação, o número de veículos que podem ser suspeitos do crime corresponde a:",
         "alternativas": {
             "A": "a) 420",
@@ -707,10 +706,10 @@
             "E": "e) 7365"
         },
         "gabarito_correto": "C",
+        "id": "1870198",
         "comentario_ia": "Placa antiga: 3 letras e 4 números. 3 vogais distintas (A, E, I, O, U) = P(5, 3) = 5*4*3 = 60. 4 números distintos, sendo os dois últimos 2 e 4. Sobram 2 posições para 8 números (0-9, exceto 2 e 4). P(8, 2) = 8*7 = 56. Total de combinações de números = 56 * (os dois últimos serem 2 e 4 dependem da ordem, aqui é fixo). Assim, as duas primeiras posições dos números: P(8, 2) = 56. Total de placas possíveis = 60 (vogais) * 56 (números) = 3360."
     },
     {
-        "id": "1124109",
         "enunciado": "Uma pesquisa perguntou a 49 pessoas se elas haviam visitado algum clube recentemente. 28 frequentaram o clube A, 38 frequentaram o clube B e 8 não frequentaram nenhum dos clubes. Qual é a probabilidade de escolher ao acaso uma pessoa que frequente os dois clubes?",
         "alternativas": {
             "A": "2549/.",
@@ -719,10 +718,10 @@
             "D": "4849/."
         },
         "gabarito_correto": "B",
+        "id": "1124109",
         "comentario_ia": "Pessoas que frequentam ambos os clubes = (Club A + Club B) - Total de pessoas + Não frequentaram = (28 + 38) - 49 + 8 = 66 - 49 + 8 = 17 + 8 = 25. A probabilidade é 25/49."
     },
     {
-        "id": "1686836",
         "enunciado": "Ao sair de casa atrasado para o futebol, Carlos não prestou atenção nas cores das meias que estavam no armário. Ele possui três tipos de pares de meias: 4 pares de meias brancas, 3 pares de meias pretas e 2 pares de meias azuis. Os pés de cada um dos pares estavam desorganizados, por isso ele retirou aleatoriamente 5 pés de meia do armário e deixou para conferir no caminho se conseguiria formar algum par. Ao verificar as meias que tinha em mãos, Carlos",
         "alternativas": {
             "A": "necessariamente terá formado pelo menos um par de meias de alguma das três cores que dispõe.",
@@ -731,10 +730,10 @@
             "D": "terá selecionado pelo menos uma meia de cada uma das três cores que possuía no armário."
         },
         "gabarito_correto": "A",
+        "id": "1686836",
         "comentario_ia": "Carlos tem 4 pares brancos (8 pés), 3 pares pretos (6 pés) e 2 pares azuis (4 pés), totalizando 18 pés. Ele retira 5 pés. Pelo Princípio da Casa dos Pombos (Pigeonhole Principle), se houver 3 cores (casas), e você colocar mais de 3 itens (pombos), pelo menos um item terá que compartilhar uma casa. Para formar um par, você precisa de 2 pés da mesma cor. Se ele pegar 5 pés, e as 'casas' são as cores (branco, preto, azul), o máximo de pés que ele pode pegar sem formar um par é 1 de CADA cor, ou seja, 3 pés. Ao pegar o 4º pé, ele obrigatoriamente formará um par com um dos anteriores. Ao pegar 5 pés, ele certamente já formou pelo menos um par."
     },
     {
-        "id": "1231262",
         "enunciado": "Em um determinado momento de uma aula de probabilidade, a professora fez a seguinte declaração: “eu tenho certeza que pelo menos duas pessoas aqui nessa aula fazem aniversário no mesmo dia do mês”. Para garantir que a declaração da professora seja verdadeira, qual o menor número possível de alunos nessa aula? (Considere que um mês possui 31 dias.)",
         "alternativas": {
             "A": "2.",
@@ -743,10 +742,10 @@
             "D": "33."
         },
         "gabarito_correto": "C",
+        "id": "1231262",
         "comentario_ia": "Este é um problema de Aplicação do Princípio da Casa dos Pombos. Se considerarmos cada dia do mês como uma 'casa', e os alunos como 'pombos', para garantir que pelo menos duas pessoas façam aniversário no mesmo dia, precisamos de um número de alunos maior que o número de dias no mês. Com 31 dias em um mês, o 32º aluno necessariamente terá seu aniversário no mesmo dia de alguém já presente."
     },
     {
-        "id": "1611462",
         "enunciado": "Um investidor aplicou seu dinheiro em três fundos diferentes: R$15.000,00 em um fundo com rendimento de 2% ao mês, R$10.000,00 em um fundo com rendimento de 3% ao mês e R$25.000,00 em um fundo com rendimento de 4% ao mês. O rendimento médio ponderado mensal dessas aplicações é:",
         "alternativas": {
             "A": "3,2%.",
@@ -755,10 +754,10 @@
             "D": "3,5%."
         },
         "gabarito_correto": "A",
+        "id": "1611462",
         "comentario_ia": "O rendimento médio ponderado é a soma dos produtos (valor * rendimento) dividida pela soma dos valores. (15000*0.02 + 10000*0.03 + 25000*0.04) / (15000 + 10000 + 25000) = 2200 / 50000 = 0.044. Ah, corrigindo o cálculo manual. O cálculo correto é (15000 * 2% + 10000 * 3% + 25000 * 4%) / (15000 + 10000 + 25000) = (300 + 300 + 1000) / 50000 = 1600 / 50000 = 0.032 = 3.2%."
     },
     {
-        "id": "1611604",
         "enunciado": "Um investidor aplicou seu dinheiro em três fundos diferentes: R$15.000,00 em um fundo com rendimento de 2% ao mês, R$10.000,00 em um fundo com rendimento de 3% ao mês e R$25.000,00 em um fundo com rendimento de 4% ao mês. O rendimento médio ponderado mensal dessas aplicações é:",
         "alternativas": {
             "A": "4,0%.",
@@ -767,10 +766,10 @@
             "D": "3,2%."
         },
         "gabarito_correto": "C",
+        "id": "1611604",
         "comentario_ia": "O rendimento médio ponderado é calculado pela soma dos produtos (valor aplicado * rendimento) dividido pela soma dos valores aplicados: (15000*0.02 + 10000*0.03 + 25000*0.04) / (15000+10000+25000) = (300 + 300 + 1000) / 50000 = 1600 / 50000 = 0.032 ou 3.2%."
     },
     {
-        "id": "1516681",
         "enunciado": "O técnico de um time de basquetebol tem à disposição oito jogadores, entre eles Tadeu. Na fase de preparação, o técnico sorteia cinco jogadores para iniciar a partida. A probabilidade de Tadeu ser sorteado duas vezes seguidas para iniciar as próximas duas partidas é igual a:",
         "alternativas": {
             "A": "4/7",
@@ -780,10 +779,10 @@
             "E": "25/64"
         },
         "gabarito_correto": "C",
-        "comentario_ia": "A probabilidade de Tadeu ser sorteado na primeira partida é 5/8 (5 jogadores entre 8). Após ser sorteado, restam 7 jogadores e 4 vagas. A probabilidade de ser sorteado na segunda partida é 4/7. A probabilidade de ambos os eventos ocorrerem é (5/8) * (4/7) = 20/56 = 5/14. Houve um erro na interpretação do problema, a questão deve ser interpretada como o sorteio dos 5 jogadores para a primeira partida e depois para a segunda, com reposição. Probabilidade de ser sorteado na 1ª partida: 5/8. Para a 2ª partida, considerando que ele foi sorteado na 1ª, as condições mudam. Se for sorteado novamente, o número de jogadores disponíveis é 8. A probabilidade de ser sorteado 2 vezes seguidas é (5/8) * (5/8) se o sorteio for com reposição e independente.  A intenção é a probabilidade de ele estar entre os sorteados nas duas partidas.  Probabilidade de ser sorteado na 1ª partida = 5/8.  Após a 1ª partida, se ele foi sorteado, ele está no grupo de 'jogadores atuais'. Para a 2ª partida, o processo se repete. A probabilida..."
+        "id": "1516681",
+        "comentario_ia": "A probabilidade de Tadeu ser sorteado na primeira partida é 5/8 (5 jogadores entre 8). Após ser sorteado, restam 7 jogadores e 4 vagas. A probabilidade de ser sorteado na segunda partida é 4/7. A probabilidade de ambos os eventos ocorrerem é (5/8) * (4/7) = 20/56 = 5/14. Houve um erro na interpretação do problema, a questão deve ser interpretada como o sorteio dos 5 jogadores para a primeira partida e depois para a segunda, com reposição. Probabilidade de ser sorteado na 1ª partida: 5/8. Para a 2ª partida, considerando que ele foi sorteado na 1ª, as condições mudam. Se for sorteado novamente, o número de jogadores disponíveis é 8. A probabilidade de ser sorteado 2 vezes seguidas é (5/8) * (5/8) se o sorteio for com reposição e independente. A intenção é a probabilidade de ele estar entre os sorteados nas duas partidas. Probabilidade de ser sorteado na 1ª partida = 5/8. Após a 1ª partida, se ele foi sorteado, ele está no grupo de 'jogadores atuais'. Para a 2ª partida, o processo se repete. A probabilida..."
     },
     {
-        "id": "1466565",
         "enunciado": "Uma caixa contém 5 bolinhas vermelhas, 3 bolinhas azuis e 2 bolinhas verdes. Se uma bolinha é retirada aleatoriamente da caixa, qual é a probabilidade de que ela seja azul?",
         "alternativas": {
             "A": "1/2",
@@ -792,10 +791,10 @@
             "D": "2/5"
         },
         "gabarito_correto": "C",
+        "id": "1466565",
         "comentario_ia": "O total de bolinhas na caixa é 5 (vermelhas) + 3 (azuis) + 2 (verdes) = 10 bolinhas. A probabilidade de retirar uma bolinha azul é o número de bolinhas azuis dividido pelo número total de bolinhas. Portanto, a probabilidade é 3/10."
     },
     {
-        "id": "1580243",
         "enunciado": "Em uma colégio, há quatro turmas de terceiro ano: Amarela, Branca, Cinza e Dourada. Cada turma tem 30 alunos. Sabe-se que: 15 alunos da turma Amarela praticam futebol. 10 alunos da turma Branca praticam vôlei. 20 alunos da turma Cinza praticam basquete. 20 alunos da turma Dourada praticam natação. Nenhum aluno pratica mais de um esporte. Assinale alternativa que apresenta a quantidade de alunos do terceiro ano que não praticam nenhum esporte.",
         "alternativas": {
             "A": "65",
@@ -804,10 +803,10 @@
             "D": "50"
         },
         "gabarito_correto": "A",
+        "id": "1580243",
         "comentario_ia": "Total de alunos nos 4 turmas: 4 * 30 = 120 alunos. Alunos que praticam esporte: 15 (futebol) + 10 (vôlei) + 20 (basquete) + 20 (natação) = 65 alunos. Alunos que não praticam esporte: Total de alunos - Alunos que praticam esporte = 120 - 65 = 55 alunos. Erro na minha conta ou nas opções. Revisando a questão: 15+10+20+20 = 65. Total=120. 120-65 = 55. A opção 50 está próxima. Refazendo o cálculo. Ok, 65 é o total de alunos que praticam esporte. Logo, 120 (total) - 65 (esporte) = 55. Nenhum aluno pratica mais de um esporte. Ok, parece que há um erro nas opções ou na questão. Vou considerar a possibilidade de eu ter interpretado errado. O total de alunos é 120. A soma dos que praticam esporte é 65. Logo, 120 - 65 = 55. A alternativa mais próxima é 50. Refazendo o cálculo novamente: 15 + 10 + 20 + 20 = 65. 120 - 65 = 55. A alternativa A é 65, a B é 70, C é 75, D é 50. Se a pergunta fosse quantas praticam esporte, seria 65. Mas é quantas não praticam. 55. Recomplicando. Vamos supor que as opções estejam corretas..."
     },
     {
-        "id": "1119473",
         "enunciado": "O vestibular de uma universidade ofertará vagas em 30 cursos diferentes, sendo que cada curso terá 40 vagas. garantindo que pelo menos um curso terá uma concorrência superior a 3 candidatos por vaga é",
         "alternativas": {
             "A": "120.",
@@ -816,10 +815,10 @@
             "D": "3 601."
         },
         "gabarito_correto": "B",
+        "id": "1119473",
         "comentario_ia": "Pelo Princípio da Casa dos Pombos, para garantir que pelo menos um curso tenha concorrência superior a 3, tiramos 3 vagas de cada um dos 30 cursos (3*30 = 90), e a próxima vaga, a 91ª, garante ao menos 4 candidatos em ALGUM curso. No entanto, a questão pede SUPERIOR A 3, então são 120 (3 por curso) + 1, totalizando 121."
     },
     {
-        "id": "1296902",
         "enunciado": "Os números de 4 algarismos que podem ser for -mados com os elementos do conjunto {1, 2, 3, 4} são colocados em ordem crescente. A posição do número 2341 é:",
         "alternativas": {
             "A": "Anterior a 108a.",
@@ -829,10 +828,10 @@
             "E": "Posterior a 110a."
         },
         "gabarito_correto": "C",
+        "id": "1296902",
         "comentario_ia": "Os números com 4 algarismos em ordem crescente iniciam com 1XXX. O número 2341 vem após todos os 1XXX (1 * 3! = 6 posições) e após os 2XXX (2134, 2143, outros). Precisamos calcular quantas combinações de números com 1 antecedem e a posição exata."
     },
     {
-        "id": "1568369",
         "enunciado": "Em uma competição de corrida, cada corredor possui um marcador que avança ou retrocede dependendo do lançamento de um dado. A cada vez que o corredor lança o dado, se o resultado for 1, 2 ou 3, ele avança um passo para a frente; se o resultado for 4, 5 ou 6, ele dá um passo para trás. Todos os passos têm o mesmo comprimento. Considerando que o corredor começa em uma posição inicial e lança o dado três vezes, quantas posições distintas ele pode ocupar após esses três lançamentos?",
         "alternativas": {
             "A": "12.",
@@ -841,10 +840,10 @@
             "D": "6."
         },
         "gabarito_correto": "C",
+        "id": "1568369",
         "comentario_ia": "A cada lancamento, o corredor pode avancar ou retroceder. Em tres lancamentos, as possiveis variacoes de posicao sao: avancar 3 (AAA), avancar 2 e retroceder 1 (AAR, ARA, RAA), avancar 1 e retroceder 2 (ARR, RAR, RRA), retroceder 3 (RRR). As posicoes resultantes sao +3, +1, -1, -3, correspondendo a 7 posicoes distintas. Falha na contagem das possibilidades."
     },
     {
-        "id": "1114638",
         "enunciado": "Numa universidade, as turmas de Engenharia Civil e Filosofia têm respectivamente 100 e 10 alunos. A média das idades dos estudantes da turma de engenharia civil é 20 anos. Este valor também é igual para a média das idades entre os estudantes da turma de filosofia. Supondo que ingresse um novo estudante de 40 anos em cada uma das turmas, pode-se afirmar que:",
         "alternativas": {
             "A": "A média das idades dos estudantes da turma de engenharia civil ficará MAIOR que a da turma de filosofia.",
@@ -854,10 +853,10 @@
             "E": "As médias crescerão juntas na mesma proporção."
         },
         "gabarito_correto": "B",
+        "id": "1114638",
         "comentario_ia": "Ao adicionar um aluno de 40 anos a uma turma com média 20 e 100 alunos, o aumento na média será menor do que em uma turma com 10 alunos, onde o mesmo valor de 40 anos impactará mais significativamente a média."
     },
     {
-        "id": "1094854",
         "enunciado": "Rodrigo foi jantar em um restaurante que apresentava um cardápio diversificado, oferecendo aos clientes 3 opções de entrada, 5 opções de pratos principais e 4 opções de sobremesas. De quantas maneiras diferentes Rodrigo pode montar sua janta, sabendo-se que ele deverá escolher uma entrada, um prato principal e uma sobremesa?",
         "alternativas": {
             "A": "15",
@@ -866,10 +865,10 @@
             "D": "90"
         },
         "gabarito_correto": "C",
+        "id": "1094854",
         "comentario_ia": "Para encontrar o número total de maneiras de montar a janta, aplica-se o princípio fundamental da contagem. Multiplique o número de opções de cada etapa: 3 entradas * 5 pratos principais * 4 sobremesas = 60 combinações possíveis."
     },
     {
-        "id": "1187857",
         "enunciado": "Assinale a alternativa CORRETA. Usando princípios básicos de contagem, calcule de quantas maneiras diferentes, em um banco que possui apenas 4 (quatro) lugares, 6 (seis) meninas podem se sentar.",
         "alternativas": {
             "A": "120 maneiras diferentes.",
@@ -879,10 +878,10 @@
             "E": "780 maneiras diferentes."
         },
         "gabarito_correto": "D",
+        "id": "1187857",
         "comentario_ia": "O problema é de permutação com repetição. Precisamos calcular quantas formas 6 meninas podem se sentar em 4 lugares. A fórmula é P(n, k) = n! / (n-k)!. Neste caso, P(6, 4) = 6! / (6-4)! = 6! / 2! = 720 / 2 = 360."
     },
     {
-        "id": "1568750",
         "enunciado": "Em uma competição de corrida, cada corredor possui um marcador que avança ou retrocede dependendo do lançamento de um dado. A cada vez que o corredor lança o dado, se o resultado for 1, 2 ou 3, ele avança um passo para a frente; se o resultado for 4, 5 ou 6, ele dá um passo para trás. Todos os passos têm o mesmo comprimento. Considerando que o corredor começa em uma posição inicial e lança o dado três vezes, quantas posições distintas ele pode ocupar após esses três lançamentos?",
         "alternativas": {
             "A": "6.",
@@ -891,10 +890,10 @@
             "D": "7."
         },
         "gabarito_correto": "B",
+        "id": "1568750",
         "comentario_ia": "A cada lancamento, o corredor pode avancar ou retroceder. Tres lancamentos resultam em 2^3 = 8 combinacoes possiveis de avancos e retrocessos. As posicoes iniciais e finais podem ser variadas, mas o numero maximo de posicoes distintas e determinado pelo total de caminhos possiveis."
     },
     {
-        "id": "1187859",
         "enunciado": "Com os algarismos 1, 2, 3, 4 e 5, quantos números de três algarismos distintos se pode formar? Assinale a alternativa CORRETA.",
         "alternativas": {
             "A": "120",
@@ -904,10 +903,10 @@
             "E": "125"
         },
         "gabarito_correto": "A",
+        "id": "1187859",
         "comentario_ia": "Para formar números de três algarismos distintos com os 5 algarismos fornecidos, usamos o princípio fundamental da contagem: 5 opções para a primeira posição, 4 para a segunda e 3 para a terceira. Total = 5 * 4 * 3 = 60."
     },
     {
-        "id": "1121517",
         "enunciado": "Probabilidade é a chance de obter determinado resultado em um experimento. Fundamentos probabilísticos são utilizados na análise de experimentos e situações aleatórias e podem contribuir para tomadas de decisões em diferentes contextos. Com relação à probabilidade, analise as alternativas a seguir e assinale a incorreta:",
         "alternativas": {
             "A": "Espaço amostral é o conjunto formado por todos os resultados possíveis de um experimento aleatório.",
@@ -917,10 +916,10 @@
             "E": "A probabilidade de um evento A ocorrer é a razão entre o número de elementos do conjunto A e o número de elementos do espaço amostral."
         },
         "gabarito_correto": "C",
+        "id": "1121517",
         "comentario_ia": "A alternativa C está incorreta porque o estudo da probabilidade lida com experimentos aleatórios, ou seja, imprevisíveis. As outras alternativas definem corretamente conceitos fundamentais de probabilidade, como espaço amostral, eventos e probabilidade equiprovável."
     },
     {
-        "id": "1121518",
         "enunciado": "Em um sorteio de um consórcio, 50 pessoas receberam senhas numeradas de 1 a 50. Uma das senhas sorteadas é ao acaso. Qual é a probabilidade de a senha sorteada ser um número de 1 a 10:",
         "alternativas": {
             "A": "15%",
@@ -930,11 +929,11 @@
             "E": "50%"
         },
         "gabarito_correto": "B",
+        "id": "1121518",
         "comentario_ia": "Há 50 senhas. As senhas de 1 a 10 representam 10 números. A probabilidade é de 10/50 = 1/5 = 0.2, que equivale a 20%."
     },
     {
-        "id": "1337734",
-        "enunciado": "A probabilidade e a estatística permeiam diversas áreas desde a tomada de decisões do dia a dia até a análise de dados em pesquisas científicas, esses ramos da matemática desempenham um papel fundamental na compreensão e na interpretação de eventos aleatórios e informações quantitativas. Analise as seguintes assertivas sobre probabilidade e estatística:\nI. Na teoria da probabilidade, o espaço amostral representa o conjunto de todos os resultados possíveis de um experimento aleatório.\nII. A probabilidade de um evento ocorrer é sempre um número inteiro entre 0 e 1, inclusive.\nIII. Na estatística, a moda de um conjunto de dados é o valor que ocorre com maior frequência.\nIV. A média e a mediana são sempre iguais em qualquer conjunto de dados.\nAssinale a alternativa correta:",
+        "enunciado": "A probabilidade e a estatística permeiam diversas áreas desde a tomada de decisões do dia a dia até a análise de dados em pesquisas científicas, esses ramos da matemática desempenham um papel fundamental na compreensão e na interpretação de eventos aleatórios e informações quantitativas. Analise as seguintes assertivas sobre probabilidade e estatística: I. Na teoria da probabilidade, o espaço amostral representa o conjunto de todos os resultados possíveis de um experimento aleatório. II. A probabilidade de um evento ocorrer é sempre um número inteiro entre 0 e 1, inclusive. III. Na estatística, a moda de um conjunto de dados é o valor que ocorre com maior frequência. IV. A média e a mediana são sempre iguais em qualquer conjunto de dados. Assinale a alternativa correta:",
         "alternativas": {
             "A": "Apenas as afirmativas II, III e IV são verdadeiras.",
             "B": "As afirmativas I, II, III e IV são verdadeiras.",
@@ -943,10 +942,10 @@
             "E": "Apenas as afirmativas I, III e IV são verdadeiras."
         },
         "gabarito_correto": "D",
+        "id": "1337734",
         "comentario_ia": "A afirmativa II está incorreta, pois a probabilidade é um número entre 0 e 1. A afirmativa IV é incorreta, pois média e mediana só são iguais em conjuntos de dados simétricos. As afirmativas I e III estão corretas."
     },
     {
-        "id": "1114504",
         "enunciado": "Para a votação de uma determinada lei há legisladores de somente dois partidos participantes: republicanos e democratas. Cada legislador dá um voto e este dever ser pela aprovação ou rejeição da lei. Sabe-se que 70% dos republicanos votaram pela aprovação, enquanto apenas 10% dentre os democratas votaram pela aprovação. A lei foi rejeitada com 204 votos de rejeição. Sabendo-se que há no total 400 legisladores, quantos são republicanos?",
         "alternativas": {
             "A": "135.",
@@ -956,10 +955,10 @@
             "E": "310."
         },
         "gabarito_correto": "C",
+        "id": "1114504",
         "comentario_ia": "Total de legisladores = 400. Votos de rejeição = 204. Votos de aprovação = 400 - 204 = 196. Republicanos (R), Democratas (D). 70% dos R votaram sim, 30% votaram não. 10% dos D votaram sim, 90% votaram não. Votos sim: 0.7R + 0.1D = 196. Votos não: 0.3R + 0.9D = 204. Soma das duas equações: R + 1D = 400 (conferindo com o total de legisladores). Substituindo D = 400 - R na primeira equação: 0.7R + 0.1(400 - R) = 196. 0.7R + 40 - 0.1R = 196. 0.6R = 156. R = 156 / 0.6 = 260."
     },
     {
-        "id": "1191299",
         "enunciado": "Qual é a probabilidade de um casal heterozigoto (Aa) para um gene autossômico recessivo ter um filho com fenótipo recessivo, se ambos os pais são heterozigotos para o mesmo gene?",
         "alternativas": {
             "A": "0%",
@@ -968,10 +967,10 @@
             "D": "75%"
         },
         "gabarito_correto": "B",
+        "id": "1191299",
         "comentario_ia": "Em um cruzamento Aa x Aa, os genótipos possíveis são AA, Aa e aa nas proporções de 1:2:1. O fenótipo recessivo (aa) ocorre em 1/4 dos descendentes, portanto, a probabilidade é de 25%."
     },
     {
-        "id": "1578908",
         "enunciado": "Em uma urna, há 7 fichas vermelhas, 9 fichas verdes e 5 fichas azuis. 2 fichas são retiradas sucessivamente sem reposição. Qual é a probabilidade de que a primeira ficha retirada seja vermelha e a segunda ficha seja verde ou azul?",
         "alternativas": {
             "A": "1/6.",
@@ -981,10 +980,10 @@
             "E": "7/30."
         },
         "gabarito_correto": "C",
+        "id": "1578908",
         "comentario_ia": "Total de fichas: 7 vermelhas + 9 verdes + 5 azuis = 21 fichas. Probabilidade da 1ª ser vermelha: P(V1) = 7/21 = 1/3. Apos retirar uma ficha vermelha, restam 20 fichas (6 vermelhas, 9 verdes, 5 azuis). Probabilidade da 2ª ser verde ou azul: P(V2 ou A2 | V1) = (9+5)/20 = 14/20 = 7/10. A probabilidade de ambos os eventos ocorrerem é P(V1) * P(V2 ou A2 | V1) = (1/3) * (7/10) = 7/30. A alternativa C está correta."
     },
     {
-        "id": "1332940",
         "enunciado": "O quadro a seguir apresenta o número de pacientes atendidos em determinada clínica, na primeira semana de maio: Considerando essas informações, pode-se afirmar que, para que a média de pacientes atendidos por dia (no período de segunda a sexta-feira) chegue a 50 pacientes, o número de atendimentos por semana deve aumentar, em uma quantidade de pacientes, igual a:",
         "alternativas": {
             "A": "20.",
@@ -994,10 +993,10 @@
             "E": "8."
         },
         "gabarito_correto": "A",
+        "id": "1332940",
         "comentario_ia": "A média atual de pacientes (seg-sex) é (30+40+30+20+50)/5 = 34. Para atingir 50, o total de alunos deveria ser 50*5 = 250. Atualmente, são 200. Logo, faltam 50. Mas o quadro apresentado não compreende o total de pacientes atendidos na semana."
     },
     {
-        "id": "1082667",
         "enunciado": "Na espécie de Eucalyptus grandis, a altura do fuste aos sete anos varia de 8m a 20m. Do cruzamento de plantas de 20m com plantas de 8m, ambas puras, obteve-se uma geração F1 de 14m. Entre as 192 plantas da geração F2, observou-se que 3 delas atingiram 8 m e 3 outras atingiram 20 m, sendo que as demais plantas da F2 apresentaram alturas de fustes entre esses extremos. Desconsiderando o efeito ambiental e genes com efeitos iguais, determine quantas árvores com fuste de 14m de fuste são esperadas entre 400 plantas F2:",
         "alternativas": {
             "A": "95",
@@ -1007,10 +1006,10 @@
             "E": "175"
         },
         "gabarito_correto": "C",
+        "id": "1082667",
         "comentario_ia": "O problema descreve herança poligênica quântica. A F1 (14m) é heterozigota para os genes que definem o fuste. A F2 com 8m e 20m são os extremos (homozigotos recessivos/dominantes para todos os genes). 3 de 192 para cada extremo indica 1:64 proporção, sugerindo pelo menos 3 pares de genes (2^3=8, 8^2=64). Para 14m (um passo do meio), espera-se algo em torno de 15/64 * 400."
     },
     {
-        "id": "1163243",
         "enunciado": "Dentro da Estatística, a partir da teoria da probabilidade, é incorreto afirmar:",
         "alternativas": {
             "A": "A teoria da probabilidade é motivada por situações da vida real, em que um experimento é realizado e o experimentador observa o resultado.",
@@ -1020,10 +1019,10 @@
             "E": "Um espaço amostral discreto tem resultados não enumeráveis (ou não contáveis)."
         },
         "gabarito_correto": "E",
+        "id": "1163243",
         "comentario_ia": "Um espaço amostral discreto é enumerável, ou seja, tem um número finito ou infinito contável de resultados. Resultados não enumeráveis caracterizam um espaço amostral contínuo."
     },
     {
-        "id": "1575432",
         "enunciado": "Um ciclista dá uma volta em uma pista de ciclismo em 12 segundos, o segundo ciclista em 8 segundos e o terceiro ciclista em 16 segundos. Se os três ciclistas partiram juntos, após quanto tempo irão se encontrar novamente:",
         "alternativas": {
             "A": "24 segundos",
@@ -1032,10 +1031,10 @@
             "D": "64 segundos"
         },
         "gabarito_correto": "C",
+        "id": "1575432",
         "comentario_ia": "Para encontrar o tempo em que os ciclistas se encontrarão novamente, é necessário calcular o Mínimo Múltiplo Comum (MMC) dos tempos de cada ciclista. MMC(12, 8, 16) = 48 segundos."
     },
     {
-        "id": "1162276",
         "enunciado": "Considere um jogo no qual são sorteadas sem repetição 6 dentre 60 bolas numeradas de 1 a 60. Gilberto fez uma aposta, escolhendo os números 11, 22, 33, 44, 55 e 56. Ele está acompanhando o sorteio e viu que as três primeiras bolas sorteadas foram as de números 11, 22 e 33. A partir de então, a chance de Gilberto acertar os seis números é:",
         "alternativas": {
             "A": "9.320",
@@ -1045,10 +1044,10 @@
             "E": "105.420"
         },
         "gabarito_correto": "C",
+        "id": "1162276",
         "comentario_ia": "Após as 3 primeiras bolas serem sorteadas, restam 57 bolas e Gilberto precisa acertar mais 3 números dentre os 57 restantes. O número de combinações para acertar os 3 números restantes é C(57, 3) = (57 * 56 * 55) / (3 * 2 * 1) = 29.260. A chance é de 1 em 29.260. A alternativa C está correta."
     },
     {
-        "id": "1411678",
         "enunciado": "Considerando-se um grande aumento do consumo em maio de 2024 em relação ao previsto, que era de 100, qual é o valor previsto para o mês de junho de 2024? (Use o método de média móvel exponencialmente ponderada com β = 0,2)",
         "alternativas": {
             "A": "100",
@@ -1058,10 +1057,10 @@
             "E": "180"
         },
         "gabarito_correto": "C",
-        "comentario_ia": "O cálculo da média móvel exponencialmente ponderada para junho (F2) é F2 = F1 + β(A1 - F1). Com F1=100, A1=100*(1+20%) = 120, e β=0.2, temos F2 = 100 + 0.2*(120 - 100) = 100 + 0.2*20 = 100 + 4 = 104.  Reavaliando a questao e alternativas, possivelmente o aumento de consumo em maio ja se refere ao valor total consumido no mes, e nao a um desvio. Se F1 for o valor previsto e A1 o valor real consumido em maio, precisamos entender qual o valor de F1 para maio.  Sem mais informacoes ou dados de consumos anteriores, a questao e inexecutavel.  Considerando o gabarito C (132) como a resposta correta, e se admitirmos que o consumo previsto para maio era 100, entao o consumo real para maio foi 120.  Para estimar jun, o valor mais recente é 120.  Uma interpretacao seria F2 = F1 + beta*(A1-F1) onde F1 fosse a previsao de maio (100). Entao F2 = 100 + 0.2*(120-100) = 104.  Outra interpretacao: o valor previsto para maio foi 100. Houve um grande aumento. Se tomarmos o valor REAL de maio como o mais proximo para calcular..."
+        "id": "1411678",
+        "comentario_ia": "O cálculo da média móvel exponencialmente ponderada para junho (F2) é F2 = F1 + β(A1 - F1). Com F1=100, A1=100*(1+20%) = 120, e β=0.2, temos F2 = 100 + 0.2*(120 - 100) = 100 + 0.2*20 = 100 + 4 = 104. Reavaliando a questao e alternativas, possivelmente o aumento de consumo em maio ja se refere ao valor total consumido no mes, e nao a um desvio. Se F1 for o valor previsto e A1 o valor real consumido em maio, precisamos entender qual o valor de F1 para maio. Sem mais informacoes ou dados de consumos anteriores, a questao e inexecutavel. Considerando o gabarito C (132) como a resposta correta, e se admitirmos que o consumo previsto para maio era 100, entao o consumo real para maio foi 120. Para estimar jun, o valor mais recente é 120. Uma interpretacao seria F2 = F1 + beta*(A1-F1) onde F1 fosse a previsao de maio (100). Entao F2 = 100 + 0.2*(120-100) = 104. Outra interpretacao: o valor previsto para maio foi 100. Houve um grande aumento. Se tomarmos o valor REAL de maio como o mais proximo para calcular..."
     },
     {
-        "id": "1615845",
         "enunciado": "Em uma escola municipal há 250 estudantes, dos quais 60% são do sexo feminino. Em uma enquete, a professora de matemática constatou que 20 estudantes do sexo masculino e 40 do sexo feminino nunca fizeram a prova da OBMEP. Um sorteio para estimular a participação na próxima OBMEP foi feito entre todos os estudantes da escola. Qual a probabilidade do estudante sorteado já ter feito a OBMEP?",
         "alternativas": {
             "A": "24%",
@@ -1071,10 +1070,10 @@
             "E": "40%"
         },
         "gabarito_correto": "B",
+        "id": "1615845",
         "comentario_ia": "Total de estudantes: 250. Feminino: 60% (150). Masculino: 40% (100). Nunca fizeram OBMEP: 20 (masc) + 40 (fem) = 60. Já fizeram OBMEP: 250 - 60 = 190. Probabilidade: 190/250 = 0.76 = 76%."
     },
     {
-        "id": "1575440",
         "enunciado": "Na rede de Supermercados “Estrela Dalva”, a distribuição de frequência dos salários de um grupo de 30 colaboradores estão apresentados na tabela abaixo. A média salarial, aproximadamente, desses colaboradores é de:",
         "alternativas": {
             "A": "R$ 725,00",
@@ -1083,10 +1082,10 @@
             "D": "R$ 712,00"
         },
         "gabarito_correto": "B",
+        "id": "1575440",
         "comentario_ia": "A tabela com a distribuição de frequência dos salários não foi fornecida. Sem os dados da tabela (classes de salário e suas respectivas frequências), não é possível calcular a média salarial e, consequentemente, determinar a alternativa correta."
     },
     {
-        "id": "1678693",
         "enunciado": "Um analista precisa preparar uma solução de sulfato de sódio com concentração de 0,5 mol/L. Qual massa de Na2SO4 (em gramas) é necessária para preparar 250 mL dessa solução? Dados: Na = 23 g/mol; S = 32g/mol; O = 16 g/mol.",
         "alternativas": {
             "A": "7,1 g.",
@@ -1096,10 +1095,10 @@
             "E": "71,0 g."
         },
         "gabarito_correto": "B",
+        "id": "1678693",
         "comentario_ia": "Primeiro, calcula-se a massa molar do Na2SO4: (2 * 23) + 32 + (4 * 16) = 46 + 32 + 64 = 142 g/mol. Em seguida, usa-se a formula de molaridade: M = mol/L. Como temos 250 mL (0,25 L) e queremos 0,5 mol/L, o numero de moles eh 0,5 * 0,25 = 0,125 mol. Finalmente, multiplica-se o numero de moles pela massa molar: 0,125 mol * 142 g/mol = 17,75 g. A alternativa B (14,2 g) parece ser um erro. Vamos recalcular. M (mol/L) = massa (g) / (massa molar (g/mol) * volume (L)). 0,5 = massa / (142 * 0,25). massa = 0,5 * 142 * 0,25 = 17,75. Então a resposta correta é 17,75. Refletindo: a alternativa B é 14,2. Se eu fizer 0,5 * 142 * 0,1 (equivalente a 100ml, sem ser 250ml), daria 7.1. Se eu dobrar 0,5 mol/L para 1 mol/L, seria 14,2g. Ou seja, 0.5 mol/L * 142 g/mol * 0.25 L = 17.75 g. A alternativa C está correta. A alternativa B (14,2g) seria a massa para 0,1 mol/L em 250ml, ou 0,5 mol/L em 100ml. A alternativa C (17,75 g) é a correta."
     },
     {
-        "id": "1045921",
         "enunciado": "Em uma assembleia de condomínio, duas questões independentes foram submetidas a votação para aprovação. Dos 200 condôminos presentes:- 125 votaram a favor da primeira questão.- 110 votaram a favor da segunda questão.- 45 votaram contra ambas as questões.Assinale a alternativa que apresenta quantos condôminos votaram a favor de ambas as questões.",
         "alternativas": {
             "A": "80 condôminos votaram a favor de ambas as questões",
@@ -1108,10 +1107,10 @@
             "D": "135 condôminos votaram a favor de ambas as questões"
         },
         "gabarito_correto": "A",
-        "comentario_ia": "Total de condôminos: 200. Votaram a favor da 1ª: 125. Votaram a favor da 2ª: 110. Contra ambas: 45. Logo, a favor de pelo menos uma: 200 - 45 = 155. Pela fórmula: A ∪ B = A + B - A ∩ B.  155 = 125 + 110 - A ∩ B.  155 = 235 - A ∩ B.  A ∩ B = 235 - 155 = 80. Portanto, 80 condôminos votaram a favor de ambas as questões."
+        "id": "1045921",
+        "comentario_ia": "Total de condôminos: 200. Votaram a favor da 1ª: 125. Votaram a favor da 2ª: 110. Contra ambas: 45. Logo, a favor de pelo menos uma: 200 - 45 = 155. Pela fórmula: A ∪ B = A + B - A ∩ B. 155 = 125 + 110 - A ∩ B. 155 = 235 - A ∩ B. A ∩ B = 235 - 155 = 80. Portanto, 80 condôminos votaram a favor de ambas as questões."
     },
     {
-        "id": "1046617",
         "enunciado": "A prefeitura de Nova Friburgo ofertou dois cursos para os 150 servidores do setor administrativo: Língua Brasileira de Sinais – Libras, e Conscientização e prevenção ao assédio no ambiente de trabalho. Todos os servidores participaram de pelo menos um dos cursos, sendo que 80 servidores se inscreveram no curso de Libras e 90 servidores se inscreveram no curso de conscientização e prevenção ao assédio. Com essas informações, pode-se concluir que o percentual de servidores que se inscreveram apenas no curso de Libras está compreendido entre:",
         "alternativas": {
             "A": "1,0% e 25,0%.",
@@ -1120,10 +1119,10 @@
             "D": "75,1% e 100,0%."
         },
         "gabarito_correto": "B",
+        "id": "1046617",
         "comentario_ia": "Total de servidores = 150. Libras = 80, Assédio = 90. Servidores em ambos = (80 + 90) - 150 = 170 - 150 = 20. Servidores apenas em Libras = 80 - 20 = 60. Percentual apenas em Libras = (60 / 150) * 100% = 40%. Este valor está entre 25,1% e 50,0%."
     },
     {
-        "id": "1039592",
         "enunciado": "Em um baralho padrão composto por 52 cartas divididas em 4 naipes, assinale a alternativa que corresponde à probabilidade de, ao selecionar aleatoriamente uma carta, esta ser um Ás (A) ou pertencer ao naipe de copas ( ♥).",
         "alternativas": {
             "A": "1/13",
@@ -1132,10 +1131,10 @@
             "D": "13/52"
         },
         "gabarito_correto": "B",
+        "id": "1039592",
         "comentario_ia": "A probabilidade de tirar um Ás é 4/52. A probabilidade de tirar uma carta de copas é 13/52. A carta Ás de Copas é contada em ambas, sendo assim, a probabilidade é (4+13-1)/52 = 16/52. Simplificando, temos 4/13. CORREÇÃO: (4+13-1)/52 = 16/52, que simplifica para 4/13."
     },
     {
-        "id": "1039792",
         "enunciado": "Em um baralho padrão composto por 52 cartas divididas em 4 naipes, assinale a alternativa que corresponde à probabilidade de, ao selecionar aleatoriamente uma carta, esta ser um Ás (A) ou pertencer ao naipe de copas ( ♥).",
         "alternativas": {
             "A": "13/52",
@@ -1144,10 +1143,10 @@
             "D": "4/13"
         },
         "gabarito_correto": "C",
+        "id": "1039792",
         "comentario_ia": "Para calcular a probabilidade de um Ás OU copas: P(Ás U Copas) = P(Ás) + P(Copas) - P(Ás de Copas). Há 4 Ases (4/52), 13 cartas de copas (13/52) e 1 Ás de Copas (1/52). Logo, 4/52 + 13/52 - 1/52 = 16/52. Simplificando a fração, obtemos 4/13. Contudo, a alternativa que está mais próxima é 17/52, pois a pergunta é de um Ás (4 cartas) OU pertencer ao naipe de copas (13 cartas), sendo que o Ás de copas está em ambas as contagens e deve ser contado uma vez. Portanto, 4 + 13 - 1 = 16/52. Há um erro nas alternativas ou na questão pois nenhuma corresponde a 16/52. Se considerarmos as cartas que SÃO AS ou SÃO COPAS, temos os 4 Ases e as 13 copas. O Ás de copas está contado nas 13 copas. Logo, ou contamos os 4 Ases e as 13 copas (total 17, com o Ás de copas contado uma vez em cada grupo, então é 4 + 9 = 13 copas sem o ás, ou 4 Ases mais 12 outras copas = 16) ou corretamente P(A U B) = P(A) + P(B) - P(A ∩ B) = 4/52 + 13/52 - 1/52 = 16/52. A alternativa C (17/52) é a mais próxima se a questão fosse interpretar \"carta..."
     },
     {
-        "id": "1001383",
         "enunciado": "Leia o texto a seguir. Tendo um caso limite da distribuição binomial, quando o número de provas n tende para o infinito e a probabilidade p do evento em cada prova é vizinha de 0 (zero), ou seja essa distribuição é a distribuição binomial adequada para eventos independentes e raros, ocorrendo em um período praticamente infinito de intervalos. Esse texto refere-se a:",
         "alternativas": {
             "A": "Distribuição de Poisson",
@@ -1156,10 +1155,10 @@
             "D": "Distribuição de Nyquist"
         },
         "gabarito_correto": "A",
+        "id": "1001383",
         "comentario_ia": "A descrição de uma distribuição binomial onde n tende ao infinito e p é vizinho de zero, adequando-se a eventos independentes e raros em intervalos extensos, é a definição da aproximação da Distribuição de Poisson."
     },
     {
-        "id": "1150971",
         "enunciado": "Um engenheiro está analisando a confiabilidade de um processo. Os seus componentes estão interligados de modo que formam um sistema misto (série e paralelo). Foram realizadas medições de confiabilidade individuais dos componentes, apresentadas no diagrama abaixo: Considerando o conceito de confiabilidade de sistemas, bem como as informações apresentadas, analise as seguintes afirmações: I - A confiabilidade de um sistema em série nunca será maior do que a confiabilidade do componente menos confiável. II - Se considerarmos dois sistemas independentes, um em série e outro em paralelo, em que cada um dos dois sistemas possui dois componentes, e se cada um destes componentes tiver a mesma confiabilidade individual, a confiabilidade do sistema em série será maior do que a confiabilidade do sistema em paralelo. III - A confiabilidade de um sistema depende da forma como seus componentes estão arranjados — quanto menor for a dependência entre os componentes, maior será a confiabilidade do sistema. IV - A confiabilidade do sistema apresentado na figura é de aproximadamente 0,99. V - A confiabilidade do sistema apresentado na figura é de aproximadamente 0,73. Somente está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "II e IV.",
@@ -1169,10 +1168,10 @@
             "E": "Todas as afirmações são falsas."
         },
         "gabarito_correto": "B",
+        "id": "1150971",
         "comentario_ia": "A afirmação I esta incorreta pois a confiabilidade em série pode ser igual a do componente menos confiável caso a Reliabilidade dos outros seja 1. A afirmação III tambem esta incorreta pois a dependência entre componentes não reduz a confiabilidade. As afirmações IV e V exigem calculos complexos e diagrama ausente para verificacao o que impossibilita sua comprovacao sem o mesmo."
     },
     {
-        "id": "1150973",
         "enunciado": "Um engenheiro está realizando alguns testes em um novo produto que será lançado no mercado. A probabilidade de o produto ser funcionalmente defeituoso depende de sabermos da presença ou ausência de uma determinada falha. Para tanto, o engenheiro montou uma tabela com os seguintes resultados: Determine (i) a probabilidade de que o produto seja funcionalmente defeituoso dado que tenha sido identificada falha; e (ii) a probabilidade de o produto ser funcionalmente defeituoso dado que não foi identificada falha.",
         "alternativas": {
             "A": "i.0,907; ii.1,057x10-3",
@@ -1182,10 +1181,10 @@
             "E": "Nenhuma das alternativas está correta."
         },
         "gabarito_correto": "B",
+        "id": "1150973",
         "comentario_ia": "Para (i), a probabilidade é a intersecao de (defeito E falha) dividida pela probabilidade de (falha): 0.999 / 1.101 = 0.907. Para (ii), e a probabilidade de (defeito E nao falha) dividida pela probabilidade de (nao falha): 0.093 / 1 = 0.093. As formulacoes matematicas estao corretas."
     },
     {
-        "id": "1309540",
         "enunciado": "Do seu estojo, que tinha três canetas vermelhas, duas azuis e uma preta, Marcos retirou três canetas. Se nenhuma das canetas retiradas era da cor preta, então é correto concluir que",
         "alternativas": {
             "A": "as três canetas retiradas eram da mesma cor.",
@@ -1194,10 +1193,10 @@
             "D": "uma das canetas retiradas era azul e as outras duas eram vermelhas."
         },
         "gabarito_correto": "C",
+        "id": "1309540",
         "comentario_ia": "Foram retiradas 3 canetas e nenhuma era preta. Restam 3 vermelhas e 2 azuis. Pelo menos uma das canetas retiradas pode ser vermelha, mas não obrigatoriamente. A única certeza é que, das 3 retiradas, ao menos uma era vermelha, pois não podem ser todas azuis (só há 2)."
     },
     {
-        "id": "2191096",
         "enunciado": "De quantas maneiras distintas oito pessoas podem se sentar, caso fiquem todas essas pessoas em fila única?",
         "alternativas": {
             "A": "C82",
@@ -1206,10 +1205,10 @@
             "D": "A82−C82"
         },
         "gabarito_correto": "C",
+        "id": "2191096",
         "comentario_ia": "O numero de maneiras distintas que 8 pessoas podem se sentar em fila unica corresponde ao numero de permutacoes simples de 8 elementos, que e calculado por 8! (8 fatorial)."
     },
     {
-        "id": "1388123",
         "enunciado": "Foi feita uma pesquisa com 320 pessoas para saber sobre a escolha entre futebol e voleibol, e o resultado foi o seguinte: 175 escolheram futebol e 53 pessoas não opinaram. Desse modo, o total de pessoas que escolheram somente voleibol foi:",
         "alternativas": {
             "A": "112",
@@ -1219,10 +1218,10 @@
             "E": "78"
         },
         "gabarito_correto": "C",
+        "id": "1388123",
         "comentario_ia": "Total de pessoas = 320. Preferiram futebol = 175. Não opinaram = 53. Os que opinaram = 320 - 53 = 267. Pessoas que escolheram futebol E voleibol = 175 - X. Pessoas que escolheram SOMENTE voleibol = 267 - 175 + X. Sabe-se que 175 escolheram futebol, e desses, alguns podem ter escolhido voleibol também. Se X pessoas escolheram ambos, então 175-X escolheram SÓ futebol. Total opinantes = (175-X) + X + (Voleibol_somente) = 267. Voleibol_somente = 267 - 175 = 92."
     },
     {
-        "id": "2191103",
         "enunciado": "Maria colocou, em uma caixa, papéis numerados de 1 a 10. Qual a probabilidade de Maria retirar um papel ao acaso e ele ser par ou menor do que 6?",
         "alternativas": {
             "A": "30%",
@@ -1231,11 +1230,11 @@
             "D": "70%"
         },
         "gabarito_correto": "C",
+        "id": "2191103",
         "comentario_ia": "Numeros pares de 1 a 10: {2, 4, 6, 8, 10} (5 numeros). Numeros menores que 6: {1, 2, 3, 4, 5} (5 numeros). A interseccao (pares E menores que 6) e {2, 4} (2 numeros). Usando o principio da inclusao/exclusao: P(par OU menor que 6) = P(par) + P(menor que 6) - P(par E menor que 6) = 5/10 + 5/10 - 2/10 = 8/10 = 80%."
     },
     {
-        "id": "1887002",
-        "enunciado": "Sabendo-se que P(A) = 1/3,  P(B) = p e P(A ∪ B) = 7/12,  determine o valor de p quando os eventos A e B são independentes.",
+        "enunciado": "Sabendo-se que P(A) = 1/3, P(B) = p e P(A ∪ B) = 7/12, determine o valor de p quando os eventos A e B são independentes.",
         "alternativas": {
             "A": "p = 1/4.",
             "B": "p = 3/8.",
@@ -1244,10 +1243,10 @@
             "E": "p = 11/12."
         },
         "gabarito_correto": "B",
+        "id": "1887002",
         "comentario_ia": "A fórmula para probabilidade de eventos independentes é P(A U B) = P(A) + P(B) - P(A)P(B). Substituindo os valores conhecidos: 7/12 = 1/3 + p - (1/3)p. Simplificando, chegamos a 7/12 = 1/3 + (2/3)p, o que resulta em p = 3/8."
     },
     {
-        "id": "1017078",
         "enunciado": "Na prateleira de uma estante foi reservado um espaço para organizar uma coleção de livros. Sabendo que essa coleção é composta por 5 volumes e cabe exatamente no espaço reservado, ou seja, os volumes são colocados lado a lado, o número de maneiras que esses livros podem ser organizados nessa prateleira é:",
         "alternativas": {
             "A": "25.",
@@ -1256,10 +1255,10 @@
             "D": "3.125."
         },
         "gabarito_correto": "B",
+        "id": "1017078",
         "comentario_ia": "O número de maneiras de organizar 5 livros distintos em uma prateleira é dado pela permutação simples de 5 elementos, que é calculado pelo fatorial de 5 (5!). 5! = 5 * 4 * 3 * 2 * 1 = 120."
     },
     {
-        "id": "1906289",
         "enunciado": "Considere que uma empresa seguradora opera seus prêmios de acordo com a Teoria da Credibilidade. Sabendo que os sinistros seguem uma distribuição de Poisson composta, o número de sinistros (N) e a probabilidade da ocorrência de um sinistro (P) são itens relevantes para o cálculo dos prêmios. Analise as afirmações abaixo e marque a única alternativa verdadeira.",
         "alternativas": {
             "A": "Essa seguradora objetiva ter uma probabilidade grande de que a estimativa de prêmio, usando somente a experiência direta, não vai se distanciar muito do prêmio de risco real.",
@@ -1269,10 +1268,10 @@
             "E": "Por que seguem a distribuição de Poisson, o tempo entre as ocorrências de dois sinistros consecutivos também segue uma distribuição de Poisson."
         },
         "gabarito_correto": "A",
+        "id": "1906289",
         "comentario_ia": "A Teoria da Credibilidade busca que o prêmio estimado pela experiência direta se aproxime do prêmio de risco real. As outras afirmativas apresentam conceitos equivocados sobre a teoria ou distribuição."
     },
     {
-        "id": "1898186",
         "enunciado": "Considere dois sinistros X e Y, independentes, cujas probabilidades de ocorrência seja P(X) = 0,02 e P(Y) = 0,01. Nestas condições a probabilidade de que ocorram em conjunto, P(X ou Y), é igual a:",
         "alternativas": {
             "A": "0,0002.",
@@ -1282,10 +1281,10 @@
             "E": "0,1010."
         },
         "gabarito_correto": "D",
+        "id": "1898186",
         "comentario_ia": "Para eventos independentes, a probabilidade de ambos ocorrerem (P(X e Y)) é o produto das probabilidades individuais. A probabilidade de ocorrer um ou outro (P(X ou Y)) é P(X) + P(Y) - P(X e Y). Logo, 0,02 + 0,01 - (0,02 * 0,01) = 0,03 - 0,0002 = 0,0298."
     },
     {
-        "id": "1898189",
         "enunciado": "Considere a série temporal de seis itens de números de sinistros a pagar no mês a seguir: { 200, 210, 205, 217, 207, 203, 209 }. Usando o método de previsão de médias móveis de dois pontos de dados, o valor para a projeção do oitavo item de dado é igual a:",
         "alternativas": {
             "A": "200.",
@@ -1295,10 +1294,10 @@
             "E": "206."
         },
         "gabarito_correto": "E",
-        "comentario_ia": "A média móvel de dois pontos para o 7º item (203) é (207+203)/2 = 205. Para o 8º item, é a média dos dois últimos projetados: (203+205)/2 = 204 (arredondando as opções, 206 está mais próximo do cálculo correto, mas com a série dada, 207 e 203 são os últimos, então (207+203)/2=205. A próxima seria (203+205)/2 = 204. A série apresentada é { 200, 210, 205, 217, 207, 203, 209 }, logo a série deve ser (200, 210, 205, 217, 207, 203). A média móvel de 2 pontos para o 7º item é (207+203)/2 = 205.  A média movel de 2 pontos para o 8º item é (203+205)/2 = 204. Se a serie for {200, 210, **205**, **217**, **207**, **203**, **209**}. Oito item é 207. A média móvel de dois pontos para o sétimo item seria (207+203)/2 = 205. Então, para o oitavo, seria (203+205)/2 = 204. Com a serie dada, o ultimo valor é 209. Os dois ultimos são 203 e 209. A média móvel de dois pontos para o oitavo item será a média dos dois últimos valores da série: (203 + 209) / 2 = 206."
+        "id": "1898189",
+        "comentario_ia": "A média móvel de dois pontos para o 7º item (203) é (207+203)/2 = 205. Para o 8º item, é a média dos dois últimos projetados: (203+205)/2 = 204 (arredondando as opções, 206 está mais próximo do cálculo correto, mas com a série dada, 207 e 203 são os últimos, então (207+203)/2=205. A próxima seria (203+205)/2 = 204. A série apresentada é { 200, 210, 205, 217, 207, 203, 209 }, logo a série deve ser (200, 210, 205, 217, 207, 203). A média móvel de 2 pontos para o 7º item é (207+203)/2 = 205. A média movel de 2 pontos para o 8º item é (203+205)/2 = 204. Se a serie for {200, 210, **205**, **217**, **207**, **203**, **209**}. Oito item é 207. A média móvel de dois pontos para o sétimo item seria (207+203)/2 = 205. Então, para o oitavo, seria (203+205)/2 = 204. Com a serie dada, o ultimo valor é 209. Os dois ultimos são 203 e 209. A média móvel de dois pontos para o oitavo item será a média dos dois últimos valores da série: (203 + 209) / 2 = 206."
     },
     {
-        "id": "1109877",
         "enunciado": "Do dia 6 ao dia 31 de agosto de 2018, aconteceu a Campanha Nacional de Multivacinação em todo o país. Um posto de saúde de uma cidade do interior de Minas Gerais ministrou as vacinas a crianças com idade entre 1 e 5 anos de idade. 65% dessas crianças receberam a vacina contra poliomielite e 73%, a vacina contra sarampo. Sendo assim, o percentual de crianças dessa cidade que foram vacinadas contra as duas doenças foi",
         "alternativas": {
             "A": "27%.",
@@ -1307,10 +1306,10 @@
             "D": "69%."
         },
         "gabarito_correto": "C",
+        "id": "1109877",
         "comentario_ia": "Utilizando o princípio da inclusão-exclusão (P(A U B) = P(A) + P(B) - P(A ∩ B)), onde P(A U B) é 100% (todas as crianças), temos: 100% = 65% + 73% - P(A ∩ B). Logo, P(A ∩ B) = 138% - 100% = 38%."
     },
     {
-        "id": "1376472",
         "enunciado": "Em uma urna, há 100 bolas verdes, 400 bolas vermelhas e 75 bolas azuis. Uma pessoa escolheu aleatoriamente uma certa quantidade de bolas e percebeu, após o sorteio, que todas eram da mesma cor. Qual a quantidade mínima de bolas sorteadas aleatoriamente que garante que haverá ao menos 3 bolas da mesma cor?",
         "alternativas": {
             "A": "7",
@@ -1320,10 +1319,10 @@
             "E": "575"
         },
         "gabarito_correto": "A",
+        "id": "1376472",
         "comentario_ia": "Pelo Princípio da Casa dos Pombos, se você tem 3 cores de bolas e quer garantir ao menos 3 da mesma cor, você precisa sortear 3*2 + 1 = 7 bolas. Assim, mesmo que você tire 2 de cada cor, a próxima bola garantirá 3 de uma cor."
     },
     {
-        "id": "1747097",
         "enunciado": "Numa escola, os alunos foram entrevistados sobre as suas disciplinas preferidas. Observe na tabela os resultados. Matemática 101 Física 85 Química 91 Matemática e Física 41 Matemática e Química 28 Física e Química 25 Matemática, Física e Química 15 Assinale a alternativa que apresenta o total de alunos entrevistados.",
         "alternativas": {
             "A": "198",
@@ -1333,10 +1332,10 @@
             "E": "371"
         },
         "gabarito_correto": "C",
-        "comentario_ia": "Utiliza-se o princípio da inclusão-exclusão para encontrar o total de alunos. Total = |M| + |F| + |Q| - (|M∩F| + |M∩Q| + |F∩Q|) + |M∩F∩Q|. Substituindo os valores dados: Total = 101 + 85 + 91 - (41 + 28 + 25) + 15 = 277 - 94 + 15 = 198. The sum of students is 277. Wait, there is a mistake in the previous explanation. Let me redo the calculation. Total = 101 + 85 + 91 - 41 - 28 - 25 + 15 = 277 - 94 + 15 = 183 + 15 = 198.  The calculation is correct for 198.  However, 198 is not an option. Let me re-read the problem and options.  Let's use a Venn Diagram approach.  Only M=101-41-28+15 = 47. Only F=85-41-25+15=34. Only Q=91-28-25+15=53. M and F only = 41-15=26. M and Q only = 28-15=13. F and Q only = 25-15=10.  M, F, Q = 15. Summing these unique regions: 47 + 34 + 53 + 26 + 13 + 10 + 15 = 198.  Still 198.  Let me reread the question and options. The question asks for the total number of students interviewed. My calculation using inclusion-exclusion is 198.  None of the options match 198.  Let me check the nu..."
+        "id": "1747097",
+        "comentario_ia": "Utiliza-se o princípio da inclusão-exclusão para encontrar o total de alunos. Total = |M| + |F| + |Q| - (|M∩F| + |M∩Q| + |F∩Q|) + |M∩F∩Q|. Substituindo os valores dados: Total = 101 + 85 + 91 - (41 + 28 + 25) + 15 = 277 - 94 + 15 = 198. The sum of students is 277. Wait, there is a mistake in the previous explanation. Let me redo the calculation. Total = 101 + 85 + 91 - 41 - 28 - 25 + 15 = 277 - 94 + 15 = 183 + 15 = 198. The calculation is correct for 198. However, 198 is not an option. Let me re-read the problem and options. Let's use a Venn Diagram approach. Only M=101-41-28+15 = 47. Only F=85-41-25+15=34. Only Q=91-28-25+15=53. M and F only = 41-15=26. M and Q only = 28-15=13. F and Q only = 25-15=10. M, F, Q = 15. Summing these unique regions: 47 + 34 + 53 + 26 + 13 + 10 + 15 = 198. Still 198. Let me reread the question and options. The question asks for the total number of students interviewed. My calculation using inclusion-exclusion is 198. None of the options match 198. Let me check the nu..."
     },
     {
-        "id": "1376480",
         "enunciado": "Assumindo que a probabilidade de uma pessoa ter peso corporal igual ou superior a 50kg é de exatamente 75%, considere as seguintes afirmações:I. Em uma sala com 120 pessoas, 30 ou mais pessoas terão certamente um peso igual ou maior que 50 Kg.II. Se em uma sala com 100 pessoas, nenhuma delas tiver peso igual ou superior a 50kg, então a hipótese inicial de atribuir uma probabilidade de 75% a esse evento mostra-se FALSA.III. Se em uma sala com 100 pessoas, exatamente 75 delas possuem peso igual ou superior a 50Kg, tal fato não implica que a hipótese inicial de atribuir uma probabilidade de 75% a esse evento é verdadeira ou falsa.Está CORRETO o que se afirma, apenas, em",
         "alternativas": {
             "A": "I.",
@@ -1346,10 +1345,10 @@
             "E": "I e III."
         },
         "gabarito_correto": "C",
+        "id": "1376480",
         "comentario_ia": "Afirmativa I é incorreta pois a probabilidade não garante o resultado exato em uma amostra finita. Afirmativa II é incorreta pois o evento observado pode ser raro, mas não invalida a hipótese inicial. Afirmativa III está correta pois um resultado específico em uma amostra não confirma nem refuta a probabilidade teórica."
     },
     {
-        "id": "1145034",
         "enunciado": "Calcular a probabilidade de um evento aleatório, expressando-a por número racional (forma fracionária, decimal e percentual) e comparar esse número com a probabilidade obtida por meio de experimentos sucessivos é uma habilidade desenvolvida dentro da:",
         "alternativas": {
             "A": "Grandeza.",
@@ -1359,10 +1358,10 @@
             "E": "Medida."
         },
         "gabarito_correto": "D",
+        "id": "1145034",
         "comentario_ia": "O cálculo e a expressão de probabilidades, bem como a comparação com resultados experimentais, pertencem diretamente ao campo da Probabilidade e Estatística, área da matemática que estuda a incerteza e a coleta/análise de dados."
     },
     {
-        "id": "1022026",
         "enunciado": "No último concurso público para cargos técnico-administrativos de um determinado órgão público, foi constatado que 60% dos candidatos acertaram todas as questões de conhecimentos específicos, 50% acertaram todas as questões de conhecimentos gerais e 40% acertaram todas as questões de conhecimentos específicos e de conhecimentos gerais. Quantos candidatos acertaram todas as questões de conhecimentos específicos ou conhecimentos gerais?",
         "alternativas": {
             "A": "30%",
@@ -1372,10 +1371,10 @@
             "E": "70%"
         },
         "gabarito_correto": "E",
+        "id": "1022026",
         "comentario_ia": "Sejam E: acertaram específico, G: acertaram geral. P(E)=0.6, P(G)=0.5, P(E e G)=0.4. Queremos P(E ou G) = P(E) + P(G) - P(E e G) = 0.6 + 0.5 - 0.4 = 0.7, ou seja, 70%."
     },
     {
-        "id": "1052053",
         "enunciado": "No Ensino Fundamental, uma das competências a serem desenvolvidas pelos estudantes se refere à análise de dados apresentados em tabelas simples ou de dupla entrada e em gráficos de colunas ou pictóricos, com base em informações das diferentes áreas do conhecimento. Sabendo disso, para introduzir o estudo de gráficos, o professor João fez uma pesquisa junto a alguns estudantes com o objetivo de levantar dados sobre seus alimentos preferidos e registrou os resultados no gráfico abaixo. O professor João convidou o grupo para fazer a análise dos resultados. Assinale a alternativa que apresenta as conclusões possíveis, segundo o gráfico.",
         "alternativas": {
             "A": "Dez estudantes participaram da pesquisa, mas somente dois gostam de salgadinhos;",
@@ -1385,10 +1384,10 @@
             "E": "A pizza é o alimento preferido dos alunos, seguido pela batata frita."
         },
         "gabarito_correto": "C",
+        "id": "1052053",
         "comentario_ia": "Observando o gráfico, que representa os alimentos preferidos de 30 participantes, a barra da 'Pizza' atinge a marca de 10, indicando que dez participantes preferem pizza."
     },
     {
-        "id": "1144532",
         "enunciado": "Dentro da temática probabilidade e estatística o uso de tecnologias auxilia muito a análise e comparação dos resultados obtidos em pesquisas. Um exemplo de tecnologia utilizada neste campo é:",
         "alternativas": {
             "A": "Algoritmo de síntese.",
@@ -1398,10 +1397,10 @@
             "E": "Rede integrada de comunicação."
         },
         "gabarito_correto": "D",
+        "id": "1144532",
         "comentario_ia": "Calculadoras, sejam elas físicas ou software, e programas de planilhas são tecnologias comumente utilizadas para auxiliar em análises e comparações de resultados em probabilidade e estatística."
     },
     {
-        "id": "1721798",
         "enunciado": "Sabe-se que em uma indústria multinacional trabalham 250 brasileiros e 150 argentinos. A partir dessas informações, qual é a probabilidade de escolher ao acaso um trabalhador argentino?",
         "alternativas": {
             "A": "20,2%.",
@@ -1411,10 +1410,10 @@
             "E": "60,0%."
         },
         "gabarito_correto": "C",
+        "id": "1721798",
         "comentario_ia": "O total de trabalhadores é 250 + 150 = 400. A probabilidade de escolher um argentino é o número de argentinos dividido pelo total de trabalhadores: 150/400 = 0,375 ou 37,5%."
     },
     {
-        "id": "1888448",
         "enunciado": "Se uma vazão Q tem um período de recorrência de 50 anos isto significa que, em média, esta vazão tem uma probabilidade de ser igualada ou excedida de",
         "alternativas": {
             "A": "0,02",
@@ -1423,10 +1422,10 @@
             "D": "1"
         },
         "gabarito_correto": "A",
+        "id": "1888448",
         "comentario_ia": "O período de recorrência (Tr) de um evento hidrológico é o inverso da probabilidade (P) de este evento ocorrer em um dado ano. Assim, P = 1/Tr. Dado Tr = 50 anos, a probabilidade é P = 1/50 = 0,02."
     },
     {
-        "id": "2099989",
         "enunciado": "Seja X uma variável aleatória com média 40 e desvio padrão 2 e a variável aleatória Y com média 50 e desvio padrão 4. Sabe-se apenas que a Var (X+Y) = 22 e a Var(X-Y) = 18. Logo, a covariância entre as variáveis X e Y é",
         "alternativas": {
             "A": "0,5",
@@ -1436,10 +1435,10 @@
             "E": "3"
         },
         "gabarito_correto": "D",
+        "id": "2099989",
         "comentario_ia": "Sabemos que Var(X+Y) = Var(X) + Var(Y) + 2Cov(X,Y) e Var(X-Y) = Var(X) + Var(Y) - 2Cov(X,Y). Com Var(X) = 2^2 = 4 e Var(Y) = 4^2 = 16, temos 22 = 4 + 16 + 2Cov(X,Y) e 18 = 4 + 16 - 2Cov(X,Y). Resolvendo, 2Cov(X,Y) = 2 e -2Cov(X,Y) = -2, resultando em Cov(X,Y)=1."
     },
     {
-        "id": "1356936",
         "enunciado": "Considerando a distribuição Gompertz para o tempo de vida de um segurado, assinale a alternativa CORRETA.",
         "alternativas": {
             "A": "A força instantânea de mortalidade μ(x) é constante.",
@@ -1448,10 +1447,10 @@
             "D": "A força instantânea de mortalidade μ(x) cresce exponencialmente."
         },
         "gabarito_correto": "D",
+        "id": "1356936",
         "comentario_ia": "A distribuição Gompertz descreve uma força de mortalidade que aumenta exponencialmente com a idade, refletindo o envelhecimento e o aumento do risco de morte ao longo do tempo."
     },
     {
-        "id": "1356941",
         "enunciado": "Por definição, a razão de eliminação de perdas (loss elimination ratio) é a razão entre a o decréscimo na perda esperada com uma franquia simples e a perda esperada sem essa franquia. Seja X a variável aleatória representando o valor do sinistro, D o valor da franquia simples, e X ∧D = min{X, D}. Então, a razão de eliminação de perdas é dada por",
         "alternativas": {
             "A": "E(X ∧D)/E(X2 ∧D)",
@@ -1460,10 +1459,10 @@
             "D": "E(X ∧D)/E(X)"
         },
         "gabarito_correto": "C",
+        "id": "1356941",
         "comentario_ia": "A razão, por definição, é a diferença entre a perda esperada sem franquia e a perda esperada com franquia, dividida pela perda esperada sem franquia, o que simplifica para 1 - E(X ∧D)/E(X)."
     },
     {
-        "id": "1356943",
         "enunciado": "Um teste de aderência entre dados aleatórios i.i.d. X 1, X2, ... , Xn e um modelo probabilístico para a sua distribuição de probabilidade F(x) pode ser feito de uma das seguintes maneiras: I.usando-se a estatística de Kolmogorov-Smirnov; II.usando-se o modelo de riscos proporcionais de Cox; III.usando-se o teste qui-quadrado após tabular os dados de acordo com o número de elementos que caem em intervalos que particionam a reta; IV.usando-se o teste de Anderson-Darling. Pode-se concluir que",
         "alternativas": {
             "A": "apenas as afirmativas I e IV estão corretas.",
@@ -1472,6 +1471,7 @@
             "D": "apenas as afirmativas I, III e IV estão corretas."
         },
         "gabarito_correto": "D",
+        "id": "1356943",
         "comentario_ia": "Os testes de Kolmogorov-Smirnov (I), Qui-quadrado (III) e Anderson-Darling (IV) são clássicos para aderência. O modelo de Cox (II) é para regressão e não teste de ajuste de distribuição direta."
     }
 ]

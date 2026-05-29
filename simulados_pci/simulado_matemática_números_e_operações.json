@@ -1,6 +1,5 @@
 [
     {
-        "id": "2310437",
         "enunciado": "Ingo Hoffmann e Rubens Barrichello são dois pilotos famosos da Stock Car no Brasil. Em um determinado evento, Hoffmann e Barrichello irão se apresentar correndo em sentido opostos e ao mesmo tempo. Barrichello dá uma volta na pista a cada 1,5 minutos e Hoffmann a cada 2 minutos. Em um determinado momento eles se cruzam em um ponto P da pista. Em quanto tempo eles voltarão a se cruzar pela primeira vez nesse mesmo ponto P? Assinale a alternativa que indica a resposta correta.",
         "alternativas": {
             "A": "2 minutos",
@@ -10,10 +9,10 @@
             "E": "6 minutos"
         },
         "gabarito_correto": "E",
+        "id": "2310437",
         "comentario_ia": "O tempo para se cruzarem no mesmo ponto é o Mínimo Múltiplo Comum (MMC) de 1,5 e 2 minutos, que é 6 minutos."
     },
     {
-        "id": "2310439",
         "enunciado": "Alexandre está se preparando para o próximo concurso público em sua cidade e durante a sua preparação, ele resolve 1.100 questões por semana e, agora que o edital foi publicado, pretende manter esse ritmo para realizar uma boa prova daqui a três meses. Considerando que cada mês tem quatro semanas e que ele manterá esse mesmo ritmo, quantas questões Alexandre terá resolvido até o dia da prova? Assinale a alternativa correta:",
         "alternativas": {
             "A": "10.000 questões",
@@ -23,10 +22,10 @@
             "E": "15.000 questões"
         },
         "gabarito_correto": "C",
+        "id": "2310439",
         "comentario_ia": "Alexandre resolve 1100 questões/semana. Em 3 meses (12 semanas), ele resolverá 1100 * 12 = 13.200 questões."
     },
     {
-        "id": "1984111",
         "enunciado": "Joana administra um armazém e precisa organizar um estoque de 1.119 caixas de produtos em prateleiras. No entanto, algumas caixas estão danificadas e precisarão ser descartadas, totalizando 235 unidades a menos. Após essa redução, o total de caixas armazenadas será representado por qual tipo de número?",
         "alternativas": {
             "A": "Um número irracional.",
@@ -35,10 +34,10 @@
             "D": "Um número complexo."
         },
         "gabarito_correto": "B",
+        "id": "1984111",
         "comentario_ia": "O número inicial de caixas é 1.119. Após descartar 235 caixas danificadas, sobram 1.119 - 235 = 884 caixas. O número 884 é um número inteiro, pois é um número natural sem parte fracionária ou decimal."
     },
     {
-        "id": "2393310",
         "enunciado": "Em uma certa embalagem contém 4 dúzias e meia de laranjas. Se Aline comprou 2 dessas embalagens, a quantidade exata de laranjas que ela comprou foi de:",
         "alternativas": {
             "A": "54",
@@ -47,10 +46,10 @@
             "D": "320"
         },
         "gabarito_correto": "B",
+        "id": "2393310",
         "comentario_ia": "Meia dúzia são 6 unidades. Quatro dúzias e meia = 4 x 12 + 6 = 48 + 6 = 54 laranjas por embalagem. Aline comprou 2 embalagens, então 2 x 54 = 108 laranjas."
     },
     {
-        "id": "2241062",
         "enunciado": "Durante uma atividade de lógica numérica, a estudante Camila precisava identificar dois valores. O primeiro deveria ser o sexagésimo antecessor ímpar de 420, e o segundo, o quinquagésimo sucessor par do mesmo número. Quais números Camila deve escrever?",
         "alternativas": {
             "A": "300 e 520",
@@ -60,10 +59,10 @@
             "E": "303 e 522"
         },
         "gabarito_correto": "C",
-        "comentario_ia": "Antecessor ímpar de 420: 420 - 1 = 419 (par). 418 (par). 417 (ímpar). O 1º antecessor ímpar é 417. Para achar o 60º antecessor ímpar, subtraímos 2 * 59. 417 - (2 * 59) = 417 - 118 = 299. Sucessor par de 420: 420 + 2 = 422 (par). O 1º sucessor par é 422. Para achar o 50º sucessor par, somamos 2 * 49. 422 + (2 * 49) = 422 + 98 = 520.  O segundo número é 520.  Algo está errado. Antecessor ímpar de 420: antecessor mais próximo é 419 (par), 417 (ímpar). Sexagésimo antecessor ímpar: 420 - (60*2) - 1 = 420 - 120 - 1 = 299. Ou 417 é o primeiro.  417 - (59*2) = 417 - 118 = 299. Sucessor par de 420: 420+2 = 422. Quinquagésimo sucessor par: 422 + (49*2) = 422 + 98 = 520.  Os números são 299 e 520. A alternativa C é 299 e 518.  O quinquagésimo sucessor par: o primeiro sucessor par é 422. O quinquagésimo é 420 + (50*2) = 520. Se for 420+2=422, 422+(49*2)=520.  Algo errado na minha contagem. Sexagésimo antecessor ímpar de 420: O par mais próximo é 418. O ímpar é 417. O antecessor ímpar é 417.  Vamos subtrair 2 a cada p..."
+        "id": "2241062",
+        "comentario_ia": "Antecessor ímpar de 420: 420 - 1 = 419 (par). 418 (par). 417 (ímpar). O 1º antecessor ímpar é 417. Para achar o 60º antecessor ímpar, subtraímos 2 * 59. 417 - (2 * 59) = 417 - 118 = 299. Sucessor par de 420: 420 + 2 = 422 (par). O 1º sucessor par é 422. Para achar o 50º sucessor par, somamos 2 * 49. 422 + (2 * 49) = 422 + 98 = 520. O segundo número é 520. Algo está errado. Antecessor ímpar de 420: antecessor mais próximo é 419 (par), 417 (ímpar). Sexagésimo antecessor ímpar: 420 - (60*2) - 1 = 420 - 120 - 1 = 299. Ou 417 é o primeiro. 417 - (59*2) = 417 - 118 = 299. Sucessor par de 420: 420+2 = 422. Quinquagésimo sucessor par: 422 + (49*2) = 422 + 98 = 520. Os números são 299 e 520. A alternativa C é 299 e 518. O quinquagésimo sucessor par: o primeiro sucessor par é 422. O quinquagésimo é 420 + (50*2) = 520. Se for 420+2=422, 422+(49*2)=520. Algo errado na minha contagem. Sexagésimo antecessor ímpar de 420: O par mais próximo é 418. O ímpar é 417. O antecessor ímpar é 417. Vamos subtrair 2 a cada p..."
     },
     {
-        "id": "2266971",
         "enunciado": "Como se escreve por extenso o número 4.235?",
         "alternativas": {
             "A": "Quatrocentos e trinta e cinco.",
@@ -72,10 +71,10 @@
             "D": "Quarenta e dois mil trezentos e cinco."
         },
         "gabarito_correto": "B",
+        "id": "2266971",
         "comentario_ia": "O número 4.235 se escreve por extenso como 'Quatro mil duzentos e trinta e cinco', separando as unidades de milhar, centenas, dezenas e unidades."
     },
     {
-        "id": "2266972",
         "enunciado": "Um número que pertence ao conjunto dos números irracionais é",
         "alternativas": {
             "A": "3",
@@ -84,11 +83,11 @@
             "D": "-5."
         },
         "gabarito_correto": "C",
+        "id": "2266972",
         "comentario_ia": "Números irracionais são aqueles que não podem ser expressos como uma fração de dois inteiros, como é o caso da raiz quadrada de 2 (√2). Os outros apresentados são inteiros (3 e -5) ou racionais (0,333...)."
     },
     {
-        "id": "2094312",
-        "enunciado": "O município de Divino tem uma área territorial de cento e setenta e dois mil, cento e quarenta e um quilômetros quadrados.\nComo se escreve esta área apenas com algarismos?",
+        "enunciado": "O município de Divino tem uma área territorial de cento e setenta e dois mil, cento e quarenta e um quilômetros quadrados. Como se escreve esta área apenas com algarismos?",
         "alternativas": {
             "A": "17.241.000 km2",
             "B": "172.141 km2",
@@ -96,10 +95,10 @@
             "D": "172.410 km"
         },
         "gabarito_correto": "B",
+        "id": "2094312",
         "comentario_ia": "A leitura 'cento e setenta e dois mil, cento e quarenta e um quilômetros quadrados' corresponde diretamente ao número 172.141. As outras alternativas incluem zeros extras ou formatação incorreta para representar esse valor."
     },
     {
-        "id": "1999322",
         "enunciado": "Em uma cesta há maçãs e laranjas. Sabendo -se que na cesta há um total de 12 frutas e que o número de laranjas corresponde a um terço das frutas, assinale a alternativa que corresponde ao DOBRO do número de maçãs.",
         "alternativas": {
             "A": "6",
@@ -108,11 +107,11 @@
             "D": "10"
         },
         "gabarito_correto": "B",
+        "id": "1999322",
         "comentario_ia": "Se 1/3 das 12 frutas são laranjas, há 4 laranjas. Logo, há 12 - 4 = 8 maçãs. O dobro de maçãs é 8 * 2 = 16. A alternativa B contém o número de maçãs (8), não o dobro. O cálculo correto é 8 * 2 = 16, que é a alternativa C. Há um erro no gabarito fornecido."
     },
     {
-        "id": "2094314",
-        "enunciado": "A população trabalhadora de Divino, de acordo com o censo 2022, compreende:\nÁrea pública ...................  249 pessoas\nProdução química ..........  185 pessoas\nConstrução civil ..............   91 pessoas\nMineração .......................   06 pessoas\nQual o total de mão de obra trabalhadora neste município?",
+        "enunciado": "A população trabalhadora de Divino, de acordo com o censo 2022, compreende: Área pública ................... 249 pessoas Produção química .......... 185 pessoas Construção civil .............. 91 pessoas Mineração ....................... 06 pessoas Qual o total de mão de obra trabalhadora neste município?",
         "alternativas": {
             "A": "331 trabalhadores.",
             "B": "453 trabalhadores.",
@@ -120,10 +119,10 @@
             "D": "531 trabalhadores."
         },
         "gabarito_correto": "C",
+        "id": "2094314",
         "comentario_ia": "Para encontrar o total de mão de obra, somam-se as pessoas de cada área: 249 (pública) + 185 (química) + 91 (civil) + 6 (mineração) = 531 trabalhadores."
     },
     {
-        "id": "2348861",
         "enunciado": "Flávia foi a responsável pela decoração de Natal em sua casa. A árvore de Natal possui pisca-piscas com luzes que seguem uma determinada sincronização: as luzes vermelhas piscam em intervalos de 6 segundos, as azuis em intervalos de 10 segundos e as verdes em intervalos de 15 segundos. Dessa forma, qual é o intervalo de tempo em que todas as luzes do pisca-pisca da casa de Flávia piscam simultaneamente? Assinale a alternativa correta.",
         "alternativas": {
             "A": "6 segundos",
@@ -133,10 +132,10 @@
             "E": "60 segundos"
         },
         "gabarito_correto": "D",
+        "id": "2348861",
         "comentario_ia": "Para encontrar o intervalo em que todas as luzes piscam simultaneamente, é necessário calcular o Mínimo Múltiplo Comum (MMC) entre os intervalos de cada cor (6, 10 e 15). O MMC(6, 10, 15) é 30 segundos."
     },
     {
-        "id": "1988626",
         "enunciado": "O zelador da escola precisa escolher um número que seja múltiplo de 4 e de 6 ao mesmo tempo. Qual dos números abaixo atende a essa condição?",
         "alternativas": {
             "A": "18",
@@ -145,11 +144,11 @@
             "D": "36"
         },
         "gabarito_correto": "B",
+        "id": "1988626",
         "comentario_ia": "O número deve ser múltiplo de 4 e 6. O menor múltiplo comum de 4 e 6 é 12. Dentre as opções, 24 é o único múltiplo de 4 (24/4=6) e de 6 (24/6=4)."
     },
     {
-        "id": "2094316",
-        "enunciado": "A área agropecuária de Divino tem uma produção total de R$ 42.297,60.\nQuanto falta para esta produção atingir R$ 50.000,00?",
+        "enunciado": "A área agropecuária de Divino tem uma produção total de R$ 42.297,60. Quanto falta para esta produção atingir R$ 50.000,00?",
         "alternativas": {
             "A": "R$ 7.702,40.",
             "B": "R$ 17.207,40.",
@@ -157,10 +156,10 @@
             "D": "R$ 77.002,40."
         },
         "gabarito_correto": "A",
+        "id": "2094316",
         "comentario_ia": "Para saber quanto falta para atingir R$ 50.000,00, subtrai-se o valor da produção atual desse montante. Então, R$ 50.000,00 - R$ 42.297,60 = R$ 7.702,40."
     },
     {
-        "id": "2382338",
         "enunciado": "Calcule o MMC de 4 e 11 e assinale a resposta CORRETA:",
         "alternativas": {
             "A": "11",
@@ -170,11 +169,11 @@
             "E": "180"
         },
         "gabarito_correto": "C",
+        "id": "2382338",
         "comentario_ia": "O Mínimo Múltiplo Comum (MMC) de 4 e 11 é o menor número positivo que é múltiplo de ambos. Como 4 e 11 são números primos entre si, seus múltiplos comuns são os produtos de um pelo outro. O menor é 4*11 = 44."
     },
     {
-        "id": "2094318",
-        "enunciado": "A área da pecuária de Divino compreende as seguintes quantidades de cabeças de gado:\nBovinos .............. 13.362 cabeças\nGalináceos ......... 11.100 cabeças\nSuínos ................      980 cabeças\nOs produtores de suínos querem aumentar a quantidade de cabeças 10 vezes mais.\nCalcule quantas cabeças de gado suíno os produtores querem ter.",
+        "enunciado": "A área da pecuária de Divino compreende as seguintes quantidades de cabeças de gado: Bovinos .............. 13.362 cabeças Galináceos ......... 11.100 cabeças Suínos ................ 980 cabeças Os produtores de suínos querem aumentar a quantidade de cabeças 10 vezes mais. Calcule quantas cabeças de gado suíno os produtores querem ter.",
         "alternativas": {
             "A": "Eles querem ter 1.980 cabeças.",
             "B": "Eles querem ter 9.800 cabeças.",
@@ -182,10 +181,10 @@
             "D": "Eles querem ter 10.980 cabeças."
         },
         "gabarito_correto": "B",
+        "id": "2094318",
         "comentario_ia": "A questão pede para calcular quantas cabeças de gado suíno os produtores querem ter se aumentarem a quantidade 10 vezes. A quantidade atual de suínos é 980 cabeças. Portanto, 980 cabeças * 10 = 9.800 cabeças."
     },
     {
-        "id": "2135240",
         "enunciado": "Considere-se dois números inteiros positivos, tal que o produto entre eles seja 2.016. Sabendo-se que o Máximo Divisor Comum entre esses dois números é 4, qual o Mínimo Múltiplo Comum desses dois números?",
         "alternativas": {
             "A": "144.",
@@ -194,10 +193,10 @@
             "D": "504."
         },
         "gabarito_correto": "C",
+        "id": "2135240",
         "comentario_ia": "A alternativa C está correta. Utilizando a propriedade MMC(a,b) * MDC(a,b) = a * b, temos MMC(a,b) = (2016 * 4) / 4 = 2016 / 4 = 504."
     },
     {
-        "id": "2359919",
         "enunciado": "Assinale a alternativa em que todos os números são múltiplos simultaneamente de 6 e de 9.",
         "alternativas": {
             "A": "18, 42, 63 e 108.",
@@ -207,10 +206,10 @@
             "E": "36, 72, 90 e 126."
         },
         "gabarito_correto": "B",
+        "id": "2359919",
         "comentario_ia": "Múltiplos de 6 e 9 são múltiplos de seus respectivos MMCs. O MMC(6, 9) é 18. Verificando as alternativas, apenas os números 24, 36, 54 e 180 são múltiplos de 18 (e consequentemente de 6 e 9)."
     },
     {
-        "id": "2065365",
         "enunciado": "Qual é o menor número natural que é múltiplo de 6 e de 8 ao mesmo tempo?",
         "alternativas": {
             "A": "16",
@@ -219,10 +218,10 @@
             "D": "24"
         },
         "gabarito_correto": "D",
-        "comentario_ia": "O menor numero natural que e multiplo de 6 e de 8 ao mesmo tempo e o minimo multiplo comum (MMC) entre eles.  MMC(6, 8) = 24.  Portanto, 24 e o menor numero comum multiplo."
+        "id": "2065365",
+        "comentario_ia": "O menor numero natural que e multiplo de 6 e de 8 ao mesmo tempo e o minimo multiplo comum (MMC) entre eles. MMC(6, 8) = 24. Portanto, 24 e o menor numero comum multiplo."
     },
     {
-        "id": "2127017",
         "enunciado": "Dois amigos decidem se encontrar para jogar videogame. O primeiro amigo pode jogar a cada 4 dias, enquanto o segundo amigo só tem tempo a cada 6 dias. Se ambos jogaram juntos hoje, em quantos dias eles poderão jogar novamente juntos?",
         "alternativas": {
             "A": "4 dias",
@@ -232,10 +231,10 @@
             "E": "27 dias"
         },
         "gabarito_correto": "C",
+        "id": "2127017",
         "comentario_ia": "A questao busca o proximo encontro, que e o Mu00căltiplo Comum Mu00e1ximo (MMC) entre os periodos individuais. O MMC de 4 e 6 u00e9 12. Portanto, eles jogaru00e3o juntos em 12 dias."
     },
     {
-        "id": "2386688",
         "enunciado": "Matheus e Rafael são amigos que se conheceram on-line. Enquanto Matheus reside no Brasil, Rafael é um imigrante no Japão. A distância geográfica entre eles é de, aproximadamente, 17.000 quilômetros. Assinalar a alternativa que representa CORRETAMENTE a notação científica dessa distância.",
         "alternativas": {
             "A": "1,7x10⁴",
@@ -244,10 +243,10 @@
             "D": "1,7x10⁵"
         },
         "gabarito_correto": "A",
+        "id": "2386688",
         "comentario_ia": "A distancia de 17.000 quilometros em notacao cientifica e expressa como 1,7 multiplicado por 10 elevado a potencia 4 (10⁴). Isso ocorre pois a virgula e deslocada para a esquerda ate que apenas um digito significativo permaneca a esquerda."
     },
     {
-        "id": "2094328",
         "enunciado": "José vai construir uma casa com 140 metros quadrados. O metro quadrado custa R$ 1.000,00. Qual o valor da casa a ser construída por José?",
         "alternativas": {
             "A": "R$ 140.000,00.",
@@ -256,10 +255,10 @@
             "D": "R$ 200.000,00."
         },
         "gabarito_correto": "A",
+        "id": "2094328",
         "comentario_ia": "O valor total da casa é o resultado da multiplicação da área construída pelo custo por metro quadrado. Assim, 140 m2 * R$ 1.000,00/m2 = R$ 140.000,00."
     },
     {
-        "id": "2318411",
         "enunciado": "As medidas das tubulações roscadas são dadas em polegadas. Entre as tubulações que existem, qual é o menor diâmetro do tubo de aço galvanizado?",
         "alternativas": {
             "A": "1/4”",
@@ -269,10 +268,10 @@
             "E": "5/16”"
         },
         "gabarito_correto": "A",
+        "id": "2318411",
         "comentario_ia": "No contexto de tubulações roscadas, as medidas são usualmente dadas em polegadas. Entre as opções apresentadas, 1/4\" é o menor diâmetro de tubo de aço galvanizado comumente comercializado e utilizado em instalações."
     },
     {
-        "id": "2316919",
         "enunciado": "A resposta correta é:",
         "alternativas": {
             "A": "O número irracional é 3/4.",
@@ -281,10 +280,10 @@
             "D": "O número irracional é 7."
         },
         "gabarito_correto": "C",
+        "id": "2316919",
         "comentario_ia": "A raiz quadrada de 5 (√5) é um número irracional, pois sua representação decimal é infinita e não periódica. As outras opções representam números racionais (3/4, 7) ou inteiros (-2)."
     },
     {
-        "id": "2140897",
         "enunciado": "Qual é o inverso do oposto do número 8?",
         "alternativas": {
             "A": "-0,8.",
@@ -294,10 +293,10 @@
             "E": "10."
         },
         "gabarito_correto": "D",
+        "id": "2140897",
         "comentario_ia": "O oposto do número 8 é -8. O inverso de -8 é 1/(-8) = -0,125. Refletindo sobre a questão. Inverso de -8 é -1/8. O oposto de -1/8 é 1/8=0,125. Erro no raciocínio. O oposto de 8 é -8. O inverso de -8 é -1/8. Repensando. Qual é o oposto do número 8? -8. Qual é o inverso de -8? -1/8. Isso não está nas alternativas. A questão pede o inverso do oposto. O oposto de 8 é -8. Qual é o inverso de -8? -1/8. Repensando novamente. Qual é o inverso de um número x? É 1/x. Qual é o oposto de um número x? É -x. A questão: inverso do oposto do número 8. O oposto do número 8 é -8. Qual é o inverso de -8? É 1/(-8) = -0,125. As alternativas não batem. Talvez a pergunta seja o oposto do inverso? Inverso de 8 é 1/8. Oposto de 1/8 é -1/8. Ainda não bate. Vamos tentar interpretar 'inverso do oposto' de outra forma. O oposto inverte o sinal. O inverso inverte o numerador com o denominador. Inverso do oposto de 8. Oposto de 8 é -8. Inverso de -8 é -1/8. Ok, a matemática está correta. Talvez a questão seja mal formulada ou eu esteja ..."
     },
     {
-        "id": "2154499",
         "enunciado": "Se a raiz quadrada de 4 é 2, de 16 é 4 e de 64 é 8, então a raiz quadrada de 121 é:",
         "alternativas": {
             "A": "9",
@@ -306,10 +305,10 @@
             "D": "7"
         },
         "gabarito_correto": "B",
+        "id": "2154499",
         "comentario_ia": "A sequência apresentada mostra a raiz quadrada de números quadrados perfeitos. A raiz quadrada de 121 é 11, pois 11 * 11 = 121."
     },
     {
-        "id": "1461942",
         "enunciado": "No vácuo do espaço, a velocidade da luz é de 299.792.458 metros por segundo, e é considerada a velocidade máxima possível no universo. Sabendo disso, assinalar a alternativa que representa a notação científica aproximada desta velocidade.",
         "alternativas": {
             "A": "2,99 x 10^8",
@@ -318,10 +317,10 @@
             "D": "0,29 x 10^7"
         },
         "gabarito_correto": "A",
+        "id": "1461942",
         "comentario_ia": "A notacao cientifica expressa um numero como o produto de um numero real e uma potencia de 10. Para 299.792.458 m/s, movemos a virgula 8 casas para a esquerda, obtendo 2,99792458. Arredondando para duas casas decimais e usando a potencia de 10^-8, resulta em 2,99 x 10^8."
     },
     {
-        "id": "2202951",
         "enunciado": "Assinalar a alternativa que apresenta um número múltiplo exato de 3:",
         "alternativas": {
             "A": "45",
@@ -330,10 +329,10 @@
             "D": "17"
         },
         "gabarito_correto": "A",
+        "id": "2202951",
         "comentario_ia": "Um número é múltiplo exato de 3 se a soma de seus algarismos for divisível por 3. Na alternativa A, 4+5=9, que é divisível por 3. Nas demais, soma dos algarismos (4+3=7, 5+5=10, 1+7=8) não é divisível por 3."
     },
     {
-        "id": "1957852",
         "enunciado": "O número 12A5B, em que A é o algarismo das centenas e B é o algarismo das unidades, é divisível por 2, por 3 e por 5. Adicionalmente, ao se inverterem os algarismos A e B, obtém-se o número 12B5A, que não é divisível por 2 nem por 5. O maior valor de A que satisfaz às condições dadas é",
         "alternativas": {
             "A": "1.",
@@ -342,10 +341,10 @@
             "D": "9."
         },
         "gabarito_correto": "D",
+        "id": "1957852",
         "comentario_ia": "O número 12A5B é divisível por 2 e 5, logo B=0. É divisível por 3, então 1+2+A+5+0=8+A deve ser múltiplo de 3. Assim A pode ser 1, 4, 7. O número 12B5A (1205A) não é divisível por 2 nem 5, o que condiz com A diferente de 0. Para A=7, o número 12057 não é divisível por 2 nem 5 e 8+7=15 é divisível por 3. O maior valor de A é 7."
     },
     {
-        "id": "2229082",
         "enunciado": "Considerar o conjunto formado pelos três primeiros números inteiros positivos de três algarismos distintos maiores que 100. A média aritmética desses números é igual a:",
         "alternativas": {
             "A": "101",
@@ -354,11 +353,11 @@
             "D": "104"
         },
         "gabarito_correto": "C",
+        "id": "2229082",
         "comentario_ia": "Os três primeiros números inteiros positivos de três algarismos distintos maiores que 100 são 102, 103 e 104. A média aritmética é (102 + 103 + 104) / 3 = 309 / 3 = 103."
     },
     {
-        "id": "2142810",
-        "enunciado": "Observe o exemplo seguinte.  O número 10 possui 4 divisores, pois os únicos números que dividem 10 exatamente são: 1, 2, 5 e 10. O número de divisores de 48 é",
+        "enunciado": "Observe o exemplo seguinte. O número 10 possui 4 divisores, pois os únicos números que dividem 10 exatamente são: 1, 2, 5 e 10. O número de divisores de 48 é",
         "alternativas": {
             "A": "6.",
             "B": "7.",
@@ -367,10 +366,10 @@
             "E": "10."
         },
         "gabarito_correto": "E",
+        "id": "2142810",
         "comentario_ia": "Para encontrar o número de divisores de 48, primeiro prime-factoramos o número. 48 = 2 * 24 = 2 * 2 * 12 = 2 * 2 * 2 * 6 = 2 * 2 * 2 * 2 * 3 = 2^4 * 3^1. Para calcular o número total de divisores, somamos 1 a cada expoente e multiplicamos os resultados: (4+1) * (1+1) = 5 * 2 = 10. Portanto, 48 possui 10 divisores."
     },
     {
-        "id": "2310437",
         "enunciado": "Ingo Hoffmann e Rubens Barrichello são dois pilotos famosos da Stock Car no Brasil. Em um determinado evento, Hoffmann e Barrichello irão se apresentar correndo em sentido opostos e ao mesmo tempo. Barrichello dá uma volta na pista a cada 1,5 minutos e Hoffmann a cada 2 minutos. Em um determinado momento eles se cruzam em um ponto P da pista. Em quanto tempo eles voltarão a se cruzar pela primeira vez nesse mesmo ponto P? Assinale a alternativa que indica a resposta correta.",
         "alternativas": {
             "A": "2 minutos",
@@ -380,10 +379,10 @@
             "E": "6 minutos"
         },
         "gabarito_correto": "E",
+        "id": "2310437",
         "comentario_ia": "O tempo para se cruzarem no mesmo ponto é o Mínimo Múltiplo Comum (MMC) de 1,5 e 2 minutos, que é 6 minutos."
     },
     {
-        "id": "2310439",
         "enunciado": "Alexandre está se preparando para o próximo concurso público em sua cidade e durante a sua preparação, ele resolve 1.100 questões por semana e, agora que o edital foi publicado, pretende manter esse ritmo para realizar uma boa prova daqui a três meses. Considerando que cada mês tem quatro semanas e que ele manterá esse mesmo ritmo, quantas questões Alexandre terá resolvido até o dia da prova? Assinale a alternativa correta:",
         "alternativas": {
             "A": "10.000 questões",
@@ -393,10 +392,10 @@
             "E": "15.000 questões"
         },
         "gabarito_correto": "C",
+        "id": "2310439",
         "comentario_ia": "Alexandre resolve 1100 questões/semana. Em 3 meses (12 semanas), ele resolverá 1100 * 12 = 13.200 questões."
     },
     {
-        "id": "1984111",
         "enunciado": "Joana administra um armazém e precisa organizar um estoque de 1.119 caixas de produtos em prateleiras. No entanto, algumas caixas estão danificadas e precisarão ser descartadas, totalizando 235 unidades a menos. Após essa redução, o total de caixas armazenadas será representado por qual tipo de número?",
         "alternativas": {
             "A": "Um número irracional.",
@@ -405,10 +404,10 @@
             "D": "Um número complexo."
         },
         "gabarito_correto": "B",
+        "id": "1984111",
         "comentario_ia": "O número inicial de caixas é 1.119. Após descartar 235 caixas danificadas, sobram 1.119 - 235 = 884 caixas. O número 884 é um número inteiro, pois é um número natural sem parte fracionária ou decimal."
     },
     {
-        "id": "2393310",
         "enunciado": "Em uma certa embalagem contém 4 dúzias e meia de laranjas. Se Aline comprou 2 dessas embalagens, a quantidade exata de laranjas que ela comprou foi de:",
         "alternativas": {
             "A": "54",
@@ -417,10 +416,10 @@
             "D": "320"
         },
         "gabarito_correto": "B",
+        "id": "2393310",
         "comentario_ia": "Meia dúzia são 6 unidades. Quatro dúzias e meia = 4 x 12 + 6 = 48 + 6 = 54 laranjas por embalagem. Aline comprou 2 embalagens, então 2 x 54 = 108 laranjas."
     },
     {
-        "id": "2241062",
         "enunciado": "Durante uma atividade de lógica numérica, a estudante Camila precisava identificar dois valores. O primeiro deveria ser o sexagésimo antecessor ímpar de 420, e o segundo, o quinquagésimo sucessor par do mesmo número. Quais números Camila deve escrever?",
         "alternativas": {
             "A": "300 e 520",
@@ -430,10 +429,10 @@
             "E": "303 e 522"
         },
         "gabarito_correto": "C",
-        "comentario_ia": "Antecessor ímpar de 420: 420 - 1 = 419 (par). 418 (par). 417 (ímpar). O 1º antecessor ímpar é 417. Para achar o 60º antecessor ímpar, subtraímos 2 * 59. 417 - (2 * 59) = 417 - 118 = 299. Sucessor par de 420: 420 + 2 = 422 (par). O 1º sucessor par é 422. Para achar o 50º sucessor par, somamos 2 * 49. 422 + (2 * 49) = 422 + 98 = 520.  O segundo número é 520.  Algo está errado. Antecessor ímpar de 420: antecessor mais próximo é 419 (par), 417 (ímpar). Sexagésimo antecessor ímpar: 420 - (60*2) - 1 = 420 - 120 - 1 = 299. Ou 417 é o primeiro.  417 - (59*2) = 417 - 118 = 299. Sucessor par de 420: 420+2 = 422. Quinquagésimo sucessor par: 422 + (49*2) = 422 + 98 = 520.  Os números são 299 e 520. A alternativa C é 299 e 518.  O quinquagésimo sucessor par: o primeiro sucessor par é 422. O quinquagésimo é 420 + (50*2) = 520. Se for 420+2=422, 422+(49*2)=520.  Algo errado na minha contagem. Sexagésimo antecessor ímpar de 420: O par mais próximo é 418. O ímpar é 417. O antecessor ímpar é 417.  Vamos subtrair 2 a cada p..."
+        "id": "2241062",
+        "comentario_ia": "Antecessor ímpar de 420: 420 - 1 = 419 (par). 418 (par). 417 (ímpar). O 1º antecessor ímpar é 417. Para achar o 60º antecessor ímpar, subtraímos 2 * 59. 417 - (2 * 59) = 417 - 118 = 299. Sucessor par de 420: 420 + 2 = 422 (par). O 1º sucessor par é 422. Para achar o 50º sucessor par, somamos 2 * 49. 422 + (2 * 49) = 422 + 98 = 520. O segundo número é 520. Algo está errado. Antecessor ímpar de 420: antecessor mais próximo é 419 (par), 417 (ímpar). Sexagésimo antecessor ímpar: 420 - (60*2) - 1 = 420 - 120 - 1 = 299. Ou 417 é o primeiro. 417 - (59*2) = 417 - 118 = 299. Sucessor par de 420: 420+2 = 422. Quinquagésimo sucessor par: 422 + (49*2) = 422 + 98 = 520. Os números são 299 e 520. A alternativa C é 299 e 518. O quinquagésimo sucessor par: o primeiro sucessor par é 422. O quinquagésimo é 420 + (50*2) = 520. Se for 420+2=422, 422+(49*2)=520. Algo errado na minha contagem. Sexagésimo antecessor ímpar de 420: O par mais próximo é 418. O ímpar é 417. O antecessor ímpar é 417. Vamos subtrair 2 a cada p..."
     },
     {
-        "id": "2266971",
         "enunciado": "Como se escreve por extenso o número 4.235?",
         "alternativas": {
             "A": "Quatrocentos e trinta e cinco.",
@@ -442,10 +441,10 @@
             "D": "Quarenta e dois mil trezentos e cinco."
         },
         "gabarito_correto": "B",
+        "id": "2266971",
         "comentario_ia": "O número 4.235 se escreve por extenso como 'Quatro mil duzentos e trinta e cinco', separando as unidades de milhar, centenas, dezenas e unidades."
     },
     {
-        "id": "2266972",
         "enunciado": "Um número que pertence ao conjunto dos números irracionais é",
         "alternativas": {
             "A": "3",
@@ -454,11 +453,11 @@
             "D": "-5."
         },
         "gabarito_correto": "C",
+        "id": "2266972",
         "comentario_ia": "Números irracionais são aqueles que não podem ser expressos como uma fração de dois inteiros, como é o caso da raiz quadrada de 2 (√2). Os outros apresentados são inteiros (3 e -5) ou racionais (0,333...)."
     },
     {
-        "id": "2094312",
-        "enunciado": "O município de Divino tem uma área territorial de cento e setenta e dois mil, cento e quarenta e um quilômetros quadrados.\nComo se escreve esta área apenas com algarismos?",
+        "enunciado": "O município de Divino tem uma área territorial de cento e setenta e dois mil, cento e quarenta e um quilômetros quadrados. Como se escreve esta área apenas com algarismos?",
         "alternativas": {
             "A": "17.241.000 km2",
             "B": "172.141 km2",
@@ -466,10 +465,10 @@
             "D": "172.410 km"
         },
         "gabarito_correto": "B",
+        "id": "2094312",
         "comentario_ia": "A leitura 'cento e setenta e dois mil, cento e quarenta e um quilômetros quadrados' corresponde diretamente ao número 172.141. As outras alternativas incluem zeros extras ou formatação incorreta para representar esse valor."
     },
     {
-        "id": "1999322",
         "enunciado": "Em uma cesta há maçãs e laranjas. Sabendo -se que na cesta há um total de 12 frutas e que o número de laranjas corresponde a um terço das frutas, assinale a alternativa que corresponde ao DOBRO do número de maçãs.",
         "alternativas": {
             "A": "6",
@@ -478,11 +477,11 @@
             "D": "10"
         },
         "gabarito_correto": "B",
+        "id": "1999322",
         "comentario_ia": "Se 1/3 das 12 frutas são laranjas, há 4 laranjas. Logo, há 12 - 4 = 8 maçãs. O dobro de maçãs é 8 * 2 = 16. A alternativa B contém o número de maçãs (8), não o dobro. O cálculo correto é 8 * 2 = 16, que é a alternativa C. Há um erro no gabarito fornecido."
     },
     {
-        "id": "2094314",
-        "enunciado": "A população trabalhadora de Divino, de acordo com o censo 2022, compreende:\nÁrea pública ...................  249 pessoas\nProdução química ..........  185 pessoas\nConstrução civil ..............   91 pessoas\nMineração .......................   06 pessoas\nQual o total de mão de obra trabalhadora neste município?",
+        "enunciado": "A população trabalhadora de Divino, de acordo com o censo 2022, compreende: Área pública ................... 249 pessoas Produção química .......... 185 pessoas Construção civil .............. 91 pessoas Mineração ....................... 06 pessoas Qual o total de mão de obra trabalhadora neste município?",
         "alternativas": {
             "A": "331 trabalhadores.",
             "B": "453 trabalhadores.",
@@ -490,10 +489,10 @@
             "D": "531 trabalhadores."
         },
         "gabarito_correto": "C",
+        "id": "2094314",
         "comentario_ia": "Para encontrar o total de mão de obra, somam-se as pessoas de cada área: 249 (pública) + 185 (química) + 91 (civil) + 6 (mineração) = 531 trabalhadores."
     },
     {
-        "id": "2348861",
         "enunciado": "Flávia foi a responsável pela decoração de Natal em sua casa. A árvore de Natal possui pisca-piscas com luzes que seguem uma determinada sincronização: as luzes vermelhas piscam em intervalos de 6 segundos, as azuis em intervalos de 10 segundos e as verdes em intervalos de 15 segundos. Dessa forma, qual é o intervalo de tempo em que todas as luzes do pisca-pisca da casa de Flávia piscam simultaneamente? Assinale a alternativa correta.",
         "alternativas": {
             "A": "6 segundos",
@@ -503,10 +502,10 @@
             "E": "60 segundos"
         },
         "gabarito_correto": "D",
+        "id": "2348861",
         "comentario_ia": "Para encontrar o intervalo em que todas as luzes piscam simultaneamente, é necessário calcular o Mínimo Múltiplo Comum (MMC) entre os intervalos de cada cor (6, 10 e 15). O MMC(6, 10, 15) é 30 segundos."
     },
     {
-        "id": "1988626",
         "enunciado": "O zelador da escola precisa escolher um número que seja múltiplo de 4 e de 6 ao mesmo tempo. Qual dos números abaixo atende a essa condição?",
         "alternativas": {
             "A": "18",
@@ -515,11 +514,11 @@
             "D": "36"
         },
         "gabarito_correto": "B",
+        "id": "1988626",
         "comentario_ia": "O número deve ser múltiplo de 4 e 6. O menor múltiplo comum de 4 e 6 é 12. Dentre as opções, 24 é o único múltiplo de 4 (24/4=6) e de 6 (24/6=4)."
     },
     {
-        "id": "2094316",
-        "enunciado": "A área agropecuária de Divino tem uma produção total de R$ 42.297,60.\nQuanto falta para esta produção atingir R$ 50.000,00?",
+        "enunciado": "A área agropecuária de Divino tem uma produção total de R$ 42.297,60. Quanto falta para esta produção atingir R$ 50.000,00?",
         "alternativas": {
             "A": "R$ 7.702,40.",
             "B": "R$ 17.207,40.",
@@ -527,10 +526,10 @@
             "D": "R$ 77.002,40."
         },
         "gabarito_correto": "A",
+        "id": "2094316",
         "comentario_ia": "Para saber quanto falta para atingir R$ 50.000,00, subtrai-se o valor da produção atual desse montante. Então, R$ 50.000,00 - R$ 42.297,60 = R$ 7.702,40."
     },
     {
-        "id": "2382338",
         "enunciado": "Calcule o MMC de 4 e 11 e assinale a resposta CORRETA:",
         "alternativas": {
             "A": "11",
@@ -540,11 +539,11 @@
             "E": "180"
         },
         "gabarito_correto": "C",
+        "id": "2382338",
         "comentario_ia": "O Mínimo Múltiplo Comum (MMC) de 4 e 11 é o menor número positivo que é múltiplo de ambos. Como 4 e 11 são números primos entre si, seus múltiplos comuns são os produtos de um pelo outro. O menor é 4*11 = 44."
     },
     {
-        "id": "2094318",
-        "enunciado": "A área da pecuária de Divino compreende as seguintes quantidades de cabeças de gado:\nBovinos .............. 13.362 cabeças\nGalináceos ......... 11.100 cabeças\nSuínos ................      980 cabeças\nOs produtores de suínos querem aumentar a quantidade de cabeças 10 vezes mais.\nCalcule quantas cabeças de gado suíno os produtores querem ter.",
+        "enunciado": "A área da pecuária de Divino compreende as seguintes quantidades de cabeças de gado: Bovinos .............. 13.362 cabeças Galináceos ......... 11.100 cabeças Suínos ................ 980 cabeças Os produtores de suínos querem aumentar a quantidade de cabeças 10 vezes mais. Calcule quantas cabeças de gado suíno os produtores querem ter.",
         "alternativas": {
             "A": "Eles querem ter 1.980 cabeças.",
             "B": "Eles querem ter 9.800 cabeças.",
@@ -552,10 +551,10 @@
             "D": "Eles querem ter 10.980 cabeças."
         },
         "gabarito_correto": "B",
+        "id": "2094318",
         "comentario_ia": "A questão pede para calcular quantas cabeças de gado suíno os produtores querem ter se aumentarem a quantidade 10 vezes. A quantidade atual de suínos é 980 cabeças. Portanto, 980 cabeças * 10 = 9.800 cabeças."
     },
     {
-        "id": "2135240",
         "enunciado": "Considere-se dois números inteiros positivos, tal que o produto entre eles seja 2.016. Sabendo-se que o Máximo Divisor Comum entre esses dois números é 4, qual o Mínimo Múltiplo Comum desses dois números?",
         "alternativas": {
             "A": "144.",
@@ -564,10 +563,10 @@
             "D": "504."
         },
         "gabarito_correto": "C",
+        "id": "2135240",
         "comentario_ia": "A alternativa C está correta. Utilizando a propriedade MMC(a,b) * MDC(a,b) = a * b, temos MMC(a,b) = (2016 * 4) / 4 = 2016 / 4 = 504."
     },
     {
-        "id": "2359919",
         "enunciado": "Assinale a alternativa em que todos os números são múltiplos simultaneamente de 6 e de 9.",
         "alternativas": {
             "A": "18, 42, 63 e 108.",
@@ -577,10 +576,10 @@
             "E": "36, 72, 90 e 126."
         },
         "gabarito_correto": "B",
+        "id": "2359919",
         "comentario_ia": "Múltiplos de 6 e 9 são múltiplos de seus respectivos MMCs. O MMC(6, 9) é 18. Verificando as alternativas, apenas os números 24, 36, 54 e 180 são múltiplos de 18 (e consequentemente de 6 e 9)."
     },
     {
-        "id": "2065365",
         "enunciado": "Qual é o menor número natural que é múltiplo de 6 e de 8 ao mesmo tempo?",
         "alternativas": {
             "A": "16",
@@ -589,10 +588,10 @@
             "D": "24"
         },
         "gabarito_correto": "D",
-        "comentario_ia": "O menor numero natural que e multiplo de 6 e de 8 ao mesmo tempo e o minimo multiplo comum (MMC) entre eles.  MMC(6, 8) = 24.  Portanto, 24 e o menor numero comum multiplo."
+        "id": "2065365",
+        "comentario_ia": "O menor numero natural que e multiplo de 6 e de 8 ao mesmo tempo e o minimo multiplo comum (MMC) entre eles. MMC(6, 8) = 24. Portanto, 24 e o menor numero comum multiplo."
     },
     {
-        "id": "2127017",
         "enunciado": "Dois amigos decidem se encontrar para jogar videogame. O primeiro amigo pode jogar a cada 4 dias, enquanto o segundo amigo só tem tempo a cada 6 dias. Se ambos jogaram juntos hoje, em quantos dias eles poderão jogar novamente juntos?",
         "alternativas": {
             "A": "4 dias",
@@ -602,10 +601,10 @@
             "E": "27 dias"
         },
         "gabarito_correto": "C",
+        "id": "2127017",
         "comentario_ia": "A questao busca o proximo encontro, que e o Mu00căltiplo Comum Mu00e1ximo (MMC) entre os periodos individuais. O MMC de 4 e 6 u00e9 12. Portanto, eles jogaru00e3o juntos em 12 dias."
     },
     {
-        "id": "2386688",
         "enunciado": "Matheus e Rafael são amigos que se conheceram on-line. Enquanto Matheus reside no Brasil, Rafael é um imigrante no Japão. A distância geográfica entre eles é de, aproximadamente, 17.000 quilômetros. Assinalar a alternativa que representa CORRETAMENTE a notação científica dessa distância.",
         "alternativas": {
             "A": "1,7x10⁴",
@@ -614,10 +613,10 @@
             "D": "1,7x10⁵"
         },
         "gabarito_correto": "A",
+        "id": "2386688",
         "comentario_ia": "A distancia de 17.000 quilometros em notacao cientifica e expressa como 1,7 multiplicado por 10 elevado a potencia 4 (10⁴). Isso ocorre pois a virgula e deslocada para a esquerda ate que apenas um digito significativo permaneca a esquerda."
     },
     {
-        "id": "2094328",
         "enunciado": "José vai construir uma casa com 140 metros quadrados. O metro quadrado custa R$ 1.000,00. Qual o valor da casa a ser construída por José?",
         "alternativas": {
             "A": "R$ 140.000,00.",
@@ -626,10 +625,10 @@
             "D": "R$ 200.000,00."
         },
         "gabarito_correto": "A",
+        "id": "2094328",
         "comentario_ia": "O valor total da casa é o resultado da multiplicação da área construída pelo custo por metro quadrado. Assim, 140 m2 * R$ 1.000,00/m2 = R$ 140.000,00."
     },
     {
-        "id": "2318411",
         "enunciado": "As medidas das tubulações roscadas são dadas em polegadas. Entre as tubulações que existem, qual é o menor diâmetro do tubo de aço galvanizado?",
         "alternativas": {
             "A": "1/4”",
@@ -639,10 +638,10 @@
             "E": "5/16”"
         },
         "gabarito_correto": "A",
+        "id": "2318411",
         "comentario_ia": "No contexto de tubulações roscadas, as medidas são usualmente dadas em polegadas. Entre as opções apresentadas, 1/4\" é o menor diâmetro de tubo de aço galvanizado comumente comercializado e utilizado em instalações."
     },
     {
-        "id": "2316919",
         "enunciado": "A resposta correta é:",
         "alternativas": {
             "A": "O número irracional é 3/4.",
@@ -651,10 +650,10 @@
             "D": "O número irracional é 7."
         },
         "gabarito_correto": "C",
+        "id": "2316919",
         "comentario_ia": "A raiz quadrada de 5 (√5) é um número irracional, pois sua representação decimal é infinita e não periódica. As outras opções representam números racionais (3/4, 7) ou inteiros (-2)."
     },
     {
-        "id": "2140897",
         "enunciado": "Qual é o inverso do oposto do número 8?",
         "alternativas": {
             "A": "-0,8.",
@@ -664,10 +663,10 @@
             "E": "10."
         },
         "gabarito_correto": "D",
+        "id": "2140897",
         "comentario_ia": "O oposto do número 8 é -8. O inverso de -8 é 1/(-8) = -0,125. Refletindo sobre a questão. Inverso de -8 é -1/8. O oposto de -1/8 é 1/8=0,125. Erro no raciocínio. O oposto de 8 é -8. O inverso de -8 é -1/8. Repensando. Qual é o oposto do número 8? -8. Qual é o inverso de -8? -1/8. Isso não está nas alternativas. A questão pede o inverso do oposto. O oposto de 8 é -8. Qual é o inverso de -8? -1/8. Repensando novamente. Qual é o inverso de um número x? É 1/x. Qual é o oposto de um número x? É -x. A questão: inverso do oposto do número 8. O oposto do número 8 é -8. Qual é o inverso de -8? É 1/(-8) = -0,125. As alternativas não batem. Talvez a pergunta seja o oposto do inverso? Inverso de 8 é 1/8. Oposto de 1/8 é -1/8. Ainda não bate. Vamos tentar interpretar 'inverso do oposto' de outra forma. O oposto inverte o sinal. O inverso inverte o numerador com o denominador. Inverso do oposto de 8. Oposto de 8 é -8. Inverso de -8 é -1/8. Ok, a matemática está correta. Talvez a questão seja mal formulada ou eu esteja ..."
     },
     {
-        "id": "2154499",
         "enunciado": "Se a raiz quadrada de 4 é 2, de 16 é 4 e de 64 é 8, então a raiz quadrada de 121 é:",
         "alternativas": {
             "A": "9",
@@ -676,10 +675,10 @@
             "D": "7"
         },
         "gabarito_correto": "B",
+        "id": "2154499",
         "comentario_ia": "A sequência apresentada mostra a raiz quadrada de números quadrados perfeitos. A raiz quadrada de 121 é 11, pois 11 * 11 = 121."
     },
     {
-        "id": "1461942",
         "enunciado": "No vácuo do espaço, a velocidade da luz é de 299.792.458 metros por segundo, e é considerada a velocidade máxima possível no universo. Sabendo disso, assinalar a alternativa que representa a notação científica aproximada desta velocidade.",
         "alternativas": {
             "A": "2,99 x 10^8",
@@ -688,10 +687,10 @@
             "D": "0,29 x 10^7"
         },
         "gabarito_correto": "A",
+        "id": "1461942",
         "comentario_ia": "A notacao cientifica expressa um numero como o produto de um numero real e uma potencia de 10. Para 299.792.458 m/s, movemos a virgula 8 casas para a esquerda, obtendo 2,99792458. Arredondando para duas casas decimais e usando a potencia de 10^-8, resulta em 2,99 x 10^8."
     },
     {
-        "id": "2202951",
         "enunciado": "Assinalar a alternativa que apresenta um número múltiplo exato de 3:",
         "alternativas": {
             "A": "45",
@@ -700,10 +699,10 @@
             "D": "17"
         },
         "gabarito_correto": "A",
+        "id": "2202951",
         "comentario_ia": "Um número é múltiplo exato de 3 se a soma de seus algarismos for divisível por 3. Na alternativa A, 4+5=9, que é divisível por 3. Nas demais, soma dos algarismos (4+3=7, 5+5=10, 1+7=8) não é divisível por 3."
     },
     {
-        "id": "1957852",
         "enunciado": "O número 12A5B, em que A é o algarismo das centenas e B é o algarismo das unidades, é divisível por 2, por 3 e por 5. Adicionalmente, ao se inverterem os algarismos A e B, obtém-se o número 12B5A, que não é divisível por 2 nem por 5. O maior valor de A que satisfaz às condições dadas é",
         "alternativas": {
             "A": "1.",
@@ -712,10 +711,10 @@
             "D": "9."
         },
         "gabarito_correto": "D",
+        "id": "1957852",
         "comentario_ia": "O número 12A5B é divisível por 2 e 5, logo B=0. É divisível por 3, então 1+2+A+5+0=8+A deve ser múltiplo de 3. Assim A pode ser 1, 4, 7. O número 12B5A (1205A) não é divisível por 2 nem 5, o que condiz com A diferente de 0. Para A=7, o número 12057 não é divisível por 2 nem 5 e 8+7=15 é divisível por 3. O maior valor de A é 7."
     },
     {
-        "id": "2229082",
         "enunciado": "Considerar o conjunto formado pelos três primeiros números inteiros positivos de três algarismos distintos maiores que 100. A média aritmética desses números é igual a:",
         "alternativas": {
             "A": "101",
@@ -724,11 +723,11 @@
             "D": "104"
         },
         "gabarito_correto": "C",
+        "id": "2229082",
         "comentario_ia": "Os três primeiros números inteiros positivos de três algarismos distintos maiores que 100 são 102, 103 e 104. A média aritmética é (102 + 103 + 104) / 3 = 309 / 3 = 103."
     },
     {
-        "id": "2142810",
-        "enunciado": "Observe o exemplo seguinte.  O número 10 possui 4 divisores, pois os únicos números que dividem 10 exatamente são: 1, 2, 5 e 10. O número de divisores de 48 é",
+        "enunciado": "Observe o exemplo seguinte. O número 10 possui 4 divisores, pois os únicos números que dividem 10 exatamente são: 1, 2, 5 e 10. O número de divisores de 48 é",
         "alternativas": {
             "A": "6.",
             "B": "7.",
@@ -737,10 +736,10 @@
             "E": "10."
         },
         "gabarito_correto": "E",
+        "id": "2142810",
         "comentario_ia": "Para encontrar o número de divisores de 48, primeiro prime-factoramos o número. 48 = 2 * 24 = 2 * 2 * 12 = 2 * 2 * 2 * 6 = 2 * 2 * 2 * 2 * 3 = 2^4 * 3^1. Para calcular o número total de divisores, somamos 1 a cada expoente e multiplicamos os resultados: (4+1) * (1+1) = 5 * 2 = 10. Portanto, 48 possui 10 divisores."
     },
     {
-        "id": "2151216",
         "enunciado": "Referente a antecessor e sucessor, analisar os itens abaixo: I. O antecessor do número 26 é maior que o sucessor do número 23. II. O sucessor do número 69 é menor que o antecessor do número 70.",
         "alternativas": {
             "A": "Os itens I e II estão corretos.",
@@ -749,10 +748,10 @@
             "D": "Os itens I e II estão incorretos."
         },
         "gabarito_correto": "A",
+        "id": "2151216",
         "comentario_ia": "Item I: Antecessor de 26 é 25; Sucessor de 23 é 24. 25 > 24 (Verdadeiro). Item II: Sucessor de 69 é 70; Antecessor de 70 é 69. 70 < 69 (Falso)."
     },
     {
-        "id": "2152628",
         "enunciado": "Considere uma escala de valores numéricos V que seja usada como referência para a análise de uma determinada grandeza G, de tal modo que V1G =. Dentre os seguintes valores possíveis para a grandeza G: − 1 G1= − 32G2= − 54G3= − 43G4= − 6G5= O que corresponde ao maior valor V é:",
         "alternativas": {
             "A": "G2",
@@ -762,11 +761,11 @@
             "E": "G3"
         },
         "gabarito_correto": "B",
+        "id": "2152628",
         "comentario_ia": "Convertendo as frações em decimais, temos G1=-0.75, G2=-0.54, G3=-0.75, G4=-0.66, G5=-0.66. Em valor absoluto, G4 e G5 são os maiores (mais próximos de zero), mas na reta numérica -0.66 é maior que os outros valores negativos."
     },
     {
-        "id": "1997213",
-        "enunciado": "Seja  é o mínimo múltiplo comum ( mmc)  de 36  e 60 e  o máximo divisor comum (mdc) de 60 e 36  então vale:",
+        "enunciado": "Seja é o mínimo múltiplo comum ( mmc) de 36 e 60 e o máximo divisor comum (mdc) de 60 e 36 então vale:",
         "alternativas": {
             "A": "168.",
             "B": "124.",
@@ -775,6 +774,7 @@
             "E": "24."
         },
         "gabarito_correto": "E",
+        "id": "1997213",
         "comentario_ia": "O mmc de 36 e 60 é 180. O mdc de 36 e 60 é 12. A pergunta pede 'então vale:', mas não especifica qual operação realizar com mmc e mdc. Se for a soma, 180+12=192. Se for a diferença, 180-12=168. Se for a multiplicação, 180*12=2160. A alternativa E=24 pode ser o mdc de 60 e 36? Não. O mdc é 12. Se a pergunta fosse só sobre o mdc(36,60) a resposta seria 12, que não está nas alternativas."
     }
 ]

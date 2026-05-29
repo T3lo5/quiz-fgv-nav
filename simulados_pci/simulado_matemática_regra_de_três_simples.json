@@ -1,19 +1,18 @@
 [
     {
-        "id": "2390546",
-        "enunciado": "Em         uma         empresa         de         logística,         4         operadores         conseguem organizar         180         encomendas          em         um         turno         completo         de trabalho,         mantendo         o         mesmo         ritmo         e         as         mesmas condições         operacionais.          Em         um         dia         de         maior         demanda,         o supervisor         decide         escalar         6         operadores         para         executar         a mesma         atividade,         sem         alterar         o         tempo         disponível. Considerando          essas         informações,          determine         o         total esperado         ao         final         do         turno.",
+        "enunciado": "Em uma empresa de logística, 4 operadores conseguem organizar 180 encomendas em um turno completo de trabalho, mantendo o mesmo ritmo e as mesmas condições operacionais. Em um dia de maior demanda, o supervisor decide escalar 6 operadores para executar a mesma atividade, sem alterar o tempo disponível. Considerando essas informações, determine o total esperado ao final do turno.",
         "alternativas": {
-            "A": "O         total         esperado         é         de         225         encomendas.",
-            "B": "O         total         esperado         é         de         270         encomendas.",
-            "C": "O         total         esperado         é         de         240         encomendas.",
-            "D": "O         total         esperado         é         de         210         encomendas.",
-            "E": "O         total         esperado         é         de         300         encomendas."
+            "A": "O total esperado é de 225 encomendas.",
+            "B": "O total esperado é de 270 encomendas.",
+            "C": "O total esperado é de 240 encomendas.",
+            "D": "O total esperado é de 210 encomendas.",
+            "E": "O total esperado é de 300 encomendas."
         },
         "gabarito_correto": "B",
+        "id": "2390546",
         "comentario_ia": "A relação entre operadores e encomendas é diretamente proporcional. Com 4 operadores fazem 180 encomendas, então com 6 (1,5x mais operadores), farão 1,5x mais encomendas: 180 * 1,5 = 270."
     },
     {
-        "id": "2169944",
         "enunciado": "Um agricultor percebeu que suas galinhas produzem 24 ovos em 4 dias. Mantendo a mesma proporção de produção, quantos ovos serão produzidos em 6 dias?",
         "alternativas": {
             "A": "60 ovos.",
@@ -23,10 +22,10 @@
             "E": "40 ovos."
         },
         "gabarito_correto": "C",
+        "id": "2169944",
         "comentario_ia": "A proporção é de 24 ovos em 4 dias, ou seja, 6 ovos por dia (24/4 = 6). Em 6 dias, a produção será de 36 ovos (6 ovos/dia * 6 dias = 36)."
     },
     {
-        "id": "2121112",
         "enunciado": "Durante um mutirão de atendimentos auditivos, a fonoaudióloga Lúcia avaliou 135 crianças em 9 dias de trabalho. Mantendo o mesmo ritmo de atendimentos, quantos dias ela precisaria para avaliar 225 crianças?",
         "alternativas": {
             "A": "15.",
@@ -35,10 +34,10 @@
             "D": "19."
         },
         "gabarito_correto": "A",
+        "id": "2121112",
         "comentario_ia": "Se 135 crianças são avaliadas em 9 dias, o ritmo é de 135/9 = 15 crianças por dia. Para avaliar 225 crianças, mantendo o ritmo, o tempo necessário será 225 / 15 = 15 dias."
     },
     {
-        "id": "2356042",
         "enunciado": "Uma papelaria vende kits escolares. Se 5 kits custam R$ 40, então 8 kits do mesmo tipo custam, em reais:",
         "alternativas": {
             "A": "Mais de 70.",
@@ -48,10 +47,10 @@
             "E": "Menos de 55."
         },
         "gabarito_correto": "C",
+        "id": "2356042",
         "comentario_ia": "Se 5 kits custam R$ 40, o preço de 1 kit é R$ 8 (40 / 5). Portanto, 8 kits custarão R$ 64 (8 * 8). O valor de R$ 64 está na faixa 'Mais de 60 e menos de 65'."
     },
     {
-        "id": "2200527",
         "enunciado": "Três sócios Aline, Bruno e Caio investiram, respectivamente, R$ 40.000, R$ 60.000 e R$ 100.000 em um negócio. Ao final do ano, o lucro foi de R$80.000. Divida o lucro entre os três, proporcionalmente ao investimento.",
         "alternativas": {
             "A": "A → R$ 24.000,00 B → R$ 16.000,00 C → R$ 50.000,00",
@@ -60,10 +59,10 @@
             "D": "A → R$ 20.000,00 B → R$ 18.000,00 C → R$ 35.000,00"
         },
         "gabarito_correto": "B",
+        "id": "2200527",
         "comentario_ia": "O total investido é R$ 200.000 (40+60+100). A divisão proporcional do lucro de R$ 80.000 é: Aline (40/200)*80000=16000, Bruno (60/200)*80000=24000, Caio (100/200)*80000=40000."
     },
     {
-        "id": "2109529",
         "enunciado": "Em uma empresa, sabe-se que 3 máquinas conseguem produzir 120 peças cada uma por hora. Se apenas 2 dessas máquinas estiverem funcionando, qual será o total de peças produzidas em 4 horas? Assinale a alternativa correta:",
         "alternativas": {
             "A": "960 peças.",
@@ -73,10 +72,10 @@
             "E": "720 peças."
         },
         "gabarito_correto": "A",
+        "id": "2109529",
         "comentario_ia": "Cada máquina produz 120 peças/hora. Com 3 máquinas, a produção total é de 3 * 120 = 360 peças/hora. Se apenas 2 máquinas funcionarem, a produção será de 2 * 120 = 240 peças/hora. Em 4 horas, com 2 máquinas, o total é 240 * 4 = 960 peças."
     },
     {
-        "id": "2278986",
         "enunciado": "Uma equipe de limpeza formada por 4 funcionários leva 6 horas para limpar 3 salas. Mantendo o mesmo ritmo de trabalho, quantas horas 6 funcionários levariam para limpar 9 salas?",
         "alternativas": {
             "A": "12 horas.",
@@ -85,10 +84,10 @@
             "D": "4 horas."
         },
         "gabarito_correto": "C",
-        "comentario_ia": "A relação é diretamente proporcional entre funcionários e salas, e inversamente proporcional ao tempo. Se 4 funcionários limpam 3 salas em 6h, então 1 funcionário limpa 3/4 salas em 6h, ou 1 sala em 6h/(3/4) = 8h. Assim, 6 funcionários limpam 6*8h = 48h para 1 sala. Para 9 salas, levariam 9*48h/6 = 9*8h = 72h. Outra forma: (Func1 * Tempo1) / Salas1 = (Func2 * Tempo2) / Salas2. (4 * 6) / 3 = (6 * Tempo2) / 9. 24/3 = 4. 4 = (6 * Tempo2) / 9. 36 = 6 * Tempo2. Tempo2 = 6h.  A resolução estava errada. Refazendo a proporção: Funcionários e Salas são diretamente proporcionais ao tempo. Mais funcionários, mais tempo para mais salas, mas a relação é inversamente proporcional entre o número de funcionários.  (Func1 * Tempo1) / N.Salas1 = (Func2 * Tempo2) / N.Salas2.  (4 * 6) / 3 = (6 * T) / 9.  8 = (6T) / 9.  72 = 6T. T = 12h.  Há um erro na minha análise.  A relação é:  Tempo = (N.Salas * 1 Tempo_por_sala_por_funcionario) / N.Funcionarios.  Tempo_por_sala_por_funcionario = (6h * 4 func) / 3 salas = 8 horas-funcion..."
+        "id": "2278986",
+        "comentario_ia": "A relação é diretamente proporcional entre funcionários e salas, e inversamente proporcional ao tempo. Se 4 funcionários limpam 3 salas em 6h, então 1 funcionário limpa 3/4 salas em 6h, ou 1 sala em 6h/(3/4) = 8h. Assim, 6 funcionários limpam 6*8h = 48h para 1 sala. Para 9 salas, levariam 9*48h/6 = 9*8h = 72h. Outra forma: (Func1 * Tempo1) / Salas1 = (Func2 * Tempo2) / Salas2. (4 * 6) / 3 = (6 * Tempo2) / 9. 24/3 = 4. 4 = (6 * Tempo2) / 9. 36 = 6 * Tempo2. Tempo2 = 6h. A resolução estava errada. Refazendo a proporção: Funcionários e Salas são diretamente proporcionais ao tempo. Mais funcionários, mais tempo para mais salas, mas a relação é inversamente proporcional entre o número de funcionários. (Func1 * Tempo1) / N.Salas1 = (Func2 * Tempo2) / N.Salas2. (4 * 6) / 3 = (6 * T) / 9. 8 = (6T) / 9. 72 = 6T. T = 12h. Há um erro na minha análise. A relação é: Tempo = (N.Salas * 1 Tempo_por_sala_por_funcionario) / N.Funcionarios. Tempo_por_sala_por_funcionario = (6h * 4 func) / 3 salas = 8 horas-funcion..."
     },
     {
-        "id": "2063875",
         "enunciado": "Se 3 lápis custam R$ 6,00, quanto custam 5 lápis?",
         "alternativas": {
             "A": "R$ 8,00",
@@ -97,10 +96,10 @@
             "D": "R$ 12,00"
         },
         "gabarito_correto": "C",
+        "id": "2063875",
         "comentario_ia": "Se 3 lápis custam R$ 6,00, cada lápis custa R$ 2,00 (6/3). Portanto, 5 lápis custarão R$ 10,00 (5*2)."
     },
     {
-        "id": "2309804",
         "enunciado": "Antônio produz 80 bolos em um dia de trabalho. Caso ele deseje aumentar a produção em 50% e considerando que um dia de trabalho possui 8 horas, assinale a alternativa que indica em quantas horas ele produzirá essa nova demanda:",
         "alternativas": {
             "A": "10 horas",
@@ -109,10 +108,10 @@
             "D": "13 horas"
         },
         "gabarito_correto": "C",
+        "id": "2309804",
         "comentario_ia": "Antônio produz 80 bolos em 8 horas. Um aumento de 50% na produção significa 80 * 1,5 = 120 bolos. Se ele produz 80 bolos em 8 horas, ele produz 10 bolos por hora. Para produzir 120 bolos a 10 bolos/hora, ele levará 120/10 = 12 horas."
     },
     {
-        "id": "2116160",
         "enunciado": "\"Um carro que faz 12 km/l consumirá ____ litros ao percorrer 54 km. Caso percorra apenas 18 km, gastará ____ litros.\" Assinale a alternativa que preencha, correta e respectivamente, as lacunas.",
         "alternativas": {
             "A": "4,5 / 1,5",
@@ -122,11 +121,11 @@
             "E": "2,5 / 1,5"
         },
         "gabarito_correto": "A",
+        "id": "2116160",
         "comentario_ia": "Para 54 km: 54 km / 12 km/l = 4,5 litros. Para 18 km: 18 km / 12 km/l = 1,5 litros. As lacunas são preenchidas corretamente com 4,5 e 1,5, respectivamente."
     },
     {
-        "id": "2384189",
-        "enunciado": "Um enfermeiro precisa preparar uma solução para um exame laboratorial. Sabe-se que em 20 mL de solução há 5 mg de medicamento ativo. Se o enfermeiro precisar preparar 60 mL da mesma solução, quantos miligramas de medicamento ativo serão necessários?\nAssinale a alternativa correta.",
+        "enunciado": "Um enfermeiro precisa preparar uma solução para um exame laboratorial. Sabe-se que em 20 mL de solução há 5 mg de medicamento ativo. Se o enfermeiro precisar preparar 60 mL da mesma solução, quantos miligramas de medicamento ativo serão necessários? Assinale a alternativa correta.",
         "alternativas": {
             "A": "10 mg",
             "B": "15 mg",
@@ -135,10 +134,10 @@
             "E": "30 mg"
         },
         "gabarito_correto": "B",
+        "id": "2384189",
         "comentario_ia": "A relação entre a quantidade de solução e o medicamento ativo é de 20 mL para 5 mg. Para obter 60 mL, que é 3 vezes mais solução, é necessário 3 vezes mais medicamento, ou seja, 3 * 5 mg = 15 mg."
     },
     {
-        "id": "2371741",
         "enunciado": "Uma gráfica universitária imprime apostilas para cursos de extensão. Sabe-se que 120 apostilas consomem exatamente 3 kg de papel do mesmo tipo e gramatura. Mantidas todas as condições de produção, o gerente precisa estimar a quantidade de papel necessária para imprimir 450 apostilas em uma nova demanda. Nestas condições, qual é a massa total de papel necessária?",
         "alternativas": {
             "A": "A massa necessária é de 12,00 kg.",
@@ -148,10 +147,10 @@
             "E": "A massa necessária é de 9,75 kg."
         },
         "gabarito_correto": "B",
+        "id": "2371741",
         "comentario_ia": "A relação é diretamente proporcional. Se 120 apostilas consomem 3 kg, então 450 apostilas consumirão X kg. Monte a regra de três: 120/3 = 450/X. Resolvendo, X = (450 * 3) / 120 = 11,25 kg."
     },
     {
-        "id": "2036618",
         "enunciado": "Determinado carro consome 2 litros de combustível para percorrer 17 quilômetros. Mantendo sempre esse consumo, quantos litros de combustível são necessários para esse carro percorrer 204 quilômetros?",
         "alternativas": {
             "A": "16",
@@ -161,10 +160,10 @@
             "E": "28"
         },
         "gabarito_correto": "D",
+        "id": "2036618",
         "comentario_ia": "A proporção é de 2L para 17km. Para 204km, o cálculo é (204km / 17km) * 2L = 12 * 2L = 24L. Alternativa D."
     },
     {
-        "id": "2136119",
         "enunciado": "Um carro de passeio, ao rodar em uma estrada reta e sem muitas subidas, percorre 240km consumindo 20 litros de combustível. Se o motorista mantiver a velocidade e as mesmas condições na via, quantos quilômetros ele conseguirá percorrer com 35 litros de combustível?",
         "alternativas": {
             "A": "320km",
@@ -173,10 +172,10 @@
             "D": "460km"
         },
         "gabarito_correto": "C",
+        "id": "2136119",
         "comentario_ia": "A questao estabelece uma relacao de proporcionalidade direta entre a distancia percorrida e a quantidade de combustivel consumido. Com 20 litros, o carro percorre 240km. Para 35 litros, o calculo é (35L / 20L) * 240km = 420km."
     },
     {
-        "id": "1862081",
         "enunciado": "Uma equipe de 6 operários consegue concluir uma obra em 12 dias. Se a equipe for reduzida para 4 operários, quantos dias serão necessários para concluir a mesma obra, considerando que todos trabalham no mesmo ritmo?",
         "alternativas": {
             "A": "8 dias.",
@@ -185,10 +184,10 @@
             "D": "20 dias."
         },
         "gabarito_correto": "B",
+        "id": "1862081",
         "comentario_ia": "Este é um problema de regra de três inversa. Se menos operários trabalham, mais dias são necessários. A relação é (6 operários * 12 dias) = (4 operários * X dias). Resolvendo para X: X = (6 * 12) / 4 = 72 / 4 = 18 dias."
     },
     {
-        "id": "2168418",
         "enunciado": "Se 4 lápis custam R$ 12,00, quanto custarão 10 lápis, considerando o mesmo preço unitário?",
         "alternativas": {
             "A": "R$ 24,00.",
@@ -198,10 +197,10 @@
             "E": "R$ 45,00."
         },
         "gabarito_correto": "B",
+        "id": "2168418",
         "comentario_ia": "Regra de três simples: 4 lápis --- R$ 12,00. 10 lápis --- X. 4X = 12 * 10 => 4X = 120 => X = 30. Portanto, 10 lápis custarão R$ 30,00."
     },
     {
-        "id": "2294126",
         "enunciado": "Para preparar kits de laboratório, um auxiliar utilizou 12 mL de solução para montar 3 kits completos. Mantendo a mesma proporção de uso, deseja-se saber a quantidade de solução necessária para montar 15 kits. Assinale a alternativa que apresenta o valor corretamente proporcional.",
         "alternativas": {
             "A": "60 mL.",
@@ -210,10 +209,10 @@
             "D": "50 mL."
         },
         "gabarito_correto": "A",
+        "id": "2294126",
         "comentario_ia": "Se 12 mL fazem 3 kits, a proporção é de 4 mL/kit. Para 15 kits, são necessários 15 kits * 4 mL/kit = 60 mL. O cálculo é uma regra de três simples."
     },
     {
-        "id": "2108889",
         "enunciado": "Um pedreiro contratado para reformar um quintal construiu um muro de 30 metros em 5 dias, trabalhando sozinho e mantendo um ritmo constante. O proprietário decidiu ampliar a reforma e pediu que ele construísse um novo muro de 48 metros com as mesmas condições. Quantos dias serão necessários para completar a nova construção?",
         "alternativas": {
             "A": "9 dias.",
@@ -222,10 +221,10 @@
             "D": "6 dias."
         },
         "gabarito_correto": "B",
+        "id": "2108889",
         "comentario_ia": "A construção do primeiro muro de 30 metros levou 5 dias. A taxa de construção é de 30m/5d = 6m/dia. Para construir 48 metros, serão necessários 48m / (6m/dia) = 8 dias."
     },
     {
-        "id": "2397997",
         "enunciado": "Certa quantidade de água é suficiente para que 4 cães a bebam por 2 dias, todos bebendo a mesma quantidade diária de água. Então, supondo que uma mesma quantidade de água seja bebida por apenas 1 cão, que bebe a mesma quantidade diária de água dos cães da situação anterior, tal quantidade de água será suficiente para",
         "alternativas": {
             "A": "8 dias.",
@@ -235,10 +234,10 @@
             "E": "7 dias."
         },
         "gabarito_correto": "A",
+        "id": "2397997",
         "comentario_ia": "Se 4 cães bebem a água em 2 dias, a quantidade total de água é para 4*2 = 8 'cãodias'. Se apenas 1 cão beber a mesma quantidade, a água durará 8 dias."
     },
     {
-        "id": "2122414",
         "enunciado": "Pedro instalou uma torneira em sua fazenda, que enche um tanque de criação de tilápias em 5 horas. Se ele instalar mais uma torneira igual à anterior, quanto tempo levará para encher o mesmo tanque?",
         "alternativas": {
             "A": "Levará 4 horas.",
@@ -247,10 +246,10 @@
             "D": "Levará 5,5 horas."
         },
         "gabarito_correto": "B",
+        "id": "2122414",
         "comentario_ia": "Se uma torneira enche o tanque em 5 horas, duas torneiras idênticas trabalharão juntas e reduzirão o tempo pela metade. Portanto, 5 horas / 2 = 2,5 horas."
     },
     {
-        "id": "2368019",
         "enunciado": "Um jardim pode ser regado por 5 aspersores automáticos em 12 minutos. Se forem usados 4 aspersores de mesmo modelo, em quanto tempo o jardim será regado?",
         "alternativas": {
             "A": "Em 19 minutos.",
@@ -259,10 +258,10 @@
             "D": "Em 25 minutos."
         },
         "gabarito_correto": "C",
+        "id": "2368019",
         "comentario_ia": "Este é um problema de regra de três inversa. Se 5 aspersores levam 12 minutos, 1 aspersor levaria 5 * 12 = 60 minutos. Com 4 aspersores, o tempo será 60 / 4 = 15 minutos. As alternativas A, B e D calculam tempos incorretos."
     },
     {
-        "id": "2318188",
         "enunciado": "Em um laboratório, sabe-se que uma máquina embala 180 frascos de solução em 12 minutos, operando continuamente e sob as mesmas condições. Em determinado turno, por causa da alta demanda, o responsável precisou estimar quanto tempo essa máquina levaria para embalar 475 frascos, mantendo o mesmo ritmo de produção. Neste contexto, analise as assertivas abaixo. I.A taxa de produção é de 15 frascos por minuto. II.O tempo necessário para embalar 475 frascos é de aproximadamente 31,7 minutos. III.Se fossem 600 frascos, o tempo ultrapassaria 40 minutos. IV.A taxa de produção da máquina diminui conforme o tempo de operação aumenta. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I, III e IV, apenas.",
@@ -271,10 +270,10 @@
             "D": "I e II, apenas."
         },
         "gabarito_correto": "D",
+        "id": "2318188",
         "comentario_ia": "A taxa de produção é 180 frascos/12 min = 15 frascos/min (I CORRETA). Tempo para 475 frascos: 475/15 ≈ 31,67 min (II CORRETA). Para 600 frascos: 600/15 = 40 min (III INCORRETA). A taxa de produção é constante (IV INCORRETA)."
     },
     {
-        "id": "2212772",
         "enunciado": "Uma pequena gráfica de Guaranalândia imprime 900 panfletos em 3 horas utilizando duas máquinas idênticas, mas recebeu uma encomenda de 1.800 panfletos. Utilizando o mesmo número de máquinas e mantendo o mesmo ritmo de produção, quanto tempo será necessário para atender ao novo pedido?",
         "alternativas": {
             "A": "Serão necessárias 6 horas.",
@@ -283,10 +282,10 @@
             "D": "Serão necessárias 4 horas."
         },
         "gabarito_correto": "A",
+        "id": "2212772",
         "comentario_ia": "A gráfica produz 900 panfletos em 3 horas, o que significa 300 panfletos por hora por maquina. Para 1800 panfletos, mantendo o mesmo ritmo, seriam necessarias 1800/300 = 6 horas."
     },
     {
-        "id": "2346629",
         "enunciado": "Bruna digitou 45 páginas de um relatório em 3 horas, mantendo um ritmo constante de trabalho. Se ela mantiver o mesmo ritmo, quantas páginas conseguirá digitar em 7 horas?",
         "alternativas": {
             "A": "90.",
@@ -296,10 +295,10 @@
             "E": "110."
         },
         "gabarito_correto": "D",
+        "id": "2346629",
         "comentario_ia": "Bruna digita 45 páginas em 3 horas, o que corresponde a uma média de 45/3 = 15 páginas por hora. Em 7 horas, ela digitará 15 * 7 = 105 páginas, mantendo o mesmo ritmo."
     },
     {
-        "id": "2045668",
         "enunciado": "Em uma reforma, um pintor gastou 7,5 litros de tinta para pintar uma parede de 45m2. Quantos litros de tinta seriam necessários caso a parede tivesse 180m2?",
         "alternativas": {
             "A": "15",
@@ -308,10 +307,10 @@
             "D": "25"
         },
         "gabarito_correto": "C",
+        "id": "2045668",
         "comentario_ia": "Este é um problema de regra de três simples. Se 7,5 litros pintam 45m², então para 180m² (que é 4 vezes 45m²), serão necessários 4 vezes a quantidade de tinta. 7,5 litros * 4 = 30 litros."
     },
     {
-        "id": "1950875",
         "enunciado": "Se 5 operários fazem certa obra em 10 dias, 10 operários, com a mesma eficiência dos primeiros, fariam a mesma obra em",
         "alternativas": {
             "A": "5 dias.",
@@ -320,10 +319,10 @@
             "D": "8 dias."
         },
         "gabarito_correto": "A",
+        "id": "1950875",
         "comentario_ia": "Trata-se de uma regra de três inversamente proporcional. Se 5 operários levam 10 dias, com o dobro de operários (10), o tempo para realizar a mesma obra será a metade, ou seja, 5 dias, mantida a eficiência."
     },
     {
-        "id": "2066760",
         "enunciado": "Um lápis de 18 cm de comprimento foi colocado verticalmente no chão e projeta uma sombra de 12 cm. No mesmo instante, um poste projeta uma sombra de 2,5 metros. Quantos metros de altura têm o poste?",
         "alternativas": {
             "A": "2,75",
@@ -332,10 +331,10 @@
             "D": "2,5"
         },
         "gabarito_correto": "B",
+        "id": "2066760",
         "comentario_ia": "A questão envolve semelhança de triângulos. A proporção é lápis/sombra do lápis = poste/sombra do poste. Convertendo 2,5m para 250cm: 18/12 = H/250. Resolvendo: H = (18 * 250) / 12 = 4500 / 12 = 375cm = 3,75m."
     },
     {
-        "id": "1199028",
         "enunciado": "Em 15 dias de jejum intermitente, alimentando-se de 8 em 8 horas, Helena perdeu 7 kg. Então, quantos quilos ela vai emagrecer se jejuar por 30 dias, alimentando-se de 6 em 6 horas?",
         "alternativas": {
             "A": "Ela vai emagrecer 9,8 kg.",
@@ -345,10 +344,10 @@
             "E": "Ela vai emagrecer 10,5 kg."
         },
         "gabarito_correto": "E",
+        "id": "1199028",
         "comentario_ia": "A questão apresenta uma informação incompleta. O jejum de 8 em 8 horas em 15 dias resulta em 9 refeições. O jejum de 6 em 6 horas em 30 dias resulta em 15 refeições. Não há uma relação direta entre número de refeições e perda de peso, nem a informação é suficiente para calcular a perda de peso esperada."
     },
     {
-        "id": "2140447",
         "enunciado": "Se em uma fábrica de biscoitos, 8 funcionários conseguem embalar 240 pacotes de biscoitos em 6 horas, quantos pacotes de biscoitos 5 funcionários conseguem embalar no mesmo período, trabalhando no mesmo ritmo?",
         "alternativas": {
             "A": "180 pacotes.",
@@ -357,10 +356,10 @@
             "D": "200 pacotes."
         },
         "gabarito_correto": "B",
+        "id": "2140447",
         "comentario_ia": "A questo trata de regra de tres simples e direta. Mais funcionarios embalam mais pacotes. A relacao e:<0xC2><0xA0>8 funcionarios -> 240 pacotes<0xC2><0xA0><0xC2><0xA0>5 funcionarios -> X pacotes. Logo, X = (240 * 5) / 8 = 150 pacotes."
     },
     {
-        "id": "2139840",
         "enunciado": "Fábio comprou um caminhão para fazer frete e ele consome 14 litros de combustível a cada 150 km. Se João pegou um frete para uma cidade que fica a 210 km de distância de seu ponto de partida, de quantos litros de combustível ele vai precisar?",
         "alternativas": {
             "A": "Ele vai precisar de 21,9 litros de combustível.",
@@ -369,23 +368,23 @@
             "D": "Ele vai precisar de 17,3 litros de combustível."
         },
         "gabarito_correto": "C",
+        "id": "2139840",
         "comentario_ia": "A questao envolve regra de tres simples. Se 14 litros sao consumidos em 150 km, para 210 km, o consumo (x) eh dado por 150/14 = 210/x. Resolvendo a proporcao: 150x = 14 * 210, resultando em x = 2940 / 150 = 19.6 litros. Observe que este ID eh igual ao ID 2140231."
     },
     {
-        "id": "2390546",
-        "enunciado": "Em         uma         empresa         de         logística,         4         operadores         conseguem organizar         180         encomendas          em         um         turno         completo         de trabalho,         mantendo         o         mesmo         ritmo         e         as         mesmas condições         operacionais.          Em         um         dia         de         maior         demanda,         o supervisor         decide         escalar         6         operadores         para         executar         a mesma         atividade,         sem         alterar         o         tempo         disponível. Considerando          essas         informações,          determine         o         total esperado         ao         final         do         turno.",
+        "enunciado": "Em uma empresa de logística, 4 operadores conseguem organizar 180 encomendas em um turno completo de trabalho, mantendo o mesmo ritmo e as mesmas condições operacionais. Em um dia de maior demanda, o supervisor decide escalar 6 operadores para executar a mesma atividade, sem alterar o tempo disponível. Considerando essas informações, determine o total esperado ao final do turno.",
         "alternativas": {
-            "A": "O         total         esperado         é         de         225         encomendas.",
-            "B": "O         total         esperado         é         de         270         encomendas.",
-            "C": "O         total         esperado         é         de         240         encomendas.",
-            "D": "O         total         esperado         é         de         210         encomendas.",
-            "E": "O         total         esperado         é         de         300         encomendas."
+            "A": "O total esperado é de 225 encomendas.",
+            "B": "O total esperado é de 270 encomendas.",
+            "C": "O total esperado é de 240 encomendas.",
+            "D": "O total esperado é de 210 encomendas.",
+            "E": "O total esperado é de 300 encomendas."
         },
         "gabarito_correto": "B",
+        "id": "2390546",
         "comentario_ia": "A relação entre operadores e encomendas é diretamente proporcional. Com 4 operadores fazem 180 encomendas, então com 6 (1,5x mais operadores), farão 1,5x mais encomendas: 180 * 1,5 = 270."
     },
     {
-        "id": "2169944",
         "enunciado": "Um agricultor percebeu que suas galinhas produzem 24 ovos em 4 dias. Mantendo a mesma proporção de produção, quantos ovos serão produzidos em 6 dias?",
         "alternativas": {
             "A": "60 ovos.",
@@ -395,10 +394,10 @@
             "E": "40 ovos."
         },
         "gabarito_correto": "C",
+        "id": "2169944",
         "comentario_ia": "A proporção é de 24 ovos em 4 dias, ou seja, 6 ovos por dia (24/4 = 6). Em 6 dias, a produção será de 36 ovos (6 ovos/dia * 6 dias = 36)."
     },
     {
-        "id": "2121112",
         "enunciado": "Durante um mutirão de atendimentos auditivos, a fonoaudióloga Lúcia avaliou 135 crianças em 9 dias de trabalho. Mantendo o mesmo ritmo de atendimentos, quantos dias ela precisaria para avaliar 225 crianças?",
         "alternativas": {
             "A": "15.",
@@ -407,10 +406,10 @@
             "D": "19."
         },
         "gabarito_correto": "A",
+        "id": "2121112",
         "comentario_ia": "Se 135 crianças são avaliadas em 9 dias, o ritmo é de 135/9 = 15 crianças por dia. Para avaliar 225 crianças, mantendo o ritmo, o tempo necessário será 225 / 15 = 15 dias."
     },
     {
-        "id": "2356042",
         "enunciado": "Uma papelaria vende kits escolares. Se 5 kits custam R$ 40, então 8 kits do mesmo tipo custam, em reais:",
         "alternativas": {
             "A": "Mais de 70.",
@@ -420,10 +419,10 @@
             "E": "Menos de 55."
         },
         "gabarito_correto": "C",
+        "id": "2356042",
         "comentario_ia": "Se 5 kits custam R$ 40, o preço de 1 kit é R$ 8 (40 / 5). Portanto, 8 kits custarão R$ 64 (8 * 8). O valor de R$ 64 está na faixa 'Mais de 60 e menos de 65'."
     },
     {
-        "id": "2200527",
         "enunciado": "Três sócios Aline, Bruno e Caio investiram, respectivamente, R$ 40.000, R$ 60.000 e R$ 100.000 em um negócio. Ao final do ano, o lucro foi de R$80.000. Divida o lucro entre os três, proporcionalmente ao investimento.",
         "alternativas": {
             "A": "A → R$ 24.000,00 B → R$ 16.000,00 C → R$ 50.000,00",
@@ -432,10 +431,10 @@
             "D": "A → R$ 20.000,00 B → R$ 18.000,00 C → R$ 35.000,00"
         },
         "gabarito_correto": "B",
+        "id": "2200527",
         "comentario_ia": "O total investido é R$ 200.000 (40+60+100). A divisão proporcional do lucro de R$ 80.000 é: Aline (40/200)*80000=16000, Bruno (60/200)*80000=24000, Caio (100/200)*80000=40000."
     },
     {
-        "id": "2109529",
         "enunciado": "Em uma empresa, sabe-se que 3 máquinas conseguem produzir 120 peças cada uma por hora. Se apenas 2 dessas máquinas estiverem funcionando, qual será o total de peças produzidas em 4 horas? Assinale a alternativa correta:",
         "alternativas": {
             "A": "960 peças.",
@@ -445,10 +444,10 @@
             "E": "720 peças."
         },
         "gabarito_correto": "A",
+        "id": "2109529",
         "comentario_ia": "Cada máquina produz 120 peças/hora. Com 3 máquinas, a produção total é de 3 * 120 = 360 peças/hora. Se apenas 2 máquinas funcionarem, a produção será de 2 * 120 = 240 peças/hora. Em 4 horas, com 2 máquinas, o total é 240 * 4 = 960 peças."
     },
     {
-        "id": "2278986",
         "enunciado": "Uma equipe de limpeza formada por 4 funcionários leva 6 horas para limpar 3 salas. Mantendo o mesmo ritmo de trabalho, quantas horas 6 funcionários levariam para limpar 9 salas?",
         "alternativas": {
             "A": "12 horas.",
@@ -457,10 +456,10 @@
             "D": "4 horas."
         },
         "gabarito_correto": "C",
-        "comentario_ia": "A relação é diretamente proporcional entre funcionários e salas, e inversamente proporcional ao tempo. Se 4 funcionários limpam 3 salas em 6h, então 1 funcionário limpa 3/4 salas em 6h, ou 1 sala em 6h/(3/4) = 8h. Assim, 6 funcionários limpam 6*8h = 48h para 1 sala. Para 9 salas, levariam 9*48h/6 = 9*8h = 72h. Outra forma: (Func1 * Tempo1) / Salas1 = (Func2 * Tempo2) / Salas2. (4 * 6) / 3 = (6 * Tempo2) / 9. 24/3 = 4. 4 = (6 * Tempo2) / 9. 36 = 6 * Tempo2. Tempo2 = 6h.  A resolução estava errada. Refazendo a proporção: Funcionários e Salas são diretamente proporcionais ao tempo. Mais funcionários, mais tempo para mais salas, mas a relação é inversamente proporcional entre o número de funcionários.  (Func1 * Tempo1) / N.Salas1 = (Func2 * Tempo2) / N.Salas2.  (4 * 6) / 3 = (6 * T) / 9.  8 = (6T) / 9.  72 = 6T. T = 12h.  Há um erro na minha análise.  A relação é:  Tempo = (N.Salas * 1 Tempo_por_sala_por_funcionario) / N.Funcionarios.  Tempo_por_sala_por_funcionario = (6h * 4 func) / 3 salas = 8 horas-funcion..."
+        "id": "2278986",
+        "comentario_ia": "A relação é diretamente proporcional entre funcionários e salas, e inversamente proporcional ao tempo. Se 4 funcionários limpam 3 salas em 6h, então 1 funcionário limpa 3/4 salas em 6h, ou 1 sala em 6h/(3/4) = 8h. Assim, 6 funcionários limpam 6*8h = 48h para 1 sala. Para 9 salas, levariam 9*48h/6 = 9*8h = 72h. Outra forma: (Func1 * Tempo1) / Salas1 = (Func2 * Tempo2) / Salas2. (4 * 6) / 3 = (6 * Tempo2) / 9. 24/3 = 4. 4 = (6 * Tempo2) / 9. 36 = 6 * Tempo2. Tempo2 = 6h. A resolução estava errada. Refazendo a proporção: Funcionários e Salas são diretamente proporcionais ao tempo. Mais funcionários, mais tempo para mais salas, mas a relação é inversamente proporcional entre o número de funcionários. (Func1 * Tempo1) / N.Salas1 = (Func2 * Tempo2) / N.Salas2. (4 * 6) / 3 = (6 * T) / 9. 8 = (6T) / 9. 72 = 6T. T = 12h. Há um erro na minha análise. A relação é: Tempo = (N.Salas * 1 Tempo_por_sala_por_funcionario) / N.Funcionarios. Tempo_por_sala_por_funcionario = (6h * 4 func) / 3 salas = 8 horas-funcion..."
     },
     {
-        "id": "2063875",
         "enunciado": "Se 3 lápis custam R$ 6,00, quanto custam 5 lápis?",
         "alternativas": {
             "A": "R$ 8,00",
@@ -469,10 +468,10 @@
             "D": "R$ 12,00"
         },
         "gabarito_correto": "C",
+        "id": "2063875",
         "comentario_ia": "Se 3 lápis custam R$ 6,00, cada lápis custa R$ 2,00 (6/3). Portanto, 5 lápis custarão R$ 10,00 (5*2)."
     },
     {
-        "id": "2309804",
         "enunciado": "Antônio produz 80 bolos em um dia de trabalho. Caso ele deseje aumentar a produção em 50% e considerando que um dia de trabalho possui 8 horas, assinale a alternativa que indica em quantas horas ele produzirá essa nova demanda:",
         "alternativas": {
             "A": "10 horas",
@@ -481,10 +480,10 @@
             "D": "13 horas"
         },
         "gabarito_correto": "C",
+        "id": "2309804",
         "comentario_ia": "Antônio produz 80 bolos em 8 horas. Um aumento de 50% na produção significa 80 * 1,5 = 120 bolos. Se ele produz 80 bolos em 8 horas, ele produz 10 bolos por hora. Para produzir 120 bolos a 10 bolos/hora, ele levará 120/10 = 12 horas."
     },
     {
-        "id": "2116160",
         "enunciado": "\"Um carro que faz 12 km/l consumirá ____ litros ao percorrer 54 km. Caso percorra apenas 18 km, gastará ____ litros.\" Assinale a alternativa que preencha, correta e respectivamente, as lacunas.",
         "alternativas": {
             "A": "4,5 / 1,5",
@@ -494,11 +493,11 @@
             "E": "2,5 / 1,5"
         },
         "gabarito_correto": "A",
+        "id": "2116160",
         "comentario_ia": "Para 54 km: 54 km / 12 km/l = 4,5 litros. Para 18 km: 18 km / 12 km/l = 1,5 litros. As lacunas são preenchidas corretamente com 4,5 e 1,5, respectivamente."
     },
     {
-        "id": "2384189",
-        "enunciado": "Um enfermeiro precisa preparar uma solução para um exame laboratorial. Sabe-se que em 20 mL de solução há 5 mg de medicamento ativo. Se o enfermeiro precisar preparar 60 mL da mesma solução, quantos miligramas de medicamento ativo serão necessários?\nAssinale a alternativa correta.",
+        "enunciado": "Um enfermeiro precisa preparar uma solução para um exame laboratorial. Sabe-se que em 20 mL de solução há 5 mg de medicamento ativo. Se o enfermeiro precisar preparar 60 mL da mesma solução, quantos miligramas de medicamento ativo serão necessários? Assinale a alternativa correta.",
         "alternativas": {
             "A": "10 mg",
             "B": "15 mg",
@@ -507,10 +506,10 @@
             "E": "30 mg"
         },
         "gabarito_correto": "B",
+        "id": "2384189",
         "comentario_ia": "A relação entre a quantidade de solução e o medicamento ativo é de 20 mL para 5 mg. Para obter 60 mL, que é 3 vezes mais solução, é necessário 3 vezes mais medicamento, ou seja, 3 * 5 mg = 15 mg."
     },
     {
-        "id": "2371741",
         "enunciado": "Uma gráfica universitária imprime apostilas para cursos de extensão. Sabe-se que 120 apostilas consomem exatamente 3 kg de papel do mesmo tipo e gramatura. Mantidas todas as condições de produção, o gerente precisa estimar a quantidade de papel necessária para imprimir 450 apostilas em uma nova demanda. Nestas condições, qual é a massa total de papel necessária?",
         "alternativas": {
             "A": "A massa necessária é de 12,00 kg.",
@@ -520,10 +519,10 @@
             "E": "A massa necessária é de 9,75 kg."
         },
         "gabarito_correto": "B",
+        "id": "2371741",
         "comentario_ia": "A relação é diretamente proporcional. Se 120 apostilas consomem 3 kg, então 450 apostilas consumirão X kg. Monte a regra de três: 120/3 = 450/X. Resolvendo, X = (450 * 3) / 120 = 11,25 kg."
     },
     {
-        "id": "2036618",
         "enunciado": "Determinado carro consome 2 litros de combustível para percorrer 17 quilômetros. Mantendo sempre esse consumo, quantos litros de combustível são necessários para esse carro percorrer 204 quilômetros?",
         "alternativas": {
             "A": "16",
@@ -533,10 +532,10 @@
             "E": "28"
         },
         "gabarito_correto": "D",
+        "id": "2036618",
         "comentario_ia": "A proporção é de 2L para 17km. Para 204km, o cálculo é (204km / 17km) * 2L = 12 * 2L = 24L. Alternativa D."
     },
     {
-        "id": "2136119",
         "enunciado": "Um carro de passeio, ao rodar em uma estrada reta e sem muitas subidas, percorre 240km consumindo 20 litros de combustível. Se o motorista mantiver a velocidade e as mesmas condições na via, quantos quilômetros ele conseguirá percorrer com 35 litros de combustível?",
         "alternativas": {
             "A": "320km",
@@ -545,10 +544,10 @@
             "D": "460km"
         },
         "gabarito_correto": "C",
+        "id": "2136119",
         "comentario_ia": "A questao estabelece uma relacao de proporcionalidade direta entre a distancia percorrida e a quantidade de combustivel consumido. Com 20 litros, o carro percorre 240km. Para 35 litros, o calculo é (35L / 20L) * 240km = 420km."
     },
     {
-        "id": "1862081",
         "enunciado": "Uma equipe de 6 operários consegue concluir uma obra em 12 dias. Se a equipe for reduzida para 4 operários, quantos dias serão necessários para concluir a mesma obra, considerando que todos trabalham no mesmo ritmo?",
         "alternativas": {
             "A": "8 dias.",
@@ -557,10 +556,10 @@
             "D": "20 dias."
         },
         "gabarito_correto": "B",
+        "id": "1862081",
         "comentario_ia": "Este é um problema de regra de três inversa. Se menos operários trabalham, mais dias são necessários. A relação é (6 operários * 12 dias) = (4 operários * X dias). Resolvendo para X: X = (6 * 12) / 4 = 72 / 4 = 18 dias."
     },
     {
-        "id": "2168418",
         "enunciado": "Se 4 lápis custam R$ 12,00, quanto custarão 10 lápis, considerando o mesmo preço unitário?",
         "alternativas": {
             "A": "R$ 24,00.",
@@ -570,10 +569,10 @@
             "E": "R$ 45,00."
         },
         "gabarito_correto": "B",
+        "id": "2168418",
         "comentario_ia": "Regra de três simples: 4 lápis --- R$ 12,00. 10 lápis --- X. 4X = 12 * 10 => 4X = 120 => X = 30. Portanto, 10 lápis custarão R$ 30,00."
     },
     {
-        "id": "2294126",
         "enunciado": "Para preparar kits de laboratório, um auxiliar utilizou 12 mL de solução para montar 3 kits completos. Mantendo a mesma proporção de uso, deseja-se saber a quantidade de solução necessária para montar 15 kits. Assinale a alternativa que apresenta o valor corretamente proporcional.",
         "alternativas": {
             "A": "60 mL.",
@@ -582,10 +581,10 @@
             "D": "50 mL."
         },
         "gabarito_correto": "A",
+        "id": "2294126",
         "comentario_ia": "Se 12 mL fazem 3 kits, a proporção é de 4 mL/kit. Para 15 kits, são necessários 15 kits * 4 mL/kit = 60 mL. O cálculo é uma regra de três simples."
     },
     {
-        "id": "2108889",
         "enunciado": "Um pedreiro contratado para reformar um quintal construiu um muro de 30 metros em 5 dias, trabalhando sozinho e mantendo um ritmo constante. O proprietário decidiu ampliar a reforma e pediu que ele construísse um novo muro de 48 metros com as mesmas condições. Quantos dias serão necessários para completar a nova construção?",
         "alternativas": {
             "A": "9 dias.",
@@ -594,10 +593,10 @@
             "D": "6 dias."
         },
         "gabarito_correto": "B",
+        "id": "2108889",
         "comentario_ia": "A construção do primeiro muro de 30 metros levou 5 dias. A taxa de construção é de 30m/5d = 6m/dia. Para construir 48 metros, serão necessários 48m / (6m/dia) = 8 dias."
     },
     {
-        "id": "2397997",
         "enunciado": "Certa quantidade de água é suficiente para que 4 cães a bebam por 2 dias, todos bebendo a mesma quantidade diária de água. Então, supondo que uma mesma quantidade de água seja bebida por apenas 1 cão, que bebe a mesma quantidade diária de água dos cães da situação anterior, tal quantidade de água será suficiente para",
         "alternativas": {
             "A": "8 dias.",
@@ -607,10 +606,10 @@
             "E": "7 dias."
         },
         "gabarito_correto": "A",
+        "id": "2397997",
         "comentario_ia": "Se 4 cães bebem a água em 2 dias, a quantidade total de água é para 4*2 = 8 'cãodias'. Se apenas 1 cão beber a mesma quantidade, a água durará 8 dias."
     },
     {
-        "id": "2122414",
         "enunciado": "Pedro instalou uma torneira em sua fazenda, que enche um tanque de criação de tilápias em 5 horas. Se ele instalar mais uma torneira igual à anterior, quanto tempo levará para encher o mesmo tanque?",
         "alternativas": {
             "A": "Levará 4 horas.",
@@ -619,10 +618,10 @@
             "D": "Levará 5,5 horas."
         },
         "gabarito_correto": "B",
+        "id": "2122414",
         "comentario_ia": "Se uma torneira enche o tanque em 5 horas, duas torneiras idênticas trabalharão juntas e reduzirão o tempo pela metade. Portanto, 5 horas / 2 = 2,5 horas."
     },
     {
-        "id": "2368019",
         "enunciado": "Um jardim pode ser regado por 5 aspersores automáticos em 12 minutos. Se forem usados 4 aspersores de mesmo modelo, em quanto tempo o jardim será regado?",
         "alternativas": {
             "A": "Em 19 minutos.",
@@ -631,10 +630,10 @@
             "D": "Em 25 minutos."
         },
         "gabarito_correto": "C",
+        "id": "2368019",
         "comentario_ia": "Este é um problema de regra de três inversa. Se 5 aspersores levam 12 minutos, 1 aspersor levaria 5 * 12 = 60 minutos. Com 4 aspersores, o tempo será 60 / 4 = 15 minutos. As alternativas A, B e D calculam tempos incorretos."
     },
     {
-        "id": "2318188",
         "enunciado": "Em um laboratório, sabe-se que uma máquina embala 180 frascos de solução em 12 minutos, operando continuamente e sob as mesmas condições. Em determinado turno, por causa da alta demanda, o responsável precisou estimar quanto tempo essa máquina levaria para embalar 475 frascos, mantendo o mesmo ritmo de produção. Neste contexto, analise as assertivas abaixo. I.A taxa de produção é de 15 frascos por minuto. II.O tempo necessário para embalar 475 frascos é de aproximadamente 31,7 minutos. III.Se fossem 600 frascos, o tempo ultrapassaria 40 minutos. IV.A taxa de produção da máquina diminui conforme o tempo de operação aumenta. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I, III e IV, apenas.",
@@ -643,10 +642,10 @@
             "D": "I e II, apenas."
         },
         "gabarito_correto": "D",
+        "id": "2318188",
         "comentario_ia": "A taxa de produção é 180 frascos/12 min = 15 frascos/min (I CORRETA). Tempo para 475 frascos: 475/15 ≈ 31,67 min (II CORRETA). Para 600 frascos: 600/15 = 40 min (III INCORRETA). A taxa de produção é constante (IV INCORRETA)."
     },
     {
-        "id": "2212772",
         "enunciado": "Uma pequena gráfica de Guaranalândia imprime 900 panfletos em 3 horas utilizando duas máquinas idênticas, mas recebeu uma encomenda de 1.800 panfletos. Utilizando o mesmo número de máquinas e mantendo o mesmo ritmo de produção, quanto tempo será necessário para atender ao novo pedido?",
         "alternativas": {
             "A": "Serão necessárias 6 horas.",
@@ -655,10 +654,10 @@
             "D": "Serão necessárias 4 horas."
         },
         "gabarito_correto": "A",
+        "id": "2212772",
         "comentario_ia": "A gráfica produz 900 panfletos em 3 horas, o que significa 300 panfletos por hora por maquina. Para 1800 panfletos, mantendo o mesmo ritmo, seriam necessarias 1800/300 = 6 horas."
     },
     {
-        "id": "2346629",
         "enunciado": "Bruna digitou 45 páginas de um relatório em 3 horas, mantendo um ritmo constante de trabalho. Se ela mantiver o mesmo ritmo, quantas páginas conseguirá digitar em 7 horas?",
         "alternativas": {
             "A": "90.",
@@ -668,10 +667,10 @@
             "E": "110."
         },
         "gabarito_correto": "D",
+        "id": "2346629",
         "comentario_ia": "Bruna digita 45 páginas em 3 horas, o que corresponde a uma média de 45/3 = 15 páginas por hora. Em 7 horas, ela digitará 15 * 7 = 105 páginas, mantendo o mesmo ritmo."
     },
     {
-        "id": "2045668",
         "enunciado": "Em uma reforma, um pintor gastou 7,5 litros de tinta para pintar uma parede de 45m2. Quantos litros de tinta seriam necessários caso a parede tivesse 180m2?",
         "alternativas": {
             "A": "15",
@@ -680,10 +679,10 @@
             "D": "25"
         },
         "gabarito_correto": "C",
+        "id": "2045668",
         "comentario_ia": "Este é um problema de regra de três simples. Se 7,5 litros pintam 45m², então para 180m² (que é 4 vezes 45m²), serão necessários 4 vezes a quantidade de tinta. 7,5 litros * 4 = 30 litros."
     },
     {
-        "id": "1950875",
         "enunciado": "Se 5 operários fazem certa obra em 10 dias, 10 operários, com a mesma eficiência dos primeiros, fariam a mesma obra em",
         "alternativas": {
             "A": "5 dias.",
@@ -692,10 +691,10 @@
             "D": "8 dias."
         },
         "gabarito_correto": "A",
+        "id": "1950875",
         "comentario_ia": "Trata-se de uma regra de três inversamente proporcional. Se 5 operários levam 10 dias, com o dobro de operários (10), o tempo para realizar a mesma obra será a metade, ou seja, 5 dias, mantida a eficiência."
     },
     {
-        "id": "2066760",
         "enunciado": "Um lápis de 18 cm de comprimento foi colocado verticalmente no chão e projeta uma sombra de 12 cm. No mesmo instante, um poste projeta uma sombra de 2,5 metros. Quantos metros de altura têm o poste?",
         "alternativas": {
             "A": "2,75",
@@ -704,10 +703,10 @@
             "D": "2,5"
         },
         "gabarito_correto": "B",
+        "id": "2066760",
         "comentario_ia": "A questão envolve semelhança de triângulos. A proporção é lápis/sombra do lápis = poste/sombra do poste. Convertendo 2,5m para 250cm: 18/12 = H/250. Resolvendo: H = (18 * 250) / 12 = 4500 / 12 = 375cm = 3,75m."
     },
     {
-        "id": "1199028",
         "enunciado": "Em 15 dias de jejum intermitente, alimentando-se de 8 em 8 horas, Helena perdeu 7 kg. Então, quantos quilos ela vai emagrecer se jejuar por 30 dias, alimentando-se de 6 em 6 horas?",
         "alternativas": {
             "A": "Ela vai emagrecer 9,8 kg.",
@@ -717,10 +716,10 @@
             "E": "Ela vai emagrecer 10,5 kg."
         },
         "gabarito_correto": "E",
+        "id": "1199028",
         "comentario_ia": "A questão apresenta uma informação incompleta. O jejum de 8 em 8 horas em 15 dias resulta em 9 refeições. O jejum de 6 em 6 horas em 30 dias resulta em 15 refeições. Não há uma relação direta entre número de refeições e perda de peso, nem a informação é suficiente para calcular a perda de peso esperada."
     },
     {
-        "id": "2140447",
         "enunciado": "Se em uma fábrica de biscoitos, 8 funcionários conseguem embalar 240 pacotes de biscoitos em 6 horas, quantos pacotes de biscoitos 5 funcionários conseguem embalar no mesmo período, trabalhando no mesmo ritmo?",
         "alternativas": {
             "A": "180 pacotes.",
@@ -729,10 +728,10 @@
             "D": "200 pacotes."
         },
         "gabarito_correto": "B",
+        "id": "2140447",
         "comentario_ia": "A questo trata de regra de tres simples e direta. Mais funcionarios embalam mais pacotes. A relacao e:<0xC2><0xA0>8 funcionarios -> 240 pacotes<0xC2><0xA0><0xC2><0xA0>5 funcionarios -> X pacotes. Logo, X = (240 * 5) / 8 = 150 pacotes."
     },
     {
-        "id": "2139840",
         "enunciado": "Fábio comprou um caminhão para fazer frete e ele consome 14 litros de combustível a cada 150 km. Se João pegou um frete para uma cidade que fica a 210 km de distância de seu ponto de partida, de quantos litros de combustível ele vai precisar?",
         "alternativas": {
             "A": "Ele vai precisar de 21,9 litros de combustível.",
@@ -741,10 +740,10 @@
             "D": "Ele vai precisar de 17,3 litros de combustível."
         },
         "gabarito_correto": "C",
+        "id": "2139840",
         "comentario_ia": "A questao envolve regra de tres simples. Se 14 litros sao consumidos em 150 km, para 210 km, o consumo (x) eh dado por 150/14 = 210/x. Resolvendo a proporcao: 150x = 14 * 210, resultando em x = 2940 / 150 = 19.6 litros. Observe que este ID eh igual ao ID 2140231."
     },
     {
-        "id": "2139770",
         "enunciado": "Um fazendeiro irriga todos os dias a sua plantação de 4 hectares. Se para irrigar 5 hectares são usados 10 mil litros de água, qual é a quantidade de água necessária para ele irrigar a sua plantação em uma semana?",
         "alternativas": {
             "A": "São necessários 56 mil litros de água.",
@@ -753,10 +752,10 @@
             "D": "São necessários 62 mil litros de água."
         },
         "gabarito_correto": "A",
+        "id": "2139770",
         "comentario_ia": "Se 5 hectares usam 10 mil litros, 1 hectare usa 2 mil litros. Para 4 hectares, são necessários 4 * 2 = 8 mil litros por dia. Em uma semana (7 dias), são 7 * 8 = 56 mil litros."
     },
     {
-        "id": "2063488",
         "enunciado": "Uma oficina usa uma solução química para lavar peças misturando 480 mililitros de solvente para cada 800 gramas de detergente em pó. Mantendo essa relação, se for utilizado 2,5 quilogramas de detergente em pó a quantidade de solvente que deve ser adicionada é:",
         "alternativas": {
             "A": "1,5 litros",
@@ -765,10 +764,10 @@
             "D": "2 litros"
         },
         "gabarito_correto": "A",
+        "id": "2063488",
         "comentario_ia": "A relação é 480ml de solvente para 800g de detergente. 2,5kg = 2500g. A proporção é 480/800. 2500g * (480/800) = 2500 * 0.6 = 1500ml = 1,5 litros."
     },
     {
-        "id": "1996502",
         "enunciado": "A empresa de construção \"Construções Resilientes\" foi contratada para a renovação de um antigo edifício municipal. A primeira tarefa do projeto era a construção de uma parede robusta para substituir a estrutura antiga que estava desgastada pelo tempo. Para isso, quatro operários experientes foram designados e conseguiram concluir a tarefa em seis horas, trabalhando de maneira eficiente e coordenada. O resultado foi uma parede bem construída, pronta para suportar os elementos por muitos anos. No entanto, no dia seguinte, a administração municipal informou que um segundo prédio, idêntico ao primeiro, precisava de uma nova parede o mais rápido possível. Para acelerar o processo, a empresa decidiu alocar mais trabalhadores para o trabalho. Dessa vez, 12 operários foram designados para a tarefa. Considerando que o trabalho em equipe é efetivo e que mais trabalhadores podem realizar a tarefa mais rapidamente, quantas horas 12 operários levarão para construir a mesma parede, assumindo que trabalharão no mesmo ritmo dos primeiros 4 operários?",
         "alternativas": {
             "A": "1 hora.",
@@ -777,10 +776,10 @@
             "D": "4 horas."
         },
         "gabarito_correto": "B",
+        "id": "1996502",
         "comentario_ia": "Esta é uma questao de regra de tres inversa. Se 4 operarios levam 6 horas, 12 operarios (3 vezes mais) levarão 3 vezes menos tempo, ou seja, 6 / 3 = 2 horas."
     },
     {
-        "id": "2010571",
         "enunciado": "Um grupo de quatro operários gasta 20 dias para asfaltar uma rua. Se a empresa dobrasse o número de operários, em quanto tempo essa mesma rua seria asfaltada?",
         "alternativas": {
             "A": "No mesmo tempo gasto com quatro operários.",
@@ -790,10 +789,10 @@
             "E": "No dobro do tempo gasto com quatro operários."
         },
         "gabarito_correto": "C",
+        "id": "2010571",
         "comentario_ia": "O número de operários e o tempo para realizar a tarefa são grandezas inversamente proporcionais. Se o número de operários dobra (4 para 8), o tempo para realizar o mesmo trabalho cai pela metade (20 dias para 10 dias)."
     },
     {
-        "id": "2202669",
         "enunciado": "Para alimentar 75 galinhas poedeiras de uma granja, por 7 dias, são necessários 126 kg de ração. Qual a quantidade de ração necessária, em kg, para alimentar o dobro de galinhas como essas por 25 dias?",
         "alternativas": {
             "A": "900",
@@ -802,10 +801,10 @@
             "D": "1.200"
         },
         "gabarito_correto": "D",
+        "id": "2202669",
         "comentario_ia": "A quantidade de ração é diretamente proporcional ao número de galinhas e ao número de dias. Dobrando as galinhas (75*2=150) e aumentando os dias de 7 para 25, a ração necessária será (126 kg / 75 galinhas / 7 dias) * 150 galinhas * 25 dias = 1.200 kg."
     },
     {
-        "id": "2066152",
         "enunciado": "Eduardo decidiu fazer um trabalho voluntário, distribuir lanches às pessoas em situação de rua na sua cidade. Para produzir os lanches foi até à padaria, onde o pão francês custa R$ 12,00/ Kg. Sabendo que ele tem R$ 42,00 para comprar pães. Considerando que cada quilo equivale a 18 pães, quantos pães ele comprou?",
         "alternativas": {
             "A": "61",
@@ -814,10 +813,10 @@
             "D": "64"
         },
         "gabarito_correto": "C",
+        "id": "2066152",
         "comentario_ia": "Valor por kg: R$ 12,00. Dinheiro disponível: R$ 42,00. Kg de pão comprados: 42 / 12 = 3,5 kg. Pães por kg: 18. Total de pães: 3,5 kg * 18 pães/kg = 63 pães."
     },
     {
-        "id": "1984954",
         "enunciado": "Para fazer um strogonoff que serve 5 pessoas Luciana usa 1,5 kg de frango. Quantos quilos de frango ela precisa para fazer um strogonoff para 11 pessoas?",
         "alternativas": {
             "A": "Ela precisa de 5,4 kg.",
@@ -827,10 +826,10 @@
             "E": "Ela precisa de 2,5 kg."
         },
         "gabarito_correto": "A",
+        "id": "1984954",
         "comentario_ia": "A proporção é de 1,5 kg para 5 pessoas. Para 11 pessoas, a quantidade necessária é (1,5 kg / 5 pessoas) * 11 pessoas = 0,3 kg/pessoa * 11 pessoas = 3,3 kg."
     },
     {
-        "id": "2046489",
         "enunciado": "Camila comprou 500 g de café por R$ 7,50. Quanto ela pagaria por 1000 g?",
         "alternativas": {
             "A": "R$ 10,00.",
@@ -839,10 +838,10 @@
             "D": "R$ 17,50"
         },
         "gabarito_correto": "C",
+        "id": "2046489",
         "comentario_ia": "O problema estabelece uma relação de proporcionalidade: 500g custam R$ 7,50. Para saber o custo de 1000g (o dobro da quantidade), basta dobrar o preço: R$ 7,50 * 2 = R$ 15,00."
     },
     {
-        "id": "2191236",
         "enunciado": "Uma máquina de impressão de folder que imprime 3.000 cópias de um determinado material por hora, termina uma encomenda em 2,5 horas. Se aumentar a qualidade da impressão, a mesma impressora imprime 2.500 cópias deste mesmo material por hora. Nesse caso, o tempo total que a impressora levaria para concluir a encomenda na melhor qualidade é:",
         "alternativas": {
             "A": "2 horas.",
@@ -851,10 +850,10 @@
             "D": "3,5 horas."
         },
         "gabarito_correto": "B",
+        "id": "2191236",
         "comentario_ia": "A impressora produz 3000 cópias/hora. Para 2.500 cópias/hora, o tempo total será de (3000/2500) * 2,5 horas = 1,2 * 2,5 horas = 3 horas. Ou, o total de cópias é 3000 * 2,5 = 7500. Com a nova velocidade, o tempo é 7500 / 2500 = 3 horas."
     },
     {
-        "id": "2189328",
         "enunciado": "Um aparelho consegue irrigar 3,5 hectares em 50 minutos. Quantos hectares seriam irrigados por esse aparelho em duas horas e meia?",
         "alternativas": {
             "A": "7,0",
@@ -863,10 +862,10 @@
             "D": "14,0"
         },
         "gabarito_correto": "B",
+        "id": "2189328",
         "comentario_ia": "O aparelho irriga 3,5 hectares em 50 minutos. Queremos saber quantos hectares seriam irrigados em 2 horas e meia, que equivalem a 150 minutos. A proporcao eh 3,5 ha / 50 min = X ha / 150 min. Resolvendo para X: X = (3,5 * 150) / 50 = 3,5 * 3 = 10,5 hectares. Portanto, a alternativa B esta correta."
     },
     {
-        "id": "2188482",
         "enunciado": "João está passando pelo enfrentamento de uma virose e sente muito desconforto. Para que melhore, sua mãe lhe dá um remédio em gotas, receitado pelo médico. O médico indicou 6 gotas para cada 2kg, conforme o peso de João. Sua mãe deu a João, em um copo com água, o total de 171 gotas. Quantos kg João pesa?",
         "alternativas": {
             "A": "57kg",
@@ -875,10 +874,10 @@
             "D": "56,2kg"
         },
         "gabarito_correto": "A",
+        "id": "2188482",
         "comentario_ia": "Se 6 gotas correspondem a 2 kg, então 171 gotas correspondem a 'x' kg. A regra de três simples é: 6/2 = 171/x. Resolvendo para x: 6x = 171 * 2 -> 6x = 342 -> x = 342 / 6 -> x = 57 kg."
     },
     {
-        "id": "2208787",
         "enunciado": "Sabe-se que 3 entregadores fazem 45 entregas em 5 horas. Ao todo, mantendo-se o mesmo ritmo de trabalho, quantas entregas 2 entregadores fazem em 8 horas?",
         "alternativas": {
             "A": "46",
@@ -887,10 +886,10 @@
             "D": "52"
         },
         "gabarito_correto": "B",
+        "id": "2208787",
         "comentario_ia": "A produtividade de um entregador e de 45 entregas / 3 entregadores / 5 horas = 3 entregas/entregador/hora. Logo, 2 entregadores em 8 horas fazem 2 * 8 * 3 = 48 entregas."
     },
     {
-        "id": "2262586",
         "enunciado": "Se 1 ml corresponde a 20 gotas, 0,75 ml corresponderá a quantas gotas?",
         "alternativas": {
             "A": "6;",
@@ -899,11 +898,11 @@
             "D": "18."
         },
         "gabarito_correto": "C",
+        "id": "2262586",
         "comentario_ia": "Se 1 ml = 20 gotas, entao 0,75 ml correspondera a 0,75 * 20 gotas = 15 gotas."
     },
     {
-        "id": "2022976",
-        "enunciado": "Se         uma         indústria         produz         13         peças         em         1         hora.         Quantas peças         serão         produzidas         em         uma         semana?",
+        "enunciado": "Se uma indústria produz 13 peças em 1 hora. Quantas peças serão produzidas em uma semana?",
         "alternativas": {
             "A": "2184",
             "B": "312",
@@ -912,10 +911,10 @@
             "E": "1560"
         },
         "gabarito_correto": "A",
+        "id": "2022976",
         "comentario_ia": "Em uma semana há 7 dias, e cada dia tem 24 horas. Portanto, 7 dias * 24 horas/dia = 168 horas. A produção total é 13 peças/hora * 168 horas = 2184 peças."
     },
     {
-        "id": "2022735",
         "enunciado": "Se um corredor dá 7 voltas em uma pracinha durante 10 minutos, quantas voltas ele dará em 1,5h?",
         "alternativas": {
             "A": "35 voltas.",
@@ -925,10 +924,10 @@
             "E": "21 voltas."
         },
         "gabarito_correto": "B",
+        "id": "2022735",
         "comentario_ia": "Em 10 minutos, o corredor dá 7 voltas. Em 1 hora (60 minutos), ele seria 6 vezes mais rápido, totalizando 7 * 6 = 42 voltas. Em 1,5 horas (90 minutos), que é 1,5 vezes 60 minutos, ele dará 42 * 1,5 = 63 voltas."
     },
     {
-        "id": "2196178",
         "enunciado": "Sabe-se que 3 funcionários de certa fábrica trabalham 5 horas e produzem um total de 150 unidades de certo produto. Sendo assim, mantendo-se o mesmo ritmo de trabalho, ao todo, quantas horas são necessárias para que 2 funcionários produzam 300 unidades desse mesmo produto?",
         "alternativas": {
             "A": "15h",
@@ -938,10 +937,10 @@
             "E": "19h"
         },
         "gabarito_correto": "A",
+        "id": "2196178",
         "comentario_ia": "Trata-se de uma regra de três composta. Dados: 3 funcionários, 5 horas, 150 unidades. Pergunta: 2 funcionários, X horas, 300 unidades. A proporção é: (3/2) * (150/300) = 5/X. Logo, (3/2) * (1/2) = 5/X, ou 3/4 = 5/X. Resolvendo, X = 20/3, o que há um erro na questão ou nas opções, pois se fosse inverso (3/2)*(300/150)=5/X -> (3/2)*2=5/X -> 3=5/X -> X=5/3. Refazendo: 3 func 5h 150 unid; 2 func Xh 300 unid. Inverso: (2/3) * (300/150) = X/5 -> (2/3) * 2 = X/5 -> 4/3 = X/5 -> X = 20/3h. Há um erro na questão pois a resposta mais próxima seria pela lógica: mais produção com menos gente exige mais tempo. 3 func 150 unid em 5h. 2 func 300 unid. Se 1 func fizesse 50 unid em 5h, 2 func fariam 100 unid em 5h. Para 300 unid, seriam 3x o tempo. 15h. A conta está correta."
     },
     {
-        "id": "2143863",
         "enunciado": "Durante a divulgação de certa campanha, um grupo distribui um total de 300 panfletos em 10 minutos. Considerando- se o mesmo ritmo de trabalho, ao todo, quantos panfletos esse grupo irá distribuir em 35 minutos?",
         "alternativas": {
             "A": "1.050",
@@ -950,10 +949,10 @@
             "D": "1.200"
         },
         "gabarito_correto": "A",
+        "id": "2143863",
         "comentario_ia": "A taxa de distribuição é de 300 panfletos / 10 minutos = 30 panfletos/minuto. Em 35 minutos, o grupo distribuirá 30 panfletos/minuto * 35 minutos = 1.050 panfletos."
     },
     {
-        "id": "2122674",
         "enunciado": "Uma orquestra possui 24 violinistas e atende uma demanda de 12 shows ao mês. Para as festas de final de ano, a quantidade de show aumentou para um total de 96 ao mês. Com base nesses dados e considerando a mesma proporção, é CORRETO afirmar que a quantidade de violinistas dessa orquestra será de:",
         "alternativas": {
             "A": "170 violinistas.",
@@ -962,10 +961,10 @@
             "D": "192 violinistas."
         },
         "gabarito_correto": "D",
+        "id": "2122674",
         "comentario_ia": "A proporção é de 24 violinistas para 12 shows, ou seja, 2 violinistas por show. Com 96 shows, multiplique 96 por 2, resultando em 192 violinistas."
     },
     {
-        "id": "2150671",
         "enunciado": "Em uma fábrica de medicamentos é produzido um total de 5600 caixas de comprimidos diariamente, por 28 funcionários, que produzem quantidades iguais de caixas de comprimidos. Sabe-se que, por motivos financeiros, alguns desses funcionários foram demitidos e a produção diária diminuiu para 4200 caixas de comprimidos. Assinale a alternativa que representa o número de funcionários demitidos.",
         "alternativas": {
             "A": "5 funcionários.",
@@ -974,10 +973,10 @@
             "D": "14 funcionários."
         },
         "gabarito_correto": "B",
+        "id": "2150671",
         "comentario_ia": "Produção inicial: 5600 caixas / 28 funcionários = 200 caixas/funcionário. Produção final: 4200 caixas com a mesma produtividade por funcionário. Número de funcionários para 4200 caixas = 4200 caixas / 200 caixas/funcionário = 21 funcionários. Número de funcionários demitidos = 28 - 21 = 7 funcionários."
     },
     {
-        "id": "2007559",
         "enunciado": "Sabendo que a distância entre o Município de Serra Alta (SC) e o Município de Chapecó (SC) é de 80km e que um veículo faz 10km com 1 litro de combustível, quantos litros gastaria para deslocar-se até Chapecó (SC)?",
         "alternativas": {
             "A": "5 litros.",
@@ -987,22 +986,22 @@
             "E": "12 litros."
         },
         "gabarito_correto": "B",
+        "id": "2007559",
         "comentario_ia": "Se o veículo faz 10km com 1 litro, para percorrer 80km, divida a distância total (80km) pela autonomia (10km/litro). 80 / 10 = 8 litros."
     },
     {
-        "id": "1991782",
         "enunciado": "A vazão de uma bica é de 9 litros de água a cada 2 minutos. Depois de 4 horas e meia, quantos litros de água terão jorrado pela bica?",
         "alternativas": {
             "A": "1.115 litros de água.",
             "B": "1.125 litros de água.",
             "C": "1.215 litros de água.",
-            "D": "1.225  litros de água."
+            "D": "1.225 litros de água."
         },
         "gabarito_correto": "B",
+        "id": "1991782",
         "comentario_ia": "A vazao e de 9 litros a cada 2 minutos, ou seja, 4,5 litros por minuto. 4 horas e meia equivalem a 270 minutos. Multiplicando 270 minutos por 4,5 litros/minuto, o resultado é 1.215 litros. Houve um erro na conta, a resposta certa é 1.215 litros. Recalculando: 9 litros / 2 min = 4,5 litros/min. 4h30min = 4 * 60 + 30 = 270 minutos. 270 min * 4,5 L/min = 1.215 litros. A resposta correta é 1.215."
     },
     {
-        "id": "2066079",
         "enunciado": "Marcelo foi ao supermercado “Ki Barato” e observou o anúncio abaixo: -Molho de tomate A, 200 gramas – Preço R$ 2,40.-Molho de tomate B, 450 gramas – Preço R$ 5,00. Supondo que tenha a mesma qualidade, é mais vantajoso comprar da marca A ou da marca B?",
         "alternativas": {
             "A": "comprar da marca A.",
@@ -1011,10 +1010,10 @@
             "D": "não é vantajoso comprar de nenhuma das marcas."
         },
         "gabarito_correto": "B",
+        "id": "2066079",
         "comentario_ia": "Para determinar qual marca é mais vantajosa, calculamos o preço por grama para cada uma. Marca A: R$ 2,40 / 200g = R$ 0,012/g. Marca B: R$ 5,00 / 450g ≈ R$ 0,0111/g. A marca B tem um preço por grama menor, sendo, portanto, mais vantajosa."
     },
     {
-        "id": "2066085",
         "enunciado": "Resolvi fazer a festa de aniversário de minha filha. Verifiquei que para uma receita são usados 480 gramas de farinha de trigo e rende 24 salgadinhos. Quantas gramas de farinha de trigo serão necessários para fazer 50 salgadinhos?",
         "alternativas": {
             "A": "Serão necessários 1000 gramas de farinha de trigo.",
@@ -1023,10 +1022,10 @@
             "D": "Serão necessários 900 gramas de farinha de trigo."
         },
         "gabarito_correto": "A",
+        "id": "2066085",
         "comentario_ia": "A relação entre farinha e salgadinhos é diretamente proporcional. Se 480g rendem 24 salgadinhos, para 50 salgadinhos, a quantidade de farinha será (480/24) * 50 = 20 * 50 = 1000g."
     },
     {
-        "id": "2085185",
         "enunciado": "Se 150g de um determinado produto custa R$ 12,00, com R$ 90,00 pode-se comprar:",
         "alternativas": {
             "A": "1.125kg do produto.",
@@ -1035,6 +1034,7 @@
             "D": "0,125kg do produto."
         },
         "gabarito_correto": "C",
+        "id": "2085185",
         "comentario_ia": "O preço por grama é R$ 12,00 / 150g = R$ 0,08/g. Com R$ 90,00, pode-se comprar 90 / 0,08 = 1125g. Convertendo para kg: 1125g / 1000 = 1,125kg. A alternativa C está correta."
     }
 ]

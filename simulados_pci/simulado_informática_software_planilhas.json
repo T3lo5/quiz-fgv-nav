@@ -1,6 +1,5 @@
 [
     {
-        "id": "2307439",
         "enunciado": "Marque a alternativa CORRETA que corresponde a função primária de uma planilha quando utilizada como ferramenta de apoio à decisão em um contexto empresarial.",
         "alternativas": {
             "A": "Desenvolver e hospedar o site oficial da empresa.",
@@ -9,10 +8,10 @@
             "D": "Organizar, processar e analisar dados para subsidiar decisões gerenciais."
         },
         "gabarito_correto": "D",
+        "id": "2307439",
         "comentario_ia": "A função primária de uma planilha em contexto empresarial é a organização, processamento e análise de dados. Isso permite a geração de relatórios e insights que subsidiam a tomada de decisões gerenciais estratégicas."
     },
     {
-        "id": "1986875",
         "enunciado": "Um técnico de planejamento está elaborando um controle orçamentário mensal no Excel. Ele criou uma planilha com as colunas: \"Despesa Prevista\", \"Despesa Real\" e \"Diferença\". Para destacar automaticamente quando a despesa real ultrapassar a prevista, ele decide utilizar uma formatação condicional. Considerando essa situação, qual regra ele deve aplicar?",
         "alternativas": {
             "A": "Aplicar a função =SE(A1>B1;VERDADEIRO;FALSO) para toda a coluna.",
@@ -22,10 +21,10 @@
             "E": "Criar uma macro com VBA para fazer a análise condicional."
         },
         "gabarito_correto": "C",
+        "id": "1986875",
         "comentario_ia": "A formatação condicional permite destacar células com base em critérios. Para alertar quando a despesa real for maior que a prevista, a regra deve ser 'se Despesa Real > Despesa Prevista', aplicar cor vermelha, indicando um gasto excessivo."
     },
     {
-        "id": "1986811",
         "enunciado": "Um técnico de planejamento está elaborando um controle orçamentário mensal no Excel. Ele criou uma planilha com as colunas: \"Despesa Prevista\", \"Despesa Real\" e \"Diferença\". Para destacar automaticamente quando a despesa real ultrapassar a prevista, ele decide utilizar uma formatação condicional. Considerando essa situação, qual regra ele deve aplicar?",
         "alternativas": {
             "A": "Se \"Despesa Real\" for maior que \"Despesa Prevista\", aplicar cor vermelha.",
@@ -35,10 +34,10 @@
             "E": "Se \"Despesa Real\" for menor que \"Despesa Prevista\", aplicar cor amarela."
         },
         "gabarito_correto": "A",
+        "id": "1986811",
         "comentario_ia": "A formatação condicional deve alertar visualmente quando a despesa real exceder a prevista. A regra 'Se Despesa Real > Despesa Prevista, aplicar cor vermelha' atinge esse objetivo de destaque."
     },
     {
-        "id": "1986944",
         "enunciado": "Durante uma capacitação interna promovida por uma autarquia, discutiu-se a importância do uso consciente e produtivo das planilhas eletrônicas para a gestão de dados administrativos. Um dos tópicos abordados foi o conceito de referência relativa, absoluta e mista, muito comum ao copiar fórmulas em planilhas extensas. Considerando esse contexto, assinale a alternativa que corretamente caracteriza a utilidade da referência absoluta em fórmulas do Excel.",
         "alternativas": {
             "A": "A referência absoluta permite que a fórmula se ajuste automaticamente à nova célula quando for copiada para outra posição, mantendo a flexibilidade de cálculo.",
@@ -48,10 +47,10 @@
             "E": "A referência absoluta impede qualquer alteração na célula referenciada ao copiar a fórmula, fixando tanto a linha quanto a coluna."
         },
         "gabarito_correto": "E",
+        "id": "1986944",
         "comentario_ia": "A referência absoluta ($A$1) no Excel trava a célula, impedindo que a fórmula mude ao ser copiada/arrastada para outras posições. As outras alternativas descrevem referências relativas ou mistas, ou funcionalidades incorretas."
     },
     {
-        "id": "1717502",
         "enunciado": "O Excel é um software basicamente para a manipulação de:",
         "alternativas": {
             "A": "planilhas.",
@@ -60,10 +59,10 @@
             "D": "desenhos."
         },
         "gabarito_correto": "A",
+        "id": "1717502",
         "comentario_ia": "O Microsoft Excel é um software amplamente reconhecido por suas funcionalidades de criação, edição e análise de planilhas, permitindo cálculos, gráficos e organização de dados."
     },
     {
-        "id": "1708265",
         "enunciado": "No Microsoft Excel, qual função é utilizada para somar valores de um intervalo de células?",
         "alternativas": {
             "A": "=MEDIA()",
@@ -72,10 +71,10 @@
             "D": "=PROCV()"
         },
         "gabarito_correto": "C",
+        "id": "1708265",
         "comentario_ia": "A função =SOMA() no Excel é utilizada para somar todos os valores numéricos em um intervalo especificado de células, sendo uma das funções mais básicas e úteis."
     },
     {
-        "id": "2149499",
         "enunciado": "Um usuário do MS Excel 2019 em português precisa utilizar, em uma fórmula, uma função para converter um número inteiro de uma célula da planilha para o formato de número romano. Para isso, ele deve utilizar a função:",
         "alternativas": {
             "A": "ARREND",
@@ -84,11 +83,11 @@
             "D": "TRUNCAR"
         },
         "gabarito_correto": "C",
+        "id": "2149499",
         "comentario_ia": "A função ROMANO no MS Excel converte um número inteiro em seu correspondente algarismo romano, sendo a ferramenta correta para a necessidade descrita."
     },
     {
-        "id": "2138928",
-        "enunciado": "Um servidor da Prefeitura Municipal de João Ramalho utilizou a ferramenta Microsoft  Office Excel  2007 (Configuração Padrão – Idioma Português -Brasil) para criar uma planilha eletrônica com o controle financeiro de cotações com múltiplos forne -cedores em diferentes datas. Para automatizar essa planilha, o servidor criou uma formatação aut omática que destaca em vermelho as células em que o valor for inferior a R$ 1.000,00, com o objetivo de deixar evidente as cotações consideradas de baixo valor para análise do departamento. Considerando a ferramenta e as características do recurso utilizad o, pode -se afirmar que ele utilizou a formatação:",
+        "enunciado": "Um servidor da Prefeitura Municipal de João Ramalho utilizou a ferramenta Microsoft Office Excel 2007 (Configuração Padrão – Idioma Português -Brasil) para criar uma planilha eletrônica com o controle financeiro de cotações com múltiplos forne -cedores em diferentes datas. Para automatizar essa planilha, o servidor criou uma formatação aut omática que destaca em vermelho as células em que o valor for inferior a R$ 1.000,00, com o objetivo de deixar evidente as cotações consideradas de baixo valor para análise do departamento. Considerando a ferramenta e as características do recurso utilizad o, pode -se afirmar que ele utilizou a formatação:",
         "alternativas": {
             "A": "Dinâmica.",
             "B": "Inteligente.",
@@ -96,10 +95,10 @@
             "D": "Instantânea."
         },
         "gabarito_correto": "C",
+        "id": "2138928",
         "comentario_ia": "A formatação que destaca células com base em um critério específico (valor inferior a R$ 1.000,00) é chamada de formatação condicional no Excel."
     },
     {
-        "id": "1893932",
         "enunciado": "Qual das fórmulas abaixo é a fórmula que realiza a potência entre duas células no Microsoft Excel 2019?",
         "alternativas": {
             "A": "= A1*A2",
@@ -109,10 +108,10 @@
             "E": "= A1:A2"
         },
         "gabarito_correto": "B",
+        "id": "1893932",
         "comentario_ia": "No Microsoft Excel, o operador '^' (circunflexo) é utilizado para realizar a operação de potenciação entre valores ou células."
     },
     {
-        "id": "1973739",
         "enunciado": "No Microsoft Excel, qual função Retorna o menor valor k-ésimo do conjunto de dados? (Esta função retorna valores com uma posição específica relativa em um conjunto de dados).",
         "alternativas": {
             "A": "=MAIOR()",
@@ -122,10 +121,10 @@
             "E": "=PROCURAR()"
         },
         "gabarito_correto": "D",
+        "id": "1973739",
         "comentario_ia": "A função =MENOR() no Excel é utilizada para retornar o menor valor k-ésimo de um conjunto de dados, sendo ideal para encontrar, por exemplo, o segundo menor ou o terceiro menor valor em uma lista."
     },
     {
-        "id": "1860608",
         "enunciado": "Um assistente social precisa contar o número de atendimentos realizados por sua unidade de serviço no último mês. O número de atendimentos é muito grande, mas cabe em uma única aba de uma planilha do Microsoft Excel versão 365. Assinale a opção que indica a sintaxe da função que ele deve usar para contar o número de células que contém números de atendimentos e contar os números na lista de argumentos.",
         "alternativas": {
             "A": "CONT.NÚM(valor1, [valor2], ...)",
@@ -135,10 +134,10 @@
             "E": "PLOT.MAX(valor1, [valor2], ...)"
         },
         "gabarito_correto": "A",
+        "id": "1860608",
         "comentario_ia": "A funçãoCONT.NÚM do Excel é utilizada para contar células que contêm números. A sintaxe 'valor1, [valor2], ...' permite indicar a(s) célula(s) ou intervalo(s) a serem contados, sendo a opção A a correta."
     },
     {
-        "id": "1782358",
         "enunciado": "No Microsoft Excel 2019, em português e com as configurações padrão, um usuário deseja calcular a média aritmética dos valores contidos nas células A1, A2 e A3. Para isso, ele testou as seguintes fórmulas: I. =MÉDIA(A1:A3) II. =MÉDIA(A1,A2,A3) III. =SOMA(A1:A3)/3 Com base no funcionamento das funções no Excel 2019, qual(is) dessas fórmulas retornará(ão) o valor correto da média dos números contidos nas células mencionadas?",
         "alternativas": {
             "A": "Apenas I.",
@@ -147,10 +146,10 @@
             "D": "I, II e III."
         },
         "gabarito_correto": "D",
+        "id": "1782358",
         "comentario_ia": "Todas as fórmulas apresentadas calculam corretamente a média aritmética de valores numéricos em um intervalo ou em células específicas. A função MÉDIA aceita intervalos ou lista de células, e a SOMA dividida pela quantidade (3) também resulta na média."
     },
     {
-        "id": "1860612",
         "enunciado": "Uma nutricionista necessita calcular o Índice de Massa Corporal (IMC) de diversos pacientes. A fórmula para calcular o IMC é: IMC = peso (em kg) / altura (em m) x altura (em m). Analise a planilha Microsoft Excel a seguir. Assinale a opção que apresenta a sintaxe correta da fórmula para o cálculo do IMC presente na célula D2 do Microsoft Excel.",
         "alternativas": {
             "A": "=A2 div (C2 x C2)",
@@ -160,10 +159,10 @@
             "E": "=B2/(C2+C2)"
         },
         "gabarito_correto": "C",
+        "id": "1860612",
         "comentario_ia": "A fórmula para IMC épeso/(altura*altura). Na planilha, o peso está na coluna B e a altura na coluna C. Portanto, a fórmula em D2 deve ser =B2/(C2*C2) ou =B2/(C2^2). A alternativa C utiliza a raiz quadrada (C2^2), que é o mesmo que altura ao quadrado."
     },
     {
-        "id": "2122498",
         "enunciado": "O Microsoft Excel é a ferramenta de planilhas eletrônicas da Microsoft. Desde o seu lançamento em 1985, ela se tornou uma peça fundamental para a análise de dados e BI em uma ampla variedade de setores. Um usuário quer evitar que uma planilha Excel seja alterada por outras pessoas. Assinale a alternativa CORRETA que corresponde qual recurso deve utilizar para garantir essa proteção.",
         "alternativas": {
             "A": "Salvar o arquivo como PDF para edição posterior.",
@@ -172,11 +171,11 @@
             "D": "Proteger a planilha com senha, limitando alterações."
         },
         "gabarito_correto": "D",
+        "id": "2122498",
         "comentario_ia": "Para impedir a alteração de uma planilha Excel, o recurso mais eficaz é protegê-la com senha, que pode limitar ou bloquear a edição de células, linhas, colunas ou da planilha inteira."
     },
     {
-        "id": "1262333",
-        "enunciado": "Considerar uma planilha no Microsoft Excel 2016 com os dados a seguir: Qual das fórmulas a seguir pode ser usada para calcular a soma dos valores da coluna \"Quantidade\", no Microsoft Excel  2016?",
+        "enunciado": "Considerar uma planilha no Microsoft Excel 2016 com os dados a seguir: Qual das fórmulas a seguir pode ser usada para calcular a soma dos valores da coluna \"Quantidade\", no Microsoft Excel 2016?",
         "alternativas": {
             "A": "=SOMAR(B2:B5)",
             "B": "=SOMA(B2:B5)",
@@ -184,10 +183,10 @@
             "D": "=ADICIONAR(B2:B5)"
         },
         "gabarito_correto": "B",
+        "id": "1262333",
         "comentario_ia": "A funcao correta em ingles para somar um intervalo de celulas no Microsoft Excel e SOMA. As outras alternativas sao invalidas ou nao sao encontradas na aplicacao."
     },
     {
-        "id": "1678818",
         "enunciado": "Um usuário do LibreOffice Calc pretende calcular a média de valores dos produtos listados na tabela a seguir: Para encontrar a média correta dos valores listados na tabela, o usuário deverá utilizar a fórmula:",
         "alternativas": {
             "A": "=MÉDIA(B2:B6)",
@@ -196,11 +195,11 @@
             "D": "=B2+B3+B4+B5+B6/5"
         },
         "gabarito_correto": "A",
+        "id": "1678818",
         "comentario_ia": "Para calcular a média dos valores em um intervalo específico do LibreOffice Calc, a função correta é =MÉDIA(intervalo). O intervalo B2:B6 representa os valores dos produtos. As outras alternativas usam funções incorretas ou intervalos errados."
     },
     {
-        "id": "1077482",
-        "enunciado": "No Microsoft Office Excel, as funções E e OU são definidas como funções lógicas porque retornam como saída na célula. Em relação às funções E e OU do Microsoft Office Excel, marque V para as afirmativas verdadeiras e F para as falsas. (     ) A função E pode receber vários parâmetros e retornará como saída verdadeira somente se todos os parâmetros tiverem sido verificados como verdadeiros. (     ) A função OU retorna verdadeira quando, pelo menos, um dos parâmetros é avaliado como verdadeiro. (     ) A única forma da função OU retornar falsa é quando todos os seus parâmetros são falsos. A sequência está correta em",
+        "enunciado": "No Microsoft Office Excel, as funções E e OU são definidas como funções lógicas porque retornam como saída na célula. Em relação às funções E e OU do Microsoft Office Excel, marque V para as afirmativas verdadeiras e F para as falsas. ( ) A função E pode receber vários parâmetros e retornará como saída verdadeira somente se todos os parâmetros tiverem sido verificados como verdadeiros. ( ) A função OU retorna verdadeira quando, pelo menos, um dos parâmetros é avaliado como verdadeiro. ( ) A única forma da função OU retornar falsa é quando todos os seus parâmetros são falsos. A sequência está correta em",
         "alternativas": {
             "A": "F, F, F.",
             "B": "F, V, F.",
@@ -208,10 +207,10 @@
             "D": "V, V, V."
         },
         "gabarito_correto": "D",
+        "id": "1077482",
         "comentario_ia": "A função E retorna VERDADEIRO se todas as condições forem V. A função OU retorna VERDADEIRO se pelo menos uma condição for V. A única forma de OU ser FALSO é se todas as condições forem F."
     },
     {
-        "id": "1088163",
         "enunciado": "No Excel 2013, existem diferentes fórmulas disponíveis para várias finalidades. Qual das seguintes alternativas representa a fórmula CORRETA a ser usada para somar os valores entre os intervalos das células A2 e A4?",
         "alternativas": {
             "A": "=SOMA(A2:A4)",
@@ -220,10 +219,10 @@
             "D": "=SOMA(A2"
         },
         "gabarito_correto": "A",
+        "id": "1088163",
         "comentario_ia": "A função SOMA no Excel é utilizada para somar valores de um intervalo de células. A sintaxe correta para somar de A2 a A4 é utilizando o operador de dois pontos (:) para definir o intervalo, resultando em =SOMA(A2:A4)."
     },
     {
-        "id": "1346402",
         "enunciado": "Durante um treinamento interno, os funcionários de uma empresa estão aprendendo a usar o Excel para melhorar suas habilidades em análise de dados. Assinale a alternativa que descreve CORRETAMENTE o uso da função PROCV no Excel.",
         "alternativas": {
             "A": "A função PROCV é usada para concatenar (juntar) texto de várias células em uma única célula.",
@@ -233,10 +232,10 @@
             "E": "A função PROCV é utilizada para aplicar formatação condicional com base em critérios específicos."
         },
         "gabarito_correto": "D",
+        "id": "1346402",
         "comentario_ia": "A funcao PROCV (ou VLOOKUP em ingles) no Excel e utilizada para buscar um valor em uma coluna de uma tabela e retornar um valor correspondente em outra coluna da mesma linha."
     },
     {
-        "id": "1476107",
         "enunciado": "Você está utilizando o Microsoft Excel 365 e precisa calcular a soma dos valores localizados nas células de A1 a A10 de uma planilha para concluir sua análise financeira. Assinale a alternativa que apresenta a fórmula correta para realizar tal cálculo.",
         "alternativas": {
             "A": "=MÍNIMO(A1:A10)",
@@ -246,10 +245,10 @@
             "E": "=TOTAL(A1:A10)"
         },
         "gabarito_correto": "D",
+        "id": "1476107",
         "comentario_ia": "A função SOMA é utilizada no Excel para somar valores numéricos em um intervalo de células especificado. As outras funções apresentadas realizam outras operações (mínimo, máximo, somatório - que não é uma função padrão de forma genérica para essa finalidade - e total - também não é uma função padrão para soma simples)."
     },
     {
-        "id": "1147425",
         "enunciado": "As fórmulas no Excel são expressões matemáticas ou lógicas que realizam cálculos ou operações em dados contidos em células. Elas são usadas para executar uma ampla variedade de tarefas, desde simples cálculos aritméticos até análises mais complexas. Neste contexto, pode-se afirmar que as fórmulas devem anteceder:",
         "alternativas": {
             "A": "“*”",
@@ -259,10 +258,10 @@
             "E": "="
         },
         "gabarito_correto": "E",
+        "id": "1147425",
         "comentario_ia": "No Excel, as fórmulas são expressões que iniciam com o sinal de igual (=). Este sinal indica ao programa que o que se segue é uma operação a ser realizada e não um texto literal."
     },
     {
-        "id": "1595613",
         "enunciado": "Considere exportar uma extensa planilha no Microsoft Excel 365 (Configuração Padrão – Idioma Português -Brasil) contendo informações de todos os funcionários da instituição. Para localizar rapidamente um funcionário específico nessa planilha, torna-se necessário buscar os dados pelo nome; para isso, deve-se usar a fórmula:",
         "alternativas": {
             "A": "=ARRED",
@@ -271,10 +270,10 @@
             "D": "=CONT.NOME"
         },
         "gabarito_correto": "B",
+        "id": "1595613",
         "comentario_ia": "A função PROCV (VLOOKUP) é utilizada para buscar um valor em uma coluna de uma tabela ou planilha e retornar um valor na mesma linha em outra coluna."
     },
     {
-        "id": "1163575",
         "enunciado": "Um estudante está criando uma planilha eletrônica para organizar e monitorar suas finanças, ao salvar o documento para alterações, ele deseja que a formatação e funções matemáticas sejam mantidas. Assinale a alternativa correta com o formato de arquivo que atende às necessidades do estudante.",
         "alternativas": {
             "A": "Portable Document Format (.pdf).",
@@ -283,10 +282,10 @@
             "D": "OpenDocument Spreadsheet (.ods)."
         },
         "gabarito_correto": "D",
+        "id": "1163575",
         "comentario_ia": "O formato OpenDocument Spreadsheet (.ods) é um formato padrão para planilhas eletrônicas que suporta fórmulas, funções matemáticas e formatação, atendendo às necessidades do estudante."
     },
     {
-        "id": "1531543",
         "enunciado": "Considere uma planilha do LibreOffice Calc Versão 24.2.2.2. As células A1 a A4 estão populadas respectivamente com os seguintes valores: 18, 15, 43, 27. A célula A5 possui o valor 146. A fórmula que dá origem a esse valor é",
         "alternativas": {
             "A": "=SOMA(A1:A4)+A3",
@@ -295,10 +294,10 @@
             "D": "=SOMA(A1:A4)/A3"
         },
         "gabarito_correto": "A",
+        "id": "1531543",
         "comentario_ia": "A soma dos valores nas células A1 a A4 (18+15+43+27 = 103). A célula A3 tem o valor 43. A fórmula =SOMA(A1:A4)+A3 resulta em 103 + 43 = 146."
     },
     {
-        "id": "1458952",
         "enunciado": "Você tem uma planilha com os gastos da instituição. Sem ocultar dados nem alterar a estrutura e valores das células apresentados, a funcionalidade do Excel usada para destacar os gastos acima da média é",
         "alternativas": {
             "A": "a formatação condicional.",
@@ -307,10 +306,10 @@
             "D": "a validação de dados."
         },
         "gabarito_correto": "A",
+        "id": "1458952",
         "comentario_ia": "A formatação condicional permite aplicar formatação (cores, ícones, etc.) a células com base em regras, como a de serem superiores à média calculada na própria planilha, sem ocultar ou alterar dados originais."
     },
     {
-        "id": "1227448",
         "enunciado": "As planilhas eletrônicas ou planilhas de cálculo envolvem a organização, cálculos e armazenamento de dados. Para que não ocorram emendas indesejáveis, perda de dados originais, bem como cálculos incorretos, o desenvolvimento das planilhas NÃO pode incluir:",
         "alternativas": {
             "A": "controle de alterações.",
@@ -320,10 +319,10 @@
             "E": "funções estatísticas."
         },
         "gabarito_correto": "B",
+        "id": "1227448",
         "comentario_ia": "Para evitar emendas indesejáveis e perda de dados, as planilhas eletrônicas devem ter controle de acesso, não acesso irrestrito. As outras opções promovem integridade dos dados e cálculos."
     },
     {
-        "id": "1497970",
         "enunciado": "Assinale a alternativa que contém a função usada para retornar o resto de uma divisão no Microsoft Excel 2019:",
         "alternativas": {
             "A": "DIV",
@@ -333,10 +332,10 @@
             "E": "REST"
         },
         "gabarito_correto": "C",
+        "id": "1497970",
         "comentario_ia": "A função MOD no Microsoft Excel é utilizada para retornar o resto de uma divisão. As outras funções apresentadas possuem finalidades distintas: DIV para quociente da divisão inteira, MDC para máximo divisor comum, MÉDIA para a média de um conjunto de números e RESTO não existe como nome de função nativa para este propósito."
     },
     {
-        "id": "1256806",
         "enunciado": "Paula é produtora cultural e está muito feliz por ter sido contemplada com um fomento da prefeitura da cidade onde mora. Ela vai entrar em um curso específico para aprender a detalhar todos os gastos em uma planilha, afinal, a prestação de contas precisa ser feita de forma clara e objetiva. Isso significa que sua atividade exigirá o manuseio de:",
         "alternativas": {
             "A": "Excel.",
@@ -345,10 +344,10 @@
             "D": "Power Point."
         },
         "gabarito_correto": "A",
+        "id": "1256806",
         "comentario_ia": "A prestação de contas de gastos, especialmente em projetos culturais, exige organização e detalhamento, sendo o Excel a ferramenta mais adequada para a criação e manipulação de planilhas financeiras."
     },
     {
-        "id": "1678588",
         "enunciado": "Uma função é um tipo especial de fórmula que já vem pré-definida e executa um cálculo específico. No Microsoft Excel, existe uma função que encontra a média de valores contidos em um intervalo de células que atendem a vários critérios. A qual função o trecho se refere?",
         "alternativas": {
             "A": "MÉDIASE.",
@@ -358,10 +357,10 @@
             "E": "MÉDIAMULT."
         },
         "gabarito_correto": "B",
+        "id": "1678588",
         "comentario_ia": "A função MÉDIASES no Excel calcula a média de um intervalo de células que atendem a múltiplos critérios especificados. As outras funções possuem funcionalidades diferentes ou não existem."
     },
     {
-        "id": "1678590",
         "enunciado": "Para facilitar a criação de gráficos, o Microsoft Excel tem um recurso que exibe os tipos de gráficos recomendados para o intervalo selecionado. Por padrão, para acioná-lo, é necessário selecionar o intervalo de dados que se deseja representar graficamente e:",
         "alternativas": {
             "A": "Clicar com o botão da direita do mouse em qualquer ponto na área selecionada.",
@@ -371,10 +370,10 @@
             "E": "Na guia Desenhar, clicar no botão Gráfico."
         },
         "gabarito_correto": "C",
+        "id": "1678590",
         "comentario_ia": "No Excel, o recurso 'Análise Rápida' (disponível após selecionar um intervalo de dados) sugere automaticamente gráficos adequados aos dados, facilitando a visualização."
     },
     {
-        "id": "2307439",
         "enunciado": "Marque a alternativa CORRETA que corresponde a função primária de uma planilha quando utilizada como ferramenta de apoio à decisão em um contexto empresarial.",
         "alternativas": {
             "A": "Desenvolver e hospedar o site oficial da empresa.",
@@ -383,10 +382,10 @@
             "D": "Organizar, processar e analisar dados para subsidiar decisões gerenciais."
         },
         "gabarito_correto": "D",
+        "id": "2307439",
         "comentario_ia": "A função primária de uma planilha em contexto empresarial é a organização, processamento e análise de dados. Isso permite a geração de relatórios e insights que subsidiam a tomada de decisões gerenciais estratégicas."
     },
     {
-        "id": "1986875",
         "enunciado": "Um técnico de planejamento está elaborando um controle orçamentário mensal no Excel. Ele criou uma planilha com as colunas: \"Despesa Prevista\", \"Despesa Real\" e \"Diferença\". Para destacar automaticamente quando a despesa real ultrapassar a prevista, ele decide utilizar uma formatação condicional. Considerando essa situação, qual regra ele deve aplicar?",
         "alternativas": {
             "A": "Aplicar a função =SE(A1>B1;VERDADEIRO;FALSO) para toda a coluna.",
@@ -396,10 +395,10 @@
             "E": "Criar uma macro com VBA para fazer a análise condicional."
         },
         "gabarito_correto": "C",
+        "id": "1986875",
         "comentario_ia": "A formatação condicional permite destacar células com base em critérios. Para alertar quando a despesa real for maior que a prevista, a regra deve ser 'se Despesa Real > Despesa Prevista', aplicar cor vermelha, indicando um gasto excessivo."
     },
     {
-        "id": "1986811",
         "enunciado": "Um técnico de planejamento está elaborando um controle orçamentário mensal no Excel. Ele criou uma planilha com as colunas: \"Despesa Prevista\", \"Despesa Real\" e \"Diferença\". Para destacar automaticamente quando a despesa real ultrapassar a prevista, ele decide utilizar uma formatação condicional. Considerando essa situação, qual regra ele deve aplicar?",
         "alternativas": {
             "A": "Se \"Despesa Real\" for maior que \"Despesa Prevista\", aplicar cor vermelha.",
@@ -409,10 +408,10 @@
             "E": "Se \"Despesa Real\" for menor que \"Despesa Prevista\", aplicar cor amarela."
         },
         "gabarito_correto": "A",
+        "id": "1986811",
         "comentario_ia": "A formatação condicional deve alertar visualmente quando a despesa real exceder a prevista. A regra 'Se Despesa Real > Despesa Prevista, aplicar cor vermelha' atinge esse objetivo de destaque."
     },
     {
-        "id": "1986944",
         "enunciado": "Durante uma capacitação interna promovida por uma autarquia, discutiu-se a importância do uso consciente e produtivo das planilhas eletrônicas para a gestão de dados administrativos. Um dos tópicos abordados foi o conceito de referência relativa, absoluta e mista, muito comum ao copiar fórmulas em planilhas extensas. Considerando esse contexto, assinale a alternativa que corretamente caracteriza a utilidade da referência absoluta em fórmulas do Excel.",
         "alternativas": {
             "A": "A referência absoluta permite que a fórmula se ajuste automaticamente à nova célula quando for copiada para outra posição, mantendo a flexibilidade de cálculo.",
@@ -422,10 +421,10 @@
             "E": "A referência absoluta impede qualquer alteração na célula referenciada ao copiar a fórmula, fixando tanto a linha quanto a coluna."
         },
         "gabarito_correto": "E",
+        "id": "1986944",
         "comentario_ia": "A referência absoluta ($A$1) no Excel trava a célula, impedindo que a fórmula mude ao ser copiada/arrastada para outras posições. As outras alternativas descrevem referências relativas ou mistas, ou funcionalidades incorretas."
     },
     {
-        "id": "1717502",
         "enunciado": "O Excel é um software basicamente para a manipulação de:",
         "alternativas": {
             "A": "planilhas.",
@@ -434,10 +433,10 @@
             "D": "desenhos."
         },
         "gabarito_correto": "A",
+        "id": "1717502",
         "comentario_ia": "O Microsoft Excel é um software amplamente reconhecido por suas funcionalidades de criação, edição e análise de planilhas, permitindo cálculos, gráficos e organização de dados."
     },
     {
-        "id": "1708265",
         "enunciado": "No Microsoft Excel, qual função é utilizada para somar valores de um intervalo de células?",
         "alternativas": {
             "A": "=MEDIA()",
@@ -446,10 +445,10 @@
             "D": "=PROCV()"
         },
         "gabarito_correto": "C",
+        "id": "1708265",
         "comentario_ia": "A função =SOMA() no Excel é utilizada para somar todos os valores numéricos em um intervalo especificado de células, sendo uma das funções mais básicas e úteis."
     },
     {
-        "id": "2149499",
         "enunciado": "Um usuário do MS Excel 2019 em português precisa utilizar, em uma fórmula, uma função para converter um número inteiro de uma célula da planilha para o formato de número romano. Para isso, ele deve utilizar a função:",
         "alternativas": {
             "A": "ARREND",
@@ -458,11 +457,11 @@
             "D": "TRUNCAR"
         },
         "gabarito_correto": "C",
+        "id": "2149499",
         "comentario_ia": "A função ROMANO no MS Excel converte um número inteiro em seu correspondente algarismo romano, sendo a ferramenta correta para a necessidade descrita."
     },
     {
-        "id": "2138928",
-        "enunciado": "Um servidor da Prefeitura Municipal de João Ramalho utilizou a ferramenta Microsoft  Office Excel  2007 (Configuração Padrão – Idioma Português -Brasil) para criar uma planilha eletrônica com o controle financeiro de cotações com múltiplos forne -cedores em diferentes datas. Para automatizar essa planilha, o servidor criou uma formatação aut omática que destaca em vermelho as células em que o valor for inferior a R$ 1.000,00, com o objetivo de deixar evidente as cotações consideradas de baixo valor para análise do departamento. Considerando a ferramenta e as características do recurso utilizad o, pode -se afirmar que ele utilizou a formatação:",
+        "enunciado": "Um servidor da Prefeitura Municipal de João Ramalho utilizou a ferramenta Microsoft Office Excel 2007 (Configuração Padrão – Idioma Português -Brasil) para criar uma planilha eletrônica com o controle financeiro de cotações com múltiplos forne -cedores em diferentes datas. Para automatizar essa planilha, o servidor criou uma formatação aut omática que destaca em vermelho as células em que o valor for inferior a R$ 1.000,00, com o objetivo de deixar evidente as cotações consideradas de baixo valor para análise do departamento. Considerando a ferramenta e as características do recurso utilizad o, pode -se afirmar que ele utilizou a formatação:",
         "alternativas": {
             "A": "Dinâmica.",
             "B": "Inteligente.",
@@ -470,10 +469,10 @@
             "D": "Instantânea."
         },
         "gabarito_correto": "C",
+        "id": "2138928",
         "comentario_ia": "A formatação que destaca células com base em um critério específico (valor inferior a R$ 1.000,00) é chamada de formatação condicional no Excel."
     },
     {
-        "id": "1893932",
         "enunciado": "Qual das fórmulas abaixo é a fórmula que realiza a potência entre duas células no Microsoft Excel 2019?",
         "alternativas": {
             "A": "= A1*A2",
@@ -483,10 +482,10 @@
             "E": "= A1:A2"
         },
         "gabarito_correto": "B",
+        "id": "1893932",
         "comentario_ia": "No Microsoft Excel, o operador '^' (circunflexo) é utilizado para realizar a operação de potenciação entre valores ou células."
     },
     {
-        "id": "1973739",
         "enunciado": "No Microsoft Excel, qual função Retorna o menor valor k-ésimo do conjunto de dados? (Esta função retorna valores com uma posição específica relativa em um conjunto de dados).",
         "alternativas": {
             "A": "=MAIOR()",
@@ -496,10 +495,10 @@
             "E": "=PROCURAR()"
         },
         "gabarito_correto": "D",
+        "id": "1973739",
         "comentario_ia": "A função =MENOR() no Excel é utilizada para retornar o menor valor k-ésimo de um conjunto de dados, sendo ideal para encontrar, por exemplo, o segundo menor ou o terceiro menor valor em uma lista."
     },
     {
-        "id": "1860608",
         "enunciado": "Um assistente social precisa contar o número de atendimentos realizados por sua unidade de serviço no último mês. O número de atendimentos é muito grande, mas cabe em uma única aba de uma planilha do Microsoft Excel versão 365. Assinale a opção que indica a sintaxe da função que ele deve usar para contar o número de células que contém números de atendimentos e contar os números na lista de argumentos.",
         "alternativas": {
             "A": "CONT.NÚM(valor1, [valor2], ...)",
@@ -509,10 +508,10 @@
             "E": "PLOT.MAX(valor1, [valor2], ...)"
         },
         "gabarito_correto": "A",
+        "id": "1860608",
         "comentario_ia": "A funçãoCONT.NÚM do Excel é utilizada para contar células que contêm números. A sintaxe 'valor1, [valor2], ...' permite indicar a(s) célula(s) ou intervalo(s) a serem contados, sendo a opção A a correta."
     },
     {
-        "id": "1782358",
         "enunciado": "No Microsoft Excel 2019, em português e com as configurações padrão, um usuário deseja calcular a média aritmética dos valores contidos nas células A1, A2 e A3. Para isso, ele testou as seguintes fórmulas: I. =MÉDIA(A1:A3) II. =MÉDIA(A1,A2,A3) III. =SOMA(A1:A3)/3 Com base no funcionamento das funções no Excel 2019, qual(is) dessas fórmulas retornará(ão) o valor correto da média dos números contidos nas células mencionadas?",
         "alternativas": {
             "A": "Apenas I.",
@@ -521,10 +520,10 @@
             "D": "I, II e III."
         },
         "gabarito_correto": "D",
+        "id": "1782358",
         "comentario_ia": "Todas as fórmulas apresentadas calculam corretamente a média aritmética de valores numéricos em um intervalo ou em células específicas. A função MÉDIA aceita intervalos ou lista de células, e a SOMA dividida pela quantidade (3) também resulta na média."
     },
     {
-        "id": "1860612",
         "enunciado": "Uma nutricionista necessita calcular o Índice de Massa Corporal (IMC) de diversos pacientes. A fórmula para calcular o IMC é: IMC = peso (em kg) / altura (em m) x altura (em m). Analise a planilha Microsoft Excel a seguir. Assinale a opção que apresenta a sintaxe correta da fórmula para o cálculo do IMC presente na célula D2 do Microsoft Excel.",
         "alternativas": {
             "A": "=A2 div (C2 x C2)",
@@ -534,10 +533,10 @@
             "E": "=B2/(C2+C2)"
         },
         "gabarito_correto": "C",
+        "id": "1860612",
         "comentario_ia": "A fórmula para IMC épeso/(altura*altura). Na planilha, o peso está na coluna B e a altura na coluna C. Portanto, a fórmula em D2 deve ser =B2/(C2*C2) ou =B2/(C2^2). A alternativa C utiliza a raiz quadrada (C2^2), que é o mesmo que altura ao quadrado."
     },
     {
-        "id": "2122498",
         "enunciado": "O Microsoft Excel é a ferramenta de planilhas eletrônicas da Microsoft. Desde o seu lançamento em 1985, ela se tornou uma peça fundamental para a análise de dados e BI em uma ampla variedade de setores. Um usuário quer evitar que uma planilha Excel seja alterada por outras pessoas. Assinale a alternativa CORRETA que corresponde qual recurso deve utilizar para garantir essa proteção.",
         "alternativas": {
             "A": "Salvar o arquivo como PDF para edição posterior.",
@@ -546,11 +545,11 @@
             "D": "Proteger a planilha com senha, limitando alterações."
         },
         "gabarito_correto": "D",
+        "id": "2122498",
         "comentario_ia": "Para impedir a alteração de uma planilha Excel, o recurso mais eficaz é protegê-la com senha, que pode limitar ou bloquear a edição de células, linhas, colunas ou da planilha inteira."
     },
     {
-        "id": "1262333",
-        "enunciado": "Considerar uma planilha no Microsoft Excel 2016 com os dados a seguir: Qual das fórmulas a seguir pode ser usada para calcular a soma dos valores da coluna \"Quantidade\", no Microsoft Excel  2016?",
+        "enunciado": "Considerar uma planilha no Microsoft Excel 2016 com os dados a seguir: Qual das fórmulas a seguir pode ser usada para calcular a soma dos valores da coluna \"Quantidade\", no Microsoft Excel 2016?",
         "alternativas": {
             "A": "=SOMAR(B2:B5)",
             "B": "=SOMA(B2:B5)",
@@ -558,10 +557,10 @@
             "D": "=ADICIONAR(B2:B5)"
         },
         "gabarito_correto": "B",
+        "id": "1262333",
         "comentario_ia": "A funcao correta em ingles para somar um intervalo de celulas no Microsoft Excel e SOMA. As outras alternativas sao invalidas ou nao sao encontradas na aplicacao."
     },
     {
-        "id": "1678818",
         "enunciado": "Um usuário do LibreOffice Calc pretende calcular a média de valores dos produtos listados na tabela a seguir: Para encontrar a média correta dos valores listados na tabela, o usuário deverá utilizar a fórmula:",
         "alternativas": {
             "A": "=MÉDIA(B2:B6)",
@@ -570,11 +569,11 @@
             "D": "=B2+B3+B4+B5+B6/5"
         },
         "gabarito_correto": "A",
+        "id": "1678818",
         "comentario_ia": "Para calcular a média dos valores em um intervalo específico do LibreOffice Calc, a função correta é =MÉDIA(intervalo). O intervalo B2:B6 representa os valores dos produtos. As outras alternativas usam funções incorretas ou intervalos errados."
     },
     {
-        "id": "1077482",
-        "enunciado": "No Microsoft Office Excel, as funções E e OU são definidas como funções lógicas porque retornam como saída na célula. Em relação às funções E e OU do Microsoft Office Excel, marque V para as afirmativas verdadeiras e F para as falsas. (     ) A função E pode receber vários parâmetros e retornará como saída verdadeira somente se todos os parâmetros tiverem sido verificados como verdadeiros. (     ) A função OU retorna verdadeira quando, pelo menos, um dos parâmetros é avaliado como verdadeiro. (     ) A única forma da função OU retornar falsa é quando todos os seus parâmetros são falsos. A sequência está correta em",
+        "enunciado": "No Microsoft Office Excel, as funções E e OU são definidas como funções lógicas porque retornam como saída na célula. Em relação às funções E e OU do Microsoft Office Excel, marque V para as afirmativas verdadeiras e F para as falsas. ( ) A função E pode receber vários parâmetros e retornará como saída verdadeira somente se todos os parâmetros tiverem sido verificados como verdadeiros. ( ) A função OU retorna verdadeira quando, pelo menos, um dos parâmetros é avaliado como verdadeiro. ( ) A única forma da função OU retornar falsa é quando todos os seus parâmetros são falsos. A sequência está correta em",
         "alternativas": {
             "A": "F, F, F.",
             "B": "F, V, F.",
@@ -582,10 +581,10 @@
             "D": "V, V, V."
         },
         "gabarito_correto": "D",
+        "id": "1077482",
         "comentario_ia": "A função E retorna VERDADEIRO se todas as condições forem V. A função OU retorna VERDADEIRO se pelo menos uma condição for V. A única forma de OU ser FALSO é se todas as condições forem F."
     },
     {
-        "id": "1088163",
         "enunciado": "No Excel 2013, existem diferentes fórmulas disponíveis para várias finalidades. Qual das seguintes alternativas representa a fórmula CORRETA a ser usada para somar os valores entre os intervalos das células A2 e A4?",
         "alternativas": {
             "A": "=SOMA(A2:A4)",
@@ -594,10 +593,10 @@
             "D": "=SOMA(A2"
         },
         "gabarito_correto": "A",
+        "id": "1088163",
         "comentario_ia": "A função SOMA no Excel é utilizada para somar valores de um intervalo de células. A sintaxe correta para somar de A2 a A4 é utilizando o operador de dois pontos (:) para definir o intervalo, resultando em =SOMA(A2:A4)."
     },
     {
-        "id": "1346402",
         "enunciado": "Durante um treinamento interno, os funcionários de uma empresa estão aprendendo a usar o Excel para melhorar suas habilidades em análise de dados. Assinale a alternativa que descreve CORRETAMENTE o uso da função PROCV no Excel.",
         "alternativas": {
             "A": "A função PROCV é usada para concatenar (juntar) texto de várias células em uma única célula.",
@@ -607,10 +606,10 @@
             "E": "A função PROCV é utilizada para aplicar formatação condicional com base em critérios específicos."
         },
         "gabarito_correto": "D",
+        "id": "1346402",
         "comentario_ia": "A funcao PROCV (ou VLOOKUP em ingles) no Excel e utilizada para buscar um valor em uma coluna de uma tabela e retornar um valor correspondente em outra coluna da mesma linha."
     },
     {
-        "id": "1476107",
         "enunciado": "Você está utilizando o Microsoft Excel 365 e precisa calcular a soma dos valores localizados nas células de A1 a A10 de uma planilha para concluir sua análise financeira. Assinale a alternativa que apresenta a fórmula correta para realizar tal cálculo.",
         "alternativas": {
             "A": "=MÍNIMO(A1:A10)",
@@ -620,10 +619,10 @@
             "E": "=TOTAL(A1:A10)"
         },
         "gabarito_correto": "D",
+        "id": "1476107",
         "comentario_ia": "A função SOMA é utilizada no Excel para somar valores numéricos em um intervalo de células especificado. As outras funções apresentadas realizam outras operações (mínimo, máximo, somatório - que não é uma função padrão de forma genérica para essa finalidade - e total - também não é uma função padrão para soma simples)."
     },
     {
-        "id": "1147425",
         "enunciado": "As fórmulas no Excel são expressões matemáticas ou lógicas que realizam cálculos ou operações em dados contidos em células. Elas são usadas para executar uma ampla variedade de tarefas, desde simples cálculos aritméticos até análises mais complexas. Neste contexto, pode-se afirmar que as fórmulas devem anteceder:",
         "alternativas": {
             "A": "“*”",
@@ -633,10 +632,10 @@
             "E": "="
         },
         "gabarito_correto": "E",
+        "id": "1147425",
         "comentario_ia": "No Excel, as fórmulas são expressões que iniciam com o sinal de igual (=). Este sinal indica ao programa que o que se segue é uma operação a ser realizada e não um texto literal."
     },
     {
-        "id": "1595613",
         "enunciado": "Considere exportar uma extensa planilha no Microsoft Excel 365 (Configuração Padrão – Idioma Português -Brasil) contendo informações de todos os funcionários da instituição. Para localizar rapidamente um funcionário específico nessa planilha, torna-se necessário buscar os dados pelo nome; para isso, deve-se usar a fórmula:",
         "alternativas": {
             "A": "=ARRED",
@@ -645,10 +644,10 @@
             "D": "=CONT.NOME"
         },
         "gabarito_correto": "B",
+        "id": "1595613",
         "comentario_ia": "A função PROCV (VLOOKUP) é utilizada para buscar um valor em uma coluna de uma tabela ou planilha e retornar um valor na mesma linha em outra coluna."
     },
     {
-        "id": "1163575",
         "enunciado": "Um estudante está criando uma planilha eletrônica para organizar e monitorar suas finanças, ao salvar o documento para alterações, ele deseja que a formatação e funções matemáticas sejam mantidas. Assinale a alternativa correta com o formato de arquivo que atende às necessidades do estudante.",
         "alternativas": {
             "A": "Portable Document Format (.pdf).",
@@ -657,10 +656,10 @@
             "D": "OpenDocument Spreadsheet (.ods)."
         },
         "gabarito_correto": "D",
+        "id": "1163575",
         "comentario_ia": "O formato OpenDocument Spreadsheet (.ods) é um formato padrão para planilhas eletrônicas que suporta fórmulas, funções matemáticas e formatação, atendendo às necessidades do estudante."
     },
     {
-        "id": "1531543",
         "enunciado": "Considere uma planilha do LibreOffice Calc Versão 24.2.2.2. As células A1 a A4 estão populadas respectivamente com os seguintes valores: 18, 15, 43, 27. A célula A5 possui o valor 146. A fórmula que dá origem a esse valor é",
         "alternativas": {
             "A": "=SOMA(A1:A4)+A3",
@@ -669,10 +668,10 @@
             "D": "=SOMA(A1:A4)/A3"
         },
         "gabarito_correto": "A",
+        "id": "1531543",
         "comentario_ia": "A soma dos valores nas células A1 a A4 (18+15+43+27 = 103). A célula A3 tem o valor 43. A fórmula =SOMA(A1:A4)+A3 resulta em 103 + 43 = 146."
     },
     {
-        "id": "1458952",
         "enunciado": "Você tem uma planilha com os gastos da instituição. Sem ocultar dados nem alterar a estrutura e valores das células apresentados, a funcionalidade do Excel usada para destacar os gastos acima da média é",
         "alternativas": {
             "A": "a formatação condicional.",
@@ -681,10 +680,10 @@
             "D": "a validação de dados."
         },
         "gabarito_correto": "A",
+        "id": "1458952",
         "comentario_ia": "A formatação condicional permite aplicar formatação (cores, ícones, etc.) a células com base em regras, como a de serem superiores à média calculada na própria planilha, sem ocultar ou alterar dados originais."
     },
     {
-        "id": "1227448",
         "enunciado": "As planilhas eletrônicas ou planilhas de cálculo envolvem a organização, cálculos e armazenamento de dados. Para que não ocorram emendas indesejáveis, perda de dados originais, bem como cálculos incorretos, o desenvolvimento das planilhas NÃO pode incluir:",
         "alternativas": {
             "A": "controle de alterações.",
@@ -694,10 +693,10 @@
             "E": "funções estatísticas."
         },
         "gabarito_correto": "B",
+        "id": "1227448",
         "comentario_ia": "Para evitar emendas indesejáveis e perda de dados, as planilhas eletrônicas devem ter controle de acesso, não acesso irrestrito. As outras opções promovem integridade dos dados e cálculos."
     },
     {
-        "id": "1497970",
         "enunciado": "Assinale a alternativa que contém a função usada para retornar o resto de uma divisão no Microsoft Excel 2019:",
         "alternativas": {
             "A": "DIV",
@@ -707,10 +706,10 @@
             "E": "REST"
         },
         "gabarito_correto": "C",
+        "id": "1497970",
         "comentario_ia": "A função MOD no Microsoft Excel é utilizada para retornar o resto de uma divisão. As outras funções apresentadas possuem finalidades distintas: DIV para quociente da divisão inteira, MDC para máximo divisor comum, MÉDIA para a média de um conjunto de números e RESTO não existe como nome de função nativa para este propósito."
     },
     {
-        "id": "1256806",
         "enunciado": "Paula é produtora cultural e está muito feliz por ter sido contemplada com um fomento da prefeitura da cidade onde mora. Ela vai entrar em um curso específico para aprender a detalhar todos os gastos em uma planilha, afinal, a prestação de contas precisa ser feita de forma clara e objetiva. Isso significa que sua atividade exigirá o manuseio de:",
         "alternativas": {
             "A": "Excel.",
@@ -719,10 +718,10 @@
             "D": "Power Point."
         },
         "gabarito_correto": "A",
+        "id": "1256806",
         "comentario_ia": "A prestação de contas de gastos, especialmente em projetos culturais, exige organização e detalhamento, sendo o Excel a ferramenta mais adequada para a criação e manipulação de planilhas financeiras."
     },
     {
-        "id": "1678588",
         "enunciado": "Uma função é um tipo especial de fórmula que já vem pré-definida e executa um cálculo específico. No Microsoft Excel, existe uma função que encontra a média de valores contidos em um intervalo de células que atendem a vários critérios. A qual função o trecho se refere?",
         "alternativas": {
             "A": "MÉDIASE.",
@@ -732,10 +731,10 @@
             "E": "MÉDIAMULT."
         },
         "gabarito_correto": "B",
+        "id": "1678588",
         "comentario_ia": "A função MÉDIASES no Excel calcula a média de um intervalo de células que atendem a múltiplos critérios especificados. As outras funções possuem funcionalidades diferentes ou não existem."
     },
     {
-        "id": "1678590",
         "enunciado": "Para facilitar a criação de gráficos, o Microsoft Excel tem um recurso que exibe os tipos de gráficos recomendados para o intervalo selecionado. Por padrão, para acioná-lo, é necessário selecionar o intervalo de dados que se deseja representar graficamente e:",
         "alternativas": {
             "A": "Clicar com o botão da direita do mouse em qualquer ponto na área selecionada.",
@@ -745,10 +744,10 @@
             "E": "Na guia Desenhar, clicar no botão Gráfico."
         },
         "gabarito_correto": "C",
+        "id": "1678590",
         "comentario_ia": "No Excel, o recurso 'Análise Rápida' (disponível após selecionar um intervalo de dados) sugere automaticamente gráficos adequados aos dados, facilitando a visualização."
     },
     {
-        "id": "1018771",
         "enunciado": "No Microsoft Excel, a ferramenta para quebrar o texto dentro de uma célula é a:",
         "alternativas": {
             "A": "Quebrar Texto Automaticamente.",
@@ -758,10 +757,10 @@
             "E": "Quebra Localizada de Texto."
         },
         "gabarito_correto": "A",
+        "id": "1018771",
         "comentario_ia": "No Microsoft Excel, a opção 'Quebrar Texto Automaticamente' é a ferramenta dedicada a ajustar o texto dentro dos limites de uma célula, garantindo que ele seja exibido em várias linhas."
     },
     {
-        "id": "1079817",
         "enunciado": "Em uma situação hipotética houver a necessidade em uma planilha do Excel destacar de forma automática algumas informações importantes com critérios como valores maiores que R$ 1.000,00 para isso existe um recurso chamado. Marque a alternativa CORRETA que corresponde ao recurso do Excel descrito:",
         "alternativas": {
             "A": "Formatar como tabela.",
@@ -771,10 +770,10 @@
             "E": "Formatação semi-automática."
         },
         "gabarito_correto": "C",
+        "id": "1079817",
         "comentario_ia": "O recurso do Excel que permite destacar células com base em critérios específicos, como valores maiores que R$ 1.000,00, é a Formatação Condicional."
     },
     {
-        "id": "2238293",
         "enunciado": "No Microsoft Excel, as funções são comandos compactos e rápidos para se executar fórmula. Nesse sentido, é correto afirmar que a função",
         "alternativas": {
             "A": "SE exige que três parâmetros sejam fornecidos.",
@@ -784,10 +783,10 @@
             "E": "SOMA ignora os valores não numéricos passados como parâmetro."
         },
         "gabarito_correto": "C",
+        "id": "2238293",
         "comentario_ia": "A função CONCATENAR no Excel junta textos. O operador \"&\" faz exatamente a mesma coisa, sendo um substituto direto."
     },
     {
-        "id": "1057851",
         "enunciado": "Dado o contexto de classificação dos recursos no menu do Excel, associe as colunas relacionando recursos com suas respectivas ferramentas: Coluna 1: A. Número. B. Células. C. Editando. Coluna 2: (__ ) Classificar e filtrar. (__ ) Separador de milhares. (__ ) Inserção de linhas na tabela. Assinale a alternativa cuja a sequência da associação, de cima para baixo, esteja CORRETA:",
         "alternativas": {
             "A": "C, A, B.",
@@ -797,10 +796,10 @@
             "E": "A, B, C."
         },
         "gabarito_correto": "C",
+        "id": "1057851",
         "comentario_ia": "Classificar e filtrar encontra-se no grupo 'Edição'. Separador de milhares está na guia 'Número'. Inserção de linhas está na guia 'Células'."
     },
     {
-        "id": "1158821",
         "enunciado": "No software Excel 2010 BR, a execução do atalho de teclado Ctrl + B tem por significado",
         "alternativas": {
             "A": "Gerar gráfico.",
@@ -809,10 +808,10 @@
             "D": "Formatar célula."
         },
         "gabarito_correto": "B",
+        "id": "1158821",
         "comentario_ia": "No Excel 2010 BR, o atalho de teclado Ctrl + B é amplamente utilizado para aplicar o formato de negrito a um texto ou célula selecionada, alterando sua aparência para mais espessa e destacada."
     },
     {
-        "id": "1249452",
         "enunciado": "No MS Excel 2019 em sua configuração padrão, pt -BR, qual das funções a seguir retorn a a data de hoje formatada como uma data?",
         "alternativas": {
             "A": "DATA.",
@@ -821,10 +820,10 @@
             "D": "HOJE."
         },
         "gabarito_correto": "D",
+        "id": "1249452",
         "comentario_ia": "A função HOJE() no Excel retorna a data atual do sistema. As outras funções retornam componentes de data (DIA), hora (HORA) ou constroem uma data a partir de argumentos (DATA)."
     },
     {
-        "id": "2193436",
         "enunciado": "Considerando-se o Excel 2016, sobre o menu Colar, nas opções na caixa Colar Especial (podendo ser acessada pelo atalho de teclado Ctrl + Alt + V) é possível selecionar, entre outros:",
         "alternativas": {
             "A": "Fórmulas.",
@@ -833,10 +832,10 @@
             "D": "Está(ão) CORRETO(S):"
         },
         "gabarito_correto": "D",
+        "id": "2193436",
         "comentario_ia": "Todas as opções listadas (Fórmulas, Comentários e Valores) são possíveis seleções na caixa 'Colar Especial' do Excel, permitindo diversas formas de colar dados."
     },
     {
-        "id": "2258785",
         "enunciado": "A extensão padrão dos arquivos salvos no MS-Excel 2016 é:",
         "alternativas": {
             "A": ".PDF",
@@ -845,10 +844,10 @@
             "D": ".DOC"
         },
         "gabarito_correto": "C",
+        "id": "2258785",
         "comentario_ia": "O MS-Excel 2016 salva seus arquivos por padrão com a extensão '.xlsx', que indica ser um arquivo do tipo planilha do Office."
     },
     {
-        "id": "1448253",
         "enunciado": "A figura abaixo foi extraída de uma planilha do Microsoft Excel 2016, executado no Windows 10, analise-a e assinale a alternativa que apresenta a fórmula capaz de substituir a expressão inserida na célula F3 sem alterar o resultado.",
         "alternativas": {
             "A": "=SOMA(B3:E3)/4",
@@ -858,10 +857,10 @@
             "E": "=(B3+C3)+(D3+E3)/4."
         },
         "gabarito_correto": "A",
+        "id": "1448253",
         "comentario_ia": "A célula F3 contém uma soma de valores, e a fórmula =SOMA(B3:E3)/4 calcula corretamente a média desses valores, pois há 4 células somadas."
     },
     {
-        "id": "1897872",
         "enunciado": "Em uma planilha Excel as células têm os seguintes valores: A1=10, A2=20, A3=35 e A4=50. Qual será o valor da C3 ao inserirmos nela a seguinte fórmula: =SE(SOMA(A1:A3)A45B50C10D35E5Reportar ErroGabarito notoriamente incorretoQuestão incompleta — falta texto ou anexosEstá na categoria ou classificação incorretaEnviarObrigado pelo seu reporte!",
         "alternativas": {
             "A": "45",
@@ -871,10 +870,10 @@
             "E": "5"
         },
         "gabarito_correto": "E",
+        "id": "1897872",
         "comentario_ia": "A fórmula é =SE(SOMA(A1:A3)<50;A4;A?). A soma de A1 a A3 é 10+20+35 = 65. Como 65 não é menor que 50, a condição do SE é falsa. Nesse caso, é retornado o valor de A?. Como A? não existe, a célula retorna um erro. Se a célula fosse A2, seria 20."
     },
     {
-        "id": "1897874",
         "enunciado": "No Excel, quando se deseja criar um caminho “clicável” para uma outra tabela, deve-se usar a função:",
         "alternativas": {
             "A": "Referência Cruzada.",
@@ -884,11 +883,11 @@
             "E": "Linha de Assinatura."
         },
         "gabarito_correto": "B",
+        "id": "1897874",
         "comentario_ia": "No Excel, a função 'Hiperlink' é utilizada para criar links clicáveis que direcionam para outras tabelas, documentos ou páginas da web."
     },
     {
-        "id": "1255730",
-        "enunciado": "Tendo  como base o MS Excel 2010 ou superior. O que retorna à função MED?",
+        "enunciado": "Tendo como base o MS Excel 2010 ou superior. O que retorna à função MED?",
         "alternativas": {
             "A": "Retorna a mediana de um conjunto de valores.",
             "B": "Retorna a média de um conjunto de valores.",
@@ -896,10 +895,10 @@
             "D": "Nenhuma das alternativas."
         },
         "gabarito_correto": "A",
+        "id": "1255730",
         "comentario_ia": "A função MED no Excel (em português) tem o nome de MED, e seu retorno é a mediana, que é o valor central de um conjunto de números ordenados."
     },
     {
-        "id": "1128567",
         "enunciado": "A segurança da informação é uma preocupação cada vez maior nas organizações. No Microsoft Excel existe um recurso capaz de proteger especificamente as células bloqueadas. Essa proteção pode ser especificada para formatação, edição de conteúdo, inserção de hiperlink etc. Como é chamado esse recurso?",
         "alternativas": {
             "A": "Proteger dados;",
@@ -908,10 +907,10 @@
             "D": "Proteger pasta de trabalho;"
         },
         "gabarito_correto": "B",
+        "id": "1128567",
         "comentario_ia": "O recurso do Microsoft Excel que permite proteger células bloqueadas, impedindo formatação, edição ou inserção de hiperlink, é chamado de 'Proteger Planilha'."
     },
     {
-        "id": "1427001",
         "enunciado": "O uso de planilhas eletrônicas tem se expandido cada vez mais no dia a dia. Nesse contexto, utilizando-se do Microsoft Excel 2007 (versão português), assinale a alternativa correta.",
         "alternativas": {
             "A": "A filtragem de dados é interessante quando se tem uma grande quantidade de linhas para serem analisadas. Utilizando esse tipo de filtro, consegue-se filtrar os dados por meio de um intervalo de valores ou mesmo por meio de cores que foram inseridas via formatação condicional.",
@@ -920,10 +919,10 @@
             "D": "Uma das grandes vantagens do uso de planilhas eletrônicas é a utilização de fórmulas. Para realizar um cálculo, é obrigatório que a fórmula tenha a sintaxe iniciada com o sinal de “=” (igual) seguido apenas de um valor constante ou de uma referência e com um operador."
         },
         "gabarito_correto": "A",
+        "id": "1427001",
         "comentario_ia": "A alternativa A descreve corretamente a utilidade da filtragem de dados no Excel para analisar grandes volumes, permitindo filtros por valores ou cores de formatação condicional."
     },
     {
-        "id": "1380519",
         "enunciado": "Qual função do MS Excel cria uma referência de célula como texto, de acordo com números de linha e coluna específicos?",
         "alternativas": {
             "A": "INDIRETO",
@@ -932,10 +931,10 @@
             "D": "INDICE"
         },
         "gabarito_correto": "B",
+        "id": "1380519",
         "comentario_ia": "A função ENDEREÇO cria uma referência de célula como texto usando números de linha e coluna. INDIRETO retorna uma referência especificada por um texto. DESLOC retorna uma referência a um intervalo deslocado. ÍNDICE retorna um valor de uma tabela ou intervalo."
     },
     {
-        "id": "1380522",
         "enunciado": "A coluna da esquerda apresenta funções do MS Excel e a da direita, a ação de cada uma. Numere a coluna da direita de acordo com a da esquerda. 1 - PROCV ( ) Retorna a posição relativa de um item da matriz que corresponda a um valor específico em uma ordem específica. 2 - PROCH ( ) Procura um valor na linha superior de uma tabela ou matriz de valores e retorna na mesma coluna a partir de uma linha especificada. 3 - RTD ( ) Procura um valor na primeira coluna à esquerda de uma tabela e retorna um valor na mesma linha de uma coluna especificada. 4 - CORRESP ( ) Recupera dados em tempo real de um programa que oferece suporte à automação COM. Marque a sequência correta.",
         "alternativas": {
             "A": "2, 1, 3, 4",
@@ -944,10 +943,10 @@
             "D": "1, 3, 4, 2"
         },
         "gabarito_correto": "C",
+        "id": "1380522",
         "comentario_ia": "PROCV (3) procura na primeira coluna e retorna na mesma linha. PROCH (2) procura na linha superior e retorna na mesma coluna. RTD (4) recupera dados em tempo real. CORRESP (1) retorna a posição relativa de um item. A sequência correta é 3, 2, 4, 1."
     },
     {
-        "id": "2239162",
         "enunciado": "Assinale a função presente tanto no Calc (versão 3.6) quanto no Excel (versão 2007) capaz de somar células que possuam qualquer tipo de dados (texto, número, sinais e até espaço em branco) sem considerar as células vazias.",
         "alternativas": {
             "A": "cont.valores",
@@ -957,10 +956,10 @@
             "E": "pro.cont"
         },
         "gabarito_correto": "A",
+        "id": "2239162",
         "comentario_ia": "A função CONT.VALORES (COUNTA em inglês) conta células com qualquer tipo de dado (texto, número, etc.), exceto células vazias, sendo compatível com ambas as versões de software mencionadas."
     },
     {
-        "id": "2239181",
         "enunciado": "O LibreOfficeCalc e o Microsoft Excel são duas ferramentas para planilhas eletrônicas. Uma organização está migrando a suíte de escritório para o LibreOffice. Um usuário, que não estava presente ao treinamento corporativo, apresentou a seguinte situação em um chamado de suporte: “O LibreOffice não funciona, pois toda vez que uma referência à planilha Orçamento 2015 é realizada, a fórmula =MÉDIA('Orçamento2015'!A1:A5) apresenta erro. A operação realizada é exatamente idêntica, nos mesmos moldes, do Excel”. A resposta correta a ser dada ao usuário é:",
         "alternativas": {
             "A": "A função MÉDIA deve ser substituída por MED.",
@@ -970,10 +969,10 @@
             "E": "O ponto de exclamação (!) deve ser substituído por ponto (.)."
         },
         "gabarito_correto": "B",
+        "id": "2239181",
         "comentario_ia": "No LibreOffice Calc, nomes de planilhas com espaços precisam ser delimitados por apóstrofos únicos e o ponto de exclamação é usado corretamente. O erro na fórmula é a ausência de apóstrofos simples ao redor do nome 'Orçamento 2015'."
     },
     {
-        "id": "2239192",
         "enunciado": "Em uma planilha montada no programa Calc do pacote LibreOffice pretendeu-se utilizar a função soma(). Porém, foi acionada a função sum(). Isto significa que o LibreOffice foi instalado em",
         "alternativas": {
             "A": "Português do Brasil.",
@@ -983,10 +982,10 @@
             "E": "Espanhol."
         },
         "gabarito_correto": "D",
+        "id": "2239192",
         "comentario_ia": "A função SOMA é escrita como 'SUM' em inglês. O uso de 'sum()' em vez de 'soma()' indica que o LibreOffice Calc está configurado no idioma inglês."
     },
     {
-        "id": "2239193",
         "enunciado": "Um gerente de vendas necessita criar uma planilha no Calc onde seja possível converter todos os valores em Reais para Dólar. Ele deseja que apenas alterando o valor de conversão localizado em uma única célula, todos os outros valores sejam alterados. No LibreOffice calc, considerando C a coluna e L a linha, para tornar esta célula constante em uma fórmula, não importando para onde ela seja copiada, devemos utilizar o formato de endereçamento",
         "alternativas": {
             "A": "$LC.",
@@ -996,6 +995,7 @@
             "E": "L$C."
         },
         "gabarito_correto": "D",
+        "id": "2239193",
         "comentario_ia": "Para tornar uma célula constante em fórmulas no Calc, independentemente de onde a fórmula for copiada, utiliza-se o enderçamento absoluto, que fixa tanto a coluna quanto a linha com o símbolo '$', como em $C$L."
     }
 ]

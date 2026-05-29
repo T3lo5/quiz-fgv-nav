@@ -1,6 +1,5 @@
 [
     {
-        "id": "2391594",
         "enunciado": "A força peso corresponde à interação gravitacional entre um corpo e um astro, sendo calculada pela expressão P = m · g, em que m é a massa do corpo e g a aceleração da gravidade local. Embora a massa de um corpo permaneça constante, o seu peso varia de acordo com o valor da gravidade do local onde ele se encontra. Considere um martelo de massa 1,3 kg. A aceleração da gravidade na Terra é aproximadamente 9,8 m/s², enquanto na Lua é cerca de 1,6 m/s². Com base nessas informações, é CORRETO afirmar que:",
         "alternativas": {
             "A": "O peso do martelo é menor na Terra, pois a massa é constante e a gravidade terrestre é maior.",
@@ -10,23 +9,23 @@
             "E": "Como a aceleração da gravidade é menor na Lua, o martelo possui maior massa nesse local."
         },
         "gabarito_correto": "B",
+        "id": "2391594",
         "comentario_ia": "O peso P=m.g varia com a gravidade. Na Lua g é ~1,6 m/s², na Terra ~9,8 m/s². Calculando os pesos e comparando, o peso na Terra é ~6x maior que na Lua."
     },
     {
-        "id": "2390763",
-        "enunciado": "Nas         competições          de         arrancada,         a         variável         mais importante         para         os         veículos         é         a         aceleração.         A         velocidade indica         como         a         posição         de         um         corpo         varia         ao         longo         do         tempo.         Quando         essa         velocidade         se         altera,         dizemos         que ocorre         aceleração. Sobre         o         conceito         de         aceleração,         assinale         a         alternativa CORRETA.",
+        "enunciado": "Nas competições de arrancada, a variável mais importante para os veículos é a aceleração. A velocidade indica como a posição de um corpo varia ao longo do tempo. Quando essa velocidade se altera, dizemos que ocorre aceleração. Sobre o conceito de aceleração, assinale a alternativa CORRETA.",
         "alternativas": {
-            "A": "Há         aceleração         somente         quando         o         veículo         atinge         sua         velocidade         máxima.",
-            "B": "Há         aceleração         quando         o         módulo         da         velocidade aumenta         ou         diminui.",
-            "C": "Há         aceleração         apenas         quando         o         módulo         da         velocidade         aumenta.",
-            "D": "Há         aceleração         apenas         quando         o         módulo         da         velocidade         diminui.",
-            "E": "Há         aceleração         apenas         quando         o         movimento         ocorre         em         linha         reta."
+            "A": "Há aceleração somente quando o veículo atinge sua velocidade máxima.",
+            "B": "Há aceleração quando o módulo da velocidade aumenta ou diminui.",
+            "C": "Há aceleração apenas quando o módulo da velocidade aumenta.",
+            "D": "Há aceleração apenas quando o módulo da velocidade diminui.",
+            "E": "Há aceleração apenas quando o movimento ocorre em linha reta."
         },
         "gabarito_correto": "B",
+        "id": "2390763",
         "comentario_ia": "Aceleração ocorre sempre que o módulo da velocidade varia, seja aumentando ou diminuindo. As outras alternativas restringem o conceito de aceleração de forma incorreta."
     },
     {
-        "id": "1701392",
         "enunciado": "Dentre os temas de maior relevância e aplicabilidade cotidiana da física está o estudo das oscilações. Vivemos em um mundo vibrante, que oscila através da análise da frequência cardíaca, da detecção de terremotos ou ainda da utilização de amortecedores prediais e veiculares, sendo a versão mais simplificada de uma oscilação feita através do Movimento Harmônico Simples (MHS) em sistemas massa-mola. Considere uma mola horizontal mantida fixa na extremidade esquerda. Ao ligar-se um dinamômetro na extremidade livre da mola, deslocando-a 0,05m, verifica-se uma leitura de 10N. Ao remover o dinamômetro, é introduzido um corpo de massa m = 0,5Kg, o qual é puxado 0,02m na horizontal e libertado para mover-se em MHS. Nesse sistema, qual a frequência angular e o período de oscilação correspondente, em unidade do SI, respectivamente?",
         "alternativas": {
             "A": "200 rad/s; 31,4s",
@@ -35,10 +34,10 @@
             "D": "10 rad/s; 3,14s"
         },
         "gabarito_correto": "B",
+        "id": "1701392",
         "comentario_ia": "O cálculo da constante elástica (k) pela Lei de Hooke (F=kx). A comk constante (k) e massa (m), calcula-se a frequência angular (ω) e o período (T) do MHS."
     },
     {
-        "id": "1936480",
         "enunciado": "As tensões tangenciais em componentes mecânicos são críticas para evitar falhas por corte. Considerando um eixo de máquina industrial com seção circular de 50 milímetros (mm) de diâmetro sujeito a uma força cortante de 20 kilonewtons (kN), a análise técnica avalia a resistência do material às tensões tangenciais. Sobre a tensão de cisalhamento no eixo, assinale a alternativa correta.",
         "alternativas": {
             "A": "Calcular a tensão de cisalhamento requer somar a força cortante com a área da seção transversal, resultando em unidades de pressão.",
@@ -48,10 +47,10 @@
             "E": "Calcular a tensão de cisalhamento utiliza a força cortante multiplicada pelo diâmetro da seção, sem considerar a área."
         },
         "gabarito_correto": "C",
+        "id": "1936480",
         "comentario_ia": "A tensão de cisalhamento (ou tangencial) é calculada dividindo a força cortante aplicada pela área da seção transversal onde essa força atua. Essa fórmula considera a distribuição da força sobre a área."
     },
     {
-        "id": "1936482",
         "enunciado": "As tensões normais em elementos estruturais resultam de forças axiais aplicadas, influenciando a segurança de componentes. Analisando um cabo de aço com seção transversal de 500 milímetros quadrados (mm²) submetido a uma carga axial de 100 kilonewtons (kN), a análise técnica concentra-se nas tensões normais geradas no cabo. Assim, analise as afirmativas a seguir. I.A tensão normal no cabo é calculada pela razão entre a força axial e a área da seção transversal, resultando em 200 Megapascal (MPa). II.A tensão normal no cabo é determinada pela soma da força axial com a área da seção transversal, expressa em unidades de pressão. III.A deformação longitudinal do cabo é diretamente proporcional à tensão normal, conforme a Lei de Hooke, dentro do limite elástico. Está correto o que se afirma em:",
         "alternativas": {
             "A": "I apenas.",
@@ -61,10 +60,10 @@
             "E": "I e II apenas."
         },
         "gabarito_correto": "D",
+        "id": "1936482",
         "comentario_ia": "A afirmativa I está correta: Tensão = Força/Área = 100 kN / 500 mm² = 100.000 N / 0,0005 m² = 200.000.000 Pa = 200 MPa. A afirmativa II está incorreta pois a tensão é razão, não soma. A afirmativa III está correta pela Lei de Hooke."
     },
     {
-        "id": "2048749",
         "enunciado": "O movimento em que um objeto gira em torno de um ponto fixo ou de um eixo é conhecido como movimento",
         "alternativas": {
             "A": "linear.",
@@ -74,10 +73,10 @@
             "E": "de translação."
         },
         "gabarito_correto": "B",
+        "id": "2048749",
         "comentario_ia": "O movimento em que um objeto gira em torno de um ponto fixo é definido como movimento angular, exemplificado pela rotação de um eixo."
     },
     {
-        "id": "2048753",
         "enunciado": "Em relação aos movimentos articulares do corpo humano, no plano frontal e em torno do eixo sagital, ocorre o movimento de:",
         "alternativas": {
             "A": "Rotação medial.",
@@ -87,11 +86,11 @@
             "E": "Eversão."
         },
         "gabarito_correto": "E",
+        "id": "2048753",
         "comentario_ia": "No plano frontal e em torno do eixo sagital, ocorre a eversao (movimento do pe para fora) e a inbersao (movimento do pe para dentro), alem de aducao e abducao."
     },
     {
-        "id": "1895472",
-        "enunciado": "Leia as afirmativas abaixo:  I – A força, segundo a relação newtoniana, altera o estado de movimento ou repouso de um corpo.  II – O trabalho mecânico relaciona a força aplicada e o deslocamento, sendo nulo se não houver movimento.  III – A potência é a razão entre o trabalho e o tempo; implica em avaliar quão rapidamente a energia é transformada.  IV – A aceleração independe da força resultante exercida no corpo.  Estão corretas as afirmativas:",
+        "enunciado": "Leia as afirmativas abaixo: I – A força, segundo a relação newtoniana, altera o estado de movimento ou repouso de um corpo. II – O trabalho mecânico relaciona a força aplicada e o deslocamento, sendo nulo se não houver movimento. III – A potência é a razão entre o trabalho e o tempo; implica em avaliar quão rapidamente a energia é transformada. IV – A aceleração independe da força resultante exercida no corpo. Estão corretas as afirmativas:",
         "alternativas": {
             "A": "I, II e III, apenas.",
             "B": "I e IV, apenas.",
@@ -99,10 +98,10 @@
             "D": "I, III e IV, apenas."
         },
         "gabarito_correto": "A",
+        "id": "1895472",
         "comentario_ia": "As afirmativas I, II e III estão corretas. A força altera movimento/repouso. Trabalho relaciona força e deslocamento. Potência mede a rapidez da transformação de energia. A afirmativa IV está incorreta, pois a aceleração depende diretamente da força resultante (2ª Lei de Newton)."
     },
     {
-        "id": "2305182",
         "enunciado": "Uma barra de aço com comprimento de 2 metros e área da seção transversal de 4 cm2 é submetida a uma força axial de 800 N. Sabendo que o módulo de elasticidade do aço é de 2,0×1011 Pa, qual é a deformação longitudinal sofrida pela barra?",
         "alternativas": {
             "A": "2,0 X 10–5 m.",
@@ -111,10 +110,10 @@
             "D": "1,0 x 10–4 m."
         },
         "gabarito_correto": "A",
+        "id": "2305182",
         "comentario_ia": "A deformação (ΔL) é calculada por (Força x Comprimento) / (Área x Módulo de Elasticidade). Convertendo unidades (cm² para m², Pa para N/m²), o resultado é 2,0 x 10⁻⁵ m."
     },
     {
-        "id": "1981495",
         "enunciado": "Dois corpos m1 e m2, compostos de material elástico, movem-se com velocidade v1 e v2 na mesma direção e em sentidos opostos. Ao colidirem, param imediatamente. Sabendo que a massa m1 = 2m2 e que a resultante das forças externas que atuam no sistema é nula, antes do choque, a razão, em módulo, era",
         "alternativas": {
             "A": "0,5.",
@@ -124,10 +123,10 @@
             "E": "2."
         },
         "gabarito_correto": "A",
+        "id": "1981495",
         "comentario_ia": "Pelo princípio da conservação do momento linear, a soma dos momentos antes da colisão é igual à soma após. Como os corpos param, o momento final é zero. Assim, m₁v₁ + m₂v₂ = 0. Como movem-se em sentidos opostos, v₂ = -v₁. Então, m₁v₁ - m₂v₁ = 0, logo m₁v₁ = m₂v₁. Sabendo que m₁=2m₂, temos 2m₂v₁ = m₂v₂, então 2v₁ = v₂. A razão v₁/v₂ = 1/2 = 0,5."
     },
     {
-        "id": "1981498",
         "enunciado": "Uma menina com patins está em repouso sobre uma plataforma móvel, como ilustrado na figura a seguir. Um menino puxa rapidamente a plataforma em sua direção. A posição da menina não se altera, com relação ao solo, devido ao princípio da",
         "alternativas": {
             "A": "impedibilidade.",
@@ -137,10 +136,10 @@
             "E": "ação e reação."
         },
         "gabarito_correto": "D",
+        "id": "1981498",
         "comentario_ia": "A menina e a plataforma móvel estão inicialmente em repouso em relação ao solo. Puxar a plataforma impõe uma força, mas a menina, devido à sua inércia, tende a permanecer em repouso em relação ao referencial inicial (solo)."
     },
     {
-        "id": "1981500",
         "enunciado": "O Plano Inclinado Gonçalves facilita o acesso entre a Cidade Alta e a Cidade Baixa de Salvador – BA. Com 70 metros de altura, esse sistema de transporte histórico liga dois bondes por cabos de aço de forma que o peso do bonde descendo compensa o peso do outro bonde e auxilia sua subida. Considere que os bondes são idênticos, deslizam sem atrito pelos trilhos e que a aceleração da gravidade é igual a 10 m/s². Em uma situação em que 8 pessoas de 60 kg são transportadas para a Cidade Alta e outras 5 pessoas de 60 kg são transportadas para a Cidade Baixa com velocidade constante, em um minuto, a potência útil média desenvolvida pelo motor, é",
         "alternativas": {
             "A": "3.500 W.",
@@ -150,10 +149,10 @@
             "E": "12.600 W."
         },
         "gabarito_correto": "B",
+        "id": "1981500",
         "comentario_ia": "O peso extra na subida é (8 pessoas * 60 kg/pessoa * 10 m/s²) - (5 pessoas * 60 kg/pessoa * 10 m/s²) = 4800 N - 3000 N = 1800 N. A distância percorrida em 1 minuto (60 s) é altura (70 m). A potência útil é calculada por P = (Força * Distância) / Tempo = (1800 N * 70 m) / 60 s = 2100 W."
     },
     {
-        "id": "2396928",
         "enunciado": "Qualquer agente externo que modifica o movimento de um corpo livre pode causar deformação num corpo fixo . E por ser também um vetor, tem dois elementos: a magnitude e a dire- ção. A segunda lei de Newton foi, originalmente, formulada em termos, ligeiramente, diferentes, mas equivalentes: a versão original afirma que o vetor que age sobre um objeto é igual à derivada temporal do momento linear deste objeto. Trata-se da grandeza citada no texto:",
         "alternativas": {
             "A": "força.",
@@ -163,10 +162,10 @@
             "E": "hidráulica."
         },
         "gabarito_correto": "A",
+        "id": "2396928",
         "comentario_ia": "A descrição se refere à força, definida como um vetor que modifica o movimento de um corpo, possuindo magnitude e direção, e cuja relação com o momento linear é apresentada na segunda lei de Newton."
     },
     {
-        "id": "1829511",
         "enunciado": "Uma importante lei da Física afirma que todo corpo permanece em seu estado de repouso ou em movimento retilíneo e uniforme caso as forças que atuem sobre ele se anulem. O cientista responsável pela formulação dessa lei foi:",
         "alternativas": {
             "A": "Kepler",
@@ -175,10 +174,10 @@
             "D": "Albert Einstein"
         },
         "gabarito_correto": "B",
+        "id": "1829511",
         "comentario_ia": "A lei que descreve que um corpo permanece em seu estado de movimento ou repouso na ausencia de forcas resultantes e a Primeira Lei de Newton, tambem conhecida como Lei da Inercia."
     },
     {
-        "id": "2369005",
         "enunciado": "As Leis de Newton explicam como as forças atuam sobre os corpos e determinam suas condições de movimento ou equilíbrio. Com base nesses princípios, analise as alternativas a seguir e identifique a correta.",
         "alternativas": {
             "A": "A Primeira Lei de Newton afirma que um corpo tende a permanecer em repouso ou em movimento retilíneo uniforme, a menos que sobre ele atue uma força resultante não nula — princípio conhecido como lei da inércia.",
@@ -187,10 +186,10 @@
             "D": "Um corpo estará em equilíbrio estático quando a soma vetorial das forças aplicadas for diferente de zero."
         },
         "gabarito_correto": "A",
+        "id": "2369005",
         "comentario_ia": "A Primeira Lei de Newton, também conhecida como Lei da Inércia, descreve que um corpo permanece em repouso ou em movimento uniforme se não houver força resultante atuando sobre ele."
     },
     {
-        "id": "2402036",
         "enunciado": "Durante a construção de um prédio de três pavimentos, o engenheiro geotécnico observa que o solo de fundação é constituído por uma camada de argila mole saturada, com espessura de 6 m, situada sob uma camada arenosa de 1 m. O carregamento proveniente da edificação é relativamente pequeno, mas o engenheiro alerta que, mesmo assim, podem ocorrer recalques lentos ao longo do tempo. Com base nessas informações, o tipo de deformação predominante esperado nesse solo é",
         "alternativas": {
             "A": "recalque imediato, devido à compressão elástica da argila.",
@@ -200,10 +199,10 @@
             "E": "recalque instantâneo, associado à vibração do solo durante a compactação."
         },
         "gabarito_correto": "C",
+        "id": "2402036",
         "comentario_ia": "A presença de uma camada de argila mole saturada sob uma carga, mesmo que pequena, e com espessura considerável, favorece a ocorrência de recalques lentos. Esse fenômeno é característico do adensamento, que envolve a expulsão gradual da água dos poros do solo sob a ação da carga."
     },
     {
-        "id": "1489030",
         "enunciado": "Os princípios básicos da mecânica são fundamentais para o entendimento do funcionamento das máquinas pesadas. Qual das alternativas a seguir representa corretamente a Primeira Lei de Newton?",
         "alternativas": {
             "A": "Todo corpo em repouso permanece em repouso, e todo corpo em movimento permanece em movimento retilíneo uniforme, a menos que uma força externa atue sobre ele.",
@@ -212,10 +211,10 @@
             "D": "A soma das forças em um sistema fechado é constante."
         },
         "gabarito_correto": "A",
+        "id": "1489030",
         "comentario_ia": "A alternativa A descreve corretamente a Primeira Lei de Newton, também conhecida como Lei da Inércia, que postula que um objeto em repouso ou em movimento retilíneo uniforme permanecerá nesse estado a menos que uma força externa atue sobre ele."
     },
     {
-        "id": "1188382",
         "enunciado": "Qual é a deﬁnição correta de \"momento de uma força\" na mecânica?",
         "alternativas": {
             "A": "É a medida da quan Ɵdade de matéria em um objeto.",
@@ -225,10 +224,10 @@
             "E": "Descreve a capacidade de um objeto de resis Ɵr à mudança em seu estado de movimento."
         },
         "gabarito_correto": "C",
+        "id": "1188382",
         "comentario_ia": "Momento de uma força, também chamado de torque, descreve a capacidade de uma força em causar rotação em um corpo. É o produto da força pela distância do eixo de rotação."
     },
     {
-        "id": "1351172",
         "enunciado": "Um engenheiro está projetando uma estrutura para suportar uma carga estática. A carga máxima que a estrutura deve suportar é de 8.000 N. Sabendo que o material selecionado tem uma resistência à ruptura de 1.2000 N/mm² e considerando um fator de segurança de 2, assinale a alternativa que apresenta a carga de ruptura (CR) que a estrutura deve ser capaz de suportar e a área mínima da seção transversal (A) necessária, respectivamente.",
         "alternativas": {
             "A": "CR = 4.000 N e A = 0,33 mm².",
@@ -238,10 +237,10 @@
             "E": "CR = 2.000 N e A = 0,83 mm²."
         },
         "gabarito_correto": "D",
+        "id": "1351172",
         "comentario_ia": "A carga de ruptura (CR) necessária é a carga máxima multiplicada pelo fator de segurança: 8.000 N * 2 = 16.000 N. A área mínima (A) é a carga de ruptura dividida pela resistência à ruptura: 16.000 N / 12.000 N/mm² = 1,33 mm². Houve um erro no cálculo da alternativa correta. Recalculando: A = 16000 / 12000 = 1.33 mm². Com base nas alternativas, a mais plausível se considerarmos um possível erro de digitação na resistência (12000 -> 24000), onde 16000/24000=0.66. Ou se a resistência for 1200 N/mm², A = 16000/1200 = 13.3 mm²."
     },
     {
-        "id": "1489032",
         "enunciado": "Sobre a resistência dos materiais, assinale a alternativa INCORRETA.",
         "alternativas": {
             "A": "A tensão é definida como a força aplicada dividida pela área sobre a qual a força é distribuída.",
@@ -250,10 +249,10 @@
             "D": "A resistência ao cisalhamento de um material é geralmente superior à resistência à tração."
         },
         "gabarito_correto": "D",
+        "id": "1489032",
         "comentario_ia": "A resistência ao cisalhamento é geralmente inferior à resistência à tração em muitos materiais, pois as forças de cisalhamento atuam de forma menos uniforme na área da seção."
     },
     {
-        "id": "1188383",
         "enunciado": "Qual das seguintes aﬁrmações melhor descreve a segunda lei do movimento de Newton?",
         "alternativas": {
             "A": "A força resultante sobre um objeto é igual à massa do objeto mul Ɵplicada pela aceleração do objeto.",
@@ -263,10 +262,10 @@
             "E": "A resistência de um objeto ao movimento é inversamente proporcional à força aplicada sobre ele."
         },
         "gabarito_correto": "A",
+        "id": "1188383",
         "comentario_ia": "A segunda lei de Newton, tambem conhecida como Princípio Fundamental da Dinâmica, afirma que a forca resultante aplicada a um corpo e diretamente proporcional a sua massa e aceleracao (F=ma)."
     },
     {
-        "id": "1188384",
         "enunciado": "Qual das seguintes aﬁrmações melhor descreve o conceito de atrito está Ɵco na mecânica?",
         "alternativas": {
             "A": "O atrito está Ɵco é a resistência ao movimento que ocorre entre duas super İcias em movimento rela Ɵvo.",
@@ -276,10 +275,10 @@
             "E": "O atrito está Ɵco é uma força que aumenta à medida que a velocidade rela Ɵva entre duas super İcias aumenta."
         },
         "gabarito_correto": "C",
+        "id": "1188384",
         "comentario_ia": "O atrito estático é a força que impede o início do movimento relativo entre superfícies em repouso. Ele atua até um valor máximo antes que o movimento ocorra (atrito cinético)."
     },
     {
-        "id": "1188385",
         "enunciado": "Qual é a deﬁnição correta de \"momentum\" na mecânica?",
         "alternativas": {
             "A": "É a força total aplicada sobre um objeto em movimento.",
@@ -289,10 +288,10 @@
             "E": "É a quan Ɵdade de movimento de um objeto, calculada como o produto da sua massa e velocidade."
         },
         "gabarito_correto": "E",
+        "id": "1188385",
         "comentario_ia": "O momentum (ou quantidade de movimento) e' uma grandeza vetorial fundamental na mecânica classica. Sua definicao e' o produto da massa de um objeto por sua velocidade, refletindo sua inercia em movimento."
     },
     {
-        "id": "1188386",
         "enunciado": "Qual é a deﬁnição correta de \"alavanca\" em relação às máquinas?",
         "alternativas": {
             "A": "Uma máquina simples que converte energia térmica em energia mecânica.",
@@ -302,10 +301,10 @@
             "E": "Um disposi Ɵvo usado para armazenar energia potencial mecânica."
         },
         "gabarito_correto": "C",
+        "id": "1188386",
         "comentario_ia": "Uma alavanca é uma barra rígida usada para multiplicar ou mudar a direção de uma força, auxiliando na realização de trabalho. É uma máquina simples fundamental."
     },
     {
-        "id": "1516932",
         "enunciado": "Uma viga de madeira foi dimensionada para resistir ao esforço cortante de cálculo de 80 kN na região dos apoios. Considerando que a seção transversal da viga é retangular, com 5 cm de base e 15 cm de altura, a tensão de cisalhamento de cálculo na região dos apoios da viga é",
         "alternativas": {
             "A": "8 MPa.",
@@ -315,10 +314,10 @@
             "E": "32 MPa."
         },
         "gabarito_correto": "C",
+        "id": "1516932",
         "comentario_ia": "A tensão de cisalhamento em uma viga retangular é dada por (3/2) * (V/A), onde V é o esforço cortante e A é a área da seção transversal. Calculando: (3/2) * (80 kN / (5 cm * 15 cm)) = 1.5 * (80 N / 7.5 cm^2) = 1.5 * 10.67 N/cm^2 = 16 N/cm^2 = 16 MPa."
     },
     {
-        "id": "1188387",
         "enunciado": "Qual é a função correta de uma polia em um sistema mecânico?",
         "alternativas": {
             "A": "Converter energia elétrica em energia mecânica.",
@@ -328,10 +327,10 @@
             "E": "Aumentar a temperatura de um sistema através do atrito."
         },
         "gabarito_correto": "D",
+        "id": "1188387",
         "comentario_ia": "Uma polia é um dispositivo mecânico que, ao usar uma corda ou cabo, altera a direção da força aplicada, facilitando a movimentação de cargas ou a transmissão de movimento. As demais alternativas descrevem funções de outros componentes ou sistemas mecânicos e elétricos."
     },
     {
-        "id": "1516934",
         "enunciado": "Um perfil compacto de aço MR250 com contenção lateral contínua deve ser dimensionado à flexão, para as combinações das ações normais e para os estados limites últimos de escoamento e flambagem. Se o módulo de resistência plástico da seção transversal é 880 cm3, o momento fletor resistente de cálculo é",
         "alternativas": {
             "A": "120 kNm.",
@@ -341,10 +340,10 @@
             "E": "240 kNm."
         },
         "gabarito_correto": "C",
+        "id": "1516934",
         "comentario_ia": "O momento fletor resistente de cálculo para perfis compactos em aço (MR250) é dado por My = fy * Wpl, onde fy é o escoamento do aço (250 MPa) e Wpl é o módulo de resistência plástico (880 cm³). Convertendo unidades: 250 N/mm² * 880 cm³ = 250 N/mm² * 880.000 mm³ = 220.000.000 Nmm = 220 kNm. No entanto, a questão menciona 'escoamento e flambagem' e um perfil 'compacto', o que sugere que o limite de escoamento seria o momento fletor resistente governado pela plasticidade. Se considerarmos a fórmula M = fy * Wpl para este material e perfil, encontramos 220 kNm. Com as opções apresentadas, há uma discrepância. Assumindo que a intenção era um cálculo direto de escoamento: 250 MPa * 880 cm³ = 220 kNm. Reavaliando as opções, pode haver uma aproximação ou um fator de segurança implícito. Se o momento fletor de cálculo para escoamento é M_y = f_y * W_p, então 250 MPa * 880 cm³ = 220 kNm. Se o 'estado limite último de escoamento' for considerado, e assumindo um aço com fy = 250 MPa (MR250), então o momento plástico ..."
     },
     {
-        "id": "1082662",
         "enunciado": "Na Física, é crucial diferenciar grandezas vetoriais e escalares para uma compreensão precisa de diversos fenômenos físicos. Essa distinção é fundamental para descrever corretamente os aspectos dos movimentos e interações entre corpos no espaço. Ao analisar o deslocamento de um barco a remo em um rio, qual das seguintes grandezas é estritamente associada à magnitude do movimento?",
         "alternativas": {
             "A": "Velocidade do barco em relação à água.",
@@ -354,10 +353,10 @@
             "E": "Vetor deslocamento do barco."
         },
         "gabarito_correto": "D",
+        "id": "1082662",
         "comentario_ia": "Grandezas escalares possuem apenas magnitude, enquanto vetoriais possuem magnitude, direção e sentido. A distância percorrida foca na magnitude do movimento, sem levar em conta a direção ou o sentido percorrido."
     },
     {
-        "id": "1516937",
         "enunciado": "Para o projeto do sistema de recalque de água em um edifício cujo consumo de água é 108 000 litros por dia, previu-se a instalação de uma bomba hidráulica com rendimento de 80% e que funcione 5 horas por dia. Se a altura manométrica do sistema de recalque é 50 m, então, a potência da bomba deve ser de",
         "alternativas": {
             "A": "2,5 CV.",
@@ -367,10 +366,10 @@
             "E": "7,5 CV."
         },
         "gabarito_correto": "C",
+        "id": "1516937",
         "comentario_ia": "O volume de água em m3/dia é 108 m3. O rendimento hidráulico é dado por Potencia_util = (Vazao * peso_especifico * altura) / (tempo * 3600). A potencia da bomba é dada por Potencia_bomba = Potencia_util / rendimento. Usando os dados, calculamos a potencia em CV."
     },
     {
-        "id": "1586824",
         "enunciado": "A segunda lei de Newton, também conhecida como Princípio Fundamental da Dinâmica, relaciona a força aplicada a um corpo com sua aceleração. Qual é a fórmula que expressa essa relação?",
         "alternativas": {
             "A": "F = m/a",
@@ -380,10 +379,10 @@
             "E": "F = v/a"
         },
         "gabarito_correto": "B",
+        "id": "1586824",
         "comentario_ia": "A segunda lei de Newton afirma que a força resultante (F) aplicada a um corpo é diretamente proporcional à sua massa (m) e à sua aceleração (a). Portanto, a fórmula correta é F = m * a."
     },
     {
-        "id": "2391594",
         "enunciado": "A força peso corresponde à interação gravitacional entre um corpo e um astro, sendo calculada pela expressão P = m · g, em que m é a massa do corpo e g a aceleração da gravidade local. Embora a massa de um corpo permaneça constante, o seu peso varia de acordo com o valor da gravidade do local onde ele se encontra. Considere um martelo de massa 1,3 kg. A aceleração da gravidade na Terra é aproximadamente 9,8 m/s², enquanto na Lua é cerca de 1,6 m/s². Com base nessas informações, é CORRETO afirmar que:",
         "alternativas": {
             "A": "O peso do martelo é menor na Terra, pois a massa é constante e a gravidade terrestre é maior.",
@@ -393,23 +392,23 @@
             "E": "Como a aceleração da gravidade é menor na Lua, o martelo possui maior massa nesse local."
         },
         "gabarito_correto": "B",
+        "id": "2391594",
         "comentario_ia": "O peso P=m.g varia com a gravidade. Na Lua g é ~1,6 m/s², na Terra ~9,8 m/s². Calculando os pesos e comparando, o peso na Terra é ~6x maior que na Lua."
     },
     {
-        "id": "2390763",
-        "enunciado": "Nas         competições          de         arrancada,         a         variável         mais importante         para         os         veículos         é         a         aceleração.         A         velocidade indica         como         a         posição         de         um         corpo         varia         ao         longo         do         tempo.         Quando         essa         velocidade         se         altera,         dizemos         que ocorre         aceleração. Sobre         o         conceito         de         aceleração,         assinale         a         alternativa CORRETA.",
+        "enunciado": "Nas competições de arrancada, a variável mais importante para os veículos é a aceleração. A velocidade indica como a posição de um corpo varia ao longo do tempo. Quando essa velocidade se altera, dizemos que ocorre aceleração. Sobre o conceito de aceleração, assinale a alternativa CORRETA.",
         "alternativas": {
-            "A": "Há         aceleração         somente         quando         o         veículo         atinge         sua         velocidade         máxima.",
-            "B": "Há         aceleração         quando         o         módulo         da         velocidade aumenta         ou         diminui.",
-            "C": "Há         aceleração         apenas         quando         o         módulo         da         velocidade         aumenta.",
-            "D": "Há         aceleração         apenas         quando         o         módulo         da         velocidade         diminui.",
-            "E": "Há         aceleração         apenas         quando         o         movimento         ocorre         em         linha         reta."
+            "A": "Há aceleração somente quando o veículo atinge sua velocidade máxima.",
+            "B": "Há aceleração quando o módulo da velocidade aumenta ou diminui.",
+            "C": "Há aceleração apenas quando o módulo da velocidade aumenta.",
+            "D": "Há aceleração apenas quando o módulo da velocidade diminui.",
+            "E": "Há aceleração apenas quando o movimento ocorre em linha reta."
         },
         "gabarito_correto": "B",
+        "id": "2390763",
         "comentario_ia": "Aceleração ocorre sempre que o módulo da velocidade varia, seja aumentando ou diminuindo. As outras alternativas restringem o conceito de aceleração de forma incorreta."
     },
     {
-        "id": "1701392",
         "enunciado": "Dentre os temas de maior relevância e aplicabilidade cotidiana da física está o estudo das oscilações. Vivemos em um mundo vibrante, que oscila através da análise da frequência cardíaca, da detecção de terremotos ou ainda da utilização de amortecedores prediais e veiculares, sendo a versão mais simplificada de uma oscilação feita através do Movimento Harmônico Simples (MHS) em sistemas massa-mola. Considere uma mola horizontal mantida fixa na extremidade esquerda. Ao ligar-se um dinamômetro na extremidade livre da mola, deslocando-a 0,05m, verifica-se uma leitura de 10N. Ao remover o dinamômetro, é introduzido um corpo de massa m = 0,5Kg, o qual é puxado 0,02m na horizontal e libertado para mover-se em MHS. Nesse sistema, qual a frequência angular e o período de oscilação correspondente, em unidade do SI, respectivamente?",
         "alternativas": {
             "A": "200 rad/s; 31,4s",
@@ -418,10 +417,10 @@
             "D": "10 rad/s; 3,14s"
         },
         "gabarito_correto": "B",
+        "id": "1701392",
         "comentario_ia": "O cálculo da constante elástica (k) pela Lei de Hooke (F=kx). A comk constante (k) e massa (m), calcula-se a frequência angular (ω) e o período (T) do MHS."
     },
     {
-        "id": "1936480",
         "enunciado": "As tensões tangenciais em componentes mecânicos são críticas para evitar falhas por corte. Considerando um eixo de máquina industrial com seção circular de 50 milímetros (mm) de diâmetro sujeito a uma força cortante de 20 kilonewtons (kN), a análise técnica avalia a resistência do material às tensões tangenciais. Sobre a tensão de cisalhamento no eixo, assinale a alternativa correta.",
         "alternativas": {
             "A": "Calcular a tensão de cisalhamento requer somar a força cortante com a área da seção transversal, resultando em unidades de pressão.",
@@ -431,10 +430,10 @@
             "E": "Calcular a tensão de cisalhamento utiliza a força cortante multiplicada pelo diâmetro da seção, sem considerar a área."
         },
         "gabarito_correto": "C",
+        "id": "1936480",
         "comentario_ia": "A tensão de cisalhamento (ou tangencial) é calculada dividindo a força cortante aplicada pela área da seção transversal onde essa força atua. Essa fórmula considera a distribuição da força sobre a área."
     },
     {
-        "id": "1936482",
         "enunciado": "As tensões normais em elementos estruturais resultam de forças axiais aplicadas, influenciando a segurança de componentes. Analisando um cabo de aço com seção transversal de 500 milímetros quadrados (mm²) submetido a uma carga axial de 100 kilonewtons (kN), a análise técnica concentra-se nas tensões normais geradas no cabo. Assim, analise as afirmativas a seguir. I.A tensão normal no cabo é calculada pela razão entre a força axial e a área da seção transversal, resultando em 200 Megapascal (MPa). II.A tensão normal no cabo é determinada pela soma da força axial com a área da seção transversal, expressa em unidades de pressão. III.A deformação longitudinal do cabo é diretamente proporcional à tensão normal, conforme a Lei de Hooke, dentro do limite elástico. Está correto o que se afirma em:",
         "alternativas": {
             "A": "I apenas.",
@@ -444,10 +443,10 @@
             "E": "I e II apenas."
         },
         "gabarito_correto": "D",
+        "id": "1936482",
         "comentario_ia": "A afirmativa I está correta: Tensão = Força/Área = 100 kN / 500 mm² = 100.000 N / 0,0005 m² = 200.000.000 Pa = 200 MPa. A afirmativa II está incorreta pois a tensão é razão, não soma. A afirmativa III está correta pela Lei de Hooke."
     },
     {
-        "id": "2048749",
         "enunciado": "O movimento em que um objeto gira em torno de um ponto fixo ou de um eixo é conhecido como movimento",
         "alternativas": {
             "A": "linear.",
@@ -457,10 +456,10 @@
             "E": "de translação."
         },
         "gabarito_correto": "B",
+        "id": "2048749",
         "comentario_ia": "O movimento em que um objeto gira em torno de um ponto fixo é definido como movimento angular, exemplificado pela rotação de um eixo."
     },
     {
-        "id": "2048753",
         "enunciado": "Em relação aos movimentos articulares do corpo humano, no plano frontal e em torno do eixo sagital, ocorre o movimento de:",
         "alternativas": {
             "A": "Rotação medial.",
@@ -470,11 +469,11 @@
             "E": "Eversão."
         },
         "gabarito_correto": "E",
+        "id": "2048753",
         "comentario_ia": "No plano frontal e em torno do eixo sagital, ocorre a eversao (movimento do pe para fora) e a inbersao (movimento do pe para dentro), alem de aducao e abducao."
     },
     {
-        "id": "1895472",
-        "enunciado": "Leia as afirmativas abaixo:  I – A força, segundo a relação newtoniana, altera o estado de movimento ou repouso de um corpo.  II – O trabalho mecânico relaciona a força aplicada e o deslocamento, sendo nulo se não houver movimento.  III – A potência é a razão entre o trabalho e o tempo; implica em avaliar quão rapidamente a energia é transformada.  IV – A aceleração independe da força resultante exercida no corpo.  Estão corretas as afirmativas:",
+        "enunciado": "Leia as afirmativas abaixo: I – A força, segundo a relação newtoniana, altera o estado de movimento ou repouso de um corpo. II – O trabalho mecânico relaciona a força aplicada e o deslocamento, sendo nulo se não houver movimento. III – A potência é a razão entre o trabalho e o tempo; implica em avaliar quão rapidamente a energia é transformada. IV – A aceleração independe da força resultante exercida no corpo. Estão corretas as afirmativas:",
         "alternativas": {
             "A": "I, II e III, apenas.",
             "B": "I e IV, apenas.",
@@ -482,10 +481,10 @@
             "D": "I, III e IV, apenas."
         },
         "gabarito_correto": "A",
+        "id": "1895472",
         "comentario_ia": "As afirmativas I, II e III estão corretas. A força altera movimento/repouso. Trabalho relaciona força e deslocamento. Potência mede a rapidez da transformação de energia. A afirmativa IV está incorreta, pois a aceleração depende diretamente da força resultante (2ª Lei de Newton)."
     },
     {
-        "id": "2305182",
         "enunciado": "Uma barra de aço com comprimento de 2 metros e área da seção transversal de 4 cm2 é submetida a uma força axial de 800 N. Sabendo que o módulo de elasticidade do aço é de 2,0×1011 Pa, qual é a deformação longitudinal sofrida pela barra?",
         "alternativas": {
             "A": "2,0 X 10–5 m.",
@@ -494,10 +493,10 @@
             "D": "1,0 x 10–4 m."
         },
         "gabarito_correto": "A",
+        "id": "2305182",
         "comentario_ia": "A deformação (ΔL) é calculada por (Força x Comprimento) / (Área x Módulo de Elasticidade). Convertendo unidades (cm² para m², Pa para N/m²), o resultado é 2,0 x 10⁻⁵ m."
     },
     {
-        "id": "1981495",
         "enunciado": "Dois corpos m1 e m2, compostos de material elástico, movem-se com velocidade v1 e v2 na mesma direção e em sentidos opostos. Ao colidirem, param imediatamente. Sabendo que a massa m1 = 2m2 e que a resultante das forças externas que atuam no sistema é nula, antes do choque, a razão, em módulo, era",
         "alternativas": {
             "A": "0,5.",
@@ -507,10 +506,10 @@
             "E": "2."
         },
         "gabarito_correto": "A",
+        "id": "1981495",
         "comentario_ia": "Pelo princípio da conservação do momento linear, a soma dos momentos antes da colisão é igual à soma após. Como os corpos param, o momento final é zero. Assim, m₁v₁ + m₂v₂ = 0. Como movem-se em sentidos opostos, v₂ = -v₁. Então, m₁v₁ - m₂v₁ = 0, logo m₁v₁ = m₂v₁. Sabendo que m₁=2m₂, temos 2m₂v₁ = m₂v₂, então 2v₁ = v₂. A razão v₁/v₂ = 1/2 = 0,5."
     },
     {
-        "id": "1981498",
         "enunciado": "Uma menina com patins está em repouso sobre uma plataforma móvel, como ilustrado na figura a seguir. Um menino puxa rapidamente a plataforma em sua direção. A posição da menina não se altera, com relação ao solo, devido ao princípio da",
         "alternativas": {
             "A": "impedibilidade.",
@@ -520,10 +519,10 @@
             "E": "ação e reação."
         },
         "gabarito_correto": "D",
+        "id": "1981498",
         "comentario_ia": "A menina e a plataforma móvel estão inicialmente em repouso em relação ao solo. Puxar a plataforma impõe uma força, mas a menina, devido à sua inércia, tende a permanecer em repouso em relação ao referencial inicial (solo)."
     },
     {
-        "id": "1981500",
         "enunciado": "O Plano Inclinado Gonçalves facilita o acesso entre a Cidade Alta e a Cidade Baixa de Salvador – BA. Com 70 metros de altura, esse sistema de transporte histórico liga dois bondes por cabos de aço de forma que o peso do bonde descendo compensa o peso do outro bonde e auxilia sua subida. Considere que os bondes são idênticos, deslizam sem atrito pelos trilhos e que a aceleração da gravidade é igual a 10 m/s². Em uma situação em que 8 pessoas de 60 kg são transportadas para a Cidade Alta e outras 5 pessoas de 60 kg são transportadas para a Cidade Baixa com velocidade constante, em um minuto, a potência útil média desenvolvida pelo motor, é",
         "alternativas": {
             "A": "3.500 W.",
@@ -533,10 +532,10 @@
             "E": "12.600 W."
         },
         "gabarito_correto": "B",
+        "id": "1981500",
         "comentario_ia": "O peso extra na subida é (8 pessoas * 60 kg/pessoa * 10 m/s²) - (5 pessoas * 60 kg/pessoa * 10 m/s²) = 4800 N - 3000 N = 1800 N. A distância percorrida em 1 minuto (60 s) é altura (70 m). A potência útil é calculada por P = (Força * Distância) / Tempo = (1800 N * 70 m) / 60 s = 2100 W."
     },
     {
-        "id": "2396928",
         "enunciado": "Qualquer agente externo que modifica o movimento de um corpo livre pode causar deformação num corpo fixo . E por ser também um vetor, tem dois elementos: a magnitude e a dire- ção. A segunda lei de Newton foi, originalmente, formulada em termos, ligeiramente, diferentes, mas equivalentes: a versão original afirma que o vetor que age sobre um objeto é igual à derivada temporal do momento linear deste objeto. Trata-se da grandeza citada no texto:",
         "alternativas": {
             "A": "força.",
@@ -546,10 +545,10 @@
             "E": "hidráulica."
         },
         "gabarito_correto": "A",
+        "id": "2396928",
         "comentario_ia": "A descrição se refere à força, definida como um vetor que modifica o movimento de um corpo, possuindo magnitude e direção, e cuja relação com o momento linear é apresentada na segunda lei de Newton."
     },
     {
-        "id": "1829511",
         "enunciado": "Uma importante lei da Física afirma que todo corpo permanece em seu estado de repouso ou em movimento retilíneo e uniforme caso as forças que atuem sobre ele se anulem. O cientista responsável pela formulação dessa lei foi:",
         "alternativas": {
             "A": "Kepler",
@@ -558,10 +557,10 @@
             "D": "Albert Einstein"
         },
         "gabarito_correto": "B",
+        "id": "1829511",
         "comentario_ia": "A lei que descreve que um corpo permanece em seu estado de movimento ou repouso na ausencia de forcas resultantes e a Primeira Lei de Newton, tambem conhecida como Lei da Inercia."
     },
     {
-        "id": "2369005",
         "enunciado": "As Leis de Newton explicam como as forças atuam sobre os corpos e determinam suas condições de movimento ou equilíbrio. Com base nesses princípios, analise as alternativas a seguir e identifique a correta.",
         "alternativas": {
             "A": "A Primeira Lei de Newton afirma que um corpo tende a permanecer em repouso ou em movimento retilíneo uniforme, a menos que sobre ele atue uma força resultante não nula — princípio conhecido como lei da inércia.",
@@ -570,10 +569,10 @@
             "D": "Um corpo estará em equilíbrio estático quando a soma vetorial das forças aplicadas for diferente de zero."
         },
         "gabarito_correto": "A",
+        "id": "2369005",
         "comentario_ia": "A Primeira Lei de Newton, também conhecida como Lei da Inércia, descreve que um corpo permanece em repouso ou em movimento uniforme se não houver força resultante atuando sobre ele."
     },
     {
-        "id": "2402036",
         "enunciado": "Durante a construção de um prédio de três pavimentos, o engenheiro geotécnico observa que o solo de fundação é constituído por uma camada de argila mole saturada, com espessura de 6 m, situada sob uma camada arenosa de 1 m. O carregamento proveniente da edificação é relativamente pequeno, mas o engenheiro alerta que, mesmo assim, podem ocorrer recalques lentos ao longo do tempo. Com base nessas informações, o tipo de deformação predominante esperado nesse solo é",
         "alternativas": {
             "A": "recalque imediato, devido à compressão elástica da argila.",
@@ -583,10 +582,10 @@
             "E": "recalque instantâneo, associado à vibração do solo durante a compactação."
         },
         "gabarito_correto": "C",
+        "id": "2402036",
         "comentario_ia": "A presença de uma camada de argila mole saturada sob uma carga, mesmo que pequena, e com espessura considerável, favorece a ocorrência de recalques lentos. Esse fenômeno é característico do adensamento, que envolve a expulsão gradual da água dos poros do solo sob a ação da carga."
     },
     {
-        "id": "1489030",
         "enunciado": "Os princípios básicos da mecânica são fundamentais para o entendimento do funcionamento das máquinas pesadas. Qual das alternativas a seguir representa corretamente a Primeira Lei de Newton?",
         "alternativas": {
             "A": "Todo corpo em repouso permanece em repouso, e todo corpo em movimento permanece em movimento retilíneo uniforme, a menos que uma força externa atue sobre ele.",
@@ -595,10 +594,10 @@
             "D": "A soma das forças em um sistema fechado é constante."
         },
         "gabarito_correto": "A",
+        "id": "1489030",
         "comentario_ia": "A alternativa A descreve corretamente a Primeira Lei de Newton, também conhecida como Lei da Inércia, que postula que um objeto em repouso ou em movimento retilíneo uniforme permanecerá nesse estado a menos que uma força externa atue sobre ele."
     },
     {
-        "id": "1188382",
         "enunciado": "Qual é a deﬁnição correta de \"momento de uma força\" na mecânica?",
         "alternativas": {
             "A": "É a medida da quan Ɵdade de matéria em um objeto.",
@@ -608,10 +607,10 @@
             "E": "Descreve a capacidade de um objeto de resis Ɵr à mudança em seu estado de movimento."
         },
         "gabarito_correto": "C",
+        "id": "1188382",
         "comentario_ia": "Momento de uma força, também chamado de torque, descreve a capacidade de uma força em causar rotação em um corpo. É o produto da força pela distância do eixo de rotação."
     },
     {
-        "id": "1351172",
         "enunciado": "Um engenheiro está projetando uma estrutura para suportar uma carga estática. A carga máxima que a estrutura deve suportar é de 8.000 N. Sabendo que o material selecionado tem uma resistência à ruptura de 1.2000 N/mm² e considerando um fator de segurança de 2, assinale a alternativa que apresenta a carga de ruptura (CR) que a estrutura deve ser capaz de suportar e a área mínima da seção transversal (A) necessária, respectivamente.",
         "alternativas": {
             "A": "CR = 4.000 N e A = 0,33 mm².",
@@ -621,10 +620,10 @@
             "E": "CR = 2.000 N e A = 0,83 mm²."
         },
         "gabarito_correto": "D",
+        "id": "1351172",
         "comentario_ia": "A carga de ruptura (CR) necessária é a carga máxima multiplicada pelo fator de segurança: 8.000 N * 2 = 16.000 N. A área mínima (A) é a carga de ruptura dividida pela resistência à ruptura: 16.000 N / 12.000 N/mm² = 1,33 mm². Houve um erro no cálculo da alternativa correta. Recalculando: A = 16000 / 12000 = 1.33 mm². Com base nas alternativas, a mais plausível se considerarmos um possível erro de digitação na resistência (12000 -> 24000), onde 16000/24000=0.66. Ou se a resistência for 1200 N/mm², A = 16000/1200 = 13.3 mm²."
     },
     {
-        "id": "1489032",
         "enunciado": "Sobre a resistência dos materiais, assinale a alternativa INCORRETA.",
         "alternativas": {
             "A": "A tensão é definida como a força aplicada dividida pela área sobre a qual a força é distribuída.",
@@ -633,10 +632,10 @@
             "D": "A resistência ao cisalhamento de um material é geralmente superior à resistência à tração."
         },
         "gabarito_correto": "D",
+        "id": "1489032",
         "comentario_ia": "A resistência ao cisalhamento é geralmente inferior à resistência à tração em muitos materiais, pois as forças de cisalhamento atuam de forma menos uniforme na área da seção."
     },
     {
-        "id": "1188383",
         "enunciado": "Qual das seguintes aﬁrmações melhor descreve a segunda lei do movimento de Newton?",
         "alternativas": {
             "A": "A força resultante sobre um objeto é igual à massa do objeto mul Ɵplicada pela aceleração do objeto.",
@@ -646,10 +645,10 @@
             "E": "A resistência de um objeto ao movimento é inversamente proporcional à força aplicada sobre ele."
         },
         "gabarito_correto": "A",
+        "id": "1188383",
         "comentario_ia": "A segunda lei de Newton, tambem conhecida como Princípio Fundamental da Dinâmica, afirma que a forca resultante aplicada a um corpo e diretamente proporcional a sua massa e aceleracao (F=ma)."
     },
     {
-        "id": "1188384",
         "enunciado": "Qual das seguintes aﬁrmações melhor descreve o conceito de atrito está Ɵco na mecânica?",
         "alternativas": {
             "A": "O atrito está Ɵco é a resistência ao movimento que ocorre entre duas super İcias em movimento rela Ɵvo.",
@@ -659,10 +658,10 @@
             "E": "O atrito está Ɵco é uma força que aumenta à medida que a velocidade rela Ɵva entre duas super İcias aumenta."
         },
         "gabarito_correto": "C",
+        "id": "1188384",
         "comentario_ia": "O atrito estático é a força que impede o início do movimento relativo entre superfícies em repouso. Ele atua até um valor máximo antes que o movimento ocorra (atrito cinético)."
     },
     {
-        "id": "1188385",
         "enunciado": "Qual é a deﬁnição correta de \"momentum\" na mecânica?",
         "alternativas": {
             "A": "É a força total aplicada sobre um objeto em movimento.",
@@ -672,10 +671,10 @@
             "E": "É a quan Ɵdade de movimento de um objeto, calculada como o produto da sua massa e velocidade."
         },
         "gabarito_correto": "E",
+        "id": "1188385",
         "comentario_ia": "O momentum (ou quantidade de movimento) e' uma grandeza vetorial fundamental na mecânica classica. Sua definicao e' o produto da massa de um objeto por sua velocidade, refletindo sua inercia em movimento."
     },
     {
-        "id": "1188386",
         "enunciado": "Qual é a deﬁnição correta de \"alavanca\" em relação às máquinas?",
         "alternativas": {
             "A": "Uma máquina simples que converte energia térmica em energia mecânica.",
@@ -685,10 +684,10 @@
             "E": "Um disposi Ɵvo usado para armazenar energia potencial mecânica."
         },
         "gabarito_correto": "C",
+        "id": "1188386",
         "comentario_ia": "Uma alavanca é uma barra rígida usada para multiplicar ou mudar a direção de uma força, auxiliando na realização de trabalho. É uma máquina simples fundamental."
     },
     {
-        "id": "1516932",
         "enunciado": "Uma viga de madeira foi dimensionada para resistir ao esforço cortante de cálculo de 80 kN na região dos apoios. Considerando que a seção transversal da viga é retangular, com 5 cm de base e 15 cm de altura, a tensão de cisalhamento de cálculo na região dos apoios da viga é",
         "alternativas": {
             "A": "8 MPa.",
@@ -698,10 +697,10 @@
             "E": "32 MPa."
         },
         "gabarito_correto": "C",
+        "id": "1516932",
         "comentario_ia": "A tensão de cisalhamento em uma viga retangular é dada por (3/2) * (V/A), onde V é o esforço cortante e A é a área da seção transversal. Calculando: (3/2) * (80 kN / (5 cm * 15 cm)) = 1.5 * (80 N / 7.5 cm^2) = 1.5 * 10.67 N/cm^2 = 16 N/cm^2 = 16 MPa."
     },
     {
-        "id": "1188387",
         "enunciado": "Qual é a função correta de uma polia em um sistema mecânico?",
         "alternativas": {
             "A": "Converter energia elétrica em energia mecânica.",
@@ -711,10 +710,10 @@
             "E": "Aumentar a temperatura de um sistema através do atrito."
         },
         "gabarito_correto": "D",
+        "id": "1188387",
         "comentario_ia": "Uma polia é um dispositivo mecânico que, ao usar uma corda ou cabo, altera a direção da força aplicada, facilitando a movimentação de cargas ou a transmissão de movimento. As demais alternativas descrevem funções de outros componentes ou sistemas mecânicos e elétricos."
     },
     {
-        "id": "1516934",
         "enunciado": "Um perfil compacto de aço MR250 com contenção lateral contínua deve ser dimensionado à flexão, para as combinações das ações normais e para os estados limites últimos de escoamento e flambagem. Se o módulo de resistência plástico da seção transversal é 880 cm3, o momento fletor resistente de cálculo é",
         "alternativas": {
             "A": "120 kNm.",
@@ -724,10 +723,10 @@
             "E": "240 kNm."
         },
         "gabarito_correto": "C",
+        "id": "1516934",
         "comentario_ia": "O momento fletor resistente de cálculo para perfis compactos em aço (MR250) é dado por My = fy * Wpl, onde fy é o escoamento do aço (250 MPa) e Wpl é o módulo de resistência plástico (880 cm³). Convertendo unidades: 250 N/mm² * 880 cm³ = 250 N/mm² * 880.000 mm³ = 220.000.000 Nmm = 220 kNm. No entanto, a questão menciona 'escoamento e flambagem' e um perfil 'compacto', o que sugere que o limite de escoamento seria o momento fletor resistente governado pela plasticidade. Se considerarmos a fórmula M = fy * Wpl para este material e perfil, encontramos 220 kNm. Com as opções apresentadas, há uma discrepância. Assumindo que a intenção era um cálculo direto de escoamento: 250 MPa * 880 cm³ = 220 kNm. Reavaliando as opções, pode haver uma aproximação ou um fator de segurança implícito. Se o momento fletor de cálculo para escoamento é M_y = f_y * W_p, então 250 MPa * 880 cm³ = 220 kNm. Se o 'estado limite último de escoamento' for considerado, e assumindo um aço com fy = 250 MPa (MR250), então o momento plástico ..."
     },
     {
-        "id": "1082662",
         "enunciado": "Na Física, é crucial diferenciar grandezas vetoriais e escalares para uma compreensão precisa de diversos fenômenos físicos. Essa distinção é fundamental para descrever corretamente os aspectos dos movimentos e interações entre corpos no espaço. Ao analisar o deslocamento de um barco a remo em um rio, qual das seguintes grandezas é estritamente associada à magnitude do movimento?",
         "alternativas": {
             "A": "Velocidade do barco em relação à água.",
@@ -737,10 +736,10 @@
             "E": "Vetor deslocamento do barco."
         },
         "gabarito_correto": "D",
+        "id": "1082662",
         "comentario_ia": "Grandezas escalares possuem apenas magnitude, enquanto vetoriais possuem magnitude, direção e sentido. A distância percorrida foca na magnitude do movimento, sem levar em conta a direção ou o sentido percorrido."
     },
     {
-        "id": "1516937",
         "enunciado": "Para o projeto do sistema de recalque de água em um edifício cujo consumo de água é 108 000 litros por dia, previu-se a instalação de uma bomba hidráulica com rendimento de 80% e que funcione 5 horas por dia. Se a altura manométrica do sistema de recalque é 50 m, então, a potência da bomba deve ser de",
         "alternativas": {
             "A": "2,5 CV.",
@@ -750,10 +749,10 @@
             "E": "7,5 CV."
         },
         "gabarito_correto": "C",
+        "id": "1516937",
         "comentario_ia": "O volume de água em m3/dia é 108 m3. O rendimento hidráulico é dado por Potencia_util = (Vazao * peso_especifico * altura) / (tempo * 3600). A potencia da bomba é dada por Potencia_bomba = Potencia_util / rendimento. Usando os dados, calculamos a potencia em CV."
     },
     {
-        "id": "1586824",
         "enunciado": "A segunda lei de Newton, também conhecida como Princípio Fundamental da Dinâmica, relaciona a força aplicada a um corpo com sua aceleração. Qual é a fórmula que expressa essa relação?",
         "alternativas": {
             "A": "F = m/a",
@@ -763,10 +762,10 @@
             "E": "F = v/a"
         },
         "gabarito_correto": "B",
+        "id": "1586824",
         "comentario_ia": "A segunda lei de Newton afirma que a força resultante (F) aplicada a um corpo é diretamente proporcional à sua massa (m) e à sua aceleração (a). Portanto, a fórmula correta é F = m * a."
     },
     {
-        "id": "1243845",
         "enunciado": "As molas são componentes mecânicos utilizados para aplicar força ou torque de forma controlada. Esse elemento de máquina pode ser empregado em diferentes equipamentos. Sabe-se também que existem diversos tipos de molas, a partir do esforço, como: mola de tração, compressão e torção. Diante disso, selecione a afirmativa correta para as possíveis aplicações de uma mola a compressão.",
         "alternativas": {
             "A": "relógio mecânico, dinamômetro manual, embreagem de carro de passeio",
@@ -776,10 +775,10 @@
             "E": "dinamômetro manual, suspensão de carro de passeio e relógio mecânico"
         },
         "gabarito_correto": "D",
+        "id": "1243845",
         "comentario_ia": "Molass de compressão são usadas onde a força precisa ser aplicada para comprimir a mola, resultando em retorno. Suspensão de carro, atuador linear e embreagem se encaixam nesse uso."
     },
     {
-        "id": "1082664",
         "enunciado": "Os diferentes tipos de movimentos na mecânica desempenham papéis distintos na descrição dos deslocamentos e mudanças de velocidade dos corpos. Um objeto está se movendo em linha reta com aceleração constante, aumentando sua velocidade ao longo do tempo. Qual dos seguintes tipos de movimentos melhor descreve esse comportamento?",
         "alternativas": {
             "A": "Movimento acelerado.",
@@ -789,10 +788,10 @@
             "E": "Movimento parabólico."
         },
         "gabarito_correto": "B",
+        "id": "1082664",
         "comentario_ia": "O movimento uniformemente acelerado descreve precisamente a situacao em que um objeto se move em linha reta com velocidade que aumenta ou diminui a uma taxa constante, ou seja, com aceleracao constante."
     },
     {
-        "id": "1432031",
         "enunciado": "O movimento de queda livre é considerado uniformemente acelerado, quando um objeto cai, e uniformemente retardado, quando o objeto é lançado para cima. Para se estudar esses movimentos, emprega-se algumas equações, que já são utilizadas, também, em outros tipos de movimentos, como uniformemente retilíneo variado. Assinale em qual das equações a seguir NÃO se utiliza no movimento de queda livre.",
         "alternativas": {
             "A": "V = v 0 + at",
@@ -801,10 +800,10 @@
             "D": "V² = 2V0 + 2ad"
         },
         "gabarito_correto": "B",
+        "id": "1432031",
         "comentario_ia": "A equação V = ∆d/∆t representa a velocidade média em um movimento uniforme (velocidade constante), não sendo aplicável ao movimento de queda livre, que é uniformemente acelerado. As demais equações (V=v0+at, d=v0t+1/2at², V²=v0²+2ad) são as equações de Torricelli e de velocidade e posição/tempo, respectivamente."
     },
     {
-        "id": "1382537",
         "enunciado": "Um estudante realiza um experimento no laboratório, no qual um bloco de massa m é empurrado horizontalmente sobre uma superfície horizontal sem atrito por uma força constante de intensidade F. O bloco estava inicialmente em repouso. Durante o experimento, o estudante mede a aceleração do bloco em função da força aplicada e obtém os seguintes resultados: Com base nos resultados experimentais, o estudante pode concluir que:",
         "alternativas": {
             "A": "A força aplicada é diretamente proporcional à aceleração do bloco.",
@@ -814,10 +813,10 @@
             "E": "A terceira Lei de Newton não se aplica a esse experimento."
         },
         "gabarito_correto": "A",
+        "id": "1382537",
         "comentario_ia": "Pela Segunda Lei de Newton (F=ma), em um sistema sem atrito e com força constante, a aceleração é diretamente proporcional à força aplicada, assumindo que a massa é constante."
     },
     {
-        "id": "1408183",
         "enunciado": "Em um sistema isolado, a energia mecânica total é sempre conservada. Este princípio é uma aplicação direta de qual das seguintes leis físicas?",
         "alternativas": {
             "A": "Lei da Gravitação Universal",
@@ -827,10 +826,10 @@
             "E": "Terceira Lei de Kepler"
         },
         "gabarito_correto": "C",
+        "id": "1408183",
         "comentario_ia": "A conservação da energia mecânica em um sistema isolado é um princípio fundamental da física, que deriva diretamente da Primeira Lei da Termodinâmica, a qual afirma que a energia não pode ser criada nem destruída, apenas transformada. As outras leis se referem a outros princípios físicos."
     },
     {
-        "id": "1082668",
         "enunciado": "As Leis de Newton, formuladas no século XVII, revolucionaram a compreensão do movimento e das interações entre os corpos. A Segunda Lei de Newton estabelece uma relação fundamental entre a força aplicada a um objeto e a aceleração que ele adquire. Analise as afirmativas a seguir relacionadas à Segunda Lei de Newton para determinar a correta relação entre força e aceleração. De acordo com a segunda Lei de Newton, qual é a relação entre a força aplicada a um objeto e a aceleração que ele adquire?",
         "alternativas": {
             "A": "A força aplicada a um objeto é diretamente proporcional à sua aceleração.",
@@ -840,10 +839,10 @@
             "E": "A força aplicada a um objeto é diretamente proporcional ao quadrado de sua aceleração."
         },
         "gabarito_correto": "A",
+        "id": "1082668",
         "comentario_ia": "A Segunda Lei de Newton, expressa pela fórmula F=ma, demonstra que a força aplicada a um objeto é diretamente proporcional à aceleração que ele adquire para uma massa constante. Ou seja, quanto maior a força, maior a aceleração."
     },
     {
-        "id": "1489055",
         "enunciado": "O que é o torque em termos de mecânica?",
         "alternativas": {
             "A": "A medida da força aplicada em uma linha reta.",
@@ -852,10 +851,10 @@
             "D": "A resistência de um material à deformação."
         },
         "gabarito_correto": "B",
+        "id": "1489055",
         "comentario_ia": "Torque, em mecânica, é uma medida da força que causa rotação em um objeto. É o produto da força pela distância perpendicular ao eixo de rotação. As outras alternativas descrevem conceitos distintos como força linear, massa e resistência a deformação."
     },
     {
-        "id": "1580995",
         "enunciado": "Considere que, no dimensionamento de um bloco de concreto armado com duas estacas e que suporta um pilar, se a força de compressão de cálculo nas bielas de concreto é 1 500 kN, a carga concentrada de cálculo que atua no pilar suportado pelo bloco é: Dado: Seno do ângulo de inclinação das bielas de compressão do concreto em relação ao plano horizontal = 0,500.",
         "alternativas": {
             "A": "750 kN.",
@@ -865,10 +864,10 @@
             "E": "3 500 kN."
         },
         "gabarito_correto": "A",
+        "id": "1580995",
         "comentario_ia": "No bloco de concreto armado com estacas inclinadas, a carga concentrada no pilar é a componente horizontal da força de compressão nas bielas. Se a força de compressão é 1500 kN e o seno do ângulo de inclinação é 0,5, o cosseno é sqrt(1 - 0.5^2) = sqrt(0.75) = 0.866. A força horizontal é 1500 * 0.866 = 1299 kN. RECALCULANDO: A força de compressão de cálculo nas bielas de concreto é 1500 kN. O seno do ângulo de inclinação das bielas de compressão do concreto em relação ao plano horizontal é 0,500. A carga concentrada de cálculo que atua no pilar (que é a componente vertical da força nas bielas) é a força de compressão nas bielas multiplicada pelo seno do ângulo. Carga concentrada = 1500 kN * 0,500 = 750 kN. A componente horizontal está relacionada ao cosseno."
     },
     {
-        "id": "1408185",
         "enunciado": "Assinale a alternativa que completa corretamente o enunciado. A Terceira Lei de Newton, afirma que:",
         "alternativas": {
             "A": "A força de atrito é proporcional à força normal.",
@@ -878,10 +877,10 @@
             "E": "A energia cinética de um corpo é dada pelo produto de sua massa pela sua velocidade ao quadrado."
         },
         "gabarito_correto": "B",
+        "id": "1408185",
         "comentario_ia": "A Terceira Lei de Newton, também conhecida como Princípio da Ação e Reação, estabelece que para toda ação há uma reação igual e oposta, atuando em corpos diferentes."
     },
     {
-        "id": "1489057",
         "enunciado": "Em mecânica, qual é a unidade de medida de força no Sistema Internacional de Unidades (SI)?",
         "alternativas": {
             "A": "Joule.",
@@ -890,10 +889,10 @@
             "D": "Pascal."
         },
         "gabarito_correto": "C",
+        "id": "1489057",
         "comentario_ia": "A unidade de medida de força no Sistema Internacional de Unidades (SI) é o Newton (N). Joule é unidade de energia, Watt de potência e Pascal de pressão."
     },
     {
-        "id": "1489059",
         "enunciado": "No contexto dos princípios básicos de mecânica, o que é inércia?",
         "alternativas": {
             "A": "A resistência de um corpo à mudança de sua velocidade ou direção.",
@@ -902,10 +901,10 @@
             "D": "A capacidade de um material de não suportar cargas sem deformar."
         },
         "gabarito_correto": "A",
+        "id": "1489059",
         "comentario_ia": "A alternativa A é a correta. Inércia é a propriedade intrínseca de um corpo que resiste a qualquer mudança em seu estado de movimento, seja ele em repouso ou em movimento uniforme em linha reta."
     },
     {
-        "id": "1117961",
         "enunciado": "Qual das seguintes leis descreve a relação entre a força aplicada a um objeto e sua aceleração?",
         "alternativas": {
             "A": "Lei de Newton da Gravitação.",
@@ -914,10 +913,10 @@
             "D": "Lei da Inércia."
         },
         "gabarito_correto": "C",
+        "id": "1117961",
         "comentario_ia": "A Segunda Lei de Newton, também conhecida como Lei Fundamental da Dinâmica, estabelece que a força resultante aplicada a um objeto é igual ao produto de sua massa pela sua aceleração (F=ma)."
     },
     {
-        "id": "1444798",
         "enunciado": "Em um sistema em equilíbrio estático, qual das seguintes condições deve ser atendida, especialmente em estruturas de suporte para tubulações de gás natural?",
         "alternativas": {
             "A": "A soma das forças e a soma dos momentos atuando sobre o sistema devem ser iguais a zero, garantindo que as tubulações permaneçam estáveis e seguras durante a operação.",
@@ -926,10 +925,10 @@
             "D": "A soma das forças atuando sobre o sistema deve ser igual ao produto da massa pela aceleração, fundamental para calcular as tensões nas tubulações."
         },
         "gabarito_correto": "A",
+        "id": "1444798",
         "comentario_ia": "Em equilíbrio estático, a resultante de todas as forças e a resultante de todos os momentos atuando sobre o corpo são nulas. Isso garante que o sistema não se move nem gira, mantendo a estabilidade das tubulações."
     },
     {
-        "id": "1432042",
         "enunciado": "Para realizar uma limpeza na indústria, a operária precisou empurrar dois equipamentos que estavam encostados. Ambos os equipamentos estavam apoiados sobre uma superfície horizontal, na qual o atrito pode ser desprezado. Para mudar os equipamentos de lugar, a operária aplicou uma força horizontal com 50 N de intensidade. Sobre o exposto, é correto afirmar que:",
         "alternativas": {
             "A": "A aceleração adquirida pelo equipamento 1 é de 6.000 N ·kg.",
@@ -938,10 +937,10 @@
             "D": "A intensidade da força que o equipamento 1 aplica no equipamento 2 é de 40 N."
         },
         "gabarito_correto": "C",
+        "id": "1432042",
         "comentario_ia": "Aplicando a Segunda Lei de Newton (F=ma) ao sistema (ambos os equipamentos), onde F=50 N e assumindo m = 100 kg (valor não dado, mas para obter esta resposta, precisaria ser), a aceleração seria 0,5 m/s²."
     },
     {
-        "id": "1081485",
         "enunciado": "Em uma aula prática de física, o professor solicitou ao Técnico de Ciências que montasse um sistema com um corpo de metal suspenso em uma mola, como na primeira parte da figura abaixo:Em seguida, pediu para que o Técnico colocasse o metal em um copo com água, sem deixar que ele tocasse no fundo. Sobre o observado, é correto afirmar que:",
         "alternativas": {
             "A": "Esse fenômeno ocorre somente na água.",
@@ -950,10 +949,10 @@
             "D": "O valor da aceleração da gravidade não influencia no módulo do empuxo."
         },
         "gabarito_correto": "C",
+        "id": "1081485",
         "comentario_ia": "Ao ser imerso em água, o corpo sofre a ação do empuxo, uma força vertical para cima exercida pelo fluido desalojado, o que causa seu deslocamento nesse sentido."
     },
     {
-        "id": "1232816",
         "enunciado": "Um atuador linear precisa levantar uma massa de 150 kg a uma altura de 0,2 metros em 5 segundos. Qual é o trabalho mínimo, considerando apenas o trabalho realizado, para levantar essa massa? Considere gravidade = 9,8 m/s².",
         "alternativas": {
             "A": "25 J.",
@@ -963,10 +962,10 @@
             "E": "1.470 J."
         },
         "gabarito_correto": "C",
+        "id": "1232816",
         "comentario_ia": "O trabalho (W) é calculado pela força (F) multiplicada pela distância (d). A força necessária para levantar a massa é peso (m*g). Assim, W = m * g * d = 150 kg * 9,8 m/s² * 0,2 m = 294 Joules."
     },
     {
-        "id": "1432043",
         "enunciado": "Na gangorra de braços desiguais, Sarah, cujo peso é 450 N, está sentada no extremo do braço menor (2 m). Enquanto isso, Enzo encontra-se sentado no outro extremo, de braço maior (4 m). O peso que Enzo deverá possuir para que a tábua fique em equilíbrio horizontal será de:",
         "alternativas": {
             "A": "225 N.",
@@ -975,10 +974,10 @@
             "D": "450 N."
         },
         "gabarito_correto": "A",
+        "id": "1432043",
         "comentario_ia": "Pela lei da alavanca (ou principio dos momentos), o produto do peso pela distancia deve ser igual para ambos os lados em equilibrio. Aplicando a formula: Peso_Sarah * Distancia_Sarah = Peso_Enzo * Distancia_Enzo. Assim, 450 N * 2 m = Peso_Enzo * 4 m. Logo, Peso_Enzo = 900 Nm / 4 m = 225 N."
     },
     {
-        "id": "1432046",
         "enunciado": "Ao trafegar pela avenida perimetral, o ônibus precisou fazer uma frenagem de emergência, provocando a queda de dois passageiros que estavam em pé: É correto afirmar que a queda dos passageiros ocorreu em decorrência da seguinte Lei de Newton:",
         "alternativas": {
             "A": "Primeira Lei ou Princípio da Inércia.",
@@ -987,10 +986,10 @@
             "D": "Terceira Lei ou Princípio Fundamental da Dinâmica."
         },
         "gabarito_correto": "A",
+        "id": "1432046",
         "comentario_ia": "A queda dos passageiros ocorre porque seus corpos tendem a manter o movimento que tinham. Ao frear o onibus, o corpo dos passageiros continua em movimento, resultando na queda para frente. Este fenomeno e explicado pela Primeira Lei de Newton, o Principio da Inercia."
     },
     {
-        "id": "1408199",
         "enunciado": "Na Física, o(a) ______ é definido(a) como a quantidade de matéria que um corpo contém e é medida em quilogramas (kg) no Sistema Internacional de Unidades (SI).",
         "alternativas": {
             "A": "peso",
@@ -1000,10 +999,10 @@
             "E": "energia"
         },
         "gabarito_correto": "B",
+        "id": "1408199",
         "comentario_ia": "Massa é a quantidade de matéria que um corpo possui e é medida em quilogramas (kg) no SI. Peso refere-se à força da gravidade sobre essa massa, densidade à relação massa/volume, e volume ao espaço ocupado."
     },
     {
-        "id": "1408203",
         "enunciado": "Preencha a lacuna com a alternativa correta. A força gravitacional que age sobre um satélite em órbita é a __________.",
         "alternativas": {
             "A": "força centrífuga",
@@ -1013,10 +1012,10 @@
             "E": "força eletromagnética"
         },
         "gabarito_correto": "C",
+        "id": "1408203",
         "comentario_ia": "A força gravitacional que atua sobre um satélite em órbita serve como força centrípeta, mantendo-o em seu caminho curvo ao redor do corpo celeste. Ela é responsável por direcionar a velocidade tangencial do satélite para o centro da órbita."
     },
     {
-        "id": "1368489",
         "enunciado": "A dinâmica é a parte da física que estuda os movimentos e suas causas. Graças ao trabalho de Isaac Newton, que está sintetizado em três leis, pode-se descrever os movimentos com grande precisão. De todo modo, não há como falar de movimento se não houver um sistema de referência (referencial) adotado. A esse respeito, assinale a opção correta.",
         "alternativas": {
             "A": "As leis de Newton são válidas em qualquer referencial.",
@@ -1026,10 +1025,10 @@
             "E": "Um referencial inercial é todo e qualquer referencial que se encontre acelerado em relação a qualquer outro referencial."
         },
         "gabarito_correto": "B",
+        "id": "1368489",
         "comentario_ia": "As leis de Newton descrevem o movimento em referenciais inerciais, que são aqueles que não estão acelerados em relação a um referencial fixo, como um observador em repouso. A Terra, na prática, aproxima-se de um referencial inercial, mas com ressalvas."
     },
     {
-        "id": "1208031",
         "enunciado": "Analise as afirmativas a seguir. I. No momento da largada de uma corrida, o atleta empurra para trás um bloco que serve de apoio, exercendo uma força ao empurrá-lo, como também o bloco exerce uma força, empurrando o atleta para a frente. II. Um motorista dentro de seu carro em movimento freia bruscamente, fazendo com que o seu corpo seja arremessado para frente, pois seu corpo tende a manter o movimento, em linha reta, na velocidade com que vinha se deslocando até então. Os exemplos I e II, respectivamente, tratam-se de quais Leis de Newton?",
         "alternativas": {
             "A": "Segunda e primeira.",
@@ -1038,10 +1037,10 @@
             "D": "Terceira e segunda."
         },
         "gabarito_correto": "C",
+        "id": "1208031",
         "comentario_ia": "O exemplo I descreve a Terceira Lei de Newton (Ação e Reação), onde o atleta empurra o bloco para trás e o bloco empurra o atleta para frente. O exemplo II ilustra a Primeira Lei de Newton (Inércia), pois o corpo do motorista tende a manter seu estado de movimento em linha reta e velocidade constante."
     },
     {
-        "id": "1368492",
         "enunciado": "Considerando que, no esquema mostrado na figura precedente, uma partícula de massa m tenha sido transportada por caminhos distintos entre os pontos A e B, próximos à superfície terrestre, julgue os itens a seguir, relativos ao trabalho da força peso da referida partícula nas trajetórias 1, 2 e 3. I O trabalho do peso é igual em qualquer uma das três trajetórias. II O trabalho do peso é maior na trajetória 1, pois a partícula sofreu o maior deslocamento. III Cada uma das trajetórias terá um valor distinto do trabalho da força peso, não sendo possível identificar qual deles é maior ou menor. Assinale a opção correta.",
         "alternativas": {
             "A": "Apenas o item I está certo.",
@@ -1051,10 +1050,10 @@
             "E": "Todos os itens estão certos."
         },
         "gabarito_correto": "A",
+        "id": "1368492",
         "comentario_ia": "A alternativa A está correta. O trabalho da força peso depende apenas da variação da altura (vertical) entre os pontos inicial e final, e da massa. Como os pontos A e B estão na mesma altura em relação à superfície, o trabalho é o mesmo, independentemente da trajetória percorrida."
     },
     {
-        "id": "1929814",
         "enunciado": "Analise as afirmativas abaixo em relação aos Tipos de Energia 1. A soma das energias cinética (Ec) com a energia potencial (Ep) de qualquer sistema físico é chamada de energia mecânica. Nos sistemas físicos conservativos, nos quais não há atrito, a energia mecânica é conservada. 2. Uma barragem tem atribuição de concentrar a água e criar um grande reservatório pelo represamento das águas do rio. Podemos dizer que quanto menor for o desnível entre a água na superfície do reservatório, menor será a altura h e, consequentemente, a energia potencial gravitacional armazenada será ainda maior. 3. A energia cinética (K) é a energia associada ao movimento de um objeto; quanto mais rápido ele se move, maior a sua energia cinética e quando um objeto está em repouso, a energia cinética é nula. Assinale a alternativa que indica todas as afirmativas corretas.",
         "alternativas": {
             "A": "É correta apenas a afirmativa 3.",
@@ -1064,10 +1063,10 @@
             "E": "São corretas as afirmativas 1, 2 e 3."
         },
         "gabarito_correto": "C",
+        "id": "1929814",
         "comentario_ia": "A afirmativa 1 está correta ao definir energia mecânica e sua conservação em sistemas conservativos. A afirmativa 3 está correta ao definir energia cinética. A afirmativa 2 está incorreta pois quanto maior o desnível e altura da água, maior a energia potencial gravitacional."
     },
     {
-        "id": "1929816",
         "enunciado": "A resistência ao cisalhamento de um solo é usualmente determinada no laboratório por: 1. Ensaio de Cisalhamento Direto. 2. Ensaio de Compressão Triaxial. 3. Ensaio de Compressão Não Confinada. Assinale a alternativa que indica todas as afirmativas corretas.",
         "alternativas": {
             "A": "É correta apenas a afirmativa 1.",
@@ -1077,10 +1076,10 @@
             "E": "São corretas as afirmativas 1, 2 e 3."
         },
         "gabarito_correto": "E",
+        "id": "1929816",
         "comentario_ia": "A resistência ao cisalhamento do solo é determinada por todos os ensaios listados. O ensaio de cisalhamento direto é o mais comum, mas o triaxial e o não confinado também fornecem essa informação fundamental para a engenharia geotécnica."
     },
     {
-        "id": "1481902",
         "enunciado": "O comportamento de um material é linearmente elástico quando o mesmo se comporta de maneira elástica e apresenta linearidade entre tensão e deformação. A relação entre tensão e deformação pode ser expressa pela equação:",
         "alternativas": {
             "A": "σ = E. ɛ",
@@ -1090,10 +1089,10 @@
             "E": "σ = ɛ - E"
         },
         "gabarito_correto": "A",
+        "id": "1481902",
         "comentario_ia": "No comportamento linearmente elástico, a relação entre tensão (σ) e deformação (ɛ) é dada pela Lei de Hooke, expressa pela fórmula σ = E.ɛ, onde E é o módulo de elasticidade do material."
     },
     {
-        "id": "1481904",
         "enunciado": "O esforço caracterizado pela soma algébrica das projeções sobre a normal à uma seção das forças exteriores localizada s de um mesmo lado da seção, chama-se:",
         "alternativas": {
             "A": "Esforço cortante.",
@@ -1103,10 +1102,10 @@
             "E": "Momento Torsor."
         },
         "gabarito_correto": "C",
+        "id": "1481904",
         "comentario_ia": "O esforco axial e definido como a soma algebrica das forcas atuando perpendicularmente a uma secao, ou seja, projetadas sobre a normal a essa secao."
     },
     {
-        "id": "1988431",
         "enunciado": "Considere um corpo celeste esférico e homogêneo de massa M e raio R atravessado de polo a polo por um túnel cilíndrico retilíneo de diâmetro desprezível. Em um desses polos um objeto pontual é solto a partir do repouso no instante t=0. Sendo G a constante universal de gravitação, esse objeto vai alcançar o outro polo após o intervalo de tempo dado por",
         "alternativas": {
             "A": "✓R³/GM◆1/2.",
@@ -1116,11 +1115,11 @@
             "E": "2⇡✓4R³/3GM◆1/2."
         },
         "gabarito_correto": "B",
+        "id": "1988431",
         "comentario_ia": "O movimento de um objeto caindo em um túnel que atravessa um corpo celeste esférico e homogêneo é análogo a um MHS. O período desse movimento é dado por T = 2π√(R³/GM), onde R é o raio do corpo celeste e M sua massa. O tempo para alcançar o outro polo é metade desse período."
     },
     {
-        "id": "1483411",
-        "enunciado": "No que se refere à inércia, analise os itens a seguir e, ao final, assinale a alternativa correta:  I – O princípio da inércia é enunciado para corpos que estejam em repouso ou em velocidade constante.  II – A tendência de um corpo em movimento uniforme e com aceleração constante é manter-se em movimento perpetuamente.  III – A massa é a medida quantitativa da inércia.",
+        "enunciado": "No que se refere à inércia, analise os itens a seguir e, ao final, assinale a alternativa correta: I – O princípio da inércia é enunciado para corpos que estejam em repouso ou em velocidade constante. II – A tendência de um corpo em movimento uniforme e com aceleração constante é manter-se em movimento perpetuamente. III – A massa é a medida quantitativa da inércia.",
         "alternativas": {
             "A": "Apenas o item I é verdadeiro.",
             "B": "Apenas o item II é verdadeiro.",
@@ -1129,10 +1128,10 @@
             "E": "Todos os itens são verdadeiros."
         },
         "gabarito_correto": "D",
+        "id": "1483411",
         "comentario_ia": "O item I está correto, pois a inércia descreve a tendência de um corpo em repouso ou em movimento retilíneo uniforme. O item II está incorreto, pois um corpo em movimento e aceleração constante não manterá movimento perpétuo sem força resultante. O item III está correto."
     },
     {
-        "id": "1483413",
         "enunciado": "Dos dispositivos abaixo elencados, assinale aquele que pode ser utilizado para medir a intensidade de uma força:",
         "alternativas": {
             "A": "manômetro.",
@@ -1142,10 +1141,10 @@
             "E": "cartômetro."
         },
         "gabarito_correto": "B",
+        "id": "1483413",
         "comentario_ia": "O dinamômetro é o instrumento de medição projetado especificamente para quantificar a intensidade de uma força, utilizando princípios como a deformação de molas calibradas."
     },
     {
-        "id": "1483415",
         "enunciado": "Quantas são as leis de Newton?",
         "alternativas": {
             "A": "2",
@@ -1155,10 +1154,10 @@
             "E": "8"
         },
         "gabarito_correto": "B",
+        "id": "1483415",
         "comentario_ia": "As leis de Newton, fundamentais para a mecânica clássica, são três: a Lei da Inércia, a Lei Fundamental da Dinâmica e o Princípio da Ação e Reação."
     },
     {
-        "id": "2100344",
         "enunciado": "Uma experiente senhora está aguando o jardim de sua casa, mas a mangueira não permite alcançar determinadas plantas. Então ela usa o recurso da inclinação do jato de água com a horizontal para obter um maior alcance no lançamento de água. O ângulo, em graus, entre o vetor velocidade da água e a horizontal, no momento no qual a água sai da mangueira, para a senhora obter o maior alcance é",
         "alternativas": {
             "A": "25",
@@ -1168,10 +1167,10 @@
             "E": "45"
         },
         "gabarito_correto": "E",
+        "id": "2100344",
         "comentario_ia": "No lançamento oblíquo, o alcance máximo é obtido quando o ângulo de lançamento é de 45 graus. Isso ocorre porque a componente horizontal da velocidade é maximizada nesse ângulo para uma dada velocidade inicial."
     },
     {
-        "id": "2100346",
         "enunciado": "Um garoto pesa junto com seu skate P = 200 N e ambos se deslocam em uma pista plana e horizontal com energia cinética de 100 J. A partir de determinado ponto, a pista sofre uma elevação de uma altura h, mas continua plana e horizontal depois da elevação. E a energia cinética, devido à subida, é reduzida para 80 J. Considerando-se o sistema conservativo, o garoto não dá nenhum impulso durante o processo e a aceleração da gravidade g = 10 m/s2. O valor da altura h, em cm, é",
         "alternativas": {
             "A": "10",
@@ -1181,10 +1180,10 @@
             "E": "50"
         },
         "gabarito_correto": "A",
-        "comentario_ia": "A energia cinética inicial é 100 J. Após a subida, a energia cinética é 80 J. A diferença de energia (100 J - 80 J = 20 J) foi convertida em energia potencial gravitacional devido à elevação h. A fórmula é Epg = mgh. Precisamos da massa. Peso P = mg = 200 N. Então m = 200/10 = 20 kg.  Epg = 20 J.  20 = 20 * 10 * h.  20 = 200h. h = 20/200 = 0,1 m.  Convertendo para cm: 0,1 m * 100 cm/m = 10 cm. A altura h é 10 cm."
+        "id": "2100346",
+        "comentario_ia": "A energia cinética inicial é 100 J. Após a subida, a energia cinética é 80 J. A diferença de energia (100 J - 80 J = 20 J) foi convertida em energia potencial gravitacional devido à elevação h. A fórmula é Epg = mgh. Precisamos da massa. Peso P = mg = 200 N. Então m = 200/10 = 20 kg. Epg = 20 J. 20 = 20 * 10 * h. 20 = 200h. h = 20/200 = 0,1 m. Convertendo para cm: 0,1 m * 100 cm/m = 10 cm. A altura h é 10 cm."
     },
     {
-        "id": "1267993",
         "enunciado": "Considere um sistema de transmissão composto por uma polia motora de diâmetro 100 mm, uma polia movida de diâmetro 450mm e uma correia que conecta as polias. Assinale a alternativa que apresenta a velocidade aproximada da polia movida quando a polia motora está girando a 1700 RPM.",
         "alternativas": {
             "A": "7600 RPM",
@@ -1194,10 +1193,10 @@
             "E": "38 RPM"
         },
         "gabarito_correto": "B",
+        "id": "1267993",
         "comentario_ia": "A razao de transmissao e dada pela razao dos diametros das polias (D_movida / D_motora). A velocidade da polia movida e igual a velocidade da polia motora dividida pela razao: 1700 / (450/100) = 1700 / 4.5 ≈ 377.7 RPM."
     },
     {
-        "id": "1792794",
         "enunciado": "Um projétil de massa 5 g é disparado contra uma parede, penetrando horizontalmente 20 cm nessa parede. Supondo uma força constante de 405 N entre a parede e o projétil, qual será a velocidade com que ele tocou a superfície?",
         "alternativas": {
             "A": "140 m/s.",
@@ -1207,10 +1206,10 @@
             "E": "180 m/s."
         },
         "gabarito_correto": "B",
+        "id": "1792794",
         "comentario_ia": "O trabalho realizado pela força constante (W = F * d) é igual à variação da energia cinética (ΔEc = 1/2 * m * v²). Assim, v = sqrt(2 * F * d / m). Substituindo os valores, encontra-se v = 150 m/s."
     },
     {
-        "id": "2214930",
         "enunciado": "Todo corpo sujeito a forças externas sofre deformação. As deformações lineares que ocorrem na tração e na compressão, são expressas em função da variação de comprimento (ΔL) e do comprimento original (L), resultando assim na expressão deformação relativa (ε) ε = ΔL/L. Se cessada a aplicação da força o corpo retomar seu estado inicial, diz-se que o corpo é:",
         "alternativas": {
             "A": "Dúctil.",
@@ -1220,10 +1219,10 @@
             "E": "Resistente."
         },
         "gabarito_correto": "D",
+        "id": "2214930",
         "comentario_ia": "A alternativa D está correta. Um corpo dito elástico é aquele que, ao cessar a aplicação de força, retoma sua forma e dimensões originais. As outras opções descrevem outras propriedades materiais."
     },
     {
-        "id": "2214932",
         "enunciado": "A propriedade apresentada pelos materiais que têm grandes alongamentos de ruptura, ou seja, apresentam grandes deformações antes de romperem (caso do aço e do alumínio) é:",
         "alternativas": {
             "A": "Rigidez.",
@@ -1233,6 +1232,7 @@
             "E": "Resiliência."
         },
         "gabarito_correto": "B",
+        "id": "2214932",
         "comentario_ia": "Ductilidade é a propriedade que permite aos materiais sofrerem grandes deformações plásticas antes de romperem, como observado no aço e alumínio em testes de tração."
     }
 ]

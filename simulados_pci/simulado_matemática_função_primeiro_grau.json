@@ -1,6 +1,5 @@
 [
     {
-        "id": "2312054",
         "enunciado": "A LigNet vende um serviço de internet cujo valor mensal é dado por C = 40 + 5x, sendo x o número de gigabytes adicionais consumidos além do pacote básico. Em determinado mês, um cliente reclamou porque teve que pagar uma conta de R$ 75,00, e foi orientado conforme as observações abaixo. I. Se C = 75, então 5x = 35. II. O valor de x correspondente é igual a 7. III. O termo 40 representa a parte variável do consumo. IV. Se x = 3, então C = 55. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I e III, apenas.",
@@ -10,10 +9,10 @@
             "E": "I e II, apenas."
         },
         "gabarito_correto": "D",
+        "id": "2312054",
         "comentario_ia": "Analisando as afirmativas: I. Se C=75, entao 40+5x=75, logo 5x=35. Verdadeira. II. Se 5x=35, entao x=7. Verdadeira. III. O termo 40 representa o valor fixo, nao variavel. Falsa. IV. Se x=3, C=40+5*3=40+15=55. Verdadeira. Portanto, I, II e IV estao corretas."
     },
     {
-        "id": "2231341",
         "enunciado": "A função f(x) = 6.000 + 0,5 x corresponde ao custo de produção de canetas de uma fábrica de brindes, onde x representa a quantidade de canetas produzidas. Se em um mês o custo de produção foi de R$ 46.000,00, a quantidade de canetas produzidas foi de:",
         "alternativas": {
             "A": "40.000.",
@@ -23,10 +22,10 @@
             "E": "86.000."
         },
         "gabarito_correto": "D",
+        "id": "2231341",
         "comentario_ia": "A equação é Custo = 6.000 + 0,5x. Temos Custo = 46.000. Então, 46.000 = 6.000 + 0,5x. Subtraindo 6.000 de ambos os lados: 40.000 = 0,5x. Dividindo por 0,5: x = 80.000."
     },
     {
-        "id": "2312743",
         "enunciado": "A LigNet vende um serviço de internet cujo valor mensal é dado por C = 40 + 5x, sendo x o número de gigabytes adicionais consumidos além do pacote básico. Em determinado mês, um cliente reclamou porque teve que pagar uma conta de R$ 75,00, e foi orientado conforme as observações abaixo.",
         "alternativas": {
             "A": "I. Se C = 75, então 5x = 35.",
@@ -35,10 +34,10 @@
             "D": "IV. Se x = 3, então C = 55."
         },
         "gabarito_correto": "A",
+        "id": "2312743",
         "comentario_ia": "A alternativa A está correta. Se C = 75, então 40 + 5x = 75, o que implica 5x = 75 - 40, logo 5x = 35. A alternativa B está errada (x=7), C está errada (40 é parte fixa) e D está errada (se x=3, C=55)."
     },
     {
-        "id": "2312134",
         "enunciado": "A LigNet vende um serviço de internet cujo valor mensal é dado por C = 40 + 5x, sendo x o número de gigabytes adicionais consumidos além do pacote básico. Em determinado mês, um cliente reclamou porque teve que pagar uma conta de R$ 75,00, e foi orientado conforme as observações abaixo. I.Se C = 75, então 5x = 35. II.O valor de x correspondente é igual a 7. III.O termo 40 representa a parte variável do consumo. IV.Se x = 3, então C = 55. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I e II, apenas.",
@@ -48,10 +47,10 @@
             "E": "II e IV, apenas."
         },
         "gabarito_correto": "D",
+        "id": "2312134",
         "comentario_ia": "Analisando a fórmula C = 40 + 5x com C = 75: 75 = 40 + 5x --> 5x = 35 (I correta). Logo, x = 7 (II correta). O termo 40 é fixo e 5x é variável (III incorreta). Se x = 3, C = 40 + 5*3 = 40 + 15 = 55 (IV correta). Portanto, I, II e IV estão corretas."
     },
     {
-        "id": "2086947",
         "enunciado": "Um encanador cobra R$80,00 de taxa fixa e mais R$30,00 por hora de serviço. Qual é a função que representa o valor total pago, em reais, em função do número de horas trabalhadas h?",
         "alternativas": {
             "A": "f(h)= 30h + 80",
@@ -60,10 +59,10 @@
             "D": "f(h) = 110h"
         },
         "gabarito_correto": "A",
+        "id": "2086947",
         "comentario_ia": "A função que representa o valor total é dada pela taxa fixa somada ao produto do valor por hora pelo número de horas. Assim, 80 (fixa) + 30 (por hora) * h (horas) resulta em f(h) = 30h + 80."
     },
     {
-        "id": "2086779",
         "enunciado": "Um encanador cobra R$80,00 de taxa fixa e mais R$30,00 por hora de serviço. Qual é a função que representa o valor total pago, em reais, em função do número de horas trabalhadas h?",
         "alternativas": {
             "A": "f(h) = 80 - 30h",
@@ -72,10 +71,10 @@
             "D": "f(h) = 80h + 30"
         },
         "gabarito_correto": "C",
+        "id": "2086779",
         "comentario_ia": "A função deve representar o custo total. Há uma taxa fixa (R$80,00) e um custo variável por cada hora trabalhada (R$30,00 * h). Portanto, o valor total é a soma desses dois componentes."
     },
     {
-        "id": "2172100",
         "enunciado": "Uma empresa fornecedora de internet cobra um valor fixo de instalação mais uma taxa mensal pelo serviço. Um cliente que contratou essa empresa e utilizou os serviços por 3 meses, pagou R$210,00. Outro cliente que contratou essa mesma empresa e utilizou os serviços por 6 meses, pagou R$330,00. Considerando que a taxa de instalação e a tarifa mensal é a mesma para todos os clientes, qual o valor da tarifa mensal?",
         "alternativas": {
             "A": "R$30,00",
@@ -84,10 +83,10 @@
             "D": "R$60,00"
         },
         "gabarito_correto": "B",
+        "id": "2172100",
         "comentario_ia": "Sejam I o valor de instalação e M a taxa mensal. Temos: 3M + I = 210 e 6M + I = 330. Subtraindo a primeira da segunda: 3M = 120, então M = 40. A taxa mensal é R$40,00."
     },
     {
-        "id": "1715921",
         "enunciado": "O valor de um carro novo é de R$ 90 000,00 e, com 4 anos de uso, é de R$ 40000,00. Supondo que o preço caia com o tempo, segundo uma linha reta, o valor de um carro com 2 anos de uso é:",
         "alternativas": {
             "A": "R$ 75.000,00",
@@ -96,10 +95,10 @@
             "D": "R$ 50.000,00"
         },
         "gabarito_correto": "B",
+        "id": "1715921",
         "comentario_ia": "A depreciacao anual eh (90000 - 40000) / 4 anos = 12500/ano. O valor apos 2 anos seria 90000 - (2 * 12500) = 90000 - 25000 = 65000,00."
     },
     {
-        "id": "2185474",
         "enunciado": "Um cliente está avaliando qual plano de internet escolher com base no seu consumo mensal de dados. Após orçar alguns planos, ele encontrou o seguinte: O cliente estima que utilizará 15 GB de dados no mês. Sabendo que o custo total de cada plano é dado pela soma do preço mensal e do custo pelos dados excedentes, qual plano será mais econômico para esse cliente? Assinale a alternativa correta:",
         "alternativas": {
             "A": "Básico",
@@ -109,10 +108,10 @@
             "E": "Todos os planos têm o mesmo custo"
         },
         "gabarito_correto": "B",
+        "id": "2185474",
         "comentario_ia": "Plano Básico: 15GB + 5GB excedente = 20GB. Custo: 50 + (5*4) = 70. Plano Essencial: 20GB. Custo: 70. Plano Platinum: 20GB + 5GB excedente = 25GB. Custo: 80 + (5*4)=100. Plano Premium: 30GB. Custo: 100. Para 15GB, o plano Essencial custa R$70,00 e o Básico custa R$70,00. Vamos refazer o cálculo do Básico. Se ele usar 15GB, excede 0GB. Custo Básico = 50. Plano Essencial custa 70. Plano Platinum custa 80. Plano Premium custa 100. Logo, Básico é o mais econômico."
     },
     {
-        "id": "2246497",
         "enunciado": "Um parque de diversões cobra uma entrada fixa de R$ 5,00 por visitante e, além disso, R$ 3,00 por cada brinquedo utilizado. Um jovem gastou R$ 26,00 em sua visita. Quantos brinquedos ele utilizou?",
         "alternativas": {
             "A": "Ele utilizou 5 brinquedos.",
@@ -121,10 +120,10 @@
             "D": "Ele utilizou 15 brinquedos."
         },
         "gabarito_correto": "B",
+        "id": "2246497",
         "comentario_ia": "O custo total foi de R$ 26,00. Descontando a entrada fixa de R$ 5,00, sobram R$ 21,00 para os brinquedos. Como cada brinquedo custa R$ 3,00, ele utilizou R$ 21,00 / R$ 3,00 = 7 brinquedos."
     },
     {
-        "id": "2138561",
         "enunciado": "João foi a um show e teve um gasto fixo de R$ 150,00 com o ingresso e R$ 25,50 com o transporte. Além disso, ele tomou algumas bebidas de R$ 12,50 cada. Qual das equações abaixo representa os gastos de João?",
         "alternativas": {
             "A": "12,5x + 175,5",
@@ -133,10 +132,10 @@
             "D": "175,5x - 12,5"
         },
         "gabarito_correto": "A",
+        "id": "2138561",
         "comentario_ia": "O gasto fixo total é de R$ 150,00 (ingresso) + R$ 25,50 (transporte) = R$ 175,50. Cada bebida custa R$ 12,50. Se 'x' representa o número de bebidas, a equação que representa os gastos totais é o gasto fixo mais o custo das bebidas: 175,5 + 12,5x."
     },
     {
-        "id": "1914521",
         "enunciado": "Uma fazenda vende sacas de soja e seus custos operacionais podem ser descritos por uma função do primeiro grau: C(x) = 250x + 7500, onde: C(x) representa o custo total de produção (em reais); x é o número de sacas de soja produzidas. A fazenda vende cada saca de soja por R$ 400,00 e sua receita pode ser representada por: R(x) = 400x. Quantas sacas de soja, aproximadamente, a fazenda precisa vender para obter um lucro de R$ 10 000,00?",
         "alternativas": {
             "A": "100 sacas",
@@ -145,10 +144,10 @@
             "D": "120 sacas"
         },
         "gabarito_correto": "C",
+        "id": "1914521",
         "comentario_ia": "Lucro = Receita - Custo. Queremos Lucro = 10000. Então, 10000 = 400x - (250x + 7500). Resolvendo: 10000 = 150x - 7500 => 17500 = 150x => x = 17500 / 150 ≈ 116,67. O valor mais próximo é 117 sacas."
     },
     {
-        "id": "1925146",
         "enunciado": "Arthur quer assentar pisos na garagem de sua casa e contratou um pedreiro que cobra R$180,00 por dia de trabalho, mais um valor fixo de R$450,00 para pagar o ajudante. Se o serviço custou R$1.710,00, em quantos dias foi feito?",
         "alternativas": {
             "A": "Em 11 dias.",
@@ -157,10 +156,10 @@
             "D": "Em 8 dias."
         },
         "gabarito_correto": "B",
+        "id": "1925146",
         "comentario_ia": "O custo total foi R$ 1.710,00. O custo fixo do ajudante é R$ 450,00. A parte do pedreiro é R$ 1.710,00 - R$ 450,00 = R$ 1.260,00. Utilizando o valor diário de R$ 180,00, o número de dias é R$ 1.260,00 / R$ 180,00 = 7 dias."
     },
     {
-        "id": "1925078",
         "enunciado": "André está montando luminárias artesanais para vender em uma feira e sua despesa consiste em R$12,00 em materiais para cada uma, além de R$900,00 para montar a barraca, com estrutura e decoração. Considerando x o número de luminárias vendidas, quantas ele precisa vender para faturar R$1.500,00?",
         "alternativas": {
             "A": "80 luminárias.",
@@ -169,10 +168,10 @@
             "D": "50 luminárias."
         },
         "gabarito_correto": "D",
+        "id": "1925078",
         "comentario_ia": "Custo total = Custo fixo + (Custo variável por unidade * número de unidades). A receita é o preço de venda * número de unidades. A questão pede o faturamento (receita bruta), não o lucro. Se R$ 1.500,00 é a Receita Bruta, sem o preço de venda, a questão é impossível de resolver. Considerando que R$ 1500,00 seja o lucro desejado, a equação seria: Preço de Venda * x - (12*x + 900) = 1500. Sem o preço de venda, não é possível resolver. Assumindo que o problema se refere ao VALOR TOTAL ARRECADADO (receita bruta) de R$1500,00 E que o preço de venda de cada luminária é o custo de material mais um lucro, podemos estimar um preço de venda. Se considerarmos que o faturamento de R$1.500,00 se refere ao PREÇO DE VENDA, e que o CUSTOTOTAL é 12x + 900, e que para 'faturar' R$1500,00 com um lucro X, é preciso vender em torno de 50 luminarias (assumindo um preço de venda razoável). A questão está mal formulada. Assumindo que o Faturamento desejado é de R$1500,00 e que o problema quer saber quantas unidades (x) precisam ..."
     },
     {
-        "id": "1264146",
         "enunciado": "Uma fábrica de cocadas tem um custo fixo de R$ 500,00 reais e variável de R$ 27,00 a cada quilo produzido. Qual das equações abaixo representa esse custo?",
         "alternativas": {
             "A": "500 + 27x",
@@ -181,10 +180,10 @@
             "D": "500x - 27"
         },
         "gabarito_correto": "A",
+        "id": "1264146",
         "comentario_ia": "O custo fixo é R$ 500,00 e o custo variável é R$ 27,00 por quilo (x). A equação total é a soma dessas duas componentes: Custo Fixo + Custo Variável = 500 + 27x."
     },
     {
-        "id": "1647231",
         "enunciado": "O valor y a ser pago em reais pelo aluguel de um salão de festas por x horas é dado pela expressão: y = 300 + 200x. Por quanto tempo utilizou o salão uma pessoa que pagou R$ 1.500,00 pelo aluguel?",
         "alternativas": {
             "A": "6 horas",
@@ -194,10 +193,10 @@
             "E": "4 horas"
         },
         "gabarito_correto": "A",
+        "id": "1647231",
         "comentario_ia": "Substituindo y por 1500 na equação: 1500 = 300 + 200x. Isolando x: 1200 = 200x, então x = 1200 / 200 = 6 horas."
     },
     {
-        "id": "1167487",
         "enunciado": "Em um salão de festas, o custo para alugar um espaço é composto por uma taxa fixa de reserva e uma taxa variável relacionada ao número de convidados. Se a taxa fixa de reserva é de R$ 300,00 e o custo por convidado é de R$ 80,00, quantos convidados estiveram presentes se o custo total do aluguel foi de R$ 7.500,00?",
         "alternativas": {
             "A": "70 convidados",
@@ -206,10 +205,10 @@
             "D": "100 convidados"
         },
         "gabarito_correto": "C",
+        "id": "1167487",
         "comentario_ia": "O custo total é a soma da taxa fixa com o custo por convidado multiplicado pelo número de convidados. Logo, 7500 = 300 + 80x. Resolvendo para x: 7200 = 80x, então x = 90 convidados."
     },
     {
-        "id": "1264049",
         "enunciado": "Uma fábrica de cocadas tem um custo fixo de R$ 500,00 reais e variável de R$ 27,00 a cada quilo produzido. Qual das equações abaixo representa esse custo?",
         "alternativas": {
             "A": "500x + 27",
@@ -218,10 +217,10 @@
             "D": "500 + 27x"
         },
         "gabarito_correto": "D",
+        "id": "1264049",
         "comentario_ia": "O custo fixo é R$500,00 e o custo variável é de R$27,00 por quilo (x). Portanto, o custo total é a soma do fixo com o variável, representada pela equação 500 + 27x."
     },
     {
-        "id": "1466690",
         "enunciado": "Suponha‑se que um empresário possui um jato executivo que viaja a uma velocidade máxima de 1.000 km/h. Ele fez uma viagem que durou 5 horas a uma velocidade de 700 km/h. Nesse caso, é correto afirmar que, para fazer a mesma viagem em 4 horas, a velocidade do jato deverá ser de",
         "alternativas": {
             "A": "800 km/h.",
@@ -231,10 +230,10 @@
             "E": "900 km/h."
         },
         "gabarito_correto": "D",
+        "id": "1466690",
         "comentario_ia": "O empresário percorreu uma distância D = velocidade x tempo = 700 km/h * 5h = 3500 km. Para fazer a mesma viagem em 4 horas, a velocidade necessária é V = D / T = 3500 km / 4h = 875 km/h."
     },
     {
-        "id": "1651345",
         "enunciado": "Sendo f(x) uma função afim dada por: f(x) = 3x - 4, calcule o valor de f(23).",
         "alternativas": {
             "A": "-4",
@@ -243,10 +242,10 @@
             "D": "-6"
         },
         "gabarito_correto": "B",
+        "id": "1651345",
         "comentario_ia": "Para calcular f(23) na função afim f(x) = 3x - 4, substituímos x por 23: f(23) = 3*23 - 4 = 69 - 4 = 65. Houve um erro na formulação da questão ou das alternativas, pois o resultado esperado seria 65. Assumindo que a alternativa B seja a resposta correta, haverá necessidade de reconsiderar os valores."
     },
     {
-        "id": "1099147",
         "enunciado": "Os pilotos de Fórmula 1 precisam de uma habilitação especial chamada de “superlicença” para pilotar os carros. Ao final de cada temporada, os pilotos devem efetuar um pagamento referente à renovação desta habilitação. O valor desta renovação varia conforme a quantidade de pontos que o piloto fez na temporada, sendo 10.500 euros de valor fixo mais um acréscimo de 2.200 euros por cada ponto conquistado. Sendo y o valor da renovação, em milhares de euros, e x o total dos pontos conquistados pelo piloto na temporada, a equação que melhor define o valor que cada piloto deverá pagar pela renovação pode ser descrita por:",
         "alternativas": {
             "A": "11 21=+ 52yx",
@@ -255,10 +254,10 @@
             "D": "11 21–+ 25= x y"
         },
         "gabarito_correto": "C",
+        "id": "1099147",
         "comentario_ia": "O valor fixo é de 10.500 euros. O acréscimo é de 2.200 euros por ponto. Seja x o total de pontos conquistados e y o valor da renovação em milhares de euros. A equação que relaciona o valor total da renovação (em euros) é 10500 + 2200x. Como y está em milhares de euros, dividimos o valor total por 1000: y = (10500 + 2200x) / 1000. Simplificando: y = 10,5 + 2,2x. Para que a equação se pareça com as alternativas, multiplicamos por 5 para remover decimais: 5y = 52,5 + 11x. Reorganizando para a forma apresentada nas alternativas: 11x + 52,5 = 5y. Para que se encaixe nas opções, é provável que o valor fixo seja usado em centenas, e não milhares, ou os pontos sejam multiplicados por 50 e o fixo por 2,1. A alternativa C, 21 + 11 = 52y, parece ter um erro de digitação, deveria ser 2.100 no lugar de 21 e 5,2 no lugar de 52. Ou o valor fixo é 21 mil e o por ponto 5,2 mil. A alternativa C está incorreta como escrita. Reconsiderando as alternativas com a formula conhecida 10500 + 2200x = Valor em euros. Para y em milh..."
     },
     {
-        "id": "1263993",
         "enunciado": "O custo de produção dos brigadeiros de Júlia tem uma parte fixa de R$ 72,00 e uma parte variável de R$ 25,00 a cada cento do docinho. Assim, qual das equações abaixo representa esse custo?",
         "alternativas": {
             "A": "72x + 250",
@@ -267,10 +266,10 @@
             "D": "250x - 72"
         },
         "gabarito_correto": "B",
+        "id": "1263993",
         "comentario_ia": "O custo total é a soma do custo fixo com o custo variável. O custo fixo é R$ 72,00. O custo variável é R$ 25,00 por 'cento' de brigadeiro. Se 'x' representa a quantidade de 'centos' de brigadeiros, o custo variável total é 25x. Portanto, a equação que representa o custo total é 72 + 25x."
     },
     {
-        "id": "1256957",
         "enunciado": "Um taxista cobra um valor fixo de R$ 6,30 mais R$ 2,75 por km rodado, por seu serviço. Quanto pagará um passageiro que percorreu 12 km?",
         "alternativas": {
             "A": "R$ 33,00.",
@@ -280,10 +279,10 @@
             "E": "R$ 78,35."
         },
         "gabarito_correto": "C",
+        "id": "1256957",
         "comentario_ia": "O cálculo é 6,30 (valor fixo) + 12 km * 2,75/km. Assim, 6,30 + 33,00 = 39,30. O passageiro pagará R$ 39,30."
     },
     {
-        "id": "1234669",
         "enunciado": "Na eleição para síndico de determinado condomínio, participaram 1.770 pessoas que votaram, cada uma, em apenas um dos candidatos: Adelmo, Bernardo e Claudemir. Adelmo recebeu um terço dos votos recebidos por Bernardo que, por sua vez, recebeu 20 votos a menos que Claudemir. De acordo com o resultado, pode-se afirmar que:",
         "alternativas": {
             "A": "Bernardo ganhou a eleição.",
@@ -292,10 +291,10 @@
             "D": "Adelmo e Claudemir obtiveram, juntos, 1.020 votos."
         },
         "gabarito_correto": "D",
+        "id": "1234669",
         "comentario_ia": "Sejam A, B e C os votos de Adelmo, Bernardo e Claudemir. Temos A = B/3 e B = C - 20. Total de votos = 1770. Resolvendo o sistema: B = 600, C = 620, A = 200. Juntos, A e C somam 1020."
     },
     {
-        "id": "1197777",
         "enunciado": "Pedro elaborou uma equação que descreve a distância total que ele caminha todos os dias quando percorre 1200 metros até a praça onde dá x voltas na pista de 950 metros que fica em torno dela. Em qual alternativa está a equação correta?",
         "alternativas": {
             "A": "1200 - 950x",
@@ -305,10 +304,10 @@
             "E": "0,95x + 1,2"
         },
         "gabarito_correto": "E",
+        "id": "1197777",
         "comentario_ia": "A distância até a praça é de 1200 metros (1,2 km). A pista tem 950 metros (0,95 km). Ele dá x voltas na pista. A distância total é a distância fixa até a praça mais a distância percorrida nas x voltas. Então, 1,2 km + 0,95 km * x. Reorganizando os termos e usando as unidades em km: 0,95x + 1,2."
     },
     {
-        "id": "1145122",
         "enunciado": "Um vendedor decide aumentar o preço de um produto em R$ 5,00 a cada semana. Se o preço inicial do produto era R$ 50,00, quantas semanas levará para que o produto alcance o preço de R$ 75,00?",
         "alternativas": {
             "A": "3 semanas",
@@ -318,10 +317,10 @@
             "E": "Nenhuma das alternativas"
         },
         "gabarito_correto": "C",
+        "id": "1145122",
         "comentario_ia": "O preco inicial e R$ 50. O preco final e R$ 75. A diferenca e R$ 25. O preco aumenta R$ 5 por semana. Dividindo a diferenca pelo aumento semanal: 25 / 5 = 5 semanas."
     },
     {
-        "id": "1796013",
         "enunciado": "Sabe-se que a função f é definida pela lei de formação f(x)=ax+b. Temos que f(3)=8 e f(2)=6. Marque a alternativa que apresenta o valor de f(20).",
         "alternativas": {
             "A": "42",
@@ -330,10 +329,10 @@
             "D": "16"
         },
         "gabarito_correto": "A",
+        "id": "1796013",
         "comentario_ia": "Temos f(x)=ax+b. Dado f(3)=8 e f(2)=6. Substituindo: 3a+b=8 e 2a+b=6. Subtraindo a segunda da primeira: (3a+b) - (2a+b) = 8 - 6, o que resulta em a = 2. Substituindo a em 2a+b=6: 2(2)+b=6, 4+b=6, então b=2. A função é f(x)=2x+2. Logo, f(20) = 2(20)+2 = 40+2 = 42."
     },
     {
-        "id": "1148351",
         "enunciado": "Dada uma função que modela o consumo de água de uma cidade em função do número de habitantes, f(x)=150x+1000, onde x é o número de habitantes (em milhares) e f(x) o consumo diário de água (em milhares de litros), qual será o consumo diário se a população que era de 20.000 crescer em 25%?",
         "alternativas": {
             "A": "a) 4.750 milhares de litros",
@@ -342,10 +341,10 @@
             "D": "d) 1.750 milhares de litros"
         },
         "gabarito_correto": "A",
+        "id": "1148351",
         "comentario_ia": "População inicial de 20.000 (20 mil). Crescimento de 25% resulta em 25.000 habitantes. Substituindo x=25 na função: f(25) = 150*25 + 1000 = 3750 + 1000 = 4750 milhares de litros."
     },
     {
-        "id": "1415088",
         "enunciado": "Em dezembro de 2023, dois irmãos, P e R, decidem investir em dólares, guardando-os cada um em suas respectivas casas. Na ocasião, P possui 3000 dólares, e R, 4000 dólares. A cada mês e começando em janeiro de 2024, P acrescenta 100 dólares à sua quantia, e R acrescenta 60 dólares à sua. Certo dia, P diz a R: — Mesmo tendo sido a minha quantia inicial menor do que a sua, em breve terei um investimento maior do que o seu, pois meu aporte mensal de 100 dólares é maior do que o seu de 60 dólares. Então, R completou fazendo a seguinte previsão: — Um dia o seu investimento será o dobro do meu. Supondo-se que os aportes mensais se mantenham e nenhuma retirada ocorra, a previsão de R",
         "alternativas": {
             "A": "nunca será realizada.",
@@ -355,10 +354,10 @@
             "E": "será realizada depois do ano 2054."
         },
         "gabarito_correto": "B",
+        "id": "1415088",
         "comentario_ia": "Sejam P(t) e R(t) os valores em dólares dos irmãos P e R em 't' meses a partir de janeiro de 2024. P(t) = 3000 + 100t. R(t) = 4000 + 60t. R previa que o investimento de P seria o dobro do seu: 3000 + 100t = 2(4000 + 60t) => 3000 + 100t = 8000 + 120t => -5000 = 20t => t = -250. Este resultado negativo significa que essa previsão de R *já se realizou no passado*. No entanto, a previsão é sobre o futuro. A frase de R é 'Um dia o seu investimento será o dobro do meu', o que implica que o investimento de P *é o dobro* do de R. A previsão de R é que P terá um investimento maior que o dele. Essa afirmação de P está correta, o que significa que P ultrapassa R. A previsão de R é que o investimento de P *será* o dobro do seu, o que implica um momento futuro. A formulação da pergunta é ambígua. Vamos interpretar a previsão de R como 'O meu investimento será o dobro do seu'. Neste caso, 4000 + 60t = 2(3000 + 100t) => 4000 + 60t = 6000 + 200t => -2000 = 140t => t = -2000/140 = -100/7, o que é negativo. Vamos interpret..."
     },
     {
-        "id": "1415090",
         "enunciado": "Um pai envia, no grupo da família, em certa rede social, a seguinte mensagem para as suas quatro filhas, P, Q, R e S: Queridas, sei que vocês já estão grandinhas, mas deixei dinheiro em cima da geladeira, pelo Dia das Crianças. Dividam igualmente entre vocês quatro. Beijos! Sabe-se que toda a quantia deixada pelo pai estava em reais. Nesse dia, a filha P chega da escola, pega 1/4 da quantia deixada pelo pai e sai de casa. Em seguida, a filha Q chega e, acreditando ser a primeira a chegar, pega 1/4 da quantia que encontra e também sai de casa. Depois disso, o mesmo acontece com a filha R, ou seja, ela também pega 1/4 da quantia que encontra e sai. Mais tarde, quando a filha S chega, ciente de que é a última a apanhar a sua parte, pega os 270 reais que encontra, não restando, com isso, mais dinheiro. Dessa forma, quantos reais a filha Q pegou a mais do que a filha R?",
         "alternativas": {
             "A": "80",
@@ -368,10 +367,10 @@
             "E": "15"
         },
         "gabarito_correto": "C",
+        "id": "1415090",
         "comentario_ia": "Seja X a quantia inicial. P pega X/4, restando 3X/4. Q pega (3X/4)/4 = 3X/16, restando (3X/4) - (3X/16) = 9X/16. R pega (9X/16)/4 = 9X/64, restando (9X/16) - (9X/64) = 27X/64. S pega os 270 reais, que correspondem a 27X/64. Logo, 27X/64 = 270 => X = 640. P pegou 160, Q pegou 3/16 de 640 = 120, R pegou 3/16 de 120 = 45. A diferença entre Q e R é 120 - 45 = 75. Refazendo os cálculos: P pega 1/4, sobram 3/4. Q pega 1/4 do que sobra, ou seja, (1/4)*(3/4) = 3/16. Sobram (3/4) - (3/16) = 9/16. R pega 1/4 do que sobra, ou seja, (1/4)*(9/16) = 9/64. Sobram (9/16) - (9/64) = 27/64. S pega os R$270, que correspondem a 27/64 da quantia total. Então, 27/64 * Total = 270. Total = 270 * 64 / 27 = 640. P pegou 1/4 * 640 = 160. Q pegou 1/4 * (640 - 160) = 1/4 * 480 = 120. R pegou 1/4 * (480 - 120) = 1/4 * 360 = 90. S pegou o restante = 360 - 90 = 270. A diferença entre Q e R é 120 - 90 = 30. O raciocínio está equivocado na primeira tentativa. A segunda tentativa está correta."
     },
     {
-        "id": "2312054",
         "enunciado": "A LigNet vende um serviço de internet cujo valor mensal é dado por C = 40 + 5x, sendo x o número de gigabytes adicionais consumidos além do pacote básico. Em determinado mês, um cliente reclamou porque teve que pagar uma conta de R$ 75,00, e foi orientado conforme as observações abaixo. I. Se C = 75, então 5x = 35. II. O valor de x correspondente é igual a 7. III. O termo 40 representa a parte variável do consumo. IV. Se x = 3, então C = 55. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I e III, apenas.",
@@ -381,10 +380,10 @@
             "E": "I e II, apenas."
         },
         "gabarito_correto": "D",
+        "id": "2312054",
         "comentario_ia": "Analisando as afirmativas: I. Se C=75, entao 40+5x=75, logo 5x=35. Verdadeira. II. Se 5x=35, entao x=7. Verdadeira. III. O termo 40 representa o valor fixo, nao variavel. Falsa. IV. Se x=3, C=40+5*3=40+15=55. Verdadeira. Portanto, I, II e IV estao corretas."
     },
     {
-        "id": "2231341",
         "enunciado": "A função f(x) = 6.000 + 0,5 x corresponde ao custo de produção de canetas de uma fábrica de brindes, onde x representa a quantidade de canetas produzidas. Se em um mês o custo de produção foi de R$ 46.000,00, a quantidade de canetas produzidas foi de:",
         "alternativas": {
             "A": "40.000.",
@@ -394,10 +393,10 @@
             "E": "86.000."
         },
         "gabarito_correto": "D",
+        "id": "2231341",
         "comentario_ia": "A equação é Custo = 6.000 + 0,5x. Temos Custo = 46.000. Então, 46.000 = 6.000 + 0,5x. Subtraindo 6.000 de ambos os lados: 40.000 = 0,5x. Dividindo por 0,5: x = 80.000."
     },
     {
-        "id": "2312743",
         "enunciado": "A LigNet vende um serviço de internet cujo valor mensal é dado por C = 40 + 5x, sendo x o número de gigabytes adicionais consumidos além do pacote básico. Em determinado mês, um cliente reclamou porque teve que pagar uma conta de R$ 75,00, e foi orientado conforme as observações abaixo.",
         "alternativas": {
             "A": "I. Se C = 75, então 5x = 35.",
@@ -406,10 +405,10 @@
             "D": "IV. Se x = 3, então C = 55."
         },
         "gabarito_correto": "A",
+        "id": "2312743",
         "comentario_ia": "A alternativa A está correta. Se C = 75, então 40 + 5x = 75, o que implica 5x = 75 - 40, logo 5x = 35. A alternativa B está errada (x=7), C está errada (40 é parte fixa) e D está errada (se x=3, C=55)."
     },
     {
-        "id": "2312134",
         "enunciado": "A LigNet vende um serviço de internet cujo valor mensal é dado por C = 40 + 5x, sendo x o número de gigabytes adicionais consumidos além do pacote básico. Em determinado mês, um cliente reclamou porque teve que pagar uma conta de R$ 75,00, e foi orientado conforme as observações abaixo. I.Se C = 75, então 5x = 35. II.O valor de x correspondente é igual a 7. III.O termo 40 representa a parte variável do consumo. IV.Se x = 3, então C = 55. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I e II, apenas.",
@@ -419,10 +418,10 @@
             "E": "II e IV, apenas."
         },
         "gabarito_correto": "D",
+        "id": "2312134",
         "comentario_ia": "Analisando a fórmula C = 40 + 5x com C = 75: 75 = 40 + 5x --> 5x = 35 (I correta). Logo, x = 7 (II correta). O termo 40 é fixo e 5x é variável (III incorreta). Se x = 3, C = 40 + 5*3 = 40 + 15 = 55 (IV correta). Portanto, I, II e IV estão corretas."
     },
     {
-        "id": "2086947",
         "enunciado": "Um encanador cobra R$80,00 de taxa fixa e mais R$30,00 por hora de serviço. Qual é a função que representa o valor total pago, em reais, em função do número de horas trabalhadas h?",
         "alternativas": {
             "A": "f(h)= 30h + 80",
@@ -431,10 +430,10 @@
             "D": "f(h) = 110h"
         },
         "gabarito_correto": "A",
+        "id": "2086947",
         "comentario_ia": "A função que representa o valor total é dada pela taxa fixa somada ao produto do valor por hora pelo número de horas. Assim, 80 (fixa) + 30 (por hora) * h (horas) resulta em f(h) = 30h + 80."
     },
     {
-        "id": "2086779",
         "enunciado": "Um encanador cobra R$80,00 de taxa fixa e mais R$30,00 por hora de serviço. Qual é a função que representa o valor total pago, em reais, em função do número de horas trabalhadas h?",
         "alternativas": {
             "A": "f(h) = 80 - 30h",
@@ -443,10 +442,10 @@
             "D": "f(h) = 80h + 30"
         },
         "gabarito_correto": "C",
+        "id": "2086779",
         "comentario_ia": "A função deve representar o custo total. Há uma taxa fixa (R$80,00) e um custo variável por cada hora trabalhada (R$30,00 * h). Portanto, o valor total é a soma desses dois componentes."
     },
     {
-        "id": "2172100",
         "enunciado": "Uma empresa fornecedora de internet cobra um valor fixo de instalação mais uma taxa mensal pelo serviço. Um cliente que contratou essa empresa e utilizou os serviços por 3 meses, pagou R$210,00. Outro cliente que contratou essa mesma empresa e utilizou os serviços por 6 meses, pagou R$330,00. Considerando que a taxa de instalação e a tarifa mensal é a mesma para todos os clientes, qual o valor da tarifa mensal?",
         "alternativas": {
             "A": "R$30,00",
@@ -455,10 +454,10 @@
             "D": "R$60,00"
         },
         "gabarito_correto": "B",
+        "id": "2172100",
         "comentario_ia": "Sejam I o valor de instalação e M a taxa mensal. Temos: 3M + I = 210 e 6M + I = 330. Subtraindo a primeira da segunda: 3M = 120, então M = 40. A taxa mensal é R$40,00."
     },
     {
-        "id": "1715921",
         "enunciado": "O valor de um carro novo é de R$ 90 000,00 e, com 4 anos de uso, é de R$ 40000,00. Supondo que o preço caia com o tempo, segundo uma linha reta, o valor de um carro com 2 anos de uso é:",
         "alternativas": {
             "A": "R$ 75.000,00",
@@ -467,10 +466,10 @@
             "D": "R$ 50.000,00"
         },
         "gabarito_correto": "B",
+        "id": "1715921",
         "comentario_ia": "A depreciacao anual eh (90000 - 40000) / 4 anos = 12500/ano. O valor apos 2 anos seria 90000 - (2 * 12500) = 90000 - 25000 = 65000,00."
     },
     {
-        "id": "2185474",
         "enunciado": "Um cliente está avaliando qual plano de internet escolher com base no seu consumo mensal de dados. Após orçar alguns planos, ele encontrou o seguinte: O cliente estima que utilizará 15 GB de dados no mês. Sabendo que o custo total de cada plano é dado pela soma do preço mensal e do custo pelos dados excedentes, qual plano será mais econômico para esse cliente? Assinale a alternativa correta:",
         "alternativas": {
             "A": "Básico",
@@ -480,10 +479,10 @@
             "E": "Todos os planos têm o mesmo custo"
         },
         "gabarito_correto": "B",
+        "id": "2185474",
         "comentario_ia": "Plano Básico: 15GB + 5GB excedente = 20GB. Custo: 50 + (5*4) = 70. Plano Essencial: 20GB. Custo: 70. Plano Platinum: 20GB + 5GB excedente = 25GB. Custo: 80 + (5*4)=100. Plano Premium: 30GB. Custo: 100. Para 15GB, o plano Essencial custa R$70,00 e o Básico custa R$70,00. Vamos refazer o cálculo do Básico. Se ele usar 15GB, excede 0GB. Custo Básico = 50. Plano Essencial custa 70. Plano Platinum custa 80. Plano Premium custa 100. Logo, Básico é o mais econômico."
     },
     {
-        "id": "2246497",
         "enunciado": "Um parque de diversões cobra uma entrada fixa de R$ 5,00 por visitante e, além disso, R$ 3,00 por cada brinquedo utilizado. Um jovem gastou R$ 26,00 em sua visita. Quantos brinquedos ele utilizou?",
         "alternativas": {
             "A": "Ele utilizou 5 brinquedos.",
@@ -492,10 +491,10 @@
             "D": "Ele utilizou 15 brinquedos."
         },
         "gabarito_correto": "B",
+        "id": "2246497",
         "comentario_ia": "O custo total foi de R$ 26,00. Descontando a entrada fixa de R$ 5,00, sobram R$ 21,00 para os brinquedos. Como cada brinquedo custa R$ 3,00, ele utilizou R$ 21,00 / R$ 3,00 = 7 brinquedos."
     },
     {
-        "id": "2138561",
         "enunciado": "João foi a um show e teve um gasto fixo de R$ 150,00 com o ingresso e R$ 25,50 com o transporte. Além disso, ele tomou algumas bebidas de R$ 12,50 cada. Qual das equações abaixo representa os gastos de João?",
         "alternativas": {
             "A": "12,5x + 175,5",
@@ -504,10 +503,10 @@
             "D": "175,5x - 12,5"
         },
         "gabarito_correto": "A",
+        "id": "2138561",
         "comentario_ia": "O gasto fixo total é de R$ 150,00 (ingresso) + R$ 25,50 (transporte) = R$ 175,50. Cada bebida custa R$ 12,50. Se 'x' representa o número de bebidas, a equação que representa os gastos totais é o gasto fixo mais o custo das bebidas: 175,5 + 12,5x."
     },
     {
-        "id": "1914521",
         "enunciado": "Uma fazenda vende sacas de soja e seus custos operacionais podem ser descritos por uma função do primeiro grau: C(x) = 250x + 7500, onde: C(x) representa o custo total de produção (em reais); x é o número de sacas de soja produzidas. A fazenda vende cada saca de soja por R$ 400,00 e sua receita pode ser representada por: R(x) = 400x. Quantas sacas de soja, aproximadamente, a fazenda precisa vender para obter um lucro de R$ 10 000,00?",
         "alternativas": {
             "A": "100 sacas",
@@ -516,10 +515,10 @@
             "D": "120 sacas"
         },
         "gabarito_correto": "C",
+        "id": "1914521",
         "comentario_ia": "Lucro = Receita - Custo. Queremos Lucro = 10000. Então, 10000 = 400x - (250x + 7500). Resolvendo: 10000 = 150x - 7500 => 17500 = 150x => x = 17500 / 150 ≈ 116,67. O valor mais próximo é 117 sacas."
     },
     {
-        "id": "1925146",
         "enunciado": "Arthur quer assentar pisos na garagem de sua casa e contratou um pedreiro que cobra R$180,00 por dia de trabalho, mais um valor fixo de R$450,00 para pagar o ajudante. Se o serviço custou R$1.710,00, em quantos dias foi feito?",
         "alternativas": {
             "A": "Em 11 dias.",
@@ -528,10 +527,10 @@
             "D": "Em 8 dias."
         },
         "gabarito_correto": "B",
+        "id": "1925146",
         "comentario_ia": "O custo total foi R$ 1.710,00. O custo fixo do ajudante é R$ 450,00. A parte do pedreiro é R$ 1.710,00 - R$ 450,00 = R$ 1.260,00. Utilizando o valor diário de R$ 180,00, o número de dias é R$ 1.260,00 / R$ 180,00 = 7 dias."
     },
     {
-        "id": "1925078",
         "enunciado": "André está montando luminárias artesanais para vender em uma feira e sua despesa consiste em R$12,00 em materiais para cada uma, além de R$900,00 para montar a barraca, com estrutura e decoração. Considerando x o número de luminárias vendidas, quantas ele precisa vender para faturar R$1.500,00?",
         "alternativas": {
             "A": "80 luminárias.",
@@ -540,10 +539,10 @@
             "D": "50 luminárias."
         },
         "gabarito_correto": "D",
+        "id": "1925078",
         "comentario_ia": "Custo total = Custo fixo + (Custo variável por unidade * número de unidades). A receita é o preço de venda * número de unidades. A questão pede o faturamento (receita bruta), não o lucro. Se R$ 1.500,00 é a Receita Bruta, sem o preço de venda, a questão é impossível de resolver. Considerando que R$ 1500,00 seja o lucro desejado, a equação seria: Preço de Venda * x - (12*x + 900) = 1500. Sem o preço de venda, não é possível resolver. Assumindo que o problema se refere ao VALOR TOTAL ARRECADADO (receita bruta) de R$1500,00 E que o preço de venda de cada luminária é o custo de material mais um lucro, podemos estimar um preço de venda. Se considerarmos que o faturamento de R$1.500,00 se refere ao PREÇO DE VENDA, e que o CUSTOTOTAL é 12x + 900, e que para 'faturar' R$1500,00 com um lucro X, é preciso vender em torno de 50 luminarias (assumindo um preço de venda razoável). A questão está mal formulada. Assumindo que o Faturamento desejado é de R$1500,00 e que o problema quer saber quantas unidades (x) precisam ..."
     },
     {
-        "id": "1264146",
         "enunciado": "Uma fábrica de cocadas tem um custo fixo de R$ 500,00 reais e variável de R$ 27,00 a cada quilo produzido. Qual das equações abaixo representa esse custo?",
         "alternativas": {
             "A": "500 + 27x",
@@ -552,10 +551,10 @@
             "D": "500x - 27"
         },
         "gabarito_correto": "A",
+        "id": "1264146",
         "comentario_ia": "O custo fixo é R$ 500,00 e o custo variável é R$ 27,00 por quilo (x). A equação total é a soma dessas duas componentes: Custo Fixo + Custo Variável = 500 + 27x."
     },
     {
-        "id": "1647231",
         "enunciado": "O valor y a ser pago em reais pelo aluguel de um salão de festas por x horas é dado pela expressão: y = 300 + 200x. Por quanto tempo utilizou o salão uma pessoa que pagou R$ 1.500,00 pelo aluguel?",
         "alternativas": {
             "A": "6 horas",
@@ -565,10 +564,10 @@
             "E": "4 horas"
         },
         "gabarito_correto": "A",
+        "id": "1647231",
         "comentario_ia": "Substituindo y por 1500 na equação: 1500 = 300 + 200x. Isolando x: 1200 = 200x, então x = 1200 / 200 = 6 horas."
     },
     {
-        "id": "1167487",
         "enunciado": "Em um salão de festas, o custo para alugar um espaço é composto por uma taxa fixa de reserva e uma taxa variável relacionada ao número de convidados. Se a taxa fixa de reserva é de R$ 300,00 e o custo por convidado é de R$ 80,00, quantos convidados estiveram presentes se o custo total do aluguel foi de R$ 7.500,00?",
         "alternativas": {
             "A": "70 convidados",
@@ -577,10 +576,10 @@
             "D": "100 convidados"
         },
         "gabarito_correto": "C",
+        "id": "1167487",
         "comentario_ia": "O custo total é a soma da taxa fixa com o custo por convidado multiplicado pelo número de convidados. Logo, 7500 = 300 + 80x. Resolvendo para x: 7200 = 80x, então x = 90 convidados."
     },
     {
-        "id": "1264049",
         "enunciado": "Uma fábrica de cocadas tem um custo fixo de R$ 500,00 reais e variável de R$ 27,00 a cada quilo produzido. Qual das equações abaixo representa esse custo?",
         "alternativas": {
             "A": "500x + 27",
@@ -589,10 +588,10 @@
             "D": "500 + 27x"
         },
         "gabarito_correto": "D",
+        "id": "1264049",
         "comentario_ia": "O custo fixo é R$500,00 e o custo variável é de R$27,00 por quilo (x). Portanto, o custo total é a soma do fixo com o variável, representada pela equação 500 + 27x."
     },
     {
-        "id": "1466690",
         "enunciado": "Suponha‑se que um empresário possui um jato executivo que viaja a uma velocidade máxima de 1.000 km/h. Ele fez uma viagem que durou 5 horas a uma velocidade de 700 km/h. Nesse caso, é correto afirmar que, para fazer a mesma viagem em 4 horas, a velocidade do jato deverá ser de",
         "alternativas": {
             "A": "800 km/h.",
@@ -602,10 +601,10 @@
             "E": "900 km/h."
         },
         "gabarito_correto": "D",
+        "id": "1466690",
         "comentario_ia": "O empresário percorreu uma distância D = velocidade x tempo = 700 km/h * 5h = 3500 km. Para fazer a mesma viagem em 4 horas, a velocidade necessária é V = D / T = 3500 km / 4h = 875 km/h."
     },
     {
-        "id": "1651345",
         "enunciado": "Sendo f(x) uma função afim dada por: f(x) = 3x - 4, calcule o valor de f(23).",
         "alternativas": {
             "A": "-4",
@@ -614,10 +613,10 @@
             "D": "-6"
         },
         "gabarito_correto": "B",
+        "id": "1651345",
         "comentario_ia": "Para calcular f(23) na função afim f(x) = 3x - 4, substituímos x por 23: f(23) = 3*23 - 4 = 69 - 4 = 65. Houve um erro na formulação da questão ou das alternativas, pois o resultado esperado seria 65. Assumindo que a alternativa B seja a resposta correta, haverá necessidade de reconsiderar os valores."
     },
     {
-        "id": "1099147",
         "enunciado": "Os pilotos de Fórmula 1 precisam de uma habilitação especial chamada de “superlicença” para pilotar os carros. Ao final de cada temporada, os pilotos devem efetuar um pagamento referente à renovação desta habilitação. O valor desta renovação varia conforme a quantidade de pontos que o piloto fez na temporada, sendo 10.500 euros de valor fixo mais um acréscimo de 2.200 euros por cada ponto conquistado. Sendo y o valor da renovação, em milhares de euros, e x o total dos pontos conquistados pelo piloto na temporada, a equação que melhor define o valor que cada piloto deverá pagar pela renovação pode ser descrita por:",
         "alternativas": {
             "A": "11 21=+ 52yx",
@@ -626,10 +625,10 @@
             "D": "11 21–+ 25= x y"
         },
         "gabarito_correto": "C",
+        "id": "1099147",
         "comentario_ia": "O valor fixo é de 10.500 euros. O acréscimo é de 2.200 euros por ponto. Seja x o total de pontos conquistados e y o valor da renovação em milhares de euros. A equação que relaciona o valor total da renovação (em euros) é 10500 + 2200x. Como y está em milhares de euros, dividimos o valor total por 1000: y = (10500 + 2200x) / 1000. Simplificando: y = 10,5 + 2,2x. Para que a equação se pareça com as alternativas, multiplicamos por 5 para remover decimais: 5y = 52,5 + 11x. Reorganizando para a forma apresentada nas alternativas: 11x + 52,5 = 5y. Para que se encaixe nas opções, é provável que o valor fixo seja usado em centenas, e não milhares, ou os pontos sejam multiplicados por 50 e o fixo por 2,1. A alternativa C, 21 + 11 = 52y, parece ter um erro de digitação, deveria ser 2.100 no lugar de 21 e 5,2 no lugar de 52. Ou o valor fixo é 21 mil e o por ponto 5,2 mil. A alternativa C está incorreta como escrita. Reconsiderando as alternativas com a formula conhecida 10500 + 2200x = Valor em euros. Para y em milh..."
     },
     {
-        "id": "1263993",
         "enunciado": "O custo de produção dos brigadeiros de Júlia tem uma parte fixa de R$ 72,00 e uma parte variável de R$ 25,00 a cada cento do docinho. Assim, qual das equações abaixo representa esse custo?",
         "alternativas": {
             "A": "72x + 250",
@@ -638,10 +637,10 @@
             "D": "250x - 72"
         },
         "gabarito_correto": "B",
+        "id": "1263993",
         "comentario_ia": "O custo total é a soma do custo fixo com o custo variável. O custo fixo é R$ 72,00. O custo variável é R$ 25,00 por 'cento' de brigadeiro. Se 'x' representa a quantidade de 'centos' de brigadeiros, o custo variável total é 25x. Portanto, a equação que representa o custo total é 72 + 25x."
     },
     {
-        "id": "1256957",
         "enunciado": "Um taxista cobra um valor fixo de R$ 6,30 mais R$ 2,75 por km rodado, por seu serviço. Quanto pagará um passageiro que percorreu 12 km?",
         "alternativas": {
             "A": "R$ 33,00.",
@@ -651,10 +650,10 @@
             "E": "R$ 78,35."
         },
         "gabarito_correto": "C",
+        "id": "1256957",
         "comentario_ia": "O cálculo é 6,30 (valor fixo) + 12 km * 2,75/km. Assim, 6,30 + 33,00 = 39,30. O passageiro pagará R$ 39,30."
     },
     {
-        "id": "1234669",
         "enunciado": "Na eleição para síndico de determinado condomínio, participaram 1.770 pessoas que votaram, cada uma, em apenas um dos candidatos: Adelmo, Bernardo e Claudemir. Adelmo recebeu um terço dos votos recebidos por Bernardo que, por sua vez, recebeu 20 votos a menos que Claudemir. De acordo com o resultado, pode-se afirmar que:",
         "alternativas": {
             "A": "Bernardo ganhou a eleição.",
@@ -663,10 +662,10 @@
             "D": "Adelmo e Claudemir obtiveram, juntos, 1.020 votos."
         },
         "gabarito_correto": "D",
+        "id": "1234669",
         "comentario_ia": "Sejam A, B e C os votos de Adelmo, Bernardo e Claudemir. Temos A = B/3 e B = C - 20. Total de votos = 1770. Resolvendo o sistema: B = 600, C = 620, A = 200. Juntos, A e C somam 1020."
     },
     {
-        "id": "1197777",
         "enunciado": "Pedro elaborou uma equação que descreve a distância total que ele caminha todos os dias quando percorre 1200 metros até a praça onde dá x voltas na pista de 950 metros que fica em torno dela. Em qual alternativa está a equação correta?",
         "alternativas": {
             "A": "1200 - 950x",
@@ -676,10 +675,10 @@
             "E": "0,95x + 1,2"
         },
         "gabarito_correto": "E",
+        "id": "1197777",
         "comentario_ia": "A distância até a praça é de 1200 metros (1,2 km). A pista tem 950 metros (0,95 km). Ele dá x voltas na pista. A distância total é a distância fixa até a praça mais a distância percorrida nas x voltas. Então, 1,2 km + 0,95 km * x. Reorganizando os termos e usando as unidades em km: 0,95x + 1,2."
     },
     {
-        "id": "1145122",
         "enunciado": "Um vendedor decide aumentar o preço de um produto em R$ 5,00 a cada semana. Se o preço inicial do produto era R$ 50,00, quantas semanas levará para que o produto alcance o preço de R$ 75,00?",
         "alternativas": {
             "A": "3 semanas",
@@ -689,10 +688,10 @@
             "E": "Nenhuma das alternativas"
         },
         "gabarito_correto": "C",
+        "id": "1145122",
         "comentario_ia": "O preco inicial e R$ 50. O preco final e R$ 75. A diferenca e R$ 25. O preco aumenta R$ 5 por semana. Dividindo a diferenca pelo aumento semanal: 25 / 5 = 5 semanas."
     },
     {
-        "id": "1796013",
         "enunciado": "Sabe-se que a função f é definida pela lei de formação f(x)=ax+b. Temos que f(3)=8 e f(2)=6. Marque a alternativa que apresenta o valor de f(20).",
         "alternativas": {
             "A": "42",
@@ -701,10 +700,10 @@
             "D": "16"
         },
         "gabarito_correto": "A",
+        "id": "1796013",
         "comentario_ia": "Temos f(x)=ax+b. Dado f(3)=8 e f(2)=6. Substituindo: 3a+b=8 e 2a+b=6. Subtraindo a segunda da primeira: (3a+b) - (2a+b) = 8 - 6, o que resulta em a = 2. Substituindo a em 2a+b=6: 2(2)+b=6, 4+b=6, então b=2. A função é f(x)=2x+2. Logo, f(20) = 2(20)+2 = 40+2 = 42."
     },
     {
-        "id": "1148351",
         "enunciado": "Dada uma função que modela o consumo de água de uma cidade em função do número de habitantes, f(x)=150x+1000, onde x é o número de habitantes (em milhares) e f(x) o consumo diário de água (em milhares de litros), qual será o consumo diário se a população que era de 20.000 crescer em 25%?",
         "alternativas": {
             "A": "a) 4.750 milhares de litros",
@@ -713,10 +712,10 @@
             "D": "d) 1.750 milhares de litros"
         },
         "gabarito_correto": "A",
+        "id": "1148351",
         "comentario_ia": "População inicial de 20.000 (20 mil). Crescimento de 25% resulta em 25.000 habitantes. Substituindo x=25 na função: f(25) = 150*25 + 1000 = 3750 + 1000 = 4750 milhares de litros."
     },
     {
-        "id": "1415088",
         "enunciado": "Em dezembro de 2023, dois irmãos, P e R, decidem investir em dólares, guardando-os cada um em suas respectivas casas. Na ocasião, P possui 3000 dólares, e R, 4000 dólares. A cada mês e começando em janeiro de 2024, P acrescenta 100 dólares à sua quantia, e R acrescenta 60 dólares à sua. Certo dia, P diz a R: — Mesmo tendo sido a minha quantia inicial menor do que a sua, em breve terei um investimento maior do que o seu, pois meu aporte mensal de 100 dólares é maior do que o seu de 60 dólares. Então, R completou fazendo a seguinte previsão: — Um dia o seu investimento será o dobro do meu. Supondo-se que os aportes mensais se mantenham e nenhuma retirada ocorra, a previsão de R",
         "alternativas": {
             "A": "nunca será realizada.",
@@ -726,10 +725,10 @@
             "E": "será realizada depois do ano 2054."
         },
         "gabarito_correto": "B",
+        "id": "1415088",
         "comentario_ia": "Sejam P(t) e R(t) os valores em dólares dos irmãos P e R em 't' meses a partir de janeiro de 2024. P(t) = 3000 + 100t. R(t) = 4000 + 60t. R previa que o investimento de P seria o dobro do seu: 3000 + 100t = 2(4000 + 60t) => 3000 + 100t = 8000 + 120t => -5000 = 20t => t = -250. Este resultado negativo significa que essa previsão de R *já se realizou no passado*. No entanto, a previsão é sobre o futuro. A frase de R é 'Um dia o seu investimento será o dobro do meu', o que implica que o investimento de P *é o dobro* do de R. A previsão de R é que P terá um investimento maior que o dele. Essa afirmação de P está correta, o que significa que P ultrapassa R. A previsão de R é que o investimento de P *será* o dobro do seu, o que implica um momento futuro. A formulação da pergunta é ambígua. Vamos interpretar a previsão de R como 'O meu investimento será o dobro do seu'. Neste caso, 4000 + 60t = 2(3000 + 100t) => 4000 + 60t = 6000 + 200t => -2000 = 140t => t = -2000/140 = -100/7, o que é negativo. Vamos interpret..."
     },
     {
-        "id": "1415090",
         "enunciado": "Um pai envia, no grupo da família, em certa rede social, a seguinte mensagem para as suas quatro filhas, P, Q, R e S: Queridas, sei que vocês já estão grandinhas, mas deixei dinheiro em cima da geladeira, pelo Dia das Crianças. Dividam igualmente entre vocês quatro. Beijos! Sabe-se que toda a quantia deixada pelo pai estava em reais. Nesse dia, a filha P chega da escola, pega 1/4 da quantia deixada pelo pai e sai de casa. Em seguida, a filha Q chega e, acreditando ser a primeira a chegar, pega 1/4 da quantia que encontra e também sai de casa. Depois disso, o mesmo acontece com a filha R, ou seja, ela também pega 1/4 da quantia que encontra e sai. Mais tarde, quando a filha S chega, ciente de que é a última a apanhar a sua parte, pega os 270 reais que encontra, não restando, com isso, mais dinheiro. Dessa forma, quantos reais a filha Q pegou a mais do que a filha R?",
         "alternativas": {
             "A": "80",
@@ -739,10 +738,10 @@
             "E": "15"
         },
         "gabarito_correto": "C",
+        "id": "1415090",
         "comentario_ia": "Seja X a quantia inicial. P pega X/4, restando 3X/4. Q pega (3X/4)/4 = 3X/16, restando (3X/4) - (3X/16) = 9X/16. R pega (9X/16)/4 = 9X/64, restando (9X/16) - (9X/64) = 27X/64. S pega os 270 reais, que correspondem a 27X/64. Logo, 27X/64 = 270 => X = 640. P pegou 160, Q pegou 3/16 de 640 = 120, R pegou 3/16 de 120 = 45. A diferença entre Q e R é 120 - 45 = 75. Refazendo os cálculos: P pega 1/4, sobram 3/4. Q pega 1/4 do que sobra, ou seja, (1/4)*(3/4) = 3/16. Sobram (3/4) - (3/16) = 9/16. R pega 1/4 do que sobra, ou seja, (1/4)*(9/16) = 9/64. Sobram (9/16) - (9/64) = 27/64. S pega os R$270, que correspondem a 27/64 da quantia total. Então, 27/64 * Total = 270. Total = 270 * 64 / 27 = 640. P pegou 1/4 * 640 = 160. Q pegou 1/4 * (640 - 160) = 1/4 * 480 = 120. R pegou 1/4 * (480 - 120) = 1/4 * 360 = 90. S pegou o restante = 360 - 90 = 270. A diferença entre Q e R é 120 - 90 = 30. O raciocínio está equivocado na primeira tentativa. A segunda tentativa está correta."
     },
     {
-        "id": "2145763",
         "enunciado": "Laura está organizando uma pequena feira de adoção de animais e decide vender sanduíches e bebidas para financiar o evento. Se cada sanduíche custará por R$ 8,00, cada bebida custará R$ 3,00 e ela precisa arrecadar R$ 400,00, qual das equações abaixo representa o cálculo que define quantos itens de cada ela deve vender?",
         "alternativas": {
             "A": "8x = 400 + 3y",
@@ -751,10 +750,10 @@
             "D": "8x + 3y = 400"
         },
         "gabarito_correto": "D",
+        "id": "2145763",
         "comentario_ia": "A questão descreve uma situação onde o total arrecadado é a soma do valor total arrecadado com a venda de sanduíches (8 reais por sanduíche, representado por 8x) e o valor total arrecadado com a venda de bebidas (3 reais por bebida, representado por 3y), sendo que o total a ser arrecadado é de 400 reais. Portanto, a equação que representa essa situação é 8x + 3y = 400."
     },
     {
-        "id": "2145652",
         "enunciado": "O serviço de buffet de Marina tem um preço variável de R$ 125,00 por pessoa, mas também agrega R$ 890,00, caso o cliente queira usar o espaço que ela tem disponível. Assim, qual é a equação que determina o preço (P) que um cliente vai pagar se contratar o buffet e usar o espaço?",
         "alternativas": {
             "A": "P = 125x - 890",
@@ -763,10 +762,10 @@
             "D": "P = 125x + 890"
         },
         "gabarito_correto": "D",
+        "id": "2145652",
         "comentario_ia": "O preço por pessoa é R$ 125,00 (representado por 125x, onde x é o número de pessoas). Há um custo fixo adicional de R$ 890,00 pelo uso do espaço. Somando o custo variável pelo número de pessoas ao custo fixo, a equação que determina o preço total (P) é P = 125x + 890."
     },
     {
-        "id": "1830587",
         "enunciado": "O custo de produção de um determinado acessório é determinado pela seguinte função do primeiro grau: 2x + 8, sendo que o resultado é expresso em reais. Um determinado cliente pediu orçamento de 1.350 peças desse acessório. Sabendo que a empresa produtora acresce R$ 750,00 sobre o valor de custo da produção, assinale a alternativa que indica o valor total do orçamento do referido pedido.",
         "alternativas": {
             "A": "R$ 2.708,00.",
@@ -776,10 +775,10 @@
             "E": "R$ 4.018,00."
         },
         "gabarito_correto": "B",
+        "id": "1830587",
         "comentario_ia": "O custo de produção e 2x + 8. Para 1350 pecas, o custo e 2*1350 + 8 = 2700 + 8 = 2708. Com acrescimo de R$ 750,00, o valor total e 2708 + 750 = 3458. A alternativa B esta incorreta. Refazendo o calculo: Custo de 1 peca = 2*1 + 8. Custo de 1350 pecas = 1350 * (2*1 + 8) = 1350 * 10 = 13500. Este e o custo total. Valor do pedido = Custo total + acrescimo = 13500 + 750 = 14250. Ha um erro de interpretacao. A formula 2x+8 e o custo por peca, onde x e a quantidade. Assim, custo total = 1350 * (2*1350 + 8) = 1350 * (2700 + 8) = 1350 * 2708 = 3655800. Isso parece incorreto. A interpretacao mais provavel e que 2x+8 e o custo TOTAL para producao de x pecas. No entanto, o problema diz 'funcao do primeiro grau: 2x + 8, sendo que o resultado e expresso em reais'. Isso pode significar que X e o numero de pecas e o custo TOTAL da producao de X pecas e dado por 2X + 8. Assim, para 1350 pecas, o custo de producao e 2*1350 + 8 = 2700 + 8 = 2708. O valor total do orcamento e o custo de producao mais o acrescimo: 2708 + 750 ..."
     },
     {
-        "id": "1504594",
         "enunciado": "Uma empresa de recolhimento de entulho cobra R$ 500,00 fixos pelo transporte e mais R$ 50,00 por dia pelo aluguel de uma caçamba com 3 m3 de capacidade. Seja d o número de dias de aluguel de uma caçamba, a função que determina o preço (P) a ser pago por um consumidor que utilizar o serviço dessa empresa é:",
         "alternativas": {
             "A": "P= 500d",
@@ -789,10 +788,10 @@
             "E": "P= 500+d"
         },
         "gabarito_correto": "B",
+        "id": "1504594",
         "comentario_ia": "O preço é composto por um valor fixo de R$ 500,00 mais um valor variável de R$ 50,00 por dia (d). Portanto, a função é P = 500 + 50d."
     },
     {
-        "id": "2146132",
         "enunciado": "Duas amigas se juntaram para produzir coxinhas para vender e perceberam que terão um custo fixo (água, energia, gás, etc) de R$ 590,00 por mês e um custo variável de R$ 2,60 por coxinha. Assim, se elas produzirem x coxinhas em um mês e tiverem uma despesa de R$ 7.090,00, qual das equações abaixo representa o cálculo do custo total?",
         "alternativas": {
             "A": "2,6x + 590 = 7090",
@@ -801,10 +800,10 @@
             "D": "590x - 2,6 = 7090"
         },
         "gabarito_correto": "A",
+        "id": "2146132",
         "comentario_ia": "O custo total é a soma do custo fixo com o custo variável. Custo total = custo fixo + (custo variável por unidade * número de unidades). Assim, 7090 = 590 + 2,6x."
     },
     {
-        "id": "2140445",
         "enunciado": "Fabiana decidiu economizar dinheiro para uma viagem, guardando R$300,00 no primeiro mês e R$150,00 por mês nos meses seguintes. Qual das equações dadas representa o valor acumulado a cada mês?",
         "alternativas": {
             "A": "300 + 150x.",
@@ -813,10 +812,10 @@
             "D": "300x - 150."
         },
         "gabarito_correto": "A",
+        "id": "2140445",
         "comentario_ia": "Fabiana guardou R$300,00 no primeiro mês e R$150,00 nos meses seguintes. Seja x o número de meses após o primeiro. O valor total seria os R$300,00 iniciais mais R$150,00 multiplicados pelo número de meses seguintes (x). Portanto, a equação é 300 + 150x."
     },
     {
-        "id": "1273800",
         "enunciado": "Lauro fez o percurso de sua casa até a praia, com velocidade média de 60 km/h, em 4 horas. Caso Lauro necessitasse realizar esse mesmo percurso em 3 horas, qual velocidade média ele precisaria manter?",
         "alternativas": {
             "A": "45 km/h.",
@@ -826,10 +825,10 @@
             "E": "90 km/h."
         },
         "gabarito_correto": "C",
+        "id": "1273800",
         "comentario_ia": "A distância é calculada por velocidade x tempo: 60 km/h * 4 h = 240 km. Para percorrer a mesma distância em 3 horas, a velocidade média será 240 km / 3 h = 80 km/h."
     },
     {
-        "id": "1088406",
         "enunciado": "Em uma locadora de veículos, o aluguel de determinado carro custa R$ 50,00 por dia, mais uma taxa contratual fixa de R$ 80,00. A lei de formação que relaciona o valor (v), em reais, a ser pago pelo aluguel em função do tempo (t), em dias, é",
         "alternativas": {
             "A": "v = 50.t",
@@ -839,10 +838,10 @@
             "E": "v = 130.t"
         },
         "gabarito_correto": "B",
+        "id": "1088406",
         "comentario_ia": "O valor total do aluguel (v) é a soma do custo diário (R$ 50,00 multiplicado pelo número de dias t) mais a taxa contratual fixa (R$ 80,00). Portanto, a lei de formação é v = 50.t + 80."
     },
     {
-        "id": "1005534",
         "enunciado": "Um artesão confecciona cordas. Para produzir 90 cm de corda, ele gasta 1,5 h de trabalho. Considerando que o comprimento da corda produzida em função do tempo segue uma função afim, qual é o tempo necessário para que ele produza 240 cm de corda?",
         "alternativas": {
             "A": "2,5 h.",
@@ -851,10 +850,10 @@
             "D": "4,0 h."
         },
         "gabarito_correto": "D",
+        "id": "1005534",
         "comentario_ia": "A relação entre comprimento e tempo é afim. 90 cm em 1,5 h significa 60 cm/h. Para 240 cm, é necessário 240 cm / 60 cm/h = 4 h."
     },
     {
-        "id": "1004455",
         "enunciado": "Um carro apresenta seu consumo no formato de litros por 100 km percorridos. Se o consumo indica 8 litros de combustível para cada 100 km, assinale a alternativa que representa a expressão da distância D que pode ser percorrida em função da quantidade de combustível disponível C.",
         "alternativas": {
             "A": "D(C) = (8/100) × C",
@@ -863,10 +862,10 @@
             "D": "D(C) = (C × 100) / 8"
         },
         "gabarito_correto": "D",
+        "id": "1004455",
         "comentario_ia": "Se o carro consome 8 litros para 100 km, então 1 litro percorre 100/8 km. Para C litros, a distância D será (C * 100) / 8 km."
     },
     {
-        "id": "1212813",
         "enunciado": "Ao acender uma vela de 10cm de altura, foi notado que a vela diminuía 0,5cm a cada minuto. Quanto tempo levará para a vela se consumir por completo?",
         "alternativas": {
             "A": "10 min.",
@@ -875,10 +874,10 @@
             "D": "25 min."
         },
         "gabarito_correto": "C",
+        "id": "1212813",
         "comentario_ia": "Para calcular o tempo total, dividimos a altura da vela pela taxa de consumo por minuto. 10 cm / 0,5 cm/min = 20 minutos. Portanto, a vela se consumirá por completo em 20 minutos."
     },
     {
-        "id": "1887224",
         "enunciado": "Em uma escola municipal, uma cozinheira estima que a quantidade de arroz com frango (em gramas) a ser feita é dada pela função f(x)=900+350x, em que x é a quantidade de alunos. Supondo que a cozinheira fez 74,4 kg de arroz com frango, qual quantidade de alunos essa escola possui?",
         "alternativas": {
             "A": "200.",
@@ -888,10 +887,10 @@
             "E": "225."
         },
         "gabarito_correto": "D",
-        "comentario_ia": "A equação é f(x) = 900 + 350x. 74,4 kg = 74400 g.  74400 = 900 + 350x  73500 = 350x  x = 73500 / 350  x = 210.  Ops, um erro na conta, vamos refazer. 74400 - 900 = 73500 g. 73500 / 350 = 210 alunos. Reavaliando... A conta correta é 74400 - 900 = 73500. 73500 / 350 = 210. Parece que uma das opções é errada, mas a mais próxima é 220. refazendo a conta: 74400 = 900 + 350x => 73500 = 350x => x = 210. A alternativa D, 220, é incorreta. Vamos tentar achar um erro aqui. 74.4kg = 74400g. 74400 = 900 + 350x. 73500 = 350x. x = 73500/350 = 210. Parece que há um erro na questão ou nas alternativas. Assumindo que estou errando e o resultado é 220. Para 220 alunos: 900 + 350*220 = 900 + 77000 = 77900g = 77.9kg. Isso não bate. Vamos assumir que a questão tem um erro e que a resposta correta seria 210, mas não está na opção.  Revisando a matemática: 74400g - 900g = 73500g. 73500g / 350g/aluno = 210 alunos. É provável que haja um erro nas alternativas. No entanto, se aproximando, 220 seria o mais próximo se houvesse um ar..."
+        "id": "1887224",
+        "comentario_ia": "A equação é f(x) = 900 + 350x. 74,4 kg = 74400 g. 74400 = 900 + 350x 73500 = 350x x = 73500 / 350 x = 210. Ops, um erro na conta, vamos refazer. 74400 - 900 = 73500 g. 73500 / 350 = 210 alunos. Reavaliando... A conta correta é 74400 - 900 = 73500. 73500 / 350 = 210. Parece que uma das opções é errada, mas a mais próxima é 220. refazendo a conta: 74400 = 900 + 350x => 73500 = 350x => x = 210. A alternativa D, 220, é incorreta. Vamos tentar achar um erro aqui. 74.4kg = 74400g. 74400 = 900 + 350x. 73500 = 350x. x = 73500/350 = 210. Parece que há um erro na questão ou nas alternativas. Assumindo que estou errando e o resultado é 220. Para 220 alunos: 900 + 350*220 = 900 + 77000 = 77900g = 77.9kg. Isso não bate. Vamos assumir que a questão tem um erro e que a resposta correta seria 210, mas não está na opção. Revisando a matemática: 74400g - 900g = 73500g. 73500g / 350g/aluno = 210 alunos. É provável que haja um erro nas alternativas. No entanto, se aproximando, 220 seria o mais próximo se houvesse um ar..."
     },
     {
-        "id": "1288039",
         "enunciado": "Um eletricista cobra R$ 70,00 pela visita a uma residência e R$ 40,00 por cada hora de trabalho. Se ele gastar x horas de trabalho, a expressão usada para calcular o preço a pagar deverá ser:",
         "alternativas": {
             "A": "70 + 40 + x",
@@ -900,10 +899,10 @@
             "D": "70x + 40x"
         },
         "gabarito_correto": "B",
+        "id": "1288039",
         "comentario_ia": "O valor fixo da visita é R$ 70,00, e o valor por hora de trabalho é R$ 40,00. Se o eletricista gastar x horas, o custo total será a soma do valor fixo com o valor das horas trabalhadas (40 vezes x)."
     },
     {
-        "id": "1006643",
         "enunciado": "Uma empresa estatal vinculada ao ministério de minas e energia, possui um lucro mensal dado por L = 15x - 2000, em que x é a quantidade mensal vendida. Acima de qual quantidade mensal vendida o lucro dessa empresa será superior a R$ 5.500,00?",
         "alternativas": {
             "A": "acima de 400",
@@ -912,10 +911,10 @@
             "D": "acima de 498"
         },
         "gabarito_correto": "A",
+        "id": "1006643",
         "comentario_ia": "Para que o lucro (L) seja superior a R$ 5.500,00, devemos ter 15x - 2000 > 5500. Somando 2000 a ambos os lados, obtemos 15x > 7500. Dividindo ambos os lados por 15, encontramos x > 500. Portanto, a quantidade mensal vendida deve ser superior a 500."
     },
     {
-        "id": "2132067",
         "enunciado": "Para transportar uma certa mercadoria, um comerciante consultou duas transportadoras. A primeira cobrou R$ 15,00 por quilômetro rodado. A segunda cobrou uma parcela fixa de R$ 30,00 mais R$ 10,00 por quilômetro rodado. Então, podemos afirmar corretamente que:",
         "alternativas": {
             "A": "a primeira transportadora tem sempre um melhor preço para o comerciante.",
@@ -924,10 +923,10 @@
             "D": "para distâncias inferiores a 6 km, o preço da primeira, para o comerciante, é melhor que o da segunda."
         },
         "gabarito_correto": "D",
+        "id": "2132067",
         "comentario_ia": "Chamando 'd' a distancia em km, o custo da primeira e 15d e da segunda e 30 + 10d. Igualando: 15d = 30 + 10d => 5d = 30 => d = 6km. Abaixo de 6km, 15d < 30 + 10d."
     },
     {
-        "id": "1405900",
         "enunciado": "O salário pago por uma empresa de construção civil é composto de uma parte fixa de R$ 880,00 mais um adicional de R$ 15,00 por hora extra trabalhada. Para que um funcionário dessa empresa consiga um salário de R$ 2230,00 ele terá que trabalhar quantas horas extras no mês?",
         "alternativas": {
             "A": "90",
@@ -936,10 +935,10 @@
             "D": "120"
         },
         "gabarito_correto": "C",
+        "id": "1405900",
         "comentario_ia": "Para atingir R$ 2230,00, o funcionario precisa de R$ 2230,00 - R$ 880,00 = R$ 1350,00 em horas extras. Dividindo R$ 1350,00 por R$ 15,00/hora, tem-se 90 horas extras. A questao pede o Salario Total de R$ 2230,00; Salario = 880 + 15x = 2230; 15x = 1350; x = 1350/15 = 90. Houve um erro no calculo inicial, mas a resposta correta é 90."
     },
     {
-        "id": "2065456",
         "enunciado": "Um táxi inicia uma corrida marcando R$ 5,00 no taxímetro. Sabendo que cada quilômetro rodado custa R$ 3,00 e que o total da corrida ficou em R$ 47,00, qual a quilometragem percorrida?",
         "alternativas": {
             "A": "21 quilômetros",
@@ -948,6 +947,7 @@
             "D": "18 quilômetros"
         },
         "gabarito_correto": "B",
+        "id": "2065456",
         "comentario_ia": "A corrida custou R$47,00 e a taxa inicial foi de R$5,00. O custo por quilômetro foi de R$3,00. Subtraindo a taxa inicial do total (R$47 - R$5 = R$42), temos o valor gasto com a quilometragem. Dividindo esse valor pelo custo por km (R$42 / R$3), obtemos 14 km."
     }
 ]

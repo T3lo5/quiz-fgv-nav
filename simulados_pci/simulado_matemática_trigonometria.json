@@ -1,6 +1,5 @@
 [
     {
-        "id": "2281051",
         "enunciado": "Durante a instalação de uma rampa de acesso em uma escola, é necessário medir a altura alcançada pela extremidade superior da rampa. Sabe-se que a rampa forma um ângulo de 30° com o chão e que seu comprimento total, do chão até o ponto mais alto, é de 6 metros. Considerando sin30° = 0,5, qual é a altura alcançada pela extremidade da rampa?",
         "alternativas": {
             "A": "1,5 metros.",
@@ -9,10 +8,10 @@
             "D": "6 metros."
         },
         "gabarito_correto": "C",
+        "id": "2281051",
         "comentario_ia": "A altura é o cateto oposto ao ângulo de 30°. Usando a função seno, temos sen(30°) = altura / comprimento. Logo, altura = comprimento * sen(30°) = 6m * 0,5 = 3m."
     },
     {
-        "id": "1860463",
         "enunciado": "Paula está parada, de pé, em frente a um poste vertical, sobre uma rua horizontal. Para olhar diretamente para o topo do poste, Paula precisa erguer sua linha de visão em 45  com relação à horizontal. A distância de Paula até o poste é igual",
         "alternativas": {
             "A": "à altura do poste.",
@@ -22,10 +21,10 @@
             "E": "à altura dos olhos de Paula."
         },
         "gabarito_correto": "A",
+        "id": "1860463",
         "comentario_ia": "Forma-se um triângulo retângulo onde o ângulo de elevação é de 45º. Nesse caso, a tangente do ângulo de 45º é igual a 1, o que significa que o cateto oposto (altura do poste acima da linha de visão de Paula) é igual ao cateto adjacente (distância de Paula ao poste). Consideremos a altura dos olhos de Paula como negligenciável ou no nível do solo para simplificar. Para um ângulo de 45°, a distância horizontal é igual à altura vertical acima da linha de visão."
     },
     {
-        "id": "2081806",
         "enunciado": "Analise a situação hipotética: uma rampa de acesso deverá ser construída e o projetista deverá determinar a sua inclinação. Sabe-se que ela ligará dois pontos com um desnível vertical de 1,5 metros e que possuirá 6 metros de comprimento em linha reta, conforme a figura abaixo: Assinale a alternativa que indica a inclinação aproximada da rampa:",
         "alternativas": {
             "A": "4,00º",
@@ -34,10 +33,10 @@
             "D": "75,52º"
         },
         "gabarito_correto": "B",
+        "id": "2081806",
         "comentario_ia": "A inclinação da rampa pode ser calculada usando trigonometria: seno(ângulo) = Cateto Oposto / Hipotenusa. Sen(ângulo) = 1,5 m / 6 m = 0,25. Calculando o arco seno de 0,25, obtém-se aproximadamente 14,04º."
     },
     {
-        "id": "2368790",
         "enunciado": "Num porto, o cais reto XY tem 720 m de comprimento e pode ser considerado no mesmo nível do mar. Dos pontos X e Y, observa-se uma ilha Z de modo que m(ZXY) = 28° e m(ZYX) = 41°. Nessa perspectiva, a distância entre a ilha e o cais é aproximadamente de: (Use: tg de 28º = 0,53 e tg de 41º = 0,87)",
         "alternativas": {
             "A": "237 m.",
@@ -46,10 +45,10 @@
             "D": "293 m."
         },
         "gabarito_correto": "B",
+        "id": "2368790",
         "comentario_ia": "Considere o triângulo XZY. Temos o comprimento XY = 720m, m(ZXY) = 28°, m(ZYX) = 41°. O terceiro ângulo m(XZY) = 180° - 28° - 41° = 111°. A distância da ilha ao cais é a altura h relativa à hipotenusa XY. No triângulo ZXM (onde M é o ponto da ilha projetado no cais), tg(28°) = h/XM e tg(41°) = h/MY. XY = XM + MY = 720. Usando a lei dos senos no triângulo XZY: ZY/sen(28°) = XY/sen(111°). ZY = 720 * sen(28°)/sen(111°) ≈ 360. Em outra abordagem, use tg(28°) = h/XM e tg(41°) = h/MY. XY = XM + MY. No triângulo ZXY, podemos calcular YZ. Pela lei dos senos: YZ/sen(28) = 720/sen(111). YZ = 720 * 0.469 / 0.934 = 361. Na verdade, calculamos a altura do triângulo Z para a base XY. Sejam h a altura e x e y as projeções de ZX e ZY em XY. tg(28) = h/x, tg(41) = h/y. x+y = 720. x = h/tg(28), y = h/tg(41). h/tg(28) + h/tg(41) = 720 => h * (1/0.53 + 1/0.87) = 720 => h * (1.88 + 1.15) = 720 => h * 3.03 = 720 => h = 720/3.03 ≈ 237. Erro no cálculo. Tente como altura relativa ao lado XY é h. No triângulo ZXY, seja M o pé da ..."
     },
     {
-        "id": "2289734",
         "enunciado": "Um topógrafo analisa a inclinação de um trecho de estrada que está sendo projetado. A distância horizontal medida é de 40 m e o equipamento de medição indica um ângulo de elevação de 28°. Para definir a terraplenagem necessária, o profissional deve determinar o desnível vertical correspondente. Qual será esse desnível? (considere tan 28° = 0,53)",
         "alternativas": {
             "A": "O desnível será de 25,0 m.",
@@ -59,10 +58,10 @@
             "E": "O desnível será de 18,7 m."
         },
         "gabarito_correto": "B",
+        "id": "2289734",
         "comentario_ia": "O desnível vertical (cateto oposto) pode ser calculado usando a tangente do ângulo de elevação. A fórmula é tg(ângulo) = desnível / distância horizontal. Portanto, desnível = distância horizontal * tg(ângulo). Substituindo os valores: desnível = 40 m * 0,53 = 21,2 m. A alternativa B está correta."
     },
     {
-        "id": "2391945",
         "enunciado": "Um topógrafo observa o topo de uma torre sob um ângulo de elevação de 30°, estando a 40 m da base da torre. Considerando que a altura do ponto de observação do topógrafo até o chão é de 1,6 metros, calcule a altura da torre. (considere √3 = 1,73).",
         "alternativas": {
             "A": "A altura da torre é de aproximadamente 25,13 m.",
@@ -72,10 +71,10 @@
             "E": "A altura da torre é de aproximadamente 18,51 m."
         },
         "gabarito_correto": "A",
+        "id": "2391945",
         "comentario_ia": "Considerando a altura do ponto de observação (1,6 m), a altura a ser calculada envolve apenas a torre acima desse ponto. Utilizando a tangente de 30° (tan(30°) = altura / 40m), a altura acima do observador é 40 * (√3/3) ≈ 40 * (1,73/3) ≈ 23,07m. A altura total da torre é 23,07 + 1,6 ≈ 24,67m. Uma aproximação mais precisa seria. A altura calculada pela tangente de 30° é 40 * (1/√3) = 40√3/3 ≈ 40 * 1.732 / 3 ≈ 23.09. Adicionando 1.6m, temos 24.69m. A alternativa A é a mais próxima, considerando aproximações."
     },
     {
-        "id": "2087719",
         "enunciado": "Durante a construção de um centro de acessibilidade em uma escola pública, a equipe de engenharia projetou uma rampa que parte do chão até a entrada da sala de leitura, a uma altura de 1,2 metro e, para atender às normas de inclinação máxima, ficou determinado que a rampa formará um ângulo de 30° com o solo, conforme ilustrado na imagem a seguir: Com base nesse projeto, qual será o comprimento (x) da rampa, em metros?",
         "alternativas": {
             "A": "x = 2,4 metros.",
@@ -84,10 +83,10 @@
             "D": "x = 0,6 metros."
         },
         "gabarito_correto": "A",
+        "id": "2087719",
         "comentario_ia": "Na situação descrita, temos um triângulo retângulo onde a altura da sala de leitura é o cateto oposto ao ângulo de 30° (1,2m) e o comprimento da rampa (x) é a hipotenusa. A relação trigonométrica que une o cateto oposto e a hipotenusa é o seno. Portanto, sen(30°) = cateto oposto / hipotenusa. Sabemos que sen(30°) = 1/2. Assim, 1/2 = 1,2 / x. Isolando x, temos x = 1,2 * 2 = 2,4 metros."
     },
     {
-        "id": "1712302",
         "enunciado": "Em um triângulo retângulo, um dos ângulos agudos mede 30° e a hipotenusa tem 10 cm. Determine o comprimento do cateto oposto a esse ângulo.",
         "alternativas": {
             "A": "2 cm",
@@ -96,10 +95,10 @@
             "D": "5 cm"
         },
         "gabarito_correto": "D",
+        "id": "1712302",
         "comentario_ia": "Em um triângulo retângulo com um ângulo de 30°, o cateto oposto a esse ângulo mede metade da hipotenusa. Portanto, 10 cm / 2 = 5 cm."
     },
     {
-        "id": "2332724",
         "enunciado": "Considere que a distância horizontal do ponto A ao ponto B vale 6 e que a distância horizontal do ponto A ao ponto C vale 8. Considere ainda que o ângulo horizontal com ré em B, estação em A e vante em C vale 90°. A distância horizontal entre B e C vale:",
         "alternativas": {
             "A": "10.",
@@ -109,10 +108,10 @@
             "E": "7."
         },
         "gabarito_correto": "A",
+        "id": "2332724",
         "comentario_ia": "Considerando um triângulo retângulo com catetos AB=6 e AC=8, a hipotenusa BC (distância horizontal entre B e C) é calculada pelo teorema de Pitágoras: BC² = AB² + AC². Logo, BC = sqrt(6² + 8²) = sqrt(36 + 64) = sqrt(100) = 10."
     },
     {
-        "id": "2372382",
         "enunciado": "Considere um triângulo retângulo ABC, com ângulo reto em A, em que sen B = 3/5. Além disso, seja α um ângulo do ciclo trigonométrico tal que α pertence ao segundo quadrante e satisfaz cos α = - cos B. Analise as afirmativas a seguir. I.No triângulo ABC, a razão entre o cateto adjacente ao ângulo B e a hipotenusa é igual a 4/5. II.O valor de tan B é maior que 1. III.O ângulo α pode ser escrito, em radianos, como π - B. IV.No ciclo trigonométrico, os arcos B e α possuem senos de mesmo valor numérico e sinais iguais. V.Em um triângulo qualquer, se dois de seus ângulos internos forem congruentes, então, como consequência da Lei dos Senos, os lados opostos a esses ângulos são iguais. Assinale a alternativa CORRETA:",
         "alternativas": {
             "A": "Apenas as afirmativas II, III e IV são verdadeiras.",
@@ -122,10 +121,10 @@
             "E": "As afirmativas I, II, III, IV e V são verdadeiras."
         },
         "gabarito_correto": "D",
+        "id": "2372382",
         "comentario_ia": "I Correta: cos B = 4/5. II Correta: tan B = 3/4, que é menor que 1 Falsa. III Correta: α = π - B. IV Correta: sen α = sen B e sinais iguais. V Correta: Lei dos Senos implica igualdade dos lados opostos a ângulos iguais. Corrigindo: II é Falsa pois tan B = 3/4. Logo, a alternativa D com I, III, IV, V é a correta."
     },
     {
-        "id": "2286683",
         "enunciado": "Uma empresa instala um painel eletrônico em área externa, utilizando uma haste metálica como suporte. A base da haste é fixada ao solo no ponto A, enquanto sua extremidade superior, no ponto B, sustenta o painel e forma um ângulo de 38° com o solo plano. A projeção vertical do ponto B sobre o solo é o ponto C, de modo que a distância AC é igual a 4,0 m. Sabendo que a haste se inclina apenas segundo o ângulo informado, determine o comprimento da haste AB. (considere sen (38°) = 0,6157, cos (38°) = 0,7880 e tang (38°) = 0,7813)",
         "alternativas": {
             "A": "A haste AB mede 5,08 m.",
@@ -134,10 +133,10 @@
             "D": "A haste AB mede 4,62 m."
         },
         "gabarito_correto": "A",
+        "id": "2286683",
         "comentario_ia": "Temos um triângulo retângulo formado pela haste (hipotenusa AB), a projeção no solo (cateto AC) e a altura (cateto BC). O ângulo dado é de 38° com o solo (ângulo CAB). Queremos achar AB. Sabemos que cos(ângulo) = cateto adjacente / hipotenusa. Portanto, cos(38°) = AC / AB. Assim, AB = AC / cos(38°). AB = 4.0 m / 0.7880 ≈ 5,076 m. Arredondando para uma casa decimal, temos 5,1 m. A alternativa mais próxima é A) 5,08 m."
     },
     {
-        "id": "2359008",
         "enunciado": "No intervalo (0, π/2), considere a equação: 2 × sen(2x) = tg(x). É correto afirmar que:",
         "alternativas": {
             "A": "Não existe solução nesse intervalo.",
@@ -147,10 +146,10 @@
             "E": "A única solução é x = π/4."
         },
         "gabarito_correto": "C",
+        "id": "2359008",
         "comentario_ia": "A equação é 2sen(2x) = tg(x). No intervalo (0, π/2), sen(2x) > 0 e tg(x) > 0. Transformando: 2 * (2sen(x)cos(x)) = sen(x)/cos(x). Se sen(x) ≠ 0, podemos simplificar: 4cos(x) = 1/cos(x). Logo, 4cos²(x) = 1, cos²(x) = 1/4. No intervalo (0, π/2), cos(x) = 1/2. Isso ocorre apenas para x = π/3. Assim, existe exatamente uma solução."
     },
     {
-        "id": "1805800",
         "enunciado": "Um engenheiro precisa calcular a altura de uma torre que não pode ser medida diretamente. Ele posiciona um teodolito em um ponto no solo, a uma distância de 50m da base da torre, e mede o ângulo de elevação ao topo, obtendo 50º. Sabendo que a base do teodolito está no mesmo nível da base da torre, qual é a altura da torre? Considere tan (30º) = √3 / 3.",
         "alternativas": {
             "A": "100 m",
@@ -159,10 +158,10 @@
             "D": "50 / √3 m"
         },
         "gabarito_correto": "D",
+        "id": "1805800",
         "comentario_ia": "Com o ângulo de elevação e a distância até a base, usamos a tangente: tan(ângulo) = altura / distância. Então, tan(50º) = altura / 50m. Precisamos do valor de tan(50º). A questão fornece tan(30º), o que sugere que talvez o ângulo fosse 30º ou a questão está incompleta. NO ENTANTO, se considerarmos um triângulo retângulo onde o ângulo de elevação é 50º, a tangente será a razão entre o cateto oposto (altura da torre) e o cateto adjacente (distância de 50m). Se o ângulo fosse 30º, tan(30º) = altura / 50, logo altura = 50 * (√3 / 3) = 50√3 / 3. Não bate com nenhuma. Se o ângulo fosse 60º, tan(60º) = √3. altura = 50√3. Não bate. Refazendo a interpretação: o enunciado fornece tan(30º), mas o ângulo medido é 50º. Isso é uma inconsistência. Se, POR HIPÓTESE, o ângulo medido fosse 30º, teríamos Altura = 50 * tan(30º) = 50 * (√3/3) = 50√3/3. Se o ângulo fosse 60º, Altura = 50 * tan(60º) = 50√3. A alternativa D é 50/√3. Se a distância fosse a altura e o ângulo fosse de 30º, talvez. Mas não é o caso. Há um erro crass..."
     },
     {
-        "id": "1895796",
         "enunciado": "Considere a equação cos(2x) = 1/2 no intervalo 0 ≤ x < 2π. Quantas soluções essa equação admite?",
         "alternativas": {
             "A": "2",
@@ -171,10 +170,10 @@
             "D": "6"
         },
         "gabarito_correto": "C",
+        "id": "1895796",
         "comentario_ia": "A equação cos(2x) = 1/2 tem soluções 2x = π/3 + 2kπ e 2x = 5π/3 + 2kπ. No intervalo 0 ≤ x < 2π (ou 0 ≤ 2x < 4π), temos 2x = π/3, 5π/3, 7π/3 e 11π/3. Dividindo por 2, obtemos x = π/6, 5π/6, 7π/6 e 11π/6, totalizando 4 soluções."
     },
     {
-        "id": "2334261",
         "enunciado": "A entrada de um prédio conta com uma rampa acessível, cuja visão lateral é mostrada na imagem. A rampa possui 4 metros de comprimento e vence um desnível vertical de 2 metros até a porta principal. Considerando que a rampa forma um triângulo retângulo com o solo, determine a medida CORRETA do ângulo de inclinação da rampa em relação ao solo.",
         "alternativas": {
             "A": "O ângulo mede 60°.",
@@ -183,11 +182,11 @@
             "D": "O ângulo mede 45°."
         },
         "gabarito_correto": "C",
+        "id": "2334261",
         "comentario_ia": "No triângulo retângulo formado, o seno do ângulo de inclinação (sen θ) é a razão entre o cateto oposto (desnível vertical = 2m) e a hipotenusa (comprimento da rampa = 4m). Sen θ = 2/4 = 0.5, o que corresponde a um ângulo de 30°."
     },
     {
-        "id": "1803214",
-        "enunciado": "Um atleta treina em uma pista circular com 1 800 metros de comprimento, correndo no sentido anti-horário em velocidade constante de 3 metros por segundo. Seu treinador observou em um intervalo de 5 minutos, o arco percorrido pelo atleta sobre o círculo da pista, ou seja, a fração da volta completa que ele correu.  Qual é, em graus, a medida do ângulo que equivale ao arco observado pelo treinador?",
+        "enunciado": "Um atleta treina em uma pista circular com 1 800 metros de comprimento, correndo no sentido anti-horário em velocidade constante de 3 metros por segundo. Seu treinador observou em um intervalo de 5 minutos, o arco percorrido pelo atleta sobre o círculo da pista, ou seja, a fração da volta completa que ele correu. Qual é, em graus, a medida do ângulo que equivale ao arco observado pelo treinador?",
         "alternativas": {
             "A": "70.",
             "B": "85.",
@@ -196,10 +195,10 @@
             "E": "200."
         },
         "gabarito_correto": "C",
+        "id": "1803214",
         "comentario_ia": "O atleta percorreu 3 m/s * 300 s = 900 metros. Isso representa 900m / 1800m = 0,5 da volta. 0,5 * 360º = 180º. Houve um erro no cálculo original."
     },
     {
-        "id": "2041089",
         "enunciado": "Um engenheiro precisa calcular a altura de uma torre de transmissão. A partir de um ponto no solo, ele observa o topo da torre com um ângulo de 60°. Sabendo que a distância horizontal até a base da torre é de 20 metros, qual é a altura (h) da torre? (Faça √3 = 1,73)",
         "alternativas": {
             "A": "h = 34,6 m",
@@ -208,10 +207,10 @@
             "D": "h = 17,3 m"
         },
         "gabarito_correto": "A",
+        "id": "2041089",
         "comentario_ia": "Utilizando a relação trigonométrica da tangente (tan), temos tan(60°) = h/20. Como tan(60°) = √3, então h = 20 * √3. Substituindo √3 por 1,73, temos h = 20 * 1,73 = 34,6 metros."
     },
     {
-        "id": "2011034",
         "enunciado": "Analise o triângulo retângulo abaixo:Com base nos dados apresentados, é correto afirmar que o valor do seno do ângulo θ é:",
         "alternativas": {
             "A": "0,2",
@@ -221,10 +220,10 @@
             "E": "0,9"
         },
         "gabarito_correto": "D",
+        "id": "2011034",
         "comentario_ia": "O seno de um ângulo é a razão entre o cateto oposto e a hipotenusa. No triângulo, o seno de θ é 4/5 = 0,8."
     },
     {
-        "id": "1719611",
         "enunciado": "Um arquiteto está projetando uma ponte e precisa determinar o comprimento dos cabos que sustentam a estrutura para efetuar a compra do material. Um dos pilares de apoio mede 50 metros de altura; de sua parte superior, parte um cabo de sustentação, que forma um ângulo de 75° em relação ao plano horizontal. Com essas informações, assinalar a alternativa que apresenta a quantidade mínima suficiente para a compra de cabo desse pilar (seno 75 °=0,96; cosseno 75° = 0,26; tangente 75° = 3,73):",
         "alternativas": {
             "A": "55 metros.",
@@ -233,10 +232,10 @@
             "D": "58 metros."
         },
         "gabarito_correto": "B",
+        "id": "1719611",
         "comentario_ia": "O comprimento do cabo (hipotenusa) pode ser calculado usando o seno do ângulo. A altura do pilar (cateto oposto) é 50m. Seno(75°) = 50 / Cabo. Cabo = 50 / Seno(75°) = 50 / 0,96 ≈ 52,08 metros. O valor mínimo suficiente seria 53 metros."
     },
     {
-        "id": "1801259",
         "enunciado": "Renato está a distância de 3 metros de um poste, quando observa o topo dele por um ângulo de 60º com a horizontal. Afastando-se, em linha reta, para um ponto que dista x metros do poste, seu ângulo de visão, em relação a horizontal, do topo do poste passa a ser de 30º. Na situação descrita, x é igual a",
         "alternativas": {
             "A": "4.",
@@ -246,10 +245,10 @@
             "E": "9."
         },
         "gabarito_correto": "C",
+        "id": "1801259",
         "comentario_ia": "Utilizando trigonometria, a altura do poste h pode ser calculada com tg(60) = h/3 e tg(30) = h/(3+x). Isolando h em ambas as equações e igualando, chegamos a x = 6 metros."
     },
     {
-        "id": "2254620",
         "enunciado": "Um engenheiro precisa determinar a altura de um poste de iluminação. Ele se afasta 10 metros da base do poste e, com um teodolito, mede um ângulo de elevação de 30º em relação ao topo. Considerando √3≈1,73 , a altura do poste é aproximadamente:",
         "alternativas": {
             "A": "8,66 m",
@@ -259,10 +258,10 @@
             "E": "17,32 m"
         },
         "gabarito_correto": "A",
+        "id": "2254620",
         "comentario_ia": "Seja h a altura do poste. Temos um triângulo retângulo onde o poste é o cateto oposto ao ângulo de 30º, e a distância de 10 metros é o cateto adjacente. Usamos a tangente: tan(30º) = oposto/adjacente = h/10. Como tan(30º) = 1/√3, temos h/10 = 1/√3 => h = 10/√3. Racionalizando: h = 10√3 / 3. Usando √3 ≈ 1,73, h ≈ 10 * 1,73 / 3 = 17,3 / 3 ≈ 5,77 m. Houve uma confusão no meu cálculo com tan(60º). Refazendo: tan(30º) = h/10. h = 10 * tan(30º). tan(30º) = 1/√3. h = 10 * (1/√3) = 10/√3. Ou, usando √3≈1.73, tan(30º) ≈ 1/1.73 ≈ 0.577. h ≈ 10 * 0.577 = 5.77 m. A alternativa A é 8.66 m. A alternativa C é 5.77 m. Parece que a minha racionalização está incorreta ou a aproximação. Vamos verificar tan(30º). tan(30º) = sen(30º)/cos(30º) = (1/2) / (√3/2) = 1/√3. h = 10 * (1/√3) = 10/√3 ≈ 10 / 1.732 ≈ 5.7735. Então, 5.77 m é a resposta correta. A alternativa C. Por que marquei A? Houve um erro. Corrigindo. tan(30) = h/10 => h = 10 * tan(30) = 10 * (1/√3) = 10/√3. Aproximando √3 ≈ 1.73, h ≈ 10 / 1.73 ≈ 5.78. A alternativa ..."
     },
     {
-        "id": "1980768",
         "enunciado": "Em uma rua plana e horizontal AB, um observador no ponto A avista o topo de um prédio sob um ângulo de visão, em relação ao solo, de 45º. No ponto B, distanciado em 20 metros do ponto A, esse observador avista o topo do prédio sob um ângulo de 60º. Também no ponto B, o observador avista a base do prédio, em um nível abaixo do nível em que ele se encontra, sob um ângulo de 30º, conforme figura a seguir. Com essas informações, é correto afirmar que a altura desse prédio é de, aproximadamente,",
         "alternativas": {
             "A": "69 m",
@@ -272,10 +271,10 @@
             "E": "63 m"
         },
         "gabarito_correto": "E",
+        "id": "1980768",
         "comentario_ia": "Seja H a altura do prédio e 'd' a distância horizontal de A à base. Tangente(45°) = H/d => H = d. No ponto B, a distância é d-20. Observador em B está no nível da rua (0), vendo o topo (H) com 60° e a base (nível b < 0) com 30° de depressão. Assim, Tan(60°) = H/(d-20) e Tan(30°) = -b/(d-20). Com H=d, resolvemos o sistema encontrando d = 10(3+√3) ≈ 47.32m. A altura do prédio H (do nível da base 'b' ao topo) é calculada como H = d - b. Usando as equações, encontramos H ≈ 63.09m, que corresponde à opção E."
     },
     {
-        "id": "1088062",
         "enunciado": "Em um triângulo ABC, B = 90º, A = 30º e AC = 10 cm. Assinale a alternativa que apresenta o valor CORRETO de AB + BC + CA. Use sen(30°) = 0,5, cos(30°) = 0,9 e tg(30°) = 0,6.",
         "alternativas": {
             "A": "20 cm.",
@@ -284,11 +283,11 @@
             "D": "26 cm."
         },
         "gabarito_correto": "C",
+        "id": "1088062",
         "comentario_ia": "Trata-se de um triângulo retângulo. AC (hipotenusa) = 10. Usando seno(30°) = cateto oposto/hipotenusa, BC = 10*0,5 = 5. Usando cosseno(30°) = cateto adjacente/hipotenusa, AB = 10*0,9 = 9. O perímetro é AB+BC+CA = 9+5+10=24 cm."
     },
     {
-        "id": "1087552",
-        "enunciado": "Sabendo que sen(α) =      , qual é o valor de cos(α) ?",
+        "enunciado": "Sabendo que sen(α) = , qual é o valor de cos(α) ?",
         "alternativas": {
             "A": "12 / 13",
             "B": "8 / 13",
@@ -296,10 +295,10 @@
             "D": "1 / 13"
         },
         "gabarito_correto": "C",
+        "id": "1087552",
         "comentario_ia": "A identidade fundamental da trigonometria cos²(α) + sen²(α) = 1 permite calcular o cos(α) se o sen(α) for conhecido. Com sen(α) = 12/13, teremos cos(α) = 5/13."
     },
     {
-        "id": "1248788",
         "enunciado": "Devemos ter em consideração que as identidades trigonométricas são justamente igualdades que envolvem funções trigonométricas que estão aplicadas a um mesmo arco. Elas também são conhecidas como relações trigonométricas e podem ser utilizadas para simplificar expressões e definir outras novas. Para que uma igualdade que envolva funções trigonométricas seja uma identidade, esta deve ser verificada para todos os valores do domínio das funções. Diante disso, assinale a alternativa que representa uma identidade trigonométrica.",
         "alternativas": {
             "A": "sen(-x) = -sen(x).",
@@ -309,10 +308,10 @@
             "E": "cos (x+y) = cos(x) + cos(y)."
         },
         "gabarito_correto": "A",
+        "id": "1248788",
         "comentario_ia": "A alternativa A, sen(-x) = -sen(x), é a identidade trigonométrica da função seno ímpar, válida para todos os valores de x. As demais alternativas apresentadas não são identidades trigonométricas verdadeiras."
     },
     {
-        "id": "1233037",
         "enunciado": "A uma distância de 60m, um edifício é visto sob um ângulo α. Determine a altura h do edifício, se α=30°.",
         "alternativas": {
             "A": "20√3",
@@ -322,10 +321,10 @@
             "E": "5 √3 3"
         },
         "gabarito_correto": "A",
+        "id": "1233037",
         "comentario_ia": "Utilizando a trigonometria em um triângulo retângulo, a tangente do ângulo de 30° é a razão entre a altura do edifício (h) e a distância (60m). Portanto, tan(30°) = h/60, resultando em h = 60 * (√3/3) = 20√3."
     },
     {
-        "id": "1647865",
         "enunciado": "Um móvel parte de A e segue numa direção que forma com a reta AC um ângulo de 30º. Sabe-se que o móvel roda com uma velocidade constante de 60 km/h. Logo, após 4 horas de percurso, a distância que o móvel se encontra da reta AC é de",
         "alternativas": {
             "A": "120√3 km.",
@@ -334,10 +333,10 @@
             "D": "80 km."
         },
         "gabarito_correto": "C",
+        "id": "1647865",
         "comentario_ia": "A distância da reta AC é dada pelo cateto oposto ao ângulo de 30º em um triângulo retângulo. A distância percorrida é a hipotenusa (60 km/h * 4h = 240 km). A distância da reta AC é Hipotenusa * sen(30º) = 240 * 0.5 = 120 km."
     },
     {
-        "id": "1648165",
         "enunciado": "Ao lado de uma escadaria será instalada uma rampa para possibilitar o acesso de cadeiras de rodas. A altura total do piso em relação à rua é de 2m e a inclinação dessa rampa será de 30º. Qual é o comprimento da rampa e a distância entre o ponto que a construção deve ser iniciada até o ponto de medida da altura do piso, respectivamente?",
         "alternativas": {
             "A": "A rampa terá 4m de comprimento e será construída a uma distância aproximada de 3,5 m.",
@@ -346,10 +345,10 @@
             "D": "A rampa terá 4m de comprimento e será construída a uma distância exata de 2m."
         },
         "gabarito_correto": "A",
+        "id": "1648165",
         "comentario_ia": "Considerando a altura (cateto oposto) de 2m e um ângulo de 30 graus, o comprimento da rampa (hipotenusa) é 2 / sen(30º) = 4m. A distância horizontal (cateto adjacente) é 2 / tan(30º) ≈ 3,46m, aproximando para 3,5m."
     },
     {
-        "id": "1643107",
         "enunciado": "Uma empresa de engenharia está projetando uma rampa de acesso para um hospital. A inclinação da rampa deve obedecer às normas de acessibilidade, que estabelecem um ângulo máximo de 5° entre a rampa e o solo para facilitar a circulação de cadeiras de rodas. Para definir o comprimento da rampa, os engenheiros mediram a altura da entrada do hospital em relação ao solo e obtiveram uma elevação de 1,2 metros. Para concluir o projeto, a empresa precisa calcular o comprimento da rampa necessário para atender à inclinação máxima permitida. Qual deve ser o comprimento aproximado da rampa (em metros) para que o ângulo de inclinação seja de, no máximo, 5°? (Considere seno de 5° = 0,0872)",
         "alternativas": {
             "A": "12,3 metros.",
@@ -358,10 +357,10 @@
             "D": "15,4 metros."
         },
         "gabarito_correto": "B",
+        "id": "1643107",
         "comentario_ia": "Seja H a altura (1,2m) e C o comprimento da rampa. O seno do angulo de inclinacao (5°) e igual a H/C. Entao, C = H / sen(5°). C = 1,2 / 0,0872 ≈ 13,76 metros. Aproximadamente 13,8 metros."
     },
     {
-        "id": "1177659",
         "enunciado": "Um engenheiro precisa calcular a altura de uma antena de transmissão, que forma um ângulo de 45° com o solo a uma distância de 50 metros da base. Qual é a altura aproximada da antena?",
         "alternativas": {
             "A": "35 metros",
@@ -370,10 +369,10 @@
             "D": "100 metros"
         },
         "gabarito_correto": "B",
+        "id": "1177659",
         "comentario_ia": "Em um triangulo retangulo com angulo de 45°, os catetos (altura da antena e distancia do solo) sao iguais. Logo, a altura e igual a distancia, 50 metros."
     },
     {
-        "id": "2281051",
         "enunciado": "Durante a instalação de uma rampa de acesso em uma escola, é necessário medir a altura alcançada pela extremidade superior da rampa. Sabe-se que a rampa forma um ângulo de 30° com o chão e que seu comprimento total, do chão até o ponto mais alto, é de 6 metros. Considerando sin30° = 0,5, qual é a altura alcançada pela extremidade da rampa?",
         "alternativas": {
             "A": "1,5 metros.",
@@ -382,10 +381,10 @@
             "D": "6 metros."
         },
         "gabarito_correto": "C",
+        "id": "2281051",
         "comentario_ia": "A altura é o cateto oposto ao ângulo de 30°. Usando a função seno, temos sen(30°) = altura / comprimento. Logo, altura = comprimento * sen(30°) = 6m * 0,5 = 3m."
     },
     {
-        "id": "1860463",
         "enunciado": "Paula está parada, de pé, em frente a um poste vertical, sobre uma rua horizontal. Para olhar diretamente para o topo do poste, Paula precisa erguer sua linha de visão em 45  com relação à horizontal. A distância de Paula até o poste é igual",
         "alternativas": {
             "A": "à altura do poste.",
@@ -395,10 +394,10 @@
             "E": "à altura dos olhos de Paula."
         },
         "gabarito_correto": "A",
+        "id": "1860463",
         "comentario_ia": "Forma-se um triângulo retângulo onde o ângulo de elevação é de 45º. Nesse caso, a tangente do ângulo de 45º é igual a 1, o que significa que o cateto oposto (altura do poste acima da linha de visão de Paula) é igual ao cateto adjacente (distância de Paula ao poste). Consideremos a altura dos olhos de Paula como negligenciável ou no nível do solo para simplificar. Para um ângulo de 45°, a distância horizontal é igual à altura vertical acima da linha de visão."
     },
     {
-        "id": "2081806",
         "enunciado": "Analise a situação hipotética: uma rampa de acesso deverá ser construída e o projetista deverá determinar a sua inclinação. Sabe-se que ela ligará dois pontos com um desnível vertical de 1,5 metros e que possuirá 6 metros de comprimento em linha reta, conforme a figura abaixo: Assinale a alternativa que indica a inclinação aproximada da rampa:",
         "alternativas": {
             "A": "4,00º",
@@ -407,10 +406,10 @@
             "D": "75,52º"
         },
         "gabarito_correto": "B",
+        "id": "2081806",
         "comentario_ia": "A inclinação da rampa pode ser calculada usando trigonometria: seno(ângulo) = Cateto Oposto / Hipotenusa. Sen(ângulo) = 1,5 m / 6 m = 0,25. Calculando o arco seno de 0,25, obtém-se aproximadamente 14,04º."
     },
     {
-        "id": "2368790",
         "enunciado": "Num porto, o cais reto XY tem 720 m de comprimento e pode ser considerado no mesmo nível do mar. Dos pontos X e Y, observa-se uma ilha Z de modo que m(ZXY) = 28° e m(ZYX) = 41°. Nessa perspectiva, a distância entre a ilha e o cais é aproximadamente de: (Use: tg de 28º = 0,53 e tg de 41º = 0,87)",
         "alternativas": {
             "A": "237 m.",
@@ -419,10 +418,10 @@
             "D": "293 m."
         },
         "gabarito_correto": "B",
+        "id": "2368790",
         "comentario_ia": "Considere o triângulo XZY. Temos o comprimento XY = 720m, m(ZXY) = 28°, m(ZYX) = 41°. O terceiro ângulo m(XZY) = 180° - 28° - 41° = 111°. A distância da ilha ao cais é a altura h relativa à hipotenusa XY. No triângulo ZXM (onde M é o ponto da ilha projetado no cais), tg(28°) = h/XM e tg(41°) = h/MY. XY = XM + MY = 720. Usando a lei dos senos no triângulo XZY: ZY/sen(28°) = XY/sen(111°). ZY = 720 * sen(28°)/sen(111°) ≈ 360. Em outra abordagem, use tg(28°) = h/XM e tg(41°) = h/MY. XY = XM + MY. No triângulo ZXY, podemos calcular YZ. Pela lei dos senos: YZ/sen(28) = 720/sen(111). YZ = 720 * 0.469 / 0.934 = 361. Na verdade, calculamos a altura do triângulo Z para a base XY. Sejam h a altura e x e y as projeções de ZX e ZY em XY. tg(28) = h/x, tg(41) = h/y. x+y = 720. x = h/tg(28), y = h/tg(41). h/tg(28) + h/tg(41) = 720 => h * (1/0.53 + 1/0.87) = 720 => h * (1.88 + 1.15) = 720 => h * 3.03 = 720 => h = 720/3.03 ≈ 237. Erro no cálculo. Tente como altura relativa ao lado XY é h. No triângulo ZXY, seja M o pé da ..."
     },
     {
-        "id": "2289734",
         "enunciado": "Um topógrafo analisa a inclinação de um trecho de estrada que está sendo projetado. A distância horizontal medida é de 40 m e o equipamento de medição indica um ângulo de elevação de 28°. Para definir a terraplenagem necessária, o profissional deve determinar o desnível vertical correspondente. Qual será esse desnível? (considere tan 28° = 0,53)",
         "alternativas": {
             "A": "O desnível será de 25,0 m.",
@@ -432,10 +431,10 @@
             "E": "O desnível será de 18,7 m."
         },
         "gabarito_correto": "B",
+        "id": "2289734",
         "comentario_ia": "O desnível vertical (cateto oposto) pode ser calculado usando a tangente do ângulo de elevação. A fórmula é tg(ângulo) = desnível / distância horizontal. Portanto, desnível = distância horizontal * tg(ângulo). Substituindo os valores: desnível = 40 m * 0,53 = 21,2 m. A alternativa B está correta."
     },
     {
-        "id": "2391945",
         "enunciado": "Um topógrafo observa o topo de uma torre sob um ângulo de elevação de 30°, estando a 40 m da base da torre. Considerando que a altura do ponto de observação do topógrafo até o chão é de 1,6 metros, calcule a altura da torre. (considere √3 = 1,73).",
         "alternativas": {
             "A": "A altura da torre é de aproximadamente 25,13 m.",
@@ -445,10 +444,10 @@
             "E": "A altura da torre é de aproximadamente 18,51 m."
         },
         "gabarito_correto": "A",
+        "id": "2391945",
         "comentario_ia": "Considerando a altura do ponto de observação (1,6 m), a altura a ser calculada envolve apenas a torre acima desse ponto. Utilizando a tangente de 30° (tan(30°) = altura / 40m), a altura acima do observador é 40 * (√3/3) ≈ 40 * (1,73/3) ≈ 23,07m. A altura total da torre é 23,07 + 1,6 ≈ 24,67m. Uma aproximação mais precisa seria. A altura calculada pela tangente de 30° é 40 * (1/√3) = 40√3/3 ≈ 40 * 1.732 / 3 ≈ 23.09. Adicionando 1.6m, temos 24.69m. A alternativa A é a mais próxima, considerando aproximações."
     },
     {
-        "id": "2087719",
         "enunciado": "Durante a construção de um centro de acessibilidade em uma escola pública, a equipe de engenharia projetou uma rampa que parte do chão até a entrada da sala de leitura, a uma altura de 1,2 metro e, para atender às normas de inclinação máxima, ficou determinado que a rampa formará um ângulo de 30° com o solo, conforme ilustrado na imagem a seguir: Com base nesse projeto, qual será o comprimento (x) da rampa, em metros?",
         "alternativas": {
             "A": "x = 2,4 metros.",
@@ -457,10 +456,10 @@
             "D": "x = 0,6 metros."
         },
         "gabarito_correto": "A",
+        "id": "2087719",
         "comentario_ia": "Na situação descrita, temos um triângulo retângulo onde a altura da sala de leitura é o cateto oposto ao ângulo de 30° (1,2m) e o comprimento da rampa (x) é a hipotenusa. A relação trigonométrica que une o cateto oposto e a hipotenusa é o seno. Portanto, sen(30°) = cateto oposto / hipotenusa. Sabemos que sen(30°) = 1/2. Assim, 1/2 = 1,2 / x. Isolando x, temos x = 1,2 * 2 = 2,4 metros."
     },
     {
-        "id": "1712302",
         "enunciado": "Em um triângulo retângulo, um dos ângulos agudos mede 30° e a hipotenusa tem 10 cm. Determine o comprimento do cateto oposto a esse ângulo.",
         "alternativas": {
             "A": "2 cm",
@@ -469,10 +468,10 @@
             "D": "5 cm"
         },
         "gabarito_correto": "D",
+        "id": "1712302",
         "comentario_ia": "Em um triângulo retângulo com um ângulo de 30°, o cateto oposto a esse ângulo mede metade da hipotenusa. Portanto, 10 cm / 2 = 5 cm."
     },
     {
-        "id": "2332724",
         "enunciado": "Considere que a distância horizontal do ponto A ao ponto B vale 6 e que a distância horizontal do ponto A ao ponto C vale 8. Considere ainda que o ângulo horizontal com ré em B, estação em A e vante em C vale 90°. A distância horizontal entre B e C vale:",
         "alternativas": {
             "A": "10.",
@@ -482,10 +481,10 @@
             "E": "7."
         },
         "gabarito_correto": "A",
+        "id": "2332724",
         "comentario_ia": "Considerando um triângulo retângulo com catetos AB=6 e AC=8, a hipotenusa BC (distância horizontal entre B e C) é calculada pelo teorema de Pitágoras: BC² = AB² + AC². Logo, BC = sqrt(6² + 8²) = sqrt(36 + 64) = sqrt(100) = 10."
     },
     {
-        "id": "2372382",
         "enunciado": "Considere um triângulo retângulo ABC, com ângulo reto em A, em que sen B = 3/5. Além disso, seja α um ângulo do ciclo trigonométrico tal que α pertence ao segundo quadrante e satisfaz cos α = - cos B. Analise as afirmativas a seguir. I.No triângulo ABC, a razão entre o cateto adjacente ao ângulo B e a hipotenusa é igual a 4/5. II.O valor de tan B é maior que 1. III.O ângulo α pode ser escrito, em radianos, como π - B. IV.No ciclo trigonométrico, os arcos B e α possuem senos de mesmo valor numérico e sinais iguais. V.Em um triângulo qualquer, se dois de seus ângulos internos forem congruentes, então, como consequência da Lei dos Senos, os lados opostos a esses ângulos são iguais. Assinale a alternativa CORRETA:",
         "alternativas": {
             "A": "Apenas as afirmativas II, III e IV são verdadeiras.",
@@ -495,10 +494,10 @@
             "E": "As afirmativas I, II, III, IV e V são verdadeiras."
         },
         "gabarito_correto": "D",
+        "id": "2372382",
         "comentario_ia": "I Correta: cos B = 4/5. II Correta: tan B = 3/4, que é menor que 1 Falsa. III Correta: α = π - B. IV Correta: sen α = sen B e sinais iguais. V Correta: Lei dos Senos implica igualdade dos lados opostos a ângulos iguais. Corrigindo: II é Falsa pois tan B = 3/4. Logo, a alternativa D com I, III, IV, V é a correta."
     },
     {
-        "id": "2286683",
         "enunciado": "Uma empresa instala um painel eletrônico em área externa, utilizando uma haste metálica como suporte. A base da haste é fixada ao solo no ponto A, enquanto sua extremidade superior, no ponto B, sustenta o painel e forma um ângulo de 38° com o solo plano. A projeção vertical do ponto B sobre o solo é o ponto C, de modo que a distância AC é igual a 4,0 m. Sabendo que a haste se inclina apenas segundo o ângulo informado, determine o comprimento da haste AB. (considere sen (38°) = 0,6157, cos (38°) = 0,7880 e tang (38°) = 0,7813)",
         "alternativas": {
             "A": "A haste AB mede 5,08 m.",
@@ -507,10 +506,10 @@
             "D": "A haste AB mede 4,62 m."
         },
         "gabarito_correto": "A",
+        "id": "2286683",
         "comentario_ia": "Temos um triângulo retângulo formado pela haste (hipotenusa AB), a projeção no solo (cateto AC) e a altura (cateto BC). O ângulo dado é de 38° com o solo (ângulo CAB). Queremos achar AB. Sabemos que cos(ângulo) = cateto adjacente / hipotenusa. Portanto, cos(38°) = AC / AB. Assim, AB = AC / cos(38°). AB = 4.0 m / 0.7880 ≈ 5,076 m. Arredondando para uma casa decimal, temos 5,1 m. A alternativa mais próxima é A) 5,08 m."
     },
     {
-        "id": "2359008",
         "enunciado": "No intervalo (0, π/2), considere a equação: 2 × sen(2x) = tg(x). É correto afirmar que:",
         "alternativas": {
             "A": "Não existe solução nesse intervalo.",
@@ -520,10 +519,10 @@
             "E": "A única solução é x = π/4."
         },
         "gabarito_correto": "C",
+        "id": "2359008",
         "comentario_ia": "A equação é 2sen(2x) = tg(x). No intervalo (0, π/2), sen(2x) > 0 e tg(x) > 0. Transformando: 2 * (2sen(x)cos(x)) = sen(x)/cos(x). Se sen(x) ≠ 0, podemos simplificar: 4cos(x) = 1/cos(x). Logo, 4cos²(x) = 1, cos²(x) = 1/4. No intervalo (0, π/2), cos(x) = 1/2. Isso ocorre apenas para x = π/3. Assim, existe exatamente uma solução."
     },
     {
-        "id": "1805800",
         "enunciado": "Um engenheiro precisa calcular a altura de uma torre que não pode ser medida diretamente. Ele posiciona um teodolito em um ponto no solo, a uma distância de 50m da base da torre, e mede o ângulo de elevação ao topo, obtendo 50º. Sabendo que a base do teodolito está no mesmo nível da base da torre, qual é a altura da torre? Considere tan (30º) = √3 / 3.",
         "alternativas": {
             "A": "100 m",
@@ -532,10 +531,10 @@
             "D": "50 / √3 m"
         },
         "gabarito_correto": "D",
+        "id": "1805800",
         "comentario_ia": "Com o ângulo de elevação e a distância até a base, usamos a tangente: tan(ângulo) = altura / distância. Então, tan(50º) = altura / 50m. Precisamos do valor de tan(50º). A questão fornece tan(30º), o que sugere que talvez o ângulo fosse 30º ou a questão está incompleta. NO ENTANTO, se considerarmos um triângulo retângulo onde o ângulo de elevação é 50º, a tangente será a razão entre o cateto oposto (altura da torre) e o cateto adjacente (distância de 50m). Se o ângulo fosse 30º, tan(30º) = altura / 50, logo altura = 50 * (√3 / 3) = 50√3 / 3. Não bate com nenhuma. Se o ângulo fosse 60º, tan(60º) = √3. altura = 50√3. Não bate. Refazendo a interpretação: o enunciado fornece tan(30º), mas o ângulo medido é 50º. Isso é uma inconsistência. Se, POR HIPÓTESE, o ângulo medido fosse 30º, teríamos Altura = 50 * tan(30º) = 50 * (√3/3) = 50√3/3. Se o ângulo fosse 60º, Altura = 50 * tan(60º) = 50√3. A alternativa D é 50/√3. Se a distância fosse a altura e o ângulo fosse de 30º, talvez. Mas não é o caso. Há um erro crass..."
     },
     {
-        "id": "1895796",
         "enunciado": "Considere a equação cos(2x) = 1/2 no intervalo 0 ≤ x < 2π. Quantas soluções essa equação admite?",
         "alternativas": {
             "A": "2",
@@ -544,10 +543,10 @@
             "D": "6"
         },
         "gabarito_correto": "C",
+        "id": "1895796",
         "comentario_ia": "A equação cos(2x) = 1/2 tem soluções 2x = π/3 + 2kπ e 2x = 5π/3 + 2kπ. No intervalo 0 ≤ x < 2π (ou 0 ≤ 2x < 4π), temos 2x = π/3, 5π/3, 7π/3 e 11π/3. Dividindo por 2, obtemos x = π/6, 5π/6, 7π/6 e 11π/6, totalizando 4 soluções."
     },
     {
-        "id": "2334261",
         "enunciado": "A entrada de um prédio conta com uma rampa acessível, cuja visão lateral é mostrada na imagem. A rampa possui 4 metros de comprimento e vence um desnível vertical de 2 metros até a porta principal. Considerando que a rampa forma um triângulo retângulo com o solo, determine a medida CORRETA do ângulo de inclinação da rampa em relação ao solo.",
         "alternativas": {
             "A": "O ângulo mede 60°.",
@@ -556,11 +555,11 @@
             "D": "O ângulo mede 45°."
         },
         "gabarito_correto": "C",
+        "id": "2334261",
         "comentario_ia": "No triângulo retângulo formado, o seno do ângulo de inclinação (sen θ) é a razão entre o cateto oposto (desnível vertical = 2m) e a hipotenusa (comprimento da rampa = 4m). Sen θ = 2/4 = 0.5, o que corresponde a um ângulo de 30°."
     },
     {
-        "id": "1803214",
-        "enunciado": "Um atleta treina em uma pista circular com 1 800 metros de comprimento, correndo no sentido anti-horário em velocidade constante de 3 metros por segundo. Seu treinador observou em um intervalo de 5 minutos, o arco percorrido pelo atleta sobre o círculo da pista, ou seja, a fração da volta completa que ele correu.  Qual é, em graus, a medida do ângulo que equivale ao arco observado pelo treinador?",
+        "enunciado": "Um atleta treina em uma pista circular com 1 800 metros de comprimento, correndo no sentido anti-horário em velocidade constante de 3 metros por segundo. Seu treinador observou em um intervalo de 5 minutos, o arco percorrido pelo atleta sobre o círculo da pista, ou seja, a fração da volta completa que ele correu. Qual é, em graus, a medida do ângulo que equivale ao arco observado pelo treinador?",
         "alternativas": {
             "A": "70.",
             "B": "85.",
@@ -569,10 +568,10 @@
             "E": "200."
         },
         "gabarito_correto": "C",
+        "id": "1803214",
         "comentario_ia": "O atleta percorreu 3 m/s * 300 s = 900 metros. Isso representa 900m / 1800m = 0,5 da volta. 0,5 * 360º = 180º. Houve um erro no cálculo original."
     },
     {
-        "id": "2041089",
         "enunciado": "Um engenheiro precisa calcular a altura de uma torre de transmissão. A partir de um ponto no solo, ele observa o topo da torre com um ângulo de 60°. Sabendo que a distância horizontal até a base da torre é de 20 metros, qual é a altura (h) da torre? (Faça √3 = 1,73)",
         "alternativas": {
             "A": "h = 34,6 m",
@@ -581,10 +580,10 @@
             "D": "h = 17,3 m"
         },
         "gabarito_correto": "A",
+        "id": "2041089",
         "comentario_ia": "Utilizando a relação trigonométrica da tangente (tan), temos tan(60°) = h/20. Como tan(60°) = √3, então h = 20 * √3. Substituindo √3 por 1,73, temos h = 20 * 1,73 = 34,6 metros."
     },
     {
-        "id": "2011034",
         "enunciado": "Analise o triângulo retângulo abaixo:Com base nos dados apresentados, é correto afirmar que o valor do seno do ângulo θ é:",
         "alternativas": {
             "A": "0,2",
@@ -594,10 +593,10 @@
             "E": "0,9"
         },
         "gabarito_correto": "D",
+        "id": "2011034",
         "comentario_ia": "O seno de um ângulo é a razão entre o cateto oposto e a hipotenusa. No triângulo, o seno de θ é 4/5 = 0,8."
     },
     {
-        "id": "1719611",
         "enunciado": "Um arquiteto está projetando uma ponte e precisa determinar o comprimento dos cabos que sustentam a estrutura para efetuar a compra do material. Um dos pilares de apoio mede 50 metros de altura; de sua parte superior, parte um cabo de sustentação, que forma um ângulo de 75° em relação ao plano horizontal. Com essas informações, assinalar a alternativa que apresenta a quantidade mínima suficiente para a compra de cabo desse pilar (seno 75 °=0,96; cosseno 75° = 0,26; tangente 75° = 3,73):",
         "alternativas": {
             "A": "55 metros.",
@@ -606,10 +605,10 @@
             "D": "58 metros."
         },
         "gabarito_correto": "B",
+        "id": "1719611",
         "comentario_ia": "O comprimento do cabo (hipotenusa) pode ser calculado usando o seno do ângulo. A altura do pilar (cateto oposto) é 50m. Seno(75°) = 50 / Cabo. Cabo = 50 / Seno(75°) = 50 / 0,96 ≈ 52,08 metros. O valor mínimo suficiente seria 53 metros."
     },
     {
-        "id": "1801259",
         "enunciado": "Renato está a distância de 3 metros de um poste, quando observa o topo dele por um ângulo de 60º com a horizontal. Afastando-se, em linha reta, para um ponto que dista x metros do poste, seu ângulo de visão, em relação a horizontal, do topo do poste passa a ser de 30º. Na situação descrita, x é igual a",
         "alternativas": {
             "A": "4.",
@@ -619,10 +618,10 @@
             "E": "9."
         },
         "gabarito_correto": "C",
+        "id": "1801259",
         "comentario_ia": "Utilizando trigonometria, a altura do poste h pode ser calculada com tg(60) = h/3 e tg(30) = h/(3+x). Isolando h em ambas as equações e igualando, chegamos a x = 6 metros."
     },
     {
-        "id": "2254620",
         "enunciado": "Um engenheiro precisa determinar a altura de um poste de iluminação. Ele se afasta 10 metros da base do poste e, com um teodolito, mede um ângulo de elevação de 30º em relação ao topo. Considerando √3≈1,73 , a altura do poste é aproximadamente:",
         "alternativas": {
             "A": "8,66 m",
@@ -632,10 +631,10 @@
             "E": "17,32 m"
         },
         "gabarito_correto": "A",
+        "id": "2254620",
         "comentario_ia": "Seja h a altura do poste. Temos um triângulo retângulo onde o poste é o cateto oposto ao ângulo de 30º, e a distância de 10 metros é o cateto adjacente. Usamos a tangente: tan(30º) = oposto/adjacente = h/10. Como tan(30º) = 1/√3, temos h/10 = 1/√3 => h = 10/√3. Racionalizando: h = 10√3 / 3. Usando √3 ≈ 1,73, h ≈ 10 * 1,73 / 3 = 17,3 / 3 ≈ 5,77 m. Houve uma confusão no meu cálculo com tan(60º). Refazendo: tan(30º) = h/10. h = 10 * tan(30º). tan(30º) = 1/√3. h = 10 * (1/√3) = 10/√3. Ou, usando √3≈1.73, tan(30º) ≈ 1/1.73 ≈ 0.577. h ≈ 10 * 0.577 = 5.77 m. A alternativa A é 8.66 m. A alternativa C é 5.77 m. Parece que a minha racionalização está incorreta ou a aproximação. Vamos verificar tan(30º). tan(30º) = sen(30º)/cos(30º) = (1/2) / (√3/2) = 1/√3. h = 10 * (1/√3) = 10/√3 ≈ 10 / 1.732 ≈ 5.7735. Então, 5.77 m é a resposta correta. A alternativa C. Por que marquei A? Houve um erro. Corrigindo. tan(30) = h/10 => h = 10 * tan(30) = 10 * (1/√3) = 10/√3. Aproximando √3 ≈ 1.73, h ≈ 10 / 1.73 ≈ 5.78. A alternativa ..."
     },
     {
-        "id": "1980768",
         "enunciado": "Em uma rua plana e horizontal AB, um observador no ponto A avista o topo de um prédio sob um ângulo de visão, em relação ao solo, de 45º. No ponto B, distanciado em 20 metros do ponto A, esse observador avista o topo do prédio sob um ângulo de 60º. Também no ponto B, o observador avista a base do prédio, em um nível abaixo do nível em que ele se encontra, sob um ângulo de 30º, conforme figura a seguir. Com essas informações, é correto afirmar que a altura desse prédio é de, aproximadamente,",
         "alternativas": {
             "A": "69 m",
@@ -645,10 +644,10 @@
             "E": "63 m"
         },
         "gabarito_correto": "E",
+        "id": "1980768",
         "comentario_ia": "Seja H a altura do prédio e 'd' a distância horizontal de A à base. Tangente(45°) = H/d => H = d. No ponto B, a distância é d-20. Observador em B está no nível da rua (0), vendo o topo (H) com 60° e a base (nível b < 0) com 30° de depressão. Assim, Tan(60°) = H/(d-20) e Tan(30°) = -b/(d-20). Com H=d, resolvemos o sistema encontrando d = 10(3+√3) ≈ 47.32m. A altura do prédio H (do nível da base 'b' ao topo) é calculada como H = d - b. Usando as equações, encontramos H ≈ 63.09m, que corresponde à opção E."
     },
     {
-        "id": "1088062",
         "enunciado": "Em um triângulo ABC, B = 90º, A = 30º e AC = 10 cm. Assinale a alternativa que apresenta o valor CORRETO de AB + BC + CA. Use sen(30°) = 0,5, cos(30°) = 0,9 e tg(30°) = 0,6.",
         "alternativas": {
             "A": "20 cm.",
@@ -657,11 +656,11 @@
             "D": "26 cm."
         },
         "gabarito_correto": "C",
+        "id": "1088062",
         "comentario_ia": "Trata-se de um triângulo retângulo. AC (hipotenusa) = 10. Usando seno(30°) = cateto oposto/hipotenusa, BC = 10*0,5 = 5. Usando cosseno(30°) = cateto adjacente/hipotenusa, AB = 10*0,9 = 9. O perímetro é AB+BC+CA = 9+5+10=24 cm."
     },
     {
-        "id": "1087552",
-        "enunciado": "Sabendo que sen(α) =      , qual é o valor de cos(α) ?",
+        "enunciado": "Sabendo que sen(α) = , qual é o valor de cos(α) ?",
         "alternativas": {
             "A": "12 / 13",
             "B": "8 / 13",
@@ -669,10 +668,10 @@
             "D": "1 / 13"
         },
         "gabarito_correto": "C",
+        "id": "1087552",
         "comentario_ia": "A identidade fundamental da trigonometria cos²(α) + sen²(α) = 1 permite calcular o cos(α) se o sen(α) for conhecido. Com sen(α) = 12/13, teremos cos(α) = 5/13."
     },
     {
-        "id": "1248788",
         "enunciado": "Devemos ter em consideração que as identidades trigonométricas são justamente igualdades que envolvem funções trigonométricas que estão aplicadas a um mesmo arco. Elas também são conhecidas como relações trigonométricas e podem ser utilizadas para simplificar expressões e definir outras novas. Para que uma igualdade que envolva funções trigonométricas seja uma identidade, esta deve ser verificada para todos os valores do domínio das funções. Diante disso, assinale a alternativa que representa uma identidade trigonométrica.",
         "alternativas": {
             "A": "sen(-x) = -sen(x).",
@@ -682,10 +681,10 @@
             "E": "cos (x+y) = cos(x) + cos(y)."
         },
         "gabarito_correto": "A",
+        "id": "1248788",
         "comentario_ia": "A alternativa A, sen(-x) = -sen(x), é a identidade trigonométrica da função seno ímpar, válida para todos os valores de x. As demais alternativas apresentadas não são identidades trigonométricas verdadeiras."
     },
     {
-        "id": "1233037",
         "enunciado": "A uma distância de 60m, um edifício é visto sob um ângulo α. Determine a altura h do edifício, se α=30°.",
         "alternativas": {
             "A": "20√3",
@@ -695,10 +694,10 @@
             "E": "5 √3 3"
         },
         "gabarito_correto": "A",
+        "id": "1233037",
         "comentario_ia": "Utilizando a trigonometria em um triângulo retângulo, a tangente do ângulo de 30° é a razão entre a altura do edifício (h) e a distância (60m). Portanto, tan(30°) = h/60, resultando em h = 60 * (√3/3) = 20√3."
     },
     {
-        "id": "1647865",
         "enunciado": "Um móvel parte de A e segue numa direção que forma com a reta AC um ângulo de 30º. Sabe-se que o móvel roda com uma velocidade constante de 60 km/h. Logo, após 4 horas de percurso, a distância que o móvel se encontra da reta AC é de",
         "alternativas": {
             "A": "120√3 km.",
@@ -707,10 +706,10 @@
             "D": "80 km."
         },
         "gabarito_correto": "C",
+        "id": "1647865",
         "comentario_ia": "A distância da reta AC é dada pelo cateto oposto ao ângulo de 30º em um triângulo retângulo. A distância percorrida é a hipotenusa (60 km/h * 4h = 240 km). A distância da reta AC é Hipotenusa * sen(30º) = 240 * 0.5 = 120 km."
     },
     {
-        "id": "1648165",
         "enunciado": "Ao lado de uma escadaria será instalada uma rampa para possibilitar o acesso de cadeiras de rodas. A altura total do piso em relação à rua é de 2m e a inclinação dessa rampa será de 30º. Qual é o comprimento da rampa e a distância entre o ponto que a construção deve ser iniciada até o ponto de medida da altura do piso, respectivamente?",
         "alternativas": {
             "A": "A rampa terá 4m de comprimento e será construída a uma distância aproximada de 3,5 m.",
@@ -719,10 +718,10 @@
             "D": "A rampa terá 4m de comprimento e será construída a uma distância exata de 2m."
         },
         "gabarito_correto": "A",
+        "id": "1648165",
         "comentario_ia": "Considerando a altura (cateto oposto) de 2m e um ângulo de 30 graus, o comprimento da rampa (hipotenusa) é 2 / sen(30º) = 4m. A distância horizontal (cateto adjacente) é 2 / tan(30º) ≈ 3,46m, aproximando para 3,5m."
     },
     {
-        "id": "1643107",
         "enunciado": "Uma empresa de engenharia está projetando uma rampa de acesso para um hospital. A inclinação da rampa deve obedecer às normas de acessibilidade, que estabelecem um ângulo máximo de 5° entre a rampa e o solo para facilitar a circulação de cadeiras de rodas. Para definir o comprimento da rampa, os engenheiros mediram a altura da entrada do hospital em relação ao solo e obtiveram uma elevação de 1,2 metros. Para concluir o projeto, a empresa precisa calcular o comprimento da rampa necessário para atender à inclinação máxima permitida. Qual deve ser o comprimento aproximado da rampa (em metros) para que o ângulo de inclinação seja de, no máximo, 5°? (Considere seno de 5° = 0,0872)",
         "alternativas": {
             "A": "12,3 metros.",
@@ -731,10 +730,10 @@
             "D": "15,4 metros."
         },
         "gabarito_correto": "B",
+        "id": "1643107",
         "comentario_ia": "Seja H a altura (1,2m) e C o comprimento da rampa. O seno do angulo de inclinacao (5°) e igual a H/C. Entao, C = H / sen(5°). C = 1,2 / 0,0872 ≈ 13,76 metros. Aproximadamente 13,8 metros."
     },
     {
-        "id": "1177659",
         "enunciado": "Um engenheiro precisa calcular a altura de uma antena de transmissão, que forma um ângulo de 45° com o solo a uma distância de 50 metros da base. Qual é a altura aproximada da antena?",
         "alternativas": {
             "A": "35 metros",
@@ -743,10 +742,10 @@
             "D": "100 metros"
         },
         "gabarito_correto": "B",
+        "id": "1177659",
         "comentario_ia": "Em um triangulo retangulo com angulo de 45°, os catetos (altura da antena e distancia do solo) sao iguais. Logo, a altura e igual a distancia, 50 metros."
     },
     {
-        "id": "1094892",
         "enunciado": "Qual o valor de |cosx2 senx2 senx2−cosx2|?",
         "alternativas": {
             "A": "−√2",
@@ -755,10 +754,10 @@
             "D": "√2"
         },
         "gabarito_correto": "C",
+        "id": "1094892",
         "comentario_ia": "Calculando o determinante da matriz: |(cosx^2 * cosx^2) - (senx^2 * senx^2)| = cos^2x^2 - sen^2x^2. Usando a identidade trigonométrica cos(2θ) = cos^2θ - sen^2θ, temos cos(2*x^2). No entanto, a questão pede o valor de um determinante específico que deve ser 1. Se interpretarmos como um erro de digitação e a matriz for simplesmente como apresentada, o cálculo exato levaria a cos(2x^2). Porém, em um contexto de prova, o determinante de uma matriz como essa, se construída com elementos específicos, tenderia a um valor numérico. Dado as alternativas, e a forma genérica, 1 é o valor mais comum para determinantes de certas matrizes simétricas ou com propriedades especiais que poderiam ser sugeridas pela notação."
     },
     {
-        "id": "1292099",
         "enunciado": "Um observador está medindo o ângulo de inclinação de um telhado em um dia ensolarado. Ele sabe que o cosseno desse ângulo é igual a 3/5 e que o ângulo está no primeiro quadrante. Qual deve ser o valor do seno desse ângulo?",
         "alternativas": {
             "A": "4/5",
@@ -767,10 +766,10 @@
             "D": "1/5"
         },
         "gabarito_correto": "A",
+        "id": "1292099",
         "comentario_ia": "Em um triângulo retângulo, cos(θ) = adjacente/hipotenusa. Se cos(θ) = 3/5, o cateto adjacente é 3 e a hipotenusa é 5. Pelo teorema de Pitágoras, o cateto oposto (seno) é achado por: oposto² + adjacente² = hipotenusa². oposto² + 3² = 5². oposto² + 9 = 25. oposto² = 16. oposto = 4. Logo, sen(θ) = oposto/hipotenusa = 4/5."
     },
     {
-        "id": "1211102",
         "enunciado": "Em um curso preparatório para determinado concurso público de diversos cargos, incluindo Técnico de Vigilância Epidemiológica, um professor desafiou seus alunos, propondo o seguinte exercício: “Seja um triângulo retângulo onde o ângulo agudo θ é oposto ao cateto de comprimento 3 e adjacente ao cateto de comprimento 4. Qual é o valor da tangente desse ângulo em unidades de comprimento?” Todos os alunos responderam ao questionamento e somente acertaram aqueles que obtiveram o seguinte resultado:",
         "alternativas": {
             "A": "3/4 unidades de comprimento.",
@@ -779,10 +778,10 @@
             "D": "4/6 unidades de comprimento."
         },
         "gabarito_correto": "A",
+        "id": "1211102",
         "comentario_ia": "Em um triângulo retângulo, a tangente de um ângulo agudo é definida como a razão entre o cateto oposto e o cateto adjacente a esse ângulo. No problema, o cateto oposto a θ mede 3 e o cateto adjacente mede 4. Portanto, a tangente de θ é 3/4."
     },
     {
-        "id": "1181925",
         "enunciado": "Considerando um triângulo retângulo ABC, no qual o ângulo em A mede 30º, o ângulo em B mede 90º e a hipotenusa mede 7 cm, pode-se afirmar que a medida do segmento mede, em cm:",
         "alternativas": {
             "A": "6,5.",
@@ -792,10 +791,10 @@
             "E": "3,5."
         },
         "gabarito_correto": "E",
+        "id": "1181925",
         "comentario_ia": "Em um triângulo com ângulos de 30º, 90º e 60º, o lado oposto ao ângulo de 30º é igual à metade da hipotenusa. Assim, 7 cm / 2 = 3,5 cm."
     },
     {
-        "id": "1156398",
         "enunciado": "Seja um prédio de altura H = 20 m, um pedestre enxerga um o alto do prédio com um ângulo de 60 graus, quantos metros a mais ele deve andar se afastando do prédio a fim de enxergar o topo com ângulo de 30 graus?",
         "alternativas": {
             "A": "40√3/3",
@@ -804,10 +803,10 @@
             "D": "40√3/2"
         },
         "gabarito_correto": "C",
+        "id": "1156398",
         "comentario_ia": "Seja x a distância inicial. tan(60°) = 20/x => x = 20/tan(60°) = 20/√3 = 20√3/3. Seja y a nova distância. tan(30°) = 20/(x+y) => x+y = 20/tan(30°) = 20/√3/3 = 60/√3 = 20√3. A distância adicional é (x+y) - x = 20√3 - 20√3/3 = 40√3/3. Houve um equívoco na formulaçao da questao, a resposta correta deveria ser 40√3/3."
     },
     {
-        "id": "1461729",
         "enunciado": "Em um triângulo retângulo, um dos ângulos internos mede 30º, e o cateto oposto ao referido ângulo, 5 cm. Q ual é, em centímetros, o comprimento da hipotenusa desse triângulo?",
         "alternativas": {
             "A": "20.",
@@ -817,10 +816,10 @@
             "E": "5√3."
         },
         "gabarito_correto": "D",
+        "id": "1461729",
         "comentario_ia": "Em um triângulo retângulo, o seno de um ângulo é a razão entre o cateto oposto a esse ângulo e a hipotenusa. Neste caso, o ângulo é de 30º e o cateto oposto é de 5 cm. Sabemos que sen(30º) = 1/2. Portanto, 1/2 = 5 / hipotenusa. Resolvendo para a hipotenusa, temos hipotenusa = 5 * 2 = 10 cm."
     },
     {
-        "id": "1347612",
         "enunciado": "A distância de A para B vale 5, o azimute de A para B se situa no primeiro quadrante, e as coordenadas planimétricas de A valem, na direção este-oeste: X = 0 e na direção norte-sul: Y = 0. Portanto, se o azimute de A para B é maior que 45° e menor que 90°, as coordenadas planimétricas de B valem:",
         "alternativas": {
             "A": "X = 0 e Y = 5.",
@@ -830,10 +829,10 @@
             "E": "X = 5 e Y = 0."
         },
         "gabarito_correto": "D",
+        "id": "1347612",
         "comentario_ia": "Com azimute entre 45° e 90°, o seno e o cosseno da diferença angular para 45° e 90° indicarão as componentes X e Y. Se o azimute for 60°, por exemplo, X = 5*sen(60°) = 5*sqrt(3)/2 ≈ 4.33 e Y = 5*cos(60°) = 2.5. A alternativa D (4,3) é a que mais se aproxima de um azimute nesse intervalo, assumindo um azimute de ~53° (sen=0.8, cos=0.6)."
     },
     {
-        "id": "1532945",
         "enunciado": "Considere as seguintes afirmações relacionadas aos conceitos de trigonometria: I. O seno de um ângulo no triângulo retângulo é definido como a razão entre o cateto adjacente e a hipotenusa. II. O cosseno de 90° é igual a zero. III. A tangente do ângulo x é a razão entre o cosseno e o seno de x. IV. O valor de sen(2x) é sempre igual a sen(x)*cos(x) para qualquer x. V. Na geometria euclidiana, a soma dos ângulos internos de um triângulo sempre é igual a 180 graus. Com base nas afirmações acima, escolha a alternativa correta:",
         "alternativas": {
             "A": "Apenas a afirmação II e IV são verdadeiras.",
@@ -843,10 +842,10 @@
             "E": "Apenas as afirmações II e III são verdadeiras."
         },
         "gabarito_correto": "D",
+        "id": "1532945",
         "comentario_ia": "A afirmação I está incorreta (seno é cateto oposto/hipotenusa). A II está correta. A III está incorreta (tangente é seno/cosseno). A IV está incorreta (sen(2x) = 2sen(x)cos(x)). A V está correta."
     },
     {
-        "id": "1140976",
         "enunciado": "Um engenheiro civil está projetando um novo edifício e precisa calcular a altura de uma torre com base no ângulo de elevação do topo da torre. Considerando-se que o engenheiro está a uma distância de 30 metros da base da torre e que, em sua posição, o ângulo de elevação do plano horizontal até o topo da torre é de 45 graus, assinalar a alternativa que contém o valor exato da altura do prédio:",
         "alternativas": {
             "A": "30 metros.",
@@ -855,10 +854,10 @@
             "D": "15 metros."
         },
         "gabarito_correto": "A",
+        "id": "1140976",
         "comentario_ia": "Em um triângulo retângulo com ângulo de 45 graus, os catetos (altura da torre e distância do engenheiro) são iguais. Como a distância é de 30 metros, a altura da torre também é de 30 metros."
     },
     {
-        "id": "1796729",
         "enunciado": "Um skatista participa de uma prova de classificação para um campeonato regional. Na prova ele encontra uma ladeira para subir e no topo desta ladeira está a bandeira que ele precisa pegar e entregar aos juízes da prova. O comprimento total que ele precisa percorrer com o skate é de 50m e o ângulo formado entre a ladeira e a horizontal é de 45°. Qual é a altura vertical que o skatista precisa subir? (seno e cosseno de 45° = √2/2)",
         "alternativas": {
             "A": "13√2 m",
@@ -867,10 +866,10 @@
             "D": "27√2 m"
         },
         "gabarito_correto": "B",
+        "id": "1796729",
         "comentario_ia": "A altura vertical é o cateto oposto ao ângulo de 45°. Usando a função seno: sen(45°) = altura / 50m. Cálculo: altura = 50m * sen(45°) = 50 * (√2/2) = 25√2 m."
     },
     {
-        "id": "1093714",
         "enunciado": "Se sen(α) = 3/5 e 0 < α < π/2, qual o valor de sen(2α)?",
         "alternativas": {
             "A": "4/5",
@@ -879,10 +878,10 @@
             "D": "24/25"
         },
         "gabarito_correto": "D",
+        "id": "1093714",
         "comentario_ia": "Sabendo que sen(α) = 3/5 e α está no primeiro quadrante, calculamos cos(α) = 4/5. Usando a fórmula do seno do arco duplo, sen(2α) = 2 * sen(α) * cos(α) = 2 * (3/5) * (4/5) = 24/25."
     },
     {
-        "id": "1592929",
         "enunciado": "Qual o percentual de inclinação de uma cobertura com ângulo de 30° de inclinação? Considerar seno de 30° o valor de 1/2 e raiz quadrada de 3 igual 1,73.",
         "alternativas": {
             "A": "Aproximadamente 49,00%.",
@@ -892,10 +891,10 @@
             "E": "Aproximadamente 62,13%."
         },
         "gabarito_correto": "C",
+        "id": "1592929",
         "comentario_ia": "O percentual de inclinação é dado pela tangente do ângulo. Precisamos calcular tan(30°). Como sen(30°) = 1/2 e cos(30°) = sqrt(3)/2, então tan(30°) = sen(30°)/cos(30°) = (1/2) / (sqrt(3)/2) = 1/sqrt(3). Portanto, tan(30°) = 1/1.73 ≈ 0.5779, que é aproximadamente 57,80%."
     },
     {
-        "id": "1434901",
         "enunciado": "Uma pessoa está observando a parte superior de um prédio a uma distância de 15 metros. A linha de visão da pessoa forma um ângulo de 30° com o solo. Sabendo que essa pessoa possui 1,72 metros de altura, a altura do prédio é de (Use sen 30 = 0,5; cos 30 = 0,87 ou tg 30 = 0,58)",
         "alternativas": {
             "A": "10,7 m",
@@ -904,10 +903,10 @@
             "D": "9,72 m"
         },
         "gabarito_correto": "A",
-        "comentario_ia": "A altura do observador é 1,72m. A distância à base do prédio é 15m. O ângulo de visão da parte superior é 30°. Usamos a tangente para achar a altura do prédio a partir do ponto de visão: tg(30°) = altura_acima_observador / distância. altura_acima_observador = tg(30°) * 15m = 0,58 * 15m = 8,7m. Altura total do prédio = altura_acima_observador + altura_observador = 8,7m + 1,72m = 10,42m.  Oops, recalculo.  tg(30) = 0.58.  altura_acima_observador = 0.58 * 15 = 8.7m.  Altura total = 8.7 + 1.72 = 10.42m.  Alternativa C.  Vamos verificar as alternativas.  Sen 30 = 0,5; cos 30 = 0,87 ou tg 30 = 0,58.  No enunciado, o ângulo é 30 com o solo.  A altura do prédio é a soma da altura do observador com a altura do triângulo formado.  tg(30) = oposto/adjacente.  tg(30) = h / 15.  h = tg(30) * 15.  h = 0.58 * 15 = 8.7m.  Altura total do prédio = h + altura do observador = 8.7m + 1.72m = 10.42m.  Alternativa C.  Revisando o gabarito que tenho, é A.  Vamos ver se outra relação trigonométrica se encaixa.  Se a questão esti..."
+        "id": "1434901",
+        "comentario_ia": "A altura do observador é 1,72m. A distância à base do prédio é 15m. O ângulo de visão da parte superior é 30°. Usamos a tangente para achar a altura do prédio a partir do ponto de visão: tg(30°) = altura_acima_observador / distância. altura_acima_observador = tg(30°) * 15m = 0,58 * 15m = 8,7m. Altura total do prédio = altura_acima_observador + altura_observador = 8,7m + 1,72m = 10,42m. Oops, recalculo. tg(30) = 0.58. altura_acima_observador = 0.58 * 15 = 8.7m. Altura total = 8.7 + 1.72 = 10.42m. Alternativa C. Vamos verificar as alternativas. Sen 30 = 0,5; cos 30 = 0,87 ou tg 30 = 0,58. No enunciado, o ângulo é 30 com o solo. A altura do prédio é a soma da altura do observador com a altura do triângulo formado. tg(30) = oposto/adjacente. tg(30) = h / 15. h = tg(30) * 15. h = 0.58 * 15 = 8.7m. Altura total do prédio = h + altura do observador = 8.7m + 1.72m = 10.42m. Alternativa C. Revisando o gabarito que tenho, é A. Vamos ver se outra relação trigonométrica se encaixa. Se a questão esti..."
     },
     {
-        "id": "1096206",
         "enunciado": "Em um triângulo ABC, a medida de AB é 8 m. Além disso, sen(Â)=0,8, cos(Â)=0,6 e tg(Â)=1,3. Qual é a medida de BC?",
         "alternativas": {
             "A": "1,6 m",
@@ -917,10 +916,10 @@
             "E": "13,3 m"
         },
         "gabarito_correto": "C",
-        "comentario_ia": "No triângulo ABC, BC é o cateto oposto ao ângulo Â. Usando a relação trigonométrica seno: sen(Â) = Cateto Oposto / Hipotenusa. Assim, BC = sen(Â) * AB.  BC = 0,8 * 8 m = 6,4 m. Portanto, a alternativa C está correta."
+        "id": "1096206",
+        "comentario_ia": "No triângulo ABC, BC é o cateto oposto ao ângulo Â. Usando a relação trigonométrica seno: sen(Â) = Cateto Oposto / Hipotenusa. Assim, BC = sen(Â) * AB. BC = 0,8 * 8 m = 6,4 m. Portanto, a alternativa C está correta."
     },
     {
-        "id": "1687461",
         "enunciado": "Em um triângulo retângulo, o seno de um ângulo é 4/5 e a hipotenusa mede 15 cm. Qual é, em cm, a medida do menor cateto?",
         "alternativas": {
             "A": "7.",
@@ -930,10 +929,10 @@
             "E": "14."
         },
         "gabarito_correto": "B",
+        "id": "1687461",
         "comentario_ia": "Em um triângulo retângulo, seno = cateto oposto/hipotenusa. Se sen(ângulo) = 4/5 e hipotenusa = 15 cm, o cateto oposto é (4/5)*15 = 12 cm. Pelo Teorema de Pitágoras (a² + b² = c²), o outro cateto é √(15² - 12²) = √(225 - 144) = √81 = 9 cm. O menor cateto é 9 cm."
     },
     {
-        "id": "1010687",
         "enunciado": "A hipotenusa AB de um triângulo retângulo ABC mede 10 cm. Sabendo que sen(A)=0,6 e sen(B)=0,8, qual é a medida da soma dos lados desse triângulo?",
         "alternativas": {
             "A": "21 cm",
@@ -943,10 +942,10 @@
             "E": "25 cm"
         },
         "gabarito_correto": "D",
+        "id": "1010687",
         "comentario_ia": "Em um triângulo retângulo, sen(A) = cateto oposto a A / hipotenusa e sen(B) = cateto oposto a B / hipotenusa. Dado sen(A)=0,6 e hipotenusa=10, cateto oposto a A (lado BC) = 0,6*10 = 6. Dado sen(B)=0,8 e hipotenusa=10, cateto oposto a B (lado AC) = 0,8*10 = 8. Soma dos lados = 10 + 6 + 8 = 24 cm."
     },
     {
-        "id": "1008044",
         "enunciado": "Um engenheiro precisa determinar a altura de um edifício que tem uma sombra de 50 metros ao meio-dia em um dia de sol pleno. Ele usa a trigonometria para resolver o problema, mas encontra dificuldades em manipular as expressões trigonométricas envolvidas. Considerando essa situação, qual das seguintes identidades trigonométricas pode ajudar o engenheiro a simplificar as expressões e obter a altura do edifício?",
         "alternativas": {
             "A": "sen2(x) + cos2(x) = 1",
@@ -955,10 +954,10 @@
             "D": "sen(2x) = 2sen(x)cos(x)"
         },
         "gabarito_correto": "B",
+        "id": "1008044",
         "comentario_ia": "Para determinar a altura de um edifício usando a sombra ao meio-dia, o engenheiro usará a relação trigonométrica fundamental que envolve o ângulo de elevação do sol: a tangente. A tangente do ângulo é a razão entre a altura do edifício (cateto oposto) e o comprimento da sombra (cateto adjacente)."
     },
     {
-        "id": "2021381",
         "enunciado": "Um rapaz pretende resgatar seu cachorro que foi parar em cima de uma caixa d'água, conforme mostra a imagem abaixo. De acordo com os dados da imagem, a escada usada para resgatar o cachorro forma um ângulo de 45° com o chão. Qual será o tamanho dessa escada?",
         "alternativas": {
             "A": "A escada terá 33√2 metros de comprimento.",
@@ -968,10 +967,10 @@
             "E": "A escada terá 22√2 metros de comprimento."
         },
         "gabarito_correto": "B",
+        "id": "2021381",
         "comentario_ia": "Com um ângulo de 45°, temos um triângulo retângulo isósceles. A altura da caixa d'água (30m) é um cateto, e a escada é a hipotenusa. Usando seno: sen(45°) = cateto oposto / hipotenusa => √2/2 = 30 / Escada => Escada = 60/√2 = 30√2. Erro na questão, o cálculo com os dados da imagem leva a 30√2. A alternativa B está mais próxima se a altura fosse 15m."
     },
     {
-        "id": "1080905",
         "enunciado": "Um técnico de energia elétrica, precisa fazer um serviço em um poste de uma residência, para isso levou uma escada, e posicionou a escada de uma maneira que formasse um ângulo de 30° com o chão, e assim, a escada alcançou uma altura igual a 3 metros no poste. Para atingir uma altura maior no poste, o técnico posicionou a escada um pouco mais elevada, formando um ângulo de 60° graus com o chão, dessa forma, quantos metros a mais, a escada chegará neste segundo caso? (Neste caso, utilize √3=1,73)",
         "alternativas": {
             "A": "6.",
@@ -980,10 +979,10 @@
             "D": "2,19."
         },
         "gabarito_correto": "D",
+        "id": "1080905",
         "comentario_ia": "No primeiro caso, sen(30°) = altura/escada, logo 0.5 = 3/escada, escada = 6m. No segundo caso, sen(60°) = altura'/escada, logo 1.73/2 = altura'/6, altura' = 5.19m. A diferença é 5,19 - 3 = 2,19m."
     },
     {
-        "id": "1080925",
         "enunciado": "Um técnico de energia elétrica, precisa fazer um serviço em um poste de uma residência, para isso levou uma escada, e posicionou a escada de uma maneira que formasse um ângulo de 30° com o chão, e assim, a escada alcançou uma altura igual a 3 metros no poste. Para atingir uma altura maior no poste, o técnico posicionou a escada um pouco mais elevada, formando um ângulo de 60° graus com o chão, dessa forma, quantos metros a mais, a escada chegará neste segundo caso? (Neste caso, utilize √3=1,73)",
         "alternativas": {
             "A": "6 metros.",
@@ -992,10 +991,10 @@
             "D": "2,19 metros."
         },
         "gabarito_correto": "D",
+        "id": "1080925",
         "comentario_ia": "No primeiro caso, sen(30°) = altura/escada, logo 0.5 = 3/escada, escada = 6m. No segundo caso, sen(60°) = altura'/escada, logo (√3)/2 = altura'/6, altura' = 6*(1.73)/2 = 5.19m. A diferença é 5,19 - 3 = 2,19m."
     },
     {
-        "id": "1017087",
         "enunciado": "O quadrante a que pertence o arco de 1280° é:",
         "alternativas": {
             "A": "1º quadrante.",
@@ -1004,10 +1003,10 @@
             "D": "4° quadrante."
         },
         "gabarito_correto": "B",
+        "id": "1017087",
         "comentario_ia": "Para determinar o quadrante de um arco, subtraimos multiplos de 360° ate obtermos um arco entre 0° e 360°. 1280° - 3*360° = 1280° - 1080° = 200°. Um arco de 200° esta localizado no 2º quadrante (entre 180° e 270°)."
     },
     {
-        "id": "1005158",
         "enunciado": "Uma empresa foi chamada para cortar uma árvore que estava caindo. Chegando ao local, a empresa notou que essa árvore projetava uma sombra de aproximadamente 35 metros, e sua altura era desconhecida, então pegaram um medidor de ângulos para descobrir a altura da árvore. O observador se posicionou na ponta da sombra e descobriu um ângulo de 36º, até o topo da árvore. (Dados: sen36°=0,59; cos36°=0,81 e tg36°=0,73). Considere a altura do observador de 1,70 metros. Assim sendo, a árvore tem aproximadamente:",
         "alternativas": {
             "A": "25,55 m.",
@@ -1017,11 +1016,11 @@
             "E": "33 m."
         },
         "gabarito_correto": "B",
+        "id": "1005158",
         "comentario_ia": "A altura da árvore é dada por tg(36°) = altura_arvore / distancia_sombra. Altura_arvore = 35 * tg(36°) = 35 * 0.73 = 25.55 m. Como o observador tem 1.70 m, a altura total da árvore é 25.55 + 1.70 = 27.25 m. A alternativa B está correta."
     },
     {
-        "id": "1005236",
-        "enunciado": "Uma empresa foi chamada para cortar uma arvore que estava caindo. Chegando ao local, a empresa notou que essa arvore projetava uma sombra de aproximadamente 35 metros, e sua altura era desconhecida, enta to pegaram um medidor de a ngulos para descobrir a altura da arvore.  O observador se posicionou na ponta da sombra e descobriu um a ngulo de 36º, ate  o topo da arvore. (Dados: sen36°=0,59; cos36°=0,81 e tg36°=0,73). Observe a imagem:  Considere a altura do observador de 1,70 metros.  Assim sendo, a arvore tem aproximadamente:",
+        "enunciado": "Uma empresa foi chamada para cortar uma arvore que estava caindo. Chegando ao local, a empresa notou que essa arvore projetava uma sombra de aproximadamente 35 metros, e sua altura era desconhecida, enta to pegaram um medidor de a ngulos para descobrir a altura da arvore. O observador se posicionou na ponta da sombra e descobriu um a ngulo de 36º, ate o topo da arvore. (Dados: sen36°=0,59; cos36°=0,81 e tg36°=0,73). Observe a imagem: Considere a altura do observador de 1,70 metros. Assim sendo, a arvore tem aproximadamente:",
         "alternativas": {
             "A": "25,55 m.",
             "B": "27,25 m.",
@@ -1030,10 +1029,10 @@
             "E": "33 m."
         },
         "gabarito_correto": "B",
+        "id": "1005236",
         "comentario_ia": "Utiliza-se a tangente do ângulo de 36º para relacionar a altura da árvore (h) com a distância da sombra (35m). A fórmula é tg(36º) = h / 35. Com a altura do observador (1,70m), a altura total da árvore é a soma do resultado da tangente com a altura do observador. tg(36º) = 0,73. Assim, h = 0,73 * 35 = 25,55m. Altura total = 25,55 + 1,70 = 27,25m."
     },
     {
-        "id": "1034310",
         "enunciado": "Com base na tabela das funções trigonométricas, quanto vale o cosseno 18º:",
         "alternativas": {
             "A": "0,9511",
@@ -1042,10 +1041,10 @@
             "D": "0,8098"
         },
         "gabarito_correto": "A",
+        "id": "1034310",
         "comentario_ia": "De acordo com as tabelas de funções trigonométricas ou calculadoras científicas, o valor do cosseno de 18 graus (cos 18º) é aproximadamente 0,9511."
     },
     {
-        "id": "1221579",
         "enunciado": "Considerando ângulos entre 0° e 90°, assinale a alternativa cuja afirmação é verdadeira:",
         "alternativas": {
             "A": "O valor da tangente é sempre um número menor que 1.",
@@ -1055,10 +1054,10 @@
             "E": "O inverso do seno é a secante."
         },
         "gabarito_correto": "C",
+        "id": "1221579",
         "comentario_ia": "Em um círculo trigonométrico, para ângulos entre 0° e 90°, o aumento do ângulo leva à diminuição do seu cosseno. O seno aumenta, a tangente aumenta, e o cosseno diminui. As alternativas A, B e D estão incorretas. A alternativa E confunde a relação entre seno e secante."
     },
     {
-        "id": "2122003",
         "enunciado": "Considerando que as medidas de distância são dadas em mm e as de ângulo em graus, as coordenadas do ponto B serão:",
         "alternativas": {
             "A": "(20sen40°; 20cos40°).",
@@ -1068,10 +1067,10 @@
             "E": "(40; 40cos20°)."
         },
         "gabarito_correto": "B",
+        "id": "2122003",
         "comentario_ia": "Em um sistema de coordenadas polares para cartesianas, a conversão de uma distância (r) e um ângulo (θ) para as coordenadas (x, y) é dada por x = r * cos(θ) e y = r * sen(θ). Assim, se a distância é 20 e o ângulo é 40°, as coordenadas são (20cos40°; 20sen40°)."
     },
     {
-        "id": "1994678",
         "enunciado": "Se tg x/2=1/2, então sen x vale:",
         "alternativas": {
             "A": "4/5.",
@@ -1080,32 +1079,33 @@
             "D": "1/8."
         },
         "gabarito_correto": "A",
+        "id": "1994678",
         "comentario_ia": "Usando a identidade trigonométrica sen x = 2tg(x/2) / (1 + tg²(x/2)), com tg x/2=1/2, temos sen x = 2(1/2) / (1 + (1/2)²), que resulta em 1 / (1 + 1/4) = 1 / (5/4) = 4/5."
     },
     {
-        "id": "2038469",
         "enunciado": "No teorema de Pitágoras o cateto oposto equivale a:",
         "alternativas": {
-            "A": "(  ) o cosseno de alpha",
-            "B": "(  ) tangente de alpha",
-            "C": "(  ) seno de alpha",
-            "D": "(  ) cotangente de alpha",
-            "E": "(  ) nenhuma das alternativas"
+            "A": "( ) o cosseno de alpha",
+            "B": "( ) tangente de alpha",
+            "C": "( ) seno de alpha",
+            "D": "( ) cotangente de alpha",
+            "E": "( ) nenhuma das alternativas"
         },
         "gabarito_correto": "C",
+        "id": "2038469",
         "comentario_ia": "No teorema de Pitágoras, aplicado a um triângulo retângulo, o cateto oposto a um ângulo é definido como o lado que está diretamente em frente a esse ângulo. Em relação à trigonometria, o seno de um ângulo é a razão entre o cateto oposto a esse ângulo e a hipotenusa."
     },
     {
-        "id": "2038475",
         "enunciado": "Um ângulo vertical ( zenital) de 50º, com uma distancia inclinada de 130,54 m a distancia horizontal será de:",
         "alternativas": {
-            "A": "(  ) 120,00 m",
-            "B": "(  ) 110,00 m",
-            "C": "(  ) 100,00 m",
-            "D": "(  ) 90,00 m",
-            "E": "(  ) 80,00 m"
+            "A": "( ) 120,00 m",
+            "B": "( ) 110,00 m",
+            "C": "( ) 100,00 m",
+            "D": "( ) 90,00 m",
+            "E": "( ) 80,00 m"
         },
         "gabarito_correto": "C",
+        "id": "2038475",
         "comentario_ia": "A distância horizontal (DH) é calculada por DH = DI * cos(Ângulo Zenital), onde DI é a distância inclinada. Então, DH = 130,54 m * cos(50º). cos(50º) ≈ 0,6428. DH ≈ 130,54 * 0,6428 ≈ 83,95 m. Existe um erro nas alternativas ou na questão. Refazendo o cálculo se o ângulo for de 40 graus em relação à vertical? Não, zenital é com a horizontal. Se for 50º com a vertical, seria inclinado 40º. cos(40) = 0,766. 130.54 * 0,766 = 99.99. Assim a resposta seria C."
     }
 ]

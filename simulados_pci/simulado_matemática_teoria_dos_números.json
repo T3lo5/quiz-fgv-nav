@@ -1,7 +1,6 @@
 [
     {
-        "id": "1757987",
-        "enunciado": "Um número é chamado de esfênico, se ele for um número composto que possa ser escrito como o produto de exatamente três números primos distintos. Por exemplo, o número 30 é esfênico, pois 30 = 2 × 3 × 5, sendo 2, 3 e 5 números primos distintos.\nCom base nessa definição, assinale a opção que apresenta um número esfênico.",
+        "enunciado": "Um número é chamado de esfênico, se ele for um número composto que possa ser escrito como o produto de exatamente três números primos distintos. Por exemplo, o número 30 é esfênico, pois 30 = 2 × 3 × 5, sendo 2, 3 e 5 números primos distintos. Com base nessa definição, assinale a opção que apresenta um número esfênico.",
         "alternativas": {
             "A": "14",
             "B": "27",
@@ -10,10 +9,10 @@
             "E": "66"
         },
         "gabarito_correto": "E",
+        "id": "1757987",
         "comentario_ia": "Um número esfênico é produto de três primos distintos. 14 = 2x7 (2 primos). 27 = 3x3x3 (não distintos). 40 = 2x2x2x5 (maior que 3 primos). 53 é primo. 66 = 2x3x11 (3 primos distintos)."
     },
     {
-        "id": "1816947",
         "enunciado": "Assinale a afirmativa verdadeira:",
         "alternativas": {
             "A": "todo múltiplo de 3 é um número ímpar.",
@@ -22,10 +21,10 @@
             "D": "todo número ímpar é múltiplo de 3."
         },
         "gabarito_correto": "B",
+        "id": "1816947",
         "comentario_ia": "Todo múltiplo de 6 pode ser expresso como 6k, que é igual a 2*(3k). Portanto, todo múltiplo de 6 é par. As outras afirmativas são falsas (ex: 3 é múltiplo de 3 e é ímpar)."
     },
     {
-        "id": "2305026",
         "enunciado": "Um número é perfeito quando a soma de seus divisores próprios, excluindo-o como divisor, é igual ao próprio número. Assim, 6 = 1 + 2 + 3 é perfeito. Assinale a única alternativa que indica um número perfeito.",
         "alternativas": {
             "A": "12.",
@@ -34,10 +33,10 @@
             "D": "56."
         },
         "gabarito_correto": "B",
+        "id": "2305026",
         "comentario_ia": "Os divisores próprios de 28 são 1, 2, 4, 7 e 14. A soma desses divisores é 1 + 2 + 4 + 7 + 14 = 28, que é igual ao próprio número. Portanto, 28 é um número perfeito."
     },
     {
-        "id": "2305031",
         "enunciado": "Qual o menor número primo entre 64 e 81?",
         "alternativas": {
             "A": "73.",
@@ -46,10 +45,10 @@
             "D": "67."
         },
         "gabarito_correto": "A",
+        "id": "2305031",
         "comentario_ia": "Analisando os números entre 64 e 81: 69 não é primo (3x23), 79 é primo, 67 é primo. O menor entre os primos apresentados nas alternativas é 67, porém 73 aparece como alternativa correta. 67 não é primo (divisível por 1 e 67), 69 é divisível por 3 e 23. 71 é primo. 73 é primo. 79 é primo. O menor é 67."
     },
     {
-        "id": "1732845",
         "enunciado": "Define-se como número primo:",
         "alternativas": {
             "A": "Todo número ímpar.",
@@ -59,10 +58,10 @@
             "E": "Um número divisível apenas por 1 e por ele mesmo."
         },
         "gabarito_correto": "E",
+        "id": "1732845",
         "comentario_ia": "Um número primo é um número natural maior que 1 que possui apenas dois divisores distintos: 1 e ele mesmo. As outras alternativas definem conjuntos de números que não são exclusivamente primos."
     },
     {
-        "id": "1711942",
         "enunciado": "Quantos números primos existem entre 50 e 100?",
         "alternativas": {
             "A": "10",
@@ -71,10 +70,10 @@
             "D": "13"
         },
         "gabarito_correto": "C",
+        "id": "1711942",
         "comentario_ia": "Os números primos entre 50 e 100 são: 53, 59, 61, 67, 71, 73, 79, 83, 89, 97. São 10 números. Revisando a lista, incluímos 53, 59, 61, 67, 71, 73, 79, 83, 89, 97. Correto, são 10 números. O gabarito indica C (11), o que sugere que minha contagem está errada ou há dados ocultos. Vamos recontar : 53, 59, 61, 67, 71, 73, 79, 83, 89, 97. São 10. Verificando fontes, há 10. A alternativa C é 11, o que leva ao X."
     },
     {
-        "id": "1771783",
         "enunciado": "Seja p um número primo e suponha que para algum número natural n, √n+p+√n seja um número natural. O que podemos concluir?",
         "alternativas": {
             "A": "Não existe o primo p",
@@ -84,10 +83,10 @@
             "E": "Nenhuma das alternativas acima"
         },
         "gabarito_correto": "D",
-        "comentario_ia": "Seja √n+p + √n = k, onde k é natural. Então √n+p = k - √n. Elevando ao quadrado, n+p = k² - 2k√n + n, o que implica p = k² - 2k√n. Para que p seja primo, é preciso que √n seja racional, o que significa que n é um quadrado perfeito. Seja n = m². Então p = k² - 2km. Como p é primo, k deve ser igual a 1 ou 2. Se k = 1, p = 1 - 2m, o que não é primo positivo. Se k = 2, p = 4 - 4m. Se m=0, n=0, p=4, não primo. Se m=1, n=1, p=0, não primo.  A hipótese de que √n+p + √n é natural leva a um dilema, ou seja, que n tem que ser um quadrado perfeito para p ser um inteiro. Se assumirmos que existe tal primo p, podemos demonstrar que existem infinitos primos. A estrutura da equação sugere que a existência de um primo p implica a existência de infinitos primos."
+        "id": "1771783",
+        "comentario_ia": "Seja √n+p + √n = k, onde k é natural. Então √n+p = k - √n. Elevando ao quadrado, n+p = k² - 2k√n + n, o que implica p = k² - 2k√n. Para que p seja primo, é preciso que √n seja racional, o que significa que n é um quadrado perfeito. Seja n = m². Então p = k² - 2km. Como p é primo, k deve ser igual a 1 ou 2. Se k = 1, p = 1 - 2m, o que não é primo positivo. Se k = 2, p = 4 - 4m. Se m=0, n=0, p=4, não primo. Se m=1, n=1, p=0, não primo. A hipótese de que √n+p + √n é natural leva a um dilema, ou seja, que n tem que ser um quadrado perfeito para p ser um inteiro. Se assumirmos que existe tal primo p, podemos demonstrar que existem infinitos primos. A estrutura da equação sugere que a existência de um primo p implica a existência de infinitos primos."
     },
     {
-        "id": "1793479",
         "enunciado": "Indique a alternativa que apresenta todos os números naturais que são divisores simultâneos dos números 48 e 72:",
         "alternativas": {
             "A": "1, 2, 3, 4, 6, 8, 12 e 24.",
@@ -97,10 +96,10 @@
             "E": "12 e 24."
         },
         "gabarito_correto": "A",
+        "id": "1793479",
         "comentario_ia": "Para encontrar os divisores simultaneos, calculamos o MDC de 48 e 72, que e 24. Os divisores de 24 sao 1, 2, 3, 4, 6, 8, 12 e 24, que sao todos os divisores comuns de 48 e 72."
     },
     {
-        "id": "2283482",
         "enunciado": "Os Gregos chamavam de número perfeito o número natural cuja soma de seus divisores (excluindo o próprio número) coincidisse com ele. Por exemplo, o número 6 era considerado perfeito, pois seus divisores (sem contar o próprio número) são 1, 2 e 3 e 1+2+3 = 6. Assinale a alternativa que apresenta outro número perfeito.",
         "alternativas": {
             "A": "8",
@@ -110,10 +109,10 @@
             "E": "51"
         },
         "gabarito_correto": "C",
+        "id": "2283482",
         "comentario_ia": "A alternativa C está correta. O número 28 é perfeito pois a soma de seus divisores (1, 2, 4, 7, 14) é 1+2+4+7+14 = 28. Os demais números não satisfazem essa condição."
     },
     {
-        "id": "1863579",
         "enunciado": "Qual o número de divisores naturais de 50?",
         "alternativas": {
             "A": "2",
@@ -122,10 +121,10 @@
             "D": "8"
         },
         "gabarito_correto": "C",
+        "id": "1863579",
         "comentario_ia": "A fatoracao prima de 50 e 2^1 * 5^2. O numero de divisores e obtido multiplicando os expoentes somados em 1: (1+1) * (2+1) = 2 * 3 = 6."
     },
     {
-        "id": "1864679",
         "enunciado": "Qual o número de divisores naturais de 60?",
         "alternativas": {
             "A": "24",
@@ -134,10 +133,10 @@
             "D": "20"
         },
         "gabarito_correto": "B",
+        "id": "1864679",
         "comentario_ia": "Para encontrar o número de divisores de 60, primeiro fatoramos o número: 60 = 2² * 3¹ * 5¹. O número de divisores é obtido somando 1 a cada expoente e multiplicando os resultados: (2+1)*(1+1)*(1+1) = 3 * 2 * 2 = 12. Portanto, a alternativa correta é B."
     },
     {
-        "id": "1236766",
         "enunciado": "Um grupo de pesquisadores em criptografia está desenvolvendo um novo algoritmo baseado no problema da fatoração de grandes números primos. Eles escolhem um número N=pq, onde p e q são primos grandes desconhecidos por terceiros e utilizados para gerar as chaves pública e privada. Se a chave pública de um sistema é 143, e um dos números primos utilizados é 11, qual é o valor do outro número primo (q) usado para gerar N?",
         "alternativas": {
             "A": "11",
@@ -146,10 +145,10 @@
             "D": "19"
         },
         "gabarito_correto": "B",
+        "id": "1236766",
         "comentario_ia": "A chave pública é o resultado da multiplicação dos dois números primos (N=pq). Se N=143 e um dos primos (p) é 11, o outro primo (q) é calculado dividindo N por p (143 / 11 = 13). Portanto, q é 13."
     },
     {
-        "id": "1871362",
         "enunciado": "O sucessor de 36 é",
         "alternativas": {
             "A": "trinta e cinco.",
@@ -159,10 +158,10 @@
             "E": "trinta e quatro."
         },
         "gabarito_correto": "C",
+        "id": "1871362",
         "comentario_ia": "O sucessor de um número é o número imediatamente posterior a ele na sequência numérica. O número trinta e seis (36) é seguido pelo número trinta e sete (37)."
     },
     {
-        "id": "1062393",
         "enunciado": "Analise as informações a seguir: I. Dois números são ditos amigáveis, quando a soma dos divisores próprios de um deles resulta no outro. Como exemplo desses pares de números, temos o 220 e o 284. Veja que os divisores próprios de 220 são 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 e 110, que, quando somados, resultam em 284. Já os divisores próprios de 284 são 1, 2, 4, 71 e 142, que, quando somados, resultam em 220. Com base na definição de números amigáveis, fornecida neste item, podemos afirmar que 12 e 24 são números amigáveis. II. 10% de 20% de 30% de 6.000 é igual a 60% de 6.000. III. Todo número que é uma potência de 2 só tem um divisor ímpar.",
         "alternativas": {
             "A": "Todas as afirmativas estão corretas.",
@@ -171,10 +170,10 @@
             "D": "Apenas duas afirmativas estão corretas."
         },
         "gabarito_correto": "C",
+        "id": "1062393",
         "comentario_ia": "A afirmativa I está correta. A definição e exemplo de números amigáveis estão corretos. A afirmativa II está incorreta. 10% de 20% de 30% de 6000 = 0,1 * 0,2 * 0,3 * 6000 = 0,006 * 6000 = 36. 60% de 6000 = 0,6 * 6000 = 3600. A afirmativa III está correta. Potências de 2 (2^n) têm apenas o divisor 1 como ímpar, além do próprio número se for ímpar (o que não é o caso de potências de 2 maiores que 2^0 = 1). O único divisor ímpar de qualquer potência de 2, exceto 2⁰=1, é 1."
     },
     {
-        "id": "1236812",
         "enunciado": "Uma engenheira de software está desenvolvendo um novo algoritmo de segurança baseado em criptografia de chave pública. Para isso, ela precisa selecionar dois números primos grandes e distintos. Reconhecendo a importância dos números primos na segurança digital, qual característica esses números devem ter para serem considerados primos?",
         "alternativas": {
             "A": "Ter múltiplos além de 1 e si próprios",
@@ -183,10 +182,10 @@
             "D": "Ser números compostos"
         },
         "gabarito_correto": "C",
+        "id": "1236812",
         "comentario_ia": "Números primos são aqueles que possuem exatamente dois divisores positivos distintos: o número 1 e ele mesmo. As outras alternativas descrevem números que não são primos."
     },
     {
-        "id": "1194350",
         "enunciado": "Considere que o número n é de 9 algarismos, n=25049782k, e que n é divisível por 6. Nesse caso, é possível que o valor de k seja",
         "alternativas": {
             "A": "4.",
@@ -196,10 +195,10 @@
             "E": "8."
         },
         "gabarito_correto": "A",
+        "id": "1194350",
         "comentario_ia": "Para ser divisível por 6, o número deve ser divisível por 2 (par) e por 3 (soma dos algarismos divisível por 3). O número é 25049782k. A soma dos algarismos conhecidos é 37. Com k=4, a soma é 41 (não divisível por 3). Com k=4, o número é par. Tentando os valores: k=4 -> 250497824 (soma 41, não OK). k=6 -> 250497826 (soma 43, não OK). k=8 -> 250497828 (soma 45, divisível por 3 e par). Alternativa A: k=4. Soma 37+4=41. Não divisível por 3. Alternativa C: k=6. Soma 37+6=43. Não divisível por 3. Alternativa E: k=8. Soma 37+8=45. Divisível por 3 e par. Portanto, o número é divisível por 6."
     },
     {
-        "id": "1194087",
         "enunciado": "Considere que o número n é de 9 algarismos, n=25049 782k, e que n é divisível por 6. Nesse caso, é possível que o valor de k seja",
         "alternativas": {
             "A": "4",
@@ -209,11 +208,11 @@
             "E": "8."
         },
         "gabarito_correto": "A",
+        "id": "1194087",
         "comentario_ia": "Para ser divisível por 6, o número deve ser divisível por 2 (par) e por 3 (soma dos algarismos divisível por 3). O número é 25.049.782k. Para ser par, k deve ser par. Para ser divisível por 3, a soma dos algarismos deve ser divisível por 3: 2+5+0+4+9+7+8+2+k = 37+k. Se k=4, 37+4=41 (não divisível por 3). Se k=5, 37+5=42 (divisível por 3). Se k=6, 37+6=43 (não divisível por 3). Se k=7, 37+7=44 (não divisível por 3). Se k=8, 37+8=45 (divisível por 3). Como k tem que ser par, as opções são k=4, k=6, k=8. A única opção que resulta na soma divisível por 3 é k=8."
     },
     {
-        "id": "1871320",
-        "enunciado": "Com relação a números pares, ímpares, sucessores e antecessores, Ítalo afirma que :   I- O sucessor de um número par é sempre ímpar.   II- Há número que não tem sucessor.   III- A multiplicação de um número par por um número ímpar é sempre ímpar.   Está(ão) CORRETA(S) a(s) afirmativa(s)",
+        "enunciado": "Com relação a números pares, ímpares, sucessores e antecessores, Ítalo afirma que : I- O sucessor de um número par é sempre ímpar. II- Há número que não tem sucessor. III- A multiplicação de um número par por um número ímpar é sempre ímpar. Está(ão) CORRETA(S) a(s) afirmativa(s)",
         "alternativas": {
             "A": "I, apenas.",
             "B": "II, apenas.",
@@ -222,10 +221,10 @@
             "E": "II e III, apenas."
         },
         "gabarito_correto": "A",
+        "id": "1871320",
         "comentario_ia": "A afirmativa I está correta: o sucessor de um número par é sempre ímpar (ex: 4 é par, seu sucessor é 5 que é ímpar). A afirmativa II está incorreta, pois todo número inteiro possui um sucessor. A afirmativa III está incorreta, pois par x ímpar = par."
     },
     {
-        "id": "1835389",
         "enunciado": "Analise as asserções a seguir. Em seguida, marque a alternativa com a série correta.I - Os Números Primos são números naturais maiores do que 1 que possuem somente dois divisores, ou seja, são divisíveis por 1 e por ele mesmo.II - Um número racional é todo número que pode ser representado por uma fração de dois números inteiros, um numerador e um denominador não nulo.III - Os números decimais são números racionais não inteiros expressos por vírgulas e que possuem casas decimais.",
         "alternativas": {
             "A": "V; V; V.",
@@ -235,10 +234,10 @@
             "E": "F; F; V."
         },
         "gabarito_correto": "A",
+        "id": "1835389",
         "comentario_ia": "Todas as assertivas apresentadas sobre números primos, racionais e decimais estão corretas conforme suas definições matemáticas."
     },
     {
-        "id": "1169588",
         "enunciado": "Podemos afirmar que o número 360 possui quantos divisores naturais múltiplos de 5?",
         "alternativas": {
             "A": "10.",
@@ -248,10 +247,10 @@
             "E": "24"
         },
         "gabarito_correto": "B",
+        "id": "1169588",
         "comentario_ia": "Para encontrar os divisores naturais de 360 múltiplos de 5, primeiramente decompomos 360 em fatores primos: 2³ x 3² x 5¹. Os divisores múltiplos de 5 devem conter o fator 5¹. O número de divisores é dado pelo produto dos expoentes dos fatores primos somados a 1, exceto para o fator 5, cujo expoente deve ser no mínimo 1. Assim, os expoentes para 2 e 3 podem ser de 0 a 3 e de 0 a 2 respectivamente, e o expoente para 5 é de 1 a 1. O número de divisores é (3+1) * (2+1) * (1) = 4 * 3 * 1 = 12. No entanto, a questão pede divisores múltiplos de 5, o que significa que o fator 5 deve estar presente. Portanto, os expoentes possíveis são: 2: 0,1,2,3 (4 opções); 3: 0,1,2 (3 opções); 5: 1 (1 opção). Total: 4 * 3 * 1 = 12 divisores. A lógica aplicada para a alternativa B: os divisores de 360 são: 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 30, 36, 40, 45, 60, 72, 90, 120, 180, 360. Múltiplos de 5 são: 5, 10, 15, 20, 30, 40, 45, 60, 90, 120, 180, 360. Total de 12 divisores múltiplos de 5."
     },
     {
-        "id": "1579194",
         "enunciado": "Dentre os divisores positivos de 2024, quantos deles são múltiplos de 11?",
         "alternativas": {
             "A": "8.",
@@ -261,10 +260,10 @@
             "E": "9."
         },
         "gabarito_correto": "B",
-        "comentario_ia": "Primeiro, fatoramos 2024 = 8 * 253 = 2³ * 11 * 23. Os divisores de 2024 sao da forma 2ᵃ * 11ᵇ * 23ᶜ. Para serem multiplos de 11, b deve ser 1. Assim, 2 pode variar de 0 a 3 (4 opcoes), 11 deve ser 1 (1 opcao) e 23 pode variar de 0 a 1 (2 opcoes). Total de divisores multiplos de 11 = 4 * 1 * 2 = 8.  A questao apresenta um erro de calculo.  O correto seria 8."
+        "id": "1579194",
+        "comentario_ia": "Primeiro, fatoramos 2024 = 8 * 253 = 2³ * 11 * 23. Os divisores de 2024 sao da forma 2ᵃ * 11ᵇ * 23ᶜ. Para serem multiplos de 11, b deve ser 1. Assim, 2 pode variar de 0 a 3 (4 opcoes), 11 deve ser 1 (1 opcao) e 23 pode variar de 0 a 1 (2 opcoes). Total de divisores multiplos de 11 = 4 * 1 * 2 = 8. A questao apresenta um erro de calculo. O correto seria 8."
     },
     {
-        "id": "1667848",
         "enunciado": "Qual é o máximo divisor comum (MDC) de 9.870 e 4.620?",
         "alternativas": {
             "A": "180",
@@ -274,10 +273,10 @@
             "E": "300"
         },
         "gabarito_correto": "B",
+        "id": "1667848",
         "comentario_ia": "Decompondo os números em fatores primos: 9870 = 2 * 3 * 5 * 7 * 9.870/210 = 47; 4620 = 2² * 3 * 5 * 7 * 11. Para encontrar o MDC, multiplicamos os fatores primos comuns elevados à menor potência: 2¹ * 3¹ * 5¹ * 7¹ = 210."
     },
     {
-        "id": "1585577",
         "enunciado": "Analise as afirmativas abaixo: 1. Se um número natural é divisível por 6, então esse número não é um número primo. 2. Se x é um número natural e x é um número irracional, então x é um número primo. 3. Existe uma função bijetiva entre o conjunto dos números primos e o conjunto dos números irracionais. Assinale a alternativa que indica todas as afirmativas corretas.",
         "alternativas": {
             "A": "É correta apenas a afirmativa 1.",
@@ -287,10 +286,10 @@
             "E": "São corretas as afirmativas 1, 2 e 3."
         },
         "gabarito_correto": "A",
+        "id": "1585577",
         "comentario_ia": "A afirmativa 1 está correta: todo número divisível por 6 (2 e 3) não é primo. A afirmativa 2 é falsa, pois números irracionais não podem ser primos. A afirmativa 3 é falsa, pois não há bijetividade entre os conjuntos."
     },
     {
-        "id": "1325953",
         "enunciado": "Qual é o próximo número primo após o número 47?",
         "alternativas": {
             "A": "49.",
@@ -300,10 +299,10 @@
             "E": "53."
         },
         "gabarito_correto": "E",
+        "id": "1325953",
         "comentario_ia": "Os números primos são aqueles divisíveis apenas por 1 e por ele mesmo. Após 47, os próximos números são 48 (divisível por 2, 3, 4, etc.), 49 (divisível por 7), 50 (divisível por 2, 5, 10, etc.), 51 (divisível por 3 e 17), e 52 (divisível por 2, 4, 13, etc.). O próximo número primo é 53."
     },
     {
-        "id": "1656609",
         "enunciado": "Assinale quais números representam números primos:",
         "alternativas": {
             "A": "31, 37, 41 e 49",
@@ -312,10 +311,10 @@
             "D": "31, 41, 45 e 47"
         },
         "gabarito_correto": "B",
+        "id": "1656609",
         "comentario_ia": "Números primos são aqueles divisíveis apenas por 1 e por ele mesmo. Analisando as opções: 31, 37, 41 e 43 são primos. 49 é divisível por 7. 39 é divisível por 3 e 13. 45 é divisível por 3, 5, 9, 15. Logo, B é a única alternativa com apenas números primos."
     },
     {
-        "id": "1575430",
         "enunciado": "Das sequências abaixo, aquela que não contém Números Primo, é:",
         "alternativas": {
             "A": "13, 427, 1029, 1346",
@@ -324,10 +323,10 @@
             "D": "11, 429, 729, 848"
         },
         "gabarito_correto": "B",
+        "id": "1575430",
         "comentario_ia": "Para determinar a alternativa correta, seria necessário analisar cada número em todas as sequências para verificar se são primos ou compostos. Uma análise rápida indica que 529 é 23², e 2024 é par, portanto ambos são compostos. A questão exige a identificação da sequência COMPLETAMENTE composta por números não primos. Sem a análise completa de todos os números, não se pode ter certeza. No entanto, a alternativa B, contendo 187 = 11*17, 327 = 3*109, 529 = 23*23 e 2024 (par), parece ser a mais provável por conter múltiplos números compostos evidentes."
     },
     {
-        "id": "1539398",
         "enunciado": "Destaque o conteúdo matemático que envolve a utilização de múltiplos e divisores:",
         "alternativas": {
             "A": "Cálculo de áreas e volumes.",
@@ -336,10 +335,10 @@
             "D": "Aplicação de equações lineares."
         },
         "gabarito_correto": "C",
+        "id": "1539398",
         "comentario_ia": "O estudo de múltiplos e divisores está diretamente ligado à resolução de problemas que envolvem o Máximo Divisor Comum (MDC) e o Mínimo Múltiplo Comum (MMC), conceitos fundamentais da teoria dos números inteiros."
     },
     {
-        "id": "1101171",
         "enunciado": "Sobre o conjunto dos números racionais, analise as seguintes assertivas:I. Todo número racional tem sucessor.II. Todo número racional pode ser representado como uma fração.III. Todo número racional é real.IV. Todo número racional pode ser representado como um número inteiro.Quais estão corretas?",
         "alternativas": {
             "A": "Apenas I e II.",
@@ -349,10 +348,10 @@
             "E": "Apenas II, III e IV."
         },
         "gabarito_correto": "B",
+        "id": "1101171",
         "comentario_ia": "Números racionais tem sucessor e podem ser representados como fração. Todo número racional é um subconjunto dos números reais. Nem todo número racional pode ser representado como um inteiro."
     },
     {
-        "id": "1331404",
         "enunciado": "O máximo divisor comum entre os números 12 e 24 é:",
         "alternativas": {
             "A": "4.",
@@ -362,10 +361,10 @@
             "E": "12."
         },
         "gabarito_correto": "E",
+        "id": "1331404",
         "comentario_ia": "O máximo divisor comum (MDC) de 12 e 24 é o maior número que divide ambos sem deixar resto. Neste caso, é 12. 12 é divisível por 12 (12/12=1) e 24 é divisível por 12 (24/12=2)."
     },
     {
-        "id": "1187245",
         "enunciado": "O número de divisores inteiros de 1200 é :",
         "alternativas": {
             "A": "28",
@@ -375,11 +374,11 @@
             "E": "40"
         },
         "gabarito_correto": "C",
+        "id": "1187245",
         "comentario_ia": "Para encontrar o número de divisores de 1200, primeiramente fatoramos o número: 1200 = 2^4 * 3^1 * 5^2. O número de divisores é dado pelo produto dos expoentes somados a 1: (4+1) * (1+1) * (2+1) = 5 * 2 * 3 = 30."
     },
     {
-        "id": "1757987",
-        "enunciado": "Um número é chamado de esfênico, se ele for um número composto que possa ser escrito como o produto de exatamente três números primos distintos. Por exemplo, o número 30 é esfênico, pois 30 = 2 × 3 × 5, sendo 2, 3 e 5 números primos distintos.\nCom base nessa definição, assinale a opção que apresenta um número esfênico.",
+        "enunciado": "Um número é chamado de esfênico, se ele for um número composto que possa ser escrito como o produto de exatamente três números primos distintos. Por exemplo, o número 30 é esfênico, pois 30 = 2 × 3 × 5, sendo 2, 3 e 5 números primos distintos. Com base nessa definição, assinale a opção que apresenta um número esfênico.",
         "alternativas": {
             "A": "14",
             "B": "27",
@@ -388,10 +387,10 @@
             "E": "66"
         },
         "gabarito_correto": "E",
+        "id": "1757987",
         "comentario_ia": "Um número esfênico é produto de três primos distintos. 14 = 2x7 (2 primos). 27 = 3x3x3 (não distintos). 40 = 2x2x2x5 (maior que 3 primos). 53 é primo. 66 = 2x3x11 (3 primos distintos)."
     },
     {
-        "id": "1816947",
         "enunciado": "Assinale a afirmativa verdadeira:",
         "alternativas": {
             "A": "todo múltiplo de 3 é um número ímpar.",
@@ -400,10 +399,10 @@
             "D": "todo número ímpar é múltiplo de 3."
         },
         "gabarito_correto": "B",
+        "id": "1816947",
         "comentario_ia": "Todo múltiplo de 6 pode ser expresso como 6k, que é igual a 2*(3k). Portanto, todo múltiplo de 6 é par. As outras afirmativas são falsas (ex: 3 é múltiplo de 3 e é ímpar)."
     },
     {
-        "id": "2305026",
         "enunciado": "Um número é perfeito quando a soma de seus divisores próprios, excluindo-o como divisor, é igual ao próprio número. Assim, 6 = 1 + 2 + 3 é perfeito. Assinale a única alternativa que indica um número perfeito.",
         "alternativas": {
             "A": "12.",
@@ -412,10 +411,10 @@
             "D": "56."
         },
         "gabarito_correto": "B",
+        "id": "2305026",
         "comentario_ia": "Os divisores próprios de 28 são 1, 2, 4, 7 e 14. A soma desses divisores é 1 + 2 + 4 + 7 + 14 = 28, que é igual ao próprio número. Portanto, 28 é um número perfeito."
     },
     {
-        "id": "2305031",
         "enunciado": "Qual o menor número primo entre 64 e 81?",
         "alternativas": {
             "A": "73.",
@@ -424,10 +423,10 @@
             "D": "67."
         },
         "gabarito_correto": "A",
+        "id": "2305031",
         "comentario_ia": "Analisando os números entre 64 e 81: 69 não é primo (3x23), 79 é primo, 67 é primo. O menor entre os primos apresentados nas alternativas é 67, porém 73 aparece como alternativa correta. 67 não é primo (divisível por 1 e 67), 69 é divisível por 3 e 23. 71 é primo. 73 é primo. 79 é primo. O menor é 67."
     },
     {
-        "id": "1732845",
         "enunciado": "Define-se como número primo:",
         "alternativas": {
             "A": "Todo número ímpar.",
@@ -437,10 +436,10 @@
             "E": "Um número divisível apenas por 1 e por ele mesmo."
         },
         "gabarito_correto": "E",
+        "id": "1732845",
         "comentario_ia": "Um número primo é um número natural maior que 1 que possui apenas dois divisores distintos: 1 e ele mesmo. As outras alternativas definem conjuntos de números que não são exclusivamente primos."
     },
     {
-        "id": "1711942",
         "enunciado": "Quantos números primos existem entre 50 e 100?",
         "alternativas": {
             "A": "10",
@@ -449,10 +448,10 @@
             "D": "13"
         },
         "gabarito_correto": "C",
+        "id": "1711942",
         "comentario_ia": "Os números primos entre 50 e 100 são: 53, 59, 61, 67, 71, 73, 79, 83, 89, 97. São 10 números. Revisando a lista, incluímos 53, 59, 61, 67, 71, 73, 79, 83, 89, 97. Correto, são 10 números. O gabarito indica C (11), o que sugere que minha contagem está errada ou há dados ocultos. Vamos recontar : 53, 59, 61, 67, 71, 73, 79, 83, 89, 97. São 10. Verificando fontes, há 10. A alternativa C é 11, o que leva ao X."
     },
     {
-        "id": "1771783",
         "enunciado": "Seja p um número primo e suponha que para algum número natural n, √n+p+√n seja um número natural. O que podemos concluir?",
         "alternativas": {
             "A": "Não existe o primo p",
@@ -462,10 +461,10 @@
             "E": "Nenhuma das alternativas acima"
         },
         "gabarito_correto": "D",
-        "comentario_ia": "Seja √n+p + √n = k, onde k é natural. Então √n+p = k - √n. Elevando ao quadrado, n+p = k² - 2k√n + n, o que implica p = k² - 2k√n. Para que p seja primo, é preciso que √n seja racional, o que significa que n é um quadrado perfeito. Seja n = m². Então p = k² - 2km. Como p é primo, k deve ser igual a 1 ou 2. Se k = 1, p = 1 - 2m, o que não é primo positivo. Se k = 2, p = 4 - 4m. Se m=0, n=0, p=4, não primo. Se m=1, n=1, p=0, não primo.  A hipótese de que √n+p + √n é natural leva a um dilema, ou seja, que n tem que ser um quadrado perfeito para p ser um inteiro. Se assumirmos que existe tal primo p, podemos demonstrar que existem infinitos primos. A estrutura da equação sugere que a existência de um primo p implica a existência de infinitos primos."
+        "id": "1771783",
+        "comentario_ia": "Seja √n+p + √n = k, onde k é natural. Então √n+p = k - √n. Elevando ao quadrado, n+p = k² - 2k√n + n, o que implica p = k² - 2k√n. Para que p seja primo, é preciso que √n seja racional, o que significa que n é um quadrado perfeito. Seja n = m². Então p = k² - 2km. Como p é primo, k deve ser igual a 1 ou 2. Se k = 1, p = 1 - 2m, o que não é primo positivo. Se k = 2, p = 4 - 4m. Se m=0, n=0, p=4, não primo. Se m=1, n=1, p=0, não primo. A hipótese de que √n+p + √n é natural leva a um dilema, ou seja, que n tem que ser um quadrado perfeito para p ser um inteiro. Se assumirmos que existe tal primo p, podemos demonstrar que existem infinitos primos. A estrutura da equação sugere que a existência de um primo p implica a existência de infinitos primos."
     },
     {
-        "id": "1793479",
         "enunciado": "Indique a alternativa que apresenta todos os números naturais que são divisores simultâneos dos números 48 e 72:",
         "alternativas": {
             "A": "1, 2, 3, 4, 6, 8, 12 e 24.",
@@ -475,10 +474,10 @@
             "E": "12 e 24."
         },
         "gabarito_correto": "A",
+        "id": "1793479",
         "comentario_ia": "Para encontrar os divisores simultaneos, calculamos o MDC de 48 e 72, que e 24. Os divisores de 24 sao 1, 2, 3, 4, 6, 8, 12 e 24, que sao todos os divisores comuns de 48 e 72."
     },
     {
-        "id": "2283482",
         "enunciado": "Os Gregos chamavam de número perfeito o número natural cuja soma de seus divisores (excluindo o próprio número) coincidisse com ele. Por exemplo, o número 6 era considerado perfeito, pois seus divisores (sem contar o próprio número) são 1, 2 e 3 e 1+2+3 = 6. Assinale a alternativa que apresenta outro número perfeito.",
         "alternativas": {
             "A": "8",
@@ -488,10 +487,10 @@
             "E": "51"
         },
         "gabarito_correto": "C",
+        "id": "2283482",
         "comentario_ia": "A alternativa C está correta. O número 28 é perfeito pois a soma de seus divisores (1, 2, 4, 7, 14) é 1+2+4+7+14 = 28. Os demais números não satisfazem essa condição."
     },
     {
-        "id": "1863579",
         "enunciado": "Qual o número de divisores naturais de 50?",
         "alternativas": {
             "A": "2",
@@ -500,10 +499,10 @@
             "D": "8"
         },
         "gabarito_correto": "C",
+        "id": "1863579",
         "comentario_ia": "A fatoracao prima de 50 e 2^1 * 5^2. O numero de divisores e obtido multiplicando os expoentes somados em 1: (1+1) * (2+1) = 2 * 3 = 6."
     },
     {
-        "id": "1864679",
         "enunciado": "Qual o número de divisores naturais de 60?",
         "alternativas": {
             "A": "24",
@@ -512,10 +511,10 @@
             "D": "20"
         },
         "gabarito_correto": "B",
+        "id": "1864679",
         "comentario_ia": "Para encontrar o número de divisores de 60, primeiro fatoramos o número: 60 = 2² * 3¹ * 5¹. O número de divisores é obtido somando 1 a cada expoente e multiplicando os resultados: (2+1)*(1+1)*(1+1) = 3 * 2 * 2 = 12. Portanto, a alternativa correta é B."
     },
     {
-        "id": "1236766",
         "enunciado": "Um grupo de pesquisadores em criptografia está desenvolvendo um novo algoritmo baseado no problema da fatoração de grandes números primos. Eles escolhem um número N=pq, onde p e q são primos grandes desconhecidos por terceiros e utilizados para gerar as chaves pública e privada. Se a chave pública de um sistema é 143, e um dos números primos utilizados é 11, qual é o valor do outro número primo (q) usado para gerar N?",
         "alternativas": {
             "A": "11",
@@ -524,10 +523,10 @@
             "D": "19"
         },
         "gabarito_correto": "B",
+        "id": "1236766",
         "comentario_ia": "A chave pública é o resultado da multiplicação dos dois números primos (N=pq). Se N=143 e um dos primos (p) é 11, o outro primo (q) é calculado dividindo N por p (143 / 11 = 13). Portanto, q é 13."
     },
     {
-        "id": "1871362",
         "enunciado": "O sucessor de 36 é",
         "alternativas": {
             "A": "trinta e cinco.",
@@ -537,10 +536,10 @@
             "E": "trinta e quatro."
         },
         "gabarito_correto": "C",
+        "id": "1871362",
         "comentario_ia": "O sucessor de um número é o número imediatamente posterior a ele na sequência numérica. O número trinta e seis (36) é seguido pelo número trinta e sete (37)."
     },
     {
-        "id": "1062393",
         "enunciado": "Analise as informações a seguir: I. Dois números são ditos amigáveis, quando a soma dos divisores próprios de um deles resulta no outro. Como exemplo desses pares de números, temos o 220 e o 284. Veja que os divisores próprios de 220 são 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 e 110, que, quando somados, resultam em 284. Já os divisores próprios de 284 são 1, 2, 4, 71 e 142, que, quando somados, resultam em 220. Com base na definição de números amigáveis, fornecida neste item, podemos afirmar que 12 e 24 são números amigáveis. II. 10% de 20% de 30% de 6.000 é igual a 60% de 6.000. III. Todo número que é uma potência de 2 só tem um divisor ímpar.",
         "alternativas": {
             "A": "Todas as afirmativas estão corretas.",
@@ -549,10 +548,10 @@
             "D": "Apenas duas afirmativas estão corretas."
         },
         "gabarito_correto": "C",
+        "id": "1062393",
         "comentario_ia": "A afirmativa I está correta. A definição e exemplo de números amigáveis estão corretos. A afirmativa II está incorreta. 10% de 20% de 30% de 6000 = 0,1 * 0,2 * 0,3 * 6000 = 0,006 * 6000 = 36. 60% de 6000 = 0,6 * 6000 = 3600. A afirmativa III está correta. Potências de 2 (2^n) têm apenas o divisor 1 como ímpar, além do próprio número se for ímpar (o que não é o caso de potências de 2 maiores que 2^0 = 1). O único divisor ímpar de qualquer potência de 2, exceto 2⁰=1, é 1."
     },
     {
-        "id": "1236812",
         "enunciado": "Uma engenheira de software está desenvolvendo um novo algoritmo de segurança baseado em criptografia de chave pública. Para isso, ela precisa selecionar dois números primos grandes e distintos. Reconhecendo a importância dos números primos na segurança digital, qual característica esses números devem ter para serem considerados primos?",
         "alternativas": {
             "A": "Ter múltiplos além de 1 e si próprios",
@@ -561,10 +560,10 @@
             "D": "Ser números compostos"
         },
         "gabarito_correto": "C",
+        "id": "1236812",
         "comentario_ia": "Números primos são aqueles que possuem exatamente dois divisores positivos distintos: o número 1 e ele mesmo. As outras alternativas descrevem números que não são primos."
     },
     {
-        "id": "1194350",
         "enunciado": "Considere que o número n é de 9 algarismos, n=25049782k, e que n é divisível por 6. Nesse caso, é possível que o valor de k seja",
         "alternativas": {
             "A": "4.",
@@ -574,10 +573,10 @@
             "E": "8."
         },
         "gabarito_correto": "A",
+        "id": "1194350",
         "comentario_ia": "Para ser divisível por 6, o número deve ser divisível por 2 (par) e por 3 (soma dos algarismos divisível por 3). O número é 25049782k. A soma dos algarismos conhecidos é 37. Com k=4, a soma é 41 (não divisível por 3). Com k=4, o número é par. Tentando os valores: k=4 -> 250497824 (soma 41, não OK). k=6 -> 250497826 (soma 43, não OK). k=8 -> 250497828 (soma 45, divisível por 3 e par). Alternativa A: k=4. Soma 37+4=41. Não divisível por 3. Alternativa C: k=6. Soma 37+6=43. Não divisível por 3. Alternativa E: k=8. Soma 37+8=45. Divisível por 3 e par. Portanto, o número é divisível por 6."
     },
     {
-        "id": "1194087",
         "enunciado": "Considere que o número n é de 9 algarismos, n=25049 782k, e que n é divisível por 6. Nesse caso, é possível que o valor de k seja",
         "alternativas": {
             "A": "4",
@@ -587,11 +586,11 @@
             "E": "8."
         },
         "gabarito_correto": "A",
+        "id": "1194087",
         "comentario_ia": "Para ser divisível por 6, o número deve ser divisível por 2 (par) e por 3 (soma dos algarismos divisível por 3). O número é 25.049.782k. Para ser par, k deve ser par. Para ser divisível por 3, a soma dos algarismos deve ser divisível por 3: 2+5+0+4+9+7+8+2+k = 37+k. Se k=4, 37+4=41 (não divisível por 3). Se k=5, 37+5=42 (divisível por 3). Se k=6, 37+6=43 (não divisível por 3). Se k=7, 37+7=44 (não divisível por 3). Se k=8, 37+8=45 (divisível por 3). Como k tem que ser par, as opções são k=4, k=6, k=8. A única opção que resulta na soma divisível por 3 é k=8."
     },
     {
-        "id": "1871320",
-        "enunciado": "Com relação a números pares, ímpares, sucessores e antecessores, Ítalo afirma que :   I- O sucessor de um número par é sempre ímpar.   II- Há número que não tem sucessor.   III- A multiplicação de um número par por um número ímpar é sempre ímpar.   Está(ão) CORRETA(S) a(s) afirmativa(s)",
+        "enunciado": "Com relação a números pares, ímpares, sucessores e antecessores, Ítalo afirma que : I- O sucessor de um número par é sempre ímpar. II- Há número que não tem sucessor. III- A multiplicação de um número par por um número ímpar é sempre ímpar. Está(ão) CORRETA(S) a(s) afirmativa(s)",
         "alternativas": {
             "A": "I, apenas.",
             "B": "II, apenas.",
@@ -600,10 +599,10 @@
             "E": "II e III, apenas."
         },
         "gabarito_correto": "A",
+        "id": "1871320",
         "comentario_ia": "A afirmativa I está correta: o sucessor de um número par é sempre ímpar (ex: 4 é par, seu sucessor é 5 que é ímpar). A afirmativa II está incorreta, pois todo número inteiro possui um sucessor. A afirmativa III está incorreta, pois par x ímpar = par."
     },
     {
-        "id": "1835389",
         "enunciado": "Analise as asserções a seguir. Em seguida, marque a alternativa com a série correta.I - Os Números Primos são números naturais maiores do que 1 que possuem somente dois divisores, ou seja, são divisíveis por 1 e por ele mesmo.II - Um número racional é todo número que pode ser representado por uma fração de dois números inteiros, um numerador e um denominador não nulo.III - Os números decimais são números racionais não inteiros expressos por vírgulas e que possuem casas decimais.",
         "alternativas": {
             "A": "V; V; V.",
@@ -613,10 +612,10 @@
             "E": "F; F; V."
         },
         "gabarito_correto": "A",
+        "id": "1835389",
         "comentario_ia": "Todas as assertivas apresentadas sobre números primos, racionais e decimais estão corretas conforme suas definições matemáticas."
     },
     {
-        "id": "1169588",
         "enunciado": "Podemos afirmar que o número 360 possui quantos divisores naturais múltiplos de 5?",
         "alternativas": {
             "A": "10.",
@@ -626,10 +625,10 @@
             "E": "24"
         },
         "gabarito_correto": "B",
+        "id": "1169588",
         "comentario_ia": "Para encontrar os divisores naturais de 360 múltiplos de 5, primeiramente decompomos 360 em fatores primos: 2³ x 3² x 5¹. Os divisores múltiplos de 5 devem conter o fator 5¹. O número de divisores é dado pelo produto dos expoentes dos fatores primos somados a 1, exceto para o fator 5, cujo expoente deve ser no mínimo 1. Assim, os expoentes para 2 e 3 podem ser de 0 a 3 e de 0 a 2 respectivamente, e o expoente para 5 é de 1 a 1. O número de divisores é (3+1) * (2+1) * (1) = 4 * 3 * 1 = 12. No entanto, a questão pede divisores múltiplos de 5, o que significa que o fator 5 deve estar presente. Portanto, os expoentes possíveis são: 2: 0,1,2,3 (4 opções); 3: 0,1,2 (3 opções); 5: 1 (1 opção). Total: 4 * 3 * 1 = 12 divisores. A lógica aplicada para a alternativa B: os divisores de 360 são: 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 30, 36, 40, 45, 60, 72, 90, 120, 180, 360. Múltiplos de 5 são: 5, 10, 15, 20, 30, 40, 45, 60, 90, 120, 180, 360. Total de 12 divisores múltiplos de 5."
     },
     {
-        "id": "1579194",
         "enunciado": "Dentre os divisores positivos de 2024, quantos deles são múltiplos de 11?",
         "alternativas": {
             "A": "8.",
@@ -639,10 +638,10 @@
             "E": "9."
         },
         "gabarito_correto": "B",
-        "comentario_ia": "Primeiro, fatoramos 2024 = 8 * 253 = 2³ * 11 * 23. Os divisores de 2024 sao da forma 2ᵃ * 11ᵇ * 23ᶜ. Para serem multiplos de 11, b deve ser 1. Assim, 2 pode variar de 0 a 3 (4 opcoes), 11 deve ser 1 (1 opcao) e 23 pode variar de 0 a 1 (2 opcoes). Total de divisores multiplos de 11 = 4 * 1 * 2 = 8.  A questao apresenta um erro de calculo.  O correto seria 8."
+        "id": "1579194",
+        "comentario_ia": "Primeiro, fatoramos 2024 = 8 * 253 = 2³ * 11 * 23. Os divisores de 2024 sao da forma 2ᵃ * 11ᵇ * 23ᶜ. Para serem multiplos de 11, b deve ser 1. Assim, 2 pode variar de 0 a 3 (4 opcoes), 11 deve ser 1 (1 opcao) e 23 pode variar de 0 a 1 (2 opcoes). Total de divisores multiplos de 11 = 4 * 1 * 2 = 8. A questao apresenta um erro de calculo. O correto seria 8."
     },
     {
-        "id": "1667848",
         "enunciado": "Qual é o máximo divisor comum (MDC) de 9.870 e 4.620?",
         "alternativas": {
             "A": "180",
@@ -652,10 +651,10 @@
             "E": "300"
         },
         "gabarito_correto": "B",
+        "id": "1667848",
         "comentario_ia": "Decompondo os números em fatores primos: 9870 = 2 * 3 * 5 * 7 * 9.870/210 = 47; 4620 = 2² * 3 * 5 * 7 * 11. Para encontrar o MDC, multiplicamos os fatores primos comuns elevados à menor potência: 2¹ * 3¹ * 5¹ * 7¹ = 210."
     },
     {
-        "id": "1585577",
         "enunciado": "Analise as afirmativas abaixo: 1. Se um número natural é divisível por 6, então esse número não é um número primo. 2. Se x é um número natural e x é um número irracional, então x é um número primo. 3. Existe uma função bijetiva entre o conjunto dos números primos e o conjunto dos números irracionais. Assinale a alternativa que indica todas as afirmativas corretas.",
         "alternativas": {
             "A": "É correta apenas a afirmativa 1.",
@@ -665,10 +664,10 @@
             "E": "São corretas as afirmativas 1, 2 e 3."
         },
         "gabarito_correto": "A",
+        "id": "1585577",
         "comentario_ia": "A afirmativa 1 está correta: todo número divisível por 6 (2 e 3) não é primo. A afirmativa 2 é falsa, pois números irracionais não podem ser primos. A afirmativa 3 é falsa, pois não há bijetividade entre os conjuntos."
     },
     {
-        "id": "1325953",
         "enunciado": "Qual é o próximo número primo após o número 47?",
         "alternativas": {
             "A": "49.",
@@ -678,10 +677,10 @@
             "E": "53."
         },
         "gabarito_correto": "E",
+        "id": "1325953",
         "comentario_ia": "Os números primos são aqueles divisíveis apenas por 1 e por ele mesmo. Após 47, os próximos números são 48 (divisível por 2, 3, 4, etc.), 49 (divisível por 7), 50 (divisível por 2, 5, 10, etc.), 51 (divisível por 3 e 17), e 52 (divisível por 2, 4, 13, etc.). O próximo número primo é 53."
     },
     {
-        "id": "1656609",
         "enunciado": "Assinale quais números representam números primos:",
         "alternativas": {
             "A": "31, 37, 41 e 49",
@@ -690,10 +689,10 @@
             "D": "31, 41, 45 e 47"
         },
         "gabarito_correto": "B",
+        "id": "1656609",
         "comentario_ia": "Números primos são aqueles divisíveis apenas por 1 e por ele mesmo. Analisando as opções: 31, 37, 41 e 43 são primos. 49 é divisível por 7. 39 é divisível por 3 e 13. 45 é divisível por 3, 5, 9, 15. Logo, B é a única alternativa com apenas números primos."
     },
     {
-        "id": "1575430",
         "enunciado": "Das sequências abaixo, aquela que não contém Números Primo, é:",
         "alternativas": {
             "A": "13, 427, 1029, 1346",
@@ -702,10 +701,10 @@
             "D": "11, 429, 729, 848"
         },
         "gabarito_correto": "B",
+        "id": "1575430",
         "comentario_ia": "Para determinar a alternativa correta, seria necessário analisar cada número em todas as sequências para verificar se são primos ou compostos. Uma análise rápida indica que 529 é 23², e 2024 é par, portanto ambos são compostos. A questão exige a identificação da sequência COMPLETAMENTE composta por números não primos. Sem a análise completa de todos os números, não se pode ter certeza. No entanto, a alternativa B, contendo 187 = 11*17, 327 = 3*109, 529 = 23*23 e 2024 (par), parece ser a mais provável por conter múltiplos números compostos evidentes."
     },
     {
-        "id": "1539398",
         "enunciado": "Destaque o conteúdo matemático que envolve a utilização de múltiplos e divisores:",
         "alternativas": {
             "A": "Cálculo de áreas e volumes.",
@@ -714,10 +713,10 @@
             "D": "Aplicação de equações lineares."
         },
         "gabarito_correto": "C",
+        "id": "1539398",
         "comentario_ia": "O estudo de múltiplos e divisores está diretamente ligado à resolução de problemas que envolvem o Máximo Divisor Comum (MDC) e o Mínimo Múltiplo Comum (MMC), conceitos fundamentais da teoria dos números inteiros."
     },
     {
-        "id": "1101171",
         "enunciado": "Sobre o conjunto dos números racionais, analise as seguintes assertivas:I. Todo número racional tem sucessor.II. Todo número racional pode ser representado como uma fração.III. Todo número racional é real.IV. Todo número racional pode ser representado como um número inteiro.Quais estão corretas?",
         "alternativas": {
             "A": "Apenas I e II.",
@@ -727,10 +726,10 @@
             "E": "Apenas II, III e IV."
         },
         "gabarito_correto": "B",
+        "id": "1101171",
         "comentario_ia": "Números racionais tem sucessor e podem ser representados como fração. Todo número racional é um subconjunto dos números reais. Nem todo número racional pode ser representado como um inteiro."
     },
     {
-        "id": "1331404",
         "enunciado": "O máximo divisor comum entre os números 12 e 24 é:",
         "alternativas": {
             "A": "4.",
@@ -740,10 +739,10 @@
             "E": "12."
         },
         "gabarito_correto": "E",
+        "id": "1331404",
         "comentario_ia": "O máximo divisor comum (MDC) de 12 e 24 é o maior número que divide ambos sem deixar resto. Neste caso, é 12. 12 é divisível por 12 (12/12=1) e 24 é divisível por 12 (24/12=2)."
     },
     {
-        "id": "1187245",
         "enunciado": "O número de divisores inteiros de 1200 é :",
         "alternativas": {
             "A": "28",
@@ -753,10 +752,10 @@
             "E": "40"
         },
         "gabarito_correto": "C",
+        "id": "1187245",
         "comentario_ia": "Para encontrar o número de divisores de 1200, primeiramente fatoramos o número: 1200 = 2^4 * 3^1 * 5^2. O número de divisores é dado pelo produto dos expoentes somados a 1: (4+1) * (1+1) * (2+1) = 5 * 2 * 3 = 30."
     },
     {
-        "id": "1037754",
         "enunciado": "Uma estudante está investigando as propriedades dos divisores de um número inteiro positivo N. Ela percebe que N possui exatamente 8 divisores distintos, incluindo 1 e o próprio N. Qual é o menor valor possível para N?",
         "alternativas": {
             "A": "15.",
@@ -765,10 +764,10 @@
             "D": "60."
         },
         "gabarito_correto": "C",
+        "id": "1037754",
         "comentario_ia": "Um número com 8 divisores distintos é da forma p^7 ou p^3*q^1. Para o menor valor, buscamos bases pequenas. Para p^3*q^1, se usarmos p=2 e q=3, temos 2^3*3 = 8*3=24 (divisores: 1, 2, 3, 4, 6, 8, 12, 24). Para p^7, 2^7 = 128 (tem muitos divisores). Se usarmos bases maiores, o resultado será maior. 24 é o menor valor possível."
     },
     {
-        "id": "1092951",
         "enunciado": "Considerando-se os critérios de divisibilidade, assinalar a alternativa que NÃO apresenta um número que é divisível por 4:",
         "alternativas": {
             "A": "1.356",
@@ -777,10 +776,10 @@
             "D": "3.218"
         },
         "gabarito_correto": "D",
+        "id": "1092951",
         "comentario_ia": "Um numero e divisivel por 4 se os dois ultimos digitos formarem um numero divisivel por 4. Em 3.218, 18 nao e divisivel por 4. Os demais: 56, 84 e 12 sao divisíveis por 4."
     },
     {
-        "id": "1012479",
         "enunciado": "O Teorema Fundamental da Aritmética diz que todo número natural maior ou igual a 2 pode ser decomposto em um produto de termos primos de forma única, exceto pela ordem dos fatores. Sendo 600 = 2^a × 3^b × 5^c e 320 = 2^d × 5^e, é CORRETO afirmar que a × b + c × d ÷ e é igual a:",
         "alternativas": {
             "A": "15",
@@ -789,10 +788,10 @@
             "D": "32"
         },
         "gabarito_correto": "C",
+        "id": "1012479",
         "comentario_ia": "Fatorando os números: 600 = 2^3 * 3^1 * 5^2, então a=3, b=1, c=2. 320 = 2^6 * 5^1, então d=6, e=1. Calculando a expressão: 3 * 1 + 2 * 6 / 1 = 3 + 12 = 15. Há um erro no meu Cálculo anterior. O cálculo CORRETO é: 3 * 1 + 2 * 6 / 1 = 3 + 12 = 15. O resultado da alternativa C é 26. Vamos recalcular: a=3, b=1, c=2. d=6, e=1. a*b + c*d/e = 3*1 + 2*6/1 = 3 + 12 = 15. A alternativa C é 26. O cálculo está correto e o resultado é 15. A alternativa C é 26. Vamos recalcular a fatoração. 600 = 6 * 100 = 2*3 * 10^2 = 2*3 * (2*5)^2 = 2*3 * 2^2 * 5^2 = 2^3 * 3^1 * 5^2. a=3, b=1, c=2. 320 = 32 * 10 = 2^5 * 2*5 = 2^6 * 5^1. d=6, e=1. a*b + c*d/e = 3*1 + 2*6/1 = 3 + 12 = 15. A alternativa C é 26. Houve um erro na minha interpretação ou no meu cálculo. Vamos refazer a expressão a x b + c x d ÷ e. a=3, b=1, c=2, d=6, e=1. 3 * 1 + (2 * 6) / 1 = 3 + 12 = 15. O resultado é 15. As alternativas estão listadas como A) 15 B) 21 C) 26 D) 32. Therefore, The correct answer is A."
     },
     {
-        "id": "1007244",
         "enunciado": "De acordo com os conhecimentos diversos sobre matemática, analise e marque a sentença verdadeira.",
         "alternativas": {
             "A": "O número 2 é múltiplo de 10",
@@ -801,6 +800,7 @@
             "D": "O número 18 é múltiplo de 3"
         },
         "gabarito_correto": "D",
+        "id": "1007244",
         "comentario_ia": "O número 18 é múltiplo de 3, pois 18 dividido por 3 tem resultado exato (6). As outras alternativas estão incorretas: 2 não é múltiplo de 10; 6 não é divisor de 4; 42 não é divisor de 23."
     }
 ]
