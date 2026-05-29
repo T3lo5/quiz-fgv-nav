@@ -18,6 +18,9 @@
     let welcomeScreen, questionScreen, resultScreen, reviewScreen;
     let startButton, startStudyButton, nextButton, prevButton;
     let restartButton, reviewButton, backButton, backToMenuButton, submitButton;
+    
+    // Elementos do Simulado Personalizado (Tarefa 6.1-6.2 - KANBAN)
+    let startSimulatedBtn, disciplinesSelectionContainer, startMatterStudyBtn, singleMatterListContainer;
 
     // Estado Global de Review (Tarefa 1.1 - KANBAN)
     const reviewState = {
