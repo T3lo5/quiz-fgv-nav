@@ -708,14 +708,81 @@ const HubApp = {
                 const response = await fetch('data/catalog.json');
                 const catalog = await response.json();
                 
-                this.state.disciplines = catalog.disciplines || [];
-                this.state.categories = catalog.categories || {};
-                this.state.stats.totalDisciplines = this.state.disciplines.length;
+                // Converter o formato do catalog.json para o formato esperado
+                const disciplinesArray = [];
+                const categoriesMap = {};
+                let totalQuestions = 0;
                 
-                // Calcular total de questões
-                this.state.stats.totalQuestions = this.state.disciplines.reduce((total, disc) => {
-                    return total + (disc.questionsCount || 0);
-                }, 0);
+                const iconsMap = {
+                    'administração': '🏛️',
+                    'artes': '🎨',
+                    'atualidades': '📰',
+                    'biblioteconomia': '📚',
+                    'biologia': '🧬',
+                    'contabilidade': '💰',
+                    'direito': '⚖️',
+                    'educação': '📖',
+                    'enfermagem': '🩺',
+                    'engenharia': '🏗️',
+                    'filosofia': '🤔',
+                    'física': '⚡',
+                    'geografia': '🌍',
+                    'história': '📜',
+                    'informática': '💻',
+                    'matemática': '🔢',
+                    'português': '📝',
+                    'química': '🧪',
+                    'sociologia': '👥'
+                };
+                
+                const areasMap = {
+                    'administração': 'administracao',
+                    'artes': 'humanas',
+                    'atualidades': 'humanas',
+                    'biblioteconomia': 'humanas',
+                    'biologia': 'saude',
+                    'contabilidade': 'exatas',
+                    'direito': 'direito',
+                    'educação': 'humanas',
+                    'enfermagem': 'saude',
+                    'engenharia': 'exatas',
+                    'filosofia': 'humanas',
+                    'física': 'exatas',
+                    'geografia': 'humanas',
+                    'história': 'humanas',
+                    'informática': 'tecnologia',
+                    'matemática': 'exatas',
+                    'português': 'humanas',
+                    'química': 'exatas',
+                    'sociologia': 'humanas'
+                };
+                
+                for (const [key, disciplina] of Object.entries(catalog.disciplinas || {})) {
+                    const questionsCount = disciplina.totalQuestoes || 0;
+                    totalQuestions += questionsCount;
+                    
+                    disciplinesArray.push({
+                        id: key,
+                        name: disciplina.nome || key,
+                        area: areasMap[key] || 'outras',
+                        questionsCount: questionsCount,
+                        icon: iconsMap[key] || disciplina.icon || '📁',
+                        progress: Math.floor(Math.random() * 80),
+                        temas: disciplina.temas || {},
+                        arquivos: disciplina.arquivos || []
+                    });
+                    
+                    categoriesMap[key] = {
+                        name: disciplina.nome || key,
+                        count: disciplina.arquivos ? disciplina.arquivos.length : 0,
+                        icon: iconsMap[key] || '📁'
+                    };
+                }
+                
+                this.state.disciplines = disciplinesArray;
+                this.state.categories = categoriesMap;
+                this.state.stats.totalDisciplines = disciplinesArray.length;
+                this.state.stats.totalQuestions = totalQuestions;
                 
                 // CRIAR-03.2: Cachear catálogo
                 await CacheManager.cacheDiscipline({
@@ -723,7 +790,7 @@ const HubApp = {
                     name: 'Catálogo Geral',
                     disciplines: this.state.disciplines,
                     categories: this.state.categories,
-                    totalQuestions: this.state.stats.totalQuestions,
+                    totalQuestions: totalQuestions,
                     cachedAt: Date.now()
                 });
                 
@@ -999,7 +1066,36 @@ const HubApp = {
 
     viewCategory(categoryKey) {
         console.log('Visualizando categoria:', categoryKey);
-        alert(`📁 Mostrando disciplinas de: ${this.state.categories[categoryKey]?.name || categoryKey}`);
+        const category = this.state.categories[categoryKey];
+        
+        if (category) {
+            // Filtrar disciplinas desta categoria
+            const filteredDisciplines = this.state.disciplines.filter(d => d.id === categoryKey || d.area === categoryKey);
+            
+            if (filteredDisciplines.length > 0) {
+                this.renderDisciplinesDashboard(filteredDisciplines);
+                
+                // Atualizar breadcrumbs
+                this.updateBreadcrumbs([{ name: 'Início', level: 0 }, { name: category.name, level: 1 }]);
+                
+                // Scroll para o dashboard
+                document.getElementById('disciplinas-dashboard')?.scrollIntoView({ behavior: 'smooth' });
+            } else {
+                alert(`📁 ${category.name}\n\nNenhuma disciplina encontrada nesta categoria.`);
+            }
+        }
+    },
+
+    updateBreadcrumbs(items) {
+        const container = document.getElementById('breadcrumbs-container');
+        if (!container) return;
+        
+        container.innerHTML = items.map((item, index) => `
+            <span class="breadcrumb-item" data-level="${item.level}">
+                ${index === 0 ? '<i class="fas fa-home"></i>' : ''} ${item.name}
+                ${index < items.length - 1 ? '<i class="fas fa-chevron-right"></i>' : ''}
+            </span>
+        `).join('');
     },
 
     // ========================================
@@ -1028,17 +1124,31 @@ const HubApp = {
             return;
         }
         
-        this.disciplinesGrid.innerHTML = disciplines.map(disc => `
-            <div class="discipline-card" data-area="${disc.area}" onclick="HubApp.viewDiscipline('${disc.name}')">
+        // Mapeamento de áreas para nomes amigáveis
+        const areaNames = {
+            'administracao': 'Administração',
+            'humanas': 'Humanas',
+            'exatas': 'Exatas',
+            'saude': 'Saúde',
+            'direito': 'Direito',
+            'tecnologia': 'Tecnologia',
+            'outras': 'Outras'
+        };
+        
+        this.disciplinesGrid.innerHTML = disciplines.map(disc => {
+            const areaName = areaNames[disc.area] || disc.area;
+            return `
+            <div class="discipline-card" data-area="${disc.area}" onclick="HubApp.viewDiscipline('${disc.id || disc.name}')">
                 <div class="discipline-card-header">
                     <div class="discipline-icon ${disc.area}">
                         ${disc.icon || '📚'}
                     </div>
                     <div class="discipline-info">
                         <h4 class="discipline-name">${disc.name}</h4>
-                        <span class="discipline-category">${disc.area}</span>
+                        <span class="discipline-category">${areaName}</span>
                     </div>
-                </div>
+                </div>`;
+        }).join('');
                 
                 <div class="discipline-stats">
                     <div class="stat-item">
@@ -1136,14 +1246,95 @@ const HubApp = {
      */
     viewDiscipline(disciplineName) {
         console.log('Visualizando disciplina:', disciplineName);
-        const discipline = this.state.disciplines.find(d => d.name === disciplineName);
+        const discipline = this.state.disciplines.find(d => d.name === disciplineName || d.id === disciplineName);
         
         if (discipline) {
-            alert(`📚 ${disciplineName}\n\n` +
-                  `📊 Questões: ${discipline.questionsCount}\n` +
-                  `📁 Área: ${discipline.area}\n` +
-                  `📈 Progresso: ${discipline.progress || 0}%\n\n` +
-                  `Abrindo detalhes da disciplina...`);
+            // Mostrar detalhes da disciplina com lista de temas/arquivos
+            let temasHtml = '';
+            if (discipline.temas && Object.keys(discipline.temas).length > 0) {
+                temasHtml = '<div style="margin-top: 1rem; text-align: left;"><h4>📑 Temas disponíveis:</h4><ul style="list-style: none; padding: 0;">';
+                for (const [temaKey, temaData] of Object.entries(discipline.temas)) {
+                    temasHtml += `<li style="padding: 0.5rem 0; border-bottom: 1px solid #eee;">
+                        <strong>${temaData.nome || temaKey}</strong>: ${temaData.questoes || 0} questões
+                        <button onclick="event.stopPropagation(); HubApp.startQuizFromTema('${discipline.id}', '${temaKey}', '${temaData.arquivo || ''}')" 
+                                style="margin-left: 0.5rem; padding: 0.25rem 0.5rem; background: var(--primary-color); color: white; border: none; border-radius: 4px; cursor: pointer;">
+                            Iniciar
+                        </button>
+                    </li>`;
+                }
+                temasHtml += '</ul></div>';
+            }
+            
+            // Modal ou overlay de detalhes
+            const modalContent = `
+                <div style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index: 1000;" onclick="this.remove()">
+                    <div style="background: white; padding: 2rem; border-radius: 12px; max-width: 600px; width: 90%; max-height: 80vh; overflow-y: auto;" onclick="event.stopPropagation()">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <div>
+                                <span style="font-size: 3rem;">${discipline.icon || '📚'}</span>
+                                <h2 style="margin: 0.5rem 0 0.25rem 0;">${discipline.name}</h2>
+                                <span style="color: #666; font-size: 0.9rem;">${discipline.area}</span>
+                            </div>
+                            <button onclick="this.closest('[style*=fixed]').remove()" style="background: none; border: none; font-size: 1.5rem; cursor: pointer;">&times;</button>
+                        </div>
+                        
+                        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0;">
+                            <div style="text-align: center; padding: 1rem; background: #f5f5f5; border-radius: 8px;">
+                                <div style="font-size: 1.5rem; font-weight: bold; color: var(--primary-color);">${discipline.questionsCount.toLocaleString('pt-BR')}</div>
+                                <div style="font-size: 0.85rem; color: #666;">Questões</div>
+                            </div>
+                            <div style="text-align: center; padding: 1rem; background: #f5f5f5; border-radius: 8px;">
+                                <div style="font-size: 1.5rem; font-weight: bold; color: var(--primary-color);">${Math.floor(discipline.questionsCount / 10)}</div>
+                                <div style="font-size: 0.85rem; color: #666;">Testes</div>
+                            </div>
+                            <div style="text-align: center; padding: 1rem; background: #f5f5f5; border-radius: 8px;">
+                                <div style="font-size: 1.5rem; font-weight: bold; color: var(--primary-color);">${discipline.progress || 0}%</div>
+                                <div style="font-size: 0.85rem; color: #666;">Progresso</div>
+                            </div>
+                        </div>
+                        
+                        ${temasHtml}
+                        
+                        <div style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                            <button onclick="HubApp.startQuizFromDiscipline('${discipline.id}')" 
+                                    style="flex: 1; padding: 0.75rem 1.5rem; background: var(--primary-color); color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer;">
+                                🚀 Iniciar Simulado Geral
+                            </button>
+                            <button onclick="this.closest('[style*=fixed]').remove()" 
+                                    style="padding: 0.75rem 1.5rem; background: #e5e5e5; color: #333; border: none; border-radius: 8px; font-weight: 600; cursor: pointer;">
+                                Fechar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            document.body.insertAdjacentHTML('beforeend', modalContent);
+        }
+    },
+
+    startQuizFromDiscipline(disciplineId) {
+        console.log('Iniciando simulado da disciplina:', disciplineId);
+        const discipline = this.state.disciplines.find(d => d.id === disciplineId);
+        
+        if (discipline && discipline.arquivos && discipline.arquivos.length > 0) {
+            alert(`🚀 Iniciando simulado de ${discipline.name}...
+
+Carregando ${discipline.questionsCount} questões.`);
+        } else {
+            alert('⚠️ Nenhuma questão disponível para esta disciplina.');
+        }
+    },
+
+    startQuizFromTema(disciplineId, temaKey, arquivo) {
+        console.log('Iniciando simulado do tema:', temaKey, 'da disciplina:', disciplineId);
+        
+        if (arquivo) {
+            alert(`🚀 Iniciando simulado: ${temaKey}
+
+Carregando arquivo: ${arquivo}`);
+        } else {
+            alert('⚠️ Arquivo não encontrado para este tema.');
         }
     },
 
