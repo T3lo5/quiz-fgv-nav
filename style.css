@@ -620,14 +620,43 @@ footer {
 }
 
 /* Responsividade */
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+        max-width: 100%;
+    }
+    
+    header h1 {
+        font-size: 2.2rem;
+    }
+    
+    .category-tabs {
+        flex-wrap: wrap;
+    }
+    
+    .tab-btn {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         width: 95%;
         margin: 20px auto;
+        border-radius: 15px;
+    }
+
+    header {
+        padding: 20px;
     }
 
     header h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+    
+    header p {
+        font-size: 1rem;
     }
 
     main {
@@ -635,16 +664,393 @@ footer {
     }
 
     .quiz-options {
-        padding: 20px;
+        padding: 15px;
+    }
+    
+    .welcome-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .welcome-content p {
+        font-size: 0.95rem;
     }
 
-    .result-buttons {
+    /* Modo Toggle - Botões em coluna no mobile */
+    .mode-toggle {
         flex-direction: column;
+        gap: 8px;
+    }
+    
+    .mode-btn {
+        width: 100%;
+        padding: 14px;
+        font-size: 1rem;
+    }
+
+    /* Campo de busca */
+    .search-group {
+        margin-bottom: 15px;
+    }
+    
+    #matter-search {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px; /* Evita zoom no iOS */
+    }
+
+    /* Abas de categorias com scroll horizontal */
+    .category-tabs {
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .tab-btn {
+        display: inline-block;
+        padding: 8px 16px;
+        font-size: 0.85rem;
+        margin-right: 5px;
+    }
+
+    /* Lista de matérias */
+    .matters-list {
+        max-height: 300px;
+    }
+    
+    .matter-item {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+    /* Configurações do simulado */
+    .simulated-config {
+        padding: 15px;
+    }
+    
+    .config-section {
+        padding: 0;
+    }
+    
+    .option-group label {
+        font-size: 0.9rem;
+        display: block;
+        margin-bottom: 8px;
+    }
+    
+    .time-input,
+    select,
+    input[type="number"] {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px; /* Evita zoom no iOS */
+        box-sizing: border-box;
+    }
+    
+    .disciplines-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .discipline-checkbox {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+    /* Questões por disciplina */
+    .questions-config {
+        margin-top: 15px;
+    }
+    
+    .questions-config h5 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    
+    .discipline-questions-inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .total-summary {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    
+    .total-summary strong {
+        font-size: 1.1rem;
+    }
+
+    /* Botões de ação */
+    .result-buttons,
+    .action-buttons {
+        flex-direction: column;
+        gap: 10px;
     }
 
     .btn {
         width: 100%;
+        padding: 14px 20px;
+        font-size: 1rem;
+        min-height: 48px; /* Área de toque mínima */
     }
+    
+    .btn.primary,
+    .btn.secondary {
+        justify-content: center;
+    }
+
+    /* Tela de questão */
+    .question-header {
+        padding: 15px;
+    }
+    
+    #question-counter {
+        font-size: 0.9rem;
+    }
+    
+    .question-content {
+        padding: 20px 15px;
+    }
+    
+    #question-text {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+    
+    #options-container {
+        margin-top: 20px;
+    }
+    
+    .option-label {
+        padding: 15px;
+        font-size: 0.95rem;
+        min-height: 50px; /* Área de toque mínima */
+        display: flex;
+        align-items: center;
+    }
+
+    /* Tela de resultado */
+    .result-content {
+        padding: 30px 20px;
+    }
+    
+    .result-content h2 {
+        font-size: 1.8rem;
+    }
+    
+    .score-display {
+        font-size: 3rem;
+    }
+    
+    .score-percentage {
+        font-size: 2rem;
+    }
+
+    /* Tela de estudo */
+    .study-content {
+        padding: 20px 15px;
+    }
+    
+    .study-header h2 {
+        font-size: 1.3rem;
+    }
+    
+    #study-question {
+        font-size: 1.1rem;
+        margin: 20px 0;
+    }
+    
+    .alternatives {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .alternative-label {
+        padding: 15px;
+        font-size: 0.95rem;
+        min-height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .study-controls {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    
+    .study-controls .btn {
+        width: 100%;
+    }
+
+    /* Preview section */
+    .preview-section {
+        margin-top: 20px;
+        padding: 15px;
+    }
+    
+    #preview-content {
+        font-size: 0.9rem;
+    }
+
+    /* Scrollbars customizadas para mobile */
+    ::-webkit-scrollbar {
+        height: 6px;
+        width: 6px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        border-radius: 0;
+        min-height: 100vh;
+    }
+    
+    header {
+        padding: 15px;
+        border-radius: 0;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    header p {
+        font-size: 0.9rem;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .welcome-content h2 {
+        font-size: 1.3rem;
+    }
+    
+    .welcome-content p {
+        font-size: 0.9rem;
+    }
+
+    .mode-btn {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+    
+    .tab-btn {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+    
+    .matter-item {
+        padding: 10px;
+        font-size: 0.85rem;
+    }
+    
+    .btn {
+        padding: 12px 16px;
+        font-size: 0.95rem;
+    }
+    
+    .question-content {
+        padding: 15px 10px;
+    }
+    
+    #question-text {
+        font-size: 1rem;
+    }
+    
+    .option-label {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+    
+    .result-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .score-display {
+        font-size: 2.5rem;
+    }
+    
+    .score-percentage {
+        font-size: 1.8rem;
+    }
+}
+
+/* Modo landscape para celulares */
+@media (max-width: 768px) and (orientation: landscape) {
+    .container {
+        margin: 10px auto;
+        max-height: 95vh;
+        overflow-y: auto;
+    }
+    
+    header {
+        padding: 15px 20px;
+    }
+    
+    header h1 {
+        font-size: 1.6rem;
+    }
+    
+    main {
+        padding: 15px;
+    }
+    
+    .hero-title {
+        font-size: 1.4rem !important;
+    }
+    
+    .quick-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Otimização para dispositivos touch */
+@media (hover: none) and (pointer: coarse) {
+    /* Remove hover effects em dispositivos touch */
+    .btn:hover,
+    .mode-btn:hover,
+    .tab-btn:hover,
+    .matter-item:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    /* Aumenta áreas de toque */
+    .btn,
+    .mode-btn,
+    .tab-btn,
+    .matter-item,
+    .option-label,
+    .alternative-label {
+        min-height: 44px;
+    }
+    
+    /* Melhora feedback visual no touch */
+    .btn:active,
+    .mode-btn:active,
+    .tab-btn:active {
+        opacity: 0.7;
+        transform: scale(0.98);
+    }
+}
+
+/* Previne zoom indesejado no iOS ao focar inputs */
+input,
+select,
+textarea {
+    font-size: 16px !important;
 }
 
 /* Modo de Estudo */
