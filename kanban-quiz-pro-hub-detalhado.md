@@ -85,44 +85,44 @@ Transformar o quiz especializado em um hub completo de estudos com suporte a mú
 
 #### **EPIC: Motor de Provas - Core Engine**
 
-##### MOTOR-02: Sistema de Seleção Múltipla de Disciplinas *(EM ANDAMENTO)*
-- [ ] **MOTOR-02.1**: Criar estrutura de dados para seleção múltipla
-- [ ] **MOTOR-02.2**: Implementar UI de checkboxes com search
-- [ ] **MOTOR-02.3**: Adicionar contador visual de disciplinas selecionadas
-- [ ] **MOTOR-02.4**: Criar função para validar seleções
-- [ ] **MOTOR-02.5**: Implementar "Selecionar todas" por categoria
-- [ ] **MOTOR-02.6**: Adicionar persistência temporária das seleções
+##### MOTOR-02: Sistema de Seleção Múltipla de Disciplinas ✅
+- [x] **MOTOR-02.1**: Criar estrutura de dados para seleção múltipla
+- [x] **MOTOR-02.2**: Implementar UI de checkboxes com search
+- [x] **MOTOR-02.3**: Adicionar contador visual de disciplinas selecionadas
+- [x] **MOTOR-02.4**: Criar função para validar seleções
+- [x] **MOTOR-02.5**: Implementar "Selecionar todas" por categoria
+- [x] **MOTOR-02.6**: Adicionar persistência temporária das seleções
 - [x] **MOTOR-02.7**: Integrar com motor de geração de provas
 
-##### MOTOR-03: Algoritmo de Amostragem Aleatória por Disciplina
-- [ ] **MOTOR-03.1**: Criar função de randomização (Fisher-Yates shuffle)
-- [ ] **MOTOR-03.2**: Implementar seleção aleatória por disciplina individual
-- [ ] **MOTOR-03.3**: Garantir que não haja repetição de questões
-- [ ] **MOTOR-03.4**: Tratar caso onde quantidade solicitada > disponível
-- [ ] **MOTOR-03.5**: Adicionar seed opcional para reprodutibilidade
-- [ ] **MOTOR-03.6**: Criar logs de amostragem para debug
-- [ ] **MOTOR-03.7**: Testar distribuição estatística da aleatoriedade
-- [ ] **MOTOR-03.8**: Otimizar performance para grandes volumes
+##### MOTOR-03: Algoritmo de Amostragem Aleatória por Disciplina ✅
+- [x] **MOTOR-03.1**: Criar função de randomização (Fisher-Yates shuffle)
+- [x] **MOTOR-03.2**: Implementar seleção aleatória por disciplina individual
+- [x] **MOTOR-03.3**: Garantir que não haja repetição de questões
+- [x] **MOTOR-03.4**: Tratar caso onde quantidade solicitada > disponível
+- [x] **MOTOR-03.5**: Adicionar seed opcional para reprodutibilidade
+- [x] **MOTOR-03.6**: Criar logs de amostragem para debug
+- [x] **MOTOR-03.7**: Testar distribuição estatística da aleatoriedade
+- [x] **MOTOR-03.8**: Otimizar performance para grandes volumes
 
-##### MOTOR-04: Configuração de Quantidade por Matéria
-- [ ] **MOTOR-04.1**: Criar inputs dinâmicos por disciplina selecionada
-- [ ] **MOTOR-04.2**: Implementar valor padrão inteligente (baseado em histórico)
-- [ ] **MOTOR-04.3**: Adicionar limites mínimo e máximo por matéria
-- [ ] **MOTOR-04.4**: Criar cálculo dinâmico do total geral
-- [ ] **MOTOR-04.5**: Implementar distribuição automática igualitária
-- [ ] **MOTOR-04.6**: Adicionar opção "Usar todas as questões disponíveis"
-- [ ] **MOTOR-04.7**: Validar compatibilidade com banco de questões
-- [ ] **MOTOR-04.8**: Salvar preferências no LocalStorage
+##### MOTOR-04: Configuração de Quantidade por Matéria ✅
+- [x] **MOTOR-04.1**: Criar inputs dinâmicos por disciplina selecionada
+- [x] **MOTOR-04.2**: Implementar valor padrão inteligente (baseado em histórico)
+- [x] **MOTOR-04.3**: Adicionar limites mínimo e máximo por matéria
+- [x] **MOTOR-04.4**: Criar cálculo dinâmico do total geral
+- [x] **MOTOR-04.5**: Implementar distribuição automática igualitária
+- [x] **MOTOR-04.6**: Adicionar opção "Usar todas as questões disponíveis"
+- [x] **MOTOR-04.7**: Validar compatibilidade com banco de questões
+- [x] **MOTOR-04.8**: Salvar preferências no LocalStorage
 
-##### MOTOR-05: Timer Global para Provas Personalizadas
-- [ ] **MOTOR-05.1**: Criar componente de timer countdown
-- [ ] **MOTOR-05.2**: Implementar configurações de tempo personalizável
-- [ ] **MOTOR-05.3**: Adicionar alerta sonoro/visual para 5min finais
-- [ ] **MOTOR-05.4**: Criar função de pause/resume (opcional)
-- [ ] **MOTOR-05.5**: Implementar auto-submit ao zerar timer
-- [ ] **MOTOR-05.6**: Mostrar tempo médio por questão
-- [ ] **MOTOR-05.7**: Persistir timer em caso de refresh (session storage)
-- [ ] **MOTOR-05.8**: Testar precisão do timer em diferentes browsers
+##### MOTOR-05: Timer Global para Provas Personalizadas ✅
+- [x] **MOTOR-05.1**: Criar componente de timer countdown
+- [x] **MOTOR-05.2**: Implementar configurações de tempo personalizável
+- [x] **MOTOR-05.3**: Adicionar alerta sonoro/visual para 5min finais
+- [x] **MOTOR-05.4**: Criar função de pause/resume (opcional)
+- [x] **MOTOR-05.5**: Implementar auto-submit ao zerar timer
+- [x] **MOTOR-05.6**: Mostrar tempo médio por questão
+- [x] **MOTOR-05.7**: Persistir timer em caso de refresh (session storage)
+- [x] **MOTOR-05.8**: Testar precisão do timer em diferentes browsers
 
 ---
 
