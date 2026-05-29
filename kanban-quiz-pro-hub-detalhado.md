@@ -345,7 +345,8 @@ Para cada task ser considerada **PRONTA**:
 - [ ] Responsividade e cross-browser
 
 ### Desenvolvedor Backend/Core
-- [ ] MOTOR-03, MOTOR-04, MOTOR-05
+- [x] MOTOR-03 (Algoritmo de Amostragem Aleatória)
+- [ ] MOTOR-04, MOTOR-05
 - [ ] CRIAR-03 (cache system)
 - [ ] CRIAR-04 (validação)
 - [ ] Estrutura de dados otimizada
