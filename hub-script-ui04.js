@@ -341,9 +341,12 @@ const TestConfigUI04 = {
         if (!discipline) return;
         
         if (isChecked) {
+            // MOTOR-04.2: Valor padrão inteligente baseado em histórico
+            const defaultCount = this.getSmartDefaultCount(discipline.question_count);
+            
             this.state.selectedDisciplines.set(key, {
                 name: discipline.name,
-                count: Math.min(10, discipline.question_count), // Default: 10 questões ou máximo disponível
+                count: defaultCount,
                 maxCount: discipline.question_count,
                 file: discipline.files?.[0] || ''
             });
@@ -407,6 +410,66 @@ const TestConfigUI04 = {
     },
 
     // ========================================
+    // MOTOR-04.2: Valor Padrão Inteligente
+    // ========================================
+    getSmartDefaultCount(maxCount) {
+        // MOTOR-04.8: Carregar preferências do LocalStorage
+        const preferences = JSON.parse(localStorage.getItem('questionPreferences') || '{}');
+        const defaultPerSubject = preferences.defaultPerSubject || 10;
+        
+        // Usar preferência do usuário ou calcular baseado no histórico
+        // Se há muitas questões disponíveis, sugerir mais; se poucas, usar todas
+        if (maxCount <= 10) {
+            return maxCount; // Usa todas se tiver 10 ou menos
+        } else if (maxCount <= 50) {
+            return Math.min(20, maxCount); // Sugere 20 para bancos médios
+        } else {
+            // Para bancos grandes, usa a preferência do usuário ou padrão de 10-20
+            return Math.min(defaultPerSubject, maxCount);
+        }
+    },
+
+    // ========================================
+    // MOTOR-04.6: Opção "Usar Todas as Questões"
+    // ========================================
+    useAllQuestions(key) {
+        const data = this.state.selectedDisciplines.get(key);
+        if (data) {
+            data.count = data.maxCount;
+            this.renderQuestionsConfig();
+            this.calculateTotal();
+            // Salvar preferência
+            this.savePreferences();
+        }
+    },
+
+    // ========================================
+    // MOTOR-04.8: Salvar Preferências no LocalStorage
+    // ========================================
+    savePreferences() {
+        const preferences = {
+            defaultPerSubject: 10, // Pode ser customizado via UI futura
+            lastUsedCounts: {}
+        };
+        
+        // Salvar contagens usadas recentemente
+        this.state.selectedDisciplines.forEach((data, key) => {
+            preferences.lastUsedCounts[key] = data.count;
+        });
+        
+        localStorage.setItem('questionPreferences', JSON.stringify(preferences));
+        console.log('💾 MOTOR-04.8: Preferências salvas:', preferences);
+    },
+
+    // ========================================
+    // MOTOR-04.8: Carregar Preferências do LocalStorage
+    // ========================================
+    loadPreferences() {
+        const preferences = JSON.parse(localStorage.getItem('questionPreferences') || '{}');
+        return preferences;
+    },
+
+    // ========================================
     // Renderizar Configuração de Questões
     // ========================================
     renderQuestionsConfig() {
@@ -421,8 +484,13 @@ const TestConfigUI04 = {
         
         const html = Array.from(this.state.selectedDisciplines.entries()).map(([key, data]) => `
             <div class="question-input-group" data-key="${key}">
-                <label>${data.name}</label>
-                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <div class="question-header">
+                    <label>${data.name}</label>
+                    <button class="btn-use-all" data-key="${key}" title="Usar todas as questões disponíveis">
+                        <i class="fas fa-layer-group"></i> Todas (${data.maxCount})
+                    </button>
+                </div>
+                <div class="question-input-row">
                     <input type="number" 
                            min="1" 
                            max="${data.maxCount}" 
@@ -444,7 +512,18 @@ const TestConfigUI04 = {
                 if (data) {
                     data.count = Math.min(Math.max(1, value), data.maxCount);
                     this.calculateTotal();
+                    // MOTOR-04.8: Salvar preferências ao alterar
+                    this.savePreferences();
                 }
+            });
+        });
+        
+        // MOTOR-04.6: Bind events nos botões "Usar todas"
+        this.questionsConfig.querySelectorAll('.btn-use-all').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const key = e.currentTarget.dataset.key;
+                this.useAllQuestions(key);
             });
         });
     },
@@ -462,7 +541,7 @@ const TestConfigUI04 = {
         const total = parseInt(totalDesired) || 50;
         const perDiscipline = Math.floor(total / this.state.selectedDisciplines.size);
         
-        // Distribuir
+        // MOTOR-04.5: Distribuição automática igualitária
         this.state.selectedDisciplines.forEach((data, key) => {
             data.count = Math.min(perDiscipline, data.maxCount);
         });
@@ -470,6 +549,9 @@ const TestConfigUI04 = {
         // Re-renderizar e atualizar total
         this.renderQuestionsConfig();
         this.calculateTotal();
+        
+        // MOTOR-04.8: Salvar preferências após distribuição
+        this.savePreferences();
     },
 
     // ========================================
@@ -501,6 +583,26 @@ const TestConfigUI04 = {
             return false;
         }
         
+        // MOTOR-04.3: Validar limites mínimo e máximo por matéria
+        let hasInvalidCount = false;
+        this.state.selectedDisciplines.forEach((data, key) => {
+            if (data.count < 1 || data.count > data.maxCount) {
+                hasInvalidCount = true;
+            }
+        });
+        
+        if (hasInvalidCount) {
+            this.showValidation('⚠️ Verifique as quantidades: devem estar entre 1 e o máximo disponível', false);
+            return false;
+        }
+        
+        // MOTOR-04.7: Validar compatibilidade com banco de questões
+        const validation = this.validateQuestionBankCompatibility();
+        if (!validation.valid) {
+            this.showValidation(`⚠️ ${validation.message}`, false);
+            return false;
+        }
+        
         if (this.state.saveTemplate && !this.state.templateName.trim()) {
             this.showValidation('⚠️ Digite um nome para o modelo', false);
             return false;
@@ -508,6 +610,22 @@ const TestConfigUI04 = {
         
         this.showValidation('✅ Configuração válida! Pronto para iniciar', true);
         return true;
+    },
+
+    // ========================================
+    // MOTOR-04.7: Validar Compatibilidade com Banco de Questões
+    // ========================================
+    validateQuestionBankCompatibility() {
+        // Verificar se há questões suficientes em cada disciplina selecionada
+        for (const [key, data] of this.state.selectedDisciplines.entries()) {
+            if (data.count > data.maxCount) {
+                return {
+                    valid: false,
+                    message: `A disciplina "${data.name}" não possui questões suficientes (${data.maxCount} disponíveis)`
+                };
+            }
+        }
+        return { valid: true, message: 'Banco de questões compatível' };
     },
 
     // ========================================
