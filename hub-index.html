@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Pro Hub - Sua Plataforma de Estudos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hub-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Moderno -->
+    <header class="hub-header">
+        <div class="header-container">
+            <div class="logo-section">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Quiz Pro <span>Hub</span></h1>
+                    <p>Sua plataforma multi-disciplinar</p>
+                </div>
+            </div>
+            
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Início</a></li>
+                    <li><a href="#disciplinas" class="nav-link"><i class="fas fa-book"></i> Disciplinas</a></li>
+                    <li><a href="#simulados" class="nav-link"><i class="fas fa-clipboard-list"></i> Simulados</a></li>
+                    <li><a href="#estatisticas" class="nav-link"><i class="fas fa-chart-bar"></i> Estatísticas</a></li>
+                    <li><a href="#configuracoes" class="nav-link"><i class="fas fa-cog"></i> Configurações</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="btn-icon" id="notifications-btn" title="Notificações">
+                    <i class="fas fa-bell"></i>
+                    <span class="notification-badge">3</span>
+                </button>
+                <div class="user-profile">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23667eea'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E" alt="Usuário" class="avatar">
+                    <span class="user-name">Estudante</span>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="hub-main">
+        <!-- Hero Section - Boas-vindas -->
+        <section class="hero-section" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Bem-vindo ao seu Hub de Estudos! 🎯</h2>
+                    <p class="hero-subtitle">Acesse 994 arquivos de questões de múltiplas disciplinas e personalize seus estudos</p>
+                    
+                    <!-- Barra de Pesquisa Global -->
+                    <div class="global-search">
+                        <div class="search-box">
+                            <i class="fas fa-search search-icon"></i>
+                            <input type="text" id="global-search-input" placeholder="Buscar disciplinas, tópicos ou questões..." autocomplete="off">
+                            <button class="search-btn">Pesquisar</button>
+                        </div>
+                        <div class="search-suggestions" id="search-suggestions">
+                            <!-- Sugestões aparecerão aqui -->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Estatísticas Rápidas -->
+                <div class="quick-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon stat-icon-blue">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number" id="total-disciplines">0</span>
+                            <span class="stat-label">Disciplinas</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon stat-icon-green">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number" id="total-questions">0</span>
+                            <span class="stat-label">Questões</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon stat-icon-purple">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number" id="study-time">0h</span>
+                            <span class="stat-label">Tempo de Estudo</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon stat-icon-orange">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="stat-info">
+                            <span class="stat-number" id="completed-tests">0</span>
+                            <span class="stat-label">Testes Completos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cards de Acesso Rápido -->
+        <section class="quick-access-section">
+            <div class="section-header">
+                <h3><i class="fas fa-bolt"></i> Acesso Rápido</h3>
+                <a href="#" class="view-all-link">Ver tudo <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="quick-access-grid">
+                <!-- Últimas Provas -->
+                <div class="access-card access-card-gradient-1">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-history"></i>
+                        </div>
+                        <h4>Últimas Provas</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="recent-tests-list" id="recent-tests">
+                            <div class="recent-test-item">
+                                <span class="test-name">Português - Crase</span>
+                                <span class="test-date">Hoje</span>
+                            </div>
+                            <div class="recent-test-item">
+                                <span class="test-name">Matemática - Álgebra</span>
+                                <span class="test-date">Ontem</span>
+                            </div>
+                            <div class="recent-test-item">
+                                <span class="test-name">Direito Constitucional</span>
+                                <span class="test-date">2 dias atrás</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="card-action-btn">Continuar Estudando</button>
+                </div>
+                
+                <!-- Matérias Favoritas -->
+                <div class="access-card access-card-gradient-2">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Favoritas</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="favorites-list" id="favorites-list">
+                            <div class="favorite-item">
+                                <span class="favorite-icon">📚</span>
+                                <span class="favorite-name">Língua Portuguesa</span>
+                                <span class="favorite-count">150 questões</span>
+                            </div>
+                            <div class="favorite-item">
+                                <span class="favorite-icon">🔢</span>
+                                <span class="favorite-name">Raciocínio Lógico</span>
+                                <span class="favorite-count">120 questões</span>
+                            </div>
+                            <div class="favorite-item">
+                                <span class="favorite-icon">💻</span>
+                                <span class="favorite-name">Informática</span>
+                                <span class="favorite-count">98 questões</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="card-action-btn">Gerenciar Favoritos</button>
+                </div>
+                
+                <!-- Criar Nova Prova -->
+                <div class="access-card access-card-gradient-3">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-plus-circle"></i>
+                        </div>
+                        <h4>Nova Prova</h4>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-description">Crie simulados personalizados com múltiplas disciplinas e configure conforme sua necessidade</p>
+                        <div class="quick-config-preview">
+                            <div class="config-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Múltiplas matérias</span>
+                            </div>
+                            <div class="config-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Timer personalizável</span>
+                            </div>
+                            <div class="config-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Questões aleatórias</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="card-action-btn btn-primary" id="btn-create-test">Criar Simulado</button>
+                </div>
+                
+                <!-- Progresso Recente -->
+                <div class="access-card access-card-gradient-4">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Seu Progresso</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="progress-summary">
+                            <div class="progress-item">
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" style="width: 75%"></div>
+                                </div>
+                                <div class="progress-info">
+                                    <span>Português</span>
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" style="width: 60%"></div>
+                                </div>
+                                <div class="progress-info">
+                                    <span>Matemática</span>
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" style="width: 45%"></div>
+                                </div>
+                                <div class="progress-info">
+                                    <span>Informática</span>
+                                    <span>45%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="card-action-btn">Ver Estatísticas Completas</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categorias de Disciplinas -->
+        <section class="categories-section" id="disciplinas">
+            <div class="section-header">
+                <h3><i class="fas fa-folder-open"></i> Categorias de Disciplinas</h3>
+                <div class="category-filters">
+                    <button class="filter-btn active" data-category="all">Todas</button>
+                    <button class="filter-btn" data-category="testes">Testes</button>
+                    <button class="filter-btn" data-category="saude">Saúde</button>
+                    <button class="filter-btn" data-category="direito">Direito</button>
+                    <button class="filter-btn" data-category="exatas">Exatas</button>
+                    <button class="filter-btn" data-category="humanas">Humanas</button>
+                </div>
+            </div>
+            
+            <div class="categories-grid" id="categories-grid">
+                <!-- Cards de categorias serão inseridos via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="hub-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Quiz Pro Hub</span>
+                </div>
+                <p class="footer-description">
+                    Plataforma completa de estudos com mais de 994 arquivos de questões 
+                    para múltiplas disciplinas e concursos.
+                </p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Links Rápidos</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#disciplinas">Disciplinas</a></li>
+                    <li><a href="#simulados">Simulados</a></li>
+                    <li><a href="#estatisticas">Estatísticas</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Suporte</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Central de Ajuda</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Recursos</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Dicas de Estudo</a></li>
+                    <li><a href="#">Comunidade</a></li>
+                    <li><a href="#">API</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Quiz Pro Hub. Todos os direitos reservados.</p>
+            <p>Desenvolvido com ❤️ para estudantes</p>
+        </div>
+    </footer>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+        <div class="mobile-nav-content">
+            <div class="mobile-nav-header">
+                <div class="logo-text">
+                    <h2>Quiz Pro <span>Hub</span></h2>
+                </div>
+                <button class="close-mobile-nav" id="close-mobile-nav">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <nav class="mobile-nav-list">
+                <a href="#home" class="mobile-nav-link"><i class="fas fa-home"></i> Início</a>
+                <a href="#disciplinas" class="mobile-nav-link"><i class="fas fa-book"></i> Disciplinas</a>
+                <a href="#simulados" class="mobile-nav-link"><i class="fas fa-clipboard-list"></i> Simulados</a>
+                <a href="#estatisticas" class="mobile-nav-link"><i class="fas fa-chart-bar"></i> Estatísticas</a>
+                <a href="#configuracoes" class="mobile-nav-link"><i class="fas fa-cog"></i> Configurações</a>
+            </nav>
+        </div>
+    </div>
+
+    <script src="hub-script.js"></script>
+</body>
+</html>
