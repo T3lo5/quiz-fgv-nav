@@ -585,6 +585,332 @@ const HubApp = {
             studyTime: this.state.stats.studyTime,
             completedTests: this.state.stats.completedTests
         }));
+    },
+
+    // ========================================
+    // MOTOR-03: Algoritmo de Amostragem Aleatória por Disciplina
+    // ========================================
+
+    /**
+     * MOTOR-03.1: Implementação do Fisher-Yates Shuffle
+     * Embaralha um array de forma eficiente e uniforme
+     * @param {Array} array - Array para embaralhar
+     * @param {number} [seed] - Seed opcional para reprodutibilidade (MOTOR-03.5)
+     * @returns {Array} - Array embaralhado
+     */
+    fisherYatesShuffle(array, seed = null) {
+        const shuffled = [...array];
+        let rng = seed !== null ? this.createSeededRandom(seed) : Math.random;
+        
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(rng() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        
+        return shuffled;
+    },
+
+    /**
+     * MOTOR-03.5: Gerador de números pseudo-aleatórios com seed
+     * Permite reprodutibilidade dos resultados para debugging e testes
+     * @param {number} seed - Valor inicial para o gerador
+     * @returns {Function} - Função que gera números aleatórios entre 0 e 1
+     */
+    createSeededRandom(seed) {
+        return function() {
+            seed = (seed * 9301 + 49297) % 233280;
+            return seed / 233280;
+        };
+    },
+
+    /**
+     * MOTOR-03.2: Seleção aleatória de questões por disciplina individual
+     * Seleciona N questões únicas de uma disciplina específica
+     * @param {Array} questions - Array de questões da disciplina
+     * @param {number} count - Quantidade de questões a selecionar
+     * @param {Object} options - Opções adicionais
+     * @param {boolean} [options.allowRepeat=false] - Permitir repetição (padrão: false)
+     * @param {number} [options.seed=null] - Seed para reprodutibilidade
+     * @returns {Object} - Resultado da amostragem
+     */
+    selectQuestionsByDiscipline(questions, count, options = {}) {
+        const { allowRepeat = false, seed = null, disciplineName = 'Desconhecida' } = options;
+        
+        // MOTOR-03.6: Log de amostragem para debug
+        console.log(`[MOTOR-03] Iniciando amostragem para ${disciplineName}`);
+        console.log(`[MOTOR-03] Questões disponíveis: ${questions.length}, Solicitadas: ${count}`);
+        
+        // Validação de entrada
+        if (!Array.isArray(questions) || questions.length === 0) {
+            console.warn(`[MOTOR-03] ⚠️ Nenhuma questão disponível para ${disciplineName}`);
+            return {
+                selected: [],
+                totalAvailable: 0,
+                requested: count,
+                selectedCount: 0,
+                warning: 'Nenhuma questão disponível'
+            };
+        }
+
+        // MOTOR-03.4: Tratar caso onde quantidade solicitada > disponível
+        if (count > questions.length) {
+            console.warn(`[MOTOR-03] ⚠️ Solicitado ${count} questões, mas apenas ${questions.length} disponíveis em ${disciplineName}`);
+            
+            if (!allowRepeat) {
+                console.log(`[MOTOR-03] Retornando todas as ${questions.length} questões disponíveis`);
+                return {
+                    selected: this.fisherYatesShuffle(questions, seed),
+                    totalAvailable: questions.length,
+                    requested: count,
+                    selectedCount: questions.length,
+                    warning: `Quantidade solicitada (${count}) excede disponível (${questions.length}). Retornando todas as questões.`
+                };
+            }
+        }
+
+        // MOTOR-03.1 & MOTOR-03.3: Randomização sem repetição
+        const shuffled = this.fisherYatesShuffle(questions, seed);
+        const selected = shuffled.slice(0, Math.min(count, questions.length));
+
+        // MOTOR-03.6: Log de amostragem
+        console.log(`[MOTOR-03] ✅ Amostragem concluída: ${selected.length} questões selecionadas`);
+        
+        // MOTOR-03.7: Estatísticas da distribuição
+        const stats = this.calculateSamplingStats(selected, questions, disciplineName);
+        
+        return {
+            selected,
+            totalAvailable: questions.length,
+            requested: count,
+            selectedCount: selected.length,
+            success: true,
+            statistics: stats
+        };
+    },
+
+    /**
+     * MOTOR-03.7: Calcular estatísticas da amostragem para verificar distribuição
+     * @param {Array} selected - Questões selecionadas
+     * @param {Array} total - Total de questões disponíveis
+     * @param {string} disciplineName - Nome da disciplina
+     * @returns {Object} - Estatísticas da amostragem
+     */
+    calculateSamplingStats(selected, total, disciplineName) {
+        const samplingRate = ((selected.length / total.length) * 100).toFixed(2);
+        
+        // Verificar distribuição de dificuldade (se disponível)
+        const difficultyDistribution = {};
+        selected.forEach(q => {
+            const diff = q.dificuldade || q.difficulty || 'N/A';
+            difficultyDistribution[diff] = (difficultyDistribution[diff] || 0) + 1;
+        });
+
+        const stats = {
+            discipline: disciplineName,
+            samplingRate: `${samplingRate}%`,
+            selectedCount: selected.length,
+            totalCount: total.length,
+            difficultyDistribution,
+            timestamp: new Date().toISOString()
+        };
+
+        console.log(`[MOTOR-03.7] 📊 Estatísticas - ${disciplineName}:`, stats);
+        return stats;
+    },
+
+    /**
+     * MOTOR-03.8: Seleção múltipla de questões de várias disciplinas
+     * Otimizado para grandes volumes de dados
+     * @param {Object} disciplinesConfig - Configuração das disciplinas
+     * @param {Array} disciplinesConfig[].name - Nome da disciplina
+     * @param {Array} disciplinesConfig[].questions - Questões da disciplina
+     * @param {number} disciplinesConfig[].count - Quantidade desejada
+     * @param {Object} options - Opções globais
+     * @returns {Object} - Resultado consolidado
+     */
+    selectQuestionsFromMultipleDisciplines(disciplinesConfig, options = {}) {
+        const { seed = null, globalShuffle = true, logDetails = true } = options;
+        const startTime = performance.now();
+        
+        console.log(`[MOTOR-03.8] 🚀 Iniciando seleção múltipla de disciplinas`);
+        console.log(`[MOTOR-03.8] Disciplinas configuradas: ${disciplinesConfig.length}`);
+
+        const results = {
+            byDiscipline: {},
+            allQuestions: [],
+            summary: {
+                totalRequested: 0,
+                totalSelected: 0,
+                totalAvailable: 0,
+                warnings: []
+            },
+            performance: {}
+        };
+
+        // Processar cada disciplina
+        disciplinesConfig.forEach((config, index) => {
+            const { name, questions, count } = config;
+            results.totalRequested += count;
+            
+            const result = this.selectQuestionsByDiscipline(questions, count, {
+                seed: seed !== null ? seed + index : null,
+                disciplineName: name,
+                allowRepeat: false
+            });
+
+            results.byDiscipline[name] = result;
+            results.allQuestions.push(...result.selected);
+            results.totalSelected += result.selectedCount;
+            results.totalAvailable += result.totalAvailable;
+            
+            if (result.warning) {
+                results.summary.warnings.push({
+                    discipline: name,
+                    message: result.warning
+                });
+            }
+        });
+
+        // MOTOR-03.8: Embaralhamento global se solicitado
+        if (globalShuffle && results.allQuestions.length > 0) {
+            console.log(`[MOTOR-03.8] 🔀 Embaralhando questões globalmente...`);
+            results.allQuestions = this.fisherYatesShuffle(results.allQuestions, seed);
+        }
+
+        // Performance metrics
+        const endTime = performance.now();
+        results.performance = {
+            executionTimeMs: (endTime - startTime).toFixed(2),
+            questionsPerSecond: (results.allQuestions.length / ((endTime - startTime) / 1000)).toFixed(2),
+            memoryUsage: performance.memory ? {
+                usedJSHeapSize: performance.memory.usedJSHeapSize,
+                totalJSHeapSize: performance.memory.totalJSHeapSize
+            } : 'N/A'
+        };
+
+        console.log(`[MOTOR-03.8] ✅ Seleção múltipla concluída em ${results.performance.executionTimeMs}ms`);
+        console.log(`[MOTOR-03.8] 📈 Total: ${results.totalSelected}/${results.totalRequested} questões`);
+        
+        if (logDetails) {
+            console.log(`[MOTOR-03.8] 📋 Detalhamento por disciplina:`, results.byDiscipline);
+        }
+
+        return results;
+    },
+
+    /**
+     * MOTOR-03: Teste de distribuição estatística da aleatoriedade
+     * Verifica se a distribuição das questões selecionadas é uniforme
+     * @param {Array} questions - Pool total de questões
+     * @param {number} sampleSize - Tamanho da amostra
+     * @param {number} iterations - Número de iterações para teste
+     * @returns {Object} - Resultados do teste estatístico
+     */
+    testRandomDistribution(questions, sampleSize, iterations = 1000) {
+        console.log(`[MOTOR-03.7] 🧪 Iniciando teste de distribuição aleatória`);
+        console.log(`[MOTOR-03.7] Pool: ${questions.length} questões, Amostra: ${sampleSize}, Iterações: ${iterations}`);
+
+        if (questions.length < sampleSize) {
+            console.warn('[MOTOR-03.7] ⚠️ Pool menor que amostra solicitada');
+            return { error: 'Pool insuficiente' };
+        }
+
+        const frequencyMap = new Map();
+        
+        // Executar múltiplas amostragens
+        for (let i = 0; i < iterations; i++) {
+            const sample = this.selectQuestionsByDiscipline(questions, sampleSize, { seed: i });
+            sample.selected.forEach(q => {
+                const id = q.id || JSON.stringify(q);
+                frequencyMap.set(id, (frequencyMap.get(id) || 0) + 1);
+            });
+        }
+
+        // Calcular estatísticas
+        const frequencies = Array.from(frequencyMap.values());
+        const expectedFrequency = (iterations * sampleSize) / questions.length;
+        const mean = frequencies.reduce((a, b) => a + b, 0) / frequencies.length;
+        const variance = frequencies.reduce((sum, f) => sum + Math.pow(f - expectedFrequency, 2), 0) / frequencies.length;
+        const stdDev = Math.sqrt(variance);
+        const minFreq = Math.min(...frequencies);
+        const maxFreq = Math.max(...frequencies);
+
+        // Chi-square test simplificado
+        const chiSquare = frequencies.reduce((sum, f) => sum + Math.pow(f - expectedFrequency, 2) / expectedFrequency, 0);
+        const degreesOfFreedom = questions.length - 1;
+        const criticalValue = degreesOfFreedom + 3 * Math.sqrt(2 * degreesOfFreedom); // Aproximação para p=0.05
+
+        const results = {
+            totalQuestions: questions.length,
+            sampleSize,
+            iterations,
+            expectedFrequency: expectedFrequency.toFixed(2),
+            observedMean: mean.toFixed(2),
+            standardDeviation: stdDev.toFixed(2),
+            minFrequency: minFreq,
+            maxFrequency: maxFreq,
+            frequencyRange: maxFreq - minFreq,
+            chiSquare: chiSquare.toFixed(2),
+            criticalValue: criticalValue.toFixed(2),
+            isUniform: chiSquare < criticalValue,
+            quality: chiSquare < criticalValue ? '✅ Boa distribuição' : '⚠️ Distribuição pode ser melhorada'
+        };
+
+        console.log(`[MOTOR-03.7] 📊 Resultados do teste:`, results);
+        return results;
+    },
+
+    /**
+     * MOTOR-03: Carregar questões de arquivo JSON
+     * Utility para carregar questões de um arquivo específico
+     * @param {string} filePath - Caminho do arquivo JSON
+     * @returns {Promise<Array>} - Array de questões
+     */
+    async loadQuestionsFromFile(filePath) {
+        try {
+            console.log(`[MOTOR-03] 📂 Carregando questões de: ${filePath}`);
+            const response = await fetch(filePath);
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+            }
+            const questions = await response.json();
+            console.log(`[MOTOR-03] ✅ ${questions.length} questões carregadas`);
+            return questions;
+        } catch (error) {
+            console.error(`[MOTOR-03] ❌ Erro ao carregar ${filePath}:`, error);
+            return [];
+        }
+    },
+
+    /**
+     * MOTOR-03: Exportar função utilitária para validação
+     * Verifica se não há questões repetidas no resultado
+     * @param {Array} questions - Array de questões para validar
+     * @returns {Object} - Resultado da validação
+     */
+    validateNoDuplicates(questions) {
+        const ids = new Set();
+        const duplicates = [];
+
+        questions.forEach((q, index) => {
+            const id = q.id || JSON.stringify(q);
+            if (ids.has(id)) {
+                duplicates.push({ index, id });
+            } else {
+                ids.add(id);
+            }
+        });
+
+        const isValid = duplicates.length === 0;
+        console.log(`[MOTOR-03.3] 🔍 Validação: ${isValid ? '✅ Sem duplicatas' : `⚠️ ${duplicates.length} duplicatas encontradas`}`);
+        
+        return {
+            isValid,
+            totalQuestions: questions.length,
+            uniqueQuestions: ids.size,
+            duplicates: duplicates.length,
+            duplicateDetails: duplicates
+        };
     }
 };
 
