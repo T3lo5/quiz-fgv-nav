@@ -1,6 +1,5 @@
 [
     {
-        "id": "3121796",
         "enunciado": "Diante do conceito do método das direções através de medições angulares horizontais, é correto afirmar:",
         "alternativas": {
             "A": "Uma série de leituras conjugadas consiste na observação sucessiva das direções, a partir da direção-origem, fazendo-se o giro de ida na posição direta da luneta e de volta na posição inversa, ou vice-versa, terminando na última direção e iniciando-se, aí, a volta sem fechar o giro.",
@@ -10,10 +9,10 @@
             "E": "Uma série de leituras conjugadas consiste na observação sucessiva das direções, a partir da direção-origem, fazendo-se o giro de ida na posição direta da luneta e de volta na posição inversa, ou vice-versa, terminando na última direção e iniciando-se, aí, a volta fechando o giro."
         },
         "gabarito_correto": "A",
+        "id": "3121796",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121752",
         "enunciado": "No programa AutoCAD, uma das maneiras possíveis para se calculara área de um pentágono composto por elementos individuais feitos pelo comando LINE, é acionar o comando.",
         "alternativas": {
             "A": "BOUNDARY, clicar em qualquer ponto no interior da figura, confirmar, e então acionar o comando AREA, selecionar a nova figura recém-criada e confirmar.",
@@ -23,10 +22,10 @@
             "E": "POLYGON, digitar o número de lados (5), confirmar, e então acionar o comando AREA, clicar na figura e confirmar."
         },
         "gabarito_correto": "D",
+        "id": "3121752",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121797",
         "enunciado": "Estação Total é um equipamento destinado para levantamentos topográficos constituído com um distanciômetro e um coletor de dados acoplados, sendo classificados segundo a NBR 13133 através de desvios-padrão que constituem:Precisão baixa, desvio-padrão e precisão angular equivalente a ≤ +/-30” e desvio-padrão e precisão linear equivalente +/ - 5mm + 10ppmxD.Precisão média, desvio-padrão e precisão angular equivalente a ≤ +/ - 10” e desvio-padrão e precisão linear equivalente +/ - 5mm + 5ppmxD.Precisão alta, desvio-padrão e precisão angular equivalente a ≤ +/ - 05” e desvio-padrão e precisão linear equivalente +/ - 2mm + 2ppmxD.É correto afirmar:",
         "alternativas": {
             "A": "V, V, F",
@@ -36,10 +35,10 @@
             "E": "V, V, V"
         },
         "gabarito_correto": "D",
+        "id": "3121797",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121753",
         "enunciado": "Nos últimos anos a procura da integração de projetos e profissionais BIM na construção civil tem sido requisito presente em diversas construtoras. Sobre a tecnologia BIM é INCORRETO afirmar:",
         "alternativas": {
             "A": "Através do trabalho colaborativo e das informações que podem ser adicionadas em tempo real no modelo virtual, o Building Information Modeling permite que se tenha uma previsão e uma ampla percepção do projeto. Assim, a metodologia faz com que erros, interferências, improvisos e reações sejam evitados, o que reduz o tempo e custo investido no projeto.",
@@ -49,10 +48,10 @@
             "E": "BIM é uma metodologia de trabalho que consiste na construção digital de um projeto de edificação ou de infraestruturas feita através do trabalho colaborativo entre os diversos players envolvidos na obra. De forma que este modelo virtual contém todas as informações do ciclo de vida da obra, as quais podem ser adicionadas e alteradas em tempo real."
         },
         "gabarito_correto": "D",
+        "id": "3121753",
         "comentario_ia": "A tecnologia BIM é uma metodologia que modela a informação da construção, não necessitando obrigatoriamente do uso de plataformas CAD tradicionais, embora muitos softwares BIM possuam funcionalidades CAD ou se integrem a eles."
     },
     {
-        "id": "3121798",
         "enunciado": "Através de dados coletados em um levantamento planimétrico, obteve-se 14 vértices caracterizando uma distância de 1,3km do vértice 8 para o vértice 9. A escala representada no mapa foi de 1:2500. A distância representada no mapa será:",
         "alternativas": {
             "A": "1,3m",
@@ -62,10 +61,10 @@
             "E": "5200mm"
         },
         "gabarito_correto": "B",
+        "id": "3121798",
         "comentario_ia": "A escala é 1:2500, o que significa que 1 unidade no mapa representa 2500 unidades na realidade. A distância real de 1,3 km (130.000 cm) dividida por 2500 resulta em 52 cm no mapa. A alternativa B está correta."
     },
     {
-        "id": "3121754",
         "enunciado": "AutoCad é um software criado e comercializado pela Autodesk desde1982. Em consideração as mais diversas funções oferecidas, das quais estão destinadas para elaboração de projetos. Qual a função do ORTHO? E como deixa-lo ON?",
         "alternativas": {
             "A": "Deixar duas linhas paralelas. ON/OFF pressionando OR",
@@ -75,10 +74,10 @@
             "E": "Permitir a construção de linhas diagonais. ON/OFF pressionando F9"
         },
         "gabarito_correto": "B",
+        "id": "3121754",
         "comentario_ia": "O comando ORTHO no AutoCAD restringe a construção de linhas a ângulos retos (horizontais ou verticais). Para ativá-lo ou desativá-lo, a tecla de atalho F8 é utilizada. As outras opções descrevem comandos distintos."
     },
     {
-        "id": "3121799",
         "enunciado": "Em relação ao uso de coordenadas no programa AutoCad, para a criação de uma linha de 139 unidades de comprimento, inclinada em ângulo de 262°, o que deve ser digitado após a utilização do comando LINE e a marcação do seu ponto inicial?",
         "alternativas": {
             "A": "139,262",
@@ -88,10 +87,10 @@
             "E": "@139>262"
         },
         "gabarito_correto": "E",
+        "id": "3121799",
         "comentario_ia": "No AutoCAD, para criar uma linha com um comprimento específico e um ângulo, utiliza-se a notação polar com '@' seguido do comprimento, um sinal de maior (>) e o ângulo. Portanto, @139>262 é o comando correto para um comprimento de 139 e ângulo de 262 graus."
     },
     {
-        "id": "3121756",
         "enunciado": "De acordo com as definições abaixo:Índice de PermeabilidadeDemãoBonecaPeitoril( ) Saliência de alvenaria onde é fixado o marco das portas e janelas.( )Elemento de meia altura que protege os vãos, muretas, parapeito.( )Relação existente entre a área permeável e a área do terreno onde está inserida a edificação.( )Camada de tinta aplicada.É correto afirmar:",
         "alternativas": {
             "A": "III, I, II, IV",
@@ -101,11 +100,11 @@
             "E": "II, III, I, IV"
         },
         "gabarito_correto": "C",
+        "id": "3121756",
         "comentario_ia": "O enunciado associa definições a termos técnicos. A alternativa C, III, IV, I, II, corresponde à correlação correta: Índice de Permeabilidade (Relação área permeável/área total), Demão (Camada de tinta), Boneca (Elemento de meia altura), Peitoril (Saliência onde se fixa marco)."
     },
     {
-        "id": "3121801",
-        "enunciado": "De acordo com o modelo de representação da Terra, assinale V para verdadeiro e F para falso( )A Topografia, assim como a Geodésia, teve seus procedimentos de medições modificados nos últimos anos em função do grande desenvolvimento alcançado pela tecnologia e, pelos equipamentos e leis modificadas.( ) Pode-se afirmar a existência entre Geodésia e Topografia, onde a topografia atua em função de uma extensão do levantamento até 30 km de raio, acima desse valor executa-se Geodésia, no qual não é necessário considerar a curvatura da terra.( ) O geoide é uma superfície equipotencial do campo de gravidade ou superfície de nível, manipulando como referência para as altitudes ortométricas, distância contada sobre a vertical, do geoide até a superfície física no ponto considerado.( ) Modelo geoidal permite que a superfície terrestre seja representada por uma superfície fictícia definida pelo prolongamento do nível máximo dos mares (NMM)por sobre os continentesÉ correto afirmar:",
+        "enunciado": "De acordo com o modelo de representação da Terra, assinale V para verdadeiro e F para falso( )A Topografia, assim como a Geodésia, teve seus procedimentos de medições modificados nos últimos anos em função do grande desenvolvimento alcançado pela tecnologia e, pelos equipamentos e leis modificadas.( ) Pode-se afirmar a existência entre Geodésia e Topografia, onde a topografia atua em função de uma extensão do levantamento até 30 km de raio, acima desse valor executa-se Geodésia, no qual não é necessário considerar a curvatura da terra.( ) O geoide é uma superfície equipotencial do campo de gravidade ou superfície de nível, manipulando como referência para as altitudes ortométricas, distância contada sobre a vertical, do geoide até a superfície física no ponto considerado.( ) Modelo geoidal permite que a superfície terrestre seja representada por uma superfície fictícia definida pelo prolongamento do nível máximo dos mares (NMM)por sobre os continentesÉ correto afirmar:",
         "alternativas": {
             "A": "V, F, V, F",
             "B": "V, F, V, V",
@@ -114,11 +113,11 @@
             "E": "V, V, V, F"
         },
         "gabarito_correto": "C",
+        "id": "3121801",
         "comentario_ia": "As afirmativas corretas são: ( ) V, ( ) F, ( ) V, ( ) V. A tecnologia impactou Topografia e Geodésia. A Geodésia considera a curvatura da Terra mesmo em distâncias menores que 30km. O geoide é uma superfície de referência para altitudes ortométricas. O modelo geoidal pode ser representado pelo prolongamento do NMM sobre os continentes."
     },
     {
-        "id": "3121757",
-        "enunciado": "Com relação à terminologia dos vidros e dos componentes acessórios à sua aplicação, analise as afirmativas a seguir e assinale V para verdadeira e F para falso.( )Vidro Impresso, durante a fabricação é impresso um desenho em uma ou nas duas superfícies.( )Vidro Polido, transparente, mas permitindo visão sem distorção das imagens, pelo tratamento superficial.( )Vidro Térmico Absorvente, absorve pelo menos 70( )Vidro de Segurança Temperado, submetido a um tratamento térmico, através do qual foram introduzidas tensões adequadas e que, ao partir-se, desintegra-se em pequenos pedaços menos cortantes que o vidro recozido.É correto afirmar:",
+        "enunciado": "Com relação à terminologia dos vidros e dos componentes acessórios à sua aplicação, analise as afirmativas a seguir e assinale V para verdadeira e F para falso.( )Vidro Impresso, durante a fabricação é impresso um desenho em uma ou nas duas superfícies.( )Vidro Polido, transparente, mas permitindo visão sem distorção das imagens, pelo tratamento superficial.( )Vidro Térmico Absorvente, absorve pelo menos 70( )Vidro de Segurança Temperado, submetido a um tratamento térmico, através do qual foram introduzidas tensões adequadas e que, ao partir-se, desintegra-se em pequenos pedaços menos cortantes que o vidro recozido.É correto afirmar:",
         "alternativas": {
             "A": "V, F, F, V",
             "B": "V, V, F, V",
@@ -127,10 +126,10 @@
             "E": "V, V, V, F"
         },
         "gabarito_correto": "B",
+        "id": "3121757",
         "comentario_ia": "A primeira afirmativa é verdadeira, pois vidro impresso tem um desenho gravado. A segunda é verdadeira, pois vidro polido é transparente e sem distorção. A terceira é falsa, a exigência é de absorver pelo menos 70% da radiação, não um valor fixo. A quarta é verdadeira sobre o vidro temperado. Portanto, V, V, F, V."
     },
     {
-        "id": "3121802",
         "enunciado": "Analise as afirmativas abaixo, a alternativa incorreta é que:",
         "alternativas": {
             "A": "O geoprocessamento busca realizar, o armazenamento, o processamento e a análise de dados georreferenciados, ou seja, de informações singularmente localizadas. Entretanto, é imprescindível dispor de mapas altamente qualificados",
@@ -140,10 +139,10 @@
             "E": "A representação de dados cartográficos é tipificada pela sua distribuição espacial. As estruturas dessas informações podem qualificar-se por diferentes dimensões. Quando os dados são bidimensionais (2-D),possuem duas dimensões definidas (x, y), como, por exemplo, a área de um desmembramento, em que cada ponto inserido nessa superfície possui coordenadas definidas."
         },
         "gabarito_correto": "B",
+        "id": "3121802",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121758",
         "enunciado": "As sondagens de simples reconhecimento através de escavações por circulação d?água são manuseadas comumente em peripécias onde as escavações por trado manual não são prováveis, exemplo, solos arenosos, perfurações a elevadas profundidades, existência de lençol d’água. A NBR 8036 ressalta a importância da quantidade mínima de sondagem para quantitativos de áreas especificas. Em conformidade com esse conceito assinale a alternativa correta.",
         "alternativas": {
             "A": "Deve ser realizada no mínimo uma sondagem para cada 600m2 de área da projeção do edifício em planta até 1000m2.",
@@ -153,10 +152,10 @@
             "E": "Para áreas entre 2400m2 e 4800m2 deve ser feita duas sondagens para cada 400m2 que excederem 1200m2."
         },
         "gabarito_correto": "C",
+        "id": "3121758",
         "comentario_ia": "A NBR 8036 sobre sondagens de simples reconhecimento estabelece diretrizes quantitativas. A alternativa C é a única que reflete corretamente a norma ao indicar que, após uma certa área (2400m²), o número de sondagens deve ser definido com base nas especificidades do projeto, não seguindo regras fixas e arbitrárias."
     },
     {
-        "id": "3121803",
         "enunciado": "Analise o conceito abaixo e assinale a opção que a corresponde:\"Representação gráfica de uma parte limitada da superfície terrestre, sobre um plano horizontal local, em escalas maiores que 1:10000, para fins específicos, na qual não se considera a curvatura da Terra\".",
         "alternativas": {
             "A": "Planta",
@@ -166,10 +165,10 @@
             "E": "Croqui"
         },
         "gabarito_correto": "A",
+        "id": "3121803",
         "comentario_ia": "O conceito apresentado descreve uma planta, que é uma representação gráfica de uma área limitada da superfície terrestre em escalas maiores que 1:10000, sem considerar a curvatura da Terra e utilizada para fins específicos."
     },
     {
-        "id": "3121759",
         "enunciado": "Leia as alternativas a seguir relacionadas aos conceitos fundamentais de topografia, em seguida marque a alternativa CORRETA:",
         "alternativas": {
             "A": "É sabido que o termo Topografia é originado da palavra Topos Graphen da língua grega. Após a tradução para a língua portuguesa têm-se Topos significando solo ou região e Graphen equivalente a descrição.",
@@ -179,10 +178,10 @@
             "E": "A Altimetria estuda os instrumentos e métodos utilizados para obtenção da representação de uma determinada área, sem escala, não dando ideia do relevo."
         },
         "gabarito_correto": "C",
+        "id": "3121759",
         "comentario_ia": "A alternativa C descreve corretamente a Topometria como um ramo da Topografia focado em medições e subdividido em Planimetria (posições horizontais) e Altimetria (altitudes/relevo). As demais alternativas contêm imprecisões conceituais sobre a origem, projeção ou descrição dos ramos da topografia."
     },
     {
-        "id": "3121804",
         "enunciado": "Assinale a alternativa CORRETA.",
         "alternativas": {
             "A": "Em uma montanha, as curvas de nível, em planta, de maior altitude, contornam as curvas de nível de menor altitude.",
@@ -192,11 +191,11 @@
             "E": "Em um mapa topográfico, a representação de um espelho d?água se faz de modo paralelo às curvas de nível"
         },
         "gabarito_correto": "B",
+        "id": "3121804",
         "comentario_ia": "Em geral, quanto mais próximas as curvas de nível, maior o declive. A alternativa B é a correta pois o maior declive é justamente onde as curvas se compactam mais. As curvas de nível em planta de maior altitude em uma montanha devem envolver as de menor altitude, não o contrário. Curvas de nível afastadas refletem aclive suave, não forte. A escala do mapa afeta o espaçamento entre curvas. A representação de espelho d'água são linhas contínuas, únicas."
     },
     {
-        "id": "3121760",
-        "enunciado": "A construção civil tem exarado grandes problemas decorrentes de má execução no processo de locação de obra. Como por exemplo fundações executadas de forma errada, elementos estruturais localizados fora do posicionamento do projeto inicial, alvenarias discrepantes com o projeto arquitetônico. Sob a importância da perspectiva de locação de obras, reconheça as afirmativas a seguir como verdadeiras (V) ou falsas (F):( )A locação da obra é o processo de transferência da planta baixa do projeto da edificação para o terreno, ou seja, os recuos, os afastamentos, os alicerces, as paredes, as aberturas etc.( ) Método de cavaletes consiste na marcação dos eixos do projeto através pontos encravados ao redor do perímetro do canteiro de obra e toda a locação dos elementos estruturais é transcorrido na última fase de implantação.( )É interessante que o terreno esteja plano e nivelado de acordo com a primeira laje. Isso para evitar bota fora de solo e danificar o sistema montado, além de diminuir o fluxo de maquinas e caminhões no canteiro, preservando dessa maneira, a estrutura de madeira montada in loco.( )Para locar os elementos da fundação, é preciso retirar do projeto as coordenadas cartesianas do elemento e marcar no gabarito. Estica-se uma linha de nylon, nas duas direções simultaneamente. O cruzamento entre elas será a locação do elemento. Para transferir esse cruzamento para o terreno, é necessário utilizar um prumo de centro.É correto afirmar:",
+        "enunciado": "A construção civil tem exarado grandes problemas decorrentes de má execução no processo de locação de obra. Como por exemplo fundações executadas de forma errada, elementos estruturais localizados fora do posicionamento do projeto inicial, alvenarias discrepantes com o projeto arquitetônico. Sob a importância da perspectiva de locação de obras, reconheça as afirmativas a seguir como verdadeiras (V) ou falsas (F):( )A locação da obra é o processo de transferência da planta baixa do projeto da edificação para o terreno, ou seja, os recuos, os afastamentos, os alicerces, as paredes, as aberturas etc.( ) Método de cavaletes consiste na marcação dos eixos do projeto através pontos encravados ao redor do perímetro do canteiro de obra e toda a locação dos elementos estruturais é transcorrido na última fase de implantação.( )É interessante que o terreno esteja plano e nivelado de acordo com a primeira laje. Isso para evitar bota fora de solo e danificar o sistema montado, além de diminuir o fluxo de maquinas e caminhões no canteiro, preservando dessa maneira, a estrutura de madeira montada in loco.( )Para locar os elementos da fundação, é preciso retirar do projeto as coordenadas cartesianas do elemento e marcar no gabarito. Estica-se uma linha de nylon, nas duas direções simultaneamente. O cruzamento entre elas será a locação do elemento. Para transferir esse cruzamento para o terreno, é necessário utilizar um prumo de centro.É correto afirmar:",
         "alternativas": {
             "A": "V, F, V, V",
             "B": "V, V, F, V",
@@ -205,10 +204,10 @@
             "E": "F, F, F, F"
         },
         "gabarito_correto": "A",
+        "id": "3121760",
         "comentario_ia": "A locacao de obra transfere o projeto para o terreno. O metodo de cavaletes envolve marcacao de eixos. O terreno nivelado e importante. Para fundacoes, usa-se coordenadas e prumo de centro."
     },
     {
-        "id": "3121805",
         "enunciado": "Dentro das divisões de levantamentos topográficos que compreende o conjunto de procedimentos inescusáveis para a determinação de pontos e aspectos do terreno que serão projetados sobre um plano horizontal de referência por meio de suas coordenadas X e Y denomina-se:",
         "alternativas": {
             "A": "Altimétrico",
@@ -218,10 +217,10 @@
             "E": "Topométrico"
         },
         "gabarito_correto": "D",
+        "id": "3121805",
         "comentario_ia": "O levantamento topográfico que se restringe à determinação das coordenadas planimétricas (X e Y) de pontos do terreno, projetando-os em um plano horizontal, é o planimétrico. O altimétrico trata da determinação de altitudes e cotas."
     },
     {
-        "id": "3121806",
         "enunciado": "AnaliseLoteamentoDesmembramentoParcelamento( )Divisão da terra em unidades juridicamente independentes, com vistas à edificação, sempre mediante aprovação municipal.( )Processo de divisão de terrenos rurais ou urbanos em lotes destinados à exploração ou à edificação de qualquer natureza, mediante a observância das formalidades legais e regulamentares.( )Subdivisão de gleba em lotes destinadas a edificação, com aproveitamento do sistema viário existente, desde que não implique na abertura de novas vias e logradouros públicos, nem no prolongamento, modificação ou ampliação dos já existentes.É correto afirmar:",
         "alternativas": {
             "A": "3, 1, 2",
@@ -231,10 +230,10 @@
             "E": "3, 2, 1"
         },
         "gabarito_correto": "A",
+        "id": "3121806",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121761",
         "enunciado": "O sistema de planejamento do canteiro propende a obter a melhor aproveitamento do espaço físico disponível, de maneira a propiciar que homens e máquinas trabalhem com seguridade e eficiência, precipuamente durante a minimização das transferências de materiais, componentes e mão-de-obra. Visando melhor desempenho recomenda-se incialmente um croqui para melhor compreensão do layout, devendo constar alguns itens necessários e suficientes para planejamento primordial. Assinale a alternativa INCORRETA:",
         "alternativas": {
             "A": "Não sendo necessário estimar o número de operários no canteiro para três fases básicas do layout.",
@@ -244,10 +243,10 @@
             "E": "Localização das instalações provisórias (banheiros, escritório, refeitório, etc.), inclusive plantão de vendas"
         },
         "gabarito_correto": "A",
+        "id": "3121761",
         "comentario_ia": "A estimativa do numero de operarios e fundamental para o planejamento do layout do canteiro, pois influencia a distribuicao de espaco e recursos para diferentes fases do projeto."
     },
     {
-        "id": "3121762",
         "enunciado": "De acordo com o conceito \"como construído, sendo utilizado para nomear o processo de levantamento de todas as medidas existentes nas edificações, transformando as informações avaliadas em um desenho técnico que irá representar a atual situação de dados e trajetos de instalações elétricas, hidráulicas, estrutural, etc\". É designado:",
         "alternativas": {
             "A": "Diário de obra",
@@ -257,10 +256,10 @@
             "E": "Projetos complementares"
         },
         "gabarito_correto": "B",
+        "id": "3121762",
         "comentario_ia": "O termo 'as built' refere-se ao desenho técnico final que representa o estado real da edificação após a sua construção, incluindo todas as instalações e medidas, diferente de um diário de obra ou um projeto inicial."
     },
     {
-        "id": "3121807",
         "enunciado": "De acordo com a Norma Técnica de Georreferenciamento de Imóveis Rurais, para utilização em campo de equipamentos de medições, como também técnicas para manuseio e processamento de dados. Assinale a alternativa incorreta:",
         "alternativas": {
             "A": "Posicionamento relativo estático rápido segue as características do posicionamento relativo estático diferenciado somente no tempo de ocupação, que para efeitos da Norma, varia de 5 a 30 minutos.",
@@ -270,10 +269,10 @@
             "E": "Posicionamento cinemático em tempo real está baseado no posicionamento estático, com solução em tempo real, processada nos receptores móveis, em função de dados transmitidos por telemetria a partir de receptor estacionado sobre uma estação base, cujas coordenadas são desconhecidas"
         },
         "gabarito_correto": "E",
+        "id": "3121807",
         "comentario_ia": "O posicionamento cinemático em tempo real (RTK) baseia-se na transmissão de dados de uma estação base para um receptor móvel, que processa a solução em tempo real para obter coordenadas com alta precisão. A alternativa E descreve um processo onde as coordenadas da estação base são desconhecidas, o que contradiz o princípio fundamental do RTK."
     },
     {
-        "id": "3121763",
         "enunciado": "Como o nome indica, diário de obra trata-se de um relatório circunstanciado diariamente. Convém para registrar tudo oque ocorre durante o desenvolvimento do projeto, incluindo os serviços executados, a flexibilização de recursos, as conjunturas do tempo, entre outros fatores. Esse documento também é alimentado com informações sobre possíveis problemas que surgem ao longo dos trabalhos. Assim, qualquer imprevisto fica registrado e, em alguns casos, isso pode funcionar como justificativa para as alterações realizadas no cronograma. Dentro desse contexto assinale a alternativa INCORRETA:",
         "alternativas": {
             "A": "Cumprimento de prazos: o acesso à lista de afazeres em ordem cronológica ajuda a controlar o tempo gasto pelas equipes em cada tarefa, tendo em vista a flexibilidade das equipes dentro do quesito de prazos, geralmente não se estabelece prazos para as equipes executarem etapas dos elementos construtivos.",
@@ -283,10 +282,10 @@
             "E": "Garantia de melhorias: a montagem de um relatório completo gera oportunidades constantes de aprendizado. Assim, é possível identificar o que tem funcionado e o que precisa ser aprimorado no futuro."
         },
         "gabarito_correto": "A",
+        "id": "3121763",
         "comentario_ia": "A alternativa A esta incorreta ao afirmar que geralmente nao se estabelece prazos para equipes executarem etapas, pois o controle de prazos e um dos principais beneficios do diario de obra."
     },
     {
-        "id": "3121808",
         "enunciado": "Diante de um fato ocorrido na execução de um levantamento topográfico georreferenciado, constatou-se a existência de vértice restrito localizado em uma floresta densa protegida por lei, impossibilitando a abertura de clareras que viabilizaria a desobstrução do horizonte para o rastreio de satélites. Através dessa situação qual a seria a melhor tomada de decisão do topógrafo:",
         "alternativas": {
             "A": "Contratação de equipe braçal para abertura de clarera.",
@@ -296,10 +295,10 @@
             "E": "Consulta ao órgão ambiental federal para efeitos de autorização sob abertura de clareras e extração"
         },
         "gabarito_correto": "C",
+        "id": "3121808",
         "comentario_ia": "A situação descreve um vértice restrito em área protegida, impedindo a desobstrução. A melhor decisão envolve consultar o órgão ambiental (estadual ou federal, dependendo da vegetação e lei aplicável) para obter autorização para supressão vegetal ou justificativa legal, evitando ações ilegais ou que gerem passivos."
     },
     {
-        "id": "3121764",
         "enunciado": "O Concreto é sobretudo a decorrência da mistura de cimento, água, pedra e areia, bem como o cimento ao ser hidratado pela água, forma uma pasta durável e aderente aos fragmentos de agregados (pedra e areia), desenvolvendo um bloco monolítico. O concreto deve apresentar uma boa homogeneização granulométrica com finalidade de ocupar todos os vazios, pois a porosidade no que lhe diz relevância tem preponderância na permeabilidade e na resistência das estruturas de concreto. De acordo com Araújo (2001)a resistência à compressão do concreto é determinada através de ensaios padronizados de curta duração. Assinale a alternativa INCORRETA:",
         "alternativas": {
             "A": "Quando se deseja acelerar o processo de endurecimento do concreto, pode-se realizar a denominada cura a vapor. Neste caso, após transcorridas cerca de 28 dias da concretagem, eleva-se gradualmente a temperatura ambiente (por meio de vapor) até uma temperatura limite. Essa temperatura é mantida durante um certo período, reduzindo-se em seguida até atingir a temperatura ambiente. Por sua natureza, a cura a vapor é adequada para peças pré-fabricadas.",
@@ -309,10 +308,10 @@
             "E": "Quando se deseja acelerar o processo de endurecimento do concreto, pode-se realizar a denominada cura a vapor. Neste caso, após transcorridas cerca de 4 horas da concretagem, eleva-se gradualmente a temperatura ambiente (por meio de vapor) até uma temperatura limite. Essa temperatura é mantida durante um certo período, reduzindo-se em seguida até atingir a temperatura ambiente. Por sua natureza, a cura a vapor é adequada para peças pré-fabricadas."
         },
         "gabarito_correto": "A",
+        "id": "3121764",
         "comentario_ia": "A alternativa A descreve incorretamente a cura a vapor, afirmando que ela ocorre apos 28 dias e envolve elevacao da temperatura em seguida. Essa cura termica deve ser realizada logo apos a concretagem ou em periodos mais curtos."
     },
     {
-        "id": "3121809",
         "enunciado": "Um profissional devidamente habilitado foi contratado para determinar o desnível entre um terreno e um poço d’água, posicionou uma mira sobre a tampa de cobertura do poço realizou leitura igual a 0,587. Posicionou outra mira na entrada do terreno e realizou leitura igual a 3,145. Assinale a alternativa que representa o desnível entre o poço (ré) e o terreno (vante).",
         "alternativas": {
             "A": "- 2,558",
@@ -322,10 +321,10 @@
             "E": "- 1,174"
         },
         "gabarito_correto": "A",
+        "id": "3121809",
         "comentario_ia": "O desnível é calculado subtraindo-se a leitura do vante (terreno) da leitura da ré (poço). Assim: 0,587 (poço) - 3,145 (terreno) = -2,558. O sinal negativo indica que o terreno está mais alto que o poço."
     },
     {
-        "id": "3121810",
         "enunciado": "Em um estaqueamento executado no eixo de uma estrada possuindo 43 estacas + 6,9m, significa:",
         "alternativas": {
             "A": "866,90m",
@@ -335,11 +334,11 @@
             "E": "806,90m"
         },
         "gabarito_correto": "A",
+        "id": "3121810",
         "comentario_ia": "Em estaqueamento, '43 estacas + 6,9m' significa que há 43 estacas completas e um trecho adicional de 6,9m. Assumindo um espaçamento comum entre estacas de 20m (embora não explícito, é a inferência mais lógica para atingir valores próximos às alternativas), o cálculo seria 43 * 20m + 6,9m = 860m + 6,9m = 866,9m."
     },
     {
-        "id": "3121765",
-        "enunciado": "A NBR 15575/2013 tem como principal objetivo noção de desempenho de edificações. Faça a associação mediante as definições abaixo:Inspeção predial de uso e manutençãoManual de uso, operação e manutençãoAgente de degradação ManutençãoCusto global( ) Tudo aquilo que age sobre um sistema, contribuindo para reduzir seu desempenho.( ) Custo total de uma edificação ou de seus sistemas, determinado considerando-se, além do custo inicial, os custos de operação e manutenção ao longo da sua vida útil.( ) Análise técnica, através de metodologia específica, das condições de uso e de manutenção preventiva e corretiva da edificação.( ) Documento que reúne as informações necessárias para orientar as atividades de conservação, uso e manutenção da edificação e operação dos equipamentos.( ) Conjunto de atividades a serem realizadas para conservar ou recuperar a capacidade funcional da edificação e seus sistemas constituintes, a fim de atender às necessidades e segurança dos seus usuários.É correta a sequência:",
+        "enunciado": "A NBR 15575/2013 tem como principal objetivo noção de desempenho de edificações. Faça a associação mediante as definições abaixo:Inspeção predial de uso e manutençãoManual de uso, operação e manutençãoAgente de degradação ManutençãoCusto global( ) Tudo aquilo que age sobre um sistema, contribuindo para reduzir seu desempenho.( ) Custo total de uma edificação ou de seus sistemas, determinado considerando-se, além do custo inicial, os custos de operação e manutenção ao longo da sua vida útil.( ) Análise técnica, através de metodologia específica, das condições de uso e de manutenção preventiva e corretiva da edificação.( ) Documento que reúne as informações necessárias para orientar as atividades de conservação, uso e manutenção da edificação e operação dos equipamentos.( ) Conjunto de atividades a serem realizadas para conservar ou recuperar a capacidade funcional da edificação e seus sistemas constituintes, a fim de atender às necessidades e segurança dos seus usuários.É correta a sequência:",
         "alternativas": {
             "A": "V, I, II, III, IV",
             "B": "III, V, I, II, IV",
@@ -348,11 +347,11 @@
             "E": "III, II, I, IV, V"
         },
         "gabarito_correto": "B",
+        "id": "3121765",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121811",
-        "enunciado": "O teclado exerce inúmeras funções nos comandos do AutoCad. Associe corretamente as teclas às suas funções:F2F8F9F10 F11F12( )Alternar modo de entrada dinâmica( )Alternar tela de texto( )Alternar modo polar( )Alternar rastreamento de snap do objeto( )Alternar modo ortogonal( )Alternar modo de snapA sequência está correta em:",
+        "enunciado": "O teclado exerce inúmeras funções nos comandos do AutoCad. Associe corretamente as teclas às suas funções:F2F8F9F10 F11F12( )Alternar modo de entrada dinâmica( )Alternar tela de texto( )Alternar modo polar( )Alternar rastreamento de snap do objeto( )Alternar modo ortogonal( )Alternar modo de snapA sequência está correta em:",
         "alternativas": {
             "A": "6, 1, 4, 5, 2, 3",
             "B": "1, 3, 5, 4, 2, 6",
@@ -361,10 +360,10 @@
             "E": "5, 1, 4, 6, 2, 3"
         },
         "gabarito_correto": "A",
+        "id": "3121811",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121766",
         "enunciado": "Diante do fato as patologias na área da construção civil conceituam-se aos defeitos e problemas construtivos que ocorrem-nas diversas etapas de uma obra. Na maior parte das ocorrências, as patologias em revestimentos cerâmicos não são consequência do material cerâmico em si. Existe uma classificação para uma patologia que está diretamente interligada com substâncias como sais solúveis existentes no cimento podem atingir a superfície do revestimento, através do rejunte, formando depósitos esbranquiçados. Por conta da sujeira ambiental, podendo ficar escura. Dentro do contexto assinale a alternativa que define-a classificação da patologia.",
         "alternativas": {
             "A": "Eflorescência",
@@ -374,10 +373,10 @@
             "E": "Deslocamento"
         },
         "gabarito_correto": "A",
+        "id": "3121766",
         "comentario_ia": "A eflorescencia e a formacao de depositos esbranquicados na superficie de revestimentos ceramicos, causada pela migracao de sais solúveis do cimento."
     },
     {
-        "id": "3121812",
         "enunciado": "Uma propriedade tem formato retangular, medindo 2,15 km x 1150m. Sabendo-se os valores de conversão de hectares, a área da propriedade equivale a:",
         "alternativas": {
             "A": "248 hectares",
@@ -387,10 +386,10 @@
             "E": "247,25 hectares:"
         },
         "gabarito_correto": "E",
+        "id": "3121812",
         "comentario_ia": "Converter 1150m para km: 1,15 km. Area = 2,15 km * 1,15 km = 2,4725 km². Converter km² para hectares: 1 km² = 100 hectares. Area = 2,4725 * 100 = 247,25 hectares."
     },
     {
-        "id": "3121796",
         "enunciado": "Diante do conceito do método das direções através de medições angulares horizontais, é correto afirmar:",
         "alternativas": {
             "A": "Uma série de leituras conjugadas consiste na observação sucessiva das direções, a partir da direção-origem, fazendo-se o giro de ida na posição direta da luneta e de volta na posição inversa, ou vice-versa, terminando na última direção e iniciando-se, aí, a volta sem fechar o giro.",
@@ -400,10 +399,10 @@
             "E": "Uma série de leituras conjugadas consiste na observação sucessiva das direções, a partir da direção-origem, fazendo-se o giro de ida na posição direta da luneta e de volta na posição inversa, ou vice-versa, terminando na última direção e iniciando-se, aí, a volta fechando o giro."
         },
         "gabarito_correto": "A",
+        "id": "3121796",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121752",
         "enunciado": "No programa AutoCAD, uma das maneiras possíveis para se calculara área de um pentágono composto por elementos individuais feitos pelo comando LINE, é acionar o comando.",
         "alternativas": {
             "A": "BOUNDARY, clicar em qualquer ponto no interior da figura, confirmar, e então acionar o comando AREA, selecionar a nova figura recém-criada e confirmar.",
@@ -413,10 +412,10 @@
             "E": "POLYGON, digitar o número de lados (5), confirmar, e então acionar o comando AREA, clicar na figura e confirmar."
         },
         "gabarito_correto": "D",
+        "id": "3121752",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121797",
         "enunciado": "Estação Total é um equipamento destinado para levantamentos topográficos constituído com um distanciômetro e um coletor de dados acoplados, sendo classificados segundo a NBR 13133 através de desvios-padrão que constituem:Precisão baixa, desvio-padrão e precisão angular equivalente a ≤ +/-30” e desvio-padrão e precisão linear equivalente +/ - 5mm + 10ppmxD.Precisão média, desvio-padrão e precisão angular equivalente a ≤ +/ - 10” e desvio-padrão e precisão linear equivalente +/ - 5mm + 5ppmxD.Precisão alta, desvio-padrão e precisão angular equivalente a ≤ +/ - 05” e desvio-padrão e precisão linear equivalente +/ - 2mm + 2ppmxD.É correto afirmar:",
         "alternativas": {
             "A": "V, V, F",
@@ -426,10 +425,10 @@
             "E": "V, V, V"
         },
         "gabarito_correto": "D",
+        "id": "3121797",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121753",
         "enunciado": "Nos últimos anos a procura da integração de projetos e profissionais BIM na construção civil tem sido requisito presente em diversas construtoras. Sobre a tecnologia BIM é INCORRETO afirmar:",
         "alternativas": {
             "A": "Através do trabalho colaborativo e das informações que podem ser adicionadas em tempo real no modelo virtual, o Building Information Modeling permite que se tenha uma previsão e uma ampla percepção do projeto. Assim, a metodologia faz com que erros, interferências, improvisos e reações sejam evitados, o que reduz o tempo e custo investido no projeto.",
@@ -439,10 +438,10 @@
             "E": "BIM é uma metodologia de trabalho que consiste na construção digital de um projeto de edificação ou de infraestruturas feita através do trabalho colaborativo entre os diversos players envolvidos na obra. De forma que este modelo virtual contém todas as informações do ciclo de vida da obra, as quais podem ser adicionadas e alteradas em tempo real."
         },
         "gabarito_correto": "D",
+        "id": "3121753",
         "comentario_ia": "A tecnologia BIM é uma metodologia que modela a informação da construção, não necessitando obrigatoriamente do uso de plataformas CAD tradicionais, embora muitos softwares BIM possuam funcionalidades CAD ou se integrem a eles."
     },
     {
-        "id": "3121798",
         "enunciado": "Através de dados coletados em um levantamento planimétrico, obteve-se 14 vértices caracterizando uma distância de 1,3km do vértice 8 para o vértice 9. A escala representada no mapa foi de 1:2500. A distância representada no mapa será:",
         "alternativas": {
             "A": "1,3m",
@@ -452,10 +451,10 @@
             "E": "5200mm"
         },
         "gabarito_correto": "B",
+        "id": "3121798",
         "comentario_ia": "A escala é 1:2500, o que significa que 1 unidade no mapa representa 2500 unidades na realidade. A distância real de 1,3 km (130.000 cm) dividida por 2500 resulta em 52 cm no mapa. A alternativa B está correta."
     },
     {
-        "id": "3121754",
         "enunciado": "AutoCad é um software criado e comercializado pela Autodesk desde1982. Em consideração as mais diversas funções oferecidas, das quais estão destinadas para elaboração de projetos. Qual a função do ORTHO? E como deixa-lo ON?",
         "alternativas": {
             "A": "Deixar duas linhas paralelas. ON/OFF pressionando OR",
@@ -465,10 +464,10 @@
             "E": "Permitir a construção de linhas diagonais. ON/OFF pressionando F9"
         },
         "gabarito_correto": "B",
+        "id": "3121754",
         "comentario_ia": "O comando ORTHO no AutoCAD restringe a construção de linhas a ângulos retos (horizontais ou verticais). Para ativá-lo ou desativá-lo, a tecla de atalho F8 é utilizada. As outras opções descrevem comandos distintos."
     },
     {
-        "id": "3121799",
         "enunciado": "Em relação ao uso de coordenadas no programa AutoCad, para a criação de uma linha de 139 unidades de comprimento, inclinada em ângulo de 262°, o que deve ser digitado após a utilização do comando LINE e a marcação do seu ponto inicial?",
         "alternativas": {
             "A": "139,262",
@@ -478,10 +477,10 @@
             "E": "@139>262"
         },
         "gabarito_correto": "E",
+        "id": "3121799",
         "comentario_ia": "No AutoCAD, para criar uma linha com um comprimento específico e um ângulo, utiliza-se a notação polar com '@' seguido do comprimento, um sinal de maior (>) e o ângulo. Portanto, @139>262 é o comando correto para um comprimento de 139 e ângulo de 262 graus."
     },
     {
-        "id": "3121756",
         "enunciado": "De acordo com as definições abaixo:Índice de PermeabilidadeDemãoBonecaPeitoril( ) Saliência de alvenaria onde é fixado o marco das portas e janelas.( )Elemento de meia altura que protege os vãos, muretas, parapeito.( )Relação existente entre a área permeável e a área do terreno onde está inserida a edificação.( )Camada de tinta aplicada.É correto afirmar:",
         "alternativas": {
             "A": "III, I, II, IV",
@@ -491,11 +490,11 @@
             "E": "II, III, I, IV"
         },
         "gabarito_correto": "C",
+        "id": "3121756",
         "comentario_ia": "O enunciado associa definições a termos técnicos. A alternativa C, III, IV, I, II, corresponde à correlação correta: Índice de Permeabilidade (Relação área permeável/área total), Demão (Camada de tinta), Boneca (Elemento de meia altura), Peitoril (Saliência onde se fixa marco)."
     },
     {
-        "id": "3121801",
-        "enunciado": "De acordo com o modelo de representação da Terra, assinale V para verdadeiro e F para falso( )A Topografia, assim como a Geodésia, teve seus procedimentos de medições modificados nos últimos anos em função do grande desenvolvimento alcançado pela tecnologia e, pelos equipamentos e leis modificadas.( ) Pode-se afirmar a existência entre Geodésia e Topografia, onde a topografia atua em função de uma extensão do levantamento até 30 km de raio, acima desse valor executa-se Geodésia, no qual não é necessário considerar a curvatura da terra.( ) O geoide é uma superfície equipotencial do campo de gravidade ou superfície de nível, manipulando como referência para as altitudes ortométricas, distância contada sobre a vertical, do geoide até a superfície física no ponto considerado.( ) Modelo geoidal permite que a superfície terrestre seja representada por uma superfície fictícia definida pelo prolongamento do nível máximo dos mares (NMM)por sobre os continentesÉ correto afirmar:",
+        "enunciado": "De acordo com o modelo de representação da Terra, assinale V para verdadeiro e F para falso( )A Topografia, assim como a Geodésia, teve seus procedimentos de medições modificados nos últimos anos em função do grande desenvolvimento alcançado pela tecnologia e, pelos equipamentos e leis modificadas.( ) Pode-se afirmar a existência entre Geodésia e Topografia, onde a topografia atua em função de uma extensão do levantamento até 30 km de raio, acima desse valor executa-se Geodésia, no qual não é necessário considerar a curvatura da terra.( ) O geoide é uma superfície equipotencial do campo de gravidade ou superfície de nível, manipulando como referência para as altitudes ortométricas, distância contada sobre a vertical, do geoide até a superfície física no ponto considerado.( ) Modelo geoidal permite que a superfície terrestre seja representada por uma superfície fictícia definida pelo prolongamento do nível máximo dos mares (NMM)por sobre os continentesÉ correto afirmar:",
         "alternativas": {
             "A": "V, F, V, F",
             "B": "V, F, V, V",
@@ -504,11 +503,11 @@
             "E": "V, V, V, F"
         },
         "gabarito_correto": "C",
+        "id": "3121801",
         "comentario_ia": "As afirmativas corretas são: ( ) V, ( ) F, ( ) V, ( ) V. A tecnologia impactou Topografia e Geodésia. A Geodésia considera a curvatura da Terra mesmo em distâncias menores que 30km. O geoide é uma superfície de referência para altitudes ortométricas. O modelo geoidal pode ser representado pelo prolongamento do NMM sobre os continentes."
     },
     {
-        "id": "3121757",
-        "enunciado": "Com relação à terminologia dos vidros e dos componentes acessórios à sua aplicação, analise as afirmativas a seguir e assinale V para verdadeira e F para falso.( )Vidro Impresso, durante a fabricação é impresso um desenho em uma ou nas duas superfícies.( )Vidro Polido, transparente, mas permitindo visão sem distorção das imagens, pelo tratamento superficial.( )Vidro Térmico Absorvente, absorve pelo menos 70( )Vidro de Segurança Temperado, submetido a um tratamento térmico, através do qual foram introduzidas tensões adequadas e que, ao partir-se, desintegra-se em pequenos pedaços menos cortantes que o vidro recozido.É correto afirmar:",
+        "enunciado": "Com relação à terminologia dos vidros e dos componentes acessórios à sua aplicação, analise as afirmativas a seguir e assinale V para verdadeira e F para falso.( )Vidro Impresso, durante a fabricação é impresso um desenho em uma ou nas duas superfícies.( )Vidro Polido, transparente, mas permitindo visão sem distorção das imagens, pelo tratamento superficial.( )Vidro Térmico Absorvente, absorve pelo menos 70( )Vidro de Segurança Temperado, submetido a um tratamento térmico, através do qual foram introduzidas tensões adequadas e que, ao partir-se, desintegra-se em pequenos pedaços menos cortantes que o vidro recozido.É correto afirmar:",
         "alternativas": {
             "A": "V, F, F, V",
             "B": "V, V, F, V",
@@ -517,10 +516,10 @@
             "E": "V, V, V, F"
         },
         "gabarito_correto": "B",
+        "id": "3121757",
         "comentario_ia": "A primeira afirmativa é verdadeira, pois vidro impresso tem um desenho gravado. A segunda é verdadeira, pois vidro polido é transparente e sem distorção. A terceira é falsa, a exigência é de absorver pelo menos 70% da radiação, não um valor fixo. A quarta é verdadeira sobre o vidro temperado. Portanto, V, V, F, V."
     },
     {
-        "id": "3121802",
         "enunciado": "Analise as afirmativas abaixo, a alternativa incorreta é que:",
         "alternativas": {
             "A": "O geoprocessamento busca realizar, o armazenamento, o processamento e a análise de dados georreferenciados, ou seja, de informações singularmente localizadas. Entretanto, é imprescindível dispor de mapas altamente qualificados",
@@ -530,10 +529,10 @@
             "E": "A representação de dados cartográficos é tipificada pela sua distribuição espacial. As estruturas dessas informações podem qualificar-se por diferentes dimensões. Quando os dados são bidimensionais (2-D),possuem duas dimensões definidas (x, y), como, por exemplo, a área de um desmembramento, em que cada ponto inserido nessa superfície possui coordenadas definidas."
         },
         "gabarito_correto": "B",
+        "id": "3121802",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121758",
         "enunciado": "As sondagens de simples reconhecimento através de escavações por circulação d?água são manuseadas comumente em peripécias onde as escavações por trado manual não são prováveis, exemplo, solos arenosos, perfurações a elevadas profundidades, existência de lençol d’água. A NBR 8036 ressalta a importância da quantidade mínima de sondagem para quantitativos de áreas especificas. Em conformidade com esse conceito assinale a alternativa correta.",
         "alternativas": {
             "A": "Deve ser realizada no mínimo uma sondagem para cada 600m2 de área da projeção do edifício em planta até 1000m2.",
@@ -543,10 +542,10 @@
             "E": "Para áreas entre 2400m2 e 4800m2 deve ser feita duas sondagens para cada 400m2 que excederem 1200m2."
         },
         "gabarito_correto": "C",
+        "id": "3121758",
         "comentario_ia": "A NBR 8036 sobre sondagens de simples reconhecimento estabelece diretrizes quantitativas. A alternativa C é a única que reflete corretamente a norma ao indicar que, após uma certa área (2400m²), o número de sondagens deve ser definido com base nas especificidades do projeto, não seguindo regras fixas e arbitrárias."
     },
     {
-        "id": "3121803",
         "enunciado": "Analise o conceito abaixo e assinale a opção que a corresponde:\"Representação gráfica de uma parte limitada da superfície terrestre, sobre um plano horizontal local, em escalas maiores que 1:10000, para fins específicos, na qual não se considera a curvatura da Terra\".",
         "alternativas": {
             "A": "Planta",
@@ -556,10 +555,10 @@
             "E": "Croqui"
         },
         "gabarito_correto": "A",
+        "id": "3121803",
         "comentario_ia": "O conceito apresentado descreve uma planta, que é uma representação gráfica de uma área limitada da superfície terrestre em escalas maiores que 1:10000, sem considerar a curvatura da Terra e utilizada para fins específicos."
     },
     {
-        "id": "3121759",
         "enunciado": "Leia as alternativas a seguir relacionadas aos conceitos fundamentais de topografia, em seguida marque a alternativa CORRETA:",
         "alternativas": {
             "A": "É sabido que o termo Topografia é originado da palavra Topos Graphen da língua grega. Após a tradução para a língua portuguesa têm-se Topos significando solo ou região e Graphen equivalente a descrição.",
@@ -569,10 +568,10 @@
             "E": "A Altimetria estuda os instrumentos e métodos utilizados para obtenção da representação de uma determinada área, sem escala, não dando ideia do relevo."
         },
         "gabarito_correto": "C",
+        "id": "3121759",
         "comentario_ia": "A alternativa C descreve corretamente a Topometria como um ramo da Topografia focado em medições e subdividido em Planimetria (posições horizontais) e Altimetria (altitudes/relevo). As demais alternativas contêm imprecisões conceituais sobre a origem, projeção ou descrição dos ramos da topografia."
     },
     {
-        "id": "3121804",
         "enunciado": "Assinale a alternativa CORRETA.",
         "alternativas": {
             "A": "Em uma montanha, as curvas de nível, em planta, de maior altitude, contornam as curvas de nível de menor altitude.",
@@ -582,11 +581,11 @@
             "E": "Em um mapa topográfico, a representação de um espelho d?água se faz de modo paralelo às curvas de nível"
         },
         "gabarito_correto": "B",
+        "id": "3121804",
         "comentario_ia": "Em geral, quanto mais próximas as curvas de nível, maior o declive. A alternativa B é a correta pois o maior declive é justamente onde as curvas se compactam mais. As curvas de nível em planta de maior altitude em uma montanha devem envolver as de menor altitude, não o contrário. Curvas de nível afastadas refletem aclive suave, não forte. A escala do mapa afeta o espaçamento entre curvas. A representação de espelho d'água são linhas contínuas, únicas."
     },
     {
-        "id": "3121760",
-        "enunciado": "A construção civil tem exarado grandes problemas decorrentes de má execução no processo de locação de obra. Como por exemplo fundações executadas de forma errada, elementos estruturais localizados fora do posicionamento do projeto inicial, alvenarias discrepantes com o projeto arquitetônico. Sob a importância da perspectiva de locação de obras, reconheça as afirmativas a seguir como verdadeiras (V) ou falsas (F):( )A locação da obra é o processo de transferência da planta baixa do projeto da edificação para o terreno, ou seja, os recuos, os afastamentos, os alicerces, as paredes, as aberturas etc.( ) Método de cavaletes consiste na marcação dos eixos do projeto através pontos encravados ao redor do perímetro do canteiro de obra e toda a locação dos elementos estruturais é transcorrido na última fase de implantação.( )É interessante que o terreno esteja plano e nivelado de acordo com a primeira laje. Isso para evitar bota fora de solo e danificar o sistema montado, além de diminuir o fluxo de maquinas e caminhões no canteiro, preservando dessa maneira, a estrutura de madeira montada in loco.( )Para locar os elementos da fundação, é preciso retirar do projeto as coordenadas cartesianas do elemento e marcar no gabarito. Estica-se uma linha de nylon, nas duas direções simultaneamente. O cruzamento entre elas será a locação do elemento. Para transferir esse cruzamento para o terreno, é necessário utilizar um prumo de centro.É correto afirmar:",
+        "enunciado": "A construção civil tem exarado grandes problemas decorrentes de má execução no processo de locação de obra. Como por exemplo fundações executadas de forma errada, elementos estruturais localizados fora do posicionamento do projeto inicial, alvenarias discrepantes com o projeto arquitetônico. Sob a importância da perspectiva de locação de obras, reconheça as afirmativas a seguir como verdadeiras (V) ou falsas (F):( )A locação da obra é o processo de transferência da planta baixa do projeto da edificação para o terreno, ou seja, os recuos, os afastamentos, os alicerces, as paredes, as aberturas etc.( ) Método de cavaletes consiste na marcação dos eixos do projeto através pontos encravados ao redor do perímetro do canteiro de obra e toda a locação dos elementos estruturais é transcorrido na última fase de implantação.( )É interessante que o terreno esteja plano e nivelado de acordo com a primeira laje. Isso para evitar bota fora de solo e danificar o sistema montado, além de diminuir o fluxo de maquinas e caminhões no canteiro, preservando dessa maneira, a estrutura de madeira montada in loco.( )Para locar os elementos da fundação, é preciso retirar do projeto as coordenadas cartesianas do elemento e marcar no gabarito. Estica-se uma linha de nylon, nas duas direções simultaneamente. O cruzamento entre elas será a locação do elemento. Para transferir esse cruzamento para o terreno, é necessário utilizar um prumo de centro.É correto afirmar:",
         "alternativas": {
             "A": "V, F, V, V",
             "B": "V, V, F, V",
@@ -595,10 +594,10 @@
             "E": "F, F, F, F"
         },
         "gabarito_correto": "A",
+        "id": "3121760",
         "comentario_ia": "A locacao de obra transfere o projeto para o terreno. O metodo de cavaletes envolve marcacao de eixos. O terreno nivelado e importante. Para fundacoes, usa-se coordenadas e prumo de centro."
     },
     {
-        "id": "3121805",
         "enunciado": "Dentro das divisões de levantamentos topográficos que compreende o conjunto de procedimentos inescusáveis para a determinação de pontos e aspectos do terreno que serão projetados sobre um plano horizontal de referência por meio de suas coordenadas X e Y denomina-se:",
         "alternativas": {
             "A": "Altimétrico",
@@ -608,10 +607,10 @@
             "E": "Topométrico"
         },
         "gabarito_correto": "D",
+        "id": "3121805",
         "comentario_ia": "O levantamento topográfico que se restringe à determinação das coordenadas planimétricas (X e Y) de pontos do terreno, projetando-os em um plano horizontal, é o planimétrico. O altimétrico trata da determinação de altitudes e cotas."
     },
     {
-        "id": "3121806",
         "enunciado": "AnaliseLoteamentoDesmembramentoParcelamento( )Divisão da terra em unidades juridicamente independentes, com vistas à edificação, sempre mediante aprovação municipal.( )Processo de divisão de terrenos rurais ou urbanos em lotes destinados à exploração ou à edificação de qualquer natureza, mediante a observância das formalidades legais e regulamentares.( )Subdivisão de gleba em lotes destinadas a edificação, com aproveitamento do sistema viário existente, desde que não implique na abertura de novas vias e logradouros públicos, nem no prolongamento, modificação ou ampliação dos já existentes.É correto afirmar:",
         "alternativas": {
             "A": "3, 1, 2",
@@ -621,10 +620,10 @@
             "E": "3, 2, 1"
         },
         "gabarito_correto": "A",
+        "id": "3121806",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121761",
         "enunciado": "O sistema de planejamento do canteiro propende a obter a melhor aproveitamento do espaço físico disponível, de maneira a propiciar que homens e máquinas trabalhem com seguridade e eficiência, precipuamente durante a minimização das transferências de materiais, componentes e mão-de-obra. Visando melhor desempenho recomenda-se incialmente um croqui para melhor compreensão do layout, devendo constar alguns itens necessários e suficientes para planejamento primordial. Assinale a alternativa INCORRETA:",
         "alternativas": {
             "A": "Não sendo necessário estimar o número de operários no canteiro para três fases básicas do layout.",
@@ -634,10 +633,10 @@
             "E": "Localização das instalações provisórias (banheiros, escritório, refeitório, etc.), inclusive plantão de vendas"
         },
         "gabarito_correto": "A",
+        "id": "3121761",
         "comentario_ia": "A estimativa do numero de operarios e fundamental para o planejamento do layout do canteiro, pois influencia a distribuicao de espaco e recursos para diferentes fases do projeto."
     },
     {
-        "id": "3121762",
         "enunciado": "De acordo com o conceito \"como construído, sendo utilizado para nomear o processo de levantamento de todas as medidas existentes nas edificações, transformando as informações avaliadas em um desenho técnico que irá representar a atual situação de dados e trajetos de instalações elétricas, hidráulicas, estrutural, etc\". É designado:",
         "alternativas": {
             "A": "Diário de obra",
@@ -647,10 +646,10 @@
             "E": "Projetos complementares"
         },
         "gabarito_correto": "B",
+        "id": "3121762",
         "comentario_ia": "O termo 'as built' refere-se ao desenho técnico final que representa o estado real da edificação após a sua construção, incluindo todas as instalações e medidas, diferente de um diário de obra ou um projeto inicial."
     },
     {
-        "id": "3121807",
         "enunciado": "De acordo com a Norma Técnica de Georreferenciamento de Imóveis Rurais, para utilização em campo de equipamentos de medições, como também técnicas para manuseio e processamento de dados. Assinale a alternativa incorreta:",
         "alternativas": {
             "A": "Posicionamento relativo estático rápido segue as características do posicionamento relativo estático diferenciado somente no tempo de ocupação, que para efeitos da Norma, varia de 5 a 30 minutos.",
@@ -660,10 +659,10 @@
             "E": "Posicionamento cinemático em tempo real está baseado no posicionamento estático, com solução em tempo real, processada nos receptores móveis, em função de dados transmitidos por telemetria a partir de receptor estacionado sobre uma estação base, cujas coordenadas são desconhecidas"
         },
         "gabarito_correto": "E",
+        "id": "3121807",
         "comentario_ia": "O posicionamento cinemático em tempo real (RTK) baseia-se na transmissão de dados de uma estação base para um receptor móvel, que processa a solução em tempo real para obter coordenadas com alta precisão. A alternativa E descreve um processo onde as coordenadas da estação base são desconhecidas, o que contradiz o princípio fundamental do RTK."
     },
     {
-        "id": "3121763",
         "enunciado": "Como o nome indica, diário de obra trata-se de um relatório circunstanciado diariamente. Convém para registrar tudo oque ocorre durante o desenvolvimento do projeto, incluindo os serviços executados, a flexibilização de recursos, as conjunturas do tempo, entre outros fatores. Esse documento também é alimentado com informações sobre possíveis problemas que surgem ao longo dos trabalhos. Assim, qualquer imprevisto fica registrado e, em alguns casos, isso pode funcionar como justificativa para as alterações realizadas no cronograma. Dentro desse contexto assinale a alternativa INCORRETA:",
         "alternativas": {
             "A": "Cumprimento de prazos: o acesso à lista de afazeres em ordem cronológica ajuda a controlar o tempo gasto pelas equipes em cada tarefa, tendo em vista a flexibilidade das equipes dentro do quesito de prazos, geralmente não se estabelece prazos para as equipes executarem etapas dos elementos construtivos.",
@@ -673,10 +672,10 @@
             "E": "Garantia de melhorias: a montagem de um relatório completo gera oportunidades constantes de aprendizado. Assim, é possível identificar o que tem funcionado e o que precisa ser aprimorado no futuro."
         },
         "gabarito_correto": "A",
+        "id": "3121763",
         "comentario_ia": "A alternativa A esta incorreta ao afirmar que geralmente nao se estabelece prazos para equipes executarem etapas, pois o controle de prazos e um dos principais beneficios do diario de obra."
     },
     {
-        "id": "3121808",
         "enunciado": "Diante de um fato ocorrido na execução de um levantamento topográfico georreferenciado, constatou-se a existência de vértice restrito localizado em uma floresta densa protegida por lei, impossibilitando a abertura de clareras que viabilizaria a desobstrução do horizonte para o rastreio de satélites. Através dessa situação qual a seria a melhor tomada de decisão do topógrafo:",
         "alternativas": {
             "A": "Contratação de equipe braçal para abertura de clarera.",
@@ -686,10 +685,10 @@
             "E": "Consulta ao órgão ambiental federal para efeitos de autorização sob abertura de clareras e extração"
         },
         "gabarito_correto": "C",
+        "id": "3121808",
         "comentario_ia": "A situação descreve um vértice restrito em área protegida, impedindo a desobstrução. A melhor decisão envolve consultar o órgão ambiental (estadual ou federal, dependendo da vegetação e lei aplicável) para obter autorização para supressão vegetal ou justificativa legal, evitando ações ilegais ou que gerem passivos."
     },
     {
-        "id": "3121764",
         "enunciado": "O Concreto é sobretudo a decorrência da mistura de cimento, água, pedra e areia, bem como o cimento ao ser hidratado pela água, forma uma pasta durável e aderente aos fragmentos de agregados (pedra e areia), desenvolvendo um bloco monolítico. O concreto deve apresentar uma boa homogeneização granulométrica com finalidade de ocupar todos os vazios, pois a porosidade no que lhe diz relevância tem preponderância na permeabilidade e na resistência das estruturas de concreto. De acordo com Araújo (2001)a resistência à compressão do concreto é determinada através de ensaios padronizados de curta duração. Assinale a alternativa INCORRETA:",
         "alternativas": {
             "A": "Quando se deseja acelerar o processo de endurecimento do concreto, pode-se realizar a denominada cura a vapor. Neste caso, após transcorridas cerca de 28 dias da concretagem, eleva-se gradualmente a temperatura ambiente (por meio de vapor) até uma temperatura limite. Essa temperatura é mantida durante um certo período, reduzindo-se em seguida até atingir a temperatura ambiente. Por sua natureza, a cura a vapor é adequada para peças pré-fabricadas.",
@@ -699,10 +698,10 @@
             "E": "Quando se deseja acelerar o processo de endurecimento do concreto, pode-se realizar a denominada cura a vapor. Neste caso, após transcorridas cerca de 4 horas da concretagem, eleva-se gradualmente a temperatura ambiente (por meio de vapor) até uma temperatura limite. Essa temperatura é mantida durante um certo período, reduzindo-se em seguida até atingir a temperatura ambiente. Por sua natureza, a cura a vapor é adequada para peças pré-fabricadas."
         },
         "gabarito_correto": "A",
+        "id": "3121764",
         "comentario_ia": "A alternativa A descreve incorretamente a cura a vapor, afirmando que ela ocorre apos 28 dias e envolve elevacao da temperatura em seguida. Essa cura termica deve ser realizada logo apos a concretagem ou em periodos mais curtos."
     },
     {
-        "id": "3121809",
         "enunciado": "Um profissional devidamente habilitado foi contratado para determinar o desnível entre um terreno e um poço d’água, posicionou uma mira sobre a tampa de cobertura do poço realizou leitura igual a 0,587. Posicionou outra mira na entrada do terreno e realizou leitura igual a 3,145. Assinale a alternativa que representa o desnível entre o poço (ré) e o terreno (vante).",
         "alternativas": {
             "A": "- 2,558",
@@ -712,10 +711,10 @@
             "E": "- 1,174"
         },
         "gabarito_correto": "A",
+        "id": "3121809",
         "comentario_ia": "O desnível é calculado subtraindo-se a leitura do vante (terreno) da leitura da ré (poço). Assim: 0,587 (poço) - 3,145 (terreno) = -2,558. O sinal negativo indica que o terreno está mais alto que o poço."
     },
     {
-        "id": "3121810",
         "enunciado": "Em um estaqueamento executado no eixo de uma estrada possuindo 43 estacas + 6,9m, significa:",
         "alternativas": {
             "A": "866,90m",
@@ -725,11 +724,11 @@
             "E": "806,90m"
         },
         "gabarito_correto": "A",
+        "id": "3121810",
         "comentario_ia": "Em estaqueamento, '43 estacas + 6,9m' significa que há 43 estacas completas e um trecho adicional de 6,9m. Assumindo um espaçamento comum entre estacas de 20m (embora não explícito, é a inferência mais lógica para atingir valores próximos às alternativas), o cálculo seria 43 * 20m + 6,9m = 860m + 6,9m = 866,9m."
     },
     {
-        "id": "3121765",
-        "enunciado": "A NBR 15575/2013 tem como principal objetivo noção de desempenho de edificações. Faça a associação mediante as definições abaixo:Inspeção predial de uso e manutençãoManual de uso, operação e manutençãoAgente de degradação ManutençãoCusto global( ) Tudo aquilo que age sobre um sistema, contribuindo para reduzir seu desempenho.( ) Custo total de uma edificação ou de seus sistemas, determinado considerando-se, além do custo inicial, os custos de operação e manutenção ao longo da sua vida útil.( ) Análise técnica, através de metodologia específica, das condições de uso e de manutenção preventiva e corretiva da edificação.( ) Documento que reúne as informações necessárias para orientar as atividades de conservação, uso e manutenção da edificação e operação dos equipamentos.( ) Conjunto de atividades a serem realizadas para conservar ou recuperar a capacidade funcional da edificação e seus sistemas constituintes, a fim de atender às necessidades e segurança dos seus usuários.É correta a sequência:",
+        "enunciado": "A NBR 15575/2013 tem como principal objetivo noção de desempenho de edificações. Faça a associação mediante as definições abaixo:Inspeção predial de uso e manutençãoManual de uso, operação e manutençãoAgente de degradação ManutençãoCusto global( ) Tudo aquilo que age sobre um sistema, contribuindo para reduzir seu desempenho.( ) Custo total de uma edificação ou de seus sistemas, determinado considerando-se, além do custo inicial, os custos de operação e manutenção ao longo da sua vida útil.( ) Análise técnica, através de metodologia específica, das condições de uso e de manutenção preventiva e corretiva da edificação.( ) Documento que reúne as informações necessárias para orientar as atividades de conservação, uso e manutenção da edificação e operação dos equipamentos.( ) Conjunto de atividades a serem realizadas para conservar ou recuperar a capacidade funcional da edificação e seus sistemas constituintes, a fim de atender às necessidades e segurança dos seus usuários.É correta a sequência:",
         "alternativas": {
             "A": "V, I, II, III, IV",
             "B": "III, V, I, II, IV",
@@ -738,11 +737,11 @@
             "E": "III, II, I, IV, V"
         },
         "gabarito_correto": "B",
+        "id": "3121765",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121811",
-        "enunciado": "O teclado exerce inúmeras funções nos comandos do AutoCad. Associe corretamente as teclas às suas funções:F2F8F9F10 F11F12( )Alternar modo de entrada dinâmica( )Alternar tela de texto( )Alternar modo polar( )Alternar rastreamento de snap do objeto( )Alternar modo ortogonal( )Alternar modo de snapA sequência está correta em:",
+        "enunciado": "O teclado exerce inúmeras funções nos comandos do AutoCad. Associe corretamente as teclas às suas funções:F2F8F9F10 F11F12( )Alternar modo de entrada dinâmica( )Alternar tela de texto( )Alternar modo polar( )Alternar rastreamento de snap do objeto( )Alternar modo ortogonal( )Alternar modo de snapA sequência está correta em:",
         "alternativas": {
             "A": "6, 1, 4, 5, 2, 3",
             "B": "1, 3, 5, 4, 2, 6",
@@ -751,10 +750,10 @@
             "E": "5, 1, 4, 6, 2, 3"
         },
         "gabarito_correto": "A",
+        "id": "3121811",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121766",
         "enunciado": "Diante do fato as patologias na área da construção civil conceituam-se aos defeitos e problemas construtivos que ocorrem-nas diversas etapas de uma obra. Na maior parte das ocorrências, as patologias em revestimentos cerâmicos não são consequência do material cerâmico em si. Existe uma classificação para uma patologia que está diretamente interligada com substâncias como sais solúveis existentes no cimento podem atingir a superfície do revestimento, através do rejunte, formando depósitos esbranquiçados. Por conta da sujeira ambiental, podendo ficar escura. Dentro do contexto assinale a alternativa que define-a classificação da patologia.",
         "alternativas": {
             "A": "Eflorescência",
@@ -764,10 +763,10 @@
             "E": "Deslocamento"
         },
         "gabarito_correto": "A",
+        "id": "3121766",
         "comentario_ia": "A eflorescencia e a formacao de depositos esbranquicados na superficie de revestimentos ceramicos, causada pela migracao de sais solúveis do cimento."
     },
     {
-        "id": "3121812",
         "enunciado": "Uma propriedade tem formato retangular, medindo 2,15 km x 1150m. Sabendo-se os valores de conversão de hectares, a área da propriedade equivale a:",
         "alternativas": {
             "A": "248 hectares",
@@ -777,10 +776,10 @@
             "E": "247,25 hectares:"
         },
         "gabarito_correto": "E",
+        "id": "3121812",
         "comentario_ia": "Converter 1150m para km: 1,15 km. Area = 2,15 km * 1,15 km = 2,4725 km². Converter km² para hectares: 1 km² = 100 hectares. Area = 2,4725 * 100 = 247,25 hectares."
     },
     {
-        "id": "3121767",
         "enunciado": "A implantação de práticas sustentáveis na construção civil está cada vez mais presente dentro dos canteiros de obras. A definição mais utilizada foi estabelecida em 1987 pela Comissão Mundial sobre Ambiente e Desenvolvimento, também conhecida como Comissão Brundtland: Desenvolvimento sustentável é o tipo de desenvolvimento que responde às necessidades da geração atual sem pactuar com a habilidade das gerações futuras de auxiliarem suas próprias necessidades. Neste contexto, pode-se apresentar uma explicação para facilitar a compreensão dos profissionais sobre os aspectos trabalhados para o alcance da construção sustentável e energias renováveis. Assinale a alternativa INCORRETA dentro dos pressupostos apresentados.",
         "alternativas": {
             "A": "Qualidade da implantação.",
@@ -790,10 +789,10 @@
             "E": "Prevenção de poluição."
         },
         "gabarito_correto": "D",
+        "id": "3121767",
         "comentario_ia": "A gestão de materiais e o aumento de resíduos são aspectos a serem gerenciados *para a redução* e não diretamente um objetivo da construção sustentável, que visa minimizar o uso de materiais e a geração de resíduos. As demais alternativas são práticas sustentáveis claras."
     },
     {
-        "id": "3121813",
         "enunciado": "Um dos elementos indispensáveis no conjunto de elaboração de um levantamento topográfico está presente o perfil topográfico. Mediante a sua definição assinale a alternativa correta:",
         "alternativas": {
             "A": "É uma representação ortográfica nos planos cartesianos de um corte vertical do terreno segundo uma direção de um corte previamente escolhido, de tal forma que seja possível representar intuitivamente os desníveis e a topografia do terreno.",
@@ -803,10 +802,10 @@
             "E": "A escala vertical deverá ser muito menor que a horizontal, do contrário, as variações ao longo do perfil dificilmente serão perceptíveis, por outro lado, sendo a escala vertical muito menor, o relevo ficaria demasiadamente exagerado, descaracterizando-o."
         },
         "gabarito_correto": "B",
+        "id": "3121813",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121768",
         "enunciado": "Na presença da conjectura, ética é um conjunto de regras relacionadas aos valores e conceitos morais de um indivíduo ou grupo social. O código de ética do trabalho cita alguns mandamentos essenciais. Assinale a alternativa INCORRETA:",
         "alternativas": {
             "A": "Seja honesto, honrado e digno em qualquer situação.",
@@ -816,10 +815,10 @@
             "E": "A privacidade do colega, do cliente e de todos os demais é violável. Independentemente de questões de propriedade corporativa, mexer na mesa, gaveta, informações ou documentos alheios exige autorização (de norma ou da pessoa envolvida) em qualquer circunstância."
         },
         "gabarito_correto": "E",
+        "id": "3121768",
         "comentario_ia": "A alternativa E é incorreta pois, em relação à privacidade, o código de ética profissional geralmente proíbe acessar informações ou documentos alheios sem autorização, mesmo que não haja questões de propriedade corporativa explícitas. A violação da privacidade é considerada antiética."
     },
     {
-        "id": "3121769",
         "enunciado": "Considerando a Resolução N. º 313 de 26 de setembro de 1986, Art. 14ressalta o exercício da profissão de Tecnólogo é regulado, no que couber, pelas disposições de Lei n.º5.194, de 24 de dezembro de 1966, inclusive quanto aos regimes de anuidades, emolumentos e taxas, penalidades e comportamento ético, junto ao Conselho Federal de Engenharia e Agronomia. Assinale a alternativa correta que ressalta o parágrafo único, compete, ainda aos Tecnólogos em suas diversas modalidades, sob a supervisão e direção de Engenheiros:",
         "alternativas": {
             "A": "Execução de obra, fiscalização de obra e serviços técnico.",
@@ -829,10 +828,10 @@
             "E": "Gerenciamento de estoque."
         },
         "gabarito_correto": "A",
+        "id": "3121769",
         "comentario_ia": "O Art. 14 da Res. 313/86, em seu parágrafo único, estabelece que compete aos Tecnólogos, sob supervisão de engenheiros, a execução de obra, fiscalização de obra e serviços técnicos."
     },
     {
-        "id": "3121770",
         "enunciado": "De acordo com IESDE BRASIL S.A a qualidade de vida no trabalho está ligada ao bem-estar das pessoas em situação de trabalho, visando elevar o nível de satisfação e também o de produtividade, o que significa maior eficácia e, ao mesmo tempo, atender às necessidades básicas dos trabalhadores. Assinale a alternativa INCORRETA condizente a algumas atitudes são fundamentais para a assertividade onde são exigidas decisões objetivas e focadas em bons resultados.",
         "alternativas": {
             "A": "Autoestima: é o que você pensa sobre si mesmo. A qualidade da autoestima depende da aceitação, da confiança e do respeito que você tem por si mesmo.",
@@ -842,10 +841,10 @@
             "E": "Tolerância a frustração: aceitar a diversidade humana, ouvimos apenas \"sins\", raramente \"nãos\""
         },
         "gabarito_correto": "E",
+        "id": "3121770",
         "comentario_ia": "A tolerância à frustração é a capacidade de lidar com a adversidade e aceitar 'nãos', sem se deixar abater. A alternativa E descreve o oposto, pois diz que apenas ouvimos 'sins' e raramente 'nãos', o que não condiz com a definição."
     },
     {
-        "id": "3121815",
         "enunciado": "Na perspectiva de locação de obras, identifique as afirmativas a seguir como verdadeiras (V) ou falsas (F):( )Na locação de obras de grandes dimensões, é dispensável o uso de cavaletes com equipamentos topográficos do que tabeiras.( )O gabarito é o elemento de locação que envolve todo o perímetro do edifício a uma distância aproximada de1,20 m.( )Não é recomendável que as coordenadas sejam marcadas utilizando sempre a mesma origem, para evitar propagação de erros.( )O referencial de nível não é obrigatório para a implementação do projeto técnico.Assinale a alternativa que apresenta a sequência correta, de cima para baixo.",
         "alternativas": {
             "A": "F, V, F, F",
@@ -855,10 +854,10 @@
             "E": "F, V, V, F"
         },
         "gabarito_correto": "A",
+        "id": "3121815",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121771",
         "enunciado": "De acordo com ASSEMAE - Associação Nacional dos Serviços Municipais de Saneamento, de modo geral, os sistemas de abastecimento urbano de água são compostos pelas unidades de captação, tratamento, estação elevatória, adução, reservatórios, rede de distribuição e ligações prediais. Com relação à água para consumo humano, elucidando que ao longo do tempo em ocorrendo um crescente aumento de demanda no Brasil, ocasionado pelo aumento da população nas últimas décadas, principalmente em centros urbanos. Diante do conceito das atividades, infraestruturas e instalações operacionais de coleta, transporte, tratamento e disposição final adequados dos esgotos sanitários, desde ligações prediais até o seu lançamento no meio ambiente, podemos afirmar a definição para:",
         "alternativas": {
             "A": "Esgotamento sanitário",
@@ -868,10 +867,10 @@
             "E": "Drenagem urbana, micro e macrodrenagem"
         },
         "gabarito_correto": "C",
+        "id": "3121771",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121816",
         "enunciado": "A topografia constitui um instrumento fundamental para a implantação e o acompanhamento de obras, como as de projeto viário, edificações e urbanizações. Em terreno acidentado, o levantamento planimétrico é insuficiente para seu conhecimento, sendo necessário medir, no levantamento altimétrico, o relevo e a variação de alturas, que devem ser representados por meio de curvas de nível, com essas informações será possível buscar soluções para a correção de nível no terreno. Sendo necessário algumas informações técnicas complementação. Assinale a alternativa correta:",
         "alternativas": {
             "A": "Mapa de localização e situação",
@@ -881,10 +880,10 @@
             "E": "Curvas de Nível"
         },
         "gabarito_correto": "C",
+        "id": "3121816",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121817",
         "enunciado": "Com relação ao procedimento para representação de um terreno por meio de curvas de nível, sua correta compreensão e suas recomendações normativas, assinale a alternativa correta.",
         "alternativas": {
             "A": "Duas curvas de nível não podem ser cruzar.",
@@ -894,10 +893,10 @@
             "E": "Elevações são superfícies em que as curvas de nível de maior valor envolvem as de menor valor."
         },
         "gabarito_correto": "A",
+        "id": "3121817",
         "comentario_ia": "Duas curvas de nível nunca se cruzam, pois cada ponto da superfície só pode ter uma única altitude. As demais alternativas apresentam informações incorretas sobre declividade, acidentes geográficos e o traçado das curvas."
     },
     {
-        "id": "3121772",
         "enunciado": "Dentro dos conceitos dos PROCEDIMENTOS E ROTINAS DE CONSERVAÇÃO E MANUTENÇÃO de edificações é correto afirmar:",
         "alternativas": {
             "A": "Pinturas, na constatação de falhas ou manchas, ou mesmo em caso de conservação preventiva de qualquer pintura de componente da edificação, não sendo necessário a realização do lichamento completo da área ou componente afetado, tratamento da base ou da causado aparecimento das manchas ou falhas, quando houver.",
@@ -907,10 +906,10 @@
             "E": "Alvenarias, deve-se descascar ou retirar o revestimento de todo o componente, deixando à mostra a trinca, rachadura ou área deteriorada. Procede-se, então, ao seu alargamento e verificação da causa para sua correção. Após a correção, deverá ser feito preenchimento com argamassa de cimento e areia no traço volumétrico 1:1,até obter-se um nivelamento perfeito da superfície."
         },
         "gabarito_correto": "B",
+        "id": "3121772",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121818",
         "enunciado": "Considerando que você deseja plottar na escala de 1:5000, escolha a opção abaixo que representa o seu comando:",
         "alternativas": {
             "A": "5000/5000xp",
@@ -920,10 +919,10 @@
             "E": "100/500xp"
         },
         "gabarito_correto": "D",
+        "id": "3121818",
         "comentario_ia": "A escala 1:5000 significa que 1 unidade no desenho representa 5000 unidades na realidade. Para plotar, usa-se a unidade do papel (geralmente 1 mm). Portanto, 1 mm no papel = 5000 mm na realidade = 5 metros. A fórmula para o comando seria '1000/5000xp', onde 1000 é a unidade do papel e 5000 é o denominador da escala. Em muitos contextos de softwares CAD, é comum usar 1000 como referência para milímetros/centímetros na conversão para metros, tornando 1000/5000xp. Outras representações podem variar, mas essa é a lógica mais comum."
     },
     {
-        "id": "3121773",
         "enunciado": "Mediante aos procedimentos de segurança nas obras de construção civil, assinale a alternativa INCORRETA:",
         "alternativas": {
             "A": "O Programa de Condições e Meio Ambiente de Trabalho na Indústria da Construção (PCMAT) consiste em um conjunto de ações e recursos que visam garantira saúde e integridade dos trabalhadores da construção civil, prevenindo acidentes do trabalho em canteiro de obras durante todas as fases da construção e estabelecendo condições adequadas de conforto, asseio e higiene ocupacional.",
@@ -933,10 +932,10 @@
             "E": "O treinamento de reciclagem relativo aos serviços em eletricidade deverá se dar a cada seis anos, sendo que será realizado em prazo menor em caso de o funcionário mudar de função ou trocar de empresa, de retornar ao trabalho após período de três meses de afastamento ou inatividade e, ainda, por mudanças significativas nos métodos de trabalho e nas instalações elétricas."
         },
         "gabarito_correto": "E",
+        "id": "3121773",
         "comentario_ia": "A alternativa E está incorreta pois o treinamento de reciclagem para serviços em eletricidade, conforme NR 10, deve ocorrer a cada 2 anos, e não a cada seis anos. Os prazos mencionados na alternativa são para outras situações, não para a reciclagem geral."
     },
     {
-        "id": "3121819",
         "enunciado": "Qual o equipamento topográfico que se destina unicamente a fornecer uma linha de vista horizontal, desprezando os ângulos horizontais e verticais?",
         "alternativas": {
             "A": "Nível topográfico",
@@ -946,10 +945,10 @@
             "E": "Estação Total"
         },
         "gabarito_correto": "A",
+        "id": "3121819",
         "comentario_ia": "O nível topográfico é o único equipamento que se destina unicamente a fornecer uma linha de vista horizontal, sendo utilizado para determinar desníveis e nivelamento, desprezando ângulos horizontais e verticais."
     },
     {
-        "id": "3121820",
         "enunciado": "O sistema de referência DATUM é de grande valia sua identificação dentro dos mapas elaborados. No Brasil quem determina esse fator é o IBGE (Instituto Brasileiro de Geografia e Estatística) onde é reconhecido três datum com período cronológico de 1950 até os dias atuais. Assinale a alternativa que descreve o uso do DATUM.",
         "alternativas": {
             "A": "SIRGAS 2000, SAD69, Córrego Alegre",
@@ -959,10 +958,10 @@
             "E": "SAD69, SIRGAS 2000, Córrego Alegre"
         },
         "gabarito_correto": "C",
+        "id": "3121820",
         "comentario_ia": "O IBGE reconhece três datums no Brasil com períodos cronológicos distintos: Córrego Alegre (mais antigo), SAD69 e SIRGAS 2000 (atual). A alternativa C apresenta esses datums na ordem cronológica correta de sua aplicação e reconhecimento no país."
     },
     {
-        "id": "3121821",
         "enunciado": "Em projetos de estradas temos a seguinte definição: \"Projeção do eixo sobre um plano vertical\". Assinale a alternativa correta que objetiva esse conceito.",
         "alternativas": {
             "A": "Diretriz",
@@ -972,11 +971,11 @@
             "E": "Greide"
         },
         "gabarito_correto": "E",
+        "id": "3121821",
         "comentario_ia": "O greide representa o perfil longitudinal teórico de uma via, ou seja, a projeção do eixo da estrada em um plano vertical, definindo as cotas de implantação."
     },
     {
-        "id": "3121775",
-        "enunciado": "Em concordância com a operação e manutenção de redes de água, esgoto e drenagem destacamos a rede coletora de esgoto como uma rede coletora de esgotos é um conjunto constituído pelos ramais internos, pelas ligações prediais, pelos coletores de esgoto e seus órgãos acessórios. Faça a associação mediante as definições abaixo:Coletor troncoColetor principalColetor de esgotoRamal interno( ) São os elementos internos ao imóvel de responsabilidade do proprietário ou usuário.( ) É a tubulação da rede coletora que recebe contribuição de esgoto das ligações prediais em qualquer ponto ao longo de seu comprimento.( ) É a tubulação da rede coletora que recebe apenas contribuição de esgoto de outros coletores.( ) É o coletor de esgoto de maior extensão dentro de uma mesma baciaÉ correta a sequência:",
+        "enunciado": "Em concordância com a operação e manutenção de redes de água, esgoto e drenagem destacamos a rede coletora de esgoto como uma rede coletora de esgotos é um conjunto constituído pelos ramais internos, pelas ligações prediais, pelos coletores de esgoto e seus órgãos acessórios. Faça a associação mediante as definições abaixo:Coletor troncoColetor principalColetor de esgotoRamal interno( ) São os elementos internos ao imóvel de responsabilidade do proprietário ou usuário.( ) É a tubulação da rede coletora que recebe contribuição de esgoto das ligações prediais em qualquer ponto ao longo de seu comprimento.( ) É a tubulação da rede coletora que recebe apenas contribuição de esgoto de outros coletores.( ) É o coletor de esgoto de maior extensão dentro de uma mesma baciaÉ correta a sequência:",
         "alternativas": {
             "A": "IV, III, I, II",
             "B": "IV, II, III, I",
@@ -985,10 +984,10 @@
             "E": "III, II, I, IV"
         },
         "gabarito_correto": "A",
+        "id": "3121775",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3121776",
         "enunciado": "Acerca de acompanhamento de aplicação de recursos públicos dentro do quesito medição e pagamento, assinale a alternativa INCORRETA:",
         "alternativas": {
             "A": "O empenho é o ato emanado da autoridade competente que cria para o Estado obrigação de pagamento pendente ou não de implemento de condição, não podendo exceder o limite dos créditos concedidos.",
@@ -998,10 +997,10 @@
             "E": "O principal objetivo do recebimento definitivo é propiciar que profissionais não envolvidos diretamente na fiscalização façam uma avaliação final independente quanto à integralidade do objeto. Caso existam vícios em sua execução, o responsável pelo recebimento deverá apresentar relação detalhada das desconformidades encontradas e fixar prazo para a correção, bem como acompanhar se as medidas corretivas indicadas foram realizadas."
         },
         "gabarito_correto": "D",
+        "id": "3121776",
         "comentario_ia": "O recebimento provisório exige a saneamento de pendências, mas o pagamento da última medição não é uma exceção que pode ocorrer a qualquer momento; ele está atrelado à conclusão e recebimento satisfatório dos serviços, conforme contrato."
     },
     {
-        "id": "3058035",
         "enunciado": "No sistema geral de classificação dos solos, suas principais características passam por duas condições. São elas:",
         "alternativas": {
             "A": "cor e plasticidade",
@@ -1011,10 +1010,10 @@
             "E": "textura e granulometria"
         },
         "gabarito_correto": "B",
+        "id": "3058035",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3058036",
         "enunciado": "O coeficiente de permeabilidade é a expressão numérica do grau de permeabilidade que um solo possui. É, na verdade, apropriedade (em número) que o solo apresenta de permitir o escoamento da água e, para obtê-lo, ensaios devem ser realizados. Os ensaios de permeabilidade podem também ser classificados como de carga constante e de carga variável. Tais ensaios são usados, respectivamente, para os seguintes tipos de solos:",
         "alternativas": {
             "A": "solos grossos e solos finos.",
@@ -1024,10 +1023,10 @@
             "E": "solos secos e solos instáveis."
         },
         "gabarito_correto": "A",
+        "id": "3058036",
         "comentario_ia": "Ensaios de carga constante são utilizados para solos com alta permeabilidade, como os solos grossos, enquanto ensaios de carga variável são adequados para solos com baixa permeabilidade, como os solos finos."
     },
     {
-        "id": "3058037",
         "enunciado": "Na execução de uma fundação, a capacidade de suporte do solo pode ser definida como a pressão que causaria ruptura por cisalhamento dele, logo abaixo e/ou adjacente a uma esta fundação. Dos três modos de ruptura, podemos citar:",
         "alternativas": {
             "A": "ruptura de cisalhamento por punção, ruptura de cisalhamento vertical e ruptura de cisalhamento local.",
@@ -1037,10 +1036,10 @@
             "E": "ruptura de cisalhamento por plano, ruptura de cisalhamento vertical e ruptura de cisalhamento geral."
         },
         "gabarito_correto": "D",
+        "id": "3058037",
         "comentario_ia": "A alternativa D cita os três modos principais de ruptura de capacidade de suporte do solo em fundações: ruptura de cisalhamento geral, ruptura de cisalhamento local e ruptura de cisalhamento por punção."
     },
     {
-        "id": "3058038",
         "enunciado": "Dentre os principais ensaios in situ para avaliação das propriedades construtivas de um terreno, podemos citar:",
         "alternativas": {
             "A": "Ensaio de Permeabilidade Dinâmica (SPD), Ensaio de Palhetas(FVT), Ensaio de Pressiômetro (PMT) e Ensaio de Penetração de Corpos de Prova (PCP).",
@@ -1050,10 +1049,10 @@
             "E": "Ensaio de Penetração Dinâmica (SPT), Ensaio de Palhetas(FVT), Ensaio de Pressiômetro (PMT) e Ensaio de Erlemeyer graduado (EGS)"
         },
         "gabarito_correto": "B",
+        "id": "3058038",
         "comentario_ia": "O SPT (Standard Penetration Test) e o CPT (Cone Penetration Test) são ensaios de grande importância para a avaliação geotécnica in situ, juntamente com o FVT (Field Vane Test) e o PMT (Pressiometer Test)."
     },
     {
-        "id": "3058039",
         "enunciado": "A Associação Brasileira de Normas Técnicas (ABNT) provê a nossa sociedade, através de documentos normativos, de um conhecimento sistematizado que permite a produção, a comercialização e o uso de bens e serviços dos mais variados. Em se tratando de concreto, temos também diversas normas. AABNT NBR 6118:2014 Versão Corrigida:2014 é uma da mais pesquisadas por profissionais da área. Seu título é:",
         "alternativas": {
             "A": "Projeto de estruturas de concreto — Dimensionamento.",
@@ -1063,10 +1062,10 @@
             "E": "Projeto de estruturas de concreto — Classificação"
         },
         "gabarito_correto": "B",
+        "id": "3058039",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3058040",
         "enunciado": "Em rodovias, temos diversas caracterizações das curvas existentes, muitas delas de acordo com seus raios. Dos tipos de curvas que conhecemos, temos as curvas de transição. Ao se apresentar um projeto de curva de transição, os elementos usados para a determinação da curva de transição são os seguintes, exceto:",
         "alternativas": {
             "A": "TS - ponto de passagem do alinhamento reto para transição.",
@@ -1076,10 +1075,10 @@
             "E": "Lc - comprimento da curva espiral"
         },
         "gabarito_correto": "A",
+        "id": "3058040",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3058041",
         "enunciado": "Na realização de um trabalho topográfico, as fases e os tipos de levantamento de campo são fundamentais para uma maior eficiência do planejamento e da execução. Assinale a alternativa que indica corretamente três levantamentos essenciais para otimização e economia do empreendimento.",
         "alternativas": {
             "A": "Levantamento de controle (estabelece redes e marcos horizontais e verticais), levantamento topográfico (estabelece agranulometria dos solos e suas elevações) e levantamento de terra, limite e cadastrais (estabelece linhas de propriedades, marcos de divisas).",
@@ -1089,10 +1088,10 @@
             "E": "Levantamento de controle (estabelece redes e marcos horizontais e verticais), levantamento topográfico (localização dos recursos naturais e artificiais, elevações) e levantamento de terra, limite e cadastrais (estabelece linhas de propriedades, marcos de divisas)"
         },
         "gabarito_correto": "E",
+        "id": "3058041",
         "comentario_ia": "A alternativa E descreve corretamente os tr&ecirc;s levantamentos essenciais para otimizar um empreendimento topogr&aacute;fico: controle, topogr&aacute;fico e de terra, limite e cadastrais."
     },
     {
-        "id": "3058043",
         "enunciado": "Podemos considerar elementos de sinalização horizontal e vertical os seguintes itens, exceto",
         "alternativas": {
             "A": "pintura de faixas longitudinais, desde que na faixa de domínio.",
@@ -1102,10 +1101,10 @@
             "E": "placas na faixa de domínio"
         },
         "gabarito_correto": "C",
+        "id": "3058043",
         "comentario_ia": "Defesas (guard-rails, barreiras) são elementos de engenharia e segurança instalados na lateral da via, não propriamente sinalização horizontal ou vertical dentro da faixa de domínio para orientação ou advertência."
     },
     {
-        "id": "3058044",
         "enunciado": "Sabemos que o item 5.4 Indicação do campo de tolerância, em seu sub item 5.4.1, indica que a tolerância se aplica na direção da flecha da linha de chamada que liga o quadro de tolerância do elemento a ser tolerado, a menos que o valor da tolerância esteja precedido pelo símbolo ∅. Este itens são extraídos na ABNT NBR indicada em qual alternativa abaixo?",
         "alternativas": {
             "A": "ABNT NBR 6488:1997 Tolerâncias geométricas - Tolerâncias de forma e batimento.",
@@ -1115,10 +1114,10 @@
             "E": "ABNT NBR 6409:1997 Tolerâncias geométricas - Tolerâncias de forma, orientação, posição e batimento - Generalidades, símbolos, definições e indicações em desenho."
         },
         "gabarito_correto": "E",
+        "id": "3058044",
         "comentario_ia": "Os itens descritos pertencem &agrave; ABNT NBR 6409, que trata de toler&acirc;ncias geom&eacute;tricas em desenhos t&eacute;cnicos, com rela&ccedil;&atilde;o a forma, orienta&ccedil;&atilde;o, posi&ccedil;&atilde;o e batimento."
     },
     {
-        "id": "3058045",
         "enunciado": "Nos sistemas de drenagem superficial, podemos citar os seguintes dispositivos, exceto",
         "alternativas": {
             "A": "sarjetas de cortes.",
@@ -1128,10 +1127,10 @@
             "E": "meios-fios."
         },
         "gabarito_correto": "B",
+        "id": "3058045",
         "comentario_ia": "Os demais itens são dispositivos que auxiliam na condução ou controle da água em sistemas de drenagem superficial. Boleamentos, por outro lado, são geralmente relacionados ao acabamento de superfícies ou cantos, sem função direta na drenagem."
     },
     {
-        "id": "3058047",
         "enunciado": "Em se tratando de ensaios laboratoriais na execução de pavimentos, a frequência indicada para a execução de ensaios é a mínima aceitável, devendo ser compatibilizada com um Plano de Amostragem Variável. Segundo o Departamento Nacional de Infra Estrutura de Transportes, para pistas de extensão limitada, com área de até 4.000 m2, deverão ser coletadas pelo menos quantas amostras?",
         "alternativas": {
             "A": "Cinco amostras.",
@@ -1141,10 +1140,10 @@
             "E": "Duas amostras a cada 3.000m²."
         },
         "gabarito_correto": "A",
+        "id": "3058047",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3058048",
         "enunciado": "A compactação é uma das principais etapas na pavimentação.A compactação deve evoluir longitudinalmente, iniciando pelos bordos. Nos trechos em tangente, a compactação deve prosseguir dos dois bordos para o centro, em percursos equidistantes da linha base. Em se tratando de espessura de camadas compactadas, podemos dizer que a espessura",
         "alternativas": {
             "A": "mínima será 20cm, em qualquer que seja a camada.",
@@ -1154,10 +1153,10 @@
             "E": "mínima será 10cm, em qualquer que seja a camada."
         },
         "gabarito_correto": "E",
+        "id": "3058048",
         "comentario_ia": "A espessura m&iacute;nima de uma camada compactada em pavimenta&ccedil;&atilde;o &eacute; de 10cm, permitindo a efici&ecirc;ncia do processo de compacta&ccedil;&atilde;o."
     },
     {
-        "id": "3058049",
         "enunciado": "Nos pavimentos, em se tratando de controle de execução da sub-base, podemos considerar os seguintes ensaios:",
         "alternativas": {
             "A": "Ensaio do SPT e Ensaio de massa específica aparente seca.",
@@ -1167,10 +1166,10 @@
             "E": "Ensaio de umidade higroscópica do material e Ensaio de massa específica aparente seca."
         },
         "gabarito_correto": "E",
+        "id": "3058049",
         "comentario_ia": "O controle de execu&ccedil;&atilde;o da sub-base de pavimentos comumente utiliza ensaios de umidade higrosc&oacute;pica e de massa espec&iacute;fica aparente seca."
     },
     {
-        "id": "3058050",
         "enunciado": "Determine o volume de escavação expurgado de uma jazida com as seguintes condições: região em forma de trapézio com base menor de 70m, base maior de 100m em um trecho de 600m. Considere empolamento de 15%. O volume será:",
         "alternativas": {
             "A": "520.200,00m³",
@@ -1180,10 +1179,10 @@
             "E": "708.300,00m"
         },
         "gabarito_correto": "C",
+        "id": "3058050",
         "comentario_ia": "Primeiro, calcula-se a área da seção transversal do trapézio: (base menor + base maior) * altura / 2. O problema não fornece a altura da seção transversal, apenas comprimentos. Entretanto, considerando que 'região em forma de trapézio' refere-se à seção transversal, e os 600m ao comprimento, a área é (70 + 100) * h / 2. O volume seria Área * comprimento. Sem h, é impossível calcular. Assumindo que 'altura' do trapézio é implicitamente um dos valores dados ou 'região em forma de trapézio' se refere a uma área plana, a interpretação mais provável para chegar às alternativas é tratar as bases como lados e 600m como a outra dimensão, calculando o volume de um prisma com seção trapezoidal. Volume = ((70+100)/2) * h * 600. Se considerarmos 600m como o comprimento e a área da seção transversal é dada por (70+100)/2 * altura. Se assumirmos que a altura do trapézio é, por exemplo, 100m de alguma forma, Volume = (70+100)/2 * 100 * 600 = 850000. Se a área for (70+100)/2 * X e o volume for AREA * 600. O volume do pri..."
     },
     {
-        "id": "3058051",
         "enunciado": "Quais as quantidades mínima e máxima de camadas determinadas pela norma necessárias para a realização da compactação de um trecho cuja altura de compactação definida em projeto seja de 2,25m?",
         "alternativas": {
             "A": "Mínima de 8 camadas e máxima de 16 camadas.",
@@ -1193,10 +1192,10 @@
             "E": "Mínima de 9 camadas e máxima de 23 camadas"
         },
         "gabarito_correto": "D",
+        "id": "3058051",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3058052",
         "enunciado": "Segundo a Resolução nº 211, 13/11/2016, para a circulação de Combinações de Veículos de Carga – CVC, a capacidade máxima determinada em seu Art 2º para o peso total bruto combinado (PTBC) deverá ser igual ou inferior a",
         "alternativas": {
             "A": "28 toneladas.",
@@ -1206,10 +1205,10 @@
             "E": "44 toneladas."
         },
         "gabarito_correto": "C",
+        "id": "3058052",
         "comentario_ia": "A Resolução CONTRAN nº 211/2016 estabelece as normas para circulação de Combinações de Veículos de Carga (CVC). Conforme o Art. 2º da referida resolução, a Capacidade Máxima Determinada para o Peso Total Bruto Combinado (PTBC) deve ser igual ou inferior a 74 toneladas."
     },
     {
-        "id": "3058053",
         "enunciado": "Calcule o volume aproximado de concreto de uma ponte constituída com os seguintes elementos construtivos:Dados da Obra de Arte:Fundação em blocos com base quadrada de aresta 6m e altura 4m, total de 3. Pilares com diâmetro de 8m e altura de 4m, total de 3. Plataforma em forma de trapézio com base menor inferior de 8m e parte superior sendo a estrada de rodagem de 12m de largura. Considere a altura de plataforma de 3m. Por fim, pavimentação em concreto com 12cm de espessura.O volume será:",
         "alternativas": {
             "A": "1.260,68m³.",
@@ -1219,10 +1218,10 @@
             "E": "1.488,20m³."
         },
         "gabarito_correto": "D",
+        "id": "3058053",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3058054",
         "enunciado": "É um dos procedimentos que podemos citar como ferramentana gerencia de conservação de rodovias, exceto",
         "alternativas": {
             "A": "capacitação de trabalhadores e servidores no entendimento de eficiência ao processo.",
@@ -1232,10 +1231,10 @@
             "E": "substituição da mão de obra terceirizada"
         },
         "gabarito_correto": "E",
+        "id": "3058054",
         "comentario_ia": "A substitui&ccedil;&atilde;o da m&atilde;o de obra terceirizada n&atilde;o &eacute; um procedimento comum na gest&atilde;o de conserva&ccedil;&atilde;o de rodovias, ao contr&aacute;rio das demais op&ccedil;&otilde;es."
     },
     {
-        "id": "3058055",
         "enunciado": "Para a execução dos serviços de escavação de solos, compactação e serviços de distribuição de agregados, devem ser usados, respectivamente,",
         "alternativas": {
             "A": "trator de esteira com lâmina, rolo pé de carneiro e retroescavadeira.",
@@ -1245,10 +1244,10 @@
             "E": "retro escavadeira, rolo pé de carneiro e moto niveladora."
         },
         "gabarito_correto": "C",
+        "id": "3058055",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3058057",
         "enunciado": "Sabemos da importância das normas brasileiras nos procedimentos e execuções das pavimentações, assim como do uso adequado de equipamentos nas manutenções de rodovias. A norma que trata sobre equipamentos espargidores de ligante betuminoso, com o título Equipamentos para manutenção e construção de rodovias - Distribuidores/espargidores de ligante betuminoso - Terminologia e especificações comerciais, é anorma",
         "alternativas": {
             "A": "ABNT NBR ISO 15643:2008.",
@@ -1258,10 +1257,10 @@
             "E": "ABNT NBR 12950:1993."
         },
         "gabarito_correto": "A",
+        "id": "3058057",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3058058",
         "enunciado": "A Lei de Licitações, usada nos certames em nosso país em geral, enquadra as obras de pavimentação e infraestrutura em determinadas modalidades de licitação de acordo com o valor estimado da contratação. Desta forma, assinale a alternativa que indica corretamente a modalidade a ser aplicada a uma licitação de pavimentação e infra estrutura com valores aproximados de R$ 1.500.000,00 (um milhão e quinhentos mil reais).",
         "alternativas": {
             "A": "Concurso.",
@@ -1271,10 +1270,10 @@
             "E": "Convite."
         },
         "gabarito_correto": "C",
+        "id": "3058058",
         "comentario_ia": "A Lei de Licitações (Lei nº 14.133/2021) e suas antecessoras definem modalidades de licitação com base no valor estimado da contratação. Consultas a tabelas de valores e modalidades vigentes para obras de pavimentação e infraestrutura indicam que R$ 1.500.000,00 se enquadra na modalidade Tomada de Preços, de acordo com regulamentações anteriores, ou em outros casos pode ser Pregão ou Concorrência dependendo da legislação específica e do objeto. Baseado em legislações anteriores vigentes há muito tempo, esta seria a resposta. Na Lei 14.133/2021, R$ 1.500.000,00 se enquadra em concorrência ou pregão eletrônico, dependendo do objeto."
     },
     {
-        "id": "3058059",
         "enunciado": "O art. 109 das Lei de Licitações, trata dos recursos administrativos, com prazo a contar da intimação do ato ou da lavradura da ata nos casos de, por exemplo, habilitação ou inabilitação do licitante, julgamento das propostas, anulação ou revogação da licitação. Este prazo que determina este artigo é de",
         "alternativas": {
             "A": "10 dias úteis.",
@@ -1284,10 +1283,10 @@
             "E": "5 dias corridos."
         },
         "gabarito_correto": "C",
+        "id": "3058059",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3058060",
         "enunciado": "O art. 79 das Lei de Licitações trata da rescisão contratual. Esta poderá ser, exceto",
         "alternativas": {
             "A": "determinada por ato unilateral e escrito da Administração, nos casos enumerados nos incisos I a XII e XVII do artigo 78 da mesma lei.",
@@ -1297,10 +1296,10 @@
             "E": "ser solicitada quando do não cumprimento dos prazos e especificações de projeto"
         },
         "gabarito_correto": "D",
+        "id": "3058060",
         "comentario_ia": "A alternativa D está incorreta pois a rescisão amigável por acordo entre as partes não é formalizada por intimação coletiva. A intimação coletiva não é um meio para rescisão amigável."
     },
     {
-        "id": "3058061",
         "enunciado": "O trilho aparece como um elemento primordial da estrutura da via permanente de uma ferrovia. Ele deve, entretanto, cumpriros seguintes propósitos, exceto",
         "alternativas": {
             "A": "resistir diretamente às tensões que recebe do trem.",
@@ -1310,10 +1309,10 @@
             "E": "servir de estrutura de estabilização da sub-base ferroviária."
         },
         "gabarito_correto": "E",
+        "id": "3058061",
         "comentario_ia": "O trilho n&atilde;o tem como prop&oacute;sito servir de estrutura de estabiliza&ccedil;&atilde;o da sub-base ferrovi&aacute;ria; essa fun&ccedil;&atilde;o &eacute; responsabilidade de outros componentes da via permanente."
     },
     {
-        "id": "3058062",
         "enunciado": "Podemos dividir a estrutura dos trilhos ferroviários em três nomenclaturas distintas. São elas:",
         "alternativas": {
             "A": "cabeça, alma e patilha.",
@@ -1323,10 +1322,10 @@
             "E": "cabeça, patilha e infraestrutura."
         },
         "gabarito_correto": "A",
+        "id": "3058062",
         "comentario_ia": "A estrutura de um trilho ferroviário é classicamente dividida em cabeça (onde os trens correm), alma (a parte vertical) e patilha (a base que se fixa aos dormentes)."
     },
     {
-        "id": "3058063",
         "enunciado": "Os cinco modais existentes no Brasil são",
         "alternativas": {
             "A": "rodoviário, aéreo, ferroviário, aquaviário e marítimo.",
@@ -1336,10 +1335,10 @@
             "E": "rodoviário, aéreo, ferroviário, dutoviário e pavimentário:"
         },
         "gabarito_correto": "D",
+        "id": "3058063",
         "comentario_ia": "A alternativa D abrange os cinco modais de transporte existentes no Brasil: rodoviário, aéreo, ferroviário, aquaviário e dutoviário."
     },
     {
-        "id": "3058064",
         "enunciado": "Sob as mesmas condições, os custos de uma pavimentação será crescente na seguinte sequência:",
         "alternativas": {
             "A": "pavimentação com AAUQ, pavimentação em paralelepípedos, pavimentação com CBUQ e pavimentação com concreto.",
@@ -1349,6 +1348,7 @@
             "E": "pavimentação em pedra tosca, pavimentação em paralelepípedos, pavimentação com CBUQ e pavimentação com concreto."
         },
         "gabarito_correto": "E",
+        "id": "3058064",
         "comentario_ia": "A ordem crescente de custos na pavimenta&ccedil;&atilde;o, do menor para o maior, geralmente segue: pedra tosca, paralelep&iacute;pedos, CBUQ e concreto."
     }
 ]

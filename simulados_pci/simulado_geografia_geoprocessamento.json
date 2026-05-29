@@ -1,6 +1,5 @@
 [
     {
-        "id": "2338971",
         "enunciado": "Considere o ponto situado no Equador e no meridiano central do Fuso 22 do sistema de projeção UTM. É correto afirmar que:",
         "alternativas": {
             "A": "A coordenada “este” vale E = 500.000 m.",
@@ -10,10 +9,10 @@
             "E": "A altitude vale h = –48°."
         },
         "gabarito_correto": "A",
+        "id": "2338971",
         "comentario_ia": "O meridiano central do Fuso 22 UTM corresponde à longitude 0° (Equador). O valor de 500.000 m é o valor fixo da coordenada 'este' no meridiano central. As coordenadas do Equador são N=0."
     },
     {
-        "id": "2364419",
         "enunciado": "O geoprocessamento é uma ferramenta importante para a fiscalização ambiental porque:",
         "alternativas": {
             "A": "Permite analisar dados espaciais e imagens para monitorar o uso do solo.",
@@ -23,10 +22,10 @@
             "E": "Substitui o trabalho de campo."
         },
         "gabarito_correto": "A",
+        "id": "2364419",
         "comentario_ia": "O geoprocessamento, ao analisar dados espaciais e imagens, permite o monitoramento detalhado do uso do solo, sendo uma ferramenta crucial para a fiscalização ambiental identificar irregularidades e planejar ações de conservação."
     },
     {
-        "id": "1859462",
         "enunciado": "Quanto às funções oferecidas pelos SIGs, indique a alternativa que define, com precisão, a operação de 'buffer':",
         "alternativas": {
             "A": "Zona de influência.",
@@ -36,10 +35,10 @@
             "E": "Gradiente espacial."
         },
         "gabarito_correto": "A",
+        "id": "1859462",
         "comentario_ia": "A operacao de 'buffer' em SIGs (Sistemas de Informacao Geografica) cria uma zona de influencia ao redor de um elemento geografico (ponto, linha ou poligono), com uma distancia especificada."
     },
     {
-        "id": "2154829",
         "enunciado": "O cadastro imobiliário municipal constitui instrumento fundamental para gestão territorial e tributária dos municípios brasileiros. Durante processo de atualização cadastral em bairro comercial, identifica-se estabelecimento com área real de 380 m² registrado como residencial de 150 m². Considerando os conceitos fundamentais do cadastro imobiliário, essa discrepância impacta diretamente:",
         "alternativas": {
             "A": "A contabilização estatística do setor censitário, alterando dados demográficos utilizados para planejamento de equipamentos públicos residenciais.",
@@ -49,10 +48,10 @@
             "E": "A adequação do zoneamento urbano local, exigindo revisão das diretrizes de ocupação territorial estabelecidas no plano diretor municipal."
         },
         "gabarito_correto": "D",
+        "id": "2154829",
         "comentario_ia": "A discrepância entre a área registrada (residencial) e a área real (comercial) impacta diretamente a fiscalização e arrecadação de impostos, especialmente o IPTU, pois a base de cálculo e a alíquota para uso comercial são diferentes."
     },
     {
-        "id": "2353905",
         "enunciado": "No processo de planejamento urbano, a leitura técnica do território envolve a análise de fatores físicos, sociais e normativos. Essa etapa permite:",
         "alternativas": {
             "A": "Definir exclusivamente os coeficientes de aproveitamento aplicáveis às zonas centrais.",
@@ -62,10 +61,10 @@
             "E": "Identificar potencialidades, restrições e conflitos de uso, subsidiando diretrizes para ocupação e desenvolvimento urbano."
         },
         "gabarito_correto": "E",
+        "id": "2353905",
         "comentario_ia": "O planejamento urbano, pela leitura técnica, busca identificar potencialidades, restrições e conflitos de uso do território, para subsidiar a elaboração de diretrizes que orientem a ocupação e o desenvolvimento da cidade."
     },
     {
-        "id": "1756299",
         "enunciado": "Considere um projeto em SIG para análise da expansão urbana. O datum horizontal utilizado é o SIRGAS2000 e o sistema de coordenadas é UTM. Sobre os componentes deste sistema de referência espacial, é correto afirmar:",
         "alternativas": {
             "A": "O SIRGAS2000 utiliza o elipsoide GRS67 como superfície de referência.",
@@ -75,10 +74,10 @@
             "E": "As coordenadas UTM são expressas em graus decimais."
         },
         "gabarito_correto": "B",
+        "id": "1756299",
         "comentario_ia": "O sistema UTM divide a Terra em 60 fusos, cada um com 6 graus de longitude (360 graus / 60 fusos = 6 graus/fuso). O SIRGAS2000 utiliza o elipsoide GRS80, nao o GRS67. O meridiano central nao e o de Paris. As distorcoes no UTM sao minimas no centro do fuso e aumentam nas bordas, mas sao controladas. As coordenadas UTM sao expressas em metros, nao em graus decimais."
     },
     {
-        "id": "2338985",
         "enunciado": "Um exemplo de software de Sistemas de Informações Geográficas (SIG) gratuito e de código aberto é o:",
         "alternativas": {
             "A": "ArcGIS.",
@@ -88,10 +87,10 @@
             "E": "OpenCities Map."
         },
         "gabarito_correto": "B",
+        "id": "2338985",
         "comentario_ia": "O QGIS é um software de Sistema de Informações Geográficas (SIG) amplamente conhecido por ser gratuito e de código aberto. As demais alternativas (ArcGIS, MapInfo, GeoMedia, OpenCities Map) referem-se a softwares proprietários."
     },
     {
-        "id": "1756308",
         "enunciado": "Em um Sistema de Informação Geográfica (SIG), a representação vetorial do tipo linha é utilizada para representar feições que possuem:",
         "alternativas": {
             "A": "Dimensão linear com coordenadas x,y em cada vértice da linha.",
@@ -101,10 +100,10 @@
             "E": "Polígonos fechados com área definida."
         },
         "gabarito_correto": "A",
+        "id": "1756308",
         "comentario_ia": "A representacao vetorial do tipo linha em um SIG e utilizada para feicoes que possuem dimensão unidimensional (comprimento). Cada vertice da linha e definido por coordenadas (x,y), permitindo a representacao de estradas, rios, etc."
     },
     {
-        "id": "2237993",
         "enunciado": "No contexto do geoprocessamento aplicado à engenharia, o principal benefício da integração entre bases raster e vetoriais em um SIG é:",
         "alternativas": {
             "A": "Permitir a geração automática de curvas de nível.",
@@ -114,10 +113,10 @@
             "E": "Aumentar a resolução espacial sem perda de precisão geométrica."
         },
         "gabarito_correto": "C",
+        "id": "2237993",
         "comentario_ia": "A integração de bases raster e vetoriais em um SIG permite a combinação de dados de diferentes naturezas e topologias, viabilizando análises espaciais complexas que seriam difíceis ou impossíveis de realizar com apenas um tipo de dado."
     },
     {
-        "id": "1355680",
         "enunciado": "Considere hipoteticamente um projeto de análise espacial que visa identificar áreas adequadas para construção de casas numa dada região. Um analista tem à disposição diversos tipos de imagens de satélite com características diferentes, que permitem a identificação adequada dos tipos de cobertura da região, seja de forma visual ou com aplicação de técnicas digitais. Estão, também, à disposição, informações de elevação do terreno, com qualidade compatível com a realização do projeto. De acordo com a análise correta que o analista pode fazer dessa situação, assinale a opção que apresenta fatores mais cruciais para definir restrições relacionadas com a proximidade de rios e terrenos com grande inclinação.",
         "alternativas": {
             "A": "Resolução espectral das imagens de satélite e elevação média do terreno.",
@@ -127,10 +126,10 @@
             "E": "Informações de elevação do terreno e resolução radiométrica das imagens de satélite."
         },
         "gabarito_correto": "B",
+        "id": "1355680",
         "comentario_ia": "A análise de declividade topográfica é crucial para evitar áreas com grande inclinação, e a distância às linhas de drenagem (rios) minimiza riscos de inundação, fatores essenciais para a construção."
     },
     {
-        "id": "1414583",
         "enunciado": "O princípio básico do posicionamento do GNSS é a",
         "alternativas": {
             "A": "triangulação entre dois satélites e a antena receptora.",
@@ -140,10 +139,10 @@
             "E": "medição da altitude em relação ao nível do mar."
         },
         "gabarito_correto": "C",
+        "id": "1414583",
         "comentario_ia": "O posicionamento GNSS requer a determinação da distância a partir do receptor para pelo menos quatro satélites. Essa informação, juntamente com as efemérides, permite resolver um sistema de equações para encontrar as coordenadas."
     },
     {
-        "id": "2115144",
         "enunciado": "Considerando os cenários a seguir, assinale a alternativa em que o geoprocessamento NÃO será útil.",
         "alternativas": {
             "A": "Dados qualitativos que podem ser quantificados de alguma forma.",
@@ -153,10 +152,10 @@
             "E": "Análise de dados qualitativos sem referência fixa no espaço geográfico."
         },
         "gabarito_correto": "E",
+        "id": "2115144",
         "comentario_ia": "O geoprocessamento é uma ferramenta poderosa para análise espacial e trabalha com dados geograficamente referenciados. A análise de dados qualitativos sem referência espacial fixa não se beneficia diretamente das técnicas de geoprocessamento."
     },
     {
-        "id": "1178488",
         "enunciado": "Marque a alternativa que apresenta o nome do tipo de dado espacial que apresenta aspectos da superfície terrestre convertidos em gráficos simples, e determinam a sua posição ou localização de forma bastante precisa no mapa. Os elementos a serem representados são convertidos em pontos, linhas ou polígonos. Esses dados são gerados e armazenados no formato shapefile:",
         "alternativas": {
             "A": "Dado de imagem.",
@@ -166,10 +165,10 @@
             "E": "Dado matricial."
         },
         "gabarito_correto": "D",
+        "id": "1178488",
         "comentario_ia": "Dados vetoriais representam feições geográficas como pontos, linhas e polígonos, sendo ideais para descrever e localizar elementos com precisão em mapas, e são comumente armazenados em formato shapefile."
     },
     {
-        "id": "1351376",
         "enunciado": "O geoprocessamento pode ser definido como sendo o conjunto de tecnologias destinadas à coleta e tratamento de informações _______________, assim como o desenvolvimento de novos sistemas e aplicações, com diferentes níveis de sofisticação. O termo geoprocessamento pode ser aplicado a profissionais que trabalham com cartografia digital, processamento digital de imagens e sistemas de informação _____________. A _________ digital pode ser entendida como sendo a tecnologia destinada à captação, organização e desenho de mapas (MicroStation, MaxiCAD, AutoCAD, etc.). Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
         "alternativas": {
             "A": "espaciais – geográfica – cartografia",
@@ -179,10 +178,10 @@
             "E": "geográficas – cartográfica – fotogrametria"
         },
         "gabarito_correto": "A",
+        "id": "1351376",
         "comentario_ia": "O geoprocessamento trata de informações espaciais. Os profissionais trabalham com sistemas de informação geográfica. A cartografia digital envolve o desenho de mapas. As lacunas são preenchidas corretamente por 'espaciais', 'geográfica' e 'cartografia'."
     },
     {
-        "id": "1201940",
         "enunciado": "Uma das principais ferramentas para mapear e analisar a expansão territorial, a densidade populacional e outros aspectos relevantes para o desenvolvimento urbano é o (SIG), que permite a integração de informações geográficas e a tomada de decisões embasadas em dados precisos. Sendo assim, assinale a alternativa CORRETA do significado da sigla SIG.",
         "alternativas": {
             "A": "Sistema de Informações Geográficas.",
@@ -192,10 +191,10 @@
             "E": "Sinalização de Informações Geográficas."
         },
         "gabarito_correto": "A",
+        "id": "1201940",
         "comentario_ia": "SIG é a sigla para Sistema de Informações Geográficas, ferramenta essencial para análise e gestão de dados espaciais."
     },
     {
-        "id": "1399140",
         "enunciado": "O geoprocessamento é uma tecnologia interdisciplinar que",
         "alternativas": {
             "A": "apresenta divergência de uso para as áreas de conhecimento das Ciências Humanas, Ciências Exatas e da Terra.",
@@ -205,10 +204,10 @@
             "E": "apoia-se no paradigma dos quatro universos: mundo real, matemático, de representação e artístico."
         },
         "gabarito_correto": "C",
+        "id": "1399140",
         "comentario_ia": "O geoprocessamento traduz informações geográficas complexas das mais diversas áreas em formatos computacionais, permitindo seu processamento, análise e visualização em mapas e sistemas digitais."
     },
     {
-        "id": "1146108",
         "enunciado": "Em relação ao geoprocessamento, no que diz respeito à representação vetorial e matricial para mapas temáticos, é correto afirmar que a representação:",
         "alternativas": {
             "A": "vetorial é armazenada por matrizes.",
@@ -218,10 +217,10 @@
             "E": "matricial armazena os dados em forma de pontos, linhas e polígonos."
         },
         "gabarito_correto": "C",
+        "id": "1146108",
         "comentario_ia": "A representação matricial (ou raster) divide o espaço em células (pixels) e é ideal para modelar fenômenos que variam continuamente, como temperatura ou altitude."
     },
     {
-        "id": "1540876",
         "enunciado": "Observe as afirmativas abaixo, e assinale a que melhor descreve a aplicação prática do Sistema de Informações Geográficas (SIG) em um contexto de Planejamento Urbano?",
         "alternativas": {
             "A": "Os SIGs são utilizados exclusivamente para criar mapas estáticos e não permitem a análise interativa dos dados geoespaciais.",
@@ -231,10 +230,10 @@
             "E": "Os SIGs são projetados para processar e analisar dados eco espaciais em tempo real."
         },
         "gabarito_correto": "B",
+        "id": "1540876",
         "comentario_ia": "SIGs integram e analisam dados geoespaciais de diversas fontes, permitindo visualização de padrões e modelagem para planejamento urbano. As demais alternativas descrevem limitações inexistentes ou usos incorretos dos SIGs."
     },
     {
-        "id": "1351386",
         "enunciado": "Sigef é uma ferramenta eletrônica desenvolvida pelo Instituto Nacional de Colonização e Reforma Agrária (Incra) para subsidiar a governança fundiária do território nacional, que é utilizada para:",
         "alternativas": {
             "A": "A concepção e a organização das informações cartográficas de imóveis rurais, públicos e privados.",
@@ -244,10 +243,10 @@
             "E": "A descentralização, redação e projeção das informações geocêntricas dos imóveis rurais, públicos e privados."
         },
         "gabarito_correto": "B",
+        "id": "1351386",
         "comentario_ia": "O Sigef, do Incra, e um sistema que gerencia dados geoespaciais de imoveis rurais. Sua funcao principal e receber, validar, organizar, regularizar e disponibilizar essas informacoes georreferenciadas, tanto de imoveis publicos quanto privados."
     },
     {
-        "id": "1666687",
         "enunciado": "Qual das seguintes alternativas representa uma aplicação das geotecnologias, como o uso de imagens de satélite, no monitoramento e gestão ambiental?",
         "alternativas": {
             "A": "Produção de relatórios financeiros de empresas de energia.",
@@ -257,10 +256,10 @@
             "E": "Controle de fronteiras internacionais para segurança militar."
         },
         "gabarito_correto": "C",
+        "id": "1666687",
         "comentario_ia": "A alternativa C está correta pois imagens de satélite, como geotecnologia, são cruciais para monitorar desmatamento e mudanças na vegetação, fornecendo dados essenciais para a gestão ambiental."
     },
     {
-        "id": "1132267",
         "enunciado": "Com relação aos sistemas de coordenadas geográficas, interprete as afirmativas a seguir:I - O uso de sistemas de coordenadas geográficas é muito comum dentro de espacializações mais gerais, ou seja, com escalas menores.II - Esses sistemas utilizam os graus para definir a latitude e a longitude e, quando necessário, também se estabelece um valor de altura para determinar uma localização na superfície da Terra.III - As linhas de latitude são oblíquas à linha do Equador, a maior linha existente, e dividem a Terra em 180 seções espaçadas igualmente entre si, indo de Norte a Sul ou de Sul a Norte.IV - Cada hemisfério (Norte e Sul) é dividido em 90 seções, representando um grau de latitude.É incorreto o que se afirma em:",
         "alternativas": {
             "A": "I apenas",
@@ -270,10 +269,10 @@
             "E": "III e IV apenas"
         },
         "gabarito_correto": "C",
+        "id": "1132267",
         "comentario_ia": "A afirmativa III está incorreta. Linhas de latitude são paralelas ao Equador, não oblíquas, e dividem o planeta em paralelos, com 90 ao norte e 90 ao sul; as linhas de longitude (meridianos) vão de polo a polo."
     },
     {
-        "id": "1146111",
         "enunciado": "Com relação aos principais tipos de medidas possíveis de serem obtidas através dos SIG’s, é correto afirmar:",
         "alternativas": {
             "A": "No caso de dados no formato vetorial, a precisão das medidas é limitada pelo tamanho da célula. Já no caso de dados no formato raster, a precisão de medidas é limitada à precisão da localização dos dados armazenados.",
@@ -283,10 +282,10 @@
             "E": "Os principais tipos de medidas possíveis de serem obtidas através dos SIG’s são as medidas de distâncias, perímetro, área e volume."
         },
         "gabarito_correto": "E",
+        "id": "1146111",
         "comentario_ia": "Os Sistemas de Informações Geográficas (SIGs) permitem obter diversas medidas, sendo as mais comuns distâncias, perímetros, áreas e volumes. As outras alternativas contêm imprecisões ou distorções sobre o funcionamento e capacidades dos SIGs."
     },
     {
-        "id": "1351389",
         "enunciado": "A sigla GNSS (Global Navigation Satellite System) é uma denominação genérica que contempla sistemas de navegação com cobertura global, além de uma série de infraestruturas espaciais (SBAS – Satellite Based Augmentation System) e terrestre (GBAS – Ground Based Augmentation System) que, associadas aos sistemas, proporcionam maior precisão e confiabilidade. São sistemas englobados pelo GNSS, EXCETO:",
         "alternativas": {
             "A": "NAVSTAR GPS (Navigation System with Timing and Ranging – Global Positioning System), mais conhecido como GPS – sistema norte-americano.",
@@ -296,10 +295,10 @@
             "E": "AGNS (Australian Geostationary Navigation System) – sistema australiano."
         },
         "gabarito_correto": "E",
+        "id": "1351389",
         "comentario_ia": "O GNSS e uma tecnologia generica para sistemas de navegacao por satelite. O GPS, GLONASS, Galileu e Compass/Beidou sao sistemas completados pelo GNSS. O AGNS e um sistema australiano, mas nao e considerado um sistema global na mesma classificacao, e ha outros sistemas como o Galileo Europeu."
     },
     {
-        "id": "1339690",
         "enunciado": "O georreferenciamento rural é um importante procedimento adotado pelo Instituto Nacional de Colonização e Reforma Agrária (INCRA). É uma etapa necessária para emissão do Certificado de Cadastro de Imóvel Rural (CCIR) e para dar entrada em praticamente todos os procedimentos que envolvem o terreno de uma propriedade rural. Isso inclui desde compra e venda do imóvel até solicitações de financiamento do governo. Assinale a alternativa que apresenta a principal finalidade do georreferenciamento de imóveis.",
         "alternativas": {
             "A": "Estabelecer a propriedade dos imóveis de forma visual e geográfica.",
@@ -309,10 +308,10 @@
             "E": "Classificar as características arquitetônicas dos imóveis para fins de avaliação de valor."
         },
         "gabarito_correto": "D",
+        "id": "1339690",
         "comentario_ia": "O georreferenciamento foca na definição precisa dos limites e na localização exata de um imóvel rural em relação ao globo terrestre, garantindo sua identidade e área. As demais alternativas descrevem aspectos secundários ou incorretos sobre seu objetivo principal."
     },
     {
-        "id": "1351393",
         "enunciado": "No posicionamento por sensoriamento remoto, obtêm-se informações geométricas de elementos físicos, de forma indireta, com precisão e confiabilidade devidamente avaliadas, a partir de sensores em nível orbital ou aerotransportados. Entre as possibilidades de posicionamento por sensoriamento remoto, são aplicados aos serviços de georreferenciamento de imóveis rurais os seguintes métodos:I. Aerofotogrametria.II. Sensores colaterais.III. Radar aerotransportado.IV. Laser scanner aerotransportado.V. Sensores orbitais (satélites).Quais estão corretos?",
         "alternativas": {
             "A": "Apenas II e III.",
@@ -322,10 +321,10 @@
             "E": "Apenas I, III, IV e V."
         },
         "gabarito_correto": "E",
+        "id": "1351393",
         "comentario_ia": "Para georreferenciamento de imoveis rurais, metodos de sensoriamento remoto como aerofotogrametria (I), radar aerotransportado (III), e laser scanner aerotransportado (IV) sao aplicaveis. Sensores orbitais (V) tambem podem ser usados. Sensores colaterais (II) nao sao um metodo tipico para georreferenciamento."
     },
     {
-        "id": "1399155",
         "enunciado": "Os Sistemas de Informações Geográficas (SIGs)",
         "alternativas": {
             "A": "realizam o tratamento geográfico de informações sociais e características alfanuméricas.",
@@ -335,10 +334,10 @@
             "E": "existem, no século XXI, em duas categorias: uma para organização de dados espaciais e outra para afunilamento de dados sociais."
         },
         "gabarito_correto": "C",
+        "id": "1399155",
         "comentario_ia": "SIGs unem informações de diversas fontes e naturezas, interligando-as por meio de sua localização geográfica para análise e tomada de decisão, integrando dados sociais, ambientais e alfanuméricos."
     },
     {
-        "id": "1281915",
         "enunciado": "Em relação ao uso do Geoprocessamento, Cartografia Digital (CD), Sensoriamento Remoto (SR) e Global Positioning System (GPS) para desenvolvimento projetos urbanos, assinale a alternativa INCORRETA.",
         "alternativas": {
             "A": "O Geoprocessamento está centrado na geração da informação ambiental, potencializada através da geoinclusão.",
@@ -348,10 +347,10 @@
             "E": "As atividades técnico-científicas relacionadas com a CD, o SR e o GPS demandam atualização constante quanto a inovações."
         },
         "gabarito_correto": "D",
+        "id": "1281915",
         "comentario_ia": "O Geoprocessamento lida diretamente com a análise e manipulação de dados geográficos. O Sensoriamento Remoto e o GPS, embora envolvidos na geração de dados, não são os únicos responsáveis pela sua qualidade, e o Geoprocessamento é fundamental para o processamento desses dados."
     },
     {
-        "id": "1605874",
         "enunciado": "Os Sistemas de Informação Geográﬁca (SIG) são ferramentas utilizadas para capturar, armazenar, analisar, gerenciar e apresentar dados geográﬁcos. Uma das funcionalidades-chave dos SIGs é a capacidade de realizar análises espaciais complexas. Considerando os conceitos fundamentais de SIG, assinale a alternativa CORRETA.",
         "alternativas": {
             "A": "Análise de sobreposição ( ), que permite combinar várias camadas de dados geográﬁcos para identiﬁcar relações espaciais e overlay padrões emergentes.",
@@ -361,10 +360,10 @@
             "E": "Teledetecção passiva, que é a capacidade do SIG de enviar sinais de radar para obter informações sobre a superfície terrestre."
         },
         "gabarito_correto": "A",
+        "id": "1605874",
         "comentario_ia": "A análise de sobreposição é uma funcionalidade essencial em SIGs, que combina camadas de dados para identificar relações espaciais e padrões. As demais alternativas descrevem conceitos incorretos ou parcialmente corretos."
     },
     {
-        "id": "1179276",
         "enunciado": "O que distingue um Sistema de Informações Geográficas (SIG) de outras ferramentas de análise de dados?",
         "alternativas": {
             "A": "A habilidade de realizar cálculos matemáticos complexos.",
@@ -374,10 +373,10 @@
             "E": "A utilização exclusiva de imagens de satélite como fonte de dados."
         },
         "gabarito_correto": "C",
+        "id": "1179276",
         "comentario_ia": "A alternativa C descreve a característica fundamental de um Sistema de Informações Geográficas (SIG). SIGs integram dados que possuem referência geográfica (espaciais) com outros tipos de dados (não espaciais ou atributos). Essa integração permite análises complexas, visualizações em mapas e a descoberta de padrões e relações que não seriam evidentes em bancos de dados convencionais. As outras alternativas descrevem capacidades que podem ou não estar presentes em um SIG ou que não o distinguem de outras ferramentas de análise de dados."
     },
     {
-        "id": "1347620",
         "enunciado": "Segundo o documento “Manual de Apoio – CTM: Cadastro Territorial Multifinalitário Aplicado à Gestão”, do Ministério do Desenvolvimento Regional, ano de publicação 2021, qual o tipo mais comum de “parcela cadastral” registrado nos cadastros municipais?",
         "alternativas": {
             "A": "Área de Preservação Permanente (APP)",
@@ -387,10 +386,10 @@
             "E": "Servidão de passagem"
         },
         "gabarito_correto": "B",
+        "id": "1347620",
         "comentario_ia": "O 'Lote' é a unidade territorial básica e a mais comum registrada nos cadastros municipais, representando a menor porção de terra com características próprias para fins tributários e urbanísticos."
     },
     {
-        "id": "2338971",
         "enunciado": "Considere o ponto situado no Equador e no meridiano central do Fuso 22 do sistema de projeção UTM. É correto afirmar que:",
         "alternativas": {
             "A": "A coordenada “este” vale E = 500.000 m.",
@@ -400,10 +399,10 @@
             "E": "A altitude vale h = –48°."
         },
         "gabarito_correto": "A",
+        "id": "2338971",
         "comentario_ia": "O meridiano central do Fuso 22 UTM corresponde à longitude 0° (Equador). O valor de 500.000 m é o valor fixo da coordenada 'este' no meridiano central. As coordenadas do Equador são N=0."
     },
     {
-        "id": "2364419",
         "enunciado": "O geoprocessamento é uma ferramenta importante para a fiscalização ambiental porque:",
         "alternativas": {
             "A": "Permite analisar dados espaciais e imagens para monitorar o uso do solo.",
@@ -413,10 +412,10 @@
             "E": "Substitui o trabalho de campo."
         },
         "gabarito_correto": "A",
+        "id": "2364419",
         "comentario_ia": "O geoprocessamento, ao analisar dados espaciais e imagens, permite o monitoramento detalhado do uso do solo, sendo uma ferramenta crucial para a fiscalização ambiental identificar irregularidades e planejar ações de conservação."
     },
     {
-        "id": "1859462",
         "enunciado": "Quanto às funções oferecidas pelos SIGs, indique a alternativa que define, com precisão, a operação de 'buffer':",
         "alternativas": {
             "A": "Zona de influência.",
@@ -426,10 +425,10 @@
             "E": "Gradiente espacial."
         },
         "gabarito_correto": "A",
+        "id": "1859462",
         "comentario_ia": "A operacao de 'buffer' em SIGs (Sistemas de Informacao Geografica) cria uma zona de influencia ao redor de um elemento geografico (ponto, linha ou poligono), com uma distancia especificada."
     },
     {
-        "id": "2154829",
         "enunciado": "O cadastro imobiliário municipal constitui instrumento fundamental para gestão territorial e tributária dos municípios brasileiros. Durante processo de atualização cadastral em bairro comercial, identifica-se estabelecimento com área real de 380 m² registrado como residencial de 150 m². Considerando os conceitos fundamentais do cadastro imobiliário, essa discrepância impacta diretamente:",
         "alternativas": {
             "A": "A contabilização estatística do setor censitário, alterando dados demográficos utilizados para planejamento de equipamentos públicos residenciais.",
@@ -439,10 +438,10 @@
             "E": "A adequação do zoneamento urbano local, exigindo revisão das diretrizes de ocupação territorial estabelecidas no plano diretor municipal."
         },
         "gabarito_correto": "D",
+        "id": "2154829",
         "comentario_ia": "A discrepância entre a área registrada (residencial) e a área real (comercial) impacta diretamente a fiscalização e arrecadação de impostos, especialmente o IPTU, pois a base de cálculo e a alíquota para uso comercial são diferentes."
     },
     {
-        "id": "2353905",
         "enunciado": "No processo de planejamento urbano, a leitura técnica do território envolve a análise de fatores físicos, sociais e normativos. Essa etapa permite:",
         "alternativas": {
             "A": "Definir exclusivamente os coeficientes de aproveitamento aplicáveis às zonas centrais.",
@@ -452,10 +451,10 @@
             "E": "Identificar potencialidades, restrições e conflitos de uso, subsidiando diretrizes para ocupação e desenvolvimento urbano."
         },
         "gabarito_correto": "E",
+        "id": "2353905",
         "comentario_ia": "O planejamento urbano, pela leitura técnica, busca identificar potencialidades, restrições e conflitos de uso do território, para subsidiar a elaboração de diretrizes que orientem a ocupação e o desenvolvimento da cidade."
     },
     {
-        "id": "1756299",
         "enunciado": "Considere um projeto em SIG para análise da expansão urbana. O datum horizontal utilizado é o SIRGAS2000 e o sistema de coordenadas é UTM. Sobre os componentes deste sistema de referência espacial, é correto afirmar:",
         "alternativas": {
             "A": "O SIRGAS2000 utiliza o elipsoide GRS67 como superfície de referência.",
@@ -465,10 +464,10 @@
             "E": "As coordenadas UTM são expressas em graus decimais."
         },
         "gabarito_correto": "B",
+        "id": "1756299",
         "comentario_ia": "O sistema UTM divide a Terra em 60 fusos, cada um com 6 graus de longitude (360 graus / 60 fusos = 6 graus/fuso). O SIRGAS2000 utiliza o elipsoide GRS80, nao o GRS67. O meridiano central nao e o de Paris. As distorcoes no UTM sao minimas no centro do fuso e aumentam nas bordas, mas sao controladas. As coordenadas UTM sao expressas em metros, nao em graus decimais."
     },
     {
-        "id": "2338985",
         "enunciado": "Um exemplo de software de Sistemas de Informações Geográficas (SIG) gratuito e de código aberto é o:",
         "alternativas": {
             "A": "ArcGIS.",
@@ -478,10 +477,10 @@
             "E": "OpenCities Map."
         },
         "gabarito_correto": "B",
+        "id": "2338985",
         "comentario_ia": "O QGIS é um software de Sistema de Informações Geográficas (SIG) amplamente conhecido por ser gratuito e de código aberto. As demais alternativas (ArcGIS, MapInfo, GeoMedia, OpenCities Map) referem-se a softwares proprietários."
     },
     {
-        "id": "1756308",
         "enunciado": "Em um Sistema de Informação Geográfica (SIG), a representação vetorial do tipo linha é utilizada para representar feições que possuem:",
         "alternativas": {
             "A": "Dimensão linear com coordenadas x,y em cada vértice da linha.",
@@ -491,10 +490,10 @@
             "E": "Polígonos fechados com área definida."
         },
         "gabarito_correto": "A",
+        "id": "1756308",
         "comentario_ia": "A representacao vetorial do tipo linha em um SIG e utilizada para feicoes que possuem dimensão unidimensional (comprimento). Cada vertice da linha e definido por coordenadas (x,y), permitindo a representacao de estradas, rios, etc."
     },
     {
-        "id": "2237993",
         "enunciado": "No contexto do geoprocessamento aplicado à engenharia, o principal benefício da integração entre bases raster e vetoriais em um SIG é:",
         "alternativas": {
             "A": "Permitir a geração automática de curvas de nível.",
@@ -504,10 +503,10 @@
             "E": "Aumentar a resolução espacial sem perda de precisão geométrica."
         },
         "gabarito_correto": "C",
+        "id": "2237993",
         "comentario_ia": "A integração de bases raster e vetoriais em um SIG permite a combinação de dados de diferentes naturezas e topologias, viabilizando análises espaciais complexas que seriam difíceis ou impossíveis de realizar com apenas um tipo de dado."
     },
     {
-        "id": "1355680",
         "enunciado": "Considere hipoteticamente um projeto de análise espacial que visa identificar áreas adequadas para construção de casas numa dada região. Um analista tem à disposição diversos tipos de imagens de satélite com características diferentes, que permitem a identificação adequada dos tipos de cobertura da região, seja de forma visual ou com aplicação de técnicas digitais. Estão, também, à disposição, informações de elevação do terreno, com qualidade compatível com a realização do projeto. De acordo com a análise correta que o analista pode fazer dessa situação, assinale a opção que apresenta fatores mais cruciais para definir restrições relacionadas com a proximidade de rios e terrenos com grande inclinação.",
         "alternativas": {
             "A": "Resolução espectral das imagens de satélite e elevação média do terreno.",
@@ -517,10 +516,10 @@
             "E": "Informações de elevação do terreno e resolução radiométrica das imagens de satélite."
         },
         "gabarito_correto": "B",
+        "id": "1355680",
         "comentario_ia": "A análise de declividade topográfica é crucial para evitar áreas com grande inclinação, e a distância às linhas de drenagem (rios) minimiza riscos de inundação, fatores essenciais para a construção."
     },
     {
-        "id": "1414583",
         "enunciado": "O princípio básico do posicionamento do GNSS é a",
         "alternativas": {
             "A": "triangulação entre dois satélites e a antena receptora.",
@@ -530,10 +529,10 @@
             "E": "medição da altitude em relação ao nível do mar."
         },
         "gabarito_correto": "C",
+        "id": "1414583",
         "comentario_ia": "O posicionamento GNSS requer a determinação da distância a partir do receptor para pelo menos quatro satélites. Essa informação, juntamente com as efemérides, permite resolver um sistema de equações para encontrar as coordenadas."
     },
     {
-        "id": "2115144",
         "enunciado": "Considerando os cenários a seguir, assinale a alternativa em que o geoprocessamento NÃO será útil.",
         "alternativas": {
             "A": "Dados qualitativos que podem ser quantificados de alguma forma.",
@@ -543,10 +542,10 @@
             "E": "Análise de dados qualitativos sem referência fixa no espaço geográfico."
         },
         "gabarito_correto": "E",
+        "id": "2115144",
         "comentario_ia": "O geoprocessamento é uma ferramenta poderosa para análise espacial e trabalha com dados geograficamente referenciados. A análise de dados qualitativos sem referência espacial fixa não se beneficia diretamente das técnicas de geoprocessamento."
     },
     {
-        "id": "1178488",
         "enunciado": "Marque a alternativa que apresenta o nome do tipo de dado espacial que apresenta aspectos da superfície terrestre convertidos em gráficos simples, e determinam a sua posição ou localização de forma bastante precisa no mapa. Os elementos a serem representados são convertidos em pontos, linhas ou polígonos. Esses dados são gerados e armazenados no formato shapefile:",
         "alternativas": {
             "A": "Dado de imagem.",
@@ -556,10 +555,10 @@
             "E": "Dado matricial."
         },
         "gabarito_correto": "D",
+        "id": "1178488",
         "comentario_ia": "Dados vetoriais representam feições geográficas como pontos, linhas e polígonos, sendo ideais para descrever e localizar elementos com precisão em mapas, e são comumente armazenados em formato shapefile."
     },
     {
-        "id": "1351376",
         "enunciado": "O geoprocessamento pode ser definido como sendo o conjunto de tecnologias destinadas à coleta e tratamento de informações _______________, assim como o desenvolvimento de novos sistemas e aplicações, com diferentes níveis de sofisticação. O termo geoprocessamento pode ser aplicado a profissionais que trabalham com cartografia digital, processamento digital de imagens e sistemas de informação _____________. A _________ digital pode ser entendida como sendo a tecnologia destinada à captação, organização e desenho de mapas (MicroStation, MaxiCAD, AutoCAD, etc.). Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
         "alternativas": {
             "A": "espaciais – geográfica – cartografia",
@@ -569,10 +568,10 @@
             "E": "geográficas – cartográfica – fotogrametria"
         },
         "gabarito_correto": "A",
+        "id": "1351376",
         "comentario_ia": "O geoprocessamento trata de informações espaciais. Os profissionais trabalham com sistemas de informação geográfica. A cartografia digital envolve o desenho de mapas. As lacunas são preenchidas corretamente por 'espaciais', 'geográfica' e 'cartografia'."
     },
     {
-        "id": "1201940",
         "enunciado": "Uma das principais ferramentas para mapear e analisar a expansão territorial, a densidade populacional e outros aspectos relevantes para o desenvolvimento urbano é o (SIG), que permite a integração de informações geográficas e a tomada de decisões embasadas em dados precisos. Sendo assim, assinale a alternativa CORRETA do significado da sigla SIG.",
         "alternativas": {
             "A": "Sistema de Informações Geográficas.",
@@ -582,10 +581,10 @@
             "E": "Sinalização de Informações Geográficas."
         },
         "gabarito_correto": "A",
+        "id": "1201940",
         "comentario_ia": "SIG é a sigla para Sistema de Informações Geográficas, ferramenta essencial para análise e gestão de dados espaciais."
     },
     {
-        "id": "1399140",
         "enunciado": "O geoprocessamento é uma tecnologia interdisciplinar que",
         "alternativas": {
             "A": "apresenta divergência de uso para as áreas de conhecimento das Ciências Humanas, Ciências Exatas e da Terra.",
@@ -595,10 +594,10 @@
             "E": "apoia-se no paradigma dos quatro universos: mundo real, matemático, de representação e artístico."
         },
         "gabarito_correto": "C",
+        "id": "1399140",
         "comentario_ia": "O geoprocessamento traduz informações geográficas complexas das mais diversas áreas em formatos computacionais, permitindo seu processamento, análise e visualização em mapas e sistemas digitais."
     },
     {
-        "id": "1146108",
         "enunciado": "Em relação ao geoprocessamento, no que diz respeito à representação vetorial e matricial para mapas temáticos, é correto afirmar que a representação:",
         "alternativas": {
             "A": "vetorial é armazenada por matrizes.",
@@ -608,10 +607,10 @@
             "E": "matricial armazena os dados em forma de pontos, linhas e polígonos."
         },
         "gabarito_correto": "C",
+        "id": "1146108",
         "comentario_ia": "A representação matricial (ou raster) divide o espaço em células (pixels) e é ideal para modelar fenômenos que variam continuamente, como temperatura ou altitude."
     },
     {
-        "id": "1540876",
         "enunciado": "Observe as afirmativas abaixo, e assinale a que melhor descreve a aplicação prática do Sistema de Informações Geográficas (SIG) em um contexto de Planejamento Urbano?",
         "alternativas": {
             "A": "Os SIGs são utilizados exclusivamente para criar mapas estáticos e não permitem a análise interativa dos dados geoespaciais.",
@@ -621,10 +620,10 @@
             "E": "Os SIGs são projetados para processar e analisar dados eco espaciais em tempo real."
         },
         "gabarito_correto": "B",
+        "id": "1540876",
         "comentario_ia": "SIGs integram e analisam dados geoespaciais de diversas fontes, permitindo visualização de padrões e modelagem para planejamento urbano. As demais alternativas descrevem limitações inexistentes ou usos incorretos dos SIGs."
     },
     {
-        "id": "1351386",
         "enunciado": "Sigef é uma ferramenta eletrônica desenvolvida pelo Instituto Nacional de Colonização e Reforma Agrária (Incra) para subsidiar a governança fundiária do território nacional, que é utilizada para:",
         "alternativas": {
             "A": "A concepção e a organização das informações cartográficas de imóveis rurais, públicos e privados.",
@@ -634,10 +633,10 @@
             "E": "A descentralização, redação e projeção das informações geocêntricas dos imóveis rurais, públicos e privados."
         },
         "gabarito_correto": "B",
+        "id": "1351386",
         "comentario_ia": "O Sigef, do Incra, e um sistema que gerencia dados geoespaciais de imoveis rurais. Sua funcao principal e receber, validar, organizar, regularizar e disponibilizar essas informacoes georreferenciadas, tanto de imoveis publicos quanto privados."
     },
     {
-        "id": "1666687",
         "enunciado": "Qual das seguintes alternativas representa uma aplicação das geotecnologias, como o uso de imagens de satélite, no monitoramento e gestão ambiental?",
         "alternativas": {
             "A": "Produção de relatórios financeiros de empresas de energia.",
@@ -647,10 +646,10 @@
             "E": "Controle de fronteiras internacionais para segurança militar."
         },
         "gabarito_correto": "C",
+        "id": "1666687",
         "comentario_ia": "A alternativa C está correta pois imagens de satélite, como geotecnologia, são cruciais para monitorar desmatamento e mudanças na vegetação, fornecendo dados essenciais para a gestão ambiental."
     },
     {
-        "id": "1132267",
         "enunciado": "Com relação aos sistemas de coordenadas geográficas, interprete as afirmativas a seguir:I - O uso de sistemas de coordenadas geográficas é muito comum dentro de espacializações mais gerais, ou seja, com escalas menores.II - Esses sistemas utilizam os graus para definir a latitude e a longitude e, quando necessário, também se estabelece um valor de altura para determinar uma localização na superfície da Terra.III - As linhas de latitude são oblíquas à linha do Equador, a maior linha existente, e dividem a Terra em 180 seções espaçadas igualmente entre si, indo de Norte a Sul ou de Sul a Norte.IV - Cada hemisfério (Norte e Sul) é dividido em 90 seções, representando um grau de latitude.É incorreto o que se afirma em:",
         "alternativas": {
             "A": "I apenas",
@@ -660,10 +659,10 @@
             "E": "III e IV apenas"
         },
         "gabarito_correto": "C",
+        "id": "1132267",
         "comentario_ia": "A afirmativa III está incorreta. Linhas de latitude são paralelas ao Equador, não oblíquas, e dividem o planeta em paralelos, com 90 ao norte e 90 ao sul; as linhas de longitude (meridianos) vão de polo a polo."
     },
     {
-        "id": "1146111",
         "enunciado": "Com relação aos principais tipos de medidas possíveis de serem obtidas através dos SIG’s, é correto afirmar:",
         "alternativas": {
             "A": "No caso de dados no formato vetorial, a precisão das medidas é limitada pelo tamanho da célula. Já no caso de dados no formato raster, a precisão de medidas é limitada à precisão da localização dos dados armazenados.",
@@ -673,10 +672,10 @@
             "E": "Os principais tipos de medidas possíveis de serem obtidas através dos SIG’s são as medidas de distâncias, perímetro, área e volume."
         },
         "gabarito_correto": "E",
+        "id": "1146111",
         "comentario_ia": "Os Sistemas de Informações Geográficas (SIGs) permitem obter diversas medidas, sendo as mais comuns distâncias, perímetros, áreas e volumes. As outras alternativas contêm imprecisões ou distorções sobre o funcionamento e capacidades dos SIGs."
     },
     {
-        "id": "1351389",
         "enunciado": "A sigla GNSS (Global Navigation Satellite System) é uma denominação genérica que contempla sistemas de navegação com cobertura global, além de uma série de infraestruturas espaciais (SBAS – Satellite Based Augmentation System) e terrestre (GBAS – Ground Based Augmentation System) que, associadas aos sistemas, proporcionam maior precisão e confiabilidade. São sistemas englobados pelo GNSS, EXCETO:",
         "alternativas": {
             "A": "NAVSTAR GPS (Navigation System with Timing and Ranging – Global Positioning System), mais conhecido como GPS – sistema norte-americano.",
@@ -686,10 +685,10 @@
             "E": "AGNS (Australian Geostationary Navigation System) – sistema australiano."
         },
         "gabarito_correto": "E",
+        "id": "1351389",
         "comentario_ia": "O GNSS e uma tecnologia generica para sistemas de navegacao por satelite. O GPS, GLONASS, Galileu e Compass/Beidou sao sistemas completados pelo GNSS. O AGNS e um sistema australiano, mas nao e considerado um sistema global na mesma classificacao, e ha outros sistemas como o Galileo Europeu."
     },
     {
-        "id": "1339690",
         "enunciado": "O georreferenciamento rural é um importante procedimento adotado pelo Instituto Nacional de Colonização e Reforma Agrária (INCRA). É uma etapa necessária para emissão do Certificado de Cadastro de Imóvel Rural (CCIR) e para dar entrada em praticamente todos os procedimentos que envolvem o terreno de uma propriedade rural. Isso inclui desde compra e venda do imóvel até solicitações de financiamento do governo. Assinale a alternativa que apresenta a principal finalidade do georreferenciamento de imóveis.",
         "alternativas": {
             "A": "Estabelecer a propriedade dos imóveis de forma visual e geográfica.",
@@ -699,10 +698,10 @@
             "E": "Classificar as características arquitetônicas dos imóveis para fins de avaliação de valor."
         },
         "gabarito_correto": "D",
+        "id": "1339690",
         "comentario_ia": "O georreferenciamento foca na definição precisa dos limites e na localização exata de um imóvel rural em relação ao globo terrestre, garantindo sua identidade e área. As demais alternativas descrevem aspectos secundários ou incorretos sobre seu objetivo principal."
     },
     {
-        "id": "1351393",
         "enunciado": "No posicionamento por sensoriamento remoto, obtêm-se informações geométricas de elementos físicos, de forma indireta, com precisão e confiabilidade devidamente avaliadas, a partir de sensores em nível orbital ou aerotransportados. Entre as possibilidades de posicionamento por sensoriamento remoto, são aplicados aos serviços de georreferenciamento de imóveis rurais os seguintes métodos:I. Aerofotogrametria.II. Sensores colaterais.III. Radar aerotransportado.IV. Laser scanner aerotransportado.V. Sensores orbitais (satélites).Quais estão corretos?",
         "alternativas": {
             "A": "Apenas II e III.",
@@ -712,10 +711,10 @@
             "E": "Apenas I, III, IV e V."
         },
         "gabarito_correto": "E",
+        "id": "1351393",
         "comentario_ia": "Para georreferenciamento de imoveis rurais, metodos de sensoriamento remoto como aerofotogrametria (I), radar aerotransportado (III), e laser scanner aerotransportado (IV) sao aplicaveis. Sensores orbitais (V) tambem podem ser usados. Sensores colaterais (II) nao sao um metodo tipico para georreferenciamento."
     },
     {
-        "id": "1399155",
         "enunciado": "Os Sistemas de Informações Geográficas (SIGs)",
         "alternativas": {
             "A": "realizam o tratamento geográfico de informações sociais e características alfanuméricas.",
@@ -725,10 +724,10 @@
             "E": "existem, no século XXI, em duas categorias: uma para organização de dados espaciais e outra para afunilamento de dados sociais."
         },
         "gabarito_correto": "C",
+        "id": "1399155",
         "comentario_ia": "SIGs unem informações de diversas fontes e naturezas, interligando-as por meio de sua localização geográfica para análise e tomada de decisão, integrando dados sociais, ambientais e alfanuméricos."
     },
     {
-        "id": "1281915",
         "enunciado": "Em relação ao uso do Geoprocessamento, Cartografia Digital (CD), Sensoriamento Remoto (SR) e Global Positioning System (GPS) para desenvolvimento projetos urbanos, assinale a alternativa INCORRETA.",
         "alternativas": {
             "A": "O Geoprocessamento está centrado na geração da informação ambiental, potencializada através da geoinclusão.",
@@ -738,10 +737,10 @@
             "E": "As atividades técnico-científicas relacionadas com a CD, o SR e o GPS demandam atualização constante quanto a inovações."
         },
         "gabarito_correto": "D",
+        "id": "1281915",
         "comentario_ia": "O Geoprocessamento lida diretamente com a análise e manipulação de dados geográficos. O Sensoriamento Remoto e o GPS, embora envolvidos na geração de dados, não são os únicos responsáveis pela sua qualidade, e o Geoprocessamento é fundamental para o processamento desses dados."
     },
     {
-        "id": "1605874",
         "enunciado": "Os Sistemas de Informação Geográﬁca (SIG) são ferramentas utilizadas para capturar, armazenar, analisar, gerenciar e apresentar dados geográﬁcos. Uma das funcionalidades-chave dos SIGs é a capacidade de realizar análises espaciais complexas. Considerando os conceitos fundamentais de SIG, assinale a alternativa CORRETA.",
         "alternativas": {
             "A": "Análise de sobreposição ( ), que permite combinar várias camadas de dados geográﬁcos para identiﬁcar relações espaciais e overlay padrões emergentes.",
@@ -751,10 +750,10 @@
             "E": "Teledetecção passiva, que é a capacidade do SIG de enviar sinais de radar para obter informações sobre a superfície terrestre."
         },
         "gabarito_correto": "A",
+        "id": "1605874",
         "comentario_ia": "A análise de sobreposição é uma funcionalidade essencial em SIGs, que combina camadas de dados para identificar relações espaciais e padrões. As demais alternativas descrevem conceitos incorretos ou parcialmente corretos."
     },
     {
-        "id": "1179276",
         "enunciado": "O que distingue um Sistema de Informações Geográficas (SIG) de outras ferramentas de análise de dados?",
         "alternativas": {
             "A": "A habilidade de realizar cálculos matemáticos complexos.",
@@ -764,10 +763,10 @@
             "E": "A utilização exclusiva de imagens de satélite como fonte de dados."
         },
         "gabarito_correto": "C",
+        "id": "1179276",
         "comentario_ia": "A alternativa C descreve a característica fundamental de um Sistema de Informações Geográficas (SIG). SIGs integram dados que possuem referência geográfica (espaciais) com outros tipos de dados (não espaciais ou atributos). Essa integração permite análises complexas, visualizações em mapas e a descoberta de padrões e relações que não seriam evidentes em bancos de dados convencionais. As outras alternativas descrevem capacidades que podem ou não estar presentes em um SIG ou que não o distinguem de outras ferramentas de análise de dados."
     },
     {
-        "id": "1347620",
         "enunciado": "Segundo o documento “Manual de Apoio – CTM: Cadastro Territorial Multifinalitário Aplicado à Gestão”, do Ministério do Desenvolvimento Regional, ano de publicação 2021, qual o tipo mais comum de “parcela cadastral” registrado nos cadastros municipais?",
         "alternativas": {
             "A": "Área de Preservação Permanente (APP)",
@@ -777,10 +776,10 @@
             "E": "Servidão de passagem"
         },
         "gabarito_correto": "B",
+        "id": "1347620",
         "comentario_ia": "O 'Lote' é a unidade territorial básica e a mais comum registrada nos cadastros municipais, representando a menor porção de terra com características próprias para fins tributários e urbanísticos."
     },
     {
-        "id": "1201953",
         "enunciado": "Em um projeto urbano utilizando Geoprocessamento, o gestor municipal deseja identificar áreas propícias para implementação de parques, considerando a proximidade de áreas verdes existentes. Deste modo assinale a alternativa que contenha CORRETAMENTE a definição principal da ferramenta \"Overlay\".",
         "alternativas": {
             "A": "Identificar a distância entre dois pontos específicos no mapa.",
@@ -790,10 +789,10 @@
             "E": "Desenhar linhas que conectam pontos geográficos no mapa."
         },
         "gabarito_correto": "C",
+        "id": "1201953",
         "comentario_ia": "A ferramenta 'Overlay' (sobreposição) é fundamental em SIGs (Sistemas de Informação Geográfica). Ela permite combinar diferentes camadas de informação espacial (e.g., áreas verdes, zonas de interesse) para gerar novas informações ou identificar áreas com características específicas."
     },
     {
-        "id": "1184333",
         "enunciado": "A tecnologia de Geoprocessamento é uma ferramenta que faz o tratamento de imagens para a produção de mapas, cartas, projeções cartográficas e recolhimento de dados em forma de gráficos, quadros e tabelas sobre os diversos elementos da superfície terrestre. Sua principal característica é",
         "alternativas": {
             "A": "a produção de mapas realizada a partir de medições técnicas e observações superficiais.",
@@ -802,10 +801,10 @@
             "D": "a impossibilidade de criar modelos e simulações para prever cenários futuros e avaliar o impacto."
         },
         "gabarito_correto": "B",
+        "id": "1184333",
         "comentario_ia": "A principal característica do Geoprocessamento é estar intrinsecamente ligado à tecnologia informacional e aos sistemas computacionais que possibilitam o tratamento, análise e visualização de dados geográficos. As outras alternativas descrevem limitações ou características que não definem o cerne dessa tecnologia."
     },
     {
-        "id": "1542028",
         "enunciado": "Um cadastrador está realizando o georreferenciamento de uma propriedade para garantir que todas as informações estejam atualizadas e em conformidade com a legislação vigente. Considerando o contexto prático da atuação do cadastrador, assinale a alternativa CORRETA sobre os benefícios do georreferenciamento.",
         "alternativas": {
             "A": "O georreferenciamento elimina a necessidade de monitoramento contínuo da área, pois todas as informações são obtidas em um único levantamento.",
@@ -815,10 +814,10 @@
             "E": "O georreferenciamento não tem impacto na segurança jurídica da propriedade, sendo apenas uma exigência burocrática sem benefícios práticos."
         },
         "gabarito_correto": "B",
+        "id": "1542028",
         "comentario_ia": "A comparação de imagens de satélite e aéreas em diferentes datas, obtidas pelo georreferenciamento, é crucial para o monitoramento da propriedade, identificando mudanças e auxiliando no planejamento."
     },
     {
-        "id": "1353578",
         "enunciado": "Um geo- objeto é",
         "alternativas": {
             "A": "um elemento qualquer pertencente ao espaço geográfico, que pode ser representado num plano ou reticulado, dependente de uma projeção cartográfica.",
@@ -827,10 +826,10 @@
             "D": "um objeto que não possui localizações espaciais associadas."
         },
         "gabarito_correto": "A",
+        "id": "1353578",
         "comentario_ia": "A alternativa A descreve um geo-objeto como um elemento do espaço geográfico representável em um plano, dependendo de uma projeção cartográfica, que é a definição padrão na área de geoprocessamento."
     },
     {
-        "id": "1039156",
         "enunciado": "O geoprocessamento é uma ferramenta valiosa no controle de endemias, permitindo o mapeamento de áreas de risco. Esta técnica ajuda a identificar regiões que necessitam de intervenções específicas. Qual é a utilidade principal do mapeamento de áreas de risco para os agentes de endemias?",
         "alternativas": {
             "A": "Usar mapas apenas para fins decorativos nos escritórios de saúde.",
@@ -839,10 +838,10 @@
             "D": "Criar rotas turísticas baseadas em áreas de endemias."
         },
         "gabarito_correto": "C",
+        "id": "1039156",
         "comentario_ia": "O mapeamento de areas de risco com geoprocessamento permite que os agentes de endemias concentrem seus esforcos e recursos nas regioes mais afetadas, otimizando as acoes de controle e prevencao."
     },
     {
-        "id": "1005864",
         "enunciado": "Sobre as estruturas de dados em geoprocessamento: I – Traduzem imagens vetorizadas, compostas de pontos, linhas e polígonos; II – Fronteiras das imagens são contínuas (feições regulares); III – Cálculos de distâncias, áreas etc. são, em geral, simplificados, tornando o processamento mais rápido. Essas informações referem-se à estrutura de dados denominada de",
         "alternativas": {
             "A": "raster.",
@@ -851,10 +850,10 @@
             "D": "vetorial."
         },
         "gabarito_correto": "D",
+        "id": "1005864",
         "comentario_ia": "A estrutura de dados vetorial representa feições geográficas como pontos, linhas e polígonos, permitindo cálculos precisos de distâncias e áreas, com fronteiras contínuas entre os elementos. Raster é uma grade de pixels, e matricial é sinônimo de raster."
     },
     {
-        "id": "1005865",
         "enunciado": "Um técnico de geoprocessamento recebe a incumbência de extrair de um mapa antigo de sua cidade em meio analógico, córregos urbanos que atualmente encontram-se canalizados. Considerando o caso apresentado, quais procedimentos deverão ser utilizados pelo referido profissional?",
         "alternativas": {
             "A": "Compactação, vetorização e conversão.",
@@ -863,10 +862,10 @@
             "D": "Modelação, geocodificação e rasterização."
         },
         "gabarito_correto": "C",
+        "id": "1005865",
         "comentario_ia": "Para extrair córregos de um mapa analógico e incluí-los em um sistema digital, é necessário digitalizar o mapa, georreferenciá-lo para que ele tenha coordenadas geográficas corretas e, finalmente, vetorizar os córregos para transformá-los em feições vetoriais."
     },
     {
-        "id": "1150814",
         "enunciado": "A Geocodificação aplicada na agricultura auxilia em processos que visam à melhoria da eficiência do uso de insumos agrícolas, o que traz ganhos significativos de produtividade. Qual das alternativas abaixo melhor descreve o significado do termo Geocodificação?",
         "alternativas": {
             "A": "É um método para a criação de mapas a partir de códigos ou linhas de programação.",
@@ -876,10 +875,10 @@
             "E": "É uma tecnologia de sensores que usam como base os Sistemas Globais de Navegação por Satélite (GNSS)."
         },
         "gabarito_correto": "C",
+        "id": "1150814",
         "comentario_ia": "Geocodificação é o processo de converter dados textuais de endereço em coordenadas geográficas (latitude e longitude), permitindo sua localização em mapas. As outras alternativas descrevem outros conceitos relacionados a geoprocessamento ou bases de dados."
     },
     {
-        "id": "2221871",
         "enunciado": "Os avanços tecnológicos nos últimos anos nas tecnologias de sensoriamento remoto e de geoprocessamento têm oferecido importantes contribuições à ciência geográfica permitindo a elaboração e atualização de mapeamentos nas mais diversas escalas cartográficas. Diversas imagens de satélite e outros dados espaciais encontram-se disponíveis de forma gratuita, via WEB, permitindo que muitos estudantes e pesquisadores utilizem referidos dados em seus estudos e pesquisas. Assinale a opção CORRETA que apenas consta a relação de satélites cujas imagens são atualizadas de forma sistemática e disponibilizadas de forma gratuita.",
         "alternativas": {
             "A": "LANDSAT, Sentinel, CBERS e Resourcesat.",
@@ -888,11 +887,11 @@
             "D": "LANDSAT, Geoeye, Worldview e Sentinel."
         },
         "gabarito_correto": "A",
+        "id": "2221871",
         "comentario_ia": "LANDSAT, Sentinel, CBERS e Resourcesat são programas de satélites que fornecem imagens de alta qualidade de forma sistemática e gratuita, sendo amplamente utilizados em pesquisa e monitoramento ambiental."
     },
     {
-        "id": "1267612",
-        "enunciado": "Segundo Fitz (2008), estes arquivos estruturam ­se em pontos, linhas e polígonos reproduzidos digitalmente, erros e inconsistências são bastante comuns em seu processo de estruturação.  Os referidos arquivos em questão são:",
+        "enunciado": "Segundo Fitz (2008), estes arquivos estruturam ­se em pontos, linhas e polígonos reproduzidos digitalmente, erros e inconsistências são bastante comuns em seu processo de estruturação. Os referidos arquivos em questão são:",
         "alternativas": {
             "A": "Arquivos gráficos;",
             "B": "Arquivos alfanuméricos;",
@@ -901,10 +900,10 @@
             "E": "Arquivos raster."
         },
         "gabarito_correto": "D",
+        "id": "1267612",
         "comentario_ia": "Arquivos vetoriais estruturam dados geoespaciais como pontos, linhas e polígonos. Erros e inconsistências são comuns no processo de digitalização e estruturação desses dados, mantendo suas características geométricas."
     },
     {
-        "id": "1267613",
         "enunciado": "Os receptores de GPS (Sistema de Posicionamento Global) podem ser classificados em quatro categorias principais, as quais apresentam características distintas de precisão. O tipo de receptor que apresenta precisão planimétrica entre 0,1m e 0,001 m é:",
         "alternativas": {
             "A": "Geodésico;",
@@ -914,6 +913,7 @@
             "E": "Convencional."
         },
         "gabarito_correto": "A",
+        "id": "1267613",
         "comentario_ia": "Receptores geodésicos são a categoria mais precisa de receptores de GPS, capazes de fornecer coordenadas com precisão centimétrica, essencial para trabalhos topográficos e geodésicos."
     }
 ]

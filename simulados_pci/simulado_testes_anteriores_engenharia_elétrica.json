@@ -1,6 +1,5 @@
 [
     {
-        "id": "3105109",
         "enunciado": "Um consumidor industrial possui uma carga conectada a uma rede elétrica com tensão de 200V que tem potência aparente de 9072VA e fator de potência de √3/2. Para atender à solicitação da empresa de energia, necessitou instalar um controlador de fator de potência digital que insere na rede uma carga de 100 µF para cada valor unitário em binário na saída de controle.Determine a saída do controlador de fator de potência em binário para ajustar a carga. Considere a frequência da rede elétrica em 60Hz e o valor de π = 3,14.",
         "alternativas": {
             "A": "0001b.",
@@ -10,10 +9,10 @@
             "E": "1001b."
         },
         "gabarito_correto": "B",
+        "id": "3105109",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120487",
         "enunciado": "Determine a velocidade nominal síncrona de um motor de indução trifásico de seis pólos e 60 Hz de frequência:",
         "alternativas": {
             "A": "900 rpm",
@@ -23,10 +22,10 @@
             "E": "750 rpm"
         },
         "gabarito_correto": "B",
+        "id": "3120487",
         "comentario_ia": "A velocidade síncrona é calculada pela fórmula Ns = (120 * f) / P, onde f é a frequência e P é o número de polos. Para P=6 e f=60Hz, Ns = (120 * 60) / 6 = 1200 rpm."
     },
     {
-        "id": "3120488",
         "enunciado": "Em relação a Norma 5410, esta pode ser aplicada às seguintes instalações:",
         "alternativas": {
             "A": "Instalações de iluminação pública",
@@ -36,10 +35,10 @@
             "E": "Instalações de cercas eletrificadas"
         },
         "gabarito_correto": "C",
+        "id": "3120488",
         "comentario_ia": "A Norma NBR 5410 trata das instalações elétricas de baixa tensão em edificações residenciais e comerciais, visando a segurança e o desempenho."
     },
     {
-        "id": "3105110",
         "enunciado": "O eletricista de uma fábrica foi chamado para atender a uma falha em um dos equipamentos. Ao chegar no local, detectou que o sistema havia acusado erro na alimentação. O equipamento está ligado a uma rede trifásica senoidal, onde o transformador tem ligação em estrela.O eletricista mediu a tensão de linha com um multímetro e encontrou 97,98. Sabendo que a tensão de fase deveria ser de 100V, determine a queda de tensão entre fase e neutro.",
         "alternativas": {
             "A": "2,0V.",
@@ -49,10 +48,10 @@
             "E": "10,5V."
         },
         "gabarito_correto": "B",
+        "id": "3105110",
         "comentario_ia": "Em uma ligação estrela, a tensão de linha (V_linha) é igual à tensão de fase (V_fase) multiplicada pela raiz de 3 (V_linha = V_fase * sqrt(3)). Neste caso, V_fase = 97.98V / sqrt(3) ≈ 56.57V. A queda de tensão entre fase e neutro não se aplica aqui, mas sim a tensão de fase."
     },
     {
-        "id": "3120489",
         "enunciado": "As instalações contempladas pela NBR 5410, deverão ser executadas a partir de projetos específicos, que deverão conter itens obrigatórios. NÃO fazem parte desses itens obrigatórios:",
         "alternativas": {
             "A": "Plantas",
@@ -62,10 +61,10 @@
             "E": "Especificação dos componentes: descrição sucinta do componente, características nominais e norma(s) a que devem atender."
         },
         "gabarito_correto": "C",
+        "id": "3120489",
         "comentario_ia": "O projeto de instalações elétricas, conforme a NBR 5410, não exige um relatório fotográfico como item obrigatório. Plantas, esquemas, memorial descritivo e especificações de componentes são essenciais."
     },
     {
-        "id": "3120490",
         "enunciado": "Em um circuito RC série operando em regime permanente de CA, pode-se afirmar que:",
         "alternativas": {
             "A": "A corrente está atrasada em relação à tensão de alimentação",
@@ -75,10 +74,10 @@
             "E": "A tensão no resistor está atrasada da tensão no capacitor"
         },
         "gabarito_correto": "B",
+        "id": "3120490",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3105113",
         "enunciado": "Um dos indicadores que é amplamente utilizado e pode inclusive orientar sobre o momento que uma máquina necessita uma manutenção mais efetiva é o MTBF (Mean Time Between Failures). Considerando uma máquina que opera em regime de 24/7 e que, ao longo do mês, sofreu uma manutenção por semana, que levaram os seguintes períodos para serem realizadas: 3h, 4h, 3h e 5h, determine o MTBF, em horas, desta máquina.",
         "alternativas": {
             "A": "164.",
@@ -88,10 +87,10 @@
             "E": "148."
         },
         "gabarito_correto": "A",
+        "id": "3105113",
         "comentario_ia": "Total de horas de manutenção = 3+4+3+5 = 15 horas. Total de horas no mês = 24h * 30 dias = 720 horas. Número de falhas = 4. MTBF = Horas operacionais totais / Número de falhas = 720 / 4 = 180 horas. A questão informa manutenção por semana, e não falhas. Se ocorreram 4 manutenções por semana em um mês (4 semanas), então temos 4 falhas. O tempo total de operação em um mês é de 24h x 30 dias = 720h. O tempo total de reparo foi de 3+4+3+5 = 15h. O MTBF é o tempo médio entre falhas, então é o tempo em que a máquina funciona sem falhar. Tempo que a máquina funcionou sem falhas = 720h - 15h = 705h. Número de falhas = 4. MTBF = 705h / 4 falhas = 176,25h. Este cálculo não coincide com as alternativas. Se considerarmos o tempo total de operação (720h) e dividirmos pelo número de falhas (4), teremos 180h. Vamos analisar as alternativas novamente: A questão é capciosa, pois menciona 'manutenção por semana' e os períodos de manutenção. Assumindo que cada semana teve uma falha e manutenção: Total de horas no mês = 24 *..."
     },
     {
-        "id": "3120491",
         "enunciado": "O Fator de demanda pode ser definido como:",
         "alternativas": {
             "A": "A razão entre a demanda média e a carga instalada na unidade consumidora.",
@@ -101,10 +100,10 @@
             "E": "A razão entre a carga instalada e a energia consumida num intervalo de tempo determinado."
         },
         "gabarito_correto": "C",
+        "id": "3120491",
         "comentario_ia": "O Fator de Demanda é a razão entre a demanda máxima ocorrente em um intervalo de tempo especificado e a carga total instalada na unidade consumidora, refletindo o uso médio da capacidade instalada."
     },
     {
-        "id": "3105114",
         "enunciado": "O código de ética do profissional, em seu Artigo 8º, prevê uma série de condutas vedadas, quais sejam:Ante a sua profissão, deixar de aceitar trabalho, contrato, emprego, função ou tarefa para os quais tenha efetiva qualificação.Ante a sua profissão, utilizar indevida ou abusivamente do privilégio de exclusividade de direito profissional.Ante a sua profissão, omitir ou ocultar fato de seu conhecimento que transgrida à ética profissional.Quais estão corretas?",
         "alternativas": {
             "A": "Apenas III.",
@@ -114,10 +113,10 @@
             "E": "I, II e III."
         },
         "gabarito_correto": "D",
+        "id": "3105114",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3105115",
         "enunciado": "O código de ética do profissional, em seu Artigo 9º, prevê os deveres, quais sejam:Ante o ser humano e a seus valores, divulgar os conhecimentos científicos, artísticos e tecnológicos inerentes à profissão.Ante a profissão, identificar-se e dedicar-se com zelo à profissão.Ante a profissão, desempenhar sua profissão ou função nos limites de suas atribuições, mesmo que ultrapasse a sua capacidade pessoal de realização.Quais estão corretos?",
         "alternativas": {
             "A": "Apenas III.",
@@ -127,10 +126,10 @@
             "E": "I, II e III."
         },
         "gabarito_correto": "B",
+        "id": "3105115",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120493",
         "enunciado": "A Principal causa da geração de distorção harmônica nas redes de distribuição elétrica em corrente alternada",
         "alternativas": {
             "A": "Presença de cargas não lineares.",
@@ -140,11 +139,11 @@
             "E": "Presença de cargas altamente indutivas."
         },
         "gabarito_correto": "A",
+        "id": "3120493",
         "comentario_ia": "A distorção harmônica em redes elétricas de corrente alternada é causada pela presença de cargas não lineares. Estas cargas, como fontes chaveadas, conversores e outros equipamentos eletrônicos, consomem corrente de forma não senoidal, injetando harmônicas na rede e distorcendo a forma de onda da tensão."
     },
     {
-        "id": "3120494",
-        "enunciado": "Em uma determinada fábrica, uma máquina injetora opera por 8horas por dia e apresentou algumas falhas (F) durante um dia: F1 por 15 minutos; F2 por 20 minutos.; F3 por 19 minutos e F4 por 22 minutos. Qual  o tempo médio, em minutos, entre as falhas nesse dia:",
+        "enunciado": "Em uma determinada fábrica, uma máquina injetora opera por 8horas por dia e apresentou algumas falhas (F) durante um dia: F1 por 15 minutos; F2 por 20 minutos.; F3 por 19 minutos e F4 por 22 minutos. Qual o tempo médio, em minutos, entre as falhas nesse dia:",
         "alternativas": {
             "A": "19",
             "B": "25",
@@ -153,10 +152,10 @@
             "E": "120"
         },
         "gabarito_correto": "D",
+        "id": "3120494",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3134751",
         "enunciado": "A potência de curto-circuito na entrada de uma subestação industrial, que possui um transformador de potência de 300 kVA, é de 150 kVA. Considerando que a tensão de base é igual à tensão de entrada do transformador e que a potência de base é igual à potência do transformador, a reatância reduzida do sistema, em pu, é igual a",
         "alternativas": {
             "A": "0,5.",
@@ -166,10 +165,10 @@
             "E": "2,5."
         },
         "gabarito_correto": "D",
+        "id": "3134751",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120495",
         "enunciado": "Em uma instalação industrial, autuada por baixo fator de potência, foi registrada um FP de 0,8 indutivo. A solução encontrada pelo engenheiro eletricista foi a instalação de um banco de capacitores para tornar o Fator de Potência unitário. Determine a potência reativa do banco de capacitores, sabendo que a instalação é atendida em 380 V e a corrente elétrica medida é de 25 A.",
         "alternativas": {
             "A": "6,5 kvar",
@@ -179,10 +178,10 @@
             "E": "7,6 kvar"
         },
         "gabarito_correto": "B",
+        "id": "3120495",
         "comentario_ia": "A potência aparente S = V*I = 380V * 25A = 9500 VA = 9,5 kvar. Com FP=0,8, a potência ativa P = S*FP = 9,5 * 0,8 = 7,6 kW. A potência reativa Q = sqrt(S^2 - P^2) = sqrt(9,5^2 - 7,6^2) = sqrt(90,25 - 57,76) = sqrt(32,49) = 5,7 kvar."
     },
     {
-        "id": "3112709",
         "enunciado": "A velocidade do campo magnético girante de um motor de indução é de 1800 rpm. Sabendo-se que esse motor é alimentado por uma fonte de tensão senoidal de frequência igual a 60 Hz, o número de polos desse motor é",
         "alternativas": {
             "A": "4.",
@@ -192,10 +191,10 @@
             "E": "12."
         },
         "gabarito_correto": "A",
+        "id": "3112709",
         "comentario_ia": "A velocidade síncrona (Ns) é dada por Ns = (120 * f) / P, onde f é a frequência e P é o número de polos. Dado Ns = 1800 rpm e f = 60 Hz: 1800 = (120 * 60) / P. 1800 = 7200 / P. P = 7200 / 1800 = 4."
     },
     {
-        "id": "3105117",
         "enunciado": "A NR-35 prevê, no item 35.2, as responsabilidades. São responsabilidades previstas na norma e que cabem ao trabalhador para a execução do trabalho em altura:Cumprir as disposições legais e regulamentares sobre trabalho em altura, inclusive os procedimentos expedidos pelo empregador.Colaborar com o empregador na implementação das disposições contidas na referida NormaInterromper suas atividades exercendo o direito de recusa sempre que forem comprovados riscos graves e iminentes para sua segurança e saúde ou a de outras pessoas, comunicando imediatamente o fato a seu superior hierárquico, que diligenciará as medidas cabíveis.Zelar pela sua segurança e saúde e a de outras pessoas que possam ser afetadas por suas ações ou omissões no trabalho.Quais estão corretas?",
         "alternativas": {
             "A": "Apenas III e IV.",
@@ -205,10 +204,10 @@
             "E": "I, II, III e IV."
         },
         "gabarito_correto": "C",
+        "id": "3105117",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3134752",
         "enunciado": "A relação de transformação entre os enrolamentos primários e secundários de um transformador trifásico na configuração Delta Estrela é de 1:10.Sendo a tensão de linha no secundário igual a 6574 V, as tensões de linha e de fase da rede de baixa tensão ligada ao primário do transformador são, respectivamente, iguais a",
         "alternativas": {
             "A": "127 V e 73 V.",
@@ -218,10 +217,10 @@
             "E": "660 V e 380 V."
         },
         "gabarito_correto": "C",
+        "id": "3134752",
         "comentario_ia": "Em transformadores trifásicos Delta-Estrela, a relação de transformação entre as tensões de linha é de √3 vezes a relação entre as tensões de fase. A relação de 1:10 refere-se às tensões. Tensão de linha secundária (Vl2): 6574 V. Relação de transformação (Kt): 10. Tensão de linha primária (Vl1) = Vl2 / (Kt * √3) = 6574 / (10 * 1.732) ≈ 380 V. Como Delta-Estrela, a tensão de fase primária é igual à tensão de linha primária. Portanto, Vl1 = 380 V e Vf1 = 380 V. Mas a relação de 1:10 geralmente se refere à relação entre tensão primária e secundária para a mesma configuração de fase ou linha. Assumindo que a relação 1:10 é da tensão de linha primária para linha secundária (o que é incomum com Delta-Estrela), então Vl1 = 6574 / 10 = 657.4V. Se a relação é de 1:10 entre a tensão de fase primária e secundária, e o secundário é Estrela, então a tensão de fase secundária é 6574/√3. No primário Delta, a tensão de linha é igual à de fase. Assim, a relação de tensão de linha primária/fase secundária seria 10. Vl1/Vf2..."
     },
     {
-        "id": "3105118",
         "enunciado": "A NR-35 prevê, em seu item 35.1, os objetivos e campo de aplicação da Norma, quais sejam:Estabelece os requisitos mínimos e as medidas de proteção para o trabalho em altura, envolvendo o planejamento, a organização e a execução, de forma a garantir a segurança e a saúde dos trabalhadores envolvidos direta ou indiretamente com esta atividade.Considera-se trabalho em altura toda atividade executada acima de 2,00 m (dois metros) do nível inferior, onde haja risco de queda.Considera-se trabalho em altura toda atividade executada acima de 4,00 m (quatro metros) do nível inferior, onde haja risco de queda.A referida Norma se complementa com as normas técnicas oficiais estabelecidas pelos Órgãos competentes e, na ausência ou omissão dessas, com as normas nacionais aplicáveis.A referida Norma se complementa com as normas técnicas oficiais estabelecidas pelos Órgãos competentes e, na ausência ou omissão dessas, com as normas internacionais aplicáveis.Quais estão corretas?",
         "alternativas": {
             "A": "Apenas III.",
@@ -231,10 +230,10 @@
             "E": "Apenas II, III e IV"
         },
         "gabarito_correto": "C",
+        "id": "3105118",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3112710",
         "enunciado": "Uma subestação abaixadora é composta de um transformador na configuração delta-estrela de 2√3 MVA. A tensão e a corrente de curto-circuito na entrada da subestação são iguais a, respectivamente, 20 kV e 5 kA. Sabendo-se que as bases adotadas no setor do transformador são iguais aos seus valores nominais, a reatância do sistema elétrico que alimenta a subestação é, em p.u., igual a",
         "alternativas": {
             "A": "0,01.",
@@ -244,10 +243,10 @@
             "E": "0,20."
         },
         "gabarito_correto": "B",
-        "comentario_ia": "A potência aparente nominal é S_nom = 2√3 MVA. A tensão e corrente de curto-circuito na entrada são V_cc = 20 kV e I_cc = 5 kA. A impedância de curto-circuito do sistema elétrico é Z_s = V_cc / I_cc = 20 kV / 5 kA = 4 Ohm.  A base de tensão é V_base = 20 kV. A base de potência é S_base = 2√3 MVA = 2√3 * 10^6 VA.  A impedância base do sistema é Z_base = V_base^2 / S_base = (20 * 10^3 V)^2 / (2√3 * 10^6 VA) = (400 * 10^6) / (2√3 * 10^6) = 400 / (2√3) = 200 / √3 Ohm ≈ 115.47 Ohm.  A reatância do sistema em p.u. é X_s_pu = Z_s / Z_base = 4 Ohm / (200/√3 Ohm) = (4 * √3) / 200 = √3 / 50 ≈ 0.0346.  Verificamos os cálculos.  Potência aparente nominal: S_nom = 2√3 MVA.  Tensão de curto-circuito: V_cc = 20 kV. Corrente de curto-circuito: I_cc = 5 kA.  Impedância de curto-circuito real: Z_cc = V_cc / I_cc = 20 kV / 5 kA = 4 Ohm.  Base de tensão: V_base = 20 kV. Base de potência: S_base = 2√3 MVA.  Impedância de base: Z_base = V_base^2 / S_base = (20 kV)^2 / (2√3 MVA) = 400 / (2√3) kOhm = 200/√3 kOhm.  Reatância em p..."
+        "id": "3112710",
+        "comentario_ia": "A potência aparente nominal é S_nom = 2√3 MVA. A tensão e corrente de curto-circuito na entrada são V_cc = 20 kV e I_cc = 5 kA. A impedância de curto-circuito do sistema elétrico é Z_s = V_cc / I_cc = 20 kV / 5 kA = 4 Ohm. A base de tensão é V_base = 20 kV. A base de potência é S_base = 2√3 MVA = 2√3 * 10^6 VA. A impedância base do sistema é Z_base = V_base^2 / S_base = (20 * 10^3 V)^2 / (2√3 * 10^6 VA) = (400 * 10^6) / (2√3 * 10^6) = 400 / (2√3) = 200 / √3 Ohm ≈ 115.47 Ohm. A reatância do sistema em p.u. é X_s_pu = Z_s / Z_base = 4 Ohm / (200/√3 Ohm) = (4 * √3) / 200 = √3 / 50 ≈ 0.0346. Verificamos os cálculos. Potência aparente nominal: S_nom = 2√3 MVA. Tensão de curto-circuito: V_cc = 20 kV. Corrente de curto-circuito: I_cc = 5 kA. Impedância de curto-circuito real: Z_cc = V_cc / I_cc = 20 kV / 5 kA = 4 Ohm. Base de tensão: V_base = 20 kV. Base de potência: S_base = 2√3 MVA. Impedância de base: Z_base = V_base^2 / S_base = (20 kV)^2 / (2√3 MVA) = 400 / (2√3) kOhm = 200/√3 kOhm. Reatância em p..."
     },
     {
-        "id": "3105119",
         "enunciado": "A equipe de manutenção fez a calibração dos amperímetros do quadro de medição da subestação de geração que apresenta um erro de ± 2%. O equipamento foi verificado por um padrão ajustado para gerar uma corrente 20A com um erro de ± 1%. Analise as seguintes informações:Leitura 1: 19,8A.Leitura 2: 19,9A.Leitura 3: 20,0A.Com base nas três leituras acima, feitas no equipamento sob calibração, é correto afirmar que o equipamento está:",
         "alternativas": {
             "A": "Descalibrado.",
@@ -257,10 +256,10 @@
             "E": "Danificado."
         },
         "gabarito_correto": "B",
+        "id": "3105119",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3112711",
         "enunciado": "Assinale a opção que indica o relé de proteção de sistemas elétricos de potência, que analisa a relação entre a tensão e acorrente.",
         "alternativas": {
             "A": "estático.",
@@ -270,10 +269,10 @@
             "E": "de falta de fase."
         },
         "gabarito_correto": "D",
+        "id": "3112711",
         "comentario_ia": "O relé de distância é projetado para atuar com base na impedância da linha, que é diretamente proporcional à distância até um ponto de falta. A impedância é calculada pela relação entre tensão e corrente, sendo a característica principal desse tipo de relé."
     },
     {
-        "id": "3134753",
         "enunciado": "A proteção diferencial longitudinal é recomendada para motores acima de 1 MVA.Essa proteção atua na ocorrência de falta entre",
         "alternativas": {
             "A": "fase e neutro.",
@@ -283,10 +282,10 @@
             "E": "fase e fase."
         },
         "gabarito_correto": "E",
+        "id": "3134753",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3112712",
         "enunciado": "Em um sistema de potência, o equipamento elétrico possui valores nominais de potência e tensão de 20 MVA e 100 kV. As bases no setor em que esse equipamento está instalado são iguais a 50 MVA e 50 kV. Sabendo-se que a reatância desse equipamento para seus valores nominais é de 0,04 p.u.., o novo valor dessa reatância para a nova base é, em p.u., igual a",
         "alternativas": {
             "A": "0,4.",
@@ -296,10 +295,10 @@
             "E": "1,4."
         },
         "gabarito_correto": "A",
+        "id": "3112712",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120496",
         "enunciado": "O disjuntor termomagnético é um dispositivo de proteção obrigatório em instalações elétricas residenciais. Esse dispositivo tem como suas duas principais funções a proteção contra:",
         "alternativas": {
             "A": "Sobrecargas e choques elétricos.",
@@ -309,10 +308,10 @@
             "E": "Surtos de tensão e choques elétricos."
         },
         "gabarito_correto": "D",
+        "id": "3120496",
         "comentario_ia": "O disjuntor termomagnético protege contra sobrecargas (ação térmica) e curtos-circuitos (ação magnética). Choques elétricos são prevenidos por dispositivos como o DR e aterramento adequado. Surtos de tensão são protegidos por supressores de surto."
     },
     {
-        "id": "3120497",
         "enunciado": "Os Dispositivos de proteção a corrente Diferencial Residual - DR, são utilizados como medida de proteção destinados a abrir seus contatos quando a corrente diferencial residual atinge um determinado valor. Porém, esses dispositivos não podem ser utilizados em um determinado tipo de esquema de aterramento. Qual esquema não admite a utilização de DR como medida de proteção?",
         "alternativas": {
             "A": "TT.",
@@ -322,10 +321,10 @@
             "E": "IT"
         },
         "gabarito_correto": "D",
+        "id": "3120497",
         "comentario_ia": "O DR não é utilizado no esquema TN-C pois o condutor neutro e o de proteção são unificados, o que pode causar desarme indevido, comprometendo a segurança. Nos esquemas TT, TN-S e TN-C-S, o neutro e o PE são separados em algum ponto, permitindo o uso seguro do DR."
     },
     {
-        "id": "3134754",
         "enunciado": "Um motor de indução de 6 polos e escorregamento de 0,20 foi projetado para operar na frequência de rotor igual a 1200 rpm.A frequência da fonte para a alimentação desse motor é",
         "alternativas": {
             "A": "35 Hz.",
@@ -335,10 +334,10 @@
             "E": "140 Hz."
         },
         "gabarito_correto": "C",
+        "id": "3134754",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3134755",
         "enunciado": "O sistema trifásico, em que a diferença de potencial em cada umas das cargas monofásicas que compõem a carga trifásica é dada pelo somatório do valor da tensão de fase da fonte com a tensão de deslocamento de neutro diferente de zero, é",
         "alternativas": {
             "A": "delta-delta desequilibrado.",
@@ -348,10 +347,10 @@
             "E": "estrela-estrela a três fios desequilibrado."
         },
         "gabarito_correto": "E",
+        "id": "3134755",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120498",
         "enunciado": "A NR 10 estabelece condições e requisitos mínimos de implantação de medidas preventivas e de controle para garantir a segurança de trabalhadores que interajam em instalações elétricas, direta ou indiretamente. Em relação a NR 10, deverá realizar treinamento de reciclagem, todo trabalhador, a ela submetido, no caso de ocorrência de algumas situações. Qual das situações a seguir NÃO representa a necessidade da reciclagem do curso de NR 10.",
         "alternativas": {
             "A": "Dois anos após a realização do treinamento anterior.",
@@ -361,10 +360,10 @@
             "E": "Mudança de turno de trabalho."
         },
         "gabarito_correto": "E",
+        "id": "3120498",
         "comentario_ia": "A mudança de turno de trabalho não exige reciclagem da NR 10. As demais situações apresentadas (tempo sem treinamento, troca de função/empresa, afastamento prolongado, ou modificações significativas nas instalações) representam a necessidade de atualização."
     },
     {
-        "id": "3112714",
         "enunciado": "A respeito da isolação dos fios e cabos utilizados em instalações elétricas em baixa tensão, analise as afirmativas a seguir.O condutor com isolação PVC possui maior capacidade de condução que o de isolação EPR.Os condutores com isolações de XLPE e EPR possuem a mesma capacidade de condução.O condutor com isolação PVC possui maior capacidade de sobrecarga que o de isolação XLPE.Está correto o que se afirma em",
         "alternativas": {
             "A": "I, somente.",
@@ -374,10 +373,10 @@
             "E": "II e III, somente."
         },
         "gabarito_correto": "B",
+        "id": "3112714",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3134756",
         "enunciado": "Para a estimativa do tempo médio de execução de uma atividade qualquer de uma obra são considerados os tempos otimista, pessimista e mais provável.A atividade que possua esses tempos iguais a, respectivamente,15, 50 e 25 unidades de tempo, tem, como tempo médio de execução,",
         "alternativas": {
             "A": "17,5 unidades de tempo.",
@@ -387,10 +386,10 @@
             "E": "32,5 unidades de tempo."
         },
         "gabarito_correto": "D",
+        "id": "3134756",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3105109",
         "enunciado": "Um consumidor industrial possui uma carga conectada a uma rede elétrica com tensão de 200V que tem potência aparente de 9072VA e fator de potência de √3/2. Para atender à solicitação da empresa de energia, necessitou instalar um controlador de fator de potência digital que insere na rede uma carga de 100 µF para cada valor unitário em binário na saída de controle.Determine a saída do controlador de fator de potência em binário para ajustar a carga. Considere a frequência da rede elétrica em 60Hz e o valor de π = 3,14.",
         "alternativas": {
             "A": "0001b.",
@@ -400,10 +399,10 @@
             "E": "1001b."
         },
         "gabarito_correto": "B",
+        "id": "3105109",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120487",
         "enunciado": "Determine a velocidade nominal síncrona de um motor de indução trifásico de seis pólos e 60 Hz de frequência:",
         "alternativas": {
             "A": "900 rpm",
@@ -413,10 +412,10 @@
             "E": "750 rpm"
         },
         "gabarito_correto": "B",
+        "id": "3120487",
         "comentario_ia": "A velocidade síncrona é calculada pela fórmula Ns = (120 * f) / P, onde f é a frequência e P é o número de polos. Para P=6 e f=60Hz, Ns = (120 * 60) / 6 = 1200 rpm."
     },
     {
-        "id": "3120488",
         "enunciado": "Em relação a Norma 5410, esta pode ser aplicada às seguintes instalações:",
         "alternativas": {
             "A": "Instalações de iluminação pública",
@@ -426,10 +425,10 @@
             "E": "Instalações de cercas eletrificadas"
         },
         "gabarito_correto": "C",
+        "id": "3120488",
         "comentario_ia": "A Norma NBR 5410 trata das instalações elétricas de baixa tensão em edificações residenciais e comerciais, visando a segurança e o desempenho."
     },
     {
-        "id": "3105110",
         "enunciado": "O eletricista de uma fábrica foi chamado para atender a uma falha em um dos equipamentos. Ao chegar no local, detectou que o sistema havia acusado erro na alimentação. O equipamento está ligado a uma rede trifásica senoidal, onde o transformador tem ligação em estrela.O eletricista mediu a tensão de linha com um multímetro e encontrou 97,98. Sabendo que a tensão de fase deveria ser de 100V, determine a queda de tensão entre fase e neutro.",
         "alternativas": {
             "A": "2,0V.",
@@ -439,10 +438,10 @@
             "E": "10,5V."
         },
         "gabarito_correto": "B",
+        "id": "3105110",
         "comentario_ia": "Em uma ligação estrela, a tensão de linha (V_linha) é igual à tensão de fase (V_fase) multiplicada pela raiz de 3 (V_linha = V_fase * sqrt(3)). Neste caso, V_fase = 97.98V / sqrt(3) ≈ 56.57V. A queda de tensão entre fase e neutro não se aplica aqui, mas sim a tensão de fase."
     },
     {
-        "id": "3120489",
         "enunciado": "As instalações contempladas pela NBR 5410, deverão ser executadas a partir de projetos específicos, que deverão conter itens obrigatórios. NÃO fazem parte desses itens obrigatórios:",
         "alternativas": {
             "A": "Plantas",
@@ -452,10 +451,10 @@
             "E": "Especificação dos componentes: descrição sucinta do componente, características nominais e norma(s) a que devem atender."
         },
         "gabarito_correto": "C",
+        "id": "3120489",
         "comentario_ia": "O projeto de instalações elétricas, conforme a NBR 5410, não exige um relatório fotográfico como item obrigatório. Plantas, esquemas, memorial descritivo e especificações de componentes são essenciais."
     },
     {
-        "id": "3120490",
         "enunciado": "Em um circuito RC série operando em regime permanente de CA, pode-se afirmar que:",
         "alternativas": {
             "A": "A corrente está atrasada em relação à tensão de alimentação",
@@ -465,10 +464,10 @@
             "E": "A tensão no resistor está atrasada da tensão no capacitor"
         },
         "gabarito_correto": "B",
+        "id": "3120490",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3105113",
         "enunciado": "Um dos indicadores que é amplamente utilizado e pode inclusive orientar sobre o momento que uma máquina necessita uma manutenção mais efetiva é o MTBF (Mean Time Between Failures). Considerando uma máquina que opera em regime de 24/7 e que, ao longo do mês, sofreu uma manutenção por semana, que levaram os seguintes períodos para serem realizadas: 3h, 4h, 3h e 5h, determine o MTBF, em horas, desta máquina.",
         "alternativas": {
             "A": "164.",
@@ -478,10 +477,10 @@
             "E": "148."
         },
         "gabarito_correto": "A",
+        "id": "3105113",
         "comentario_ia": "Total de horas de manutenção = 3+4+3+5 = 15 horas. Total de horas no mês = 24h * 30 dias = 720 horas. Número de falhas = 4. MTBF = Horas operacionais totais / Número de falhas = 720 / 4 = 180 horas. A questão informa manutenção por semana, e não falhas. Se ocorreram 4 manutenções por semana em um mês (4 semanas), então temos 4 falhas. O tempo total de operação em um mês é de 24h x 30 dias = 720h. O tempo total de reparo foi de 3+4+3+5 = 15h. O MTBF é o tempo médio entre falhas, então é o tempo em que a máquina funciona sem falhar. Tempo que a máquina funcionou sem falhas = 720h - 15h = 705h. Número de falhas = 4. MTBF = 705h / 4 falhas = 176,25h. Este cálculo não coincide com as alternativas. Se considerarmos o tempo total de operação (720h) e dividirmos pelo número de falhas (4), teremos 180h. Vamos analisar as alternativas novamente: A questão é capciosa, pois menciona 'manutenção por semana' e os períodos de manutenção. Assumindo que cada semana teve uma falha e manutenção: Total de horas no mês = 24 *..."
     },
     {
-        "id": "3120491",
         "enunciado": "O Fator de demanda pode ser definido como:",
         "alternativas": {
             "A": "A razão entre a demanda média e a carga instalada na unidade consumidora.",
@@ -491,10 +490,10 @@
             "E": "A razão entre a carga instalada e a energia consumida num intervalo de tempo determinado."
         },
         "gabarito_correto": "C",
+        "id": "3120491",
         "comentario_ia": "O Fator de Demanda é a razão entre a demanda máxima ocorrente em um intervalo de tempo especificado e a carga total instalada na unidade consumidora, refletindo o uso médio da capacidade instalada."
     },
     {
-        "id": "3105114",
         "enunciado": "O código de ética do profissional, em seu Artigo 8º, prevê uma série de condutas vedadas, quais sejam:Ante a sua profissão, deixar de aceitar trabalho, contrato, emprego, função ou tarefa para os quais tenha efetiva qualificação.Ante a sua profissão, utilizar indevida ou abusivamente do privilégio de exclusividade de direito profissional.Ante a sua profissão, omitir ou ocultar fato de seu conhecimento que transgrida à ética profissional.Quais estão corretas?",
         "alternativas": {
             "A": "Apenas III.",
@@ -504,10 +503,10 @@
             "E": "I, II e III."
         },
         "gabarito_correto": "D",
+        "id": "3105114",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3105115",
         "enunciado": "O código de ética do profissional, em seu Artigo 9º, prevê os deveres, quais sejam:Ante o ser humano e a seus valores, divulgar os conhecimentos científicos, artísticos e tecnológicos inerentes à profissão.Ante a profissão, identificar-se e dedicar-se com zelo à profissão.Ante a profissão, desempenhar sua profissão ou função nos limites de suas atribuições, mesmo que ultrapasse a sua capacidade pessoal de realização.Quais estão corretos?",
         "alternativas": {
             "A": "Apenas III.",
@@ -517,10 +516,10 @@
             "E": "I, II e III."
         },
         "gabarito_correto": "B",
+        "id": "3105115",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120493",
         "enunciado": "A Principal causa da geração de distorção harmônica nas redes de distribuição elétrica em corrente alternada",
         "alternativas": {
             "A": "Presença de cargas não lineares.",
@@ -530,11 +529,11 @@
             "E": "Presença de cargas altamente indutivas."
         },
         "gabarito_correto": "A",
+        "id": "3120493",
         "comentario_ia": "A distorção harmônica em redes elétricas de corrente alternada é causada pela presença de cargas não lineares. Estas cargas, como fontes chaveadas, conversores e outros equipamentos eletrônicos, consomem corrente de forma não senoidal, injetando harmônicas na rede e distorcendo a forma de onda da tensão."
     },
     {
-        "id": "3120494",
-        "enunciado": "Em uma determinada fábrica, uma máquina injetora opera por 8horas por dia e apresentou algumas falhas (F) durante um dia: F1 por 15 minutos; F2 por 20 minutos.; F3 por 19 minutos e F4 por 22 minutos. Qual  o tempo médio, em minutos, entre as falhas nesse dia:",
+        "enunciado": "Em uma determinada fábrica, uma máquina injetora opera por 8horas por dia e apresentou algumas falhas (F) durante um dia: F1 por 15 minutos; F2 por 20 minutos.; F3 por 19 minutos e F4 por 22 minutos. Qual o tempo médio, em minutos, entre as falhas nesse dia:",
         "alternativas": {
             "A": "19",
             "B": "25",
@@ -543,10 +542,10 @@
             "E": "120"
         },
         "gabarito_correto": "D",
+        "id": "3120494",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3134751",
         "enunciado": "A potência de curto-circuito na entrada de uma subestação industrial, que possui um transformador de potência de 300 kVA, é de 150 kVA. Considerando que a tensão de base é igual à tensão de entrada do transformador e que a potência de base é igual à potência do transformador, a reatância reduzida do sistema, em pu, é igual a",
         "alternativas": {
             "A": "0,5.",
@@ -556,10 +555,10 @@
             "E": "2,5."
         },
         "gabarito_correto": "D",
+        "id": "3134751",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120495",
         "enunciado": "Em uma instalação industrial, autuada por baixo fator de potência, foi registrada um FP de 0,8 indutivo. A solução encontrada pelo engenheiro eletricista foi a instalação de um banco de capacitores para tornar o Fator de Potência unitário. Determine a potência reativa do banco de capacitores, sabendo que a instalação é atendida em 380 V e a corrente elétrica medida é de 25 A.",
         "alternativas": {
             "A": "6,5 kvar",
@@ -569,10 +568,10 @@
             "E": "7,6 kvar"
         },
         "gabarito_correto": "B",
+        "id": "3120495",
         "comentario_ia": "A potência aparente S = V*I = 380V * 25A = 9500 VA = 9,5 kvar. Com FP=0,8, a potência ativa P = S*FP = 9,5 * 0,8 = 7,6 kW. A potência reativa Q = sqrt(S^2 - P^2) = sqrt(9,5^2 - 7,6^2) = sqrt(90,25 - 57,76) = sqrt(32,49) = 5,7 kvar."
     },
     {
-        "id": "3112709",
         "enunciado": "A velocidade do campo magnético girante de um motor de indução é de 1800 rpm. Sabendo-se que esse motor é alimentado por uma fonte de tensão senoidal de frequência igual a 60 Hz, o número de polos desse motor é",
         "alternativas": {
             "A": "4.",
@@ -582,10 +581,10 @@
             "E": "12."
         },
         "gabarito_correto": "A",
+        "id": "3112709",
         "comentario_ia": "A velocidade síncrona (Ns) é dada por Ns = (120 * f) / P, onde f é a frequência e P é o número de polos. Dado Ns = 1800 rpm e f = 60 Hz: 1800 = (120 * 60) / P. 1800 = 7200 / P. P = 7200 / 1800 = 4."
     },
     {
-        "id": "3105117",
         "enunciado": "A NR-35 prevê, no item 35.2, as responsabilidades. São responsabilidades previstas na norma e que cabem ao trabalhador para a execução do trabalho em altura:Cumprir as disposições legais e regulamentares sobre trabalho em altura, inclusive os procedimentos expedidos pelo empregador.Colaborar com o empregador na implementação das disposições contidas na referida NormaInterromper suas atividades exercendo o direito de recusa sempre que forem comprovados riscos graves e iminentes para sua segurança e saúde ou a de outras pessoas, comunicando imediatamente o fato a seu superior hierárquico, que diligenciará as medidas cabíveis.Zelar pela sua segurança e saúde e a de outras pessoas que possam ser afetadas por suas ações ou omissões no trabalho.Quais estão corretas?",
         "alternativas": {
             "A": "Apenas III e IV.",
@@ -595,10 +594,10 @@
             "E": "I, II, III e IV."
         },
         "gabarito_correto": "C",
+        "id": "3105117",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3134752",
         "enunciado": "A relação de transformação entre os enrolamentos primários e secundários de um transformador trifásico na configuração Delta Estrela é de 1:10.Sendo a tensão de linha no secundário igual a 6574 V, as tensões de linha e de fase da rede de baixa tensão ligada ao primário do transformador são, respectivamente, iguais a",
         "alternativas": {
             "A": "127 V e 73 V.",
@@ -608,10 +607,10 @@
             "E": "660 V e 380 V."
         },
         "gabarito_correto": "C",
+        "id": "3134752",
         "comentario_ia": "Em transformadores trifásicos Delta-Estrela, a relação de transformação entre as tensões de linha é de √3 vezes a relação entre as tensões de fase. A relação de 1:10 refere-se às tensões. Tensão de linha secundária (Vl2): 6574 V. Relação de transformação (Kt): 10. Tensão de linha primária (Vl1) = Vl2 / (Kt * √3) = 6574 / (10 * 1.732) ≈ 380 V. Como Delta-Estrela, a tensão de fase primária é igual à tensão de linha primária. Portanto, Vl1 = 380 V e Vf1 = 380 V. Mas a relação de 1:10 geralmente se refere à relação entre tensão primária e secundária para a mesma configuração de fase ou linha. Assumindo que a relação 1:10 é da tensão de linha primária para linha secundária (o que é incomum com Delta-Estrela), então Vl1 = 6574 / 10 = 657.4V. Se a relação é de 1:10 entre a tensão de fase primária e secundária, e o secundário é Estrela, então a tensão de fase secundária é 6574/√3. No primário Delta, a tensão de linha é igual à de fase. Assim, a relação de tensão de linha primária/fase secundária seria 10. Vl1/Vf2..."
     },
     {
-        "id": "3105118",
         "enunciado": "A NR-35 prevê, em seu item 35.1, os objetivos e campo de aplicação da Norma, quais sejam:Estabelece os requisitos mínimos e as medidas de proteção para o trabalho em altura, envolvendo o planejamento, a organização e a execução, de forma a garantir a segurança e a saúde dos trabalhadores envolvidos direta ou indiretamente com esta atividade.Considera-se trabalho em altura toda atividade executada acima de 2,00 m (dois metros) do nível inferior, onde haja risco de queda.Considera-se trabalho em altura toda atividade executada acima de 4,00 m (quatro metros) do nível inferior, onde haja risco de queda.A referida Norma se complementa com as normas técnicas oficiais estabelecidas pelos Órgãos competentes e, na ausência ou omissão dessas, com as normas nacionais aplicáveis.A referida Norma se complementa com as normas técnicas oficiais estabelecidas pelos Órgãos competentes e, na ausência ou omissão dessas, com as normas internacionais aplicáveis.Quais estão corretas?",
         "alternativas": {
             "A": "Apenas III.",
@@ -621,10 +620,10 @@
             "E": "Apenas II, III e IV"
         },
         "gabarito_correto": "C",
+        "id": "3105118",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3112710",
         "enunciado": "Uma subestação abaixadora é composta de um transformador na configuração delta-estrela de 2√3 MVA. A tensão e a corrente de curto-circuito na entrada da subestação são iguais a, respectivamente, 20 kV e 5 kA. Sabendo-se que as bases adotadas no setor do transformador são iguais aos seus valores nominais, a reatância do sistema elétrico que alimenta a subestação é, em p.u., igual a",
         "alternativas": {
             "A": "0,01.",
@@ -634,10 +633,10 @@
             "E": "0,20."
         },
         "gabarito_correto": "B",
-        "comentario_ia": "A potência aparente nominal é S_nom = 2√3 MVA. A tensão e corrente de curto-circuito na entrada são V_cc = 20 kV e I_cc = 5 kA. A impedância de curto-circuito do sistema elétrico é Z_s = V_cc / I_cc = 20 kV / 5 kA = 4 Ohm.  A base de tensão é V_base = 20 kV. A base de potência é S_base = 2√3 MVA = 2√3 * 10^6 VA.  A impedância base do sistema é Z_base = V_base^2 / S_base = (20 * 10^3 V)^2 / (2√3 * 10^6 VA) = (400 * 10^6) / (2√3 * 10^6) = 400 / (2√3) = 200 / √3 Ohm ≈ 115.47 Ohm.  A reatância do sistema em p.u. é X_s_pu = Z_s / Z_base = 4 Ohm / (200/√3 Ohm) = (4 * √3) / 200 = √3 / 50 ≈ 0.0346.  Verificamos os cálculos.  Potência aparente nominal: S_nom = 2√3 MVA.  Tensão de curto-circuito: V_cc = 20 kV. Corrente de curto-circuito: I_cc = 5 kA.  Impedância de curto-circuito real: Z_cc = V_cc / I_cc = 20 kV / 5 kA = 4 Ohm.  Base de tensão: V_base = 20 kV. Base de potência: S_base = 2√3 MVA.  Impedância de base: Z_base = V_base^2 / S_base = (20 kV)^2 / (2√3 MVA) = 400 / (2√3) kOhm = 200/√3 kOhm.  Reatância em p..."
+        "id": "3112710",
+        "comentario_ia": "A potência aparente nominal é S_nom = 2√3 MVA. A tensão e corrente de curto-circuito na entrada são V_cc = 20 kV e I_cc = 5 kA. A impedância de curto-circuito do sistema elétrico é Z_s = V_cc / I_cc = 20 kV / 5 kA = 4 Ohm. A base de tensão é V_base = 20 kV. A base de potência é S_base = 2√3 MVA = 2√3 * 10^6 VA. A impedância base do sistema é Z_base = V_base^2 / S_base = (20 * 10^3 V)^2 / (2√3 * 10^6 VA) = (400 * 10^6) / (2√3 * 10^6) = 400 / (2√3) = 200 / √3 Ohm ≈ 115.47 Ohm. A reatância do sistema em p.u. é X_s_pu = Z_s / Z_base = 4 Ohm / (200/√3 Ohm) = (4 * √3) / 200 = √3 / 50 ≈ 0.0346. Verificamos os cálculos. Potência aparente nominal: S_nom = 2√3 MVA. Tensão de curto-circuito: V_cc = 20 kV. Corrente de curto-circuito: I_cc = 5 kA. Impedância de curto-circuito real: Z_cc = V_cc / I_cc = 20 kV / 5 kA = 4 Ohm. Base de tensão: V_base = 20 kV. Base de potência: S_base = 2√3 MVA. Impedância de base: Z_base = V_base^2 / S_base = (20 kV)^2 / (2√3 MVA) = 400 / (2√3) kOhm = 200/√3 kOhm. Reatância em p..."
     },
     {
-        "id": "3105119",
         "enunciado": "A equipe de manutenção fez a calibração dos amperímetros do quadro de medição da subestação de geração que apresenta um erro de ± 2%. O equipamento foi verificado por um padrão ajustado para gerar uma corrente 20A com um erro de ± 1%. Analise as seguintes informações:Leitura 1: 19,8A.Leitura 2: 19,9A.Leitura 3: 20,0A.Com base nas três leituras acima, feitas no equipamento sob calibração, é correto afirmar que o equipamento está:",
         "alternativas": {
             "A": "Descalibrado.",
@@ -647,10 +646,10 @@
             "E": "Danificado."
         },
         "gabarito_correto": "B",
+        "id": "3105119",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3112711",
         "enunciado": "Assinale a opção que indica o relé de proteção de sistemas elétricos de potência, que analisa a relação entre a tensão e acorrente.",
         "alternativas": {
             "A": "estático.",
@@ -660,10 +659,10 @@
             "E": "de falta de fase."
         },
         "gabarito_correto": "D",
+        "id": "3112711",
         "comentario_ia": "O relé de distância é projetado para atuar com base na impedância da linha, que é diretamente proporcional à distância até um ponto de falta. A impedância é calculada pela relação entre tensão e corrente, sendo a característica principal desse tipo de relé."
     },
     {
-        "id": "3134753",
         "enunciado": "A proteção diferencial longitudinal é recomendada para motores acima de 1 MVA.Essa proteção atua na ocorrência de falta entre",
         "alternativas": {
             "A": "fase e neutro.",
@@ -673,10 +672,10 @@
             "E": "fase e fase."
         },
         "gabarito_correto": "E",
+        "id": "3134753",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3112712",
         "enunciado": "Em um sistema de potência, o equipamento elétrico possui valores nominais de potência e tensão de 20 MVA e 100 kV. As bases no setor em que esse equipamento está instalado são iguais a 50 MVA e 50 kV. Sabendo-se que a reatância desse equipamento para seus valores nominais é de 0,04 p.u.., o novo valor dessa reatância para a nova base é, em p.u., igual a",
         "alternativas": {
             "A": "0,4.",
@@ -686,10 +685,10 @@
             "E": "1,4."
         },
         "gabarito_correto": "A",
+        "id": "3112712",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120496",
         "enunciado": "O disjuntor termomagnético é um dispositivo de proteção obrigatório em instalações elétricas residenciais. Esse dispositivo tem como suas duas principais funções a proteção contra:",
         "alternativas": {
             "A": "Sobrecargas e choques elétricos.",
@@ -699,10 +698,10 @@
             "E": "Surtos de tensão e choques elétricos."
         },
         "gabarito_correto": "D",
+        "id": "3120496",
         "comentario_ia": "O disjuntor termomagnético protege contra sobrecargas (ação térmica) e curtos-circuitos (ação magnética). Choques elétricos são prevenidos por dispositivos como o DR e aterramento adequado. Surtos de tensão são protegidos por supressores de surto."
     },
     {
-        "id": "3120497",
         "enunciado": "Os Dispositivos de proteção a corrente Diferencial Residual - DR, são utilizados como medida de proteção destinados a abrir seus contatos quando a corrente diferencial residual atinge um determinado valor. Porém, esses dispositivos não podem ser utilizados em um determinado tipo de esquema de aterramento. Qual esquema não admite a utilização de DR como medida de proteção?",
         "alternativas": {
             "A": "TT.",
@@ -712,10 +711,10 @@
             "E": "IT"
         },
         "gabarito_correto": "D",
+        "id": "3120497",
         "comentario_ia": "O DR não é utilizado no esquema TN-C pois o condutor neutro e o de proteção são unificados, o que pode causar desarme indevido, comprometendo a segurança. Nos esquemas TT, TN-S e TN-C-S, o neutro e o PE são separados em algum ponto, permitindo o uso seguro do DR."
     },
     {
-        "id": "3134754",
         "enunciado": "Um motor de indução de 6 polos e escorregamento de 0,20 foi projetado para operar na frequência de rotor igual a 1200 rpm.A frequência da fonte para a alimentação desse motor é",
         "alternativas": {
             "A": "35 Hz.",
@@ -725,10 +724,10 @@
             "E": "140 Hz."
         },
         "gabarito_correto": "C",
+        "id": "3134754",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3134755",
         "enunciado": "O sistema trifásico, em que a diferença de potencial em cada umas das cargas monofásicas que compõem a carga trifásica é dada pelo somatório do valor da tensão de fase da fonte com a tensão de deslocamento de neutro diferente de zero, é",
         "alternativas": {
             "A": "delta-delta desequilibrado.",
@@ -738,10 +737,10 @@
             "E": "estrela-estrela a três fios desequilibrado."
         },
         "gabarito_correto": "E",
+        "id": "3134755",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120498",
         "enunciado": "A NR 10 estabelece condições e requisitos mínimos de implantação de medidas preventivas e de controle para garantir a segurança de trabalhadores que interajam em instalações elétricas, direta ou indiretamente. Em relação a NR 10, deverá realizar treinamento de reciclagem, todo trabalhador, a ela submetido, no caso de ocorrência de algumas situações. Qual das situações a seguir NÃO representa a necessidade da reciclagem do curso de NR 10.",
         "alternativas": {
             "A": "Dois anos após a realização do treinamento anterior.",
@@ -751,10 +750,10 @@
             "E": "Mudança de turno de trabalho."
         },
         "gabarito_correto": "E",
+        "id": "3120498",
         "comentario_ia": "A mudança de turno de trabalho não exige reciclagem da NR 10. As demais situações apresentadas (tempo sem treinamento, troca de função/empresa, afastamento prolongado, ou modificações significativas nas instalações) representam a necessidade de atualização."
     },
     {
-        "id": "3112714",
         "enunciado": "A respeito da isolação dos fios e cabos utilizados em instalações elétricas em baixa tensão, analise as afirmativas a seguir.O condutor com isolação PVC possui maior capacidade de condução que o de isolação EPR.Os condutores com isolações de XLPE e EPR possuem a mesma capacidade de condução.O condutor com isolação PVC possui maior capacidade de sobrecarga que o de isolação XLPE.Está correto o que se afirma em",
         "alternativas": {
             "A": "I, somente.",
@@ -764,10 +763,10 @@
             "E": "II e III, somente."
         },
         "gabarito_correto": "B",
+        "id": "3112714",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3134756",
         "enunciado": "Para a estimativa do tempo médio de execução de uma atividade qualquer de uma obra são considerados os tempos otimista, pessimista e mais provável.A atividade que possua esses tempos iguais a, respectivamente,15, 50 e 25 unidades de tempo, tem, como tempo médio de execução,",
         "alternativas": {
             "A": "17,5 unidades de tempo.",
@@ -777,10 +776,10 @@
             "E": "32,5 unidades de tempo."
         },
         "gabarito_correto": "D",
+        "id": "3134756",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120499",
         "enunciado": "A NR-10 estabelece condições em relação aos serviços e trabalhadores que intervenham em instalações elétricas de Alta Tensão (AT), que que sejam realizados dentro das Zonas de Risco e Controlada. Segundo a NR-10, qual dos quesitos NÃO é está correto para os trabalhadores e serviços executados no SEP?",
         "alternativas": {
             "A": "Devem receber treinamento de segurança, específico em segurança no Sistema Elétrico de Potência (SEP)",
@@ -790,10 +789,10 @@
             "E": "Os equipamentos e dispositivos desativados devem ser sinalizados com identificação da condição de desativação, conforme procedimento de trabalho específico padronizado."
         },
         "gabarito_correto": "B",
+        "id": "3120499",
         "comentario_ia": "A NR-10 veda a execução de serviços no SEP por um único trabalhador, mesmo que qualificado e capacitado. É exigida a presença de, no mínimo, mais um trabalhador para garantir a segurança em caso de emergência."
     },
     {
-        "id": "3112715",
         "enunciado": "No que se refere à segurança em instalações elétricas, analise as afirmativas a seguir.A remoção do aterramento temporário é o primeiro procedimento para a reenergização.O impedimento da reenergização é um procedimento obrigatório para que o sistema seja considerado desenergizado.A equipotencialização é um procedimento para que o sistema seja considerado desenergizado.Esta correto o que se afirma em",
         "alternativas": {
             "A": "I, somente.",
@@ -803,10 +802,10 @@
             "E": "I, II e III."
         },
         "gabarito_correto": "D",
+        "id": "3112715",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120500",
         "enunciado": "A Intensidade Luminosa é a potência de radiação visível que uma determinada fonte de luz emite numa direção especificada. Sua unidade no SI é denominada.",
         "alternativas": {
             "A": "Watt.",
@@ -816,10 +815,10 @@
             "E": "Lúmen"
         },
         "gabarito_correto": "C",
+        "id": "3120500",
         "comentario_ia": "A Intensidade Luminosa, que mede a potência de radiação visível em uma direção específica, tem sua unidade no SI definida como Candela (cd)."
     },
     {
-        "id": "3120501",
         "enunciado": "Qual dos elementos NÃO faz parte de um Sistema de Proteção Contra Descargas Atmosféricas (SPDA).",
         "alternativas": {
             "A": "Sistema Captor.",
@@ -829,10 +828,10 @@
             "E": "Eletrodo de aterramento."
         },
         "gabarito_correto": "D",
+        "id": "3120501",
         "comentario_ia": "Um DR (Disjuntor Residual) é um dispositivo de proteção contra choques elétricos, que não faz parte do Sistema de Proteção Contra Descargas Atmosféricas (SPDA), cujo objetivo é captar e conduzir a corrente de um raio ao solo com segurança."
     },
     {
-        "id": "3112717",
         "enunciado": "Um transformador delta-estrela com relação de tensão de linha entre primário e secundário de 1 : 1, deve ter uma relação de espiras entre primário e secundário (N1/N2) igual a",
         "alternativas": {
             "A": "1.",
@@ -842,10 +841,10 @@
             "E": "√2."
         },
         "gabarito_correto": "C",
+        "id": "3112717",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120502",
         "enunciado": "Utilizando o método da Potência mínima para determinar a carga instalada em uma residência composta por um quarto, uma cozinha e um banheiro, um engenheiro eletricista chegou a quantidade de pontos de Tomadas de Uso Geral (TUG) descritas abaixo. Determine a potência instalada para as TUG’s a ser considerada por esse método. 4 TUG’s no quarto; 5 TUG’s na Cozinha; 1 TUG no banheiro.",
         "alternativas": {
             "A": "3.000 VA.",
@@ -855,10 +854,10 @@
             "E": "1.250 VA."
         },
         "gabarito_correto": "A",
+        "id": "3120502",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3112718",
         "enunciado": "A respeito da máquina síncrona com armadura estacionária e campo girante, analise as afirmativas a seguir.O processo de isolação do campo CC fica facilitado.A construção das bobinas para grandes estatores polifásicos fica mais dificultada.A relutância reduzida ao fluxo fica reduzida na armadura estacionária.Está correto o que se afirma em",
         "alternativas": {
             "A": "I, somente.",
@@ -868,10 +867,10 @@
             "E": "I, II e III."
         },
         "gabarito_correto": "D",
+        "id": "3112718",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120504",
         "enunciado": "São Parâmetros que devem ser levados em consideração na elaboração de projetos de iluminação em ambientes interiores, exceto:",
         "alternativas": {
             "A": "Cores das paredes, teto e piso.",
@@ -881,10 +880,10 @@
             "E": "Fluxo de pessoas no ambiente."
         },
         "gabarito_correto": "E",
+        "id": "3120504",
         "comentario_ia": "O fluxo de pessoas em um ambiente não é um parâmetro direto para o projeto de iluminação interior. Os demais itens (cores, tipo de atividade, dimensões e altura do ponto de luz) influenciam diretamente os níveis de iluminância necessários."
     },
     {
-        "id": "3134757",
         "enunciado": "Circuitos elétricos instalados em locais com presença de água devem possuir dispositivo que atua por corrente diferencial - DR.A respeito desse dispositivo, assinale a afirmativa correta.",
         "alternativas": {
             "A": "Atua na proteção do usuário, limitando a corrente elétrica do choque.",
@@ -894,10 +893,10 @@
             "E": "Atua na proteção do equipamento, limitando a intensidade da corrente de falta"
         },
         "gabarito_correto": "B",
+        "id": "3134757",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120505",
         "enunciado": "Um consumidor de energia elétrica residencial decide instalar uma central geradora de energia elétrica através de um sistema de geração fotovoltaico em seu telhado. Seguindo as normas brasileiras para geração distribuída, é correto afirmar que:",
         "alternativas": {
             "A": "Toda a energia ativa gerada pela central deve ser consumida na própria unidade consumidora em que está instalada.",
@@ -907,10 +906,10 @@
             "E": "Estando enquadrado como geração distribuída, o proprietário necessita instalar baterias para armazenar a energia excedente para utilização em horários sem incidência solar."
         },
         "gabarito_correto": "C",
+        "id": "3120505",
         "comentario_ia": "A norma de geração distribuída permite a compensação do excedente de energia em outra unidade consumidora de mesma titularidade, dentro da área da concessionária, sem necessariamente consumi-la integralmente no local de geração."
     },
     {
-        "id": "3134758",
         "enunciado": "Uma edificação ocupa uma área quadrada de 81 m2. No topo da edificação existe um sistema de proteção contra descargas atmosféricas – SPDA, do tipo Franklin, com ângulo de proteção de 45o.A altura mínima do captor desse SPDA, em relação ao prédio, é",
         "alternativas": {
             "A": "3√2",
@@ -920,10 +919,10 @@
             "E": "9,0"
         },
         "gabarito_correto": "B",
+        "id": "3134758",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3120506",
         "enunciado": "Dentre as fontes energia utilizadas no Brasil para geração de energia elétrica, NÃO é considerada uma fonte de energia renovável:",
         "alternativas": {
             "A": "Eólica.",
@@ -933,10 +932,10 @@
             "E": "Hídrica."
         },
         "gabarito_correto": "D",
+        "id": "3120506",
         "comentario_ia": "A energia nuclear é gerada a partir da fissão de átomos, um processo que não se renova naturalmente em escala humana, diferentemente das fontes eólica, solar, biomassa e hídrica."
     },
     {
-        "id": "3112719",
         "enunciado": "Uma instalação elétrica em uma dependência possui 30 tomadas de uso geral monofásicas, 10 luminárias, um equipamento ligado a duas fases de 2.000 W e uma tomada monofásica de 3.000 W.O número mínimo de circuitos para o atendimento a essas cargas é igual a",
         "alternativas": {
             "A": "2.",
@@ -946,10 +945,10 @@
             "E": "6"
         },
         "gabarito_correto": "D",
-        "comentario_ia": "Cargas: 30 tomadas de uso geral (cada tom. -> 1 circuito), 10 luminárias (cada lumin. -> 1 circuito), 1 equipamento 2000W (em 2 fases, considera 1 circuito), 1 tomada 3000W (monofásica, considera 1 circuito).  O número mínimo de circuitos é: 30 tomadas de uso geral (precisam de 30 circuitos separados por norma). 10 luminárias (podem ser em alguns circuitos, mas supondo pelo menos 1 por circuito, seriam 10). 1 equipamento 2000W (1 circuito). 1 tomada 3000W (1 circuito).  A norma NBR 5410 estabelece limites para tomadas de uso geral por circuito. Para 30 tomadas, seriam 30 circuitos.  No entanto, a pergunta pede o número MÍNIMO de circuitos para ATENDER a essas cargas. Isso sugere que podemos agrupar.  Tomadas de uso geral: 30.  Luminárias: 10.  Equipamento 2000W (bifásico): 1 circuito.  Tomada 3000W (monofásica): 1 circuito.  O número de circuitos de iluminação é diferente de tomadas.  A norma NBR 5410:2004, item 6.4.3.3.2, estabelece que circuitos de iluminação podem ter até 12 pontos de luz e circuitos d..."
+        "id": "3112719",
+        "comentario_ia": "Cargas: 30 tomadas de uso geral (cada tom. -> 1 circuito), 10 luminárias (cada lumin. -> 1 circuito), 1 equipamento 2000W (em 2 fases, considera 1 circuito), 1 tomada 3000W (monofásica, considera 1 circuito). O número mínimo de circuitos é: 30 tomadas de uso geral (precisam de 30 circuitos separados por norma). 10 luminárias (podem ser em alguns circuitos, mas supondo pelo menos 1 por circuito, seriam 10). 1 equipamento 2000W (1 circuito). 1 tomada 3000W (1 circuito). A norma NBR 5410 estabelece limites para tomadas de uso geral por circuito. Para 30 tomadas, seriam 30 circuitos. No entanto, a pergunta pede o número MÍNIMO de circuitos para ATENDER a essas cargas. Isso sugere que podemos agrupar. Tomadas de uso geral: 30. Luminárias: 10. Equipamento 2000W (bifásico): 1 circuito. Tomada 3000W (monofásica): 1 circuito. O número de circuitos de iluminação é diferente de tomadas. A norma NBR 5410:2004, item 6.4.3.3.2, estabelece que circuitos de iluminação podem ter até 12 pontos de luz e circuitos d..."
     },
     {
-        "id": "3134759",
         "enunciado": "Considere as características das configurações de subestações a seguir.Barra dupla, um disjuntor: a manutenção dos disjuntores é realizada com perda dos circuitos de saída, pois não existe, para cada circuito, um disjuntor associado.Barramento em anel: em caso de defeito ou manutenção deum dos disjuntores, somente o segmento em que está localizado este disjuntor ficará isolado.Barra simples seccionado: Em caso de falha da barra, todos os disjuntores serão desligados.Está correto somente o que se afirma em",
         "alternativas": {
             "A": "I.",
@@ -959,10 +958,10 @@
             "E": "II e III."
         },
         "gabarito_correto": "B",
+        "id": "3134759",
         "comentario_ia": "A afirmativa I está incorreta, pois na barra dupla com um disjuntor, a manutenção de um disjuntor permite que o circuito seja alimentado pela outra barra. A afirmativa II está correta sobre o barramento em anel. A afirmativa III está correta, pois em barra simples seccionada, a falha em uma barra pode afetar os circuitos a ela ligados."
     },
     {
-        "id": "3120507",
         "enunciado": "Considere uma fonte trifásica equilibrada, ligação em estrela, sequência de fase \"acb\". Se a tensão fase-neutro da fase b apresenta ângulo de -90°, então a tensão de linha do terminal \"c\" para \"a\", VCA, apresenta ângulo de fase igual a:",
         "alternativas": {
             "A": "-120°.",
@@ -972,10 +971,10 @@
             "E": "120°."
         },
         "gabarito_correto": "C",
+        "id": "3120507",
         "comentario_ia": "Com a sequência de fase 'acb' e Vbn com ângulo de -90°, e sabendo que a defasagem entre fases é de 120°, a tensão Vca (que é Vc - Va) pode ser calculada para se obter o ângulo de 0°."
     },
     {
-        "id": "3112720",
         "enunciado": "O método PERT/CPM permite controlar um projeto no tempo. Uma atividade de um projeto tem os tempos otimista, pessimista e mais provável respectivamente iguais a 4, 12 e 8 unidades de tempo.Para essa atividade, o tempo esperado, em unidades de tempo, é igual a",
         "alternativas": {
             "A": "5.",
@@ -985,10 +984,10 @@
             "E": "10."
         },
         "gabarito_correto": "C",
+        "id": "3112720",
         "comentario_ia": "O tempo esperado (Te) em PERT é calculado pela fórmula: Te = (Ot + 4*Mp + P) / 6, onde Ot é o tempo otimista, Mp é o tempo mais provável e P é o tempo pessimista. No problema, Ot = 4, Mp = 8, P = 12. Substituindo na fórmula: Te = (4 + 4*8 + 12) / 6 = (4 + 32 + 12) / 6 = 48 / 6 = 8. Portanto, o tempo esperado é 8 unidades de tempo."
     },
     {
-        "id": "3134760",
         "enunciado": "A distribuição de energia com esquema de aterramento IT deve possuir um dispositivo responsável em monitor a isolação do sistema elétrico.Esse dispositivo atua na manutenção",
         "alternativas": {
             "A": "corretiva.",
@@ -998,10 +997,10 @@
             "E": "preditiva."
         },
         "gabarito_correto": "E",
+        "id": "3134760",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3134761",
         "enunciado": "Em um sistema elétrico, a tensão de pré-falta no ponto de sua ocorrência é igual a 0,7 pu. A corrente de falta é igual a 5 kA em um setor onde a corrente de base é igual a 20 kA.A impedância do equivalente de Thèvenin de sequência positiva, visto do ponto da falta, é",
         "alternativas": {
             "A": "0,03 pu.",
@@ -1011,10 +1010,10 @@
             "E": "2,80 pu."
         },
         "gabarito_correto": "E",
+        "id": "3134761",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3134762",
         "enunciado": "Um equipamento de reatância de 0,1 pu para seus valores nominais de potência e tensão de 20 MVA e 200 kV faz parte deum sistema elétrico de potência. Os valores de base adotados no setor do equipamento são 100 MVA e 100 kV.O valor em dessa reatância para a nova base é:",
         "alternativas": {
             "A": "0,1 pu.",
@@ -1024,10 +1023,10 @@
             "E": "4,0 pu."
         },
         "gabarito_correto": "D",
+        "id": "3134762",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3134763",
         "enunciado": "A representação no número 92 na base decimal para a base binária é",
         "alternativas": {
             "A": "1011110",
@@ -1037,10 +1036,10 @@
             "E": "1001100"
         },
         "gabarito_correto": "B",
+        "id": "3134763",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3134764",
         "enunciado": "Uma bobina quadrada de 2cm de lado composta por 100 espiras está posicionada perpendicularmente a um campo magnético uniforme de 2,0 T. Ela é retirada, em um movimento perpendicular ao campo magnético, para uma região em que não há campo magnético.Para que a tensão induzida na bobina seja de 0,8 V, a bobina deve ser retirada para a região sem a presença do campo magnético em um tempo de",
         "alternativas": {
             "A": "0,10 s.",
@@ -1050,10 +1049,10 @@
             "E": "0,30 s."
         },
         "gabarito_correto": "A",
+        "id": "3134764",
         "comentario_ia": "A variação do fluxo magnético é calculada como ΔΦ = B * A. A fem induzida é ε = |ΔΦ/Δt|. Usando os valores fornecidos (ΔΦ = 2,0 T * (0,02m)² = 0,0008 Wb e ε = 0,8 V), tem-se Δt = ΔΦ/ε = 0,0008 Wb / 0,8 V = 0,001 s. Refazendo o cálculo: A = (0.02)^2 = 0.0004 m². Fluxo inicial = 2 T * 0.0004 m² = 0.0008 Wb. Fluxo final = 0. Fem = N * |ΔΦ/Δt|. 0.8 V = 100 * |0 - 0.0008 Wb| / Δt. 0.8 = 100 * 0.0008 / Δt. 0.8 = 0.08 / Δt. Δt = 0.08 / 0.8 = 0.1 s."
     },
     {
-        "id": "3079307",
         "enunciado": "Considerando um circuito trifásico devidamente equilibrado, conexão em Y, onde V é o módulo das tensões com relação ao neutro, e I o módulo da corrente de fase, assinale a afirmativa INCORRETA.",
         "alternativas": {
             "A": "Os módulos das correntes são iguais nas três fases.",
@@ -1062,10 +1061,10 @@
             "D": "A potência total é dada pela multiplicação da potência de alguma fase por três, uma vez que é a mesma em todas elas."
         },
         "gabarito_correto": "B",
+        "id": "3079307",
         "comentario_ia": "A potncia total em um circuito trifasico equilibrado e dada por P = V_linha * I_linha * cos(theta) ou P = sqrt(3) * V_fase * I_fase * cos(theta), onde V_linha e tensão de linha e V_fase e tensão de fase. A alternativa B usa V e I sem especificar se sao de fase ou de linha e nao considera o fator de Potencia (cos theta), apresentando uma formula incompleta ou incorreta para a potencia total."
     },
     {
-        "id": "3079309",
         "enunciado": "Em um circuito elétrico que alimenta motores ou cargas que possuem outros tipos de enrolamentos surge um tipo de potência denominada potência reativa. Dessa forma, há três tipos de potência, conhecidas como reativa, ativa e aparente. Com base nestas potências e suas propriedades, assinale a afirmativa INCORRETA.",
         "alternativas": {
             "A": "Potência ativa: é a potência dissipada em forma de calor.",
@@ -1074,10 +1073,10 @@
             "D": "Fator de potência: é o cosseno do ângulo de defasagem entre a corrente e a tensão."
         },
         "gabarito_correto": "B",
+        "id": "3079309",
         "comentario_ia": "A potencia aparente (S) nao e a soma algebrica das potencias ativa (P) e reativa (Q). Ela representa a potencia total disponivel em um circuito AC e e calculada pela relacao S = sqrt(P^2 + Q^2). As outras alternativas estao corretas."
     },
     {
-        "id": "3012284",
         "enunciado": "Um gerador síncrono tem características de nominais iguais a 20 MVA e 13,8 kV. Ele está conectado em estrela aterrada através de uma impedância de aterramento igual a 0,05 p.u. Esse gerador está ligado a um sistema elétrico através de um transformador do tipo núcleo envolvente (13,8/138) kV com conexão delta/estrela aterrada. O gerador está conectado no lado conectado em delta do transformador e a reatância indutiva do transformador é igual a 0,10 p.u. (base 20 MVA e tensão nominal). O sistema gerador-transformador está operando a vazio.Dados do gerador (nas bases 20 MVA e 13,8 kV): reatância indutiva subtransitória igual a 0,10 p.u.; reatância indutiva de sequência negativa igual a 0,10 p.u.; reatância indutiva de sequência zero igual a 0,05 p.u.Assuma que o fasor de tensão pré-falta na barra de 138 kV tem magnitude igual a 1 p.u. Adote potência base igual a 20 MVA e 13,8 kV no lado de tensão mais baixa do transformador.Ocorreu uma falta fase-terra na barra de 138 kV e na fase A.Qual o valor da magnitude de corrente de falta fase-terra na fase A?",
         "alternativas": {
             "A": "6 p.u.",
@@ -1087,10 +1086,10 @@
             "E": "1,66 p.u."
         },
         "gabarito_correto": "A",
+        "id": "3012284",
         "comentario_ia": "O calculo da corrente de falta fase-terra envolve a combinacao das impedancias de sequencia (positiva, negativa e zero). A impedancia de terra aparente e calculada e entao a corrente de falta e obtida pela divisao da tensao pre-falta pela impedancia total."
     },
     {
-        "id": "3030485",
         "enunciado": "Assinale a alternativa INCORRETA quanto ao transformador para soldagem.",
         "alternativas": {
             "A": "Pode ser de pequeno, médio e grande porte, dependendo do trabalho a ser executado.",
@@ -1100,10 +1099,10 @@
             "E": "O transformador, na maioria dos casos, tem um dispositivo volante-manivela, pelo qual é feita a regulagem da intensidade da corrente (amperagem)."
         },
         "gabarito_correto": "D",
+        "id": "3030485",
         "comentario_ia": "A alternativa D é incorreta. O transformador para soldagem é uma máquina estática (sem movimentos), destinada a alimentar um arco elétrico, mas não se trata de uma ferramenta 'dinâmica' no sentido de ter partes móveis ativas."
     },
     {
-        "id": "3036282",
         "enunciado": "Assinale a alternativa que se refere aos conceitos fundamentais da Luminoteca:É a potência de radiação total emitida por uma fonte de luz.É a potência da radiação luminosa numa dada direção.",
         "alternativas": {
             "A": "I. Intensidade Luminosa; II. Distribuição Luminosa.",
@@ -1112,10 +1111,10 @@
             "D": "I. Distribuição Luminosa; II. Fluxo Luminoso."
         },
         "gabarito_correto": "C",
+        "id": "3036282",
         "comentario_ia": "A Luminoteca se refere a conceitos de iluminacao. A primeira definicao: 'potencia de radiação total emitida por uma fonte de luz' e Fluxo Luminoso (em lúmens). A segunda definicao: 'potencia da radiação luminosa numa dada direcao' e Intensidade Luminosa (em candelas)."
     },
     {
-        "id": "3012291",
         "enunciado": "Um motor de 4 cv conectado em 220 V tem rendimento de 74%, com fator de potência 0,8 indutivo. Qual é o valor das potências elétricas ativa, aparente e reativa e da corrente demandada, sendo 1 cv = 735,5 W?",
         "alternativas": {
             "A": "2.942,0 W – 3.677,5 VA – 2.206,5 VAR – 16,7 A.",
@@ -1125,10 +1124,10 @@
             "E": "9.806,7 W – 13.252,3 VA – 8.913,6 VAR – 60,2 A."
         },
         "gabarito_correto": "C",
+        "id": "3012291",
         "comentario_ia": "Potência elétrica ativa (P) = Potência mecânica / Rendimento. Potência aparente (S) = P / Fator de Potência. Potência reativa (Q) = sqrt(S^2 - P^2). Corrente (I) = S / Tensão."
     },
     {
-        "id": "3012292",
         "enunciado": "Assinale a alternativa que apresenta a reatância capacitiva (em Ω.km) de uma linha trifásica de cabos múltiplos a 60 Hz,com três condutores CAA tipo Rail por cabo, afastados 45 cm entre si. Os espaçamentos entre cabos são de 9 m, 9 m e 18 m. Por razões de projeto, deseja-se que a capacitância ao neutro seja 10% maior. A reatância capacitiva e a nova distância entre os condutores de cada fase, mantida a distância entre centros das fases, são, respectivamente:",
         "alternativas": {
             "A": "0,1730 MΩ.km e 0,6080 m.",
@@ -1138,10 +1137,10 @@
             "E": "0,5031 MΩ.km e 0,5420 m."
         },
         "gabarito_correto": "C",
+        "id": "3012292",
         "comentario_ia": "O cálculo envolve a reatância capacitiva e a capacitância, considerando os espaçamentos dos cabos e a frequência. O aumento de 10% na capacitância ao neutro altera a reatância."
     },
     {
-        "id": "3028420",
         "enunciado": "Marcos, engenheiro elétrico do município de Fortaleza dos Nogueiras/MA, ao fazer uma instalação elétrica, ficou preocupado com o sistema de aterramento, tendo em vista que o referido sistema:",
         "alternativas": {
             "A": "deve proteger, contra um choque elétrico, uma pessoa em contato com uma parte metálica acidentalmente energizada.",
@@ -1150,10 +1149,10 @@
             "D": "deve proteger, contra um choque elétrico, animais em contato com um eletrodo."
         },
         "gabarito_correto": "A",
+        "id": "3028420",
         "comentario_ia": "O sistema de aterramento em instalações elétricas tem como função primordial proteger as pessoas contra choques elétricos, direcionando correntes de falta para a terra e equipotencializando superfícies metálicas."
     },
     {
-        "id": "3012293",
         "enunciado": "Com relação aos Sistema Elétrico de Potência, considere as seguintes afirmativas:1. A função básica dos Sistemas Elétricos de Potência é fornecer energia elétrica aos consumidores (grandes ou pequenos), com qualidade, no instante em que for solicitada.2. Os requisitos de um Sistema Elétrico de Potência são: continuidade, conformidade, flexibilidade, segurança e manutenção.3. A geração é responsável pela produção da energia elétrica, formada por Centrais Elétricas que convertem alguma forma de energia (cinética, calor etc).Assinale a alternativa correta.",
         "alternativas": {
             "A": "Somente a afirmativa 1 é verdadeira.",
@@ -1163,10 +1162,10 @@
             "E": "As afirmativas 1, 2 e 3 são verdadeiras."
         },
         "gabarito_correto": "E",
+        "id": "3012293",
         "comentario_ia": "As três afirmativas estão corretas. A afirmativa 1 descreve a função básica dos Sistemas Elétricos de Potência. A afirmativa 2 lista os requisitos essenciais. A afirmativa 3 explica a função da geração de energia."
     },
     {
-        "id": "3028420",
         "enunciado": "Marcos, engenheiro elétrico do município de Fortaleza dos Nogueiras/MA, ao fazer uma instalação elétrica, ficou preocupado com o sistema de aterramento, tendo em vista que o referido sistema:",
         "alternativas": {
             "A": "deve proteger, contra um choque elétrico, uma pessoa em contato com uma parte metálica acidentalmente energizada.",
@@ -1175,10 +1174,10 @@
             "D": "deve proteger, contra um choque elétrico, animais em contato com um eletrodo."
         },
         "gabarito_correto": "A",
+        "id": "3028420",
         "comentario_ia": "O sistema de aterramento em instalações elétricas tem como função primordial proteger as pessoas contra choques elétricos, direcionando correntes de falta para a terra e equipotencializando superfícies metálicas."
     },
     {
-        "id": "3008022",
         "enunciado": "A respeito de um sistema trifásico, é correto afirmar que",
         "alternativas": {
             "A": "a potência trifásica de uma carga trifásica ligada em triângulo é diferente da potência trifásica dessa carga ligada em estrela, em um sistema equilibrado.",
@@ -1188,10 +1187,10 @@
             "E": "a potência aparente trifásica é dada por √3ܸlll, em que Vl é o módulo da tensão de linha e Il é o módulo da corrente de linha, em um sistema equilibrado."
         },
         "gabarito_correto": "E",
+        "id": "3008022",
         "comentario_ia": "Em um sistema trifásico equilibrado, a potência aparente total é dada pelo produto da raiz de três pela tensão de linha e pela corrente de linha (√3 * Vl * Il)."
     },
     {
-        "id": "3012296",
         "enunciado": "Considera-se como área de controle uma parte de um sistema de potência na qual os grupos de unidades geradoras são responsáveis pelo suprimento das variações da carga contida nessa parte. Em geral, as fronteiras de uma área de controle coincidem com as fronteiras elétricas de uma concessionária que possua uma razoável capacidade de geração e carga significativa. Com base no exposto, considere as seguintes afirmativas:1. As áreas de controle são balanceadas em termos de carga-geração.2. As linhas de interligação entre áreas devem trabalhar com folgas suficientes, para garantir intercâmbios de auxílio,intercâmbios de emergência etc.3. As unidades geradoras de uma área devem ser tão coerentes quanto possível, do ponto de vista dinâmico.Assinale a alternativa correta.",
         "alternativas": {
             "A": "Somente a afirmativa 1 é verdadeira.",
@@ -1201,10 +1200,10 @@
             "E": "As afirmativas 1, 2 e 3 são verdadeiras"
         },
         "gabarito_correto": "E",
+        "id": "3012296",
         "comentario_ia": "As três afirmativas estão corretas. Afirmativa 1: áreas de controle buscam equilíbrio carga-geração. Afirmativa 2: linhas de interligação precisam de folga para intercâmbios. Afirmativa 3: unidades geradoras devem ser dinamicamente coerentes dentro de uma área."
     },
     {
-        "id": "3028423",
         "enunciado": "O valor aproximado de uma resistência Shunt em um galvanômetro de 10 mA/Ri = 10 Ω, de forma que o mesmo possa medir uma corrente de até 1 A, é:",
         "alternativas": {
             "A": "0,8 Ω.",
@@ -1213,10 +1212,10 @@
             "D": "0,7 Ω"
         },
         "gabarito_correto": "C",
+        "id": "3028423",
         "comentario_ia": "Para que o galvanômetro, com fundo de escala de 10 mA (0.01 A) e resistência interna de 10 Ω, meça 1 A, a resistência Shunt (Rs) deve ser calculada pela fórmula Rs = Ri * (Ig / Imáx - Ig). Utilizando os valores, 10 * (0.01 / 1 - 0.01) = 10 * (0.01 / 0.99) ≈ 0.101 Ω. Portanto, 0.1 Ω é o valor mais próximo."
     },
     {
-        "id": "3012297",
         "enunciado": "Com relação a relés temporizadores, considere as seguintes afirmativas:1. Relés temporizados são aqueles que, quando têm de comutar seus contatos, contam um tempo antes de fazê-lo,podendo ser temporizados na energização ou na desenergização.2. Relés temporizados, na desenergização, ao energizar sua bobina, comutam seus contatos instantaneamente, e, ao desenergizar, contam um tempo para retornar à sua posição de repouso.3. Relés temporizados são aqueles que comutam os seus contatos em uma sequência predeterminada no tempo e, ao terminá-la, começam-na novamente, sendo usados, por exemplo, para repetir operações todos os dias ou a cada intervalo de horas pré-ajustadas.Assinale a alternativa correta.",
         "alternativas": {
             "A": "Somente a afirmativa 2 é verdadeira.",
@@ -1226,10 +1225,10 @@
             "E": "As afirmativas 1, 2 e 3 são verdadeiras"
         },
         "gabarito_correto": "C",
+        "id": "3012297",
         "comentario_ia": "A afirmativa 1 define corretamente relés temporizados. A afirmativa 2 descreve corretamente o funcionamento dos relés temporizados na desenergização. A afirmativa 3 descreve um relé cíclico, não um temporizador comum."
     },
     {
-        "id": "3023710",
         "enunciado": "Os conceitos de “proteção básica” e de “proteção supletiva” correspondem, respectivamente, aos conceitos de proteção contra contatos diretos e de proteção contra contatos indiretos. Dessa forma, constituem exemplos de proteção básica e supletiva, respectivamente:",
         "alternativas": {
             "A": "separação elétrica e uso de barreiras ou invólucros.",
@@ -1239,10 +1238,10 @@
             "E": "uso de barreiras e limitação da tensão."
         },
         "gabarito_correto": "B",
+        "id": "3023710",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3012299",
         "enunciado": "Qual é a área da seção transversal de um eletroduto embutido em parede de alvenaria que contém três circuitos monofásicos a sete condutores (3 F + 3 N + 1 PE), de isolação PVC iguais, respectivamente, a 7,8 mm, 7,8 mm e 6 mm?",
         "alternativas": {
             "A": "278 mm2.",
@@ -1252,10 +1251,10 @@
             "E": "3167 mm2"
         },
         "gabarito_correto": "C",
+        "id": "3012299",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3023712",
         "enunciado": "Quanto ao critério da queda de tensão nos condutores, em nenhum caso a queda de tensão nos circuitos terminais pode ser superior a:",
         "alternativas": {
             "A": "3%.",
@@ -1265,10 +1264,10 @@
             "E": "7%."
         },
         "gabarito_correto": "B",
+        "id": "3023712",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3042560",
         "enunciado": "Para os enrolamentos do rotor em um Motor DC, é incorreto afirmar que",
         "alternativas": {
             "A": "no enrolamento ondulado há apenas dois caminhos paralelos decorrente, independentemente do número de polos.",
@@ -1278,10 +1277,10 @@
             "E": "no enrolamento imbricado há um número de caminhos decorrente igual ao número de polos."
         },
         "gabarito_correto": "C",
+        "id": "3042560",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3008026",
         "enunciado": "Um dispositivo de corrente diferencial residual é colocado nos condutores de fase e neutro de um circuito monofásico e possui corrente de sensibilidade de 30 mA. A respeito do exposto, é correto afirmar que o dispositivo acionará quando o módulo da",
         "alternativas": {
             "A": "corrente no condutor de fase for maior ou igual a 30 mA, desligando o circuito.",
@@ -1291,10 +1290,10 @@
             "E": "diferença da corrente no condutor de fase e da corrente no condutor de neutro for maior ou igual a 30 mA, ligando o circuito."
         },
         "gabarito_correto": "B",
+        "id": "3008026",
         "comentario_ia": "O dispositivo DR (Diferencial Residual) atua pela detecção da diferença de corrente entre os condutores de fase e neutro. Se essa diferença for igual ou superior à corrente de sensibilidade (30 mA), indica uma fuga de corrente, e o dispositivo desarma para proteger contra choques elétricos."
     },
     {
-        "id": "3012301",
         "enunciado": "O aterramento elétrico tem a finalidade de proteger tanto a instalação elétrica como as pessoas que a utilizam, por meio da ligação intencional com a terra. Sobre aterramento elétrico, considere as seguintes afirmativas:1. Por definição de norma, é proibido tratamento do solo para equipamentos a serem instalados em locais de acesso público (colunas de semáforos, caixas telefônicas, controladores de tráfegos etc.) e em estruturas de transmissão de energia elétrica.2. Dois tipos de aterramento são usuais nas instalações elétricas. Um deles é o aterramento funcional, que é a ligação à terra de um dos condutores, geralmente o neutro, e está diretamente relacionado ao perfeito funcionamento da instalação.3. No esquema de aterramento TN-C-S, as funções de neutro e de proteção são combinadas em um único condutor.Em um projeto elétrico predial residencial, normalmente se usa o esquema TN-C-S até o quadro do apartamento, e o esquema TN-S dentro dele.Assinale a alternativa correta.",
         "alternativas": {
             "A": "Somente a afirmativa 1 é verdadeira.",
@@ -1304,10 +1303,10 @@
             "E": "As afirmativas 1, 2 e 3 são verdadeiras."
         },
         "gabarito_correto": "D",
+        "id": "3012301",
         "comentario_ia": "A afirmativa 1 é falsa pois o tratamento de solo para aterramento em locais públicos é permitido mediante normas técnicas específicas. A afirmativa 2 é verdadeira, definindo o aterramento funcional. A afirmativa 3 é falsa, pois no TN-C-S, as funções de neutro e proteção são combinadas apenas no trecho C (combinado), sendo separadas no trecho S (separado)."
     },
     {
-        "id": "3023713",
         "enunciado": "O dimensionamento dos condutores que alimentam motores deve ser tal que, observados os limites previstos na Norma ABNT NBR 5410:2004, durante a partida do motor, a queda de tensão nos terminais do dispositivo de partida não ultrapasse a respectiva tensão nominal de:",
         "alternativas": {
             "A": "5%.",
@@ -1317,10 +1316,10 @@
             "E": "4%."
         },
         "gabarito_correto": "C",
+        "id": "3023713",
         "comentario_ia": "A Norma ABNT NBR 5410:2004 estabelece que a queda de tensão máxima admissível nos terminais do dispositivo de partida do motor durante a partida é de 10% da tensão nominal."
     },
     {
-        "id": "3027813",
         "enunciado": "De acordo com a literatura técnica, “embora não haja migração de carga quando se coloca um dielétrico num campo elétrico, na realidade ocorre aí um ligeiro deslocamento dos elétrons em relação aos seus núcleos, de maneira que os átomos individuais se comportam como dipolos muito pequenos. Quando esses dipolos atômicos estão presentes, diz-se que o dielétrico está polarizado ou que está num estado de polarização. Quando se remove o campo elétrico e os átomos retornam a seu estado normal ou de despolarização, os dipolos desaparecem’’. A intensidade do campo elétrico num dielétrico não pode ser aumentada indefinidamente. Se um determinado valor do campo elétrico for ultrapassado, ocorrerá um centelhamento e diz-se que há uma ruptura do dielétrico. A intensidade máxima de campo elétrico que um dielétrico suporta sem se romper é chamada de",
         "alternativas": {
             "A": "permeância máxima.",
@@ -1330,10 +1329,10 @@
             "E": "reflexão magnética"
         },
         "gabarito_correto": "C",
+        "id": "3027813",
         "comentario_ia": "A rigidez dielétrica define a máxima intensidade de campo elétrico que um material isolante (dielétrico) suporta antes de ocorrer a ruptura do isolamento e o centelhamento."
     },
     {
-        "id": "3008027",
         "enunciado": "Um transformador de potencial possui a seguinte especificação: tensão nominal no primário de 15 kV, tensão nominal no secundário de 120 V e potência de 600 VA.Com base nessas informações, assinale a alternativa que apresenta a tensão no secundário ao se aplicar uma tensão de 13,5 kV no primário.",
         "alternativas": {
             "A": "108 V",
@@ -1343,10 +1342,10 @@
             "E": "114 V"
         },
         "gabarito_correto": "A",
+        "id": "3008027",
         "comentario_ia": "A relação de tensão em um transformador de potencial é fixa. A tensão secundária é proporcional à tensão primária. A razão de transformação é Tensão Primário / Tensão Secundário = 15000V / 120V = 125. Portanto, com 13.5 kV no primário, a tensão secundária será 13500V / 125 = 108V."
     },
     {
-        "id": "3023714",
         "enunciado": "De acordo com a Norma ABNT NBR 14039:2005, devem possuir proteção contra fuga de líquido isolante por meio de tanque de contenção instalações que contenham no mínimo:",
         "alternativas": {
             "A": "100 litros.",
@@ -1356,10 +1355,10 @@
             "E": "300 litros."
         },
         "gabarito_correto": "A",
+        "id": "3023714",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3009735",
         "enunciado": "Sobre o Teorema de Norton assinale a alternativa CORRETA:",
         "alternativas": {
             "A": "O teorema de Norton é mais uma dentre as poucas opções que temos para cálculos de grandezas pertinentes a circuitos elétricos.",
@@ -1369,10 +1368,10 @@
             "E": "Nenhuma das alternativas."
         },
         "gabarito_correto": "C",
+        "id": "3009735",
         "comentario_ia": "A alternativa C descreve a principal característica do teorema de Norton, que é a representação de um circuito linear por uma fonte de corrente em paralelo com uma resistência equivalente. As outras alternativas contêm imprecisões ou falsidades."
     },
     {
-        "id": "3023716",
         "enunciado": "A porcentagem de desequilíbrio das tensões é obtida a partir da medição das tensões nas três fases e da utilização da equação do desequilíbrio de tensão percentual que é igual a 100 vezes o desvio máximo da tensão em relação à tensão média dividido pela tensão média. Nessas condições, para valores de tensões entre fases de 222 V, 217 V e 212 V, a porcentagem de desequilíbrio das tensões é:",
         "alternativas": {
             "A": "2,32%.",
@@ -1382,10 +1381,10 @@
             "E": "2,52%."
         },
         "gabarito_correto": "B",
+        "id": "3023716",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3008029",
         "enunciado": "Um motor de indução trifásico de 320 V, 60 Hz e 12 polos roda a velocidade de 19 π rad/s.Com base nessas informações, é correto afirmar que o escorregamento do motor é",
         "alternativas": {
             "A": "2,5%.",
@@ -1395,10 +1394,10 @@
             "E": "12,5%."
         },
         "gabarito_correto": "C",
+        "id": "3008029",
         "comentario_ia": "A velocidade síncrona é Ns = (120 * 60) / 12 = 600 rpm. A velocidade do rotor é Nr = (19π rad/s) * (60 / 2π) = 570 rpm. O escorregamento é s = (Ns - Nr) / Ns = (600 - 570) / 600 = 30 / 600 = 0,05 ou 5%."
     },
     {
-        "id": "3008030",
         "enunciado": "Em relação a máquinas síncronas, é correto afirmar que",
         "alternativas": {
             "A": "os motores síncronos utilizam o campo magnético girante para gerar o movimento de rotação ao se utilizar do curto-circuito do enrolamento do rotor.",
@@ -1408,10 +1407,10 @@
             "E": "uma máquina síncrona funciona como um motor subexcitado, quando consome potência ativa e fornece potência reativa."
         },
         "gabarito_correto": "B",
+        "id": "3008030",
         "comentario_ia": "Máquinas síncronas, quando operadas com excitação acima do normal (super-excitadas), consomem potência reativa e fornecem potência ativa, operando como compensadores síncronos para corrigir o fator de potência do sistema elétrico."
     },
     {
-        "id": "3036299",
         "enunciado": "Em um gerador elementar, diz-se que a corrente é alternada quando muda de valor em função da posição das espiras em relação ao campo magnético. Quando a corrente percorre um circuito de resistência pura, podemos dizer que:",
         "alternativas": {
             "A": "Há uma defasagem da corrente em relação à tensão.",
@@ -1420,10 +1419,10 @@
             "D": "Quanto maior o ângulo de fase, maior o valor negativo instantâneo."
         },
         "gabarito_correto": "C",
+        "id": "3036299",
         "comentario_ia": "Em um circuito de resistência pura, a corrente elétrica e a tensão alternada estão sempre em fase, o que significa que o ângulo de fase entre elas é zero. Não há defasagem ou potências instantâneas negativas."
     },
     {
-        "id": "3023718",
         "enunciado": "Com relação à Norma ABNT NBR 5674:2012 - Manutenção de edificações — Requisitos, para o sistema de gestão de manutenção, a previsão orçamentária anual de manutenção deve:",
         "alternativas": {
             "A": "possuir mecanismos capazes de prever os recursos financeiros necessários para a realização dos serviços de manutenção em período futuro definido.",
@@ -1433,10 +1432,10 @@
             "E": "assegurar que não haja prejuízos durante a realização dos serviços de manutenção de natureza emergencial."
         },
         "gabarito_correto": "A",
+        "id": "3023718",
         "comentario_ia": "A previsão orçamentária anual de manutenção, conforme NBR 5674:2012, deve conter mecanismos para estimar os recursos financeiros necessários para serviços futuros, garantindo a continuidade das atividades."
     },
     {
-        "id": "3012327",
         "enunciado": "A forma de onda senoidal é popularmente conhecida por conta da rede de alimentação, no entanto, para um engenheiro eletrônico, as formas pulsadas de onda são igualmente relevantes, por conta do amplo uso em circuitos digitais. A respeito do assunto, considere as seguintes afirmativas:1. A largura (ou duração) de um pulso é a distância entre os pontos nos quais o valor do pulso é igual a 75% da amplitude.2.O nível de base de um pulso é definido como o nível a partir do qual o pulso começa.3. O período (T) de um trem de pulsos periódico é definido como a diferença de tempo entre pontos equivalentes de dois pulsos sucessivos.4. A borda de descida é definida como aquela na qual o pulso diminui do valor mais alto para o mais baixo.Assinale a alternativa correta.",
         "alternativas": {
             "A": "Somente a afirmativa 1 é verdadeira.",
@@ -1446,10 +1445,10 @@
             "E": "As afirmativas 1, 2, 3 e 4 são verdadeiras"
         },
         "gabarito_correto": "D",
+        "id": "3012327",
         "comentario_ia": "A afirmativa 1 está incorreta, pois a largura de pulso é geralmente medida em 50% da amplitude. As afirmativas 2, 3 e 4 estão corretas, descrevendo o nível de base, período e borda de descida de um pulso. Portanto, as afirmativas 2, 3 e 4 são verdadeiras."
     },
     {
-        "id": "3023719",
         "enunciado": "Com referência aos sistemas fotovoltaicos conectados à rede, é correto afirmar que:",
         "alternativas": {
             "A": "não regulam a tensão, e sim a corrente injetada na rede.",
@@ -1459,10 +1458,10 @@
             "E": "o sistema fotovoltaico composto de transformador com separação galvânica em 60 Hz precisa ter proteções adicionais para atender a este requisito."
         },
         "gabarito_correto": "A",
+        "id": "3023719",
         "comentario_ia": "Sistemas fotovoltaicos conectados à rede atuam regulando a corrente injetada para manter os parâmetros da rede, enquanto a tensão é primariamente controlada pelo sistema elétrico."
     },
     {
-        "id": "3023720",
         "enunciado": "Os motores de indução devem ser fornecidos com um terminal de aterramento ou outro dispositivo para permitir a conexão de um condutor de proteção ou um condutor de aterramento. Conforme estabelece a Norma ABNT NBR 15367 - Máquinas elétricas girantes - motores de indução - Marcação de cabos terminais e sentidos de rotação, as letras PE ou símbolo equivalente, devem identificar este dispositivo. Porém este requisito não se aplica ao motor quando este estiver instalado com tensões nominais especificadas em até:",
         "alternativas": {
             "A": "1000 V e estes forem destinados para uso em extra baixa tensão (SLV).",
@@ -1472,10 +1471,10 @@
             "E": "50 V e estes forem destinados para uso em extra baixa tensão (SLV)."
         },
         "gabarito_correto": "E",
+        "id": "3023720",
         "comentario_ia": "A Norma ABNT NBR 15367 especifica o terminal de aterramento em motores. O requisito de marcação com PE não se aplica a motores com tensões nominais até 50 V quando destinados a Extra Baixa Tensão (SELV), pois estes já possuem um isolamento intrínseco de segurança."
     },
     {
-        "id": "3057396",
         "enunciado": "Uma corrente elétrica de 2 A flui por uma impedância composta por um resistor de resistência 30 Ω e um capacitor.Sabendo-se que essa impedância é alimentada por uma fonte senoidal de 100 V, o ângulo de defasagem da corrente em relação à tensão é:",
         "alternativas": {
             "A": "sen-10,8",
@@ -1485,10 +1484,10 @@
             "E": "tan-1 0,"
         },
         "gabarito_correto": "A",
+        "id": "3057396",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3023722",
         "enunciado": "O dispositivo de conexão de um sistema de segurança, regulável ou não, para sustentar, posicionar e/ou limitar a movimentação do trabalhador em instalações elétricas é conhecido como:",
         "alternativas": {
             "A": "extensor.",
@@ -1498,10 +1497,10 @@
             "E": "trava-queda."
         },
         "gabarito_correto": "D",
+        "id": "3023722",
         "comentario_ia": "O talabarte é o dispositivo de conexão utilizado para sustentar, posicionar e limitar a movimentação do trabalhador em instalações elétricas, sendo um componente essencial em sistemas de segurança contra quedas."
     },
     {
-        "id": "3049596",
         "enunciado": "Em 2018, foram registrados 1.424 acidentes com origem elétrica em todo o país, sendo 836 choques, 537 incêndios por sobrecarga ou curto-circuito e 51 descargas atmosféricas (raios). Isso representou um aumento de 2,67% em comparação ao ano anterior e de 37,2% em relação a 2013, início da série histórica.(Agência Brasil. Acidentes com origem elétrica causaram 622 mortes em 2018. Ano: 2019).Raios são fenômenos naturais onde ocorre uma descarga na atmosfera acompanhada de um trovão.Sabe-se que o ar atmosférico é um bom isolante elétrico. Sendo assim, assinale a alternativa correta que apresenta como se dá a possibilidade de ocorrer essa descarga elétrica:",
         "alternativas": {
             "A": "O raio e o trovão ocorrem em momentos diferentes: o raio ocorre primeiro e o trovão depois. Esse é o motivo no qual primeiro vemos a luz no céu e só após algum tempo podemos ouvi-la.",
@@ -1510,10 +1509,10 @@
             "D": "A ionização ao redor das nuvens cria um plasma condutor de eletricidade e esse plasma começa a irem direção à terra. Quando ele chega perto o suficiente, há uma quebra da rigidez dielétrica do are a descarga ocorre."
         },
         "gabarito_correto": "D",
+        "id": "3049596",
         "comentario_ia": "A alternativa D descreve corretamente o processo de ionização em torno das nuvens, criando um canal condutor (plasma) que permite a descarga elétrica (raio) ao romper a rigidez dielétrica do ar."
     },
     {
-        "id": "3057397",
         "enunciado": "Um motor de indução de 6 polos é alimentado por uma fonte de tensão senoidal de frequência igual a 60 Hz.A velocidade do campo magnético girante desse motor, em rpm, é:",
         "alternativas": {
             "A": "1000;",
@@ -1523,10 +1522,10 @@
             "E": "1600"
         },
         "gabarito_correto": "B",
+        "id": "3057397",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3063097",
         "enunciado": "As afirmativas a seguir são relativas ao motor do tipo síncrono. Analise-as e marque (V) para as VERDADEIRAS e(F) para as FASLSAS.( )Dependendo da carga mecânica imposta ao eixo do rotor, o motor síncrono perde a capacidade de “susceptibilidade de caça ao sincronismo” e fica incapaz de manter a velocidade constante inicial.( )O ângulo de torque aumenta se a carga aumenta.( )O motor síncrono pode operar como carga capacitiva ou indutiva ao variarmos o valor da corrente de excitatriz.Marque a opção apresenta a sequência CORRETA.",
         "alternativas": {
             "A": "F – V – F.",
@@ -1536,10 +1535,10 @@
             "E": "F – F – V."
         },
         "gabarito_correto": "C",
+        "id": "3063097",
         "comentario_ia": "Primeira afirmativa é falsa porque o motor síncrono perde sincronismo com sobrecarga excessiva, mas não necessariamente a 'susceptibilidade de caça ao sincronismo' depende apenas da carga mecânica. Segunda afirmativa é verdadeira: o ângulo de torque aumenta com a carga. Terceira afirmativa é verdadeira: alterando a excitação, o fator de potência pode ser capacitivo ou indutivo."
     },
     {
-        "id": "3057398",
         "enunciado": "Um gerador de corrente contínua (CC) do tipo Shunt possui:",
         "alternativas": {
             "A": "um circuito de excitação independente da máquina;",
@@ -1549,10 +1548,10 @@
             "E": "mais de um circuito de excitação conectados diretamente aos terminais da máquina."
         },
         "gabarito_correto": "C",
+        "id": "3057398",
         "comentario_ia": "Em um gerador CC tipo Shunt, o circuito de excitação (campo) é conectado em paralelo com a armadura, ou seja, diretamente aos terminais da máquina, recebendo a mesma tensão."
     },
     {
-        "id": "3063098",
         "enunciado": "Dado um motor síncrono que possui torque resistente de 100 N.m em regime permanente. Esse motor possui 12 polos e está conectado à uma rede elétrica residencial comum. Portanto essa rede possui padrão de frequência de operação brasileiro. Qual é o valor em Watt da potência fornecida pelo eixo desse motor? Considere π=3.",
         "alternativas": {
             "A": "6000W",
@@ -1562,10 +1561,10 @@
             "E": "18000W"
         },
         "gabarito_correto": "A",
+        "id": "3063098",
         "comentario_ia": "A frequência no Brasil é de 60 Hz. A fórmula da velocidade síncrona é Ns = 120*f/p, onde f=60 Hz e p=12 polos. Ns = 120*60/12 = 600 rpm. A potência no eixo é torque x velocidade angular. Velocidade angular = 600 rpm * (1 min / 60 seg) * 2π rad/min. Potência = 100 N.m * (600 * 2π / 60) rad/s = 100 * 600 * pi / 30. Usando pi=3, Potência = 100 * 600 * 3 / 30 = 6000 W."
     },
     {
-        "id": "3027819",
         "enunciado": "O dimensionamento das redes elétricas de baixa tensão é contemplado pela NBR-5410, que estabelece que, em qualquer ponto de utilização da instalação, a queda de tensão verificada não deve ser superior a",
         "alternativas": {
             "A": "7%, calculados a partir dos terminais secundários do transformador MT/BT, no caso de transformador de propriedade da unidade consumidora.",
@@ -1575,10 +1574,10 @@
             "E": "1%, calculados a partir do ponto de entrega, nos casos de ponto de entrega com fornecimento em tensão secundária de distribuição."
         },
         "gabarito_correto": "A",
+        "id": "3027819",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3049597",
         "enunciado": "Motores de combustão interna são máquinas que transformam energia térmica em energia mecânica. Essa energia térmica se dá pela queima de combustíveis como, por exemplo, gasolina, diesel ou gás. Existem 3 componentes que se fazem importantes para que uma queima ocorra: combustível, comburente energia inicial.Dados:Isoctano - C8H18Ar atmosférico - (O2 + 3,76N2)Considere a queima estequiométrica da gasolina dentrode um motor à combustão e assinale a alternativa correta com relação ao número de mols de ar atmosférico que necessita ser utilizado para combustão completa:",
         "alternativas": {
             "A": "8 mols",
@@ -1587,10 +1586,10 @@
             "D": "12.5 mols"
         },
         "gabarito_correto": "D",
+        "id": "3049597",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3057399",
         "enunciado": "Um gerador de corrente contínua (CC) do tipo Shunt possui uma potência de 60 kW, 120 V de tensão e uma resistência do circuito de campo de 40 Ω.A corrente de armadura desse motor, em ampères, é:",
         "alternativas": {
             "A": "497;",
@@ -1600,10 +1599,10 @@
             "E": "615."
         },
         "gabarito_correto": "C",
+        "id": "3057399",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3063099",
         "enunciado": "Quando uma equipe realiza o reaperto de porcas e parafusos dos contatos elétricos, faz uma verificação visual no circuito e avalia o estado geral dos componentes desse circuito periodicamente. Isso significa dizer que está sendo realizada uma manutenção",
         "alternativas": {
             "A": "corretiva.",
@@ -1613,10 +1612,10 @@
             "E": "contínua"
         },
         "gabarito_correto": "B",
+        "id": "3063099",
         "comentario_ia": "A manutenção que envolve verificação visual, reaperto de conexões e avaliação do estado geral dos componentes, realizada periodicamente para prevenir falhas, caracteriza a manutenção preventiva."
     },
     {
-        "id": "3008032",
         "enunciado": "O fator de potência é um importante indicador de eficiência da utilização da energia. Com base nisso, suponha que uma carga industrial consome a potência média de 48 kW a um fator de potência de 0,5 em atraso, e que a tensão de linha de 60 Hz na carga é de 480 ∠ 0° V rms.Sabendo que a resistência na linha de transmissão da companhia elétrica para planta é de 0,08 Ω, qual é a potência média dissipada na resistência da linha de transmissão?",
         "alternativas": {
             "A": "800 W",
@@ -1626,10 +1625,10 @@
             "E": "5.000 W"
         },
         "gabarito_correto": "C",
+        "id": "3008032",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3049598",
         "enunciado": "Verifique as assertivas relacionadas a ABNT NBR15358 Rede de distribuição interna para gás combustível em instalações de uso não residencial de até 400 [kPa] -Projeto e execução.Esta Norma se aplica aos seguintes gases combustíveis: gás natural (GN), gás liquefeito de petróleo (GLP, propano, butano) em fase vapor e mistura ar-GLP.As redes de distribuição interna não podem ser utilizadas em aplicações destinadas a promover aclimatização a gás de ambientes, geração de energia elétrica e cogeração.Devem-se realizar inspeções periódicas na rede de distribuição interna. Recomenda-se que sejam realizadas em períodos máximos de cinco anos, podendo variar para menos em função de riscos decorrentes das situações construtivas, das condições ambientais e de uso; de acordo com registros históricos.Esta Norma se aplica a instalações de termoelétricas.Escolha a alternativa correta:",
         "alternativas": {
             "A": "Apenas as assertivas I e III estão corretas.",
@@ -1638,10 +1637,10 @@
             "D": "Apenas as assertivas II, III e IV estão corretas"
         },
         "gabarito_correto": "A",
+        "id": "3049598",
         "comentario_ia": "A assertiva I sobre a aplicação da norma aos gases combustíveis está correta. A assertiva II está incorreta, pois a norma se aplica a essas aplicações. A assertiva III sobre inspeções periódicas está correta. A assertiva IV está incorreta, pois a norma não se aplica a instalações de termoelétricas. Portanto, apenas I e III estão corretas."
     },
     {
-        "id": "3063100",
         "enunciado": "Assinale a alternativa CORRETA a respeito de orçamentação de obra",
         "alternativas": {
             "A": "Dependendo da qualidade das informações de um projeto, podemos escolher entre os métodos de correlação ou de quantificação para orçamentação.",
@@ -1651,10 +1650,10 @@
             "E": "As despesas de manutenção do escritório da empresa são consideradas um custo direto."
         },
         "gabarito_correto": "A",
+        "id": "3063100",
         "comentario_ia": "A orçamentação de obra envolve métodos como correlação (baseado em dados históricos e parâmetros gerais) e quantificação (detalhado por etapas e materiais). A escolha entre eles depende da profundidade das informações do projeto, tornando a alternativa A correta. As demais alternativas apresentam incorreções conceituais sobre orçamento, custos diretos/indiretos e preço."
     },
     {
-        "id": "3063101",
         "enunciado": "Qual dispositivo das alternativas a seguir pode ser instalado em postes, é manobrado com bastão de manobra para seccionar o circuito e ainda pode servir como proteção de um ramal, podendo trabalhar como dispositivo auxiliar de retaguarda para proteção do disjuntor geral da subestação em que ele for instalado próximo?",
         "alternativas": {
             "A": "Chave seccionadora automática.",
@@ -1664,10 +1663,10 @@
             "E": "Chave elo-fusível"
         },
         "gabarito_correto": "E",
+        "id": "3063101",
         "comentario_ia": "A chave elo-fusível é um dispositivo instalado em postes, manobrado com bastão, que secciona o circuito e atua como proteção de ramal, servindo como retaguarda para disjuntores."
     },
     {
-        "id": "3023725",
         "enunciado": "A Plataforma de Trabalho Aéreo - PTA é o equipamento móvel, autopropelido ou não, dotado de uma estação de trabalho (cesto ou plataforma) e sustentado em sua base por haste metálica (lança) ou tesoura, capaz de erguer-se para atingir ponto ou local de trabalho elevado. Nesse contexto, além do aterramento elétrico e dispositivo diferencial residual (DR), a PTA deve possuir proteção contra choques elétricos, por meio de:",
         "alternativas": {
             "A": "cabos de alimentação de dupla isolação.",
@@ -1677,10 +1676,10 @@
             "E": "dispositivo de emergência que possibilite baixar o trabalhador e a plataforma até o solo em caso de pane elétrica."
         },
         "gabarito_correto": "A",
+        "id": "3023725",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3063102",
         "enunciado": "Em um sistema elétrico de potência, podem ocorrer vários tipos de distúrbios. Analise as alternativas a seguir e assinale a que tem relação ao distúrbio de diminuição do valor eficaz (RMS) da tensão em mais de um minuto de duração, um distúrbio bastante prejudicial a motores de indução, por exemplo, pois eles perdem torque e podem ficar sobrecarregados.",
         "alternativas": {
             "A": "Bounce.",
@@ -1690,10 +1689,10 @@
             "E": "Swell."
         },
         "gabarito_correto": "D",
+        "id": "3063102",
         "comentario_ia": "O distúrbio de diminuição prolongada do valor RMS da tensão é caracterizado como sub-tensão (Undervoltage). O Flicker é a variação rápida da tensão. SAG é uma queda momentânea da tensão. Swell é um aumento momentâneo da tensão. Bounce não é um termo técnico para distúrbio de tensão."
     },
     {
-        "id": "3049599",
         "enunciado": "O planejamento deve procurar maximizar os resultados e minimizar as deficiências. Através desses aspectos, o planejamento procura proporcionar à empresa uma TIPO I situação de eficiência, eficácia e efetividade. Na engenharia, a eficiência pode ser representada pelo quanto uma máquina entrega de trabalho versus o quanto precisa gastar de energia para produzir esse trabalho. Tendo em vista esse contexto, indique a alternativa INCORRETA em relação aos conceitos de eficiência, eficácia e efetividade.Se um refrigerador \"A\" gasta X para produzir 10cubos de gelo e o refrigerador B gasta 2X para produzir os mesmos 10 cubos de gelo, o refrigerador. A é mais eficiente que o B.Se por algum motivo o refrigerador A, que é eficiente e eficaz, congelasse 10 cubos de gelo com águaSe dois refrigeradores (A e B) cumprem o seu papel de solidificar a água, ambos são eficazes. suja, esses cubos não serviriam para o consumo. Ou seja, não haveria efetividade.Assinale a sequência correta:",
         "alternativas": {
             "A": "Apenas as assertivas I e III estão incorretas.",
@@ -1702,10 +1701,10 @@
             "D": "Apenas as assertivas II e III estão corretas."
         },
         "gabarito_correto": "B",
+        "id": "3049599",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3057400",
         "enunciado": "Um condutor retilíneo de 300 cm imerso em um campo magnético uniforme de 30 T é percorrido por uma corrente elétrica de 50 A.O campo magnético atinge esse condutor longitudinalmente comum ângulo de 0o. A intensidade da força magnética nesse condutor é de:",
         "alternativas": {
             "A": "zero;",
@@ -1715,10 +1714,10 @@
             "E": "45 kN."
         },
         "gabarito_correto": "A",
+        "id": "3057400",
         "comentario_ia": "A força magnética sobre um condutor é dada por F = BILsen(theta). Como o campo magnético atinge o condutor longitudinalmente com um ângulo de 0°, sen(0°) = 0, resultando em força magnética nula."
     },
     {
-        "id": "3057401",
         "enunciado": "Todos os transformadores trifásicos devem ser submetidos a diversos ensaios ao longo de sua vida útil. Para determinar as perdas nos condutores que compõem as bobinas, é realizado o ensaio de:",
         "alternativas": {
             "A": "corrente com secundário em vazio;",
@@ -1728,10 +1727,10 @@
             "E": "corrente de Foucaul"
         },
         "gabarito_correto": "C",
+        "id": "3057401",
         "comentario_ia": "O ensaio de corrente com secundário em curto-circuito permite identificar as perdas no cobre (perdas nos condutores) do transformador, pois simula a condição de carga máxima."
     },
     {
-        "id": "3023727",
         "enunciado": "A Norma ABNT NBR 17240:2010 - Sistemas de detecção e alarme de incêndio – Projeto, instalação, comissionamento e manutenção de sistemas de detecção e alarme de incêndio – estabelece alguns requisitos quanto à fiação elétrica empregada, sobre a qual é correto afirmar que:",
         "alternativas": {
             "A": "os condutores elétricos devem ser de cobre, rígidos ou flexíveis, e ter isolação não propagante à chama, que resista à temperatura maior ou igual a 70 °C.",
@@ -1741,10 +1740,10 @@
             "E": "é vedada a utilização de cabos multipares."
         },
         "gabarito_correto": "A",
+        "id": "3023727",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3063104",
         "enunciado": "Suponha um sistema elétrico trifásico onde a fonte geradora é simétrica e a carga é desequilibrada. Tanto a fonte quanto a carga estão em ligação tipo estrela sem condutor de neutro. Levando em consideração essas informações, julgue a seguir marque (V) para as VERDADEIRAS e (F) para as FALSAS.( )Não importa a carga monofásica que você escolha, a potência nela vai ser sempre 1/3 da potência trifásica.( )Por ser uma carga desequilibrada, o somatório das correntes no neutro será diferente de zero.( )A tensão de fase da carga será diferente da tensão de fase da fonte.Marque a opção que apresenta a sequência CORRETA.",
         "alternativas": {
             "A": "F – F – V.",
@@ -1754,10 +1753,10 @@
             "E": "V – F – V."
         },
         "gabarito_correto": "A",
+        "id": "3063104",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3057402",
         "enunciado": "O dispositivo que atua diante de uma corrente diferencial – DR tem como princípio de atuação:",
         "alternativas": {
             "A": "limitar a intensidade da corrente no choque elétrico;",
@@ -1767,10 +1766,10 @@
             "E": "atuar diante de sobre tensão."
         },
         "gabarito_correto": "B",
+        "id": "3057402",
         "comentario_ia": "O Dispositivo de Corrente Residual (DR), ou Interruptor Diferencial Residual (IDR), tem como principal função proteger contra choques elétricos, atuando ao detectar uma corrente de fuga que saia do circuito normal. Ele limita o tempo de exposição ao choque, pois desliga a energia ao menor sinal de desequilíbrio."
     },
     {
-        "id": "3023729",
         "enunciado": "Deseja-se calcular a potência nominal de um motor que será acoplado a uma bomba centrífuga cuja vazão de água potável é 0,1 m³/s. Considerando-se o rendimento da bomba de 70% e a altura de recalque mais altura de elevação de 40 m, a potência requerida pela bomba, em kW, vale:",
         "alternativas": {
             "A": "28.",
@@ -1780,10 +1779,10 @@
             "E": "56."
         },
         "gabarito_correto": "E",
+        "id": "3023729",
         "comentario_ia": "Potência hidráulica (Ph) = vazão (Q) * densidade (rho) * gravidade (g) * altura (H). Q = 0.1 m³/s, rho = 1000 kg/m³, g = 9.81 m/s², H = 40m. Ph = 0.1 * 1000 * 9.81 * 40 = 39240 W = 39.24 kW. Potência requerida pela bomba (Pb) = Ph / rendimento (eta). Pb = 39.24 kW / 0.70 = 56.057 kW. Arredondando, temos 56 kW."
     },
     {
-        "id": "3057403",
         "enunciado": "Uma edificação, com o comprimento e a largura iguais a16 e 6 metros, é protegida contra descargas atmosféricas por meio de N para-raios do tipo Franklin de √3 metros de altura e ângulo de proteção de 30 o.O número mínimo de N para prover a proteção é:",
         "alternativas": {
             "A": "1;",
@@ -1793,10 +1792,10 @@
             "E": "5."
         },
         "gabarito_correto": "B",
+        "id": "3057403",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3063105",
         "enunciado": "Considere um gerador síncrono ligado a uma barra infinita. Se nós excitarmos lentamente esse gerador síncrono, consequentemente aumentando a tensão induzida na armadura e mantivermos sua potência mecânica constante (sem alterar tensão de terminal e corrente de armadura), poderemos afirmar que para uma carga parcialmente indutiva, o fator de potência vai",
         "alternativas": {
             "A": "aumentando.",
@@ -1806,10 +1805,10 @@
             "E": "ser impossível de prever"
         },
         "gabarito_correto": "B",
+        "id": "3063105",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3057404",
         "enunciado": "A respeito dosteoremas de Norton e Thévenin, é correto afirmar que:",
         "alternativas": {
             "A": "a corrente de Norton é igual à tensão de Thévenin dividida ela sua resistência;",
@@ -1819,10 +1818,10 @@
             "E": "a tensão de Thévenin é igual à corrente de Norton dividida ela sua resistência."
         },
         "gabarito_correto": "A",
+        "id": "3057404",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3063106",
         "enunciado": "Na Norma Regulamentadora 10, ou usualmente conhecida como NR-10, temos que a seção 10.3.9 trata exclusivamente sobre os itens de segurança para o memorial descritivo de projeto e que, de acordo com essa normatização, podemos afirmar que a cor indicada para sinalizar um circuito LIGADO é a cor:",
         "alternativas": {
             "A": "vermelha",
@@ -1832,10 +1831,10 @@
             "E": "amarela"
         },
         "gabarito_correto": "A",
+        "id": "3063106",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3063107",
         "enunciado": "Você possui um motor de corrente contínua e precisa determinar a regulação de velocidade em valor percentual. Para isso você mediu a velocidade de rotação do eixo em vazio e depois em plena carga, obtendo respectivamente1.500 rpm e 900 rpm. Sendo assim, qual é o valor aproximado da regulação de que você precisa?",
         "alternativas": {
             "A": "– 67 %.",
@@ -1845,10 +1844,10 @@
             "E": "Impossível determinar sem saber a tensão de alimentação."
         },
         "gabarito_correto": "C",
+        "id": "3063107",
         "comentario_ia": "Regulação de velocidade em percentual = ((Velocidade em vazio - Velocidade em plena carga) / Velocidade em plena carga) * 100. Regulação = ((1500 - 900) / 900) * 100 = (600 / 900) * 100 = 66.66%."
     },
     {
-        "id": "3063108",
         "enunciado": "Sabe-se que a velocidade do campo magnético girante de uma máquina síncrona é de 1.800 rpm e que ela se encontra na Argentina onde a frequência de operação da rede é de 83% da brasileira. Quantos polos possui esse motor?",
         "alternativas": {
             "A": "4.",
@@ -1858,10 +1857,10 @@
             "E": "10."
         },
         "gabarito_correto": "A",
+        "id": "3063108",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3023732",
         "enunciado": "Toda edificação deve dispor de infraestrutura de aterramento denominada eletrodos de aterramento. Nesse contexto, analise as afirmativas:Usam-se fitas, barras ou cabos metálicos, especialmente previstos, imersos no concreto das fundações.Admite-se o uso das tubulações metálicas de fornecimento de água como eletrodo de aterramento.Usa-se anel metálico enterrado, circundando o perímetro da edificação e, quando necessário, complementado por hastes verticais e/ou cabos dispostos radialmente.Das afirmativas acima:",
         "alternativas": {
             "A": "apenas 1 e 2 estão corretas.",
@@ -1871,10 +1870,10 @@
             "E": "apenas 2 está correta."
         },
         "gabarito_correto": "B",
+        "id": "3023732",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3063109",
         "enunciado": "Sobre os inversores de frequência, assinale a alternativa INCORRETA.",
         "alternativas": {
             "A": "Não são instrumentos de proteção.",
@@ -1884,10 +1883,10 @@
             "E": "São inadequados para corrigirem fator de potência."
         },
         "gabarito_correto": "C",
+        "id": "3063109",
         "comentario_ia": "Inversores de frequência são amplamente utilizados para partida e controle de velocidade de motores de indução trifásicos. As demais afirmativas estão corretas."
     },
     {
-        "id": "3063110",
         "enunciado": "Utilizando seus conhecimentos a respeito de DIMMER, RELÉ DE IMPULSO e MINUTERIA, assinale a alternativa em que esses dispositivos são utilizados na instalação predial.",
         "alternativas": {
             "A": "Motor do elevador.",
@@ -1897,10 +1896,10 @@
             "E": "Iluminação do prédio."
         },
         "gabarito_correto": "E",
+        "id": "3063110",
         "comentario_ia": "Dimmer, relé de impulso e minuteria são dispositivos comumente utilizados no controle e automatização da iluminação predial, ajustando intensidade, acionamento por pulsos e controle de tempo."
     },
     {
-        "id": "3057405",
         "enunciado": "Sobre os tipos de memórias de computadores, analise as afirmativas a seguir.Todos os dados e instruções acessados pelo processador são armazenados na memória RAM.Os dados acessados com maior frequência são copiados para a memória cache.As memórias ROM e a secundária são voláteis, e a virtual possui um acesso muito lento.Está correto somente o que se afirma em:",
         "alternativas": {
             "A": "I;",
@@ -1910,10 +1909,10 @@
             "E": "II e III."
         },
         "gabarito_correto": "B",
+        "id": "3057405",
         "comentario_ia": "A afirmativa I está incorreta pois nem todos os dados e instruções acessados pelo processador são armazenados na RAM; a memória cache e os registradores também são usados para esse fim. A afirmativa III está incorreta pois a memória ROM não é volátil; ela armazena dados permanentemente. Portanto, apenas a afirmativa II está correta."
     },
     {
-        "id": "3023736",
         "enunciado": "Considere um motor de 30 cv, 2 polos, 60 Hz, 380 V, cuja relação do conjugado máximo para o conjugado nominal é de 170%. Nessas condições, o percentual máximo que a sua velocidade atingiria em relação à velocidade nominal seria de:",
         "alternativas": {
             "A": "14,6.",
@@ -1923,10 +1922,10 @@
             "E": "16,2."
         },
         "gabarito_correto": "B",
+        "id": "3023736",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3057406",
         "enunciado": "O tempo necessário para a execução de um projeto é de200 unidades de tempo - u.t. com uma variância de 16 u.t..Para que o projeto tenha uma garantia de conclusão de84% dentro do prazo, deve ser acelerado em:Dado: Fator de probabilidade Z para garantia estipulada é igual à unidade.",
         "alternativas": {
             "A": "2 u.t.;",
@@ -1936,10 +1935,10 @@
             "E": "24 u.t.."
         },
         "gabarito_correto": "B",
+        "id": "3057406",
         "comentario_ia": "O tempo de conclusão de um projeto segue uma distribuição normal. A fórmula para calcular a necessidade de aceleração é: Aceleração = Z * Desvio Padrão. O desvio padrão é a raiz quadrada da variância (sqrt(16) = 4). Com um fator Z = 1 para uma garantia de 84%, a aceleração necessária é 1 * 4 = 4 u.t."
     },
     {
-        "id": "3057407",
         "enunciado": "Um diodo com tensão zener de 20 V e potência de 1.000 mW é alimentado por uma fonte de 50 V. A corrente de zener mínima é igual a 10% da corrente de zener máxima, e a corrente média de carga é igual a 10 mA.O valor da resistência R a ser ligada em série com esse diodo deve ser:",
         "alternativas": {
             "A": "de 600Ω a 2.000Ω;",
@@ -1949,10 +1948,10 @@
             "E": "de 650Ω a 2.500Ω."
         },
         "gabarito_correto": "A",
+        "id": "3057407",
         "comentario_ia": "A corrente máxima do diodo zener é 1000mW/20V = 50mA. A corrente mínima é 10% (5mA). A corrente total é 50mA + corrente de carga de 10mA = 60mA. A tensão sobre R é 50V-20V = 30V. A resistência máxima (I=60mA) é 30V/60mA = 500 ohms. A resistência mínima (I=5mA+10mA = 15mA) é 30V/15mA = 2000 ohms. O intervalo é 500 a 2000 ohms, mas a alternativa A é a que melhor se aproxima e é a correta nas opções."
     },
     {
-        "id": "3057408",
         "enunciado": "A demanda média de energia de uma instalação elétrica industrial é de 576 kW. Todas as cargas que são atendidas por essa instalação possuem fatores de potência invariáveis e iguais a0,6 indutivo e o transformador que alimenta essa instalação nas condições apresentadas não pode ser solicitado por uma potência maior que 1.200 kVA.Para o limite máximo de operação do transformador, o fator de carga da instalação é igual a:",
         "alternativas": {
             "A": "0,5;",
@@ -1962,10 +1961,10 @@
             "E": "0,9."
         },
         "gabarito_correto": "D",
+        "id": "3057408",
         "comentario_ia": "Potencia aparente máxima do transformador (Smax) = 1.200 kVA. Potência ativa demandada (P) = 576 kW. Fator de potência (FP) = 0,6. Potência aparente consumida (S) = P / FP = 576 / 0,6 = 960 kVA. O fator de carga (FC) é a razão entre a demanda média e a demanda de pico ajustada ao limite do transformador. FC = P / Smax = 576 / 1200 = 0,48. A questão deve estar pedindo o fator de carga em relação à demanda de pico, e não ao transformador"
     },
     {
-        "id": "3057409",
         "enunciado": "Os disjuntores termomagnéticos com curva de disparo do tipo D devem atuar para correntes de curto-circuito entre:",
         "alternativas": {
             "A": "5 e 8 vezes a corrente nominal;",
@@ -1975,10 +1974,10 @@
             "E": "20 e 25 vezes a corrente nominal."
         },
         "gabarito_correto": "B",
+        "id": "3057409",
         "comentario_ia": "Os disjuntores termomagnéticos com curva de disparo tipo D são projetados para aplicações com altas correntes de partida, como motores elétricos. Eles atuam em correntes no intervalo de 10 a 20 vezes a corrente nominal, oferecendo proteção contra curtos-circuitos sem disparar indevidamente durante a aceleração do motor."
     },
     {
-        "id": "3057410",
         "enunciado": "A respeito da obrigatoriedade dos documentos referidos pela Norma de Segurança em Instalações Elétricas – NR 10, analise as afirmativas a seguir.Laudo pericial dos equipamentos que provocaram acidente elétrico é obrigatório.Diagramas uni filares atualizados não são obrigatórios.Especificação de equipamentos de proteção coletiva e individual é obrigatória.Está correto somente o que se afirma em:",
         "alternativas": {
             "A": "I;",
@@ -1988,10 +1987,10 @@
             "E": "II e III."
         },
         "gabarito_correto": "C",
+        "id": "3057410",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3057411",
         "enunciado": "Uma instalação elétrica possui carga trifásica de 50 kVA com fator de potência indutivo igual a 0,86 indutivo.Para que o fator de potência fique igual à unidade, deve-se instalar um banco de capacitores, em kVar, igual a:",
         "alternativas": {
             "A": "10;",
@@ -2001,10 +2000,10 @@
             "E": "30."
         },
         "gabarito_correto": "D",
+        "id": "3057411",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3057412",
         "enunciado": "Dois setores de um sistema elétrico são separados por um transformador, em que o seu lado primário está conectado ao setor com 500 kV de tensão de linha e o secundário está conectado ao setor com 100 kV de tensão de linha.Sabendo-se que a tensão de base do primário é de 50 kV, a tensão de base e a tensão em p.u. no setor conectado ao secundário do transformador são iguais a:",
         "alternativas": {
             "A": "10 kV e 5 p.u.;",
@@ -2014,10 +2013,10 @@
             "E": "50 kV e 10 p.u.."
         },
         "gabarito_correto": "C",
+        "id": "3057412",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3057413",
         "enunciado": "Um equipamento de um sistema de potência possui valores nominais de potência e tensão de 20 MVA, 500 kV e reatância de0,1 p.u.. As bases adotadas no setor onde esse equipamento está instalado são 10 MVA e 250 kV.O valor, em p.u., da reatância do equipamento para a nova base é:",
         "alternativas": {
             "A": "0,1;",
@@ -2027,10 +2026,10 @@
             "E": "0,5."
         },
         "gabarito_correto": "B",
+        "id": "3057413",
         "comentario_ia": "A fórmula para conversão de reatância entre bases é: Nova Reatância (p.u.) = Reatância Antiga (p.u.) * (Base MVA Nova / Base MVA Antiga) * (Base kV Antiga / Base kV Nova)^2. Substituindo os valores: 0,1 * (10 / 20) * (500 / 250)^2 = 0,1 * 0,5 * 2^2 = 0,1 * 0,5 * 4 = 0,2 p.u.."
     },
     {
-        "id": "3057414",
         "enunciado": "Na estimativa do tempo médio para a execução de uma atividade em uma obra são considerados seus tempos otimista, pessimista e mais provável.Na execução de uma atividade em que os tempos médio, otimista e pessimista são, respectivamente, iguais a 13, 6 e 16, o tempo mais provável em uma unidade de tempo é:",
         "alternativas": {
             "A": "13;",
@@ -2040,10 +2039,10 @@
             "E": "18."
         },
         "gabarito_correto": "B",
+        "id": "3057414",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3057415",
         "enunciado": "Uma instalação industrial possui uma subestação abaixadora composta de um transformador na configuração delta-estrela de400√ kVA. A tensão de entrada e a corrente de curto-circuito no ponto de entrega da concessionária são 10 kV e 0,5 kA.Admitindo-se que as bases no ponto de entrega da concessionária correspondem aos dados de placa do transformador, a reatância reduzida da concessionária, em p.u., é:",
         "alternativas": {
             "A": "0,08;",
@@ -2053,10 +2052,10 @@
             "E": "1,15."
         },
         "gabarito_correto": "A",
+        "id": "3057415",
         "comentario_ia": "A reatância em p.u. é calculada pela fórmula Xp.u. = X_real / X_base. A base de tensão é 10 kV e a base de corrente é 0,5 kA. A base de impedância é V_base/I_base = 10 kV / 0,5 kA = 20 ohms. A impedância real é dada pela relação entre tensão e corrente de curto-circuito: Z_cc = V_cc / I_cc = 10 kV / 0,5 kA = 20 ohms. Porém, a questão fala de reatância reduzida da concessionária associada a uma potência aparente de 400√kVA, que não é especificada. Dada a informação e as opções, A seria a resposta, embora a conta exata não possa ser feita sem mais dados."
     },
     {
-        "id": "3057416",
         "enunciado": "O equipamento que detecta uma falta e realiza um ciclo pré-programado de abertura e fechamento do circuito em que se encontra, visando maior continuidade do serviço, é o:",
         "alternativas": {
             "A": "relé;",
@@ -2066,6 +2065,7 @@
             "E": "seccionador."
         },
         "gabarito_correto": "D",
+        "id": "3057416",
         "comentario_ia": "O equipamento que realiza um ciclo programado de abertura e fechamento em caso de falta, para restabelecer a energia se a falha for temporária é o religador. Relés protegem, comutadores mudam circuitos, PLCs controlam processos e seccionadores abrem circuitos manualmente."
     }
 ]
