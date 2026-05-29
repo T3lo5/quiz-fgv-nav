@@ -60,6 +60,13 @@ const HubApp = {
         this.btnCreateTest = document.getElementById('btn-create-test');
         this.recentTestsContainer = document.getElementById('recent-tests');
         this.favoritesListContainer = document.getElementById('favorites-list');
+        
+        // Dashboard de Disciplinas - UI-02
+        this.disciplinesGrid = document.getElementById('disciplines-grid');
+        this.sortSelect = document.getElementById('sort-select');
+        this.viewBtns = document.querySelectorAll('.view-btn');
+        this.areaFilterBtns = document.querySelectorAll('.area-filter-btn');
+        this.loadingIndicator = document.getElementById('disciplines-loading');
     },
 
     // ========================================
@@ -127,6 +134,19 @@ const HubApp = {
                 e.currentTarget.classList.add('active');
             });
         });
+        
+        // Dashboard de Disciplinas - UI-02 Events
+        if (this.sortSelect) {
+            this.sortSelect.addEventListener('change', (e) => this.sortDisciplines(e));
+        }
+        
+        this.viewBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => this.toggleViewMode(e));
+        });
+        
+        this.areaFilterBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => this.filterByArea(e));
+        });
     },
 
     // ========================================
@@ -164,14 +184,16 @@ const HubApp = {
     loadMockData() {
         // Dados de exemplo caso o catalog.json não exista
         this.state.disciplines = [
-            { name: 'Língua Portuguesa', category: 'humanas', questionsCount: 150, icon: '📚' },
-            { name: 'Raciocínio Lógico', category: 'exatas', questionsCount: 120, icon: '🔢' },
-            { name: 'Informática', category: 'exatas', questionsCount: 98, icon: '💻' },
-            { name: 'Direito Constitucional', category: 'direito', questionsCount: 200, icon: '⚖️' },
-            { name: 'Legislação', category: 'direito', questionsCount: 180, icon: '📜' },
-            { name: 'Ética', category: 'humanas', questionsCount: 75, icon: '✨' },
-            { name: 'Matemática Financeira', category: 'exatas', questionsCount: 90, icon: '💰' },
-            { name: 'Administração Pública', category: 'admin', questionsCount: 110, icon: '🏛️' }
+            { name: 'Língua Portuguesa', area: 'humanas', questionsCount: 150, icon: '📚', progress: 75 },
+            { name: 'Raciocínio Lógico', area: 'exatas', questionsCount: 120, icon: '🔢', progress: 60 },
+            { name: 'Informática', area: 'tecnologia', questionsCount: 98, icon: '💻', progress: 45 },
+            { name: 'Direito Constitucional', area: 'direito', questionsCount: 200, icon: '⚖️', progress: 30 },
+            { name: 'Legislação', area: 'direito', questionsCount: 180, icon: '📜', progress: 55 },
+            { name: 'Ética', area: 'humanas', questionsCount: 75, icon: '✨', progress: 80 },
+            { name: 'Matemática Financeira', area: 'exatas', questionsCount: 90, icon: '💰', progress: 40 },
+            { name: 'Administração Pública', area: 'administracao', questionsCount: 110, icon: '🏛️', progress: 65 },
+            { name: 'Enfermagem', area: 'saude', questionsCount: 250, icon: '🩺', progress: 20 },
+            { name: 'Geografia', area: 'humanas', questionsCount: 130, icon: '🌍', progress: 50 }
         ];
         
         this.state.categories = {
@@ -187,6 +209,7 @@ const HubApp = {
         this.state.stats.totalQuestions = this.state.disciplines.reduce((sum, d) => sum + d.questionsCount, 0);
         
         this.loadUserData();
+        this.renderDisciplinesDashboard();
     },
 
     loadUserData() {
@@ -386,6 +409,151 @@ const HubApp = {
     viewCategory(categoryKey) {
         console.log('Visualizando categoria:', categoryKey);
         alert(`📁 Mostrando disciplinas de: ${this.state.categories[categoryKey]?.name || categoryKey}`);
+    },
+
+    // ========================================
+    // Dashboard de Disciplinas - UI-02
+    // ========================================
+    
+    /**
+     * Renderiza o dashboard de disciplinas com grid de cards
+     * UI-02.1: Criar grid de cards de disciplinas
+     * UI-02.2: Implementar contadores de questões por disciplina
+     * UI-02.3: Adicionar barras de progresso visual
+     * UI-02.4: Criar sistema de cores/ícones por categoria
+     */
+    renderDisciplinesDashboard(filteredDisciplines = null) {
+        if (!this.disciplinesGrid) return;
+        
+        const disciplines = filteredDisciplines || this.state.disciplines;
+        
+        if (disciplines.length === 0) {
+            this.disciplinesGrid.innerHTML = `
+                <div style="grid-column: 1/-1; text-align: center; padding: 3rem;">
+                    <i class="fas fa-inbox" style="font-size: 3rem; color: var(--gray-400); margin-bottom: 1rem;"></i>
+                    <p style="color: var(--gray-500); font-size: 1.1rem;">Nenhuma disciplina encontrada</p>
+                </div>
+            `;
+            return;
+        }
+        
+        this.disciplinesGrid.innerHTML = disciplines.map(disc => `
+            <div class="discipline-card" data-area="${disc.area}" onclick="HubApp.viewDiscipline('${disc.name}')">
+                <div class="discipline-card-header">
+                    <div class="discipline-icon ${disc.area}">
+                        ${disc.icon || '📚'}
+                    </div>
+                    <div class="discipline-info">
+                        <h4 class="discipline-name">${disc.name}</h4>
+                        <span class="discipline-category">${disc.area}</span>
+                    </div>
+                </div>
+                
+                <div class="discipline-stats">
+                    <div class="stat-item">
+                        <span class="stat-value">${disc.questionsCount.toLocaleString('pt-BR')}</span>
+                        <span class="stat-label-sm">Questões</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">${Math.floor(disc.questionsCount / 10)}</span>
+                        <span class="stat-label-sm">Testes</span>
+                    </div>
+                </div>
+                
+                <div class="progress-container">
+                    <div class="progress-label">
+                        <span>Progresso</span>
+                        <span>${disc.progress || 0}%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: ${disc.progress || 0}%"></div>
+                    </div>
+                </div>
+            </div>
+        `).join('');
+        
+        // Esconder loading
+        if (this.loadingIndicator) {
+            this.loadingIndicator.classList.remove('active');
+        }
+    },
+
+    /**
+     * UI-02.5: Implementar ordenação (alfabética, quantidade, recentidade)
+     */
+    sortDisciplines(e) {
+        const sortBy = e.target.value;
+        let sortedDisciplines = [...this.state.disciplines];
+        
+        switch(sortBy) {
+            case 'alphabetical':
+                sortedDisciplines.sort((a, b) => a.name.localeCompare(b.name));
+                break;
+            case 'quantity':
+                sortedDisciplines.sort((a, b) => b.questionsCount - a.questionsCount);
+                break;
+            case 'recent':
+                // Simula recentidade baseado no progresso (maior progresso = mais recente)
+                sortedDisciplines.sort((a, b) => (b.progress || 0) - (a.progress || 0));
+                break;
+        }
+        
+        this.renderDisciplinesDashboard(sortedDisciplines);
+    },
+
+    /**
+     * Alternar entre visualização grid e lista
+     */
+    toggleViewMode(e) {
+        const view = e.currentTarget.dataset.view;
+        
+        // Atualizar botões ativos
+        this.viewBtns.forEach(btn => btn.classList.remove('active'));
+        e.currentTarget.classList.add('active');
+        
+        // Aplicar classe na grid
+        if (this.disciplinesGrid) {
+            if (view === 'list') {
+                this.disciplinesGrid.classList.add('list-view');
+            } else {
+                this.disciplinesGrid.classList.remove('list-view');
+            }
+        }
+    },
+
+    /**
+     * UI-02.6: Adicionar filtros por área (Exatas, Humanas, Saúde, etc.)
+     */
+    filterByArea(e) {
+        const area = e.currentTarget.dataset.area;
+        
+        // Atualizar botões ativos
+        this.areaFilterBtns.forEach(btn => btn.classList.remove('active'));
+        e.currentTarget.classList.add('active');
+        
+        // Filtrar disciplinas
+        if (area === 'all') {
+            this.renderDisciplinesDashboard(this.state.disciplines);
+        } else {
+            const filtered = this.state.disciplines.filter(disc => disc.area === area);
+            this.renderDisciplinesDashboard(filtered);
+        }
+    },
+
+    /**
+     * UI-02.7: Criar view detalhada ao clicar em disciplina
+     */
+    viewDiscipline(disciplineName) {
+        console.log('Visualizando disciplina:', disciplineName);
+        const discipline = this.state.disciplines.find(d => d.name === disciplineName);
+        
+        if (discipline) {
+            alert(`📚 ${disciplineName}\n\n` +
+                  `📊 Questões: ${discipline.questionsCount}\n` +
+                  `📁 Área: ${discipline.area}\n` +
+                  `📈 Progresso: ${discipline.progress || 0}%\n\n` +
+                  `Abrindo detalhes da disciplina...`);
+        }
     },
 
     // ========================================

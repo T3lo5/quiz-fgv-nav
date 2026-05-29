@@ -1049,3 +1049,371 @@ body {
         margin-top: 0.5rem;
     }
 }
+
+/* ========================================
+   Dashboard de Disciplinas - UI-02
+   ======================================== */
+
+.disciplines-dashboard-section {
+    padding: 3rem 2rem;
+    background: var(--white);
+    margin: 2rem auto;
+    max-width: 1400px;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+}
+
+.dashboard-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.sort-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.sort-controls label {
+    font-weight: 500;
+    color: var(--gray-600);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#sort-select {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    font-size: 0.95rem;
+    background: var(--white);
+    cursor: pointer;
+    transition: var(--transition-base);
+}
+
+#sort-select:hover {
+    border-color: var(--primary-color);
+}
+
+#sort-select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.view-toggle {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.view-btn {
+    padding: 0.5rem 0.75rem;
+    border: 2px solid var(--gray-200);
+    background: var(--white);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: var(--transition-base);
+    color: var(--gray-500);
+    font-size: 1rem;
+}
+
+.view-btn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.view-btn.active {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* Filtros por Área */
+.area-filters {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--gray-100);
+}
+
+.area-filter-btn {
+    padding: 0.6rem 1.25rem;
+    border: 2px solid var(--gray-200);
+    background: var(--white);
+    border-radius: var(--radius-2xl);
+    cursor: pointer;
+    transition: var(--transition-base);
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--gray-600);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.area-filter-btn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.area-filter-btn.active {
+    background: var(--gradient-primary);
+    border-color: transparent;
+    color: var(--white);
+}
+
+.area-filter-btn i {
+    font-size: 0.85rem;
+}
+
+/* Grid de Disciplinas */
+.disciplines-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.discipline-card {
+    background: var(--white);
+    border: 2px solid var(--gray-100);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    transition: var(--transition-base);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.discipline-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient-primary);
+    transform: scaleX(0);
+    transition: var(--transition-base);
+}
+
+.discipline-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--primary-color);
+}
+
+.discipline-card:hover::before {
+    transform: scaleX(1);
+}
+
+.discipline-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.discipline-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.discipline-icon.exatas { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+.discipline-icon.humanas { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+.discipline-icon.saude { background: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%); }
+.discipline-icon.direito { background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); }
+.discipline-icon.tecnologia { background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%); }
+.discipline-icon.administracao { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+
+.discipline-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.discipline-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--gray-800);
+    margin-bottom: 0.25rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.discipline-category {
+    font-size: 0.85rem;
+    color: var(--gray-500);
+    text-transform: capitalize;
+}
+
+.discipline-stats {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--gray-100);
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.stat-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.stat-label-sm {
+    font-size: 0.75rem;
+    color: var(--gray-500);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Barra de Progresso */
+.progress-container {
+    margin-top: 1rem;
+}
+
+.progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: var(--gray-600);
+    margin-bottom: 0.5rem;
+}
+
+.progress-bar-bg {
+    height: 8px;
+    background: var(--gray-200);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-sm);
+    transition: width 0.5s ease;
+}
+
+/* Visualização em Lista */
+.disciplines-grid.list-view {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.disciplines-grid.list-view .discipline-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 1.5rem;
+}
+
+.disciplines-grid.list-view .discipline-card-header {
+    margin-bottom: 0;
+}
+
+.disciplines-grid.list-view .discipline-stats {
+    margin-left: auto;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+}
+
+.disciplines-grid.list-view .progress-container {
+    display: none;
+}
+
+/* Loading Indicator */
+.loading-indicator {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.loading-indicator.active {
+    display: flex;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid var(--gray-200);
+    border-top-color: var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.loading-indicator p {
+    margin-top: 1rem;
+    color: var(--gray-600);
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .disciplines-dashboard-section {
+        padding: 2rem 1rem;
+        margin: 1rem;
+    }
+    
+    .dashboard-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .sort-controls {
+        justify-content: center;
+    }
+    
+    .view-toggle {
+        justify-content: center;
+    }
+    
+    .area-filters {
+        justify-content: center;
+    }
+    
+    .disciplines-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .disciplines-grid.list-view .discipline-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .disciplines-grid.list-view .discipline-stats {
+        margin-left: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+}

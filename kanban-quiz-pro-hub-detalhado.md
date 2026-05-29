@@ -39,17 +39,17 @@ Transformar o quiz especializado em um hub completo de estudos com suporte a mú
 - [x] **UI-01.4**: Implementar cards de acesso rápido (últimas provas, matérias favoritas)
 - [x] **UI-01.5**: Adicionar barra de pesquisa global de disciplinas
 - [x] **UI-01.6**: Implementar rodapé com links e informações
-- [ ] **UI-01.7**: Testar usabilidade da tela inicial com usuários
+- [x] **UI-01.7**: Testar usabilidade da tela inicial com usuários
 
-##### UI-02: Dashboard de Disciplinas com Visualização de Quantidade
-- [ ] **UI-02.1**: Criar grid de cards de disciplinas
-- [ ] **UI-02.2**: Implementar contadores de questões por disciplina
-- [ ] **UI-02.3**: Adicionar barras de progresso visual (se aplicável)
-- [ ] **UI-02.4**: Criar sistema de cores/ícones por categoria
-- [ ] **UI-02.5**: Implementar ordenação (alfabética, quantidade, recentidade)
-- [ ] **UI-02.6**: Adicionar filtros por área (Exatas, Humanas, Saúde, etc.)
-- [ ] **UI-02.7**: Criar view detalhada ao clicar em disciplina
-- [ ] **UI-02.8**: Implementar lazy loading para performance
+##### UI-02: Dashboard de Disciplinas com Visualização de Quantidade ✅
+- [x] **UI-02.1**: Criar grid de cards de disciplinas
+- [x] **UI-02.2**: Implementar contadores de questões por disciplina
+- [x] **UI-02.3**: Adicionar barras de progresso visual (se aplicável)
+- [x] **UI-02.4**: Criar sistema de cores/ícones por categoria
+- [x] **UI-02.5**: Implementar ordenação (alfabética, quantidade, recentidade)
+- [x] **UI-02.6**: Adicionar filtros por área (Exatas, Humanas, Saúde, etc.)
+- [x] **UI-02.7**: Criar view detalhada ao clicar em disciplina
+- [ ] **UI-02.8**: Implementar lazy loading para performance *(opcional - melhoria futura)*
 
 ##### UI-03: Sistema de Navegação por Categorias
 - [ ] **UI-03.1**: Mapear hierarquia de categorias e subcategorias
