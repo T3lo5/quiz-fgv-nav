@@ -1265,6 +1265,9 @@
     window.showReviewScreen = showReviewScreen;
     window.hideReviewScreen = hideReviewScreen;
     window.showReviewComplete = showReviewComplete;
+    
+    // Exportar função de carregamento de questões (Tarefa 2.1 - KANBAN)
+    window.loadReviewQuestions = loadReviewQuestions;
 
     // Exportar quiz functions para outros scripts
     window.mainQuizFunctions = {

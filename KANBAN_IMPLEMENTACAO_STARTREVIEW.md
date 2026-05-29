@@ -204,7 +204,9 @@ function startReview() {
 
 - [x] Identificação do problema na função `startReview()`
 - [x] Criação deste quadro Kanban
-- [ ] ~~Placeholder inicial da função~~ (precisa ser substituído por implementação real)
+- [x] ~~Placeholder inicial da função~~ (precisa ser substituído por implementação real)
+- [x] **Tarefa 1.2**: Criar funções utilitárias de manipulação de DOM (`showReviewScreen`, `hideReviewScreen`, `showReviewComplete`)
+- [x] **Tarefa 2.1**: Implementar `loadReviewQuestions()` - Carregar questões baseadas nos filtros selecionados
 
 ---
 
