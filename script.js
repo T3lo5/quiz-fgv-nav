@@ -737,7 +737,7 @@
     }
 
     // Função para iniciar o quiz
-    function startQuiz() {
+    async function startQuiz() {
         console.log('Iniciando quiz...');
         // Verificar se as questões foram carregadas
         if (!questions || questions.length === 0) {
