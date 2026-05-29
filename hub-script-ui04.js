@@ -4,6 +4,256 @@
  */
 
 // ========================================
+// MOTOR-05: Timer Global para Provas Personalizadas
+// ========================================
+const TestTimer = {
+    state: {
+        isEnabled: false,
+        totalSeconds: 3600,
+        remainingSeconds: 3600,
+        isRunning: false,
+        isPaused: false,
+        startTime: null,
+        pauseTime: null,
+        intervalId: null,
+        warningThreshold: 300, // 5 minutos em segundos
+        hasWarningPlayed: false
+    },
+
+    init(isEnabled, minutes) {
+        this.state.isEnabled = isEnabled;
+        this.state.totalSeconds = minutes * 60;
+        this.state.remainingSeconds = minutes * 60;
+        this.state.hasWarningPlayed = false;
+        
+        console.log(`⏱️ MOTOR-05: Timer inicializado - ${minutes} minutos`);
+    },
+
+    start() {
+        if (!this.state.isEnabled || this.state.isRunning) return;
+        
+        this.state.isRunning = true;
+        this.state.startTime = Date.now();
+        
+        // Verificar se há tempo persistido no sessionStorage
+        const savedTime = sessionStorage.getItem('testTimerRemaining');
+        if (savedTime) {
+            this.state.remainingSeconds = parseInt(savedTime, 10);
+            console.log('📥 MOTOR-05.7: Tempo restaurado do sessionStorage:', this.state.remainingSeconds, 'segundos');
+        }
+        
+        this.startInterval();
+        this.updateDisplay();
+        
+        console.log('▶️ MOTOR-05: Timer iniciado');
+    },
+
+    startInterval() {
+        if (this.state.intervalId) clearInterval(this.state.intervalId);
+        
+        this.state.intervalId = setInterval(() => {
+            if (!this.state.isPaused) {
+                this.state.remainingSeconds--;
+                
+                // Persistir tempo restante
+                sessionStorage.setItem('testTimerRemaining', this.state.remainingSeconds.toString());
+                
+                this.updateDisplay();
+                this.checkWarning();
+                
+                if (this.state.remainingSeconds <= 0) {
+                    this.autoSubmit();
+                }
+            }
+        }, 1000);
+    },
+
+    pause() {
+        if (!this.state.isRunning || this.state.isPaused) return;
+        
+        this.state.isPaused = true;
+        this.state.pauseTime = Date.now();
+        
+        if (this.state.intervalId) clearInterval(this.state.intervalId);
+        
+        console.log('⏸️ MOTOR-05.4: Timer pausado');
+    },
+
+    resume() {
+        if (!this.state.isRunning || !this.state.isPaused) return;
+        
+        this.state.isPaused = false;
+        this.startInterval();
+        
+        console.log('▶️ MOTOR-05.4: Timer retomado');
+    },
+
+    stop() {
+        if (this.state.intervalId) clearInterval(this.state.intervalId);
+        this.state.isRunning = false;
+        this.state.isPaused = false;
+        sessionStorage.removeItem('testTimerRemaining');
+        
+        console.log('⏹️ MOTOR-05: Timer parado');
+    },
+
+    updateDisplay() {
+        const timerDisplay = document.getElementById('global-timer-display');
+        if (!timerDisplay) return;
+        
+        const minutes = Math.floor(this.state.remainingSeconds / 60);
+        const seconds = this.state.remainingSeconds % 60;
+        
+        timerDisplay.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        
+        // Atualizar tempo médio por questão (MOTOR-05.6)
+        this.updateAverageTimePerQuestion();
+    },
+
+    updateAverageTimePerQuestion() {
+        const elapsedSeconds = this.state.totalSeconds - this.state.remainingSeconds;
+        const currentQuestionEl = document.querySelector('.question-counter');
+        const questionMatch = currentQuestionEl?.textContent?.match(/(\d+)\/(\d+)/);
+        
+        if (questionMatch && elapsedSeconds > 0) {
+            const currentQuestion = parseInt(questionMatch[1], 10);
+            const avgSecondsPerQuestion = elapsedSeconds / currentQuestion;
+            const avgMinutes = Math.floor(avgSecondsPerQuestion / 60);
+            const avgSeconds = Math.floor(avgSecondsPerQuestion % 60);
+            
+            let avgDisplay = document.getElementById('avg-time-per-question');
+            if (!avgDisplay) {
+                avgDisplay = document.createElement('span');
+                avgDisplay.id = 'avg-time-per-question';
+                avgDisplay.className = 'avg-time-display';
+                currentQuestionEl?.parentNode?.appendChild(avgDisplay);
+            }
+            
+            avgDisplay.textContent = `⏱️ Média: ${avgMinutes}m${avgSeconds}s por questão`;
+        }
+    },
+
+    checkWarning() {
+        // MOTOR-05.3: Alerta para 5 minutos finais
+        if (this.state.remainingSeconds <= this.state.warningThreshold && !this.state.hasWarningPlayed) {
+            this.state.hasWarningPlayed = true;
+            this.playWarning();
+        }
+        
+        // Atualizar estilo visual quando estiver perto do fim
+        const timerDisplay = document.getElementById('global-timer-display');
+        if (timerDisplay) {
+            if (this.state.remainingSeconds <= 60) {
+                timerDisplay.classList.add('timer-critical');
+            } else if (this.state.remainingSeconds <= this.state.warningThreshold) {
+                timerDisplay.classList.add('timer-warning');
+            } else {
+                timerDisplay.classList.remove('timer-warning', 'timer-critical');
+            }
+        }
+    },
+
+    playWarning() {
+        console.log('⚠️ MOTOR-05.3: Alerta de 5 minutos finais!');
+        
+        // Alerta visual
+        const timerDisplay = document.getElementById('global-timer-display');
+        if (timerDisplay) {
+            timerDisplay.classList.add('timer-flash');
+            setTimeout(() => timerDisplay.classList.remove('timer-flash'), 2000);
+        }
+        
+        // Alerta sonoro (se suportado pelo browser)
+        try {
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.value = 800;
+            oscillator.type = 'sine';
+            gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.5);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 0.5);
+            
+            // Tocar 3 bipes
+            setTimeout(() => {
+                const osc2 = audioContext.createOscillator();
+                const gain2 = audioContext.createGain();
+                osc2.connect(gain2);
+                gain2.connect(audioContext.destination);
+                osc2.frequency.value = 800;
+                osc2.type = 'sine';
+                gain2.gain.setValueAtTime(0.3, audioContext.currentTime);
+                gain2.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.5);
+                osc2.start(audioContext.currentTime);
+                osc2.stop(audioContext.currentTime + 0.5);
+            }, 600);
+            
+            setTimeout(() => {
+                const osc3 = audioContext.createOscillator();
+                const gain3 = audioContext.createGain();
+                osc3.connect(gain3);
+                gain3.connect(audioContext.destination);
+                osc3.frequency.value = 800;
+                osc3.type = 'sine';
+                gain3.gain.setValueAtTime(0.3, audioContext.currentTime);
+                gain3.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.5);
+                osc3.start(audioContext.currentTime);
+                osc3.stop(audioContext.currentTime + 0.5);
+            }, 1200);
+        } catch (e) {
+            console.warn('MOTOR-05.3: Não foi possível tocar alerta sonoro:', e);
+        }
+        
+        // Notificação visual adicional
+        if ('Notification' in window && Notification.permission === 'granted') {
+            new Notification('⏰ Atenção!', {
+                body: 'Faltam 5 minutos para o término do simulado!',
+                icon: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23f59e0b"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>'
+            });
+        }
+    },
+
+    autoSubmit() {
+        console.log('🚨 MOTOR-05.5: Auto-submit triggered!');
+        
+        // Notificar usuário
+        alert('⏰ Tempo esgotado! Seu simulado será enviado automaticamente.');
+        
+        // Parar timer
+        this.stop();
+        
+        // Disparar evento de submit
+        const submitEvent = new CustomEvent('test-auto-submit', { detail: { reason: 'timeout' } });
+        window.dispatchEvent(submitEvent);
+        
+        // Chamar função de submit se existir no escopo global
+        if (typeof window.submitTest === 'function') {
+            window.submitTest();
+        }
+    },
+
+    getElapsedTime() {
+        return this.state.totalSeconds - this.state.remainingSeconds;
+    },
+
+    getRemainingTime() {
+        return this.state.remainingSeconds;
+    },
+
+    formatTime(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    }
+};
+
+// ========================================
 // UI-04: Estado e Inicialização
 // ========================================
 const TestConfigUI04 = {
