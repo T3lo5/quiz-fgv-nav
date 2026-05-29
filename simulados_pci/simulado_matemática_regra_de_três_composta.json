@@ -1,6 +1,5 @@
 [
     {
-        "id": "2312395",
         "enunciado": "Uma equipe de manutenção urbana realiza a substituição de placas de sinalização nas vias da cidade. A frequência com a qual o serviço é realizado indica que 5 equipes trabalhando 7 horas por dia durante 4 dias, conseguiram instalar 1.400 placas. Porém, nesta nova operação, somente 3 equipes foram mobilizadas, trabalhando 6 horas diárias ao longo de 4 dias. Considerando produtividade constante, quantas placas serão instaladas nessa segunda ação?",
         "alternativas": {
             "A": "900 placas.",
@@ -10,11 +9,11 @@
             "E": "810 placas."
         },
         "gabarito_correto": "D",
+        "id": "2312395",
         "comentario_ia": "Calculamos a produtividade por equipe/hora. Na primeira situação: 1400 placas / (5 equipes * 7 horas/dia * 4 dias) = 1400 / 140 = 10 placas por equipe/hora. Na segunda situação: 3 equipes * 6 horas/dia * 4 dias = 72 equipe-dias. Total de horas trabalhadas: 3 equipes * 6 horas/dia * 4 dias = 72 horas. Produtividade: 72 horas * 10 placas/hora = 720 placas. Ou: 3 equipes * 6 horas/dia * 4 dias = 72 horas (total de trabalho). Placas: 72 horas * 10 placas/hora = 720 placas."
     },
     {
-        "id": "2096173",
-        "enunciado": "Em uma fábrica, 8 máquinas, trabalhando 6 h por dia, produzem 960 peças em 5 dias. Quantas máquinas, operando 9 h por dia, serão necessárias para produzir 2 160 peças em 4 dias nas mesmas condições?",
+        "enunciado": "Em uma fábrica, 8 máquinas, trabalhando 6 h por dia, produzem 960 peças em 5 dias. Quantas máquinas, operando 9 h por dia, serão necessárias para produzir 2 160 peças em 4 dias nas mesmas condições?",
         "alternativas": {
             "A": "10",
             "B": "12",
@@ -22,10 +21,10 @@
             "D": "15"
         },
         "gabarito_correto": "B",
+        "id": "2096173",
         "comentario_ia": "Este é um problema de regra de três composta. A relação entre máquinas, horas/dia e dias para produzir peças é diretamente proporcional ao número de peças e inversamente proporcional ao número de máquinas e horas/dia."
     },
     {
-        "id": "2286350",
         "enunciado": "Uma equipe de catalogação arquiva documentos em caixas padronizadas. Sabe-se que 8 funcionários organizam 1.200 documentos em 5 horas. Em um novo projeto, 10 funcionários trabalharão em ritmo proporcional, mas com necessidade de organizar 2.100 documentos. Neste contexto, analise as afirmativas abaixo. I. Se o número de funcionários aumenta, o tempo diminui proporcionalmente. II. Se a quantidade de documentos aumenta, o tempo aumenta proporcionalmente. III. O tempo estimado pelo cálculo composto é de 6,56 horas. IV. A relação entre funcionários e tempo é inversamente proporcional. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "II e III, apenas.",
@@ -34,10 +33,10 @@
             "D": "I, II e IV, apenas."
         },
         "gabarito_correto": "D",
+        "id": "2286350",
         "comentario_ia": "Análise: Funcionários e tempo são inversamente proporcionais (IV). Documentos e tempo são diretamente proporcionais (II). A relação (F * T) / D é constante. (8 * 5) / 1200 = 40/1200. Novo tempo T2: (10 * T2) / 2100 = 40/1200 => T2 = (40 * 2100) / (1200 * 10) = 84000 / 12000 = 7 horas. O item I afirma que o tempo diminui proporcionalmente com o aumento de funcionários, o que é verdade (inversamente proporcional). O item III está incorreto pois o tempo estimado é de 7 horas, não 6,56. Portanto, I, II e IV estão corretos."
     },
     {
-        "id": "2245211",
         "enunciado": "Pierre decidiu trabalhar com drones e descobriu que para registrar imagens aéreas em uma área de 20.000 m², precisa-se de 5 drones trabalhando por 8 horas. Se ele foi contratado para cobrir uma área de 30.000 m² em apenas 6 horas, mantendo o mesmo desempenho, quantos drones serão necessários?",
         "alternativas": {
             "A": "Serão necessários 6 drones.",
@@ -47,10 +46,10 @@
             "E": "Serão necessários 9 drones."
         },
         "gabarito_correto": "B",
+        "id": "2245211",
         "comentario_ia": "A questao e de regrecao multipla. Drones = Area * Tempo / Desempenho_drone."
     },
     {
-        "id": "2329934",
         "enunciado": "Uma equipe de catalogação de documentos observou que, com 4 funcionários trabalhando 6 horas por dia durante 5 dias, é possível organizar 1.800 arquivos. Em uma nova tarefa, precisam organizar 3.000 arquivos, dispondo de 5 funcionários que trabalharão 8 horas por dia. Mantendo a produtividade constante, determine o número de dias necessários para concluir o serviço.",
         "alternativas": {
             "A": "O serviço será concluído em 4 dias.",
@@ -60,10 +59,10 @@
             "E": "O serviço será concluído em 6 dias."
         },
         "gabarito_correto": "A",
+        "id": "2329934",
         "comentario_ia": "Utilizando a regra de três composta: (4 func / 5 func) * (6h / 8h) * (5 dias / X dias) = 1800 arquivos / 3000 arquivos. Resolvendo, obtém-se X = 4 dias."
     },
     {
-        "id": "2200318",
         "enunciado": "Em 5 dias, 6 operários constroem 120 m². Quantos m², 10 operários construirão em 8 dias?",
         "alternativas": {
             "A": "320m²",
@@ -72,10 +71,10 @@
             "D": "1200m²"
         },
         "gabarito_correto": "A",
+        "id": "2200318",
         "comentario_ia": "A produtividade é de 120/5/6 = 4 m²/operário/dia. Logo, 10 operários em 8 dias constroem 10 * 8 * 4 = 320m²."
     },
     {
-        "id": "2287105",
         "enunciado": "Uma equipe de manutenção consegue revisar 240 metros de cabos em 8 horas usando 6 profissionais. Mantendo o mesmo ritmo de trabalho, pretende-se avaliar o desempenho de 9 profissionais trabalhando durante 10 horas. Com base nessa situação, analise as afirmativas a seguir e classifique-as em verdadeira (V) ou falsa (F).(__) A quantidade de metros revisados é diretamente proporcional ao número de profissionais.(__) Aplicando a proporção composta, o total revisado será de 450 metros.(__) O valor final é superior a 400 metros, considerando todas as variáveis.(__) A quantidade de metros revisados é inversamente proporcional ao tempo trabalhado.A sequência CORRETA, de cima para baixo, é:",
         "alternativas": {
             "A": "V, F, F, V.",
@@ -85,10 +84,10 @@
             "E": "V, V, F, F."
         },
         "gabarito_correto": "B",
+        "id": "2287105",
         "comentario_ia": "A quantidade de metros revisados é diretamente proporcional ao número de profissionais (V). Com 6 profissionais em 8h revisam 240m, a produtividade por profissional por hora é 240/(6*8) = 5 m/profissional/h. Assim, 9 profissionais em 10h revisam 9*10*5 = 450m (V). 450m é superior a 400m (V). A quantidade de metros revisados é diretamente proporcional ao tempo trabalhado, não inversamente (F)."
     },
     {
-        "id": "2182884",
         "enunciado": "Uma empresa de limpeza precisa higienizar 12 andares de um prédio, utilizando 3 funcionários trabalhando 5 horas por dia e concluindo o serviço em 8 dias. Para outro prédio, com 27 andares, a empresa disponibilizou 6 funcionários trabalhando 9 horas por dia. Mantendo o mesmo ritmo de trabalho, em quantos dias será finalizado o serviço no segundo prédio?",
         "alternativas": {
             "A": "Em 8 dias.",
@@ -98,10 +97,10 @@
             "E": "Em 7 dias."
         },
         "gabarito_correto": "C",
+        "id": "2182884",
         "comentario_ia": "Usando a regra de três composta, considerando andares, funcionários, horas e dias: (12/27) * (3/6) * (5/9) * (8/x) = 1. Resolvendo para x, obtêm-se 4 dias."
     },
     {
-        "id": "2245014",
         "enunciado": "O engenheiro Paulo está organizando a irrigação de uma pequena plantação de milho. Ele sabe que 4 bombas d'água conseguem irrigar 6 hectares em 3 dias, trabalhando 8 horas por dia. Se ele quiser irrigar 9 hectares em 4 dias, trabalhando 6 horas por dia, quantas bombas serão necessárias?",
         "alternativas": {
             "A": "Serão necessárias 8 bombas.",
@@ -110,10 +109,10 @@
             "D": "Serão necessárias 9 bombas."
         },
         "gabarito_correto": "B",
+        "id": "2245014",
         "comentario_ia": "A relação entre bombas (B), hectares (H), dias (D) e horas (h) é diretamente proporcional com B e H e inversamente com D e h. A fórmula é B1*D1*h1/H1 = B2*D2*h2/H2. Assim, 4*3*8/6 = B2*4*6/9. Simplificando: 96/6 = B2*24/9 => 16 = B2*8/3 => 48 = B2*8 => B2 = 6 bombas."
     },
     {
-        "id": "2371597",
         "enunciado": "Uma equipe de 8 técnicos realiza a instalação de 120 sensores em 6 dias, trabalhando 5 horas por dia, todos com a mesma produtividade. Mantidas essas condições, quantos sensores serão instalados por uma equipe de 12 técnicos, trabalhando 8 dias, com jornada diária de 6 horas?",
         "alternativas": {
             "A": "A quantidade instalada será de 480 sensores.",
@@ -123,10 +122,10 @@
             "E": "A quantidade instalada será de 288 sensores."
         },
         "gabarito_correto": "E",
+        "id": "2371597",
         "comentario_ia": "A produtividade por sensor por técnico por hora é constante. Calculando o total de 'horas-técnico-dia', a nova equipe instala 288 sensores. (8x5x6) produtividade = X sensores. (12x6x120) produtividade = Y sensores. Y = 288."
     },
     {
-        "id": "2315743",
         "enunciado": "Uma equipe de 3 pedreiros constrói um muro de 60 metros em 6 dias, trabalhando 6 horas por dia. Quantos dias levará uma equipe de 6 pedreiros para construir um muro de 90 metros, trabalhando 9 horas por dia?",
         "alternativas": {
             "A": "2 dias",
@@ -136,10 +135,10 @@
             "E": "6 dias"
         },
         "gabarito_correto": "B",
+        "id": "2315743",
         "comentario_ia": "A produtividade é inversamente proporcional ao tempo e diretamente proporcional à quantidade de pedreiros e horas. Analisando a variação, 6 dias / 2 = 3 dias."
     },
     {
-        "id": "2278334",
         "enunciado": "Uma equipe de limpeza formada por 4 funcionários leva 6 horas para limpar 3 salas. Mantendo o mesmo ritmo de trabalho, quantas horas 6 funcionários levariam para limpar 9 salas?",
         "alternativas": {
             "A": "4 horas.",
@@ -148,10 +147,10 @@
             "D": "9 horas."
         },
         "gabarito_correto": "B",
+        "id": "2278334",
         "comentario_ia": "A relação entre funcionários, tempo e salas é uma regra de três composta. Se 4 funcionários levam 6 horas para limpar 3 salas, 6 funcionários levariam (6 * 4 / 6) = 4 horas para limpar 3 salas. Para limpar 9 salas (3 vezes mais), levariam 4 * 3 = 12 horas."
     },
     {
-        "id": "2240062",
         "enunciado": "Uma gráfica recebeu um grande pedido de apostilas para uma escola. Com 5 impressoras, trabalhando 5 horas por dia, a equipe conseguiu imprimir 2.400 apostilas em 8 dias. A gráfica recebeu um novo pedido de 7.200 apostilas, mas, por causa de manutenção das impressoras, apenas 3 impressoras estarão disponíveis, funcionando 4 horas por dia. Com base nessa situação hipotética, o pedido será concluído, no mínimo, em",
         "alternativas": {
             "A": "45 dias.",
@@ -161,10 +160,10 @@
             "E": "55 dias."
         },
         "gabarito_correto": "B",
+        "id": "2240062",
         "comentario_ia": "Calculando a produtividade original (unidades/(impressoras*horas*dias)) e aplicando ao novo cenário, encontramos que 7200 apostilas exigirao 48 dias (7200 / (3 impressoras * 4 horas * X dias) = 2400 / (5 impressoras * 5 horas * 8 dias))."
     },
     {
-        "id": "1958843",
         "enunciado": "O tempo de conclusão de determinada obra de engenharia é inversamente proporcional ao número de trabalhadores, máquinas e horas trabalhadas por dia. Se 8 operários e 3 máquinas trabalharem durante 6 horas por dia, a obra será finalizada em 12 dias.Na situação hipotética precedente, caso apenas 3 operários e 2 máquinas trabalhem com jornada de trabalho de 8 horas diárias, a obra será terminada em",
         "alternativas": {
             "A": "6 dias.",
@@ -174,10 +173,10 @@
             "E": "64 dias."
         },
         "gabarito_correto": "D",
+        "id": "1958843",
         "comentario_ia": "A obra é inversamente proporcional ao nº de operários (O), máquinas (M) e horas/dia (H). Assim, O*M*H*D = k. Com os dados iniciais: 8*3*6*12 = 1728. Com os novos dados: 3*2*8*D = 480. Logo, D = 1728/480 = 3,6. Houve um erro na formulação da questão. Refazendo com a relação de que o trabalho total é proporcional a O*M*H*D: 8*3*6*12 = 1728. 3*2*8*D = 48D. Assim, 1728 = 48D, D = 36 dias. Refazendo com a relação de que o trabalho total é proporcional a O*M*H e inversamente proporcional a D: k = (O*M*H)/D. 1728/12 = 216. 48/D = 216. D = 48/216 = 0,22. A questão provavelmente quer a relação onde o tempo é inversamente proporcional aos produtores do trabalho. Assim O*M*H é proporcional a 1/D. K = O*M*H*D. K=8*3*6*12 = 1728. Novos trabalhadores: 3*2*8*D = 48D. 1728 = 48D. D=36."
     },
     {
-        "id": "2055247",
         "enunciado": "Durante uma ação em prol da preservação do meio ambiente em uma pequena cidade, 5 voluntários plantaram 300 mudas em 4 (quatro) dias, trabalhando 6 (seis) horas por dia. Se para a segunda fase do projeto serão disponibilizadas 900 mudas, que devem ser plantadas em apenas 3 (três) dias, com um período de trabalho de 4 (quatro) horas diárias, de quantos voluntários a mais o grupo precisa?",
         "alternativas": {
             "A": "O grupo precisa de mais 10 voluntários.",
@@ -186,10 +185,10 @@
             "D": "O grupo precisa de mais 5 voluntários."
         },
         "gabarito_correto": "B",
+        "id": "2055247",
         "comentario_ia": "A produtividade é de 2,5 mudas por voluntário-hora. Para plantar 900 mudas, são necessárias 360 horas totais. Trabalhando 4 horas diárias por 3 dias (12 horas por voluntário), o grupo necessita de 30 voluntários no total. Portanto, são necessários 25 voluntários adicionais."
     },
     {
-        "id": "2371739",
         "enunciado": "Uma equipe de 8 técnicos realiza a instalação de 120 sensores em 6 dias, trabalhando 5 horas por dia, todos com a mesma produtividade. Mantidas essas condições, quantos sensores serão instalados por uma equipe de 12 técnicos, trabalhando 8 dias, com jornada diária de 6 horas?",
         "alternativas": {
             "A": "A quantidade instalada será de 300 sensores.",
@@ -199,10 +198,10 @@
             "E": "A quantidade instalada será de 360 sensores."
         },
         "gabarito_correto": "B",
+        "id": "2371739",
         "comentario_ia": "Trata-se de um problema de regra de três composta. Relacionando as grandezas: (Técnicos x Diarias x Horas) é proporcional a Sensores. Aumentando técnicos, dias e horas, aumenta sensores. Sensores = k * (Técnicos * Dias * Horas). 120 = k * (8 * 6 * 5). 120 = k * 240. k = 0.5. Sensores = 0.5 * (12 * 8 * 6) = 0.5 * 576 = 288. A alternativa B está incorreta. Refazendo os cálculos: (8 * 6 * 5) / 120 = (12 * 8 * 6) / X. 240 / 120 = 576 / X. 2 = 576 / X. X = 288. A alternativa C está correta, mas foi marcada B. Nova análise: 120 sensores / (8 técnicos * 6 dias * 5h/d) = X sensores / (12 técnicos * 8 dias * 6h/d). 120 / 240 = X / 576. 0.5 = X / 576. X = 0.5 * 576 = 288. A alternativa C é a correta. Há um erro na anotação da resposta correta. A alternativa B (480) não está correta. A alternativa C (288) é a correta. A alternativa B foi indicada como correta, o que é um erro. A resposta correta é 288."
     },
     {
-        "id": "2334776",
         "enunciado": "Uma gráfica verificou que 8 impressoras, trabalhando 6 horas por dia, produziam 9.600 cartões em 5 dias, mas deseja-se produzir 14.000 cartões utilizando 10 impressoras, operando 5 horas por dia, mantendo-se as mesmas condições de produtividade. Em quantos dias o novo lote será concluído?",
         "alternativas": {
             "A": "Em 7 dias.",
@@ -211,10 +210,10 @@
             "D": "Em 15 dias."
         },
         "gabarito_correto": "C",
+        "id": "2334776",
         "comentario_ia": "Podemos usar uma regra de três composta para resolver este problema. Relacionando impressoras, horas/dia, dias e cartões: (Impressoras * Horas * Dias) / Cartões = Constante. Primeiro cenário: (8 * 6 * 5) / 9600 = 240 / 9600 = 1/40. Segundo cenário: (10 * 5 * D) / 14000 = 1/40. 50 * D = 14000 / 40. 50 * D = 350. D = 350 / 50 = 7. Houve um engano. Recalculando: 8 imp x 6h/dia x 5 dias = 9600 cartões. (Impressoras * Horas * Dias) / Cartões. 8*6*5 / 9600 = 240 / 9600 = 1/40. Agora, 10 imp x 5h/dia x X dias = 14000 cartões. (10 * 5 * X) / 14000 = 1/40. 50X / 14000 = 1/40. 50X = 14000/40. 50X = 350. X = 350/50 = 7. Verificando: O problema parece apresentar um cenário onde se produz menos cartões por hora-impressora no segundo caso. Vamos tentar de outra forma. Produtividade por hora-impressora no 1º caso: 9600 cartões / (8 imp * 6h/dia * 5 dias) = 9600 / 240 = 40 cartões/hora-impressora. Agora, para produzir 14000 cartões com 10 impressoras e 5 horas/dia: Total de horas-impressora necessário para 14000 cartões ..."
     },
     {
-        "id": "2371491",
         "enunciado": "Uma equipe de 8 técnicos realiza a instalação de 120 sensores em 6 dias, trabalhando 5 horas por dia, todos com a mesma produtividade. Mantidas essas condições, quantos sensores serão instalados por uma equipe de 12 técnicos, trabalhando 8 dias, com jornada diária de 6 horas?",
         "alternativas": {
             "A": "A quantidade instalada será de 360 sensores.",
@@ -224,10 +223,10 @@
             "E": "A quantidade instalada será de 288 sensores."
         },
         "gabarito_correto": "B",
-        "comentario_ia": "Este é um problema de regra de três composta. A produtividade total é (8 técnicos * 5 horas/dia * 6 dias) = 240 horas/técnico para 120 sensores. Na nova situação, (12 técnicos * 6 horas/dia * 8 dias) = 576 horas/técnico. A quantidade de sensores é proporcional à produtividade: (576/240) * 120 = 2,4 * 120 = 288 sensores. Houve um engano no cálculo, corrigindo para B=480. Recalculando: 120 sensores / (8 * 5 * 6) = 120/240 = 0.5 sensores/hora/homem. Nova situação: 12 * 6 * 8 = 576 horas. 0.5 * 576 = 288 sensores.  A alternativa B 480 não parece correta. Verificando a opção E: 288 sensores está correta."
+        "id": "2371491",
+        "comentario_ia": "Este é um problema de regra de três composta. A produtividade total é (8 técnicos * 5 horas/dia * 6 dias) = 240 horas/técnico para 120 sensores. Na nova situação, (12 técnicos * 6 horas/dia * 8 dias) = 576 horas/técnico. A quantidade de sensores é proporcional à produtividade: (576/240) * 120 = 2,4 * 120 = 288 sensores. Houve um engano no cálculo, corrigindo para B=480. Recalculando: 120 sensores / (8 * 5 * 6) = 120/240 = 0.5 sensores/hora/homem. Nova situação: 12 * 6 * 8 = 576 horas. 0.5 * 576 = 288 sensores. A alternativa B 480 não parece correta. Verificando a opção E: 288 sensores está correta."
     },
     {
-        "id": "2086791",
         "enunciado": "Uma equipe de engenharia pavimenta ruas com a ajuda de máquinas. Com 4 máquinas, trabalhando 7 horas por dia durante 8 dias, pavimentam 480 metros de rua. Se a prefeitura quiser pavimentar 720 metros em 6 dias, com jornadas de 8 horas por dia, quantas máquinas serão necessárias?",
         "alternativas": {
             "A": "5 máquinas.",
@@ -236,10 +235,10 @@
             "D": "6 máquinas."
         },
         "gabarito_correto": "B",
+        "id": "2086791",
         "comentario_ia": "Usando regra de três composta: Máquinas (M), Horas por dia (H), Dias (D), Metros (Mt). (4 M, 7 H, 8 D pavimentam 480 Mt) e (X M, 8 H, 6 D pavimentam 720 Mt). A relação é: M1/M2 = (H2/H1) * (D2/D1) * (Mt1/Mt2). 4/X = (8/7) * (6/8) * (480/720). 4/X = (3/7) * (2/3) = 2/7. 4/X = 2/7 => 2X = 28 => X = 14. Refazendo a conta: A quantidade de metros é diretamente proporcional ao número de máquinas, horas e dias. A quantidade de metros é diretamente proporcional ao número de máquinas, horas e dias. A relação é Mt / (M*H*D) = Constante. 480 / (4*7*8) = 480 / 224 = 2,14. Agora, para 720 Mt com 8H e 6D: 720 / (X*8*6) = 2,14. 720 / (48X) = 2,14. 720 = 2,14 * 48X. 720 = 102,72X. X = 720 / 102,72 ≈ 7. Então algo está errado. Refazendo de outra forma: 4 máquinas em 8 dias (7h/dia) fazem 480m. Trabalho total 1 = 4 * 7 * 8 = 224 'máquina-hora'. Em 224 'máquina-hora' fazem 480m. Taxa = 480/224 m por 'máquina-hora'. Agora, queremos 720m em 6 dias (8h/dia). Trabalho total 2 = X * 8 * 6 = 48X 'máquina-hora'. 720m / (48X 'máqui..."
     },
     {
-        "id": "2313843",
         "enunciado": "Uma equipe de técnicos precisa montar um conjunto de módulos eletrônicos. Sabe -se que: 4 técnicos, traba- lhando 6 horas por dia, montam 180 módulos em 5 dias. Agora, deseja -se montar 420 módulos em 7 dias, com cada técnico trabalhando 8 horas por dia. Sabendo que todos os técnicos possuem o mesmo ritmo de trabalho, quantos técnicos devem ser contratados para cumprir o novo objetivo?",
         "alternativas": {
             "A": "7 técnicos.",
@@ -248,10 +247,10 @@
             "D": "6 técnicos."
         },
         "gabarito_correto": "C",
+        "id": "2313843",
         "comentario_ia": "Usando a regra de três composta para a relação entre técnicos, horas/dia, dias e módulos: (T1/T2) = (D2/D1) * (H2/H1) * (M1/M2). Assim: (4/T2) = (7/5) * (8/6) * (180/420). Resolvendo, T2 = 9 técnicos."
     },
     {
-        "id": "2314163",
         "enunciado": "Uma equipe de técnicos precisa montar um conjunto de módulos eletrônicos. Sabe-se que: 4 técnicos, trabalhando 6 horas por dia, montam 180 módulos em 5 dias. Agora, deseja-se montar 420 módulos em 7 dias, com cada técnico trabalhando 8 horas por dia. Sabendo que todos os técnicos possuem o mesmo ritmo de trabalho, quantos técnicos devem ser contratados para cumprir o novo objetivo?",
         "alternativas": {
             "A": "7 técnicos.",
@@ -260,10 +259,10 @@
             "D": "6 técnicos."
         },
         "gabarito_correto": "C",
+        "id": "2314163",
         "comentario_ia": "A questão envolve regra de três composta. A relação entre técnicos, horas/dia, dias e módulos é diretamente proporcional à quantidade de módulos e inversamente proporcional aos técnicos, horas/dia e dias. Analisando as proporções é possível calcular a quantidade de técnicos necessária para a nova meta."
     },
     {
-        "id": "2122346",
         "enunciado": "A construtora Vila Nova recebeu a tarefa de levantar 94 metros de muro ao redor de um parque municipal antes da inauguração. Na primeira etapa da obra, 8 pedreiros, trabalhando com o mesmo ritmo diário e nas mesmas condições, concluíram 40 metros em 10 dias. Por questões de revezamento de equipes, a segunda frente de trabalho terá apenas 4 pedreiros, nas mesmas condições (jornada, ferramentas e clima). Em quantos dias essa equipe de 4 pedreiros construirá os 54 metros restantes?",
         "alternativas": {
             "A": "Em 35 dias.",
@@ -272,10 +271,10 @@
             "D": "Em 21 dias."
         },
         "gabarito_correto": "B",
+        "id": "2122346",
         "comentario_ia": "A produtividade total é 8 pedreiros * 40m / 10 dias = 32 m/dia. A produtividade individual é 32m/dia / 8 pedreiros = 4m/pedreiro/dia. Para 54m com 4 pedreiros, o tempo será 54m / (4 pedreiros * 4m/pedreiro/dia) = 54m / 16m/dia, o que não bate. Recalculando: 8 pedreiros constroem 40m em 10 dias. Ou seja, 1 pedreiro constrói 40/8 = 5m em 10 dias, logo 0,5m/dia. Para 54m com 4 pedreiros: 54m / (4 * 0,5m/dia) = 54m / 2m/dia = 27 dias."
     },
     {
-        "id": "2368546",
         "enunciado": "Um grupo de estudantes planeja preparar 240 sanduíches para uma feira gastronômica. Sabe-se que 4 pessoas conseguem fazer 80 sanduíches em 2 horas. Mantendo o mesmo ritmo de trabalho, o coordenador quer saber quanto tempo 6 pessoas levariam para produzir os 240 sanduíches. Depois de analisar a situação ele chegou às seguintes conclusões: I.A quantidade de pessoas é inversamente proporcional à produção. II.O tempo é inversamente proporcional à produção. III.Serão necessárias 4 horas para 6 pessoas produzirem 240 sanduíches. IV.A relação entre tempo, pessoas e quantidade é uma regra de três simples. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "III e IV, apenas.",
@@ -284,10 +283,10 @@
             "D": "I e III, apenas."
         },
         "gabarito_correto": "B",
+        "id": "2368546",
         "comentario_ia": "A quantidade de pessoas e o tempo necessário para produzir uma quantidade fixa de sanduíches são inversamente proporcionais (I é falsa). O tempo e a produção são diretamente proporcionais (II é verdadeira). Calculando: Regra de três composta: (4 pessoas / 6 pessoas) = (2 horas / x horas) * (80 sanduíches / 240 sanduíches). Resolvendo, 6 pessoas levariam 4 horas (III é verdadeira). A relação envolve mais de duas grandezas, sendo uma regra de três composta (IV é falsa)."
     },
     {
-        "id": "2317007",
         "enunciado": "Dois consultores associaram-se em um projeto. O primeiro investiu R$ 18.000,00 por 10 meses, enquanto o segundo investiu R$ 12.000,00 por 15 meses. O lucro final do projeto foi de R$ 60.000,00, a ser dividido proporcionalmente ao produto capital-tempo. De quanto será a parte do primeiro consultor?",
         "alternativas": {
             "A": "De R$ 26.500,00.",
@@ -296,10 +295,10 @@
             "D": "De R$ 30.000,00."
         },
         "gabarito_correto": "D",
+        "id": "2317007",
         "comentario_ia": "Calcula-se o produto capital-tempo para cada consultor: 1º: 18000 * 10 = 180000; 2º: 12000 * 15 = 180000. O total é 360000. A parte do primeiro consultor é (180000/360000) * 60000 = 0.5 * 60000 = 30000."
     },
     {
-        "id": "2137040",
         "enunciado": "Um grupo de trabalhadores é responsável por construir 432 metros de uma estrada em 8 dias, trabalhando 6 horas por dia. Se o número de trabalhadores aumentar em 25%, e eles passarem a trabalhar 8 horas por dia, em quantos dias será possível construir 630 metros dessa estrada, mantendo o mesmo ritmo de trabalho?",
         "alternativas": {
             "A": "9.",
@@ -308,10 +307,10 @@
             "D": "8."
         },
         "gabarito_correto": "C",
+        "id": "2137040",
         "comentario_ia": "Regra de três composta: (Trabalhadores * Dias * Horas) / Extensão = Constante. (W * 8 * 6) / 432 = (1.25W * D * 8) / 630. Simplificando: 48W / 432 = 10WD / 630. 1 / 9 = D / 63. D = 63 / 9 = 7 dias."
     },
     {
-        "id": "2136847",
         "enunciado": "Um grupo de trabalhadores é responsável por construir 432 metros de uma estrada em 8 dias, trabalhando 6 horas por dia. Se o número de trabalhadores aumentar em 25%, e eles passarem a trabalhar 8 horas por dia, em quantos dias será possível construir 630 metros dessa estrada, mantendo o mesmo ritmo de trabalho?",
         "alternativas": {
             "A": "6.",
@@ -320,10 +319,10 @@
             "D": "9."
         },
         "gabarito_correto": "B",
-        "comentario_ia": "Este é um problema de regrinha de três composta.  Vamos calcular a produtividade inicial: Trabalhadores*Horas*Dias/Metros.  Para o novo cenário: (N*1.25)*8*D / 630 = (N*6*8)/432. Simplificando N e 8 das horas: (1.25*D)/630 = 6/432.  1.25*D = (6*630)/432.  1.25*D = 3780/432. 1.25*D = 8.75. D = 8.75 / 1.25 = 7 dias. A alternativa B é a correta."
+        "id": "2136847",
+        "comentario_ia": "Este é um problema de regrinha de três composta. Vamos calcular a produtividade inicial: Trabalhadores*Horas*Dias/Metros. Para o novo cenário: (N*1.25)*8*D / 630 = (N*6*8)/432. Simplificando N e 8 das horas: (1.25*D)/630 = 6/432. 1.25*D = (6*630)/432. 1.25*D = 3780/432. 1.25*D = 8.75. D = 8.75 / 1.25 = 7 dias. A alternativa B é a correta."
     },
     {
-        "id": "2021448",
         "enunciado": "Se em 3 dias de trabalho 5 pedreiros conseguem assentar 250m² de cerâmica, quantos dias serão necessários para que 3 pedreiros consigam assentar 350m² de cerâmica?",
         "alternativas": {
             "A": "Serão necessários 5 dias.",
@@ -333,10 +332,10 @@
             "E": "Serão necessários 9 dias."
         },
         "gabarito_correto": "C",
-        "comentario_ia": "Regra de três composta: (Pedreiros diretam/inversamente proporcional a dias) e (m² diretamente proporcional a dias). Setup: (5 pedreiros / 3 pedreiros) * (250m² / 350m²) = (3 dias / x dias). Resolvendo: (5/3) * (25/35) = 3/x => (5/3) * (5/7) = 3/x => 25/21 = 3/x => x = (21 * 3) / 25 = 63/25 = 2.52. Há um erro na minha primeira resolução. Refazendo: Montando a regra de três. Pedreiros e dias são inversamente proporcionais. M² e dias são diretamente proporcionais. 5 pedreiros --- 3 dias --- 250m² 3 pedreiros --- X dias --- 350m².  X = (3 * 250 * 5) / (350 * 3). Simplificando o 3: X = (250 * 5) / 350 = 1250 / 350 = 3.57.  Meu cálculo inicial está incorreto. Refazendo o raciocínio: 5 pedreiros fazem 250m² em 3 dias. Pede-se para 3 pedreiros fazer 350m². Pedreiros e m² são diretamente proporcionais. Vamos calcular a produtividade por pedreiro. 5 pedreiros em 3 dias fazem 250m², ou seja, 5 pedreiros fazem 250/3 m² por dia. Cada pedreiro faz (250/3) / 5 = 50/3 m² por dia. Agora, quantos dias 3 pedreiros precisar..."
+        "id": "2021448",
+        "comentario_ia": "Regra de três composta: (Pedreiros diretam/inversamente proporcional a dias) e (m² diretamente proporcional a dias). Setup: (5 pedreiros / 3 pedreiros) * (250m² / 350m²) = (3 dias / x dias). Resolvendo: (5/3) * (25/35) = 3/x => (5/3) * (5/7) = 3/x => 25/21 = 3/x => x = (21 * 3) / 25 = 63/25 = 2.52. Há um erro na minha primeira resolução. Refazendo: Montando a regra de três. Pedreiros e dias são inversamente proporcionais. M² e dias são diretamente proporcionais. 5 pedreiros --- 3 dias --- 250m² 3 pedreiros --- X dias --- 350m². X = (3 * 250 * 5) / (350 * 3). Simplificando o 3: X = (250 * 5) / 350 = 1250 / 350 = 3.57. Meu cálculo inicial está incorreto. Refazendo o raciocínio: 5 pedreiros fazem 250m² em 3 dias. Pede-se para 3 pedreiros fazer 350m². Pedreiros e m² são diretamente proporcionais. Vamos calcular a produtividade por pedreiro. 5 pedreiros em 3 dias fazem 250m², ou seja, 5 pedreiros fazem 250/3 m² por dia. Cada pedreiro faz (250/3) / 5 = 50/3 m² por dia. Agora, quantos dias 3 pedreiros precisar..."
     },
     {
-        "id": "2063345",
         "enunciado": "Três telefonistas juntas atendem em média, a 1440 ligações em 12 dias. Quantas telefonistas atenderiam a essa mesma quantidade de ligações em 9 dias?",
         "alternativas": {
             "A": "5 telefonistas",
@@ -345,10 +344,10 @@
             "D": "2 telefonistas"
         },
         "gabarito_correto": "C",
+        "id": "2063345",
         "comentario_ia": "Este é um problema de regra de três composta (trabalhadores, ligações, dias). Podemos montar a regra: (3T / 1440L) * 12D = (X T / 1440L) * 9D. Isolando X: 3*12 = X*9 => 36 = 9X => X = 4 telefonistas."
     },
     {
-        "id": "2070778",
         "enunciado": "Vinte pessoas, trabalhando 5 horas por dia, durante 20 dias, produzem 500 peças. Nas mesmas condições, trinta pessoas, trabalhando 8 horas por dia, durante 15 dias produzirão n peças. Sobre o valor de n, assinale o que for correto.",
         "alternativas": {
             "A": "n é um número par.",
@@ -357,10 +356,10 @@
             "D": "n é um múltiplo de 10."
         },
         "gabarito_correto": "C",
+        "id": "2070778",
         "comentario_ia": "A produção total é proporcional ao número de pessoas, às horas trabalhadas e aos dias. Proporção: P1/(H1*D1*P1) = P2/(H2*D2*P2). 500/(5*20*20) = n/(8*15*30). 500/8000 = n/3600. n = 500 * 3600 / 8000 = 225. A alternativa C está incorreta, pois 225 não é maior que 1000. Precisamos ver o que está pedindo. A questão é sobre o valor de n. O valor de n é 225. N é par? Não. N é divisível por 3? Sim (2+2+5=9). N é maior que 1000? Não. N é um múltiplo de 10? Não. Houve um erro de cálculo ou interpretação. Refazendo: 20 pessoas * 5h/dia * 20 dias = 2000 horas/homem-dia. Produção de 500 peças. Razão: 500 peças / 2000 horas = 0.25 peças/hora-homem. Agora: 30 pessoas * 8h/dia * 15 dias = 3600 horas/homem-dia. Produção n = 3600 horas * 0.25 peças/hora = 900 peças. N=900. Letra A: 900 é par. Correto. Letra B: 900 é divisível por 3. Correto. Letra C: 900 é maior que 1000. Falso. Letra D: 900 é um múltiplo de 10. Correto. Com múltiplas respostas corretas, algo está errado. Revisando o enunciado. A questão pede para assina..."
     },
     {
-        "id": "2312395",
         "enunciado": "Uma equipe de manutenção urbana realiza a substituição de placas de sinalização nas vias da cidade. A frequência com a qual o serviço é realizado indica que 5 equipes trabalhando 7 horas por dia durante 4 dias, conseguiram instalar 1.400 placas. Porém, nesta nova operação, somente 3 equipes foram mobilizadas, trabalhando 6 horas diárias ao longo de 4 dias. Considerando produtividade constante, quantas placas serão instaladas nessa segunda ação?",
         "alternativas": {
             "A": "900 placas.",
@@ -370,11 +369,11 @@
             "E": "810 placas."
         },
         "gabarito_correto": "D",
+        "id": "2312395",
         "comentario_ia": "Calculamos a produtividade por equipe/hora. Na primeira situação: 1400 placas / (5 equipes * 7 horas/dia * 4 dias) = 1400 / 140 = 10 placas por equipe/hora. Na segunda situação: 3 equipes * 6 horas/dia * 4 dias = 72 equipe-dias. Total de horas trabalhadas: 3 equipes * 6 horas/dia * 4 dias = 72 horas. Produtividade: 72 horas * 10 placas/hora = 720 placas. Ou: 3 equipes * 6 horas/dia * 4 dias = 72 horas (total de trabalho). Placas: 72 horas * 10 placas/hora = 720 placas."
     },
     {
-        "id": "2096173",
-        "enunciado": "Em uma fábrica, 8 máquinas, trabalhando 6 h por dia, produzem 960 peças em 5 dias. Quantas máquinas, operando 9 h por dia, serão necessárias para produzir 2 160 peças em 4 dias nas mesmas condições?",
+        "enunciado": "Em uma fábrica, 8 máquinas, trabalhando 6 h por dia, produzem 960 peças em 5 dias. Quantas máquinas, operando 9 h por dia, serão necessárias para produzir 2 160 peças em 4 dias nas mesmas condições?",
         "alternativas": {
             "A": "10",
             "B": "12",
@@ -382,10 +381,10 @@
             "D": "15"
         },
         "gabarito_correto": "B",
+        "id": "2096173",
         "comentario_ia": "Este é um problema de regra de três composta. A relação entre máquinas, horas/dia e dias para produzir peças é diretamente proporcional ao número de peças e inversamente proporcional ao número de máquinas e horas/dia."
     },
     {
-        "id": "2286350",
         "enunciado": "Uma equipe de catalogação arquiva documentos em caixas padronizadas. Sabe-se que 8 funcionários organizam 1.200 documentos em 5 horas. Em um novo projeto, 10 funcionários trabalharão em ritmo proporcional, mas com necessidade de organizar 2.100 documentos. Neste contexto, analise as afirmativas abaixo. I. Se o número de funcionários aumenta, o tempo diminui proporcionalmente. II. Se a quantidade de documentos aumenta, o tempo aumenta proporcionalmente. III. O tempo estimado pelo cálculo composto é de 6,56 horas. IV. A relação entre funcionários e tempo é inversamente proporcional. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "II e III, apenas.",
@@ -394,10 +393,10 @@
             "D": "I, II e IV, apenas."
         },
         "gabarito_correto": "D",
+        "id": "2286350",
         "comentario_ia": "Análise: Funcionários e tempo são inversamente proporcionais (IV). Documentos e tempo são diretamente proporcionais (II). A relação (F * T) / D é constante. (8 * 5) / 1200 = 40/1200. Novo tempo T2: (10 * T2) / 2100 = 40/1200 => T2 = (40 * 2100) / (1200 * 10) = 84000 / 12000 = 7 horas. O item I afirma que o tempo diminui proporcionalmente com o aumento de funcionários, o que é verdade (inversamente proporcional). O item III está incorreto pois o tempo estimado é de 7 horas, não 6,56. Portanto, I, II e IV estão corretos."
     },
     {
-        "id": "2245211",
         "enunciado": "Pierre decidiu trabalhar com drones e descobriu que para registrar imagens aéreas em uma área de 20.000 m², precisa-se de 5 drones trabalhando por 8 horas. Se ele foi contratado para cobrir uma área de 30.000 m² em apenas 6 horas, mantendo o mesmo desempenho, quantos drones serão necessários?",
         "alternativas": {
             "A": "Serão necessários 6 drones.",
@@ -407,10 +406,10 @@
             "E": "Serão necessários 9 drones."
         },
         "gabarito_correto": "B",
+        "id": "2245211",
         "comentario_ia": "A questao e de regrecao multipla. Drones = Area * Tempo / Desempenho_drone."
     },
     {
-        "id": "2329934",
         "enunciado": "Uma equipe de catalogação de documentos observou que, com 4 funcionários trabalhando 6 horas por dia durante 5 dias, é possível organizar 1.800 arquivos. Em uma nova tarefa, precisam organizar 3.000 arquivos, dispondo de 5 funcionários que trabalharão 8 horas por dia. Mantendo a produtividade constante, determine o número de dias necessários para concluir o serviço.",
         "alternativas": {
             "A": "O serviço será concluído em 4 dias.",
@@ -420,10 +419,10 @@
             "E": "O serviço será concluído em 6 dias."
         },
         "gabarito_correto": "A",
+        "id": "2329934",
         "comentario_ia": "Utilizando a regra de três composta: (4 func / 5 func) * (6h / 8h) * (5 dias / X dias) = 1800 arquivos / 3000 arquivos. Resolvendo, obtém-se X = 4 dias."
     },
     {
-        "id": "2200318",
         "enunciado": "Em 5 dias, 6 operários constroem 120 m². Quantos m², 10 operários construirão em 8 dias?",
         "alternativas": {
             "A": "320m²",
@@ -432,10 +431,10 @@
             "D": "1200m²"
         },
         "gabarito_correto": "A",
+        "id": "2200318",
         "comentario_ia": "A produtividade é de 120/5/6 = 4 m²/operário/dia. Logo, 10 operários em 8 dias constroem 10 * 8 * 4 = 320m²."
     },
     {
-        "id": "2287105",
         "enunciado": "Uma equipe de manutenção consegue revisar 240 metros de cabos em 8 horas usando 6 profissionais. Mantendo o mesmo ritmo de trabalho, pretende-se avaliar o desempenho de 9 profissionais trabalhando durante 10 horas. Com base nessa situação, analise as afirmativas a seguir e classifique-as em verdadeira (V) ou falsa (F).(__) A quantidade de metros revisados é diretamente proporcional ao número de profissionais.(__) Aplicando a proporção composta, o total revisado será de 450 metros.(__) O valor final é superior a 400 metros, considerando todas as variáveis.(__) A quantidade de metros revisados é inversamente proporcional ao tempo trabalhado.A sequência CORRETA, de cima para baixo, é:",
         "alternativas": {
             "A": "V, F, F, V.",
@@ -445,10 +444,10 @@
             "E": "V, V, F, F."
         },
         "gabarito_correto": "B",
+        "id": "2287105",
         "comentario_ia": "A quantidade de metros revisados é diretamente proporcional ao número de profissionais (V). Com 6 profissionais em 8h revisam 240m, a produtividade por profissional por hora é 240/(6*8) = 5 m/profissional/h. Assim, 9 profissionais em 10h revisam 9*10*5 = 450m (V). 450m é superior a 400m (V). A quantidade de metros revisados é diretamente proporcional ao tempo trabalhado, não inversamente (F)."
     },
     {
-        "id": "2182884",
         "enunciado": "Uma empresa de limpeza precisa higienizar 12 andares de um prédio, utilizando 3 funcionários trabalhando 5 horas por dia e concluindo o serviço em 8 dias. Para outro prédio, com 27 andares, a empresa disponibilizou 6 funcionários trabalhando 9 horas por dia. Mantendo o mesmo ritmo de trabalho, em quantos dias será finalizado o serviço no segundo prédio?",
         "alternativas": {
             "A": "Em 8 dias.",
@@ -458,10 +457,10 @@
             "E": "Em 7 dias."
         },
         "gabarito_correto": "C",
+        "id": "2182884",
         "comentario_ia": "Usando a regra de três composta, considerando andares, funcionários, horas e dias: (12/27) * (3/6) * (5/9) * (8/x) = 1. Resolvendo para x, obtêm-se 4 dias."
     },
     {
-        "id": "2245014",
         "enunciado": "O engenheiro Paulo está organizando a irrigação de uma pequena plantação de milho. Ele sabe que 4 bombas d'água conseguem irrigar 6 hectares em 3 dias, trabalhando 8 horas por dia. Se ele quiser irrigar 9 hectares em 4 dias, trabalhando 6 horas por dia, quantas bombas serão necessárias?",
         "alternativas": {
             "A": "Serão necessárias 8 bombas.",
@@ -470,10 +469,10 @@
             "D": "Serão necessárias 9 bombas."
         },
         "gabarito_correto": "B",
+        "id": "2245014",
         "comentario_ia": "A relação entre bombas (B), hectares (H), dias (D) e horas (h) é diretamente proporcional com B e H e inversamente com D e h. A fórmula é B1*D1*h1/H1 = B2*D2*h2/H2. Assim, 4*3*8/6 = B2*4*6/9. Simplificando: 96/6 = B2*24/9 => 16 = B2*8/3 => 48 = B2*8 => B2 = 6 bombas."
     },
     {
-        "id": "2371597",
         "enunciado": "Uma equipe de 8 técnicos realiza a instalação de 120 sensores em 6 dias, trabalhando 5 horas por dia, todos com a mesma produtividade. Mantidas essas condições, quantos sensores serão instalados por uma equipe de 12 técnicos, trabalhando 8 dias, com jornada diária de 6 horas?",
         "alternativas": {
             "A": "A quantidade instalada será de 480 sensores.",
@@ -483,10 +482,10 @@
             "E": "A quantidade instalada será de 288 sensores."
         },
         "gabarito_correto": "E",
+        "id": "2371597",
         "comentario_ia": "A produtividade por sensor por técnico por hora é constante. Calculando o total de 'horas-técnico-dia', a nova equipe instala 288 sensores. (8x5x6) produtividade = X sensores. (12x6x120) produtividade = Y sensores. Y = 288."
     },
     {
-        "id": "2315743",
         "enunciado": "Uma equipe de 3 pedreiros constrói um muro de 60 metros em 6 dias, trabalhando 6 horas por dia. Quantos dias levará uma equipe de 6 pedreiros para construir um muro de 90 metros, trabalhando 9 horas por dia?",
         "alternativas": {
             "A": "2 dias",
@@ -496,10 +495,10 @@
             "E": "6 dias"
         },
         "gabarito_correto": "B",
+        "id": "2315743",
         "comentario_ia": "A produtividade é inversamente proporcional ao tempo e diretamente proporcional à quantidade de pedreiros e horas. Analisando a variação, 6 dias / 2 = 3 dias."
     },
     {
-        "id": "2278334",
         "enunciado": "Uma equipe de limpeza formada por 4 funcionários leva 6 horas para limpar 3 salas. Mantendo o mesmo ritmo de trabalho, quantas horas 6 funcionários levariam para limpar 9 salas?",
         "alternativas": {
             "A": "4 horas.",
@@ -508,10 +507,10 @@
             "D": "9 horas."
         },
         "gabarito_correto": "B",
+        "id": "2278334",
         "comentario_ia": "A relação entre funcionários, tempo e salas é uma regra de três composta. Se 4 funcionários levam 6 horas para limpar 3 salas, 6 funcionários levariam (6 * 4 / 6) = 4 horas para limpar 3 salas. Para limpar 9 salas (3 vezes mais), levariam 4 * 3 = 12 horas."
     },
     {
-        "id": "2240062",
         "enunciado": "Uma gráfica recebeu um grande pedido de apostilas para uma escola. Com 5 impressoras, trabalhando 5 horas por dia, a equipe conseguiu imprimir 2.400 apostilas em 8 dias. A gráfica recebeu um novo pedido de 7.200 apostilas, mas, por causa de manutenção das impressoras, apenas 3 impressoras estarão disponíveis, funcionando 4 horas por dia. Com base nessa situação hipotética, o pedido será concluído, no mínimo, em",
         "alternativas": {
             "A": "45 dias.",
@@ -521,10 +520,10 @@
             "E": "55 dias."
         },
         "gabarito_correto": "B",
+        "id": "2240062",
         "comentario_ia": "Calculando a produtividade original (unidades/(impressoras*horas*dias)) e aplicando ao novo cenário, encontramos que 7200 apostilas exigirao 48 dias (7200 / (3 impressoras * 4 horas * X dias) = 2400 / (5 impressoras * 5 horas * 8 dias))."
     },
     {
-        "id": "1958843",
         "enunciado": "O tempo de conclusão de determinada obra de engenharia é inversamente proporcional ao número de trabalhadores, máquinas e horas trabalhadas por dia. Se 8 operários e 3 máquinas trabalharem durante 6 horas por dia, a obra será finalizada em 12 dias.Na situação hipotética precedente, caso apenas 3 operários e 2 máquinas trabalhem com jornada de trabalho de 8 horas diárias, a obra será terminada em",
         "alternativas": {
             "A": "6 dias.",
@@ -534,10 +533,10 @@
             "E": "64 dias."
         },
         "gabarito_correto": "D",
+        "id": "1958843",
         "comentario_ia": "A obra é inversamente proporcional ao nº de operários (O), máquinas (M) e horas/dia (H). Assim, O*M*H*D = k. Com os dados iniciais: 8*3*6*12 = 1728. Com os novos dados: 3*2*8*D = 480. Logo, D = 1728/480 = 3,6. Houve um erro na formulação da questão. Refazendo com a relação de que o trabalho total é proporcional a O*M*H*D: 8*3*6*12 = 1728. 3*2*8*D = 48D. Assim, 1728 = 48D, D = 36 dias. Refazendo com a relação de que o trabalho total é proporcional a O*M*H e inversamente proporcional a D: k = (O*M*H)/D. 1728/12 = 216. 48/D = 216. D = 48/216 = 0,22. A questão provavelmente quer a relação onde o tempo é inversamente proporcional aos produtores do trabalho. Assim O*M*H é proporcional a 1/D. K = O*M*H*D. K=8*3*6*12 = 1728. Novos trabalhadores: 3*2*8*D = 48D. 1728 = 48D. D=36."
     },
     {
-        "id": "2055247",
         "enunciado": "Durante uma ação em prol da preservação do meio ambiente em uma pequena cidade, 5 voluntários plantaram 300 mudas em 4 (quatro) dias, trabalhando 6 (seis) horas por dia. Se para a segunda fase do projeto serão disponibilizadas 900 mudas, que devem ser plantadas em apenas 3 (três) dias, com um período de trabalho de 4 (quatro) horas diárias, de quantos voluntários a mais o grupo precisa?",
         "alternativas": {
             "A": "O grupo precisa de mais 10 voluntários.",
@@ -546,10 +545,10 @@
             "D": "O grupo precisa de mais 5 voluntários."
         },
         "gabarito_correto": "B",
+        "id": "2055247",
         "comentario_ia": "A produtividade é de 2,5 mudas por voluntário-hora. Para plantar 900 mudas, são necessárias 360 horas totais. Trabalhando 4 horas diárias por 3 dias (12 horas por voluntário), o grupo necessita de 30 voluntários no total. Portanto, são necessários 25 voluntários adicionais."
     },
     {
-        "id": "2371739",
         "enunciado": "Uma equipe de 8 técnicos realiza a instalação de 120 sensores em 6 dias, trabalhando 5 horas por dia, todos com a mesma produtividade. Mantidas essas condições, quantos sensores serão instalados por uma equipe de 12 técnicos, trabalhando 8 dias, com jornada diária de 6 horas?",
         "alternativas": {
             "A": "A quantidade instalada será de 300 sensores.",
@@ -559,10 +558,10 @@
             "E": "A quantidade instalada será de 360 sensores."
         },
         "gabarito_correto": "B",
+        "id": "2371739",
         "comentario_ia": "Trata-se de um problema de regra de três composta. Relacionando as grandezas: (Técnicos x Diarias x Horas) é proporcional a Sensores. Aumentando técnicos, dias e horas, aumenta sensores. Sensores = k * (Técnicos * Dias * Horas). 120 = k * (8 * 6 * 5). 120 = k * 240. k = 0.5. Sensores = 0.5 * (12 * 8 * 6) = 0.5 * 576 = 288. A alternativa B está incorreta. Refazendo os cálculos: (8 * 6 * 5) / 120 = (12 * 8 * 6) / X. 240 / 120 = 576 / X. 2 = 576 / X. X = 288. A alternativa C está correta, mas foi marcada B. Nova análise: 120 sensores / (8 técnicos * 6 dias * 5h/d) = X sensores / (12 técnicos * 8 dias * 6h/d). 120 / 240 = X / 576. 0.5 = X / 576. X = 0.5 * 576 = 288. A alternativa C é a correta. Há um erro na anotação da resposta correta. A alternativa B (480) não está correta. A alternativa C (288) é a correta. A alternativa B foi indicada como correta, o que é um erro. A resposta correta é 288."
     },
     {
-        "id": "2334776",
         "enunciado": "Uma gráfica verificou que 8 impressoras, trabalhando 6 horas por dia, produziam 9.600 cartões em 5 dias, mas deseja-se produzir 14.000 cartões utilizando 10 impressoras, operando 5 horas por dia, mantendo-se as mesmas condições de produtividade. Em quantos dias o novo lote será concluído?",
         "alternativas": {
             "A": "Em 7 dias.",
@@ -571,10 +570,10 @@
             "D": "Em 15 dias."
         },
         "gabarito_correto": "C",
+        "id": "2334776",
         "comentario_ia": "Podemos usar uma regra de três composta para resolver este problema. Relacionando impressoras, horas/dia, dias e cartões: (Impressoras * Horas * Dias) / Cartões = Constante. Primeiro cenário: (8 * 6 * 5) / 9600 = 240 / 9600 = 1/40. Segundo cenário: (10 * 5 * D) / 14000 = 1/40. 50 * D = 14000 / 40. 50 * D = 350. D = 350 / 50 = 7. Houve um engano. Recalculando: 8 imp x 6h/dia x 5 dias = 9600 cartões. (Impressoras * Horas * Dias) / Cartões. 8*6*5 / 9600 = 240 / 9600 = 1/40. Agora, 10 imp x 5h/dia x X dias = 14000 cartões. (10 * 5 * X) / 14000 = 1/40. 50X / 14000 = 1/40. 50X = 14000/40. 50X = 350. X = 350/50 = 7. Verificando: O problema parece apresentar um cenário onde se produz menos cartões por hora-impressora no segundo caso. Vamos tentar de outra forma. Produtividade por hora-impressora no 1º caso: 9600 cartões / (8 imp * 6h/dia * 5 dias) = 9600 / 240 = 40 cartões/hora-impressora. Agora, para produzir 14000 cartões com 10 impressoras e 5 horas/dia: Total de horas-impressora necessário para 14000 cartões ..."
     },
     {
-        "id": "2371491",
         "enunciado": "Uma equipe de 8 técnicos realiza a instalação de 120 sensores em 6 dias, trabalhando 5 horas por dia, todos com a mesma produtividade. Mantidas essas condições, quantos sensores serão instalados por uma equipe de 12 técnicos, trabalhando 8 dias, com jornada diária de 6 horas?",
         "alternativas": {
             "A": "A quantidade instalada será de 360 sensores.",
@@ -584,10 +583,10 @@
             "E": "A quantidade instalada será de 288 sensores."
         },
         "gabarito_correto": "B",
-        "comentario_ia": "Este é um problema de regra de três composta. A produtividade total é (8 técnicos * 5 horas/dia * 6 dias) = 240 horas/técnico para 120 sensores. Na nova situação, (12 técnicos * 6 horas/dia * 8 dias) = 576 horas/técnico. A quantidade de sensores é proporcional à produtividade: (576/240) * 120 = 2,4 * 120 = 288 sensores. Houve um engano no cálculo, corrigindo para B=480. Recalculando: 120 sensores / (8 * 5 * 6) = 120/240 = 0.5 sensores/hora/homem. Nova situação: 12 * 6 * 8 = 576 horas. 0.5 * 576 = 288 sensores.  A alternativa B 480 não parece correta. Verificando a opção E: 288 sensores está correta."
+        "id": "2371491",
+        "comentario_ia": "Este é um problema de regra de três composta. A produtividade total é (8 técnicos * 5 horas/dia * 6 dias) = 240 horas/técnico para 120 sensores. Na nova situação, (12 técnicos * 6 horas/dia * 8 dias) = 576 horas/técnico. A quantidade de sensores é proporcional à produtividade: (576/240) * 120 = 2,4 * 120 = 288 sensores. Houve um engano no cálculo, corrigindo para B=480. Recalculando: 120 sensores / (8 * 5 * 6) = 120/240 = 0.5 sensores/hora/homem. Nova situação: 12 * 6 * 8 = 576 horas. 0.5 * 576 = 288 sensores. A alternativa B 480 não parece correta. Verificando a opção E: 288 sensores está correta."
     },
     {
-        "id": "2086791",
         "enunciado": "Uma equipe de engenharia pavimenta ruas com a ajuda de máquinas. Com 4 máquinas, trabalhando 7 horas por dia durante 8 dias, pavimentam 480 metros de rua. Se a prefeitura quiser pavimentar 720 metros em 6 dias, com jornadas de 8 horas por dia, quantas máquinas serão necessárias?",
         "alternativas": {
             "A": "5 máquinas.",
@@ -596,10 +595,10 @@
             "D": "6 máquinas."
         },
         "gabarito_correto": "B",
+        "id": "2086791",
         "comentario_ia": "Usando regra de três composta: Máquinas (M), Horas por dia (H), Dias (D), Metros (Mt). (4 M, 7 H, 8 D pavimentam 480 Mt) e (X M, 8 H, 6 D pavimentam 720 Mt). A relação é: M1/M2 = (H2/H1) * (D2/D1) * (Mt1/Mt2). 4/X = (8/7) * (6/8) * (480/720). 4/X = (3/7) * (2/3) = 2/7. 4/X = 2/7 => 2X = 28 => X = 14. Refazendo a conta: A quantidade de metros é diretamente proporcional ao número de máquinas, horas e dias. A quantidade de metros é diretamente proporcional ao número de máquinas, horas e dias. A relação é Mt / (M*H*D) = Constante. 480 / (4*7*8) = 480 / 224 = 2,14. Agora, para 720 Mt com 8H e 6D: 720 / (X*8*6) = 2,14. 720 / (48X) = 2,14. 720 = 2,14 * 48X. 720 = 102,72X. X = 720 / 102,72 ≈ 7. Então algo está errado. Refazendo de outra forma: 4 máquinas em 8 dias (7h/dia) fazem 480m. Trabalho total 1 = 4 * 7 * 8 = 224 'máquina-hora'. Em 224 'máquina-hora' fazem 480m. Taxa = 480/224 m por 'máquina-hora'. Agora, queremos 720m em 6 dias (8h/dia). Trabalho total 2 = X * 8 * 6 = 48X 'máquina-hora'. 720m / (48X 'máqui..."
     },
     {
-        "id": "2313843",
         "enunciado": "Uma equipe de técnicos precisa montar um conjunto de módulos eletrônicos. Sabe -se que: 4 técnicos, traba- lhando 6 horas por dia, montam 180 módulos em 5 dias. Agora, deseja -se montar 420 módulos em 7 dias, com cada técnico trabalhando 8 horas por dia. Sabendo que todos os técnicos possuem o mesmo ritmo de trabalho, quantos técnicos devem ser contratados para cumprir o novo objetivo?",
         "alternativas": {
             "A": "7 técnicos.",
@@ -608,10 +607,10 @@
             "D": "6 técnicos."
         },
         "gabarito_correto": "C",
+        "id": "2313843",
         "comentario_ia": "Usando a regra de três composta para a relação entre técnicos, horas/dia, dias e módulos: (T1/T2) = (D2/D1) * (H2/H1) * (M1/M2). Assim: (4/T2) = (7/5) * (8/6) * (180/420). Resolvendo, T2 = 9 técnicos."
     },
     {
-        "id": "2314163",
         "enunciado": "Uma equipe de técnicos precisa montar um conjunto de módulos eletrônicos. Sabe-se que: 4 técnicos, trabalhando 6 horas por dia, montam 180 módulos em 5 dias. Agora, deseja-se montar 420 módulos em 7 dias, com cada técnico trabalhando 8 horas por dia. Sabendo que todos os técnicos possuem o mesmo ritmo de trabalho, quantos técnicos devem ser contratados para cumprir o novo objetivo?",
         "alternativas": {
             "A": "7 técnicos.",
@@ -620,10 +619,10 @@
             "D": "6 técnicos."
         },
         "gabarito_correto": "C",
+        "id": "2314163",
         "comentario_ia": "A questão envolve regra de três composta. A relação entre técnicos, horas/dia, dias e módulos é diretamente proporcional à quantidade de módulos e inversamente proporcional aos técnicos, horas/dia e dias. Analisando as proporções é possível calcular a quantidade de técnicos necessária para a nova meta."
     },
     {
-        "id": "2122346",
         "enunciado": "A construtora Vila Nova recebeu a tarefa de levantar 94 metros de muro ao redor de um parque municipal antes da inauguração. Na primeira etapa da obra, 8 pedreiros, trabalhando com o mesmo ritmo diário e nas mesmas condições, concluíram 40 metros em 10 dias. Por questões de revezamento de equipes, a segunda frente de trabalho terá apenas 4 pedreiros, nas mesmas condições (jornada, ferramentas e clima). Em quantos dias essa equipe de 4 pedreiros construirá os 54 metros restantes?",
         "alternativas": {
             "A": "Em 35 dias.",
@@ -632,10 +631,10 @@
             "D": "Em 21 dias."
         },
         "gabarito_correto": "B",
+        "id": "2122346",
         "comentario_ia": "A produtividade total é 8 pedreiros * 40m / 10 dias = 32 m/dia. A produtividade individual é 32m/dia / 8 pedreiros = 4m/pedreiro/dia. Para 54m com 4 pedreiros, o tempo será 54m / (4 pedreiros * 4m/pedreiro/dia) = 54m / 16m/dia, o que não bate. Recalculando: 8 pedreiros constroem 40m em 10 dias. Ou seja, 1 pedreiro constrói 40/8 = 5m em 10 dias, logo 0,5m/dia. Para 54m com 4 pedreiros: 54m / (4 * 0,5m/dia) = 54m / 2m/dia = 27 dias."
     },
     {
-        "id": "2368546",
         "enunciado": "Um grupo de estudantes planeja preparar 240 sanduíches para uma feira gastronômica. Sabe-se que 4 pessoas conseguem fazer 80 sanduíches em 2 horas. Mantendo o mesmo ritmo de trabalho, o coordenador quer saber quanto tempo 6 pessoas levariam para produzir os 240 sanduíches. Depois de analisar a situação ele chegou às seguintes conclusões: I.A quantidade de pessoas é inversamente proporcional à produção. II.O tempo é inversamente proporcional à produção. III.Serão necessárias 4 horas para 6 pessoas produzirem 240 sanduíches. IV.A relação entre tempo, pessoas e quantidade é uma regra de três simples. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "III e IV, apenas.",
@@ -644,10 +643,10 @@
             "D": "I e III, apenas."
         },
         "gabarito_correto": "B",
+        "id": "2368546",
         "comentario_ia": "A quantidade de pessoas e o tempo necessário para produzir uma quantidade fixa de sanduíches são inversamente proporcionais (I é falsa). O tempo e a produção são diretamente proporcionais (II é verdadeira). Calculando: Regra de três composta: (4 pessoas / 6 pessoas) = (2 horas / x horas) * (80 sanduíches / 240 sanduíches). Resolvendo, 6 pessoas levariam 4 horas (III é verdadeira). A relação envolve mais de duas grandezas, sendo uma regra de três composta (IV é falsa)."
     },
     {
-        "id": "2317007",
         "enunciado": "Dois consultores associaram-se em um projeto. O primeiro investiu R$ 18.000,00 por 10 meses, enquanto o segundo investiu R$ 12.000,00 por 15 meses. O lucro final do projeto foi de R$ 60.000,00, a ser dividido proporcionalmente ao produto capital-tempo. De quanto será a parte do primeiro consultor?",
         "alternativas": {
             "A": "De R$ 26.500,00.",
@@ -656,10 +655,10 @@
             "D": "De R$ 30.000,00."
         },
         "gabarito_correto": "D",
+        "id": "2317007",
         "comentario_ia": "Calcula-se o produto capital-tempo para cada consultor: 1º: 18000 * 10 = 180000; 2º: 12000 * 15 = 180000. O total é 360000. A parte do primeiro consultor é (180000/360000) * 60000 = 0.5 * 60000 = 30000."
     },
     {
-        "id": "2137040",
         "enunciado": "Um grupo de trabalhadores é responsável por construir 432 metros de uma estrada em 8 dias, trabalhando 6 horas por dia. Se o número de trabalhadores aumentar em 25%, e eles passarem a trabalhar 8 horas por dia, em quantos dias será possível construir 630 metros dessa estrada, mantendo o mesmo ritmo de trabalho?",
         "alternativas": {
             "A": "9.",
@@ -668,10 +667,10 @@
             "D": "8."
         },
         "gabarito_correto": "C",
+        "id": "2137040",
         "comentario_ia": "Regra de três composta: (Trabalhadores * Dias * Horas) / Extensão = Constante. (W * 8 * 6) / 432 = (1.25W * D * 8) / 630. Simplificando: 48W / 432 = 10WD / 630. 1 / 9 = D / 63. D = 63 / 9 = 7 dias."
     },
     {
-        "id": "2136847",
         "enunciado": "Um grupo de trabalhadores é responsável por construir 432 metros de uma estrada em 8 dias, trabalhando 6 horas por dia. Se o número de trabalhadores aumentar em 25%, e eles passarem a trabalhar 8 horas por dia, em quantos dias será possível construir 630 metros dessa estrada, mantendo o mesmo ritmo de trabalho?",
         "alternativas": {
             "A": "6.",
@@ -680,10 +679,10 @@
             "D": "9."
         },
         "gabarito_correto": "B",
-        "comentario_ia": "Este é um problema de regrinha de três composta.  Vamos calcular a produtividade inicial: Trabalhadores*Horas*Dias/Metros.  Para o novo cenário: (N*1.25)*8*D / 630 = (N*6*8)/432. Simplificando N e 8 das horas: (1.25*D)/630 = 6/432.  1.25*D = (6*630)/432.  1.25*D = 3780/432. 1.25*D = 8.75. D = 8.75 / 1.25 = 7 dias. A alternativa B é a correta."
+        "id": "2136847",
+        "comentario_ia": "Este é um problema de regrinha de três composta. Vamos calcular a produtividade inicial: Trabalhadores*Horas*Dias/Metros. Para o novo cenário: (N*1.25)*8*D / 630 = (N*6*8)/432. Simplificando N e 8 das horas: (1.25*D)/630 = 6/432. 1.25*D = (6*630)/432. 1.25*D = 3780/432. 1.25*D = 8.75. D = 8.75 / 1.25 = 7 dias. A alternativa B é a correta."
     },
     {
-        "id": "2021448",
         "enunciado": "Se em 3 dias de trabalho 5 pedreiros conseguem assentar 250m² de cerâmica, quantos dias serão necessários para que 3 pedreiros consigam assentar 350m² de cerâmica?",
         "alternativas": {
             "A": "Serão necessários 5 dias.",
@@ -693,10 +692,10 @@
             "E": "Serão necessários 9 dias."
         },
         "gabarito_correto": "C",
-        "comentario_ia": "Regra de três composta: (Pedreiros diretam/inversamente proporcional a dias) e (m² diretamente proporcional a dias). Setup: (5 pedreiros / 3 pedreiros) * (250m² / 350m²) = (3 dias / x dias). Resolvendo: (5/3) * (25/35) = 3/x => (5/3) * (5/7) = 3/x => 25/21 = 3/x => x = (21 * 3) / 25 = 63/25 = 2.52. Há um erro na minha primeira resolução. Refazendo: Montando a regra de três. Pedreiros e dias são inversamente proporcionais. M² e dias são diretamente proporcionais. 5 pedreiros --- 3 dias --- 250m² 3 pedreiros --- X dias --- 350m².  X = (3 * 250 * 5) / (350 * 3). Simplificando o 3: X = (250 * 5) / 350 = 1250 / 350 = 3.57.  Meu cálculo inicial está incorreto. Refazendo o raciocínio: 5 pedreiros fazem 250m² em 3 dias. Pede-se para 3 pedreiros fazer 350m². Pedreiros e m² são diretamente proporcionais. Vamos calcular a produtividade por pedreiro. 5 pedreiros em 3 dias fazem 250m², ou seja, 5 pedreiros fazem 250/3 m² por dia. Cada pedreiro faz (250/3) / 5 = 50/3 m² por dia. Agora, quantos dias 3 pedreiros precisar..."
+        "id": "2021448",
+        "comentario_ia": "Regra de três composta: (Pedreiros diretam/inversamente proporcional a dias) e (m² diretamente proporcional a dias). Setup: (5 pedreiros / 3 pedreiros) * (250m² / 350m²) = (3 dias / x dias). Resolvendo: (5/3) * (25/35) = 3/x => (5/3) * (5/7) = 3/x => 25/21 = 3/x => x = (21 * 3) / 25 = 63/25 = 2.52. Há um erro na minha primeira resolução. Refazendo: Montando a regra de três. Pedreiros e dias são inversamente proporcionais. M² e dias são diretamente proporcionais. 5 pedreiros --- 3 dias --- 250m² 3 pedreiros --- X dias --- 350m². X = (3 * 250 * 5) / (350 * 3). Simplificando o 3: X = (250 * 5) / 350 = 1250 / 350 = 3.57. Meu cálculo inicial está incorreto. Refazendo o raciocínio: 5 pedreiros fazem 250m² em 3 dias. Pede-se para 3 pedreiros fazer 350m². Pedreiros e m² são diretamente proporcionais. Vamos calcular a produtividade por pedreiro. 5 pedreiros em 3 dias fazem 250m², ou seja, 5 pedreiros fazem 250/3 m² por dia. Cada pedreiro faz (250/3) / 5 = 50/3 m² por dia. Agora, quantos dias 3 pedreiros precisar..."
     },
     {
-        "id": "2063345",
         "enunciado": "Três telefonistas juntas atendem em média, a 1440 ligações em 12 dias. Quantas telefonistas atenderiam a essa mesma quantidade de ligações em 9 dias?",
         "alternativas": {
             "A": "5 telefonistas",
@@ -705,10 +704,10 @@
             "D": "2 telefonistas"
         },
         "gabarito_correto": "C",
+        "id": "2063345",
         "comentario_ia": "Este é um problema de regra de três composta (trabalhadores, ligações, dias). Podemos montar a regra: (3T / 1440L) * 12D = (X T / 1440L) * 9D. Isolando X: 3*12 = X*9 => 36 = 9X => X = 4 telefonistas."
     },
     {
-        "id": "2070778",
         "enunciado": "Vinte pessoas, trabalhando 5 horas por dia, durante 20 dias, produzem 500 peças. Nas mesmas condições, trinta pessoas, trabalhando 8 horas por dia, durante 15 dias produzirão n peças. Sobre o valor de n, assinale o que for correto.",
         "alternativas": {
             "A": "n é um número par.",
@@ -717,6 +716,7 @@
             "D": "n é um múltiplo de 10."
         },
         "gabarito_correto": "C",
+        "id": "2070778",
         "comentario_ia": "A produção total é proporcional ao número de pessoas, às horas trabalhadas e aos dias. Proporção: P1/(H1*D1*P1) = P2/(H2*D2*P2). 500/(5*20*20) = n/(8*15*30). 500/8000 = n/3600. n = 500 * 3600 / 8000 = 225. A alternativa C está incorreta, pois 225 não é maior que 1000. Precisamos ver o que está pedindo. A questão é sobre o valor de n. O valor de n é 225. N é par? Não. N é divisível por 3? Sim (2+2+5=9). N é maior que 1000? Não. N é um múltiplo de 10? Não. Houve um erro de cálculo ou interpretação. Refazendo: 20 pessoas * 5h/dia * 20 dias = 2000 horas/homem-dia. Produção de 500 peças. Razão: 500 peças / 2000 horas = 0.25 peças/hora-homem. Agora: 30 pessoas * 8h/dia * 15 dias = 3600 horas/homem-dia. Produção n = 3600 horas * 0.25 peças/hora = 900 peças. N=900. Letra A: 900 é par. Correto. Letra B: 900 é divisível por 3. Correto. Letra C: 900 é maior que 1000. Falso. Letra D: 900 é um múltiplo de 10. Correto. Com múltiplas respostas corretas, algo está errado. Revisando o enunciado. A questão pede para assina..."
     }
 ]

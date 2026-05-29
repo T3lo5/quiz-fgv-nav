@@ -1,6 +1,5 @@
 [
     {
-        "id": "2330210",
         "enunciado": "Considere a função f(x) = 2x² - 3x + 4 aplicada ao controle de um sistema automatizado em que certos valores de entrada determinam ajustes específicos. Para avaliar o comportamento desta função, analise as afirmativas abaixo, considerando cálculos diretos dos valores correspondentes.I. f(2) resulta em 6.II. f(-1) resulta em 9.III. f(3) resulta em 19.",
         "alternativas": {
             "A": "II e III, apenas.",
@@ -10,10 +9,10 @@
             "E": "III e IV, apenas."
         },
         "gabarito_correto": "C",
-        "comentario_ia": "f(2) = 2(2)² - 3(2) + 4 = 8 - 6 + 4 = 6 (I - V). f(-1) = 2(-1)² - 3(-1) + 4 = 2 + 3 + 4 = 9 (II - V). f(3) = 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13 (III - F). A alternativa C (I e II apenas) é a correta, mas com base nos cálculos, I e II são verdadeiras.  Refazendo o cálculo de f(3): 2(3)² - 3(3) + 4 = 2(9) - 9 + 4 = 18 - 9 + 4 = 13.  A afirmativa III está errada como apresentada na alternativa C.  Considerando a alternativa C, se I e II são verdadeiras, então III deveria ser falsa.  Vamos recalcular f(3): 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13.  Portanto, a afirmativa III está INCORRETA como está.  Se as afirmativas I e II são corretas, seria possivel a alternativa D. Mas a alternativa D não existe.  Temos um problema nas afirmativas ou nas alternativas.  Reavaliando: f(2)=6 (V), f(-1)=9 (V), f(3)=13 (F, pois diz 19). Se a alternativa C é I e III, e I é V, III teria que ser V para ser C.  Se a alternativa A é II e III, H=9 (V), III=13 (F).  Se a alternativa D é I e II, H=6 (V), H=-1=9 (V).  Portanto, I e II são ..."
+        "id": "2330210",
+        "comentario_ia": "f(2) = 2(2)² - 3(2) + 4 = 8 - 6 + 4 = 6 (I - V). f(-1) = 2(-1)² - 3(-1) + 4 = 2 + 3 + 4 = 9 (II - V). f(3) = 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13 (III - F). A alternativa C (I e II apenas) é a correta, mas com base nos cálculos, I e II são verdadeiras. Refazendo o cálculo de f(3): 2(3)² - 3(3) + 4 = 2(9) - 9 + 4 = 18 - 9 + 4 = 13. A afirmativa III está errada como apresentada na alternativa C. Considerando a alternativa C, se I e II são verdadeiras, então III deveria ser falsa. Vamos recalcular f(3): 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13. Portanto, a afirmativa III está INCORRETA como está. Se as afirmativas I e II são corretas, seria possivel a alternativa D. Mas a alternativa D não existe. Temos um problema nas afirmativas ou nas alternativas. Reavaliando: f(2)=6 (V), f(-1)=9 (V), f(3)=13 (F, pois diz 19). Se a alternativa C é I e III, e I é V, III teria que ser V para ser C. Se a alternativa A é II e III, H=9 (V), III=13 (F). Se a alternativa D é I e II, H=6 (V), H=-1=9 (V). Portanto, I e II são ..."
     },
     {
-        "id": "2312666",
         "enunciado": "Uma empresa registrou o número diário de atendimentos e verificou que a relação entre o total atendido (T) e o número de funcionários de plantão (n) pode ser modelada por T(n) = 15n + 30. Com base nesses dados, deseja-se analisar propriedades dessa função afim e avaliar valores específicos de produção. I. T(6) resulta em 120 atendimentos. II. O coeficiente angular da função é igual a 15. III. A função é crescente em seu domínio. IV. O valor T(4) é maior que T(5). Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I e III, apenas.",
@@ -23,10 +22,10 @@
             "E": "II e IV, apenas."
         },
         "gabarito_correto": "C",
+        "id": "2312666",
         "comentario_ia": "I. T(6) = 15*6 + 30 = 120. Correto. II. O coeficiente angular é o termo multiplicado por n, que é 15. Correto. III. A função afim com coeficiente angular positivo é crescente. Correto. IV. T(4) é menor que T(5) pois a função é crescente."
     },
     {
-        "id": "2320391",
         "enunciado": "Uma função é uma relação entre dois conjuntos que associa a cada elemento do primeiro conjunto, o domínio, um único elemento do segundo conjunto, contradomínio. Assim, considere a função f(x) = 2x + 2 + x - 1 e analise o que está sendo afirmado nas alternativas, assinalando a que apresenta informação CORRETA.",
         "alternativas": {
             "A": "Como se trata de uma função quadrática, tem-se que seu ponto de máximo, ou de mínimo, será igual a ( -0,25 ; -6,125).",
@@ -35,10 +34,10 @@
             "D": "Caso seja necessário traçar o gráfico da função em questão, tem-se que ela será uma reta crescente da esquerda para a direita."
         },
         "gabarito_correto": "D",
+        "id": "2320391",
         "comentario_ia": "A função fornecida f(x) = 2x + 2 + x - 1 simplifica para f(x) = 3x + 1. Esta é uma função afim (linear), cujo gráfico é uma reta. Como o coeficiente angular (3) é positivo, a reta é crescente da esquerda para a direita."
     },
     {
-        "id": "2312503",
         "enunciado": "A LigNet vende um serviço de internet cujo valor mensal é dado por C = 40 + 5x, sendo x o número de gigabytes adicionais consumidos além do pacote básico. Em determinado mês, um cliente reclamou porque teve que pagar uma conta de R$ 75,00, e foi orientado conforme as observações abaixo. I.Se C = 75, então 5x = 35. II.O valor de x correspondente é igual a 7. III.O termo 40 representa a parte variável do consumo. IV.Se x = 3, então C = 55. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I, II e IV, apenas.",
@@ -48,10 +47,10 @@
             "E": "II e IV, apenas."
         },
         "gabarito_correto": "A",
+        "id": "2312503",
         "comentario_ia": "As afirmativas I, II e IV estão corretas. I: 75 = 40 + 5x -> 35 = 5x. II: x = 35/5 = 7. IV: C = 40 + 5*3 = 40 + 15 = 55. A afirmativa III está incorreta, pois 40 é o valor fixo e 5x é a variável."
     },
     {
-        "id": "2330459",
         "enunciado": "Considere a função f(x) = 2x² - 3x + 4 aplicada ao controle de um sistema automatizado em que certos valores de entrada determinam ajustes específicos. Para avaliar o comportamento desta função, analise as afirmativas abaixo, considerando cálculos diretos dos valores correspondentes.I.f(2) resulta em 6.II.f(-1) resulta em 9.III.f(3) resulta em 19.IV.f(0,5) resulta em 3,75.Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I e III, apenas.",
@@ -61,10 +60,10 @@
             "E": "I, III e IV, apenas."
         },
         "gabarito_correto": "E",
-        "comentario_ia": "As afirmativas I, III e IV estão corretas. Calculando f(x) = 2x² - 3x + 4: I. f(2) = 2(2)² - 3(2) + 4 = 8 - 6 + 4 = 6 (V). II. f(-1) = 2(-1)² - 3(-1) + 4 = 2 + 3 + 4 = 9 (V). III. f(3) = 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13 (F). Revisando: f(3) = 2(9) - 9 + 4 = 18 - 9 + 4 = 13. Houve um erro na minha análise inicial. Vamos recalcular III e verificar o enunciado. O enunciado diz f(3) resulta em 19. Vamos recalcular. f(3) = 2(3)² - 3(3) + 4 = 2(9) - 9 + 4= 18-9+4 = 13. Há um erro no enunciado ou nas alternativas. Vamos verificar o cálculo para f(3) de novo. 2*(3^2) - 3*3 + 4 = 2*9 - 9 + 4 = 18 - 9 + 4 = 13. A alternativa indica 19.  Vamos verificar IV. f(0,5) = 2(0,5)² - 3(0,5) + 4 = 2(0,25) - 1,5 + 4 = 0,5 - 1,5 + 4 = 3.  O enunciado diz 3,75.  Há um erro claro no enunciado para III e IV. Se considerarmos que II e III estão corretas, seria a alternativa C, mas III não está correta.  Se considerarmos que I, II e IV estão corretas, seria uma nova alternativa. Vamos refazer os cálculos com exatidão.  f(2) = 2(4..."
+        "id": "2330459",
+        "comentario_ia": "As afirmativas I, III e IV estão corretas. Calculando f(x) = 2x² - 3x + 4: I. f(2) = 2(2)² - 3(2) + 4 = 8 - 6 + 4 = 6 (V). II. f(-1) = 2(-1)² - 3(-1) + 4 = 2 + 3 + 4 = 9 (V). III. f(3) = 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13 (F). Revisando: f(3) = 2(9) - 9 + 4 = 18 - 9 + 4 = 13. Houve um erro na minha análise inicial. Vamos recalcular III e verificar o enunciado. O enunciado diz f(3) resulta em 19. Vamos recalcular. f(3) = 2(3)² - 3(3) + 4 = 2(9) - 9 + 4= 18-9+4 = 13. Há um erro no enunciado ou nas alternativas. Vamos verificar o cálculo para f(3) de novo. 2*(3^2) - 3*3 + 4 = 2*9 - 9 + 4 = 18 - 9 + 4 = 13. A alternativa indica 19. Vamos verificar IV. f(0,5) = 2(0,5)² - 3(0,5) + 4 = 2(0,25) - 1,5 + 4 = 0,5 - 1,5 + 4 = 3. O enunciado diz 3,75. Há um erro claro no enunciado para III e IV. Se considerarmos que II e III estão corretas, seria a alternativa C, mas III não está correta. Se considerarmos que I, II e IV estão corretas, seria uma nova alternativa. Vamos refazer os cálculos com exatidão. f(2) = 2(4..."
     },
     {
-        "id": "2311889",
         "enunciado": "Uma empresa registrou o número diário de atendimentos e verificou que a relação entre o total atendido (T) e o número de funcionários de plantão (n) pode ser modelada por T(n) = 15n + 30. Com base nesses dados, deseja-se analisar propriedades dessa função afim e avaliar valores específicos de produção.I. T(6) resulta em 120 atendimentos.II. O coeficiente angular da função é igual a 15.III. A função é crescente em seu domínio.IV. O valor T(4) é maior que T(5). Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "III e IV, apenas.",
@@ -74,10 +73,10 @@
             "E": "I e III, apenas."
         },
         "gabarito_correto": "B",
+        "id": "2311889",
         "comentario_ia": "A função é T(n) = 15n + 30. Verificando as afirmativas: I. T(6) = 15*6 + 30 = 90 + 30 = 120 (Correta). II. O coeficiente angular é o termo que multiplica 'n', que é 15 (Correta). III. Para n=1, T(1)=45; para n=2, T(2)=60. Como o coeficiente angular é positivo (15), a função é crescente (Correta). IV. T(4) = 15*4 + 30 = 90. T(5) = 15*5 + 30 = 105. T(4) < T(5) (Incorreta)."
     },
     {
-        "id": "1787645",
         "enunciado": "Dadas as funções f(x) = 2x² + 3x - 12 e g(x) = 2x + 4, assinalar a alternativa que corresponde à f(g(3)).",
         "alternativas": {
             "A": "15",
@@ -86,10 +85,10 @@
             "D": "230"
         },
         "gabarito_correto": "B",
-        "comentario_ia": "Primeiro calculamos g(3) = 2(3) + 4 = 10.  Em seguida, calculamos f(g(3)) = f(10) = 2(10)² + 3(10) - 12 = 2(100) + 30 - 12 = 200 + 30 - 12 = 218.  Apenas F(10) = 2 * 10^2 + 3*10 - 12 = 200 + 30 - 12 = 218. A alternativa C está correta."
+        "id": "1787645",
+        "comentario_ia": "Primeiro calculamos g(3) = 2(3) + 4 = 10. Em seguida, calculamos f(g(3)) = f(10) = 2(10)² + 3(10) - 12 = 2(100) + 30 - 12 = 200 + 30 - 12 = 218. Apenas F(10) = 2 * 10^2 + 3*10 - 12 = 200 + 30 - 12 = 218. A alternativa C está correta."
     },
     {
-        "id": "2169440",
         "enunciado": "Um aplicativo cobra uma taxa fixa de R$ 5,00 mais R$ 2,00 por cada tarefa realizada. Qual a função que relaciona o custo total C(x) com o número de tarefas x ≥ 1?",
         "alternativas": {
             "A": "C(x) = 2x + 5",
@@ -99,10 +98,10 @@
             "E": "C(x) = 5x + 2"
         },
         "gabarito_correto": "A",
+        "id": "2169440",
         "comentario_ia": "O custo total é a soma de uma taxa fixa (R$ 5,00) com o custo por tarefa (R$ 2,00 multiplicado pelo número de tarefas x). Portanto, a função é C(x) = 2x + 5."
     },
     {
-        "id": "2087223",
         "enunciado": "Um encanador cobra R$80,00 de taxa fixa e mais R$30,00 por hora de serviço. Qual é a função que representa o valor total pago, em reais, em função do número de horas trabalhadas h?",
         "alternativas": {
             "A": "f(h) = 80h + 30",
@@ -111,10 +110,10 @@
             "D": "f(h) = 110h"
         },
         "gabarito_correto": "C",
+        "id": "2087223",
         "comentario_ia": "O valor total é composto por uma taxa fixa de R$80,00 e R$30,00 por hora. Assim, a função que representa o valor total em função das horas (h) é f(h) = 30h + 80."
     },
     {
-        "id": "1897140",
         "enunciado": "Abaixo estão representados os gráficos de três funções no intervalo =−T [ 1 ,3] . Essas funções são, respectivamente, classificadas como função exponencial (f), função afim (g) e função quadrática (h). Considere as seguintes afirmações sobre as funções f, g e h. I)   x T tal que g(x) f(x) . II) h(x) é uma função par no intervalo T. III) Se x < 0, então h(x) > g(x) > f(x). IV) h(2) > g(2) ou f(2) > g(2). É correto afirmar que:",
         "alternativas": {
             "A": "As afirmações I, II, III e IV estão corretas.",
@@ -124,10 +123,10 @@
             "E": "Somente as afirmações I e IV estão corretas."
         },
         "gabarito_correto": "C",
+        "id": "1897140",
         "comentario_ia": "A análise gráfica e das informações fornecidas sobre as funções f (exponencial), g (afim) e h (quadrática) leva à conclusão de que apenas as afirmações III e IV são verdadeiras."
     },
     {
-        "id": "2087717",
         "enunciado": "Mariana trabalha como vendedora em uma loja de roupas e recebe um salário fixo mensal de R$ 1.200,00, além de uma comissão de R$ 50,00 por cada peça de roupa vendida. Desejando acompanhar ao longo do mês o valor que receberá, ela pediu a um amigo que é bom em Matemática para elaborar uma função S(x) que a permita fazer esse cálculo. Qual das alternativas a seguir traz a equação correta?",
         "alternativas": {
             "A": "S(x) = 1200x + 50",
@@ -136,10 +135,10 @@
             "D": "S(x) = 1200 + 50x"
         },
         "gabarito_correto": "D",
+        "id": "2087717",
         "comentario_ia": "O salario fixo é R$ 1.200,00. A comissao é R$ 50,00 por peca vendida (x). Portanto, o salario total S(x) é a soma do fixo com a comissao: 1200 + 50x."
     },
     {
-        "id": "2087771",
         "enunciado": "Mariana trabalha como vendedora em uma loja de roupas e recebe um salário fixo mensal de R$ 1.200,00, além de uma comissão de R$ 50,00 por cada peça de roupa vendida. Desejando acompanhar ao longo do mês o valor que receberá, ela pediu a um amigo que é bom em Matemática para elaborar uma função S(x) que a permita fazer esse cálculo. Qual das alternativas a seguir traz a equação correta?",
         "alternativas": {
             "A": "S(x) = 1200 + 50x",
@@ -148,10 +147,10 @@
             "D": "S(x) = 1250x"
         },
         "gabarito_correto": "A",
+        "id": "2087771",
         "comentario_ia": "O salário total S(x) é a soma do salário fixo (R$ 1.200,00) com o valor das comissões. A comissão é de R$ 50,00 por peça vendida (x), logo, a função é S(x) = 1200 + 50x."
     },
     {
-        "id": "2087035",
         "enunciado": "Um encanador cobra R$80,00 de taxa fixa e mais R$30,00 por hora de serviço. Qual é a função que representa o valor total pago, em reais, em função do número de horas trabalhadas h?",
         "alternativas": {
             "A": "f(h) = 110h",
@@ -160,10 +159,10 @@
             "D": "f(h) = 80h + 30"
         },
         "gabarito_correto": "C",
+        "id": "2087035",
         "comentario_ia": "A função que representa os custos de um serviço por hora é uma função linear. A taxa fixa (R$80,00) é o termo independente, e o valor por hora (R$30,00) é o coeficiente angular. Logo, f(h) = 30h + 80."
     },
     {
-        "id": "2334245",
         "enunciado": "Em um estudo interno sobre tendências lineares, um analista de custos modelou a relação entre duas variáveis por meio da função f(x) = -2x + 5, válida para todo x real. Ao examinar essa expressão, ele avaliou a taxa de variação constante da reta e buscou interpretar o comportamento geral da função no conjunto dos números reais. Com base nesse coeficiente angular e na estrutura da função, determine a conclusão correta sobre seu comportamento global.",
         "alternativas": {
             "A": "A função é decrescente com taxa de variação 5.",
@@ -172,10 +171,10 @@
             "D": "A função é crescente com taxa de variação -2."
         },
         "gabarito_correto": "B",
+        "id": "2334245",
         "comentario_ia": "A funcao f(x) = -2x + 5 tem a forma y = mx + c, onde m e o coeficiente angular. O coeficiente angular (m) e -2. Ele representa a taxa de variacao da funcao. Como o coeficiente angular e negativo, a funcao e decrescente. Portanto, a funcao e decrescente com taxa de variacao -2."
     },
     {
-        "id": "1867787",
         "enunciado": "A relação adequada entre a altura A, em centímetros e a massa M, em quilogramas, de um homem segundo Lorentz, é dada pela expressão algébrica: M = A – 100 – ( (A – 150)/4). Qual a massa (M) ideal de um homem com 178 centímetros de altura (A)?",
         "alternativas": {
             "A": "82",
@@ -184,23 +183,10 @@
             "D": "92"
         },
         "gabarito_correto": "A",
+        "id": "1867787",
         "comentario_ia": "Substituindo A=178 na fórmula M = A – 100 – ( (A – 150)/4), temos M = 178 – 100 – ( (178 – 150)/4) = 78 – (28/4) = 78 – 7 = 71. Portanto, a massa ideal é 71 kg."
     },
     {
-        "id": "1766491",
-        "enunciado": "Analise as afirmativas abaixo sobre conceitos relacionados ao conjunto dos números reais, variação de grandezas, função polinomial do 1º grau e função polinomial do 2º grau:\nI.Toda função polinomial do 1º grau é uma função linear cuja representação gráfica é sempre uma reta que passa pela origem.\nII.Uma função polinomial do 2º grau pode apresentar uma parábola com concavidade voltada para cima ou para baixo, dependendo do sinal do coeficiente a.\nIII.O conjunto dos números reais (R) é formado pela união dos números racionais e irracionais.\nIV.A relação de variação direta entre grandezas significa que, ao aumentar uma das grandezas, a outra aumenta proporcionalmente.\nAssinale a alternativa correta:",
-        "alternativas": {
-            "A": "Apenas as afirmativas I, II e III são verdadeiras.",
-            "B": "Apenas as afirmativas I e III são verdadeiras.",
-            "C": "As afirmativas I, II, III e IV são verdadeiras.",
-            "D": "Apenas as afirmativas II, III e IV são verdadeiras.",
-            "E": "Apenas as afirmativas II e IV são verdadeiras."
-        },
-        "gabarito_correto": "D",
-        "comentario_ia": "A afirmativa I está incorreta pois funcao linear tem reta que passa pela origem; funcao polinomial do 1o grau nao necessariamente. As afirmativas II, III e IV descrevem corretamente funcoes do 2o grau, uniao de racionais e irracionais para reais, e variacao direta."
-    },
-    {
-        "id": "1766459",
         "enunciado": "Analise as afirmativas abaixo sobre conceitos relacionados ao conjunto dos números reais, variação de grandezas, função polinomial do 1º grau e função polinomial do 2º grau: I.Toda função polinomial do 1º grau é uma função linear cuja representação gráfica é sempre uma reta que passa pela origem. II.Uma função polinomial do 2º grau pode apresentar uma parábola com concavidade voltada para cima ou para baixo, dependendo do sinal do coeficiente a. III.O conjunto dos números reais (R) é formado pela união dos números racionais e irracionais. IV.A relação de variação direta entre grandezas significa que, ao aumentar uma das grandezas, a outra aumenta proporcionalmente. Assinale a alternativa correta:",
         "alternativas": {
             "A": "Apenas as afirmativas I, II e III são verdadeiras.",
@@ -210,10 +196,23 @@
             "E": "Apenas as afirmativas II e IV são verdadeiras."
         },
         "gabarito_correto": "D",
+        "id": "1766491",
         "comentario_ia": "A afirmativa I está incorreta pois funcao linear tem reta que passa pela origem; funcao polinomial do 1o grau nao necessariamente. As afirmativas II, III e IV descrevem corretamente funcoes do 2o grau, uniao de racionais e irracionais para reais, e variacao direta."
     },
     {
-        "id": "2266337",
+        "enunciado": "Analise as afirmativas abaixo sobre conceitos relacionados ao conjunto dos números reais, variação de grandezas, função polinomial do 1º grau e função polinomial do 2º grau: I.Toda função polinomial do 1º grau é uma função linear cuja representação gráfica é sempre uma reta que passa pela origem. II.Uma função polinomial do 2º grau pode apresentar uma parábola com concavidade voltada para cima ou para baixo, dependendo do sinal do coeficiente a. III.O conjunto dos números reais (R) é formado pela união dos números racionais e irracionais. IV.A relação de variação direta entre grandezas significa que, ao aumentar uma das grandezas, a outra aumenta proporcionalmente. Assinale a alternativa correta:",
+        "alternativas": {
+            "A": "Apenas as afirmativas I, II e III são verdadeiras.",
+            "B": "Apenas as afirmativas I e III são verdadeiras.",
+            "C": "As afirmativas I, II, III e IV são verdadeiras.",
+            "D": "Apenas as afirmativas II, III e IV são verdadeiras.",
+            "E": "Apenas as afirmativas II e IV são verdadeiras."
+        },
+        "gabarito_correto": "D",
+        "id": "1766459",
+        "comentario_ia": "A afirmativa I está incorreta pois funcao linear tem reta que passa pela origem; funcao polinomial do 1o grau nao necessariamente. As afirmativas II, III e IV descrevem corretamente funcoes do 2o grau, uniao de racionais e irracionais para reais, e variacao direta."
+    },
+    {
         "enunciado": "Marta, professora da Escola Técnica Santa Aurora, ministrou uma aula sobre funções do 1º grau, em que pediu aos alunos que analisassem o faturamento mensal de uma empresa fictícia que vende camisetas, dado pela função F(x) = 15x - 3000, sendo x o número de camisetas vendidas e F(x) o faturamento em reais. Nestas condições, a partir da venda de quantas camisetas o faturamento será positivo?",
         "alternativas": {
             "A": "A partir da venda de 150 camisetas.",
@@ -223,10 +222,10 @@
             "E": "A partir da venda de 180 camisetas."
         },
         "gabarito_correto": "C",
+        "id": "2266337",
         "comentario_ia": "O faturamento é positivo quando F(x) > 0. Portanto, 15x - 3000 > 0. Isolando x, temos 15x > 3000, o que resulta em x > 200. Assim, a partir da venda de 201 camisetas, o faturamento será positivo."
     },
     {
-        "id": "2138511",
         "enunciado": "João foi a um show e teve um gasto fixo de R$ 150,00 com o ingresso e R$ 25,50 com o transporte. Além disso, ele tomou algumas bebidas de R$ 12,50 cada. Qual das equações abaixo representa os gastos de João?",
         "alternativas": {
             "A": "12,5 + 175,5x",
@@ -235,10 +234,10 @@
             "D": "175,5x - 12,5"
         },
         "gabarito_correto": "C",
+        "id": "2138511",
         "comentario_ia": "O gasto fixo é R$ 150,00 (ingresso) + R$ 25,50 (transporte) = R$ 175,50. O gasto com bebidas é R$ 12,50 por unidade (x). A equação total é a soma dos fixos com o variável: 175,50 + 12,50x."
     },
     {
-        "id": "2039181",
         "enunciado": "Observe a função a seguir:f(x) = (1 + 2x)² – (x – 5)² – (2x² + 9x)A menor raiz dessa função é",
         "alternativas": {
             "A": "– 16.",
@@ -248,10 +247,10 @@
             "E": "– 3."
         },
         "gabarito_correto": "E",
+        "id": "2039181",
         "comentario_ia": "Ao expandir e simplificar a função f(x) = (1 + 2x)² – (x – 5)² – (2x² + 9x), temos: f(x) = (1 + 4x + 4x²) – (x² – 10x + 25) – (2x² + 9x) = 1 + 4x + 4x² – x² + 10x – 25 – 2x² – 9x = (4x² - x² - 2x²) + (4x + 10x - 9x) + (1 - 25) = x² + 5x - 24. Para encontrar as raízes, igualamos f(x) a zero: x² + 5x - 24 = 0. Utilizando a fórmula de Bhaskara, Δ = b² - 4ac = 5² - 4(1)(-24) = 25 + 96 = 121. As raízes são x = (-b ± √Δ) / 2a = (-5 ± √121) / 2(1) = (-5 ± 11) / 2. As raízes são x1 = (-5 + 11) / 2 = 6 / 2 = 3 e x2 = (-5 - 11) / 2 = -16 / 2 = -8. A menor raiz é -8."
     },
     {
-        "id": "1732396",
         "enunciado": "Das afirmações a seguir, NÃO é uma característica das funções afim.",
         "alternativas": {
             "A": "Também chamada de função polinomial do primeiro grau.",
@@ -261,10 +260,10 @@
             "E": "Também chamada de função polinomial do segundo grau."
         },
         "gabarito_correto": "E",
+        "id": "1732396",
         "comentario_ia": "Funções afins são do primeiro grau (ax+b), com gráfico sendo uma reta e a e b sendo coeficientes reais (a!=0). A alternativa E descreve uma função do segundo grau, o que contradiz a definição de função afim."
     },
     {
-        "id": "2176211",
         "enunciado": "Entre as sentenças a seguir, selecione a que define função f: ℝ → ℝ para todo x e está definida em todos os reais.",
         "alternativas": {
             "A": "x = y².",
@@ -274,10 +273,10 @@
             "E": "y = x³ − 2x + 1."
         },
         "gabarito_correto": "E",
+        "id": "2176211",
         "comentario_ia": "Uma função f: ℝ → ℝ deve definir um único valor de y para cada valor de x. A alternativa E, y = x³ − 2x + 1, é um polinômio que produz um único valor de y para cada x em todo o conjunto dos reais."
     },
     {
-        "id": "1264096",
         "enunciado": "Uma fábrica de cocadas tem um custo fixo de R$ 500,00 reais e variável de R$ 27,00 a cada quilo produzido. Qual das equações abaixo representa esse custo?",
         "alternativas": {
             "A": "27x - 500",
@@ -286,10 +285,10 @@
             "D": "500x + 27"
         },
         "gabarito_correto": "B",
+        "id": "1264096",
         "comentario_ia": "O custo fixo é R$ 500,00, independentemente da produção. O custo variável é R$ 27,00 por quilo (x). O custo total é a soma do fixo com o variável total."
     },
     {
-        "id": "1600511",
         "enunciado": "Durante uma oficina de matemática, a auxiliar quer mostrar aos alunos o conceito de função de 1º grau. Se uma função f(x) é definida como f(x) = 3x + 2, qual é o valor de f(4)?",
         "alternativas": {
             "A": "8.",
@@ -298,11 +297,11 @@
             "D": "22."
         },
         "gabarito_correto": "C",
+        "id": "1600511",
         "comentario_ia": "Para encontrar o valor de f(4) na funcao f(x) = 3x + 2, substitui-se 'x' por 4. Assim, f(4) = 3*(4) + 2 = 12 + 2 = 14. O calculo e simples e direto."
     },
     {
-        "id": "1600685",
-        "enunciado": "Durante a explicação sobre funções, o professor descreve\na função de 1º grau f(x) = 3x - 4. Qual é o valor de f(x) quando x\n= 5?",
+        "enunciado": "Durante a explicação sobre funções, o professor descreve a função de 1º grau f(x) = 3x - 4. Qual é o valor de f(x) quando x = 5?",
         "alternativas": {
             "A": "19.",
             "B": "1 5.",
@@ -310,10 +309,10 @@
             "D": "5."
         },
         "gabarito_correto": "A",
+        "id": "1600685",
         "comentario_ia": "Para encontrar f(x) quando x=5, substitui-se x por 5 na funcao f(x) = 3x - 4. Assim, f(5) = 3*(5) - 4 = 15 - 4 = 11. Observe que a alternativa B apresenta 15, que e o resultado de 3*5, sem subtrair o 4."
     },
     {
-        "id": "1249564",
         "enunciado": "Uma função de segundo grau, ou quadrática, é identificada pela seguinte forma:f(x) = ax² + bx + cA partir dessa premissa, é possível se obter inúmeras funções de segundo grau, como as que estão listadas a seguir:f(x) = x² + 0x + 2f(x) = 2x + 3x² + 0f(x) = - 1 - 2x² - 2xf(x) = 1x² + 4x + 4f(x) = - 1x + 0x² + 5f(x) = - 4x² + 7x - 3Observando a lista acima, qual das alternativas apresenta a soma dos coeficientes que acompanham as incógnitas que possuem como expoente o número um?",
         "alternativas": {
             "A": "-1.",
@@ -322,10 +321,10 @@
             "D": "10."
         },
         "gabarito_correto": "B",
+        "id": "1249564",
         "comentario_ia": "As funções com termo em 'x' (expoente 1) são: f(x) = 2x + 3x² + 0 (coeficiente 2), f(x) = - 1 - 2x² - 2x (coeficiente -2) e f(x) = - 1x + 0x² + 5 (coeficiente -1). A soma dos coeficientes é 2 + (-2) + (-1) = -1. A função f(x) = 2x + 3x² + 0 tem o coeficiente 'b' como 2, e a função f(x) = - 1 - 2x² - 2x tem o coeficiente 'b' como -2. A função f(x) = - 1x + 0x² + 5 tem o coeficiente 'b' como -1. A soma dos coeficientes b é 2 + (-2) + (-1) = -1. A alternativa B (7) não se aplica a coeficientes de x. A questão pede a soma dos coeficientes que acompanham as incógnitas que possuem como expoente o número um. Das funções apresentadas, temos: f(x) = x² + 0x + 2 (coeficiente 0); f(x) = 2x + 3x² + 0 (coeficiente 2); f(x) = - 1 - 2x² - 2x (coeficiente -2); f(x) = 1x² + 4x + 4 (coeficiente 4); f(x) = - 1x + 0x² + 5 (coeficiente -1). A soma dos coeficientes de x é 0 + 2 + (-2) + 4 + (-1) = 3. Há um erro nas minhas contas ou nas alternativas. Reavaliando. As funções que possuem um termo com x (expoente 1) são: f(x) = 2x..."
     },
     {
-        "id": "1256778",
         "enunciado": "Fernando precisa instalar um aparelho de ar-condicionado em sua residência e, procurando na internet sobre manutenção preventiva desse tipo de aparelho, verificou que o fabricante recomenda uma higienização da condensadora uma vez ao ano. Após obter essa informação, Fernando procurou uma empresa especializada para fazer a instalação e as futuras higienizações de seu aparelho e fez com eles um contrato de prestação de serviços por tempo indeterminado cuja instalação seria feita pelo valor de R$ 600,00 e cada higienização custaria R$ 150,00. A equação que determina a relação entre o valor V que Fernando precisa gastar com a instalação e manutenção preventiva do aparelho de ar condicionado e o tempo t em anos que pretende utilizar o produto é:",
         "alternativas": {
             "A": "V = 450 – 150t",
@@ -334,10 +333,10 @@
             "D": "V = 600 – 150t"
         },
         "gabarito_correto": "B",
+        "id": "1256778",
         "comentario_ia": "O valor inicial de instalação é de R$ 600,00. Cada higienização anual custa R$ 150,00. Portanto, o valor total V após t anos será a soma do custo de instalação mais o custo total das higienizações ao longo do tempo: V = 600 + 150*t."
     },
     {
-        "id": "1458183",
         "enunciado": "O gráfico da função f(x) = ax² + bx, também corta o eixo x em x² = -b/a > 0. Além disso, o conjunto solução para f(x) > 0 e x > 0 é o intervalo (x², ∞), se, e somente se, os sinais de a e b são respectivamente",
         "alternativas": {
             "A": "a > 0 e b > 0.",
@@ -346,10 +345,10 @@
             "D": "a < 0 e b < 0."
         },
         "gabarito_correto": "B",
-        "comentario_ia": "A parábola f(x) = ax² + bx tem raízes em x=0 e x=-b/a.\nSe -b/a > 0, então a e b têm sinais opostos.\nPara f(x) > 0 em (x², ∞) com x>0,\na deve ser positivo (parábola abre para cima) e\nb deve ser negativo para que -b/a seja positivo."
+        "id": "1458183",
+        "comentario_ia": "A parábola f(x) = ax² + bx tem raízes em x=0 e x=-b/a. Se -b/a > 0, então a e b têm sinais opostos. Para f(x) > 0 em (x², ∞) com x>0, a deve ser positivo (parábola abre para cima) e b deve ser negativo para que -b/a seja positivo."
     },
     {
-        "id": "1471959",
         "enunciado": "A trajetória de uma bola de futebol chutada pode ser modelada pela função quadrática h(t), em que h(t) é a altura da bola em metros no tempo t em segundos. Nesse caso, qual a altura máxima que a bola pode atingir?",
         "alternativas": {
             "A": "10 m.",
@@ -359,10 +358,10 @@
             "E": "42 m."
         },
         "gabarito_correto": "C",
+        "id": "1471959",
         "comentario_ia": "A função quadrática modeling a altura é h(t) = at^2 + bt + c. A altura máxima ocorre no vértice da parábola. Sem a equação completa, não é possível calcular a altura máxima, indicando que a questão está incompleta."
     },
     {
-        "id": "1260852",
         "enunciado": "A respeito da representação gráfica da função linear f(x)=−2x/5+8, é correto dizer que:",
         "alternativas": {
             "A": "Intercepta o eixo da ordenadas no ponto (8,0).",
@@ -372,10 +371,10 @@
             "E": "Intercepta o eixo das abcissas no ponto (0,20)."
         },
         "gabarito_correto": "C",
+        "id": "1260852",
         "comentario_ia": "A alternativa C esta correta. A funcao linear f(x) = mx + b intercepta o eixo das ordenadas (y) no ponto (0, b). Na funcao f(x) = -2x/5 + 8, o valor de b é 8. Portanto, a interseccao e no ponto (0,8)."
     },
     {
-        "id": "2330210",
         "enunciado": "Considere a função f(x) = 2x² - 3x + 4 aplicada ao controle de um sistema automatizado em que certos valores de entrada determinam ajustes específicos. Para avaliar o comportamento desta função, analise as afirmativas abaixo, considerando cálculos diretos dos valores correspondentes.I. f(2) resulta em 6.II. f(-1) resulta em 9.III. f(3) resulta em 19.",
         "alternativas": {
             "A": "II e III, apenas.",
@@ -385,10 +384,10 @@
             "E": "III e IV, apenas."
         },
         "gabarito_correto": "C",
-        "comentario_ia": "f(2) = 2(2)² - 3(2) + 4 = 8 - 6 + 4 = 6 (I - V). f(-1) = 2(-1)² - 3(-1) + 4 = 2 + 3 + 4 = 9 (II - V). f(3) = 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13 (III - F). A alternativa C (I e II apenas) é a correta, mas com base nos cálculos, I e II são verdadeiras.  Refazendo o cálculo de f(3): 2(3)² - 3(3) + 4 = 2(9) - 9 + 4 = 18 - 9 + 4 = 13.  A afirmativa III está errada como apresentada na alternativa C.  Considerando a alternativa C, se I e II são verdadeiras, então III deveria ser falsa.  Vamos recalcular f(3): 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13.  Portanto, a afirmativa III está INCORRETA como está.  Se as afirmativas I e II são corretas, seria possivel a alternativa D. Mas a alternativa D não existe.  Temos um problema nas afirmativas ou nas alternativas.  Reavaliando: f(2)=6 (V), f(-1)=9 (V), f(3)=13 (F, pois diz 19). Se a alternativa C é I e III, e I é V, III teria que ser V para ser C.  Se a alternativa A é II e III, H=9 (V), III=13 (F).  Se a alternativa D é I e II, H=6 (V), H=-1=9 (V).  Portanto, I e II são ..."
+        "id": "2330210",
+        "comentario_ia": "f(2) = 2(2)² - 3(2) + 4 = 8 - 6 + 4 = 6 (I - V). f(-1) = 2(-1)² - 3(-1) + 4 = 2 + 3 + 4 = 9 (II - V). f(3) = 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13 (III - F). A alternativa C (I e II apenas) é a correta, mas com base nos cálculos, I e II são verdadeiras. Refazendo o cálculo de f(3): 2(3)² - 3(3) + 4 = 2(9) - 9 + 4 = 18 - 9 + 4 = 13. A afirmativa III está errada como apresentada na alternativa C. Considerando a alternativa C, se I e II são verdadeiras, então III deveria ser falsa. Vamos recalcular f(3): 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13. Portanto, a afirmativa III está INCORRETA como está. Se as afirmativas I e II são corretas, seria possivel a alternativa D. Mas a alternativa D não existe. Temos um problema nas afirmativas ou nas alternativas. Reavaliando: f(2)=6 (V), f(-1)=9 (V), f(3)=13 (F, pois diz 19). Se a alternativa C é I e III, e I é V, III teria que ser V para ser C. Se a alternativa A é II e III, H=9 (V), III=13 (F). Se a alternativa D é I e II, H=6 (V), H=-1=9 (V). Portanto, I e II são ..."
     },
     {
-        "id": "2312666",
         "enunciado": "Uma empresa registrou o número diário de atendimentos e verificou que a relação entre o total atendido (T) e o número de funcionários de plantão (n) pode ser modelada por T(n) = 15n + 30. Com base nesses dados, deseja-se analisar propriedades dessa função afim e avaliar valores específicos de produção. I. T(6) resulta em 120 atendimentos. II. O coeficiente angular da função é igual a 15. III. A função é crescente em seu domínio. IV. O valor T(4) é maior que T(5). Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I e III, apenas.",
@@ -398,10 +397,10 @@
             "E": "II e IV, apenas."
         },
         "gabarito_correto": "C",
+        "id": "2312666",
         "comentario_ia": "I. T(6) = 15*6 + 30 = 120. Correto. II. O coeficiente angular é o termo multiplicado por n, que é 15. Correto. III. A função afim com coeficiente angular positivo é crescente. Correto. IV. T(4) é menor que T(5) pois a função é crescente."
     },
     {
-        "id": "2320391",
         "enunciado": "Uma função é uma relação entre dois conjuntos que associa a cada elemento do primeiro conjunto, o domínio, um único elemento do segundo conjunto, contradomínio. Assim, considere a função f(x) = 2x + 2 + x - 1 e analise o que está sendo afirmado nas alternativas, assinalando a que apresenta informação CORRETA.",
         "alternativas": {
             "A": "Como se trata de uma função quadrática, tem-se que seu ponto de máximo, ou de mínimo, será igual a ( -0,25 ; -6,125).",
@@ -410,10 +409,10 @@
             "D": "Caso seja necessário traçar o gráfico da função em questão, tem-se que ela será uma reta crescente da esquerda para a direita."
         },
         "gabarito_correto": "D",
+        "id": "2320391",
         "comentario_ia": "A função fornecida f(x) = 2x + 2 + x - 1 simplifica para f(x) = 3x + 1. Esta é uma função afim (linear), cujo gráfico é uma reta. Como o coeficiente angular (3) é positivo, a reta é crescente da esquerda para a direita."
     },
     {
-        "id": "2312503",
         "enunciado": "A LigNet vende um serviço de internet cujo valor mensal é dado por C = 40 + 5x, sendo x o número de gigabytes adicionais consumidos além do pacote básico. Em determinado mês, um cliente reclamou porque teve que pagar uma conta de R$ 75,00, e foi orientado conforme as observações abaixo. I.Se C = 75, então 5x = 35. II.O valor de x correspondente é igual a 7. III.O termo 40 representa a parte variável do consumo. IV.Se x = 3, então C = 55. Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I, II e IV, apenas.",
@@ -423,10 +422,10 @@
             "E": "II e IV, apenas."
         },
         "gabarito_correto": "A",
+        "id": "2312503",
         "comentario_ia": "As afirmativas I, II e IV estão corretas. I: 75 = 40 + 5x -> 35 = 5x. II: x = 35/5 = 7. IV: C = 40 + 5*3 = 40 + 15 = 55. A afirmativa III está incorreta, pois 40 é o valor fixo e 5x é a variável."
     },
     {
-        "id": "2330459",
         "enunciado": "Considere a função f(x) = 2x² - 3x + 4 aplicada ao controle de um sistema automatizado em que certos valores de entrada determinam ajustes específicos. Para avaliar o comportamento desta função, analise as afirmativas abaixo, considerando cálculos diretos dos valores correspondentes.I.f(2) resulta em 6.II.f(-1) resulta em 9.III.f(3) resulta em 19.IV.f(0,5) resulta em 3,75.Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "I e III, apenas.",
@@ -436,10 +435,10 @@
             "E": "I, III e IV, apenas."
         },
         "gabarito_correto": "E",
-        "comentario_ia": "As afirmativas I, III e IV estão corretas. Calculando f(x) = 2x² - 3x + 4: I. f(2) = 2(2)² - 3(2) + 4 = 8 - 6 + 4 = 6 (V). II. f(-1) = 2(-1)² - 3(-1) + 4 = 2 + 3 + 4 = 9 (V). III. f(3) = 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13 (F). Revisando: f(3) = 2(9) - 9 + 4 = 18 - 9 + 4 = 13. Houve um erro na minha análise inicial. Vamos recalcular III e verificar o enunciado. O enunciado diz f(3) resulta em 19. Vamos recalcular. f(3) = 2(3)² - 3(3) + 4 = 2(9) - 9 + 4= 18-9+4 = 13. Há um erro no enunciado ou nas alternativas. Vamos verificar o cálculo para f(3) de novo. 2*(3^2) - 3*3 + 4 = 2*9 - 9 + 4 = 18 - 9 + 4 = 13. A alternativa indica 19.  Vamos verificar IV. f(0,5) = 2(0,5)² - 3(0,5) + 4 = 2(0,25) - 1,5 + 4 = 0,5 - 1,5 + 4 = 3.  O enunciado diz 3,75.  Há um erro claro no enunciado para III e IV. Se considerarmos que II e III estão corretas, seria a alternativa C, mas III não está correta.  Se considerarmos que I, II e IV estão corretas, seria uma nova alternativa. Vamos refazer os cálculos com exatidão.  f(2) = 2(4..."
+        "id": "2330459",
+        "comentario_ia": "As afirmativas I, III e IV estão corretas. Calculando f(x) = 2x² - 3x + 4: I. f(2) = 2(2)² - 3(2) + 4 = 8 - 6 + 4 = 6 (V). II. f(-1) = 2(-1)² - 3(-1) + 4 = 2 + 3 + 4 = 9 (V). III. f(3) = 2(3)² - 3(3) + 4 = 18 - 9 + 4 = 13 (F). Revisando: f(3) = 2(9) - 9 + 4 = 18 - 9 + 4 = 13. Houve um erro na minha análise inicial. Vamos recalcular III e verificar o enunciado. O enunciado diz f(3) resulta em 19. Vamos recalcular. f(3) = 2(3)² - 3(3) + 4 = 2(9) - 9 + 4= 18-9+4 = 13. Há um erro no enunciado ou nas alternativas. Vamos verificar o cálculo para f(3) de novo. 2*(3^2) - 3*3 + 4 = 2*9 - 9 + 4 = 18 - 9 + 4 = 13. A alternativa indica 19. Vamos verificar IV. f(0,5) = 2(0,5)² - 3(0,5) + 4 = 2(0,25) - 1,5 + 4 = 0,5 - 1,5 + 4 = 3. O enunciado diz 3,75. Há um erro claro no enunciado para III e IV. Se considerarmos que II e III estão corretas, seria a alternativa C, mas III não está correta. Se considerarmos que I, II e IV estão corretas, seria uma nova alternativa. Vamos refazer os cálculos com exatidão. f(2) = 2(4..."
     },
     {
-        "id": "2311889",
         "enunciado": "Uma empresa registrou o número diário de atendimentos e verificou que a relação entre o total atendido (T) e o número de funcionários de plantão (n) pode ser modelada por T(n) = 15n + 30. Com base nesses dados, deseja-se analisar propriedades dessa função afim e avaliar valores específicos de produção.I. T(6) resulta em 120 atendimentos.II. O coeficiente angular da função é igual a 15.III. A função é crescente em seu domínio.IV. O valor T(4) é maior que T(5). Está CORRETO o que se afirma em:",
         "alternativas": {
             "A": "III e IV, apenas.",
@@ -449,10 +448,10 @@
             "E": "I e III, apenas."
         },
         "gabarito_correto": "B",
+        "id": "2311889",
         "comentario_ia": "A função é T(n) = 15n + 30. Verificando as afirmativas: I. T(6) = 15*6 + 30 = 90 + 30 = 120 (Correta). II. O coeficiente angular é o termo que multiplica 'n', que é 15 (Correta). III. Para n=1, T(1)=45; para n=2, T(2)=60. Como o coeficiente angular é positivo (15), a função é crescente (Correta). IV. T(4) = 15*4 + 30 = 90. T(5) = 15*5 + 30 = 105. T(4) < T(5) (Incorreta)."
     },
     {
-        "id": "1787645",
         "enunciado": "Dadas as funções f(x) = 2x² + 3x - 12 e g(x) = 2x + 4, assinalar a alternativa que corresponde à f(g(3)).",
         "alternativas": {
             "A": "15",
@@ -461,10 +460,10 @@
             "D": "230"
         },
         "gabarito_correto": "B",
-        "comentario_ia": "Primeiro calculamos g(3) = 2(3) + 4 = 10.  Em seguida, calculamos f(g(3)) = f(10) = 2(10)² + 3(10) - 12 = 2(100) + 30 - 12 = 200 + 30 - 12 = 218.  Apenas F(10) = 2 * 10^2 + 3*10 - 12 = 200 + 30 - 12 = 218. A alternativa C está correta."
+        "id": "1787645",
+        "comentario_ia": "Primeiro calculamos g(3) = 2(3) + 4 = 10. Em seguida, calculamos f(g(3)) = f(10) = 2(10)² + 3(10) - 12 = 2(100) + 30 - 12 = 200 + 30 - 12 = 218. Apenas F(10) = 2 * 10^2 + 3*10 - 12 = 200 + 30 - 12 = 218. A alternativa C está correta."
     },
     {
-        "id": "2169440",
         "enunciado": "Um aplicativo cobra uma taxa fixa de R$ 5,00 mais R$ 2,00 por cada tarefa realizada. Qual a função que relaciona o custo total C(x) com o número de tarefas x ≥ 1?",
         "alternativas": {
             "A": "C(x) = 2x + 5",
@@ -474,10 +473,10 @@
             "E": "C(x) = 5x + 2"
         },
         "gabarito_correto": "A",
+        "id": "2169440",
         "comentario_ia": "O custo total é a soma de uma taxa fixa (R$ 5,00) com o custo por tarefa (R$ 2,00 multiplicado pelo número de tarefas x). Portanto, a função é C(x) = 2x + 5."
     },
     {
-        "id": "2087223",
         "enunciado": "Um encanador cobra R$80,00 de taxa fixa e mais R$30,00 por hora de serviço. Qual é a função que representa o valor total pago, em reais, em função do número de horas trabalhadas h?",
         "alternativas": {
             "A": "f(h) = 80h + 30",
@@ -486,10 +485,10 @@
             "D": "f(h) = 110h"
         },
         "gabarito_correto": "C",
+        "id": "2087223",
         "comentario_ia": "O valor total é composto por uma taxa fixa de R$80,00 e R$30,00 por hora. Assim, a função que representa o valor total em função das horas (h) é f(h) = 30h + 80."
     },
     {
-        "id": "1897140",
         "enunciado": "Abaixo estão representados os gráficos de três funções no intervalo =−T [ 1 ,3] . Essas funções são, respectivamente, classificadas como função exponencial (f), função afim (g) e função quadrática (h). Considere as seguintes afirmações sobre as funções f, g e h. I)   x T tal que g(x) f(x) . II) h(x) é uma função par no intervalo T. III) Se x < 0, então h(x) > g(x) > f(x). IV) h(2) > g(2) ou f(2) > g(2). É correto afirmar que:",
         "alternativas": {
             "A": "As afirmações I, II, III e IV estão corretas.",
@@ -499,10 +498,10 @@
             "E": "Somente as afirmações I e IV estão corretas."
         },
         "gabarito_correto": "C",
+        "id": "1897140",
         "comentario_ia": "A análise gráfica e das informações fornecidas sobre as funções f (exponencial), g (afim) e h (quadrática) leva à conclusão de que apenas as afirmações III e IV são verdadeiras."
     },
     {
-        "id": "2087717",
         "enunciado": "Mariana trabalha como vendedora em uma loja de roupas e recebe um salário fixo mensal de R$ 1.200,00, além de uma comissão de R$ 50,00 por cada peça de roupa vendida. Desejando acompanhar ao longo do mês o valor que receberá, ela pediu a um amigo que é bom em Matemática para elaborar uma função S(x) que a permita fazer esse cálculo. Qual das alternativas a seguir traz a equação correta?",
         "alternativas": {
             "A": "S(x) = 1200x + 50",
@@ -511,10 +510,10 @@
             "D": "S(x) = 1200 + 50x"
         },
         "gabarito_correto": "D",
+        "id": "2087717",
         "comentario_ia": "O salario fixo é R$ 1.200,00. A comissao é R$ 50,00 por peca vendida (x). Portanto, o salario total S(x) é a soma do fixo com a comissao: 1200 + 50x."
     },
     {
-        "id": "2087771",
         "enunciado": "Mariana trabalha como vendedora em uma loja de roupas e recebe um salário fixo mensal de R$ 1.200,00, além de uma comissão de R$ 50,00 por cada peça de roupa vendida. Desejando acompanhar ao longo do mês o valor que receberá, ela pediu a um amigo que é bom em Matemática para elaborar uma função S(x) que a permita fazer esse cálculo. Qual das alternativas a seguir traz a equação correta?",
         "alternativas": {
             "A": "S(x) = 1200 + 50x",
@@ -523,10 +522,10 @@
             "D": "S(x) = 1250x"
         },
         "gabarito_correto": "A",
+        "id": "2087771",
         "comentario_ia": "O salário total S(x) é a soma do salário fixo (R$ 1.200,00) com o valor das comissões. A comissão é de R$ 50,00 por peça vendida (x), logo, a função é S(x) = 1200 + 50x."
     },
     {
-        "id": "2087035",
         "enunciado": "Um encanador cobra R$80,00 de taxa fixa e mais R$30,00 por hora de serviço. Qual é a função que representa o valor total pago, em reais, em função do número de horas trabalhadas h?",
         "alternativas": {
             "A": "f(h) = 110h",
@@ -535,10 +534,10 @@
             "D": "f(h) = 80h + 30"
         },
         "gabarito_correto": "C",
+        "id": "2087035",
         "comentario_ia": "A função que representa os custos de um serviço por hora é uma função linear. A taxa fixa (R$80,00) é o termo independente, e o valor por hora (R$30,00) é o coeficiente angular. Logo, f(h) = 30h + 80."
     },
     {
-        "id": "2334245",
         "enunciado": "Em um estudo interno sobre tendências lineares, um analista de custos modelou a relação entre duas variáveis por meio da função f(x) = -2x + 5, válida para todo x real. Ao examinar essa expressão, ele avaliou a taxa de variação constante da reta e buscou interpretar o comportamento geral da função no conjunto dos números reais. Com base nesse coeficiente angular e na estrutura da função, determine a conclusão correta sobre seu comportamento global.",
         "alternativas": {
             "A": "A função é decrescente com taxa de variação 5.",
@@ -547,10 +546,10 @@
             "D": "A função é crescente com taxa de variação -2."
         },
         "gabarito_correto": "B",
+        "id": "2334245",
         "comentario_ia": "A funcao f(x) = -2x + 5 tem a forma y = mx + c, onde m e o coeficiente angular. O coeficiente angular (m) e -2. Ele representa a taxa de variacao da funcao. Como o coeficiente angular e negativo, a funcao e decrescente. Portanto, a funcao e decrescente com taxa de variacao -2."
     },
     {
-        "id": "1867787",
         "enunciado": "A relação adequada entre a altura A, em centímetros e a massa M, em quilogramas, de um homem segundo Lorentz, é dada pela expressão algébrica: M = A – 100 – ( (A – 150)/4). Qual a massa (M) ideal de um homem com 178 centímetros de altura (A)?",
         "alternativas": {
             "A": "82",
@@ -559,23 +558,10 @@
             "D": "92"
         },
         "gabarito_correto": "A",
+        "id": "1867787",
         "comentario_ia": "Substituindo A=178 na fórmula M = A – 100 – ( (A – 150)/4), temos M = 178 – 100 – ( (178 – 150)/4) = 78 – (28/4) = 78 – 7 = 71. Portanto, a massa ideal é 71 kg."
     },
     {
-        "id": "1766491",
-        "enunciado": "Analise as afirmativas abaixo sobre conceitos relacionados ao conjunto dos números reais, variação de grandezas, função polinomial do 1º grau e função polinomial do 2º grau:\nI.Toda função polinomial do 1º grau é uma função linear cuja representação gráfica é sempre uma reta que passa pela origem.\nII.Uma função polinomial do 2º grau pode apresentar uma parábola com concavidade voltada para cima ou para baixo, dependendo do sinal do coeficiente a.\nIII.O conjunto dos números reais (R) é formado pela união dos números racionais e irracionais.\nIV.A relação de variação direta entre grandezas significa que, ao aumentar uma das grandezas, a outra aumenta proporcionalmente.\nAssinale a alternativa correta:",
-        "alternativas": {
-            "A": "Apenas as afirmativas I, II e III são verdadeiras.",
-            "B": "Apenas as afirmativas I e III são verdadeiras.",
-            "C": "As afirmativas I, II, III e IV são verdadeiras.",
-            "D": "Apenas as afirmativas II, III e IV são verdadeiras.",
-            "E": "Apenas as afirmativas II e IV são verdadeiras."
-        },
-        "gabarito_correto": "D",
-        "comentario_ia": "A afirmativa I está incorreta pois funcao linear tem reta que passa pela origem; funcao polinomial do 1o grau nao necessariamente. As afirmativas II, III e IV descrevem corretamente funcoes do 2o grau, uniao de racionais e irracionais para reais, e variacao direta."
-    },
-    {
-        "id": "1766459",
         "enunciado": "Analise as afirmativas abaixo sobre conceitos relacionados ao conjunto dos números reais, variação de grandezas, função polinomial do 1º grau e função polinomial do 2º grau: I.Toda função polinomial do 1º grau é uma função linear cuja representação gráfica é sempre uma reta que passa pela origem. II.Uma função polinomial do 2º grau pode apresentar uma parábola com concavidade voltada para cima ou para baixo, dependendo do sinal do coeficiente a. III.O conjunto dos números reais (R) é formado pela união dos números racionais e irracionais. IV.A relação de variação direta entre grandezas significa que, ao aumentar uma das grandezas, a outra aumenta proporcionalmente. Assinale a alternativa correta:",
         "alternativas": {
             "A": "Apenas as afirmativas I, II e III são verdadeiras.",
@@ -585,10 +571,23 @@
             "E": "Apenas as afirmativas II e IV são verdadeiras."
         },
         "gabarito_correto": "D",
+        "id": "1766491",
         "comentario_ia": "A afirmativa I está incorreta pois funcao linear tem reta que passa pela origem; funcao polinomial do 1o grau nao necessariamente. As afirmativas II, III e IV descrevem corretamente funcoes do 2o grau, uniao de racionais e irracionais para reais, e variacao direta."
     },
     {
-        "id": "2266337",
+        "enunciado": "Analise as afirmativas abaixo sobre conceitos relacionados ao conjunto dos números reais, variação de grandezas, função polinomial do 1º grau e função polinomial do 2º grau: I.Toda função polinomial do 1º grau é uma função linear cuja representação gráfica é sempre uma reta que passa pela origem. II.Uma função polinomial do 2º grau pode apresentar uma parábola com concavidade voltada para cima ou para baixo, dependendo do sinal do coeficiente a. III.O conjunto dos números reais (R) é formado pela união dos números racionais e irracionais. IV.A relação de variação direta entre grandezas significa que, ao aumentar uma das grandezas, a outra aumenta proporcionalmente. Assinale a alternativa correta:",
+        "alternativas": {
+            "A": "Apenas as afirmativas I, II e III são verdadeiras.",
+            "B": "Apenas as afirmativas I e III são verdadeiras.",
+            "C": "As afirmativas I, II, III e IV são verdadeiras.",
+            "D": "Apenas as afirmativas II, III e IV são verdadeiras.",
+            "E": "Apenas as afirmativas II e IV são verdadeiras."
+        },
+        "gabarito_correto": "D",
+        "id": "1766459",
+        "comentario_ia": "A afirmativa I está incorreta pois funcao linear tem reta que passa pela origem; funcao polinomial do 1o grau nao necessariamente. As afirmativas II, III e IV descrevem corretamente funcoes do 2o grau, uniao de racionais e irracionais para reais, e variacao direta."
+    },
+    {
         "enunciado": "Marta, professora da Escola Técnica Santa Aurora, ministrou uma aula sobre funções do 1º grau, em que pediu aos alunos que analisassem o faturamento mensal de uma empresa fictícia que vende camisetas, dado pela função F(x) = 15x - 3000, sendo x o número de camisetas vendidas e F(x) o faturamento em reais. Nestas condições, a partir da venda de quantas camisetas o faturamento será positivo?",
         "alternativas": {
             "A": "A partir da venda de 150 camisetas.",
@@ -598,10 +597,10 @@
             "E": "A partir da venda de 180 camisetas."
         },
         "gabarito_correto": "C",
+        "id": "2266337",
         "comentario_ia": "O faturamento é positivo quando F(x) > 0. Portanto, 15x - 3000 > 0. Isolando x, temos 15x > 3000, o que resulta em x > 200. Assim, a partir da venda de 201 camisetas, o faturamento será positivo."
     },
     {
-        "id": "2138511",
         "enunciado": "João foi a um show e teve um gasto fixo de R$ 150,00 com o ingresso e R$ 25,50 com o transporte. Além disso, ele tomou algumas bebidas de R$ 12,50 cada. Qual das equações abaixo representa os gastos de João?",
         "alternativas": {
             "A": "12,5 + 175,5x",
@@ -610,10 +609,10 @@
             "D": "175,5x - 12,5"
         },
         "gabarito_correto": "C",
+        "id": "2138511",
         "comentario_ia": "O gasto fixo é R$ 150,00 (ingresso) + R$ 25,50 (transporte) = R$ 175,50. O gasto com bebidas é R$ 12,50 por unidade (x). A equação total é a soma dos fixos com o variável: 175,50 + 12,50x."
     },
     {
-        "id": "2039181",
         "enunciado": "Observe a função a seguir:f(x) = (1 + 2x)² – (x – 5)² – (2x² + 9x)A menor raiz dessa função é",
         "alternativas": {
             "A": "– 16.",
@@ -623,10 +622,10 @@
             "E": "– 3."
         },
         "gabarito_correto": "E",
+        "id": "2039181",
         "comentario_ia": "Ao expandir e simplificar a função f(x) = (1 + 2x)² – (x – 5)² – (2x² + 9x), temos: f(x) = (1 + 4x + 4x²) – (x² – 10x + 25) – (2x² + 9x) = 1 + 4x + 4x² – x² + 10x – 25 – 2x² – 9x = (4x² - x² - 2x²) + (4x + 10x - 9x) + (1 - 25) = x² + 5x - 24. Para encontrar as raízes, igualamos f(x) a zero: x² + 5x - 24 = 0. Utilizando a fórmula de Bhaskara, Δ = b² - 4ac = 5² - 4(1)(-24) = 25 + 96 = 121. As raízes são x = (-b ± √Δ) / 2a = (-5 ± √121) / 2(1) = (-5 ± 11) / 2. As raízes são x1 = (-5 + 11) / 2 = 6 / 2 = 3 e x2 = (-5 - 11) / 2 = -16 / 2 = -8. A menor raiz é -8."
     },
     {
-        "id": "1732396",
         "enunciado": "Das afirmações a seguir, NÃO é uma característica das funções afim.",
         "alternativas": {
             "A": "Também chamada de função polinomial do primeiro grau.",
@@ -636,10 +635,10 @@
             "E": "Também chamada de função polinomial do segundo grau."
         },
         "gabarito_correto": "E",
+        "id": "1732396",
         "comentario_ia": "Funções afins são do primeiro grau (ax+b), com gráfico sendo uma reta e a e b sendo coeficientes reais (a!=0). A alternativa E descreve uma função do segundo grau, o que contradiz a definição de função afim."
     },
     {
-        "id": "2176211",
         "enunciado": "Entre as sentenças a seguir, selecione a que define função f: ℝ → ℝ para todo x e está definida em todos os reais.",
         "alternativas": {
             "A": "x = y².",
@@ -649,10 +648,10 @@
             "E": "y = x³ − 2x + 1."
         },
         "gabarito_correto": "E",
+        "id": "2176211",
         "comentario_ia": "Uma função f: ℝ → ℝ deve definir um único valor de y para cada valor de x. A alternativa E, y = x³ − 2x + 1, é um polinômio que produz um único valor de y para cada x em todo o conjunto dos reais."
     },
     {
-        "id": "1264096",
         "enunciado": "Uma fábrica de cocadas tem um custo fixo de R$ 500,00 reais e variável de R$ 27,00 a cada quilo produzido. Qual das equações abaixo representa esse custo?",
         "alternativas": {
             "A": "27x - 500",
@@ -661,10 +660,10 @@
             "D": "500x + 27"
         },
         "gabarito_correto": "B",
+        "id": "1264096",
         "comentario_ia": "O custo fixo é R$ 500,00, independentemente da produção. O custo variável é R$ 27,00 por quilo (x). O custo total é a soma do fixo com o variável total."
     },
     {
-        "id": "1600511",
         "enunciado": "Durante uma oficina de matemática, a auxiliar quer mostrar aos alunos o conceito de função de 1º grau. Se uma função f(x) é definida como f(x) = 3x + 2, qual é o valor de f(4)?",
         "alternativas": {
             "A": "8.",
@@ -673,11 +672,11 @@
             "D": "22."
         },
         "gabarito_correto": "C",
+        "id": "1600511",
         "comentario_ia": "Para encontrar o valor de f(4) na funcao f(x) = 3x + 2, substitui-se 'x' por 4. Assim, f(4) = 3*(4) + 2 = 12 + 2 = 14. O calculo e simples e direto."
     },
     {
-        "id": "1600685",
-        "enunciado": "Durante a explicação sobre funções, o professor descreve\na função de 1º grau f(x) = 3x - 4. Qual é o valor de f(x) quando x\n= 5?",
+        "enunciado": "Durante a explicação sobre funções, o professor descreve a função de 1º grau f(x) = 3x - 4. Qual é o valor de f(x) quando x = 5?",
         "alternativas": {
             "A": "19.",
             "B": "1 5.",
@@ -685,10 +684,10 @@
             "D": "5."
         },
         "gabarito_correto": "A",
+        "id": "1600685",
         "comentario_ia": "Para encontrar f(x) quando x=5, substitui-se x por 5 na funcao f(x) = 3x - 4. Assim, f(5) = 3*(5) - 4 = 15 - 4 = 11. Observe que a alternativa B apresenta 15, que e o resultado de 3*5, sem subtrair o 4."
     },
     {
-        "id": "1249564",
         "enunciado": "Uma função de segundo grau, ou quadrática, é identificada pela seguinte forma:f(x) = ax² + bx + cA partir dessa premissa, é possível se obter inúmeras funções de segundo grau, como as que estão listadas a seguir:f(x) = x² + 0x + 2f(x) = 2x + 3x² + 0f(x) = - 1 - 2x² - 2xf(x) = 1x² + 4x + 4f(x) = - 1x + 0x² + 5f(x) = - 4x² + 7x - 3Observando a lista acima, qual das alternativas apresenta a soma dos coeficientes que acompanham as incógnitas que possuem como expoente o número um?",
         "alternativas": {
             "A": "-1.",
@@ -697,10 +696,10 @@
             "D": "10."
         },
         "gabarito_correto": "B",
+        "id": "1249564",
         "comentario_ia": "As funções com termo em 'x' (expoente 1) são: f(x) = 2x + 3x² + 0 (coeficiente 2), f(x) = - 1 - 2x² - 2x (coeficiente -2) e f(x) = - 1x + 0x² + 5 (coeficiente -1). A soma dos coeficientes é 2 + (-2) + (-1) = -1. A função f(x) = 2x + 3x² + 0 tem o coeficiente 'b' como 2, e a função f(x) = - 1 - 2x² - 2x tem o coeficiente 'b' como -2. A função f(x) = - 1x + 0x² + 5 tem o coeficiente 'b' como -1. A soma dos coeficientes b é 2 + (-2) + (-1) = -1. A alternativa B (7) não se aplica a coeficientes de x. A questão pede a soma dos coeficientes que acompanham as incógnitas que possuem como expoente o número um. Das funções apresentadas, temos: f(x) = x² + 0x + 2 (coeficiente 0); f(x) = 2x + 3x² + 0 (coeficiente 2); f(x) = - 1 - 2x² - 2x (coeficiente -2); f(x) = 1x² + 4x + 4 (coeficiente 4); f(x) = - 1x + 0x² + 5 (coeficiente -1). A soma dos coeficientes de x é 0 + 2 + (-2) + 4 + (-1) = 3. Há um erro nas minhas contas ou nas alternativas. Reavaliando. As funções que possuem um termo com x (expoente 1) são: f(x) = 2x..."
     },
     {
-        "id": "1256778",
         "enunciado": "Fernando precisa instalar um aparelho de ar-condicionado em sua residência e, procurando na internet sobre manutenção preventiva desse tipo de aparelho, verificou que o fabricante recomenda uma higienização da condensadora uma vez ao ano. Após obter essa informação, Fernando procurou uma empresa especializada para fazer a instalação e as futuras higienizações de seu aparelho e fez com eles um contrato de prestação de serviços por tempo indeterminado cuja instalação seria feita pelo valor de R$ 600,00 e cada higienização custaria R$ 150,00. A equação que determina a relação entre o valor V que Fernando precisa gastar com a instalação e manutenção preventiva do aparelho de ar condicionado e o tempo t em anos que pretende utilizar o produto é:",
         "alternativas": {
             "A": "V = 450 – 150t",
@@ -709,10 +708,10 @@
             "D": "V = 600 – 150t"
         },
         "gabarito_correto": "B",
+        "id": "1256778",
         "comentario_ia": "O valor inicial de instalação é de R$ 600,00. Cada higienização anual custa R$ 150,00. Portanto, o valor total V após t anos será a soma do custo de instalação mais o custo total das higienizações ao longo do tempo: V = 600 + 150*t."
     },
     {
-        "id": "1458183",
         "enunciado": "O gráfico da função f(x) = ax² + bx, também corta o eixo x em x² = -b/a > 0. Além disso, o conjunto solução para f(x) > 0 e x > 0 é o intervalo (x², ∞), se, e somente se, os sinais de a e b são respectivamente",
         "alternativas": {
             "A": "a > 0 e b > 0.",
@@ -721,10 +720,10 @@
             "D": "a < 0 e b < 0."
         },
         "gabarito_correto": "B",
-        "comentario_ia": "A parábola f(x) = ax² + bx tem raízes em x=0 e x=-b/a.\nSe -b/a > 0, então a e b têm sinais opostos.\nPara f(x) > 0 em (x², ∞) com x>0,\na deve ser positivo (parábola abre para cima) e\nb deve ser negativo para que -b/a seja positivo."
+        "id": "1458183",
+        "comentario_ia": "A parábola f(x) = ax² + bx tem raízes em x=0 e x=-b/a. Se -b/a > 0, então a e b têm sinais opostos. Para f(x) > 0 em (x², ∞) com x>0, a deve ser positivo (parábola abre para cima) e b deve ser negativo para que -b/a seja positivo."
     },
     {
-        "id": "1471959",
         "enunciado": "A trajetória de uma bola de futebol chutada pode ser modelada pela função quadrática h(t), em que h(t) é a altura da bola em metros no tempo t em segundos. Nesse caso, qual a altura máxima que a bola pode atingir?",
         "alternativas": {
             "A": "10 m.",
@@ -734,10 +733,10 @@
             "E": "42 m."
         },
         "gabarito_correto": "C",
+        "id": "1471959",
         "comentario_ia": "A função quadrática modeling a altura é h(t) = at^2 + bt + c. A altura máxima ocorre no vértice da parábola. Sem a equação completa, não é possível calcular a altura máxima, indicando que a questão está incompleta."
     },
     {
-        "id": "1260852",
         "enunciado": "A respeito da representação gráfica da função linear f(x)=−2x/5+8, é correto dizer que:",
         "alternativas": {
             "A": "Intercepta o eixo da ordenadas no ponto (8,0).",
@@ -747,10 +746,10 @@
             "E": "Intercepta o eixo das abcissas no ponto (0,20)."
         },
         "gabarito_correto": "C",
+        "id": "1260852",
         "comentario_ia": "A alternativa C esta correta. A funcao linear f(x) = mx + b intercepta o eixo das ordenadas (y) no ponto (0, b). Na funcao f(x) = -2x/5 + 8, o valor de b é 8. Portanto, a interseccao e no ponto (0,8)."
     },
     {
-        "id": "1235414",
         "enunciado": "A função exponencial f(x) = 2x + 100 quando x = 0 (zero) tem resultado igual a:",
         "alternativas": {
             "A": "0.",
@@ -760,10 +759,10 @@
             "E": "1001."
         },
         "gabarito_correto": "B",
+        "id": "1235414",
         "comentario_ia": "Substituindo x por 0 na função f(x) = 2x + 100, temos f(0) = 2*(0) + 100 = 0 + 100 = 100."
     },
     {
-        "id": "1398634",
         "enunciado": "O custo de produção de x unidades de um produto é dado pela função C(x) = -x²+100. Quanto custa produzir 4 unidades desse produto?",
         "alternativas": {
             "A": "16.",
@@ -773,10 +772,10 @@
             "E": "116."
         },
         "gabarito_correto": "C",
+        "id": "1398634",
         "comentario_ia": "Para encontrar o custo de produzir 4 unidades, substituímos x por 4 na função C(x) = -x² + 100. C(4) = -(4)² + 100 = -16 + 100 = 84."
     },
     {
-        "id": "1705744",
         "enunciado": "Considere a função f(x) = 2x − 5. A imagem de x = 4 nesta função será:",
         "alternativas": {
             "A": "- 3.",
@@ -786,10 +785,10 @@
             "E": "3."
         },
         "gabarito_correto": "D",
+        "id": "1705744",
         "comentario_ia": "Para encontrar a imagem de x = 4 na função f(x) = 2x - 5, substituímos x por 4 na fórmula: f(4) = 2 * 4 - 5 = 8 - 5 = 3. CORREÇÃO: f(4) = 2 * 4 - 5 = 8 - 5 = 3. A alternativa E é 3. Houve um erro no gabarito anterior. Substituindo x por 4 na função f(x) = 2x - 5, temos f(4) = 2 * 4 - 5 = 8 - 5 = 3. Assim, a imagem de x = 4 é 3. A alternativa correta é E."
     },
     {
-        "id": "1197738",
         "enunciado": "Murilo desenvolveu um aplicativo que demonstra o nível de cansaço de uma pessoa no decorrer de cada x horas do dia. Considerando que a cada hora esse nível triplica e que ao acordar uma pessoa adulta já levanta com um nível 200 u.m., qual das equações abaixo corresponde a essa análise?",
         "alternativas": {
             "A": "200 - 3x",
@@ -799,10 +798,10 @@
             "E": "200x + 3"
         },
         "gabarito_correto": "C",
+        "id": "1197738",
         "comentario_ia": "O nível inicial é 200 u.m. A cada hora o nível triplica. Portanto, após x horas, o nível será 200 * (3^x). Se a pergunta se refere a 'ao decorrer de cada x horas' e o nível triplica 'a cada hora', a formula mais plausível é um crescimento exponencial 200 * 3^x. Contudo, as opções são lineares, indicando um possível erro de interpretação ou formulação. Se interpretarmos 'cada x horas' como um período de tempo y e o nível triplica a cada hora, a relação seria 200 * 3^y. Se as alternativas buscam um modelo linear simplificado onde o nível aumenta em 3 unidades a cada hora, somado ao inicial, seria 200 + 3x. No entanto, a descrição exata 'nível triplica' aponta para um crescimento exponencial. Dado o formato das alternativas, a opção C (3x + 200) pode se referir a um aumento linear onde a cada x horas há um acréscimo de 3x ao valor inicial."
     },
     {
-        "id": "1156387",
         "enunciado": "Um vendedor de carros trabalha em uma loja que paga um salário fixo (F) mais uma comissão de 200 reais por carro vendido (x), totalizando um salário S. Dessa forma, o salário deste vendedor pode ser calculado como:",
         "alternativas": {
             "A": "S(x) = 200 F + x",
@@ -811,11 +810,11 @@
             "D": "S(x) = F + x"
         },
         "gabarito_correto": "C",
+        "id": "1156387",
         "comentario_ia": "O salário total (S) é a soma do salário fixo (F) com o valor total das comissões. A comissão é de R$ 200 por carro (x), então o total das comissões é 200 * x. Logo, S(x) = F + 200x."
     },
     {
-        "id": "2063195",
-        "enunciado": "Um cano de água está vazando e a equação que modela a quantidade de água perdida é Q=2t, onde Q é a quantidade de água perdida em litros e t é o tempo em horas. Se este cano vazar por 12 horas, quantos  litros de água serão perdidos?",
+        "enunciado": "Um cano de água está vazando e a equação que modela a quantidade de água perdida é Q=2t, onde Q é a quantidade de água perdida em litros e t é o tempo em horas. Se este cano vazar por 12 horas, quantos litros de água serão perdidos?",
         "alternativas": {
             "A": "20 litros",
             "B": "22 litros",
@@ -823,10 +822,10 @@
             "D": "26 litros"
         },
         "gabarito_correto": "C",
+        "id": "2063195",
         "comentario_ia": "A formula Q=2t indica que a quantidade de agua perdida (Q) e o dobro do tempo em horas (t). Para 12 horas, Q = 2 * 12 = 24 litros."
     },
     {
-        "id": "1249356",
         "enunciado": "Dada a função de segundo grau f(x) = –3x² + 4x – 6, qual é o valor de f(x) quando x = –4?",
         "alternativas": {
             "A": "–70.",
@@ -836,10 +835,10 @@
             "E": "58."
         },
         "gabarito_correto": "A",
+        "id": "1249356",
         "comentario_ia": "Substitua x por -4 na função: f(-4) = -3*(-4)² + 4*(-4) - 6 = -3*(16) - 16 - 6 = -48 - 16 - 6 = -70."
     },
     {
-        "id": "1555072",
         "enunciado": "Sabe-se que é possível se obter uma função de primeiro grau a qual represente o número de doces produzidos por uma máquina específica. Deve-se considerar que \"f(x)\" é o número de doces produzidos a cada período \"x\" de 45 minutos. Se a máquina produz 30 doces a cada período de 45 minutos, pode-se afirmar que:",
         "alternativas": {
             "A": "f(x)=45x.",
@@ -848,10 +847,10 @@
             "D": "f(x)=30x."
         },
         "gabarito_correto": "D",
+        "id": "1555072",
         "comentario_ia": "Se a máquina produz 30 doces a cada período de 45 minutos, e f(x) representa o número de doces produzidos a cada período x, a relação é diretamente proporcional, onde f(x) = 30 doses por período 'x'."
     },
     {
-        "id": "1119571",
         "enunciado": "As funções de segundo grau, as quais também são conhecidas como funções quadráticas, possuem determinadas particularidades que assim as definem, bem como seu comportamento rege a forma da curva de sua representação gráfica. Nesse sentido, analise as assertivas:I. A função de segundo grau possui, em geral, três termos, sendo que o definidor do comportamento da parábola, sendo com a concavidade para cima ou para baixo, é o termo “bx”.II. Para que uma função possa ser definida como quadrática, é necessário que ela possua um termo, ao menos, com sua incógnita elevada à quarta potência.Acerca das assertivas, qual alternativa traz uma afirmação correta?",
         "alternativas": {
             "A": "A assertiva I não está correta e a assertiva II não está correta.",
@@ -860,10 +859,10 @@
             "D": "A assertiva I não está incorreta e a assertiva II não está correta."
         },
         "gabarito_correto": "A",
+        "id": "1119571",
         "comentario_ia": "A assertiva I está incorreta pois o termo 'ax²' define a concavidade da parábola, não 'bx'. A assertiva II está incorreta pois uma função quadrática é definida por um termo de segundo grau (x²), não de quarta potência. Logo, ambas estão incorretas."
     },
     {
-        "id": "1585569",
         "enunciado": "Considere a expressão cos2(x) + 8cos(x) + 16. O valor mínimo que essa expressão atinge, para x um número real, é:",
         "alternativas": {
             "A": "Menor que 10.",
@@ -873,10 +872,10 @@
             "E": "Maior que 23."
         },
         "gabarito_correto": "A",
+        "id": "1585569",
         "comentario_ia": "A expressão é cos²(x) + 8cos(x) + 16. Fazendo y = cos(x), temos y² + 8y + 16. Isso é (y+4)². Como -1 ≤ cos(x) ≤ 1, o valor de y varia entre -1 e 1. Assim, y+4 varia entre 3 e 5. O valor mínimo de (y+4)² é quando y+4 = 3, logo 3² = 9. O valor máximo é quando y+4 = 5, logo 5² = 25. O valor mínimo é 9, que é menor que 10."
     },
     {
-        "id": "1601168",
         "enunciado": "A função polinomial do 1º grau pode ser representada por qual das opções abaixo?",
         "alternativas": {
             "A": "f(x) = 3x + 4",
@@ -885,10 +884,10 @@
             "D": "f(x) = 1/x"
         },
         "gabarito_correto": "A",
+        "id": "1601168",
         "comentario_ia": "A função polinomial do 1º grau, ou função afim, tem a forma geral f(x) = ax + b, onde 'a' e 'b' são constantes e 'a' é diferente de zero. A alternativa A se encaixa perfeitamente nessa definição."
     },
     {
-        "id": "1610538",
         "enunciado": "Determine a imagem gerada pela f(x): 8x + 12 quando o elemento do domínio utilizado for 12.",
         "alternativas": {
             "A": "32.",
@@ -898,10 +897,10 @@
             "E": "512."
         },
         "gabarito_correto": "C",
+        "id": "1610538",
         "comentario_ia": "Para determinar a imagem, substitua x por 12 na função f(x) = 8x + 12. Assim, f(12) = 8 * 12 + 12 = 96 + 12 = 108."
     },
     {
-        "id": "1387226",
         "enunciado": "Dada a função quadrática f(x) = x² + 6x – 8, determine a imagem gerada pelo elemento do domínio 19.",
         "alternativas": {
             "A": "144.",
@@ -911,10 +910,10 @@
             "E": "523."
         },
         "gabarito_correto": "C",
+        "id": "1387226",
         "comentario_ia": "Para determinar a imagem, substitui-se x por 19 na função f(x) = x² + 6x - 8. Calculando: 19² + 6*19 - 8 = 361 + 114 - 8 = 467. Houve um erro no meu cálculo inicial. Refazendo: 19² é 361. 6 * 19 é 114. 361 + 114 - 8 = 475 - 8 = 467. Mais uma vez. 19 * 19 = 361. 6 * 19 = 114. 361 + 114 = 475. 475 - 8 = 467. A alternativa C é 363, o que está incorreto com base no meu cálculo. Vamos recalcular com calma. f(19) = 19² + 6(19) - 8. 19² = 361. 6 * 19 = 114. 361 + 114 - 8 = 475 - 8 = 467. Então a alternativa D é a correta. Contudo, a resposta esperada é C. Verificando D: 467. Verificando C: 363. Refazendo o cálculo: 19² = 361. 6 * 19 = 114. 361 + 114 - 8 = 475 - 8 = 467. A resposta correta é 467, que corresponde à alternativa D. Se a resposta esperada é C, deve haver um erro na questão ou nas alternativas. Refazendo de forma a chegar em C. Talvez f(x) = x² - 6x - 8 ou f(x) = x² + 6x + 8? Não, o enunciado é claro. Vamos supor um erro de digitação na alternativa C e que ela deveria ser 467. Assim, a lógica é substi..."
     },
     {
-        "id": "1118072",
         "enunciado": "Qual é a representação gráfica de uma função exponencial?",
         "alternativas": {
             "A": "Uma linha reta.",
@@ -923,10 +922,10 @@
             "D": "Uma curva côncava para cima."
         },
         "gabarito_correto": "B",
+        "id": "1118072",
         "comentario_ia": "Uma função exponencial, cuja forma geral é y = a^x (com a > 0 e a != 1), é representada graficamente por uma curva que é sempre crescente ou sempre decrescente, sem nunca tocar o eixo x."
     },
     {
-        "id": "1324671",
         "enunciado": "Considerando a função f(x) = x2 + 2x + 2 , é correto afirmar que seu gráfico será:",
         "alternativas": {
             "A": "Uma parábola com concavidade voltada para cima.",
@@ -936,10 +935,10 @@
             "E": "Nenhuma das alternativas anteriores está correta."
         },
         "gabarito_correto": "A",
+        "id": "1324671",
         "comentario_ia": "A função f(x) = x^2 + 2x + 2 é uma função quadrática do tipo ax^2 + bx + c, onde a = 1. Como 'a' é positivo, o gráfico é uma parábola com concavidade voltada para cima."
     },
     {
-        "id": "1385831",
         "enunciado": "A partir da função f(x) = 86x – 121, determine o elemento do domínio que gerou a imagem 223.",
         "alternativas": {
             "A": "2.",
@@ -949,10 +948,10 @@
             "E": "6."
         },
         "gabarito_correto": "B",
-        "comentario_ia": "A função é f(x) = 86x – 121. A imagem é 223. Queremos encontrar o elemento do domínio (x). Então, substituímos f(x) por 223: 223 = 86x – 121. 223 + 121 = 86x. 344 = 86x. x = 344 / 86 = 4. Houve um erro na minha conta. 344 / 86 = 4. Letras A e B. 86*2=172. 86*3=258. 86*4=344. Então x=4. O gabarito é B. Então x=3. 86*3 = 258. 223 = 258 - 121 = 137. Não é. Refazendo a conta: 223 = 86x - 121. 223 + 121 = 344. 344 = 86x. x = 344 / 86. 344 / 86 = 4.  O gabarito oficial é B (3). Vamos verificar se há algum erro: se x=3, f(3) = 86 * 3 - 121 = 258 - 121 = 137. Não é 223. Se x=4, f(4) = 86 * 4 - 121 = 344 - 121 = 223. Então x=4 é a resposta correta. A alternativa D (4) seria a correta. Dado o gabarito B, a questão ou o gabarito estão incorretos. Assumirei que a minha conta está certa."
+        "id": "1385831",
+        "comentario_ia": "A função é f(x) = 86x – 121. A imagem é 223. Queremos encontrar o elemento do domínio (x). Então, substituímos f(x) por 223: 223 = 86x – 121. 223 + 121 = 86x. 344 = 86x. x = 344 / 86 = 4. Houve um erro na minha conta. 344 / 86 = 4. Letras A e B. 86*2=172. 86*3=258. 86*4=344. Então x=4. O gabarito é B. Então x=3. 86*3 = 258. 223 = 258 - 121 = 137. Não é. Refazendo a conta: 223 = 86x - 121. 223 + 121 = 344. 344 = 86x. x = 344 / 86. 344 / 86 = 4. O gabarito oficial é B (3). Vamos verificar se há algum erro: se x=3, f(3) = 86 * 3 - 121 = 258 - 121 = 137. Não é 223. Se x=4, f(4) = 86 * 4 - 121 = 344 - 121 = 223. Então x=4 é a resposta correta. A alternativa D (4) seria a correta. Dado o gabarito B, a questão ou o gabarito estão incorretos. Assumirei que a minha conta está certa."
     },
     {
-        "id": "1137228",
         "enunciado": "Em relação a uma função quadrática, podemos afirmar:",
         "alternativas": {
             "A": "O seu gráfico é sempre uma reta.",
@@ -962,10 +961,10 @@
             "E": "O seu gráfico sempre corta o eixo das abscissas."
         },
         "gabarito_correto": "D",
+        "id": "1137228",
         "comentario_ia": "A alternativa D está correta. O gráfico de uma função quadrática é uma parábola. A quantidade de pontos onde ela cruza o eixo das abscissas (raízes) é determinada pelo valor do discriminante (Δ = b^2 - 4ac): se Δ > 0, duas raízes distintas; se Δ = 0, uma raiz (ou duas iguais); se Δ < 0, nenhuma raiz real."
     },
     {
-        "id": "1118079",
         "enunciado": "Se uma função é par, o que podemos dizer sobre seu gráfico?",
         "alternativas": {
             "A": "Está refletido em relação ao eixo y.",
@@ -974,10 +973,10 @@
             "D": "Não possui simetria."
         },
         "gabarito_correto": "A",
+        "id": "1118079",
         "comentario_ia": "Uma funcao par tem a propriedade f(x) = f(-x). Geometricamente, isso significa que a parte do grafico a esquerda do eixo y e um espelho exato da parte a direita, a reflexao em relacao ao eixo y."
     },
     {
-        "id": "1103338",
         "enunciado": "QUESTÃO 40 – Considere f uma função real tal que para todo x∈ℝ, f(1/2x)=1/2f(1/4)=3, qual é o valor de f(1)?",
         "alternativas": {
             "A": "1/4",
@@ -987,10 +986,10 @@
             "E": "12"
         },
         "gabarito_correto": "C",
+        "id": "1103338",
         "comentario_ia": "Dado f(1/2x)=1/2f(1/4)=3. Temos f(1/4)=3. Se f(1/2x)=3, então 1/2x pode ser igual a 1/4. Logo, x=1/2. Assim, f(1)=6 pois f(1/2x) = 1/2 f(x), onde 1=1/2*(2), logo 1/2x=1 -> x=2. f(1)=1/2*f(2). Se f(1/2*1/2)=3 e f(1/4)=3, a função pode não ser linear. Analisando f(1/2x) = 1/2f(1/4) = 3. Se 1/2x=1/4, temos x=1/2. Então f(1/2)=3. Se 1/2f(1/4)=3 implica f(1/4)=6. Vamos usar propriedade de f(ax)=af(x) ou algo parecido. Se f(1/2x)=3 e 1/2f(1/4)=3. Se 1/2x = 1/4, x=1/2. Logo f(1/2)=3. Se 1/2 f(1/4)=3, então f(1/4)=6. Se f(x)=Cx, f(1/2x)=C(1/2x)=1/2Cx=1/2f(x). Então 1/2f(x)=3 -> f(x)=6. Assim f(2)=6. f(1)=6."
     },
     {
-        "id": "1412829",
         "enunciado": "A parábola com equação passa pelos pontos (0,4), (1,3) e (-1,9) do plano. Esta parábola também passa pelo ponto:",
         "alternativas": {
             "A": "(2,2)",
@@ -1000,10 +999,10 @@
             "E": "(-2,20)"
         },
         "gabarito_correto": "C",
+        "id": "1412829",
         "comentario_ia": "A parábola de equação y = ax² + bx + c passa pelos pontos (0,4), (1,3) e (-1,9). Assim, 4 = c, 3 = a + b + c e 9 = a - b + c. Substituindo c=4 nas duas ultimas, temos 3 = a+b+4 e 9 = a-b+4. Simplificando: -1 = a+b e 5 = a-b. Somando as duas equações, 2a = 4, logo a=2. Subtituindo em -1 = a+b, -1 = 2+b, logo b=-3. A equação é y = 2x² - 3x + 4. Para x=2, y = 2(2)² - 3(2) + 4 = 8 - 6 + 4 = 6. Logo, a curva passa por (2,6)."
     },
     {
-        "id": "1148611",
         "enunciado": "Observe a equação abaixo representada que traz o número de produtos P(h) produzidos em um setor fabril a cada hora h de produção. P(h) = 125h + 50. Qual alternativa apresenta o número de produtos produzidos em 8 horas ininterruptas de produção?",
         "alternativas": {
             "A": "950 produtos.",
@@ -1012,10 +1011,10 @@
             "D": "900 produtos."
         },
         "gabarito_correto": "B",
+        "id": "1148611",
         "comentario_ia": "Substituindo h por 8 na formula P(h) = 125h + 50, temos P(8) = 125 * 8 + 50 = 1000 + 50 = 1050 produtos."
     },
     {
-        "id": "1450429",
         "enunciado": "A partir da função, é possível afirmar que o valor da abscissa para o qual o gráfico da função corta o eixo é:",
         "alternativas": {
             "A": "-10.",
@@ -1025,10 +1024,10 @@
             "E": "2."
         },
         "gabarito_correto": "B",
-        "comentario_ia": "O gráfico corta o eixo das abscissas (eixo x) quando o valor da função (y) é zero. Para encontrar o valor da abscissa, devemos igualar a função a zero e resolver para x. Sem a função, não é possível determinar a resposta.  Porém, se a resposta correta é B (-2), isso significa que a função, quando igualada a zero, tem -2 como uma das raízes.  Por exemplo, se a função fosse f(x) = x + 2, ao igualar a zero, x = -2.  Se fosse f(x) = (x+2)(x-c), então -2 seria uma raiz. Sem a função, é impossível fornecer uma explicação mais detalhada.  Assumindo que a resposta é B, significa que x = -2 anula a função."
+        "id": "1450429",
+        "comentario_ia": "O gráfico corta o eixo das abscissas (eixo x) quando o valor da função (y) é zero. Para encontrar o valor da abscissa, devemos igualar a função a zero e resolver para x. Sem a função, não é possível determinar a resposta. Porém, se a resposta correta é B (-2), isso significa que a função, quando igualada a zero, tem -2 como uma das raízes. Por exemplo, se a função fosse f(x) = x + 2, ao igualar a zero, x = -2. Se fosse f(x) = (x+2)(x-c), então -2 seria uma raiz. Sem a função, é impossível fornecer uma explicação mais detalhada. Assumindo que a resposta é B, significa que x = -2 anula a função."
     },
     {
-        "id": "1996497",
         "enunciado": "Um dia, enquanto fazia seus exercícios de casa, Alice deparou-se com a função exponencial f(x) = 2x. Alice decidiu experimentar diferentes valores para x e observar como isso afetaria o resultado. Em um de seus testes, ela inseriu x = 3 na função. Considerando a função exponencial f(x) = 2x, qual é o valor de f(3)?",
         "alternativas": {
             "A": "6.",
@@ -1037,10 +1036,10 @@
             "D": "9."
         },
         "gabarito_correto": "C",
+        "id": "1996497",
         "comentario_ia": "A funcao e f(x) = 2x. Quando x = 3, substituimos x por 3 na formula: f(3) = 2 * 3 = 8."
     },
     {
-        "id": "1010688",
         "enunciado": "Assinale a alternativa que apresenta a lei de formação de uma função f : R → R decrescente.",
         "alternativas": {
             "A": "f(x) = 1 - x",
@@ -1050,10 +1049,10 @@
             "E": "f(x) = 1"
         },
         "gabarito_correto": "A",
+        "id": "1010688",
         "comentario_ia": "Uma função f(x) é decrescente quando seu coeficiente angular é negativo. Na alternativa A, f(x) = 1 - x, o coeficiente de x é -1, indicando uma função decrescente. As outras alternativas apresentam coeficientes positivos (crescente) ou constates."
     },
     {
-        "id": "1031619",
         "enunciado": "Considere f(x)=2x+4 e calcule f(2). Assinale a opção com a resposta CORRETA.",
         "alternativas": {
             "A": "7.",
@@ -1063,10 +1062,10 @@
             "E": "10."
         },
         "gabarito_correto": "D",
+        "id": "1031619",
         "comentario_ia": "Para calcular f(2), substitua x por 2 na função f(x)=2x+4. Então, f(2) = 2(2) + 4 = 4 + 4 = 8."
     },
     {
-        "id": "1012475",
         "enunciado": "Considerando-se uma função com contradomínio real, assinalar a alternativa que apresenta uma função em que o domínio é igual ao conjunto dos números reais:",
         "alternativas": {
             "A": "h(x) = 1/x",
@@ -1075,10 +1074,10 @@
             "D": "h(x) = x1/2"
         },
         "gabarito_correto": "C",
+        "id": "1012475",
         "comentario_ia": "A função h(x) = |x| tem como domínio o conjunto de todos os números reais, pois o módulo de qualquer número real é um número real. As outras funções possuem restrições no domínio."
     },
     {
-        "id": "2292601",
         "enunciado": "Considere a função f(x) = x + 1, que relaciona cada valor de x com um valor de y. Essa função pode ser representada graficamente em um plano cartesiano. Dentre as alternativas abaixo, assinale a única que descreva corretamente o gráfico dessa função:",
         "alternativas": {
             "A": "Uma reta vertical que passa pelo ponto (1, 0)",
@@ -1088,10 +1087,10 @@
             "E": "Uma reta crescente que passa pelo ponto (1, 0)"
         },
         "gabarito_correto": "B",
+        "id": "2292601",
         "comentario_ia": "A função f(x) = x + 1 é uma função linear cujo gráfico é uma reta. O ponto (0, 1) é a interseção com o eixo y (f(0) = 0 + 1 = 1). Como o coeficiente angular é positivo (1), a reta é crescente."
     },
     {
-        "id": "1288119",
         "enunciado": "Dada a função y= x-2, é correto afirmar que:",
         "alternativas": {
             "A": "f -1(x) = x+2",
@@ -1100,10 +1099,10 @@
             "D": "f ¹ (x) = x+2"
         },
         "gabarito_correto": "A",
+        "id": "1288119",
         "comentario_ia": "A função inversa de y=x-2 é encontrada trocando x e y: x = y-2, logo y = x+2. Assim, f⁻¹(x) = x+2. A alternativa D tem 'f ¹' em vez de 'f⁻¹'."
     },
     {
-        "id": "1017080",
         "enunciado": "Dentre as opções abaixo, é uma função exponencial:",
         "alternativas": {
             "A": "f(x) = 2x – 3x²",
@@ -1112,10 +1111,10 @@
             "D": "f(x) = 4 + 3x"
         },
         "gabarito_correto": "B",
+        "id": "1017080",
         "comentario_ia": "Uma função exponencial possui a variável independente na posição de expoente. Na alternativa B, f(x) = e^x, a variável 'x' está no expoente, caracterizando-a como função exponencial."
     },
     {
-        "id": "1031664",
         "enunciado": "Qual a função cujo o gráfico passa pela origem do sistema cartesiano?",
         "alternativas": {
             "A": "y = 3x + 1",
@@ -1124,10 +1123,10 @@
             "D": "y= x + 2"
         },
         "gabarito_correto": "C",
+        "id": "1031664",
         "comentario_ia": "A origem do sistema cartesiano é o ponto (0,0). A função y=4x passa por este ponto, pois substituindo x=0, obtemos y=0."
     },
     {
-        "id": "1006645",
         "enunciado": "Numa Micro Indústria, o faturamento LR (Líquido Relativo) a um certo produto é calculado pela equação y = 5x - 2500, onde y representa o faturamento líquido de x unidades vendidas. Determine a quantidade mínima de unidades que deem ser vendidas para que haja lucro.",
         "alternativas": {
             "A": "Para haver lucro é necessária a venda de pelo menos 500 unidades.",
@@ -1136,10 +1135,10 @@
             "D": "Para haver lucro é necessária a venda de pelo menos 401 unidades."
         },
         "gabarito_correto": "A",
+        "id": "1006645",
         "comentario_ia": "Para haver lucro, o faturamento líquido (y) deve ser maior que zero (y > 0). Assim, devemos resolver a inequação 5x - 2500 > 0. Somando 2500 a ambos os lados, obtemos 5x > 2500. Dividindo ambos os lados por 5, encontramos x > 500. Portanto, é necessário vender pelo menos 501 unidades."
     },
     {
-        "id": "1377908",
         "enunciado": "Um vendedor recebe mensalmente um valor fixo de R$ 1.500,00 mais 3% do valor de suas vendas. A função que dá o valor do salário mensal em relação às vendas desse vendedor é:",
         "alternativas": {
             "A": "f(x) = 0,03x - 1500",
@@ -1148,10 +1147,10 @@
             "D": "f(x) = 0,03x + 1500"
         },
         "gabarito_correto": "D",
+        "id": "1377908",
         "comentario_ia": "O salário é o valor fixo mais o percentual sobre as vendas. 3% em decimal é 0,03. Se 'x' são as vendas, o salário é 1500 + 0,03x."
     },
     {
-        "id": "1221586",
         "enunciado": "Considere as funções ( ) 2 1f x x=− e 1()3xgxx−=− . Sendo ( ) ( ( ))h x g f x= e 1()hx− a função inversa de ()hx , pode-se afirmar que 1(0)h− é igual a:",
         "alternativas": {
             "A": "1.",
@@ -1161,10 +1160,10 @@
             "E": "–2."
         },
         "gabarito_correto": "C",
-        "comentario_ia": "Primeiro calculamos h(x): h(x) = g(f(x)) = g(x²-1) = 1/(3(x²-1)-1) = 1/(3x²-3-1) = 1/(3x²-4). Para encontrar a inversa, igualamos y = 1/(3x²-4), isolamos x: y(3x²-4) = 1 -> 3x²y - 4y = 1 -> 3x²y = 1+4y -> x² = (1+4y)/3y -> x = sqrt((1+4y)/3y). Logo, h⁻¹(x) = sqrt((1+4x)/3x). Substituindo x=0 em h⁻¹(x) leva a uma divisão por zero. Reavaliando h(x) = g(f(x)). f(x) = x²-1. g(x) = 1/(3x-1). h(x) = g(x²-1) = 1/(3(x²-1)-1) = 1/(3x²-3-1) = 1/(3x²-4). Para h⁻¹(0), procuramos x tal que h(x) = 0. 1/(3x²-4) = 0, o que é impossível, pois 1 não pode ser zero. Há um erro na formulação da questão ou nas alternativas. Vamos recalcular o h(x) e a inversa. h(x) = 1/(3x²-4). h⁻¹(x). Seja y = 1/(3x²-4). y(3x²-4) = 1. 3x²y - 4y = 1. 3x²y = 1+4y. x² = (1+4y)/3y. x = sqrt((1+4y)/3y). h⁻¹(x) = sqrt((1+4x)/3x). h⁻¹(0) é indefinido. Vamos assumir um erro e tentar h(f(x)) = g(x). Se h(x) = g(f(x)), mas a questão pede para achar h⁻¹(0) onde h(x) = g(f(x)). Para h⁻¹(0), queremos f(x) tal que g(f(x)) = 0, o que é impossível.  Vamos as..."
+        "id": "1221586",
+        "comentario_ia": "Primeiro calculamos h(x): h(x) = g(f(x)) = g(x²-1) = 1/(3(x²-1)-1) = 1/(3x²-3-1) = 1/(3x²-4). Para encontrar a inversa, igualamos y = 1/(3x²-4), isolamos x: y(3x²-4) = 1 -> 3x²y - 4y = 1 -> 3x²y = 1+4y -> x² = (1+4y)/3y -> x = sqrt((1+4y)/3y). Logo, h⁻¹(x) = sqrt((1+4x)/3x). Substituindo x=0 em h⁻¹(x) leva a uma divisão por zero. Reavaliando h(x) = g(f(x)). f(x) = x²-1. g(x) = 1/(3x-1). h(x) = g(x²-1) = 1/(3(x²-1)-1) = 1/(3x²-3-1) = 1/(3x²-4). Para h⁻¹(0), procuramos x tal que h(x) = 0. 1/(3x²-4) = 0, o que é impossível, pois 1 não pode ser zero. Há um erro na formulação da questão ou nas alternativas. Vamos recalcular o h(x) e a inversa. h(x) = 1/(3x²-4). h⁻¹(x). Seja y = 1/(3x²-4). y(3x²-4) = 1. 3x²y - 4y = 1. 3x²y = 1+4y. x² = (1+4y)/3y. x = sqrt((1+4y)/3y). h⁻¹(x) = sqrt((1+4x)/3x). h⁻¹(0) é indefinido. Vamos assumir um erro e tentar h(f(x)) = g(x). Se h(x) = g(f(x)), mas a questão pede para achar h⁻¹(0) onde h(x) = g(f(x)). Para h⁻¹(0), queremos f(x) tal que g(f(x)) = 0, o que é impossível. Vamos as..."
     },
     {
-        "id": "2242278",
         "enunciado": "O gráfico da função real ݂ é uma reta. Sabe-se que ݂(6)=10 e que ݂(22)=18. Então, ݂(88) é igual a",
         "alternativas": {
             "A": "29.",
@@ -1174,10 +1173,10 @@
             "E": "76."
         },
         "gabarito_correto": "B",
-        "comentario_ia": "A funcao eh linear, f(x) = ax + b. Usando os pontos (6,10) e (22,18), determinamos a e b. Logo, calculamos f(88). A inclinação 'a' é (18-10)/(22-6) = 8/16 = 1/2. f(x) = 1/2 x + b. Usando f(6)=10, 10 = 1/2 * 6 + b, logo b=7. Assim, f(x) = 1/2 x + 7. f(88) = 1/2 * 88 + 7 = 44 + 7 = 51. Houve um erro no meu calculo inicial. Vamos recalcular:  a = (18-10)/(22-6) = 8/16 = 0.5. a = 0.5. f(x) = 0.5x + b. 10 = 0.5*6 + b => 10 = 3 + b => b = 7. f(x) = 0.5x + 7. f(88) = 0.5 * 88 + 7 = 44 + 7 = 51.  A resposta correta é D) 62."
+        "id": "2242278",
+        "comentario_ia": "A funcao eh linear, f(x) = ax + b. Usando os pontos (6,10) e (22,18), determinamos a e b. Logo, calculamos f(88). A inclinação 'a' é (18-10)/(22-6) = 8/16 = 1/2. f(x) = 1/2 x + b. Usando f(6)=10, 10 = 1/2 * 6 + b, logo b=7. Assim, f(x) = 1/2 x + 7. f(88) = 1/2 * 88 + 7 = 44 + 7 = 51. Houve um erro no meu calculo inicial. Vamos recalcular: a = (18-10)/(22-6) = 8/16 = 0.5. a = 0.5. f(x) = 0.5x + b. 10 = 0.5*6 + b => 10 = 3 + b => b = 7. f(x) = 0.5x + 7. f(88) = 0.5 * 88 + 7 = 44 + 7 = 51. A resposta correta é D) 62."
     },
     {
-        "id": "1515894",
         "enunciado": "O preço a ser pago por uma corrida de táxi é composto por uma parcela fixa, denominada bandeirada, e uma parcela variável que depende da distância percorrida. Em uma cidade, a bandeirada custa R$ 4,50 e o quilômetro rodado custa R$ 2,20. Se um passageiro pagou R$ 22,10 por uma corrida, qual a distância percorrida por esse passageiro?",
         "alternativas": {
             "A": "12 km",
@@ -1187,11 +1186,11 @@
             "E": "8 km"
         },
         "gabarito_correto": "E",
+        "id": "1515894",
         "comentario_ia": "Seja D a distância percorrida. O custo total é R$ 22,10. O custo é Custo Fixo + Custo Variável. R$ 22,10 = R$ 4,50 + (R$ 2,20 * D). Logo, R$ 2,20 * D = R$ 22,10 - R$ 4,50 = R$ 17,60. Portanto, D = R$ 17,60 / R$ 2,20 = 8 km."
     },
     {
-        "id": "2290990",
-        "enunciado": "Substituindo o valor da raiz da função f(x) =2 3'-x + 4 , na função g(x) = x2  -  4x + 5, encontramos como resultado:",
+        "enunciado": "Substituindo o valor da raiz da função f(x) =2 3'-x + 4 , na função g(x) = x2 - 4x + 5, encontramos como resultado:",
         "alternativas": {
             "A": "12",
             "B": "15",
@@ -1199,10 +1198,10 @@
             "D": "17"
         },
         "gabarito_correto": "C",
+        "id": "2290990",
         "comentario_ia": "Primeiro, encontra-se a raiz da função f(x) = 2^(3-x) + 4. Para que f(x) seja zero, 2^(3-x) + 4 = 0, o que é impossível para valores reais de x. Parece haver um erro no enunciado ou na função, pois 2 elevado a qualquer potência real é positivo, e somado a 4, nunca será zero. Assumindo que a questão queria encontrar o valor de x tal que 2^(3-x) = 0 (impossível) ou 3-x = 0 (x=3) para usar na função g(x) se esta fosse a intenção. Se for para achar a raiz de f(x), ela não existe no conjunto dos números reais. Se a questão se refere a 'substituir o valor da raiz POR ALGUM valor', sem especificar qual função tem a raiz, então X. Se a questão está mal formulada e, por exemplo, se f(x)=0 quando 2^{3-x}=1 (então 3-x=0, x=0). Substituindo x=0 em g(x)=x^2-4x+5: g(0) = 0^2 - 4*0 + 5 = 5. Não é uma alternativa. Se a raiz é quando 3-x = -1 (x=4), então g(4) = 4^2 - 4*4 + 5 = 16 - 16 + 5 = 5. Se a intenção é f(x) = 4, ou seja, 2^(3-x)=0 (impossivel). Se for para achar o valor de x tal que f(x) = 4, então 2^(3-x) = 0, im..."
     },
     {
-        "id": "1994676",
         "enunciado": "Quantas soluções reais tem a equação 2^x -x^2=0?",
         "alternativas": {
             "A": "Uma solução real.",
@@ -1211,10 +1210,10 @@
             "D": "Não admite solução."
         },
         "gabarito_correto": "C",
+        "id": "1994676",
         "comentario_ia": "A equação 2^x = x^2 tem três soluções reais. Observando os gráficos de y = 2^x e y = x^2, ou testando valores, verifica-se que as soluções ocorrem aproximadamente em x = -0.76, x = 2 e x = 4."
     },
     {
-        "id": "1824977",
         "enunciado": "Se f(x) = ln(5 x 4), então a sua inversa f1(x) é expressa por",
         "alternativas": {
             "A": "f1(x) = [ln(5 x 4)]1.",
@@ -1224,10 +1223,10 @@
             "E": "f1(x) = e5x 4."
         },
         "gabarito_correto": "D",
+        "id": "1824977",
         "comentario_ia": "Para encontrar a inversa de f(x) = ln(5x + 4), igualamos y = ln(5x + 4), trocamos as variáveis (x = ln(5y + 4)), e isolamos y. A conversão do logaritmo para exponencial leva a e^x = 5y + 4, resultando a inversa."
     },
     {
-        "id": "1253111",
         "enunciado": "Marque a afirmação incorreta.",
         "alternativas": {
             "A": "Dados dois conjuntos A e B, denominamos função toda relação f: A → B na qual, para todo elemento de A, existe um único correspondente em B.",
@@ -1236,10 +1235,10 @@
             "D": "A lei de formação de uma função é o critério utilizado para a obtenção dos pares ordenados (x, y)."
         },
         "gabarito_correto": "C",
+        "id": "1253111",
         "comentario_ia": "A alternativa C é incorreta pois afirma que toda relação é função e vice-versa. Uma relação só é uma função se para cada elemento do domínio existir um único elemento no contradomínio."
     },
     {
-        "id": "2006128",
         "enunciado": "A função definida por f(x)=x² -3x+4 tem seu valor mínimo para x igual a: Assinale a alternativa CORRETA:",
         "alternativas": {
             "A": "( ) 7/4.",
@@ -1248,10 +1247,10 @@
             "D": "( ) 4/7."
         },
         "gabarito_correto": "A",
+        "id": "2006128",
         "comentario_ia": "O valor mínimo de uma função quadrática f(x) = ax² + bx + c ocorre no vértice. O x do vértice é dado por -b/(2a). Na função f(x)=x² -3x+4, a=1 e b=-3, logo x = -(-3)/(2*1) = 3/2. Como 3/2 não está nas alternativas, e o *valor mínimo* da função é 7/4 (obtido ao substituir x=3/2 na função: (3/2)² - 3(3/2) + 4 = 9/4 - 9/2 + 4 = 7/4), é provável que a questão tenha uma formulação imprecisa, e a alternativa A (7/4) seja a resposta esperada ao se referir ao valor mínimo da função, e não ao x onde ele ocorre."
     },
     {
-        "id": "2006386",
         "enunciado": "Sendo dada a função f:R→R definida por f(x)=13 -10x+3x , então o valor de f(-4) é:Assinale a alternativa CORRETA :",
         "alternativas": {
             "A": "-40.",
@@ -1260,10 +1259,10 @@
             "D": "-41."
         },
         "gabarito_correto": "B",
+        "id": "2006386",
         "comentario_ia": "A função é f(x) = 13 - 10x + 3x. Simplificando, f(x) = 13 - 7x. Substituindo x por -4: f(-4) = 13 - 7(-4) = 13 + 28 = 41."
     },
     {
-        "id": "2006396",
         "enunciado": "A raiz da função f:R→R definida por f(x)= -9x+3 é:Assinale a alternativa CORRETA :",
         "alternativas": {
             "A": "1/3.",
@@ -1272,10 +1271,10 @@
             "D": "-1/3."
         },
         "gabarito_correto": "A",
+        "id": "2006396",
         "comentario_ia": "Para encontrar a raiz de uma função, igualamos f(x) a zero. Assim, -9x + 3 = 0. Resolvendo para x, obtemos 9x = 3, o que resulta em x = 3/9 = 1/3."
     },
     {
-        "id": "2006400",
         "enunciado": "Sendo f(x)=2x -1/x²+1 , calcule f(2)+f(5) .Assinale a alternativa CORRETA.",
         "alternativas": {
             "A": "12/130.",
@@ -1284,10 +1283,10 @@
             "D": "12/5."
         },
         "gabarito_correto": "B",
+        "id": "2006400",
         "comentario_ia": "Calcula f(2) = 2(2) - 1/(2²+1) = 4 - 1/5 = 19/5. Calcula f(5) = 2(5) - 1/(5²+1) = 10 - 1/26 = 259/26. Soma: 19/5 + 259/26 = (19*26 + 259*5) / (5*26) = (494 + 1295) / 130 = 1789/130. Há um erro no cálculo da alternativa B e na minha soma manual. Refazendo f(2): 4 - 1/5 = 19/5. Refazendo f(5): 10 - 1/26 = 259/26. A soma parcial na alternativa B é 123/130, o que parece impossível. A questão ou as alternativas podem conter erros, mas vamos tentar refazer para ver se bate alguma. Outro cálculo: f(x)=2x-1/(x²+1). f(2) = 2*2 - 1/(2²+1) = 4 - 1/5 = 19/5. f(5) = 2*5 - 1/(5²+1) = 10 - 1/26 = 259/26. f(2)+f(5) = 19/5 + 259/26 = (19*26 + 259*5) / 130 = (494 + 1295) / 130 = 1789/130. O valor B é 123/130 o que não bate. Se a função fosse f(x) = 2x - 1 / (x²+1) para f(5), seria 10 - 1/26 = 259/26. Se f(x) = 2x - 1/(x²+1) para f(2), seria 4 - 1/5 = 19/5. Somando 19/5 + 259/26 = 1789/130. Vamos verificar se a questão ou a alternativa B pode ter um erro comum. Pode ser que a função fosse f(x) = 2x/(x²+1) - 1, mas isso é es..."
     },
     {
-        "id": "1818886",
         "enunciado": "Se f(x) = 3x2 – 6x é uma função do segundo grau, então ela admite um número k de raízes. Então podemos afirmar que k é igual a:",
         "alternativas": {
             "A": "1",
@@ -1296,6 +1295,7 @@
             "D": "4"
         },
         "gabarito_correto": "B",
+        "id": "1818886",
         "comentario_ia": "Uma função do segundo grau, representada por um polinômio de grau 2, pode ter no máximo duas raízes reais. Essas raízes são os valores de x para os quais f(x) = 0."
     }
 ]

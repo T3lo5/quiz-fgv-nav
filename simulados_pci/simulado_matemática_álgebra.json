@@ -1,6 +1,5 @@
 [
     {
-        "id": "2245631",
         "enunciado": "Rafael foi fazer manutenção elétrica na sua casa e precisou comprar cabos elétricos. Cada metro de cabo custa R$ 12,00, e ele gastou ao todo R$ 96,00. Para saber quantos metros comprou, Rafael montou uma equação. Qual das equações abaixo corresponde corretamente ao cálculo que Rafael precisa fazer?",
         "alternativas": {
             "A": "12 + x = 96",
@@ -10,10 +9,10 @@
             "E": "x = 96 + 12"
         },
         "gabarito_correto": "D",
+        "id": "2245631",
         "comentario_ia": "O custo total (R$ 96,00) é o resultado da multiplicação do custo por metro (R$ 12,00) pela quantidade de metros (x). Portanto, a equação que representa a situação é 12x = 96."
     },
     {
-        "id": "2123573",
         "enunciado": "Um estudante de química está preparando uma mistura que apresentará em um trabalho, mas derramou um produto sobre seu caderno e suas anotações foram parcialmente apagadas, mas sabe que precisa misturar \"x\" ml de um produto chamado de A com o triplo dessa quantidade de outro chamado de B e adicionar mais 50 ml de um ingrediente secreto. Se no final a mistura completa terá 290 ml, qual das equações abaixo permite descobrir corretamente a quantidade x do produto A?",
         "alternativas": {
             "A": "4x - 293 = 50",
@@ -22,11 +21,11 @@
             "D": "4x + 50 = 290"
         },
         "gabarito_correto": "D",
+        "id": "2123573",
         "comentario_ia": "Seja 'x' a quantidade de A. Então, a quantidade de B é 3x. A mistura total é x (A) + 3x (B) + 50 (ingrediente secreto) = 290 ml. A equação é 4x + 50 = 290."
     },
     {
-        "id": "2384181",
-        "enunciado": "James estava preparando uma apresentação de álgebra linear para um trabalho da faculdade, no qual utilizava a fórmula da distância para encontrar a equação de uma esfera em um espaço de coordenadas tridimensional. Ele deduziu a equação de uma esfera com centro C(h, k, l) e raio r dada por:\n\n(x − h)2+(y − k)2+(z − l)2= r2\n\nApós apresentar a expressão acima, James foi questionado sobre qual seria a equação de uma esfera com raio 6 e centro C(-1, 2, 3).\n\nAssinale a alternativa que indica a equação dessa esfera descrita no questionamento.",
+        "enunciado": "James estava preparando uma apresentação de álgebra linear para um trabalho da faculdade, no qual utilizava a fórmula da distância para encontrar a equação de uma esfera em um espaço de coordenadas tridimensional. Ele deduziu a equação de uma esfera com centro C(h, k, l) e raio r dada por: (x − h)2+(y − k)2+(z − l)2= r2 Após apresentar a expressão acima, James foi questionado sobre qual seria a equação de uma esfera com raio 6 e centro C(-1, 2, 3). Assinale a alternativa que indica a equação dessa esfera descrita no questionamento.",
         "alternativas": {
             "A": "(x − 1 )2+(y + 2 )2+(z + 3 )2=36",
             "B": "(x − 1 )2+(y − 2 )2+(z − 3 )2= 6",
@@ -35,10 +34,10 @@
             "E": "(x + 1 )3+(y − 2 )3+(z − 3 )3=36"
         },
         "gabarito_correto": "C",
+        "id": "2384181",
         "comentario_ia": "A equação da esfera é (x − h)²+(y − k)²+(z − l)²= r². Substituindo o centro C(-1, 2, 3) e raio r=6, temos (x - (-1))² + (y - 2)² + (z - 3)² = 6², resultando em (x + 1)²+(y − 2)²+(z − 3)²=36."
     },
     {
-        "id": "2212087",
         "enunciado": "Um arquiteto está projetando um jardim retangular com área total de 50 m². Ele decidiu que a largura do jardim será x metros, enquanto o comprimento será 5 metros a mais que a largura, ou seja, x + 5 metros. Considerando essa proporção entre as medidas e a área informada, qual é o valor de x, em metros?",
         "alternativas": {
             "A": "x = 5 metros.",
@@ -47,10 +46,10 @@
             "D": "x = 9 metros."
         },
         "gabarito_correto": "A",
+        "id": "2212087",
         "comentario_ia": "A área do jardim é dada por largura * comprimento, ou seja, x * (x + 5) = 50. Isolando, temos x² + 5x - 50 = 0. Resolvendo a equação quadrática, encontramos x = 5 (a raiz positiva é a que interessa para medida de comprimento). Portanto, a largura é 5 metros."
     },
     {
-        "id": "1827709",
         "enunciado": "Dada uma equação do 2º grau de R --> R definida por y = -3x2 + 192x - 1344 e sabendo que um determinado valor de ordenada pode ser observado a partir de duas abscissas distintas, sendo uma dessas abscissas igual a 16, qual será a segunda abscissa que nos projeta a mesma ordenada?",
         "alternativas": {
             "A": "48",
@@ -59,10 +58,10 @@
             "D": "24"
         },
         "gabarito_correto": "A",
+        "id": "1827709",
         "comentario_ia": "Em uma parabola y = ax^2 + bx + c, a soma das raizes e -b/a. Dada a funcao y = -3x^2 + 192x - 1344, a soma das raizes e -192/(-3) = 64. Se uma razao e 16, a outra e 64 - 16 = 48."
     },
     {
-        "id": "2250248",
         "enunciado": "No campo da Matemática Algébrica, o conceito de Álgebra refere-se à compreensão e manipulação de expressões e equações, envolvendo operações e propriedades associadas a elas. Qual das alternativas abaixo NÃO está diretamente relacionada a esse conceito?",
         "alternativas": {
             "A": "Resolver as equações com letras em que precisamos descobrir o valor de X para que faça a conta da equação ser verdadeira.",
@@ -71,11 +70,11 @@
             "D": "Simplificar expressões com letras e encontrar maneiras de reescrevê-las de forma mais fácil, como dividir em partes menores ou agrupar termos que se repetem."
         },
         "gabarito_correto": "C",
+        "id": "2250248",
         "comentario_ia": "A geometria euclidiana lida com formas e espaços, não sendo diretamente um conceito de Álgebra, que foca na manipulação de expressões e equações com variáveis."
     },
     {
-        "id": "1645042",
-        "enunciado": "A Base Nacional Comum Curricular (BNCC) destaca que o ensino de Matemática deve desenvolver o pensamento matemático dos alunos por meio de ideias fundamentais, como equivalência, ordem, proporcionalidade, interdependência, representação, variação e aproximação. Essas ideias constituem uma base para o ensino de diversos conteúdos matemáticos, conectando-se a situações cotidianas e a outras áreas do conhecimento\nPara orientar o ensino de Matemática, a BNCC propõe cinco unidades temáticas, que guiam o desenvolvimento de habilidades ao longo do Ensino Fundamental. Cada unidade temática pode receber uma ênfase específica conforme o ano de escolarização.\nQual alternativa está diretamente ligada à unidade temática \"Álgebra\"?",
+        "enunciado": "A Base Nacional Comum Curricular (BNCC) destaca que o ensino de Matemática deve desenvolver o pensamento matemático dos alunos por meio de ideias fundamentais, como equivalência, ordem, proporcionalidade, interdependência, representação, variação e aproximação. Essas ideias constituem uma base para o ensino de diversos conteúdos matemáticos, conectando-se a situações cotidianas e a outras áreas do conhecimento Para orientar o ensino de Matemática, a BNCC propõe cinco unidades temáticas, que guiam o desenvolvimento de habilidades ao longo do Ensino Fundamental. Cada unidade temática pode receber uma ênfase específica conforme o ano de escolarização. Qual alternativa está diretamente ligada à unidade temática \"Álgebra\"?",
         "alternativas": {
             "A": "Álgebra tem como finalidade o desenvolvimento de um tipo especial de pensamento − pensamento algébrico − que é essencial para utilizar modelos matemáticos na compreensão, representação e análise de relações quantitativas de grandezas e, também, de situações e estruturas matemáticas, fazendo uso de letras e outros símbolos.",
             "B": "A proposta envolve o estudo de conceitos e procedimentos aplicáveis a problemas cotidianos, científicos e tecnológicos, capacitando os cidadãos a coletar, organizar, interpretar e analisar dados em diversos contextos. Essas habilidades permitem fazer julgamentos fundamentados e tomar decisões informadas, utilizando raciocínio e conceitos estatísticos para descrever, explicar e prever fenômenos.",
@@ -83,10 +82,10 @@
             "D": "A unidade temática Álgebra visa desenvolver o pensamento numérico, capacitando os alunos a quantificar, julgar e interpretar argumentos baseados em quantidades. Para isso, é essencial construir noções de aproximação, proporcionalidade, equivalência e ordem, conceitos fundamentais em Matemática."
         },
         "gabarito_correto": "A",
+        "id": "1645042",
         "comentario_ia": "A alternativa A descreve corretamente o objetivo da Álgebra na BNCC, que foca no desenvolvimento do pensamento algébrico para modelar e analisar relações matemáticas com o uso de símbolos."
     },
     {
-        "id": "1199115",
         "enunciado": "Para tornar uma aula mais divertida, a professora Bia passou a equação x² - 2x - 15 = 0 para seus alunos resolverem e disse que o primeiro a achar os valores corretos das raízes, ganharia o valor da sua soma em pontos. Quantos pontos o vencedor do desafio ganhou?",
         "alternativas": {
             "A": "2 pontos",
@@ -96,10 +95,10 @@
             "E": "4 pontos"
         },
         "gabarito_correto": "A",
+        "id": "1199115",
         "comentario_ia": "A equacao e x² - 2x - 15 = 0. A soma das raizes de uma equacao quadratica ax² + bx + c = 0 é dada por -b/a. Neste caso, a=1 e b=-2. Assim, a soma e -(-2)/1 = 2. O vencedor ganha 2 pontos."
     },
     {
-        "id": "1130362",
         "enunciado": "Ana conheceu sua nova amiga, Bruna. Quando Ana perguntou a Bruna sua idade, Bruna respondeu:- “Tenho o dobro da sua idade menos oito”.A mãe de Bruna também complementou:- “A diferença entre a idade de Bruna e idade da Ana è exatamente a metade da idade da Ana”.Com base nas sentenças, indique a idade de Bruna:",
         "alternativas": {
             "A": "12 anos.",
@@ -109,10 +108,10 @@
             "E": "28 anos."
         },
         "gabarito_correto": "D",
+        "id": "1130362",
         "comentario_ia": "Seja 'A' a idade de Ana e 'B' a idade de Bruna. Temos B = 2A - 8 e B - A = A/2. Substituindo a primeira na segunda: (2A - 8) - A = A/2 => A - 8 = A/2 => A/2 = 8 => A = 16. Logo, B = 2*16 - 8 = 32 - 8 = 24. Verificando a segunda condição: 24 - 16 = 8, e 16/2 = 8. Portanto, Bruna tem 24 anos."
     },
     {
-        "id": "1763504",
         "enunciado": "O professor de Matemática passou a seus alunos um desafio de cálculo a ser resolvido durante a aula e para isso criou a situação-problema, conforme descrita a seguir. Márcia pensou em um número e o somou ao seu triplo, em seguida multiplicou o resultado obtido por 2, dividindo em seguida o novo resultado por 4 e por fim somou ao novo resultado obtido o próprio valor que havia pensado. Sabendo que após toda essa sequência de cálculos realizados por Márcia, o resultado final por ela obtido foi igual ao valor que ela havia pensado inicialmente mais 48 unidades, podemos concluir que o número pensado inicialmente é igual a:",
         "alternativas": {
             "A": "28",
@@ -122,10 +121,10 @@
             "E": "16"
         },
         "gabarito_correto": "C",
+        "id": "1763504",
         "comentario_ia": "Seja 'n' o número pensado. A sequência é: n -> n + 3n = 4n -> 4n * 2 = 8n -> 8n / 4 = 2n -> 2n + n = 3n. O resultado é o número inicial mais 48: 3n = n + 48 -> 2n = 48 -> n = 24."
     },
     {
-        "id": "1564725",
         "enunciado": "Analisar a equação de segundo grau abaixo e assinalar a alternativa que corresponde à soma de suas raízes.2x² + 3x - 5 = 0",
         "alternativas": {
             "A": "5/2",
@@ -134,10 +133,10 @@
             "D": "8/3"
         },
         "gabarito_correto": "C",
+        "id": "1564725",
         "comentario_ia": "Para uma equação do segundo grau na forma ax² + bx + c = 0, a soma das raízes é dada por -b/a. Na equação 2x² + 3x - 5 = 0, a = 2 e b = 3, logo a soma é -3/2."
     },
     {
-        "id": "1289640",
         "enunciado": "As idades de Marília e Sueli são representadas pelas raízes da equação x² - 6x + 5 = 0 . Sabendo que Marília é a mais velha, quais as idades de Marília e Sueli, respectivamente?",
         "alternativas": {
             "A": "1 e 5",
@@ -146,10 +145,10 @@
             "D": "2 e 10"
         },
         "gabarito_correto": "B",
+        "id": "1289640",
         "comentario_ia": "As raízes da equação x² - 6x + 5 = 0 são encontradas pela fórmula de Bhaskara ou por fatoração. Fatorando, (x-1)(x-5)=0, temos as raízes 1 e 5. Como Marília é a mais velha, sua idade é 5 anos e a de Sueli é 1 ano."
     },
     {
-        "id": "2004317",
         "enunciado": "Alguns produtos notáveis podem ser entendidos como expressões algébricas resultantes da multiplicação de binômios específicos que apresentam padrões comuns. Esses padrões são frequentemente utilizados na simplificação de expressões algébricas e na resolução de equações. Um dos produtos notáveis mais conhecidos é o quadrado de um binômio, representado a seguir: (a + b)². Assinale a alternativa que apresenta o CORRETO desdobramento do produto notável acima.",
         "alternativas": {
             "A": "a² + a²b² + b².",
@@ -158,10 +157,10 @@
             "D": "a + a²b² + b."
         },
         "gabarito_correto": "B",
+        "id": "2004317",
         "comentario_ia": "O desdobramento correto do produto notável (a + b)² é a² + 2ab + b². As outras alternativas apresentam expansões incorretas ou fórmulas diferentes."
     },
     {
-        "id": "1186165",
         "enunciado": "O valor de 999999² – 1000001² é:",
         "alternativas": {
             "A": "–4 × 10⁶.",
@@ -171,10 +170,10 @@
             "E": "–4 × 10⁸."
         },
         "gabarito_correto": "A",
+        "id": "1186165",
         "comentario_ia": "A expressão é da forma a² - b². Usando a diferença de quadrados, (x-y)(x+y), temos (999999 - 1000001)(999999 + 1000001) = (-2)(2000000) = -4.000.000 = -4 x 10⁶."
     },
     {
-        "id": "1100417",
         "enunciado": "O resultado do produto entre os polinômios x² + 3x – 2 e x – 5 é:",
         "alternativas": {
             "A": "- 4x² – 14x + 10",
@@ -184,10 +183,10 @@
             "E": "x³ – 2x² – 15x"
         },
         "gabarito_correto": "B",
+        "id": "1100417",
         "comentario_ia": "Para multiplicar os polinômios (x^2 + 3x - 2) por (x - 5), distribuímos cada termo do segundo polinômio pelo primeiro: x*(x^2 + 3x - 2) - 5*(x^2 + 3x - 2) = (x^3 + 3x^2 - 2x) - (5x^2 + 15x - 10) = x^3 + 3x^2 - 2x - 5x^2 - 15x + 10 = x^3 - 2x^2 - 17x + 10."
     },
     {
-        "id": "1118071",
         "enunciado": "O que caracteriza uma inequação exponencial?",
         "alternativas": {
             "A": "A variável está no expoente de uma base exponencial.",
@@ -196,10 +195,10 @@
             "D": "A ausência de variáveis."
         },
         "gabarito_correto": "A",
+        "id": "1118071",
         "comentario_ia": "A inequação exponencial é caracterizada pela presença da variável no expoente de uma base que é um número real positivo e diferente de 1. As outras opções descrevem outros tipos de equações ou descaracterizam a exponencial."
     },
     {
-        "id": "1199033",
         "enunciado": "Para tornar uma aula mais divertida, a professora Bia passou a equação x² - 2x - 15 = 0 para seus alunos resolverem e disse que o primeiro a achar os valores corretos das raízes, ganharia o valor da sua soma em pontos. Quantos pontos o vencedor do desafio ganhou?",
         "alternativas": {
             "A": "1 pontos",
@@ -209,10 +208,10 @@
             "E": "5 pontos"
         },
         "gabarito_correto": "C",
+        "id": "1199033",
         "comentario_ia": "A soma das raízes de uma equação quadrática ax² + bx + c = 0 é dada por -b/a. Na equação x² - 2x - 15 = 0, a = 1 e b = -2. Portanto, a soma das raízes é -(-2)/1 = 2. O vencedor ganhou 2 pontos."
     },
     {
-        "id": "1985276",
         "enunciado": "Vitor tem o dobro da idade de seu irmão Pedro e Pedro tem um terço da idade do primo Luiz. Se a soma das idades dos três é 72, quantos anos Vitor tem?",
         "alternativas": {
             "A": "Vitor tem 24 anos.",
@@ -222,10 +221,10 @@
             "E": "Vitor tem 19 anos."
         },
         "gabarito_correto": "A",
+        "id": "1985276",
         "comentario_ia": "Sejam V( Vitor), P(Pedro) e L(Luiz). Temos: V=2P e P=L/3, logo L=3P. A soma é V+P+L = 2P+P+3P = 6P = 72, então P=12. Assim, V=2*12=24."
     },
     {
-        "id": "1030961",
         "enunciado": "O valor de m na equação x2 - 4x + m = 0, de modo que as raízes sejam reais e iguais é:",
         "alternativas": {
             "A": "m < 0",
@@ -234,10 +233,10 @@
             "D": "não possui"
         },
         "gabarito_correto": "B",
+        "id": "1030961",
         "comentario_ia": "Para que as raízes de uma equação quadrática sejam reais e iguais, o discriminante (Δ = b² - 4ac) deve ser igual a zero. Na equação x² - 4x + m = 0, a = 1, b = -4 e c = m. Assim, (-4)² - 4 * 1 * m = 0, o que resulta em 16 - 4m = 0, e, portanto, m = 4."
     },
     {
-        "id": "1030962",
         "enunciado": "O quadrado de um número menos o triplo do seu sucessivo é igual a 15. Qual é esse número?",
         "alternativas": {
             "A": "o número é 6 ou -3",
@@ -246,10 +245,10 @@
             "D": "o número é 1 ou -1"
         },
         "gabarito_correto": "A",
+        "id": "1030962",
         "comentario_ia": "Seja o número 'n'. Seu sucessivo é 'n+1'. A equação é n² - 3(n+1) = 15. Simplificando: n² - 3n - 3 = 15 => n² - 3n - 18 = 0. Fatorando ou usando Bhaskara, encontramos n=6 ou n=-3."
     },
     {
-        "id": "2226480",
         "enunciado": "Considerando-se que o dobro de um número Z é igual ao triplo da metade de 48, assinalar a alternativa que apresenta o valor de Z:",
         "alternativas": {
             "A": "28",
@@ -259,10 +258,10 @@
             "E": "36"
         },
         "gabarito_correto": "E",
+        "id": "2226480",
         "comentario_ia": "O dobro de Z é 2Z. O triplo da metade de 48 é 3 * (48/2) = 3 * 24 = 72. Então, 2Z = 72, o que resulta em Z = 36. A alternativa C está incorreta, o valor de Z é 36."
     },
     {
-        "id": "1029984",
         "enunciado": "Todas as equações a seguir são do 2º grau, EXCETO:",
         "alternativas": {
             "A": "x² + 2x + 1 = 0",
@@ -271,10 +270,10 @@
             "D": "x³ - 5x² + 4 = 0"
         },
         "gabarito_correto": "D",
+        "id": "1029984",
         "comentario_ia": "Equações do 2º grau possuem o maior expoente da incógnita igual a 2. A alternativa D tem `x³`, o que a caracteriza como uma equação do 3º grau."
     },
     {
-        "id": "2007250",
         "enunciado": "O triplo de um certo número mais dois é igual a 35, então esse número é igual a?",
         "alternativas": {
             "A": "8",
@@ -284,10 +283,10 @@
             "E": "5"
         },
         "gabarito_correto": "C",
+        "id": "2007250",
         "comentario_ia": "SEJA 'X' O NÚMERO DESCONHECIDO. A EQUAÇÃO É 3X + 2 = 35. SUBTRAINDO 2 DE AMBOS OS LADOS, TEMOS 3X = 33. DIVIDINDO POR 3, OBTEMOS X = 11."
     },
     {
-        "id": "1145033",
         "enunciado": "Ao iniciar as séries finais do ensino fundamental, o educando terá contato com a álgebra. O trabalho é iniciado com a explanação sobre o conceito:",
         "alternativas": {
             "A": "Igualdade.",
@@ -297,10 +296,10 @@
             "E": "Espaço tridimensional."
         },
         "gabarito_correto": "A",
+        "id": "1145033",
         "comentario_ia": "O início do estudo da álgebra para educandos é marcado pela introdução de conceitos que envolvem a representação de relações e quantidades. A igualdade é um conceito fundamental na álgebra, pois representa a base para a resolução de equações e para a manipulação de expressões algébricas em geral."
     },
     {
-        "id": "1145050",
         "enunciado": "Ao compreender a linguagem algébrica, o aluno será capaz de compreender o(a):",
         "alternativas": {
             "A": "Ideia de variável, representada por letra ou símbolo, para expressar relação entre duas grandezas.",
@@ -310,10 +309,10 @@
             "E": "Conceito fundamental da aplicação numérica na atualidade."
         },
         "gabarito_correto": "A",
+        "id": "1145050",
         "comentario_ia": "A linguagem algébrica, através do uso de letras e símbolos, permite expressar relações matemáticas de forma genérica. Compreender essa linguagem é fundamental para entender o conceito de variável, que representa uma quantidade que pode mudar ou assumir diferentes valores, permitindo generalizar e modelar situações."
     },
     {
-        "id": "1144425",
         "enunciado": "Trata-se de um dos objetivos da álgebra no ensino da matemática:",
         "alternativas": {
             "A": "Construção de fatos básicos da divisão.",
@@ -323,10 +322,10 @@
             "E": "Sistema monetário brasileiro: reconhecimento de cédulas e moedas."
         },
         "gabarito_correto": "B",
+        "id": "1144425",
         "comentario_ia": "A investigacao de padroes e regularidades em sequências numericas e figuais e um dos principais focos da algebra no ensino fundamental, desenvolvendo o raciocinio logico e abstrato."
     },
     {
-        "id": "1000564",
         "enunciado": "Analise as afirmativas. • O mais barato de 3 automóveis custa a metade do preço do mais caro. • A soma dos valores desses 3 automóveis é de R$130.000. • A diferença de preço entre os dois automóveis mais baratos é de R$10.000. Assim, a diferença de preço entre os automóveis mais caros é",
         "alternativas": {
             "A": "R$40.000,00.",
@@ -336,10 +335,10 @@
             "E": "R$45.000,00."
         },
         "gabarito_correto": "A",
+        "id": "1000564",
         "comentario_ia": "Chamando os precos de C1 (mais barato), C2 e C3 (mais caro), temos C1 = C3/2. A soma e C1+C2+C3 = 130000. A diferenca entre os dois mais baratos e C2-C1 = 10000. Substituindo e resolvendo o sistema, obtemos C1 = 30.000, C2 = 40.000, C3 = 60.000. A diferenca entre os dois mais caros e C3-C2 = 60000 - 40000 = 20000. Verifiquei que a pergunta é a diferença entre os automoveis mais caros, mas a alternativa certa é A. Refazendo o calculo, C1=30000, C2=40000, C3=60000. C3-C2 é 20000. Algo esta errado na questao ou nas alternativas ou na resposta dada. Testando as alternativas: Se a diferença entre os mais caros for R$40.000, C3-C2=40000. C2-C1=10000. C1=C3/2. C1+C2+C3=130000. Se C3-C2=40000 e C2-C1=10000, entao C3=C2+40000 e C2=C1+10000. Substituindo em C1+C2+C3=130000: C1 + (C1+10000) + ((C1+10000)+40000) = 130000. 3C1 + 50000 = 130000. 3C1 = 80000. C1=80000/3. Agora, C1 = C3/2. 80000/3 = C3/2. C3 = 160000/3. C2 = C1 + 10000 = 80000/3 + 30000/3 = 110000/3. C1+C2+C3 = 80000/3 + 110000/3 + 160000/3 = 350000/3 !=..."
     },
     {
-        "id": "2245631",
         "enunciado": "Rafael foi fazer manutenção elétrica na sua casa e precisou comprar cabos elétricos. Cada metro de cabo custa R$ 12,00, e ele gastou ao todo R$ 96,00. Para saber quantos metros comprou, Rafael montou uma equação. Qual das equações abaixo corresponde corretamente ao cálculo que Rafael precisa fazer?",
         "alternativas": {
             "A": "12 + x = 96",
@@ -349,10 +348,10 @@
             "E": "x = 96 + 12"
         },
         "gabarito_correto": "D",
+        "id": "2245631",
         "comentario_ia": "O custo total (R$ 96,00) é o resultado da multiplicação do custo por metro (R$ 12,00) pela quantidade de metros (x). Portanto, a equação que representa a situação é 12x = 96."
     },
     {
-        "id": "2123573",
         "enunciado": "Um estudante de química está preparando uma mistura que apresentará em um trabalho, mas derramou um produto sobre seu caderno e suas anotações foram parcialmente apagadas, mas sabe que precisa misturar \"x\" ml de um produto chamado de A com o triplo dessa quantidade de outro chamado de B e adicionar mais 50 ml de um ingrediente secreto. Se no final a mistura completa terá 290 ml, qual das equações abaixo permite descobrir corretamente a quantidade x do produto A?",
         "alternativas": {
             "A": "4x - 293 = 50",
@@ -361,11 +360,11 @@
             "D": "4x + 50 = 290"
         },
         "gabarito_correto": "D",
+        "id": "2123573",
         "comentario_ia": "Seja 'x' a quantidade de A. Então, a quantidade de B é 3x. A mistura total é x (A) + 3x (B) + 50 (ingrediente secreto) = 290 ml. A equação é 4x + 50 = 290."
     },
     {
-        "id": "2384181",
-        "enunciado": "James estava preparando uma apresentação de álgebra linear para um trabalho da faculdade, no qual utilizava a fórmula da distância para encontrar a equação de uma esfera em um espaço de coordenadas tridimensional. Ele deduziu a equação de uma esfera com centro C(h, k, l) e raio r dada por:\n\n(x − h)2+(y − k)2+(z − l)2= r2\n\nApós apresentar a expressão acima, James foi questionado sobre qual seria a equação de uma esfera com raio 6 e centro C(-1, 2, 3).\n\nAssinale a alternativa que indica a equação dessa esfera descrita no questionamento.",
+        "enunciado": "James estava preparando uma apresentação de álgebra linear para um trabalho da faculdade, no qual utilizava a fórmula da distância para encontrar a equação de uma esfera em um espaço de coordenadas tridimensional. Ele deduziu a equação de uma esfera com centro C(h, k, l) e raio r dada por: (x − h)2+(y − k)2+(z − l)2= r2 Após apresentar a expressão acima, James foi questionado sobre qual seria a equação de uma esfera com raio 6 e centro C(-1, 2, 3). Assinale a alternativa que indica a equação dessa esfera descrita no questionamento.",
         "alternativas": {
             "A": "(x − 1 )2+(y + 2 )2+(z + 3 )2=36",
             "B": "(x − 1 )2+(y − 2 )2+(z − 3 )2= 6",
@@ -374,10 +373,10 @@
             "E": "(x + 1 )3+(y − 2 )3+(z − 3 )3=36"
         },
         "gabarito_correto": "C",
+        "id": "2384181",
         "comentario_ia": "A equação da esfera é (x − h)²+(y − k)²+(z − l)²= r². Substituindo o centro C(-1, 2, 3) e raio r=6, temos (x - (-1))² + (y - 2)² + (z - 3)² = 6², resultando em (x + 1)²+(y − 2)²+(z − 3)²=36."
     },
     {
-        "id": "2212087",
         "enunciado": "Um arquiteto está projetando um jardim retangular com área total de 50 m². Ele decidiu que a largura do jardim será x metros, enquanto o comprimento será 5 metros a mais que a largura, ou seja, x + 5 metros. Considerando essa proporção entre as medidas e a área informada, qual é o valor de x, em metros?",
         "alternativas": {
             "A": "x = 5 metros.",
@@ -386,10 +385,10 @@
             "D": "x = 9 metros."
         },
         "gabarito_correto": "A",
+        "id": "2212087",
         "comentario_ia": "A área do jardim é dada por largura * comprimento, ou seja, x * (x + 5) = 50. Isolando, temos x² + 5x - 50 = 0. Resolvendo a equação quadrática, encontramos x = 5 (a raiz positiva é a que interessa para medida de comprimento). Portanto, a largura é 5 metros."
     },
     {
-        "id": "1827709",
         "enunciado": "Dada uma equação do 2º grau de R --> R definida por y = -3x2 + 192x - 1344 e sabendo que um determinado valor de ordenada pode ser observado a partir de duas abscissas distintas, sendo uma dessas abscissas igual a 16, qual será a segunda abscissa que nos projeta a mesma ordenada?",
         "alternativas": {
             "A": "48",
@@ -398,10 +397,10 @@
             "D": "24"
         },
         "gabarito_correto": "A",
+        "id": "1827709",
         "comentario_ia": "Em uma parabola y = ax^2 + bx + c, a soma das raizes e -b/a. Dada a funcao y = -3x^2 + 192x - 1344, a soma das raizes e -192/(-3) = 64. Se uma razao e 16, a outra e 64 - 16 = 48."
     },
     {
-        "id": "2250248",
         "enunciado": "No campo da Matemática Algébrica, o conceito de Álgebra refere-se à compreensão e manipulação de expressões e equações, envolvendo operações e propriedades associadas a elas. Qual das alternativas abaixo NÃO está diretamente relacionada a esse conceito?",
         "alternativas": {
             "A": "Resolver as equações com letras em que precisamos descobrir o valor de X para que faça a conta da equação ser verdadeira.",
@@ -410,11 +409,11 @@
             "D": "Simplificar expressões com letras e encontrar maneiras de reescrevê-las de forma mais fácil, como dividir em partes menores ou agrupar termos que se repetem."
         },
         "gabarito_correto": "C",
+        "id": "2250248",
         "comentario_ia": "A geometria euclidiana lida com formas e espaços, não sendo diretamente um conceito de Álgebra, que foca na manipulação de expressões e equações com variáveis."
     },
     {
-        "id": "1645042",
-        "enunciado": "A Base Nacional Comum Curricular (BNCC) destaca que o ensino de Matemática deve desenvolver o pensamento matemático dos alunos por meio de ideias fundamentais, como equivalência, ordem, proporcionalidade, interdependência, representação, variação e aproximação. Essas ideias constituem uma base para o ensino de diversos conteúdos matemáticos, conectando-se a situações cotidianas e a outras áreas do conhecimento\nPara orientar o ensino de Matemática, a BNCC propõe cinco unidades temáticas, que guiam o desenvolvimento de habilidades ao longo do Ensino Fundamental. Cada unidade temática pode receber uma ênfase específica conforme o ano de escolarização.\nQual alternativa está diretamente ligada à unidade temática \"Álgebra\"?",
+        "enunciado": "A Base Nacional Comum Curricular (BNCC) destaca que o ensino de Matemática deve desenvolver o pensamento matemático dos alunos por meio de ideias fundamentais, como equivalência, ordem, proporcionalidade, interdependência, representação, variação e aproximação. Essas ideias constituem uma base para o ensino de diversos conteúdos matemáticos, conectando-se a situações cotidianas e a outras áreas do conhecimento Para orientar o ensino de Matemática, a BNCC propõe cinco unidades temáticas, que guiam o desenvolvimento de habilidades ao longo do Ensino Fundamental. Cada unidade temática pode receber uma ênfase específica conforme o ano de escolarização. Qual alternativa está diretamente ligada à unidade temática \"Álgebra\"?",
         "alternativas": {
             "A": "Álgebra tem como finalidade o desenvolvimento de um tipo especial de pensamento − pensamento algébrico − que é essencial para utilizar modelos matemáticos na compreensão, representação e análise de relações quantitativas de grandezas e, também, de situações e estruturas matemáticas, fazendo uso de letras e outros símbolos.",
             "B": "A proposta envolve o estudo de conceitos e procedimentos aplicáveis a problemas cotidianos, científicos e tecnológicos, capacitando os cidadãos a coletar, organizar, interpretar e analisar dados em diversos contextos. Essas habilidades permitem fazer julgamentos fundamentados e tomar decisões informadas, utilizando raciocínio e conceitos estatísticos para descrever, explicar e prever fenômenos.",
@@ -422,10 +421,10 @@
             "D": "A unidade temática Álgebra visa desenvolver o pensamento numérico, capacitando os alunos a quantificar, julgar e interpretar argumentos baseados em quantidades. Para isso, é essencial construir noções de aproximação, proporcionalidade, equivalência e ordem, conceitos fundamentais em Matemática."
         },
         "gabarito_correto": "A",
+        "id": "1645042",
         "comentario_ia": "A alternativa A descreve corretamente o objetivo da Álgebra na BNCC, que foca no desenvolvimento do pensamento algébrico para modelar e analisar relações matemáticas com o uso de símbolos."
     },
     {
-        "id": "1199115",
         "enunciado": "Para tornar uma aula mais divertida, a professora Bia passou a equação x² - 2x - 15 = 0 para seus alunos resolverem e disse que o primeiro a achar os valores corretos das raízes, ganharia o valor da sua soma em pontos. Quantos pontos o vencedor do desafio ganhou?",
         "alternativas": {
             "A": "2 pontos",
@@ -435,10 +434,10 @@
             "E": "4 pontos"
         },
         "gabarito_correto": "A",
+        "id": "1199115",
         "comentario_ia": "A equacao e x² - 2x - 15 = 0. A soma das raizes de uma equacao quadratica ax² + bx + c = 0 é dada por -b/a. Neste caso, a=1 e b=-2. Assim, a soma e -(-2)/1 = 2. O vencedor ganha 2 pontos."
     },
     {
-        "id": "1130362",
         "enunciado": "Ana conheceu sua nova amiga, Bruna. Quando Ana perguntou a Bruna sua idade, Bruna respondeu:- “Tenho o dobro da sua idade menos oito”.A mãe de Bruna também complementou:- “A diferença entre a idade de Bruna e idade da Ana è exatamente a metade da idade da Ana”.Com base nas sentenças, indique a idade de Bruna:",
         "alternativas": {
             "A": "12 anos.",
@@ -448,10 +447,10 @@
             "E": "28 anos."
         },
         "gabarito_correto": "D",
+        "id": "1130362",
         "comentario_ia": "Seja 'A' a idade de Ana e 'B' a idade de Bruna. Temos B = 2A - 8 e B - A = A/2. Substituindo a primeira na segunda: (2A - 8) - A = A/2 => A - 8 = A/2 => A/2 = 8 => A = 16. Logo, B = 2*16 - 8 = 32 - 8 = 24. Verificando a segunda condição: 24 - 16 = 8, e 16/2 = 8. Portanto, Bruna tem 24 anos."
     },
     {
-        "id": "1763504",
         "enunciado": "O professor de Matemática passou a seus alunos um desafio de cálculo a ser resolvido durante a aula e para isso criou a situação-problema, conforme descrita a seguir. Márcia pensou em um número e o somou ao seu triplo, em seguida multiplicou o resultado obtido por 2, dividindo em seguida o novo resultado por 4 e por fim somou ao novo resultado obtido o próprio valor que havia pensado. Sabendo que após toda essa sequência de cálculos realizados por Márcia, o resultado final por ela obtido foi igual ao valor que ela havia pensado inicialmente mais 48 unidades, podemos concluir que o número pensado inicialmente é igual a:",
         "alternativas": {
             "A": "28",
@@ -461,10 +460,10 @@
             "E": "16"
         },
         "gabarito_correto": "C",
+        "id": "1763504",
         "comentario_ia": "Seja 'n' o número pensado. A sequência é: n -> n + 3n = 4n -> 4n * 2 = 8n -> 8n / 4 = 2n -> 2n + n = 3n. O resultado é o número inicial mais 48: 3n = n + 48 -> 2n = 48 -> n = 24."
     },
     {
-        "id": "1564725",
         "enunciado": "Analisar a equação de segundo grau abaixo e assinalar a alternativa que corresponde à soma de suas raízes.2x² + 3x - 5 = 0",
         "alternativas": {
             "A": "5/2",
@@ -473,10 +472,10 @@
             "D": "8/3"
         },
         "gabarito_correto": "C",
+        "id": "1564725",
         "comentario_ia": "Para uma equação do segundo grau na forma ax² + bx + c = 0, a soma das raízes é dada por -b/a. Na equação 2x² + 3x - 5 = 0, a = 2 e b = 3, logo a soma é -3/2."
     },
     {
-        "id": "1289640",
         "enunciado": "As idades de Marília e Sueli são representadas pelas raízes da equação x² - 6x + 5 = 0 . Sabendo que Marília é a mais velha, quais as idades de Marília e Sueli, respectivamente?",
         "alternativas": {
             "A": "1 e 5",
@@ -485,10 +484,10 @@
             "D": "2 e 10"
         },
         "gabarito_correto": "B",
+        "id": "1289640",
         "comentario_ia": "As raízes da equação x² - 6x + 5 = 0 são encontradas pela fórmula de Bhaskara ou por fatoração. Fatorando, (x-1)(x-5)=0, temos as raízes 1 e 5. Como Marília é a mais velha, sua idade é 5 anos e a de Sueli é 1 ano."
     },
     {
-        "id": "2004317",
         "enunciado": "Alguns produtos notáveis podem ser entendidos como expressões algébricas resultantes da multiplicação de binômios específicos que apresentam padrões comuns. Esses padrões são frequentemente utilizados na simplificação de expressões algébricas e na resolução de equações. Um dos produtos notáveis mais conhecidos é o quadrado de um binômio, representado a seguir: (a + b)². Assinale a alternativa que apresenta o CORRETO desdobramento do produto notável acima.",
         "alternativas": {
             "A": "a² + a²b² + b².",
@@ -497,10 +496,10 @@
             "D": "a + a²b² + b."
         },
         "gabarito_correto": "B",
+        "id": "2004317",
         "comentario_ia": "O desdobramento correto do produto notável (a + b)² é a² + 2ab + b². As outras alternativas apresentam expansões incorretas ou fórmulas diferentes."
     },
     {
-        "id": "1186165",
         "enunciado": "O valor de 999999² – 1000001² é:",
         "alternativas": {
             "A": "–4 × 10⁶.",
@@ -510,10 +509,10 @@
             "E": "–4 × 10⁸."
         },
         "gabarito_correto": "A",
+        "id": "1186165",
         "comentario_ia": "A expressão é da forma a² - b². Usando a diferença de quadrados, (x-y)(x+y), temos (999999 - 1000001)(999999 + 1000001) = (-2)(2000000) = -4.000.000 = -4 x 10⁶."
     },
     {
-        "id": "1100417",
         "enunciado": "O resultado do produto entre os polinômios x² + 3x – 2 e x – 5 é:",
         "alternativas": {
             "A": "- 4x² – 14x + 10",
@@ -523,10 +522,10 @@
             "E": "x³ – 2x² – 15x"
         },
         "gabarito_correto": "B",
+        "id": "1100417",
         "comentario_ia": "Para multiplicar os polinômios (x^2 + 3x - 2) por (x - 5), distribuímos cada termo do segundo polinômio pelo primeiro: x*(x^2 + 3x - 2) - 5*(x^2 + 3x - 2) = (x^3 + 3x^2 - 2x) - (5x^2 + 15x - 10) = x^3 + 3x^2 - 2x - 5x^2 - 15x + 10 = x^3 - 2x^2 - 17x + 10."
     },
     {
-        "id": "1118071",
         "enunciado": "O que caracteriza uma inequação exponencial?",
         "alternativas": {
             "A": "A variável está no expoente de uma base exponencial.",
@@ -535,10 +534,10 @@
             "D": "A ausência de variáveis."
         },
         "gabarito_correto": "A",
+        "id": "1118071",
         "comentario_ia": "A inequação exponencial é caracterizada pela presença da variável no expoente de uma base que é um número real positivo e diferente de 1. As outras opções descrevem outros tipos de equações ou descaracterizam a exponencial."
     },
     {
-        "id": "1199033",
         "enunciado": "Para tornar uma aula mais divertida, a professora Bia passou a equação x² - 2x - 15 = 0 para seus alunos resolverem e disse que o primeiro a achar os valores corretos das raízes, ganharia o valor da sua soma em pontos. Quantos pontos o vencedor do desafio ganhou?",
         "alternativas": {
             "A": "1 pontos",
@@ -548,10 +547,10 @@
             "E": "5 pontos"
         },
         "gabarito_correto": "C",
+        "id": "1199033",
         "comentario_ia": "A soma das raízes de uma equação quadrática ax² + bx + c = 0 é dada por -b/a. Na equação x² - 2x - 15 = 0, a = 1 e b = -2. Portanto, a soma das raízes é -(-2)/1 = 2. O vencedor ganhou 2 pontos."
     },
     {
-        "id": "1985276",
         "enunciado": "Vitor tem o dobro da idade de seu irmão Pedro e Pedro tem um terço da idade do primo Luiz. Se a soma das idades dos três é 72, quantos anos Vitor tem?",
         "alternativas": {
             "A": "Vitor tem 24 anos.",
@@ -561,10 +560,10 @@
             "E": "Vitor tem 19 anos."
         },
         "gabarito_correto": "A",
+        "id": "1985276",
         "comentario_ia": "Sejam V( Vitor), P(Pedro) e L(Luiz). Temos: V=2P e P=L/3, logo L=3P. A soma é V+P+L = 2P+P+3P = 6P = 72, então P=12. Assim, V=2*12=24."
     },
     {
-        "id": "1030961",
         "enunciado": "O valor de m na equação x2 - 4x + m = 0, de modo que as raízes sejam reais e iguais é:",
         "alternativas": {
             "A": "m < 0",
@@ -573,10 +572,10 @@
             "D": "não possui"
         },
         "gabarito_correto": "B",
+        "id": "1030961",
         "comentario_ia": "Para que as raízes de uma equação quadrática sejam reais e iguais, o discriminante (Δ = b² - 4ac) deve ser igual a zero. Na equação x² - 4x + m = 0, a = 1, b = -4 e c = m. Assim, (-4)² - 4 * 1 * m = 0, o que resulta em 16 - 4m = 0, e, portanto, m = 4."
     },
     {
-        "id": "1030962",
         "enunciado": "O quadrado de um número menos o triplo do seu sucessivo é igual a 15. Qual é esse número?",
         "alternativas": {
             "A": "o número é 6 ou -3",
@@ -585,10 +584,10 @@
             "D": "o número é 1 ou -1"
         },
         "gabarito_correto": "A",
+        "id": "1030962",
         "comentario_ia": "Seja o número 'n'. Seu sucessivo é 'n+1'. A equação é n² - 3(n+1) = 15. Simplificando: n² - 3n - 3 = 15 => n² - 3n - 18 = 0. Fatorando ou usando Bhaskara, encontramos n=6 ou n=-3."
     },
     {
-        "id": "2226480",
         "enunciado": "Considerando-se que o dobro de um número Z é igual ao triplo da metade de 48, assinalar a alternativa que apresenta o valor de Z:",
         "alternativas": {
             "A": "28",
@@ -598,10 +597,10 @@
             "E": "36"
         },
         "gabarito_correto": "E",
+        "id": "2226480",
         "comentario_ia": "O dobro de Z é 2Z. O triplo da metade de 48 é 3 * (48/2) = 3 * 24 = 72. Então, 2Z = 72, o que resulta em Z = 36. A alternativa C está incorreta, o valor de Z é 36."
     },
     {
-        "id": "1029984",
         "enunciado": "Todas as equações a seguir são do 2º grau, EXCETO:",
         "alternativas": {
             "A": "x² + 2x + 1 = 0",
@@ -610,10 +609,10 @@
             "D": "x³ - 5x² + 4 = 0"
         },
         "gabarito_correto": "D",
+        "id": "1029984",
         "comentario_ia": "Equações do 2º grau possuem o maior expoente da incógnita igual a 2. A alternativa D tem `x³`, o que a caracteriza como uma equação do 3º grau."
     },
     {
-        "id": "2007250",
         "enunciado": "O triplo de um certo número mais dois é igual a 35, então esse número é igual a?",
         "alternativas": {
             "A": "8",
@@ -623,10 +622,10 @@
             "E": "5"
         },
         "gabarito_correto": "C",
+        "id": "2007250",
         "comentario_ia": "SEJA 'X' O NÚMERO DESCONHECIDO. A EQUAÇÃO É 3X + 2 = 35. SUBTRAINDO 2 DE AMBOS OS LADOS, TEMOS 3X = 33. DIVIDINDO POR 3, OBTEMOS X = 11."
     },
     {
-        "id": "1145033",
         "enunciado": "Ao iniciar as séries finais do ensino fundamental, o educando terá contato com a álgebra. O trabalho é iniciado com a explanação sobre o conceito:",
         "alternativas": {
             "A": "Igualdade.",
@@ -636,10 +635,10 @@
             "E": "Espaço tridimensional."
         },
         "gabarito_correto": "A",
+        "id": "1145033",
         "comentario_ia": "O início do estudo da álgebra para educandos é marcado pela introdução de conceitos que envolvem a representação de relações e quantidades. A igualdade é um conceito fundamental na álgebra, pois representa a base para a resolução de equações e para a manipulação de expressões algébricas em geral."
     },
     {
-        "id": "1145050",
         "enunciado": "Ao compreender a linguagem algébrica, o aluno será capaz de compreender o(a):",
         "alternativas": {
             "A": "Ideia de variável, representada por letra ou símbolo, para expressar relação entre duas grandezas.",
@@ -649,10 +648,10 @@
             "E": "Conceito fundamental da aplicação numérica na atualidade."
         },
         "gabarito_correto": "A",
+        "id": "1145050",
         "comentario_ia": "A linguagem algébrica, através do uso de letras e símbolos, permite expressar relações matemáticas de forma genérica. Compreender essa linguagem é fundamental para entender o conceito de variável, que representa uma quantidade que pode mudar ou assumir diferentes valores, permitindo generalizar e modelar situações."
     },
     {
-        "id": "1144425",
         "enunciado": "Trata-se de um dos objetivos da álgebra no ensino da matemática:",
         "alternativas": {
             "A": "Construção de fatos básicos da divisão.",
@@ -662,10 +661,10 @@
             "E": "Sistema monetário brasileiro: reconhecimento de cédulas e moedas."
         },
         "gabarito_correto": "B",
+        "id": "1144425",
         "comentario_ia": "A investigacao de padroes e regularidades em sequências numericas e figuais e um dos principais focos da algebra no ensino fundamental, desenvolvendo o raciocinio logico e abstrato."
     },
     {
-        "id": "1000564",
         "enunciado": "Analise as afirmativas. • O mais barato de 3 automóveis custa a metade do preço do mais caro. • A soma dos valores desses 3 automóveis é de R$130.000. • A diferença de preço entre os dois automóveis mais baratos é de R$10.000. Assim, a diferença de preço entre os automóveis mais caros é",
         "alternativas": {
             "A": "R$40.000,00.",
@@ -675,6 +674,7 @@
             "E": "R$45.000,00."
         },
         "gabarito_correto": "A",
+        "id": "1000564",
         "comentario_ia": "Chamando os precos de C1 (mais barato), C2 e C3 (mais caro), temos C1 = C3/2. A soma e C1+C2+C3 = 130000. A diferenca entre os dois mais baratos e C2-C1 = 10000. Substituindo e resolvendo o sistema, obtemos C1 = 30.000, C2 = 40.000, C3 = 60.000. A diferenca entre os dois mais caros e C3-C2 = 60000 - 40000 = 20000. Verifiquei que a pergunta é a diferença entre os automoveis mais caros, mas a alternativa certa é A. Refazendo o calculo, C1=30000, C2=40000, C3=60000. C3-C2 é 20000. Algo esta errado na questao ou nas alternativas ou na resposta dada. Testando as alternativas: Se a diferença entre os mais caros for R$40.000, C3-C2=40000. C2-C1=10000. C1=C3/2. C1+C2+C3=130000. Se C3-C2=40000 e C2-C1=10000, entao C3=C2+40000 e C2=C1+10000. Substituindo em C1+C2+C3=130000: C1 + (C1+10000) + ((C1+10000)+40000) = 130000. 3C1 + 50000 = 130000. 3C1 = 80000. C1=80000/3. Agora, C1 = C3/2. 80000/3 = C3/2. C3 = 160000/3. C2 = C1 + 10000 = 80000/3 + 30000/3 = 110000/3. C1+C2+C3 = 80000/3 + 110000/3 + 160000/3 = 350000/3 !=..."
     }
 ]

@@ -1,6 +1,5 @@
 [
     {
-        "id": "2081532",
         "enunciado": "Os backups são recursos fundamentais na gestão das informações e um dos tipos de backups é o backup incremental. Com base nessa informação, assinale a opção que descreve o que o backup incremental faz.",
         "alternativas": {
             "A": "cópia completa de todos os dados sempre",
@@ -10,10 +9,10 @@
             "E": "cópia dos arquivos abertos no momento"
         },
         "gabarito_correto": "C",
+        "id": "2081532",
         "comentario_ia": "O backup incremental visa otimizar o espaço e o tempo de processamento. Ele copia apenas os arquivos que foram modificados desde o último backup realizado, seja ele completo ou incremental. Isso agiliza o processo e reduz a quantidade de dados a serem armazenados."
     },
     {
-        "id": "2036122",
         "enunciado": "Em caso de falha no sistema com perda de prontuários digitais, evita-se danos maiores por meio de:",
         "alternativas": {
             "A": "Reinstalação imediata do software do consultório.",
@@ -22,10 +21,10 @@
             "D": "Bloqueio de acesso à rede Wi-Fi institucional."
         },
         "gabarito_correto": "C",
+        "id": "2036122",
         "comentario_ia": "Backups periódicos em mídias seguras ou nuvem são a principal medida para evitar a perda de dados em caso de falhas de sistema, garantindo a recuperação dos prontuários digitais."
     },
     {
-        "id": "2044940",
         "enunciado": "Em um processo de backup, a janela de backup (backup window) refere-se:",
         "alternativas": {
             "A": "Ao tipo de software de backup utilizado.",
@@ -35,10 +34,10 @@
             "E": "Ao horário de sincronização com o DNS."
         },
         "gabarito_correto": "C",
+        "id": "2044940",
         "comentario_ia": "A janela de backup (backup window) é o período de tempo planejado para a realização das cópias de segurança, visando minimizar o impacto no desempenho das operações críticas do sistema."
     },
     {
-        "id": "2335986",
         "enunciado": "Sobre funcionamento e as características dos pontos de restauração, assinale a alternativa correta:",
         "alternativas": {
             "A": "O ponto de restauração apaga automaticamente todos os arquivos pessoais do usuário criados após a data de sua geração, garantindo que o sistema volte ao estado exato anterior, sem resíduos de dados.",
@@ -47,10 +46,10 @@
             "D": "A restauração do sistema permite reverter alterações em configurações e drivers instalados, sem afetar os arquivos pessoais do usuário, sendo útil principalmente após atualizações problemáticas."
         },
         "gabarito_correto": "D",
+        "id": "2335986",
         "comentario_ia": "A alternativa D descreve corretamente a função do ponto de restauração, que reverte configurações e drivers sem afetar arquivos pessoais. A A está incorreta pois pontos de restauração não apagam arquivos pessoais. A B está errada pois não é uma cópia completa de todos os arquivos. A C está incorreta pois o ponto de restauração não substitui backups."
     },
     {
-        "id": "2149529",
         "enunciado": "Um administrador de redes implantou, para os servidores de dados, uma política de backup diferencial. Isso significa que será realizado um backup:",
         "alternativas": {
             "A": "de todos os arquivos que serão destinados para um ambiente de nuvem",
@@ -59,10 +58,10 @@
             "D": "dos dados que foram modificados desde o backup anterior, seja esse backup de qualquer tipo"
         },
         "gabarito_correto": "B",
+        "id": "2149529",
         "comentario_ia": "Um backup diferencial copia os arquivos modificados ou adicionados desde o ultimo backup completo, otimizando tempo e espaco de armazenamento em comparacao ao backup completo."
     },
     {
-        "id": "2249092",
         "enunciado": "Em uma era digital, a informação é um ativo valioso para qualquer organização, especialmente no setor público, onde a preservação de dados é crucial para a continuidade dos serviços e a transparência administrativa. A implementação de estratégias eficientes de backup garante a proteção contra perdas de dados causadas por falhas de hardware, ataques cibernéticos ou desastres naturais. O Técnico em Informática, com conhecimento profundo dos diferentes tipos de backup e domínio das ferramentas de recuperação de dados, atua como guardião da informação, assegurando a integridade e a disponibilidade dos dados, mesmo em situações adversas. Diante da situação hipotética: O Tribunal de Contas do Estado necessita implementar uma rotina de backup para garantir a segurança e a disponibilidade dos dados armazenados em seus servidores. Após analisar as necessidades da instituição, o Técnico em Informática define que a estratégia de backup mais adequada é o backup incremental. Quais as principais vantagens de se utilizar o backup incremental em comparação com o backup completo?",
         "alternativas": {
             "A": "Vantagens: Maior velocidade de transferência de dados, menor consumo de recursos do sistema, maior confiabilidade na restauração do sistema.",
@@ -71,10 +70,10 @@
             "D": "Vantagens: Menor tempo de execução do backup, menor espaço de armazenamento necessário, maior agilidade na recuperação de dados."
         },
         "gabarito_correto": "D",
+        "id": "2249092",
         "comentario_ia": "Backup incremental copia apenas os dados que foram alterados desde o último backup (completo ou incremental). Isso resulta em menor tempo de execução, pois menos dados são copiados, e menor espaço de armazenamento. A recuperação é ágil, pois se utiliza o último backup completo e os incrementais subsequentes."
     },
     {
-        "id": "2336096",
         "enunciado": "Considerando boas práticas relacionadas ao uso de backup, assinale a alternativa correta:",
         "alternativas": {
             "A": "O modelo conhecido como \"3-2-1\" recomenda ter três cópias dos dados, armazenadas em pelo menos dois tipos de mídia diferentes, sendo uma delas mantida fora do local principal.",
@@ -83,10 +82,10 @@
             "D": "O armazenamento em nuvem elimina completamente a necessidade de backups locais, uma vez que os provedores de serviço asseguram proteção total contra falhas e perda de dados."
         },
         "gabarito_correto": "A",
+        "id": "2336096",
         "comentario_ia": "O modelo 3-2-1 é uma prática recomendada para backup, visando redundância e segurança: três cópias, em dois tipos de mídia, com uma cópia offsite, que minimiza riscos de perda total dos dados."
     },
     {
-        "id": "2335990",
         "enunciado": "Considerando boas práticas relacionadas ao uso de backup, assinale a alternativa correta:",
         "alternativas": {
             "A": "Backups automáticos agendados são desnecessários, pois a recuperação de dados só é eficiente quando feita manualmente pelo usuário, evitando sobrescritas acidentais.",
@@ -95,10 +94,10 @@
             "D": "Manter apenas uma cópia de segurança em um dispositivo conectado permanentemente ao computador principal garante maior agilidade no processo de restauração, sem comprometer a segurança."
         },
         "gabarito_correto": "B",
+        "id": "2335990",
         "comentario_ia": "A alternativa B descreve o modelo 3-2-1, uma prática recomendada e eficiente para backups. A A está incorreta pois backups automáticos são importantes para garantir a recuperação e evitar perda de dados. A C está errada pois o armazenamento em nuvem não elimina completamente a necessidade de backups locais. A D está incorreta pois manter o backup em um dispositivo conectado permanentemente aumenta o risco de perda conjunta com o original."
     },
     {
-        "id": "2104968",
         "enunciado": "Qual a principal vantagem de fazer backups incrementais?",
         "alternativas": {
             "A": "Duplica todos os arquivos a cada backup, garantindo cópias idênticas.",
@@ -108,10 +107,10 @@
             "E": "Economiza tempo e espaço ao copiar apenas as partes dos arquivos que foram alteradas."
         },
         "gabarito_correto": "E",
+        "id": "2104968",
         "comentario_ia": "Backups incrementais comparados ao backup completo copiam apenas os dados que foram modificados desde o último backup. Isso resulta em economia de tempo e espaço de armazenamento, pois evitam a duplicação de arquivos inteiros a cada processo."
     },
     {
-        "id": "2335776",
         "enunciado": "Considerando boas práticas relacionadas ao uso de backup, assinale a alternativa correta:",
         "alternativas": {
             "A": "(A)Manter apenas uma cópia de segurança em um dispositivo conectado permanentemente ao computador principal garante maior agilidade no processo de restauração, sem comprometer a segurança.",
@@ -120,10 +119,10 @@
             "D": "(D)O armazenamento em nuvem elimina completamente a necessidade de backups locais, uma vez que os provedores de serviço asseguram proteção total contra falhas e perda de dados."
         },
         "gabarito_correto": "B",
+        "id": "2335776",
         "comentario_ia": "A alternativa B descreve corretamente o modelo 3-2-1 de backup, uma prática recomendada para garantir a segurança e a redundância dos dados. As demais alternativas apresentam informações incorretas sobre as práticas de backup."
     },
     {
-        "id": "1708267",
         "enunciado": "Qual das alternativas abaixo representa uma boa prática para a realização de backups?",
         "alternativas": {
             "A": "Realizar backups somente após a perda de dados.",
@@ -132,10 +131,10 @@
             "D": "Manter as cópias de segurança no mesmo local onde os dados originais estão armazenados."
         },
         "gabarito_correto": "C",
+        "id": "1708267",
         "comentario_ia": "A melhor prática para backups envolve regularidade para garantir dados recentes e armazenamento em locais diferentes (externos ou nuvem) para mitigar perdas em caso de falha no local original."
     },
     {
-        "id": "2335608",
         "enunciado": "Considerando boas práticas relacionadas ao uso de backup, assinale a alternativa correta:",
         "alternativas": {
             "A": "(A)O armazenamento em nuvem elimina completamente a necessidade de backups locais, uma vez que os provedores de serviço asseguram proteção total contra falhas e perda de dados.",
@@ -144,10 +143,10 @@
             "D": "(D)Backups automáticos agendados são desnecessários, pois a recuperação de dados só é eficiente quando feita manualmente pelo usuário, evitando sobrescritas acidentais."
         },
         "gabarito_correto": "B",
+        "id": "2335608",
         "comentario_ia": "O modelo 3-2-1 é uma prática recomendada de backup que garante redundância e segurança. Ter três cópias dos dados, em dois tipos de mídia distintos e uma fora do local principal, minimiza o risco de perda total."
     },
     {
-        "id": "1708170",
         "enunciado": "Qual é o objetivo principal de realizar um backup regularmente?",
         "alternativas": {
             "A": "Liberar espaço no disco rígido.",
@@ -156,10 +155,10 @@
             "D": "Transferir arquivos para outro dispositivo."
         },
         "gabarito_correto": "B",
+        "id": "1708170",
         "comentario_ia": "O principal objetivo de um backup é criar cópias de segurança dos dados, garantindo sua recuperação em caso de perda, corrupção ou exclusão acidental, além de proteção contra falhas de hardware ou ataques."
     },
     {
-        "id": "2116270",
         "enunciado": "Sobre o tema de Backup de arquivos, assinale a alternativa que apresenta a função da Deduplicação de Dados.",
         "alternativas": {
             "A": "A técnica de criação de cópias duplicadas de arquivos em diferentes dispositivos de armazenamento",
@@ -169,10 +168,10 @@
             "E": "O uso de algoritmos para dividir arquivos em blocos menores antes do backup"
         },
         "gabarito_correto": "C",
+        "id": "2116270",
         "comentario_ia": "A deduplicação de dados é um processo que visa identificar e remover cópias redundantes de dados. Antes de armazenar o backup, a técnica analisa os dados e armazena apenas uma cópia dos blocos únicos, economizando espaço."
     },
     {
-        "id": "2036064",
         "enunciado": "A programação de backup de dados refere-se ao processo de agendar e automatizar a cópia de informações importantes para um local seguro. Marque a alternativa CORRETA que corresponde à principal vantagem de se utilizar um software de backup automatizado.",
         "alternativas": {
             "A": "Aumentar a capacidade de armazenamento do disco rígido.",
@@ -181,22 +180,22 @@
             "D": "Eliminar completamente a necessidade de restauração de dados."
         },
         "gabarito_correto": "B",
+        "id": "2036064",
         "comentario_ia": "A principal vantagem do backup automatizado é garantir a continuidade e a integridade das cópias de segurança. Ao serem agendados, os backups ocorrem regularmente sem a necessidade de intervenção humana, minimizando riscos de perda de dados por esquecimento ou falha."
     },
     {
-        "id": "2044091",
-        "enunciado": "Um         servidor         público         está         realizando         a         cópia         de\nsegurança         (backup)         dos         arquivos         do         seu         computador\nutilizando         o         método         chamado         backup         incremental.          Qual\ndas         alternativas         abaixo         melhor         descreve         esse         tipo         de\nbackup?",
+        "enunciado": "Um servidor público está realizando a cópia de segurança (backup) dos arquivos do seu computador utilizando o método chamado backup incremental. Qual das alternativas abaixo melhor descreve esse tipo de backup?",
         "alternativas": {
-            "A": "Copia         apenas         os         arquivos         mais         importantes,\nselecionados          pelo         usuário.",
-            "B": "Apaga         os         arquivos         antigos         antes         de         copiar         os         novos.",
-            "C": "Copia         somente         os         arquivos         que         foram         modificados\ndesde         o         último         backup,         tornando         o         processo         mais         rápido.",
-            "D": "Copia         todos         os         arquivos         do         computador,\nindependentemente          de         terem         sido         modificados          ou         não."
+            "A": "Copia apenas os arquivos mais importantes, selecionados pelo usuário.",
+            "B": "Apaga os arquivos antigos antes de copiar os novos.",
+            "C": "Copia somente os arquivos que foram modificados desde o último backup, tornando o processo mais rápido.",
+            "D": "Copia todos os arquivos do computador, independentemente de terem sido modificados ou não."
         },
         "gabarito_correto": "C",
+        "id": "2044091",
         "comentario_ia": "O backup incremental copia apenas os arquivos que foram alterados desde o último backup (de qualquer tipo), diferenciando-se do backup diferencial, que copia as alterações desde o último backup COMPLETO, tornando o processo mais rápido e eficiente em termos de espaço."
     },
     {
-        "id": "1925570",
         "enunciado": "No contexto de proteção de dados, a estratégia de backup conhecida como 3-2-1 recomenda",
         "alternativas": {
             "A": "realizar três backups completos por semana em dois dispositivos diferentes.",
@@ -206,10 +205,10 @@
             "E": "manter três cópias dos dados, em dois tipos de mídia diferentes, com uma cópia armazenada fora do local."
         },
         "gabarito_correto": "E",
+        "id": "1925570",
         "comentario_ia": "A regra 3-2-1 de backup preconiza ter 3 cópias dos dados, em 2 mídias diferentes, com 1 cópia fora do local (off-site, em outro data center, nuvem ou mídia física em outro endereço), garantindo maior segurança contra perdas."
     },
     {
-        "id": "1908322",
         "enunciado": "Jorge, um técnico de TI recém-contratado por uma instituição de ensino, foi desafiado por sua chefia imediata a determinar a técnica de backup a ser aplicada em um sistema de gestão de biblioteca. Considerando que ocorrem modificações diárias no sistema entre segunda e sábado e que há limitações de recursos de armazenamento que impõem tempo de retenção de 7 dias, assinale a alternativa que menos utiliza recursos de armazenamento e que permite a recuperação dos dados de um dia específico da semana corrente.",
         "alternativas": {
             "A": "Realizar backup total no domingo com realização de backups diferenciais de segunda a sábado.",
@@ -218,10 +217,10 @@
             "D": "Realizar backup total no domingo e na quinta com realização de backups diferenciais segundas, terças, quintas e sextas."
         },
         "gabarito_correto": "A",
+        "id": "1908322",
         "comentario_ia": "Backups diferenciais gravam apenas os blocos que foram alterados desde o último backup (total ou diferencial), diferentemente dos incrementais que gravam os blocos alterados desde o último backup (qualquer tipo). Assim, diferenciais utilizam menos espaço que incrementais para múltiplas operações diárias e são mais rápidos para restaurar do que incrementais pois requerem apenas o último backup total e o último diferencial. A opção A é a que melhor se encaixa nessas características."
     },
     {
-        "id": "1925514",
         "enunciado": "O principal benefício da deduplicação de dados em um sistema de backup é o(a)",
         "alternativas": {
             "A": "aumento da capacidade de armazenamento, pois reduz a quantidade de dados duplicados armazenados.",
@@ -231,10 +230,10 @@
             "E": "garantia de que todos os arquivos sejam armazenados em seu formato original sem compressão."
         },
         "gabarito_correto": "A",
+        "id": "1925514",
         "comentario_ia": "A deduplicação em sistemas de backup elimina cópias redundantes de dados. Isso resulta em uma redução significativa do volume de dados armazenados, otimizando o espaçoo e aumentando a capacidade efetiva de armazenamento."
     },
     {
-        "id": "1708284",
         "enunciado": "Qual é a principal diferença entre uma cópia de segurança completa e uma cópia de segurança incremental?",
         "alternativas": {
             "A": "A cópia completa copia todos os dados de uma vez, enquanto a incremental copia apenas os arquivos que foram modificados desde a última cópia.",
@@ -243,10 +242,10 @@
             "D": "A cópia completa não precisa ser restaurada, enquanto a incremental exige restauração total."
         },
         "gabarito_correto": "A",
+        "id": "1708284",
         "comentario_ia": "A cópia de segurança completa backupa todos os dados. A incremental backupa apenas os dados modificados desde o backup completo ou incremental anterior, economizando espaço e tempo."
     },
     {
-        "id": "1758173",
         "enunciado": "Em um sistema de armazenamento corporativo, a técnica que poderá ajudar a proteger os dados críticos em caso de falha de hardware será o(a)",
         "alternativas": {
             "A": "desativação de backups automáticos.",
@@ -256,10 +255,10 @@
             "E": "uso de unidades de fita magnética sem redundância."
         },
         "gabarito_correto": "C",
+        "id": "1758173",
         "comentario_ia": "RAID oferece redundância em discos para proteger contra falhas de hardware, e backups regulares garantem a recuperação dos dados em caso de outros imprevistos."
     },
     {
-        "id": "2071526",
         "enunciado": "Em relação à restauração de backups, qual a diferença entre uma \"restauração bare-metal\" e uma \"restauração granular\"?",
         "alternativas": {
             "A": "Restauração bare-metal recupera apenas o sistema operacional, enquanto a granular recupera arquivos específicos.",
@@ -269,10 +268,10 @@
             "E": "Restauração bare-metal é usada apenas para backups locais, e granular apenas para backups em nuvem."
         },
         "gabarito_correto": "B",
+        "id": "2071526",
         "comentario_ia": "A restauração bare-metal recupera um sistema inteiro em um novo hardware, enquanto a restauração granular permite restaurar arquivos ou itens específicos de um backup sem precisar recuperar todo o sistema, conforme descrito na alternativa B."
     },
     {
-        "id": "1758175",
         "enunciado": "Assinale a opção que apresenta uma vantagem dos backups incrementais em comparação com os backups completos.",
         "alternativas": {
             "A": "Maior segurança de dados",
@@ -282,10 +281,10 @@
             "E": "São mais fáceis de configurar"
         },
         "gabarito_correto": "D",
+        "id": "1758175",
         "comentario_ia": "Backups incrementais são mais eficientes pois gravam apenas as alterações desde o último backup realizado (completo ou incremental), resultando em menor tempo e espaço de armazenamento."
     },
     {
-        "id": "2287839",
         "enunciado": "Um DBA precisa restaurar um banco de dados após uma falha catastrófica que corrompeu o arquivo de dados principal. Ele possui um backup completo realizado às 2 h da madrugada e todos os arquivos de log de transações gerados desde então. O incidente ocorreu às 14 h. Qual procedimento permitirá restaurar o banco ao seu estado exatamente no momento da falha sem perder nenhuma transação confirmada?",
         "alternativas": {
             "A": "Restaurar o backup completo e executar um ROLLBACK até 14 h.",
@@ -295,10 +294,10 @@
             "E": "Inicializar uma nova instância do banco e importar os dados do backup."
         },
         "gabarito_correto": "B",
+        "id": "2287839",
         "comentario_ia": "A restauração completa seguida pelo ROLLFORWARD de todos os logs de transação até o momento exato da falha garante que todas as transações confirmadas antes do incidente sejam recuperadas, sem perda de dados."
     },
     {
-        "id": "2219272",
         "enunciado": "Com o objetivo de proteger os dados corporativos armazenados em servidores na nuvem, um analista de sistemas decidiu implementar uma rotina automatizada que copiasse periodicamente os dados para outro ambiente seguro. Nesse caso, o analista utilizou-se de uma prática conhecida como",
         "alternativas": {
             "A": "controle de acesso.",
@@ -308,10 +307,10 @@
             "E": "espelhamento de disco."
         },
         "gabarito_correto": "C",
+        "id": "2219272",
         "comentario_ia": "A prática de copiar periodicamente dados para outro ambiente seguro, visando a proteção em caso de perdas, é definida tecnicamente como backup."
     },
     {
-        "id": "2310559",
         "enunciado": "A cópia periódica dos arquivos importantes para outro dispositivo, como nuvem ou HD externo, com objetivo de recuperação em caso de perda dos dados, é conhecida como:",
         "alternativas": {
             "A": "Firewall.",
@@ -321,10 +320,10 @@
             "E": "Atalho."
         },
         "gabarito_correto": "B",
+        "id": "2310559",
         "comentario_ia": "Backup é o termo técnico para a cópia periódica de dados importantes para outro local, garantindo sua recuperação em caso de perda ou dano aos arquivos originais. Firewall protege contra acessos não autorizados, Compressão reduz o tamanho de arquivos e Wi-Fi é tecnologia de rede sem fio."
     },
     {
-        "id": "2206372",
         "enunciado": "A regra 3-2-1 é uma estratégia de backup amplamente adotada. Sobre esta estratégia, é CORRETO aﬁrmar que é preciso:",
         "alternativas": {
             "A": "realizar backup offline em 3 dias da semana, em 2 mídias diferentes e 1 delas.",
@@ -334,10 +333,10 @@
             "E": "realizar backup de 3 servidores em 2 mídias, com 1 delas em fita."
         },
         "gabarito_correto": "C",
+        "id": "2206372",
         "comentario_ia": "A regra 3-2-1 de backup significa ter 3 cópias dos dados, em 2 mídias diferentes, com 1 cópia em um local externo (offsite)."
     },
     {
-        "id": "2274317",
         "enunciado": "Em política de backup para banco de dados escolar que exige recuperação de ponto no tempo, qual combinação atende ao requisito e facilita testes periódicos?",
         "alternativas": {
             "A": "Backup completo semanal, incrementais diários, logs de transação contínuos e rotinas de restauração validadas em ambiente de homologação.",
@@ -347,10 +346,10 @@
             "E": "Sincronização espelhada em tempo real que elimina gerações anteriores e retoma a partir do estado mais recente do serviço."
         },
         "gabarito_correto": "A",
+        "id": "2274317",
         "comentario_ia": "Backup completo semanal garante uma base sólida. Incrementais diários capturam as mudanças diárias. Logs de transação contínuos permitem restaurar para um ponto exato no tempo. A validação em homologação assegura a funcionalidade."
     },
     {
-        "id": "2029159",
         "enunciado": "Um técnico de TI decidiu formatar o disco do computador da Secretaria e fazer uma nova instalação do Windows 10, mas esse computador possui arquivos importantes que não podem ser perdidos. Para evitar a perda dos dados, antes da formatação o técnico deve",
         "alternativas": {
             "A": "compactar os arquivos.",
@@ -360,10 +359,10 @@
             "E": "realizar um backup dos arquivos."
         },
         "gabarito_correto": "E",
+        "id": "2029159",
         "comentario_ia": "Para evitar a perda de dados antes de formatar um disco que contém arquivos importantes, a ação mais segura e essencial é realizar um backup, copiando os arquivos para um local seguro."
     },
     {
-        "id": "2116119",
         "enunciado": "Uma estratégia de backup conhecida recebe o nome 3-2-1. Essa estratégia prega que se",
         "alternativas": {
             "A": "mantenha 3 cópias dos dados, utilizando 2 tipos diferentes de mídias de armazenamento e se mantenha 1 cópia offsite.",
@@ -373,10 +372,10 @@
             "E": "efetue 3 backups incrementais por dia, 2 backups diferenciais por semana e 1 backup completo por mês."
         },
         "gabarito_correto": "A",
+        "id": "2116119",
         "comentario_ia": "A estratégia 3-2-1 de backup consiste em manter 3 cópias dos dados, em 2 mídias diferentes, com 1 cópia armazenada offsite (fora do local principal)."
     },
     {
-        "id": "2081532",
         "enunciado": "Os backups são recursos fundamentais na gestão das informações e um dos tipos de backups é o backup incremental. Com base nessa informação, assinale a opção que descreve o que o backup incremental faz.",
         "alternativas": {
             "A": "cópia completa de todos os dados sempre",
@@ -386,10 +385,10 @@
             "E": "cópia dos arquivos abertos no momento"
         },
         "gabarito_correto": "C",
+        "id": "2081532",
         "comentario_ia": "O backup incremental visa otimizar o espaço e o tempo de processamento. Ele copia apenas os arquivos que foram modificados desde o último backup realizado, seja ele completo ou incremental. Isso agiliza o processo e reduz a quantidade de dados a serem armazenados."
     },
     {
-        "id": "2036122",
         "enunciado": "Em caso de falha no sistema com perda de prontuários digitais, evita-se danos maiores por meio de:",
         "alternativas": {
             "A": "Reinstalação imediata do software do consultório.",
@@ -398,10 +397,10 @@
             "D": "Bloqueio de acesso à rede Wi-Fi institucional."
         },
         "gabarito_correto": "C",
+        "id": "2036122",
         "comentario_ia": "Backups periódicos em mídias seguras ou nuvem são a principal medida para evitar a perda de dados em caso de falhas de sistema, garantindo a recuperação dos prontuários digitais."
     },
     {
-        "id": "2044940",
         "enunciado": "Em um processo de backup, a janela de backup (backup window) refere-se:",
         "alternativas": {
             "A": "Ao tipo de software de backup utilizado.",
@@ -411,10 +410,10 @@
             "E": "Ao horário de sincronização com o DNS."
         },
         "gabarito_correto": "C",
+        "id": "2044940",
         "comentario_ia": "A janela de backup (backup window) é o período de tempo planejado para a realização das cópias de segurança, visando minimizar o impacto no desempenho das operações críticas do sistema."
     },
     {
-        "id": "2335986",
         "enunciado": "Sobre funcionamento e as características dos pontos de restauração, assinale a alternativa correta:",
         "alternativas": {
             "A": "O ponto de restauração apaga automaticamente todos os arquivos pessoais do usuário criados após a data de sua geração, garantindo que o sistema volte ao estado exato anterior, sem resíduos de dados.",
@@ -423,10 +422,10 @@
             "D": "A restauração do sistema permite reverter alterações em configurações e drivers instalados, sem afetar os arquivos pessoais do usuário, sendo útil principalmente após atualizações problemáticas."
         },
         "gabarito_correto": "D",
+        "id": "2335986",
         "comentario_ia": "A alternativa D descreve corretamente a função do ponto de restauração, que reverte configurações e drivers sem afetar arquivos pessoais. A A está incorreta pois pontos de restauração não apagam arquivos pessoais. A B está errada pois não é uma cópia completa de todos os arquivos. A C está incorreta pois o ponto de restauração não substitui backups."
     },
     {
-        "id": "2149529",
         "enunciado": "Um administrador de redes implantou, para os servidores de dados, uma política de backup diferencial. Isso significa que será realizado um backup:",
         "alternativas": {
             "A": "de todos os arquivos que serão destinados para um ambiente de nuvem",
@@ -435,10 +434,10 @@
             "D": "dos dados que foram modificados desde o backup anterior, seja esse backup de qualquer tipo"
         },
         "gabarito_correto": "B",
+        "id": "2149529",
         "comentario_ia": "Um backup diferencial copia os arquivos modificados ou adicionados desde o ultimo backup completo, otimizando tempo e espaco de armazenamento em comparacao ao backup completo."
     },
     {
-        "id": "2249092",
         "enunciado": "Em uma era digital, a informação é um ativo valioso para qualquer organização, especialmente no setor público, onde a preservação de dados é crucial para a continuidade dos serviços e a transparência administrativa. A implementação de estratégias eficientes de backup garante a proteção contra perdas de dados causadas por falhas de hardware, ataques cibernéticos ou desastres naturais. O Técnico em Informática, com conhecimento profundo dos diferentes tipos de backup e domínio das ferramentas de recuperação de dados, atua como guardião da informação, assegurando a integridade e a disponibilidade dos dados, mesmo em situações adversas. Diante da situação hipotética: O Tribunal de Contas do Estado necessita implementar uma rotina de backup para garantir a segurança e a disponibilidade dos dados armazenados em seus servidores. Após analisar as necessidades da instituição, o Técnico em Informática define que a estratégia de backup mais adequada é o backup incremental. Quais as principais vantagens de se utilizar o backup incremental em comparação com o backup completo?",
         "alternativas": {
             "A": "Vantagens: Maior velocidade de transferência de dados, menor consumo de recursos do sistema, maior confiabilidade na restauração do sistema.",
@@ -447,10 +446,10 @@
             "D": "Vantagens: Menor tempo de execução do backup, menor espaço de armazenamento necessário, maior agilidade na recuperação de dados."
         },
         "gabarito_correto": "D",
+        "id": "2249092",
         "comentario_ia": "Backup incremental copia apenas os dados que foram alterados desde o último backup (completo ou incremental). Isso resulta em menor tempo de execução, pois menos dados são copiados, e menor espaço de armazenamento. A recuperação é ágil, pois se utiliza o último backup completo e os incrementais subsequentes."
     },
     {
-        "id": "2336096",
         "enunciado": "Considerando boas práticas relacionadas ao uso de backup, assinale a alternativa correta:",
         "alternativas": {
             "A": "O modelo conhecido como \"3-2-1\" recomenda ter três cópias dos dados, armazenadas em pelo menos dois tipos de mídia diferentes, sendo uma delas mantida fora do local principal.",
@@ -459,10 +458,10 @@
             "D": "O armazenamento em nuvem elimina completamente a necessidade de backups locais, uma vez que os provedores de serviço asseguram proteção total contra falhas e perda de dados."
         },
         "gabarito_correto": "A",
+        "id": "2336096",
         "comentario_ia": "O modelo 3-2-1 é uma prática recomendada para backup, visando redundância e segurança: três cópias, em dois tipos de mídia, com uma cópia offsite, que minimiza riscos de perda total dos dados."
     },
     {
-        "id": "2335990",
         "enunciado": "Considerando boas práticas relacionadas ao uso de backup, assinale a alternativa correta:",
         "alternativas": {
             "A": "Backups automáticos agendados são desnecessários, pois a recuperação de dados só é eficiente quando feita manualmente pelo usuário, evitando sobrescritas acidentais.",
@@ -471,10 +470,10 @@
             "D": "Manter apenas uma cópia de segurança em um dispositivo conectado permanentemente ao computador principal garante maior agilidade no processo de restauração, sem comprometer a segurança."
         },
         "gabarito_correto": "B",
+        "id": "2335990",
         "comentario_ia": "A alternativa B descreve o modelo 3-2-1, uma prática recomendada e eficiente para backups. A A está incorreta pois backups automáticos são importantes para garantir a recuperação e evitar perda de dados. A C está errada pois o armazenamento em nuvem não elimina completamente a necessidade de backups locais. A D está incorreta pois manter o backup em um dispositivo conectado permanentemente aumenta o risco de perda conjunta com o original."
     },
     {
-        "id": "2104968",
         "enunciado": "Qual a principal vantagem de fazer backups incrementais?",
         "alternativas": {
             "A": "Duplica todos os arquivos a cada backup, garantindo cópias idênticas.",
@@ -484,10 +483,10 @@
             "E": "Economiza tempo e espaço ao copiar apenas as partes dos arquivos que foram alteradas."
         },
         "gabarito_correto": "E",
+        "id": "2104968",
         "comentario_ia": "Backups incrementais comparados ao backup completo copiam apenas os dados que foram modificados desde o último backup. Isso resulta em economia de tempo e espaço de armazenamento, pois evitam a duplicação de arquivos inteiros a cada processo."
     },
     {
-        "id": "2335776",
         "enunciado": "Considerando boas práticas relacionadas ao uso de backup, assinale a alternativa correta:",
         "alternativas": {
             "A": "(A)Manter apenas uma cópia de segurança em um dispositivo conectado permanentemente ao computador principal garante maior agilidade no processo de restauração, sem comprometer a segurança.",
@@ -496,10 +495,10 @@
             "D": "(D)O armazenamento em nuvem elimina completamente a necessidade de backups locais, uma vez que os provedores de serviço asseguram proteção total contra falhas e perda de dados."
         },
         "gabarito_correto": "B",
+        "id": "2335776",
         "comentario_ia": "A alternativa B descreve corretamente o modelo 3-2-1 de backup, uma prática recomendada para garantir a segurança e a redundância dos dados. As demais alternativas apresentam informações incorretas sobre as práticas de backup."
     },
     {
-        "id": "1708267",
         "enunciado": "Qual das alternativas abaixo representa uma boa prática para a realização de backups?",
         "alternativas": {
             "A": "Realizar backups somente após a perda de dados.",
@@ -508,10 +507,10 @@
             "D": "Manter as cópias de segurança no mesmo local onde os dados originais estão armazenados."
         },
         "gabarito_correto": "C",
+        "id": "1708267",
         "comentario_ia": "A melhor prática para backups envolve regularidade para garantir dados recentes e armazenamento em locais diferentes (externos ou nuvem) para mitigar perdas em caso de falha no local original."
     },
     {
-        "id": "2335608",
         "enunciado": "Considerando boas práticas relacionadas ao uso de backup, assinale a alternativa correta:",
         "alternativas": {
             "A": "(A)O armazenamento em nuvem elimina completamente a necessidade de backups locais, uma vez que os provedores de serviço asseguram proteção total contra falhas e perda de dados.",
@@ -520,10 +519,10 @@
             "D": "(D)Backups automáticos agendados são desnecessários, pois a recuperação de dados só é eficiente quando feita manualmente pelo usuário, evitando sobrescritas acidentais."
         },
         "gabarito_correto": "B",
+        "id": "2335608",
         "comentario_ia": "O modelo 3-2-1 é uma prática recomendada de backup que garante redundância e segurança. Ter três cópias dos dados, em dois tipos de mídia distintos e uma fora do local principal, minimiza o risco de perda total."
     },
     {
-        "id": "1708170",
         "enunciado": "Qual é o objetivo principal de realizar um backup regularmente?",
         "alternativas": {
             "A": "Liberar espaço no disco rígido.",
@@ -532,10 +531,10 @@
             "D": "Transferir arquivos para outro dispositivo."
         },
         "gabarito_correto": "B",
+        "id": "1708170",
         "comentario_ia": "O principal objetivo de um backup é criar cópias de segurança dos dados, garantindo sua recuperação em caso de perda, corrupção ou exclusão acidental, além de proteção contra falhas de hardware ou ataques."
     },
     {
-        "id": "2116270",
         "enunciado": "Sobre o tema de Backup de arquivos, assinale a alternativa que apresenta a função da Deduplicação de Dados.",
         "alternativas": {
             "A": "A técnica de criação de cópias duplicadas de arquivos em diferentes dispositivos de armazenamento",
@@ -545,10 +544,10 @@
             "E": "O uso de algoritmos para dividir arquivos em blocos menores antes do backup"
         },
         "gabarito_correto": "C",
+        "id": "2116270",
         "comentario_ia": "A deduplicação de dados é um processo que visa identificar e remover cópias redundantes de dados. Antes de armazenar o backup, a técnica analisa os dados e armazena apenas uma cópia dos blocos únicos, economizando espaço."
     },
     {
-        "id": "2036064",
         "enunciado": "A programação de backup de dados refere-se ao processo de agendar e automatizar a cópia de informações importantes para um local seguro. Marque a alternativa CORRETA que corresponde à principal vantagem de se utilizar um software de backup automatizado.",
         "alternativas": {
             "A": "Aumentar a capacidade de armazenamento do disco rígido.",
@@ -557,22 +556,22 @@
             "D": "Eliminar completamente a necessidade de restauração de dados."
         },
         "gabarito_correto": "B",
+        "id": "2036064",
         "comentario_ia": "A principal vantagem do backup automatizado é garantir a continuidade e a integridade das cópias de segurança. Ao serem agendados, os backups ocorrem regularmente sem a necessidade de intervenção humana, minimizando riscos de perda de dados por esquecimento ou falha."
     },
     {
-        "id": "2044091",
-        "enunciado": "Um         servidor         público         está         realizando         a         cópia         de\nsegurança         (backup)         dos         arquivos         do         seu         computador\nutilizando         o         método         chamado         backup         incremental.          Qual\ndas         alternativas         abaixo         melhor         descreve         esse         tipo         de\nbackup?",
+        "enunciado": "Um servidor público está realizando a cópia de segurança (backup) dos arquivos do seu computador utilizando o método chamado backup incremental. Qual das alternativas abaixo melhor descreve esse tipo de backup?",
         "alternativas": {
-            "A": "Copia         apenas         os         arquivos         mais         importantes,\nselecionados          pelo         usuário.",
-            "B": "Apaga         os         arquivos         antigos         antes         de         copiar         os         novos.",
-            "C": "Copia         somente         os         arquivos         que         foram         modificados\ndesde         o         último         backup,         tornando         o         processo         mais         rápido.",
-            "D": "Copia         todos         os         arquivos         do         computador,\nindependentemente          de         terem         sido         modificados          ou         não."
+            "A": "Copia apenas os arquivos mais importantes, selecionados pelo usuário.",
+            "B": "Apaga os arquivos antigos antes de copiar os novos.",
+            "C": "Copia somente os arquivos que foram modificados desde o último backup, tornando o processo mais rápido.",
+            "D": "Copia todos os arquivos do computador, independentemente de terem sido modificados ou não."
         },
         "gabarito_correto": "C",
+        "id": "2044091",
         "comentario_ia": "O backup incremental copia apenas os arquivos que foram alterados desde o último backup (de qualquer tipo), diferenciando-se do backup diferencial, que copia as alterações desde o último backup COMPLETO, tornando o processo mais rápido e eficiente em termos de espaço."
     },
     {
-        "id": "1925570",
         "enunciado": "No contexto de proteção de dados, a estratégia de backup conhecida como 3-2-1 recomenda",
         "alternativas": {
             "A": "realizar três backups completos por semana em dois dispositivos diferentes.",
@@ -582,10 +581,10 @@
             "E": "manter três cópias dos dados, em dois tipos de mídia diferentes, com uma cópia armazenada fora do local."
         },
         "gabarito_correto": "E",
+        "id": "1925570",
         "comentario_ia": "A regra 3-2-1 de backup preconiza ter 3 cópias dos dados, em 2 mídias diferentes, com 1 cópia fora do local (off-site, em outro data center, nuvem ou mídia física em outro endereço), garantindo maior segurança contra perdas."
     },
     {
-        "id": "1908322",
         "enunciado": "Jorge, um técnico de TI recém-contratado por uma instituição de ensino, foi desafiado por sua chefia imediata a determinar a técnica de backup a ser aplicada em um sistema de gestão de biblioteca. Considerando que ocorrem modificações diárias no sistema entre segunda e sábado e que há limitações de recursos de armazenamento que impõem tempo de retenção de 7 dias, assinale a alternativa que menos utiliza recursos de armazenamento e que permite a recuperação dos dados de um dia específico da semana corrente.",
         "alternativas": {
             "A": "Realizar backup total no domingo com realização de backups diferenciais de segunda a sábado.",
@@ -594,10 +593,10 @@
             "D": "Realizar backup total no domingo e na quinta com realização de backups diferenciais segundas, terças, quintas e sextas."
         },
         "gabarito_correto": "A",
+        "id": "1908322",
         "comentario_ia": "Backups diferenciais gravam apenas os blocos que foram alterados desde o último backup (total ou diferencial), diferentemente dos incrementais que gravam os blocos alterados desde o último backup (qualquer tipo). Assim, diferenciais utilizam menos espaço que incrementais para múltiplas operações diárias e são mais rápidos para restaurar do que incrementais pois requerem apenas o último backup total e o último diferencial. A opção A é a que melhor se encaixa nessas características."
     },
     {
-        "id": "1925514",
         "enunciado": "O principal benefício da deduplicação de dados em um sistema de backup é o(a)",
         "alternativas": {
             "A": "aumento da capacidade de armazenamento, pois reduz a quantidade de dados duplicados armazenados.",
@@ -607,10 +606,10 @@
             "E": "garantia de que todos os arquivos sejam armazenados em seu formato original sem compressão."
         },
         "gabarito_correto": "A",
+        "id": "1925514",
         "comentario_ia": "A deduplicação em sistemas de backup elimina cópias redundantes de dados. Isso resulta em uma redução significativa do volume de dados armazenados, otimizando o espaçoo e aumentando a capacidade efetiva de armazenamento."
     },
     {
-        "id": "1708284",
         "enunciado": "Qual é a principal diferença entre uma cópia de segurança completa e uma cópia de segurança incremental?",
         "alternativas": {
             "A": "A cópia completa copia todos os dados de uma vez, enquanto a incremental copia apenas os arquivos que foram modificados desde a última cópia.",
@@ -619,10 +618,10 @@
             "D": "A cópia completa não precisa ser restaurada, enquanto a incremental exige restauração total."
         },
         "gabarito_correto": "A",
+        "id": "1708284",
         "comentario_ia": "A cópia de segurança completa backupa todos os dados. A incremental backupa apenas os dados modificados desde o backup completo ou incremental anterior, economizando espaço e tempo."
     },
     {
-        "id": "1758173",
         "enunciado": "Em um sistema de armazenamento corporativo, a técnica que poderá ajudar a proteger os dados críticos em caso de falha de hardware será o(a)",
         "alternativas": {
             "A": "desativação de backups automáticos.",
@@ -632,10 +631,10 @@
             "E": "uso de unidades de fita magnética sem redundância."
         },
         "gabarito_correto": "C",
+        "id": "1758173",
         "comentario_ia": "RAID oferece redundância em discos para proteger contra falhas de hardware, e backups regulares garantem a recuperação dos dados em caso de outros imprevistos."
     },
     {
-        "id": "2071526",
         "enunciado": "Em relação à restauração de backups, qual a diferença entre uma \"restauração bare-metal\" e uma \"restauração granular\"?",
         "alternativas": {
             "A": "Restauração bare-metal recupera apenas o sistema operacional, enquanto a granular recupera arquivos específicos.",
@@ -645,10 +644,10 @@
             "E": "Restauração bare-metal é usada apenas para backups locais, e granular apenas para backups em nuvem."
         },
         "gabarito_correto": "B",
+        "id": "2071526",
         "comentario_ia": "A restauração bare-metal recupera um sistema inteiro em um novo hardware, enquanto a restauração granular permite restaurar arquivos ou itens específicos de um backup sem precisar recuperar todo o sistema, conforme descrito na alternativa B."
     },
     {
-        "id": "1758175",
         "enunciado": "Assinale a opção que apresenta uma vantagem dos backups incrementais em comparação com os backups completos.",
         "alternativas": {
             "A": "Maior segurança de dados",
@@ -658,10 +657,10 @@
             "E": "São mais fáceis de configurar"
         },
         "gabarito_correto": "D",
+        "id": "1758175",
         "comentario_ia": "Backups incrementais são mais eficientes pois gravam apenas as alterações desde o último backup realizado (completo ou incremental), resultando em menor tempo e espaço de armazenamento."
     },
     {
-        "id": "2287839",
         "enunciado": "Um DBA precisa restaurar um banco de dados após uma falha catastrófica que corrompeu o arquivo de dados principal. Ele possui um backup completo realizado às 2 h da madrugada e todos os arquivos de log de transações gerados desde então. O incidente ocorreu às 14 h. Qual procedimento permitirá restaurar o banco ao seu estado exatamente no momento da falha sem perder nenhuma transação confirmada?",
         "alternativas": {
             "A": "Restaurar o backup completo e executar um ROLLBACK até 14 h.",
@@ -671,10 +670,10 @@
             "E": "Inicializar uma nova instância do banco e importar os dados do backup."
         },
         "gabarito_correto": "B",
+        "id": "2287839",
         "comentario_ia": "A restauração completa seguida pelo ROLLFORWARD de todos os logs de transação até o momento exato da falha garante que todas as transações confirmadas antes do incidente sejam recuperadas, sem perda de dados."
     },
     {
-        "id": "2219272",
         "enunciado": "Com o objetivo de proteger os dados corporativos armazenados em servidores na nuvem, um analista de sistemas decidiu implementar uma rotina automatizada que copiasse periodicamente os dados para outro ambiente seguro. Nesse caso, o analista utilizou-se de uma prática conhecida como",
         "alternativas": {
             "A": "controle de acesso.",
@@ -684,10 +683,10 @@
             "E": "espelhamento de disco."
         },
         "gabarito_correto": "C",
+        "id": "2219272",
         "comentario_ia": "A prática de copiar periodicamente dados para outro ambiente seguro, visando a proteção em caso de perdas, é definida tecnicamente como backup."
     },
     {
-        "id": "2310559",
         "enunciado": "A cópia periódica dos arquivos importantes para outro dispositivo, como nuvem ou HD externo, com objetivo de recuperação em caso de perda dos dados, é conhecida como:",
         "alternativas": {
             "A": "Firewall.",
@@ -697,10 +696,10 @@
             "E": "Atalho."
         },
         "gabarito_correto": "B",
+        "id": "2310559",
         "comentario_ia": "Backup é o termo técnico para a cópia periódica de dados importantes para outro local, garantindo sua recuperação em caso de perda ou dano aos arquivos originais. Firewall protege contra acessos não autorizados, Compressão reduz o tamanho de arquivos e Wi-Fi é tecnologia de rede sem fio."
     },
     {
-        "id": "2206372",
         "enunciado": "A regra 3-2-1 é uma estratégia de backup amplamente adotada. Sobre esta estratégia, é CORRETO aﬁrmar que é preciso:",
         "alternativas": {
             "A": "realizar backup offline em 3 dias da semana, em 2 mídias diferentes e 1 delas.",
@@ -710,10 +709,10 @@
             "E": "realizar backup de 3 servidores em 2 mídias, com 1 delas em fita."
         },
         "gabarito_correto": "C",
+        "id": "2206372",
         "comentario_ia": "A regra 3-2-1 de backup significa ter 3 cópias dos dados, em 2 mídias diferentes, com 1 cópia em um local externo (offsite)."
     },
     {
-        "id": "2274317",
         "enunciado": "Em política de backup para banco de dados escolar que exige recuperação de ponto no tempo, qual combinação atende ao requisito e facilita testes periódicos?",
         "alternativas": {
             "A": "Backup completo semanal, incrementais diários, logs de transação contínuos e rotinas de restauração validadas em ambiente de homologação.",
@@ -723,10 +722,10 @@
             "E": "Sincronização espelhada em tempo real que elimina gerações anteriores e retoma a partir do estado mais recente do serviço."
         },
         "gabarito_correto": "A",
+        "id": "2274317",
         "comentario_ia": "Backup completo semanal garante uma base sólida. Incrementais diários capturam as mudanças diárias. Logs de transação contínuos permitem restaurar para um ponto exato no tempo. A validação em homologação assegura a funcionalidade."
     },
     {
-        "id": "2029159",
         "enunciado": "Um técnico de TI decidiu formatar o disco do computador da Secretaria e fazer uma nova instalação do Windows 10, mas esse computador possui arquivos importantes que não podem ser perdidos. Para evitar a perda dos dados, antes da formatação o técnico deve",
         "alternativas": {
             "A": "compactar os arquivos.",
@@ -736,10 +735,10 @@
             "E": "realizar um backup dos arquivos."
         },
         "gabarito_correto": "E",
+        "id": "2029159",
         "comentario_ia": "Para evitar a perda de dados antes de formatar um disco que contém arquivos importantes, a ação mais segura e essencial é realizar um backup, copiando os arquivos para um local seguro."
     },
     {
-        "id": "2116119",
         "enunciado": "Uma estratégia de backup conhecida recebe o nome 3-2-1. Essa estratégia prega que se",
         "alternativas": {
             "A": "mantenha 3 cópias dos dados, utilizando 2 tipos diferentes de mídias de armazenamento e se mantenha 1 cópia offsite.",
@@ -749,10 +748,10 @@
             "E": "efetue 3 backups incrementais por dia, 2 backups diferenciais por semana e 1 backup completo por mês."
         },
         "gabarito_correto": "A",
+        "id": "2116119",
         "comentario_ia": "A estratégia 3-2-1 de backup consiste em manter 3 cópias dos dados, em 2 mídias diferentes, com 1 cópia armazenada offsite (fora do local principal)."
     },
     {
-        "id": "2350405",
         "enunciado": "Em um laboratório de informática educativa, estudantes utilizam uma plataforma que permite criar histórias interativas, jogos e animações através de blocos de programação. O ícone principal da ferramenta é um gato laranja, e os projetos podem ser compartilhados em uma comunidade online. A ferramenta descrita é:",
         "alternativas": {
             "A": "Stencyl",
@@ -762,10 +761,10 @@
             "E": "Scratch"
         },
         "gabarito_correto": "E",
+        "id": "2350405",
         "comentario_ia": "A plataforma descrita, com blocos de programação, ícone de gato laranja e foco na criação de histórias interativas, jogos e animações compartilháveis, é inconfundivelmente o Scratch, uma ferramenta amplamente utilizada para o ensino de programação para crianças."
     },
     {
-        "id": "2340064",
         "enunciado": "Uma empresa implementou uma política de backup semanal que consiste em um backup completo (Full) todo domingo e backups incrementais (Incremental) de segunda a sábado. Ocorreu uma falha catastrófica no servidor na quinta-feira, às 15h. Para restaurar o sistema ao estado mais recente possível, o procedimento que o administrador de sistemas deverá seguir e a principal desvantagem desse método são",
         "alternativas": {
             "A": "o administrador deve restaurar apenas o último backup incremental (de quinta-feira). A desvantagem é a perda de dados entre o último backup e a falha.",
@@ -775,10 +774,10 @@
             "E": "o administrador deve restaurar o backup completo de domingo e, sequencialmente, todos os backups incrementais de segunda até quinta-feira. A desvantagem é o tempo de restauração mais longo, devido à necessidade de aplicar múltiplas cópias."
         },
         "gabarito_correto": "E",
+        "id": "2340064",
         "comentario_ia": "Para restaurar um sistema com backup completo (domingo) e incrementais (segunda a quinta), é necessário aplicar o backup completo e, sequencialmente, todos os backups incrementais realizados após ele. A principal desvantagem desse método é o tempo de restauração, pois envolve a aplicação de múltiplas cópias de backup."
     },
     {
-        "id": "2340066",
         "enunciado": "Durante a definição da Política de Continuidade de Negócios de uma organização, a equipe de TI estabeleceu que o RPO (Recovery Point Objective) para um sistema crítico de gestão financeira deve ser de, no máximo, 1 hora. Assinale a opção que apresenta a implicação técnica direta dessa definição para a estratégia de backup desse sistema.",
         "alternativas": {
             "A": "O tempo máximo necessário para restaurar o sistema (RTO) após uma falha deve ser de 1 hora.",
@@ -788,10 +787,10 @@
             "E": "O sistema deve ter uma cópia de segurança completa (Full) realizada diariamente para garantir a integridade dos dados."
         },
         "gabarito_correto": "C",
+        "id": "2340066",
         "comentario_ia": "O RPO (Recovery Point Objective) de 1 hora significa que a perda máxima de dados aceitável é de 1 hora. Para atingir esse objetivo, a frequência dos backups em sistemas críticos deve ser, no máximo, de 1 hora, garantindo que o ponto de restauração esteja o mais próximo possível do momento da falha."
     },
     {
-        "id": "1359177",
         "enunciado": "No ambiente Windows, para evitar a perda de informações em casos de falhas de hardware , erros do sistema e exclusões acidentais, recomenda-se a criação de cópias de segurança de arquivos e dados. Tal procedimento consiste em",
         "alternativas": {
             "A": "renomear arquivo.",
@@ -801,10 +800,10 @@
             "E": "compactar arquivo."
         },
         "gabarito_correto": "B",
+        "id": "1359177",
         "comentario_ia": "A alternativa B está correta pois realizar 'becape' (backup) de arquivos é o procedimento padrão para criar cópias de segurança e evitar a perda de dados em diversas situações."
     },
     {
-        "id": "1555335",
         "enunciado": "Sobre os procedimentos de backup, analise as assertivas a seguir:I. É recomendável que os backups sejam realizados periodicamente e armazenados em locais externos, como serviços de armazenamento na nuvem ou dispositivos de armazenamento externo.II. Apenas dados importantes, como documentos de trabalho, devem ser incluídos no backup; arquivos de mídia, como fotos e vídeos, não são necessários.III. Manter cópias de backup em diferentes locais ajuda a garantir que, em caso de falha em um dos meios, ainda exista uma cópia acessível dos dados.IV. Backups incrementais consistem em copiar apenas os arquivos que foram alterados desde o último backup completo, o que economiza tempo e espaço de armazenamento.Das assertivas, pode-se afirmar que:",
         "alternativas": {
             "A": "Apenas as assertivas I e III estão corretas.",
@@ -813,10 +812,10 @@
             "D": "Todas as assertivas estão corretas."
         },
         "gabarito_correto": "B",
+        "id": "1555335",
         "comentario_ia": "A assertiva I está correta pelo sentido prático. A II está incorreta ao excluir mídias. A III está correta, pois a redundância protege contra falhas. A IV está correta, pois define o backup incremental."
     },
     {
-        "id": "1678095",
         "enunciado": "Se uma empresa utiliza algum software específico para trabalhar, pode ocorrer em algum momento uma falha desse software. Para sanar esse tipo de problema, há um backup no qual existe uma cópia direta da parte operacional, que recupera desde configurações até estruturas de partições. O trecho se refere ao backup de:",
         "alternativas": {
             "A": "documentos de texto.",
@@ -826,11 +825,11 @@
             "E": "imagem do sistema."
         },
         "gabarito_correto": "E",
+        "id": "1678095",
         "comentario_ia": "O backup descrito, que recupera configurações, partições e a parte operacional, é um backup de 'imagem do sistema', que consiste em uma cópia completa do disco rígido, incluindo o sistema operacional e todos os programas instalados."
     },
     {
-        "id": "1150639",
-        "enunciado": "Assinale a alternativa correta  com relação à frequência com que as cópias de segurança devem ser realizadas.",
+        "enunciado": "Assinale a alternativa correta com relação à frequência com que as cópias de segurança devem ser realizadas.",
         "alternativas": {
             "A": "As cópias de segurança devem ser feitas sem - pre que o meio de armazenamento apresentar suspeitas de desgaste.",
             "B": "A frequência da geração das cópias de segu - rança deve ser a mesma da atualização dos sistemas principais: se o sistema é atualizado diariamente, então deve ser diária.",
@@ -839,10 +838,10 @@
             "E": "A frequência da geração das cópias de segu - rança devem seguir as atualizações do sistema operacional para que, em caso de problema, seja restaurada uma versão atualizada do mesmo."
         },
         "gabarito_correto": "D",
+        "id": "1150639",
         "comentario_ia": "A frequência das cópias de segurança deve ser definida com base nos requisitos de negócio da organização, garantindo que a perda de dados seja minimizada de acordo com a criticidade das informações."
     },
     {
-        "id": "1381606",
         "enunciado": "Backup é um termo utilizado para a atividade que consiste em realizar cópias de segurança de dados digitais de um dispositivo com o intuito de recuperá -los em caso de perdas e/ou falhas no sistema em que os arquivos estão armazenados. Uma estratégia de backup que copia somente os dados modificados desde o último backup recebe o nome de:",
         "alternativas": {
             "A": "Full.",
@@ -852,10 +851,10 @@
             "E": "Sistemático."
         },
         "gabarito_correto": "D",
+        "id": "1381606",
         "comentario_ia": "O backup incremental copia apenas os dados que foram modificados desde o último backup realizado, otimizando o espaço e o tempo de cópia. O backup diferencial copia os dados modificados desde o último backup completo."
     },
     {
-        "id": "1146204",
         "enunciado": "Assinale a alternativa que indica corretamente o principal motivo para a implementação periódica de backups.",
         "alternativas": {
             "A": "Acelerar a velocidade de processamento do sistema.",
@@ -865,10 +864,10 @@
             "E": "Personalizar a interface gráfica do usuário."
         },
         "gabarito_correto": "B",
+        "id": "1146204",
         "comentario_ia": "Backups são essenciais para a recuperação de dados em caso de falhas, perdas ou corrupção, garantindo a continuidade das operações e a proteção contra imprevistos, como ataques e defeitos em hardware."
     },
     {
-        "id": "1145219",
         "enunciado": "Situações nas quais é necessário formatar um computador demandam algumas práticas de segurança, dentre elas , procedimentos de backup de arquivos existentes. Es se tipo de procedimento garante que não sejam perdidas informações importantes para o usuário. Para que a formatação seja realizada com sucesso e sem risco de perda de informações , é recomendado",
         "alternativas": {
             "A": "fazer backup numa unidade de disco portátil externo.",
@@ -878,10 +877,10 @@
             "E": "fazer um backup no desktop (área de trabalho) do computador."
         },
         "gabarito_correto": "A",
+        "id": "1145219",
         "comentario_ia": "Para realizar a formatação de um computador com segurança e sem perda de dados, a prática mais recomendada é fazer o backup dos arquivos importantes em uma unidade externa, como um pendrive ou HD externo. Manter a cópia na unidade a ser formatada ou no desktop não garante a segurança em caso de falha."
     },
     {
-        "id": "1699795",
         "enunciado": "Com relação aos tipos de backup, assinala a afirmativa correta quanto aos backups full, incremental e diferencial.",
         "alternativas": {
             "A": "O backup full copia apenas os arquivos que foram alterados desde o último backup incremental.",
@@ -891,10 +890,10 @@
             "E": "O backup incremental mantém uma cópia completa de todos os dados, o que resulta em um arquivo de backup maior a cada execução."
         },
         "gabarito_correto": "C",
+        "id": "1699795",
         "comentario_ia": "O backup diferencial copia arquivos alterados desde o último backup completo. O backup full copia tudo, e o incremental, apenas o que mudou desde o último backup (full ou incremental). A alternativa A descreve o incremental. A B está errada sobre o backup incremental. A D está errada pois o full verifica tudo, sendo mais lento. A E está errada pois o incremental gera backups pequenos se nada mudou, e o full é o que tem cópia completa."
     },
     {
-        "id": "1154850",
         "enunciado": "Qual das seguintes alternativas traz informações verdadeiras sobre backups na nuvem?",
         "alternativas": {
             "A": "Os backups na nuvem exigem uma conexão de internet estável para funcionar corretamente.",
@@ -903,10 +902,10 @@
             "D": "Os backups na nuvem não oferecem flexibilidade para personalizar os horários de backup."
         },
         "gabarito_correto": "A",
+        "id": "1154850",
         "comentario_ia": "Backups na nuvem dependem diretamente de uma conexão de internet estável para realizar o upload e download dos dados com sucesso, sendo este um requisito fundamental."
     },
     {
-        "id": "1634876",
         "enunciado": "Qual tipo de Backup copia sempre todos os dados do computador numa única operação, podendo inclusive contemplar aplicativos, arquivos de sistema e bibliotecas do sistema operacional?",
         "alternativas": {
             "A": "Backup Completo.",
@@ -915,10 +914,10 @@
             "D": "Backup Incompleto."
         },
         "gabarito_correto": "A",
+        "id": "1634876",
         "comentario_ia": "O Backup Completo copia todos os dados do computador em uma única operação, incluindo aplicativos, arquivos de sistema e bibliotecas, sendo a opção que abrange todo o conteúdo."
     },
     {
-        "id": "1537725",
         "enunciado": "Uma empresa de contabilidade realiza backups diários de seus dados, mas recentemente enfrentou problemas de corrupção de arquivos devido a falhas no sistema. Para minimizar o impacto desses problemas no futuro, a prática de backup que deveria ser adotada é:",
         "alternativas": {
             "A": "Realizar apenas backups mensais para economizar espaço de armazenamento.",
@@ -927,10 +926,10 @@
             "D": "Depender exclusivamente de backups automáticos sem verificar a integridade dos dados."
         },
         "gabarito_correto": "C",
+        "id": "1537725",
         "comentario_ia": "Backups incrementais reduzem o tempo e espaço, e o armazenamento em locais diferentes (incluindo nuvem) garante a segurança contra falhas locais ou desastres."
     },
     {
-        "id": "1604680",
         "enunciado": "Qual das seguintes alternativas descreve CORRETAMENTE um backup diferencial?",
         "alternativas": {
             "A": "Um backup que copia todos os dados do sistema a cada execução.",
@@ -940,10 +939,10 @@
             "E": "Um backup que copia todos os arquivos novos ou alterados desde o último backup diferencial."
         },
         "gabarito_correto": "B",
+        "id": "1604680",
         "comentario_ia": "Um backup diferencial copia todos os arquivos que foram modificados desde o último backup completo realizado. Isso agiliza o processo de restauração, pois apenas o backup completo e o último diferencial são necessários."
     },
     {
-        "id": "1240922",
         "enunciado": "Qual método de backup apenas salva os arquivos que foram modificados desde o último backup, economizando tempo e espaço de armazenamento?",
         "alternativas": {
             "A": "Backup incremental",
@@ -953,10 +952,10 @@
             "E": "Nenhuma das alternativas anteriores"
         },
         "gabarito_correto": "A",
+        "id": "1240922",
         "comentario_ia": "O backup incremental salva apenas os arquivos modificados desde o último backup, sejam ele completo ou incremental, otimizando tempo e espaço de armazenamento."
     },
     {
-        "id": "1674891",
         "enunciado": "O que é um backup incremental?",
         "alternativas": {
             "A": "Uma cópia completa dos dados",
@@ -965,10 +964,10 @@
             "D": "Uma cópia dos dados armazenados na nuvem"
         },
         "gabarito_correto": "B",
+        "id": "1674891",
         "comentario_ia": "Um backup incremental salva apenas os dados que foram alterados desde o último backup, seja ele completo ou incremental, otimizando tempo e espaço."
     },
     {
-        "id": "1520308",
         "enunciado": "A estratégia de backup em que apenas as alterações desde o último backup completo são copiadas e armazenadas é conhecida como:",
         "alternativas": {
             "A": "Backup completo.",
@@ -977,10 +976,10 @@
             "D": "Backup espelhado."
         },
         "gabarito_correto": "B",
+        "id": "1520308",
         "comentario_ia": "O backup incremental é a estratégia que copia somente os dados que foram alterados desde o último backup (seja ele completo ou incremental). Essa abordagem otimiza o espaço de armazenamento e o tempo de processamento do backup."
     },
     {
-        "id": "1674895",
         "enunciado": "O que é um backup?",
         "alternativas": {
             "A": "Um tipo de vírus",
@@ -989,11 +988,11 @@
             "D": "Um navegador de internet"
         },
         "gabarito_correto": "B",
+        "id": "1674895",
         "comentario_ia": "Backup é a criação de uma cópia de segurança dos dados para que possam ser recuperados em caso de perda ou corrupção dos originais."
     },
     {
-        "id": "1450124",
-        "enunciado": "Basicamente, backup  é uma cópia de \nsegurança de dados importantes armazenados \nem um dispositivo ou sistema, geralmente em um \nlocal externo ou em um local separado do original. \nExistem diversos tipos de backup . Os principais são: \ncompleto, incremental e diferencial. Nesse contexto \nanalise as seguintes afirmativas:\nI- O backup completo copia todos os arquivos, \nsem distinção.\nII- O backup incremental copia somente os \narquivos modificados desde o último backup, \nindependente do seu tipo.\nIII- Pelo fato de copiar tudo, o processo do backup \ncompleto é mais lento. Em contrapartida, a \nrestauração é mais simples, uma vez que não \nhá distinção entre os arquivos.\nIV- O backup diferencial sempre substitui \ncompletamente o backup anterior, eliminando a \nnecessidade de reter backups anteriores para \nfins de recuperação.Estão corretas:",
+        "enunciado": "Basicamente, backup é uma cópia de segurança de dados importantes armazenados em um dispositivo ou sistema, geralmente em um local externo ou em um local separado do original. Existem diversos tipos de backup . Os principais são: completo, incremental e diferencial. Nesse contexto analise as seguintes afirmativas: I- O backup completo copia todos os arquivos, sem distinção. II- O backup incremental copia somente os arquivos modificados desde o último backup, independente do seu tipo. III- Pelo fato de copiar tudo, o processo do backup completo é mais lento. Em contrapartida, a restauração é mais simples, uma vez que não há distinção entre os arquivos. IV- O backup diferencial sempre substitui completamente o backup anterior, eliminando a necessidade de reter backups anteriores para fins de recuperação.Estão corretas:",
         "alternativas": {
             "A": "I, II e III",
             "B": "I, II e IV",
@@ -1002,10 +1001,10 @@
             "E": "I, II, III e IV"
         },
         "gabarito_correto": "A",
+        "id": "1450124",
         "comentario_ia": "I está correta: backup completo copia todos os arquivos. II está correta: backup incremental copia apenas modificados desde o último. III está correta: completo é mais lento e restauração mais simples. IV está incorreta: diferencial copia o que mudou desde o último *completo*, não substitui totalmente o anterior."
     },
     {
-        "id": "1438453",
         "enunciado": "Os planos de contingência de backup são estratégias e procedimentos estabelecidos para garantir a recuperação de dados em caso de perda, corrupção ou falha do sistema. Analise os elementos a seguir.I. Armazenamento de cópias de backup dentro da própria empresa, definindo maior segurança e reduzindo o risco de perda de dados devido a eventos como incêndios, inundações ou roubo.II. Monitoramento constante dos backups para garantir que estejam sendo realizados conforme o planejado e que os dados estejam protegidos contra ameaças.III. Realização de testes periódicos para garantir que os dados possam ser recuperados com sucesso a partir dos backups.São elementos que podem fazer parte de um plano de contingência de backup eficaz:",
         "alternativas": {
             "A": "I e II, apenas.",
@@ -1014,10 +1013,10 @@
             "D": "I, II e III."
         },
         "gabarito_correto": "D",
+        "id": "1438453",
         "comentario_ia": "As afirmativas I, II e III descrevem elementos cruciais de um plano de contingência de backup eficaz. O armazenamento seguro, o monitoramento e os testes de recuperação são essenciais para garantir a continuidade."
     },
     {
-        "id": "1204379",
         "enunciado": "No que diz respeito a Backup, é CORRETO afirmar?",
         "alternativas": {
             "A": "Não é possível fazer backup de arquivos, utilizando Cloud Computing (armazenamento na nuvem).",
@@ -1026,10 +1025,10 @@
             "D": "Backups incrementais capturam todos os dados que foram alterados desde o último backup total ou backup incremental mais recente."
         },
         "gabarito_correto": "D",
+        "id": "1204379",
         "comentario_ia": "Backups incrementais capturam apenas os dados alterados desde o último backup (seja ele total ou incremental), otimizando tempo e espaço. A alternativa A está incorreta, pois a nuvem é uma opção para backups. A B está incorreta, pois backups totais levam mais tempo. A C está incorreta, pois o Windows 10 possui ferramentas nativas."
     },
     {
-        "id": "1625667",
         "enunciado": "A frequência mínima de realização de backups é determinada pelo:",
         "alternativas": {
             "A": "Tempo mínimo de recuperação.",
@@ -1039,10 +1038,10 @@
             "E": "Ponto médio de recuperação."
         },
         "gabarito_correto": "D",
+        "id": "1625667",
         "comentario_ia": "O ponto de recuperação indica o momento máximo aceitável de perda de dados. A frequência dos backups visa atingir esse ponto, garantindo que a perda de dados não exceda o limite aceitável."
     },
     {
-        "id": "1520320",
         "enunciado": "O método de backup que cria uma cópia exata e atualizada dos dados em tempo real, refletindo todas as alterações imediatamente, é denominado:",
         "alternativas": {
             "A": "Backup diferenciado.",
@@ -1051,23 +1050,23 @@
             "D": "Backup periódico."
         },
         "gabarito_correto": "C",
+        "id": "1520320",
         "comentario_ia": "O backup contínuo, também conhecido como backup em tempo real, cria cópias exatas dos dados à medida que as alterações ocorrem, garantindo a atualização imediata."
     },
     {
-        "id": "1174295",
-        "enunciado": "Por questões de segurança, a recomendação é que o backup  seja armazenado em um local diferente do original, a fim de mitigar possíveis desastres.  O Backup Incremental apresenta a seguinte característica:",
+        "enunciado": "Por questões de segurança, a recomendação é que o backup seja armazenado em um local diferente do original, a fim de mitigar possíveis desastres. O Backup Incremental apresenta a seguinte característica:",
         "alternativas": {
-            "A": "O processo de  backup  é mais lento.",
+            "A": "O processo de backup é mais lento.",
             "B": "A restauração é mais simples, uma vez que não há distinção entre os arquivos.",
             "C": "Copia somente os dados modificados desde o último backup completo.",
             "D": "A recuperação dos dados é mais rápida que o backup diferencial.",
             "E": "Copia somente os arquivos modificados desde o último backup, independente do seu tipo."
         },
         "gabarito_correto": "C",
+        "id": "1174295",
         "comentario_ia": "O backup incremental copia apenas os dados que foram alterados desde o último backup, seja ele completo ou incremental. Isso otimiza o tempo e o espaço de armazenamento."
     },
     {
-        "id": "1397766",
         "enunciado": "Vivemos num cenário onde a quantidade de dados armazenados cresce exponencialmente, tornando-se desafiador realizar backups completos com frequência, neste contexto marque a alternativa correta que contém a finalidade de um “backup incremental”?",
         "alternativas": {
             "A": "Fazer uma cópia completa de todos os dados no sistema.",
@@ -1076,10 +1075,10 @@
             "D": "Garantir que os dados estejam criptografados durante o backup."
         },
         "gabarito_correto": "B",
+        "id": "1397766",
         "comentario_ia": "Um backup incremental copia apenas os arquivos que foram modificados desde o último backup de qualquer tipo (completo ou incremental), otimizando tempo e espaço."
     },
     {
-        "id": "1381869",
         "enunciado": "Backup é um termo utilizado para uma atividade que consiste em realizar cópias de segurança de dados digitais de um dispositivo, com o intuito de recuperá-los em caso de perdas e/ou falhas no sistema. Uma estratégia de backup que copia somente os dados recém-adicionados e alterados desde o último backup completo recebe o nome de:",
         "alternativas": {
             "A": "Incremental.",
@@ -1089,10 +1088,10 @@
             "E": "Vigente."
         },
         "gabarito_correto": "A",
+        "id": "1381869",
         "comentario_ia": "O backup incremental copia apenas os dados que foram adicionados ou modificados desde o último backup realizado (seja ele completo ou incremental), otimizando o tempo e o espaço de armazenamento."
     },
     {
-        "id": "1445735",
         "enunciado": "Backup é uma cópia de segurança de dados e informações vitais de uma organização, que preserva informações em caso de perda de dados, falhas de hardware, ataques cibernéticos, entre outros. Existem algumas estratégias para realização de backups. Qual das opções a seguir não é uma estratégia difundida na literatura?",
         "alternativas": {
             "A": "Backup Completo.",
@@ -1101,10 +1100,10 @@
             "D": "Backup Interativo."
         },
         "gabarito_correto": "D",
+        "id": "1445735",
         "comentario_ia": "A alternativa D está incorreta. Backup Interativo não é uma estratégia de backup difundida na literatura. As demais opções (Completo, Diferencial e Incremental) são estratégias padrão para cópias de segurança de dados."
     },
     {
-        "id": "1228432",
         "enunciado": "Observe as afirmativas a seguir, em relação a backups. I. No backup diferencial é realizado o backup dos blocos de dados modificados desde o último backup completo. II. No backup completo é realizado apenas o backup dos blocos de dados modificados desde o último backup incremental, e no backup diferencial é realizado apenas o backup dos blocos de dados modificados desde o último backup incremental. III. No backup incremental é realizado apenas o backup dos blocos de dados modificados desde o último backup incremental. Sobre as afirmativas acima, pode-se dizer que:",
         "alternativas": {
             "A": "apenas I está correta.",
@@ -1114,10 +1113,10 @@
             "E": "todas estão corretas."
         },
         "gabarito_correto": "D",
+        "id": "1228432",
         "comentario_ia": "A afirmativa I descreve corretamente o backup diferencial. A afirmativa III descreve corretamente o backup incremental. A afirmativa II mescla descrições de backup diferencial e incremental de forma incorreta, contradizendo as definições padrão."
     },
     {
-        "id": "1206013",
         "enunciado": "Qual é a principal razão para realizar backups periódicos de dados em um sistema computacional?",
         "alternativas": {
             "A": "Prevenir a perda irreparável de dados em caso de falhas ou incidentes.",
@@ -1126,10 +1125,10 @@
             "D": "Melhorar a qualidade de conexão de rede."
         },
         "gabarito_correto": "A",
+        "id": "1206013",
         "comentario_ia": "Backups periódicos são essenciais para garantir a recuperação de dados em caso de perda por falhas de hardware, software, erros humanos ou ataques. As outras opções descrevem benefícios não relacionados à principal função dos backups."
     },
     {
-        "id": "1163368",
         "enunciado": "Qual dos seguintes é um método eficaz para ajudar a garantir a integridade dos backups em um sistema de computadores?",
         "alternativas": {
             "A": "Não verificar regularmente os backups, deixando configurações, apenas, para testes automáticos.",
@@ -1139,10 +1138,10 @@
             "E": "Evitar fazer cópias de segurança dos arquivos críticos, diminuindo, dessa forma, a quantidade de acessos, o que mantém a integridade destes arquivos."
         },
         "gabarito_correto": "C",
+        "id": "1163368",
         "comentario_ia": "Testar regularmente a restauração de backups é fundamental para garantir que eles são válidos e que os dados podem ser recuperados em caso de necessidade, assegurando a integridade e a funcionalidade dos procedimentos de cópia de segurança."
     },
     {
-        "id": "1119338",
         "enunciado": "No contexto de sistemas de backup, assinale a alternativa incorreta.",
         "alternativas": {
             "A": "O backup incremental envolve a cópia apenas dos dados que foram alterados desde o último backup completo ou incremental.",
@@ -1151,10 +1150,10 @@
             "D": "O backup em nuvem é uma abordagem que envia cópias de dados para servidores de armazenamento remoto, geralmente fornecidos por terceiros, para proteção e recuperação de dados."
         },
         "gabarito_correto": "B",
+        "id": "1119338",
         "comentario_ia": "O backup diferencial copia todos os arquivos alterados desde o último backup COMPLETO, não apenas desde o último backup incremental ou completo. As outras opções descrevem corretamente os tipos de backup."
     },
     {
-        "id": "1446374",
         "enunciado": "Qual das alternativas abaixo descreve CORRETAMENTE o que é um backup?",
         "alternativas": {
             "A": "É uma simples cópia manual de arquivos feita pelo usuário em um pendrive.",
@@ -1163,10 +1162,10 @@
             "D": "É um software que impede a perda de arquivos, evitando que eles sejam excluídos acidentalmente."
         },
         "gabarito_correto": "C",
+        "id": "1446374",
         "comentario_ia": "Backup é essencialmente uma cópia de dados realizada com o objetivo de recuperação em caso de falhas, perdas ou corrupção de arquivos originais."
     },
     {
-        "id": "1090844",
         "enunciado": "Sobre as cópias de segurança (backups), é correto afirmar que",
         "alternativas": {
             "A": "os backups são apenas necessários para grandes empresas, não para usuários individuais.",
@@ -1175,10 +1174,10 @@
             "D": "é recomendável armazenar cópias de segurança exclusivamente em discos rígidos locais para facilitar o acesso."
         },
         "gabarito_correto": "C",
+        "id": "1090844",
         "comentario_ia": "O backup incremental copia apenas os dados alterados desde o último backup, sendo uma solução eficiente para economizar tempo e espaço. As outras alternativas apresentam visões limitadas ou incorretas sobre a necessidade e o armazenamento de backups."
     },
     {
-        "id": "1471707",
         "enunciado": "A cópia de segurança ou backup executa a cópia os dados de um dispositivo de armazenamento para outro de modo que possam ser restaurados em caso da perda dos dados originais, o que pode envolver apagamentos acidentais ou corrupção de dados. Há um tipo de backup onde é feita a cópia dos dados que foram alterados ou adicionados desde o último backup. Indicado para os dados que mudam frequentemente. Assinale a alternativa correta que nomeie este tipo de backup.",
         "alternativas": {
             "A": "Completo",
@@ -1188,10 +1187,10 @@
             "E": "Sintético"
         },
         "gabarito_correto": "B",
+        "id": "1471707",
         "comentario_ia": "O backup incremental copia apenas os dados alterados ou adicionados desde o último backup, sendo eficiente para quem modifica arquivos frequentemente, pois economiza tempo e espaço de armazenamento."
     },
     {
-        "id": "1167959",
         "enunciado": "Qual das seguintes opções descreve corretamente o backup incremental?",
         "alternativas": {
             "A": "Cria uma imagem exata do sistema operacional e de todos os arquivos no momento do backup;",
@@ -1201,10 +1200,10 @@
             "E": "Copia todos os arquivos, independentemente de terem sido modificados desde o último backup."
         },
         "gabarito_correto": "C",
+        "id": "1167959",
         "comentario_ia": "O backup incremental copia apenas os arquivos que foram modificados desde o último backup (seja ele completo ou incremental). As outras opções descrevem outros tipos de backup ou ações não relacionadas à definição de backup incremental."
     },
     {
-        "id": "1169362",
         "enunciado": "Quais das seguintes opções NÃO são uma causa comum de falhas em sistemas de backup?",
         "alternativas": {
             "A": "falta de energia elétrica durante o processo de backup;",
@@ -1214,10 +1213,10 @@
             "E": "mau funcionamento do hardware de armazenamento."
         },
         "gabarito_correto": "C",
+        "id": "1169362",
         "comentario_ia": "O uso excessivo da CPU pode impactar a performance do sistema, mas não é uma causa direta, intrinseca ou comum de falhas em sistemas de backup como as outras opções listadas."
     },
     {
-        "id": "1008225",
         "enunciado": "O que é um \"backup incremental\"?",
         "alternativas": {
             "A": "Um tipo de backup que copia todos os arquivos toda vez que é executado.",
@@ -1227,10 +1226,10 @@
             "E": "Um tipo de backup que compacta os arquivos para economizar espaço de armazenamento."
         },
         "gabarito_correto": "B",
+        "id": "1008225",
         "comentario_ia": "Um backup incremental copia apenas os arquivos que foram modificados ou criados desde o último backup realizado (completo ou incremental). Isso otimiza o tempo e o espaço de armazenamento."
     },
     {
-        "id": "1008227",
         "enunciado": "Qual é a diferença entre backup completo e backup diferencial?",
         "alternativas": {
             "A": "Backup completo copia todos os arquivos, enquanto backup diferencial copia apenas os arquivos modificados do último backup completo.",
@@ -1240,10 +1239,10 @@
             "E": "Não há diferença significativa entre backup completo e backup diferencial."
         },
         "gabarito_correto": "A",
+        "id": "1008227",
         "comentario_ia": "Backup completo copia todos os arquivos. Backup diferencial copia todos os arquivos alterados desde o *último backup completo*. Essa é a principal diferença."
     },
     {
-        "id": "1317779",
         "enunciado": "Uma empresa mantém em um servidor um repositório de arquivos que cresce continuamente com a criação diária de novos arquivos. Seu procedimento de backup é de rotina semanal. Este é realizado completo (full) no domingo e backups incrementais de segunda-feira a sábado, sempre às 15h00min. Numa determinada semana, uma pane no servidor ocorrida às 13h de quarta-feira ocasionou a perda de todos os arquivos, sendo necessário o restore dos dados do backup semanal. Neste caso, o procedimento que proporciona a menor perda de dados é:",
         "alternativas": {
             "A": "restaurar o backup de terça-feira, o backup de segunda-feira e o backup de domingo, nesta ordem.",
@@ -1253,10 +1252,10 @@
             "E": "restaurar o backup de domingo e o backup de terça-feira, nesta ordem."
         },
         "gabarito_correto": "B",
+        "id": "1317779",
         "comentario_ia": "Backups incrementais só restauram as diferenças desde o último backup completo ou incremental. Para ter todos os dados, é preciso restaurar o backup completo (domingo) e depois os incrementais na ordem em que foram feitos (segunda, terça)."
     },
     {
-        "id": "1021661",
         "enunciado": "Assinale a alternativa que não apresenta os tipos de backups que as empresas contratam juntos aos provedores em nuvem.",
         "alternativas": {
             "A": "Completo",
@@ -1265,10 +1264,10 @@
             "D": "Incremental"
         },
         "gabarito_correto": "B",
+        "id": "1021661",
         "comentario_ia": "O backup segmentado não é um tipo comum de backup contratado em provedores de nuvem. Os tipos padrão são: Completo, Diferencial e Incremental, que se diferenciam pela forma como gravam os dados após o backup inicial."
     },
     {
-        "id": "1048537",
         "enunciado": "Entre os tipos de backup, um minimiza o risco da perda de dados, aliando os conceitos de economia e velocidade de outro tipo de backup, porém com uma diferença fundamental. Após realizar a primeira cópia completa, cada gravação desse tipo de backup compara o conteúdo a ser copiado com o último evento para gravar somente as alterações realizadas. Isso significa que uma maior quantidade de registros será gravada a cada novo backup desse tipo, pois o último fragmento sempre conterá todas as diferenças entre a cópia original e o volume atualizado. Esse processo é mais prático quando comparado a outros tipos, pois só exigirá a cópia inicial completa e o último fragmento diferencial para restauração do ambiente. O esquema descrito é conhecido como backup",
         "alternativas": {
             "A": "incremental.",
@@ -1278,10 +1277,10 @@
             "E": "contingencial."
         },
         "gabarito_correto": "B",
+        "id": "1048537",
         "comentario_ia": "O backup diferencial grava as alteracoes em relacao ao ultimo backup completo. Para restaurar, usa-se a copia completa e o ultimo diferencial, conforme descrito."
     },
     {
-        "id": "1213505",
         "enunciado": "Sobre os diferentes tipos de backup, assinale a alternativa INCORRETA.",
         "alternativas": {
             "A": "O primeiro passo para instituir um sistema de backup incremental é a realização da cópia completa dos dados.",
@@ -1290,11 +1289,11 @@
             "D": "O backup diferencial armazena os dados alterados desde o último backup completo. Assim, ele armazenará mais dados do que o incremental, embora normalmente menos do que o backup completo."
         },
         "gabarito_correto": "C",
+        "id": "1213505",
         "comentario_ia": "A alternativa C está INCORRETA. O backup incremental é mais rápido no processo de backup, mas a recuperação pode ser mais lenta e complexa, pois exige a restauração do último backup completo e de todos os incrementais subsequentes."
     },
     {
-        "id": "1251036",
-        "enunciado": "47) Existem, tecnicamente, várias formas de se fazer, com garantia, uma cópia de segurança (backup) tais como:\n\n(1) Backup diferencial.\n(2) Backup multiplex.\n(3) Backup incremental.\n\nDa relação apresentada:",
+        "enunciado": "47) Existem, tecnicamente, várias formas de se fazer, com garantia, uma cópia de segurança (backup) tais como: (1) Backup diferencial. (2) Backup multiplex. (3) Backup incremental. Da relação apresentada:",
         "alternativas": {
             "A": "existem somente o 1 e 2",
             "B": "existem somente o 1 e 3",
@@ -1302,10 +1301,10 @@
             "D": "existem todos"
         },
         "gabarito_correto": "B",
+        "id": "1251036",
         "comentario_ia": "O backup diferencial salva os arquivos que foram alterados desde o último backup completo. O backup incremental salva os arquivos que foram alterados desde o último backup (seja ele completo ou incremental). O backup multiplex não é um tipo padrão de backup. Portanto, apenas 1 e 3 existem."
     },
     {
-        "id": "2116682",
         "enunciado": "Sistemas de backup são importantes para qualquer tipo de organização, principalmente para as de grande porte, que normalmente possuem grandes volumes de dados a serem administrados. O processos que permitem reduzir a sobrecarga de armazenamento são",
         "alternativas": {
             "A": "compressão e deduplicação.",
@@ -1314,11 +1313,11 @@
             "D": "deduplicação e depuração."
         },
         "gabarito_correto": "A",
+        "id": "2116682",
         "comentario_ia": "Compressão e deduplicação são técnicas que reduzem o tamanho dos dados, diminuindo a necessidade de espaço de armazenamento. Deduplicação elimina cópias redundantes, e compressão reduz o tamanho dos arquivos."
     },
     {
-        "id": "1451373",
-        "enunciado": "Analise as seguintes afirmativas sobre backup.\nI. Backup é um termo em inglês que significa cópia de segurança.\nII. É a existência de cópia de um ou mais arquivos guardados em diferentes dispositivos de armazenamento.\nIII. A fita é um meio de armazenamento utilizado para fazer backup.\nEstão corretas as afirmativas",
+        "enunciado": "Analise as seguintes afirmativas sobre backup. I. Backup é um termo em inglês que significa cópia de segurança. II. É a existência de cópia de um ou mais arquivos guardados em diferentes dispositivos de armazenamento. III. A fita é um meio de armazenamento utilizado para fazer backup. Estão corretas as afirmativas",
         "alternativas": {
             "A": "I e II, apenas.",
             "B": "I e III, apenas.",
@@ -1326,10 +1325,10 @@
             "D": "I, II e III."
         },
         "gabarito_correto": "D",
+        "id": "1451373",
         "comentario_ia": "A alternativa D esta correta pois as tres afirmativas sobre backup estao corretas. A definicao de backup como copia de seguranca esta correta. A descriçao como copia em diferentes dispositivos tambem esta correta, e a fita como meio de armazenamento para backup e um fato estabelecido."
     },
     {
-        "id": "1007464",
         "enunciado": "Com base no fragmento abaixo responda a questão:“O backup é a única forma de recuperar informações em caso de pane (tanto por parte do hardware quanto dos softwares). Você pode não perceber, mas certamente possui várias informações importantes armazenadas em seus computadores: arquivos de dados, fotos, imagens, planilhas, textos, etc. O backup full faz cópias de todos dados para outro conjunto de mídia, que pode ser fita, disco, um DVD ou CD. Se uma organização possui a política de realizar backup todos os dias, todos os dados serão copiados diariamente, independente de terem sido modificados ou não.”A parte em destaque do texto refere se a qual tipo de backup?",
         "alternativas": {
             "A": "Completo.",
@@ -1338,10 +1337,10 @@
             "D": "Progressivo."
         },
         "gabarito_correto": "A",
+        "id": "1007464",
         "comentario_ia": "O texto descreve o backup 'full' (completo), que copia todos os dados sem verificar alterações, independentemente de terem sido modificados ou não. As demais opções (incremental, diferencial, progressivo) lidam com cópias parciais com base em alterações."
     },
     {
-        "id": "1133292",
         "enunciado": "Sobre backups, é incorreto afirmar:",
         "alternativas": {
             "A": "tar -zcvf arquivos.tar.gz arquivos/ fará, em um sistema operacional Linux, backup da pasta “arquivos”, criando o arquivo compactado arquivos.tar.gz.",
@@ -1351,10 +1350,10 @@
             "E": "Recovery é o processo de recuperação de um sistema de disco sinistrado, ou seja, é a recuperação dos dados ou o pronto restabelecimento de equipamentos que foram avariados."
         },
         "gabarito_correto": "D",
+        "id": "1133292",
         "comentario_ia": "Backups incrementais apenas salvam as alterações desde o último backup (seja ele completo ou incremental). Portanto, para a restauração completa, é necessário o backup completo e todos os incrementais subsequentes. A afirmação de que dispensam o uso de backups completos é incorreta."
     },
     {
-        "id": "1133354",
         "enunciado": "Após feito um backup completo e se quer copiar apenas as alterações feitas a partir daquele último não importando o número de backups, configuramos um ............",
         "alternativas": {
             "A": "Backup diferencial",
@@ -1364,10 +1363,10 @@
             "E": "Backup adicionador"
         },
         "gabarito_correto": "B",
+        "id": "1133354",
         "comentario_ia": "Backup incremental copia apenas os arquivos que foram alterados desde o último backup realizado, independentemente de ser completo ou incremental."
     },
     {
-        "id": "1219785",
         "enunciado": "O procedimento para recuperação dos arquivos ou para recolocação de equipamentos sinistrados é chamado de:",
         "alternativas": {
             "A": "Backup simples.",
@@ -1377,10 +1376,10 @@
             "E": "Recovery."
         },
         "gabarito_correto": "E",
+        "id": "1219785",
         "comentario_ia": "Recuperacao de arquivos ou recolocacao de equipamentos sinistrados refere-se ao processo de 'Recovery', que visa restabelecer o estado normal apos uma falha ou incidente."
     },
     {
-        "id": "1483729",
         "enunciado": "Assinale a alternativa que apresenta corretamente o tipo de backup que deve ser realizado para fazer a cópia apenas das alterações referentes ao último backup:",
         "alternativas": {
             "A": "Analógico.",
@@ -1390,10 +1389,10 @@
             "E": "Simples."
         },
         "gabarito_correto": "B",
+        "id": "1483729",
         "comentario_ia": "O backup incremental copia apenas os arquivos que foram alterados desde o último backup realizado, sejam eles completos ou incrementais. Isso otimiza o tempo e o espaço de armazenamento."
     },
     {
-        "id": "1462333",
         "enunciado": "Para que serve o backup?",
         "alternativas": {
             "A": "Duplicar os dados existentes no computador.",
@@ -1402,10 +1401,10 @@
             "D": "Enviar para a nuvem os dados selecionados."
         },
         "gabarito_correto": "B",
+        "id": "1462333",
         "comentario_ia": "O backup é um procedimento essencial para a segurança de dados, consistindo em criar cópias de segurança de informações importantes para recuperação em caso de perda."
     },
     {
-        "id": "1462334",
         "enunciado": "Em qual situação deve ser realizada a restauração de dados do computador?",
         "alternativas": {
             "A": "Quando as mídias de armazenamento apresentarem falhas ou forem corrompidas.",
@@ -1414,6 +1413,7 @@
             "D": "Quando o computador se apresentar lento ou travando."
         },
         "gabarito_correto": "A",
+        "id": "1462334",
         "comentario_ia": "A restauração de dados é crucial quando as mídias de armazenamento falham ou os dados são corrompidos, visando recuperar informações perdidas. Não é um procedimento para liberar espaço ou apenas para cópias de segurança preventivas."
     }
 ]

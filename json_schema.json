@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://quizprohub.com/schemas/questao-schema.json",
+  "title": "Schema de Questão - Quiz Pro Hub",
+  "description": "Schema padrão para validação de questões no formato JSON",
+  "type": "object",
+  "required": ["enunciado", "alternativas", "gabarito_correto"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Identificador único da questão",
+      "minLength": 1
+    },
+    "enunciado": {
+      "type": "string",
+      "description": "Texto completo da pergunta ou comando da questão",
+      "minLength": 10
+    },
+    "alternativas": {
+      "type": "object",
+      "description": "Objeto contendo as alternativas de resposta",
+      "minProperties": 2,
+      "patternProperties": {
+        "^[A-E]$": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "gabarito_correto": {
+      "type": "string",
+      "description": "Letra da alternativa correta (A, B, C, D ou E)",
+      "pattern": "^[A-E]$"
+    },
+    "comentario_ia": {
+      "type": "string",
+      "description": "Comentário explicativo gerado por IA sobre a questão",
+      "minLength": 1
+    },
+    "dificuldade": {
+      "type": "string",
+      "description": "Nível de dificuldade da questão",
+      "enum": ["fácil", "médio", "difícil"]
+    },
+    "ano": {
+      "type": "integer",
+      "description": "Ano de origem da questão",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "banca": {
+      "type": "string",
+      "description": "Banca examinadora ou instituição criadora"
+    },
+    "tags": {
+      "type": "array",
+      "description": "Palavras-chave relacionadas ao conteúdo",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,6 +1,5 @@
 [
     {
-        "id": "3022563",
         "enunciado": "Dos tipos de barramentos abaixo citados, é correto afirmar que aquele que pode alcançar a maior taxa de transferência é o",
         "alternativas": {
             "A": "ISA.",
@@ -10,10 +9,10 @@
             "E": "PCI Express 3.0 (x16)."
         },
         "gabarito_correto": "E",
+        "id": "3022563",
         "comentario_ia": "A alternativa correta é PCI Express 3.0 (x16) pois essa tecnologia é projetada para altas taxas de transferência. As demais são mais antigas ou foram superadas em velocidade."
     },
     {
-        "id": "3012310",
         "enunciado": "Um administrador de rede está tentando realizar uma transmissão entre dois computadores com endereços 10.1.1.90 e 10.1.1.129. Não existe rota default configurada nos computadores e ambos estão conectados através de um mesmo switch Ethernet. A máscara de rede utilizada é 255.255.255.224. Assinale a alternativa que indica corretamente o motivo pelo qual a tentativa de transmissão irá fracassar.",
         "alternativas": {
             "A": "O endereço 10.0.0.0/8 é reservado para uso interno e necessita de um dispositivo que implemente o NAT (Network AddressTranslation) para permitir a comunicação entre os computadores.",
@@ -23,10 +22,10 @@
             "E": "O endereço 10.1.1.90 corresponde ao endereço de rede e não poderia ter sido atribuído para um host específico."
         },
         "gabarito_correto": "B",
+        "id": "3012310",
         "comentario_ia": "A máscara 255.255.255.224 define sub-redes com prefixo /27. Os endereços 10.1.1.90 e 10.1.1.129 pertencem a sub-redes diferentes (/27) e, portanto, a comunicação entre eles requer um roteador. Um switch opera na camada 2 (MAC address) e não roteia entre sub-redes distintas."
     },
     {
-        "id": "3012311",
         "enunciado": "Considerando o modelo OSI (Open Systems Interconnection) e o conjunto de protocolos Inter Rede (TCP/IP), assinale a alternativa que apresenta a camada do modelo OSI que representa as funções implementadas pelo protocolo UDP (UserDatagram Protocol).",
         "alternativas": {
             "A": "Camada de Enlace.",
@@ -36,10 +35,10 @@
             "E": "Camada de Aplicação"
         },
         "gabarito_correto": "C",
+        "id": "3012311",
         "comentario_ia": "O UDP opera na camada de Transporte do modelo OSI, fornecendo um serviço de comunicação sem conexão, diferente do TCP que é orientado à conexão."
     },
     {
-        "id": "3014237",
         "enunciado": "Conforme as Normas Técnicas do Sistema de Cabeamento Estruturado, existem 6 (seis) subsistemas. Quanto a esses subsistemas, assinale a alternativa incorreta:",
         "alternativas": {
             "A": "Sala de Equipamentos",
@@ -48,10 +47,10 @@
             "D": "Sala de Telecomunicações"
         },
         "gabarito_correto": "B",
+        "id": "3014237",
         "comentario_ia": "A alternativa B está incorreta. O Cabeamento Backbone (ou Vertical) interliga os subsistemas horizontalmente, enquanto o Cabeamento Horizontal se estende da área de trabalho até a sala de telecomunicações. A alternativa mistura os conceitos."
     },
     {
-        "id": "3012312",
         "enunciado": "Assinale a alternativa que apresenta a técnica utilizada para prevenir que um computador envie dados mais rapidamente que o destino pode absorver.",
         "alternativas": {
             "A": "Controle de fluxo.",
@@ -61,10 +60,10 @@
             "E": "Algoritmo Dijkstra."
         },
         "gabarito_correto": "A",
+        "id": "3012312",
         "comentario_ia": "O controle de fluxo se refere a tecnicas para gerenciar a taxa de transmissao de dados entre remetente e destinatario, evitando que o remetente envie mais dados do que o destinatario pode processar. As outras opcoes tratam de outros aspectos de redes ou algoritmos."
     },
     {
-        "id": "3014238",
         "enunciado": "Leia o trecho abaixo quanto aos principais equipamentos de redes:“O ____ é um aparelho muito semelhante ao ____, mas tem uma grande diferença: os dados vindos do computador de origem somente são repassados ao computador de destino. No entanto, o ____ é mais “inteligente” que o ____, pois além de poder fazer a mesma função deste, também tem a capacidade de escolher a melhor rota que um determinado pacote de dados deve seguir para chegar em seu destino.” Assinale a alternativa que completa correta e respectivamente as lacunas:",
         "alternativas": {
             "A": "roteador - hub - switch - switch",
@@ -73,10 +72,10 @@
             "D": "switch - hub - roteador - switch"
         },
         "gabarito_correto": "D",
+        "id": "3014238",
         "comentario_ia": "O hub repassa dados para todas as portas. O switch conecta dispositivos e envia dados apenas para o destinatário específico. O roteador é mais inteligente, pois escolhe a melhor rota para os pacotes de dados. Assim, temos: switch - hub - roteador - switch."
     },
     {
-        "id": "3012313",
         "enunciado": "Assinale a alternativa que apresenta corretamente o número de bits de um endereço do protocolo Ethernet (padrãoIEEE802.3).",
         "alternativas": {
             "A": "128.",
@@ -86,10 +85,10 @@
             "E": "32."
         },
         "gabarito_correto": "D",
+        "id": "3012313",
         "comentario_ia": "O endereço do protocolo Ethernet, de acordo com o padrão IEEE 802.3 (MAC address), possui 48 bits de comprimento. Ele é utilizado para identificar unicamente cada dispositivo em uma rede local."
     },
     {
-        "id": "3012314",
         "enunciado": "A aplicação do campo TTL (Time to Live) do protocolo IP:",
         "alternativas": {
             "A": "permite o cálculo do atraso fim a fim dos pacotes.",
@@ -99,10 +98,10 @@
             "E": "evita que pacotes fiquem circulando na rede por erros de roteamento."
         },
         "gabarito_correto": "E",
+        "id": "3012314",
         "comentario_ia": "O campo TTL (Time to Live) no protocolo IP é um contador que é decrementado a cada roteador. Quando chega a zero, o pacote é descartado, impedindo que pacotes com erros de roteamento circulem indefinidamente na rede."
     },
     {
-        "id": "3014240",
         "enunciado": "Quanto aos termos utilizados no Dynamic Host Confguration Protocol (DHCP) analise as afirmativas abaixo e assinale a alternativa correta.I. é um protocolo de serviço TCP/IP que oferece configuração dinâmica de terminais.II. um escopo é o intervalo consecutivo completo dos endereços IP possíveis para uma rede.III. quando um computador conecta-se a uma rede, o host/ cliente DHCP envia um pacote UDP, em broadcast, com uma requisição DHCP.",
         "alternativas": {
             "A": "Apenas as afirmativas I e II são tecnicamente verdadeiras",
@@ -111,10 +110,10 @@
             "D": "As afirmativas I, II e III são tecnicamente verdadeiras"
         },
         "gabarito_correto": "D",
+        "id": "3014240",
         "comentario_ia": "A afirmativa I descreve corretamente o DHCP como protocolo TCP/IP para configuração dinâmica. A afirmativa II explica o escopo como um intervalo de IPs. A afirmativa III descreve o processo de requisição DHCP pelo cliente. Todas as afirmativas são tecnicamente verdadeiras."
     },
     {
-        "id": "3022538",
         "enunciado": "Preencha corretamente as lacunas do texto a seguir,considerando os protocolos da camada de aplicação OSI.___________________ e ___________________ são protocolos de transferência de arquivos que utilizamo ___________________.A sequência que preenche corretamente as lacunas do texto é",
         "alternativas": {
             "A": "DNS / FTP / TCP.",
@@ -124,10 +123,10 @@
             "E": "DNS / DHCP / UDP."
         },
         "gabarito_correto": "C",
+        "id": "3022538",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3012315",
         "enunciado": "Com relação ao protocolo SNMP (Simple Network Management Protocol), a função da MIB (Management Information Base)é manter uma base de dados para armazenar:",
         "alternativas": {
             "A": "um histórico de leituras das variáveis gerenciadas de um equipamento.",
@@ -137,10 +136,10 @@
             "E": "informações sobre as permissões de acesso dos equipamentos gerenciados."
         },
         "gabarito_correto": "D",
+        "id": "3012315",
         "comentario_ia": "A MIB (Management Information Base) no SNMP é uma base de dados que armazena informações sobre as variáveis gerenciadas de um equipamento. Ela funciona como uma estrutura hierárquica onde os agentes SNMP consultam ou modificam informações para gerenciar o dispositivo."
     },
     {
-        "id": "3014242",
         "enunciado": "Quanto às redes sem fio, analise as afirmativas abaixo, dê valores Verdadeiro (V) ou Falso (F):( ) o modo peer-to-peer, é também chamado de modo ad hoc.( ) o protocolo mais recomendado para a segurança de redes sem fio é o WEP.( ) para a segurança das redes sem fo não deve ser usado o protocolo WPA2.Assinale a alternativa que apresenta a sequência correta de cima para baixo.",
         "alternativas": {
             "A": "V - F - F",
@@ -149,10 +148,10 @@
             "D": "F - F - V"
         },
         "gabarito_correto": "A",
+        "id": "3014242",
         "comentario_ia": "O modo peer-to-peer em redes sem fio e de fato chamado de modo ad hoc. No entanto, o protocolo WEP nao e o mais recomendado para seguranca, sendo obsoleto e vulneravel. O protocolo WPA2 e sim o mais seguro e recomendado. Portanto, a sequencia correta e V-F-F."
     },
     {
-        "id": "3012317",
         "enunciado": "Assinale a alternativa que apresenta um protocolo de distribuição automática de rotas.",
         "alternativas": {
             "A": "SPT (Spanning Tree Protocol).",
@@ -162,10 +161,10 @@
             "E": "SCTP (Streaming Control Transport Protocol)."
         },
         "gabarito_correto": "C",
+        "id": "3012317",
         "comentario_ia": "OSPF (Open Shortest Path First) é um protocolo de roteamento interno (IGP) que utiliza o algoritmo Dijkstra para determinar as melhores rotas em uma rede."
     },
     {
-        "id": "3022541",
         "enunciado": "Suponha que um técnico está configurando o firewall da empresa 130.207/16 com servidor Web no endereço 130.207.244.203.Para impedir que a rede da empresa seja usada por um ataque DoS smurf, é correto afirmar que o firewall deve descartar todos os pacotes",
         "alternativas": {
             "A": "ICMP com TTL expirado.",
@@ -175,10 +174,10 @@
             "E": "ping que estão indo para um endereço de difusão,por exemplo: 130.207.255.255"
         },
         "gabarito_correto": "E",
+        "id": "3022541",
         "comentario_ia": "O ataque Smurf explora a resposta de pacotes ICMP de difusao para causar sobrecarga. Ao descartar pacotes de ping enviados para enderecos de difusao, o firewall impede que a rede seja usada como amplificador para ataques DoS."
     },
     {
-        "id": "3021043",
         "enunciado": "Qual é a topologia de rede onde todos os usuários se comunicam com um nó central, por onde são transmitidas todas as mensagens. Através do nó central, os usuários podem transmitir mensagens entre si. O nó central funciona como um comutador de mensagens para transmissão dos dados entre eles.(Fonte: https://pt.scribd.com/doc/83505510/Arquitetura-e-protocolos-de-rede-TCP-IP)",
         "alternativas": {
             "A": "Topologia Anel.",
@@ -187,10 +186,10 @@
             "D": "Topologia Barramento."
         },
         "gabarito_correto": "B",
+        "id": "3021043",
         "comentario_ia": "A topologia de rede descrita, onde todos os usuários se comunicam com um nó central que gerencia as transmissões, é a Topologia Estrela. As topologias Anel, Par-a-Par e Barramento possuem estruturas de comunicação diferentes."
     },
     {
-        "id": "3014244",
         "enunciado": "Quanto ao endereçamento do IPv6, pode também ser válido e, escrito corretamente, o endereço 2001:0DB8: 0000:0000:130F:0000:0000:140B como:I. 2001:DB8::130F:0:0:140BII. 2001:DB8::130F::140BIII. 2001:DB8:0:0:130F::140BAssinale a alternativa correta:",
         "alternativas": {
             "A": "da relação apresentada somente são aplicados o (I) e (II)",
@@ -199,10 +198,10 @@
             "D": "da relação apresentada todos podem ser aplicados"
         },
         "gabarito_correto": "C",
+        "id": "3014244",
         "comentario_ia": "O endereçamento IPv6 permite a omissão de zeros à esquerda em cada bloco (2001:DB8::...). Também é permitido omitir um ou mais blocos contínuos de zeros, representados por '::' (II não permite multiplos ::). No entanto, apenas um conjunto de dois '::' é permitido, e mais de um grupo de zeros pode ser omitido, assim (I) e (III) são formas válidas."
     },
     {
-        "id": "3008217",
         "enunciado": "O modelo Open System Interconnection (OSI) foi desenvolvido pela International Standards Organization (ISO) e possui sete camadas. Em relação a essas camadas, assinale a alternativa correta.",
         "alternativas": {
             "A": "A camada de enlace de dados trata da transmissão de bits brutos por um canal de comunicação.",
@@ -212,10 +211,10 @@
             "E": "A camada de apresentação contém uma série de protocolos comumente necessários para os usuários, como o HTTP (HyperText Transfer Protocol)."
         },
         "gabarito_correto": "B",
+        "id": "3008217",
         "comentario_ia": "A camada de sessão é responsável por estabelecer, gerenciar e encerrar as conexões entre aplicações. Ela controla o diálogo, a sincronização e a manutenção da comunicação, garantindo a ordem e a continuidade das trocas de dados."
     },
     {
-        "id": "3008218",
         "enunciado": "A camada física é a mais baixa do modelo Open System Interconnection (OSI) e define as interfaces mecânica, elétrica e de sincronização para a rede. Acerca dessa camada, é correto afirmar que",
         "alternativas": {
             "A": "a largura de banda é uma propriedade física do meio de transmissão, não dependendo da construção, da espessura e do comprimento do meio.",
@@ -225,10 +224,10 @@
             "E": "a largura de banda do cabo coaxial é muito mais alta do que a dos pares trançados."
         },
         "gabarito_correto": "E",
+        "id": "3008218",
         "comentario_ia": "A largura de banda do cabo coaxial é significativamente superior à dos pares trançados, tornando-o mais adequado para aplicações que demandam alta velocidade de transmissão de dados."
     },
     {
-        "id": "3008219",
         "enunciado": "O modelo TCP/IP, como o nome sugere, tem como principais partes os protocolos TCP e IP. Com relação a eles, assinale a alternativa correta.",
         "alternativas": {
             "A": "O protocolo IP oferece garantia de que os datagramas serão entregues da forma apropriada.",
@@ -238,10 +237,10 @@
             "E": "Os datagramas também podem chegar fora de ordem, mas não cabe ao TCP reorganizá-los na sequência correta."
         },
         "gabarito_correto": "C",
+        "id": "3008219",
         "comentario_ia": "O TCP é um protocolo orientado à conexão, garantindo comunicação confiável. Todas as conexões TCP são estabelecidas como full-duplex, permitindo a troca de dados em ambas as direções simultaneamente, e são ponto a ponto, conectando dois endpoints específicos."
     },
     {
-        "id": "3017442",
         "enunciado": "Qual dos seguintes tipos de cabo é o mais indicado para estabelecer a interligação de rede entre dois prédios separados por uma distância de 2 km de modo a evitar o uso de equipamentos de interconexão?",
         "alternativas": {
             "A": "Fibra óptica multímodo.",
@@ -251,10 +250,10 @@
             "E": "Cabo UTP categoria 6a."
         },
         "gabarito_correto": "D",
+        "id": "3017442",
         "comentario_ia": "Para distâncias longas de 2 km, a fibra óptica monomodo é a mais indicada devido à sua baixa atenuação e alta largura de banda, permitindo a transmissão de sinais sem a necessidade de repetidores ou equipamentos de interconexão, ao contrário dos cabos UTP que possuem limitações de distância."
     },
     {
-        "id": "3008220",
         "enunciado": "Uma parte integrante da Internet são os Domain Name Systems (DNS). Em relação a eles, é correto afirmar que",
         "alternativas": {
             "A": "uma URL tem três partes: o nome do protocolo, o nome DNS da máquina em que a página está localizada e (possivelmente) um caminho único para a página específica.",
@@ -264,10 +263,10 @@
             "E": "um servidor mantém a sessão de um usuário ativa por meio do respectivo endereço IP."
         },
         "gabarito_correto": "A",
+        "id": "3008220",
         "comentario_ia": "Uma URL é composta pelo protocolo (ex: http), o nome do DNS que identifica o servidor (ex: www.google.com) e o caminho para o recurso específico na página."
     },
     {
-        "id": "3017443",
         "enunciado": "Assinale a alternativa correta a respeito do protocolo TCP.",
         "alternativas": {
             "A": "É o protocolo padrão para envio de consultas a servidores DNS.",
@@ -277,10 +276,10 @@
             "E": "Seu cabeçalho possui campos que indicam o endereço IP e o número da porta do destinatário dos dados."
         },
         "gabarito_correto": "C",
+        "id": "3017443",
         "comentario_ia": "O TCP não é usado para DNS (UDP é). Portas vão até 65535. O SMTP usa TCP. O tamanho máximo do pacote geralmente é definido pela MTU (1500 bytes), mas o TCP não impõe este limite diretamente. O cabeçalho do TCP não contém IP."
     },
     {
-        "id": "3023739",
         "enunciado": "Considere a seguinte situação: uma rede local possui muitas estações ligadas a um mesmo barramento. Deseja-se dividi-la em duas partes para aliviar o tráfego do barramento. Neste caso, pode-se solucionar com o emprego de um equipamento de rede denominado:",
         "alternativas": {
             "A": "Hub.",
@@ -290,10 +289,10 @@
             "E": "Gateway."
         },
         "gabarito_correto": "B",
+        "id": "3023739",
         "comentario_ia": "Um bridge opera na camada de enlace e é usado para conectar dois segmentos de rede, aprendendo os endereços MAC para encaminhar quadros de forma inteligente. Isso ajuda a reduzir o tráfego no barramento principal."
     },
     {
-        "id": "3049484",
         "enunciado": "Assinale a alternativa correta. De acordo com Dantas(2002), considerando a forma como a luz trafega na fibra ótica, as fibras óticas se classificam em:",
         "alternativas": {
             "A": "Transparentes e translucida.",
@@ -302,10 +301,10 @@
             "D": "Longa distância, média distância e curta distância"
         },
         "gabarito_correto": "C",
+        "id": "3049484",
         "comentario_ia": "A classificação das fibras ópticas, com base na forma como a luz trafega nelas, é em monomodo e multímodo. As outras classificações listadas nas alternativas não se referem a essa característica específica de propagação da luz."
     },
     {
-        "id": "3008222",
         "enunciado": "Nas complexas redes de roteadores, switches, e servidores, pode parecer uma tarefa monumental gerenciar todos os aparelhos em sua rede e se certificar de que eles não só estão operando, mas também com performance ótima. É nisso que o Simple Network Management Protocol (SNMP) pode ajudar.MAURO, D.; SCHMIDT, K. Essential SNMP. Sebastopol: O’Reilly Media, 2005. Tradução livre. Em relação ao SNMP (do inglês, Simple Network Management Protocol) assinale a alternativa correta.",
         "alternativas": {
             "A": "O SNMP usa o Transmission Control Protocol (TCP) como o protocolo para passar dados entre gerentes e agentes.",
@@ -315,10 +314,10 @@
             "E": "O gerenciamento de recursos (espaço em disco, uso de memória etc.) não entra no escopo do gerenciamento de redes."
         },
         "gabarito_correto": "C",
+        "id": "3008222",
         "comentario_ia": "O SNMP utiliza um formato de mensagem padronizado chamado PDU (Protocol Data Unit) para a troca de informações entre o gerente (manager) e o agente. TCP não é utilizado, mas sim UDP. A alternativa B descreve atributos de objetos MIB, não da entidade SNMP."
     },
     {
-        "id": "3028875",
         "enunciado": "É o protocolo utilizado para controlar a comunicação entre o servidor e o navegador de Internet:",
         "alternativas": {
             "A": "HTTP",
@@ -327,10 +326,10 @@
             "D": "IP"
         },
         "gabarito_correto": "A",
+        "id": "3028875",
         "comentario_ia": "HTTP (Hypertext Transfer Protocol) é o protocolo padrão para comunicação entre navegadores e servidores web, definindo como as informações são transmitidas na World Wide Web."
     },
     {
-        "id": "3008223",
         "enunciado": "De acordo com o MIB (do inglês, Management Information Base), assinale a alternativa correta.",
         "alternativas": {
             "A": "Os MIBs proveem uma descrição superficial dos objetos de dados gerenciados.",
@@ -340,10 +339,10 @@
             "E": "O MIB define a sintaxe (tipo e estrutura) e semântica dos objetos gerenciados."
         },
         "gabarito_correto": "E",
+        "id": "3008223",
         "comentario_ia": "O MIB (Management Information Base) define a sintaxe (tipo e estrutura) e a semântica (significado) dos objetos que compõem a base de informações gerenciadas em uma rede."
     },
     {
-        "id": "3008224",
         "enunciado": "Hiper convergência pode ser entendida como a combinação de várias plataformas potencialmente diferentes em uma única.GREEN, J.; LOWE, S.D.; DAVIS, D.M. The Fundamentals of Hyperconverged Infrastructure. Bluffton: Actual Tech Media, 2018. Tradução livre. Acerca da hiper convergência, pode-se afirmar que ela",
         "alternativas": {
             "A": "reduz os custos de infraestrutura ao adicionar novos nós dedicados de Storage Area Network (SAN) ou Network Attached Storage (NAS).",
@@ -353,10 +352,10 @@
             "E": "facilita a administração ao remover medidas de virtualização."
         },
         "gabarito_correto": "B",
+        "id": "3008224",
         "comentario_ia": "A hiperconvergência integra recursos de computação, armazenamento e rede em uma plataforma unificada. Ela utiliza a virtualização para criar uma camada de abstração, simplificando o gerenciamento e a alocação desses recursos aos usuários."
     },
     {
-        "id": "3005012",
         "enunciado": "Protocolos são conjuntos de regras que determinam como uma rede entre dois ou mais sistemas deve funcionar. Qual das opções abaixo não é considerado um protocolo de internet.",
         "alternativas": {
             "A": "PHP",
@@ -365,10 +364,10 @@
             "D": "SMTP"
         },
         "gabarito_correto": "A",
+        "id": "3005012",
         "comentario_ia": "PHP (Hypertext Preprocessor) e uma linguagem de script de uso geral, amplamente utilizada em desenvolvimento web, mas nao e um protocolo de internet. POP, FTP e SMTP sao protocolos."
     },
     {
-        "id": "3017446",
         "enunciado": "Identifique quais das ações enumeradas a seguir podem ser executadas pelo firewall padrão do Ubuntu 16.04. Em seguida, assinale a alternativa correta.I. Bloquear o tráfego oriundo de uma rede.II. Bloquear o tráfego destinado a uma rede.III. Bloquear o tráfego recebido em uma porta TCP.IV. Bloquear o tráfego destinado a uma porta TCP.",
         "alternativas": {
             "A": "Somente as ações I e II estão corretas.",
@@ -378,10 +377,10 @@
             "E": "Todas as ações estão corretas."
         },
         "gabarito_correto": "E",
+        "id": "3017446",
         "comentario_ia": "Firewalls podem bloquear tráfego de entrada e saída, seja originado de uma rede especifica, destinado a uma rede especifica, recebido em uma porta especifica, ou destinado a uma porta especifica. Todas as ações descritas sao tipicas funcionalidades do firewall."
     },
     {
-        "id": "3022563",
         "enunciado": "Dos tipos de barramentos abaixo citados, é correto afirmar que aquele que pode alcançar a maior taxa de transferência é o",
         "alternativas": {
             "A": "ISA.",
@@ -391,10 +390,10 @@
             "E": "PCI Express 3.0 (x16)."
         },
         "gabarito_correto": "E",
+        "id": "3022563",
         "comentario_ia": "A alternativa correta é PCI Express 3.0 (x16) pois essa tecnologia é projetada para altas taxas de transferência. As demais são mais antigas ou foram superadas em velocidade."
     },
     {
-        "id": "3012310",
         "enunciado": "Um administrador de rede está tentando realizar uma transmissão entre dois computadores com endereços 10.1.1.90 e 10.1.1.129. Não existe rota default configurada nos computadores e ambos estão conectados através de um mesmo switch Ethernet. A máscara de rede utilizada é 255.255.255.224. Assinale a alternativa que indica corretamente o motivo pelo qual a tentativa de transmissão irá fracassar.",
         "alternativas": {
             "A": "O endereço 10.0.0.0/8 é reservado para uso interno e necessita de um dispositivo que implemente o NAT (Network AddressTranslation) para permitir a comunicação entre os computadores.",
@@ -404,10 +403,10 @@
             "E": "O endereço 10.1.1.90 corresponde ao endereço de rede e não poderia ter sido atribuído para um host específico."
         },
         "gabarito_correto": "B",
+        "id": "3012310",
         "comentario_ia": "A máscara 255.255.255.224 define sub-redes com prefixo /27. Os endereços 10.1.1.90 e 10.1.1.129 pertencem a sub-redes diferentes (/27) e, portanto, a comunicação entre eles requer um roteador. Um switch opera na camada 2 (MAC address) e não roteia entre sub-redes distintas."
     },
     {
-        "id": "3012311",
         "enunciado": "Considerando o modelo OSI (Open Systems Interconnection) e o conjunto de protocolos Inter Rede (TCP/IP), assinale a alternativa que apresenta a camada do modelo OSI que representa as funções implementadas pelo protocolo UDP (UserDatagram Protocol).",
         "alternativas": {
             "A": "Camada de Enlace.",
@@ -417,10 +416,10 @@
             "E": "Camada de Aplicação"
         },
         "gabarito_correto": "C",
+        "id": "3012311",
         "comentario_ia": "O UDP opera na camada de Transporte do modelo OSI, fornecendo um serviço de comunicação sem conexão, diferente do TCP que é orientado à conexão."
     },
     {
-        "id": "3014237",
         "enunciado": "Conforme as Normas Técnicas do Sistema de Cabeamento Estruturado, existem 6 (seis) subsistemas. Quanto a esses subsistemas, assinale a alternativa incorreta:",
         "alternativas": {
             "A": "Sala de Equipamentos",
@@ -429,10 +428,10 @@
             "D": "Sala de Telecomunicações"
         },
         "gabarito_correto": "B",
+        "id": "3014237",
         "comentario_ia": "A alternativa B está incorreta. O Cabeamento Backbone (ou Vertical) interliga os subsistemas horizontalmente, enquanto o Cabeamento Horizontal se estende da área de trabalho até a sala de telecomunicações. A alternativa mistura os conceitos."
     },
     {
-        "id": "3012312",
         "enunciado": "Assinale a alternativa que apresenta a técnica utilizada para prevenir que um computador envie dados mais rapidamente que o destino pode absorver.",
         "alternativas": {
             "A": "Controle de fluxo.",
@@ -442,10 +441,10 @@
             "E": "Algoritmo Dijkstra."
         },
         "gabarito_correto": "A",
+        "id": "3012312",
         "comentario_ia": "O controle de fluxo se refere a tecnicas para gerenciar a taxa de transmissao de dados entre remetente e destinatario, evitando que o remetente envie mais dados do que o destinatario pode processar. As outras opcoes tratam de outros aspectos de redes ou algoritmos."
     },
     {
-        "id": "3014238",
         "enunciado": "Leia o trecho abaixo quanto aos principais equipamentos de redes:“O ____ é um aparelho muito semelhante ao ____, mas tem uma grande diferença: os dados vindos do computador de origem somente são repassados ao computador de destino. No entanto, o ____ é mais “inteligente” que o ____, pois além de poder fazer a mesma função deste, também tem a capacidade de escolher a melhor rota que um determinado pacote de dados deve seguir para chegar em seu destino.” Assinale a alternativa que completa correta e respectivamente as lacunas:",
         "alternativas": {
             "A": "roteador - hub - switch - switch",
@@ -454,10 +453,10 @@
             "D": "switch - hub - roteador - switch"
         },
         "gabarito_correto": "D",
+        "id": "3014238",
         "comentario_ia": "O hub repassa dados para todas as portas. O switch conecta dispositivos e envia dados apenas para o destinatário específico. O roteador é mais inteligente, pois escolhe a melhor rota para os pacotes de dados. Assim, temos: switch - hub - roteador - switch."
     },
     {
-        "id": "3012313",
         "enunciado": "Assinale a alternativa que apresenta corretamente o número de bits de um endereço do protocolo Ethernet (padrãoIEEE802.3).",
         "alternativas": {
             "A": "128.",
@@ -467,10 +466,10 @@
             "E": "32."
         },
         "gabarito_correto": "D",
+        "id": "3012313",
         "comentario_ia": "O endereço do protocolo Ethernet, de acordo com o padrão IEEE 802.3 (MAC address), possui 48 bits de comprimento. Ele é utilizado para identificar unicamente cada dispositivo em uma rede local."
     },
     {
-        "id": "3012314",
         "enunciado": "A aplicação do campo TTL (Time to Live) do protocolo IP:",
         "alternativas": {
             "A": "permite o cálculo do atraso fim a fim dos pacotes.",
@@ -480,10 +479,10 @@
             "E": "evita que pacotes fiquem circulando na rede por erros de roteamento."
         },
         "gabarito_correto": "E",
+        "id": "3012314",
         "comentario_ia": "O campo TTL (Time to Live) no protocolo IP é um contador que é decrementado a cada roteador. Quando chega a zero, o pacote é descartado, impedindo que pacotes com erros de roteamento circulem indefinidamente na rede."
     },
     {
-        "id": "3014240",
         "enunciado": "Quanto aos termos utilizados no Dynamic Host Confguration Protocol (DHCP) analise as afirmativas abaixo e assinale a alternativa correta.I. é um protocolo de serviço TCP/IP que oferece configuração dinâmica de terminais.II. um escopo é o intervalo consecutivo completo dos endereços IP possíveis para uma rede.III. quando um computador conecta-se a uma rede, o host/ cliente DHCP envia um pacote UDP, em broadcast, com uma requisição DHCP.",
         "alternativas": {
             "A": "Apenas as afirmativas I e II são tecnicamente verdadeiras",
@@ -492,10 +491,10 @@
             "D": "As afirmativas I, II e III são tecnicamente verdadeiras"
         },
         "gabarito_correto": "D",
+        "id": "3014240",
         "comentario_ia": "A afirmativa I descreve corretamente o DHCP como protocolo TCP/IP para configuração dinâmica. A afirmativa II explica o escopo como um intervalo de IPs. A afirmativa III descreve o processo de requisição DHCP pelo cliente. Todas as afirmativas são tecnicamente verdadeiras."
     },
     {
-        "id": "3022538",
         "enunciado": "Preencha corretamente as lacunas do texto a seguir,considerando os protocolos da camada de aplicação OSI.___________________ e ___________________ são protocolos de transferência de arquivos que utilizamo ___________________.A sequência que preenche corretamente as lacunas do texto é",
         "alternativas": {
             "A": "DNS / FTP / TCP.",
@@ -505,10 +504,10 @@
             "E": "DNS / DHCP / UDP."
         },
         "gabarito_correto": "C",
+        "id": "3022538",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3012315",
         "enunciado": "Com relação ao protocolo SNMP (Simple Network Management Protocol), a função da MIB (Management Information Base)é manter uma base de dados para armazenar:",
         "alternativas": {
             "A": "um histórico de leituras das variáveis gerenciadas de um equipamento.",
@@ -518,10 +517,10 @@
             "E": "informações sobre as permissões de acesso dos equipamentos gerenciados."
         },
         "gabarito_correto": "D",
+        "id": "3012315",
         "comentario_ia": "A MIB (Management Information Base) no SNMP é uma base de dados que armazena informações sobre as variáveis gerenciadas de um equipamento. Ela funciona como uma estrutura hierárquica onde os agentes SNMP consultam ou modificam informações para gerenciar o dispositivo."
     },
     {
-        "id": "3014242",
         "enunciado": "Quanto às redes sem fio, analise as afirmativas abaixo, dê valores Verdadeiro (V) ou Falso (F):( ) o modo peer-to-peer, é também chamado de modo ad hoc.( ) o protocolo mais recomendado para a segurança de redes sem fio é o WEP.( ) para a segurança das redes sem fo não deve ser usado o protocolo WPA2.Assinale a alternativa que apresenta a sequência correta de cima para baixo.",
         "alternativas": {
             "A": "V - F - F",
@@ -530,10 +529,10 @@
             "D": "F - F - V"
         },
         "gabarito_correto": "A",
+        "id": "3014242",
         "comentario_ia": "O modo peer-to-peer em redes sem fio e de fato chamado de modo ad hoc. No entanto, o protocolo WEP nao e o mais recomendado para seguranca, sendo obsoleto e vulneravel. O protocolo WPA2 e sim o mais seguro e recomendado. Portanto, a sequencia correta e V-F-F."
     },
     {
-        "id": "3012317",
         "enunciado": "Assinale a alternativa que apresenta um protocolo de distribuição automática de rotas.",
         "alternativas": {
             "A": "SPT (Spanning Tree Protocol).",
@@ -543,10 +542,10 @@
             "E": "SCTP (Streaming Control Transport Protocol)."
         },
         "gabarito_correto": "C",
+        "id": "3012317",
         "comentario_ia": "OSPF (Open Shortest Path First) é um protocolo de roteamento interno (IGP) que utiliza o algoritmo Dijkstra para determinar as melhores rotas em uma rede."
     },
     {
-        "id": "3022541",
         "enunciado": "Suponha que um técnico está configurando o firewall da empresa 130.207/16 com servidor Web no endereço 130.207.244.203.Para impedir que a rede da empresa seja usada por um ataque DoS smurf, é correto afirmar que o firewall deve descartar todos os pacotes",
         "alternativas": {
             "A": "ICMP com TTL expirado.",
@@ -556,10 +555,10 @@
             "E": "ping que estão indo para um endereço de difusão,por exemplo: 130.207.255.255"
         },
         "gabarito_correto": "E",
+        "id": "3022541",
         "comentario_ia": "O ataque Smurf explora a resposta de pacotes ICMP de difusao para causar sobrecarga. Ao descartar pacotes de ping enviados para enderecos de difusao, o firewall impede que a rede seja usada como amplificador para ataques DoS."
     },
     {
-        "id": "3021043",
         "enunciado": "Qual é a topologia de rede onde todos os usuários se comunicam com um nó central, por onde são transmitidas todas as mensagens. Através do nó central, os usuários podem transmitir mensagens entre si. O nó central funciona como um comutador de mensagens para transmissão dos dados entre eles.(Fonte: https://pt.scribd.com/doc/83505510/Arquitetura-e-protocolos-de-rede-TCP-IP)",
         "alternativas": {
             "A": "Topologia Anel.",
@@ -568,10 +567,10 @@
             "D": "Topologia Barramento."
         },
         "gabarito_correto": "B",
+        "id": "3021043",
         "comentario_ia": "A topologia de rede descrita, onde todos os usuários se comunicam com um nó central que gerencia as transmissões, é a Topologia Estrela. As topologias Anel, Par-a-Par e Barramento possuem estruturas de comunicação diferentes."
     },
     {
-        "id": "3014244",
         "enunciado": "Quanto ao endereçamento do IPv6, pode também ser válido e, escrito corretamente, o endereço 2001:0DB8: 0000:0000:130F:0000:0000:140B como:I. 2001:DB8::130F:0:0:140BII. 2001:DB8::130F::140BIII. 2001:DB8:0:0:130F::140BAssinale a alternativa correta:",
         "alternativas": {
             "A": "da relação apresentada somente são aplicados o (I) e (II)",
@@ -580,10 +579,10 @@
             "D": "da relação apresentada todos podem ser aplicados"
         },
         "gabarito_correto": "C",
+        "id": "3014244",
         "comentario_ia": "O endereçamento IPv6 permite a omissão de zeros à esquerda em cada bloco (2001:DB8::...). Também é permitido omitir um ou mais blocos contínuos de zeros, representados por '::' (II não permite multiplos ::). No entanto, apenas um conjunto de dois '::' é permitido, e mais de um grupo de zeros pode ser omitido, assim (I) e (III) são formas válidas."
     },
     {
-        "id": "3008217",
         "enunciado": "O modelo Open System Interconnection (OSI) foi desenvolvido pela International Standards Organization (ISO) e possui sete camadas. Em relação a essas camadas, assinale a alternativa correta.",
         "alternativas": {
             "A": "A camada de enlace de dados trata da transmissão de bits brutos por um canal de comunicação.",
@@ -593,10 +592,10 @@
             "E": "A camada de apresentação contém uma série de protocolos comumente necessários para os usuários, como o HTTP (HyperText Transfer Protocol)."
         },
         "gabarito_correto": "B",
+        "id": "3008217",
         "comentario_ia": "A camada de sessão é responsável por estabelecer, gerenciar e encerrar as conexões entre aplicações. Ela controla o diálogo, a sincronização e a manutenção da comunicação, garantindo a ordem e a continuidade das trocas de dados."
     },
     {
-        "id": "3008218",
         "enunciado": "A camada física é a mais baixa do modelo Open System Interconnection (OSI) e define as interfaces mecânica, elétrica e de sincronização para a rede. Acerca dessa camada, é correto afirmar que",
         "alternativas": {
             "A": "a largura de banda é uma propriedade física do meio de transmissão, não dependendo da construção, da espessura e do comprimento do meio.",
@@ -606,10 +605,10 @@
             "E": "a largura de banda do cabo coaxial é muito mais alta do que a dos pares trançados."
         },
         "gabarito_correto": "E",
+        "id": "3008218",
         "comentario_ia": "A largura de banda do cabo coaxial é significativamente superior à dos pares trançados, tornando-o mais adequado para aplicações que demandam alta velocidade de transmissão de dados."
     },
     {
-        "id": "3008219",
         "enunciado": "O modelo TCP/IP, como o nome sugere, tem como principais partes os protocolos TCP e IP. Com relação a eles, assinale a alternativa correta.",
         "alternativas": {
             "A": "O protocolo IP oferece garantia de que os datagramas serão entregues da forma apropriada.",
@@ -619,10 +618,10 @@
             "E": "Os datagramas também podem chegar fora de ordem, mas não cabe ao TCP reorganizá-los na sequência correta."
         },
         "gabarito_correto": "C",
+        "id": "3008219",
         "comentario_ia": "O TCP é um protocolo orientado à conexão, garantindo comunicação confiável. Todas as conexões TCP são estabelecidas como full-duplex, permitindo a troca de dados em ambas as direções simultaneamente, e são ponto a ponto, conectando dois endpoints específicos."
     },
     {
-        "id": "3017442",
         "enunciado": "Qual dos seguintes tipos de cabo é o mais indicado para estabelecer a interligação de rede entre dois prédios separados por uma distância de 2 km de modo a evitar o uso de equipamentos de interconexão?",
         "alternativas": {
             "A": "Fibra óptica multímodo.",
@@ -632,10 +631,10 @@
             "E": "Cabo UTP categoria 6a."
         },
         "gabarito_correto": "D",
+        "id": "3017442",
         "comentario_ia": "Para distâncias longas de 2 km, a fibra óptica monomodo é a mais indicada devido à sua baixa atenuação e alta largura de banda, permitindo a transmissão de sinais sem a necessidade de repetidores ou equipamentos de interconexão, ao contrário dos cabos UTP que possuem limitações de distância."
     },
     {
-        "id": "3008220",
         "enunciado": "Uma parte integrante da Internet são os Domain Name Systems (DNS). Em relação a eles, é correto afirmar que",
         "alternativas": {
             "A": "uma URL tem três partes: o nome do protocolo, o nome DNS da máquina em que a página está localizada e (possivelmente) um caminho único para a página específica.",
@@ -645,10 +644,10 @@
             "E": "um servidor mantém a sessão de um usuário ativa por meio do respectivo endereço IP."
         },
         "gabarito_correto": "A",
+        "id": "3008220",
         "comentario_ia": "Uma URL é composta pelo protocolo (ex: http), o nome do DNS que identifica o servidor (ex: www.google.com) e o caminho para o recurso específico na página."
     },
     {
-        "id": "3017443",
         "enunciado": "Assinale a alternativa correta a respeito do protocolo TCP.",
         "alternativas": {
             "A": "É o protocolo padrão para envio de consultas a servidores DNS.",
@@ -658,10 +657,10 @@
             "E": "Seu cabeçalho possui campos que indicam o endereço IP e o número da porta do destinatário dos dados."
         },
         "gabarito_correto": "C",
+        "id": "3017443",
         "comentario_ia": "O TCP não é usado para DNS (UDP é). Portas vão até 65535. O SMTP usa TCP. O tamanho máximo do pacote geralmente é definido pela MTU (1500 bytes), mas o TCP não impõe este limite diretamente. O cabeçalho do TCP não contém IP."
     },
     {
-        "id": "3023739",
         "enunciado": "Considere a seguinte situação: uma rede local possui muitas estações ligadas a um mesmo barramento. Deseja-se dividi-la em duas partes para aliviar o tráfego do barramento. Neste caso, pode-se solucionar com o emprego de um equipamento de rede denominado:",
         "alternativas": {
             "A": "Hub.",
@@ -671,10 +670,10 @@
             "E": "Gateway."
         },
         "gabarito_correto": "B",
+        "id": "3023739",
         "comentario_ia": "Um bridge opera na camada de enlace e é usado para conectar dois segmentos de rede, aprendendo os endereços MAC para encaminhar quadros de forma inteligente. Isso ajuda a reduzir o tráfego no barramento principal."
     },
     {
-        "id": "3049484",
         "enunciado": "Assinale a alternativa correta. De acordo com Dantas(2002), considerando a forma como a luz trafega na fibra ótica, as fibras óticas se classificam em:",
         "alternativas": {
             "A": "Transparentes e translucida.",
@@ -683,10 +682,10 @@
             "D": "Longa distância, média distância e curta distância"
         },
         "gabarito_correto": "C",
+        "id": "3049484",
         "comentario_ia": "A classificação das fibras ópticas, com base na forma como a luz trafega nelas, é em monomodo e multímodo. As outras classificações listadas nas alternativas não se referem a essa característica específica de propagação da luz."
     },
     {
-        "id": "3008222",
         "enunciado": "Nas complexas redes de roteadores, switches, e servidores, pode parecer uma tarefa monumental gerenciar todos os aparelhos em sua rede e se certificar de que eles não só estão operando, mas também com performance ótima. É nisso que o Simple Network Management Protocol (SNMP) pode ajudar.MAURO, D.; SCHMIDT, K. Essential SNMP. Sebastopol: O’Reilly Media, 2005. Tradução livre. Em relação ao SNMP (do inglês, Simple Network Management Protocol) assinale a alternativa correta.",
         "alternativas": {
             "A": "O SNMP usa o Transmission Control Protocol (TCP) como o protocolo para passar dados entre gerentes e agentes.",
@@ -696,10 +695,10 @@
             "E": "O gerenciamento de recursos (espaço em disco, uso de memória etc.) não entra no escopo do gerenciamento de redes."
         },
         "gabarito_correto": "C",
+        "id": "3008222",
         "comentario_ia": "O SNMP utiliza um formato de mensagem padronizado chamado PDU (Protocol Data Unit) para a troca de informações entre o gerente (manager) e o agente. TCP não é utilizado, mas sim UDP. A alternativa B descreve atributos de objetos MIB, não da entidade SNMP."
     },
     {
-        "id": "3028875",
         "enunciado": "É o protocolo utilizado para controlar a comunicação entre o servidor e o navegador de Internet:",
         "alternativas": {
             "A": "HTTP",
@@ -708,10 +707,10 @@
             "D": "IP"
         },
         "gabarito_correto": "A",
+        "id": "3028875",
         "comentario_ia": "HTTP (Hypertext Transfer Protocol) é o protocolo padrão para comunicação entre navegadores e servidores web, definindo como as informações são transmitidas na World Wide Web."
     },
     {
-        "id": "3008223",
         "enunciado": "De acordo com o MIB (do inglês, Management Information Base), assinale a alternativa correta.",
         "alternativas": {
             "A": "Os MIBs proveem uma descrição superficial dos objetos de dados gerenciados.",
@@ -721,10 +720,10 @@
             "E": "O MIB define a sintaxe (tipo e estrutura) e semântica dos objetos gerenciados."
         },
         "gabarito_correto": "E",
+        "id": "3008223",
         "comentario_ia": "O MIB (Management Information Base) define a sintaxe (tipo e estrutura) e a semântica (significado) dos objetos que compõem a base de informações gerenciadas em uma rede."
     },
     {
-        "id": "3008224",
         "enunciado": "Hiper convergência pode ser entendida como a combinação de várias plataformas potencialmente diferentes em uma única.GREEN, J.; LOWE, S.D.; DAVIS, D.M. The Fundamentals of Hyperconverged Infrastructure. Bluffton: Actual Tech Media, 2018. Tradução livre. Acerca da hiper convergência, pode-se afirmar que ela",
         "alternativas": {
             "A": "reduz os custos de infraestrutura ao adicionar novos nós dedicados de Storage Area Network (SAN) ou Network Attached Storage (NAS).",
@@ -734,10 +733,10 @@
             "E": "facilita a administração ao remover medidas de virtualização."
         },
         "gabarito_correto": "B",
+        "id": "3008224",
         "comentario_ia": "A hiperconvergência integra recursos de computação, armazenamento e rede em uma plataforma unificada. Ela utiliza a virtualização para criar uma camada de abstração, simplificando o gerenciamento e a alocação desses recursos aos usuários."
     },
     {
-        "id": "3005012",
         "enunciado": "Protocolos são conjuntos de regras que determinam como uma rede entre dois ou mais sistemas deve funcionar. Qual das opções abaixo não é considerado um protocolo de internet.",
         "alternativas": {
             "A": "PHP",
@@ -746,10 +745,10 @@
             "D": "SMTP"
         },
         "gabarito_correto": "A",
+        "id": "3005012",
         "comentario_ia": "PHP (Hypertext Preprocessor) e uma linguagem de script de uso geral, amplamente utilizada em desenvolvimento web, mas nao e um protocolo de internet. POP, FTP e SMTP sao protocolos."
     },
     {
-        "id": "3017446",
         "enunciado": "Identifique quais das ações enumeradas a seguir podem ser executadas pelo firewall padrão do Ubuntu 16.04. Em seguida, assinale a alternativa correta.I. Bloquear o tráfego oriundo de uma rede.II. Bloquear o tráfego destinado a uma rede.III. Bloquear o tráfego recebido em uma porta TCP.IV. Bloquear o tráfego destinado a uma porta TCP.",
         "alternativas": {
             "A": "Somente as ações I e II estão corretas.",
@@ -759,10 +758,10 @@
             "E": "Todas as ações estão corretas."
         },
         "gabarito_correto": "E",
+        "id": "3017446",
         "comentario_ia": "Firewalls podem bloquear tráfego de entrada e saída, seja originado de uma rede especifica, destinado a uma rede especifica, recebido em uma porta especifica, ou destinado a uma porta especifica. Todas as ações descritas sao tipicas funcionalidades do firewall."
     },
     {
-        "id": "3017446",
         "enunciado": "Identifique quais das ações enumeradas a seguir podem ser executadas pelo firewall padrão do Ubuntu 16.04. Em seguida, assinale a alternativa correta.I. Bloquear o tráfego oriundo de uma rede.II. Bloquear o tráfego destinado a uma rede.III. Bloquear o tráfego recebido em uma porta TCP.IV. Bloquear o tráfego destinado a uma porta TCP.",
         "alternativas": {
             "A": "Somente as ações I e II estão corretas.",
@@ -772,10 +771,10 @@
             "E": "Todas as ações estão corretas."
         },
         "gabarito_correto": "E",
+        "id": "3017446",
         "comentario_ia": "Firewalls podem bloquear tráfego de entrada e saída, seja originado de uma rede especifica, destinado a uma rede especifica, recebido em uma porta especifica, ou destinado a uma porta especifica. Todas as ações descritas sao tipicas funcionalidades do firewall."
     },
     {
-        "id": "3049485",
         "enunciado": "Assinale a alternativa que descreve corretamente a função da camada do protocolo TCP/IP referente a Inter-rede (Internet):",
         "alternativas": {
             "A": "É responsável por prover suporte a camada de apresentação",
@@ -784,10 +783,10 @@
             "D": "É função desta camada o envio dos datagramas para outro computador, independentemente de sua localização."
         },
         "gabarito_correto": "D",
+        "id": "3049485",
         "comentario_ia": "A camada de Inter-rede (ou Internet) no modelo TCP/IP é responsável pelo endereçamento e roteamento dos pacotes (datagramas) através de diferentes redes, garantindo que cheguem ao destino correto, independentemente da localização física."
     },
     {
-        "id": "3023743",
         "enunciado": "Redes Wi-Fi se tornaram populares pela mobilidade que oferecem e pela facilidade de instalação e de uso em diferentes tipos de ambientes.O mecanismo de segurança utilizado para melhorar a segurança na conexão Wi-Fi é chamado de:",
         "alternativas": {
             "A": "Firewall.",
@@ -797,10 +796,10 @@
             "E": "rotocolo PAP."
         },
         "gabarito_correto": "B",
+        "id": "3023743",
         "comentario_ia": "O WPA2 (Wi-Fi Protected Access 2) é um padrão de segurança para redes sem fio que utiliza criptografia robusta (AES) para proteger a comunicação, garantindo maior segurança nas conexões Wi-Fi."
     },
     {
-        "id": "3042577",
         "enunciado": "Imagine que um profissional de TI especializado em projetar redes de computadores recebe uma tarefa de um cliente que deseja criar uma rede composta por 7 computadores. Além disso o cliente especifica que cada um dos computadores da rede deve possuir conexão direta com os demais, não havendo neste ambiente, portanto, nenhum tipo de dispositivo de rede adicional, como roteadores ou switches. Assinale a alternativa que indica corretamente o nome da topologia de rede solicitada por este cliente e o número de conexões que o profissional de TI terá que realizar nesta rede para atender tal requisito.",
         "alternativas": {
             "A": "Estrela e 28",
@@ -810,10 +809,10 @@
             "E": "Barra e 7"
         },
         "gabarito_correto": "B",
+        "id": "3042577",
         "comentario_ia": "A topologia malha completa conecta todos os dispositivos entre si. Para n dispositivos, o numero de conexoes e n*(n-1)/2. Com 7 computadores, seriam 7*(7-1)/2 = 21 conexoes."
     },
     {
-        "id": "3042412",
         "enunciado": "Em se tratando de padrões de rede, o padrão FDDI (Fiber Distributed Data Interface) é bastante conhecido no mercado e faz uso de cabos de fibra ótica. Dada sua elevada capacidade de transmissão, é bastante utilizada em redes do tipo MAN (Metropolitan Area Network). Assinale a alternativa que indica corretamente o tipo de topologia de rede ao qual este padrão está associado.",
         "alternativas": {
             "A": "Star (Estrela)",
@@ -823,10 +822,10 @@
             "E": "Ring (Anel)"
         },
         "gabarito_correto": "E",
+        "id": "3042412",
         "comentario_ia": "O padrão FDDI, que utiliza fibra ótica para alta velocidade em redes MAN, é associado à topologia em anel duplo ('dual ring'), onde os dados circulam em sentidos opostos para redundância."
     },
     {
-        "id": "3023746",
         "enunciado": "O objetivo de uma estrutura de protocolos de redes em níveis é delimitar e isolar funções de comunicações a camadas. Nesse sentido, o objetivo do nível de ligação é:",
         "alternativas": {
             "A": "isolar dos níveis superiores a parte de transmissão da rede.",
@@ -836,10 +835,10 @@
             "E": "fornecer ao nível de transporte uma independência quanto às considerações de chaveamento e roteamento."
         },
         "gabarito_correto": "B",
+        "id": "3023746",
         "comentario_ia": "O nivel de enlace (ou link) em uma arquitetura de protocolos de rede é responsavel por detectar e, opcionalmente, corrigir erros que ocorrem na transmissao sobre o nivel fisico, garantindo a integridade dos dados entre dois nós conectados."
     },
     {
-        "id": "3042580",
         "enunciado": "Os computadores de uma rede TCP/IP local podem ter seu número IP atribuído de duas diferentes formas: estática e dinâmica. Quando atribuídos de forma estática, o número IP é definido de forma manual para cada computador. Quando desejamos realizar atribuição de IPs de forma automática e segura, evitando, por exemplo, a atribuição de números IP repetidos, é necessário fazermos uso de um protocolo criado especificamente para atender esta necessidade. Assinale a alternativa que indica corretamente o nome deste protocolo.",
         "alternativas": {
             "A": "UDP",
@@ -849,10 +848,10 @@
             "E": "VPN"
         },
         "gabarito_correto": "D",
+        "id": "3042580",
         "comentario_ia": "O DHCP (Dynamic Host Configuration Protocol) é o protocolo projetado especificamente para a atribuição automática e segura de endereços IP em redes TCP/IP. Ele gerencia um pool de endereços e os distribui dinamicamente aos dispositivos, garantindo que não haja conflitos (endereços repetidos). UDP é um protocolo de transporte, Active Directory é um serviço de diretório, DNS resolve nomes em IPs e VPN cria túneis seguros."
     },
     {
-        "id": "3023390",
         "enunciado": "Dos endereços IP seguintes, aquele que representa um endereço de broadcast da rede é:",
         "alternativas": {
             "A": "127.0.0.1",
@@ -862,10 +861,10 @@
             "E": "192.168.0.255."
         },
         "gabarito_correto": "E",
+        "id": "3023390",
         "comentario_ia": "O endereço 192.168.0.255 é um endereço de broadcast na rede 192.168.0.0/24. Os outros endereços apresentados são inválidos (290 e 152.) ou têm usos específicos (127.0.0.1)."
     },
     {
-        "id": "3042860",
         "enunciado": "Um dispositivo no qual estão conectados os cabos de rede de diversos computadores e que, ao receber uma informação, a envia a todos os computadores nele conectados, chama-se:",
         "alternativas": {
             "A": "Roteador.",
@@ -875,10 +874,10 @@
             "E": "Moden."
         },
         "gabarito_correto": "D",
+        "id": "3042860",
         "comentario_ia": "Um HUB é um dispositivo de rede que recebe informações e as transmite para todos os computadores conectados a ele. Ele opera na camada física e não tem inteligência para direcionar o tráfego, diferentemente de um switch ou roteador."
     },
     {
-        "id": "3042413",
         "enunciado": "A respeito do endereço MAC e suas características, analise as afirmativas abaixo:Por se tratar de um endereço muito importante para garantir a correta comunicação dentro de uma rede, o endereço MAC de um dispositivo não pode ser visualizado por usuários comuns em sistemas operacionais como Microsoft Windows ou Linux.Trata-se de um identificador físico que fica gravado em hardware. Encontra-se presente nas interfaces de redes utilizadas por notebooks, desktops, impressoras de rede, etc.O endereço MAC é composto por 6 bytes, sendo que cada byte é representado por 2 algarismos em base hexadecimal.Assinale",
         "alternativas": {
             "A": "se somente as afirmativas I e II estiverem corretas.",
@@ -888,10 +887,10 @@
             "E": "se todas as afirmativas estiverem corretas."
         },
         "gabarito_correto": "D",
+        "id": "3042413",
         "comentario_ia": "A afirmativa I está incorreta. O endereço MAC pode ser visualizado em sistemas operacionais. A afirmativa II está correta, pois o MAC é um identificador físico de hardware. A afirmativa III está correta, pois o MAC é composto por 6 bytes (48 bits), cada um representado por 2 algarismos hexadecimais."
     },
     {
-        "id": "3024475",
         "enunciado": "Na coluna I estão dispostos conceitos utilizados na Internet. Estabeleça a correta correspondência com seus significados, conforme apresentado na Coluna II:Coluna I1. FTP2. IMAP3. DNS4. Gmail5. SSHColuna II( ) Sistema de nomes de domínios.( ) protocolo para transferência de arquivos.( ) protocolo para acessar e-mail.( ) webmail.( ) protocolo de rede para comunicação segura.A sequência correta, de cima para baixo, é:",
         "alternativas": {
             "A": "5, 1, 4, 2 e 3.",
@@ -901,10 +900,10 @@
             "E": "2, 1, 5, 3 e 4."
         },
         "gabarito_correto": "C",
+        "id": "3024475",
         "comentario_ia": "A correspondência correta é: 3. DNS (Sistema de nomes de domínios), 1. FTP (protocolo para transferência de arquivos), 2. IMAP (protocolo para acessar e-mail), 4. Gmail (webmail), 5. SSH (protocolo de rede para comunicação segura)."
     },
     {
-        "id": "3042414",
         "enunciado": "Em relação aos protocolos TCP e UDP, analise as afirmativas a seguir:Ambos os protocolos são exemplos de protocolos da camada de transporte.O protocolo UDP é um protocolo orientado a conexão,garantindo, portanto, a entrega de dados sem erro.O TCP é um protocolo não orientado a conexão, não garantido então a entrega dos dados. Este tipo de protocolo é usado por exemplo em aplicações de streaming onde a perda de alguns dados não representa um problema grave para o usuário.Assinale",
         "alternativas": {
             "A": "se somente a afirmativa I estiver correta.",
@@ -914,10 +913,10 @@
             "E": "se todas as afirmativas estiverem corretas."
         },
         "gabarito_correto": "A",
+        "id": "3042414",
         "comentario_ia": "A afirmativa I esta correta pois ambos sao da camada de transporte. A afirmativa II esta incorreta pois UDP nao e orientado a conexao e nao garante entrega sem erro. A afirmativa III descreve o UDP incorretamente como se fosse o TCP e sua aplicacao."
     },
     {
-        "id": "3042581",
         "enunciado": "A respeito de serviços que podem ser atribuídos a servidores que utilizam sistemas operacionais Linux, como é o caso da distribuição Debian, analise as afirmativas abaixo.Quando desejamos simular uma rede privada a partir de conexões pertencentes a uma rede pública criamos uma VPN. No Linux podemos instalar um serviço de VPN através de aplicações como o OpennVPN. Esta aplicação é capaz de cria ruma VPN em cima de protocolo UDP mas também TCP. Além disso utiliza o Openn SSL para prover criptografia nas comunicações, garantindo mais segurança.Quando desejamos compartilhar recursos como arquivos e impressoras de um servidor Linux para clientes que utilizam o sistema operacional Windows, podemos instalar um serviço chamado Samba. Este serviço é capaz de prover compatibilidade de comunicação entre estes sistemas operacionais.Ao instalarmos um servidor Linux utilizando a distribuição Debian é perfeitamente possível criarmos diversas partições em um mesmo disco rígido. Alguns exemplos de sistemas de arquivos que podemos utilizar nestas partições são o EXT3 eEXT4. Estes são suportados nativamente pelo Kernel do Linux.Assinale",
         "alternativas": {
             "A": "se somente as afirmativas I e II estiverem corretas.",
@@ -927,10 +926,10 @@
             "E": "se todas as afirmativas estiverem corretas."
         },
         "gabarito_correto": "E",
+        "id": "3042581",
         "comentario_ia": "Todas as afirmativas estao corretas. I - VPNs com OpenVPN em Linux oferecem segurança e flexibilidade de protocolo. II - O Samba permite compartilhar recursos entre Linux e Windows. III - Linux suporta particionamento e sistemas de arquivos como EXT3/EXT4 nativamente."
     },
     {
-        "id": "3023391",
         "enunciado": "A principal razão para a substituição do IPv4 pelo IPv6 é a:",
         "alternativas": {
             "A": "possibilidade de utilização na intranet.",
@@ -940,10 +939,10 @@
             "E": "possibilidade de transmissão de VoIP."
         },
         "gabarito_correto": "B",
+        "id": "3023391",
         "comentario_ia": "A principal motivação para a transição do IPv4 para o IPv6 é a imensa escassez de endereços IP disponíveis no IPv4, devido ao crescimento exponencial da internet e do número de dispositivos conectados."
     },
     {
-        "id": "3049489",
         "enunciado": "Assinale a alternativa que apresenta corretamente definições para Hub, Switch, Roteador e Modem:",
         "alternativas": {
             "A": "Hub – Conecta os PCs de uma rede e possibilita a troca de informações entre eles. Um aspecto a considerar neste tipo de equipamento é que uma informação destinada a um determinado computador será transmitida para todos os computadores que estiverem conectados a este Hub. Esta característica fragiliza a política de segurança. Switch – Tem seu funcionamento muito similar ao Hub uma das diferenças fundamentais é que o Switch tem uma metodologia de gerenciamento dos equipamentos conectados nele por meio de uma tabela. Esta condição permite que os computadores troquem informações entre si sem que a informação precise passar por todos os computadores conectados nele. Isto dá mais robustez a política de segurança bem como mais velocidade pois diminui o tráfego na rede. Roteador: O roteador compartilha informações com outros computadores por meio de pacote de dados. Ele amplia a capacidade de conectividade associando redes diferentes, equipamentos diferentes bem como favorece o acesso à Internet. Modem: Sua principal função é ade substituir os Hub e Switch transformando um sinal analógico em digital e o contrário. Um sinal digital em sinal analógico.",
@@ -952,10 +951,10 @@
             "D": "Hub – Conecta redes e possibilita a troca de informações entre elas. Um aspecto a considerar neste tipo de equipamento é que uma informação destinada a um determinado computador será transmitida para todos os computadores que estiverem conectados neste Hub. Esta característica fragiliza a política de segurança. Switch – Tem seu funcionamento muito similar ao Hub uma das diferenças fundamentais é que o Switch não tem uma metodologia de gerenciamento dos equipamentos conectados nele. Esta condição permite que os computadores troquem informações entre si sem que a informação precise passar por todos os computadores conectados nele. Isto dá mais robustez a política de segurança bem como mais velocidade pois diminui o tráfego na rede. Roteador: O roteador compartilha informações com outros computadores por meio de pacote de dados. Ele amplia a capacidade de conectividade associando redes diferentes, equipamentos diferentes bem como favorece o acesso à Internet. Modem: Sua principal função é a de transformar um sinal analógico em digital e o contrário. Um sinal digital em sinal analógico."
         },
         "gabarito_correto": "C",
+        "id": "3049489",
         "comentario_ia": "A alternativa C define corretamente os equipamentos. Hubs transmitem para todos os conectados, switches gerenciam por tabela, roteadores operam na camada 3 e conectam redes distintas, e modems convertem sinais analógicos/digitais. As outras alternativas contêm imprecisões nas definições."
     },
     {
-        "id": "3024614",
         "enunciado": "Das características seguintes, aquela que NÃO é condizente com a transmissão de dados por fibras óticas:",
         "alternativas": {
             "A": "altas taxas de transmissão.",
@@ -965,10 +964,10 @@
             "E": "presença de retardo na comunicação."
         },
         "gabarito_correto": "E",
+        "id": "3024614",
         "comentario_ia": "A presença de retardo na comunicação é uma característica inerente a qualquer meio de transmissão, inclusive fibras óticas. As demais alternativas descrevem vantagens das fibras óticas: altas taxas, baixas perdas, imunidade a interferências e ausência de corrente elétrica. Portanto, o retardo, embora minimizado, não é uma característica que a exclui."
     },
     {
-        "id": "3042415",
         "enunciado": "Assinale a alternativa que indica corretamente o nome do sistema que tornou obsoleto o conceito de classes de endereço A, B e C para números IP, ao viabilizar a utilização de máscara de tamanho variável para endereçamento de redes de computadores.",
         "alternativas": {
             "A": "AdHoc",
@@ -978,10 +977,10 @@
             "E": "CIDR"
         },
         "gabarito_correto": "E",
+        "id": "3042415",
         "comentario_ia": "O CIDR (Classless Inter-Domain Routing) foi criado para superar as limitações das classes de endereçamento IP (A, B, C) ao permitir máscaras de sub-rede de tamanho variável, otimizando o uso do espaço de endereçamento."
     },
     {
-        "id": "3023750",
         "enunciado": "Meio de transmissão é a conexão física entre as estações da rede. Geralmente eles diferem com relação à faixa passante, potencial para conexão ponto a ponto ou multiponto, limitação geográfica devido à atenuação característica do meio, imunidade a ruído, custo disponibilidade de componentes e confiabilidade. São meios físicos normalmente menos empregados em redes locais:",
         "alternativas": {
             "A": "fibras óticas.",
@@ -991,10 +990,10 @@
             "E": "rede de telefonia e de televisão."
         },
         "gabarito_correto": "B",
+        "id": "3023750",
         "comentario_ia": "Radiodifusao e microondas sao meios de transmissao sem fio que envolvem propagacao por longas distâncias e sao menos comuns como meio principal em redes locais (LANs) comparados a cabos, embora possam ser usados para interligacao ou acesso sem fio."
     },
     {
-        "id": "3042863",
         "enunciado": "O acesso a uma rede privada necessita de proteção e garantia de origem. Uma ferramenta que dá proteção a redes de computadores impedindo acessos não autorizados é:",
         "alternativas": {
             "A": "Criptografia.",
@@ -1004,10 +1003,10 @@
             "E": "Band Switch."
         },
         "gabarito_correto": "D",
+        "id": "3042863",
         "comentario_ia": "Um Firewall é um sistema de segurança de rede que monitora e controla o tráfego de entrada e saída com base em regras de segurança predeterminadas, impedindo acessos não autorizados e protegendo a rede contra ameaças."
     },
     {
-        "id": "3042583",
         "enunciado": "A respeito das redes de computadores e seus conceitos, analise as afirmativas abaixo.Redes que suportam comunicações bidirecionais podem ser de dois tipos: Half Duplex e Full Duplex. A vantagem da segunda em relação à primeira é que a comunicação pode ocorrer nos dois sentidos ao mesmo tempo.Os chamados cabos de par trançado são bastante utilizadas em redes de computadores domésticas. Estes cabos são conhecidos por este nome porque possuem 4 pares de fios.Além dos fios de um mesmo par serem trançados, todos os oito fios existentes são identificados através de cores específicas.Os conectores RJ-11 são utilizados juntamente com os cabos de par trançado para realizarmos conexões entre computadores em uma rede ethernet.Assinale",
         "alternativas": {
             "A": "se somente as afirmativas I e II estiverem corretas.",
@@ -1017,10 +1016,10 @@
             "E": "se todas as afirmativas estiverem corretas"
         },
         "gabarito_correto": "A",
+        "id": "3042583",
         "comentario_ia": "As afirmativas I e II estão corretas. A afirmativa III está incorreta pois conectores RJ-45 são usados em Ethernet, e não RJ-11, que é para redes telefônicas."
     },
     {
-        "id": "3049490",
         "enunciado": "Assinale a alternativa que define corretamente características de uma placa de rede:",
         "alternativas": {
             "A": "É um hardware que possibilita que os computadores se comuniquem entre si por meio de uma estrutura de barramento de computadores. Ele somente poderá ser utilizado para estruturas de rede com cabeamento. Tem como finalidade o controle do envio e recepção de informações que saem e chegam em um computador. Um aspecto importante a considerar sobre este dispositivo é que ele não funciona indistintamente para qualquer tipo de rede. Uma rede Ethernet não consegue funcionar com um dispositivo de rede construído para funcionar numar e de Token Ring.",
@@ -1029,10 +1028,10 @@
             "D": "Permite que o usuário conecte vários periféricos ao computador. Por meio dele um computador consegue apenas enviar informações para outro computador."
         },
         "gabarito_correto": "B",
+        "id": "3049490",
         "comentario_ia": "A alternativa B descreve corretamente as características de uma placa de rede: hardware para comunicação entre computadores, aplicável a redes com e sem fio, controlando envio e recepção de informações. A ressalva sobre não funcionar indistintamente entre diferentes tipos de rede (como Ethernet e Token Ring) também é importante."
     },
     {
-        "id": "3023394",
         "enunciado": "São mecanismos de ataque ou vulnerabilidades presentes na internet:",
         "alternativas": {
             "A": "spoofing, phishing e negação de serviço.",
@@ -1042,10 +1041,10 @@
             "E": "spywares, firewall e pharming."
         },
         "gabarito_correto": "A",
+        "id": "3023394",
         "comentario_ia": "Spoofing (falsificação de identidade), phishing (fraude para obter dados) e negação de serviço (DoS) são reconhecidos como mecanismos de ataque ou vulnerabilidades na internet. As outras alternativas misturam ataques com defesas ou outros tipos de software."
     },
     {
-        "id": "3042584",
         "enunciado": "A respeito dos modelos de rede OSI e TCP/IP, analise as afirmativas abaixo.Ambos os modelos são divididos em camadas, sendo que o modelo OSI possui 7 camadas e o modelo TCP/IP apenas 4.Apenas o TCP/IP possui uma camada “Transporte” pois no OSIa camada equivalente se chama “Transmissão”.Um dos motivos para o modelo TCP/IP possuir menos camadas que o OSI é o fato de unir os conceitos das camadas de apresentação e sessão na camada de aplicação.Assinale",
         "alternativas": {
             "A": "se somente as afirmativas I e III estiverem corretas.",
@@ -1055,10 +1054,10 @@
             "E": "se todas as afirmativas estiverem corretas."
         },
         "gabarito_correto": "A",
+        "id": "3042584",
         "comentario_ia": "As afirmativas I e III estão corretas. A afirmativa II está incorreta pois ambos os modelos possuem camada de Transporte com nomes equivalentes (Transport no TCP/IP, Transporte no OSI)."
     },
     {
-        "id": "3024617",
         "enunciado": "A topologia física em anel, quando implementada por cabos de fibra ótica, é conhecida como:",
         "alternativas": {
             "A": "Token Ring.",
@@ -1068,10 +1067,10 @@
             "E": "10 Base T."
         },
         "gabarito_correto": "B",
+        "id": "3024617",
         "comentario_ia": "FDDI (Fiber Distributed Data Interface) é uma tecnologia que utiliza fibra óptica para implementar uma rede em anel, oferecendo alta velocidade e segurança."
     },
     {
-        "id": "3024479",
         "enunciado": "Os streamings de vídeo são fluxos de mídia que são distribuídos nas redes por meio de um protocolo de forma muito rápida. O que garante a velocidade da transmissão dos dados e o protocolo utilizado são, respectivamente:",
         "alternativas": {
             "A": "digitalização dos dados e IP.",
@@ -1081,10 +1080,10 @@
             "E": "treinamento dos usuários e TCP."
         },
         "gabarito_correto": "B",
+        "id": "3024479",
         "comentario_ia": "A velocidade da transmissão de dados em streamings de vídeo é garantida, em parte, pela ausência de verificação de erros, característica do protocolo UDP, que prioriza a latência e a rapidez sobre a confiabilidade total."
     },
     {
-        "id": "3042417",
         "enunciado": "Com o surgimento de redes privadas que necessitavam partilhar uma mesma conexão de internet, surgiu também o problema de como rotear pacotes entre as diversas máquinas de uma rede local e a Internet. Para contornar tal problema foi criado um protocolo capaz de realizar a tradução de endereços IP dos computadores da rede local, garantido a eles transparência no acesso compartilhado à Internet. Assinale a alternativa que indica corretamente o nome desse protocolo.",
         "alternativas": {
             "A": "HTTP",
@@ -1094,10 +1093,10 @@
             "E": "SSH"
         },
         "gabarito_correto": "B",
+        "id": "3042417",
         "comentario_ia": "O NAT (Network Address Translation) é o protocolo responsável por traduzir os endereços IP privados de uma rede local para um endereço IP público, permitindo que múltiplos dispositivos compartilhem uma única conexão à Internet de forma transparente."
     },
     {
-        "id": "3024480",
         "enunciado": "São consideradas ferramentas ou artefatos de colaboração os abaixo relacionados, EXCETO:",
         "alternativas": {
             "A": "Skype.",
@@ -1107,10 +1106,10 @@
             "E": "RSS."
         },
         "gabarito_correto": "B",
+        "id": "3024480",
         "comentario_ia": "VPN (Virtual Private Network) é uma tecnologia de rede focada em segurança e conectividade privada, não sendo primariamente uma ferramenta de colaboração interativa como Skype, Wikis, VoIP e RSS."
     },
     {
-        "id": "3024618",
         "enunciado": "Quando uma ponte é conectada a uma rede, ela detecta automaticamente os endereços dos dispositivos e os coloca em uma tabela para saber em que segmento eles estão conectados. Esses endereços são conhecidos como:",
         "alternativas": {
             "A": "TCP.",
@@ -1120,10 +1119,10 @@
             "E": "DNS."
         },
         "gabarito_correto": "C",
+        "id": "3024618",
         "comentario_ia": "O endereço MAC e um identificador unico atribuido a cada placa de rede, usado na camada de enlace de dados para o endereçamento dos dispositivos na rede local. As pontes utilizam este endereco para encaminhar quadros de acordo com o segmento de conexao."
     },
     {
-        "id": "3042586",
         "enunciado": "O protocolo TCP é o protocolo da camada de transporte mais conhecido por ser bastante utilizado na Internet. Este importante protocolo é orientado à conexão, garantindo portanto a entregadas informações transmitidas. Existe, no entanto, um outro importante protocolo da camada de transportes que,diferentemente do TCP, não é orientado à conexão. Este protocolo é mais adequado para aplicações de fluxo de dado sem tempo real, em especial para aplicações que toleram eventuais perdas de dados, como transmissão de vídeos ou voz. Assinale a alternativa que indica corretamente o nome deste protocolo da camada de transporte que não é orientado à conexão.",
         "alternativas": {
             "A": "ARP",
@@ -1133,10 +1132,10 @@
             "E": "SMTP"
         },
         "gabarito_correto": "B",
+        "id": "3042586",
         "comentario_ia": "O UDP (User Datagram Protocol) e o protocolo da camada de transporte nao orientado a conexao, ideal para aplicacoes que toleram perda de dados, como streaming."
     },
     {
-        "id": "3042587",
         "enunciado": "A Internet é baseada no protocolo TCP/IP e o grande crescimento da rede mundial de computadores trouxe um sério problema relacionado à escassez de números IP. Para contornar a limitação de quantidade de números IP, foi criada uma nova versão para o protocolo IP capaz de fornecer uma quantidade de números muito maior. A respeito do protocolo IPe suas versões, analise as afirmativas abaixo.O IPv4 é a versão do protocolo IP que possui limitada quantidade de números IP. Foi criada então a IPv6, a versão que pretende substituir integralmente o IPv4 no futuro e com isso resolver o problema de escassez de números IP.No IPv4 o número IP possui tamanho de 32 bits, já no IPv6 o tamanho é de 64 bits.A representação de números IP no IPv6 é feita através da base octal, já no IPv4 a representação dos números IPs é feita embase decimal.Assinale",
         "alternativas": {
             "A": "se somente a afirmativa I estiver correta.",
@@ -1146,10 +1145,10 @@
             "E": "se todas as afirmativas estiverem corretas."
         },
         "gabarito_correto": "A",
+        "id": "3042587",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3016043",
         "enunciado": "Qual tecnologia de armazenamento que combina vários componentes da unidade de disco em uma única unidade lógica para aumentar o tamanho do volume lógico, melhorar o desempenho ou a confiabilidade?",
         "alternativas": {
             "A": "SATA (Serial ATA).",
@@ -1158,10 +1157,10 @@
             "D": "PATA (Parallel ATA)."
         },
         "gabarito_correto": "B",
+        "id": "3016043",
         "comentario_ia": "RAID é uma tecnologia que agrupa múltiplos discos para formar uma unidade lógica com objetivo de melhorar desempenho, confiabilidade ou capacidade."
     },
     {
-        "id": "3023753",
         "enunciado": "O protocolo TCP/IP foi criado visando atender a necessidade de endereçamentos e de interconexão de redes. Nesse sentido, analise as afirmativas abaixo.O número máximo de blocos de dados do TCP enviados na sequência, sem esperar a confirmação de recepção da outra porta, é chamado de “tamanho da janela”.O número de sequência do bloco TCP é gerado pela soma dos bytes transmitidos.Os blocos (datagramas) podem ser enviados por rotas diferentes e fora de ordem, sendo sequenciados e confirmados no destino.Das afirmativas acima:",
         "alternativas": {
             "A": "apenas I e II estão corretas.",
@@ -1171,10 +1170,10 @@
             "E": "apenas III está correta."
         },
         "gabarito_correto": "C",
+        "id": "3023753",
         "comentario_ia": "Todas as afirmativas estão corretas. A primeira descreve o 'tamanho da janela'. A segunda explica a geração do número de sequência. A terceira aborda a capacidade do IP de rotear datagramas por caminhos diferentes e a reordenação no destino."
     },
     {
-        "id": "3016044",
         "enunciado": "As ferramentas de scanners de portas permitem a verificação remota de serviços ativos nos sistemas operacionais e equipamentos de redes. Assinale a alternativa CORRETA que apresenta uma ferramenta com esta finalidade.",
         "alternativas": {
             "A": "IPERF.",
@@ -1183,10 +1182,10 @@
             "D": "TCPDUMP."
         },
         "gabarito_correto": "B",
+        "id": "3016044",
         "comentario_ia": "NMAP é uma ferramenta amplamente utilizada para escaneamento de portas, identificação de serviços e detecção de vulnerabilidades em redes."
     },
     {
-        "id": "3024621",
         "enunciado": "São características das redes ponto a ponto as abaixo relacionadas, EXCETO:",
         "alternativas": {
             "A": "controle maior do usuário.",
@@ -1196,10 +1195,10 @@
             "E": "queda da performance com crescimento da rede."
         },
         "gabarito_correto": "A",
+        "id": "3024621",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3008241",
         "enunciado": "Acerca do protocolo SMTP (do inglês, Simple Mail Transfer Protocol), é correto afirmar que, no modelo Open System Interconnection (OSI), ele é implementado na camada de",
         "alternativas": {
             "A": "rede.",
@@ -1209,10 +1208,10 @@
             "E": "aplicação."
         },
         "gabarito_correto": "E",
+        "id": "3008241",
         "comentario_ia": "O protocolo SMTP (Simple Mail Transfer Protocol) é responsável pela transferência de e-mails e opera na camada de aplicação do modelo OSI."
     },
     {
-        "id": "3024788",
         "enunciado": "Em redes locais de computadores, uma das arquiteturas mais utilizadas de backbone é o centralizado, chamado de:",
         "alternativas": {
             "A": "distribuído.",
@@ -1222,10 +1221,10 @@
             "E": "token-ring."
         },
         "gabarito_correto": "B",
+        "id": "3024788",
         "comentario_ia": "A arquitetura de backbone centralizada em redes locais, onde múltiplos dispositivos se conectam a um ponto central, é frequentemente chamada de arquitetura colapsada ou estrela estendida."
     },
     {
-        "id": "3024623",
         "enunciado": "O tipo de transmissão, quando se assiste à TV a cabo e se navega na internet ao mesmo tempo, é:",
         "alternativas": {
             "A": "simplex.",
@@ -1235,10 +1234,10 @@
             "E": "full duplex."
         },
         "gabarito_correto": "E",
+        "id": "3024623",
         "comentario_ia": "O modo full duplex permite a comunicação em ambos os sentidos simultaneamente. Ao assistir TV a cabo e navegar na internet ao mesmo tempo, você está enviando e recebendo dados simultaneamente. Simplex é unidirecional, half-duplex permite em ambos os sentidos, mas alternadamente."
     },
     {
-        "id": "3016047",
         "enunciado": "A configuração automática de endereços IP e outras informações da rede nas estações de trabalho é provida por um servidor DHCP (Dynamic Host Configuration Protocol). Assinale a alternativa que NÃO corresponde a uma informação fornecida por este servidor.",
         "alternativas": {
             "A": "O endereço dos servidores DNS.",
@@ -1247,10 +1246,10 @@
             "D": "O endereço dos servidores Web."
         },
         "gabarito_correto": "D",
+        "id": "3016047",
         "comentario_ia": "O DHCP provê configuração de rede como gateway, máscara e DNS, mas não o endereço de servidores Web. Servidores Web são acessados via DNS, mas seu endereço IP não é configurado pelo servidor DHCP."
     },
     {
-        "id": "3024624",
         "enunciado": "Na coluna I estão dispostas técnicas de transmissão de dados. Estabeleça a correta correspondência com seus significados, conforme apresentado na Coluna II:Coluna I1- Infravermelho2- Laser3- Banda estreita4- Espalhamento EspectralColuna II( ) sinal gerado precisa ser muito forte.( ) deve haver linha de visada direta entre os dispositivos.( ) o sinal é enviado por uma faixa de frequências.( ) o transmissor e o receptor são ajustados para trabalharem na mesma frequência.A sequência correta, de cima para baixo, é:",
         "alternativas": {
             "A": "1, 4, 3 e 2.",
@@ -1260,10 +1259,10 @@
             "E": "1, 2, 3 e 4."
         },
         "gabarito_correto": "C",
+        "id": "3024624",
         "comentario_ia": "A correspondencia correta e: Infravermelho (linha de visada, precisa de sinal forte), Laser (linha de visada direta), Banda estreita (mesma frequencia), Espalhamento Espectral (faixa de frequencias). A alternativa C descreve corretamente essas relacoes."
     },
     {
-        "id": "3015496",
         "enunciado": "Os protocolos de roteamento podem ser definidos como Intra-AS e Inter-AS de acordo com seu modo de funcionamento. Assinale a alternativa CORRETA que apresente somente protocolos intra-AS.",
         "alternativas": {
             "A": "OSPF, RIP e BGP-4.",
@@ -1272,10 +1271,10 @@
             "D": "OSPF, RIP e IS-IS."
         },
         "gabarito_correto": "D",
+        "id": "3015496",
         "comentario_ia": "Protocolos Intra-AS (dentro de um Sistema Autônomo) são OSPF, RIP e IS-IS. O BGP-4 opera entre diferentes AS (Inter-AS). Portanto, A, B e C estão incorretas por incluir o BGP-4."
     },
     {
-        "id": "3024486",
         "enunciado": "O cabo paralelo utilizado nas impressoras possui uma limitação. Esta limitação está relacionada:",
         "alternativas": {
             "A": "ao tamanho do cabo.",
@@ -1285,10 +1284,10 @@
             "E": "ao custo do cabo."
         },
         "gabarito_correto": "A",
+        "id": "3024486",
         "comentario_ia": "Cabos paralelos utilizados em impressoras antigas possuem limitações de comprimento para evitar a degradação do sinal, o que impacta a distância de conexão."
     },
     {
-        "id": "3016049",
         "enunciado": "O protocolo ARP (Address Resolution Protocol) é bastante utilizado nas redes de computadores. Assinale a alternativa CORRETA que apresenta a função deste protocolo.",
         "alternativas": {
             "A": "Realizar a consulta de um endereço IP em um servidor DNS externo.",
@@ -1297,10 +1296,10 @@
             "D": "Realizar a tradução do endereço IP para o endereço MAC."
         },
         "gabarito_correto": "D",
+        "id": "3016049",
         "comentario_ia": "O ARP (Address Resolution Protocol) tem como função principal descobrir o endereço MAC correspondente a um determinado endereço IP na rede local, permitindo a comunicação direta entre dispositivos."
     },
     {
-        "id": "3015497",
         "enunciado": "Existem diversas ferramentas que auxiliam no processo de gerência e monitoramento de redes. Assinale a alternativa que NÃO apresenta estas ferramentas.",
         "alternativas": {
             "A": "Ntop, Darkstat e Cacti.",
@@ -1309,10 +1308,10 @@
             "D": "Zabbix, Ntop e Darkstat."
         },
         "gabarito_correto": "B",
+        "id": "3015497",
         "comentario_ia": "OpenVZ, Zarafa e Proxmox são tecnologias de virtualização e sistemas de armazenamento, não ferramentas de gerência e monitoramento de redes como as demais listadas."
     },
     {
-        "id": "3024625",
         "enunciado": "O método de acesso e a topologia tradicional nas redes Ethernet são, respectivamente:",
         "alternativas": {
             "A": "CSMA/CD e barramento linear.",
@@ -1322,10 +1321,10 @@
             "E": "CSMA/CD e barramento anel."
         },
         "gabarito_correto": "A",
+        "id": "3024625",
         "comentario_ia": "Em redes Ethernet tradicionais, o método de acesso mais comum é o CSMA/CD (Carrier Sense Multiple Access with Collision Detection) e a topologia predominantemente utilizada é o barramento linear (coaxial)."
     },
     {
-        "id": "3015498",
         "enunciado": "A configuração de um servidor DNS (Domain Name System) utilizando o Bind9 requer a configuração de ao menos duas zonas de domínio.Assinale a alternativa CORRETA que apresenta o nome destas zonas.",
         "alternativas": {
             "A": "Zona direta e zona reversa.",
@@ -1334,10 +1333,10 @@
             "D": "Zona reversa e zona global."
         },
         "gabarito_correto": "A",
+        "id": "3015498",
         "comentario_ia": "A configuração de um servidor DNS com Bind9 exige a definição de zonas direta (mapeamento de nomes para IPs) e zona reversa (mapeamento de IPs para nomes), que são os serviços básicos do DNS."
     },
     {
-        "id": "3024626",
         "enunciado": "Nas redes token ring, a transmissão de dados e o método de acesso são, respectivamente:",
         "alternativas": {
             "A": "banda larga e passagem de token.",
@@ -1347,10 +1346,10 @@
             "E": "full-duplex e CSMA/CA."
         },
         "gabarito_correto": "D",
+        "id": "3024626",
         "comentario_ia": "Nas redes Token Ring, a transmissao e feita enviando um 'token' que circula pela rede de anel. O acesso ao meio e controlado pela passagem desse token, e a transmissao e em banda base."
     },
     {
-        "id": "3016050",
         "enunciado": "O cabo par trançado sem blindagem é amplamente utilizado nas redes de acesso corporativas, em virtude principalmente do baixo custo e da facilidade de uso. Assinale a alternativa CORRETA que apresenta a quantidade de pares de condutores do cabo LAN CAT 6 U/UTP.",
         "alternativas": {
             "A": "03 pares de condutores.",
@@ -1359,10 +1358,10 @@
             "D": "08 pares de condutores."
         },
         "gabarito_correto": "C",
+        "id": "3016050",
         "comentario_ia": "O cabo LAN CAT 6 U/UTP é composto por 04 pares de condutores, cada par trançado, totalizando 8 condutores."
     },
     {
-        "id": "3024628",
         "enunciado": "Os protocolos de rede que são utilizados para controle e erro no endereçamento e para a obtenção de endereço do hardware são, respectivamente:",
         "alternativas": {
             "A": "ICMP e ARP.",
@@ -1372,10 +1371,10 @@
             "E": "SMNP e Telnet."
         },
         "gabarito_correto": "A",
+        "id": "3024628",
         "comentario_ia": "O ICMP (Internet Control Message Protocol) é usado para mensagens de controle e erro, enquanto o ARP (Address Resolution Protocol) é responsável por obter o endereço físico (MAC) a partir do endereço IP."
     },
     {
-        "id": "3016052",
         "enunciado": "A utilização correta dos recursos da rede deve ser algo fundamental nas instituições. Assinale a alternativa CORRETA que apresenta a ferramenta responsável por filtrar a entrada e saída de pacotes na rede.",
         "alternativas": {
             "A": "HUB.",
@@ -1384,10 +1383,10 @@
             "D": "Roteador."
         },
         "gabarito_correto": "B",
+        "id": "3016052",
         "comentario_ia": "O Firewall é o dispositivo de rede responsável por controlar o tráfego de pacotes, permitindo ou bloqueando a entrada e saída de dados com base em regras."
     },
     {
-        "id": "3024629",
         "enunciado": "Em relação aos switches, avalie se são verdadeiras (V) ou falsas (F) as afirmativas a seguir.O protocolo spanning tree tem a finalidade de evitar loops em uma rede composta de switches.O método store and forward é mais rápido do que o método cut-through utilizados no encaminhamento de quadros.O switch elimina a colisão entre as portas.As afirmativas I, II e III são, respectivamente:",
         "alternativas": {
             "A": "V, F e V.",
@@ -1397,10 +1396,10 @@
             "E": "V, V e V."
         },
         "gabarito_correto": "A",
+        "id": "3024629",
         "comentario_ia": "Sem comentário"
     },
     {
-        "id": "3016053",
         "enunciado": "Os analisadores de tráfego são muito utilizados para identificação de problemas nas redes de computadores. Assinale a alternativa que NÃO constitui uma destas ferramentas.",
         "alternativas": {
             "A": "Tshark.",
@@ -1409,10 +1408,10 @@
             "D": "Vagrant."
         },
         "gabarito_correto": "D",
+        "id": "3016053",
         "comentario_ia": "Tshark, Wireshark e WinDump são ferramentas de análise de tráfego de rede amplamente utilizadas. Vagrant é uma ferramenta de gerenciamento de ambientes virtuais, não de análise de tráfego."
     },
     {
-        "id": "3015502",
         "enunciado": "A convergência dos serviços de rede tem possibilitado o avanço em diversos campos. Entretanto, no modelo baseado em melhor esforço os pacotes de áudio, vídeo e dados são misturados nas filas de saída dos roteadores, onde são transmitidos na ordem de chegada (primeiro a entrar/primeiro a sair). Assinale a alternativa que NÃO aponte estratégias para diferenciação dos serviços.",
         "alternativas": {
             "A": "Realizar marcação dos pacotes, separando-os em classes de tráfego e níveis de serviços distintos.",
@@ -1421,10 +1420,10 @@
             "D": "Realizar a regulação do tráfego, isto é, ajustar uma classe de tráfego a certos critérios e assegurar sua aplicação."
         },
         "gabarito_correto": "B",
+        "id": "3015502",
         "comentario_ia": "Aumentar a capacidade de tráfego sem diferenciação não é uma estratégia para diferenciar serviços em redes de 'melhor esforço'. As outras alternativas descrevem técnicas de QoS."
     },
     {
-        "id": "3015503",
         "enunciado": "Os benefícios fornecidos pelas Redes Locais Virtuais (VLANs) são bastante numerosos. Assinale a alternativa CORRETA que apresenta o padrão de especificação desta tecnologia.",
         "alternativas": {
             "A": "IEEE 802.3af",
@@ -1433,10 +1432,10 @@
             "D": "IEEE 802.1q"
         },
         "gabarito_correto": "D",
+        "id": "3015503",
         "comentario_ia": "O padrão IEEE 802.1Q é o responsável pela especificação e funcionamento das VLANs (Virtual Local Area Networks), permitindo a segmentação lógica das redes. As outras alternativas referem-se a outros padrões de rede."
     },
     {
-        "id": "3015321",
         "enunciado": "Dois protocolos da camada de transporte oferecem serviços para transmissão de mensagens na rede. O primeiro deles oferece confiabilidade, entrega na sequência correta e faz verificação de erros dos pacotes de dados. O segundo não é confiável e exige, da aplicação, controles adicionais para a correta transmissão. Esses protocolos são,respectivamente,",
         "alternativas": {
             "A": "o UDP (User Datagram Protocol) e o FTP (File Transfer Protocol).",
@@ -1445,6 +1444,7 @@
             "D": "o SNMP (Simple Network Management Protocol) e oUDP (User Datagram Protocol)."
         },
         "gabarito_correto": "B",
+        "id": "3015321",
         "comentario_ia": "O TCP (Transmission Control Protocol) é o protocolo que garante confiabilidade, ordenação e verificação de erros. O UDP (User Datagram Protocol) é mais simples e rápido, mas não oferece essas garantias, deixando tais responsabilidades para a aplicação."
     }
 ]

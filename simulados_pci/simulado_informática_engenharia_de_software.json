@@ -1,6 +1,5 @@
 [
     {
-        "id": "2036034",
         "enunciado": "O ciclo de implantação de sistemas é um processo estruturado que envolve diversas etapas para garantir a implementação eficiente de um software ou sistema dentro de uma organização. Marque a alternativa CORRETA que é a primeira fase do ciclo de implantação de sistemas.",
         "alternativas": {
             "A": "Testes.",
@@ -9,10 +8,10 @@
             "D": "Instalação."
         },
         "gabarito_correto": "B",
+        "id": "2036034",
         "comentario_ia": "O ciclo de implantação de sistemas inicia com o levantamento de requisitos, também chamado de fase de concepção. Nesta etapa, são definidos as necessidades, objetivos e funcionalidades do futuro sistema."
     },
     {
-        "id": "1842378",
         "enunciado": "A norma ISO/IEC 9126 (NBR 13596) fornece um modelo de propósito geral que define 6 categorias de características de qualidade de software. A capacidade do produto de software de ser transferido de um ambiente para outro é a definição da característica:",
         "alternativas": {
             "A": "Eficiência",
@@ -22,11 +21,11 @@
             "E": "Usabilidade"
         },
         "gabarito_correto": "B",
+        "id": "1842378",
         "comentario_ia": "A portabilidade, conforme a ISO/IEC 9126, refere-se à capacidade de um software ser transferido de um ambiente para outro, incluindo hardware, sistemas operacionais ou outros ambientes de software."
     },
     {
-        "id": "2371565",
-        "enunciado": "A escolha do modelo de ciclo de vida de desenvolvimento de software é crucial para o gerenciamento de prazos, custos e qualidade do produto final entregue ao cliente. Analise as afirmativas a seguir sobre os modelos tradicionais e ágeis de desenvolvimento.\nI. O modelo em cascata (Waterfall) é uma abordagem sequencial onde cada fase (requisitos, análise, design, codificação, testes) deve ser concluída antes do início da próxima.\nII. As metodologias ágeis, como o Scrum, baseiam-se em ciclos iterativos e incrementais chamados de sprints, permitindo adaptações rápidas a mudanças nos requisitos.\nIII. O manifesto ágil prioriza a documentação abrangente e o seguimento rígido de um plano inicial em detrimento da colaboração com o cliente e da resposta a mudanças. Está correto o que se afirma em:",
+        "enunciado": "A escolha do modelo de ciclo de vida de desenvolvimento de software é crucial para o gerenciamento de prazos, custos e qualidade do produto final entregue ao cliente. Analise as afirmativas a seguir sobre os modelos tradicionais e ágeis de desenvolvimento. I. O modelo em cascata (Waterfall) é uma abordagem sequencial onde cada fase (requisitos, análise, design, codificação, testes) deve ser concluída antes do início da próxima. II. As metodologias ágeis, como o Scrum, baseiam-se em ciclos iterativos e incrementais chamados de sprints, permitindo adaptações rápidas a mudanças nos requisitos. III. O manifesto ágil prioriza a documentação abrangente e o seguimento rígido de um plano inicial em detrimento da colaboração com o cliente e da resposta a mudanças. Está correto o que se afirma em:",
         "alternativas": {
             "A": "I, II e III.",
             "B": "II e III apenas.",
@@ -35,10 +34,10 @@
             "E": "I e III apenas."
         },
         "gabarito_correto": "C",
+        "id": "2371565",
         "comentario_ia": "As afirmativas I e II descrevem corretamente os modelos em cascata e ágil (Scrum). A afirmativa III está incorreta pois o manifesto ágil prioriza colaboração e resposta a mudanças, não documentação rígida."
     },
     {
-        "id": "1734476",
         "enunciado": "Sobre a A Unified Modeling Language (UML), ou Linguagem de Modelagem Unificada é correto afirmar: I - Ela possibilita que as definições estruturais e comportamentais do sistema sejam documentadas no formato de diagramas. II - Permite a visualização, a especificação, a construção e a documentação dos artefatos de um sistema. III - A modelagem de sistemas exerce um papel fundamental em todas as etapas do processo de desenvolvimento de sistemas. IV - Tem a capacidade de executar múltiplos aplicativos em um único ambiente.",
         "alternativas": {
             "A": "Somente I e II estão corretos.",
@@ -48,10 +47,10 @@
             "E": "Todas estão corretas."
         },
         "gabarito_correto": "C",
+        "id": "1734476",
         "comentario_ia": "As afirmativas I, II e III descrevem corretamente a UML: documenta, visualiza, especifica, constrói e documenta sistemas. A afirmativa IV descreve virtualização, não UML. Portanto, apenas I, II e III estão corretas."
     },
     {
-        "id": "1842384",
         "enunciado": "O Modelo em Espiral possui esse nome por causa de sua representação, onde cada volta no espiral percorre todas as fases do processo de software. Por definição, combina prevenção e tolerância a mudanças, assume que mudanças são um resultado de riscos de projeto e inclui atividades explícitas de gerenciamento de riscos para sua redução. O desenvolvimento é dividido em quatro setores. Assinale a alternativa que contém o nome do primeiro setor do Modelo em Espiral.",
         "alternativas": {
             "A": "Definição dos Objetivos",
@@ -61,10 +60,10 @@
             "E": "Especificação dos Requisitos do software"
         },
         "gabarito_correto": "A",
+        "id": "1842384",
         "comentario_ia": "O primeiro setor do Modelo em Espiral, conforme sua representação clássica e descrições, foca na definição clara dos objetivos para cada iteração do desenvolvimento."
     },
     {
-        "id": "2116582",
         "enunciado": "Com relação aos modelos de construção de software, assinale a alternativa que apresenta um modelo de processo executado em sequência, sem que de uma etapa posterior seja possível retornar a uma etapa anterior.",
         "alternativas": {
             "A": "Modelo Cascata",
@@ -74,10 +73,10 @@
             "E": "Modelo Junção"
         },
         "gabarito_correto": "A",
+        "id": "2116582",
         "comentario_ia": "O modelo Cascata (Waterfall) é caracterizado por ser sequencial, com fases bem definidas que se completam antes de iniciar a próxima, e não permite o retorno a fases anteriores após a conclusão."
     },
     {
-        "id": "2116584",
         "enunciado": "Analise a afirmação abaixo. “São declarações de serviços que o sistema deve fornecer, de como o sistema deve reagir a entradas específicas e de como o sistema deve se comportar em determinadas situações. Em alguns casos, também podem explicitar o que o sistema não deve fazer.” Diante do exposto, assinale a alternativa correta.",
         "alternativas": {
             "A": "Requisitos de Ambiente",
@@ -87,10 +86,10 @@
             "E": "Requisitos Não Funcionais"
         },
         "gabarito_correto": "D",
+        "id": "2116584",
         "comentario_ia": "A descrição 'declarações de serviços que o sistema deve fornecer, de como o sistema deve reagir a entradas específicas' refere-se diretamente aos Requisitos Funcionais. Estes definem o que o sistema deve fazer, enquanto os não funcionais definem como ele deve fazer."
     },
     {
-        "id": "1438623",
         "enunciado": "Um analista de sistemas está elaborando um novo sistema de informação e precisa documentar o fluxo de informações entre os processos. Qual das alternativas a seguir descreve corretamente a finalidade dos diagramas de fluxo de dados (DFD) nesse contexto?",
         "alternativas": {
             "A": "Representar visualmente o fluxo de energia em um sistema.",
@@ -99,10 +98,10 @@
             "D": "Indicar a localização dos servidores em uma rede de computadores."
         },
         "gabarito_correto": "C",
+        "id": "1438623",
         "comentario_ia": "Diagramas de Fluxo de Dados (DFD) são ferramentas essenciais na análise e documentação de sistemas de informação, pois representam de forma visual e clara como os dados são processados, armazenados e transferidos entre os diferentes processos do sistema."
     },
     {
-        "id": "1397768",
         "enunciado": "Qual das seguintes opções é uma vantagem da análise orientada a objetos sobre a análise estruturada?",
         "alternativas": {
             "A": "Maior clareza na modelagem do fluxo de dados.",
@@ -111,10 +110,10 @@
             "D": "Facilidade na geração de diagramas de fluxo de dados."
         },
         "gabarito_correto": "B",
+        "id": "1397768",
         "comentario_ia": "A modelagem orientada a objetos, com classes e herança, facilita a criação de componentes reutilizáveis, promovendo a modularidade e o reuso em diferentes partes de um projeto."
     },
     {
-        "id": "2003701",
         "enunciado": "Considerando a engenharia de software, qual das seguintes metodologias enfatiza a entrega contínua e a colaboração entre todas as partes interessadas no desenvolvimento de software?",
         "alternativas": {
             "A": "Modelo em cascata.",
@@ -123,10 +122,10 @@
             "D": "Desenvolvimento ágil."
         },
         "gabarito_correto": "D",
+        "id": "2003701",
         "comentario_ia": "O Desenvolvimento Ágil, como um guarda-chuva de metodologias, engloba práticas como XP e enfatiza a entrega contínua, a colaboração e a adaptação às mudanças."
     },
     {
-        "id": "1292621",
         "enunciado": "Um time de desenvolvimento está trabalhando em um novo aplicativo e está realizando testes para garantir a qualidade do software. Nesse contexto, os testes de software têm o objetivo de",
         "alternativas": {
             "A": "garantir que o software seja lançado o mais rápido possível, sem erros.",
@@ -135,11 +134,11 @@
             "D": "adicionar novos recursos ao software."
         },
         "gabarito_correto": "B",
+        "id": "1292621",
         "comentario_ia": "O principal objetivo dos testes de software é garantir a qualidade, identificando e corrigindo falhas antes que o produto final chegue ao usuário. Lançar rapidamente, diminuir custos ou adicionar recursos são consequências ou metas secundárias, não o objetivo primordial do teste."
     },
     {
-        "id": "2407067",
-        "enunciado": "Analise as afirmações abaixo, baseadas na obra de Sommerville (SOMMERVILLE, Ian. Engenharia de Software . 9 ed. São Paulo: Pearson Prentice Hall, 2011, p. 53), a respeito de métodos ágeis: I. Métodos ágeis são métodos de desenvolvimento sequenciais que se concentram em desenvolvimento rápido, releases frequentes do software, produção de códigos de alta qualidade. O cliente é envolvido exclusivamente na fase de entrega e uso em produção do artefato produzido. II. A decisão de usar uma abordagem ágil ou uma abordagem dirigida a planos para o desenvolvimento deve depender do tipo de software a ser desenvolvido, das habilidades da equipe de desenvolvimento e da cultura da empresa que desenvolve o sistema. III. XP integra um conjunto de boas práticas de programação, como releases frequentes do software, melhorias contínuas do software e participação do cliente na equipe de desenvolvimento. IV. O escalamento de métodos ágeis para sistemas de grande porte é difícil, pois estes sistemas necessitam de projeto adiantado e alguma documentação. A integração contínua é praticamente impossível quando existem várias equipes de desenvolvimento separadas trabalhando em um projeto. Estão CORRETAS  as afirmações:",
+        "enunciado": "Analise as afirmações abaixo, baseadas na obra de Sommerville (SOMMERVILLE, Ian. Engenharia de Software . 9 ed. São Paulo: Pearson Prentice Hall, 2011, p. 53), a respeito de métodos ágeis: I. Métodos ágeis são métodos de desenvolvimento sequenciais que se concentram em desenvolvimento rápido, releases frequentes do software, produção de códigos de alta qualidade. O cliente é envolvido exclusivamente na fase de entrega e uso em produção do artefato produzido. II. A decisão de usar uma abordagem ágil ou uma abordagem dirigida a planos para o desenvolvimento deve depender do tipo de software a ser desenvolvido, das habilidades da equipe de desenvolvimento e da cultura da empresa que desenvolve o sistema. III. XP integra um conjunto de boas práticas de programação, como releases frequentes do software, melhorias contínuas do software e participação do cliente na equipe de desenvolvimento. IV. O escalamento de métodos ágeis para sistemas de grande porte é difícil, pois estes sistemas necessitam de projeto adiantado e alguma documentação. A integração contínua é praticamente impossível quando existem várias equipes de desenvolvimento separadas trabalhando em um projeto. Estão CORRETAS as afirmações:",
         "alternativas": {
             "A": "I e II apenas.",
             "B": "I, II e IV apenas.",
@@ -148,10 +147,10 @@
             "E": "I, II, III e IV."
         },
         "gabarito_correto": "D",
+        "id": "2407067",
         "comentario_ia": "A afirmativa I está incorreta pois métodos ágeis não são sequenciais e o cliente é envolvido de forma contínua. A afirmativa II está correta pois a escolha da abordagem depende de fatores como tipo de software, equipe e cultura. A afirmativa III está correta ao descrever práticas do XP. A afirmativa IV está correta ao apontar a dificuldade de escalamento e integração contínua em grandes projetos com múltiplas equipes."
     },
     {
-        "id": "1193927",
         "enunciado": "O desenvolvimento de sistemas é o processo de criação, implementação e manutenção de softwares para atender às necessidades específicas de uma organização ou usuário final. A etapa do desenvolvimento que envolve a criação de uma arquitetura de sistema que define como os diferentes componentes se relacionam entre si é conhecida como",
         "alternativas": {
             "A": "Análise de Requisitos.",
@@ -161,10 +160,10 @@
             "E": "Testes."
         },
         "gabarito_correto": "C",
+        "id": "1193927",
         "comentario_ia": "A etapa de Design no desenvolvimento de sistemas foca na arquitetura, definindo como os componentes interagem e a estrutura geral do software, antes da codificação propriamente dita."
     },
     {
-        "id": "1548719",
         "enunciado": "Qual é a norma que define os processos do ciclo de vida do software?",
         "alternativas": {
             "A": "ABNT NBR ISO/IEC 27.005.",
@@ -173,10 +172,10 @@
             "D": "ABNT NBR ISO/IEC 9.000."
         },
         "gabarito_correto": "C",
+        "id": "1548719",
         "comentario_ia": "A norma ABNT NBR ISO/IEC 12.207 estabelece os processos e atividades que definem o ciclo de vida do desenvolvimento de software, desde o inicio ate a desativacao do sistema."
     },
     {
-        "id": "1168137",
         "enunciado": "Qual das seguintes opções representa um método de modelagem na Análise Orientada a Objetos?",
         "alternativas": {
             "A": "Processos;",
@@ -186,10 +185,10 @@
             "E": "Hierarquia."
         },
         "gabarito_correto": "C",
+        "id": "1168137",
         "comentario_ia": "Diagramas UML (Unified Modeling Language), especialmente a UML2, são amplamente utilizados como um método de modelagem visual na Análise Orientada a Objetos."
     },
     {
-        "id": "1168142",
         "enunciado": "Um analista de sistemas está projetando um sistema cliente -servidor e precisa escolher entre a abordagem de Análise Estruturada e Análise Orientada a Objetos. Considerando as características e benefícios de ambas as abordagens, qual delas oferece vantagens na modelagem de sistemas complexos e na representação eficiente das interações entre os diferentes módulos do sistema?",
         "alternativas": {
             "A": "Análise Estruturada;",
@@ -199,10 +198,10 @@
             "E": "Análise Essencial."
         },
         "gabarito_correto": "B",
+        "id": "1168142",
         "comentario_ia": "A Análise Orientada a Objetos é mais vantajosa para sistemas complexos por modelar entidades do mundo real e suas interações de forma natural e modular."
     },
     {
-        "id": "1150917",
         "enunciado": "Considere as seguintes sentenças acerca da Engenharia de Software: I - Engenharia de software é uma disciplina de engenharia que se preocupa com todos os aspectos da produção de software. II - Os atributos essenciais de um bom software são a funcionalidade, portabilidade e usabilidade. III - Os engenheiros de software devem se preocupar apenas com as questões técnicas relacionadas aos softwares, especialmente os aspectos relacionados à eficiência de software. De acordo com Sommerville (2011):",
         "alternativas": {
             "A": "Apenas a sentença I é correta.",
@@ -212,10 +211,10 @@
             "E": "As sentenças II e III são corretas."
         },
         "gabarito_correto": "A",
+        "id": "1150917",
         "comentario_ia": "Apenas a sentença I está correta. A sentença II está incorreta pois os atributos essenciais de um bom software, segundo Sommerville, são funcionalidade, confiabilidade, usabilidade, eficiência, manutenibilidade e suporte. A sentença III está incorreta pois os engenheiros de software devem se preocupar com todos os aspectos da produção de software, não apenas os técnicos."
     },
     {
-        "id": "2118220",
         "enunciado": "Os padrões de projeto documentados pelo GoF (Gang of Four) são divididos em três categorias, de acordo com a sua finalidade: padrões de criação, padrões estruturais e padrões comportamentais. Um padrão de projeto estrutural é o",
         "alternativas": {
             "A": "Decorator.",
@@ -224,10 +223,10 @@
             "D": "Chain of Responsibility."
         },
         "gabarito_correto": "A",
+        "id": "2118220",
         "comentario_ia": "O padrão Decorator é um padrão estrutural. Ele permite adicionar comportamentos a objetos de forma dinâmica, sem alterar sua estrutura original."
     },
     {
-        "id": "1310743",
         "enunciado": "Uma empresa de comercio eletrônico tem uma série de processos de negócio, sendo um deles encarregado exclusivamente de aferir a satisfação do cliente, após comprar e receber sua encomenda. Esse processo que gera indicadores e tem como principal função aferir as metas de desempenho é do tipo",
         "alternativas": {
             "A": "primário.",
@@ -236,11 +235,11 @@
             "D": "gerenciamento."
         },
         "gabarito_correto": "A",
+        "id": "1310743",
         "comentario_ia": "Processos primários são aqueles diretamente ligados à entrega de valor ao cliente ou à missão principal da organização. Aferir a satisfação do cliente é uma atividade central na cadeia de valor de um e-commerce, impactando diretamente a experiência do consumidor."
     },
     {
-        "id": "1310745",
-        "enunciado": "aplicação tipo complexidade quantidade\n CE baixa 3\nA ALI média 1\n SE alta 2\n\nA I E baixa 2\nB SE média 1\n EE alta 2\nNa tabela anterior, as aplicações A e B e respectivas quantidades estão relacionadas aos tipos CE (consulta externa), ALI (arquivo lógico interno), SE (saída externa), AIE (arquivo de interface externa) e EE (entrada externa), com suas complexidades. A partir dessas informações, e considerando somente os valores brutos da contagem de pontos de função, é correto afirmar que",
+        "enunciado": "aplicação tipo complexidade quantidade CE baixa 3 A ALI média 1 SE alta 2 A I E baixa 2 B SE média 1 EE alta 2 Na tabela anterior, as aplicações A e B e respectivas quantidades estão relacionadas aos tipos CE (consulta externa), ALI (arquivo lógico interno), SE (saída externa), AIE (arquivo de interface externa) e EE (entrada externa), com suas complexidades. A partir dessas informações, e considerando somente os valores brutos da contagem de pontos de função, é correto afirmar que",
         "alternativas": {
             "A": "as aplicações A e B têm a mesma quantidade total de pontos brutos de função.",
             "B": "a diferença da quantidade total de pontos brutos de função entre as aplicações A e B é 2.",
@@ -248,11 +247,11 @@
             "D": "a diferença da quantidade total de pontos brutos de função entre as aplicações A e B é 4."
         },
         "gabarito_correto": "B",
+        "id": "1310745",
         "comentario_ia": "O cálculo de pontos brutos de função utiliza apenas as quantidades e não a complexidade. Assumindo a interpretação mais plausível da tabela onde a App A tem CE=3, ALI=1, SE=2, EE=2 (Total=8) e a App B tem CE=2, ALI=2, SE=1, EE=1 (Total=6), a diferença é 2."
     },
     {
-        "id": "1310755",
-        "enunciado": "No processo de desenvolvimento de software, são feitas alterações no projeto, tanto para implementar melhorias e funcionalidades, quanto para corrigir bugs e aprimorar a experiência do usuário. O controle de versão consiste, basicamente, em um sistema que permite registrar alterações feitas no desenvolvimento do software. A esse respeito, julgue os itens a seguir.\nI Subversion, GIT e Mercurial são ferramentas de controle de versão que armazenam todo o histórico do sistema.\nII As ferramentas de controle de versão permitem aos desenvolvedores envolvidos em um único projeto alterar o software e se informar acerca das atualizações efetuadas pela equipe.\nIII O controle de versão pode ocorrer no modelo centralizado (SCVc), em que um único repositório central é utilizado pela equipe para a comunicação, e no modelo distribuído (SCVd), em que cada desenvolvedor tem seu próprio repositório na área de trabalho.\nAssinale a opção correta.",
+        "enunciado": "No processo de desenvolvimento de software, são feitas alterações no projeto, tanto para implementar melhorias e funcionalidades, quanto para corrigir bugs e aprimorar a experiência do usuário. O controle de versão consiste, basicamente, em um sistema que permite registrar alterações feitas no desenvolvimento do software. A esse respeito, julgue os itens a seguir. I Subversion, GIT e Mercurial são ferramentas de controle de versão que armazenam todo o histórico do sistema. II As ferramentas de controle de versão permitem aos desenvolvedores envolvidos em um único projeto alterar o software e se informar acerca das atualizações efetuadas pela equipe. III O controle de versão pode ocorrer no modelo centralizado (SCVc), em que um único repositório central é utilizado pela equipe para a comunicação, e no modelo distribuído (SCVd), em que cada desenvolvedor tem seu próprio repositório na área de trabalho. Assinale a opção correta.",
         "alternativas": {
             "A": "Apenas os itens I e II estão certos.",
             "B": "Apenas os itens I e III estão certos.",
@@ -260,10 +259,10 @@
             "D": "Todos os itens estão certos."
         },
         "gabarito_correto": "D",
+        "id": "1310755",
         "comentario_ia": "Todos os itens estão corretos. O controle de versão (I) armazena o histórico, (II) permite o trabalho colaborativo e o rastreamento das mudanças, e (III) pode ser centralizado (um repositório) ou distribuído (múltiplos repositórios)."
     },
     {
-        "id": "1224138",
         "enunciado": "Sobre a etapa de levantamento de requisitos julgue os itens a seguir: I-Entrevistas podem ser utilizadas para essa finalidade. II-A Etnografia é uma técnica de observação que pode ser utilizada para compreender processos operacionais e ajudar a extrair os requisitos de apoio a esse processo. III-Nenhum diagrama da UML tem utilidade nesta etapa. IV-Cenários são uma ferramenta interessante de levantamento de requisitos, por permitir que os stakeholders entendam como podem interagir com o sistema que será desenvolvido. Podemos concluir que:",
         "alternativas": {
             "A": "As afirmativas I, II e III são verdadeiras.",
@@ -273,10 +272,10 @@
             "E": "As afirmativas I, II e IV são verdadeiras."
         },
         "gabarito_correto": "E",
+        "id": "1224138",
         "comentario_ia": "Entrevistas (I), Etnografia (II) e Cenários (IV) são técnicas válidas para levantamento de requisitos. A Etnografia foca na observação do usuário em seu ambiente. A UML possui diagramas úteis nesta etapa, como casos de uso e diagramas de atividade (contrariando III)."
     },
     {
-        "id": "1133284",
         "enunciado": "Na área de Engenharia de Software, é incorreto afirmar que:",
         "alternativas": {
             "A": "Os processos de software são as atividades envolvidas na produção de um sistema de software. Os modelos de processo de software são representações abstratas desses processos.",
@@ -286,10 +285,10 @@
             "E": "A validação de software se ocupa de modificar os sistemas de software existentes, para que eles atendam a novos requisitos."
         },
         "gabarito_correto": "E",
+        "id": "1133284",
         "comentario_ia": "A validação de software garante que o produto final atende aos requisitos do cliente e às suas necessidades. Modificar sistemas para novos requisitos é parte da evolução do software, não validação."
     },
     {
-        "id": "1905649",
         "enunciado": "Para acelerar o tempo de desenvolvimento e manter o controle de um projeto podemos recorrer a metodologias, softwares e serviços de apoio ao desenvolvimento de sistemas. A isso chamamos:",
         "alternativas": {
             "A": "Projeto conceitual.",
@@ -299,10 +298,10 @@
             "E": "Ferramentas case."
         },
         "gabarito_correto": "E",
+        "id": "1905649",
         "comentario_ia": "Ferramentas CASE (Computer-Aided Software Engineering) são softwares e serviços que auxiliam no desenvolvimento de sistemas, automatizando tarefas, melhorando a produtividade e o controle do projeto."
     },
     {
-        "id": "1876208",
         "enunciado": "Assinale a alternativa que apresenta as fases do Processo Unificado.",
         "alternativas": {
             "A": "Modelagem de Negócio, Requisitos, Projeto",
@@ -312,10 +311,10 @@
             "E": "Análise de Requisitos, Elaboração, Construção, Transição, Implantação"
         },
         "gabarito_correto": "C",
+        "id": "1876208",
         "comentario_ia": "O Processo Unificado (RUP) estrutura o desenvolvimento de software em quatro fases iterativas e incrementais: Concepção, Elaboração, Construção e Transição. Cada fase possui objetivos e atividades específicas, garantindo um ciclo de vida adaptável e gerenciado."
     },
     {
-        "id": "1356722",
         "enunciado": "Assinale a alternativa que apresenta corretamente a atividade de processo de software realizada para garantir que o software faça o que o cliente deseja.",
         "alternativas": {
             "A": "Especificação de software",
@@ -324,10 +323,10 @@
             "D": "Validação de software"
         },
         "gabarito_correto": "D",
+        "id": "1356722",
         "comentario_ia": "A validação de software verifica se o produto atende aos requisitos e expectativas do cliente, garantindo que ele faça o que foi pedido. As outras opções são fases distintas do processo de desenvolvimento."
     },
     {
-        "id": "1356725",
         "enunciado": "Assinale a alternativa que apresenta incorretamente uma característica do processo de desenvolvimento evolucionário de software.",
         "alternativas": {
             "A": "A partir de opiniões dos usuários desenvolve-se um sistema adequado.",
@@ -336,10 +335,10 @@
             "D": "Baseia-se em desenvolver uma implementação inicial."
         },
         "gabarito_correto": "B",
+        "id": "1356725",
         "comentario_ia": "A alternativa B esta incorreta pois os processos de desenvolvimento evolucionário se baseiam em ciclos iterativos e incrementais, e não em uma sequência linear e separada de atividades como no modelo cascata. As outras alternativas descrevem características comuns dos modelos evolucionários."
     },
     {
-        "id": "1356733",
         "enunciado": "Assinale a alternativa que apresenta incorretamente uma das dificuldades de se definir qualidade para software.",
         "alternativas": {
             "A": "A empresa de desenvolvimento define requisitos de qualidade, mas não os inclui na especificação.",
@@ -348,10 +347,10 @@
             "D": "A especificação de certas características de qualidade só é possível de modo ambíguo."
         },
         "gabarito_correto": "C",
+        "id": "1356733",
         "comentario_ia": "A alternativa C esta incorreta pois a especificação de características de qualidade de software (atributos do produto) e as características do processo de desenvolvimento são distintas, embora inter-relacionadas. Dificuldades podem existir na definição, mas não em uma semelhança intrínseca que as tornem impossíveis de especificar separadamente."
     },
     {
-        "id": "1356735",
         "enunciado": "Assinale a alternativa que apresenta incorretamente uma atividade de gerenciamento de qualidade de software.",
         "alternativas": {
             "A": "Controle de qualidade",
@@ -360,10 +359,10 @@
             "D": "Validação de qualidade"
         },
         "gabarito_correto": "D",
+        "id": "1356735",
         "comentario_ia": "A alternativa D esta incorreta pois 'Validação de qualidade' usualmente se refere a verificar se o software atende às necessidades do cliente (qualidade do produto), enquanto Controle, Garantia e Planejamento são atividades ativas de gerenciamento de qualidade de processo e/ou produto durante o desenvolvimento."
     },
     {
-        "id": "1356742",
         "enunciado": "Assinale a alternativa que apresenta corretamente um processo de software iterativo.",
         "alternativas": {
             "A": "Desenvolvimento espiral",
@@ -372,10 +371,10 @@
             "D": "Técnicas de quarta geração"
         },
         "gabarito_correto": "A",
+        "id": "1356742",
         "comentario_ia": "A alternativa A esta correta porque o Desenvolvimento Espiral é um modelo de processo de software iterativo, que combina elementos do modelo cascata com um enfoque em análise de risco em cada iteração. Os outros modelos listados (Engenharia baseada em componentes, Cascata e Técnicas de quarta geração) não são primariamente caracterizados como processos iterativos no mesmo sentido."
     },
     {
-        "id": "2036034",
         "enunciado": "O ciclo de implantação de sistemas é um processo estruturado que envolve diversas etapas para garantir a implementação eficiente de um software ou sistema dentro de uma organização. Marque a alternativa CORRETA que é a primeira fase do ciclo de implantação de sistemas.",
         "alternativas": {
             "A": "Testes.",
@@ -384,10 +383,10 @@
             "D": "Instalação."
         },
         "gabarito_correto": "B",
+        "id": "2036034",
         "comentario_ia": "O ciclo de implantação de sistemas inicia com o levantamento de requisitos, também chamado de fase de concepção. Nesta etapa, são definidos as necessidades, objetivos e funcionalidades do futuro sistema."
     },
     {
-        "id": "1842378",
         "enunciado": "A norma ISO/IEC 9126 (NBR 13596) fornece um modelo de propósito geral que define 6 categorias de características de qualidade de software. A capacidade do produto de software de ser transferido de um ambiente para outro é a definição da característica:",
         "alternativas": {
             "A": "Eficiência",
@@ -397,11 +396,11 @@
             "E": "Usabilidade"
         },
         "gabarito_correto": "B",
+        "id": "1842378",
         "comentario_ia": "A portabilidade, conforme a ISO/IEC 9126, refere-se à capacidade de um software ser transferido de um ambiente para outro, incluindo hardware, sistemas operacionais ou outros ambientes de software."
     },
     {
-        "id": "2371565",
-        "enunciado": "A escolha do modelo de ciclo de vida de desenvolvimento de software é crucial para o gerenciamento de prazos, custos e qualidade do produto final entregue ao cliente. Analise as afirmativas a seguir sobre os modelos tradicionais e ágeis de desenvolvimento.\nI. O modelo em cascata (Waterfall) é uma abordagem sequencial onde cada fase (requisitos, análise, design, codificação, testes) deve ser concluída antes do início da próxima.\nII. As metodologias ágeis, como o Scrum, baseiam-se em ciclos iterativos e incrementais chamados de sprints, permitindo adaptações rápidas a mudanças nos requisitos.\nIII. O manifesto ágil prioriza a documentação abrangente e o seguimento rígido de um plano inicial em detrimento da colaboração com o cliente e da resposta a mudanças. Está correto o que se afirma em:",
+        "enunciado": "A escolha do modelo de ciclo de vida de desenvolvimento de software é crucial para o gerenciamento de prazos, custos e qualidade do produto final entregue ao cliente. Analise as afirmativas a seguir sobre os modelos tradicionais e ágeis de desenvolvimento. I. O modelo em cascata (Waterfall) é uma abordagem sequencial onde cada fase (requisitos, análise, design, codificação, testes) deve ser concluída antes do início da próxima. II. As metodologias ágeis, como o Scrum, baseiam-se em ciclos iterativos e incrementais chamados de sprints, permitindo adaptações rápidas a mudanças nos requisitos. III. O manifesto ágil prioriza a documentação abrangente e o seguimento rígido de um plano inicial em detrimento da colaboração com o cliente e da resposta a mudanças. Está correto o que se afirma em:",
         "alternativas": {
             "A": "I, II e III.",
             "B": "II e III apenas.",
@@ -410,10 +409,10 @@
             "E": "I e III apenas."
         },
         "gabarito_correto": "C",
+        "id": "2371565",
         "comentario_ia": "As afirmativas I e II descrevem corretamente os modelos em cascata e ágil (Scrum). A afirmativa III está incorreta pois o manifesto ágil prioriza colaboração e resposta a mudanças, não documentação rígida."
     },
     {
-        "id": "1734476",
         "enunciado": "Sobre a A Unified Modeling Language (UML), ou Linguagem de Modelagem Unificada é correto afirmar: I - Ela possibilita que as definições estruturais e comportamentais do sistema sejam documentadas no formato de diagramas. II - Permite a visualização, a especificação, a construção e a documentação dos artefatos de um sistema. III - A modelagem de sistemas exerce um papel fundamental em todas as etapas do processo de desenvolvimento de sistemas. IV - Tem a capacidade de executar múltiplos aplicativos em um único ambiente.",
         "alternativas": {
             "A": "Somente I e II estão corretos.",
@@ -423,10 +422,10 @@
             "E": "Todas estão corretas."
         },
         "gabarito_correto": "C",
+        "id": "1734476",
         "comentario_ia": "As afirmativas I, II e III descrevem corretamente a UML: documenta, visualiza, especifica, constrói e documenta sistemas. A afirmativa IV descreve virtualização, não UML. Portanto, apenas I, II e III estão corretas."
     },
     {
-        "id": "1842384",
         "enunciado": "O Modelo em Espiral possui esse nome por causa de sua representação, onde cada volta no espiral percorre todas as fases do processo de software. Por definição, combina prevenção e tolerância a mudanças, assume que mudanças são um resultado de riscos de projeto e inclui atividades explícitas de gerenciamento de riscos para sua redução. O desenvolvimento é dividido em quatro setores. Assinale a alternativa que contém o nome do primeiro setor do Modelo em Espiral.",
         "alternativas": {
             "A": "Definição dos Objetivos",
@@ -436,10 +435,10 @@
             "E": "Especificação dos Requisitos do software"
         },
         "gabarito_correto": "A",
+        "id": "1842384",
         "comentario_ia": "O primeiro setor do Modelo em Espiral, conforme sua representação clássica e descrições, foca na definição clara dos objetivos para cada iteração do desenvolvimento."
     },
     {
-        "id": "2116582",
         "enunciado": "Com relação aos modelos de construção de software, assinale a alternativa que apresenta um modelo de processo executado em sequência, sem que de uma etapa posterior seja possível retornar a uma etapa anterior.",
         "alternativas": {
             "A": "Modelo Cascata",
@@ -449,10 +448,10 @@
             "E": "Modelo Junção"
         },
         "gabarito_correto": "A",
+        "id": "2116582",
         "comentario_ia": "O modelo Cascata (Waterfall) é caracterizado por ser sequencial, com fases bem definidas que se completam antes de iniciar a próxima, e não permite o retorno a fases anteriores após a conclusão."
     },
     {
-        "id": "2116584",
         "enunciado": "Analise a afirmação abaixo. “São declarações de serviços que o sistema deve fornecer, de como o sistema deve reagir a entradas específicas e de como o sistema deve se comportar em determinadas situações. Em alguns casos, também podem explicitar o que o sistema não deve fazer.” Diante do exposto, assinale a alternativa correta.",
         "alternativas": {
             "A": "Requisitos de Ambiente",
@@ -462,10 +461,10 @@
             "E": "Requisitos Não Funcionais"
         },
         "gabarito_correto": "D",
+        "id": "2116584",
         "comentario_ia": "A descrição 'declarações de serviços que o sistema deve fornecer, de como o sistema deve reagir a entradas específicas' refere-se diretamente aos Requisitos Funcionais. Estes definem o que o sistema deve fazer, enquanto os não funcionais definem como ele deve fazer."
     },
     {
-        "id": "1438623",
         "enunciado": "Um analista de sistemas está elaborando um novo sistema de informação e precisa documentar o fluxo de informações entre os processos. Qual das alternativas a seguir descreve corretamente a finalidade dos diagramas de fluxo de dados (DFD) nesse contexto?",
         "alternativas": {
             "A": "Representar visualmente o fluxo de energia em um sistema.",
@@ -474,10 +473,10 @@
             "D": "Indicar a localização dos servidores em uma rede de computadores."
         },
         "gabarito_correto": "C",
+        "id": "1438623",
         "comentario_ia": "Diagramas de Fluxo de Dados (DFD) são ferramentas essenciais na análise e documentação de sistemas de informação, pois representam de forma visual e clara como os dados são processados, armazenados e transferidos entre os diferentes processos do sistema."
     },
     {
-        "id": "1397768",
         "enunciado": "Qual das seguintes opções é uma vantagem da análise orientada a objetos sobre a análise estruturada?",
         "alternativas": {
             "A": "Maior clareza na modelagem do fluxo de dados.",
@@ -486,10 +485,10 @@
             "D": "Facilidade na geração de diagramas de fluxo de dados."
         },
         "gabarito_correto": "B",
+        "id": "1397768",
         "comentario_ia": "A modelagem orientada a objetos, com classes e herança, facilita a criação de componentes reutilizáveis, promovendo a modularidade e o reuso em diferentes partes de um projeto."
     },
     {
-        "id": "2003701",
         "enunciado": "Considerando a engenharia de software, qual das seguintes metodologias enfatiza a entrega contínua e a colaboração entre todas as partes interessadas no desenvolvimento de software?",
         "alternativas": {
             "A": "Modelo em cascata.",
@@ -498,10 +497,10 @@
             "D": "Desenvolvimento ágil."
         },
         "gabarito_correto": "D",
+        "id": "2003701",
         "comentario_ia": "O Desenvolvimento Ágil, como um guarda-chuva de metodologias, engloba práticas como XP e enfatiza a entrega contínua, a colaboração e a adaptação às mudanças."
     },
     {
-        "id": "1292621",
         "enunciado": "Um time de desenvolvimento está trabalhando em um novo aplicativo e está realizando testes para garantir a qualidade do software. Nesse contexto, os testes de software têm o objetivo de",
         "alternativas": {
             "A": "garantir que o software seja lançado o mais rápido possível, sem erros.",
@@ -510,11 +509,11 @@
             "D": "adicionar novos recursos ao software."
         },
         "gabarito_correto": "B",
+        "id": "1292621",
         "comentario_ia": "O principal objetivo dos testes de software é garantir a qualidade, identificando e corrigindo falhas antes que o produto final chegue ao usuário. Lançar rapidamente, diminuir custos ou adicionar recursos são consequências ou metas secundárias, não o objetivo primordial do teste."
     },
     {
-        "id": "2407067",
-        "enunciado": "Analise as afirmações abaixo, baseadas na obra de Sommerville (SOMMERVILLE, Ian. Engenharia de Software . 9 ed. São Paulo: Pearson Prentice Hall, 2011, p. 53), a respeito de métodos ágeis: I. Métodos ágeis são métodos de desenvolvimento sequenciais que se concentram em desenvolvimento rápido, releases frequentes do software, produção de códigos de alta qualidade. O cliente é envolvido exclusivamente na fase de entrega e uso em produção do artefato produzido. II. A decisão de usar uma abordagem ágil ou uma abordagem dirigida a planos para o desenvolvimento deve depender do tipo de software a ser desenvolvido, das habilidades da equipe de desenvolvimento e da cultura da empresa que desenvolve o sistema. III. XP integra um conjunto de boas práticas de programação, como releases frequentes do software, melhorias contínuas do software e participação do cliente na equipe de desenvolvimento. IV. O escalamento de métodos ágeis para sistemas de grande porte é difícil, pois estes sistemas necessitam de projeto adiantado e alguma documentação. A integração contínua é praticamente impossível quando existem várias equipes de desenvolvimento separadas trabalhando em um projeto. Estão CORRETAS  as afirmações:",
+        "enunciado": "Analise as afirmações abaixo, baseadas na obra de Sommerville (SOMMERVILLE, Ian. Engenharia de Software . 9 ed. São Paulo: Pearson Prentice Hall, 2011, p. 53), a respeito de métodos ágeis: I. Métodos ágeis são métodos de desenvolvimento sequenciais que se concentram em desenvolvimento rápido, releases frequentes do software, produção de códigos de alta qualidade. O cliente é envolvido exclusivamente na fase de entrega e uso em produção do artefato produzido. II. A decisão de usar uma abordagem ágil ou uma abordagem dirigida a planos para o desenvolvimento deve depender do tipo de software a ser desenvolvido, das habilidades da equipe de desenvolvimento e da cultura da empresa que desenvolve o sistema. III. XP integra um conjunto de boas práticas de programação, como releases frequentes do software, melhorias contínuas do software e participação do cliente na equipe de desenvolvimento. IV. O escalamento de métodos ágeis para sistemas de grande porte é difícil, pois estes sistemas necessitam de projeto adiantado e alguma documentação. A integração contínua é praticamente impossível quando existem várias equipes de desenvolvimento separadas trabalhando em um projeto. Estão CORRETAS as afirmações:",
         "alternativas": {
             "A": "I e II apenas.",
             "B": "I, II e IV apenas.",
@@ -523,10 +522,10 @@
             "E": "I, II, III e IV."
         },
         "gabarito_correto": "D",
+        "id": "2407067",
         "comentario_ia": "A afirmativa I está incorreta pois métodos ágeis não são sequenciais e o cliente é envolvido de forma contínua. A afirmativa II está correta pois a escolha da abordagem depende de fatores como tipo de software, equipe e cultura. A afirmativa III está correta ao descrever práticas do XP. A afirmativa IV está correta ao apontar a dificuldade de escalamento e integração contínua em grandes projetos com múltiplas equipes."
     },
     {
-        "id": "1193927",
         "enunciado": "O desenvolvimento de sistemas é o processo de criação, implementação e manutenção de softwares para atender às necessidades específicas de uma organização ou usuário final. A etapa do desenvolvimento que envolve a criação de uma arquitetura de sistema que define como os diferentes componentes se relacionam entre si é conhecida como",
         "alternativas": {
             "A": "Análise de Requisitos.",
@@ -536,10 +535,10 @@
             "E": "Testes."
         },
         "gabarito_correto": "C",
+        "id": "1193927",
         "comentario_ia": "A etapa de Design no desenvolvimento de sistemas foca na arquitetura, definindo como os componentes interagem e a estrutura geral do software, antes da codificação propriamente dita."
     },
     {
-        "id": "1548719",
         "enunciado": "Qual é a norma que define os processos do ciclo de vida do software?",
         "alternativas": {
             "A": "ABNT NBR ISO/IEC 27.005.",
@@ -548,10 +547,10 @@
             "D": "ABNT NBR ISO/IEC 9.000."
         },
         "gabarito_correto": "C",
+        "id": "1548719",
         "comentario_ia": "A norma ABNT NBR ISO/IEC 12.207 estabelece os processos e atividades que definem o ciclo de vida do desenvolvimento de software, desde o inicio ate a desativacao do sistema."
     },
     {
-        "id": "1168137",
         "enunciado": "Qual das seguintes opções representa um método de modelagem na Análise Orientada a Objetos?",
         "alternativas": {
             "A": "Processos;",
@@ -561,10 +560,10 @@
             "E": "Hierarquia."
         },
         "gabarito_correto": "C",
+        "id": "1168137",
         "comentario_ia": "Diagramas UML (Unified Modeling Language), especialmente a UML2, são amplamente utilizados como um método de modelagem visual na Análise Orientada a Objetos."
     },
     {
-        "id": "1168142",
         "enunciado": "Um analista de sistemas está projetando um sistema cliente -servidor e precisa escolher entre a abordagem de Análise Estruturada e Análise Orientada a Objetos. Considerando as características e benefícios de ambas as abordagens, qual delas oferece vantagens na modelagem de sistemas complexos e na representação eficiente das interações entre os diferentes módulos do sistema?",
         "alternativas": {
             "A": "Análise Estruturada;",
@@ -574,10 +573,10 @@
             "E": "Análise Essencial."
         },
         "gabarito_correto": "B",
+        "id": "1168142",
         "comentario_ia": "A Análise Orientada a Objetos é mais vantajosa para sistemas complexos por modelar entidades do mundo real e suas interações de forma natural e modular."
     },
     {
-        "id": "1150917",
         "enunciado": "Considere as seguintes sentenças acerca da Engenharia de Software: I - Engenharia de software é uma disciplina de engenharia que se preocupa com todos os aspectos da produção de software. II - Os atributos essenciais de um bom software são a funcionalidade, portabilidade e usabilidade. III - Os engenheiros de software devem se preocupar apenas com as questões técnicas relacionadas aos softwares, especialmente os aspectos relacionados à eficiência de software. De acordo com Sommerville (2011):",
         "alternativas": {
             "A": "Apenas a sentença I é correta.",
@@ -587,10 +586,10 @@
             "E": "As sentenças II e III são corretas."
         },
         "gabarito_correto": "A",
+        "id": "1150917",
         "comentario_ia": "Apenas a sentença I está correta. A sentença II está incorreta pois os atributos essenciais de um bom software, segundo Sommerville, são funcionalidade, confiabilidade, usabilidade, eficiência, manutenibilidade e suporte. A sentença III está incorreta pois os engenheiros de software devem se preocupar com todos os aspectos da produção de software, não apenas os técnicos."
     },
     {
-        "id": "2118220",
         "enunciado": "Os padrões de projeto documentados pelo GoF (Gang of Four) são divididos em três categorias, de acordo com a sua finalidade: padrões de criação, padrões estruturais e padrões comportamentais. Um padrão de projeto estrutural é o",
         "alternativas": {
             "A": "Decorator.",
@@ -599,10 +598,10 @@
             "D": "Chain of Responsibility."
         },
         "gabarito_correto": "A",
+        "id": "2118220",
         "comentario_ia": "O padrão Decorator é um padrão estrutural. Ele permite adicionar comportamentos a objetos de forma dinâmica, sem alterar sua estrutura original."
     },
     {
-        "id": "1310743",
         "enunciado": "Uma empresa de comercio eletrônico tem uma série de processos de negócio, sendo um deles encarregado exclusivamente de aferir a satisfação do cliente, após comprar e receber sua encomenda. Esse processo que gera indicadores e tem como principal função aferir as metas de desempenho é do tipo",
         "alternativas": {
             "A": "primário.",
@@ -611,11 +610,11 @@
             "D": "gerenciamento."
         },
         "gabarito_correto": "A",
+        "id": "1310743",
         "comentario_ia": "Processos primários são aqueles diretamente ligados à entrega de valor ao cliente ou à missão principal da organização. Aferir a satisfação do cliente é uma atividade central na cadeia de valor de um e-commerce, impactando diretamente a experiência do consumidor."
     },
     {
-        "id": "1310745",
-        "enunciado": "aplicação tipo complexidade quantidade\n CE baixa 3\nA ALI média 1\n SE alta 2\n\nA I E baixa 2\nB SE média 1\n EE alta 2\nNa tabela anterior, as aplicações A e B e respectivas quantidades estão relacionadas aos tipos CE (consulta externa), ALI (arquivo lógico interno), SE (saída externa), AIE (arquivo de interface externa) e EE (entrada externa), com suas complexidades. A partir dessas informações, e considerando somente os valores brutos da contagem de pontos de função, é correto afirmar que",
+        "enunciado": "aplicação tipo complexidade quantidade CE baixa 3 A ALI média 1 SE alta 2 A I E baixa 2 B SE média 1 EE alta 2 Na tabela anterior, as aplicações A e B e respectivas quantidades estão relacionadas aos tipos CE (consulta externa), ALI (arquivo lógico interno), SE (saída externa), AIE (arquivo de interface externa) e EE (entrada externa), com suas complexidades. A partir dessas informações, e considerando somente os valores brutos da contagem de pontos de função, é correto afirmar que",
         "alternativas": {
             "A": "as aplicações A e B têm a mesma quantidade total de pontos brutos de função.",
             "B": "a diferença da quantidade total de pontos brutos de função entre as aplicações A e B é 2.",
@@ -623,11 +622,11 @@
             "D": "a diferença da quantidade total de pontos brutos de função entre as aplicações A e B é 4."
         },
         "gabarito_correto": "B",
+        "id": "1310745",
         "comentario_ia": "O cálculo de pontos brutos de função utiliza apenas as quantidades e não a complexidade. Assumindo a interpretação mais plausível da tabela onde a App A tem CE=3, ALI=1, SE=2, EE=2 (Total=8) e a App B tem CE=2, ALI=2, SE=1, EE=1 (Total=6), a diferença é 2."
     },
     {
-        "id": "1310755",
-        "enunciado": "No processo de desenvolvimento de software, são feitas alterações no projeto, tanto para implementar melhorias e funcionalidades, quanto para corrigir bugs e aprimorar a experiência do usuário. O controle de versão consiste, basicamente, em um sistema que permite registrar alterações feitas no desenvolvimento do software. A esse respeito, julgue os itens a seguir.\nI Subversion, GIT e Mercurial são ferramentas de controle de versão que armazenam todo o histórico do sistema.\nII As ferramentas de controle de versão permitem aos desenvolvedores envolvidos em um único projeto alterar o software e se informar acerca das atualizações efetuadas pela equipe.\nIII O controle de versão pode ocorrer no modelo centralizado (SCVc), em que um único repositório central é utilizado pela equipe para a comunicação, e no modelo distribuído (SCVd), em que cada desenvolvedor tem seu próprio repositório na área de trabalho.\nAssinale a opção correta.",
+        "enunciado": "No processo de desenvolvimento de software, são feitas alterações no projeto, tanto para implementar melhorias e funcionalidades, quanto para corrigir bugs e aprimorar a experiência do usuário. O controle de versão consiste, basicamente, em um sistema que permite registrar alterações feitas no desenvolvimento do software. A esse respeito, julgue os itens a seguir. I Subversion, GIT e Mercurial são ferramentas de controle de versão que armazenam todo o histórico do sistema. II As ferramentas de controle de versão permitem aos desenvolvedores envolvidos em um único projeto alterar o software e se informar acerca das atualizações efetuadas pela equipe. III O controle de versão pode ocorrer no modelo centralizado (SCVc), em que um único repositório central é utilizado pela equipe para a comunicação, e no modelo distribuído (SCVd), em que cada desenvolvedor tem seu próprio repositório na área de trabalho. Assinale a opção correta.",
         "alternativas": {
             "A": "Apenas os itens I e II estão certos.",
             "B": "Apenas os itens I e III estão certos.",
@@ -635,10 +634,10 @@
             "D": "Todos os itens estão certos."
         },
         "gabarito_correto": "D",
+        "id": "1310755",
         "comentario_ia": "Todos os itens estão corretos. O controle de versão (I) armazena o histórico, (II) permite o trabalho colaborativo e o rastreamento das mudanças, e (III) pode ser centralizado (um repositório) ou distribuído (múltiplos repositórios)."
     },
     {
-        "id": "1224138",
         "enunciado": "Sobre a etapa de levantamento de requisitos julgue os itens a seguir: I-Entrevistas podem ser utilizadas para essa finalidade. II-A Etnografia é uma técnica de observação que pode ser utilizada para compreender processos operacionais e ajudar a extrair os requisitos de apoio a esse processo. III-Nenhum diagrama da UML tem utilidade nesta etapa. IV-Cenários são uma ferramenta interessante de levantamento de requisitos, por permitir que os stakeholders entendam como podem interagir com o sistema que será desenvolvido. Podemos concluir que:",
         "alternativas": {
             "A": "As afirmativas I, II e III são verdadeiras.",
@@ -648,10 +647,10 @@
             "E": "As afirmativas I, II e IV são verdadeiras."
         },
         "gabarito_correto": "E",
+        "id": "1224138",
         "comentario_ia": "Entrevistas (I), Etnografia (II) e Cenários (IV) são técnicas válidas para levantamento de requisitos. A Etnografia foca na observação do usuário em seu ambiente. A UML possui diagramas úteis nesta etapa, como casos de uso e diagramas de atividade (contrariando III)."
     },
     {
-        "id": "1133284",
         "enunciado": "Na área de Engenharia de Software, é incorreto afirmar que:",
         "alternativas": {
             "A": "Os processos de software são as atividades envolvidas na produção de um sistema de software. Os modelos de processo de software são representações abstratas desses processos.",
@@ -661,10 +660,10 @@
             "E": "A validação de software se ocupa de modificar os sistemas de software existentes, para que eles atendam a novos requisitos."
         },
         "gabarito_correto": "E",
+        "id": "1133284",
         "comentario_ia": "A validação de software garante que o produto final atende aos requisitos do cliente e às suas necessidades. Modificar sistemas para novos requisitos é parte da evolução do software, não validação."
     },
     {
-        "id": "1905649",
         "enunciado": "Para acelerar o tempo de desenvolvimento e manter o controle de um projeto podemos recorrer a metodologias, softwares e serviços de apoio ao desenvolvimento de sistemas. A isso chamamos:",
         "alternativas": {
             "A": "Projeto conceitual.",
@@ -674,10 +673,10 @@
             "E": "Ferramentas case."
         },
         "gabarito_correto": "E",
+        "id": "1905649",
         "comentario_ia": "Ferramentas CASE (Computer-Aided Software Engineering) são softwares e serviços que auxiliam no desenvolvimento de sistemas, automatizando tarefas, melhorando a produtividade e o controle do projeto."
     },
     {
-        "id": "1876208",
         "enunciado": "Assinale a alternativa que apresenta as fases do Processo Unificado.",
         "alternativas": {
             "A": "Modelagem de Negócio, Requisitos, Projeto",
@@ -687,10 +686,10 @@
             "E": "Análise de Requisitos, Elaboração, Construção, Transição, Implantação"
         },
         "gabarito_correto": "C",
+        "id": "1876208",
         "comentario_ia": "O Processo Unificado (RUP) estrutura o desenvolvimento de software em quatro fases iterativas e incrementais: Concepção, Elaboração, Construção e Transição. Cada fase possui objetivos e atividades específicas, garantindo um ciclo de vida adaptável e gerenciado."
     },
     {
-        "id": "1356722",
         "enunciado": "Assinale a alternativa que apresenta corretamente a atividade de processo de software realizada para garantir que o software faça o que o cliente deseja.",
         "alternativas": {
             "A": "Especificação de software",
@@ -699,10 +698,10 @@
             "D": "Validação de software"
         },
         "gabarito_correto": "D",
+        "id": "1356722",
         "comentario_ia": "A validação de software verifica se o produto atende aos requisitos e expectativas do cliente, garantindo que ele faça o que foi pedido. As outras opções são fases distintas do processo de desenvolvimento."
     },
     {
-        "id": "1356725",
         "enunciado": "Assinale a alternativa que apresenta incorretamente uma característica do processo de desenvolvimento evolucionário de software.",
         "alternativas": {
             "A": "A partir de opiniões dos usuários desenvolve-se um sistema adequado.",
@@ -711,10 +710,10 @@
             "D": "Baseia-se em desenvolver uma implementação inicial."
         },
         "gabarito_correto": "B",
+        "id": "1356725",
         "comentario_ia": "A alternativa B esta incorreta pois os processos de desenvolvimento evolucionário se baseiam em ciclos iterativos e incrementais, e não em uma sequência linear e separada de atividades como no modelo cascata. As outras alternativas descrevem características comuns dos modelos evolucionários."
     },
     {
-        "id": "1356733",
         "enunciado": "Assinale a alternativa que apresenta incorretamente uma das dificuldades de se definir qualidade para software.",
         "alternativas": {
             "A": "A empresa de desenvolvimento define requisitos de qualidade, mas não os inclui na especificação.",
@@ -723,10 +722,10 @@
             "D": "A especificação de certas características de qualidade só é possível de modo ambíguo."
         },
         "gabarito_correto": "C",
+        "id": "1356733",
         "comentario_ia": "A alternativa C esta incorreta pois a especificação de características de qualidade de software (atributos do produto) e as características do processo de desenvolvimento são distintas, embora inter-relacionadas. Dificuldades podem existir na definição, mas não em uma semelhança intrínseca que as tornem impossíveis de especificar separadamente."
     },
     {
-        "id": "1356735",
         "enunciado": "Assinale a alternativa que apresenta incorretamente uma atividade de gerenciamento de qualidade de software.",
         "alternativas": {
             "A": "Controle de qualidade",
@@ -735,10 +734,10 @@
             "D": "Validação de qualidade"
         },
         "gabarito_correto": "D",
+        "id": "1356735",
         "comentario_ia": "A alternativa D esta incorreta pois 'Validação de qualidade' usualmente se refere a verificar se o software atende às necessidades do cliente (qualidade do produto), enquanto Controle, Garantia e Planejamento são atividades ativas de gerenciamento de qualidade de processo e/ou produto durante o desenvolvimento."
     },
     {
-        "id": "1356742",
         "enunciado": "Assinale a alternativa que apresenta corretamente um processo de software iterativo.",
         "alternativas": {
             "A": "Desenvolvimento espiral",
@@ -747,6 +746,7 @@
             "D": "Técnicas de quarta geração"
         },
         "gabarito_correto": "A",
+        "id": "1356742",
         "comentario_ia": "A alternativa A esta correta porque o Desenvolvimento Espiral é um modelo de processo de software iterativo, que combina elementos do modelo cascata com um enfoque em análise de risco em cada iteração. Os outros modelos listados (Engenharia baseada em componentes, Cascata e Técnicas de quarta geração) não são primariamente caracterizados como processos iterativos no mesmo sentido."
     }
 ]

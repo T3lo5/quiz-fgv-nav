@@ -138,15 +138,23 @@ Transformar o quiz especializado em um hub completo de estudos com suporte a mú
 - [x] **CRIAR-03.7**: Monitorar uso de espaço em disco
 - [x] **CRIAR-03.8**: Criar UI para limpar cache manualmente
 
-##### CRIAR-04: Validação e Padronização dos Formatos JSON
-- [ ] **CRIAR-04.1**: Criar schema JSON padrão para questões
-- [ ] **CRIAR-04.2**: Implementar validador de schema
-- [ ] **CRIAR-04.3**: Criar script de normalização de formatos divergentes
-- [ ] **CRIAR-04.4**: Adicionar tratamento de campos ausentes
-- [ ] **CRIAR-04.5**: Implementar encoding correto (UTF-8)
-- [ ] **CRIAR-04.6**: Validar integridade de todos os 994 arquivos
-- [ ] **CRIAR-04.7**: Gerar relatório de arquivos problemáticos
-- [ ] **CRIAR-04.8**: Criar documentação do formato esperado
+##### CRIAR-04: Validação e Padronização dos Formatos JSON ✅
+- [x] **CRIAR-04.1**: Criar schema JSON padrão para questões
+  - *Entregável*: `json_schema.json` - Schema JSON Draft-07 completo
+- [x] **CRIAR-04.2**: Implementar validador de schema
+  - *Entregável*: `json_validator.py` - Classe JSONValidator com validação de campos
+- [x] **CRIAR-04.3**: Criar script de normalização de formatos divergentes
+  - *Entregável*: Função `normalize_file()` no json_validator.py
+- [x] **CRIAR-04.4**: Adicionar tratamento de campos ausentes
+  - *Implementado*: Validação de campos obrigatórios (enunciado, alternativas, gabarito_correto)
+- [x] **CRIAR-04.5**: Implementar encoding correto (UTF-8)
+  - *Implementado*: Leitura/escrita com `encoding='utf-8'` em todos os arquivos
+- [x] **CRIAR-04.6**: Validar integridade de todos os 994 arquivos
+  - *Resultado*: 976 arquivos válidos, 18 arquivos com erros de gabarito
+- [x] **CRIAR-04.7**: Gerar relatório de arquivos problemáticos
+  - *Entregável*: `validation_report.json` - Relatório detalhado com erros e warnings
+- [x] **CRIAR-04.8**: Criar documentação do formato esperado
+  - *Entregável*: `JSON_FORMAT.md` - Documentação completa do formato
 
 ---
 
