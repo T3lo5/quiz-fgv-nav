@@ -2028,8 +2028,8 @@ body {
 
 .question-input-group {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 0.75rem;
     padding: 1rem;
     background: white;
     border-radius: 8px;
@@ -2041,10 +2041,49 @@ body {
     margin-bottom: 0;
 }
 
+.question-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .question-input-group label {
     font-weight: 600;
     color: var(--gray-700);
     flex: 1;
+}
+
+/* MOTOR-04.6: Botão "Usar Todas as Questões" */
+.btn-use-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.35rem 0.75rem;
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-use-all:hover {
+    background: #5568d3;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+}
+
+.btn-use-all i {
+    font-size: 0.7rem;
+}
+
+.question-input-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .question-input-group input[type="number"] {
