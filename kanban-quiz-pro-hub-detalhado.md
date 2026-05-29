@@ -51,25 +51,25 @@ Transformar o quiz especializado em um hub completo de estudos com suporte a mú
 - [x] **UI-02.7**: Criar view detalhada ao clicar em disciplina
 - [x] **UI-02.8**: Implementar lazy loading para performance *(opcional - melhoria futura)*
 
-##### UI-03: Sistema de Navegação por Categorias
-- [ ] **UI-03.1**: Mapear hierarquia de categorias e subcategorias
-- [ ] **UI-03.2**: Criar menu lateral ou breadcrumbs de navegação
-- [ ] **UI-03.3**: Implementar sistema de expansão/recolhimento de categorias
-- [ ] **UI-03.4**: Adicionar busca dentro de categorias específicas
-- [ ] **UI-03.5**: Criar página de listagem de tópicos por categoria
-- [ ] **UI-03.6**: Implementar histórico de navegação
-- [ ] **UI-03.7**: Adicionar atalhos de teclado para navegação
+##### UI-03: Sistema de Navegação por Categorias ✅
+- [x] **UI-03.1**: Mapear hierarquia de categorias e subcategorias
+- [x] **UI-03.2**: Criar menu lateral ou breadcrumbs de navegação
+- [x] **UI-03.3**: Implementar sistema de expansão/recolhimento de categorias
+- [x] **UI-03.4**: Adicionar busca dentro de categorias específicas
+- [x] **UI-03.5**: Criar página de listagem de tópicos por categoria
+- [x] **UI-03.6**: Implementar histórico de navegação
+- [x] **UI-03.7**: Adicionar atalhos de teclado para navegação
 
-##### UI-04: Interface de Configuração de Provas Personalizadas
-- [ ] **UI-04.1**: Criar modal/página de configuração de prova
-- [ ] **UI-04.2**: Implementar seletor múltiplo de disciplinas (checkbox/search)
-- [ ] **UI-04.3**: Adicionar input numérico para quantidade de questões por matéria
-- [ ] **UI-04.4**: Criar preview dinâmico do total de questões
-- [ ] **UI-04.5**: Implementar configurações de tempo (timer opcional/obrigatório)
-- [ ] **UI-04.6**: Adicionar opções de ordem (aleatória, por dificuldade)
-- [ ] **UI-04.7**: Criar botão "Salvar configuração como modelo"
-- [ ] **UI-04.8**: Implementar validação de configurações (mínimo/máximo)
-- [ ] **UI-04.9**: Adicionar tooltip com dicas de configuração
+##### UI-04: Interface de Configuração de Provas Personalizadas ✅
+- [x] **UI-04.1**: Criar modal/página de configuração de prova
+- [x] **UI-04.2**: Implementar seletor múltiplo de disciplinas (checkbox/search)
+- [x] **UI-04.3**: Adicionar input numérico para quantidade de questões por matéria
+- [x] **UI-04.4**: Criar preview dinâmico do total de questões
+- [x] **UI-04.5**: Implementar configurações de tempo (timer opcional/obrigatório)
+- [x] **UI-04.6**: Adicionar opções de ordem (aleatória, por dificuldade)
+- [x] **UI-04.7**: Criar botão "Salvar configuração como modelo"
+- [x] **UI-04.8**: Implementar validação de configurações (mínimo/máximo)
+- [x] **UI-04.9**: Adicionar tooltip com dicas de configuração
 
 ##### UI-05: Layout Responsivo para Dispositivos Móveis
 - [ ] **UI-05.1**: Criar breakpoints para tablet (768px)
