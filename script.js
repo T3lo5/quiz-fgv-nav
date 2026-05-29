@@ -18,6 +18,17 @@
     let welcomeScreen, questionScreen, resultScreen, reviewScreen;
     let startButton, startStudyButton, nextButton, prevButton;
     let restartButton, reviewButton, backButton, backToMenuButton, submitButton;
+    
+    // Elementos do Simulado Personalizado (Tarefa 6.1-6.2 - KANBAN)
+    let startSimulatedBtn, disciplinesSelectionContainer, startMatterStudyBtn, singleMatterListContainer;
+    
+    // Estado do Simulado Personalizado (Tarefa 6.1 - KANBAN)
+    const simulatedQuizState = {
+        selectedDisciplines: new Set(),
+        maxDisciplines: 5,
+        questionsPerDiscipline: {},
+        totalTime: null
+    };
 
     // Estado Global de Review (Tarefa 1.1 - KANBAN)
     const reviewState = {
@@ -740,6 +751,273 @@
         displayReviewQuestion();
     }
 
+    // Tarefa 6.1 - Correção de bugs críticos: Seleção de disciplinas
+    function setupDisciplineSelection() {
+        if (!disciplinesSelectionContainer) {
+            console.error('❌ Container de seleção de disciplinas não encontrado');
+            return;
+        }
+        
+        // Limpar container
+        disciplinesSelectionContainer.innerHTML = '';
+        
+        // Obter disciplinas disponíveis das questões carregadas
+        const availableDisciplines = getAvailableDisciplines();
+        console.log(`📋 Disciplinas disponíveis: ${availableDisciplines.length}`);
+        
+        // Criar checkboxes para cada disciplina
+        availableDisciplines.forEach(disciplina => {
+            const checkboxContainer = document.createElement('div');
+            checkboxContainer.className = 'discipline-checkbox';
+            
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.id = `discipline-${disciplina}`;
+            checkbox.value = disciplina;
+            checkbox.dataset.discipline = disciplina;
+            
+            const label = document.createElement('label');
+            label.htmlFor = `discipline-${disciplina}`;
+            label.textContent = disciplina.charAt(0).toUpperCase() + disciplina.slice(1);
+            
+            checkboxContainer.appendChild(checkbox);
+            checkboxContainer.appendChild(label);
+            disciplinesSelectionContainer.appendChild(checkboxContainer);
+            
+            // Adicionar event listener
+            checkbox.addEventListener('change', handleDisciplineSelection);
+        });
+        
+        console.log('✅ Seleção de disciplinas configurada');
+    }
+    
+    // Função para obter disciplinas disponíveis
+    function getAvailableDisciplines() {
+        const disciplines = new Set();
+        questions.forEach(q => {
+            if (q.subject) {
+                disciplines.add(q.subject.toLowerCase());
+            }
+        });
+        return Array.from(disciplines).sort();
+    }
+    
+    // Handler para seleção de disciplina (Tarefa 6.1 - KANBAN)
+    function handleDisciplineSelection(event) {
+        const checkbox = event.target;
+        const disciplina = checkbox.dataset.discipline;
+        
+        if (checkbox.checked) {
+            // Verificar se atingiu o limite máximo
+            if (simulatedQuizState.selectedDisciplines.size >= simulatedQuizState.maxDisciplines) {
+                checkbox.checked = false;
+                alert(`Máximo de ${simulatedQuizState.maxDisciplines} disciplinas permitidas.`);
+                return;
+            }
+            
+            simulatedQuizState.selectedDisciplines.add(disciplina);
+            console.log(`✅ Disciplina adicionada: ${disciplina}`);
+        } else {
+            simulatedQuizState.selectedDisciplines.delete(disciplina);
+            console.log(`❌ Disciplina removida: ${disciplina}`);
+        }
+        
+        // Atualizar UI
+        updateDisciplineSelectionUI();
+    }
+    
+    // Atualizar UI da seleção de disciplinas
+    function updateDisciplineSelectionUI() {
+        const count = simulatedQuizState.selectedDisciplines.size;
+        console.log(`📊 Disciplinas selecionadas: ${count}/${simulatedQuizState.maxDisciplines}`);
+        
+        // Habilitar/desabilitar botão de iniciar simulado
+        if (startSimulatedBtn) {
+            startSimulatedBtn.disabled = count === 0;
+            if (count > 0) {
+                startSimulatedBtn.textContent = `Iniciar Simulado (${count} disc.)`;
+            } else {
+                startSimulatedBtn.textContent = 'Selecione disciplinas';
+            }
+        }
+    }
+    
+    // Tarefa 6.2 - Correção de bugs críticos: Início de simulados personalizados
+    async function startSimulatedQuiz() {
+        console.log('🚀 Iniciando simulado personalizado...');
+        
+        // Validar seleção de disciplinas
+        if (simulatedQuizState.selectedDisciplines.size === 0) {
+            alert('Por favor, selecione pelo menos uma disciplina.');
+            return;
+        }
+        
+        // Obter tempo configurado (se houver)
+        const timeInput = document.getElementById('custom-timer');
+        const timeValue = timeInput ? timeInput.value : null;
+        simulatedQuizState.totalTime = timeValue ? parseInt(timeValue) * 60 * 1000 : null;
+        
+        console.log(`⏱️ Tempo configurado: ${simulatedQuizState.totalTime ? simulatedQuizState.totalTime / 1000 + 's' : 'Sem tempo'}`);
+        
+        // Carregar questões filtradas por disciplinas selecionadas
+        await loadPersonalizedQuestions();
+        
+        // Iniciar quiz
+        if (quizQuestions && quizQuestions.length > 0) {
+            console.log(`✅ ${quizQuestions.length} questões carregadas para o simulado`);
+            startQuizWithQuestions();
+        } else {
+            alert('Nenhuma questão encontrada para as disciplinas selecionadas.');
+        }
+    }
+    
+    // Carregar questões personalizadas baseadas nas disciplinas selecionadas
+    async function loadPersonalizedQuestions() {
+        quizQuestions = [];
+        
+        // Filtrar questões por disciplinas selecionadas
+        questions.forEach(q => {
+            if (q.subject && simulatedQuizState.selectedDisciplines.has(q.subject.toLowerCase())) {
+                quizQuestions.push(q);
+            }
+        });
+        
+        // Embaralhar questões
+        quizQuestions = shuffleArray(quizQuestions);
+        
+        console.log(`📚 Questões carregadas: ${quizQuestions.length}`);
+    }
+    
+    // Iniciar quiz com questões carregadas
+    function startQuizWithQuestions() {
+        hideAllScreens();
+        
+        // Resetar estado do quiz
+        currentQuestionIndex = 0;
+        score = 0;
+        userAnswers = [];
+        
+        // Configurar timer se necessário
+        if (simulatedQuizState.totalTime) {
+            timeRemaining = simulatedQuizState.totalTime;
+            startTimer();
+        }
+        
+        // Exibir tela de questões
+        const questionScreenEl = document.getElementById('question-screen');
+        if (questionScreenEl) {
+            questionScreenEl.classList.remove('hidden');
+        }
+        
+        // Mostrar primeira questão
+        displayQuestion();
+        
+        console.log('✅ Quiz iniciado');
+    }
+    
+    // Tarefa 6.3 - Correção de bugs críticos: Estudo por matéria única
+    function startMatterStudy() {
+        console.log('📖 Iniciando estudo por matéria...');
+        
+        // Verificar se há uma matéria selecionada
+        const selectedMatter = getSelectedSingleMatter();
+        
+        if (!selectedMatter) {
+            alert('Por favor, selecione uma matéria para estudar.');
+            return;
+        }
+        
+        console.log(`📚 Matéria selecionada: ${selectedMatter}`);
+        
+        // Filtrar questões da matéria selecionada
+        const matterQuestions = questions.filter(q => 
+            q.subject && q.subject.toLowerCase() === selectedMatter.toLowerCase()
+        );
+        
+        if (matterQuestions.length === 0) {
+            alert('Nenhuma questão encontrada para esta matéria.');
+            return;
+        }
+        
+        // Iniciar modo de estudo com questões filtradas
+        startStudyModeWithQuestions(matterQuestions);
+    }
+    
+    // Obter matéria selecionada na lista de matéria única
+    function getSelectedSingleMatter() {
+        if (!singleMatterListContainer) return null;
+        
+        const selectedCheckbox = singleMatterListContainer.querySelector('input[type="checkbox"]:checked');
+        return selectedCheckbox ? selectedCheckbox.value : null;
+    }
+    
+    // Configurar lista de matérias para estudo único
+    function setupSingleMatterList() {
+        if (!singleMatterListContainer) {
+            console.error('❌ Container de lista de matéria única não encontrado');
+            return;
+        }
+        
+        // Limpar container
+        singleMatterListContainer.innerHTML = '';
+        
+        // Obter disciplinas disponíveis
+        const availableDisciplines = getAvailableDisciplines();
+        
+        // Criar radio buttons para cada disciplina
+        availableDisciplines.forEach(disciplina => {
+            const radioContainer = document.createElement('div');
+            radioContainer.className = 'matter-radio';
+            
+            const radio = document.createElement('input');
+            radio.type = 'radio';
+            radio.name = 'single-matter';
+            radio.id = `matter-${disciplina}`;
+            radio.value = disciplina;
+            
+            const label = document.createElement('label');
+            label.htmlFor = `matter-${disciplina}`;
+            label.textContent = disciplina.charAt(0).toUpperCase() + disciplina.slice(1);
+            
+            radioContainer.appendChild(radio);
+            radioContainer.appendChild(label);
+            singleMatterListContainer.appendChild(radioContainer);
+        });
+        
+        console.log('✅ Lista de matérias configurada');
+    }
+    
+    // Iniciar modo de estudo com questões específicas
+    function startStudyModeWithQuestions(matterQuestions) {
+        hideAllScreens();
+        
+        // Usar studyModeFunctions se disponível
+        if (typeof window.studyModeFunctions !== 'undefined') {
+            // Configurar questões para estudo
+            window.studyModeFunctions.loadQuestions();
+            
+            // Filtrar para mostrar apenas questões da matéria
+            const filteredQuestions = matterQuestions;
+            
+            // Iniciar estudo
+            window.studyModeFunctions.showStudyModeScreen();
+            
+            console.log(`✅ Modo de estudo iniciado com ${filteredQuestions.length} questões`);
+        } else {
+            // Fallback: usar sistema básico
+            quizQuestions = matterQuestions;
+            currentQuestionIndex = 0;
+            userAnswers = [];
+            
+            const questionScreenEl = document.getElementById('question-screen');
+            if (questionScreenEl) {
+                questionScreenEl.classList.remove('hidden');
+            }
+            
+            displayQuestion();
+        }
+    }
+
     // Função para mostrar tela de review (Tarefa 1.2 - KANBAN)
     function showReviewScreen() {
         hideAllScreens();
@@ -1072,6 +1350,12 @@
         backToMenuButton = document.getElementById('back-to-menu');
         submitButton = document.getElementById('submit-quiz');
 
+        // Elementos do Simulado Personalizado (Tarefa 6.1-6.2 - KANBAN)
+        startSimulatedBtn = document.getElementById('start-simulated');
+        disciplinesSelectionContainer = document.getElementById('disciplines-selection');
+        startMatterStudyBtn = document.getElementById('start-matter-study');
+        singleMatterListContainer = document.getElementById('single-matter-list');
+
         // Configuração inicial - Adicionar event listeners com verificações de existência
         if (startButton) startButton.addEventListener('click', startQuiz);
         if (startStudyButton) startStudyButton.addEventListener('click', startStudyMode);
@@ -1105,6 +1389,15 @@
         if (backToWelcomeReviewBtn) backToWelcomeReviewBtn.addEventListener('click', backToMenu);
         if (startReviewBtn) startReviewBtn.addEventListener('click', startReview);
 
+        // Tarefa 6.1-6.3 - Correção de bugs críticos: Event listeners para Simulado Personalizado
+        if (startSimulatedBtn) {
+            startSimulatedBtn.addEventListener('click', startSimulatedQuiz);
+        }
+        
+        if (startMatterStudyBtn) {
+            startMatterStudyBtn.addEventListener('click', startMatterStudy);
+        }
+
         // Configura listeners para os botões de modo
         const quizModeBtn = document.getElementById('quiz-mode');
         const studyModeBtn = document.getElementById('study-mode');
@@ -1130,6 +1423,19 @@
                 showStudyModeScreen();
             });
         }
+        
+        // Tarefa 6.1-6.3 - Configurar seleção de disciplinas e lista de matérias
+        // Estas funções serão chamadas após o carregamento das questões
+        console.log('✅ initDOMElements completado - handlers do Simulado Personalizado configurados');
+    }
+    
+    // Função para inicializar componentes do Simulado Personalizado após carregar questões
+    function initSimulatedQuizComponents() {
+        console.log('🔧 Inicializando componentes do Simulado Personalizado...');
+        setupDisciplineSelection();
+        setupSingleMatterList();
+        updateDisciplineSelectionUI();
+        console.log('✅ Componentes do Simulado Personalizado inicializados');
     }
 
     // Funções para as telas adicionais
