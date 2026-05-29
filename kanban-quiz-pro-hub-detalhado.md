@@ -32,7 +32,7 @@ Transformar o quiz especializado em um hub completo de estudos com suporte a mú
 
 #### **EPIC: Interface do Hub - UI Redesign**
 
-##### UI-01: Redesign da Tela Inicial para Hub
+##### UI-01: Redesign da Tela Inicial para Hub ✅
 - [x] **UI-01.1**: Criar wireframe da nova tela inicial
 - [x] **UI-01.2**: Implementar header com logo e navegação principal
 - [x] **UI-01.3**: Criar seção de boas-vindas com estatísticas rápidas
@@ -49,7 +49,7 @@ Transformar o quiz especializado em um hub completo de estudos com suporte a mú
 - [x] **UI-02.5**: Implementar ordenação (alfabética, quantidade, recentidade)
 - [x] **UI-02.6**: Adicionar filtros por área (Exatas, Humanas, Saúde, etc.)
 - [x] **UI-02.7**: Criar view detalhada ao clicar em disciplina
-- [ ] **UI-02.8**: Implementar lazy loading para performance *(opcional - melhoria futura)*
+- [x] **UI-02.8**: Implementar lazy loading para performance *(opcional - melhoria futura)*
 
 ##### UI-03: Sistema de Navegação por Categorias
 - [ ] **UI-03.1**: Mapear hierarquia de categorias e subcategorias
