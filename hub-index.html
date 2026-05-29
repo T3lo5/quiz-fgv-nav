@@ -443,7 +443,114 @@
         </div>
     </div>
 
+    <!-- UI-04: Modal de Configuração de Provas Personalizadas -->
+    <div class="modal-overlay" id="test-config-modal">
+        <div class="modal-container test-config-modal">
+            <div class="modal-header">
+                <h3><i class="fas fa-clipboard-list"></i> Configurar Simulado Personalizado</h3>
+                <button class="modal-close-btn" id="close-test-config">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="modal-body">
+                <!-- Passo 1: Seleção de Disciplinas -->
+                <div class="config-section">
+                    <h4><i class="fas fa-book"></i> 1. Selecione as Disciplinas</h4>
+                    <div class="discipline-selector">
+                        <div class="search-disciplines">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="discipline-search" placeholder="Buscar disciplinas..." autocomplete="off">
+                        </div>
+                        <div class="discipline-filters">
+                            <button class="filter-chip active" data-filter="all">Todas</button>
+                            <button class="filter-chip" data-filter="humanas">Humanas</button>
+                            <button class="filter-chip" data-filter="exatas">Exatas</button>
+                            <button class="filter-chip" data-filter="saude">Saúde</button>
+                            <button class="filter-chip" data-filter="tecnologia">Tecnologia</button>
+                        </div>
+                        <div class="disciplines-list" id="disciplines-list">
+                            <!-- Lista de disciplinas gerada via JS -->
+                        </div>
+                        <div class="selected-count">
+                            <span id="selected-disciplines-count">0</span> disciplina(s) selecionada(s)
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Passo 2: Quantidade de Questões -->
+                <div class="config-section">
+                    <h4><i class="fas fa-hashtag"></i> 2. Quantidade de Questões por Disciplina</h4>
+                    <div class="questions-config" id="questions-config">
+                        <p class="config-hint">Selecione pelo menos uma disciplina acima para configurar as quantidades</p>
+                    </div>
+                    <div class="total-preview">
+                        <div class="total-info">
+                            <span class="total-label">Total de Questões:</span>
+                            <span class="total-number" id="total-questions-preview">0</span>
+                        </div>
+                        <button class="btn-distribute" id="btn-distribute-questions">
+                            <i class="fas fa-equals"></i> Distribuir Igualmente
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Passo 3: Configurações Avançadas -->
+                <div class="config-section">
+                    <h4><i class="fas fa-sliders-h"></i> 3. Configurações Avançadas</h4>
+                    <div class="advanced-settings">
+                        <div class="setting-row">
+                            <label for="timer-enabled">
+                                <input type="checkbox" id="timer-enabled">
+                                <span class="setting-label">Habilitar Timer</span>
+                            </label>
+                            <div class="timer-config" id="timer-config" style="display: none;">
+                                <input type="number" id="timer-minutes" min="1" max="600" value="60">
+                                <span>minutos</span>
+                            </div>
+                        </div>
+                        
+                        <div class="setting-row">
+                            <label for="random-order">
+                                <input type="checkbox" id="random-order" checked>
+                                <span class="setting-label">Ordem Aleatória das Questões</span>
+                            </label>
+                        </div>
+                        
+                        <div class="setting-row">
+                            <label for="show-results">
+                                <input type="checkbox" id="show-results" checked>
+                                <span class="setting-label">Mostrar Resultados ao Final</span>
+                            </label>
+                        </div>
+                        
+                        <div class="setting-row">
+                            <label for="save-template">
+                                <input type="checkbox" id="save-template">
+                                <span class="setting-label">Salvar como Modelo</span>
+                            </label>
+                            <input type="text" id="template-name" placeholder="Nome do modelo" class="template-input" style="display: none;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal-footer">
+                <div class="validation-message" id="validation-message"></div>
+                <div class="modal-actions">
+                    <button class="btn-secondary" id="btn-cancel-config">
+                        <i class="fas fa-times"></i> Cancelar
+                    </button>
+                    <button class="btn-primary" id="btn-start-test">
+                        <i class="fas fa-play"></i> Iniciar Simulado
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="hub-script.js"></script>
     <script src="hub-script-ui03.js"></script>
+    <script src="hub-script-ui04.js"></script>
 </body>
 </html>

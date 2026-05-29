@@ -51,25 +51,25 @@ Transformar o quiz especializado em um hub completo de estudos com suporte a mú
 - [x] **UI-02.7**: Criar view detalhada ao clicar em disciplina
 - [x] **UI-02.8**: Implementar lazy loading para performance *(opcional - melhoria futura)*
 
-##### UI-03: Sistema de Navegação por Categorias
-- [ ] **UI-03.1**: Mapear hierarquia de categorias e subcategorias
-- [ ] **UI-03.2**: Criar menu lateral ou breadcrumbs de navegação
-- [ ] **UI-03.3**: Implementar sistema de expansão/recolhimento de categorias
-- [ ] **UI-03.4**: Adicionar busca dentro de categorias específicas
-- [ ] **UI-03.5**: Criar página de listagem de tópicos por categoria
-- [ ] **UI-03.6**: Implementar histórico de navegação
-- [ ] **UI-03.7**: Adicionar atalhos de teclado para navegação
+##### UI-03: Sistema de Navegação por Categorias ✅
+- [x] **UI-03.1**: Mapear hierarquia de categorias e subcategorias
+- [x] **UI-03.2**: Criar menu lateral ou breadcrumbs de navegação
+- [x] **UI-03.3**: Implementar sistema de expansão/recolhimento de categorias
+- [x] **UI-03.4**: Adicionar busca dentro de categorias específicas
+- [x] **UI-03.5**: Criar página de listagem de tópicos por categoria
+- [x] **UI-03.6**: Implementar histórico de navegação
+- [x] **UI-03.7**: Adicionar atalhos de teclado para navegação
 
-##### UI-04: Interface de Configuração de Provas Personalizadas
-- [ ] **UI-04.1**: Criar modal/página de configuração de prova
-- [ ] **UI-04.2**: Implementar seletor múltiplo de disciplinas (checkbox/search)
-- [ ] **UI-04.3**: Adicionar input numérico para quantidade de questões por matéria
-- [ ] **UI-04.4**: Criar preview dinâmico do total de questões
-- [ ] **UI-04.5**: Implementar configurações de tempo (timer opcional/obrigatório)
-- [ ] **UI-04.6**: Adicionar opções de ordem (aleatória, por dificuldade)
-- [ ] **UI-04.7**: Criar botão "Salvar configuração como modelo"
-- [ ] **UI-04.8**: Implementar validação de configurações (mínimo/máximo)
-- [ ] **UI-04.9**: Adicionar tooltip com dicas de configuração
+##### UI-04: Interface de Configuração de Provas Personalizadas ✅
+- [x] **UI-04.1**: Criar modal/página de configuração de prova
+- [x] **UI-04.2**: Implementar seletor múltiplo de disciplinas (checkbox/search)
+- [x] **UI-04.3**: Adicionar input numérico para quantidade de questões por matéria
+- [x] **UI-04.4**: Criar preview dinâmico do total de questões
+- [x] **UI-04.5**: Implementar configurações de tempo (timer opcional/obrigatório)
+- [x] **UI-04.6**: Adicionar opções de ordem (aleatória, por dificuldade)
+- [x] **UI-04.7**: Criar botão "Salvar configuração como modelo"
+- [x] **UI-04.8**: Implementar validação de configurações (mínimo/máximo)
+- [x] **UI-04.9**: Adicionar tooltip com dicas de configuração
 
 ##### UI-05: Layout Responsivo para Dispositivos Móveis
 - [ ] **UI-05.1**: Criar breakpoints para tablet (768px)
@@ -85,44 +85,44 @@ Transformar o quiz especializado em um hub completo de estudos com suporte a mú
 
 #### **EPIC: Motor de Provas - Core Engine**
 
-##### MOTOR-02: Sistema de Seleção Múltipla de Disciplinas *(EM ANDAMENTO)*
-- [ ] **MOTOR-02.1**: Criar estrutura de dados para seleção múltipla
-- [ ] **MOTOR-02.2**: Implementar UI de checkboxes com search
-- [ ] **MOTOR-02.3**: Adicionar contador visual de disciplinas selecionadas
-- [ ] **MOTOR-02.4**: Criar função para validar seleções
-- [ ] **MOTOR-02.5**: Implementar "Selecionar todas" por categoria
-- [ ] **MOTOR-02.6**: Adicionar persistência temporária das seleções
+##### MOTOR-02: Sistema de Seleção Múltipla de Disciplinas ✅
+- [x] **MOTOR-02.1**: Criar estrutura de dados para seleção múltipla
+- [x] **MOTOR-02.2**: Implementar UI de checkboxes com search
+- [x] **MOTOR-02.3**: Adicionar contador visual de disciplinas selecionadas
+- [x] **MOTOR-02.4**: Criar função para validar seleções
+- [x] **MOTOR-02.5**: Implementar "Selecionar todas" por categoria
+- [x] **MOTOR-02.6**: Adicionar persistência temporária das seleções
 - [x] **MOTOR-02.7**: Integrar com motor de geração de provas
 
-##### MOTOR-03: Algoritmo de Amostragem Aleatória por Disciplina
-- [ ] **MOTOR-03.1**: Criar função de randomização (Fisher-Yates shuffle)
-- [ ] **MOTOR-03.2**: Implementar seleção aleatória por disciplina individual
-- [ ] **MOTOR-03.3**: Garantir que não haja repetição de questões
-- [ ] **MOTOR-03.4**: Tratar caso onde quantidade solicitada > disponível
-- [ ] **MOTOR-03.5**: Adicionar seed opcional para reprodutibilidade
-- [ ] **MOTOR-03.6**: Criar logs de amostragem para debug
-- [ ] **MOTOR-03.7**: Testar distribuição estatística da aleatoriedade
-- [ ] **MOTOR-03.8**: Otimizar performance para grandes volumes
+##### MOTOR-03: Algoritmo de Amostragem Aleatória por Disciplina ✅
+- [x] **MOTOR-03.1**: Criar função de randomização (Fisher-Yates shuffle)
+- [x] **MOTOR-03.2**: Implementar seleção aleatória por disciplina individual
+- [x] **MOTOR-03.3**: Garantir que não haja repetição de questões
+- [x] **MOTOR-03.4**: Tratar caso onde quantidade solicitada > disponível
+- [x] **MOTOR-03.5**: Adicionar seed opcional para reprodutibilidade
+- [x] **MOTOR-03.6**: Criar logs de amostragem para debug
+- [x] **MOTOR-03.7**: Testar distribuição estatística da aleatoriedade
+- [x] **MOTOR-03.8**: Otimizar performance para grandes volumes
 
-##### MOTOR-04: Configuração de Quantidade por Matéria
-- [ ] **MOTOR-04.1**: Criar inputs dinâmicos por disciplina selecionada
-- [ ] **MOTOR-04.2**: Implementar valor padrão inteligente (baseado em histórico)
-- [ ] **MOTOR-04.3**: Adicionar limites mínimo e máximo por matéria
-- [ ] **MOTOR-04.4**: Criar cálculo dinâmico do total geral
-- [ ] **MOTOR-04.5**: Implementar distribuição automática igualitária
-- [ ] **MOTOR-04.6**: Adicionar opção "Usar todas as questões disponíveis"
-- [ ] **MOTOR-04.7**: Validar compatibilidade com banco de questões
-- [ ] **MOTOR-04.8**: Salvar preferências no LocalStorage
+##### MOTOR-04: Configuração de Quantidade por Matéria ✅
+- [x] **MOTOR-04.1**: Criar inputs dinâmicos por disciplina selecionada
+- [x] **MOTOR-04.2**: Implementar valor padrão inteligente (baseado em histórico)
+- [x] **MOTOR-04.3**: Adicionar limites mínimo e máximo por matéria
+- [x] **MOTOR-04.4**: Criar cálculo dinâmico do total geral
+- [x] **MOTOR-04.5**: Implementar distribuição automática igualitária
+- [x] **MOTOR-04.6**: Adicionar opção "Usar todas as questões disponíveis"
+- [x] **MOTOR-04.7**: Validar compatibilidade com banco de questões
+- [x] **MOTOR-04.8**: Salvar preferências no LocalStorage
 
-##### MOTOR-05: Timer Global para Provas Personalizadas
-- [ ] **MOTOR-05.1**: Criar componente de timer countdown
-- [ ] **MOTOR-05.2**: Implementar configurações de tempo personalizável
-- [ ] **MOTOR-05.3**: Adicionar alerta sonoro/visual para 5min finais
-- [ ] **MOTOR-05.4**: Criar função de pause/resume (opcional)
-- [ ] **MOTOR-05.5**: Implementar auto-submit ao zerar timer
-- [ ] **MOTOR-05.6**: Mostrar tempo médio por questão
-- [ ] **MOTOR-05.7**: Persistir timer em caso de refresh (session storage)
-- [ ] **MOTOR-05.8**: Testar precisão do timer em diferentes browsers
+##### MOTOR-05: Timer Global para Provas Personalizadas ✅
+- [x] **MOTOR-05.1**: Criar componente de timer countdown
+- [x] **MOTOR-05.2**: Implementar configurações de tempo personalizável
+- [x] **MOTOR-05.3**: Adicionar alerta sonoro/visual para 5min finais
+- [x] **MOTOR-05.4**: Criar função de pause/resume (opcional)
+- [x] **MOTOR-05.5**: Implementar auto-submit ao zerar timer
+- [x] **MOTOR-05.6**: Mostrar tempo médio por questão
+- [x] **MOTOR-05.7**: Persistir timer em caso de refresh (session storage)
+- [x] **MOTOR-05.8**: Testar precisão do timer em diferentes browsers
 
 ---
 
