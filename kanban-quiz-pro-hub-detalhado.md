@@ -346,7 +346,8 @@ Para cada task ser considerada **PRONTA**:
 
 ### Desenvolvedor Backend/Core
 - [x] MOTOR-03 (Algoritmo de Amostragem Aleatória)
-- [ ] MOTOR-04, MOTOR-05
+- [x] MOTOR-04 (Configuração de Quantidade por Matéria)
+- [ ] MOTOR-05
 - [ ] CRIAR-03 (cache system)
 - [ ] CRIAR-04 (validação)
 - [ ] Estrutura de dados otimizada
