@@ -674,10 +674,11 @@
     // Função para iniciar o review
     function startReview() {
         hideAllScreens();
-        // Chama a função do review system
-        if (typeof initializeReviewSystem === 'function') {
-            initializeReviewSystem();
-        }
+        // Iniciar revisão com questões já respondidas
+        console.log('Iniciando revisão rápida...');
+        // TODO: Implementar sistema de revisão
+        alert('Funcionalidade de revisão em desenvolvimento');
+        backToMenu();
     }
 
     // Função para mostrar tela de modo de estudo
