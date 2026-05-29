@@ -1260,6 +1260,11 @@
     window.showResults = showResults;
     window.showBookmarks = showBookmarks;
     window.showProgress = showProgress;
+    
+    // Funções utilitárias de review (Tarefa 1.2 - KANBAN)
+    window.showReviewScreen = showReviewScreen;
+    window.hideReviewScreen = hideReviewScreen;
+    window.showReviewComplete = showReviewComplete;
 
     // Exportar quiz functions para outros scripts
     window.mainQuizFunctions = {
