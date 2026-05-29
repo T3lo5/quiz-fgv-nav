@@ -207,6 +207,14 @@ function startReview() {
 - [x] ~~Placeholder inicial da função~~ (precisa ser substituído por implementação real)
 - [x] **Tarefa 1.2**: Criar funções utilitárias de manipulação de DOM (`showReviewScreen`, `hideReviewScreen`, `showReviewComplete`)
 - [x] **Tarefa 2.1**: Implementar `loadReviewQuestions()` - Carregar questões baseadas nos filtros selecionados
+- [x] **Tarefa 2.2**: Implementar filtros avançados de review (select de matérias, dificuldade e busca por palavra-chave)
+- [x] **Tarefa 3.1**: Implementar `displayReviewQuestion()` - Renderizar questão atual na tela de review
+- [x] **Tarefa 3.2**: Implementar sistema de notas por questão (TextArea, salvamento em localStorage, carregamento ao navegar)
+- [x] **Tarefa 3.3**: Implementar barra de progresso (percentual, contador "X de Y questões", atualização dinâmica)
+- [x] **Tarefa 4.1**: Implementar `nextReviewQuestion()` - Navegar para próxima questão
+- [x] **Tarefa 4.2**: Implementar `prevReviewQuestion()` - Navegar para questão anterior
+- [x] **Tarefa 4.3**: Implementar `saveReviewSession()` - Salvar sessão de review completa
+- [x] **Tarefa 5.1**: Implementar `showReviewComplete()` - Exibir resumo da sessão de review
 
 ---
 
