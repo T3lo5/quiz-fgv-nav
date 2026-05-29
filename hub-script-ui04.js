@@ -135,6 +135,81 @@ const TestConfigUI04 = {
         if (this.startBtn) {
             this.startBtn.addEventListener('click', () => this.startTest());
         }
+        
+        // MOTOR-02.5: Botões de seleção por categoria
+        this.bindCategorySelectButtons();
+        
+        // MOTOR-02.6: Carregar persistência temporária ao abrir modal
+        this.loadTemporarySelections();
+    },
+    
+    // ========================================
+    // MOTOR-02.5: Bind de Eventos para Seleção por Categoria
+    // ========================================
+    bindCategorySelectButtons() {
+        // Adicionar botões de seleção rápida no HTML dinamicamente
+        if (!this.disciplinesList) return;
+        
+        // Criar container de ações em lote
+        const batchActionsContainer = document.createElement('div');
+        batchActionsContainer.className = 'batch-actions';
+        batchActionsContainer.innerHTML = `
+            <div class="batch-buttons">
+                <button class="btn-batch-select" data-action="all" title="Selecionar todas da categoria atual">
+                    <i class="fas fa-check-square"></i> Todas
+                </button>
+                <button class="btn-batch-select" data-action="none" title="Desmarcar todas">
+                    <i class="fas fa-square"></i> Nenhuma
+                </button>
+                <button class="btn-batch-select" data-action="invert" title="Inverter seleção">
+                    <i class="fas fa-exchange-alt"></i> Inverter
+                </button>
+            </div>
+        `;
+        
+        // Inserir antes da lista de disciplinas
+        this.disciplinesList.parentNode.insertBefore(batchActionsContainer, this.disciplinesList);
+        
+        // Bind events nos botões
+        batchActionsContainer.querySelectorAll('.btn-batch-select').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const action = e.currentTarget.dataset.action;
+                this.batchSelectDisciplines(action);
+            });
+        });
+    },
+    
+    // ========================================
+    // MOTOR-02.5: Seleção em Lote por Categoria
+    // ========================================
+    batchSelectDisciplines(action) {
+        const visibleDisciplines = this.state.filteredDisciplines.map(d => d.key);
+        
+        if (action === 'all') {
+            // Selecionar todas as disciplinas visíveis
+            visibleDisciplines.forEach(key => {
+                if (!this.state.selectedDisciplines.has(key)) {
+                    this.toggleDiscipline(key, true);
+                }
+            });
+        } else if (action === 'none') {
+            // Desmarcar todas as disciplinas visíveis
+            visibleDisciplines.forEach(key => {
+                if (this.state.selectedDisciplines.has(key)) {
+                    this.toggleDiscipline(key, false);
+                }
+            });
+        } else if (action === 'invert') {
+            // Inverter seleção das disciplinas visíveis
+            visibleDisciplines.forEach(key => {
+                const isSelected = this.state.selectedDisciplines.has(key);
+                this.toggleDiscipline(key, !isSelected);
+            });
+        }
+        
+        // Atualizar UI após seleção em lote
+        this.renderDisciplinesList();
+        this.calculateTotal();
     },
 
     // ========================================
@@ -521,6 +596,51 @@ const TestConfigUI04 = {
         if (this.modal) {
             this.modal.classList.remove('active');
             document.body.style.overflow = ''; // Restaurar scroll
+        }
+    },
+    
+    // ========================================
+    // MOTOR-02.6: Persistência Temporária das Seleções
+    // ========================================
+    saveTemporarySelections() {
+        // Salvar seleções atuais no sessionStorage
+        const selections = Array.from(this.state.selectedDisciplines.entries()).map(([key, data]) => ({
+            key,
+            name: data.name,
+            count: data.count,
+            maxCount: data.maxCount,
+            file: data.file
+        }));
+        
+        sessionStorage.setItem('tempDisciplineSelections', JSON.stringify(selections));
+        console.log('💾 MOTOR-02.6: Seleções temporárias salvas:', selections.length, 'disciplinas');
+    },
+    
+    loadTemporarySelections() {
+        // Carregar seleções do sessionStorage ao abrir o modal
+        const saved = sessionStorage.getItem('tempDisciplineSelections');
+        if (!saved) return;
+        
+        try {
+            const selections = JSON.parse(saved);
+            selections.forEach(sel => {
+                this.state.selectedDisciplines.set(sel.key, {
+                    name: sel.name,
+                    count: sel.count,
+                    maxCount: sel.maxCount,
+                    file: sel.file
+                });
+            });
+            
+            // Atualizar UI com seleções carregadas
+            this.updateSelectedCount();
+            this.renderQuestionsConfig();
+            this.calculateTotal();
+            this.renderDisciplinesList();
+            
+            console.log('📥 MOTOR-02.6: Seleções temporárias carregadas:', selections.length, 'disciplinas');
+        } catch (error) {
+            console.error('Erro ao carregar seleções temporárias:', error);
         }
     }
 };
